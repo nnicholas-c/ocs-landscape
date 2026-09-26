@@ -120,9 +120,9 @@ Conclusion. This is mostly a real bug. About two thirds of flagged keys hide one
 
 Check (a) draws core papers at random and compares title, year, cited_by_count and the first author's first institution with a fresh fetch (deliverables/validation_report.md).
 
-Run 1 used seed 20260926 and drew 20 papers (data/work/audit_round1.json, seed; A1, sample_size). 16 passed and 4 ended as errors (A1, pass, error). The 4 are arxiv:2603.28168, arxiv:2507.08119, arxiv:2608.03146 and arxiv:2306.09713, all arXiv-only (A1, items). Each got HTTP 406 from export.arxiv.org on an id_list lookup, and the same call failed outside the script (validation_report.md, Run 1). Errors were left out of the rate, so the gate passed on 16. Round 2 of run 1 reused the same 20 ids and hit the same 4 errors (data/work/audit_round2.json, a_refetch). No fallback existed, so those 4 were never checked.
+Round 1 used seed 20260926 and drew 20 papers (data/work/audit_round1.json, seed; A1, sample_size). 16 passed and 4 ended as errors (A1, pass, error). The 4 are arxiv:2603.28168, arxiv:2507.08119, arxiv:2608.03146 and arxiv:2306.09713, all arXiv-only (A1, items). Each got HTTP 406 from export.arxiv.org on an id_list lookup, and the same call failed outside the script (validation_report.md, round 1). Errors were left out of the rate, so the gate passed on 16. Round 2 reused the same 20 ids and hit the same 4 errors (data/work/audit_round2.json, a_refetch). No fallback existed, so those 4 were never checked.
 
-Run 2 used seed 20260927 (data/work/audit_run2_round1.json, seed). It drew 20, compared 20 and dropped 0, with 20 pass and 0 fail (A2, drawn, compared, dropped, pass, fail). 16 went by method openalex and 4 by arxiv_html_fallback (A2, items method). Only 2 ids repeat from run 1, W2056973550 and W2529948110 (A1 and A2, sampled_ids). There is no round 2 file, because Gate C passed on round 1 (validation_report.md, Run 2).
+Round 3 used seed 20260927 (data/work/audit_run2_round1.json, seed). It drew 20, compared 20 and dropped 0, with 20 pass and 0 fail (A2, drawn, compared, dropped, pass, fail). 16 went by method openalex and 4 by arxiv_html_fallback (A2, items method). Only 2 ids repeat from round 1, W2056973550 and W2529948110 (A1 and A2, sampled_ids). Round 3 has no second file, because Gate C passed on its first try (validation_report.md, round 3).
 
 | arXiv-only paper | Method | Title | Year | cited_by_count | First institution |
 |---|---|---|---|---|---|
@@ -137,4 +137,4 @@ The script first tries the arxiv package with delay_seconds=10.0 and num_retries
 
 arXiv-only papers are 36 of the 267 core papers (query on data/db/papers.sqlite, core_set = 1 and openalex_id empty).
 
-Conclusion. Run 1 compared 16 of 20 because the arXiv service refused every id lookup, not because of the sample design. Run 2 compared all 20, but its 4 arXiv-only papers were checked on title and year only.
+Conclusion. Rounds 1 and 2 compared 16 of 20 because the arXiv service refused every id lookup, not because of the sample design. Round 3 compared all 20, but its 4 arXiv-only papers were checked on title and year only.

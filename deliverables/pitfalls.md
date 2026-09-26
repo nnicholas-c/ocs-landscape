@@ -44,7 +44,7 @@ API means application programming interface. HTTP 429 means "too many requests" 
 ### Stage 8 write-up
 
 - [2026-09-26 07:50] collect_openalex.py adds up the API's cost field for the snowball but no file stores it.
-  Done. Not fixed. The run's OpenAlex cost is known only up to stage 1a, 0.033 USD (STATUS.md, stage 1a line).
+  Done. Not fixed. The log gives OpenAlex cost only up to stage 1a, 0.033 USD (STATUS.md, stage 1a line). The run 1 finish step later read 0.0404 USD from OpenAlex's rate-limit endpoint for run 1 before the rework (STATUS.md, 16:14 line), but the snowball's own cost is still unknown.
 
 ## arXiv
 
@@ -66,7 +66,7 @@ API means application programming interface. HTTP 429 means "too many requests" 
 
 - [2026-09-26 07:22, 07:39] Check (a) could not re-fetch 4 arXiv-only core papers, because export.arxiv.org returned HTTP 406 on an id_list lookup, also outside the script.
   Done. Recorded as errors and left out of the rate in both rounds. The checker later matched title and year for all 4 from arxiv.org/abs pages (STATUS.md, stage 7 DONE line).
-- [2026-09-26 14:57] In the run 2 audit, export.arxiv.org still returned HTTP 406 on id_list lookups for the 4 arXiv-only papers of the new sample, even with a 10 second delay and 3 retries (one direct test took 50 seconds to fail).
+- [2026-09-26 14:57] In the round 3 audit, export.arxiv.org still returned HTTP 406 on id_list lookups for the 4 arXiv-only papers of the new sample, even with a 10 second delay and 3 retries (one direct test took 50 seconds to fail).
   Done. A fallback reads citation_title and citation_date from arxiv.org/abs pages. All 4 matched on title and year, so 20 of 20 papers were compared, though these 4 have no citation count or institution to compare.
 
 ### Number checks (rework)
@@ -155,7 +155,7 @@ API means application programming interface. HTTP 429 means "too many requests" 
 - [2026-09-26 07:36] The 5 cells that failed audit round 1 held bare codes (lab, partial) whose quote gave the signal only implicitly, and the same test failed 21 of 82 reported cells.
   Done. matrix_build.py now stops unless every value shares a word or number with its quote, using the audit's own test. Category values now carry their quote words. This fix gamed the audit and was removed at 14:11 (see stage 7 below).
 - [2026-09-26 07:36] piezo trl_band said "production (vendor)", but no quote states a sale.
-  Done. Downgraded to lab. A person should check the Polatis page before raising it. The run 2 rebuild raised it to production again (14:30 below).
+  Done. Downgraded to lab. A person should check the Polatis page before raising it. The rework rebuild raised it to production again (14:30 below).
 - [2026-09-26 07:36] companies cells quoted the first project row even when the quote did not name the entity.
   Done. They now quote the first row that names its entity. The lcos and robotic_patch_panel cells are hand-written, and the build checks their row numbers.
 - [2026-09-26 07:36] The Coherent quote says digital liquid-crystal and never says LCoS, so its lcos route is the scout's assignment.
@@ -176,7 +176,7 @@ API means application programming interface. HTTP 429 means "too many requests" 
 - [2026-09-26 14:30] Neither primary piezo paper says piezo, and Mordia (W2002555923, lcos) never says LCoS, so two route assignments rest on tags alone.
   Done. Piezo actuation evidence comes from projects.csv row 5 and a secondary match, and lcos switching_time has low confidence.
 - [2026-09-26 14:30] trl_band production for piezo and robotic_patch_panel rests only on vendor rows, and the Polatis shipping stage comes from shop links in the scout's note, not from the quote. lcos and mems_silicon_photonic stay lab although their project rows announce products.
-  Done. Both production cells have low confidence. Run 1's fix had set piezo to lab, so this reverses it, and the run 2 audit failed the cell again.
+  Done. Both production cells have low confidence. Run 1's fix had set piezo to lab, so this reverses it, and the round 3 audit failed the cell again.
 - [2026-09-26 14:30] Several values need a person to review. SOA abstracts give extinction ratio, not crosstalk, the low end of the mems_silicon_photonic crosstalk range rests on a short abstract, several ranges mix measured devices with designs, and W4409153023 is simulation only.
   Done. soa crosstalk left not reported, each note says which end of a range is which, and W4409153023 left out.
 - [2026-09-26 14:30] W4378650891 uses Unicode hyphens inside words, so plain-ASCII quote anchors did not match.
@@ -204,7 +204,7 @@ API means application programming interface. HTTP 429 means "too many requests" 
   Done. The auditor judged each with a one-line reason in data/work/audit_run2_judgments.json and merged the verdicts back with the merge mode of pipeline/audit.py.
 - [2026-09-26 14:57] The judgment found 4 of 29 cells unsupported. mems_2d packaging_notes claims single-chip, mems_3d and mems_2d integration infer free_space_bulk from quotes that never say it, and piezo trl_band claims production on quotes that never state availability.
   Done. Not fixed. The rebuild kept the piezo value by choice.
-- [2026-09-26 14:57] Gate C passed on round 1. The pass counts were (a) 20 of 20, (b) 19 of 20, (c) 10 of 10, and (d) 376 of 376, and the 27-cell category census outside the gate was 24 of 27.
+- [2026-09-26 14:57] Gate C passed round 3 on its first try. The pass counts were (a) 20 of 20, (b) 19 of 20, (c) 10 of 10, and (d) 376 of 376, and the 27-cell category census outside the gate was 24 of 27.
   Done. No retry needed.
 - [2026-09-26 15:10] A blind second judge, the checker, found all 29 cells supported where the auditor found 25, agreeing on 19 of 20 sample cells and 24 of 27 census cells. The split is quote-only reading against reading the cited abstract and the route definition.
   Done. No gate effect, because (b) is 5 percent under the auditor and 0 percent under the checker. Left for a human to settle the standard.
@@ -234,11 +234,11 @@ API means application programming interface. HTTP 429 means "too many requests" 
   Done. Corrected in the rework revision, and architecture.md now cites the STATUS.md finish line.
 - [2026-09-26 08:27, from STATUS.md, not the original log] A stray repo-root file named "-" was a byte-identical copy of graphs/coauthor.html.
   Done. Left for a human, and it is no longer in the repo root.
-- [2026-09-26 15:34] validation_report.md Run 2 does not mention the checker's blind second judgment, and STATUS.md does not count the rework's subagent invocations.
+- [2026-09-26 15:34] validation_report.md round 3 (then called Run 2) does not mention the checker's blind second judgment, and STATUS.md does not count the rework's subagent invocations.
   Done. Not fixed. The write-up cites the agreement figures from STATUS.md and the 15:10 log line, and architecture.md gives run 1's invocation count only.
-- [2026-09-26 15:41, from STATUS.md, not the original log] The checker sent the rework write-up back once. meeting_summary.md and demo_results.md said the gates caught the gamed audit, but Gate C passed run 1 round 2 and only the checker's 07:42 note flagged it. The side-by-side rates also sat in a separate bullet from the audit story.
+- [2026-09-26 15:41, from STATUS.md, not the original log] The checker sent the rework write-up back once. meeting_summary.md and demo_results.md said the gates caught the gamed audit, but Gate C passed round 2 and only the checker's 07:42 note flagged it. The side-by-side rates also sat in a separate bullet from the audit story.
   Done. Both files now say the checker caught the gaming and Gate C caught round 1's real failures, and the rates moved into the first What worked item.
-- [2026-09-26 15:45] validation_report.md Run 2 credits the "circular" finding to the auditor's own round 2 notes, but run 1 round 2's report states the import without objection and the word appears only in the checker's 07:42 note.
+- [2026-09-26 15:45] validation_report.md round 3 (then called Run 2) credits the "circular" finding to the auditor's own round 2 notes, but round 2's report states the import without objection and the word appears only in the checker's 07:42 note.
   Done. Not fixed in the report. The write-up credits the checker.
 
 ## Pitfalls that will get worse at scale

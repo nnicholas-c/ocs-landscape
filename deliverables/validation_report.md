@@ -1,5 +1,14 @@
 # Stage 7 validation report
 
+Naming. Round 1 and round 2 (padded) audited the first matrix. Round 3
+(after the fix) audited the matrix rebuilt with plain labels, with a new
+seed. Text written before this renaming calls rounds 1 and 2 "run 1" and
+round 3 "Run 2". So a citation elsewhere to "validation_report.md, Run 1"
+means the sections Round 1 and Round 2 (padded), and one to
+"validation_report.md, Run 2" means Round 3 (after the fix). The files
+data/work/audit_run2_*.json also belong to round 3. In new text, "run 2"
+means only the arXiv rebuild in ocs-landscape-run2.
+
 This report is produced by pipeline/audit.py. It runs the four checks in
 PLAN.md stage 7 against a fixed random seed recorded in the script and
 here so the sample can be reproduced. Run 1 used SEED = 20260926 and
@@ -15,12 +24,12 @@ edited, removed, or softened.
 
 ---
 
-## Run 1
+## Rounds 1 and 2 (the first matrix)
 
 Everything under this heading (Round 1 and Round 2) is kept exactly as first
 written for run 1. Nothing below has been edited, removed, or softened.
-See "Run 2" further down for the rework's audit, its own new seed, and a
-side-by-side rate comparison across all three rounds.
+See "Round 3 (after the fix)" further down for the rework's audit, its own
+new seed, and a side-by-side rate comparison across all three rounds.
 
 ## Round 1
 
@@ -172,7 +181,7 @@ in the core set, only by a product page.
 
 ---
 
-## Round 2
+## Round 2 (padded)
 
 Run at 2026-09-26T14:37:16Z UTC, same SEED = 20260926, so every sample
 below is identical to round 1's sample (checked item by item; see the
@@ -277,7 +286,7 @@ the routes involved in all 5 failures.
 
 ---
 
-## Run 2
+## Round 3 (after the fix)
 
 This is the rework audit, run after stage 6 rebuilt the comparison matrix
 from scratch. It uses a new seed, SEED = 20260927, set in pipeline/audit.py
@@ -290,15 +299,15 @@ data/work/audit_run2_judge_input.json and data/work/audit_run2_judgments.json.
 
 ### Rate comparison across all three rounds
 
-| Check | Threshold | Run 1 Round 1 | Run 1 Round 2 | Run 2 Round 1 |
+| Check | Threshold | Round 1 | Round 2 (padded) | Round 3 (after the fix) |
 |---|---|---|---|---|
 | (a) core paper re-fetch, mismatch rate | at most 10 percent | 0 percent (16 of 20 usable, 4 dropped) PASS | 0 percent (16 of 20 usable, 4 dropped) PASS | 0 percent (20 of 20 usable, 0 dropped) PASS |
 | (b) matrix cell evidence, unsupported rate (20-cell Gate C sample) | at most 10 percent | 25 percent (5 of 20) FAIL | 0 percent (20 of 20) PASS, but see below, not trustworthy | 5 percent (1 of 20) PASS |
 | (c) project evidence URL, fail rate | at most 20 percent | 0 percent (10 of 10) PASS | 0 percent (10 of 10) PASS | 0 percent (10 of 10) PASS |
 | (d) evidence span substring, pass rate | at least 90 percent | 100 percent (376 of 376) PASS | 100 percent (376 of 376) PASS | 100 percent (376 of 376) PASS |
 
-Run 2 has no round 2 yet because Gate C passed on round 1 (see "Gate C
-summary" below), so PLAN.md's retry clause was never triggered.
+Round 3 needed no second pass because Gate C passed on its first try (see
+"Gate C summary" below), so PLAN.md's retry clause was never triggered.
 
 Why run 1 round 2's check (b) rate cannot be trusted. Between round 1 and
 round 2, pipeline/matrix_build.py was changed to import
@@ -475,7 +484,7 @@ does not touch the tags table, so no change was expected here.
 Result. 376 of 376 pass. Pass rate is 100 percent, over the 90 percent
 gate.
 
-### Other observations, not covered by the four checks (run 2)
+### Other observations, not covered by the four checks (round 3)
 
 The 4 arXiv HTTP 406 errors in check (a) are confirmed source-side again
 this round (same host, same error, now with a longer delay and an explicit

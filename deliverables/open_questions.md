@@ -18,4 +18,4 @@
 
 9. Is a core set of 267 acceptable, and how many phrases per route? The trial aimed for 50 to 100 (CLAUDE.md), but above 200 Gate A keeps every score 3 paper (PLAN.md; deliverables/curation_report.md). Route counts follow the phrases too, as one phrase supplied 27 of 43 papers on the largest device route (deliverables/number_checks.md, section 1).
 
-10. How do we get arXiv records? 9 of 10 arXiv phrase queries failed on rate-limit errors (STATUS.md, stage 1a line). Options are slower pacing, arxiv.org/abs pages, which served all 4 audit lookups (deliverables/validation_report.md, Run 2), or OpenAlex.
+10. How do we get arXiv records? 9 of 10 arXiv phrase queries failed on rate-limit errors (STATUS.md, stage 1a line). Options are slower pacing, arxiv.org/abs pages, which served all 4 audit lookups (deliverables/validation_report.md, round 3), or OpenAlex.

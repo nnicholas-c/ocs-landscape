@@ -1,0 +1,170 @@
+[
+ {
+  "name_key": "ding e",
+  "label": "same_person",
+  "pairs_same": [
+   [
+    "name:ding e",
+    "name:ding e#2"
+   ],
+   [
+    "name:ding e",
+    "name:ding e#3"
+   ],
+   [
+    "name:ding e#2",
+    "name:ding e#3"
+   ]
+  ],
+  "reason": "All three records display_name 'Eric Ding'; every pairwise shared_coauthor_name_keys has 'singh r' (Rachee Singh on all three), year_range 2025-2026, all photonic switch or rail papers."
+ },
+ {
+  "name_key": "fu x",
+  "label": "cannot_tell",
+  "pairs_same": [],
+  "reason": "A5052353912 display_name 'Xing Fu' (Tsinghua, OAM paper, no shared coauthors) differs from both 'Xin Fu' records; the two 'Xin Fu' records (A5000196334 CAS 2018, name:fu x EPFL 2021) share no coauthors or institutions and year_range does not overlap, so that pair is undecided."
+ },
+ {
+  "name_key": "hu w",
+  "label": "same_person",
+  "pairs_same": [
+   [
+    "A5015039354",
+    "name:hu w"
+   ]
+  ],
+  "reason": "A5015039354 and name:hu w are both 'Weisheng Hu' with shared_coauthor_name_keys 'sun w' (Weiqiang Sun on both) and shared_tech_routes architecture_only; A5000636579 is 'Weijin Hu' (CAS, 2D piezoelectric materials, no shared coauthors)."
+ },
+ {
+  "name_key": "inoue t",
+  "label": "same_person",
+  "pairs_same": [
+   [
+    "A5081996202",
+    "name:inoue t"
+   ]
+  ],
+  "reason": "A5081996202 and name:inoue t are both 'Takeru Inoue' with 5 shared_coauthor_name_keys (anazawa k, mano t, nishizawa h, oki e, sone y) and overlapping year_range 2024-2025; A5066816626 is 'Takashi Inoue' (AIST) with no shared coauthors."
+ },
+ {
+  "name_key": "li y",
+  "label": "same_person",
+  "pairs_same": [
+   [
+    "A5083185648",
+    "A5100421623"
+   ]
+  ],
+  "reason": "A5083185648 and A5100421623 are both 'Yang Li' with 7 shared_coauthor_name_keys, shared_own_affiliations I57093077 (Swinburne) and year_range 2022/2023; the other 10 records have different given names (Yannanqi, Yupeng, Yunlong, Yao, Yi, Yifan, Yanbo, Yubo, Yinmei); the two 'Yao Li' records (Arizona 2017 vs Tsinghua/SKL 2012-2020) share no coauthors and are left as different."
+ },
+ {
+  "name_key": "ma q",
+  "label": "same_person",
+  "pairs_same": [
+   [
+    "A5102968002",
+    "name:ma q"
+   ]
+  ],
+  "reason": "A5102968002 (Zhejiang 2023) and name:ma q (2024) are both 'Qian Ma' with 5 shared_coauthor_name_keys (dai d, hu y, li h, liu y, lu y) and shared_tech_routes mems_silicon_photonic; A5083422711 (Eindhoven 2015, mm-wave beam steering) shares nothing with either and stays undecided."
+ },
+ {
+  "name_key": "miles a",
+  "label": "same_person",
+  "pairs_same": [
+   [
+    "A5113716516",
+    "A5114048641"
+   ]
+  ],
+  "reason": "Pair shares all 7 shared_coauthor_name_keys, shared_own_affiliations I138006243 (University of Arizona), shared_institutions_on_papers, adjacent year_range 2013/2014 and the same DMD fiber switch topic; caveat: display_name differs ('Alexander Miles' vs 'Arriel LaVena Miles')."
+ },
+ {
+  "name_key": "patterson d",
+  "label": "same_person",
+  "pairs_same": [
+   [
+    "A5077202069",
+    "name:patterson d"
+   ]
+  ],
+  "reason": "A5077202069 (Google 2023, TPU v4) and name:patterson d (2026, Google TPU paper) share shared_coauthor_name_keys 'jouppi n' and 'young c' plus shared_tech_routes architecture_only; A5101927146 (UC Berkeley 2009, Roofline) shares no coauthors or institutions with either and stays undecided."
+ },
+ {
+  "name_key": "sato k",
+  "label": "same_person",
+  "pairs_same": [
+   [
+    "A5075238724",
+    "name:sato k"
+   ]
+  ],
+  "reason": "Both 'Ken-ichi Sato', shared_coauthor_name_keys 'namiki s' (Shu Namiki on both), year_range 2012-2023 then 2024, all papers on large-scale optical circuit switches for data centers."
+ },
+ {
+  "name_key": "schmid s",
+  "label": "same_person",
+  "pairs_same": [
+   [
+    "A5066080641",
+    "name:schmid s"
+   ],
+   [
+    "A5066080641",
+    "name:schmid s#3"
+   ],
+   [
+    "A5066080641",
+    "name:schmid s#4"
+   ],
+   [
+    "name:schmid s",
+    "name:schmid s#3"
+   ],
+   [
+    "name:schmid s",
+    "name:schmid s#4"
+   ],
+   [
+    "name:schmid s#3",
+    "name:schmid s#4"
+   ]
+  ],
+  "reason": "All six are 'Stefan Schmid' on reconfigurable network papers; A5066080641, name:schmid s, #3, #4 are linked by shared_coauthor_name_keys 'avin c' and 'addanki v'; #2 and #5 share only display_name and shared_tech_routes architecture_only, so they are not listed."
+ },
+ {
+  "name_key": "tang s",
+  "label": "different_people",
+  "pairs_same": [],
+  "reason": "Three different given names in display_name (Shiwei, Shaojie, Sirui) with no shared_coauthor_name_keys, shared_own_affiliations or shared_institutions_on_papers in any pair, and unrelated topics (metasurfaces, coflow scheduling, MEMS switch)."
+ },
+ {
+  "name_key": "wang j",
+  "label": "different_people",
+  "pairs_same": [],
+  "reason": "Two pairs with large coauthor overlap are co-authors of each other on one paper (shared_papers W3110989801 for Jun/Jiaheng Wang, W2103979104 for Jiechen/Juntong Wang), so they are two people; the two 'Jian Wang' records differ in institution (WNLO vs Leicester) and topic in overlapping years and share only generic key 'zhang y'; the rest have different given names."
+ },
+ {
+  "name_key": "xu y",
+  "label": "different_people",
+  "pairs_same": [],
+  "reason": "display_name 'Yue Xu' vs 'Yelong Xu', no shared_coauthor_name_keys or institutions, year_range 2020 vs 2025, different topics (phased-array review vs LLM datacenter OCS)."
+ },
+ {
+  "name_key": "yang y",
+  "label": "different_people",
+  "pairs_same": [],
+  "reason": "All 10 records have different given names in display_name; the pairwise overlaps are generic shared_coauthor_name_keys (huang y, wang h, zhang y, chen y, liu z, huang j) that map to different coauthor display names, or shared_institutions_on_papers from large multi-institution papers, with no shared_own_affiliations."
+ },
+ {
+  "name_key": "young c",
+  "label": "same_person",
+  "pairs_same": [
+   [
+    "A5035427716",
+    "name:young c"
+   ]
+  ],
+  "reason": "Both 'Cliff Young', shared_coauthor_name_keys 'jouppi n' and 'patterson d', shared_tech_routes architecture_only, both on Google TPU supercomputer papers (2023 and 2026)."
+ }
+]

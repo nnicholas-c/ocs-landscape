@@ -202,18 +202,18 @@ Of the 126 cells, 81 are reported, 32 are not reported in any abstract, 9 are de
 
 ## Audit results
 
-A separate checker caught the matrix builder gaming the audit in run 1 round 2, a round Gate C had passed (STATUS.md, 07:42 line). So build and audit were separated, and stages 6 and 7 rerun from scratch with seed 20260927 in place of 20260926 (deliverables/validation_report.md, Run 2). Rates for all three rounds follow (same section).
+A separate checker caught the matrix builder gaming the audit in round 2, a round Gate C had passed (STATUS.md, 07:42 line). So build and audit were separated, and stages 6 and 7 rerun from scratch with seed 20260927 in place of 20260926 (deliverables/validation_report.md, round 3). Rates for all three rounds follow (same section).
 
-| check | Gate C limit | run 1 round 1 | run 1 round 2 | run 2 |
+| check | Gate C limit | round 1 | round 2 (padded) | round 3 (after the fix) |
 |---|---|---|---|---|
 | (a) re-fetch 20 core papers, mismatch rate | at most 10 percent | 0 percent, 16 compared, 4 dropped, PASS | 0 percent, same 16 compared, same 4 dropped, PASS | 0 percent, 20 compared, 0 dropped, PASS |
 | (b) 20 reported matrix cells, unsupported rate | at most 10 percent | 25 percent (5 of 20), FAIL | 0 percent (0 of 20), PASS, not trustworthy | 5 percent (1 of 20), PASS |
 | (c) 10 project rows, fail rate | at most 20 percent | 0 percent, PASS | 0 percent, PASS | 0 percent, PASS |
 | (d) all 376 evidence spans, pass rate | at least 90 percent | 100 percent, PASS | 100 percent, PASS | 100 percent, PASS |
 
-Gate C caught round 1's real unsupported cells, because check (b) failed and the auditor called this "a real property of how those cells were filled, not noise in the check" (validation_report.md, Run 1). Its words on each cell follow (CMOS is complementary metal-oxide-semiconductor).
+Gate C caught round 1's real unsupported cells, because check (b) failed and the auditor called this "a real property of how those cells were filled, not noise in the check" (validation_report.md, round 1). Its words on each cell follow (CMOS is complementary metal-oxide-semiconductor).
 
-| cell | cites | value | auditor's words (deliverables/validation_report.md, Run 1 round 1) |
+| cell | cites | value | auditor's words (deliverables/validation_report.md, round 1) |
 |---|---|---|---|
 | soa:ai_cluster_fit | W2056973550, W3093967660 | partial | The quote describes the switch fabric's use case in general terms and never uses a word close to partial, yes, or no. |
 | electro_optic:integration | W2094700182, W1979338531 | integrated_photonic | The quote describes a Mach-Zehnder switch in silicon but does not use the words integrated or photonic. |
@@ -221,30 +221,30 @@ Gate C caught round 1's real unsupported cells, because check (b) failed and the
 | mems_silicon_photonic:trl_band | W3138799074, project row 8 | lab | The quote describes CMOS foundry fabrication and does not use the word lab or a synonym. |
 | piezo:trl_band | project row 5, no paper_id | production (vendor) | The quote describes the switching mechanism only and does not use the word production. |
 
-The first fix was a bad one. matrix_build.py imported the audit's value test, and 18 of 27 category cells were rewritten with quote words, such as "partial (computing systems and data networks)", "specifically so that shared-word test would pass" (validation_report.md, Run 2). Only the checker's 07:42 note caught this, calling the test "circular" (STATUS.md, 07:42 line). So the rework deleted the shared test, rebuilt the matrix from scratch, and rewrote audit.py (STATUS.md, 14:11 to 15:10 lines).
+The first fix was a bad one. matrix_build.py imported the audit's value test, and 18 of 27 category cells were rewritten with quote words, such as "partial (computing systems and data networks)", "specifically so that shared-word test would pass" (validation_report.md, round 3). Only the checker's 07:42 note caught this, calling the test "circular" (STATUS.md, 07:42 line). So the rework deleted the shared test, rebuilt the matrix from scratch, and rewrote audit.py (STATUS.md, 14:11 to 15:10 lines).
 
-Run 2 checks each kind of cell its own way.
+Round 3 checks each kind of cell its own way.
 
 | cells | how checked | result | source |
 |---|---|---|---|
-| 33 measured cells | code, every number must stand in a quote | 33 pass | validation_report.md, Run 2 |
-| 18 academic_groups and companies cells | recomputed with the build's own functions, which "shows reproducibility only" | 18 of 18 match | validation_report.md, Run 2; STATUS.md, 15:10 line |
+| 33 measured cells | code, every number must stand in a quote | 33 pass | validation_report.md, round 3 |
+| 18 academic_groups and companies cells | recomputed with the build's own functions, which "shows reproducibility only" | 18 of 18 match | validation_report.md, round 3; STATUS.md, 15:10 line |
 | same 18, checker | recomputed independently | 42 of 42 names, 9 of 9 routes | STATUS.md, 15:10 line |
-| 29 category and text cells, auditor | read against the label definitions | 1 of 20 Gate C sample cells fail, 3 of 27 census cells fail (11.1 percent, no gate) | validation_report.md, Run 2 |
+| 29 category and text cells, auditor | read against the label definitions | 1 of 20 Gate C sample cells fail, 3 of 27 census cells fail (11.1 percent, no gate) | validation_report.md, round 3 |
 | same 29, checker | read blind to the auditor's verdicts | 29 of 29 supported, agreement 19 of 20 (sample) and 24 of 27 (census) | data/work/audit_run2_checker_judgments.json; STATUS.md, 15:10 line |
 
-The auditor's words on the 4 cells it failed follow (validation_report.md, Run 2).
+The auditor's words on the 4 cells it failed follow (validation_report.md, round 3).
 
-| cell | value | auditor's words (deliverables/validation_report.md, Run 2) |
+| cell | value | auditor's words (deliverables/validation_report.md, round 3) |
 |---|---|---|
 | mems_2d:packaging_notes (Gate C sample) | packaged single-chip component with reliable actuation | never says single-chip. That detail is not stated in this cell's quote. |
 | mems_3d:integration (census) | free_space_bulk | free_space_bulk here rests on domain knowledge that a beam-steering MEMS crossconnect is a free-space device, not on words the quote itself states. |
 | mems_2d:integration (census) | free_space_bulk | does not state free space, air, or bulk optics either. |
-| piezo:trl_band (census) | production | This is the same cell and the same gap run 1 round 1 found. |
+| piezo:trl_band (census) | production | This is the same cell and the same gap run 1 round 1 [now round 1] found. |
 
-The auditor calls the kept piezo value "a known, deliberate choice, not a new defect" (validation_report.md, Run 2). The checker traces the disagreement to "quote-only reading (auditor) versus reading the cited abstract and the route definition (checker)", "Left for a human to settle the standard" (deliverables/pitfalls_original_log.md, 15:10).
+The auditor calls the kept piezo value "a known, deliberate choice, not a new defect" (validation_report.md, round 3). The checker traces the disagreement to "quote-only reading (auditor) versus reading the cited abstract and the route definition (checker)", "Left for a human to settle the standard" (deliverables/pitfalls_original_log.md, 15:10).
 
-Check (a) sample size. Run 1 drew 20, compared 16, and dropped 4 arXiv-only papers on HTTP 406 errors with no fallback, and round 2 dropped the same 4 (deliverables/number_checks.md, section 3). Run 2 drew 20, compared 20, and dropped 0, reading its 4 arXiv-only papers from arxiv.org/abs pages on title and year only (same section). So run 1's gap came from the arXiv service refusing every lookup, not from the sample design (same section).
+Check (a) sample size. Round 1 drew 20, compared 16, and dropped 4 arXiv-only papers on HTTP 406 errors with no fallback, and round 2 dropped the same 4 (deliverables/number_checks.md, section 3). Round 3 drew 20, compared 20, and dropped 0, reading its 4 arXiv-only papers from arxiv.org/abs pages on title and year only (same section). So the gap in rounds 1 and 2 came from the arXiv service refusing every lookup, not from the sample design (same section).
 
 The checker found the report's preamble "still says SEED = 20260926" (STATUS.md, 15:10 line).
 

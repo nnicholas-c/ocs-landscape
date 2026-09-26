@@ -1,0 +1,170 @@
+[
+ {
+  "name_key": "ding e",
+  "label": "same_person",
+  "pairs_same": [
+   [
+    "name:ding e",
+    "name:ding e#2"
+   ],
+   [
+    "name:ding e",
+    "name:ding e#3"
+   ],
+   [
+    "name:ding e#2",
+    "name:ding e#3"
+   ]
+  ],
+  "reason": "All three 'Eric Ding' name-only records share coauthor singh r in every pairwise.shared_coauthor_name_keys, year_range 2025 to 2026, all core-set OCS papers."
+ },
+ {
+  "name_key": "fu x",
+  "label": "cannot_tell",
+  "pairs_same": [],
+  "reason": "A5052353912 display_name 'Xing Fu' differs from 'Xin Fu' and pairwise shows nothing shared (different); A5000196334 (own_affiliations I19820366, 2018) vs name:fu x (I5124864, 2021) share display_name but no coauthors, affiliations or routes, and year_range does not overlap, so a move cannot be ruled out."
+ },
+ {
+  "name_key": "hu w",
+  "label": "same_person",
+  "pairs_same": [
+   [
+    "A5015039354",
+    "name:hu w"
+   ]
+  ],
+  "reason": "Both 'Weisheng Hu': pairwise.shared_coauthor_name_keys [sun w] and shared_tech_routes [architecture_only] (2016 to 2017 vs 2026); A5000636579 is 'Weijin Hu' with nothing shared in pairwise."
+ },
+ {
+  "name_key": "inoue t",
+  "label": "same_person",
+  "pairs_same": [
+   [
+    "A5081996202",
+    "name:inoue t"
+   ]
+  ],
+  "reason": "Both 'Takeru Inoue': 5 shared_coauthor_name_keys (anazawa k, mano t, oki e, ...) in 2024 to 2025; A5066816626 is 'Takashi Inoue' (own_affiliations I73613424) with no shared coauthors."
+ },
+ {
+  "name_key": "li y",
+  "label": "same_person",
+  "pairs_same": [
+   [
+    "A5083185648",
+    "A5100421623"
+   ]
+  ],
+  "reason": "Both 'Yang Li': 7 shared_coauthor_name_keys plus shared_own_affiliations [I57093077] in 2022 and 2023; other records have different given names, and the two 'Yao Li' records (I138006243 2017 vs I4210091786/I99065089 2012 to 2020) share nothing in overlapping years."
+ },
+ {
+  "name_key": "ma q",
+  "label": "same_person",
+  "pairs_same": [
+   [
+    "A5102968002",
+    "name:ma q"
+   ]
+  ],
+  "reason": "A5102968002 and name:ma q share 5 shared_coauthor_name_keys and shared_tech_routes [mems_silicon_photonic] (2023 vs 2024); A5083422711 (own_affiliations I83019370, 2015) shares nothing and is left undecided."
+ },
+ {
+  "name_key": "miles a",
+  "label": "same_person",
+  "pairs_same": [
+   [
+    "A5113716516",
+    "A5114048641"
+   ]
+  ],
+  "reason": "All 7 coauthors shared, shared_own_affiliations [I138006243], shared_tech_routes [other], years 2013 and 2014; only display_name conflicts (Alexander vs Arriel LaVena)."
+ },
+ {
+  "name_key": "patterson d",
+  "label": "same_person",
+  "pairs_same": [
+   [
+    "A5077202069",
+    "name:patterson d"
+   ]
+  ],
+  "reason": "A5077202069 (own_affiliations I1291425158, 2023) and name:patterson d (2026) share coauthors jouppi n and young c and route architecture_only; A5101927146 (I95457486, 2009) shares nothing and its years do not overlap, left undecided."
+ },
+ {
+  "name_key": "sato k",
+  "label": "same_person",
+  "pairs_same": [
+   [
+    "A5075238724",
+    "name:sato k"
+   ]
+  ],
+  "reason": "Both 'Ken-ichi Sato': pairwise.shared_coauthor_name_keys [namiki s] and shared_tech_routes [architecture_only], year_range 2012 to 2023 vs 2024, all core-set OCS papers."
+ },
+ {
+  "name_key": "schmid s",
+  "label": "same_person",
+  "pairs_same": [
+   [
+    "A5066080641",
+    "name:schmid s"
+   ],
+   [
+    "A5066080641",
+    "name:schmid s#3"
+   ],
+   [
+    "A5066080641",
+    "name:schmid s#4"
+   ],
+   [
+    "name:schmid s",
+    "name:schmid s#3"
+   ],
+   [
+    "name:schmid s",
+    "name:schmid s#4"
+   ],
+   [
+    "name:schmid s#3",
+    "name:schmid s#4"
+   ]
+  ],
+  "reason": "Coauthors avin c and/or addanki v appear in shared_coauthor_name_keys for every pair among A5066080641 (2018 to 2025), name:schmid s, #3 and #4; name:schmid s#2 and #5 share only display_name and route architecture_only, left undecided."
+ },
+ {
+  "name_key": "tang s",
+  "label": "different_people",
+  "pairs_same": [],
+  "reason": "Three different given names (Shiwei, Shaojie, Sirui) and every pairwise entry has no shared coauthors, affiliations or routes."
+ },
+ {
+  "name_key": "wang j",
+  "label": "different_people",
+  "pairs_same": [],
+  "reason": "Given names differ except the two 'Jian Wang' records (A5100370396 own_affiliations I4210138186 2017 to 2023 photonics vs A5100696824 I153648349 2021 machine learning) that share only the common key zhang y in overlapping years; the Jun/Jiaheng and Jiechen/Juntong pairs have shared_papers, so they are two authors on one paper."
+ },
+ {
+  "name_key": "xu y",
+  "label": "different_people",
+  "pairs_same": [],
+  "reason": "Different given names (Yue vs Yelong), and the file has no pairwise signal: no shared coauthors, institutions or routes."
+ },
+ {
+  "name_key": "yang y",
+  "label": "different_people",
+  "pairs_same": [],
+  "reason": "All 10 records have different given names; shared_coauthor_name_keys are single common keys (huang y, wang h, zhang y) and no pair has shared_own_affiliations."
+ },
+ {
+  "name_key": "young c",
+  "label": "same_person",
+  "pairs_same": [
+   [
+    "A5035427716",
+    "name:young c"
+   ]
+  ],
+  "reason": "Both 'Cliff Young': pairwise.shared_coauthor_name_keys [jouppi n, patterson d] and shared_tech_routes [architecture_only], A5035427716 with own_affiliations I1291425158 in 2023 vs name-only 2026."
+ }
+]

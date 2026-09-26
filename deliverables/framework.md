@@ -29,7 +29,7 @@ The matrix is one CSV (comma-separated values) row per route and dimension, 126 
 
 Differing numbers become a range citing both papers, and no number moves between routes. Vendor figures carry their project row and "vendor claim". Confidence is high when two or more papers agree, medium for one, low when ambiguous.
 
-Category cells hold only the fixed label, with reasoning in the note. Run 1 padded 18 of 27 with quote words to pass the audit's test, and the rebuild removed the padding (STATUS.md, 14:36 line). ai_cluster_fit is yes for 7 of 9 routes under the skill's definition (clusters, reconfigurable topologies, or spine replacement), though only the thermo_optic and mems_silicon_photonic abstracts name AI, ML (machine learning), or graphics processors directly (deliverables/comparison_matrix.csv; deliverables/pitfalls_original_log.md, 14:30).
+Category cells hold only the fixed label, with reasoning in the note. The first matrix padded 18 of 27 with quote words to pass the audit's test, and the rebuild removed the padding (STATUS.md, 14:36 line). ai_cluster_fit is yes for 7 of 9 routes under the skill's definition (clusters, reconfigurable topologies, or spine replacement), though only the thermo_optic and mems_silicon_photonic abstracts name AI, ML (machine learning), or graphics processors directly (deliverables/comparison_matrix.csv; deliverables/pitfalls_original_log.md, 14:30).
 
 ## Adjacent-field logic
 
@@ -40,7 +40,7 @@ The tagger judges the device, not keywords, so LCoS for cinema projectors counts
 ## What the framework cannot do from abstracts alone
 
 - Fill cost and optical-quality cells. 32 of 126 cells are not reported, and cost per port is known for 1 route of 9 (deliverables/comparison_matrix.csv).
-- Settle judgment cells. In run 2 the auditor, reading quotes only, found 4 of 29 judged cells unsupported, and the checker, reading abstracts too, found 0 (deliverables/pitfalls_original_log.md, 15:10).
+- Settle judgment cells. In round 3 the auditor, reading quotes only, found 4 of 29 judged cells unsupported, and the checker, reading abstracts too, found 0 (deliverables/pitfalls_original_log.md, 15:10).
 - Link architecture papers to devices. Only 5 of 101 architecture_only core papers carry a secondary route, none of them among the 17 naming accelerators or ML (query Q13 in deliverables/demo_results.md; deliverables/comparison_matrix.md).
 - Cover thin routes. piezo has 2 core papers, neither saying piezo, and robotic_patch_panel 1 (query Q4 in deliverables/demo_results.md; deliverables/pitfalls.md, stage 6).
 - Rank routes. Route counts follow what each search phrase found, not the field (deliverables/number_checks.md, section 1).
