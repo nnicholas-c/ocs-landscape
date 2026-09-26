@@ -1,0 +1,11 @@
+pyalex>=0.15
+arxiv>=2.1
+pandas>=2.0
+rapidfuzz>=3.0
+networkx>=3.0
+plotly>=5.0
+pyyaml>=6.0
+python-dotenv>=1.0
+tqdm>=4.0
+requests>=2.31
+unidecode>=1.3

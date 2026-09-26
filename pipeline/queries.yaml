@@ -1,0 +1,70 @@
+# Seed queries for the collector. Edit here, never inside the scripts.
+# Keep phrases, not the bare acronym. "OCS" alone pulls in unrelated fields (see the ocs-domain skill).
+
+year_from: 2012          # applies to phrase queries; anchors are fetched regardless of year
+per_query_cap: 50        # max records per query per source (OpenAlex search returns most relevant first); raise if Gate A says recall is low
+
+openalex:
+  # Each entry is passed as a full-text search over title and abstract.
+  - "optical circuit switch"
+  - "optical circuit switching data center"
+  - "optical circuit switching machine learning cluster"
+  - "MEMS optical switch"
+  - "3D MEMS optical cross-connect"
+  - "silicon photonic switch data center"
+  - "silicon photonic MEMS switch"
+  - "wavelength selective switch LCoS"
+  - "piezoelectric optical switch"
+  - "optical beam steering switch fiber"
+  - "thermo-optic switch port count"
+  - "semiconductor optical amplifier switch data center"
+  - "reconfigurable data center network optical"
+  - "optical interconnect reconfigurable topology distributed training"
+  - "optical cross-connect data center"
+  - "robotic fiber patch panel"
+  - "optical switching data center survey"
+
+arxiv:
+  # arXiv query syntax. abs: searches abstracts, ti: titles, cat: categories.
+  # The collector should combine each phrase with the categories below.
+  categories:
+    - physics.optics
+    - physics.app-ph
+    - cs.NI
+    - cs.AR
+    - cs.DC
+    - eess.SP
+  phrases:
+    - "optical circuit switch"
+    - "optical circuit switching"
+    - "MEMS optical switch"
+    - "silicon photonic switch"
+    - "wavelength selective switch"
+    - "piezoelectric optical switch"
+    - "thermo-optic switch"
+    - "optical cross-connect"
+    - "reconfigurable datacenter network"
+    - "optical interconnect machine learning training"
+
+# Known works to fetch by title so snowballing starts from the right places.
+# Every one of these must be found by search, not assumed. If a title does not resolve,
+# log it in pitfalls.md and move on. Do not invent an ID.
+anchors:
+  - "Mission Apollo: Landing Optical Circuit Switching at Datacenter Scale"
+  - "Jupiter Evolving: Transforming Google's Datacenter Network via Optical Circuit Switches and Software-Defined Networking"
+  - "TPU v4: An Optically Reconfigurable Supercomputer for Machine Learning with Hardware Support for Embeddings"
+  - "Lightwave Fabrics: At-Scale Optical Circuit Switching for Datacenter and Machine Learning Systems"
+  - "Sirius: A Flat Datacenter Network with Nanosecond Optical Switching"
+  - "RotorNet: A Scalable, Low-complexity, Optical Datacenter Network"
+  - "Expanding across time to deliver bandwidth efficiency and low latency"
+  - "Helios: A Hybrid Electrical/Optical Switch Architecture for Modular Data Centers"
+  - "c-Through: Part-time Optics in Data Centers"
+  - "ProjecToR: Agile Reconfigurable Data Center Interconnect"
+  - "TopoOpt: Co-optimizing Network Topology and Parallelization Strategy for Distributed Training Jobs"
+  - "Large-scale broadband digital silicon photonic switches with vertical adiabatic couplers"
+  - "1100 x 1100 port MEMS-based optical crossconnect with 4-dB maximum loss"
+
+snowball:
+  top_n: 10                # seed papers: score 3, highest cited_by_count
+  max_new_records: 150
+  directions: [referenced_works, cited_by]
