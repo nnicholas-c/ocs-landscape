@@ -1,0 +1,1598 @@
+author_id,author,institution,core_paper_count,extended_paper_count,degree,betweenness,tech_routes,adjacent_field,sample_paper_ids
+A5100669891,Ming C. Wu,"University of California, Berkeley",24,27,58,0.035771,mems_2d;mems_silicon_photonic;unclear,mems_micromirror;telecom_oxc_roadm,W1515664994;W1653883346;W1945545782;W1976569985;W1982681165
+A5085789636,Tae Joon Seok,"University of California, Berkeley",19,19,26,0.000958,mems_silicon_photonic;unclear,,W1515664994;W1945545782;W1976569985;W1982681165;W2186858051
+A5064591043,Niels Quack,École Polytechnique Fédérale de Lausanne,16,16,32,0.014096,mems_silicon_photonic,,W1945545782;W1976569985;W1982681165;W2186858051;W2226395753
+A5073485923,Sangyoon Han,"University of California, Berkeley",16,16,20,0.000508,mems_silicon_photonic;unclear,,W1515664994;W1945545782;W1976569985;W1982681165;W2186858051
+A5073987024,R.S. Muller,"University of California, Berkeley",13,13,23,0.000755,mems_silicon_photonic;unclear,,W1515664994;W1945545782;W2186858051;W2257494936;W2260723393
+A5048395151,Keijiro Suzuki,National Institute of Advanced Industrial Science and Technology,12,12,31,6.2e-05,thermo_optic;unclear,silicon_photonics,W2088068353;W2324604385;W2810918131;W2889030337;W2968922880
+A5080891126,Nicola Calabretta,Eindhoven University of Technology,11,11,50,0.033323,architecture_only;soa;unclear,silicon_photonics,W2164698118;W2294810677;W2490598172;W2592504242;W2735125579
+A5065583266,Shu Namiki,National Institute of Advanced Industrial Science and Technology,11,12,33,0.000121,architecture_only;thermo_optic;unclear,silicon_photonics;telecom_oxc_roadm,W2088068353;W2324604385;W2581603380;W2810918131;W2889030337
+A5044456154,Kazuhiro Ikeda,National Institute of Advanced Industrial Science and Technology,11,11,23,2.7e-05,thermo_optic;unclear,silicon_photonics,W2324604385;W2810918131;W2889030337;W2968922880;W3009983062
+A5001604903,George C. Papen,University of California San Diego,10,10,46,0.022373,architecture_only;lcos;mems_3d;mems_silicon_photonic;unclear,,W2002555923;W2074285614;W2119638333;W2141911769;W2151668565
+A5081695392,Keren Bergman,Columbia University,10,12,36,0.037728,architecture_only;electro_optic;unclear,,W1970579225;W2062631387;W2171830950;W2575526897;W2807234289
+A5044560248,Hitoshi Kawashima,National Institute of Advanced Industrial Science and Technology,10,10,34,0.000126,thermo_optic;unclear,silicon_photonics,W1985329895;W2017873014;W2088068353;W2324604385;W2810918131
+A5075238724,Ken-ichi Sato,Nagoya University,10,10,17,0.00012,architecture_only;other;thermo_optic;unclear,,W2024436451;W2792328579;W2807655209;W2810918131;W2909415593
+A5044981310,Georgios Zervas,University of Bristol,9,10,49,0.014772,architecture_only;piezo;soa,,W2068954499;W2294810677;W2534962717;W2913395450;W2948174331
+A5050245571,Amin M. Vahdat,Google (United States),9,9,43,0.01811,architecture_only;lcos;mems_3d;unclear,,W2002555923;W2074285614;W2119638333;W2141911769;W2151668565
+A5053471164,George Porter,University of California San Diego,8,8,25,0.001476,architecture_only;lcos;mems_3d;unclear,,W2002555923;W2074285614;W2119638333;W2141911769;W2151668565
+A5074335209,Xuwei Xue,Eindhoven University of Technology,8,8,25,0.004964,architecture_only;soa;unclear,,W2912886516;W3036907365;W3203666589;W3208402115;W4220911475
+A5048122574,Ryotaro Konoike,National Institute of Advanced Industrial Science and Technology,8,8,11,4e-06,thermo_optic;unclear,silicon_photonics,W2889030337;W2968922880;W3009983062;W3094530140;W3119039973
+A5054716038,Qixiang Cheng,University of Cambridge,7,8,19,0.021243,architecture_only;electro_optic;soa;unclear,telecom_oxc_roadm,W1989460122;W1997754090;W2007654061;W2062054310;W2807234289
+A5085125488,Johannes Henriksson,"University of California, Berkeley",7,8,19,0.000999,mems_silicon_photonic;unclear,mems_micromirror,W2786734285;W2800201100;W2919451605;W2937088522;W2979824403
+A5076037279,Hiroyuki Matsuura,National Institute of Advanced Industrial Science and Technology,7,7,14,5e-06,thermo_optic;unclear,,W2324604385;W2810918131;W2889030337;W2968922880;W3119039973
+A5084463335,Satoshi Suda,National Institute of Advanced Industrial Science and Technology,6,6,29,5.2e-05,thermo_optic;unclear,,W1985329895;W2088068353;W2324604385;W2889030337;W2968922880
+A5066879984,Alex Forencich,University of California San Diego,6,6,28,0.006411,architecture_only;lcos;mems_silicon_photonic;unclear,,W2002555923;W2074285614;W2151668565;W2177488376;W2581695752
+A5077652976,Benjamin G. Lee,IBM (United States),6,6,26,0.007649,electro_optic;thermo_optic;unclear,,W1558865741;W1983164798;W2002341618;W2015534895;W2070900489
+A5100319236,Huan Li,Jiaxing University,6,6,24,0.004537,mems_silicon_photonic;other,,W2905370602;W4378770566;W4385800727;W4402905306;W4406015850
+A5079125349,William M. J. Green,IBM (United States),6,6,23,0.001509,electro_optic;unclear,,W1558865741;W2002341618;W2015534895;W2049132385;W2070900489
+A5049804700,Madeleine Strom Glick,Columbia University,5,6,35,0.018797,architecture_only;other,,W2486960733;W2996556490;W3188706325;W4223926670;W823246061
+A5090286684,Clint L. Schow,IBM (United States),5,5,26,0.007649,electro_optic;unclear,,W1558865741;W1983164798;W2002341618;W2015534895;W2070900489
+A5015288655,Yurii A. Vlasov,IBM (United States),5,5,20,0.001068,electro_optic;unclear,,W2002341618;W2015534895;W2049132385;W2070900489;W2094700182
+A5041370047,Daoxin Dai,Jiaxing University,5,7,19,0.015632,mems_silicon_photonic,silicon_photonics,W3115038226;W4385800727;W4402905306;W4406015850;W4414694752
+A5109630310,Yinpeng Hu,Zhejiang University,5,5,19,0.001524,mems_silicon_photonic,,W4378770566;W4385800727;W4402905306;W4406015850;W4414694752
+A5008411562,Nathan Farrington,University of California San Diego,5,5,14,9e-06,architecture_only;lcos;unclear,,W2002555923;W2074285614;W2119638333;W2141911769;W2151668565
+A5030452789,Yeshaiahu Fainman,University of California San Diego,5,5,14,9e-06,architecture_only;lcos;unclear,,W2002555923;W2074285614;W2119638333;W2141911769;W2151668565
+A5101558754,Yojiro Mori,Nagoya University,5,5,14,3.1e-05,other;thermo_optic;unclear,,W2807655209;W2810918131;W2909415593;W3119039973;W3164101439
+A5060956623,Kyungmok Kwon,"University of California, Berkeley",5,6,13,6e-06,mems_silicon_photonic;unclear,mems_micromirror,W2800201100;W2919451605;W2937088522;W2979824403;W4226451033
+A5070672314,Fulong Yan,Eindhoven University of Technology,5,5,13,1.1e-05,architecture_only,,W2490598172;W2735125579;W3036907365;W3203666589;W3208402115
+A5060211883,Joseph E. Ford,University of California San Diego,5,5,12,0.001904,lcos;mems_3d;unclear,telecom_oxc_roadm,W2002555923;W2074285614;W2098514595;W2108251206;W2560361359
+A5008627694,Richard V. Penty,University of Cambridge,5,5,11,0.000371,electro_optic;soa;unclear,telecom_oxc_roadm,W1989460122;W1997754090;W2007654061;W2056973550;W2062054310
+A5026880270,Ian H. White,University of Cambridge,5,5,11,0.000371,electro_optic;soa;unclear,telecom_oxc_roadm,W1989460122;W1997754090;W2007654061;W2056973550;W2062054310
+A5077699824,A. Wonfor,University of Cambridge,5,5,11,0.000371,electro_optic;soa;unclear,telecom_oxc_roadm,W1989460122;W1997754090;W2007654061;W2056973550;W2062054310
+A5030580652,Dimitra E. Simeonidou,University of Bristol,4,5,46,0.002248,architecture_only,,W2068954499;W2164698118;W2294810677;W2534962717
+A5089191370,Bingli Guo,Beijing University of Posts and Telecommunications,4,4,29,0.001981,architecture_only;soa,,W2294810677;W2534962717;W4281958713;W4285084333
+A5008460825,Ken Tanizawa,National Institute of Advanced Industrial Science and Technology,4,4,27,4e-05,thermo_optic;unclear,,W2088068353;W2324604385;W2810918131;W834513743
+A5100438001,Kai Chen,Hong Kong University of Science and Technology,4,4,27,0.00895,architecture_only,,W1979673782;W2141810662;W2174784067;W4413757104
+A5037362554,Pierre‐Alexandre Blanche,University of Arizona,4,4,19,0.008588,mems_2d;other,,W1990200961;W2065747405;W2486960733;W2605844474
+A5112374338,Solomon Assefa,IBM (United States),4,4,19,0.000768,electro_optic;unclear,,W2002341618;W2015534895;W2070900489;W2094700182
+A5012292876,Sébastien Rumley,Columbia University,4,6,16,0.012314,architecture_only;electro_optic;unclear,,W2062631387;W2575526897;W2807234289;W4223926670
+A5033046567,Jun Su Lee,University College Cork,4,4,16,0.000221,mems_silicon_photonic,,W2581695752;W2615050161;W2786734285;W2919451605
+A5070335217,How Yuan Hwang,University College Cork,4,4,16,0.000221,mems_silicon_photonic,,W2581695752;W2615050161;W2786734285;W2919451605
+A5075325244,Shizhen Zhao,Shanghai Jiao Tong University,4,4,16,0.014206,architecture_only,,W3091342457;W4200142051;W4365790307;W4401176556
+A5024934670,Kristif Prifti,Eindhoven University of Technology,4,4,15,0.002334,architecture_only;soa;unclear,silicon_photonics,W2592504242;W2912886516;W3036907365;W3203666589
+A5105940581,Kevin A. Williams,Eindhoven University of Technology,4,4,14,0.026838,soa;thermo_optic;unclear,silicon_photonics,W1989769976;W2039715757;W2056973550;W2592504242
+A5086802834,Bitao Pan,Eindhoven University of Technology,4,4,13,0.00042,architecture_only;soa,,W2912886516;W3036907365;W3203666589;W3208402115
+A5112187957,Jianheng Luo,"University of California, Berkeley",4,5,10,2e-06,mems_silicon_photonic;unclear,mems_micromirror,W2800201100;W2937088522;W2979824403;W4226451033
+A5020384355,Joshua Benjamin,University College London,4,4,7,4e-06,architecture_only;soa,,W2970534079;W3006394648;W4226369700;W4323644257
+A5047825950,Eiji Oki,Kyoto University,4,4,7,2e-06,architecture_only,,W4399846465;W4401751711;W4413217623;W7168289392
+A5060173388,Kazuhiro Hane,Tohoku University,4,4,5,7e-06,mems_silicon_photonic,,W1965253111;W2032418282;W2082515684;W2089069546
+A5064387445,Michal Štepanovský,Czech Technical University in Prague,4,4,1,0.0,mems_3d;unclear,,W2343971467;W2529948110;W2795355622;W2914521323
+A5102770958,John Edward Bowers,"University of California, Santa Barbara",3,9,62,0.063468,architecture_only;mems_3d;unclear,silicon_photonics,W1982772673;W2008366783;W2331688183
+A5055647062,Wim Bogaerts,Ghent University,3,10,47,0.026672,mems_silicon_photonic,silicon_photonics,W3097557698;W3139267661;W4211023690
+A5090479355,Joris Van Campenhout,IMEC,3,5,41,0.027435,electro_optic;unclear,silicon_photonics,W2002341618;W2015534895;W2094700182
+A5024590871,Reza Nejabati,University of Bristol,3,3,36,0.00049,architecture_only,,W2164698118;W2294810677;W2534962717
+A5091401986,Salvatore Spadaro,Universitat Politècnica de Catalunya,3,3,36,0.00049,architecture_only,,W2164698118;W2294810677;W2534962717
+A5082727015,David T. Neilson,Nokia (United States),3,4,31,0.018694,mems_3d;unclear,silicon_photonics;telecom_oxc_roadm,W2040047675;W2138361600;W4308917574
+A5052966628,Peter A. O'Brien,University College Cork,3,4,30,0.036703,mems_silicon_photonic,silicon_photonics,W2581695752;W2615050161;W2786734285
+A5051272349,Cedric Fung Lam,Google (United States),3,5,28,0.003829,architecture_only;mems_3d;unclear,dc_network_systems,W4292950821;W4377082743;W4386365418
+A5023888839,Guangwei Cong,National Institute of Advanced Industrial Science and Technology,3,3,24,1.7e-05,thermo_optic,,W2017873014;W2088068353;W834513743
+A5078473339,Nick Parsons,Polatis (United Kingdom),3,3,23,0.002518,architecture_only;piezo,,W2591729902;W2913395450;W2948174331
+A5012145721,Daniel N. Nelson,Google (United States),3,3,22,0.000317,architecture_only;mems_3d;unclear,,W4292950821;W4377082743;W4386365418
+A5038773896,Erji Mao,Google (United States),3,3,22,0.000317,architecture_only;mems_3d;unclear,,W4292950821;W4377082743;W4386365418
+A5043682858,Roy Bannon,Google (United States),3,3,22,0.000317,architecture_only;mems_3d;unclear,,W4292950821;W4377082743;W4386365418
+A5065407337,Ryohei Urata,Google (United States),3,3,22,0.000317,architecture_only;mems_3d;unclear,,W4292950821;W4377082743;W4386365418
+A5087954830,Kevin Y. Yasumura,Google (United States),3,3,22,0.000317,architecture_only;mems_3d;unclear,,W4292950821;W4377082743;W4386365418
+A5103185978,Jill Berger,Google (United States),3,3,22,0.000317,architecture_only;mems_3d;unclear,,W4292950821;W4377082743;W4386365418
+A5004850979,Alexander V. Rylyakov,IBM (United States),3,3,21,0.001201,electro_optic;unclear,,W1558865741;W2002341618;W2070900489
+A5058729992,Manya Ghobadi,Moscow Institute of Thermal Technology,3,4,20,0.023806,architecture_only,dc_network_systems,W2810723790;W3188706325;W4223926670
+A5020112185,Lane Ochikubo,Taiwan Semiconductor Manufacturing Company (United States),3,3,13,5.6e-05,mems_silicon_photonic,,W2800201100;W2979824403;W3138799074
+A5022829828,Min Yee Teh,Columbia University,3,3,13,0.003066,architecture_only,,W3091342457;W4223926670;W4365790307
+A5109956138,J. R. Jacobs,Taiwan Semiconductor Manufacturing Company (United States),3,3,13,5.6e-05,mems_silicon_photonic,,W2800201100;W2979824403;W3138799074
+name:stabile r,R. Stabile,Eindhoven University of Technology,3,3,13,0.016428,soa;thermo_optic;unclear,telecom_oxc_roadm,W1989460122;W2039715757;W2912886516
+A5002194441,Kishore Ramachandran,Princeton University,3,3,12,0.000906,architecture_only,,W2017036528;W2141810662;W2174784067
+A5054293016,Ankit Singla,University of Illinois Urbana-Champaign,3,3,12,0.000906,architecture_only,,W2017036528;W2141810662;W2174784067
+A5103202133,Nicolas Dupuis,IBM (United States),3,3,12,3.8e-05,electro_optic;thermo_optic;unclear,,W1558865741;W1983164798;W2896156020
+A5008851251,Pierre Edinger,KTH Royal Institute of Technology,3,3,11,4e-06,mems_silicon_photonic,,W3097557698;W3139267661;W4211023690
+A5018087899,Xiaotao Guo,Eindhoven University of Technology,3,3,11,2e-06,architecture_only,,W3036907365;W3203666589;W3208402115
+A5027030035,Kristinn B. Gylfason,KTH Royal Institute of Technology,3,3,11,4e-06,mems_silicon_photonic,,W3097557698;W3139267661;W4211023690
+A5032429800,Shaojuan Zhang,Eindhoven University of Technology,3,3,11,3e-06,architecture_only;soa,,W3036907365;W3203666589;W4220911475
+A5069019085,Alain Yuji Takabayashi,École Polytechnique Fédérale de Lausanne,3,3,11,4e-06,mems_silicon_photonic,,W3097557698;W3139267661;W4211023690
+A5075120727,T. S. Eugene Ng,Rice University,3,3,11,0.00145,architecture_only,,W2097926925;W3195562526;W823246061
+A5101521858,Meisam Bahadori,Columbia University,3,4,11,1.1e-05,architecture_only;unclear,,W2807234289;W2938572472;W2996556490
+A5055995170,Abhinav Rohit,Eindhoven University of Technology,3,3,10,0.006057,soa;thermo_optic;unclear,telecom_oxc_roadm,W1989460122;W1989769976;W2039715757
+A5059914722,Lloyd LaComb,University of Arizona,3,3,10,0.001418,mems_2d;other,,W1990200961;W2065747405;W2605844474
+A5008158622,Linjie Zhou,Shanghai Jiao Tong University,3,3,9,3e-06,electro_optic;thermo_optic,,W2335273496;W2974096969;W4378650891
+A5066816626,Takashi Inoue,National Institute of Advanced Industrial Science and Technology,3,3,9,5e-06,architecture_only;thermo_optic,,W2581603380;W3119039973;W4298339091
+A5070612714,Peirui Cao,Shanghai Jiao Tong University,3,3,9,0.000671,architecture_only,,W3091342457;W4200142051;W4365790307
+A5073876921,Liangjun Lu,Shanghai Jiao Tong University,3,3,9,3e-06,electro_optic;thermo_optic,,W2335273496;W2974096969;W4378650891
+A5088714594,Hamed Sattari,École Polytechnique Fédérale de Lausanne,3,3,9,0.000253,mems_silicon_photonic,,W2918631369;W3097557698;W3139267661
+A5100437532,Jianping Chen,Shanghai Jiao Tong University,3,3,9,3e-06,electro_optic;thermo_optic,,W2335273496;W2974096969;W4378650891
+A5111024060,Ye Lu,Zhejiang University,3,3,9,2.3e-05,mems_silicon_photonic,,W4385800727;W4402905306;W4406015850
+A5047305204,Chao Xu,University of Science and Technology of China,3,3,8,2e-06,architecture_only,,W2885686227;W2982606503;W3129609980
+A5067465324,Haisheng Tan,University of Science and Technology of China,3,3,8,2e-06,architecture_only,,W2885686227;W2982606503;W3129609980
+A5091174118,William Maxwell Mellette,University of California San Diego,3,3,8,0.000279,architecture_only;mems_3d,,W2108251206;W2560361359;W2934098931
+A5100341802,Xiang‐Yang Li,University of Science and Technology of China,3,3,8,2e-06,architecture_only,,W2885686227;W2982606503;W3129609980
+A5081996202,Takeru Inoue,NTT (Japan),3,3,7,2e-06,architecture_only,,W4399846465;W4401751711;W4413217623
+A5016083141,Michaël Ménard,École de Technologie Supérieure,3,3,6,1e-06,mems_silicon_photonic,,W2956148226;W4281560993;W4387805823
+A5032771500,Kazuya Anazawa,Kyoto University,3,3,6,0.0,architecture_only,,W4399846465;W4413217623;W7168289392
+A5058919102,Frédéric Nabki,École de Technologie Supérieure,3,3,6,1e-06,mems_silicon_photonic,,W2956148226;W4281560993;W4387805823
+A5100749370,Suraj Sharma,École de Technologie Supérieure,3,3,6,1e-06,mems_silicon_photonic,,W2956148226;W4281560993;W4387805823
+A5077899795,Malathi Veeraraghavan,University of Virginia,3,3,5,7e-06,architecture_only,,W2316851065;W2626250922;W2884318141
+A5066080641,Stefan Schmid,Technische Universität Berlin,3,3,4,0.00121,architecture_only,dc_network_systems,W2810723790;W4322756647;W4410343081
+A5091022453,Ivan Plander,Evropský Polytechnický Institut,3,3,1,0.0,mems_3d;unclear,,W2343971467;W2529948110;W2795355622
+A5014941264,Giacomo Bernini,Nextworks (Italy),2,2,33,0.000266,architecture_only,,W2164698118;W2294810677
+A5076592314,Nicola Ciulli,Nextworks (Italy),2,2,33,0.000266,architecture_only,,W2164698118;W2294810677
+A5109067486,Shuping Peng,University of Bristol,2,2,33,0.000266,architecture_only,,W2164698118;W2294810677
+A5039402468,Roberto Proietti,"University of California, Davis",2,2,28,0.001205,architecture_only;soa,,W1989361652;W2164698118
+A5100870141,Yawei Yin,"University of California, Davis",2,2,28,0.001205,architecture_only;soa,,W1989361652;W2164698118
+A5011527356,F. Pardo,Nokia (United States),2,2,27,0.001813,mems_3d,,W2138361600;W2996949883
+A5047617277,George M. Saridis,University of Bristol,2,3,26,0.001507,architecture_only,,W2068954499;W2294810677
+A5031820031,Paul R. Kolodner,Nokia (United States),2,2,25,1e-06,mems_3d,,W2040047675;W2138361600
+A5032560070,Nagesh R. Basavanhally,Nokia (United States),2,2,25,1e-06,mems_3d,,W2040047675;W2138361600
+A5032842563,Carl J. Nuzman,Nokia (United States),2,2,25,1e-06,mems_3d,,W2040047675;W2138361600
+A5037593521,Arman Gasparyan,Nokia (United States),2,2,25,1e-06,mems_3d,,W2040047675;W2138361600
+A5039773781,Robert E. Frahm,Nokia (United States),2,2,25,1e-06,mems_3d,,W2040047675;W2138361600
+A5049688771,Vladimir Aksyuk,Nokia (United States),2,2,25,1e-06,mems_3d,,W2040047675;W2138361600
+A5050207942,Norman Paul Jouppi,Google (United States),2,2,25,0.002187,architecture_only,,W4380874786;W4386365418
+A5072328343,Roland R. Ryf,unknown,2,2,25,1e-06,mems_3d,,W2040047675;W2138361600
+A5085191946,A.R. Papazian,Nokia (United States),2,2,25,1e-06,mems_3d,,W2040047675;W2138361600
+A5086983172,John V. Gates II,unknown,2,2,25,1e-06,mems_3d,,W2040047675;W2138361600
+A5091861127,Cristian Bolle,Nokia (United States),2,2,25,1e-06,mems_3d,,W2040047675;W2138361600
+A5100395028,Yan Yan,University of Bristol,2,2,25,0.001371,architecture_only,,W2068954499;W2294810677
+A5100765709,Sheng Li,Google (United States),2,2,25,0.002187,architecture_only,,W4380874786;W4386365418
+A5102871836,Xiang Zhou,Google (United States),2,2,25,0.002187,architecture_only,,W4380874786;W4386365418
+A5027728061,Yashe Liu,Huawei Technologies (China),2,2,23,0.009503,architecture_only;other,,W4390032166;W4401176556
+A5008089778,Saurabh Jain,University of Southampton,2,2,21,0.000975,architecture_only;piezo,,W2068954499;W2591729902
+A5073142416,David John Richardson,University of Southampton,2,2,21,0.000975,architecture_only;piezo,,W2068954499;W2591729902
+A5048030147,Yaocheng Shi,Jiaxing University,2,3,20,0.001722,mems_silicon_photonic,silicon_photonics,W4406015850;W4414694752
+A5018306500,Xin M. Tu,Huawei Technologies (China),2,2,19,0.013535,mems_silicon_photonic;thermo_optic,,W2758695468;W2909208749
+A5074065196,Craig B. Stunkel,IBM (United States),2,2,18,0.007165,architecture_only,,W2116377381;W2319613051
+A5101591279,Yi Shu,University of Bristol,2,2,18,4.1e-05,architecture_only,,W2068954499;W2534962717
+A5000796744,Daniel Cletheroe,Microsoft Research (United Kingdom),2,2,16,1e-06,other;soa,,W3046344355;W3093967660
+A5001754778,Benn Charles Thomsen,Microsoft Research (United Kingdom),2,2,16,1e-06,other;soa,,W3046344355;W3093967660
+A5045719605,Fotini Karinou,Microsoft Research (United Kingdom),2,2,16,1e-06,other;soa,,W3046344355;W3093967660
+A5049956137,Steffen Gloeckner,Omron (Japan),2,2,16,0.007206,mems_2d,,W1653883346;W2089755139
+A5054801174,Sophie Lange,Microsoft Research (United Kingdom),2,2,16,1e-06,other;soa,,W3046344355;W3093967660
+A5058374672,Kai Shi,Microsoft Research (United Kingdom),2,2,16,1e-06,other;soa,,W3046344355;W3093967660
+A5062099538,Peter De Dobbelaere,Omron (Japan),2,2,16,0.013715,architecture_only;mems_2d,,W2089755139;W2948174331
+A5073704424,Raphael Behrendt,Microsoft Research (United Kingdom),2,2,16,1e-06,other;soa,,W3046344355;W3093967660
+A5074652168,Daniel M. Kuchta,IBM (United States),2,2,16,3e-06,electro_optic,,W1558865741;W2070900489
+A5087216360,Paolo Costa,Microsoft Research (United Kingdom),2,2,16,1e-06,other;soa,,W3046344355;W3093967660
+A5087561550,Christian W. Baks,IBM (United States),2,2,16,3e-06,electro_optic,,W1558865741;W2070900489
+A5087792867,Krzysztof Jóźwik,Microsoft Research (United Kingdom),2,2,16,1e-06,other;soa,,W3046344355;W3093967660
+A5090179071,Hitesh Ballani,Microsoft Research (United Kingdom),2,2,16,1e-06,other;soa,,W3046344355;W3093967660
+A5091400342,Istvan Haller,Microsoft Research (United Kingdom),2,2,16,1e-06,other;soa,,W3046344355;W3093967660
+A5100607639,Wang Miao,Eindhoven University of Technology,2,2,16,4.4e-05,architecture_only,,W2294810677;W2490598172
+A5110944718,Susant K. Patra,Omron (Japan),2,2,16,0.007206,mems_2d,,W1653883346;W2089755139
+A5007514853,Meishoku Masahara,National Institute of Advanced Industrial Science and Technology,2,2,15,1e-06,thermo_optic,,W2017873014;W2088068353
+A5035175491,T. Chiba,National Institute of Advanced Industrial Science and Technology,2,2,15,1e-06,thermo_optic,,W2017873014;W2088068353
+A5039263736,Hirofumi Tadokoro,National Institute of Advanced Industrial Science and Technology,2,2,15,1e-06,thermo_optic,,W2017873014;W2088068353
+A5071147171,Morifumi Ohno,National Institute of Advanced Industrial Science and Technology,2,2,15,1e-06,thermo_optic,,W2017873014;W2088068353
+A5072734076,Masashi Yanagihara,National Institute of Advanced Industrial Science and Technology,2,2,15,1e-06,thermo_optic,,W2017873014;W2088068353
+A5077152186,Yasushi Igarashi,National Institute of Advanced Industrial Science and Technology,2,2,15,1e-06,thermo_optic,,W2017873014;W2088068353
+A5090411416,Darren Lenard Hutchinson,Google (United States),2,2,15,0.0,mems_3d;unclear,,W4292950821;W4377082743
+A5100729078,Takashi Matsukawa,National Institute of Advanced Industrial Science and Technology,2,2,15,1e-06,thermo_optic,,W2017873014;W2088068353
+A5101809652,Xiang Zhou,Google (United States),2,2,15,0.0,mems_3d;unclear,,W4292950821;W4377082743
+A5112039747,Joon Suan Ong,Google (United States),2,2,15,0.0,mems_3d;unclear,,W4292950821;W4377082743
+A5112776179,Leon Poutievski,Google (United States),2,2,15,0.0,mems_3d;unclear,,W4292950821;W4377082743
+A5028092138,Michael Enrico,Polatis (United Kingdom),2,2,14,7.8e-05,architecture_only;piezo,,W2913395450;W2948174331
+A5034922871,Daniel C. Kilper,University of Arizona,2,2,14,0.003013,architecture_only;other,,W2486960733;W3032344992
+A5061044862,Hiroshi Ishikawa,National Institute of Advanced Industrial Science and Technology,2,2,14,8e-06,thermo_optic,,W1985329895;W2017873014
+A5026849577,Hannah R. Grant,University of California San Diego,2,2,12,0.0,mems_silicon_photonic,,W2581695752;W2615050161
+A5029890607,Alex C. Snoeren,University of California San Diego,2,2,12,0.000461,architecture_only,,W2177488376;W2934098931
+A5036272735,Knutson Dylan,University of California San Diego,2,2,12,0.0,mems_silicon_photonic,,W2581695752;W2615050161
+A5077866603,Laurent Schares,IBM (United States),2,2,12,0.010663,architecture_only;unclear,,W1983164798;W2319613051
+A5101825057,Shigeru Nakamura,NEC (Japan),2,3,12,0.002711,thermo_optic;unclear,silicon_photonics;telecom_oxc_roadm,W2062193700;W2066110041
+A5021949776,Yuanzhi Guo,Beijing University of Posts and Telecommunications,2,2,11,2e-06,architecture_only;soa,,W4281958713;W4285084333
+A5028994781,Christopher V. Jahnes,IBM (United States),2,2,11,0.0,electro_optic;unclear,,W2002341618;W2015534895
+A5058181036,Shanguo Huang,Beijing University of Posts and Telecommunications,2,2,11,2e-06,architecture_only;soa,,W4281958713;W4285084333
+A5074072089,Byungwook Yoo,"University of California, Berkeley",2,4,11,0.000317,mems_silicon_photonic,mems_micromirror,W1982681165;W2226395753
+A5100324278,Liu Liu,Jiaxing University,2,2,11,2e-06,mems_silicon_photonic,,W4406015850;W4414694752
+A5102512433,Yisong Zhao,Beijing University of Posts and Telecommunications,2,2,11,2e-06,architecture_only;soa,,W4281958713;W4285084333
+A5111451564,J. A. Kash,IBM (United States),2,2,11,0.0,electro_optic;unclear,,W2002341618;W2015534895
+A5111731894,Fuad E. Doany,IBM (United States),2,2,11,0.0,electro_optic;unclear,,W2002341618;W2015534895
+A5007221134,Dessislava Nikolova,Columbia University,2,3,10,0.000224,electro_optic;unclear,,W2062631387;W2575526897
+A5043326474,David M. Calhoun,Columbia University,2,3,10,0.000224,electro_optic;unclear,,W2062631387;W2575526897
+A5069836185,Nathan Abrams,Columbia University,2,2,10,1e-05,architecture_only;unclear,,W2938572472;W2996556490
+A5070926330,Peter Verheyen,IMEC,2,2,10,1e-06,mems_silicon_photonic,,W3139267661;W4211023690
+A5103059444,Yishen Huang,Columbia University,2,2,10,1e-05,architecture_only;unclear,,W2938572472;W2996556490
+A5110587167,Tomoyuki Hino,NEC (Japan),2,2,10,0.001501,thermo_optic;unclear,telecom_oxc_roadm,W2062193700;W2066110041
+A5005483563,Chang‐Kyu Kim,"University of California, Berkeley",2,2,9,0.0,mems_silicon_photonic;unclear,,W2951487609;W3138799074
+A5024119016,Kyoungsik Yu,Korea Advanced Institute of Science and Technology,2,2,9,0.0,mems_silicon_photonic,,W2782897921;W3138799074
+A5034006615,Mungun-Erdene Ganbold,Nagoya University,2,2,9,0.0,unclear,,W2810918131;W2909415593
+A5052622410,Konstantina Papagiannaki,Intel (United States),2,2,9,0.00024,architecture_only,,W2097926925;W823246061
+A5052885090,Michael J Kaminsky,Intel (United States),2,2,9,0.00024,architecture_only,,W2097926925;W823246061
+A5068719520,Michael A. Kozuch,Intel (United States),2,2,9,0.00024,architecture_only,,W2097926925;W823246061
+A5085479490,David G. Andersen,Carnegie Mellon University,2,2,9,0.00024,architecture_only,,W2097926925;W823246061
+A5100732962,Atul Kumar Singh,Princeton University,2,2,9,1e-06,architecture_only,,W2141810662;W2174784067
+A5101482092,Yueping Zhang,Princeton University,2,2,9,1e-06,architecture_only,,W2141810662;W2174784067
+A5103563323,Xitao Wen,Northwestern University,2,2,9,1e-06,architecture_only,,W2141810662;W2174784067
+A5010907266,John Wissinger,University of Arizona,2,2,8,0.0,other,,W1990200961;W2065747405
+A5033649899,Yinan Tang,Beijing University of Posts and Telecommunications,2,2,8,4e-06,architecture_only,,W2903019116;W3186645739
+A5034483183,Xinbing Wang,Shanghai Jiao Tong University,2,2,8,0.0,architecture_only,,W4200142051;W4365790307
+A5036843159,Nasser N. Peyghambarian,University of Arizona,2,2,8,0.0,other,,W1990200961;W2065747405
+A5037542877,Daniel N. Carothers,Texas Instruments (United States),2,2,8,0.0,other,,W1990200961;W2065747405
+A5037876302,Brittany Lynn,University of Arizona,2,2,8,0.0,other,,W1990200961;W2065747405
+A5042100540,Tongtong Yuan,Beijing University of Posts and Telecommunications,2,2,8,4e-06,architecture_only,,W2903019116;W3186645739
+A5046026372,Tsuyoshi Yamamoto,NTT (Japan),2,2,8,1.1e-05,mems_3d;other,,W2121095819;W3041044413
+A5072896246,Ryosuke Matsumoto,National Institute of Advanced Industrial Science and Technology,2,2,8,0.0,thermo_optic,,W3119039973;W4298339091
+A5075427447,Robert A. Norwood,University of Arizona,2,2,8,0.0,other,,W1990200961;W2065747405
+A5050206264,Mitsuhiro Makihara,NTT (Japan),2,2,7,6e-06,mems_3d;robotic_patch_panel,,W2073240697;W3041044413
+A5079187639,Payman Samadi,Columbia University,2,2,7,2e-06,architecture_only;electro_optic,,W1970579225;W2062631387
+A5091113379,Olav Solgaard,Stanford University,2,2,7,0.003013,unclear,mems_micromirror;telecom_oxc_roadm,W2098514595;W2159513073
+A5100334823,Yupeng Li,Hong Kong Baptist University,2,2,7,1e-06,architecture_only,,W2982606503;W3129609980
+A5101757049,Peng Deng,Pennsylvania State University,2,2,7,1.6e-05,architecture_only;mems_3d,,W2583039042;W2792477041
+A5102003243,Wei Gao,Shanghai Jiao Tong University,2,2,7,1e-06,thermo_optic,,W2974096969;W4378650891
+A5010414057,Yunzhi Liu,Zhejiang University,2,2,6,0.0,mems_silicon_photonic,,W4385800727;W4402905306
+A5023464420,Toru Mano,NTT (Japan),2,2,6,0.0,architecture_only,,W4399846465;W4413217623
+A5100458193,Chi Zhang,University of Science and Technology of China,2,2,6,0.0,architecture_only,,W2885686227;W2982606503
+A5101725869,Hiroshi Hasegawa,Nagoya University,2,2,6,2e-06,other,,W2024436451;W2807655209
+A5051960468,M. Kavehrad,Pennsylvania State University,2,2,5,0.0,architecture_only;mems_3d,,W2583039042;W2775765784
+A5059463562,Tao Chu,Chinese Academy of Sciences,2,2,5,5e-06,electro_optic;thermo_optic,,W2053780865;W2587610600
+A5063555231,S. J. Ben Yoo,"University of California, Davis",2,2,5,0.0,soa;unclear,,W1989361652;W4205819848
+A5066408160,Ryotaro Taniguchi,Kyoto University,2,2,5,0.0,architecture_only,,W4413217623;W7168289392
+A5100607642,Wang Miao,Eindhoven University of Technology,2,2,5,0.000101,architecture_only;unclear,silicon_photonics,W2592504242;W2735125579
+A5118983676,Wencong Zhang,"University of California, Berkeley",2,2,5,0.0,mems_silicon_photonic,,W1945545782;W2186858051
+A5002365357,Jonathan Brière,Active Ethernet Passive Optical Networks Over λ MultipleXing (Canada),2,2,4,0.0,mems_silicon_photonic,,W2956148226;W4281560993
+A5008149746,Christopher W. F. Parsonson,Network Group (Czechia),2,2,4,0.0,architecture_only,,W4226369700;W4323644257
+A5030708793,Niharika Kohli,CMC Microsystems (Canada),2,2,4,0.0,mems_silicon_photonic,,W2956148226;W4281560993
+A5066976800,Tsubasa Ishikawa,Kagawa University,2,2,4,0.0,lcos;mems_3d,,W3034334810;W3215039088
+A5067816297,Takahiro Kodama,Kagawa University,2,2,4,0.0,lcos;mems_3d,,W3034334810;W3215039088
+A5073805584,Masahiko Jinno,Kagawa University,2,2,4,0.0,lcos;mems_3d,,W3034334810;W3215039088
+A5079573429,Ioannis Tomkos,University of Patras,2,2,4,0.000606,architecture_only;unclear,telecom_oxc_roadm,W2022337631;W4308917574
+A5015039354,Weisheng Hu,Shanghai Jiao Tong University,2,2,3,0.0,architecture_only,,W2316851065;W2626250922
+A5046298844,Xiao Lin,Shanghai Jiao Tong University,2,2,3,0.0,architecture_only,,W2316851065;W2626250922
+A5064217355,Haiying Shen,University of Virginia,2,2,3,4e-06,architecture_only,,W2884318141;W2982290016
+A5101703557,Weiqiang Sun,Shanghai Jiao Tong University,2,2,3,0.0,architecture_only,,W2316851065;W2626250922
+A5010846539,Chen Avin,Ben-Gurion University of the Negev,2,2,2,0.0,architecture_only,,W4322756647;W4410343081
+A5051730914,R. A. Spanke,AT&T (United States),2,2,1,0.0,unclear,,W2051201523;W2113209593
+A5059643393,Graham T. Reed,University of Southampton,1,4,29,0.012424,unclear,silicon_photonics,W2889455810
+A5020931770,David J. Thomson,University of Southampton,1,3,28,0.012102,unclear,silicon_photonics,W2889455810
+A5000025442,Joe S. Kraus,Nokia (United States),1,1,24,0.0,mems_3d,,W2138361600
+A5001867002,Jordi Perelló,Universitat Politècnica de Catalunya,1,1,24,0.0,architecture_only,,W2164698118
+A5002022033,George Zervas,University of Bristol,1,1,24,0.0,architecture_only,,W2164698118
+A5005503334,Chris Liou,Infinera (United States),1,1,24,0.0,architecture_only,,W2164698118
+A5006837992,Sergio Ricciardi,Universitat Politècnica de Catalunya,1,1,24,0.0,architecture_only,,W2164698118
+A5007114800,M.E. Simon,Nokia (United States),1,1,24,0.0,mems_3d,,W2138361600
+A5008026936,José Carlos Sancho,Barcelona Supercomputing Center,1,1,24,0.0,architecture_only,,W2164698118
+A5008248849,Yolanda Becerra,Barcelona Supercomputing Center,1,1,24,0.0,architecture_only,,W2164698118
+A5019704063,Md. Iftekhar Hussain,Infinera (United States),1,1,24,0.0,architecture_only,,W2164698118
+A5019996910,Martin Haueis,Nokia (United States),1,1,24,0.0,mems_3d,,W2138361600
+A5023114384,Steluta Iordache,Barcelona Supercomputing Center,1,1,24,0.0,architecture_only,,W2164698118
+A5033406353,Matteo Biancani,unknown,1,1,24,0.0,architecture_only,,W2164698118
+A5040547486,Davide Careglio,Universitat Politècnica de Catalunya,1,1,24,0.0,architecture_only,,W2164698118
+A5042942818,J. Kim,Nokia (United States),1,1,24,0.0,mems_3d,,W2138361600
+A5046878537,Herbert R. Shea,Nokia (United States),1,1,24,0.0,mems_3d,,W2138361600
+A5064235328,Ho Bun Chan,Nokia (United States),1,1,24,0.0,mems_3d,,W2138361600
+A5068297037,Stefano Lucente,Eindhoven University of Technology,1,1,24,0.0,architecture_only,,W2164698118
+A5069692190,C. P. Lichtenwalner,Nokia (United States),1,1,24,0.0,mems_3d,,W2138361600
+A5070716140,Daniel F. Lieuwen,Nokia (United States),1,1,24,0.0,mems_3d,,W2138361600
+A5072945758,Susanne C. Arney,Nokia (United States),1,1,24,0.0,mems_3d,,W2138361600
+A5074100571,Bharat Kumar,Nokia (United States),1,1,24,0.0,mems_3d,,W2138361600
+A5079292482,Victor A. Lifton,Nokia (United States),1,1,24,0.0,mems_3d,,W2138361600
+A5081880288,Montse Farreras,Barcelona Supercomputing Center,1,1,24,0.0,architecture_only,,W2164698118
+A5085528783,Alessandro Predieri,unknown,1,1,24,0.0,architecture_only,,W2164698118
+A5091359511,David A. Ramsey,Nokia (United States),1,1,24,0.0,mems_3d,,W2138361600
+A5100349579,Lei Liu,"University of California, Davis",1,1,24,0.0,architecture_only,,W2164698118
+A5100402073,Yu Yu,Huazhong University of Science and Technology,1,3,24,0.010061,unclear,silicon_photonics,W2889455810
+A5102130240,Jun Luo,Eindhoven University of Technology,1,1,24,0.0,architecture_only,,W2164698118
+A5109143148,Alan A. Weiss,Nokia (United States),1,1,24,0.0,mems_3d,,W2138361600
+A5110285583,Harm S. Dorren,Eindhoven University of Technology,1,1,24,0.0,architecture_only,,W2164698118
+A5004565845,Patrick Dumais,Huawei Technologies (Canada),1,2,23,0.001196,thermo_optic,silicon_photonics,W2758695468
+A5028222893,Dominic J. Goodwill,Huawei Technologies (Canada),1,2,23,0.001196,thermo_optic,silicon_photonics,W2758695468
+A5101856185,Jia Jiang,Huawei Technologies (Canada),1,2,23,0.001196,thermo_optic,silicon_photonics,W2758695468
+A5112558035,Éric Bernier,Huawei Technologies (Canada),1,2,23,0.001196,thermo_optic,silicon_photonics,W2758695468
+A5024093604,Zhizhen Zhong,Massachusetts Institute of Technology,1,2,22,0.017489,architecture_only,dc_network_systems,W4413757104
+name:kippenberg t,Tobias J. Kippenberg,École Polytechnique Fédérale de Lausanne,1,2,20,1.8e-05,soa,silicon_photonics,W3093967660
+name:liu j,Junqiu Liu,École Polytechnique Fédérale de Lausanne,1,2,20,1.8e-05,soa,silicon_photonics,W3093967660
+name:raja a,Arslan S. Raja,École Polytechnique Fédérale de Lausanne,1,2,20,1.8e-05,soa,silicon_photonics,W3093967660
+A5023284458,Michael Hochberg,Advanced Technologies Group (United States),1,3,19,0.039012,unclear,silicon_photonics,W2575526897
+A5100458144,Xinliang Zhang,Wuhan National Laboratory for Optoelectronics,1,2,18,0.008921,unclear,silicon_photonics,W2889455810
+A5102746911,Jeroen Bolk,Eindhoven University of Technology,1,2,17,0.034055,soa,silicon_photonics,W1989769976
+A5001715302,Yunshan Zhang,Nanjing University of Posts and Telecommunications,1,1,16,0.0,other,,W4390032166
+A5004552829,Jiaqiang Nie,Collaborative Innovation Center of Advanced Microstructures,1,1,16,0.0,other,,W4390032166
+A5006956220,Zijiang Yang,Collaborative Innovation Center of Advanced Microstructures,1,1,16,0.0,other,,W4390032166
+A5012276146,Xiangfei Chen,Collaborative Innovation Center of Advanced Microstructures,1,1,16,0.0,other,,W4390032166
+A5017649580,Rulei Xiao,Collaborative Innovation Center of Advanced Microstructures,1,1,16,0.0,other,,W4390032166
+A5033189903,Mi Li,Collaborative Innovation Center of Advanced Microstructures,1,1,16,0.0,other,,W4390032166
+A5035648264,Manhang Zheng,Collaborative Innovation Center of Advanced Microstructures,1,1,16,0.0,other,,W4390032166
+A5039665206,Li Du,Collaborative Innovation Center of Advanced Microstructures,1,1,16,0.0,other,,W4390032166
+A5048576749,Tao Fang,Collaborative Innovation Center of Advanced Microstructures,1,1,16,0.0,other,,W4390032166
+A5064105950,Zhiqian Yin,Collaborative Innovation Center of Advanced Microstructures,1,1,16,0.0,other,,W4390032166
+A5078909424,Heng Zhang,Collaborative Innovation Center of Advanced Microstructures,1,1,16,0.0,other,,W4390032166
+A5083097071,Zhenxing Sun,Collaborative Innovation Center of Advanced Microstructures,1,1,16,0.0,other,,W4390032166
+A5084816122,Yuan Du,Collaborative Innovation Center of Advanced Microstructures,1,1,16,0.0,other,,W4390032166
+A5100400347,Leilei Wang,Collaborative Innovation Center of Advanced Microstructures,1,1,16,0.0,other,,W4390032166
+A5100427513,Qi Sun,Collaborative Innovation Center of Advanced Microstructures,1,1,16,0.0,other,,W4390032166
+A5103252278,Feng Wang,Huawei Technologies (China),1,1,16,0.0,other,,W4390032166
+name:cao p#3,Peirui Cao,unknown,1,1,16,0.0,architecture_only,,arxiv:2603.28168
+name:chen y,Yuansen Chen,unknown,1,1,16,0.0,architecture_only,,arxiv:2603.28168
+name:dongchao w,Wu Dongchao,unknown,1,1,16,0.0,architecture_only,,arxiv:2603.28168
+name:han x#5,Xinchi Han,unknown,1,1,16,0.0,architecture_only,,arxiv:2603.28168
+name:jian y,Yang Jian,unknown,1,1,16,0.0,architecture_only,,arxiv:2603.28168
+name:jiang w#3,Weihao Jiang,unknown,1,1,16,0.0,architecture_only,,arxiv:2603.28168
+name:liu x#4,Ximeng Liu,unknown,1,1,16,0.0,architecture_only,,arxiv:2603.28168
+name:liu y#2,Yike Liu,unknown,1,1,16,0.0,architecture_only,,arxiv:2603.28168
+name:liu z#4,Zhuoran Liu,unknown,1,1,16,0.0,architecture_only,,arxiv:2603.28168
+name:liu z#5,Zhuotao Liu,unknown,1,1,16,0.0,architecture_only,,arxiv:2603.28168
+name:lv y#2,Yongxi Lv,unknown,1,1,16,0.0,architecture_only,,arxiv:2603.28168
+name:mao y#3,Yingming Mao,unknown,1,1,16,0.0,architecture_only,,arxiv:2603.28168
+name:wang x#5,Xinbing Wang,unknown,1,1,16,0.0,architecture_only,,arxiv:2603.28168
+name:wu c,Changbo Wu,unknown,1,1,16,0.0,architecture_only,,arxiv:2603.28168
+name:zhanbang z,Zhang Zhanbang,unknown,1,1,16,0.0,architecture_only,,arxiv:2603.28168
+name:zhao s#7,Shizhen Zhao,unknown,1,1,16,0.0,architecture_only,,arxiv:2603.28168
+name:zhu z#2,Zihan Zhu,unknown,1,1,16,0.0,architecture_only,,arxiv:2603.28168
+A5003327625,G. M. Liu,Peking University,1,1,15,0.0,architecture_only,,W4413757104
+A5010778677,Fernando Agraz,Universitat Politècnica de Catalunya,1,1,15,0.0,architecture_only,,W2294810677
+A5011841912,X. T. Huang,Hong Kong University of Science and Technology,1,1,15,0.0,architecture_only,,W4413757104
+A5019529238,Wenxue Li,Hong Kong University of Science and Technology,1,1,15,0.0,architecture_only,,W4413757104
+A5023319915,Yijun Sun,Hong Kong University of Science and Technology,1,1,15,0.0,architecture_only,,W4413757104
+A5025132110,Wanyuan Liu,Huawei Technologies (China),1,1,15,0.0,thermo_optic,,W2758695468
+A5027822147,Yuming Wei,Huawei Technologies (China),1,1,15,0.0,thermo_optic,,W2758695468
+A5029186641,Hamid Mehrvar,Huawei Technologies (Canada),1,1,15,0.0,thermo_optic,,W2758695468
+A5032718527,Murat Arslan,University of Bristol,1,1,15,0.0,architecture_only,,W2294810677
+A5040133716,Xiaofeng Ye,unknown,1,1,15,0.0,architecture_only,,W4413757104
+A5048782183,Chunshu Zhang,Huawei Technologies (China),1,1,15,0.0,thermo_optic,,W2758695468
+A5051771908,Kin Fai Tse,Hong Kong University of Science and Technology,1,1,15,0.0,architecture_only,,W4413757104
+A5052148248,Xudong Liao,Hong Kong University of Science and Technology,1,1,15,0.0,architecture_only,,W4413757104
+A5057313730,Han Tian,Hong Kong University of Science and Technology,1,1,15,0.0,architecture_only,,W4413757104
+A5063239975,Xinchen Wan,Hong Kong University of Science and Technology,1,1,15,0.0,architecture_only,,W4413757104
+A5068726078,D. Celo,Huawei Technologies (Canada),1,1,15,0.0,thermo_optic,,W2758695468
+A5071391027,Fei Zhao,Huawei Technologies (China),1,1,15,0.0,thermo_optic,,W2758695468
+A5085112687,Zhenghang Ren,Hong Kong University of Science and Technology,1,1,15,0.0,architecture_only,,W4413757104
+A5087553273,Yilun Jin,Hong Kong University of Science and Technology,1,1,15,0.0,architecture_only,,W4413757104
+A5091144056,Chris Jackson,University of Bristol,1,1,15,0.0,architecture_only,,W2294810677
+A5100351349,Ming Li,Huawei Technologies (China),1,1,15,0.0,thermo_optic,,W2758695468
+A5100386237,Ying Zhang,Xiamen University,1,1,15,0.0,architecture_only,,W4413757104
+A5100390395,Chunhui Zhang,Huawei Technologies (China),1,1,15,0.0,thermo_optic,,W2758695468
+A5100395351,Yiming Zhang,Xiamen University,1,1,15,0.0,architecture_only,,W4413757104
+A5100783373,Guanyu Chen,National University of Singapore,1,2,15,0.002548,unclear,silicon_photonics,W2889455810
+A5100877190,Jifang He,Huawei Technologies (China),1,1,15,0.0,thermo_optic,,W2758695468
+A5101665850,Zilong Wang,Hong Kong University of Science and Technology,1,1,15,0.0,architecture_only,,W4413757104
+A5101905519,Shengyong Yan,Huawei Technologies (China),1,1,15,0.0,thermo_optic,,W2758695468
+A5112440859,Dongyu Geng,Huawei Technologies (China),1,1,15,0.0,thermo_optic,,W2758695468
+A5112495782,Alejandro Aguado,University of Bristol,1,1,15,0.0,architecture_only,,W2294810677
+name:fu x,Xin Fu,École Polytechnique Fédérale de Lausanne,1,1,15,0.0,soa,,W3093967660
+name:karpov m,Maxim Karpov,École Polytechnique Fédérale de Lausanne,1,1,15,0.0,soa,,W3093967660
+name:lukashchuk a,Anton Lukashchuk,École Polytechnique Fédérale de Lausanne,1,1,15,0.0,soa,,W3093967660
+A5015901156,Xi Xiao,Chinese Academy of Sciences,1,2,14,0.003013,electro_optic,silicon_photonics,W2063297543
+A5022470646,Kazuyuki Matsumaro,National Institute of Advanced Industrial Science and Technology,1,1,14,0.0,thermo_optic,,W834513743
+A5040041279,R. Chen,Office of Multidisciplinary Activities,1,1,14,0.0,mems_2d,,W1653883346
+A5045372544,Pedram Zare Dashti,Google (United States),1,1,14,0.0,architecture_only,,W4386365418
+A5046740184,Minoru Ohtsuka,National Institute of Advanced Industrial Science and Technology,1,1,14,0.0,thermo_optic,,W834513743
+A5048665386,S. Gutierrez,Office of Multidisciplinary Activities,1,1,14,0.0,mems_2d,,W1653883346
+A5051098488,Munehiro Toyama,National Institute of Advanced Industrial Science and Technology,1,1,14,0.0,thermo_optic,,W834513743
+A5051615746,Toshio Sugaya,Furukawa Electric (Japan),1,1,14,0.0,thermo_optic,,W834513743
+A5059519009,John Gritters,Office of Multidisciplinary Activities,1,1,14,0.0,mems_2d,,W1653883346
+A5059888938,Mukarram Tariq,Google (United States),1,1,14,0.0,architecture_only,,W4386365418
+A5063815834,Trai‐Ming Yeh,Office of Multidisciplinary Activities,1,1,14,0.0,mems_2d,,W1653883346
+A5063961928,Hong Liu,Google (United States),1,2,14,0.000102,mems_3d,,W4292950821
+A5068509553,Ezekiel J. Kruglick,Office of Multidisciplinary Activities,1,1,14,0.0,mems_2d,,W1653883346
+A5086317837,P.D. Dobblelaere,Office of Multidisciplinary Activities,1,1,14,0.0,mems_2d,,W1653883346
+A5089259365,Yee Chong Loke,Office of Multidisciplinary Activities,1,1,14,0.0,mems_2d,,W1653883346
+A5090185653,M. Harburn,Office of Multidisciplinary Activities,1,1,14,0.0,mems_2d,,W1653883346
+A5100373584,Fan Li,Office of Multidisciplinary Activities,1,1,14,0.0,mems_2d,,W1653883346
+A5100886673,Miyoshi Seki,National Institute of Advanced Industrial Science and Technology,1,1,14,0.0,thermo_optic,,W834513743
+A5101407905,Hong Liu,Google (United States),1,1,14,0.0,architecture_only,,W4386365418
+A5101907289,Toshio Kimura,Furukawa Electric (Japan),1,1,14,0.0,thermo_optic,,W834513743
+A5108138066,Daniel Reiley,Office of Multidisciplinary Activities,1,1,14,0.0,mems_2d,,W1653883346
+A5109886624,Charles R. King,Office of Multidisciplinary Activities,1,1,14,0.0,mems_2d,,W1653883346
+A5112246768,Keiji Koshino,National Institute of Advanced Industrial Science and Technology,1,1,14,0.0,thermo_optic,,W834513743
+A5112514281,Nobuyuki Yokoyama,National Institute of Advanced Industrial Science and Technology,1,1,14,0.0,thermo_optic,,W834513743
+A5113158587,A. Husain,Office of Multidisciplinary Activities,1,1,14,0.0,mems_2d,,W1653883346
+name:ali s,Sumaiya Binte Ali,unknown,1,1,14,0.0,architecture_only,,arxiv:2501.16907
+name:anazawa k,Kazuya Anazawa,unknown,1,1,14,0.0,architecture_only,,arxiv:2501.16907
+name:briantcev d,Dmitrii Briantcev,unknown,1,1,14,0.0,architecture_only,,arxiv:2501.16907
+name:dass d,Devika Dass,unknown,1,1,14,0.0,architecture_only,,arxiv:2501.16907
+name:inoue t,Takeru Inoue,unknown,1,1,14,0.0,architecture_only,,arxiv:2501.16907
+name:kenny e,Eoin Kenny,unknown,1,1,14,0.0,architecture_only,,arxiv:2501.16907
+name:kilper d,Daniel Kilper,unknown,1,1,14,0.0,architecture_only,,arxiv:2501.16907
+name:mano t,Toru Mano,unknown,1,1,14,0.0,architecture_only,,arxiv:2501.16907
+name:nishizawa h,Hideki Nishizawa,unknown,1,1,14,0.0,architecture_only,,arxiv:2501.16907
+name:oki e,Eiji Oki,unknown,1,1,14,0.0,architecture_only,,arxiv:2501.16907
+name:ou h,Hiroshi Ou,unknown,1,1,14,0.0,architecture_only,,arxiv:2501.16907
+name:ruffini m,Marco Ruffini,unknown,1,1,14,0.0,architecture_only,,arxiv:2501.16907
+name:sone y,Yoshiaki Sone,unknown,1,1,14,0.0,architecture_only,,arxiv:2501.16907
+name:takasugi k,Koichi Takasugi,unknown,1,1,14,0.0,architecture_only,,arxiv:2501.16907
+name:ujikawa h,Hirotaka Ujikawa,unknown,1,1,14,0.0,architecture_only,,arxiv:2501.16907
+A5000173693,Ari Novack,"Agency for Science, Technology and Research",1,2,13,0.00151,unclear,silicon_photonics,W2575526897
+A5008761442,Timothy C. May-Smith,University of Southampton,1,1,13,0.0,architecture_only,,W2068954499
+A5009578714,Rahul Nagarajan,Google (United States),1,1,13,0.0,architecture_only,,W4380874786
+A5010571977,Brian Towles,Google (United States),1,1,13,0.0,architecture_only,,W4380874786
+A5011543818,Carol Reinholm,IBM Research - Thomas J. Watson Research Center,1,1,13,0.0,electro_optic,,W2070900489
+A5016276572,Renato Rímolo-Donadío,IBM Research - Thomas J. Watson Research Center,1,1,13,0.0,electro_optic,,W2070900489
+A5016524466,Lifeng Nai,Google (United States),1,1,13,0.0,architecture_only,,W4380874786
+A5022616930,E. Hugues-Salas,University of Bristol,1,1,13,0.0,architecture_only,,W2068954499
+A5035427716,Cliff Young,Google (United States),1,1,13,0.0,architecture_only,,W4380874786
+A5037285672,Nishant P. Patil,Google (United States),1,1,13,0.0,architecture_only,,W4380874786
+A5039358681,Tymon Barwicz,IBM Research - Thomas J. Watson Research Center,1,1,13,0.0,electro_optic,,W2070900489
+A5045649319,Dionisios N. Pnevmatikatos,Foundation for Research and Technology Hellas,1,1,13,0.0,architecture_only,,W2948174331
+A5046878919,Dimitris Syrivelis,IBM Research - Ireland,1,1,13,0.0,architecture_only,,W2948174331
+A5051149049,Peter Ma,Google (United States),1,1,13,0.0,architecture_only,,W4380874786
+A5060784875,Edward W. Kiewra,IBM Research - Thomas J. Watson Research Center,1,1,13,0.0,electro_optic,,W2070900489
+A5064523796,Arsalan Saljoghei,University College London,1,1,13,0.0,architecture_only,,W2948174331
+A5065745960,Craig Kochis,unknown,1,1,13,0.0,architecture_only,,W2948174331
+A5067580608,Victor J. F. Rancaño,University of Southampton,1,1,13,0.0,architecture_only,,W2068954499
+A5073432472,Periklis Petropoulos,University of Southampton,1,1,13,0.0,architecture_only,,W2068954499
+A5074688105,Andy Swing,Google (United States),1,1,13,0.0,architecture_only,,W4380874786
+A5075275091,Steven M. Shank,IBM (United States),1,1,13,0.0,electro_optic,,W2070900489
+A5075523835,Tetsuya Hayashi,Sumitomo Electric Industries (Japan),1,1,13,0.0,architecture_only,,W2948174331
+A5077202069,David A. Patterson,Google (United States),1,1,13,0.0,architecture_only,,W4380874786
+A5077858337,Shuangyi Yan,University of Bristol,1,1,13,0.0,architecture_only,,W2068954499
+A5081923107,Dimitris Theodoropoulos,Foundation for Research and Technology Hellas,1,1,13,0.0,architecture_only,,W2948174331
+A5084104975,Zongwei Zhou,Google (United States),1,1,13,0.0,architecture_only,,W4380874786
+A5085787384,George Thomas Kurian,Google (United States),1,1,13,0.0,architecture_only,,W4380874786
+A5091524342,Hui Jun Yuan,University College London,1,1,13,0.0,architecture_only,,W2948174331
+A5091977482,Arjun Singh,Google (United States),1,1,13,0.0,unclear,,W4377082743
+A5100410350,Hong Liu,Google (United States),1,1,13,0.0,unclear,,W4377082743
+A5100423096,Xia Chen,University of Southampton,1,2,13,0.000766,unclear,silicon_photonics,W2889455810
+A5100705929,Sang-Hun Kim,National Institute of Advanced Industrial Science and Technology,1,1,13,0.0,thermo_optic,,W2088068353
+A5101476348,Marwan H. Khater,IBM Research - Thomas J. Watson Research Center,1,1,13,0.0,electro_optic,,W2070900489
+A5102319921,Tetsuya Nakanishi,Sumitomo Electric Industries (Japan),1,1,13,0.0,architecture_only,,W2948174331
+A5102934575,Andrea Reale,IBM Research - Ireland,1,1,13,0.0,architecture_only,,W2948174331
+A5103255393,Suvinay Subramanian,Google (United States),1,1,13,0.0,architecture_only,,W4380874786
+A5109803012,Guo‐Qiang Lo,"Agency for Science, Technology and Research",1,2,13,0.007165,thermo_optic,silicon_photonics,W2062193700
+A5109877734,Tom W. Baehr-Jones,Advanced Technologies Group (United States),1,2,13,0.00151,unclear,silicon_photonics,W2575526897
+A5110566458,Adaranijo Peters,University of Bristol,1,1,13,0.0,architecture_only,,W2068954499
+A5112316562,Vaibhawa Mishra,University College London,1,1,13,0.0,architecture_only,,W2948174331
+A5113666624,Bijan Rahimzadeh Rofoee,University of Bristol,1,1,13,0.0,architecture_only,,W2068954499
+A5115593346,Arjun Singh,unknown,1,1,13,0.0,mems_3d,,W4292950821
+name:bi l,Lei Bi,unknown,1,1,13,0.0,other,,arxiv:2509.20016
+name:cai h,Haiwen Cai,unknown,1,1,13,0.0,other,,arxiv:2509.20016
+name:chen z,Zhang Chen,unknown,1,1,13,0.0,architecture_only,,arxiv:2502.03885
+name:chu w,Wei Chu,unknown,1,1,13,0.0,other,,arxiv:2509.20016
+name:hong b,Bingzhou Hong,unknown,1,1,13,0.0,other,,arxiv:2509.20016
+name:hu f,Fangchen Hu,unknown,1,1,13,0.0,other,,arxiv:2509.20016
+name:jiang d,Daxin Jiang,unknown,1,1,13,0.0,architecture_only,,arxiv:2502.03885
+name:jiang y,Yimin Jiang,unknown,1,1,13,0.0,architecture_only,,arxiv:2502.03885
+name:liu g,Guyue Liu,unknown,1,1,13,0.0,architecture_only,,arxiv:2502.03885
+name:liu s,Shuyuan Liu,unknown,1,1,13,0.0,other,,arxiv:2509.20016
+name:lu y,Yuanwei Lu,unknown,1,1,13,0.0,architecture_only,,arxiv:2502.03885
+name:lv w,Wenqing Lv,unknown,1,1,13,0.0,architecture_only,,arxiv:2502.03885
+name:meng h,Huaiyu Meng,unknown,1,1,13,0.0,architecture_only,,arxiv:2502.03885
+name:nie h,Hao Nie,unknown,1,1,13,0.0,architecture_only,,arxiv:2502.03885
+name:shen r,Ruoyu Shen,unknown,1,1,13,0.0,other,,arxiv:2509.20016
+name:shen y,Yichen Shen,unknown,1,1,13,0.0,architecture_only,,arxiv:2502.03885
+name:shou c,Chenchen Shou,unknown,1,1,13,0.0,architecture_only,,arxiv:2502.03885
+name:tu z,Zhifeng Tu,unknown,1,1,13,0.0,other,,arxiv:2509.20016
+name:wei y,Yiran Wei,unknown,1,1,13,0.0,other,,arxiv:2509.20016
+name:wu d#2,Di Wu,unknown,1,1,13,0.0,other,,arxiv:2509.20016
+name:xu y,Yelong Xu,unknown,1,1,13,0.0,architecture_only,,arxiv:2502.03885
+name:yang c,Chengkun Yang,unknown,1,1,13,0.0,other,,arxiv:2509.20016
+name:yang y,Yucong Yang,unknown,1,1,13,0.0,other,,arxiv:2509.20016
+name:yu y,Yanbo Yu,unknown,1,1,13,0.0,architecture_only,,arxiv:2502.03885
+name:zhang t#2,Tianchi Zhang,unknown,1,1,13,0.0,other,,arxiv:2509.20016
+name:zhou y,Yu Zhou,unknown,1,1,13,0.0,architecture_only,,arxiv:2502.03885
+name:zhu y,Yibo Zhu,unknown,1,1,13,0.0,architecture_only,,arxiv:2502.03885
+name:zou p,Peng Zou,unknown,1,1,13,0.0,other,,arxiv:2509.20016
+A5007071072,Alan F. Benner,IBM (United States),1,1,12,0.0,architecture_only,,W2116377381
+A5030875484,Alex K. Jones,University of Pittsburgh,1,1,12,0.0,architecture_only,,W2116377381
+A5031859205,D. Li,University of Pittsburgh,1,1,12,0.0,architecture_only,,W2116377381
+A5038062469,KEVIN J. BARKER,Los Alamos National Laboratory,1,1,12,0.0,architecture_only,,W2116377381
+A5038997010,Rami Melhem,University of Pittsburgh,1,1,12,0.0,architecture_only,,W2116377381
+A5049045208,Eugen Schenfeld,IBM (United States),1,1,12,0.0,architecture_only,,W2116377381
+A5056057471,Lee Carroll,University College Cork,1,1,12,0.0,mems_silicon_photonic,,W2581695752
+A5058413355,Peter Verheyen,IMEC,1,2,12,0.003968,mems_silicon_photonic,silicon_photonics,W3097557698
+A5072223736,Adolfy Hoisie,Los Alamos National Laboratory,1,1,12,0.0,architecture_only,,W2116377381
+A5084855303,Darren Kerbyson,Los Alamos National Laboratory,1,1,12,0.0,architecture_only,,W2116377381
+A5086807471,Yuqing Jiao,Eindhoven University of Technology,1,2,12,0.003013,mems_silicon_photonic,silicon_photonics,W2994903006
+A5103208537,Paul Walker,IBM (United States),1,1,12,0.0,architecture_only,,W2116377381
+A5111007489,S. Shao,University of Pittsburgh,1,1,12,0.0,architecture_only,,W2116377381
+A5113801969,R.R. Hoare,University of Pittsburgh,1,1,12,0.0,architecture_only,,W2116377381
+A5113994263,Ram Rajamony,IBM (United States),1,1,12,0.0,architecture_only,,W2116377381
+A5033953049,Yue‐Cai Huang,The University of Osaka,1,1,11,0.0,architecture_only,,W2027447399
+A5034115257,Salah J Ibrahim,NTT (Japan),1,1,11,0.0,architecture_only,,W2027447399
+A5034422539,Yuki Yoshida,The University of Osaka,1,1,11,0.0,architecture_only,,W2027447399
+A5038101265,J. Kim,unknown,1,1,11,0.0,mems_3d,,W2040047675
+A5042243247,Ken‐ichi Kitayama,The University of Osaka,1,1,11,0.0,architecture_only,,W2027447399
+A5043884951,Ryo Takahashi,NTT (Japan),1,1,11,0.0,architecture_only,,W2027447399
+A5044889650,Mizukoshi Yasuhiro,NEC (Japan),1,1,11,0.0,architecture_only,,W2027447399
+A5060016204,Masahiro Hayashitani,NEC (Japan),1,1,11,0.0,architecture_only,,W2027447399
+A5061656163,Yohei Hasegawa,NEC (Japan),1,1,11,0.0,architecture_only,,W2027447399
+A5102249542,Tatsushi Nakahara,NTT (Japan),1,1,11,0.0,architecture_only,,W2027447399
+A5104235486,Toru Segawa,NTT (Japan),1,1,11,0.0,architecture_only,,W2027447399
+A5110656674,Yasumasa Suzaki,NTT (Japan),1,1,11,0.0,architecture_only,,W2027447399
+A5111489195,Atsushi Hiramatsu,NTT Advanced Technology Corporation (Japan),1,1,11,0.0,architecture_only,,W2027447399
+A5003072117,Xaveer J. M. Leijtens,Eindhoven University of Technology,1,2,10,0.007165,soa,silicon_photonics,W1989769976
+A5003106491,Giorgio Ferrari,Politecnico di Milano,1,2,10,0.0,thermo_optic,silicon_photonics,W2327284773
+A5006970006,Jon P. Longtin,Stony Brook University,1,2,10,7e-06,architecture_only,,W2583039042
+A5007125650,Haruhiko Kuwatsuka,National Institute of Advanced Industrial Science and Technology,1,1,10,0.0,thermo_optic,,W2017873014
+A5007432815,Francesco Morichetti,Politecnico di Milano,1,2,10,0.0,thermo_optic,silicon_photonics,W2327284773
+A5010040213,Hugh E. Williams,Microsoft Research (United Kingdom),1,1,10,0.0,other,,W3046344355
+A5010675602,A. Q. Liu,Nanyang Technological University,1,2,10,0.000606,unclear,,W2492727504
+A5016118049,Marco Sampietro,Politecnico di Milano,1,2,10,0.0,thermo_optic,silicon_photonics,W2327284773
+A5017553353,Emanuele Guglielmi,Politecnico di Milano,1,1,10,0.0,thermo_optic,,W2327284773
+A5017923632,Min Yang,IBM (United States),1,1,10,0.0,unclear,,W2002341618
+A5019651427,Andrea Annoni,Politecnico di Milano,1,1,10,0.0,thermo_optic,,W2327284773
+A5024523945,Michael John Strain,University of Strathclyde,1,2,10,0.0,thermo_optic,silicon_photonics,W2327284773
+A5028692100,Marco Carminati,Politecnico di Milano,1,2,10,0.0,thermo_optic,silicon_photonics,W2327284773
+A5043102840,Andrea Ivano Melloni,Politecnico di Milano,1,2,10,0.0,thermo_optic,silicon_photonics,W2327284773
+A5052004561,Samir Ranjan Das,Stony Brook University,1,2,10,7e-06,architecture_only,,W2583039042
+A5059749263,Stefano Grillanda,Politecnico di Milano,1,2,10,0.0,thermo_optic,silicon_photonics,W2327284773
+A5079175103,Vyas Sekar,Carnegie Mellon University,1,2,10,7e-06,architecture_only,,W2583039042
+A5081838912,Chongjin Xie,Alibaba Group (United States),1,2,10,0.000606,architecture_only,telecom_oxc_roadm,W3203666589
+A5084372344,Marc Sorel,University of Glasgow,1,2,10,0.0,thermo_optic,silicon_photonics,W2327284773
+A5085967812,Pietro Ciccarella,Politecnico di Milano,1,1,10,0.0,thermo_optic,,W2327284773
+name:cao p#2,Peirui Cao,unknown,1,1,10,0.0,architecture_only,,arxiv:2411.01503
+name:han x#2,Xinchi Han,unknown,1,1,10,0.0,architecture_only,,arxiv:2411.01503
+name:jiang w#2,Weihao Jiang,unknown,1,1,10,0.0,architecture_only,,arxiv:2411.01503
+name:liu x#2,Ximeng Liu,unknown,1,1,10,0.0,architecture_only,,arxiv:2411.01503
+name:liu z,ZhuoRan Liu,unknown,1,1,10,0.0,architecture_only,,arxiv:2411.01503
+name:liu z#2,Zhuotao Liu,unknown,1,1,10,0.0,architecture_only,,arxiv:2411.01503
+name:lv y,Yongxi Lv,unknown,1,1,10,0.0,architecture_only,,arxiv:2411.01503
+name:mao y,Yingming Mao,unknown,1,1,10,0.0,architecture_only,,arxiv:2411.01503
+name:wang x#3,Xinbing Wang,unknown,1,1,10,0.0,architecture_only,,arxiv:2411.01503
+name:zhang s#2,Shuyuan Zhang,unknown,1,1,10,0.0,architecture_only,,arxiv:2411.01503
+name:zhao s#4,Shizhen Zhao,unknown,1,1,10,0.0,architecture_only,,arxiv:2411.01503
+A5001286276,Monia Ghobadi,Microsoft Research (United Kingdom),1,1,9,0.0,other,,W2486960733
+A5011102459,Amar Phanishayee,Microsoft Research (United Kingdom),1,1,9,0.0,other,,W2486960733
+A5013518229,Ratul Mahajan,Microsoft Research (United Kingdom),1,1,9,0.0,other,,W2486960733
+A5013641137,Marco N. Petrovich,University of Southampton,1,1,9,0.0,piezo,,W2591729902
+A5015337240,Min Yang,IBM (United States),1,1,9,0.0,electro_optic,,W2015534895
+A5016311968,Michael J. Hochberg,unknown,1,1,9,0.0,architecture_only,,W2996556490
+A5028592451,Rui Ming Yin,Shandong University,1,1,9,0.0,soa,,W4285084333
+A5035668373,Máté Kovács,Polatis (United Kingdom),1,1,9,0.0,piezo,,W2591729902
+A5036182838,Giuseppe Talli,Tyndall Centre,1,1,9,0.0,mems_silicon_photonic,,W4211023690
+A5037230089,Jeremy Béguelin,"University of California, Berkeley",1,1,9,0.0,mems_silicon_photonic,,W3138799074
+A5037385637,Hans Christian Hansen Mulvad,University of Southampton,1,1,9,0.0,piezo,,W2591729902
+A5042487981,Carlos Errando-Herranz,KTH Royal Institute of Technology,1,1,9,0.0,mems_silicon_photonic,,W4211023690
+A5043137436,Janardhan Kulkarni,Microsoft Research (United Kingdom),1,1,9,0.0,other,,W2486960733
+A5049952220,Hao Ran Yang,Columbia University,1,1,9,0.0,architecture_only,,W2996556490
+A5055069190,Gireeja V. Ranade,Microsoft Research (United Kingdom),1,1,9,0.0,other,,W2486960733
+A5055209656,Shihan Hong,Zhejiang University,1,1,9,0.0,mems_silicon_photonic,,W4414694752
+A5056502771,Cleitus Antony,Tyndall Centre,1,1,9,0.0,mems_silicon_photonic,,W4211023690
+A5059463454,Umar Khan,HOGENT University of Applied Sciences and Arts,1,1,9,0.0,mems_silicon_photonic,,W4211023690
+A5060217026,Nikhil R. Devanur,Microsoft Research (United Kingdom),1,1,9,0.0,other,,W2486960733
+A5063748960,Linyan Lyu,Zhejiang University,1,1,9,0.0,mems_silicon_photonic,,W4414694752
+A5068274938,Sai Chen,Alibaba Group (China),1,1,9,0.0,architecture_only,,W3203666589
+A5070596333,A.D. Parker,Polatis (United Kingdom),1,1,9,0.0,piezo,,W2591729902
+A5070811817,Zuoqing Zhao,Beijing University of Posts and Telecommunications,1,1,9,0.0,soa,,W4285084333
+A5074908580,Daryl Smith,Polatis (United Kingdom),1,1,9,0.0,piezo,,W2591729902
+A5077888219,Xiang Zheng Meng,Columbia University,1,1,9,0.0,architecture_only,,W2996556490
+A5079207853,Wei Ji,Shandong University,1,1,9,0.0,soa,,W4285084333
+A5084419495,Bryan H. King,Polatis (United Kingdom),1,1,9,0.0,piezo,,W2591729902
+A5087265662,J. R. Hayes,University of Southampton,1,1,9,0.0,piezo,,W2591729902
+A5087882018,Houman Rastegarfar,University of Arizona,1,1,9,0.0,other,,W2486960733
+A5100427431,Bin Chen,Hefei University of Technology,1,1,9,0.0,soa,,W4285084333
+A5100445088,Yu Wang,Eindhoven University of Technology,1,1,9,0.0,architecture_only,,W3203666589
+A5100606290,Jianwei Wang,Peking University,1,1,9,0.0,mems_silicon_photonic,,W4414694752
+A5100639548,Xinwei Zhang,Beijing University of Posts and Telecommunications,1,1,9,0.0,soa,,W4285084333
+A5101528780,Jihong Zhu,Zhejiang University,1,1,9,0.0,mems_silicon_photonic,,W4414694752
+A5101562974,Yingying Peng,Zhejiang University,1,1,9,0.0,mems_silicon_photonic,,W4414694752
+A5102815018,Yang Liu,unknown,1,1,9,0.0,architecture_only,,W2996556490
+A5102821926,Hiroki Nagai,Nagoya University,1,1,9,0.0,unclear,,W2810918131
+A5000196334,Xin Fu,Chinese Academy of Sciences,1,1,8,0.0,thermo_optic,,W2797687360
+A5000475374,Malveeka Tewari,University of California San Diego,1,1,8,0.0,architecture_only,,W2177488376
+A5003379938,Hao Jia,Chinese Academy of Sciences,1,1,8,0.0,thermo_optic,,W2797687360
+A5004044700,Ziyi Zhu,Columbia University,1,1,8,0.0,architecture_only,,W3188706325
+A5004461735,Jason S. Orcutt,IBM (United States),1,1,8,0.0,electro_optic,,W1558865741
+A5007134493,D. M. Gill,IBM (United States),1,1,8,0.0,electro_optic,,W1558865741
+A5020733691,Yunchou Zhao,Chinese Academy of Sciences,1,1,8,0.0,thermo_optic,,W2797687360
+A5023919188,Chenghu Zhou,State Key Laboratory of Resources and Environmental Information System,1,1,8,0.0,architecture_only,,W4365790307
+A5025573294,Tajana Rosing,University of California San Diego,1,1,8,0.0,architecture_only,,W2151668565
+A5025931500,Lin Yang,Chinese Academy of Sciences,1,1,8,0.0,thermo_optic,,W2797687360
+A5033873033,Ting Zhou,Chinese Academy of Sciences,1,1,8,0.0,thermo_optic,,W2797687360
+A5035945279,Lei Zhang,Chinese Academy of Sciences,1,1,8,0.0,thermo_optic,,W2797687360
+A5039802992,Mohammad Reza Alizadeh,Moscow Institute of Thermal Technology,1,1,8,0.0,architecture_only,,W3188706325
+A5045206037,Zhuotao Liu,Tsinghua University,1,1,8,0.0,architecture_only,,W4365790307
+A5049729482,Benjamin Klenk,unknown,1,1,8,0.0,architecture_only,,W3188706325
+A5052126448,H. Y. Fu,Tsinghua–Berkeley Shenzhen Institute,1,2,8,0.015804,mems_silicon_photonic,silicon_photonics,W2909208749
+A5058499415,Pang Chen-Sun,University of California San Diego,1,1,8,0.0,architecture_only,,W2151668565
+A5068203622,Yunzhuo Liu,Shanghai Jiao Tong University,1,1,8,0.0,architecture_only,,W4365790307
+A5069211093,Mehrdad Khani,Moscow Institute of Thermal Technology,1,1,8,0.0,architecture_only,,W3188706325
+A5069582226,Jincheng Dai,Chinese Academy of Sciences,1,1,8,0.0,thermo_optic,,W2797687360
+A5074851620,Rishi Kapoor,University of California San Diego,1,1,8,0.0,architecture_only,,W2177488376
+A5081366293,Geoffrey M. Voelker,University of California San Diego,1,1,8,0.0,architecture_only,,W2177488376
+A5089789557,Eiman Ebrahimi,unknown,1,1,8,0.0,architecture_only,,W3188706325
+A5100317871,He Liu,University of California San Diego,1,1,8,0.0,architecture_only,,W2177488376
+A5100678072,Feng Lu,University of California San Diego,1,1,8,0.0,architecture_only,,W2177488376
+A5100746672,Dai Zhang,Tsinghua University,1,1,8,0.0,architecture_only,,W4365790307
+A5100771111,Mingwei Xu,Tsinghua University,1,1,8,0.0,architecture_only,,W4365790307
+A5101823755,Yuhao Xia,Chinese Academy of Sciences,1,1,8,0.0,thermo_optic,,W2797687360
+A5102425587,Zhilei Huang,"University of California, Berkeley",1,1,8,0.0,mems_silicon_photonic,,W2979824403
+A5103721428,Jianfeng Ding,Chinese Academy of Sciences,1,1,8,0.0,thermo_optic,,W2797687360
+A5110669073,Richard D. Strong,University of California San Diego,1,1,8,0.0,architecture_only,,W2151668565
+name:addanki v#2,Vamsi Addanki,unknown,1,1,8,0.0,architecture_only,,arxiv:2504.09892
+name:avin c#3,Chen Avin,unknown,1,1,8,0.0,architecture_only,,arxiv:2504.09892
+name:bakopoulos p,Paraskevas Bakopoulos,unknown,1,1,8,0.0,architecture_only,,arxiv:2504.09892
+name:chen g,Guo Chen,unknown,1,1,8,0.0,architecture_only,,arxiv:2609.14253
+name:chen y#2,Yupeng Chen,unknown,1,1,8,0.0,architecture_only,,arxiv:2609.14253
+name:han x#4,Xinchi Han,unknown,1,1,8,0.0,architecture_only,,arxiv:2507.13717
+name:huang p,Peihao Huang,unknown,1,1,8,0.0,architecture_only,,arxiv:2609.14253
+name:knabe g,Goran Dario Knabe,unknown,1,1,8,0.0,architecture_only,,arxiv:2504.09892
+name:li f,Fafan li,unknown,1,1,8,0.0,architecture_only,,arxiv:2507.13717
+name:liang b,Bangbo Liang,unknown,1,1,8,0.0,architecture_only,,arxiv:2609.14253
+name:liu x#3,Ximeng Liu,unknown,1,1,8,0.0,architecture_only,,arxiv:2507.13717
+name:mao y#2,Yingming Mao,unknown,1,1,8,0.0,architecture_only,,arxiv:2507.13717
+name:marinos i,Ilias Marinos,unknown,1,1,8,0.0,architecture_only,,arxiv:2504.09892
+name:patronas g,Giannis Patronas,unknown,1,1,8,0.0,architecture_only,,arxiv:2504.09892
+name:schmid s#4,Stefan Schmid,unknown,1,1,8,0.0,architecture_only,,arxiv:2504.09892
+name:syrivelis d,Dimitris Syrivelis,unknown,1,1,8,0.0,architecture_only,,arxiv:2504.09892
+name:terzenidis n,Nikos Terzenidis,unknown,1,1,8,0.0,architecture_only,,arxiv:2504.09892
+name:xu b,Bohua Xu,unknown,1,1,8,0.0,architecture_only,,arxiv:2609.14253
+name:yang b,Bin Yang,unknown,1,1,8,0.0,architecture_only,,arxiv:2609.14253
+name:yang d,Di Yang,unknown,1,1,8,0.0,architecture_only,,arxiv:2609.14253
+name:yao z,Zhen Yao,unknown,1,1,8,0.0,architecture_only,,arxiv:2507.13717
+name:zhai q,Qiaozhu Zhai,unknown,1,1,8,0.0,architecture_only,,arxiv:2507.13717
+name:zhao s#6,Shizhen Zhao,unknown,1,1,8,0.0,architecture_only,,arxiv:2507.13717
+name:zhao s#8,Sicheng Zhao,unknown,1,1,8,0.0,architecture_only,,arxiv:2609.14253
+name:zhao s#9,Shizhen Zhao,unknown,1,1,8,0.0,architecture_only,,arxiv:2609.14253
+name:zhou y#2,Yuzhou Zhou,unknown,1,1,8,0.0,architecture_only,,arxiv:2507.13717
+name:zhu x,Xia Zhu,unknown,1,1,8,0.0,architecture_only,,arxiv:2507.13717
+A5001919662,Mowei Wang,Huawei Technologies (China),1,1,7,0.0,architecture_only,,W4401176556
+A5018914378,Junichi Hasegawa,Furukawa Electric (Japan),1,1,7,0.0,unclear,,W2889030337
+A5024470211,Albert Pagès,Universitat Politècnica de Catalunya,1,1,7,0.0,architecture_only,,W2534962717
+A5031437234,P. C. Sun,Cisco Systems (China),1,1,7,0.0,lcos,,W2002555923
+A5032186979,Hamid Hajabdolali Bazzaz,University of California San Diego,1,1,7,0.0,architecture_only,,W2119638333
+A5035830236,Sivasankar Radhakrishnan,University of California San Diego,1,1,7,0.0,architecture_only,,W2119638333
+A5036777916,Vikram Subramanya,University of California San Diego,1,1,7,0.0,architecture_only,,W2119638333
+A5061781593,Shuai Peng,University of Bristol,1,1,7,0.0,architecture_only,,W2534962717
+A5070739964,Chunlei Sun,Wuhan National Laboratory for Optoelectronics,1,1,7,0.0,unclear,silicon_photonics,W2889455810
+A5070954773,Yang Liu,Advanced Technologies Group (United States),1,1,7,0.0,unclear,,W2575526897
+A5086257975,Lily Mummert,unknown,1,1,7,0.0,architecture_only,,W823246061
+A5091090025,Yong Cui,Tsinghua University,1,1,7,0.0,architecture_only,,W4401176556
+A5100378075,Yan Chen,Northwestern University,1,1,7,0.0,architecture_only,,W2174784067
+A5100378166,Yan Chen,Northwestern University,1,1,7,0.0,architecture_only,,W2141810662
+A5100642263,Guohui Wang,unknown,1,1,7,0.0,architecture_only,,W823246061
+A5100695211,Fu Wang,Eindhoven University of Technology,1,1,7,0.0,architecture_only,,W3036907365
+A5101121665,Jing Cheng,Tsinghua University,1,1,7,0.0,architecture_only,,W4401176556
+A5101763704,Wenhao Wu,Wuhan National Laboratory for Optoelectronics,1,1,7,0.0,unclear,silicon_photonics,W2889455810
+A5101775925,Lei Xu,Princeton University,1,1,7,0.0,architecture_only,,W2141810662
+A5101775927,Lei Xu,Princeton University,1,1,7,0.0,architecture_only,,W2174784067
+A5102897151,Zhenhua Liu,Huawei Technologies (China),1,1,7,0.0,architecture_only,,W4401176556
+A5104217166,Xiangli Song,Tsinghua University,1,1,7,0.0,architecture_only,,W4401176556
+A5109164097,C. H. Liang,Tsinghua University,1,1,7,0.0,architecture_only,,W4401176556
+A5112500315,Pang-Chen Sun,University of California San Diego,1,1,7,0.0,unclear,,W2074285614
+A5113716516,Alexander Miles,University of Arizona,1,1,7,0.0,other,,W1990200961
+A5114048641,Arriel LaVena Miles,University of Arizona,1,1,7,0.0,other,,W2065747405
+name:cao p,Peirui Cao,unknown,1,1,7,0.0,architecture_only,,arxiv:2308.05692
+name:han x,Xinchi Han,unknown,1,1,7,0.0,architecture_only,,arxiv:2308.05692
+name:jiang w,Weihao Jiang,unknown,1,1,7,0.0,architecture_only,,arxiv:2308.05692
+name:lin s,Shengkai Lin,unknown,1,1,7,0.0,architecture_only,,arxiv:2308.05692
+name:liu y,Yunzhuo Liu,unknown,1,1,7,0.0,architecture_only,,arxiv:2308.05692
+name:qi s,Shuyao Qi,unknown,1,1,7,0.0,architecture_only,,arxiv:2308.05692
+name:yang q,Qinwei Yang,unknown,1,1,7,0.0,architecture_only,,arxiv:2308.05692
+name:zhao s#3,Shizhen Zhao,unknown,1,1,7,0.0,architecture_only,,arxiv:2308.05692
+A5000009852,Yannick D’Mello,McGill University,1,1,6,0.0,thermo_optic,,W4308917780
+A5001630620,Justin R. Bickford,DEVCOM Army Research Laboratory,1,1,6,0.0,unclear,,W1983164798
+A5001737064,Marcel W. Pruessner,Sensors (United States),1,1,6,0.0,mems_silicon_photonic,,W2103195791
+A5003486165,Naru Nemoto,NTT (Japan),1,1,6,0.0,mems_3d,,W3041044413
+A5004887580,Russell A. Budd,IBM (United States),1,1,6,0.0,unclear,,W1983164798
+A5005968804,Ken Morito,Fujitsu (Japan),1,1,6,0.0,soa,,W2028213396
+A5012411034,Koichi Hadama,NTT (Japan),1,1,6,0.0,mems_3d,,W3041044413
+A5012606067,Robert J. Hendry,Columbia University,1,2,6,0.0,electro_optic,,W2062631387
+A5015687395,Richard A. Soref,University of Massachusetts Boston,1,3,6,0.0,unclear,silicon_photonics,W2786500500
+A5020148934,Germán Rodríguez,IBM Research - Zurich,1,1,6,0.0,architecture_only,,W2319613051
+A5020822110,Ayahito Uetake,Fujitsu (Japan),1,1,6,0.0,soa,,W2028213396
+A5024325389,Peter OrBrien,unknown,1,1,6,0.0,mems_silicon_photonic,,W2919451605
+A5024898382,Mao Deng,McGill University,1,1,6,0.0,thermo_optic,,W4308917780
+A5028299159,Daniel P. Kelly,Sensors (United States),1,1,6,0.0,mems_silicon_photonic,,W2103195791
+A5028913443,Hitoshi Takeshita,NEC (Japan),1,1,6,0.0,unclear,telecom_oxc_roadm,W2066110041
+A5036692561,雄三 石井,NTT (Japan),1,1,6,0.0,mems_3d,,W3041044413
+A5039736814,Tomoaki Kato,NEC (Japan),1,1,6,0.0,unclear,telecom_oxc_roadm,W2066110041
+A5043681033,Susumu Yamazaki,Fujitsu (Japan),1,1,6,0.0,soa,,W2028213396
+A5045487076,Cyriel Minkenberg,IBM Research - Zurich,1,1,6,0.0,architecture_only,,W2319613051
+A5046488575,Petar K. Pepeljugoski,IBM (United States),1,1,6,0.0,unclear,,W1983164798
+A5046713123,Padraic E. Morrissey,University College Cork,1,1,6,0.0,mems_silicon_photonic,,W2786734285
+A5046970118,Xiong Gao,Beijing University of Posts and Telecommunications,1,1,6,0.0,architecture_only,,W2903019116
+A5050379207,Zixian Wei,McGill University,1,1,6,0.0,thermo_optic,,W4308917780
+A5051155902,Mitsuru Ekawa,Fujitsu (Japan),1,1,6,0.0,soa,,W2028213396
+A5062754428,Philip Heidelberger,IBM (United States),1,1,6,0.0,architecture_only,,W2319613051
+A5065894232,Bogdan Prisacari,IBM Research - Zurich,1,1,6,0.0,architecture_only,,W2319613051
+A5067086418,Yuko Kawajiri,NTT (Japan),1,1,6,0.0,mems_3d,,W3041044413
+A5070543094,Jinzhe Che,University of Edinburgh,1,1,6,0.0,architecture_only,,W4281958713
+A5071903467,Shuichi Tomabechi,Fujitsu (Japan),1,1,6,0.0,soa,,W2028213396
+A5071959128,Jinsong Zhang,McGill University,1,1,6,0.0,thermo_optic,,W4308917780
+A5072601322,Kuldeep Amarnath,"University of Maryland, College Park",1,1,6,0.0,mems_silicon_photonic,,W2103195791
+A5075414103,Hongxiang Guo,Beijing University of Posts and Telecommunications,1,1,6,0.0,architecture_only,,W2903019116
+A5078809122,Zichong Pang,Peng Cheng Laboratory,1,1,6,0.0,architecture_only,,W4281958713
+A5079528166,Shinsuke Tanaka,Fujitsu (Japan),1,1,6,0.0,soa,,W2028213396
+A5080230991,David V. Plant,McGill University,1,1,6,0.0,thermo_optic,,W4308917780
+A5082285398,Reza Ghodssi,Sensors (United States),1,1,6,0.0,mems_silicon_photonic,,W2103195791
+A5085298132,Kiyoshi Fukuchi,NEC (Japan),1,1,6,0.0,unclear,telecom_oxc_roadm,W2066110041
+A5100319457,Dong Chen,IBM (United States),1,1,6,0.0,architecture_only,,W2319613051
+A5100350182,Qi Li,Columbia University,1,2,6,0.0,electro_optic,,W2062631387
+A5100411573,Yi Sun,unknown,1,1,6,0.0,mems_silicon_photonic,,W4378770566
+A5100613914,Weijia Li,McGill University,1,1,6,0.0,thermo_optic,,W4308917780
+A5100642261,Guohui Wang,Rice University,1,1,6,0.0,architecture_only,,W2097926925
+A5101065689,Yi Sun,Zhejiang University,1,1,6,0.0,mems_silicon_photonic,,W4406015850
+A5101753648,Seok–Hwan Jeong,Fujitsu (Japan),1,1,6,0.0,soa,,W2028213396
+A5101842485,Cen Wang,Beijing University of Posts and Telecommunications,1,1,6,0.0,architecture_only,,W2903019116
+A5101963471,Ye Lu,unknown,1,1,6,0.0,mems_silicon_photonic,,W4378770566
+A5102102592,Ping-Tong Ho,"University of Maryland, College Park",1,1,6,0.0,mems_silicon_photonic,,W2103195791
+A5102963353,Yong Zhu,Beijing University of Posts and Telecommunications,1,1,6,0.0,architecture_only,,W2903019116
+A5103103562,Luhua Xu,CMC Microsystems (Canada),1,1,6,0.0,thermo_optic,,W4308917780
+A5106667264,Jian Wu,Beijing University of Posts and Telecommunications,1,1,6,0.0,architecture_only,,W2903019116
+A5107826941,M. Datta,Sensors (United States),1,1,6,0.0,mems_silicon_photonic,,W2103195791
+A5109323274,Shigeyuki Yanagimachi,NEC (Japan),1,1,6,0.0,unclear,telecom_oxc_roadm,W2066110041
+A5109410360,Joji Yamaguchi,NTT (Japan),1,1,6,0.0,mems_3d,,W3041044413
+A5110202663,K.A. Williams,Eindhoven University of Technology,1,1,6,0.0,unclear,telecom_oxc_roadm,W1989460122
+A5110258754,Subramaniam Kanakaraju,"University of Maryland, College Park",1,1,6,0.0,mems_silicon_photonic,,W2103195791
+A5112256021,Akio Tajima,NEC (Japan),1,1,6,0.0,unclear,telecom_oxc_roadm,W2066110041
+A5112402854,Michael P. Ryan,Intel (United States),1,1,6,0.0,architecture_only,,W2097926925
+name:chen a,Ang Chen,unknown,1,1,6,0.0,architecture_only,,arxiv:2104.09680
+name:daoxin d,"Dai, Daoxin",unknown,1,1,6,0.0,mems_silicon_photonic,,W4378770566
+name:das s,Sushovan Das,unknown,1,1,6,0.0,architecture_only,,arxiv:2104.09680
+name:han x#3,Xinchi Han,unknown,1,1,6,0.0,architecture_only,,arxiv:2507.12265
+name:liu l,"Liu, Liu",unknown,1,1,6,0.0,mems_silicon_photonic,,W4378770566
+name:ng t,T. S. Eugene Ng,unknown,1,1,6,0.0,architecture_only,,arxiv:2104.09680
+name:rahbar a,Afsaneh Rahbar,unknown,1,1,6,0.0,architecture_only,,arxiv:2104.09680
+name:wang w,Weitao Wang,unknown,1,1,6,0.0,architecture_only,,arxiv:2104.09680
+name:wang x#4,Xinbing Wang,unknown,1,1,6,0.0,architecture_only,,arxiv:2507.12265
+name:wang z,Zhuang Wang,unknown,1,1,6,0.0,architecture_only,,arxiv:2104.09680
+name:wu d,Dongchao Wu,unknown,1,1,6,0.0,architecture_only,,arxiv:2507.12265
+name:wu x,Xinyu Crystal Wu,unknown,1,1,6,0.0,architecture_only,,arxiv:2104.09680
+name:yang j#2,Jian Yang,unknown,1,1,6,0.0,architecture_only,,arxiv:2507.12265
+name:yaocheng s,"Shi, Yaocheng",unknown,1,1,6,0.0,mems_silicon_photonic,,W4378770566
+name:zhang z,Zhanbang Zhang,unknown,1,1,6,0.0,architecture_only,,arxiv:2507.12265
+name:zhao s#5,Shizhen Zhao,unknown,1,1,6,0.0,architecture_only,,arxiv:2507.12265
+name:zhu z,Zihan Zhu,unknown,1,1,6,0.0,architecture_only,,arxiv:2507.12265
+A5003911920,Jiejiang Xing,Chinese Academy of Sciences,1,1,5,0.0,electro_optic,,W2063297543
+A5006389668,Avantika Sohdi,"University of California, Santa Barbara",1,1,5,0.0,unclear,,W2008366783
+A5008273539,Tao Chen,Westlake University,1,1,5,0.0,thermo_optic,,W4394930219
+A5009182379,Netsanet M. Tessema,Eindhoven University of Technology,1,1,5,0.0,soa,,W2912886516
+A5014269086,Yu‐Han Hung,Columbia University,1,1,5,0.0,unclear,,W2938572472
+A5014859711,Shijie Ke,Westlake University,1,1,5,0.0,thermo_optic,,W4394930219
+A5021177786,Li Jingdi,unknown,1,1,5,0.0,unclear,,W2533885611
+A5021259927,Roger T. Howe,Stanford University,1,1,5,0.0,unclear,mems_micromirror,W2159513073
+A5021490338,Heshan Yu,"University of Maryland, College Park",1,1,5,0.0,other,,W2905370602
+A5022284072,Zonghang Li,University of Electronic Science and Technology of China,1,1,5,0.0,architecture_only,,W3025347955
+A5024438027,Huaman Zhou,University of Electronic Science and Technology of China,1,1,5,0.0,architecture_only,,W3025347955
+A5025210550,Dinh Danh Le,Hồng Đức University,1,1,5,0.0,architecture_only,,W3032344992
+A5025438151,Vladimir Marko Stojanovic,Berkeley College,1,1,5,0.0,mems_silicon_photonic,,W4393174577
+A5026493452,Ichiro Takeuchi,"University of Maryland, College Park",1,1,5,0.0,other,,W2905370602
+A5027387070,Rob McGuinness,University of California San Diego,1,1,5,0.0,architecture_only,,W2934098931
+A5027571250,Yibo Guo,University of California San Diego,1,1,5,0.0,architecture_only,,W2934098931
+A5027614399,Zhenguo Wu,Columbia University,1,1,5,0.0,architecture_only,,W4223926670
+A5028497995,René P. J. van Veldhoven,Eindhoven University of Technology,1,1,5,0.0,mems_silicon_photonic,,W2994903006
+A5029361236,Francesco M. Pagliano,NanoPHAB (Netherlands),1,1,5,0.0,mems_silicon_photonic,,W2994903006
+A5029531257,Kenji Kintaka,National Institute of Advanced Industrial Science and Technology,1,1,5,0.0,thermo_optic,,W1985329895
+A5031293204,Hans P. Zappe,University of Freiburg,1,1,5,0.0,unclear,mems_micromirror,W2159513073
+A5032634590,Liu Huabo,unknown,1,1,5,0.0,unclear,,W2533885611
+A5033456106,Xiaoqi Wang,unknown,1,1,5,0.0,unclear,,W2533885611
+A5035915615,Himanshu Gupta,Stony Brook University,1,1,5,0.0,architecture_only,,W2583039042
+A5038509476,Zhao Zhenhai,unknown,1,1,5,0.0,unclear,,W2533885611
+A5038645932,Luke S. Theogarajan,"University of California, Santa Barbara",1,1,5,0.0,unclear,,W2008366783
+A5039328718,Yuya Shoji,National Institute of Advanced Industrial Science and Technology,1,1,5,0.0,thermo_optic,,W1985329895
+A5041542091,Zhenming Ding,Westlake University,1,1,5,0.0,thermo_optic,,W4394930219
+A5043663600,Changming Wu,University of Washington,1,1,5,0.0,other,,W2905370602
+A5045648041,Jirun Luo,Berkeley College,1,1,5,0.0,mems_silicon_photonic,,W4393174577
+A5049448415,Huaxi Gu,Xidian University,1,1,5,0.0,architecture_only,,W4404238479
+A5049750274,Zhenhua Han,Microsoft Research Asia (China),1,1,5,0.0,architecture_only,,W3129609980
+A5050393292,Shaojie Tang,unknown,1,1,5,0.0,architecture_only,,W2982606503
+A5052707197,Kee-Won Kwon,Berkeley College,1,1,5,0.0,mems_silicon_photonic,,W4393174577
+A5053429789,Liam P. Barry,unknown,1,1,5,0.0,architecture_only,,W3032344992
+A5053945147,Gang Sun,University of Electronic Science and Technology of China,1,1,5,0.0,architecture_only,,W3025347955
+A5054643213,Conor McArdle,unknown,1,1,5,0.0,architecture_only,,W3032344992
+A5056192611,Erik Anderson,Berkeley College,1,1,5,0.0,mems_silicon_photonic,,W4393174577
+A5058421583,Masahiro Sakauchi,NEC (Japan),1,1,5,0.0,thermo_optic,,W2062193700
+A5061685231,Christopher J. Nitta,"University of California, Davis",1,1,5,0.0,soa,,W1989361652
+A5061975152,Luke P. Lee,"University of California, Berkeley",1,1,5,0.0,unclear,mems_micromirror,W2159513073
+A5063043559,Asif A. Godil,unknown,1,1,5,0.0,unclear,mems_micromirror,W2159513073
+A5064072198,Yude Yu,Chinese Academy of Sciences,1,1,5,0.0,electro_optic,,W2063297543
+A5064178318,Zhangqi Dang,Westlake University,1,1,5,0.0,thermo_optic,,W4394930219
+A5064406002,Zeshan Chang,Huawei Technologies (China),1,1,5,0.0,architecture_only,,W4404238479
+A5065458379,Yves-Alain Peter,Polytechnique Montréal,1,1,5,0.0,unclear,mems_micromirror,W2159513073
+A5072501265,Philip Perry,unknown,1,1,5,0.0,architecture_only,,W3032344992
+A5075454046,Shouxi Luo,Southwest Jiaotong University,1,1,5,0.0,architecture_only,,W3025347955
+A5077478068,Ma Youheng,unknown,1,1,5,0.0,unclear,,W2533885611
+A5079570779,Rajdeep Das,University of California San Diego,1,1,5,0.0,architecture_only,,W2934098931
+A5080215518,Peiji Zhou,Chinese Academy of Sciences,1,1,5,0.0,electro_optic,,W2063297543
+A5083189212,Chi Zhang,University of Science and Technology of China,1,1,5,0.0,architecture_only,,W3129609980
+A5088498707,Andrea Fiore,Eindhoven University of Technology,1,1,5,0.0,mems_silicon_photonic,,W2994903006
+A5089377852,Venkatesh Akella,"University of California, Davis",1,1,5,0.0,soa,,W1989361652
+A5089577310,Luis Chen,"University of California, Santa Barbara",1,1,5,0.0,unclear,,W2008366783
+A5091641200,Georgios Exarchakos,Eindhoven University of Technology,1,1,5,0.0,architecture_only,,W3208402115
+A5100328812,Haibo Wang,University of Cambridge,1,1,5,0.0,soa,,W2056973550
+A5100343973,Ling Liu,University of Electronic Science and Technology of China,1,1,5,0.0,architecture_only,,W3025347955
+A5100353847,Xin Li,Shanghai Jiao Tong University,1,1,5,0.0,thermo_optic,,W2974096969
+A5100357836,Ziyang Zhang,Westlake University,1,1,5,0.0,thermo_optic,,W4394930219
+A5100361457,Mo Li,University of Minnesota,1,1,5,0.0,other,,W2905370602
+A5100386609,Shuo Li,Xidian University,1,1,5,0.0,architecture_only,,W4404238479
+A5100396736,Zhiyong Li,Chinese Academy of Sciences,1,1,5,0.0,electro_optic,,W2063297543
+A5100730489,Xin Li,Shanghai Jiao Tong University,1,1,5,0.0,thermo_optic,,W4378650891
+A5100804545,Xiaoshan Yu,Xidian University,1,1,5,0.0,architecture_only,,W4404238479
+A5100860694,Runxiang Yu,"University of California, Davis",1,1,5,0.0,soa,,W1989361652
+A5101405860,Xiaohang Zhang,"University of Maryland, College Park",1,1,5,0.0,other,,W2905370602
+A5101507232,Hongfang Yu,University of Electronic Science and Technology of China,1,1,5,0.0,architecture_only,,W3025347955
+A5101550401,Hua Huang,Xidian University,1,1,5,0.0,architecture_only,,W4404238479
+A5101556021,Xiaorui Li,Shanghai Jiao Tong University,1,1,5,0.0,thermo_optic,,W2974096969
+A5101599355,Lei Zhao,unknown,1,1,5,0.0,unclear,,W2533885611
+A5101615260,Jingyan Wang,Hồng Đức University,1,1,5,0.0,architecture_only,,W3032344992
+A5101710041,Tianran Liu,Eindhoven University of Technology,1,1,5,0.0,mems_silicon_photonic,,W2994903006
+A5102968002,Qian Ma,Zhejiang University,1,1,5,0.0,mems_silicon_photonic,,W4385800727
+A5103045172,Mingbin Yu,"Agency for Science, Technology and Research",1,1,5,0.0,thermo_optic,,W2062193700
+A5106745257,Zeyu Deng,Westlake University,1,1,5,0.0,thermo_optic,,W4394930219
+A5108110596,Toshifumi Hasama,National Institute of Advanced Industrial Science and Technology,1,1,5,0.0,thermo_optic,,W1985329895
+A5108429356,Yoshiaki Sone,NTT (Japan),1,1,5,0.0,architecture_only,,W4413217623
+A5108465965,Eng Tin Aw,University of Cambridge,1,1,5,0.0,soa,,W2056973550
+A5108839787,Chenghan Liu,Shanghai Jiao Tong University,1,1,5,0.0,thermo_optic,,W4378650891
+A5109886498,Jinzhong Yu,Chinese Academy of Sciences,1,1,5,0.0,electro_optic,,W2063297543
+A5109928167,Gregory A. Fish,"University of California, Santa Barbara",1,1,5,0.0,unclear,,W2008366783
+A5110009684,J. E. Roth,"University of California, Santa Barbara",1,1,5,0.0,unclear,,W2008366783
+A5111623714,Shigeki Takahashi,NEC (Japan),1,1,5,0.0,thermo_optic,,W2062193700
+A5112506855,Vadim Pogoretskiy,Eindhoven University of Technology,1,1,5,0.0,mems_silicon_photonic,,W2994903006
+name:aksenov v,Vitaly Aksenov,unknown,1,1,5,0.0,architecture_only,,arxiv:2302.13113
+name:feder e,Evgenii Feder,unknown,1,1,5,0.0,architecture_only,,arxiv:2302.13113
+name:feng y,Yicheng Feng,unknown,1,1,5,0.0,architecture_only,,arxiv:2601.01209
+name:ishii k,Kiyo Ishii,unknown,1,1,5,0.0,architecture_only,,arxiv:2401.09284
+name:jiang y#2,Yimin Jiang,unknown,1,1,5,0.0,architecture_only,,arxiv:2601.01209
+name:klawson d,Daniel Klawson,unknown,1,1,5,0.0,mems_silicon_photonic,,arxiv:2608.03146
+name:luo j,Jianheng Luo,unknown,1,1,5,0.0,mems_silicon_photonic,,arxiv:2608.03146
+name:ma q,Qian Ma,unknown,1,1,5,0.0,mems_silicon_photonic,,W4402905306
+name:mavrin p,Pavel Mavrin,unknown,1,1,5,0.0,architecture_only,,arxiv:2302.13113
+name:namiki s,Shu Namiki,unknown,1,1,5,0.0,architecture_only,,arxiv:2401.09284
+name:okazaki f,Fumihiro Okazaki,unknown,1,1,5,0.0,architecture_only,,arxiv:2401.09284
+name:paramonov a,Anton Paramonov,unknown,1,1,5,0.0,architecture_only,,arxiv:2302.13113
+name:roy a,Arkadev Roy,unknown,1,1,5,0.0,mems_silicon_photonic,,arxiv:2608.03146
+name:salem i,Iosif Salem,unknown,1,1,5,0.0,architecture_only,,arxiv:2302.13113
+name:sato k,Ken-ichi Sato,unknown,1,1,5,0.0,architecture_only,,arxiv:2401.09284
+name:schmid s#2,Stefan Schmid,unknown,1,1,5,0.0,architecture_only,,arxiv:2302.13113
+name:shimizu t,Toshiyuki Shimizu,unknown,1,1,5,0.0,architecture_only,,arxiv:2401.09284
+name:takano r,Ryousei Takano,unknown,1,1,5,0.0,architecture_only,,arxiv:2401.09284
+name:tan x,Xin Tan,unknown,1,1,5,0.0,architecture_only,,arxiv:2601.01209
+name:tang s,Sirui Tang,unknown,1,1,5,0.0,mems_silicon_photonic,,arxiv:2608.03146
+name:wang s,Songyan Wang,Xidian University,1,1,5,0.0,architecture_only,,W4404238479
+name:wu m,Ming Wu,unknown,1,1,5,0.0,mems_silicon_photonic,,arxiv:2608.03146
+name:xu h,Hong Xu,unknown,1,1,5,0.0,architecture_only,,arxiv:2601.01209
+name:zhi y,Yiyang Zhi,unknown,1,1,5,0.0,mems_silicon_photonic,,arxiv:2608.03146
+name:zhou y#3,Yu Zhou,unknown,1,1,5,0.0,architecture_only,,arxiv:2601.01209
+name:zhu y#2,Yibo Zhu,unknown,1,1,5,0.0,architecture_only,,arxiv:2601.01209
+A5001403546,Takayoshi ANAN,NEC (Japan),1,1,4,0.0,electro_optic,,W1979338531
+A5005191936,Xinwan Li,Shanghai Jiao Tong University,1,1,4,0.0,electro_optic,,W2335273496
+A5008679299,Yudai Uchida,Kagawa University,1,1,4,0.0,mems_3d,,W3215039088
+A5008757709,Ran Shu,Microsoft Research Asia (China),1,1,4,0.0,architecture_only,,W3089161534
+A5009845987,T. Watanabe,NTT (Japan),1,1,4,0.0,other,,W2024436451
+A5010550330,Evandro Conforti,Universidade Estadual de Campinas (UNICAMP),1,1,4,0.0,soa,,W2064033006
+A5012391798,Yueping Zhang,Princeton University,1,1,4,0.0,architecture_only,,W2017036528
+A5015813835,Napoleão S. Ribeiro,Universidade Estadual de Campinas (UNICAMP),1,1,4,0.0,soa,,W2064033006
+A5020661480,Chaolong Song,China University of Geosciences,1,1,4,0.0,mems_silicon_photonic,,W2909208749
+A5021350285,Seyedfakhreddin Koorosh Nabavi,École de Technologie Supérieure,1,1,4,0.0,mems_silicon_photonic,,W4387805823
+A5021471573,Amirmahdi Honardoost,"University of California, Berkeley",1,1,4,0.0,mems_silicon_photonic,,W4226451033
+A5024806055,Wenxue Cheng,Microsoft Research Asia (China),1,1,4,0.0,architecture_only,,W3089161534
+A5029688723,Glenn M. Schuster,University of California San Diego,1,1,4,0.0,mems_3d,,W2560361359
+A5033759584,Jiahui Hou,Illinois Institute of Technology,1,1,4,0.0,architecture_only,,W2885686227
+A5039345101,K. Komatsu,NEC (Japan),1,1,4,0.0,electro_optic,,W1979338531
+A5041032404,Masahiro Sugimoto,NEC (Japan),1,1,4,0.0,electro_optic,,W1979338531
+A5041961752,Jiakun Bao,China North Industries Group Corporation (China),1,1,4,0.0,architecture_only,,W3089161534
+A5042873968,I. Mito,NEC (Japan),1,1,4,0.0,electro_optic,,W1979338531
+A5046051498,Olga Blum Spahn,Sandia National Laboratories,1,1,4,0.0,mems_silicon_photonic,,W2094432207
+A5046788536,Rafael Figueirêdo,Universidade Estadual de Campinas (UNICAMP),1,1,4,0.0,soa,,W2064033006
+A5049143289,J.J. Lean,Sandia National Laboratories,1,1,4,0.0,mems_silicon_photonic,,W2094432207
+A5051448566,Almur A. S. Rabih,École de Technologie Supérieure,1,1,4,0.0,mems_silicon_photonic,,W4387805823
+A5053455655,Kunwadee Sripanidkulchai,National Electronics and Computer Technology Center,1,1,4,0.0,architecture_only,,W2171830950
+A5055195621,Lei Xu,Princeton University,1,1,4,0.0,architecture_only,,W2017036528
+A5058574391,Domaniç Lavery,University College London,1,1,4,0.0,soa,,W3006394648
+A5059557008,Jinlong Wei,University of Cambridge,1,1,4,0.0,soa,,W2062054310
+A5060236860,Polina Bayvel,University College London,1,1,4,0.0,soa,,W3006394648
+A5060809489,Zuxiang Li,Shanghai Jiao Tong University,1,1,4,0.0,electro_optic,,W2335273496
+A5062298451,Kiichi Hamamoto,NEC (Japan),1,1,4,0.0,electro_optic,,W1979338531
+A5062577045,Hideki Nishizawa,unknown,1,1,4,0.0,architecture_only,,W4399846465
+A5062883943,J. L. Wei,University of Cambridge,1,1,4,0.0,electro_optic,,W1997754090
+A5063471318,Tianye Huang,China University of Geosciences,1,1,4,0.0,mems_silicon_photonic,,W2909208749
+A5067857269,Zhenmin Chen,Tsinghua–Berkeley Shenzhen Institute,1,1,4,0.0,mems_silicon_photonic,,W2909208749
+A5068278507,Thomas Gerard,University College London,1,1,4,0.0,soa,,W3006394648
+A5072031167,Chris P. Tigges,Sandia National Laboratories,1,1,4,0.0,mems_silicon_photonic,,W2094432207
+A5074358757,Cristiano M. Gallep,Universidade Estadual de Campinas (UNICAMP),1,1,4,0.0,soa,,W2064033006
+A5074932750,Cathy Yi-Hsuan Chen,Columbia University,1,1,4,0.0,architecture_only,,W2171830950
+A5078556323,Howard Wang,Columbia University,1,1,4,0.0,architecture_only,,W2171830950
+A5080197427,Fengyuan Ren,Tsinghua University,1,1,4,0.0,architecture_only,,W3089161534
+A5084039159,Antonio M. O. Ribeiro,Universidade Estadual de Campinas (UNICAMP),1,1,4,0.0,soa,,W2064033006
+A5088070400,Thor Bakke,Norwegian University of Science and Technology,1,1,4,0.0,mems_silicon_photonic,,W2094432207
+A5088814058,Itsuki Urashima,Kagawa University,1,1,4,0.0,mems_3d,,W3215039088
+A5091752750,Ketemaw Addis Mekonnen,Eindhoven University of Technology,1,1,4,0.0,unclear,silicon_photonics,W2592504242
+A5100378820,Tong Zhang,Nanjing University of Aeronautics and Astronautics,1,1,4,0.0,architecture_only,,W3089161534
+A5101529867,Hiroshi Takahashi,NTT (Japan),1,1,4,0.0,other,,W2024436451
+A5103360175,Sambit Sahu,IBM (United States),1,1,4,0.0,architecture_only,,W2171830950
+A5103703352,Atul Kumar Singh,Princeton University,1,1,4,0.0,architecture_only,,W2017036528
+A5109041238,Chang Kyu Kim,"University of California, Berkeley",1,1,4,0.0,mems_silicon_photonic,,W1515664994
+A5109887569,Tomonobu Niwa,Nagoya University,1,1,4,0.0,other,,W2024436451
+A5110266195,Charles T. Sullivan,Sandia National Laboratories,1,1,4,0.0,mems_silicon_photonic,,W2094432207
+name:arfeen d,Daiyaan Arfeen,unknown,1,1,4,0.0,architecture_only,,arxiv:2510.03891
+name:avin c,Chen Avin,unknown,1,1,4,0.0,architecture_only,,arxiv:2202.05487
+name:blenk a,Andreas Blenk,unknown,1,1,4,0.0,architecture_only,,arxiv:2202.05487
+name:chen s,Shawn Shuoshuo Chen,unknown,1,1,4,0.0,architecture_only,,arxiv:2510.03891
+name:famaey j,Jeroen Famaey,unknown,1,1,4,0.0,architecture_only,,arxiv:2609.25949
+name:gyorgyi c,Csaba Györgyi,unknown,1,1,4,0.0,architecture_only,,arxiv:2202.05487
+name:hu w,Weisheng Hu,unknown,1,1,4,0.0,architecture_only,,arxiv:2603.28096
+name:lahmer s,Seyyidahmed Lahmer,unknown,1,1,4,0.0,architecture_only,,arxiv:2609.25949
+name:liu j#2,Jingya Liu,unknown,1,1,4,0.0,architecture_only,,arxiv:2603.28096
+name:nada a,Abubakr Nada,unknown,1,1,4,0.0,architecture_only,,arxiv:2609.25949
+name:peeters m,Michael Peeters,unknown,1,1,4,0.0,architecture_only,,arxiv:2609.25949
+name:schmid s,Stefan Schmid,unknown,1,1,4,0.0,architecture_only,,arxiv:2202.05487
+name:seshan s,Srinivasan Seshan,unknown,1,1,4,0.0,architecture_only,,arxiv:2510.03891
+name:steenkiste p,Peter Steenkiste,unknown,1,1,4,0.0,architecture_only,,arxiv:2510.03891
+name:sun w,Weiqiang Sun,unknown,1,1,4,0.0,architecture_only,,arxiv:2603.28096
+name:troch a,Arno Troch,unknown,1,1,4,0.0,architecture_only,,arxiv:2609.25949
+name:ye n,Niangen Ye,unknown,1,1,4,0.0,architecture_only,,arxiv:2603.28096
+name:yu m,Minlan Yu,unknown,1,1,4,0.0,architecture_only,,arxiv:2510.03891
+name:zerwas j,Johannes Zerwas,unknown,1,1,4,0.0,architecture_only,,arxiv:2202.05487
+name:zhu g,Guofu Zhu,unknown,1,1,4,0.0,architecture_only,,arxiv:2603.28096
+A5000062930,Kostas Katrinis,IBM Research - Ireland,1,1,3,0.0,architecture_only,,W2217959685
+A5001146133,Yasuhiko Arakawa,The University of Tokyo,1,1,3,0.0,thermo_optic,,W2053780865
+A5003485920,Adrien Toros,École Polytechnique Fédérale de Lausanne,1,1,3,0.0,mems_silicon_photonic,,W2918631369
+A5009056613,Corey Pollock,Boston University,1,1,3,0.0,mems_3d,,W2996949883
+A5011409180,Eduward Tangdiongga,Eindhoven University of Technology,1,1,3,0.0,soa,,W4220911475
+A5012337548,Shan Zhong,unknown,1,1,3,0.0,architecture_only,,W1979673782
+A5018537494,Hirokazu Nagai,Nagoya University,1,1,3,0.0,other,,W2807655209
+A5029009789,Dan M. Marom,Hebrew University of Jerusalem,1,1,3,0.0,unclear,telecom_oxc_roadm,W4308917574
+A5029543164,Martin Collier,Dublin City University,1,1,3,0.0,architecture_only,,W2217959685
+A5030509397,Pascal Landais,Dublin City University,1,1,3,0.0,architecture_only,,W2217959685
+A5033539820,Zhonghua Zhu,unknown,1,1,3,0.0,architecture_only,,W1979673782
+A5035910263,Teodoro Graziosi,École Polytechnique Fédérale de Lausanne,1,1,3,0.0,mems_silicon_photonic,,W2918631369
+A5037433724,Hirohito Yamada,NEC (Japan),1,1,3,0.0,thermo_optic,,W2053780865
+A5041135425,Callum Deakin,Network Group (Czechia),1,1,3,0.0,piezo,,W2913395450
+A5042428983,Bo Liu,Beijing University of Technology,1,1,3,0.0,architecture_only,,W3186645739
+A5048142223,Tianhe Liu,Beijing University of Posts and Telecommunications,1,1,3,0.0,architecture_only,,W3210177009
+A5056460879,Daniel Tardent,unknown,1,1,3,0.0,architecture_only,,W2331688183
+A5057769360,Alessandro Ottino,University College London,1,1,3,0.0,architecture_only,,W4226369700
+A5058807850,Matthias Imboden,École Polytechnique Fédérale de Lausanne,1,1,3,0.0,mems_3d,,W2996949883
+A5060189844,Kiyo Ishii,National Institute of Advanced Industrial Science and Technology,1,2,3,0.0,architecture_only,telecom_oxc_roadm,W2581603380
+A5063346143,Atiq Raza,unknown,1,1,3,0.0,architecture_only,,W2331688183
+A5067135868,Jitender Miglani,unknown,1,1,3,0.0,architecture_only,,W2331688183
+A5075048365,Chuangbai Xiao,Beijing University of Technology,1,1,3,0.0,architecture_only,,W3186645739
+A5083407667,Youmin Wang,"University of California, Berkeley",1,1,3,0.0,mems_2d,,W2605844474
+A5084282054,Yanwu Liu,Network Group (Czechia),1,1,3,0.0,architecture_only,,W4323644257
+A5089857163,Muhammad Imran,Dublin City University,1,1,3,0.0,architecture_only,,W2217959685
+A5091471100,K. Falta,Omron (Japan),1,1,3,0.0,mems_2d,,W2089755139
+A5100379245,Li Chen,Hong Kong University of Science and Technology,1,1,3,0.0,architecture_only,,W1979673782
+A5100436731,Jie Zhang,Beijing University of Posts and Telecommunications,1,1,3,0.0,architecture_only,,W3210177009
+A5101486905,Shen Yan,Beijing University of Posts and Telecommunications,1,1,3,0.0,architecture_only,,W3210177009
+A5101786707,D. J. Bishop,Boston University,1,1,3,0.0,mems_3d,,W2996949883
+A5109394432,Prometheus DasMahapatra,Eindhoven University of Technology,1,1,3,0.0,thermo_optic,,W2039715757
+A5109864761,Yutaka Miyamoto,NTT (Japan),1,1,3,0.0,unclear,telecom_oxc_roadm,W4308917574
+A5111576452,Satomi Ishida,The University of Tokyo,1,1,3,0.0,thermo_optic,,W2053780865
+A5116337743,Wei Wang,Beijing University of Posts and Telecommunications,1,1,3,0.0,architecture_only,,W3210177009
+name:amir d,Daniel Amir,unknown,1,1,3,0.0,architecture_only,,arxiv:2602.17449
+name:ben-itzhak y,Yaniv Ben-Itzhak,unknown,1,1,3,0.0,architecture_only,,arxiv:1609.04521
+name:caba c,Cosmin Caba,unknown,1,1,3,0.0,architecture_only,,arxiv:1609.04521
+name:cheng q,Qixiang Cheng,unknown,1,1,3,0.0,electro_optic,,arxiv:2403.02866
+name:cohen o,Ori Cohen,unknown,1,1,3,0.0,architecture_only,,arxiv:2602.17449
+name:ding e#3,Eric Ding,unknown,1,1,3,0.0,architecture_only,,arxiv:2602.12521
+name:kataria b,Bhaskar Kataria,unknown,1,1,3,0.0,architecture_only,,arxiv:2602.12521
+name:keslassy i,Isaac Keslassy,unknown,1,1,3,0.0,architecture_only,,arxiv:2603.07373
+name:krebs j,Jakob Krebs,unknown,1,1,3,0.0,architecture_only,,arxiv:2602.17449
+name:liang k,Kevin Liang,unknown,1,1,3,0.0,architecture_only,,arxiv:2603.07373
+name:lin b,Bill Lin,unknown,1,1,3,0.0,architecture_only,,arxiv:2603.07373
+name:luo l,Lingzhi Luo,unknown,1,1,3,0.0,electro_optic,,arxiv:2403.02866
+name:lyu b,Barry Lyu,unknown,1,1,3,0.0,architecture_only,,arxiv:2602.12521
+name:ma r,Rui Ma,unknown,1,1,3,0.0,electro_optic,,arxiv:2403.02866
+name:penty r,Richard V. Penty,unknown,1,1,3,0.0,electro_optic,,arxiv:2403.02866
+name:qiao l,Litao Qiao,unknown,1,1,3,0.0,architecture_only,,arxiv:2603.07373
+name:schour l,Liran Schour,unknown,1,1,3,0.0,architecture_only,,arxiv:1609.04521
+name:shen h#2,Hong Shen,unknown,1,1,3,0.0,architecture_only,,arxiv:2604.08242
+name:shen h#3,Hong Shen,unknown,1,1,3,0.0,architecture_only,,arxiv:2604.22146
+name:silberstein m,Mark Silberstein,unknown,1,1,3,0.0,architecture_only,,arxiv:2602.17449
+name:singh r#3,Rachee Singh,unknown,1,1,3,0.0,architecture_only,,arxiv:2602.12521
+name:tao y,Ye Tao,unknown,1,1,3,0.0,architecture_only,,arxiv:2604.22146
+name:tian h#2,Hui Tian,unknown,1,1,3,0.0,architecture_only,,arxiv:2604.08242
+name:tian h#3,Hui Tian,unknown,1,1,3,0.0,architecture_only,,arxiv:2604.22146
+name:vargaftik s,Shay Vargaftik,unknown,1,1,3,0.0,architecture_only,,arxiv:1609.04521
+name:wang d,Dong Wang,unknown,1,1,3,0.0,architecture_only,,arxiv:2604.08242
+name:wang x#6,Xin Wang,unknown,1,1,3,0.0,architecture_only,,arxiv:2604.08242
+name:wang x#7,Xin Wang,unknown,1,1,3,0.0,architecture_only,,arxiv:2604.22146
+A5005595297,Erdal Bulgan,Tohoku University,1,1,2,0.0,mems_silicon_photonic,,W2082515684
+A5005790297,T. Nishi,Fujitsu (Japan),1,1,2,0.0,other,,W2121095819
+A5009159717,Satoshi Kuroyanagi,Fujitsu (Japan),1,1,2,0.0,other,,W2121095819
+A5011457039,Guangya Zhou,National University of Singapore,1,1,2,0.0,unclear,,W4408995512
+A5013134913,Fumio Yamagishi,Fujitsu (Japan),1,1,2,0.0,mems_3d,,W2043855221
+A5015398112,Vamsi Addanki,Technische Universität Berlin,1,1,2,0.0,architecture_only,,W4322756647
+A5016165379,Sushovan Das,Rice University,1,1,2,0.0,architecture_only,,W3195562526
+A5022927076,Ehsan Keramati,Umeå University,1,1,2,0.0,unclear,,W2047996703
+A5023891001,Yoshiaki Kanamori,Tohoku University,1,1,2,0.0,mems_silicon_photonic,,W2082515684
+A5032531732,Mazdak Teimoortashloo,"Islamic Azad University, Tehran",1,1,2,0.0,unclear,,W2047996703
+A5032717864,Behrouz Ebrahimi,Texas A&M University at Qatar,1,1,2,0.0,unclear,,W1977220786
+A5037149133,Roger Helkey,unknown,1,1,2,0.0,mems_3d,,W1982772673
+A5038291093,Mehrdad Saif,University of Windsor,1,1,2,0.0,unclear,,W1977220786
+A5039396867,Tim Kane,Pennsylvania State University,1,1,2,0.0,mems_3d,,W2792477041
+A5040511302,Volkan Kaman,unknown,1,1,2,0.0,mems_3d,,W1982772673
+A5045668551,Qirui Huang,"Agency for Science, Technology and Research",1,1,2,0.0,unclear,,W2068907524
+A5052282204,Xiaojun Chen,RMIT University,1,1,2,0.0,thermo_optic,,W4319827927
+A5061542685,Mehdi Vali,University of Kashan,1,1,2,0.0,unclear,,W1977220786
+A5066404071,Fengnian Xia,IBM (United States),1,1,2,0.0,unclear,,W2049132385
+A5069160241,Tetsuya Tsuda,Fujitsu (Japan),1,1,2,0.0,mems_3d,,W2043855221
+A5081136305,Haruto Taka,Kyoto University,1,1,2,0.0,architecture_only,,W4401751711
+A5084230378,Lei Qiao,Chinese Academy of Sciences,1,1,2,0.0,electro_optic,,W2587610600
+A5085843145,Klaus-Tycho Foerster,University of Vienna,1,1,2,0.0,architecture_only,dc_network_systems,W2810723790
+A5090970330,Jiao Lin,RMIT University,1,1,2,0.0,thermo_optic,,W4319827927
+A5100357633,Xiaoyu Wang,University of Virginia,1,1,2,0.0,architecture_only,,W2884318141
+A5100435187,Weitao Wang,Rice University,1,1,2,0.0,architecture_only,,W3195562526
+A5100519164,Luying Zhou,"Agency for Science, Technology and Research",1,1,2,0.0,unclear,,W2068907524
+A5100730991,Ke Wang,RMIT University,1,1,2,0.0,thermo_optic,,W4319827927
+A5100833839,Junhui Wu,National University of Singapore,1,1,2,0.0,unclear,,W4408995512
+A5101942922,Junjie Xu,Columbia University,1,1,2,0.0,architecture_only,,W1970579225
+A5102920014,Omar Alharbi,Pennsylvania State University,1,1,2,0.0,mems_3d,,W2792477041
+A5103206740,Weijie Tang,Chinese Academy of Sciences,1,1,2,0.0,electro_optic,,W2587610600
+A5108650044,Samsul Bahari Mohd Noor,Universiti Putra Malaysia,1,1,2,0.0,unclear,,W2047996703
+A5109076494,M. Yano,Fujitsu (Japan),1,1,2,0.0,mems_3d,,W2043855221
+A5109098394,Yong-Kee Yeo,"Agency for Science, Technology and Research",1,1,2,0.0,unclear,,W2068907524
+name:addanki v,Vamsi Addanki,unknown,1,1,2,0.0,architecture_only,,arxiv:2405.20869
+name:avin c#2,Chen Avin,unknown,1,1,2,0.0,architecture_only,,arxiv:2405.20869
+name:benjamin j,Joshua Benjamin,unknown,1,1,2,0.0,architecture_only,,arxiv:2211.15226
+name:bergman k,Keren Bergman,unknown,1,1,2,0.0,architecture_only,,arxiv:2002.00473
+name:ding e#2,Eric Ding,unknown,1,1,2,0.0,architecture_only,,arxiv:2507.08119
+name:ottino a,Alessandro Ottino,unknown,1,1,2,0.0,architecture_only,,arxiv:2211.15226
+name:ouyang c,Chuhan Ouyang,unknown,1,1,2,0.0,architecture_only,,arxiv:2507.08119
+name:schmid s#3,Stefan Schmid,unknown,1,1,2,0.0,architecture_only,,arxiv:2405.20869
+name:shan s,Shu Shan,unknown,1,1,2,0.0,architecture_only,,arxiv:2305.04550
+name:shen h,Hong Shen,unknown,1,1,2,0.0,architecture_only,,arxiv:2306.09713
+name:singh r#2,Rachee Singh,unknown,1,1,2,0.0,architecture_only,,arxiv:2507.08119
+name:teh m,Min Yee Teh,unknown,1,1,2,0.0,architecture_only,,arxiv:2002.00473
+name:tian h,Hui Tian,unknown,1,1,2,0.0,architecture_only,,arxiv:2306.09713
+name:wang x#2,Xin Wang,unknown,1,1,2,0.0,architecture_only,,arxiv:2306.09713
+name:zervas g#2,Georgios Zervas,unknown,1,1,2,0.0,architecture_only,,arxiv:2211.15226
+name:zhang s,Shuyuan Zhang,unknown,1,1,2,0.0,architecture_only,,arxiv:2305.04550
+name:zhang t,Tongtian Zhang,National University of Singapore,1,1,2,0.0,unclear,,W4408995512
+name:zhao s,Shizhen Zhao,unknown,1,1,2,0.0,architecture_only,,arxiv:2002.00473
+name:zhao s#2,Shizhen Zhao,unknown,1,1,2,0.0,architecture_only,,arxiv:2305.04550
+A5008563545,Krishna Kant,Temple University,1,1,1,0.0,architecture_only,,W2241946296
+A5014132910,Young-kai Chen,Nokia (United States),1,1,1,0.0,unclear,,W2063697229
+A5020411733,Jui-che Tsai,National Taiwan University,1,1,1,0.0,unclear,,W1975357130
+A5030999113,Yasushi Munemasa,Tohoku University,1,1,1,0.0,mems_silicon_photonic,,W2032418282
+A5031299467,Kalyan Biswas,"Indian Institute of Engineering Science and Technology, Shibpur",1,1,1,0.0,unclear,,W4284963505
+A5039050553,Angsuman Sarkar,University of Kalyani,1,1,1,0.0,unclear,,W4284963505
+A5045806014,Yuta Akihama,Tohoku University,1,1,1,0.0,mems_silicon_photonic,,W1965253111
+A5048220756,Devendra Chack,Indian Institute of Technology Dhanbad,1,1,1,0.0,thermo_optic,,W4409153023
+A5064492461,Cheng-Hua Tsai,National Taiwan University,1,1,1,0.0,unclear,,W1975357130
+A5065166941,Amitangshu Pal,Temple University,1,1,1,0.0,architecture_only,,W2241946296
+A5081978877,Yi Sun,State Key Laboratory of Modern Optical Instruments,1,1,1,0.0,mems_silicon_photonic,,W3115038226
+A5087300252,Zhuozhao Li,University of Chicago,1,1,1,0.0,architecture_only,,W2982290016
+A5090708085,Vladimír Beneš,unknown,1,1,1,0.0,unclear,,W2113209593
+A5100336420,Long Chen,Alcatel Lucent (Germany),1,1,1,0.0,unclear,,W2063697229
+A5100336748,Jing Li,unknown,1,1,1,0.0,unclear,,W2492727504
+A5105515446,Christoforos Kachris,Athens Information Technology,1,1,1,0.0,architecture_only,,W2022337631
+A5108896174,Masato MIZUKAMI,NTT (Japan),1,1,1,0.0,robotic_patch_panel,,W2073240697
+A5113592637,Syotaro Abe,Tohoku University,1,1,1,0.0,mems_silicon_photonic,,W2089069546
+name:ding e,Eric Ding,unknown,1,1,1,0.0,unclear,,arxiv:2501.18136
+name:juerss a,Anton Juerss,unknown,1,1,1,0.0,architecture_only,,arxiv:2605.12766
+name:kumar g,Gaurav Kumar,Indian Institute of Technology Dhanbad,1,1,1,0.0,thermo_optic,,W4409153023
+name:schmid s#5,Stefan Schmid,unknown,1,1,1,0.0,architecture_only,,arxiv:2605.12766
+name:shabka z,Zacharaya Shabka,unknown,1,1,1,0.0,architecture_only,,arxiv:2211.02466
+name:singh r,Rachee Singh,unknown,1,1,1,0.0,unclear,,arxiv:2501.18136
+name:zervas g,Georgios Zervas,unknown,1,1,1,0.0,architecture_only,,arxiv:2211.02466
+A5048899608,Kornkamol Thakulsukanant,Assumption University,1,1,0,0.0,unclear,,W1561374189
+A5088211649,Efthymios N. Lallas,University of Thessaly,1,1,0,0.0,unclear,,W2952418242
+name:krause e,Eylon E. Krause,unknown,1,1,0,0.0,architecture_only,,arxiv:2608.00897
+A5021271886,Dries Van Thourhout,Ghent University,0,6,48,0.017705,,silicon_photonics,W1994471904;W1998335447;W2013921511;W2050810792;W2226240249
+A5049388016,Günther Roelkens,Ghent University,0,3,41,0.015429,,silicon_photonics,W1994471904;W2013921511;W2226240249
+A5100617451,Weiqiang Xie,"University of California, Santa Barbara",0,2,38,0.004659,,silicon_photonics,W2226240249;W4280617936
+A5101982670,Richard E. Jones,Intel (United States),0,3,33,0.035898,,silicon_photonics,W2013921511;W2933780027;W3009273389
+A5040744605,Tian Gu,Massachusetts Institute of Technology,0,3,30,8e-05,,silicon_photonics,W2774352386;W2897393425;W2898651003
+A5059553184,Jean-Marc Fédéli,Institut polytechnique de Grenoble,0,2,30,0.024076,,silicon_photonics,W1994471904;W2468172470
+A5111985787,Juejun Hu,Massachusetts Institute of Technology,0,3,30,8e-05,,silicon_photonics,W2774352386;W2897393425;W2898651003
+A5027543671,Leimeng Zhuang,Monash University,0,2,29,4.4e-05,,silicon_photonics,W2786482165;W2789715390
+A5077274071,Bart Kuyken,Ghent University,0,2,29,0.000341,,silicon_photonics,W2226240249;W3159759503
+A5010915443,René Heideman,LioniX (Netherlands),0,2,28,5e-06,,silicon_photonics,W2786482165;W2894308888
+A5013967366,J. K. Doylend,Intel (United States),0,2,28,0.003284,,silicon_photonics,W2481781603;W3009273389
+A5048741903,Chris G.  H. Roeloffzen,LioniX (Netherlands),0,2,28,5e-06,,silicon_photonics,W2786482165;W2894308888
+A5051191218,Arne Leinse,LioniX (Netherlands),0,2,28,5e-06,,silicon_photonics,W2786482165;W2894308888
+A5061158527,Douwe H. Geuzebroek,LioniX (Netherlands),0,2,28,5e-06,,silicon_photonics,W2786482165;W2894308888
+A5110021320,John M. Heck,Intel (United States),0,2,28,0.003284,,silicon_photonics,W2481781603;W3009273389
+A5012545113,Jörn P. Epping,LioniX (Netherlands),0,1,27,0.0,,silicon_photonics,W2786482165
+A5012720243,Ilka Visscher,LioniX (Netherlands),0,1,27,0.0,,silicon_photonics,W2786482165
+A5013511762,Kerstin Wörhoff,LioniX (Netherlands),0,1,27,0.0,,silicon_photonics,W2786482165
+A5022499056,D. V. Marchenko,LioniX (Netherlands),0,1,27,0.0,,silicon_photonics,W2786482165
+A5024972180,Yang Liu,The University of Sydney,0,1,27,0.0,,silicon_photonics,W2786482165
+A5025978287,Dimitri Geskus,LioniX (Netherlands),0,1,27,0.0,,silicon_photonics,W2786482165
+A5027927683,Marko Lončar,Harvard University,0,3,27,0.005927,,silicon_photonics,W3130725666;W4224325468;W4313555657
+A5029708859,Erik Schreuder,LioniX (Netherlands),0,1,27,0.0,,silicon_photonics,W2786482165
+A5037407368,Lennart Wevers,LioniX (Netherlands),0,1,27,0.0,,silicon_photonics,W2786482165
+A5046342095,Caterina Taddei,LioniX (Netherlands),0,1,27,0.0,,silicon_photonics,W2786482165
+A5047288482,Andrea Alippi,LioniX (Netherlands),0,1,27,0.0,,silicon_photonics,W2786482165
+A5054223480,Youwen Fan,LioniX (Netherlands),0,1,27,0.0,,silicon_photonics,W2786482165
+A5057021040,David A. I. Marpaung,The University of Sydney,0,1,27,0.0,,silicon_photonics,W2786482165
+A5058373875,Meryem Benelajla,University of Twente,0,1,27,0.0,,silicon_photonics,W2786482165
+A5062087093,Klaus J. Boller,University of Twente,0,1,27,0.0,,silicon_photonics,W2786482165
+A5064993290,Marcel Hoekman,LioniX (Netherlands),0,1,27,0.0,,silicon_photonics,W2786482165
+A5074735484,Albert van Rees,LioniX (Netherlands),0,1,27,0.0,,silicon_photonics,W2786482165
+A5079740044,Edwin Jan Klein,LioniX (Netherlands),0,1,27,0.0,,silicon_photonics,W2786482165
+A5080784491,Caterina Taballione,University of Twente,0,1,27,0.0,,silicon_photonics,W2786482165
+A5087755425,Roelof Bernardus Timens,LioniX (Netherlands),0,1,27,0.0,,silicon_photonics,W2786482165
+A5102754406,Paul W. L. van Dijk,LioniX (Netherlands),0,1,27,0.0,,silicon_photonics,W2786482165
+A5103827975,Ronald Haentjens Dekker,LioniX (Netherlands),0,1,27,0.0,,silicon_photonics,W2786482165
+A5108093986,Ruud M. Oldenbeuving,LioniX (Netherlands),0,1,27,0.0,,silicon_photonics,W2786482165
+A5108113439,Robert Grootjans,LioniX (Netherlands),0,1,27,0.0,,silicon_photonics,W2786482165
+A5106698228,Zhi Li,Intel (United States),0,2,25,0.018047,,silicon_photonics,W3009273389;W3041992595
+A5004735754,Ananth Z. Subramanian,Ghent University,0,1,24,0.0,,silicon_photonics,W2226240249
+A5006216232,Daan Martens,Ghent University,0,1,24,0.0,,silicon_photonics,W2226240249
+A5014128177,Pol Van Dorpe,IMEC,0,1,24,0.0,,silicon_photonics,W2226240249
+A5021043945,Aditya Malik,Ghent University,0,1,24,0.0,,silicon_photonics,W2226240249
+A5024229961,Utsav D. Dave,Ghent University,0,1,24,0.0,,silicon_photonics,W2226240249
+A5039441491,Zeger Hens,Ghent University,0,1,24,0.0,,silicon_photonics,W2226240249
+A5042204494,Pieter Wuytens,Ghent University,0,1,24,0.0,,silicon_photonics,W2226240249
+A5043693997,Frédéric Peyskens,Ghent University,0,1,24,0.0,,silicon_photonics,W2226240249
+A5051041080,Haolan Zhao,Ghent University,0,1,24,0.0,,silicon_photonics,W2226240249
+A5056126304,Shibnath Pathak,Ghent University,0,1,24,0.0,,silicon_photonics,W2226240249
+A5057843388,Ashim Dhakal,Ghent University,0,1,24,0.0,,silicon_photonics,W2226240249
+A5061438326,Alfonso Ruocco,Ghent University,0,1,24,0.0,,silicon_photonics,W2226240249
+A5063803369,Muhammad Muneeb,Ghent University,0,1,24,0.0,,silicon_photonics,W2226240249
+A5067665186,Peter Bienstman,Ghent University,0,1,24,0.0,,silicon_photonics,W2226240249
+A5073461329,François Léo,Ghent University,0,1,24,0.0,,silicon_photonics,W2226240249
+A5086933404,Eva Ryckeboer,Ghent University,0,1,24,0.0,,silicon_photonics,W2226240249
+A5090800112,Nicolas Le Thomas,Ghent University,0,1,24,0.0,,silicon_photonics,W2226240249
+A5111582155,Roel Baets,Ghent University,0,1,24,0.0,,silicon_photonics,W2226240249
+A5112149091,Andreas De Groote,Ghent University,0,1,24,0.0,,silicon_photonics,W2226240249
+A5016261899,Tin Komljenović,"University of California, Santa Barbara",0,2,22,0.005241,,silicon_photonics,W2468172470;W2933780027
+A5084925573,Lin Chang,"University of California, Santa Barbara",0,2,22,0.000628,,silicon_photonics,W4280617936;W4313555657
+A5006090805,Summer R. Hollingsworth,Intel (United States),0,1,21,0.0,,silicon_photonics,W3009273389
+A5015166552,Randal S. Appleton,Intel (United States),0,1,21,0.0,,silicon_photonics,W3009273389
+A5034694860,Reece A. Defrees,Intel (United States),0,1,21,0.0,,silicon_photonics,W3009273389
+A5034911314,Saeed Fathololoumi,Intel (United States),0,1,21,0.0,,silicon_photonics,W3009273389
+A5038668047,Hari Mahalingam,Intel (United States),0,1,21,0.0,,silicon_photonics,W3009273389
+A5041328052,Catherine Jan,Intel (United States),0,1,21,0.0,,silicon_photonics,W3009273389
+A5043269099,Mohammad Montazeri,Intel (United States),0,1,21,0.0,,silicon_photonics,W3009273389
+A5052317865,Mengjie Yu,University of Southern California,0,2,21,0.002363,,silicon_photonics,W3130725666;W4313555657
+A5052566373,Daniel X. Zhu,Intel (United States),0,1,21,0.0,,silicon_photonics,W3009273389
+A5061276907,Yuliya A. Akulova,Intel (United States),0,1,21,0.0,,silicon_photonics,W3009273389
+A5065980326,Harel Frish,Intel (United States),0,1,21,0.0,,silicon_photonics,W3009273389
+A5080351763,Hasitha Jayatilleka,Intel (United States),0,1,21,0.0,,silicon_photonics,W3009273389
+A5085003562,Sean McCargar,Intel (United States),0,1,21,0.0,,silicon_photonics,W3009273389
+A5100326405,Jian Chen,Intel (United States),0,1,21,0.0,,silicon_photonics,W3009273389
+A5100708729,Mian Zhang,nLIGHT (United States),0,2,21,0.002363,,silicon_photonics,W3130725666;W4313555657
+A5109118785,Meer Sakib,Intel (United States),0,1,21,0.0,,silicon_photonics,W3009273389
+A5110088302,Kimchau N. Nguyen,Intel (United States),0,1,21,0.0,,silicon_photonics,W3009273389
+A5110189692,Ling Liao,Intel (United States),0,1,21,0.0,,silicon_photonics,W3009273389
+A5111852191,Christopher S. Seibert,Intel (United States),0,1,21,0.0,,silicon_photonics,W3009273389
+A5113039613,Ranju Venables,Intel (United States),0,1,21,0.0,,silicon_photonics,W3009273389
+A5019721161,Neil E. Sinclair,California Institute of Technology,0,2,20,1.9e-05,,silicon_photonics,W3130725666;W4224325468
+A5067959335,Amirhassan Shams‐Ansari,Harvard University,0,2,20,1.9e-05,,silicon_photonics,W3130725666;W4224325468
+name:bohlin b,Bridget Bohlin,MIT Lincoln Laboratory,0,1,20,0.0,,,W2898651003
+name:chou j,Jeffrey B. Chou,MIT Lincoln Laboratory,0,1,20,0.0,,,W2898651003
+name:du q,Qingyang Du,Massachusetts Institute of Technology,0,1,20,0.0,,,W2898651003
+name:fang z,Zhuoran Fang,Massachusetts Institute of Technology,0,1,20,0.0,,,W2898651003
+name:kang m,Myungkoo Kang,University of Central Florida,0,1,20,0.0,,,W2898651003
+name:li h#2,Huashan Li,Sun Yat-sen University,0,1,20,0.0,,,W2898651003
+name:li j,Junying Li,University of Shanghai for Science and Technology,0,1,20,0.0,,,W2898651003
+name:liberman v,Vladimir Liberman,MIT Lincoln Laboratory,0,1,20,0.0,,,W2898651003
+name:lin h,Hongtao Lin,Zhejiang University,0,1,20,0.0,,,W2898651003
+name:richardson k,Kathleen Richardson,University of Central Florida,0,1,20,0.0,,,W2898651003
+name:rios c,Carlos Ríos,Massachusetts Institute of Technology,0,1,20,0.0,,,W2898651003
+name:roberts c,Christopher Roberts,MIT Lincoln Laboratory,0,1,20,0.0,,,W2898651003
+name:robinson p,Paul Robinson,MIT Lincoln Laboratory,0,1,20,0.0,,,W2898651003
+name:shalaginov m,Mikhail Y. Shalaginov,Massachusetts Institute of Technology,0,1,20,0.0,,,W2898651003
+name:warner j,Jamie Warner,University of Oxford,0,1,20,0.0,,,W2898651003
+name:yadav a,Anupama Yadav,University of Central Florida,0,1,20,0.0,,,W2898651003
+name:zhang y,Yifei Zhang,Massachusetts Institute of Technology,0,1,20,0.0,,,W2898651003
+name:zhong h,Huikai Zhong,Massachusetts Institute of Technology,0,1,20,0.0,,,W2898651003
+name:zhou s,Si Zhou,University of Oxford,0,1,20,0.0,,,W2898651003
+A5006810279,Goran Z. Mashanovich,University of Surrey,0,2,18,0.000391,,silicon_photonics,W2019883289;W2468172470
+A5070384786,Guang–Hua Duan,Alcatel Lucent (Germany),0,2,17,0.020266,,silicon_photonics,W1994471904;W2165260925
+A5091088194,Shin-Tson T. Wu,University of Central Florida,0,3,17,5.8e-05,,lcos_display_phase,W2901721529;W2949924416;W4281778727
+A5000000199,Delphine Marris‐Morini,Université Paris-Sud,0,1,16,0.0,,silicon_photonics,W2468172470
+A5021669986,Léopold Virot,Institut polytechnique de Grenoble,0,1,16,0.0,,silicon_photonics,W2468172470
+A5025923506,Éric Cassan,Université Paris-Sud,0,1,16,0.0,,silicon_photonics,W2468172470
+A5037151094,Miloš Nedeljković,University of Southampton,0,1,16,0.0,,silicon_photonics,W2468172470
+A5039436952,Aaron J. Zilkie,Rockley Photonics (United States),0,1,16,0.0,,silicon_photonics,W2468172470
+A5041512382,Dan‐Xia Xu,National Research Council Canada,0,1,16,0.0,,silicon_photonics,W2468172470
+A5043600763,Laurent Vivien,Université Paris-Sud,0,1,16,0.0,,silicon_photonics,W2468172470
+A5077255475,Jens H. Schmid,National Research Council Canada,0,1,16,0.0,,silicon_photonics,W2468172470
+A5091096177,F. Bœuf,STMicroelectronics (India),0,1,16,0.0,,silicon_photonics,W2468172470
+A5101486606,Jean‐Michel Hartmann,Institut polytechnique de Grenoble,0,1,16,0.0,,silicon_photonics,W2468172470
+A5072211609,Jianji Dong,Wuhan National Laboratory for Optoelectronics,0,2,15,0.002414,,silicon_photonics,W2571361994;W4210305137
+A5091643009,Liangjia Zong,Huawei Technologies (China),0,2,15,3.5e-05,,lcos_display_phase;telecom_oxc_roadm,W4225941096;W4381158453
+A5009281944,Jeffrey Holzgrafe,Harvard University,0,1,14,0.0,,silicon_photonics,W3130725666
+A5018677467,Jun Qin,Peking University,0,1,14,0.0,,silicon_photonics,W4280617936
+A5021417880,Shahram Keyvaninia,Ghent University,0,1,14,0.0,,silicon_photonics,W1994471904
+A5023481222,Eric Puma,Harvard University,0,1,14,0.0,,silicon_photonics,W3130725666
+A5024068612,Linbo Shao,Harvard University,0,1,14,0.0,,silicon_photonics,W3130725666
+A5031341222,Yaowen Hu,Harvard University,0,1,14,0.0,,silicon_photonics,W3130725666
+A5034898633,Zihan Tao,Peking University,0,1,14,0.0,,silicon_photonics,W4280617936
+A5036163030,Geert Morthier,Ghent University,0,1,14,0.0,,silicon_photonics,W1994471904
+A5039578484,Bitao Shen,Peking University,0,1,14,0.0,,silicon_photonics,W4280617936
+A5041320175,Bowen Bai,Peking University,0,1,14,0.0,,silicon_photonics,W4280617936
+A5042764314,Soumya Shankar Ghosh,Harvard University,0,1,14,0.0,,silicon_photonics,W3130725666
+A5050469023,Christian Reimer,nLIGHT (United States),0,1,14,0.0,,silicon_photonics,W3130725666
+A5051480246,Boris Desiatov,Harvard University,0,1,14,0.0,,silicon_photonics,W3130725666
+A5052966323,Di Zhu,Harvard University,0,1,14,0.0,,silicon_photonics,W3130725666
+A5077150876,Steven Verstuyft,Ghent University,0,1,14,0.0,,silicon_photonics,W1994471904
+A5083078570,Liesbet Van Landschoot,Ghent University,0,1,14,0.0,,silicon_photonics,W1994471904
+A5086721500,Ming Lin Jin,Peking University,0,1,14,0.0,,silicon_photonics,W4280617936
+A5086939002,C. J. Xin,Harvard University,0,1,14,0.0,,silicon_photonics,W3130725666
+A5088934608,F. Lelarge,Commissariat à l'Énergie Atomique et aux Énergies Alternatives,0,1,14,0.0,,silicon_photonics,W1994471904
+A5100709508,Xuguang Zhang,Peking University,0,1,14,0.0,,silicon_photonics,W4280617936
+A5100740514,Xingjun Wang,Peking University,0,1,14,0.0,,silicon_photonics,W4280617936
+A5100740517,Haowen Shu,Peking University,0,1,14,0.0,,silicon_photonics,W4280617936
+A5100779019,Shaohua Yu,Peking University,0,1,14,0.0,,silicon_photonics,W4280617936
+A5102488819,Rebecca Cheng,Harvard University,0,1,14,0.0,,silicon_photonics,W3130725666
+A5102967572,Ruixuan Chen,Peking University,0,1,14,0.0,,silicon_photonics,W4280617936
+A5108366351,MK Meint Smit,Eindhoven University of Technology,0,1,14,0.0,,silicon_photonics,W1994471904
+A5109583479,Yuansheng Tao,Peking University,0,1,14,0.0,,silicon_photonics,W4280617936
+A5109957466,B. Smalbrugge,Eindhoven University of Technology,0,1,14,0.0,,silicon_photonics,W1994471904
+A5109981686,S. Messaoudène,Commissariat à l'Énergie Atomique et aux Énergies Alternatives,0,1,14,0.0,,silicon_photonics,W1994471904
+A5110107956,E.J. Geluk,Eindhoven University of Technology,0,1,14,0.0,,silicon_photonics,W1994471904
+A5110359936,Tjibbe De Vries,Eindhoven University of Technology,0,1,14,0.0,,silicon_photonics,W1994471904
+A5112948836,Andrew M. Netherton,"University of California, Santa Barbara",0,1,14,0.0,,silicon_photonics,W4280617936
+A5072111785,S. Stanković,Ghent University,0,2,13,0.003278,,silicon_photonics,W2013921511;W2887956223
+A5009696064,Kun Yin,University of Central Florida,0,2,12,1.1e-05,,lcos_display_phase,W2949924416;W4281778727
+A5037595040,Paul C. V. Thrane,SINTEF,0,2,12,4e-06,,mems_micromirror,W3176835102;W4404563748
+A5056649838,Fei Ding,University of Southern Denmark,0,2,12,4e-06,,mems_micromirror,W3176835102;W4404563748
+A5070415188,Sergey I. Bozhevolnyi,University of Southern Denmark,0,2,12,4e-06,,mems_micromirror,W3176835102;W4404563748
+A5071976013,Chao Meng,University of Southern Denmark,0,2,12,4e-06,,mems_micromirror,W3176835102;W4404563748
+A5101672958,Jie Sun,Intel (United States),0,2,12,0.002414,,silicon_photonics,W2062294208;W2481781603
+A5001908351,Jian Chen,Purple Mountain Laboratories,0,1,11,0.0,,,W4387760959
+A5007486253,Weili Li,Purple Mountain Laboratories,0,1,11,0.0,,,W4387760959
+A5008873401,Jingbo Wu,Purple Mountain Laboratories,0,1,11,0.0,,,W4387760959
+A5016600046,Min Guk Gu,University of Shanghai for Science and Technology,0,1,11,0.0,,silicon_photonics,W4210305137
+A5017466177,Lidan Zhou,Sun Yat-sen University,0,1,11,0.0,,lcos_display_phase,W4381158453
+A5028868684,Junwei Cheng,Wuhan National Laboratory for Optoelectronics,0,1,11,0.0,,silicon_photonics,W4210305137
+A5043436473,Yisu Yang,University of Toronto,0,1,11,0.0,,silicon_photonics,W2770966813
+A5045380113,Wesley D. Sacher,University of Toronto,0,1,11,0.0,,silicon_photonics,W2770966813
+A5046022333,Jared C. Mikkelsen,University of Toronto,0,1,11,0.0,,silicon_photonics,W2770966813
+A5053165934,Hailong Zhou,Wuhan National Laboratory for Optoelectronics,0,1,11,0.0,,silicon_photonics,W4210305137
+A5055274072,Chaoran Huang,Chinese University of Hong Kong,0,1,11,0.0,,silicon_photonics,W4210305137
+A5056509525,Hangbing Guo,Nanjing University,0,1,11,0.0,,,W4387760959
+A5057142837,Benwen Chen,Nanjing University,0,1,11,0.0,,,W4387760959
+A5063684606,Caihong Zhang,Purple Mountain Laboratories,0,1,11,0.0,,,W4387760959
+A5066380975,Wenchan Dong,Wuhan National Laboratory for Optoelectronics,0,1,11,0.0,,silicon_photonics,W4210305137
+A5072436242,Peiheng Wu,Purple Mountain Laboratories,0,1,11,0.0,,,W4387760959
+A5073084798,Zhichao Ruan,State Key Laboratory of Modern Optical Instruments,0,1,11,0.0,,silicon_photonics,W4210305137
+A5075622995,Biaobing Jin,Purple Mountain Laboratories,0,1,11,0.0,,,W4387760959
+A5078892645,Patrick Lo,"Agency for Science, Technology and Research",0,1,11,0.0,,silicon_photonics,W2770966813
+A5079424791,Antoine Bois,University of Toronto,0,1,11,0.0,,silicon_photonics,W2770966813
+A5080530037,Hongtao Lin,Materials Processing (United States),0,2,11,5e-06,,silicon_photonics,W2774352386;W2897393425
+A5080623778,Joyce K. S. Poon,University of Toronto,0,1,11,0.0,,silicon_photonics,W2770966813
+A5084806807,Ying Huang,"Agency for Science, Technology and Research",0,1,11,0.0,,silicon_photonics,W2770966813
+A5090730117,Xianshu Luo,"Agency for Science, Technology and Research",0,1,11,0.0,,silicon_photonics,W2770966813
+A5092199520,Siyuan Yu,Sun Yat-sen University,0,1,11,0.0,,lcos_display_phase,W4381158453
+A5100325927,Jiaqi Li,Sun Yat-sen University,0,1,11,0.0,,lcos_display_phase,W4381158453
+A5100371320,Sheng Wang,Nanjing University,0,1,11,0.0,,,W4387760959
+A5100459035,Yujie Chen,Sun Yat-sen University,0,1,11,0.0,,lcos_display_phase,W4381158453
+A5100639009,Qiming Zhang,University of Shanghai for Science and Technology,0,1,11,0.0,,silicon_photonics,W4210305137
+A5100639582,Chao Qian,State Key Laboratory of Modern Optical Instruments,0,1,11,0.0,,silicon_photonics,W4210305137
+A5100705712,Hongsheng Chen,State Key Laboratory of Modern Optical Instruments,0,1,11,0.0,,silicon_photonics,W4210305137
+A5100759591,Jianxiong Li,Sun Yat-sen University,0,1,11,0.0,,lcos_display_phase,W4381158453
+A5100773394,Kebin Fan,Purple Mountain Laboratories,0,1,11,0.0,,,W4387760959
+A5100995282,Yuanhui Wen,Huawei Technologies (China),0,1,11,0.0,,lcos_display_phase,W4381158453
+A5101452951,Huabing Wang,Purple Mountain Laboratories,0,1,11,0.0,,,W4387760959
+A5102012077,Xinyu Hu,Nanjing University,0,1,11,0.0,,,W4387760959
+A5102829836,Yichen Shen,unknown,0,1,11,0.0,,silicon_photonics,W4210305137
+A5102974272,Yunfei Wu,Huawei Technologies (China),0,1,11,0.0,,lcos_display_phase,W4381158453
+A5104010034,Zenghui Peng,Chinese Academy of Sciences,0,1,11,0.0,,lcos_display_phase,W4381158453
+A5104261586,Lin Liu,Sun Yat-sen University,0,1,11,0.0,,lcos_display_phase,W4381158453
+A5117154156,Zhaoxiang Zhu,Sun Yat-sen University,0,1,11,0.0,,lcos_display_phase,W4381158453
+name:zhu l,Lei Zhu,Huawei Technologies (China),0,1,11,0.0,,lcos_display_phase,W4381158453
+A5000532047,Bert Jan Offrein,IBM (United States),0,1,10,0.0,,,W2037530588
+A5005243818,Marta D. Rossell,Swiss Federal Laboratories for Materials Science and Technology,0,1,10,0.0,,,W2037530588
+A5005659937,A. Chelnokov,Institut polytechnique de Grenoble,0,1,10,0.0,,,W2037530588
+A5037189873,Rolf Erni,Swiss Federal Laboratories for Materials Science and Technology,0,1,10,0.0,,,W2037530588
+A5037482385,Frédéric Y. Gardes,University of Surrey,0,2,10,2.4e-05,,silicon_photonics,W2019883289;W2887956223
+A5057571653,Chiara Marchiori,IBM (United States),0,1,10,0.0,,,W2037530588
+A5067104396,Daniele Caimi,IBM (United States),0,1,10,0.0,,,W2037530588
+A5074033253,J. Fompeyrine,IBM (United States),0,1,10,0.0,,,W2037530588
+A5085766788,Stefan Abel,IBM (United States),0,1,10,0.0,,,W2037530588
+A5090262448,Thilo Stöferle,IBM (United States),0,1,10,0.0,,,W2037530588
+A5108862832,Marilyne Sousa,IBM (United States),0,1,10,0.0,,,W2037530588
+A5113703544,Christophe Rossel,IBM (United States),0,1,10,0.0,,,W2037530588
+A5008205233,Arnan Mitchell,RMIT University,0,1,9,0.0,,silicon_photonics,W4313555657
+A5029267705,Hongnan Xu,Chinese University of Hong Kong,0,1,9,0.0,,silicon_photonics,W4281849792
+A5035658479,Bingcheng Pan,Zhejiang University,0,1,9,0.0,,silicon_photonics,W4281849792
+A5047931885,Yuan Hsing Fu,"Agency for Science, Technology and Research",0,1,9,0.0,,,W4293078036
+A5052528359,Lennon Y. T. Lee,"Agency for Science, Technology and Research",0,1,9,0.0,,,W4293078036
+A5054280799,Andreas Boes,The University of Adelaide,0,1,9,0.0,,silicon_photonics,W4313555657
+A5055062255,Nanxi Li,"Agency for Science, Technology and Research",0,1,9,0.0,,,W4293078036
+A5063706363,Aaron James Danner,National University of Singapore,0,1,9,0.0,,,W4293078036
+A5069035222,M. M. Fejer,Stanford University,0,1,9,0.0,,silicon_photonics,W4313555657
+A5072473484,Jun Da Ng,National University of Singapore,0,1,9,0.0,,,W4293078036
+A5072976480,Carsten Langrock,Stanford University,0,1,9,0.0,,silicon_photonics,W4313555657
+A5077297843,Roel Baets,Ghent University,0,3,9,0.000219,,silicon_photonics,W2050810792;W2900579067;W3159759503
+A5080846853,Yating Wan,"University of California, Santa Barbara",0,1,9,0.0,,silicon_photonics,W4281849792
+A5084856587,Yanyan Zhou,"Agency for Science, Technology and Research",0,1,9,0.0,,,W4293078036
+A5100363497,Long Zhang,Zhejiang University,0,1,9,0.0,,silicon_photonics,W4281849792
+A5100419894,Yong Zhang,Shanghai Jiao Tong University,0,1,9,0.0,,silicon_photonics,W4281849792
+A5101418277,Yuguang Zhang,Shanghai Jiao Tong University,0,1,9,0.0,,silicon_photonics,W4281849792
+A5103127673,Hong‐Lin Lin,National University of Singapore,0,1,9,0.0,,,W4293078036
+A5108635429,Qiang Lin,University of Rochester,0,1,9,0.0,,silicon_photonics,W4313555657
+name:hu x,Xiao Hu,unknown,0,1,9,0.0,,silicon_photonics,W4281849792
+A5000737568,Haisheng Rong,Intel (United States),0,1,8,0.0,,silicon_photonics,W2481781603
+A5001438002,Natsuki Nemoto,The University of Tokyo,0,1,8,0.0,,,W2253702363
+A5003910285,Junyu Zou,University of Central Florida,0,1,8,0.0,,lcos_display_phase,W4281778727
+A5005946660,Ranjeet Kumar,Intel (United States),0,1,8,0.0,,silicon_photonics,W2481781603
+A5014987936,Makoto Kuwata‐Gonokami,The University of Tokyo,0,1,8,0.0,,,W2253702363
+A5023686325,Qian Yang,University of Central Florida,0,1,8,0.0,,lcos_display_phase,W4281778727
+A5024012582,Yangjin Ma,University of Delaware,0,1,8,0.0,,silicon_photonics,W2058203097
+A5025871219,Kuniaki Konishi,The University of Tokyo,0,1,8,0.0,,,W2253702363
+A5027860321,Tetsuo Kan,The University of Tokyo,0,1,8,0.0,,,W2253702363
+A5033816285,Keith B. Powell,The University of Sydney,0,1,8,0.0,,,W4224325468
+A5041066078,Hidetoshi Takahashi,The University of Tokyo,0,1,8,0.0,,,W2253702363
+A5041317522,Xiaoke Yi,The University of Sydney,0,1,8,0.0,,,W4224325468
+A5042843999,Akihiro Isozaki,The University of Tokyo,0,1,8,0.0,,,W2253702363
+A5043893150,Kun Xu,Beijing University of Posts and Telecommunications,0,1,8,0.0,,mems_micromirror,W4404563748
+A5045039506,Natsuki Kanda,RIKEN Center for Advanced Photonics,0,1,8,0.0,,,W2253702363
+A5050152050,David A. Horsley,"University of California, Davis",0,2,8,1e-06,,mems_micromirror,W1987691577;W2140348302
+A5055249128,Isao Shimoyama,The University of Tokyo,0,1,8,0.0,,,W2253702363
+A5058299939,Lili Gui,Beijing University of Posts and Telecommunications,0,1,8,0.0,,mems_micromirror,W4404563748
+A5060570866,Chih‐Lung Lin,University of Central Florida,0,1,8,0.0,,lcos_display_phase,W4281778727
+A5063996196,Thalía Domínguez Bucio,University of Southampton,0,1,8,0.0,,silicon_photonics,W2887956223
+A5064549919,Mischa M. Megens,"University of California, Davis",0,2,8,1e-06,,mems_micromirror,W1987691577;W2140348302
+A5065064339,En‐Lin Hsiang,University of Central Florida,0,1,8,0.0,,lcos_display_phase,W4281778727
+A5065072880,Ran Ding,University of Delaware,0,1,8,0.0,,silicon_photonics,W2058203097
+A5066412446,Debin Meng,The University of Sydney,0,1,8,0.0,,,W4224325468
+A5068033941,Po‐Cheng Lai,University of Central Florida,0,1,8,0.0,,lcos_display_phase,W4281778727
+A5074293587,Zhiyong Yang,University of Central Florida,0,1,8,0.0,,lcos_display_phase,W4281778727
+A5077868954,Avi Feshali,Intel (United States),0,1,8,0.0,,silicon_photonics,W2481781603
+A5078302081,Yannanqi Li,University of Central Florida,0,1,8,0.0,,lcos_display_phase,W4281778727
+A5078721935,Abdul Rahim,Ghent University,0,2,8,0.000217,,silicon_photonics,W2900579067;W3159759503
+A5083559413,Jiangdong Deng,Harvard University,0,1,8,0.0,,,W4224325468
+A5084309021,Kiyoshi Matsumoto,The University of Tokyo,0,1,8,0.0,,,W2253702363
+A5084629261,David N. Hutchison,Intel (United States),0,1,8,0.0,,silicon_photonics,W2481781603
+A5087773672,Christopher T. Phare,Intel (United States),0,1,8,0.0,,silicon_photonics,W2481781603
+A5100353674,Hao Chen,Beijing University of Posts and Telecommunications,0,1,8,0.0,,mems_micromirror,W4404563748
+A5100388091,Yi Zhang,University of Delaware,0,1,8,0.0,,silicon_photonics,W2058203097
+A5100601085,Liwei Li,The University of Sydney,0,1,8,0.0,,,W4224325468
+A5100620561,Ke Li,University of Southampton,0,1,8,0.0,,silicon_photonics,W2887956223
+A5101400760,Milan M. Milošević,University of Southampton,0,1,8,0.0,,silicon_photonics,W2887956223
+A5101679889,Woosung Kim,Intel (United States),0,1,8,0.0,,silicon_photonics,W2481781603
+A5102610533,Xianglong Mei,Beijing University of Posts and Telecommunications,0,1,8,0.0,,mems_micromirror,W4404563748
+A5103033688,Jianfu Wang,The University of Sydney,0,1,8,0.0,,,W4224325468
+A5103140518,Chuanshuo Wang,Beijing University of Posts and Telecommunications,0,1,8,0.0,,mems_micromirror,W4404563748
+A5107233567,Scott A. Reynolds,University of Southampton,0,1,8,0.0,,silicon_photonics,W2887956223
+A5108220537,Connie J. Chang-Hasnain,"University of California, Berkeley",0,2,8,1e-06,,mems_micromirror,W1987691577;W2140348302
+A5109160746,Shuyu Yang,University of Delaware,0,1,8,0.0,,silicon_photonics,W2058203097
+A5110071150,Andy Eu-Jin Lim,"Agency for Science, Technology and Research",0,1,8,0.0,,silicon_photonics,W2058203097
+name:hansen s,Sofie L. Hansen,unknown,0,1,8,0.0,,silicon_photonics,W2739117960
+name:lodahl p,Peter Lodahl,unknown,0,1,8,0.0,,silicon_photonics,W2739117960
+name:ludwig a,Arne Ludwig,unknown,0,1,8,0.0,,silicon_photonics,W2739117960
+name:midolo l,Leonardo Midolo,unknown,0,1,8,0.0,,silicon_photonics,W2739117960
+name:papon c,Camille Papon,unknown,0,1,8,0.0,,silicon_photonics,W2739117960
+name:schott r,Rüdiger Schott,unknown,0,1,8,0.0,,silicon_photonics,W2739117960
+name:stobbe s,Søren Stobbe,unknown,0,1,8,0.0,,silicon_photonics,W2739117960
+name:wieck a,Andreas D. Wieck,unknown,0,1,8,0.0,,silicon_photonics,W2739117960
+name:zhang w,Weili Zhang,unknown,0,1,8,0.0,,silicon_photonics,W2739117960
+A5001729885,Navid Hamedazimi,Stony Brook University,0,1,7,0.0,,,W2124700175
+A5004151865,Jo Gjessing,SINTEF,0,1,7,0.0,,mems_micromirror,W3176835102
+A5007251379,Brando Miranda,Massachusetts Institute of Technology,0,1,7,0.0,,silicon_photonics,W2897393425
+A5007598396,Ran Xu,Beijing Information Science & Technology University,0,1,7,0.0,,,W4403460664
+A5010264136,J.J.G.M. van der Tol,unknown,0,1,7,0.0,,silicon_photonics,W1887234615
+A5018908193,Qi Cheng Xu,Beijing Information Science & Technology University,0,1,7,0.0,,,W4403460664
+A5030188961,David Favela,Massachusetts Institute of Technology,0,1,7,0.0,,silicon_photonics,W2897393425
+A5035376050,Daping P. Chu,University of Cambridge,0,2,7,8e-06,,lcos_display_phase,W2101457183;W4317734516
+A5036155779,Derek Kita,Massachusetts Institute of Technology,0,1,7,0.0,,silicon_photonics,W2897393425
+A5038655453,Kevin Williams,unknown,0,1,7,0.0,,silicon_photonics,W1887234615
+A5039360973,Zhihao Jia,unknown,0,1,7,0.0,,dc_network_systems,W4300973219
+A5039438925,Moein Khazraee,unknown,0,1,7,0.0,,dc_network_systems,W4300973219
+A5042078774,Anthony Kewitsch,unknown,0,1,7,0.0,,dc_network_systems,W4300973219
+A5042429449,Weiyang Wang,unknown,0,1,7,0.0,,dc_network_systems,W4300973219
+A5047769346,Pierre Doussiere,Intel (United States),0,1,7,0.0,,silicon_photonics,W2933780027
+A5055014711,K Katarzyna Lawniczuk,unknown,0,1,7,0.0,,silicon_photonics,W1887234615
+A5055487697,Himanshu Shah,Stony Brook University,0,1,7,0.0,,,W2124700175
+A5058661530,Wenhua Lin,Intel (United States),0,1,7,0.0,,silicon_photonics,W2933780027
+A5063570127,Jérôme Michon,Massachusetts Institute of Technology,0,1,7,0.0,,silicon_photonics,W2897393425
+A5063635396,Christopher Andrew Dirdal,SINTEF,0,1,7,0.0,,mems_micromirror,W3176835102
+A5066366329,Dheevatsa Mudigere,unknown,0,1,7,0.0,,dc_network_systems,W4300973219
+A5077594820,Erwin A. J. M. Bente,unknown,0,1,7,0.0,,silicon_photonics,W1887234615
+A5077735112,Ashish Tanwer,Stony Brook University,0,1,7,0.0,,,W2124700175
+A5079191768,Jinlei Huang,Beijing Information Science & Technology University,0,1,7,0.0,,,W4403460664
+A5079465884,Yulia Akulova,Intel (United States),0,1,7,0.0,,silicon_photonics,W2933780027
+A5084362754,Zafar Ayyub Qazi,Stony Brook University,0,1,7,0.0,,,W2124700175
+A5085618050,Cuo Wu,University of Electronic Science and Technology of China,0,1,7,0.0,,mems_micromirror,W3176835102
+A5088449065,Martin Thomaschewski,University of Southern Denmark,0,1,7,0.0,,mems_micromirror,W3176835102
+A5100386104,Ying Zhang,unknown,0,1,7,0.0,,dc_network_systems,W4300973219
+A5101643160,Himanshu Gupta,Stony Brook University,0,1,7,0.0,,,W2124700175
+A5101941807,Pei Yuan,Beijing Information Science & Technology University,0,1,7,0.0,,,W4403460664
+A5108463786,M. K. Smit,unknown,0,1,7,0.0,,silicon_photonics,W1887234615
+A5108648548,Lianqing Zhu,Beijing Information Science & Technology University,0,1,7,0.0,,,W4403460664
+A5109893878,Dominik Heiss,unknown,0,1,7,0.0,,silicon_photonics,W1887234615
+A5110338436,Jeffrey B. Driscoll,Intel (United States),0,1,7,0.0,,silicon_photonics,W2933780027
+A5111846193,Haijiang Yu,Intel (United States),0,1,7,0.0,,silicon_photonics,W2933780027
+A5112524204,Yiyao Yang,Beijing Information Science & Technology University,0,1,7,0.0,,,W4403460664
+A5113834474,David Bono,Massachusetts Institute of Technology,0,1,7,0.0,,silicon_photonics,W2897393425
+A5115467741,LI Bing-xiang,Beijing Information Science & Technology University,0,1,7,0.0,,,W4403460664
+name:engelsen n,Nils J. Engelsen,École Polytechnique Fédérale de Lausanne,0,1,7,0.0,,silicon_photonics,W3029584541
+name:he j,Jijun He,École Polytechnique Fédérale de Lausanne,0,1,7,0.0,,silicon_photonics,W3029584541
+name:huang g,Guanhao Huang,École Polytechnique Fédérale de Lausanne,0,1,7,0.0,,silicon_photonics,W3029584541
+name:liu t,Tianyi Liu,École Polytechnique Fédérale de Lausanne,0,1,7,0.0,,silicon_photonics,W3029584541
+name:miao q,Qijia Miao,Beijing Information Science & Technology University,0,1,7,0.0,,,W4403460664
+name:wang r,Rui Ning Wang,École Polytechnique Fédérale de Lausanne,0,1,7,0.0,,silicon_photonics,W3029584541
+A5000313452,Xinyao Hu,University of Science and Technology of China,0,1,6,0.0,,,W2919597673
+A5004612728,Andreas Fischer,KTH Royal Institute of Technology,0,1,6,0.0,,mems_micromirror,W3103527158
+A5006681830,Simon J. Bleiker,KTH Royal Institute of Technology,0,1,6,0.0,,mems_micromirror,W3103527158
+A5013684663,Avishek Nag,University College Dublin,0,1,6,0.0,,,W2964101383
+A5014246488,Trevor K. Chan,"University of California, Davis",0,1,6,0.0,,mems_micromirror,W1987691577
+A5014522394,Andreas Georgiou,University of Cambridge,0,1,6,0.0,,lcos_display_phase,W2139106050
+A5017223544,Peter De Heyn,IMEC,0,1,6,0.0,,silicon_photonics,W1997416642
+A5017319114,Niclas Roxhed,KTH Royal Institute of Technology,0,1,6,0.0,,mems_micromirror,W3103527158
+A5018858174,Lei Gong,University of Science and Technology of China,0,1,6,0.0,,,W2919597673
+A5019155539,WILLIAM A. CROSSLAND,University of Cambridge,0,1,6,0.0,,lcos_display_phase,W2139106050
+A5020918515,Hisashi Sumikura,NTT Basic Research Laboratories,0,1,6,0.0,,,W2955749708
+A5024170138,Masaya Notomi,Tokyo Institute of Technology,0,1,6,0.0,,,W2955749708
+A5024327160,Diwakar Agarwal,Stanford University,0,1,6,0.0,,silicon_photonics,W2112931687
+A5024717827,Anna M. Jeziorska-Chapman,University of Cambridge,0,1,6,0.0,,lcos_display_phase,W2139106050
+A5025311119,Darko Zibar,Technical University of Denmark,0,1,6,0.0,,,W2964101383
+A5025706101,Nathalie P. de Leon,Harvard University,0,1,6,0.0,,silicon_photonics,W2024271185
+A5032354381,Lukas Chrostowski,University of British Columbia,0,2,6,0.0,,silicon_photonics,W2789555118;W4391232091
+A5033665960,Angela Davey,University of Cambridge,0,1,6,0.0,,lcos_display_phase,W2139106050
+A5034058637,Artur Hermans,Ghent University,0,1,6,0.0,,silicon_photonics,W3159759503
+A5037059097,John Wyras,"University of California, Berkeley",0,1,6,0.0,,mems_micromirror,W1987691577
+A5038468421,Massimo Tornatore,Politecnico di Milano,0,1,6,0.0,,,W2964101383
+A5039373299,Gordon A. Keeler,Stanford University,0,1,6,0.0,,silicon_photonics,W2112931687
+A5040465828,Jiamiao Yang,California Institute of Technology,0,1,6,0.0,,,W2919597673
+A5042021806,Francesco Musumeci,Politecnico di Milano,0,1,6,0.0,,,W2964101383
+A5042083790,Kengo Nozaki,NTT Basic Research Laboratories,0,1,6,0.0,,,W2955749708
+A5044137053,David A. B. Miller,Stanford University,0,1,6,0.0,,silicon_photonics,W2112931687
+A5044203726,K. P. Nayak,Harvard University,0,1,6,0.0,,silicon_photonics,W2024271185
+A5045249651,Marianna Pantouvaki,IMEC,0,1,6,0.0,,silicon_photonics,W1997416642
+A5047234269,Thibault Peyronel,Harvard University,0,1,6,0.0,,silicon_photonics,W2024271185
+A5048584348,Sudip Shekhar,University of British Columbia,0,1,6,0.0,,silicon_photonics,W4391232091
+A5050129536,Irene Macaluso,Trinity College Dublin,0,1,6,0.0,,,W2964101383
+A5050916765,Masanori Hata,Tokyo Institute of Technology,0,1,6,0.0,,,W2955749708
+A5060234126,Fredrik Forsberg,KTH Royal Institute of Technology,0,1,6,0.0,,mems_micromirror,W3103527158
+A5061066057,Göran Stemme,KTH Royal Institute of Technology,0,1,6,0.0,,mems_micromirror,W3103527158
+A5062230069,Cristina Rottondi,Dalle Molle Institute for Artificial Intelligence Research,0,1,6,0.0,,,W2964101383
+A5063244616,N. Collings,University of Cambridge,0,1,6,0.0,,lcos_display_phase,W2139106050
+A5063412518,Lionel C. Kimerling,Materials Processing (United States),0,1,6,0.0,,silicon_photonics,W2774352386
+A5063820039,Zhengqian Luo,Xiamen University,0,1,6,0.0,,silicon_photonics,W2774352386
+A5066245772,Mikhail D. Lukin,Harvard University,0,1,6,0.0,,silicon_photonics,W2024271185
+A5066458512,Masaaki Ono,NTT Basic Research Laboratories,0,1,6,0.0,,,W2955749708
+A5067643219,Hugo Thienpont,Vrije Universiteit Brussel,0,1,6,0.0,,silicon_photonics,W2112931687
+A5068107481,Marco Ruffini,Trinity College Dublin,0,1,6,0.0,,,W2964101383
+A5068843007,Despoina Petousi,ADVA Optical Networking (Germany),0,1,6,0.0,,silicon_photonics,W3159759503
+A5069171738,B.E. Nelson,Stanford University,0,1,6,0.0,,silicon_photonics,W2112931687
+A5071861331,Christof Debaes,Vrije Universiteit Brussel,0,1,6,0.0,,silicon_photonics,W2112931687
+A5075518730,Benjamin Wohlfeil,ADVA Optical Networking (Germany),0,1,6,0.0,,silicon_photonics,W3159759503
+A5076983477,Qian Ru Zhao,University of Science and Technology of China,0,1,6,0.0,,,W2919597673
+A5079411042,Kun Huang,University of Science and Technology of China,0,1,6,0.0,,,W2919597673
+A5082430220,Kazumi Wada,Materials Processing (United States),0,1,6,0.0,,silicon_photonics,W2774352386
+A5082737646,Bhavin J. Shastri,Queen's University,0,1,6,0.0,,silicon_photonics,W4391232091
+A5083358214,Philippe P. Absil,IMEC,0,1,6,0.0,,silicon_photonics,W1997416642
+A5085711393,Frank Niklaus,KTH Royal Institute of Technology,0,1,6,0.0,,mems_micromirror,W3103527158
+A5086641609,Jeff D. Thompson,Harvard University,0,1,6,0.0,,silicon_photonics,W2024271185
+A5087596518,John T. Moore,University of Cambridge,0,1,6,0.0,,lcos_display_phase,W2139106050
+A5087789386,Martin Lapisa,KTH Royal Institute of Technology,0,1,6,0.0,,mems_micromirror,W3103527158
+A5089966065,Masato Tsunekawa,Tokyo Institute of Technology,0,1,6,0.0,,,W2955749708
+A5091609101,Anu Agarwal,Materials Processing (United States),0,1,6,0.0,,silicon_photonics,W2774352386
+A5100396966,Hao Zhang,University of Science and Technology of China,0,1,6,0.0,,,W2919597673
+A5100748708,Weijian Yang,"University of California, Berkeley",0,1,6,0.0,,mems_micromirror,W2140348302
+A5107232775,Noah C. Helman,Stanford University,0,1,6,0.0,,silicon_photonics,W2112931687
+A5108663486,Guy Lepage,IMEC,0,1,6,0.0,,silicon_photonics,W1997416642
+A5108752118,Jamieson Christmas,Alps Electric (United Kingdom),0,1,6,0.0,,lcos_display_phase,W2139106050
+A5109138467,Jeroen De Coster,IMEC,0,1,6,0.0,,silicon_photonics,W1997416642
+A5109401997,T. G. Tiecke,Harvard University,0,1,6,0.0,,silicon_photonics,W2024271185
+A5110481134,Vladan Vuletić,Massachusetts Institute of Technology,0,1,6,0.0,,silicon_photonics,W2024271185
+A5112308138,H. Chiba,Tokyo Institute of Technology,0,1,6,0.0,,,W2955749708
+A5113749727,Yinmei Li,University of Science and Technology of China,0,1,6,0.0,,,W2919597673
+name:sun t,Tianbo Sun,"University of California, Berkeley",0,1,6,0.0,,mems_micromirror,W2140348302
+A5006016056,Yuge Huang,University of Central Florida,0,1,5,0.0,,lcos_display_phase,W2901721529
+A5007104412,Chunshu Li,Tianjin University,0,1,5,0.0,,,W3158684015
+A5010807751,Piet M. A. Demeester,Ghent University,0,1,5,0.0,,,W2097053956
+A5012359729,Yongjun Guo,Tianjin University,0,1,5,0.0,,,W3158684015
+A5015589356,Xin Chang,unknown,0,1,5,0.0,,lcos_display_phase,W4317734516
+A5016502619,Jhou-Pu Yang,National Yang Ming Chiao Tung University,0,1,5,0.0,,lcos_display_phase,W2901721529
+A5017435776,Weijie Wu,unknown,0,1,5,0.0,,lcos_display_phase,W4317734516
+A5017884016,Willem Vereecken,Ghent University,0,1,5,0.0,,,W2097053956
+A5017895357,Xiaochuan Xu,The University of Texas at Austin,0,1,5,0.0,,silicon_photonics,W2066708803
+A5019578745,Geoffrey J. T. Cooper,University of Glasgow,0,1,5,0.0,,mems_micromirror,W2092016229
+A5021397163,Tao Zhan,University of Central Florida,0,1,5,0.0,,lcos_display_phase,W2949924416
+A5023427443,Pawan Kumar Shrestha,unknown,0,1,5,0.0,,lcos_display_phase,W4317734516
+A5025273212,Vijay Gill,Google (United States),0,1,5,0.0,,dc_network_systems,W2105661057
+A5026677916,Bikash Koley,Google (United States),0,1,5,0.0,,dc_network_systems,W2105661057
+A5027887380,Leroy Cronin,University of Glasgow,0,1,5,0.0,,mems_micromirror,W2092016229
+A5030018172,Huan-Hsun Yen,National Yang Ming Chiao Tung University,0,1,5,0.0,,lcos_display_phase,W2901721529
+A5034583576,Amir Hosseini,The University of Texas at Austin,0,1,5,0.0,,silicon_photonics,W2066708803
+A5038900138,Ray T. Chen,The University of Texas at Austin,0,1,5,0.0,,silicon_photonics,W2066708803
+A5040143352,Miles J. Padgett,University of Glasgow,0,1,5,0.0,,mems_micromirror,W2092016229
+A5044781907,Zheng-Ning Hsu,National Yang Ming Chiao Tung University,0,1,5,0.0,,lcos_display_phase,W2901721529
+A5045659586,Didier Colle,Ghent University,0,1,5,0.0,,,W2097053956
+A5052298344,Valey F. Kamalov,Google (United States),0,1,5,0.0,,dc_network_systems,W2105661057
+A5053191073,Yuhao Guo,Tianjin University,0,1,5,0.0,,,W3158684015
+A5054402647,Fangwang Gou,University of Central Florida,0,1,5,0.0,,lcos_display_phase,W2949924416
+A5058536506,Michael P. Lee,University of Glasgow,0,1,5,0.0,,mems_micromirror,W2092016229
+A5062388532,Ward Van Heddeghem,Ghent University,0,1,5,0.0,,,W2097053956
+A5067262741,John Covey,The University of Texas at Austin,0,1,5,0.0,,silicon_photonics,W2066708803
+A5067298865,Mario Pickavet,Ghent University,0,1,5,0.0,,,W2097053956
+A5070482641,Mike Pivnenko,unknown,0,1,5,0.0,,lcos_display_phase,W4317734516
+A5078098105,Graham M. Gibson,University of Glasgow,0,1,5,0.0,,mems_micromirror,W2092016229
+A5081046333,Ziqian He,University of Central Florida,0,1,5,0.0,,lcos_display_phase,W2949924416
+A5085077058,Hao Zhang,Tianjin University,0,1,5,0.0,,,W3158684015
+A5085794325,Trevor Hinkley,University of Glasgow,0,1,5,0.0,,mems_micromirror,W2092016229
+A5086819949,Wenhan Zhang,unknown,0,1,5,0.0,,lcos_display_phase,W4317734516
+A5091801640,Filip Idzikowski,Technische Universität Berlin,0,1,5,0.0,,,W2097053956
+A5100351910,Lin Zhang,Tianjin University,0,1,5,0.0,,,W3158684015
+A5100354646,Yang Zhang,The University of Texas at Austin,0,1,5,0.0,,silicon_photonics,W2066708803
+A5100400807,Ran Chen,University of Central Florida,0,1,5,0.0,,lcos_display_phase,W2949924416
+A5100410366,Hong Liu,Google (United States),0,1,5,0.0,,dc_network_systems,W2105661057
+A5100668086,Xiaoyan Zhou,Tianjin University,0,1,5,0.0,,,W3158684015
+A5103537762,Xiaoxue Zhao,Google (United States),0,1,5,0.0,,dc_network_systems,W2105661057
+A5109424822,Huang-Ming Philip Chen,National Yang Ming Chiao Tung University,0,1,5,0.0,,lcos_display_phase,W2901721529
+A5110203971,J. M. Heck,Intel (United States),0,1,5,0.0,,silicon_photonics,W2013921511
+A5111913434,David N. Kwong,The University of Texas at Austin,0,1,5,0.0,,silicon_photonics,W2066708803
+A5111951193,M.N. Sysak,Intel (United States),0,1,5,0.0,,silicon_photonics,W2013921511
+A5000070020,Li-Rong Lilly Cheng,Tsinghua–Berkeley Shenzhen Institute,0,1,4,0.0,,silicon_photonics,W3041992595
+A5001828128,Jinsong Xia,Wuhan National Laboratory for Optoelectronics,0,1,4,0.0,,silicon_photonics,W2571361994
+A5002680380,C. David Wright,University of Exeter,0,1,4,0.0,,silicon_photonics,W2758404936
+A5004218263,Pieter Dumon,Ghent University,0,2,4,5.4e-05,,silicon_photonics,W1990459252;W2050810792
+A5009790931,Ning Deng,Huawei Technologies (China),0,1,4,0.0,,telecom_oxc_roadm,W4225941096
+A5011051631,Erman Timurdogan,Massachusetts Institute of Technology,0,1,4,0.0,,,W2062294208
+A5013293385,Anna Fontcuberta i Morral,California Institute of Technology,0,1,4,0.0,,,W2042525359
+A5015151220,Wolfram H. P. Pernice,University of Münster,0,1,4,0.0,,silicon_photonics,W2758404936
+A5015441055,James M. Zahler,California Institute of Technology,0,1,4,0.0,,,W2042525359
+A5026290034,Yuhua Duan,Huawei Technologies (China),0,1,4,0.0,,telecom_oxc_roadm,W4225941096
+A5026700547,Harish Bhaskaran,University of Oxford,0,1,4,0.0,,silicon_photonics,W2758404936
+A5030808281,Xiaosheng Zhang,"University of California, Berkeley",0,1,4,0.0,,mems_micromirror,W4220706180
+A5043865848,Mark W. Wanlass,National Laboratory of the Rockies,0,1,4,0.0,,,W2042525359
+A5048985458,Simei Mao,Tsinghua–Berkeley Shenzhen Institute,0,1,4,0.0,,silicon_photonics,W3041992595
+A5058408986,Yun‐Ze Long,Wuhan National Laboratory for Optoelectronics,0,2,4,0.0,,silicon_photonics,W2571361994;W2883000198
+A5068954140,Ami Yaacobi,Massachusetts Institute of Technology,0,1,4,0.0,,,W2062294208
+A5069194283,Zengguang Cheng,University of Oxford,0,1,4,0.0,,silicon_photonics,W2758404936
+A5073992949,Carlos A. Ríos,University of Oxford,0,1,4,0.0,,silicon_photonics,W2758404936
+A5074088707,Daniel J. Blumenthal,"University of California, Santa Barbara",0,1,4,0.0,,silicon_photonics,W2894308888
+A5082887836,Harry A. Atwater,California Institute of Technology,0,1,4,0.0,,,W2042525359
+A5084165995,Scott P. Ahrenkiel,National Laboratory of the Rockies,0,1,4,0.0,,,W2042525359
+A5100323901,Kai Zhang,Huawei Technologies (China),0,1,4,0.0,,telecom_oxc_roadm,W4225941096
+A5100370396,Jian Wang,Wuhan National Laboratory for Optoelectronics,0,2,4,0.0,,silicon_photonics,W2571361994;W2883000198
+A5101483460,Ehsan Shah Hosseini,Massachusetts Institute of Technology,0,1,4,0.0,,,W2062294208
+A5103270006,Yaqi Han,Tsinghua–Berkeley Shenzhen Institute,0,1,4,0.0,,silicon_photonics,W3041992595
+A5103725349,Hengyun Jiang,Huawei Technologies (China),0,1,4,0.0,,telecom_oxc_roadm,W4225941096
+A5105259362,Yong Zhang,Wuhan National Laboratory for Optoelectronics,0,1,4,0.0,,silicon_photonics,W2571361994
+A5112361057,Michael R. Watts,Massachusetts Institute of Technology,0,1,4,0.0,,,W2062294208
+A5022536157,Young-Kai Chen,Alcatel Lucent (Germany),0,1,3,0.0,,silicon_photonics,W2165260925
+A5026356988,Ki Youl Yang,Stanford University,0,1,3,0.0,,,W3186137658
+A5036668812,Solomon Micheal Serunjogi,New York University Abu Dhabi,0,1,3,0.0,,,W4394954660
+A5037335973,Jeremy L. O’Brien,University of Bristol,0,1,3,0.0,,silicon_photonics,W2235174674
+A5041068817,Dimitris Alexandropoulos,University of Patras,0,1,3,0.0,,,W2157224582
+A5041816488,Mahmoud Rasras,New York University Abu Dhabi,0,1,3,0.0,,,W4394954660
+A5052167227,Dries Vercruysse,Stanford University,0,1,3,0.0,,,W3186137658
+A5056924462,Neil V. Sapra,Stanford University,0,1,3,0.0,,,W3186137658
+A5059382224,Joshua W. Silverstone,University of Bristol,0,1,3,0.0,,silicon_photonics,W2235174674
+A5064808655,Mark G. Thompson,University of Bristol,0,1,3,0.0,,silicon_photonics,W2235174674
+A5067750398,Ghada H. Dushaq,New York University Abu Dhabi,0,1,3,0.0,,,W4394954660
+A5067782441,Jelena Vučković,Stanford University,0,1,3,0.0,,,W3186137658
+A5069887076,Damien Bonneau,University of Bristol,0,1,3,0.0,,silicon_photonics,W2235174674
+A5082773999,Thijs Spuesens,Ghent University,0,1,3,0.0,,silicon_photonics,W2900579067
+A5090584316,Srinivasa Reddy Tamalampudi,New York University Abu Dhabi,0,1,3,0.0,,,W4394954660
+A5101764569,Po Dong,Alcatel Lucent (Germany),0,1,3,0.0,,silicon_photonics,W2165260925
+A5110096042,Dave J. Thomson,University of Surrey,0,1,3,0.0,,silicon_photonics,W2019883289
+name:jouppi n,Norman P. Jouppi,unknown,0,1,3,0.0,,,arxiv:2606.15870
+name:lakshmanamurthy s,Sridhar Lakshmanamurthy,unknown,0,1,3,0.0,,,arxiv:2606.15870
+name:patterson d,David Patterson,unknown,0,1,3,0.0,,,arxiv:2606.15870
+name:young c,Cliff Young,unknown,0,1,3,0.0,,,arxiv:2606.15870
+A5000464748,Wei Shi,Université Laval,0,1,2,0.0,,silicon_photonics,W3094065577
+A5003907434,Martin Fiers,Ghent University,0,1,2,0.0,,silicon_photonics,W1990459252
+A5005740768,Dajian Liu,Zhejiang University,0,1,2,0.0,,silicon_photonics,W2900750062
+A5006852343,Jingye Chen,State Key Laboratory of Modern Optical Instruments,0,1,2,0.0,,mems_micromirror,W4281661666
+A5007458659,Junya Kurumida,National Institute of Advanced Industrial Science and Technology,0,1,2,0.0,,telecom_oxc_roadm,W2001644091
+A5011670509,M. Nakajima,NTT (Japan),0,1,2,0.0,,silicon_photonics,W3126304295
+A5012575878,Yoshimasa Sugimoto,National Institute for Materials Science,0,1,2,0.0,,silicon_photonics,W3095839225
+A5019594872,Kenji Tanaka,NTT (Japan),0,1,2,0.0,,silicon_photonics,W3126304295
+A5026793138,Huikai Xie,University of Florida,0,1,2,0.0,,mems_micromirror,W3017763864
+A5027054998,Shi Zhao,State Key Laboratory of Modern Optical Instruments,0,1,2,0.0,,mems_micromirror,W4281661666
+A5030408538,Shankar Kumar Selvaraja,Ghent University,0,1,2,0.0,,silicon_photonics,W1998335447
+A5031368650,Connor A. Watkins,University of Florida,0,1,2,0.0,,mems_micromirror,W3017763864
+A5034401025,Yiwei Xie,Monash University,0,1,2,0.0,,silicon_photonics,W2789715390
+A5035252681,Arthur James Lowery,Monash University,0,1,2,0.0,,silicon_photonics,W2789715390
+A5041300353,Zheng You,Integrated Device Technology (United States),0,1,2,0.0,,lcos_display_phase,W2101457183
+A5043750095,Jingwen He,unknown,0,1,2,0.0,,silicon_photonics,W3093584113
+A5043899980,Ian G. Clarke,unknown,0,1,2,0.0,,telecom_oxc_roadm,W2488219102
+A5044627344,Sam Lin,Texas A&M University,0,1,2,0.0,,silicon_photonics,W4214829241
+A5045167553,Zi Jing Wong,Texas A&M University,0,1,2,0.0,,silicon_photonics,W4214829241
+A5045557115,Jared F. Bauters,"University of California, Santa Barbara",0,1,2,0.0,,silicon_photonics,W1963836897
+A5049671513,Gary J. O'Brien,University of Michigan,0,1,2,0.0,,mems_micromirror,W2006295284
+A5051907879,Tao Dong,unknown,0,1,2,0.0,,silicon_photonics,W3093584113
+A5054186381,Chris Johnson,Google (United States),0,1,2,0.0,,,W2083823757
+A5056618863,Yulong Zhao,Xi'an Jiaotong University,0,1,2,0.0,,mems_micromirror,W3042321904
+A5059255255,T. Cao,Xi'an Jiaotong University,0,1,2,0.0,,mems_micromirror,W3042321904
+A5065636498,Ye Tian,Université Laval,0,1,2,0.0,,silicon_photonics,W3094065577
+A5069316970,Nabil N. Bitar,Verizon (United States),0,1,2,0.0,,,W2099718645
+A5072154092,Antoine Gervais,Université Laval,0,1,2,0.0,,silicon_photonics,W3094065577
+A5075679129,S. Gringeri,Verizon (United States),0,1,2,0.0,,,W2099718645
+A5079710827,Tiejun J. Xia,Verizon (United States),0,1,2,0.0,,,W2099718645
+A5081850723,Stephen Frisken,unknown,0,1,2,0.0,,telecom_oxc_roadm,W2488219102
+A5100383258,Liwei Lin,"University of California, Berkeley",0,1,2,0.0,,mems_micromirror,W2006295284
+A5100393440,Yixin Chen,Texas A&M University,0,1,2,0.0,,silicon_photonics,W4214829241
+A5100739118,Zichen Zhang,University of Cambridge,0,1,2,0.0,,lcos_display_phase,W2101457183
+A5101460288,Chenlei Li,Zhejiang University,0,1,2,0.0,,silicon_photonics,W2900750062
+A5101512264,Toshikazu Hashimoto,NTT (Japan),0,1,2,0.0,,silicon_photonics,W3126304295
+A5101585435,Dingkang Wang,University of Florida,0,1,2,0.0,,mems_micromirror,W3017763864
+A5101636635,Yue Xu,unknown,0,1,2,0.0,,silicon_photonics,W3093584113
+A5101970939,Tengjiang Hu,Xi'an Jiaotong University,0,1,2,0.0,,mems_micromirror,W3042321904
+A5102239017,Simon B. Poole,unknown,0,1,2,0.0,,telecom_oxc_roadm,W2488219102
+A5110044872,Kiyoshi Asakawa,University of Tsukuba,0,1,2,0.0,,silicon_photonics,W3095839225
+A5112555338,David J. Monk,Motorola (United States),0,1,2,0.0,,mems_micromirror,W2006295284
+name:shi y#2,Yaocheng Shi,State Key Laboratory of Modern Optical Instruments,0,1,2,0.0,,mems_micromirror,W4281661666
+A5007994744,Sylwester Bargiel,Centre National de la Recherche Scientifique,0,1,1,0.0,,mems_micromirror,W3116813957
+A5019836940,Christophe Gorecki,Institute of Physical Chemistry,0,1,1,0.0,,mems_micromirror,W3116813957
+A5033583037,Ethan G. Keeler,University of Washington,0,1,1,0.0,,mems_micromirror,W2133627653
+A5036614803,Javier R. Vázquez de Aldana,Universidad de Salamanca,0,1,1,0.0,,silicon_photonics,W1516975232
+A5041255610,K.N. Sivarajan,Indian Institute of Science Bangalore,0,1,1,0.0,,,W1536656161
+A5046162936,Lih Y. Lin,University of Washington,0,1,1,0.0,,mems_micromirror,W2133627653
+A5065246898,R. Ramaswami,Tellabs (Canada),0,1,1,0.0,,,W1536656161
+A5089437153,Myungsik Yoo,unknown,0,1,1,0.0,,,W1588462524
+A5100352728,Feng Chen,Shandong University,0,1,1,0.0,,silicon_photonics,W1516975232
+A5100728176,Chunming Qiao,unknown,0,1,1,0.0,,,W1588462524
+name:zhang b,Bo Zhang,Marvell (United States),0,1,1,0.0,,telecom_oxc_roadm,W4285233657
+A5008485416,Ashok V. Krishnamoorthy,unknown,0,1,0,0.0,,silicon_photonics,W1645511984
+A5009463231,Christopher Richard Doerr,unknown,0,1,0,0.0,,silicon_photonics,W1595003097
+A5038060991,Jeremy Witzens,RWTH Aachen University,0,1,0,0.0,,silicon_photonics,W2901868604
+A5044173756,Vittorio Curri,Politecnico di Torino,0,1,0,0.0,,telecom_oxc_roadm,W4223554347
+A5046350644,Dong-Sik Shim,Samsung (South Korea),0,1,0,0.0,,mems_micromirror,W2050362991
+A5061682311,Andrew G. Rickman,Oclaro (Japan),0,1,0,0.0,,silicon_photonics,W2069766991
+A5110102724,Jonathan Turner,Washington University in St. Louis,0,1,0,0.0,,,W2165334967

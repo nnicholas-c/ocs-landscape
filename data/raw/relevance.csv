@@ -1,0 +1,905 @@
+record_key,source,score,adjacent_field,reason
+arxiv:2609.25949,arxiv,3,,Schedules OCS reconfiguration against LLM training workload.
+arxiv:2010.00090,arxiv,3,,Topology and routing optimization for OCS-based data center networks.
+arxiv:2509.20016,arxiv,3,,Proposes new magneto-optical integrated nonreciprocal OCS switch design.
+arxiv:2501.16907,arxiv,3,,SDN controller experiment for open optical-circuit-switched networks.
+arxiv:2604.22146,arxiv,3,,Coflow scheduling algorithm for multi-core OCS networks.
+arxiv:2208.10041,arxiv,3,,Describes Google's Apollo 3D MEMS OCS production deployment.
+arxiv:2603.07373,arxiv,3,,Scheduling algorithm for parallel OCS fabrics in AI training.
+arxiv:2002.04077,arxiv,3,,Designs nanosecond-scale optical circuit switched data center architecture.
+arxiv:2010.10984,arxiv,3,,"Builds OCS using tunable lasers and AWG routers, soliton microcombs."
+arxiv:2502.03885,arxiv,3,,Embeds OCS in transceivers for LLM datacenter high-bandwidth domains.
+arxiv:2501.18136,arxiv,3,,"Builds an OCS design using programmable integrated photonics, 32 ports."
+arxiv:2002.00473,arxiv,3,,Topology design framework for commercial OCS-based data centers.
+arxiv:2401.09284,arxiv,3,,Fast control plane for large-scale high-speed OCS system.
+arxiv:1208.0581,arxiv,2,telecom_oxc_roadm,Studies optical vs electrical switching degree in telecom IP-over-WDM networks.
+arxiv:2510.03891,arxiv,3,,Reconfigures OCS-enabled cluster topology to match ML job shapes.
+arxiv:2411.01503,arxiv,3,,Designs optimal physical topology for OCS-based ML clusters.
+arxiv:2202.05487,arxiv,3,,De Bruijn datacenter topology built with optical circuit switches.
+arxiv:1609.04521,arxiv,3,,SDN-based sharing scheme for optical circuits in data centers.
+arxiv:2104.09680,arxiv,3,,OCS-based multicast network architecture for compute clusters.
+arxiv:2606.15870,arxiv,1,dc_network_systems,Broad TPU generations survey; OCS mentioned briefly among many resilience features.
+arxiv:2608.03146,arxiv,3,,"Demonstrates silicon photonics MEMS optical switch, foundry compatible."
+arxiv:2601.01209,arxiv,3,,Uses OCS to reconfigure aggregation/core topology for disaggregated RL.
+arxiv:2609.14253,arxiv,3,,"Lane-granularity OCS scheduler for LLM training, simplex TX/RX."
+arxiv:2211.15226,arxiv,3,,Nanosecond all-optical circuit switched network for deep learning MPI ops.
+arxiv:1204.1529,arxiv,1,,"About optical burst switching QoS, not circuit switching; different problem."
+arxiv:2308.05692,arxiv,3,,GPU cluster scheduling using an OCS layer (OCS-vClos) to cut contention.
+arxiv:2507.08119,arxiv,3,,Realizes ML datacenter rail fabric using optical circuit switches.
+arxiv:2608.00897,arxiv,3,,Replaces TPU interconnect global tier with optical circuit switch permutation.
+arxiv:2305.04550,arxiv,3,,Algorithm to reduce reconfiguration time in hybrid OCS-electrical DCNs.
+arxiv:2306.09713,arxiv,3,,Coflow scheduling for hybrid OCS/electrical packet switched data centers.
+arxiv:2507.12265,arxiv,3,,Topology engineering algorithm for OCS-based cluster networks.
+arxiv:2602.12521,arxiv,3,,ML datacenter rail fabric realized with time-multiplexed OCS.
+arxiv:2504.09892,arxiv,3,,Reconfigurable optical interconnect with throughput guarantees via OCS.
+arxiv:2602.17449,arxiv,3,,Low-radix OCS building blocks co-designed for ML training clusters.
+arxiv:2403.02866,arxiv,3,,Builds electro-optic resonant phase shifter switch for multi-dimensional switching.
+arxiv:2501.03905,arxiv,3,,OCS-based reconfigurable fabric for distributed mixture-of-experts training.
+arxiv:2304.01433,arxiv,3,,"TPU v4 uses OCS to reconfigure interconnect topology, deployed since 2020."
+arxiv:2204.02525,arxiv,3,,Throughput/buffer analysis of periodic OCS-based reconfigurable datacenter networks.
+arxiv:2507.13717,arxiv,3,,Fast topology optimization algorithm for OCS-based reconfigurable DCNs.
+arxiv:2211.02466,arxiv,3,,RL/GNN resource allocation over an optically circuit switched DCN backbone.
+arxiv:2603.28168,arxiv,3,,Logical topology design for OCS-based commercial GPU clusters.
+arxiv:2604.08242,arxiv,3,,Coflow scheduling with guarantees for multi-core OCS networks.
+arxiv:2405.20869,arxiv,3,,Studies throughput bounds of OCS-based reconfigurable datacenter networks.
+arxiv:2605.12766,arxiv,3,,Reconfiguration-aware collective communication scheduling for OCS networks.
+arxiv:2504.17310,arxiv,2,telecom_oxc_roadm,"Telecom metro network combining OCS and OTS slices, not datacenter focused."
+arxiv:2603.28096,arxiv,3,,DAG-aware OCS logical topology optimization for AI data centers.
+arxiv:2302.13113,arxiv,3,,Self-adjusting k-ary tree DCN topology enabled by optical circuit switches.
+openalex:W2002555923,openalex,3,,"Characterizes Mordia hybrid OCS/packet switched prototype, 11.5us reconfiguration."
+openalex:W3093967660,openalex,3,,OCS using tunable lasers and AWG routers with soliton microcombs.
+openalex:W2792328579,openalex,3,,Characterizes large-scale fast optical circuit switch for datacenter networking.
+openalex:W4386365418,openalex,3,,Google production deployment of OCS lightwave fabrics for DC and ML.
+openalex:W3006394648,openalex,3,,"Sub-microsecond optical circuit switched data center architecture, PULSE."
+openalex:W823246061,openalex,3,,Proposes reconfigurable optical circuit switched paths for data centers.
+openalex:W3164101439,openalex,3,,Tutorial reviewing high-port-count optical circuit switches for datacenters.
+openalex:W4292950821,openalex,3,,Describes Google's Apollo 3D MEMS OCS production deployment.
+openalex:W2008366783,openalex,3,,"Fast OCS with integrated control electronics, wafer-scale integration."
+openalex:W2316851065,openalex,3,,Routing framework for bulk data transfer in OCS networks with storage.
+openalex:W2909415593,openalex,3,,Design and evaluation of optical circuit switches for intra-DC networking.
+openalex:W3129609980,openalex,3,,Regularization-based coflow scheduling algorithm for OCS-based data centers.
+openalex:W2752849906,openalex,0,,"Title only (no abstract); about photonic deep learning hardware, not switching."
+openalex:W2807655209,openalex,3,,Large-scale OCS design and fabrication using ULCF AWGs.
+openalex:W4377082743,openalex,3,,Apollo large-scale OCS deployment for datacenter networking.
+openalex:W2319613051,openalex,3,,OCS performance benefits for large-scale HPC dragonfly networks.
+openalex:W2081506514,openalex,0,,"About switchable photovoltaic perovskite devices, unrelated meaning of switch."
+openalex:W2151668565,openalex,3,,Control plane design for integrating microsecond OCS into data centers.
+openalex:W2164698118,openalex,3,,LIGHTNESS DCN combining optical packet and circuit switching paradigms.
+openalex:W3089161534,openalex,3,,Coflow completion time minimization algorithm for OCS networks.
+openalex:W2885686227,openalex,3,,Online multiple coflow scheduling algorithm for OCS-based data centers.
+openalex:W3025347955,openalex,3,,Title-only; ML job scheduling in optical circuit switch networks.
+openalex:W2903019116,openalex,3,,OCBridge reconfigures OCS layer topology in data center networks.
+openalex:W2810918131,openalex,3,,"Large-scale OCS using fast wavelength-tunable, bandwidth-variable filters."
+openalex:W2074285614,openalex,3,,Demonstrates 24x24 port OCS prototype in datacenter testbed.
+openalex:W4399846465,openalex,3,,Fiber inspection and certification method for OCS datacenter networks.
+openalex:W2982606503,openalex,3,,"Regularization-based coflow scheduling algorithm for OCS, single coflow case."
+openalex:W3119039973,openalex,3,,"Large-scale fast OCS using colorless coherent detection, thermo-optic filters."
+openalex:W2581603380,openalex,3,,Exa-scale OCS interconnect design for future datacenter/HPC networks.
+openalex:W3000564174,openalex,3,,Demonstrates 24x24 port OCS prototype in datacenter testbed.
+openalex:W3186645739,openalex,3,,Title-only; survey of flow scheduling for OCS-based data center networks.
+openalex:W1970579225,openalex,3,,VM migration over metro-scale OCS network in converged DC architecture.
+openalex:W2765275466,openalex,2,telecom_oxc_roadm,Characterizes power excursions from OCS switching events in ROADM systems.
+openalex:W2001644091,openalex,1,telecom_oxc_roadm,Studies EDFA gain offset side effect caused by OCS switching events.
+openalex:W4392029208,openalex,3,,Google production deployment of OCS lightwave fabrics for DC and ML.
+openalex:W2331688183,openalex,3,,Analyzes hybrid packet-OCS data center network control plane and economics.
+openalex:W2027447399,openalex,3,,Torus-topology DCN combining optical packet and agile circuit switching.
+openalex:W3091851330,openalex,2,silicon_photonics,"Title-only, no abstract; programmable photonic circuits likely include switch fabrics."
+openalex:W4380874786,openalex,3,,"TPU v4 uses OCS to reconfigure interconnect topology, deployed since 2020."
+openalex:W4401751711,openalex,3,,Reviews Clos network designs for OCS switching capacity in data centers.
+openalex:W2626250922,openalex,3,,Performance study of slotted store-and-forward OCS networks.
+openalex:W2798334538,openalex,3,,Characterizes large-scale fast optical circuit switch for datacenter networking.
+openalex:W3009273389,openalex,1,silicon_photonics,"Co-packaged optics transceiver IC for switch I/O, not a circuit switch itself."
+openalex:W2982290016,openalex,3,,Job scheduler that aggregates traffic to exploit OCS in hybrid DCN.
+openalex:W2294810677,openalex,3,,LIGHTNESS SDN-controlled all-optical circuit/packet switched data center network.
+openalex:W2955749708,openalex,1,silicon_photonics,"Title-only; ultrafast plasmonic all-optical switch device, closer to packet-speed switching."
+openalex:W3195562526,openalex,3,,Proposes all-optical circuit-switched datacenter network core design.
+openalex:W2020424834,openalex,0,,"Single-photon atom-cavity switch for quantum networks, unrelated to OCS."
+openalex:W4390032166,openalex,3,,Builds wavelength-routed OCS using tunable DFB laser array.
+openalex:W4391087787,openalex,3,,Apollo large-scale OCS deployment for datacenter networking.
+openalex:W4200142051,openalex,3,,Mathematical framework for physical topology design of OCS data centers.
+openalex:W2970534079,openalex,3,,"Sub-microsecond optical circuit switched data center network, PULSE variant."
+openalex:W4413217623,openalex,3,,Verification algorithm for optical fiber topology/quality in OCS DCNs.
+openalex:W1982892759,openalex,0,,"Free-space optical communication links, not circuit switching; no OCS relevance."
+openalex:W3091342457,openalex,3,,Designs topology and routing optimization for OCS-based data center networks.
+openalex:W3008830959,openalex,3,,Builds and characterizes a microsecond optical circuit switch prototype for data centers.
+openalex:W4226369700,openalex,3,,Studies scheduling performance on an optical circuit switched data center network.
+openalex:W4284882945,openalex,3,,Designs physical topology for optical-circuit-switched data center networks with performance guarantees.
+openalex:W4281707213,openalex,3,,Designs physical topology for optical-circuit-switched data center networks with performance guarantees.
+openalex:W1998544072,openalex,0,,Skin-mounted stretchable electronics; unrelated to optical circuit switching.
+openalex:W2177488376,openalex,3,,Prototype hybrid ToR using microsecond optical circuit switching in data centers.
+openalex:W3210177009,openalex,3,,Energy-efficient scaling of optical circuit switches in hybrid packet/circuit data centers.
+openalex:W2948174331,openalex,3,,Proposes circuit-switched optical network architecture for disaggregated data centers.
+openalex:W2099718645,openalex,1,telecom_oxc_roadm,SDN control plane extended to optical transport; no specific OCS switch.
+openalex:W2071137961,openalex,0,,Nanophotonic optical data storage review; unrelated to circuit switching.
+openalex:W2534962717,openalex,3,,Multi-tenancy scheme for hybrid optical packet/circuit switched data center networks.
+openalex:W2345562294,openalex,0,,Broad optical communications roadmap; abstract does not mention circuit switching.
+openalex:W4225000980,openalex,3,,Demonstrates nanosecond optical switching and control system for data center networks.
+openalex:W2884318141,openalex,3,,Evaluates Hadoop performance on data center networks with optical circuit switches.
+openalex:W4384820653,openalex,3,,Tutorial on optical switching technologies for intra data center networks.
+openalex:W2068907524,openalex,3,,Title: optical cross-connect combining circuit and packet switching for DCNs; abstract empty.
+openalex:W2065863985,openalex,0,,Oxygen sensing via optical spectroscopy; unrelated to circuit switching.
+openalex:W2937088522,openalex,3,,Builds wafer-scale silicon photonic optical switch scaling beyond reticle size limits.
+openalex:W3160595640,openalex,0,,Review of optical trapping and tweezers; unrelated to circuit switching.
+openalex:W2136389908,openalex,0,,Terahertz metamaterial switching; not an optical circuit switch for networking.
+openalex:W7168289392,openalex,3,,Title indicates design model for optical-circuit-switched data centers; abstract empty.
+openalex:W2898651003,openalex,1,silicon_photonics,Phase-change photonic materials for switches/routers generally; not OCS-specific.
+openalex:W2544385506,openalex,0,,Plasmonic circuits for optical information processing; not circuit switching.
+openalex:W4404238479,openalex,3,,Proposes cascaded optical circuit switching network architecture using WSS for data centers.
+openalex:W2973870220,openalex,3,,Analyzes optical-circuit/electrical-packet hybrid switching for data center network performance and power.
+openalex:W2559394418,openalex,0,,Quantum machine learning; unrelated to optical circuit switching.
+openalex:W2792315573,openalex,0,,Review of quantum ML and AI; unrelated to circuit switching.
+openalex:W3164621419,openalex,0,,Review of extreme learning machine algorithm; unrelated.
+openalex:W3106714810,openalex,0,,"ML applications in ultrafast photonics; abstract empty, no switching mention."
+openalex:W2929612105,openalex,0,,Quantum ML vision for 6G networks; unrelated to OCS.
+openalex:W3164104137,openalex,0,,Machine vision for defect detection; unrelated to circuit switching.
+openalex:W3167963175,openalex,0,,Precision agriculture using IoT and ML; unrelated.
+openalex:W2772457693,openalex,0,,Deep learning survey for IoT data streams; unrelated.
+openalex:W2951065015,openalex,0,,Deep learning and neuroscience integration; unrelated to OCS.
+openalex:W2949186411,openalex,0,,ML tutorial for optical network failure management; not switching hardware.
+openalex:W2972006294,openalex,0,,Survey of deep learning object detection; unrelated.
+openalex:W2473394283,openalex,0,,General machine learning textbook overview; unrelated to OCS.
+openalex:W4224242327,openalex,0,,ML for healthcare wearable devices; unrelated to circuit switching.
+openalex:W2990204812,openalex,0,,ML survey for UAV-based communications; unrelated to OCS.
+openalex:W3121141908,openalex,0,,Optical neural chip for complex-valued neural networks; not a circuit switch.
+openalex:W2898323475,openalex,0,,Deep learning with spiking neurons; unrelated to circuit switching.
+openalex:W3217475140,openalex,0,,Review of meta-waveguides for integrated photonics; not switch-fabric specific.
+openalex:W4295122555,openalex,0,,Survey of deep residual learning networks; unrelated.
+openalex:W3043159233,openalex,0,,"Roadmap on emerging ML hardware; neuromorphic computing, unrelated to OCS."
+openalex:W4321793224,openalex,0,,ML for industrial condition monitoring; unrelated to circuit switching.
+openalex:W3082806766,openalex,0,,ML for optical performance monitoring and modulation format ID; not switching.
+openalex:W2984757480,openalex,0,,"Hybrid photonic circuit integration of artificial atoms; abstract empty, unrelated."
+openalex:W2775031014,openalex,0,,Deep learning review for water resources science; unrelated to OCS.
+openalex:W2887258823,openalex,0,,Review of physical reservoir computing; unrelated to circuit switching.
+openalex:W4388639388,openalex,0,,AI-driven flexible sensors and artificial synapses; unrelated to OCS.
+openalex:W4285802213,openalex,0,,Quantum ML for chemistry and physics; unrelated to switching.
+openalex:W3109834426,openalex,0,,Deep learning for nano-photonic inverse design; not switch-specific.
+openalex:W2965933955,openalex,0,,Memristive switching devices for memory/computing; not optical circuit switching.
+openalex:W4313462484,openalex,0,,AI/ML for quantum device control; unrelated to OCS.
+openalex:W2395416306,openalex,0,,"Neuroscience sleep circuit study; abstract empty, unrelated to OCS."
+openalex:W4308657560,openalex,0,,Review of optical microcomb applications; not circuit switching specific.
+openalex:W3138011117,openalex,0,,Review of plasmonic optical tweezers; unrelated to circuit switching.
+openalex:W3091860120,openalex,0,,"Deep learning for biological data mining; abstract empty, unrelated."
+openalex:W4391970400,openalex,0,,Diffractive free-space optical computing perspective; not a circuit switch.
+openalex:W4380152694,openalex,0,,ML discovery of senolytic drugs; unrelated to circuit switching.
+openalex:W2995136401,openalex,0,,Graph neural solver for multi-object tracking; unrelated to OCS.
+openalex:W4394897042,openalex,0,,ML review for precision farming; unrelated to circuit switching.
+openalex:W3034560014,openalex,0,,Deep learning for COVID-19 diagnosis; unrelated to circuit switching.
+openalex:W3000731494,openalex,0,,ML survey against hardware Trojan attacks; unrelated to OCS.
+openalex:W3203543304,openalex,0,,Survey of 5G RAN energy efficiency and ML; unrelated to OCS.
+openalex:W3088915330,openalex,0,,ML for routing/resource allocation in optical networks; not switch hardware.
+openalex:W4362553764,openalex,0,,Survey of CNNs for medical image analysis; unrelated to OCS.
+openalex:W3040838455,openalex,0,,Survey of event-based vision sensors; unrelated to circuit switching.
+openalex:W2762321225,openalex,0,,Multiagent control overview for microgrids; unrelated to circuit switching.
+openalex:W2930741432,openalex,0,,Miniaturized microscopes for neural circuit imaging; different meaning of circuit.
+openalex:W2761015455,openalex,0,,Reinforcement learning for quantum state control; unrelated to OCS.
+openalex:W3178661111,openalex,0,,Federated learning framework for edge intelligence; unrelated to circuit switching.
+openalex:W1975357130,openalex,3,,"Title: MEMS optical switches and interconnects; abstract empty, directly on-topic."
+openalex:W2529948110,openalex,3,,Analyzes switching time reduction in 3D MEMS-based optical switches.
+openalex:W3041044413,openalex,3,,Builds a 512x512 port 3D MEMS optical switch module prototype.
+openalex:W1977220786,openalex,3,,Sliding mode fault-tolerant control for a MEMS optical switch; abstract empty.
+openalex:W4407948905,openalex,2,mems_micromirror,"MEMS optical switch built for laser ignition safety device, not networking."
+openalex:W2996949883,openalex,3,,Open-loop control algorithms for high-speed 3D MEMS switching fabrics in data centers.
+openalex:W2605844474,openalex,3,,"Reviews diffraction-based MEMS optical switching, comparing DLP and LCoS approaches."
+openalex:W2956148226,openalex,3,,Builds a translational MEMS platform for planar optical switching fabrics.
+openalex:W2159513073,openalex,3,,Reviews MEMS micromirror technology used in fiber-optical switches.
+openalex:W2978556994,openalex,0,,Review of optical vortices and orbital angular momentum; unrelated to OCS.
+openalex:W2795355622,openalex,3,,Reviews MEMS-based all-optical switching fabric principles and architectures.
+openalex:W4403460664,openalex,1,mems_micromirror,Small MEMS switch used as component in a fiber sensor system; abstract empty.
+openalex:W2533885611,openalex,3,,Designs and models an 8-channel MEMS optical switch array for signal control.
+openalex:W2047996703,openalex,3,,Optimized sliding mode controller for MEMS optical switches used in optical networks.
+openalex:W1982681165,openalex,3,,Builds a 50x50 silicon photonic MEMS optical circuit switch for data centers.
+openalex:W3139026969,openalex,2,mems_micromirror,MEMS mirror array built for wavelength selective switches; abstract empty.
+openalex:W2807234289,openalex,3,,"Reviews MEMS, LCoS, SOA, and MZI photonic switching technologies for datacenters."
+openalex:W2492727504,openalex,3,,"Title: Design of MEMS Optical Switches; abstract empty, directly on-topic."
+openalex:W2253702363,openalex,1,mems_micromirror,"MEMS-actuated metamaterial for terahertz polarization modulation, not fiber circuit switching."
+openalex:W4408995512,openalex,3,,Develops a stiffness-tuning actuator mechanism specifically for MEMS optical switches.
+openalex:W4284963505,openalex,3,,"Book chapter reviewing MEMS-based optical switch technology, fabrication, and reliability."
+openalex:W3103527158,openalex,1,mems_micromirror,General MEMS-IC integration review; micromirror arrays only one example among many.
+openalex:W1561374189,openalex,3,,Reviews MEMS technology for optical switching in optical networks.
+openalex:W3017763864,openalex,1,mems_micromirror,"Review of MEMS scanning mirrors for LiDAR, not optical circuit switching."
+openalex:W4387805823,openalex,3,,Demonstrates hybrid 3-DOF MEMS actuator for efficient planar optical switching.
+openalex:W4385800727,openalex,3,,Demonstrates a nonvolatile silicon MEMS optical switch using bistable mechanical beams.
+openalex:W2520137363,openalex,0,,Inertial shock switch measured optically; not an optical circuit switch
+openalex:W3176835102,openalex,1,mems_micromirror,"MEMS mirror beam steering metasurface, not fiber circuit switching"
+openalex:W3132748550,openalex,2,,MEMS electromagnetic actuator built specifically for an optical switch
+openalex:W2994903006,openalex,3,,MEMS phase modulator demonstrates optical crossbar switching on chip
+openalex:W4220706180,openalex,1,mems_micromirror,"MEMS-actuated focal plane array for LiDAR beam steering, not circuit switch"
+openalex:W2964155064,openalex,0,,"Dielectric metasurface wavefront review, no switching application"
+openalex:W4319827927,openalex,3,,"Review of silicon integrated optical switches, thermo-optic and carrier dispersion"
+openalex:W3165022361,openalex,0,,"THz metamaterial logic modulation, not optical circuit switching"
+openalex:W1991138084,openalex,2,,Piezoelectric GaN microswitch fabricated for optical MEMS applications
+openalex:W2950629902,openalex,0,,"MEMS flow sensor review, unrelated to optical switching"
+openalex:W2914521323,openalex,3,,Comparative review of MEMS-based optical cross-connects for all-optical networks
+openalex:W2080568909,openalex,0,,"Photoacoustic microscopy MEMS scanner, medical imaging not switching"
+openalex:W4404563748,openalex,1,mems_micromirror,"MEMS mirror actuation switches laser cavity modes, not fiber circuit switch"
+openalex:W2064632152,openalex,0,,"Optical oxygen sensor indicators, unrelated"
+openalex:W2922403412,openalex,0,,"MEMS inertial switch review, unrelated to optical switching; empty abstract"
+openalex:W2092550203,openalex,2,,"Electrostatic MEMS actuator pull-in analysis for optical switching, per title"
+openalex:W3088036067,openalex,2,telecom_oxc_roadm,ROADM using mode-selective integrated MEMS switches for telecom MDM
+openalex:W2755280712,openalex,0,,"Polarization switching via nonlinear metamaterials, not circuit switching; empty abstract"
+openalex:W2343971467,openalex,3,,3D MEMS photonic cross-connect switch for nonblocking all-optical networks
+openalex:W3042321904,openalex,1,mems_micromirror,"General MEMS switch review, not clearly optical; actuator physics transfers"
+openalex:W2050362991,openalex,1,mems_micromirror,"MEMS optical shutter switch for displays, not fiber circuit switching"
+openalex:W2979824403,openalex,3,,512-port silicon photonic MEMS wavelength cross-connect switch matrix built
+openalex:W2894151917,openalex,0,,"MEMS metasurface THz logic gates, not optical circuit switching"
+openalex:W2781493652,openalex,0,,"Soft optical tactile sensors, unrelated"
+openalex:W2520718776,openalex,0,,"Bioink 3D printing, unrelated"
+openalex:W2496209904,openalex,0,,"Optical security and encryption roadmap, unrelated to circuit switching"
+openalex:W2103979104,openalex,0,,"Kirigami mesostructure assembly, materials science, unrelated"
+openalex:W3123833583,openalex,0,,"3D microelectrode array for neural circuits, unrelated"
+openalex:W4327858904,openalex,2,silicon_photonics,"Review of silicon photonic MEMS devices generally, not switch-focused"
+openalex:W2994819244,openalex,0,,"3D bioprinting review, unrelated"
+openalex:W2612686510,openalex,0,,"Astronomical interferometry instrument, unrelated"
+openalex:W2401218707,openalex,0,,"Metasurface physics review, no switching application"
+openalex:W2976859966,openalex,2,silicon_photonics,MEMS tunable components review for photonic integrated circuits generally
+openalex:W2066696807,openalex,0,,"Lithium microbattery manufacturing, unrelated; empty abstract"
+openalex:W2037530588,openalex,1,silicon_photonics,"Electro-optic ferroelectric material on silicon, enabling material not a switch"
+openalex:W3116813957,openalex,1,mems_micromirror,"MEMS scanning mirrors for OCT imaging, not circuit switching"
+openalex:W2889032805,openalex,0,,"Genome organization mapping method, unrelated"
+openalex:W4389954216,openalex,0,,"MEMS pressure sensor review, unrelated"
+openalex:W2143829622,openalex,0,,"3D facial expression recognition survey, unrelated; empty abstract"
+openalex:W2227388478,openalex,0,,"3D-printed passive wireless sensors, unrelated"
+openalex:W3031545202,openalex,0,,"MEMS actuators for biomedical applications, unrelated"
+openalex:W4285711482,openalex,0,,"Optical multiplexing techniques review (WDM/SDM/MDM), not switching"
+openalex:W3126743042,openalex,0,,"3D bioprinting tissue models, unrelated"
+openalex:W2787403570,openalex,0,,"3D printed responsive hydrogel, unrelated"
+openalex:W2886279143,openalex,0,,"Chiral metaphotonic nanostructures review, unrelated"
+openalex:W2133627653,openalex,1,mems_micromirror,"MEMS scanning micromirrors for bio-imaging, not circuit switching"
+openalex:W3112950318,openalex,0,,"3D bioprinting materials overview, unrelated"
+openalex:W3158763067,openalex,0,,"3D printing in prosthetic dentistry, unrelated"
+openalex:W2955888413,openalex,0,,"Bioresorbable implantable pressure/temperature sensors, unrelated"
+openalex:W4319780230,openalex,0,,"3D printed microfluidics review, unrelated"
+openalex:W2808460361,openalex,0,,"3D printing nozzle monitoring, unrelated; empty abstract"
+openalex:W2112474154,openalex,2,telecom_oxc_roadm,SDM elastic optical network resource allocation with switchable fiber cores
+openalex:W2092016229,openalex,1,mems_micromirror,"DMD micromirror array used for 3D printing projection, not switching"
+openalex:W2899794813,openalex,0,,"3D printed microfluidic device fabrication review, unrelated"
+openalex:W3116273806,openalex,0,,"COVID-19 antibody biosensor, unrelated"
+openalex:W3008142701,openalex,2,telecom_oxc_roadm,Optical cross-connect architectures using matrix switches for SDM telecom networks
+openalex:W2736469010,openalex,0,,"Optical sensors roadmap, unrelated"
+openalex:W2959799147,openalex,0,,"Polymer optical fiber sensors for healthcare, unrelated"
+openalex:W3093584113,openalex,1,free_space_optics_packaging,"Optical phased array beam steering for space comm, not circuit switching"
+openalex:W4403840744,openalex,0,,"Graphene MEMS/NEMS review, general, not optical switching"
+openalex:W2522007538,openalex,0,,"3D mesostructure assembly from multilayers, materials science, unrelated"
+openalex:W3019958894,openalex,0,,"Composite materials for 3D printing, unrelated"
+openalex:W3193768780,openalex,0,,"MEMS terahertz metadevices, not optical circuit switching"
+openalex:W3189750891,openalex,0,,"3D printed optical elements (lenses, mirrors), not switches"
+openalex:W3114594461,openalex,0,,"3D printed microneedle MEMS drug delivery, unrelated; empty abstract"
+openalex:W2922158825,openalex,0,,"MEMS microphone design review, unrelated"
+openalex:W2791270922,openalex,0,,"Micro/nanofibre optical sensors review, unrelated"
+openalex:W2900595881,openalex,0,,"Capacitive MEMS accelerometers review, unrelated"
+openalex:W2044169471,openalex,0,,"Graphene neural electrode array for optogenetics, unrelated"
+openalex:W2062631387,openalex,3,,Silicon photonic switch fabrics analyzed for data center interconnection networks
+openalex:W4211161891,openalex,0,,"Topological photonics review, no switching application"
+openalex:W4391232091,openalex,1,silicon_photonics,"General silicon photonics roadmap across applications, not switch-focused"
+openalex:W2894308888,openalex,1,silicon_photonics,"Silicon nitride photonics platform review, not switch-focused"
+openalex:W2996556490,openalex,3,,Silicon photonic switch topologies and routing for disaggregated data centers
+openalex:W4280617936,openalex,1,silicon_photonics,"Microcomb-driven silicon photonic light source systems, not switching"
+openalex:W2900750062,openalex,1,silicon_photonics,"Multimode silicon photonics device design review, not switch-focused"
+openalex:W2235174674,openalex,1,silicon_photonics,"Silicon quantum photonics component review, not switch-focused"
+openalex:W3130725666,openalex,1,silicon_photonics,"Thin-film lithium niobate integrated photonics review, not switch-focused"
+openalex:W2883000198,openalex,1,silicon_photonics,"On-chip silicon photonic signaling review, per title; empty abstract"
+openalex:W2571361994,openalex,1,silicon_photonics,"Silicon photonic microwave notch filter, fab skills transfer, not a switch"
+openalex:W2774352386,openalex,1,silicon_photonics,"Mid-infrared silicon photonics perspective, not switch-focused"
+openalex:W2933780027,openalex,1,silicon_photonics,"Heterogeneous InP/silicon photonic transceivers, moves bits, not a switch"
+openalex:W2165260925,openalex,1,silicon_photonics,"General silicon photonic devices and circuits review, not switch-focused"
+openalex:W2753112608,openalex,0,,"Broad electronic and photonic materials handbook, too general; empty abstract"
+openalex:W2909208749,openalex,3,,"Review of silicon photonic switches: MZI, microring, MEMS switch engines"
+openalex:W1595003097,openalex,1,silicon_photonics,"Silicon photonic transceivers for telecom, moves bits not switching"
+openalex:W2901868604,openalex,1,silicon_photonics,"High-speed silicon photonic modulators review, not switch-focused"
+openalex:W2905370602,openalex,3,,"Integrated photonic switch built using phase-change material, reconfigurable, low loss"
+openalex:W2758404936,openalex,1,silicon_photonics,"Photonic synapse using phase-change silicon nitride, neuromorphic not routing"
+openalex:W4210305137,openalex,1,silicon_photonics,"Photonic matrix multiplication accelerator review, computing not circuit switching"
+openalex:W3159759503,openalex,1,silicon_photonics,"Silicon photonics modulator performance review, not switch-focused"
+openalex:W1990459252,openalex,1,silicon_photonics,"Silicon photonics design/EDA challenges review, not switch-focused"
+openalex:W2226240249,openalex,1,silicon_photonics,"Silicon photonic circuits for spectroscopic sensing, not switching"
+openalex:W2005927954,openalex,0,,"Bottom-up colloidal photonic crystal assembly, materials chemistry, unrelated"
+openalex:W2887956223,openalex,1,silicon_photonics,"History and overview of silicon photonics platform, not switch-focused"
+openalex:W1963836897,openalex,1,silicon_photonics,"Passive silicon photonic components (polarization, isolators), not switches"
+openalex:W3008709580,openalex,0,,"Silicon carbide quantum color centers, unrelated material and application"
+openalex:W3029584541,openalex,1,silicon_photonics,"Wafer-scale silicon nitride photonic circuit fabrication, not switch-focused"
+openalex:W3095839225,openalex,1,silicon_photonics,"Silicon photonics for telecom/datacom devices review, not switch-focused"
+openalex:W4313555657,openalex,1,silicon_photonics,"Lithium niobate photonics review across applications, not switch-focused"
+openalex:W3021393652,openalex,0,,Photonic radar system; no optical circuit switching relevance.
+openalex:W2804293795,openalex,0,,Silicon photonic transceiver for data center interconnects; transport not switching.
+openalex:W2900579067,openalex,1,silicon_photonics,"Reviews open-access silicon photonics foundry platforms; fabrication skills transfer, no switch."
+openalex:W2981243347,openalex,0,,Photonic quantum information processing review; unrelated to OCS.
+openalex:W3041992595,openalex,1,silicon_photonics,"Grating coupler design for silicon photonics; packaging skill transfers, no switch."
+openalex:W3095859605,openalex,0,,Integrated quantum photonics with silicon carbide spin defects; unrelated to OCS.
+openalex:W2613358869,openalex,0,,Review of photonic and plasmonic resonator theory; no switching content.
+openalex:W2051645371,openalex,0,,"Soliton pulse compression in silicon photonic crystals; nonlinear optics, not switching."
+openalex:W4382726075,openalex,0,,"Kerr comb WDM data center link; transceiver bandwidth, not circuit switching."
+openalex:W3021779279,openalex,0,,Review of lithium niobate photonic modulators and combs; no switching demonstrated.
+openalex:W2756058399,openalex,0,,Silicon nitride photonic platform review for sensing and datacom; no switch.
+openalex:W2981656869,openalex,0,,Silicon photonics for 5G transport and interconnect; not switching.
+openalex:W2976897596,openalex,0,,Photonic accelerator for data processing; unrelated to circuit switching.
+openalex:W3109897021,openalex,0,,"Title only, abstract null; silicon photonics for DC communication, not switching."
+openalex:W2782897921,openalex,3,,Builds and characterizes a 50x50 silicon photonic MEMS optical switch.
+openalex:W2257494936,openalex,3,,Builds a 50x50 silicon photonic MEMS optical circuit switch for datacenters.
+openalex:W3097557698,openalex,3,,Builds a broadband silicon photonic MEMS SPDT optical switch.
+openalex:W2918631369,openalex,3,,Builds a bistable nonvolatile silicon photonic MEMS switch.
+openalex:W2800201100,openalex,3,,Builds a 128x128 silicon photonic MEMS switch with row/column addressing.
+openalex:W4406015850,openalex,3,,Builds a silicon photonic MEMS switch using split waveguide crossings.
+openalex:W2186858051,openalex,3,,Builds a 64x64 low-loss broadband silicon photonic MEMS switch.
+openalex:W2271940456,openalex,3,,Demonstrates scalable row/column addressing for a silicon photonic MEMS switch.
+openalex:W2615050161,openalex,3,,Flip-chip packaging of a silicon photonic MEMS switch for cloud/data center.
+openalex:W2951487609,openalex,3,,Builds a multicast silicon photonic MEMS switch with directional couplers.
+openalex:W3138799074,openalex,3,,Builds a 32x32 silicon photonic MEMS switch in a CMOS foundry.
+openalex:W2786734285,openalex,3,,Packages a 128x128 silicon photonic MEMS switch with glass interposer.
+openalex:W1945545782,openalex,3,,Reliability testing of a 50x50 digital silicon photonic MEMS switch.
+openalex:W3139267661,openalex,3,,Builds a low-voltage silicon photonic MEMS switch with vertical actuation.
+openalex:W1976569985,openalex,3,,Builds 50x50 digital silicon photonic switches with MEMS adiabatic couplers.
+openalex:W2919451605,openalex,3,,Pluggable packaging for a silicon photonic MEMS switch for data centers.
+openalex:W2581695752,openalex,3,,Packages a 12x12 digital silicon photonic MEMS switch.
+openalex:W4414694752,openalex,3,,Builds a nonvolatile silicon photonic MEMS switch via van der Waals force.
+openalex:W2226395753,openalex,3,,"Builds a monolithic 50x50 MEMS silicon photonic switch, microsecond response."
+openalex:W2738975469,openalex,3,,Builds a 50x50 optical circuit switch on silicon photonics for datacenters.
+openalex:W4281560993,openalex,3,,Builds a 1x3 MEMS silicon nitride photonic switch.
+openalex:W4378770566,openalex,3,,Builds a silicon photonic MEMS switch using split waveguide crossings.
+openalex:W2789555118,openalex,1,silicon_photonics,"Reviews silicon photonic circuit design flow and EDA tools, no switch built."
+openalex:W4393174577,openalex,3,,Builds a 32x32 silicon photonic MEMS switch with CMOS driver chiplets.
+openalex:W2601258012,openalex,0,,"Nonlinear photonic metasurfaces; title only, unrelated to switching."
+openalex:W4226451033,openalex,3,,Builds a 32x32 wafer-bonded low-loss silicon photonic MEMS switch.
+openalex:W4211023690,openalex,3,,Builds a nonvolatile MEMS silicon photonic phase switch for programmable circuits.
+openalex:W3115038226,openalex,3,,Builds a silicon photonic MEMS switch using total internal reflection.
+openalex:W2896156020,openalex,3,,Reviews silicon photonic switch fabric technologies and architectures across mechanisms.
+openalex:W1515664994,openalex,3,,Builds a multicast 4x20 silicon photonic MEMS switch.
+openalex:W1635046341,openalex,3,,Demonstrates row/column addressing for a scalable silicon photonic MEMS switch.
+openalex:W2802220660,openalex,2,silicon_photonics,"MEMS-actuated silicon photonic wavelength-selective switch; close cousin, not full OCS crossconnect."
+openalex:W4402905306,openalex,3,,Builds a nonvolatile 2x2 silicon photonic MEMS switch for AI routing.
+openalex:W2979736496,openalex,2,silicon_photonics,"Reviews MEMS-enabled silicon photonic devices generally; close cousin, no confirmed switch."
+openalex:W2597825491,openalex,2,telecom_oxc_roadm,Reviews LCoS SLM used in wavelength selective switch systems for telecom.
+openalex:W2147694436,openalex,2,telecom_oxc_roadm,Demonstrates multicasting in an LCOS wavelength selective switch.
+openalex:W2593369542,openalex,2,telecom_oxc_roadm,LCoS wavelength selective switch for elastic optical networks and ROADM.
+openalex:W2101457183,openalex,1,lcos_display_phase,Fundamentals of phase-only LCOS devices for holography; no switch application.
+openalex:W3034871008,openalex,2,telecom_oxc_roadm,High-port-count LCoS wavelength selective switch module for ROADM applications.
+openalex:W2890825222,openalex,2,telecom_oxc_roadm,High-efficiency beam-steering LCOS device for wavelength selective switch.
+openalex:W2401549857,openalex,2,telecom_oxc_roadm,2D beam steering LCOS design for stacked wavelength selective switches.
+openalex:W2047319155,openalex,2,telecom_oxc_roadm,Reduces transient crosstalk in a phase-only LCOS wavelength selective switch.
+openalex:W2137848725,openalex,2,telecom_oxc_roadm,Crosstalk reduction method for holographic LCOS wavelength selective switches.
+openalex:W3084051828,openalex,2,telecom_oxc_roadm,Reviews recent progress of wavelength selective switches for ROADM networks.
+openalex:W1987873225,openalex,2,telecom_oxc_roadm,Compact AWG-based wavelength selective switch driven by single LCOS.
+openalex:W2806321493,openalex,2,telecom_oxc_roadm,"Title only, abstract null; LCOS-based wavelength selective switch with flexible passbands."
+openalex:W2026537731,openalex,2,telecom_oxc_roadm,LCOS-based flexible-grid 1x40 wavelength selective switch demonstration.
+openalex:W1799756684,openalex,2,telecom_oxc_roadm,2D beam steering demonstrated in an LCOS-based wavelength selective switch.
+openalex:W3023959449,openalex,2,telecom_oxc_roadm,Hybrid algorithm optimizes multi-beam steering in an LCOS wavelength selective switch.
+openalex:W4313477415,openalex,2,telecom_oxc_roadm,Folded 3x3 LCOS-based wavelength selective switch with high spectral resolution.
+openalex:W3010509388,openalex,2,telecom_oxc_roadm,High-port-count wavelength selective switches using a single 4k LCoS.
+openalex:W2901479220,openalex,2,telecom_oxc_roadm,Wide-passband C+L-band wavelength selective switch built on LCOS.
+openalex:W4381158453,openalex,1,lcos_display_phase,"Metasurface-enabled polarization-independent LCoS device; general application, no switch demonstrated."
+openalex:W2006699580,openalex,2,telecom_oxc_roadm,LCoS-based few-mode fiber wavelength selective switch with spatial diversity.
+openalex:W2003395751,openalex,2,telecom_oxc_roadm,Wavelength selective switch built using LCoS display technology for ROADM.
+openalex:W3209992943,openalex,0,,"AR/VR display technology review; not LCoS-for-switching, unrelated to OCS."
+openalex:W1061033617,openalex,2,telecom_oxc_roadm,Demonstrates a 1x32 LCOS-based wavelength selective switch for ROADM/OXC.
+openalex:W2569202499,openalex,0,,Multi-plane light conversion mode multiplexer for fiber modes; not switching.
+openalex:W2340261621,openalex,2,telecom_oxc_roadm,MxN wavelength selective switch using LCOS beam splitting for ROADM.
+openalex:W2973411916,openalex,2,telecom_oxc_roadm,Asymmetric LCoS wavelength selective switch for optical access network edge node.
+openalex:W3181432130,openalex,2,telecom_oxc_roadm,Multi-band photonic integrated wavelength selective switch using thermo-optic routing.
+openalex:W3209285728,openalex,2,telecom_oxc_roadm,Hybrid phase modulation reduces crosstalk in LCOS wavelength selective switch.
+openalex:W2512219930,openalex,2,telecom_oxc_roadm,Waveguide/free-space LCOS hybrid optics for ROADM device design.
+openalex:W2901721529,openalex,1,lcos_display_phase,Reviews phase-only LCoS panel quality for holography and telecom; no switch built.
+openalex:W2607270186,openalex,2,telecom_oxc_roadm,Low-cost CDC ROADM architecture built from stacked wavelength selective switches.
+openalex:W2314547817,openalex,2,telecom_oxc_roadm,Wavelength selective switch design increases port count via steering optimization.
+openalex:W2116218065,openalex,2,telecom_oxc_roadm,Uses an LCOS wavelength selective switch for all-optical OFDM processing.
+openalex:W4225941096,openalex,1,telecom_oxc_roadm,Reviews multi-band WDM optical network architectures; no specific switch device.
+openalex:W1970986915,openalex,2,telecom_oxc_roadm,LCOS-based wavelength selective switch implements optical DFT for OFDM demux.
+openalex:W2186112211,openalex,2,telecom_oxc_roadm,MxN wavelength selective switch using LCOS spatial light modulator beam splitting.
+openalex:W2488219102,openalex,1,telecom_oxc_roadm,"Title only, abstract null; general review of LCoS in telecommunications."
+openalex:W2530918466,openalex,0,,Polariton physics in van der Waals materials; unrelated to OCS.
+openalex:W4281778727,openalex,1,lcos_display_phase,"Reviews LCoS devices for AR/VR displays; display application, not switching."
+openalex:W3215039088,openalex,3,,Builds a MEMS mirror array free-space core selective switch for SDM.
+openalex:W3034334810,openalex,3,,Designs and prototypes a free-space optics core selective switch for SDM.
+openalex:W4311274663,openalex,2,telecom_oxc_roadm,Metasurface increases LCoS steering angle in a wavelength selective switch system.
+openalex:W4384824134,openalex,2,telecom_oxc_roadm,Ultrabroadband 2D-dispersive LCoS wavelength selective switch with high channel count.
+openalex:W2166397221,openalex,0,,"Plant symbiosis signaling biology; LCO acronym collision, unrelated to OCS."
+openalex:W4317734516,openalex,1,lcos_display_phase,"Electrically tunable active metasurface LCoS device; general telecom band, no switch."
+openalex:W2938572472,openalex,3,,Builds and characterizes a scalable microring-based silicon Clos switch fabric.
+openalex:W3114504878,openalex,2,telecom_oxc_roadm,LCOS spectral filter improves resolution for wavelength selective switch.
+openalex:W3176290265,openalex,2,telecom_oxc_roadm,Asymmetric LCoS-SLM optical wavelength switch for optical access network edge node.
+openalex:W3008594216,openalex,0,,Piezoelectric nano-biomaterials for tissue regeneration; unrelated to OCS.
+openalex:W2000611026,openalex,0,,High-temperature piezoelectric sensing review; unrelated to beam steering or switching.
+openalex:W2966362568,openalex,0,,Piezoelectric energy harvesting review; unrelated to optical switching.
+openalex:W2809332576,openalex,0,,2D piezoelectric/ferroelectric materials review; unrelated to optical switching.
+openalex:W2608944412,openalex,0,,"Piezoelectric thin films for lab-on-chip biosensors, unrelated to optical switching"
+openalex:W2585218234,openalex,0,,"Piezoelectric energy harvesting review, unrelated to optical switching"
+openalex:W1994319933,openalex,0,,"Resistive memory switching materials review, different meaning of switch, unrelated"
+openalex:W2058515052,openalex,0,,"Quantum dots in WSe2 monolayer, unrelated; empty abstract"
+openalex:W2914316664,openalex,0,,"Piezoelectric transducers for aircraft structural health monitoring, unrelated"
+openalex:W2910086439,openalex,0,,"Piezoelectric polymer microsystems for energy harvesting/implants, unrelated; empty abstract"
+openalex:W2805191155,openalex,0,,"Piezocatalysis for water remediation, unrelated to optical switching"
+openalex:W2012779095,openalex,0,,"Piezoelectric ultrasound transducer arrays (PMUT), unrelated to optical switching"
+openalex:W2906077462,openalex,0,,"Symmetry switch in Weyl semimetal, different meaning of switch; empty abstract"
+openalex:W2143910911,openalex,0,,"Piezoelectric/ferromagnetic spintronics domain wall control, unrelated to optics"
+openalex:W3139267667,openalex,0,,"Optical tweezers review, unrelated to circuit switching; empty abstract"
+openalex:W2037657651,openalex,0,,"Adaptive optical microscopy review, unrelated to circuit switching"
+openalex:W2918760165,openalex,0,,"Organic piezoelectric materials review, unrelated to optical switching"
+openalex:W2345114824,openalex,0,,"Ferroelectric photovoltaics review, unrelated to optical switching"
+openalex:W2936104152,openalex,0,,"Negative piezoelectricity in van der Waals ferroelectric, unrelated"
+openalex:W3037306418,openalex,0,,"Cavity optomechanics review, mechanical resonators, unrelated to circuit switching"
+openalex:W4225771010,openalex,0,,"PVDF piezoelectric materials preparation review, unrelated to optical switching"
+openalex:W2971102795,openalex,0,,"Lithium niobate soliton microcomb, not a switch device"
+openalex:W4205874676,openalex,0,,"Organic piezoelectric energy harvesting review, unrelated to optical switching"
+openalex:W4224210237,openalex,0,,"Electro-optic Q-switch laser crystals, different application than circuit switching"
+openalex:W4200034953,openalex,0,,"Piezoelectric energy harvesting technology review, unrelated to optical switching"
+openalex:W3119529004,openalex,0,,"Piezoelectric cardiac pacemaker nanogenerator, unrelated; empty abstract"
+openalex:W2005480635,openalex,0,,"Ferroelectric domain imaging microscopy, unrelated to optical switching"
+openalex:W3008676885,openalex,0,,"Piezoelectric nanogenerator current density, unrelated to optical switching"
+openalex:W2316329341,openalex,0,,"Piezoelectric thin film transducers review, unrelated to optical switching"
+openalex:W3196241303,openalex,0,,"Interfacial ferroelectricity in bilayer TMD, unrelated; empty abstract"
+openalex:W3011579125,openalex,0,,"3D-printed piezoelectric nanogenerator, unrelated to optical switching"
+openalex:W1965294670,openalex,1,,"Ultrafast THz all-optical modulator, different regime from OCS circuit switching"
+openalex:W4378363703,openalex,0,,"Biodegradable piezoelectric polymers for bioelectronics, unrelated"
+openalex:W2786482165,openalex,1,silicon_photonics,"Si3N4 integrated waveguide platform review, waveguide switches one of many blocks"
+openalex:W2020360871,openalex,0,,"Optical trapping and tweezers review, unrelated to circuit switching"
+openalex:W3041624699,openalex,0,,"Piezoelectric materials for electrochemistry, unrelated to optical switching"
+openalex:W3163628203,openalex,0,,"Piezoelectric peptide assemblies, unrelated to optical switching"
+openalex:W4308681347,openalex,0,,"Natural piezoelectric biomaterials review, unrelated to optical switching"
+openalex:W4395449486,openalex,0,,"PVDF piezoelectric nanoyarn fabric sensor, unrelated to optical switching"
+openalex:W2805634289,openalex,0,,"AlN thin film sputtering for piezoelectric devices, unrelated"
+openalex:W2940942374,openalex,0,,"Piezoelectric energy harvesting for IoT review, unrelated"
+openalex:W2782172413,openalex,0,,"Lead-free piezoelectric materials review, unrelated to optical switching"
+openalex:W2766793249,openalex,0,,"Fiber Bragg grating piezoelectric voltage sensor, unrelated to switching"
+openalex:W1981987996,openalex,0,,"Plastic optical fiber sensors review, unrelated to circuit switching"
+openalex:W2962024859,openalex,0,,"Piezo-catalytic dye degradation foam, unrelated to optical switching"
+openalex:W2591729902,openalex,3,,"Beam-steering all-optical switch for multi-core fibers, built and characterized"
+openalex:W2913395450,openalex,3,,"Beam steering optical switch design for multicore fibers, port count analyzed"
+openalex:W2040220307,openalex,0,,"Quantum EPR steering entanglement, different meaning of steering; empty abstract"
+openalex:W3158684015,openalex,1,silicon_photonics,"Integrated optical phased array review for beam steering, chip-scale, not a switch"
+openalex:W2587359616,openalex,0,,"Metasurface fiber-tip beam steering for sensing, unrelated to circuit switching"
+openalex:W2802065375,openalex,0,,"Free-space wireless beam steering via AWGR wavelength tuning, indoor comm not OCS"
+openalex:W3095881173,openalex,0,,"Optical fiber tip integration review, unrelated to circuit switching"
+openalex:W4392199370,openalex,0,,"Broad metasurfaces roadmap review, unrelated to circuit switching"
+openalex:W2949924416,openalex,1,lcos_display_phase,"Liquid crystal beam steering devices review, feeds LCoS route, not switch-focused"
+openalex:W2413950147,openalex,0,,"Indoor optical wireless beam steering via wavelength tuning, unrelated to OCS"
+openalex:W4313455582,openalex,0,,"THz beam steering via liquid crystal elastomer metasurface, unrelated"
+openalex:W2755567273,openalex,0,,"Hybrid photonic-crystal fiber review, unrelated to circuit switching"
+openalex:W4214829241,openalex,1,silicon_photonics,"Chip-scale nanophotonic beam steering review for LiDAR/comms, not a switch"
+openalex:W3092216269,openalex,0,,"Functional fibers/fabrics for soft robotics wearables, unrelated"
+openalex:W4200345206,openalex,0,,"OAM free-space optical communications review, unrelated to circuit switching"
+openalex:W2554260837,openalex,0,,"MINFLUX super-resolution imaging, unrelated to optical switching"
+openalex:W4321790208,openalex,0,,"Optical fiber temperature sensors review, unrelated to circuit switching"
+openalex:W4381434615,openalex,0,,"Broad integrated metasurfaces review, unrelated to circuit switching"
+openalex:W3173926265,openalex,0,,"Indoor optical wireless beam steering for Industry 4.0, unrelated to OCS"
+openalex:W2068954499,openalex,3,,Beam-steering fiber switches as cluster/intercluster OCS in DC network architecture
+openalex:W3190442075,openalex,0,,"Optical phased array neural probes for brain tissue, unrelated"
+openalex:W2946108906,openalex,0,,"Switchable metasurface beams via material hydrogenation, unrelated to OCS"
+openalex:W2113359970,openalex,0,,"Acoustic metasurface wavefront modulation, unrelated; empty abstract"
+openalex:W3186137658,openalex,1,silicon_photonics,"Inverse-designed photonic crystal waveguide beam steering chip, not a switch"
+openalex:W2802011113,openalex,0,,"Plasmonic metasurface beam steering for polarization control, unrelated"
+openalex:W2919597673,openalex,1,mems_micromirror,"Uses digital micromirror device to encode OAM channels, not a switch"
+openalex:W2955897898,openalex,0,,"6G wireless above 100GHz survey, unrelated to optical switching"
+openalex:W2100234202,openalex,0,,"Quantum EPR steering experiment, different meaning of steering, unrelated"
+openalex:W2891187036,openalex,0,,"Multimaterial optoelectronic fibers/textiles review, unrelated to switching"
+openalex:W2218442732,openalex,0,,"mmWave beam steering integration survey for 5G antennas, unrelated"
+openalex:W4323644257,openalex,3,,Hybrid beam-steering free-space/fiber optical data center network with PZT actuators
+openalex:W4281661666,openalex,1,silicon_photonics,"Integrated OPA beam steering review for LiDAR, chip focus, not a switch"
+openalex:W3000699369,openalex,0,,"Optical wireless hybrid networks survey, unrelated to circuit switching"
+openalex:W4308917574,openalex,3,,Reviews optical switches and spectral/spatial multiplexing for datacenter networking scenarios
+openalex:W3036147427,openalex,0,,"Plasmonic metasurface spin-controlled beam steering, unrelated to circuit switching"
+openalex:W4387760959,openalex,1,lcos_display_phase,"Liquid crystal THz metasurface phase-pixel beam steering, feeds LCoS route"
+openalex:W2132431811,openalex,1,,"Photonic true-time delay module uses optical switches for antenna beamforming, not DC"
+openalex:W3165447121,openalex,0,,"Phototunable self-oscillating fiber actuator for soft robotics, unrelated"
+openalex:W3005718611,openalex,0,,"Indoor optical wireless user localization via beam steering, unrelated to OCS"
+openalex:W4381325878,openalex,0,,"Cascaded metasurfaces for continuous beam steering, unrelated to circuit switching"
+openalex:W4394930219,openalex,3,,"Large-scale thermo-optic waveguide lens optical switch for telecom/datacom, built and characterized"
+openalex:W4224325468,openalex,1,silicon_photonics,"Silicon carbide electro-optic modulator, encodes bits, not a switch; feeds EO route"
+openalex:W3094065577,openalex,1,silicon_photonics,"Silicon photonics review for fiber capacity scaling, transceivers not switch-focused"
+openalex:W4297053117,openalex,3,,Reviews large-port-count optical switching technologies for intra data center networks
+openalex:W2062054310,openalex,3,,Large-port-count optical switch demonstrated with hybrid MZI-SOA switch module
+openalex:W2039715757,openalex,3,,Optical crosspoint switch matrix built and characterized with thermo-optic tuning
+openalex:W2786500500,openalex,3,,"Tutorial review of integrated photonic switching structures, EO/TO/SOA switches"
+openalex:W4308917780,openalex,3,,"Thermo-optic silicon switch built and characterized, polarization-insensitive 2x2 MZI"
+openalex:W2889030337,openalex,3,,32x32 silicon photonics switch fabricated with silica PLC connector
+openalex:W2974096969,openalex,3,,Silicon 4x4 non-blocking optical switch chip with thermal and electro-optic tuning
+openalex:W2024436451,openalex,3,,270x270 wavelength routing optical switch prototype using cascaded AWGs
+openalex:W2587786619,openalex,2,,"InP integrated optical switch matrix for packet data networks, not circuit switching"
+openalex:W2968922880,openalex,3,,Large-scale silicon photonics optical switch chip built and characterized
+openalex:W147232447,openalex,0,,"The Gaia space astronomy mission, unrelated, likely OCS acronym false positive"
+openalex:W4298339091,openalex,3,,32x32 silicon thermo-optic switch demonstrated for disaggregated computing
+openalex:W2797687360,openalex,3,,Six-port optical switch built for cluster-mesh photonic network-on-chip
+openalex:W4386951819,openalex,0,,"Antibody-based molecular biosensor switch, different meaning of switch, unrelated"
+openalex:W2575526897,openalex,3,,Non-blocking silicon photonic switch fabric built with modular packaging
+openalex:W3094530140,openalex,3,,Port-alternated switch-and-select 8x8 silicon photonic optical switch demonstrated
+openalex:W4378650891,openalex,3,,Builds a large-scale 32x32 strictly-nonblocking thermo-optic silicon switch chip.
+openalex:W2327284773,openalex,3,,Demonstrates automated routing and control of an 8x8 silicon photonic switch fabric.
+openalex:W4394954660,openalex,1,silicon_photonics,"Electro-optic tuning material for silicon photonics phase control, no switch application shown."
+openalex:W2948602808,openalex,0,,"Quantum cryptography review, unrelated to optical switching."
+openalex:W2763363916,openalex,0,,"Micro-comb optical sources for metrology, unrelated to switching."
+openalex:W4293078036,openalex,1,silicon_photonics,Reviews lithium niobate photonics devices and modulators; no switch fabric described.
+openalex:W2591111335,openalex,3,,Builds scalable OCS using silicon photonic waveguide crossbar with movable couplers.
+openalex:W3133879440,openalex,0,,"Fluorescence microscopy imaging technique, unrelated to optical switching."
+openalex:W3009983062,openalex,3,,Develops large-scale silicon photonics optical circuit switch on 45nm CMOS.
+openalex:W4391878049,openalex,3,,Builds silicon photonics wavelength cross-connect switch for GPU datacenter interconnect.
+openalex:W3008629526,openalex,0,,"Quantum cryptography review (duplicate topic), unrelated to switching."
+openalex:W4395075783,openalex,2,telecom_oxc_roadm,Builds a 32x4 low-loss optical switch for telecom ROADM applications.
+openalex:W2619613367,openalex,0,,"Neuroscience study of microglia and optic nerve injury, unrelated."
+openalex:W2889455810,openalex,3,,Demonstrates on-chip multimode switch with reconfigurable inter-mode/path routing.
+openalex:W4409153023,openalex,3,,Builds non-blocking 4x4/8x8 photonic switches for data center networks.
+openalex:W2897393425,openalex,1,silicon_photonics,"On-chip MZI-based photonic spectrometer, same fabrication skills but not a switch."
+openalex:W2739117960,openalex,1,silicon_photonics,"Builds EO phase-shifter photon router for quantum dots, not network switching."
+openalex:W4404306027,openalex,0,,"Neuroscience study of behavioral switching, null abstract, unrelated meaning."
+openalex:W4367676360,openalex,2,silicon_photonics,Demonstrates silicon switch array for fiber mode/polarization multiplexing.
+openalex:W2335273496,openalex,3,,Builds broadband 4x4 nonblocking silicon electro-optic switch using MZIs.
+openalex:W2324604385,openalex,3,,Calibration method for large-port-count silicon thermo-optic PILOSS optical switch.
+openalex:W2739588406,openalex,0,,"Neuromorphic optical computing with photonic weight banks, not switching."
+openalex:W2772829183,openalex,0,,Review of ultrawide-bandgap semiconductor materials for power electronics.
+openalex:W3080673473,openalex,0,,"Bandgap engineering review of 2D semiconductor materials, unrelated."
+openalex:W2610847187,openalex,0,,"Ultrafast tuning of semiconductor metasurfaces, unrelated to switch fabrics."
+openalex:W2606397457,openalex,0,,"Van der Waals crystal magnetism study, unrelated to optical switching."
+openalex:W2123325914,openalex,0,,"Fiber optical parametric amplifiers for optical communication, not switching."
+openalex:W2611820546,openalex,0,,"Femtosecond polarization switching in an absorber material, not circuit switching."
+openalex:W2964101383,openalex,1,telecom_oxc_roadm,"ML survey for optical network management, not switch hardware."
+openalex:W2022337631,openalex,3,,Evaluates power consumption of all-optical data center networks (empty abstract).
+openalex:W2740863397,openalex,0,,"Plasmonic metasurface beam switching/lensing, not fiber network circuit switching."
+openalex:W1511582391,openalex,0,,"Optical frequency comb technology for RF photonics, unrelated to switching."
+openalex:W1970948459,openalex,0,,"Gaussian quantum information theory review, unrelated to optical switching."
+openalex:W2945952437,openalex,0,,"Optical solitons in fiber lasers review, unrelated to switching."
+openalex:W2064033006,openalex,3,,Characterizes picosecond electro-optical switching using semiconductor optical amplifiers.
+openalex:W4386069567,openalex,1,,"Reviews SOA amplifiers for telecom and LiDAR, not switching function."
+openalex:W2000215674,openalex,0,,"OFDM-based elastic optical networking survey, not circuit switching."
+openalex:W2963664010,openalex,0,,"Q-switched fiber laser study, different meaning of switching."
+openalex:W2947426653,openalex,0,,"Semiconductor infrared plasmonics review, unrelated to optical switching."
+openalex:W1989361652,openalex,3,,Demonstrates AWGR-based optical switch with SOA contention resolution in datacenters.
+openalex:W2537188330,openalex,1,,Optical receiver sensitivity for datacenter links; OCS mentioned only as context.
+openalex:W2943206478,openalex,0,,"Bi-doped fiber amplifiers and lasers review, unrelated to switching."
+openalex:W3037248556,openalex,1,,"All-optical logic gates using SOAs, not circuit switching application."
+openalex:W2204265086,openalex,0,,"Optically driven phonon magnetism study, empty abstract, unrelated."
+openalex:W3027411045,openalex,0,,"Survey of optical RAM and memories, not switching function."
+openalex:W2587610600,openalex,3,,Builds a large-scale 32x32 silicon electro-optic switch with monitors.
+openalex:W3168038410,openalex,0,,DSP transceivers for datacenter fiber links; transceivers do not switch.
+openalex:W2428389675,openalex,0,,"Stokes solitons in microcavities, empty abstract, unrelated to switching."
+openalex:W2099489285,openalex,1,,"Discusses SOA-based optical computing motivated by switching costs, no built switch."
+openalex:W2904694042,openalex,0,,"Optical neural network via photoelectric multiplication, unrelated to switching."
+openalex:W2202490861,openalex,0,,"Ultrafast semiconductor disk laser review, unrelated to switching."
+openalex:W4200293315,openalex,0,,"X-ray diffraction defect analysis of semiconductors, unrelated."
+openalex:W2743487474,openalex,0,,"2D semiconductor materials HfSe2/ZrSe2 study, unrelated to switching."
+openalex:W1041139178,openalex,0,,"Optical solitons in PT-symmetric lattices, unrelated to switching."
+openalex:W3007890462,openalex,0,,"Switchable ferroelectric perovskite polarization study, unrelated to OCS."
+openalex:W4220911475,openalex,3,,Proposes optical wireless DCN using nanosecond SOA wavelength selectors and AWGR.
+openalex:W3016532901,openalex,0,,"Review of optical neural networks, unrelated to circuit switching."
+openalex:W4402694963,openalex,0,,"Optical neural network progress review, unrelated to switching."
+openalex:W2945787956,openalex,0,,"Roadmap on all-optical signal processing, not switching-specific."
+openalex:W2217959685,openalex,3,,"Hybrid optical switch architecture for data center networks (title only, empty abstract)."
+openalex:W2968810373,openalex,0,,"Reconfigurable intelligent surfaces for wireless communications, unrelated to OCS."
+openalex:W3036907365,openalex,3,,ROTOS: reconfigurable optical DCN architecture using WSS and fast optical switches.
+openalex:W2141810662,openalex,3,,OSA: optical switching architecture giving flexible reconfigurable data center networks.
+openalex:W4389373471,openalex,0,,"Reconfigurable atom-array quantum processor, unrelated to optical switching."
+openalex:W3208402115,openalex,3,,DACON: disaggregated optical DCN using hybrid nanosecond optical switches.
+openalex:W3144786718,openalex,2,dc_network_systems,"Survey of reconfigurable optical network architectures (title only, empty abstract)."
+openalex:W3032344992,openalex,3,,AgileDCN: reconfigurable optical DCN architecture using fast-switching optical components.
+openalex:W4285233657,openalex,1,dc_network_systems,"Overview of hyperscale DC optical interconnect scaling, not focused on circuit switching."
+openalex:W3194620979,openalex,0,,"6G integrated sensing and communications overview, unrelated to OCS."
+openalex:W779704277,openalex,0,,"Optically reconfigurable magnetic materials, empty abstract, unrelated."
+openalex:W2241946296,openalex,3,,RODA: reconfigurable optical DCN using optical transceivers and switches.
+openalex:W4285084333,openalex,3,,ReSAW: reconfigurable optical DCN based on AWGR optical switching.
+openalex:W3128409631,openalex,0,,"Reconfigurable intelligent surfaces signal processing perspective, unrelated to OCS."
+openalex:W2174784067,openalex,3,,"OSA optical switching architecture for data center networks (duplicate, title only)."
+openalex:W3203666589,openalex,3,,SDN-enabled reconfigurable optical DCN using wavelength selective switch ToRs.
+openalex:W3180467685,openalex,0,,"RIS for 6G wireless networks, unrelated to optical circuit switching."
+openalex:W2171830950,openalex,3,,Dynamically reconfigurable photonic resources demonstrated for optical data center networks.
+openalex:W2792477041,openalex,3,,Free-space optical DCN using gimbal-less MEMS beam steering and tracking.
+openalex:W3110989801,openalex,0,,"6G wireless communication vision paper, unrelated to optical switching."
+openalex:W3125126004,openalex,0,,"Nonreciprocal microwave optomechanical circuit for quantum circuits, unrelated."
+openalex:W2622218982,openalex,0,,"Quantum entanglement using optical frequency combs, unrelated to switching."
+openalex:W4281958713,openalex,3,,RGAIA: reconfigurable AWGR-based optical data center network architecture.
+openalex:W2583039042,openalex,3,,FireFly: free-space optics based reconfigurable optical wireless data center interconnect.
+openalex:W2067453331,openalex,0,,"General survey of software-defined networking, not optics-specific."
+openalex:W2157224582,openalex,1,telecom_oxc_roadm,Space division multiplexing fiber capacity survey; switches reviewed as one component.
+openalex:W2775765784,openalex,3,,MEMS-based reconfigurable free-space optical wireless networking demonstrated in data centers.
+openalex:W4213428796,openalex,0,,"Diffractive optical neural network chip, unrelated to circuit switching."
+openalex:W3005174771,openalex,2,telecom_oxc_roadm,"Alibaba's disaggregated optical transport DCI network, discusses ROADM requirements."
+openalex:W2810723790,openalex,3,,Analyzes algorithmic complexity of hybrid reconfigurable optical/electrical data center topologies.
+openalex:W4210530467,openalex,0,,"Reconfigurable perovskite electronic devices for AI, not optical."
+openalex:W4224296904,openalex,0,,"Reconfigurable perovskite memristors for neuromorphic computing, not optical."
+openalex:W4221160263,openalex,0,,"RIS overview for wireless communications, unrelated to OCS."
+openalex:W2962819996,openalex,2,dc_network_systems,Surveys algorithmic problems in optically reconfigurable data center network topologies.
+openalex:W2809053936,openalex,0,,"Ferrofluid surface topography materials study, empty abstract, unrelated."
+openalex:W1973255932,openalex,2,dc_network_systems,Proposes bandwidth scheduling strategy over optical networks for inter-DC transfer.
+openalex:W4223554347,openalex,1,telecom_oxc_roadm,Physical layer modeling tool for disaggregated WDM/ROADM optical transport networks.
+openalex:W2097053956,openalex,1,telecom_oxc_roadm,Power consumption modeling for optical multilayer telecom networks (title only).
+openalex:W2980615180,openalex,2,dc_network_systems,"Reviews optical interconnects (bandwidth, reconfigurability) for ML data center networks."
+openalex:W3128241849,openalex,0,,"Chemical recycling of reconfigurable polymers, empty abstract, unrelated."
+openalex:W3160587957,openalex,0,,"Quantum networks using diamond color centers, unrelated to OCS."
+openalex:W4413757104,openalex,3,,Builds OCS-based reconfigurable optical-electrical fabric prototype for MoE training clusters.
+openalex:W3010886459,openalex,0,,"General neuromorphic computing physics review, no switching or OCS content."
+openalex:W2789715390,openalex,1,silicon_photonics,"Reconfigurable photonic IC for pulse processing, not a circuit switch."
+openalex:W4223926670,openalex,3,,Studies optical circuit switch placement and tradeoffs in reconfigurable HPC/DC networks.
+openalex:W2153255031,openalex,0,,"Review of smart fabric sensors and e-textiles, unrelated to OCS."
+openalex:W4362655494,openalex,3,,Google TPU v4 supercomputer uses optical circuit switches to reconfigure interconnect topology.
+openalex:W3196093339,openalex,0,,"Review of optical computing for AI models, not circuit switching."
+openalex:W2613833839,openalex,0,,"Review of photonic reservoir computing, an optical computing paradigm not switching."
+openalex:W4388701192,openalex,2,silicon_photonics,SiPh resonators are building blocks for integrated wavelength-selective optical circuit switches.
+openalex:W4300973219,openalex,1,dc_network_systems,DNN training topology optimization fabric; snippet does not mention optical switching.
+openalex:W4399310999,openalex,0,,"6G optical fronthaul survey, telecom access network, not data center OCS."
+openalex:W4401176556,openalex,3,,NegotiaToR is an on-demand reconfigurable optical DCN architecture using fast optical switching.
+openalex:W2357843841,openalex,0,,"General distributed computing research infrastructure, no optical switching content."
+openalex:W4319988710,openalex,0,,"6G wireless/optical access convergence survey, telecom focus not OCS."
+openalex:W3188706325,openalex,3,,SiP-ML uses reconfigurable optical interconnects with switching considerations for GPU ML training.
+openalex:W4390488098,openalex,0,,"Review of diffractive optics and metasurfaces, unrelated to circuit switching."
+openalex:W3203558586,openalex,0,,"Neuromorphic classifier from nanojunctions, unrelated to optical switching."
+openalex:W3089706104,openalex,0,,"Satellite communications survey, unrelated to OCS."
+openalex:W4365790307,openalex,3,,TROD is a low-complexity all-optical data center network design using optical switching.
+openalex:W3080546329,openalex,2,silicon_photonics,Optically connected memory uses reconfigurable micro-ring resonator interconnects for disaggregation.
+openalex:W3048081097,openalex,0,,"6G wireless systems vision survey, unrelated to OCS."
+openalex:W4410343081,openalex,3,,Reconfigurable datacenter network topologies enabled by optical switching technologies.
+openalex:W3150418716,openalex,0,,"Disaster resilience of telecom optical networks, unrelated to OCS."
+openalex:W4322756647,openalex,3,,"Reconfigurable DCNs based on optical circuit switches, citing RotorNet, Opera, Sirius."
+openalex:W2157954477,openalex,0,,"Big data analytics tutorial survey, unrelated to OCS."
+openalex:W2885657717,openalex,0,,"Fog/edge computing survey, unrelated to OCS."
+openalex:W4323653529,openalex,0,,"Flexible sensors roadmap, unrelated to OCS."
+openalex:W4210823697,openalex,0,,"Photonic neuromorphic computing review, not circuit switching."
+openalex:W4206390255,openalex,0,,"ML for optical performance monitoring in short-reach links, not switch hardware."
+openalex:W2998747575,openalex,0,,"AC/DC microgrid protection review, unrelated to OCS."
+openalex:W4313894114,openalex,0,,"Photonic multiplexing for neuromorphic ONNs, an optical computing review not switching."
+openalex:W4226299668,openalex,0,,"Distributed satellite synchronization survey, unrelated to OCS."
+openalex:W4319918345,openalex,0,,"FPGA cluster prototype for HPC, no optical switching content."
+openalex:W4226315885,openalex,0,,"Tunable optics vision for optical wireless networks, not circuit switch fabric."
+openalex:W4401692725,openalex,0,,"Chip/package interconnect overview for computing systems, no OCS mention in snippet."
+openalex:W4327898871,openalex,0,,"Co-packaged optics review; CPO moves bits but does not switch, per domain guide."
+openalex:W4377008345,openalex,2,silicon_photonics,SiPAC uses resonator-based wavelength-selective photonics for multicast I/O in DL clusters.
+openalex:W3038568908,openalex,0,,"Radiation-resistant camera for plasma monitoring, unrelated to OCS."
+openalex:W2490598172,openalex,3,,OPSquare uses fast nanosecond WDM optical cross-connect switches for all-optical flat DCN.
+openalex:W2950385297,openalex,0,,"Review of optical atomic clocks, unrelated meaning of optical."
+openalex:W2912886516,openalex,3,,Photonic integrated WDM cross-connect and multicast switches for metro/data center networks.
+openalex:W2159714423,openalex,0,,"LSST astronomy survey telescope design, unrelated to OCS."
+openalex:W2940692781,openalex,0,,"Perovskite optical light sources review, unrelated to OCS."
+openalex:W2592504242,openalex,3,,Monolithically integrated WDM cross-connect switch demonstrated for optical data center networks.
+openalex:W2789554261,openalex,0,,"Underwater optical wireless communications survey, unrelated to OCS."
+openalex:W217075555,openalex,0,,"Anterior segment optical coherence tomography, medical imaging not OCS."
+openalex:W2888802925,openalex,0,,"Review of optical vortex beam generation physics, unrelated to OCS."
+openalex:W2487200295,openalex,0,,"Big data analytics business review, unrelated to OCS."
+openalex:W2155302366,openalex,0,,"Optical flow estimation in computer vision, unrelated to circuit switching."
+openalex:W1570588423,openalex,0,,"Tissue optical clearing for biomedical imaging, unrelated to OCS."
+openalex:W2997045286,openalex,0,,"Handwritten OCR literature review, unrelated meaning of OCS acronym."
+openalex:W4390345325,openalex,0,,"Optical skyrmions physics, unrelated to circuit switching (abstract empty)."
+openalex:W2611853687,openalex,0,,"Earth observation for biodiversity monitoring, unrelated to OCS."
+openalex:W2560361359,openalex,3,,"MEMS beam-steering cross-connect switch prototype for data center networks, 150us switching."
+openalex:W2977468072,openalex,2,telecom_oxc_roadm,"InP SOA-based photonic cross-connect chip repurposed for neural network, not for switching data."
+openalex:W2736397792,openalex,0,,"Generalized optical memory effect in scattering physics, unrelated to OCS."
+openalex:W2336039769,openalex,0,,"Spatiotemporal optical vortices physics, unrelated to OCS."
+openalex:W3005127469,openalex,0,,"Single-cell data science challenges, unrelated to OCS."
+openalex:W2323657038,openalex,0,,"Review of optical performance monitoring techniques, not switch hardware."
+openalex:W2905241809,openalex,0,,"Zwicky Transient Facility astronomy survey pipeline, unrelated to OCS."
+openalex:W2900538720,openalex,0,,"Climate system model description, unrelated to OCS."
+openalex:W2897340379,openalex,0,,"Mid-infrared optical coherence tomography imaging, unrelated to OCS."
+openalex:W2735125579,openalex,3,,OPSquare optical DCN uses fast WDM optical cross-connect switches with flow control.
+openalex:W2282905743,openalex,0,,"Ultrafast spectroscopy of correlated materials physics, unrelated to OCS."
+openalex:W2778552376,openalex,0,,"Optical coherence elastography in ophthalmology, medical imaging not OCS."
+openalex:W2979363123,openalex,0,,"Fiber-reinforced polymer composites review, unrelated to OCS."
+openalex:W4210818687,openalex,0,,"Magnetic soft materials and robots review, unrelated to OCS."
+openalex:W2973569033,openalex,0,,"Electronic skin devices review, unrelated to OCS."
+openalex:W3047411995,openalex,0,,"Hydrogel soft robotics review, unrelated to OCS."
+openalex:W3110518727,openalex,0,,"Thermoelectric textile fibers, unrelated to OCS."
+openalex:W3112747941,openalex,0,,"Sustainable soft robotics perspective, unrelated to OCS."
+openalex:W4280632309,openalex,0,,"Robotic fiber positioners for astronomy spectrograph, unrelated to data center OCS."
+openalex:W3189885260,openalex,0,,"Biomimetic soft robot with color-changing skin, unrelated to OCS."
+openalex:W4389299351,openalex,0,,"Natural fiber composites review, unrelated to OCS."
+openalex:W3111750080,openalex,0,,"Magnetically controlled soft robotics review, unrelated to OCS."
+openalex:W4200595205,openalex,0,,"Magneto/electro-responsive polymers for soft robotics, unrelated to OCS (abstract empty)."
+openalex:W3174688612,openalex,0,,"Robotic plant phenotyping review, unrelated to OCS."
+openalex:W4387639856,openalex,0,,"Stretchable EMG electrode array for muscle monitoring, unrelated to OCS."
+openalex:W4391433423,openalex,0,,"Sustainability review of natural-fiber polymer composites, unrelated to OCS."
+openalex:W4386370067,openalex,0,,"4D-printed sustainable soft robots review, unrelated to OCS."
+openalex:W4384936792,openalex,0,,"Triboelectric nanogenerators for robotic self-powering, unrelated to OCS."
+openalex:W4388076714,openalex,0,,"Morphing matter mechanics for soft robotics, unrelated to OCS."
+openalex:W2807149407,openalex,0,,"Self-healing fiber-reinforced polymer composites review, unrelated to OCS."
+openalex:W2140358254,openalex,0,,"Non-invasive brain stimulation clinical guidelines, unrelated to OCS."
+openalex:W4321350345,openalex,0,,"Soft robotic 3D bioprinting for surgery, unrelated to OCS."
+openalex:W2611359820,openalex,0,,"Robotic hernia repair surgical review, unrelated to OCS."
+openalex:W4286560842,openalex,0,,"Wearable sensor design review, unrelated to OCS (abstract empty)."
+openalex:W4225669925,openalex,0,,"DARPA subterranean robots exploration, unrelated to OCS."
+openalex:W2067142709,openalex,0,,"Agricultural robotics committee spotlight, unrelated to OCS."
+openalex:W112949338,openalex,0,,"Fiber Bragg grating sensors for aircraft wing shape, not circuit switching."
+openalex:W4319761880,openalex,0,,"Optical fiber and nanomaterial sensors for aircraft systems, unrelated to OCS."
+openalex:W2931923206,openalex,0,,"Fiber Bragg grating structural health monitoring composite, unrelated to OCS."
+openalex:W4389879612,openalex,0,,"Cutaneous haptic feedback for robotic teleoperation, unrelated to OCS."
+openalex:W4412654763,openalex,0,,"Thermally actuated soft robotics review, unrelated to OCS."
+openalex:W2021995161,openalex,0,,"Wearable electronics and smart textiles review, unrelated to OCS."
+openalex:W3165277233,openalex,0,,"Distributed energy sources for robotics review, unrelated to OCS."
+openalex:W4317743407,openalex,0,,"Climbing robots for vertical structures review, unrelated to OCS."
+openalex:W2969967824,openalex,0,,"Carbon fiber composites supply chain roadmap, unrelated to OCS."
+openalex:W4413241168,openalex,0,,"Fiber-based electronic devices for wearables review, unrelated to OCS."
+openalex:W3213189848,openalex,0,,"Soft actuators for real-world applications review, unrelated to OCS."
+openalex:W4367181416,openalex,0,,"Agricultural harvesting robot review, unrelated to optical switching."
+openalex:W4309845453,openalex,0,,"MEMS tactile sensors for robotics, not optical beam steering."
+openalex:W2823918704,openalex,0,,"Piezoelectric patches for submerged sensing, not optical switching."
+openalex:W2969373676,openalex,0,,"Melt electrospinning materials review, unrelated to OCS."
+openalex:W4225131936,openalex,0,,"ML for robotic infrastructure inspection, unrelated to optical switching."
+openalex:W4394891757,openalex,0,,"Soft robot design and manufacturing review, unrelated to OCS."
+openalex:W3100476583,openalex,0,,"Underwater diver gesture communication, unrelated to optical switching."
+openalex:W4399284121,openalex,0,,"Adhesive patches for wound repair, unrelated to optical switching."
+openalex:W3020957857,openalex,0,,"Textile fiber winding for composite frames, unrelated to optical switching."
+openalex:W2896281700,openalex,0,,"Nerve-on-a-chip microfabricated platform, unrelated to optical switching."
+openalex:W3184727742,openalex,0,,"Fiber optic sensors embedded in concrete for monitoring, not switching."
+openalex:W2073240697,openalex,3,,"Robot for automatic cross-connection of optical connectors, a robotic patch panel."
+openalex:W4385146846,openalex,0,,"Review of industrial and mobile robotics in Latin America, unrelated."
+openalex:W2540480190,openalex,0,,"Digital morphing wing using cellular structures, unrelated to OCS."
+openalex:W2055952492,openalex,2,dc_network_systems,Survey of optical interconnects for data center networks generally.
+openalex:W2128145324,openalex,0,,"5G cellular network architecture survey, unrelated to optical switching."
+openalex:W2126302311,openalex,0,,"Visual object tracking survey, unrelated to optical switching."
+openalex:W4288079944,openalex,0,,"Planck cosmology results, unrelated to optical switching."
+openalex:W4213147678,openalex,0,,"UAV civil applications survey, unrelated to optical switching."
+openalex:W2507657534,openalex,0,,"TiO2 thin film optical property study via plasma treatment, unrelated."
+openalex:W2405554247,openalex,0,,"Data center network hardware survey, title only, no switching detail."
+openalex:W4205819848,openalex,3,,Tutorial on photonic switching prospects and challenges in data centers.
+openalex:W2785375817,openalex,0,,"ATLAS asteroid sky survey system, unrelated to optical switching."
+openalex:W2095655043,openalex,0,,"Automated text analysis for political science, unrelated to OCS."
+openalex:W3104608022,openalex,0,,"Dark Energy Survey imaging data release, unrelated to optical switching."
+openalex:W2531320996,openalex,0,,"IoT architecture survey, unrelated to optical switching."
+openalex:W2152896489,openalex,0,,"Survey of model reduction methods, unrelated to optical switching."
+openalex:W2000432868,openalex,0,,"Big data survey, unrelated to optical switching."
+openalex:W4292875581,openalex,0,,"Planck cosmology results, unrelated to optical switching."
+openalex:W2771152181,openalex,0,,"5G IoT communication survey, unrelated to optical switching."
+openalex:W2951694401,openalex,0,,"IoT security survey, unrelated to optical switching."
+openalex:W2811395263,openalex,0,,"Multifidelity modeling methods survey, unrelated to optical switching."
+openalex:W2215208662,openalex,0,,"Switchable materials for smart windows, unrelated to circuit switching."
+openalex:W2615459164,openalex,0,,"Multi-access edge computing survey, unrelated to optical switching."
+openalex:W1957358593,openalex,0,,"Wireless network security survey, unrelated to optical switching."
+openalex:W2793519446,openalex,0,,"Network slicing and softwarization survey, unrelated to optical switching."
+openalex:W1859314164,openalex,0,,"Particle swarm optimization survey, unrelated to optical switching."
+openalex:W2044857874,openalex,0,,"Advanced metering infrastructure survey, unrelated to optical switching."
+openalex:W2809684781,openalex,0,,"Machine learning for networking survey, unrelated to optical switching."
+openalex:W1516975232,openalex,1,silicon_photonics,"Femtosecond-laser fabricated optical waveguides in crystals, transferable photonics fabrication skill."
+openalex:W3127353117,openalex,0,,"Survey of programmable electronic packet switches, not optical circuit switching."
+openalex:W2981854649,openalex,0,,"IoT smart farming survey, unrelated to optical switching."
+openalex:W2952418242,openalex,3,,Survey on optical switching and labeling technologies for data center and HPC traffic.
+openalex:W2499628420,openalex,0,,"Galaxy spectroscopy survey design, unrelated to optical switching."
+openalex:W2803750062,openalex,0,,"Multi-access edge computing for IoT survey, unrelated to optical switching."
+openalex:W2805657678,openalex,0,,"Hybrid beamforming survey for 5G MIMO, unrelated to optical switching."
+openalex:W3144404977,openalex,0,,"6G wireless network survey, unrelated to optical switching."
+openalex:W3046344355,openalex,3,,"Sirius: optically-switched datacenter network with tunable lasers, nanosecond reconfiguration."
+openalex:W2934098931,openalex,3,,Opera: datacenter network with rapid reconfiguration of time-varying optical circuits.
+openalex:W2119638333,openalex,3,,Helios: hybrid electrical/optical switch architecture prototype for datacenter networks.
+openalex:W2160642098,openalex,0,,"OPTICS clustering algorithm for database mining, name collision, unrelated to OCS."
+openalex:W2486960733,openalex,3,,"ProjecToR: free-space optical datacenter interconnect using DMD, reconfigures links in 12us."
+openalex:W2260723393,openalex,3,,"Demonstrates 64x64 large-scale silicon photonic switch with adiabatic couplers, low loss."
+openalex:W2138361600,openalex,3,,1100x1100 port MEMS-based optical crossconnect switch with 4dB max loss.
+openalex:W617071296,openalex,0,,"General semiconductor device physics textbook, no switching content."
+openalex:W1536656161,openalex,1,telecom_oxc_roadm,"Title-only optical networking textbook, likely covers switching, no abstract."
+openalex:W1566502265,openalex,0,,"SPIE eBook collection marketing blurb, not about OCS."
+openalex:W1645511984,openalex,1,silicon_photonics,"Vision paper on photonics-electronics integration for computing, no switch demo."
+openalex:W1698388015,openalex,0,,Electronic flow scheduling for packet-switched data center networks.
+openalex:W1857009450,openalex,0,,Hybrid wireless flyway architecture to relieve data center hotspots.
+openalex:W2055090023,openalex,0,,"Rate Control Protocol test network, electronic congestion control."
+openalex:W2059608229,openalex,0,,"Graph theory textbook on paths, trees, and flowers."
+openalex:W2063657191,openalex,0,,"ATM/IP switching protocol integration paper, not optical."
+openalex:W2101352979,openalex,0,,Electronic server-centric data center network architecture (MDCube).
+openalex:W2111366547,openalex,0,,iSLIP scheduling algorithm for electronic input-queued crossbar switches.
+openalex:W2114497163,openalex,0,,Electronic ASIC-based merchant silicon data center switch architecture.
+openalex:W2116377381,openalex,3,,Proposes optical circuit switching network for HPC bulk data transfers.
+openalex:W2117358494,openalex,2,telecom_oxc_roadm,Uses optics and a switch fabric to scale internet router capacity.
+openalex:W2126169247,openalex,0,,ATM-style electronic switch scheduling for local-area networks.
+openalex:W105472389,openalex,0,,"SIGCOMM 2022 conference welcome message, no research content."
+openalex:W1501077214,openalex,0,,General textbook on electronic interconnection network design principles.
+openalex:W1999085092,openalex,0,,"General computing energy scaling essay, no optical content."
+openalex:W2002555321,openalex,0,,"Roofline performance model paper, unrelated to switching."
+openalex:W2028263411,openalex,0,,"Anton, an ASIC machine for molecular dynamics simulation."
+openalex:W2060204338,openalex,0,,"Title-only warehouse-scale computing textbook, no switching content."
+openalex:W2082887106,openalex,0,,"VLSI processor array interconnect topology, electronic, not optical."
+openalex:W2097561580,openalex,0,,Historical Illiac IV parallel computer architecture description.
+openalex:W2134839001,openalex,0,,"HPC interconnect communication requirements study, no optical switching."
+openalex:W2156275124,openalex,0,,Cray T3E multiprocessor synchronization and communication primitives.
+openalex:W2156838963,openalex,0,,"Twisted torus interconnect topology for parallel computers, electronic."
+openalex:W2169731856,openalex,0,,"Lattice graph interconnection topologies for supercomputers, electronic."
+openalex:W2898781725,openalex,0,,"Title-only warehouse-scale computing textbook, no switching content."
+openalex:W3007855629,openalex,0,,"Global data center energy-use estimates, policy paper."
+openalex:W3030163527,openalex,0,,"GPT-3 language model paper, unrelated to optical switching."
+openalex:W202974634,openalex,0,,"TCP incast congestion control scheme, electronic transport layer."
+openalex:W1516042705,openalex,0,,Fine-grained traffic engineering for electronic data center networks.
+openalex:W1533565227,openalex,0,,"Bipartite network flow approximation algorithm, no abstract, math paper."
+openalex:W2017036528,openalex,3,,"Proteus proposes an all-optical, topology-flexible data center architecture."
+openalex:W2032146159,openalex,0,,"Graph theory proof of Vizing's theorem, no abstract."
+openalex:W2056394733,openalex,0,,"TCP incast congestion control (ICTCP), electronic transport layer."
+openalex:W2083823757,openalex,1,dc_network_systems,"Reviews WDM optical interconnect bandwidth scaling for data centers, no switching."
+openalex:W2097926925,openalex,3,,c-Through proposes hybrid packet and optical circuit switched data center network.
+openalex:W2105661057,openalex,1,dc_network_systems,General review of fiber optic technology trends for datacenter networks.
+openalex:W2112931687,openalex,1,silicon_photonics,"Measures latency of hybrid-integrated silicon optical interconnect, not a switch."
+openalex:W2115412108,openalex,0,,"60 GHz wireless links to relieve data center hotspots, not optical."
+openalex:W2123016589,openalex,0,,"PortLand, an electronic layer-2 data center fabric protocol."
+openalex:W2126210439,openalex,0,,"BCube server-centric data center network architecture, electronic switches."
+openalex:W2130531694,openalex,0,,"Commodity Ethernet fat-tree data center network architecture, electronic."
+openalex:W2133581580,openalex,0,,"Fine-grained TCP retransmissions for datacenter incast, electronic transport."
+openalex:W834513743,openalex,3,,Demonstrates a 32x32 non-blocking silicon thermo-optic Mach-Zehnder switch chip.
+openalex:W1969024011,openalex,0,,"Title-only laser-on-silicon progress review, not a switch."
+openalex:W1982772673,openalex,3,,Reviews compact large-scale 3D MEMS optical crossconnect switches.
+openalex:W1983164798,openalex,3,,Reviews silicon photonic switch fabric designs for data-intensive computing networks.
+openalex:W1985329895,openalex,3,,Demonstrates a low-crosstalk 2x2 thermo-optic silicon waveguide switch.
+openalex:W1997416642,openalex,1,silicon_photonics,"Silicon photonics manufacturing platform for optical I/O, not switching."
+openalex:W2002341618,openalex,3,,"Demonstrates silicon photonic switches (2x2, 1x2, 4x4) with CMOS drivers."
+openalex:W2015534895,openalex,3,,Demonstrates a non-blocking 4x4 electro-optic silicon switch for on-chip networks.
+openalex:W2019883289,openalex,1,silicon_photonics,"Title-only silicon optical modulator review, modulators not switches."
+openalex:W2024271185,openalex,1,silicon_photonics,"Fiber-to-nanophotonic-chip coupling technique, packaging skill, no switching."
+openalex:W2049132385,openalex,3,,Title indicates a silicon nanophotonic wavelength-insensitive switch for on-chip networks.
+openalex:W2063697229,openalex,3,,Demonstrates a compact low-loss low-power 8x8 broadband silicon optical switch.
+openalex:W2069766991,openalex,1,silicon_photonics,Title-only broad review of silicon photonics commercialization.
+openalex:W2070348829,openalex,0,,"Title-only, vague energy-efficient communication topic, no switching signal."
+openalex:W2070900489,openalex,3,,Demonstrates monolithic silicon integration of photonic switch fabrics with CMOS logic.
+openalex:W1236737278,openalex,0,,"Facebook Haystack photo storage system, unrelated to optical switching."
+openalex:W1588462524,openalex,1,telecom_oxc_roadm,"Optical burst switching, nanosecond-scale, adjacent to circuit switching."
+openalex:W1990283121,openalex,0,,"Matrix theory math paper, no abstract, unrelated."
+openalex:W2115874523,openalex,2,telecom_oxc_roadm,"Wavelength add-drop switch using tilting micromirrors, telecom WSS device."
+openalex:W2120655454,openalex,0,,"VLSI communication switch buffer design, electronic, not optical."
+openalex:W2141911769,openalex,3,,Hybrid data center network scheduling traffic over microsecond optical circuit switches.
+openalex:W2145192475,openalex,0,,"Bipartite graph matching algorithm, no abstract, math paper."
+openalex:W2147118406,openalex,0,,"OpenFlow, an electronic SDN switch protocol proposal."
+openalex:W2148147078,openalex,0,,"TDMA scheme for electronic datacenter Ethernet, not optical."
+openalex:W2151023321,openalex,2,telecom_oxc_roadm,Reviews wavelength-selective switches for telecom ROADM applications.
+openalex:W2159536473,openalex,2,telecom_oxc_roadm,MONET project final report on a reconfigurable transparent optical telecom network.
+openalex:W2165334967,openalex,1,telecom_oxc_roadm,"Terabit optical burst switching architecture, adjacent nanosecond switching, not OCS."
+openalex:W2462988532,openalex,0,,"Fat-tree topology fault tolerance study, electronic data center network."
+openalex:W2493312408,openalex,0,,"Zero-sum game / assignment problem math paper, no abstract."
+openalex:W4238465620,openalex,0,,"Duplicate: commodity Ethernet fat-tree data center architecture, electronic."
+openalex:W1484412996,openalex,0,,"Gerchberg-Saxton phase retrieval algorithm for imaging, no switching mention."
+openalex:W1983330672,openalex,0,,Atmospheric laser beam propagation study for free-space wireless comm.
+openalex:W1988150362,openalex,0,,Facebook's electronic data center network measurement study.
+openalex:W1990200961,openalex,3,,Demonstrates a DMD-based diffractive N x N all-optical fiber switch for data centers.
+openalex:W2064284095,openalex,0,,"Graph theory matching and Euler tour paper, no abstract."
+openalex:W2065747405,openalex,3,,Title indicates a 7x7 DMD-based diffractive optical fiber switch demo.
+openalex:W2068115726,openalex,0,,"College admissions stable matching theory, unrelated to optics."
+openalex:W2079931475,openalex,0,,Electronic input/output-queued crossbar switch scheduling algorithm.
+openalex:W2108251206,openalex,3,,Analyzes scaling limits of free-space tilt-mirror MEMS switches for data centers.
+openalex:W2117884704,openalex,0,,pFabric electronic datacenter transport and flow scheduling design.
+openalex:W2124700175,openalex,1,dc_network_systems,"FireFly reconfigurable inter-rack network uses wireless, not optical, links."
+openalex:W2139106050,openalex,1,lcos_display_phase,"LCoS device for holographic HDTV projection, feeds the LCoS route."
+openalex:W2140348302,openalex,1,mems_micromirror,"MEMS-actuated 32x32 optical phased array for beam steering, no stated switching use."
+openalex:W2143217585,openalex,0,,"Steerable-mirror redirected 60 GHz wireless links for data centers, not optical."
+openalex:W2163769126,openalex,0,,Jellyfish random-graph electronic data center network topology.
+openalex:W1971760496,openalex,0,,"Coherent PDM-DQPSK silicon receiver for telecom, not a switch."
+openalex:W1975289126,openalex,2,silicon_photonics,"Tunable thermo-optic directional coupler, a core switch-fabric building block."
+openalex:W2026418326,openalex,1,silicon_photonics,"Silicon photonics for exascale HPC, mentions circuit-switched nature in passing."
+openalex:W2050810792,openalex,1,silicon_photonics,"Low-loss waveguide crossings, a photonic switch fabric building block."
+openalex:W2051201523,openalex,3,,"Architectures for large nonblocking optical space switches, classic OCS design paper."
+openalex:W2053780865,openalex,3,,Demonstrates compact 1xN thermo-optic silicon photonic wire waveguide switches.
+openalex:W2058203097,openalex,1,silicon_photonics,"Ultralow-loss silicon waveguide crossing, a switch fabric building block."
+openalex:W2062193700,openalex,3,,Demonstrates a one-chip silicon photonic wavelength-selective 8x8 matrix switch.
+openalex:W2063297543,openalex,3,,Demonstrates a nonblocking 4x4 silicon electro-optic switch matrix.
+openalex:W2066110041,openalex,3,,Demonstrates a compact low-loss 8x8 silicon photonic switch module for CDC-ROADM.
+openalex:W2078357199,openalex,1,silicon_photonics,"Non-invasive light monitoring technique for silicon photonic waveguides, no switching described."
+openalex:W2091535696,openalex,0,,"Classical telephone circuit-switching network math from 1962, no optics or data centers."
+openalex:W2099610951,openalex,1,silicon_photonics,"Broad silicon photonics review covering lasers and modulators, not switch-specific."
+openalex:W2113209593,openalex,3,,Builds a planar permutation network architecture explicitly for optical switching.
+openalex:W2121095819,openalex,3,,Demonstrates a free-space PI-LOSS photonic switch with lower crosstalk than crossbar.
+openalex:W1558865741,openalex,3,,Fabricates and characterizes low-loss broadband 2x2 Mach-Zehnder silicon photonic switches.
+openalex:W1653883346,openalex,3,,Demonstrates fully nonblocking 16x16 digital MEMS switch for photonic crossconnects.
+openalex:W1887234615,openalex,1,silicon_photonics,"Reviews InP generic integration platform for lasers and modulators, no switch focus."
+openalex:W1979338531,openalex,3,,First fabrication of 8x8 electro-optic semiconductor optical matrix switches.
+openalex:W1989460122,openalex,3,,Demonstrates automated control of a reconfigured 8x8 wavelength-and-space switch.
+openalex:W1989769976,openalex,3,,Fabricates monolithic 4x4 nanosecond-reconfigurable space and wavelength selective cross-connect.
+openalex:W1994471904,openalex,1,silicon_photonics,"III-V/silicon laser via wafer bonding, fabrication technique only, no switching."
+openalex:W1997754090,openalex,3,,"Demonstrates monolithic MZI-SOA hybrid optical switch, low power and penalty."
+openalex:W2007654061,openalex,3,,Proposes scalable low-energy hybrid photonic space switch using MZ and SOA stages.
+openalex:W2013921511,openalex,1,silicon_photonics,"Hybrid III-V/Si laser via adhesive bonding, fabrication only, no switch."
+openalex:W2028213396,openalex,3,,Develops monolithic 8:1 SOA gate switch for optical packet switching system.
+openalex:W2040047675,openalex,3,,Describes 256x256 port micromechanical beam-steering optical cross-connect subsystem performance.
+openalex:W2042525359,openalex,1,silicon_photonics,"Wafer bonding fabrication of InP/Si heterostructures, material study, no switch."
+openalex:W2043855221,openalex,3,,"Reviews compact 3D MEMS optical crossconnect switches, actuators and packaging."
+openalex:W2056973550,openalex,3,,Proposes Clos network architecture built from broadcast-and-select SOA switch fabric.
+openalex:W1965253111,openalex,3,,Characterizes a MEMS silicon nanowire waveguide switch with gap-variable coupler.
+openalex:W1987691577,openalex,1,mems_micromirror,"8x8 MEMS phased array beamsteering with closed-loop control, not framed as switch."
+openalex:W1998335447,openalex,1,silicon_photonics,"Waveguide bend loss reduction via etch profile, no abstract, no switching."
+openalex:W2006295284,openalex,1,mems_micromirror,"MEMS cantilever electrostatic pull-in model, generic actuator physics, no optics."
+openalex:W2017873014,openalex,3,,Integrates MOSFET driver with thermo-optic 2x2 Mach-Zehnder silicon switch.
+openalex:W2032418282,openalex,3,,Fabricates compact 1x3 silicon photonic MEMS waveguide switch with variable-gap coupler.
+openalex:W2056476503,openalex,2,silicon_photonics,"MEMS-actuated tunable add-drop filter, close cousin of wavelength selective switch."
+openalex:W2082515684,openalex,3,,Fabricates submicron silicon waveguide switch driven by MEMS actuator.
+openalex:W2088068353,openalex,3,,Demonstrates ultra-compact 8x8 nonblocking Si-wire PILOSS thermo-optic switch matrix.
+openalex:W2089069546,openalex,3,,Fabricates variable-gap silicon photonic coupler switch with nanolatch mechanism.
+openalex:W2089755139,openalex,3,,Reviews digital MEMS optical switches and crossconnects for telecommunications.
+openalex:W2094432207,openalex,3,,Presents planar micromechanical waveguide switches on GaAs and SOI platforms.
+openalex:W2094700182,openalex,3,,Demonstrates low-power broadband silicon electro-optic switch via carrier injection.
+openalex:W2098514595,openalex,3,,"Reviews optical MEMS switches, crossconnects and wavelength-selective components for lightwave networks."
+openalex:W2103195791,openalex,3,,Fabricates InP-based MEMS waveguide switch using evanescent coupling mechanism.
+openalex:W1833198276,openalex,2,silicon_photonics,"Programmable nanophotonic processor, likely MZI switch mesh, applied to quantum simulation."
+openalex:W1979673782,openalex,3,,Designs scalable OCS/EPS converged switching fabric for petabyte data centers.
+openalex:W2062294208,openalex,1,silicon_photonics,"Large-scale nanophotonic phased array, empty abstract, no switching application stated."
+openalex:W2066708803,openalex,1,silicon_photonics,"Ultralow-loss waveguide and MMI fanout for 3D photonic integration, no switch."
+openalex:W2468172470,openalex,1,silicon_photonics,"Broad silicon photonics roadmap review across many application areas, not switch-specific."
+openalex:W2481781603,openalex,1,silicon_photonics,"Chip-based optical phased array beam steering for LiDAR and sensing, no switch."
+openalex:W2758695468,openalex,3,,Demonstrates packaged 32x32 silicon photonic switch with integrated calibration photodiodes.
+openalex:W2770966813,openalex,1,silicon_photonics,"Silicon nitride platform for low-loss waveguide crossings, packaging tech, no switch."
+openalex:W2785991522,openalex,0,,"Integrated waveguide-coil optical gyroscope for navigation sensing, unrelated to switching."
+openalex:W2897089376,openalex,1,dc_network_systems,"Broad review of DC optical interconnects, mostly transceivers, switches mentioned briefly."
+openalex:W2905425616,openalex,2,silicon_photonics,Reviews programmable nanophotonic processors built from reconfigurable photonic switch meshes.
+openalex:W4281849792,openalex,1,silicon_photonics,"Reviews silicon photonic transceiver components for data communications, not switches."
+openalex:W3205730567,openalex,0,,"Quantum-dot photon-emitter interfaces for quantum technology, unrelated to switching."
+openalex:W3126304295,openalex,1,silicon_photonics,"Photonic reservoir computing processor, spatiotemporal encoding, no switch fabric described."
+openalex:W3134896547,openalex,2,silicon_photonics,"MEMS reconfiguration of integrated photonic circuits, matches silicon-photonic MEMS switch route."

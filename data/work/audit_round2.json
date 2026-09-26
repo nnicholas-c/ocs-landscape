@@ -1,0 +1,763 @@
+{
+  "seed": 20260926,
+  "generated_at": "2026-09-26T14:37:16Z",
+  "a_refetch": {
+    "sample_size": 20,
+    "sampled_ids": [
+      "arxiv:2603.28168",
+      "arxiv:2507.08119",
+      "W3093967660",
+      "W2062631387",
+      "W2088068353",
+      "W2529948110",
+      "arxiv:2608.03146",
+      "W2885686227",
+      "W3032344992",
+      "W2056973550",
+      "W4406015850",
+      "W2343971467",
+      "W3119039973",
+      "W2560361359",
+      "arxiv:2306.09713",
+      "W4394930219",
+      "W2533885611",
+      "W2063697229",
+      "W2948174331",
+      "W2605844474"
+    ],
+    "items": [
+      {
+        "paper_id": "arxiv:2603.28168",
+        "stored": {
+          "title": "Leaf-centric Logical Topology Design for OCS-based GPU Clusters",
+          "year": 2026,
+          "cited_by_count": null,
+          "first_institution": null
+        },
+        "result": "error",
+        "error": "Page request resulted in HTTP 406 (https://export.arxiv.org/api/query?search_query=&id_list=2603.28168&sortBy=relevance&sortOrder=descending&start=0&max_results=1)"
+      },
+      {
+        "paper_id": "arxiv:2507.08119",
+        "stored": {
+          "title": "Photonic Rails in ML Datacenters",
+          "year": 2025,
+          "cited_by_count": null,
+          "first_institution": null
+        },
+        "result": "error",
+        "error": "Page request resulted in HTTP 406 (https://export.arxiv.org/api/query?search_query=&id_list=2507.08119&sortBy=relevance&sortOrder=descending&start=0&max_results=1)"
+      },
+      {
+        "paper_id": "W3093967660",
+        "stored": {
+          "title": "Ultrafast optical circuit switching for data centers using integrated soliton microcombs",
+          "year": 2021,
+          "cited_by_count": 96,
+          "first_institution": "École Polytechnique Fédérale de Lausanne"
+        },
+        "refetched": {
+          "title": "Ultrafast optical circuit switching for data centers using integrated soliton microcombs",
+          "year": 2021,
+          "cited_by_count": 96,
+          "first_institution": "École Polytechnique Fédérale de Lausanne"
+        },
+        "subchecks": {
+          "title": true,
+          "year": true,
+          "cited_by_count": true,
+          "first_institution": true
+        },
+        "result": "pass",
+        "mismatched_fields": []
+      },
+      {
+        "paper_id": "W2062631387",
+        "stored": {
+          "title": "Scaling silicon photonic switch fabrics for data center interconnection networks",
+          "year": 2015,
+          "cited_by_count": 134,
+          "first_institution": "Columbia University"
+        },
+        "refetched": {
+          "title": "Scaling silicon photonic switch fabrics for data center interconnection networks",
+          "year": 2015,
+          "cited_by_count": 134,
+          "first_institution": "Columbia University"
+        },
+        "subchecks": {
+          "title": true,
+          "year": true,
+          "cited_by_count": true,
+          "first_institution": true
+        },
+        "result": "pass",
+        "mismatched_fields": []
+      },
+      {
+        "paper_id": "W2088068353",
+        "stored": {
+          "title": "Ultra-compact 8 × 8 strictly-non-blocking Si-wire PILOSS switch",
+          "year": 2014,
+          "cited_by_count": 123,
+          "first_institution": "National Institute of Advanced Industrial Science and Technology"
+        },
+        "refetched": {
+          "title": "Ultra-compact 8 × 8 strictly-non-blocking Si-wire PILOSS switch",
+          "year": 2014,
+          "cited_by_count": 123,
+          "first_institution": "National Institute of Advanced Industrial Science and Technology"
+        },
+        "subchecks": {
+          "title": true,
+          "year": true,
+          "cited_by_count": true,
+          "first_institution": true
+        },
+        "result": "pass",
+        "mismatched_fields": []
+      },
+      {
+        "paper_id": "W2529948110",
+        "stored": {
+          "title": "MEMS optical switch: Switching time reduction",
+          "year": 2016,
+          "cited_by_count": 15,
+          "first_institution": "Evropský Polytechnický Institut"
+        },
+        "refetched": {
+          "title": "MEMS optical switch: Switching time reduction",
+          "year": 2016,
+          "cited_by_count": 15,
+          "first_institution": "Evropský Polytechnický Institut"
+        },
+        "subchecks": {
+          "title": true,
+          "year": true,
+          "cited_by_count": true,
+          "first_institution": true
+        },
+        "result": "pass",
+        "mismatched_fields": []
+      },
+      {
+        "paper_id": "arxiv:2608.03146",
+        "stored": {
+          "title": "Zero-change foundry compatible silicon photonics MEMS optical switch",
+          "year": 2026,
+          "cited_by_count": null,
+          "first_institution": null
+        },
+        "result": "error",
+        "error": "Page request resulted in HTTP 406 (https://export.arxiv.org/api/query?search_query=&id_list=2608.03146&sortBy=relevance&sortOrder=descending&start=0&max_results=1)"
+      },
+      {
+        "paper_id": "W2885686227",
+        "stored": {
+          "title": "OMCO: Online Multiple Coflow Scheduling in Optical Circuit Switch",
+          "year": 2018,
+          "cited_by_count": 14,
+          "first_institution": "University of Science and Technology of China"
+        },
+        "refetched": {
+          "title": "OMCO: Online Multiple Coflow Scheduling in Optical Circuit Switch",
+          "year": 2018,
+          "cited_by_count": 14,
+          "first_institution": "University of Science and Technology of China"
+        },
+        "subchecks": {
+          "title": true,
+          "year": true,
+          "cited_by_count": true,
+          "first_institution": true
+        },
+        "result": "pass",
+        "mismatched_fields": []
+      },
+      {
+        "paper_id": "W3032344992",
+        "stored": {
+          "title": "AgileDCN: An Agile Reconfigurable Optical Data Center Network Architecture",
+          "year": 2020,
+          "cited_by_count": 11,
+          "first_institution": "Hồng Đức University"
+        },
+        "refetched": {
+          "title": "AgileDCN: An Agile Reconfigurable Optical Data Center Network Architecture",
+          "year": 2020,
+          "cited_by_count": 11,
+          "first_institution": "Hồng Đức University"
+        },
+        "subchecks": {
+          "title": true,
+          "year": true,
+          "cited_by_count": true,
+          "first_institution": true
+        },
+        "result": "pass",
+        "mismatched_fields": []
+      },
+      {
+        "paper_id": "W2056973550",
+        "stored": {
+          "title": "Scalable optical switches for computing applications [Invited]",
+          "year": 2009,
+          "cited_by_count": 41,
+          "first_institution": "University of Cambridge"
+        },
+        "refetched": {
+          "title": "Scalable optical switches for computing applications [Invited]",
+          "year": 2009,
+          "cited_by_count": 41,
+          "first_institution": "University of Cambridge"
+        },
+        "subchecks": {
+          "title": true,
+          "year": true,
+          "cited_by_count": true,
+          "first_institution": true
+        },
+        "result": "pass",
+        "mismatched_fields": []
+      },
+      {
+        "paper_id": "W4406015850",
+        "stored": {
+          "title": "Silicon photonic MEMS switches based on split waveguide crossings",
+          "year": 2025,
+          "cited_by_count": 27,
+          "first_institution": "Zhejiang University"
+        },
+        "refetched": {
+          "title": "Silicon photonic MEMS switches based on split waveguide crossings",
+          "year": 2025,
+          "cited_by_count": 27,
+          "first_institution": "Zhejiang University"
+        },
+        "subchecks": {
+          "title": true,
+          "year": true,
+          "cited_by_count": true,
+          "first_institution": true
+        },
+        "result": "pass",
+        "mismatched_fields": []
+      },
+      {
+        "paper_id": "W2343971467",
+        "stored": {
+          "title": "Advanced three-dimensional MEMS photonic cross-connect switch for nonblocking all-optical networks",
+          "year": 2016,
+          "cited_by_count": 5,
+          "first_institution": "Evropský Polytechnický Institut"
+        },
+        "refetched": {
+          "title": "Advanced three-dimensional MEMS photonic cross-connect switch for nonblocking all-optical networks",
+          "year": 2016,
+          "cited_by_count": 5,
+          "first_institution": "Evropský Polytechnický Institut"
+        },
+        "subchecks": {
+          "title": true,
+          "year": true,
+          "cited_by_count": true,
+          "first_institution": true
+        },
+        "result": "pass",
+        "mismatched_fields": []
+      },
+      {
+        "paper_id": "W3119039973",
+        "stored": {
+          "title": "Scalable and Fast Optical Circuit Switch Based on Colorless Coherent Detection: Design Principle and Experimental Demonstration",
+          "year": 2021,
+          "cited_by_count": 17,
+          "first_institution": "National Institute of Advanced Industrial Science and Technology"
+        },
+        "refetched": {
+          "title": "Scalable and Fast Optical Circuit Switch Based on Colorless Coherent Detection: Design Principle and Experimental Demonstration",
+          "year": 2021,
+          "cited_by_count": 17,
+          "first_institution": "National Institute of Advanced Industrial Science and Technology"
+        },
+        "subchecks": {
+          "title": true,
+          "year": true,
+          "cited_by_count": true,
+          "first_institution": true
+        },
+        "result": "pass",
+        "mismatched_fields": []
+      },
+      {
+        "paper_id": "W2560361359",
+        "stored": {
+          "title": "A Scalable, Partially Configurable Optical Switch for Data Center Networks",
+          "year": 2016,
+          "cited_by_count": 41,
+          "first_institution": "University of California San Diego"
+        },
+        "refetched": {
+          "title": "A Scalable, Partially Configurable Optical Switch for Data Center Networks",
+          "year": 2016,
+          "cited_by_count": 41,
+          "first_institution": "University of California San Diego"
+        },
+        "subchecks": {
+          "title": true,
+          "year": true,
+          "cited_by_count": true,
+          "first_institution": true
+        },
+        "result": "pass",
+        "mismatched_fields": []
+      },
+      {
+        "paper_id": "arxiv:2306.09713",
+        "stored": {
+          "title": "Efficient Coflow Scheduling in Hybrid-Switched Data Center Networks",
+          "year": 2023,
+          "cited_by_count": null,
+          "first_institution": null
+        },
+        "result": "error",
+        "error": "Page request resulted in HTTP 406 (https://export.arxiv.org/api/query?search_query=&id_list=2306.09713&sortBy=relevance&sortOrder=descending&start=0&max_results=1)"
+      },
+      {
+        "paper_id": "W4394930219",
+        "stored": {
+          "title": "Large-scale optical switches by thermo-optic waveguide lens",
+          "year": 2024,
+          "cited_by_count": 24,
+          "first_institution": "Westlake University"
+        },
+        "refetched": {
+          "title": "Large-scale optical switches by thermo-optic waveguide lens",
+          "year": 2024,
+          "cited_by_count": 24,
+          "first_institution": "Westlake University"
+        },
+        "subchecks": {
+          "title": true,
+          "year": true,
+          "cited_by_count": true,
+          "first_institution": true
+        },
+        "result": "pass",
+        "mismatched_fields": []
+      },
+      {
+        "paper_id": "W2533885611",
+        "stored": {
+          "title": "Design and application of MEMS optical switch array",
+          "year": 2016,
+          "cited_by_count": 2,
+          "first_institution": null
+        },
+        "refetched": {
+          "title": "Design and application of MEMS optical switch array",
+          "year": 2016,
+          "cited_by_count": 2,
+          "first_institution": null
+        },
+        "subchecks": {
+          "title": true,
+          "year": true,
+          "cited_by_count": true,
+          "first_institution": null
+        },
+        "result": "pass",
+        "mismatched_fields": []
+      },
+      {
+        "paper_id": "W2063697229",
+        "stored": {
+          "title": "Compact, low-loss and low-power 8×8 broadband silicon optical switch",
+          "year": 2012,
+          "cited_by_count": 209,
+          "first_institution": "Alcatel Lucent (Germany)"
+        },
+        "refetched": {
+          "title": "Compact, low-loss and low-power 8×8 broadband silicon optical switch",
+          "year": 2012,
+          "cited_by_count": 209,
+          "first_institution": "Alcatel Lucent (Germany)"
+        },
+        "subchecks": {
+          "title": true,
+          "year": true,
+          "cited_by_count": true,
+          "first_institution": true
+        },
+        "result": "pass",
+        "mismatched_fields": []
+      },
+      {
+        "paper_id": "W2948174331",
+        "stored": {
+          "title": "MCF-SMF Hybrid Low-Latency Circuit-Switched Optical Network for Disaggregated Data Centers",
+          "year": 2019,
+          "cited_by_count": 12,
+          "first_institution": "University College London"
+        },
+        "refetched": {
+          "title": "MCF-SMF Hybrid Low-Latency Circuit-Switched Optical Network for Disaggregated Data Centers",
+          "year": 2019,
+          "cited_by_count": 12,
+          "first_institution": "University College London"
+        },
+        "subchecks": {
+          "title": true,
+          "year": true,
+          "cited_by_count": true,
+          "first_institution": true
+        },
+        "result": "pass",
+        "mismatched_fields": []
+      },
+      {
+        "paper_id": "W2605844474",
+        "stored": {
+          "title": "Diffraction-Based Optical Switching with MEMS",
+          "year": 2017,
+          "cited_by_count": 32,
+          "first_institution": "University of Arizona"
+        },
+        "refetched": {
+          "title": "Diffraction-Based Optical Switching with MEMS",
+          "year": 2017,
+          "cited_by_count": 32,
+          "first_institution": "University of Arizona"
+        },
+        "subchecks": {
+          "title": true,
+          "year": true,
+          "cited_by_count": true,
+          "first_institution": true
+        },
+        "result": "pass",
+        "mismatched_fields": []
+      }
+    ],
+    "pass": 16,
+    "fail": 0,
+    "error": 4,
+    "rate_fail": 0.0,
+    "gate_threshold": 0.1,
+    "gate_pass": true
+  },
+  "b_matrix_cells": {
+    "sample_size": 20,
+    "sampled_ids": [
+      "mems_3d:cost_per_port",
+      "mems_3d:packaging_notes",
+      "mems_3d:port_count",
+      "soa:ai_cluster_fit",
+      "lcos:switching_time",
+      "electro_optic:integration",
+      "mems_silicon_photonic:integration",
+      "mems_3d:integration",
+      "mems_2d:packaging_notes",
+      "piezo:scaling_limit",
+      "electro_optic:wavelength_range",
+      "lcos:port_count",
+      "mems_silicon_photonic:scaling_limit",
+      "mems_2d:ai_cluster_fit",
+      "thermo_optic:crosstalk",
+      "mems_3d:trl_band",
+      "piezo:port_count",
+      "mems_silicon_photonic:trl_band",
+      "thermo_optic:ai_cluster_fit",
+      "piezo:trl_band"
+    ],
+    "items": [
+      {
+        "cell": "mems_3d:cost_per_port",
+        "paper_ids": [
+          "W2996949883"
+        ],
+        "project_rows": [],
+        "result": "pass",
+        "reasons": []
+      },
+      {
+        "cell": "mems_3d:packaging_notes",
+        "paper_ids": [
+          "W2043855221",
+          "W2138361600"
+        ],
+        "project_rows": [],
+        "result": "pass",
+        "reasons": []
+      },
+      {
+        "cell": "mems_3d:port_count",
+        "paper_ids": [
+          "W2138361600",
+          "W1982772673",
+          "W2560361359"
+        ],
+        "project_rows": [],
+        "result": "pass",
+        "reasons": []
+      },
+      {
+        "cell": "soa:ai_cluster_fit",
+        "paper_ids": [
+          "W2056973550",
+          "W3093967660"
+        ],
+        "project_rows": [],
+        "result": "pass",
+        "reasons": []
+      },
+      {
+        "cell": "lcos:switching_time",
+        "paper_ids": [
+          "W2002555923"
+        ],
+        "project_rows": [],
+        "result": "pass",
+        "reasons": []
+      },
+      {
+        "cell": "electro_optic:integration",
+        "paper_ids": [
+          "W1979338531",
+          "W2094700182"
+        ],
+        "project_rows": [],
+        "result": "pass",
+        "reasons": []
+      },
+      {
+        "cell": "mems_silicon_photonic:integration",
+        "paper_ids": [
+          "W1982681165",
+          "W2257494936"
+        ],
+        "project_rows": [],
+        "result": "pass",
+        "reasons": []
+      },
+      {
+        "cell": "mems_3d:integration",
+        "paper_ids": [
+          "W3215039088",
+          "W2560361359"
+        ],
+        "project_rows": [],
+        "result": "pass",
+        "reasons": []
+      },
+      {
+        "cell": "mems_2d:packaging_notes",
+        "paper_ids": [
+          "W1653883346"
+        ],
+        "project_rows": [],
+        "result": "pass",
+        "reasons": []
+      },
+      {
+        "cell": "piezo:scaling_limit",
+        "paper_ids": [
+          "W2913395450"
+        ],
+        "project_rows": [],
+        "result": "pass",
+        "reasons": []
+      },
+      {
+        "cell": "electro_optic:wavelength_range",
+        "paper_ids": [
+          "W2015534895",
+          "W2094700182",
+          "W1558865741"
+        ],
+        "project_rows": [],
+        "result": "pass",
+        "reasons": []
+      },
+      {
+        "cell": "lcos:port_count",
+        "paper_ids": [
+          "W3034334810",
+          "W2002555923"
+        ],
+        "project_rows": [],
+        "result": "pass",
+        "reasons": []
+      },
+      {
+        "cell": "mems_silicon_photonic:scaling_limit",
+        "paper_ids": [
+          "W2271940456",
+          "W2615050161"
+        ],
+        "project_rows": [],
+        "result": "pass",
+        "reasons": []
+      },
+      {
+        "cell": "mems_2d:ai_cluster_fit",
+        "paper_ids": [
+          "W2089755139"
+        ],
+        "project_rows": [],
+        "result": "pass",
+        "reasons": []
+      },
+      {
+        "cell": "thermo_optic:crosstalk",
+        "paper_ids": [
+          "W1985329895",
+          "W834513743"
+        ],
+        "project_rows": [],
+        "result": "pass",
+        "reasons": []
+      },
+      {
+        "cell": "mems_3d:trl_band",
+        "paper_ids": [
+          "W4292950821"
+        ],
+        "project_rows": [
+          1,
+          4
+        ],
+        "result": "pass",
+        "reasons": []
+      },
+      {
+        "cell": "piezo:port_count",
+        "paper_ids": [
+          "W2591729902",
+          "W2913395450"
+        ],
+        "project_rows": [],
+        "result": "pass",
+        "reasons": []
+      },
+      {
+        "cell": "mems_silicon_photonic:trl_band",
+        "paper_ids": [
+          "W3138799074"
+        ],
+        "project_rows": [
+          8
+        ],
+        "result": "pass",
+        "reasons": []
+      },
+      {
+        "cell": "thermo_optic:ai_cluster_fit",
+        "paper_ids": [
+          "W4391878049",
+          "W4384820653"
+        ],
+        "project_rows": [],
+        "result": "pass",
+        "reasons": []
+      },
+      {
+        "cell": "piezo:trl_band",
+        "paper_ids": [
+          "W2591729902"
+        ],
+        "project_rows": [],
+        "result": "pass",
+        "reasons": []
+      }
+    ],
+    "pass": 20,
+    "fail": 0,
+    "rate_fail": 0.0,
+    "gate_threshold": 0.1,
+    "gate_pass": true
+  },
+  "c_project_evidence": {
+    "sample_size": 10,
+    "sampled_ids": [
+      "Lumentum (https://www.lumentum.com/en/products/300x300-optical-circuit-switch-ocs)",
+      "Google (https://cloud.google.com/blog/topics/systems/the-evolution-of-googles-jupiter-data-center-network)",
+      "UTStarcom (https://www.financialcontent.com/article/gnwcq-2026-9-21-utstarcom-unveils-optical-circuit-switching-ocs-solution-for-ai-data-centers-at-cioe-2026)",
+      "Calient (https://www.calient.net/)",
+      "Coherent (https://www.coherent.com/news/press-releases/optical-circuit-switch-for-data-centers-live-demo-at-ofc-2024-based-on-ultrareliable-dlx-technology)",
+      "Telescent (https://www.telescent.com/latest-news/2024/3/21/telescent-introduces-new-g5-robotic-patch-panel-system)",
+      "Drut Technologies (https://www.polatis.com/press-releases/POLATIS_optical_circuit_switch_powers_SCinet_Network_at_SC25_and_showcased_in_Drut_Photonic_Infrastructure_for_AI.asp)",
+      "iPronics (https://ipronics.com/ipronics-unveils-worlds-first-silicon-photonics-optical-circuit-switch-for-ai-driven-data-centers-optical-network-transformation/)",
+      "nEye (https://neye.ai)",
+      "Lightmatter (https://futurumgroup.com/insights/lightmatter-solving-how-to-interconnect-millions-of-chips/)"
+    ],
+    "items": [
+      {
+        "row": "Lumentum (https://www.lumentum.com/en/products/300x300-optical-circuit-switch-ocs)",
+        "result": "pass",
+        "reasons": []
+      },
+      {
+        "row": "Google (https://cloud.google.com/blog/topics/systems/the-evolution-of-googles-jupiter-data-center-network)",
+        "result": "pass",
+        "reasons": []
+      },
+      {
+        "row": "UTStarcom (https://www.financialcontent.com/article/gnwcq-2026-9-21-utstarcom-unveils-optical-circuit-switching-ocs-solution-for-ai-data-centers-at-cioe-2026)",
+        "result": "pass",
+        "reasons": []
+      },
+      {
+        "row": "Calient (https://www.calient.net/)",
+        "result": "pass",
+        "reasons": []
+      },
+      {
+        "row": "Coherent (https://www.coherent.com/news/press-releases/optical-circuit-switch-for-data-centers-live-demo-at-ofc-2024-based-on-ultrareliable-dlx-technology)",
+        "result": "pass",
+        "reasons": []
+      },
+      {
+        "row": "Telescent (https://www.telescent.com/latest-news/2024/3/21/telescent-introduces-new-g5-robotic-patch-panel-system)",
+        "result": "pass",
+        "reasons": []
+      },
+      {
+        "row": "Drut Technologies (https://www.polatis.com/press-releases/POLATIS_optical_circuit_switch_powers_SCinet_Network_at_SC25_and_showcased_in_Drut_Photonic_Infrastructure_for_AI.asp)",
+        "result": "pass",
+        "reasons": []
+      },
+      {
+        "row": "iPronics (https://ipronics.com/ipronics-unveils-worlds-first-silicon-photonics-optical-circuit-switch-for-ai-driven-data-centers-optical-network-transformation/)",
+        "result": "pass",
+        "reasons": []
+      },
+      {
+        "row": "nEye (https://neye.ai)",
+        "result": "pass",
+        "reasons": []
+      },
+      {
+        "row": "Lightmatter (https://futurumgroup.com/insights/lightmatter-solving-how-to-interconnect-millions-of-chips/)",
+        "result": "pass",
+        "reasons": []
+      }
+    ],
+    "pass": 10,
+    "fail": 0,
+    "unreachable": 0,
+    "rate_fail": 0.0,
+    "gate_threshold": 0.2,
+    "gate_pass": true
+  },
+  "d_evidence_spans": {
+    "sample_size": 376,
+    "sampled_ids": "all tags rows (exhaustive, not sampled)",
+    "items": [],
+    "pass": 376,
+    "fail": 0,
+    "rate_pass": 1.0,
+    "gate_threshold": 0.9,
+    "gate_pass": true
+  }
+}
