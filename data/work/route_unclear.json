@@ -1,0 +1,838 @@
+[
+  {
+    "paper_id": "W2051201523",
+    "title": "Architectures for large nonblocking optical space switches",
+    "year": 1986,
+    "venue": "IEEE Journal of Quantum Electronics",
+    "abstract": "This paper introduces three architectures for optical space switches that are based on a multiplicity of fiber interconnected optical components. The architectures eliminate the need for optical waveguide Crossovers and reduce the complexity required in the individual elements. The architectures are strictly nonblocking and allow for easy control and routing. Architecture type 1 exhibits a low system attenuation and a high system signal-to-noise ratio for very large switch dimensions. Architectures 2 and 3 are alternatives for realizing broadcast and point-to-point architectures.",
+    "cited_by_count": 177,
+    "tags": {
+      "tech_route": "unclear",
+      "tech_route_secondary": null,
+      "integration": "unclear",
+      "trl_band": "unclear",
+      "ai_dc_fit": "none",
+      "adjacent_field": null,
+      "evidence_span": "This paper introduces three architectures for optical space switches that are based on a multiplicity of fiber interconnected optical components.",
+      "confidence": "low"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W2113209593",
+    "title": "N-stage planar optical permutation network",
+    "year": 1987,
+    "venue": "Applied Optics",
+    "abstract": "This paper describes the construction of a permutation network which is advantageous for optical switching. The switching architecture is planar and does not require optical path crossovers between crosspoints. The network can be partitioned if necessary to ease fabrication difficulties. An algorithm is given to set the binary cells in the network to achieve any specified permutation, and it is shown that no planar N x N network can achieve such rearrangeability with fewer than the N(N - l)/2 crosspoints used here.",
+    "cited_by_count": 129,
+    "tags": {
+      "tech_route": "unclear",
+      "tech_route_secondary": null,
+      "integration": "unclear",
+      "trl_band": "unclear",
+      "ai_dc_fit": "none",
+      "adjacent_field": null,
+      "evidence_span": "This paper describes the construction of a permutation network which is advantageous for optical switching.",
+      "confidence": "low"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W2098514595",
+    "title": "Optical MEMS for Lightwave Communication",
+    "year": 2006,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "The intensive investment in optical microelectromechanical systems (MEMS) in the last decade has led to many successful components that satisfy the requirements of lightwave communication networks. In this paper, we review the current state of the art of MEMS devices and subsystems for lightwave communication applications. Depending on the design, these components can either be broadband (wavelength independent) or wavelength selective. Broadband devices include optical switches, crossconnects, optical attenuators, and data modulators, while wavelength-selective components encompass wavelength add/drop multiplexers, wavelength-selective switches and crossconnects, spectral equalizers, dispersion compensators, spectrometers, and tunable lasers. Integration of MEMS and planar lightwave circuits, microresonators, and photonic crystals could lead to further reduction in size and cost",
+    "cited_by_count": 342,
+    "tags": {
+      "tech_route": "unclear",
+      "tech_route_secondary": null,
+      "integration": "unclear",
+      "trl_band": "unclear",
+      "ai_dc_fit": "none",
+      "adjacent_field": "telecom_oxc_roadm",
+      "evidence_span": "Broadband devices include optical switches, crossconnects, optical attenuators, and data modulators, while wavelength-selective components encompass wavelength add/drop multiplexers, wavelength-selective switches and crossconnects, spectral equalizers, dispersion compensators, spectrometers, and tunable lasers.",
+      "confidence": "low"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W2049132385",
+    "title": "High-throughput silicon nanophotonic wavelength-insensitive switch for on-chip optical networks",
+    "year": 2008,
+    "venue": "Nature Photonics",
+    "abstract": null,
+    "cited_by_count": 468,
+    "tags": {
+      "tech_route": "unclear",
+      "tech_route_secondary": null,
+      "integration": "unclear",
+      "trl_band": "unclear",
+      "ai_dc_fit": "unclear",
+      "adjacent_field": null,
+      "evidence_span": "High-throughput silicon nanophotonic wavelength-insensitive switch for on-chip optical networks",
+      "confidence": "low"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W2002341618",
+    "title": "Silicon Photonic Switches Hybrid-Integrated With CMOS Drivers",
+    "year": 2011,
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "abstract": "This paper describes the design and measured performance of three different silicon photonic switches: a 2×2 switch, a 1×2 switch, and a 4×4 switch. All of the devices have been hybrid integrated with a corresponding custom 90-nm CMOS driver. The 2×2 switch is based on a wavelength-insensitive Mach-Zehnder interferometer (WIMZ) and the 1×2 is based on a two-ring resonator. The power dissipation of the 2×2 WIMZ switch was 2 mW from a 1.0-V supply, with measured transition time of 3.9 ns. The 4×4 switch, composed of six 2×2 Mach-Zehnder interferometer (MZI) switches was demonstrated to route 3×40 Gb/s WDM data with BER-12, with less than -10-dB crosstalk and 7-dB loss.",
+    "cited_by_count": 48,
+    "tags": {
+      "tech_route": "unclear",
+      "tech_route_secondary": null,
+      "integration": "integrated_photonic",
+      "trl_band": "lab",
+      "ai_dc_fit": "unclear",
+      "adjacent_field": null,
+      "evidence_span": "This paper describes the design and measured performance of three different silicon photonic switches: a 2×2 switch, a 1×2 switch, and a 4×4 switch.",
+      "confidence": "low"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W1561374189",
+    "title": "MEMS Technology for Optical Switching",
+    "year": 2012,
+    "venue": "DOAJ (DOAJ: Directory of Open Access Journals)",
+    "abstract": "Over the last ten years, microelectromechanical systems (MEMS) devices have received attention in many application areas such microwave, wireless, and optical networks. Especially in optical networks, MEMS technology is employed to provide the advantages of large switch matrix size with low loss at an optimum cost [1,2]. Therefore, optical switches based MEMS technology are now widely used and are considered a good option for optical switching networks. Moreover, they also provide wavelength insensitivity, polarization insensitivity, scalability, and very low crosstalk [3-5]. MEMS optical switches provide fast switching speeds ranging from milliseconds to several hundred microseconds. In this article, MEMS-based optical switches are reviewed including their advantages and disadvantages.",
+    "cited_by_count": 5,
+    "tags": {
+      "tech_route": "unclear",
+      "tech_route_secondary": null,
+      "integration": "unclear",
+      "trl_band": "unclear",
+      "ai_dc_fit": "none",
+      "adjacent_field": null,
+      "evidence_span": "Over the last ten years, microelectromechanical systems (MEMS) devices have received attention in many application areas such microwave, wireless, and optical networks.",
+      "confidence": "low"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W1977220786",
+    "title": "A second order sliding mode strategy for fault detection and fault-tolerant-control of a MEMS optical switch",
+    "year": 2012,
+    "venue": "Mechatronics",
+    "abstract": null,
+    "cited_by_count": 14,
+    "tags": {
+      "tech_route": "unclear",
+      "tech_route_secondary": null,
+      "integration": "unclear",
+      "trl_band": "unclear",
+      "ai_dc_fit": "unclear",
+      "adjacent_field": null,
+      "evidence_span": "A second order sliding mode strategy for fault detection and fault-tolerant-control of a MEMS optical switch",
+      "confidence": "low"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W2047996703",
+    "title": "Application of optimized Higher Order Sliding Mode control on MEMS optical switch",
+    "year": 2012,
+    "venue": null,
+    "abstract": "MEMS optical switches are used in optical networks in order to provide the desired bandwidth. This paper presents the results of an optimised Higher Order Sliding Mode (HOSM) position controller design. The algorithm requires time derivatives of the sliding variable. A Robust Exact Differentiator is used to estimate time derivatives of the sliding variable. A novel application of Particle Swarm Optimization (PSO) is introduced for optimal tuning of the HOSM controller. Robustness of the controller is investigated and the performance is compared with that obtained by a First Order Sliding Mode (FOSM) controller.",
+    "cited_by_count": 2,
+    "tags": {
+      "tech_route": "unclear",
+      "tech_route_secondary": null,
+      "integration": "unclear",
+      "trl_band": "lab",
+      "ai_dc_fit": "unclear",
+      "adjacent_field": null,
+      "evidence_span": "MEMS optical switches are used in optical networks in order to provide the desired bandwidth.",
+      "confidence": "low"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W2063697229",
+    "title": "Compact, low-loss and low-power 8×8 broadband silicon optical switch",
+    "year": 2012,
+    "venue": "Optics Express",
+    "abstract": "We demonstrated a 8×8 broadband optical switch on silicon for transverse-electrical polarization using a switch-and-selector architecture. The switch has a footprint of only 8 mm × 8 mm, minimum on-chip loss of about 4 dB, and a port-to-port insertion loss variation of only 0.8 dB near some spectral regions. The port-to-port isolation is above 30 dB over the entire 80-nm-wide spectral range or above 45 dB near the central 30 nm. We also demonstrated a switching power of less than 1.5 mW per element and a speed of 2 kHz, and estimated the upper bound of total power consumption to be less than 70 mW even without optimization of the default state of the individual switch elements.",
+    "cited_by_count": 209,
+    "tags": {
+      "tech_route": "unclear",
+      "tech_route_secondary": null,
+      "integration": "integrated_photonic",
+      "trl_band": "lab",
+      "ai_dc_fit": "unclear",
+      "adjacent_field": null,
+      "evidence_span": "We demonstrated a 8×8 broadband optical switch on silicon for transverse-electrical polarization using a switch-and-selector architecture.",
+      "confidence": "low"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W2068907524",
+    "title": "Combining circuit and packet switching using a large port-count optical cross-connect for data center networks",
+    "year": 2012,
+    "venue": "Optics Communications",
+    "abstract": null,
+    "cited_by_count": 9,
+    "tags": {
+      "tech_route": "unclear",
+      "tech_route_secondary": null,
+      "integration": "unclear",
+      "trl_band": "unclear",
+      "ai_dc_fit": "direct",
+      "adjacent_field": null,
+      "evidence_span": "Combining circuit and packet switching using a large port-count optical cross-connect for data center networks",
+      "confidence": "low"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W2074285614",
+    "title": "A demonstration of ultra-low-latency data center optical circuit switching",
+    "year": 2012,
+    "venue": null,
+    "abstract": "We designed and constructed a 24x24-port optical circuit switch (OCS) prototype with a programming time of 68.5 μs, a switching time of 2.8 μs, and a receiver electronics initialization time of 8.7 μs [1]. We demonstrate the operation of this prototype switch in a data center testbed under various workloads.",
+    "cited_by_count": 12,
+    "tags": {
+      "tech_route": "unclear",
+      "tech_route_secondary": null,
+      "integration": "unclear",
+      "trl_band": "lab",
+      "ai_dc_fit": "direct",
+      "adjacent_field": null,
+      "evidence_span": "We designed and constructed a 24x24-port optical circuit switch (OCS) prototype with a programming time of 68.5 μs, a switching time of 2.8 μs, and a receiver electronics initialization time of 8.7 μs [1].",
+      "confidence": "low"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W2008366783",
+    "title": "Electronic and photonic integrated circuits for fast data center optical circuit switches",
+    "year": 2013,
+    "venue": "IEEE Communications Magazine",
+    "abstract": "This article surveys recent work in optical switching technologies and presents a fast optical circuit switch that intimately integrates the control electrics at the chip level using a novel wafer-scale heterogeneous integration technique.",
+    "cited_by_count": 24,
+    "tags": {
+      "tech_route": "unclear",
+      "tech_route_secondary": null,
+      "integration": "integrated_photonic",
+      "trl_band": "lab",
+      "ai_dc_fit": "indirect",
+      "adjacent_field": null,
+      "evidence_span": "This article surveys recent work in optical switching technologies and presents a fast optical circuit switch that intimately integrates the control electrics at the chip level using a novel wafer-scale heterogeneous integration technique.",
+      "confidence": "low"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W1975357130",
+    "title": "MEMS optical switches and interconnects",
+    "year": 2014,
+    "venue": "Displays",
+    "abstract": null,
+    "cited_by_count": 40,
+    "tags": {
+      "tech_route": "unclear",
+      "tech_route_secondary": null,
+      "integration": "unclear",
+      "trl_band": "unclear",
+      "ai_dc_fit": "unclear",
+      "adjacent_field": null,
+      "evidence_span": "MEMS optical switches and interconnects",
+      "confidence": "low"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W2159513073",
+    "title": "Optical MEMS: From Micromirrors to Complex Systems",
+    "year": 2014,
+    "venue": "Journal of Microelectromechanical Systems",
+    "abstract": "Microelectromechanical system (MEMS) technology, and surface micromachining in particular, have led to the development of miniaturized optical devices with a substantial impact in a large number of application areas. The reason is the unique MEMS characteristics that are advantageous in fabrication, systems integration, and operation of micro-optical systems. The precision mechanics of MEMS, microfabrication techniques, and optical functionality all make possible a wide variety of movable and tunable mirrors, lenses, filters, and other optical structures. In these systems, electrostatic, magnetic, thermal, and pneumatic actuators provide mechanical precision and control. The large number of electromagnetic modes that can be accommodated by beam-steering micromirrors and diffractive optical MEMS, combined with the precision of these types of elements, is utilized in fiber-optical switches and filters, including dispersion compensators. The potential to integrate optics with electronics and mechanics is a great advantage in biomedical instrumentation, where the integration of miniaturized optical detection systems with microfluidics enables smaller, faster, more-functional, and cheaper systems. The precise dimensions and alignment of MEMS devices, combined with the mechanical stability that comes with miniaturization, make optical MEMS sensors well suited to a variety of challenging measurements. Micro-optical systems also benefit from the addition of nanostructures to the MEMS toolbox. Photonic crystals and microcavities, which represent the ultimate in miniaturized optical components, enable further scaling of optical MEMS.",
+    "cited_by_count": 172,
+    "tags": {
+      "tech_route": "unclear",
+      "tech_route_secondary": null,
+      "integration": "unclear",
+      "trl_band": "unclear",
+      "ai_dc_fit": "none",
+      "adjacent_field": "mems_micromirror",
+      "evidence_span": "The large number of electromagnetic modes that can be accommodated by beam-steering micromirrors and diffractive optical MEMS, combined with the precision of these types of elements, is utilized in fiber-optical switches and filters, including dispersion compensators.",
+      "confidence": "low"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W1983164798",
+    "title": "Silicon Photonic Switch Fabrics in Computer Communications Systems",
+    "year": 2015,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "We discuss silicon photonic switch fabric designs that target data-intensive computing networks, reviewing recent results, and projecting future performance goals. We analyze the achievements of demonstrated hardware in terms of switching time, footprint, crosstalk, and power consumption, concluding that the most crucial metric to improve upon is net loss. We propose integrating semiconductor optical amplifiers into the switch fabric using either flip-chip or wafer-bonding technology, and investigate its potential merits alongside several challenges in implementation. Furthermore, we explore the dominant causes of crosstalk, and discuss manners for reducing it. We perform switch simulations that project a 7-dB reduction in crosstalk, when using a push-pull, rather than a single-ended phase shifter drive scheme. We also evaluate crosstalk effects on transmission performance using a full-link model that incorporates multiple crosstalk-accumulating photonic switch hops. The study demonstrates the degree to which crosstalk may degrade signal integrity after just a few occurrences. Finally, a comparison of four topologies highlights tradeoffs in physical-layer design and scheduling complexity, illustrating the scales that may be accomplished with the simplest topologies, and the device improvements required to achieve the more robust architectures.",
+    "cited_by_count": 60,
+    "tags": {
+      "tech_route": "unclear",
+      "tech_route_secondary": "soa",
+      "integration": "integrated_photonic",
+      "trl_band": "unclear",
+      "ai_dc_fit": "indirect",
+      "adjacent_field": null,
+      "evidence_span": "We discuss silicon photonic switch fabric designs that target data-intensive computing networks, reviewing recent results, and projecting future performance goals.",
+      "confidence": "low"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W1989460122",
+    "title": "First Demonstration of Automated Control and Assessment of a Dynamically Reconfigured Monolithic 8 × 8 Wavelength-and-Space Switch [Invited]",
+    "year": 2015,
+    "venue": "Journal of Optical Communications and Networking",
+    "abstract": "A control plane is implemented to allow the first (to our knowledge) demonstration of scheduling and power leveling in a monolithically integrated 8×8 switch for multi-path and multi-wavelength routing on a data packet timescale. Automated control and path assessment is enabled under dynamically reconfigured wavelength-and-space routing. Eight data connections from eight inputs to each output are established within 8 μs by using a round robin scheduler. Fast automated bit-error-rate measurements under a range of decision thresholds are performed for each of the established connections. A comprehensive analysis on the path performance is performed for the whole device. Error-free (<10−9) operation under dynamic wavelength-and-space routing are demonstrated for all the electrically connected paths. The first investigation on the impact of varied switch loads from unicast to multicast to broadcast on device performance is also performed.",
+    "cited_by_count": 24,
+    "tags": {
+      "tech_route": "unclear",
+      "tech_route_secondary": null,
+      "integration": "unclear",
+      "trl_band": "lab",
+      "ai_dc_fit": "unclear",
+      "adjacent_field": "telecom_oxc_roadm",
+      "evidence_span": "A control plane is implemented to allow the first (to our knowledge) demonstration of scheduling and power leveling in a monolithically integrated 8×8 switch for multi-path and multi-wavelength routing on a data packet timescale.",
+      "confidence": "low"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W2066110041",
+    "title": "Compact and Low-Loss 8×8 Silicon Photonic Switch Module for Transponder Aggregators in CDC-ROADM Application",
+    "year": 2015,
+    "venue": "Optical Fiber Communication Conference",
+    "abstract": "We present 8×8 silicon photonic switch modules with newly designed spot size converters on a silicon chip. Averaged module excess loss as low as 7.2 dB on all 64 paths is achieved along with 0.15-ms switching.",
+    "cited_by_count": 32,
+    "tags": {
+      "tech_route": "unclear",
+      "tech_route_secondary": null,
+      "integration": "integrated_photonic",
+      "trl_band": "lab",
+      "ai_dc_fit": "none",
+      "adjacent_field": "telecom_oxc_roadm",
+      "evidence_span": "We present 8×8 silicon photonic switch modules with newly designed spot size converters on a silicon chip.",
+      "confidence": "low"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W2533885611",
+    "title": "Design and application of MEMS optical switch array",
+    "year": 2016,
+    "venue": "Journal of Applied Optics",
+    "abstract": "针对如何缩短防空导弹系统反应时间的问题，设计了一种MEMS(micro electro mechanical system，微机电系统)光开关阵列，用于控制防空导弹系统各分系统模块之间的信号传输。该光开关阵列由8组双层静电梳齿结构的光开关组成，每组光开关均控制一个防空导弹系统子模块的通断。根据拉格朗日麦克斯韦方程，建立系统的机电动力学模型，确定质量、弹性系数、电容、气膜阻尼等主要参数。仿真结果表明：MEMS光开关的响应时间为0.627 ms，稳态位移为4.724 m，最大位移为6.801 m，将相同阶段的反应时间缩短为原先的1/4。由此可以得出结论：MEMS光开关阵列不仅缩短了防空导弹系统的反应时间，而且保证了系统的稳定性。",
+    "cited_by_count": 2,
+    "tags": {
+      "tech_route": "unclear",
+      "tech_route_secondary": null,
+      "integration": "unclear",
+      "trl_band": "lab",
+      "ai_dc_fit": "none",
+      "adjacent_field": null,
+      "evidence_span": "该光开关阵列由8组双层静电梳齿结构的光开关组成，每组光开关均控制一个防空导弹系统子模块的通断。",
+      "confidence": "low"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W2575526897",
+    "title": "Modular architecture for fully non-blocking silicon photonic switch fabric",
+    "year": 2017,
+    "venue": "Microsystems & Nanoengineering",
+    "abstract": "Integrated photonics offers the possibility of compact, low energy, bandwidth-dense interconnects for large port count spatial optical switches, facilitating flexible and energy efficient data movement in future data communications systems. To achieve widespread adoption, intimate integration with electronics has to be possible, requiring switch design using standard microelectronic foundry processes and available devices. We report on the feasibility of a switch fabric comprised of ubiquitous silicon photonic building blocks, opening the possibility to combine technologies, and materials towards a new path for switch fabric design. Rather than focus on integrating all devices on a single silicon chip die to achieve large port count optical switching, this work shifts the focus towards innovative packaging and integration schemes. In this work, we demonstrate 1×8 and 8×1 microring-based silicon photonic switch building blocks with software control, providing the feasibility of a full 8×8 architecture composed of silicon photonic building blocks. The proposed switch is fully non-blocking, has path-independent insertion loss, low crosstalk, and is straightforward to control. We further analyze this architecture and compare it with other common switching architectures for varying underlying technologies and radices, showing that the proposed architecture favorably scales to very large port counts when considering both crosstalk and architectural footprint. Separating a switch fabric into functional building blocks via multiple photonic integrated circuits offers the advantage of piece-wise manufacturing, packaging, and assembly, potentially reducing the number of optical I/O and electrical contacts on a single die.",
+    "cited_by_count": 43,
+    "tags": {
+      "tech_route": "unclear",
+      "tech_route_secondary": null,
+      "integration": "integrated_photonic",
+      "trl_band": "lab",
+      "ai_dc_fit": "indirect",
+      "adjacent_field": null,
+      "evidence_span": "In this work, we demonstrate 1×8 and 8×1 microring-based silicon photonic switch building blocks with software control, providing the feasibility of a full 8×8 architecture composed of silicon photonic building blocks.",
+      "confidence": "low"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W2592504242",
+    "title": "Monolithically Integrated WDM Cross-Connect Switch for High-performance Optical Data Center Networks",
+    "year": 2017,
+    "venue": "Optical Fiber Communication Conference",
+    "abstract": "The switching performance of a photonic integrated WDM cross-connect switch is assessed with 40Gb/s NRZ-OOK, 20Gb/s PAM4 and data-rate adaptive DMT traffic. Results show limited penalty for single/WDM channels and > 10dB power dynamic range.",
+    "cited_by_count": 11,
+    "tags": {
+      "tech_route": "unclear",
+      "tech_route_secondary": null,
+      "integration": "integrated_photonic",
+      "trl_band": "lab",
+      "ai_dc_fit": "indirect",
+      "adjacent_field": "silicon_photonics",
+      "evidence_span": "The switching performance of a photonic integrated WDM cross-connect switch is assessed with 40Gb/s NRZ-OOK, 20Gb/s PAM4 and data-rate adaptive DMT traffic.",
+      "confidence": "low"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W2795355622",
+    "title": "MEMS technology in optical switching",
+    "year": 2017,
+    "venue": null,
+    "abstract": "All-optical switching fabrics based on the Micro-Electro-Mechanical Systems (MEMS) technology are now widely available on the market. This paper reviews working principles and architectures of MEMS-based optical switches from the past to the present day. During the last two decades, many approaches and actuating mechanisms emerged. In general, optical MEMS-based switches can employ movable micromirrors as basic switching element, or movable couplers (resonators). The switching speed can vary from less than to tens of ms. This paper briefly describes principles of all of these switches. Optical properties (insertion loss, crosstalk) and switching speed are also discussed.",
+    "cited_by_count": 11,
+    "tags": {
+      "tech_route": "unclear",
+      "tech_route_secondary": null,
+      "integration": "unclear",
+      "trl_band": "unclear",
+      "ai_dc_fit": "unclear",
+      "adjacent_field": null,
+      "evidence_span": "In general, optical MEMS-based switches can employ movable micromirrors as basic switching element, or movable couplers (resonators).",
+      "confidence": "low"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W2492727504",
+    "title": "Design of MEMS Optical Switches",
+    "year": 2018,
+    "venue": null,
+    "abstract": null,
+    "cited_by_count": 1,
+    "tags": {
+      "tech_route": "unclear",
+      "tech_route_secondary": null,
+      "integration": "unclear",
+      "trl_band": "unclear",
+      "ai_dc_fit": "unclear",
+      "adjacent_field": null,
+      "evidence_span": "Design of MEMS Optical Switches",
+      "confidence": "low"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W2786500500",
+    "title": "Tutorial: Integrated-photonic switching structures",
+    "year": 2018,
+    "venue": "APL Photonics",
+    "abstract": "Recent developments in waveguided 2 × 2 and N × M photonic switches are reviewed, including both broadband and narrowband resonant devices for the Si, InP, and AlN platforms. Practical actuation of switches by electro-optical and thermo-optical techniques is discussed. Present datacom-and-computing applications are reviewed, and potential applications are proposed for chip-scale photonic and optoelectronic integrated switching networks. Potential is found in the reconfigurable, programmable “mesh” switches that enable a promising group of applications in new areas beyond those in data centers and cloud servers. Many important matrix switches use gated semiconductor optical amplifiers. The family of broadband, directional-coupler 2 × 2 switches featuring two or three side-coupled waveguides deserves future experimentation, including devices that employ phase-change materials. The newer 2 × 2 resonant switches include standing-wave resonators, different from the micro-ring traveling-wave resonators. The resonant devices comprise nanobeam interferometers, complex-Bragg interferometers, and asymmetric contra-directional couplers. Although the fast, resonant devices offer ultralow switching energy, ∼1 fJ/bit, they have limitations. They require several trade-offs when deployed, but they do have practical application.",
+    "cited_by_count": 98,
+    "tags": {
+      "tech_route": "unclear",
+      "tech_route_secondary": null,
+      "integration": "integrated_photonic",
+      "trl_band": "unclear",
+      "ai_dc_fit": "indirect",
+      "adjacent_field": null,
+      "evidence_span": "Recent developments in waveguided 2 × 2 and N × M photonic switches are reviewed, including both broadband and narrowband resonant devices for the Si, InP, and AlN platforms.",
+      "confidence": "low"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W2792328579",
+    "title": "Realization and Application of Large-Scale Fast Optical Circuit Switch for Data Center Networking",
+    "year": 2018,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "Applying optical switching to data center networks can greatly expand network bandwidth and reduce electrical power consumption, both of which are needed to meet the explosive traffic increase. The optical switch offers large bandwidth switching capability, and so eliminates the multistage switch network architecture needed with electrical switching. Furthermore, the single stage architecture of the optical switch greatly simplifies operating costs, which include cabling, while substantially reducing the number of transponders needed. Data center networks place very different demands on optical systems than communication networks. Grasping the right direction to proceed is of paramount importance. To realize the full potential of optical switches, such as scalability and cost effectiveness, we analyze the role of large-scale optical circuit switches and discuss the realization technologies that combine the two dimensions of space and wavelength. Our recent advances in large port-count optical switches are presented.",
+    "cited_by_count": 98,
+    "tags": {
+      "tech_route": "unclear",
+      "tech_route_secondary": null,
+      "integration": "unclear",
+      "trl_band": "lab",
+      "ai_dc_fit": "indirect",
+      "adjacent_field": null,
+      "evidence_span": "To realize the full potential of optical switches, such as scalability and cost effectiveness, we analyze the role of large-scale optical circuit switches and discuss the realization technologies that combine the two dimensions of space and wavelength.",
+      "confidence": "low"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W2807234289",
+    "title": "Photonic switching in high performance datacenters [Invited]",
+    "year": 2018,
+    "venue": "Optics Express",
+    "abstract": "Photonic switches are increasingly considered for insertion in high performance datacenter architectures to meet the growing performance demands of interconnection networks. We provide an overview of photonic switching technologies and develop an evaluation methodology for assessing their potential impact on datacenter performance. We begin with a review of three categories of optical switches, namely, free-space switches, III-V integrated switches and silicon integrated switches. The state-of-the-art of MEMS, LCOS, SOA, MZI and MRR switching technologies are covered, together with insights on their performance limitations and scalability considerations. The performance metrics that are required for optical switches to truly emerge in datacenters are discussed and summarized, with special focus on the switching time, cost, power consumption, scalability and optical power penalty. Furthermore, the Pareto front of the switch metric space is analyzed. Finally, we propose a hybrid integrated switch fabric design using the III-V/Si wafer bonding technique and investigate its potential impact on realizing reduced cost and power penalty.",
+    "cited_by_count": 240,
+    "tags": {
+      "tech_route": "unclear",
+      "tech_route_secondary": null,
+      "integration": "unclear",
+      "trl_band": "lab",
+      "ai_dc_fit": "direct",
+      "adjacent_field": null,
+      "evidence_span": "We provide an overview of photonic switching technologies and develop an evaluation methodology for assessing their potential impact on datacenter performance.",
+      "confidence": "low"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W2810918131",
+    "title": "A Large-Scale Optical Circuit Switch Using Fast Wavelength-Tunable and Bandwidth-Variable Filters",
+    "year": 2018,
+    "venue": "IEEE Photonics Technology Letters",
+    "abstract": "We present a large-scale optical circuit switch architecture using wavelength-tunable and bandwidth-variable silicon photonic filters. The attainable switch port count is quantitatively evaluated through extensive computer simulations. The requirements for constructing a 1,024 × 1,024 optical circuit switch are analyzed on 10-, 28-, and 56-Gb/s signals. The simulation results are verified through transmission experiments.",
+    "cited_by_count": 16,
+    "tags": {
+      "tech_route": "unclear",
+      "tech_route_secondary": null,
+      "integration": "integrated_photonic",
+      "trl_band": "lab",
+      "ai_dc_fit": "unclear",
+      "adjacent_field": null,
+      "evidence_span": "We present a large-scale optical circuit switch architecture using wavelength-tunable and bandwidth-variable silicon photonic filters.",
+      "confidence": "low"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W2889030337",
+    "title": "Low-Insertion-Loss and Power-Efficient 32 × 32 Silicon Photonics Switch With Extremely High-Δ Silica PLC Connector",
+    "year": 2018,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "We fabricate a 32 × 32 silicon photonics switch on a 300-mm silicon-on-insulator wafer by using our complementary metal-oxide-semiconductor pilot line equipped with an immersion ArF scanner and demonstrate an average fiber-to-fiber insertion loss of 10.8 dB with a standard deviation of 0.54 dB, and on-chip electric power consumption of 1.9 W. The insertion loss and the power consumption are approximately 1/60, and less than 1/4 of our previous results, respectively. These significant improvements are achieved by design and fabrication optimization of waveguides and intersections on the chip, and by employing a novel optical fiber connector based on extremely-high-Δ silica planar-lightwave-circuit (PLC) technology. The minimum crosstalk was -26.6 dB at a wavelength of 1547 nm, and -20-dB crosstalk bandwidth was 3.5 nm. Furthermore, we demonstrate low-crosstalk bandwidth expansion by using output port exchanged element switches. We achieve a -20 dB crosstalk bandwidth of 14.2 nm, which is four-times wider than that of the conventional element switch based 32 × 32 switch.",
+    "cited_by_count": 158,
+    "tags": {
+      "tech_route": "unclear",
+      "tech_route_secondary": null,
+      "integration": "integrated_photonic",
+      "trl_band": "lab",
+      "ai_dc_fit": "unclear",
+      "adjacent_field": null,
+      "evidence_span": "We fabricate a 32 × 32 silicon photonics switch on a 300-mm silicon-on-insulator wafer by using our complementary metal-oxide-semiconductor pilot line equipped with an immersion ArF scanner and demonstrate an average fiber-to-fiber insertion loss of 10.8 dB with a standard deviation of 0.54 dB, and on-chip electric power consumption of 1.9 W.",
+      "confidence": "low"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W2889455810",
+    "title": "De‐multiplexing free on‐chip low‐loss multimode switch enabling reconfigurable inter‐mode and inter‐path routing",
+    "year": 2018,
+    "venue": "Nanophotonics",
+    "abstract": "Abstract Switching and routing are critical functionalities for a reconfigurable bandwidth‐dense optical network, and great efforts had been made to accommodate mode‐division multiplexing technology. Although the reconfigurable routing for spatial‐mode groups between different optical paths was realized recently, a demultiplexing‐switching‐multiplexing process is necessary. Here we present a simplified and compact on‐chip 2×2 multimode switch that can be easily upgradable to a larger scale. Fully and reconfigurable routing between not only optical paths but also spatial modes is achieved. To obtain a low loss multimode processing, a novel structure free from demultiplexing and re‐multiplexing operations is adopted. The switch enables minimum and maximum insertion losses of 0.3 and 1.2 dB, with a compact footprint of 433 μm×433 μm and low crosstalk of <−16.6 dB for all channels. It is further extended to two types of 4×4 switch fabrics with cross‐bar and ring‐bus architectures, as demonstrations of high‐level integration. System characterization with 32 Gb/s high‐speed modulated signals is also carried out, reaching up to 256 Gb/s aggregate throughput. These results verify a general solution of 2×2 multimode switch for reconfigurable inter‐mode and inter‐path routing applicable in large‐scale and high‐density multimode optical network.",
+    "cited_by_count": 56,
+    "tags": {
+      "tech_route": "unclear",
+      "tech_route_secondary": null,
+      "integration": "integrated_photonic",
+      "trl_band": "lab",
+      "ai_dc_fit": "none",
+      "adjacent_field": "silicon_photonics",
+      "evidence_span": "Fully and reconfigurable routing between not only optical paths but also spatial modes is achieved.",
+      "confidence": "low"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W2909415593",
+    "title": "Design and Evaluation of Optical Circuit Switches for Intra-Datacenter Networking",
+    "year": 2019,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "With the rapid growth in intra-datacenter traffic, the high power consumption stemming from the huge number of electrical switches is becoming a critical issue. Hence, high-port-count optical circuit switches are urgently needed. In this paper, we overview recently developed optical circuit switch architecture based on two-dimensional switches, i.e., space switches and wavelength-routing switches. The attainable maximum switch port counts and hardware requirements are quantitatively evaluated through extensive computer simulations that consider 10-Gbps intensity modulation with direct detection systems, 43-Gbps differential quadrature phase-shift keying with self-coherent detection systems, and 128-Gbps dual-polarization quadrature phase-shift keying with coherent detection systems. The simulation results confirm the existence of switching architecture that can accommodate more than 1,000 ports with relatively light hardware requirements.",
+    "cited_by_count": 19,
+    "tags": {
+      "tech_route": "unclear",
+      "tech_route_secondary": null,
+      "integration": "unclear",
+      "trl_band": "lab",
+      "ai_dc_fit": "indirect",
+      "adjacent_field": null,
+      "evidence_span": "In this paper, we overview recently developed optical circuit switch architecture based on two-dimensional switches, i.e., space switches and wavelength-routing switches.",
+      "confidence": "low"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W2937088522",
+    "title": "Wafer-scale silicon photonic switches beyond die size limit",
+    "year": 2019,
+    "venue": "Optica",
+    "abstract": "Fast optical switches have been proposed as a promising alternative to enable continual scaling of data centers with increasing size and data rates. Silicon photonics is a compelling platform for large-scale integrated photonic switches, leveraging advanced manufacturing foundries for electronic integrated circuits. In the past decade, the port counts of silicon photonic switches have increased steadily to 128×128. Further scaling of the switch is constrained by the maximum reticle size (2–3 cm) of lithography tools. Here, we propose to use wafer-scale integration to overcome the die size limit. As a proof of concept demonstration, we fabricated a 240×240 switch by lithographically stitching a 3×3 array of identical 80×80 switch blocks across reticle boundaries. Stitching loss is substantially reduced (0.004 dB) by tapering the waveguide width to 10 μm. The fabricated switch on a 4 cm×4 cm chip exhibits a maximum on-chip loss of 9.8 dB, an ON/OFF ratio of 70 dB, and switching times of less than 400 ns. To our knowledge, this is the largest integrated photonic switch ever reported. The loss-to-port count ratio (0.04 dB/port) is also the lowest.",
+    "cited_by_count": 216,
+    "tags": {
+      "tech_route": "unclear",
+      "tech_route_secondary": null,
+      "integration": "integrated_photonic",
+      "trl_band": "lab",
+      "ai_dc_fit": "direct",
+      "adjacent_field": null,
+      "evidence_span": "Fast optical switches have been proposed as a promising alternative to enable continual scaling of data centers with increasing size and data rates.",
+      "confidence": "low"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W2938572472",
+    "title": "Scalable Microring-Based Silicon Clos Switch Fabric With Switch-and-Select Stages",
+    "year": 2019,
+    "venue": "IEEE Journal of Selected Topics in Quantum Electronics",
+    "abstract": "We propose and analyze a scalable microring-based Clos switch fabric architecture constructed with switch-and-select switching stages. A silicon 4 × 4 building block that was designed and fabricated through American Institute for Manufacturing Integrated Photonics is used for the proof-of-principle demonstration of a 16 × 16 Clos switch fabric. By fully blocking the first-order crosstalk, the 4 × 4 device is measured to show a crosstalk ratio in the range of -57 to -48.5 dB, enabling better than -39 dB crosstalk for the 16 × 16 switch. Our study shows that the three-stage Clos design enables up to a factor of 4 in the reduction of the number of switching cells compared to single-stage switch-and-select fabrics. We further explore the design space for both first-order and second-order switching elements using the foundry-validated parameters and how these factors impact the performance and scalability of the three-stage Clos switch. A detailed power penalty map is drawn for Clos switch fabrics with various scales, which reveals that the ultimate key limiting factor is the shuffle insertion loss. An optimized 32-port Clos switch fabric using foundry-enabled parameters is shown to have a less than 10-dB power penalty.",
+    "cited_by_count": 66,
+    "tags": {
+      "tech_route": "unclear",
+      "tech_route_secondary": null,
+      "integration": "integrated_photonic",
+      "trl_band": "lab",
+      "ai_dc_fit": "unclear",
+      "adjacent_field": null,
+      "evidence_span": "We propose and analyze a scalable microring-based Clos switch fabric architecture constructed with switch-and-select switching stages.",
+      "confidence": "low"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W2951487609",
+    "title": "Multicast silicon photonic MEMS switches with gap-adjustable directional couplers",
+    "year": 2019,
+    "venue": "Optics Express",
+    "abstract": "), and fast response (9.8 µs). The switching voltage is 9.6 V and 20 dB bandwidth is 31.5 nm. One-to-two and one-to-four multicast operations are demonstrated.",
+    "cited_by_count": 25,
+    "tags": {
+      "tech_route": "unclear",
+      "tech_route_secondary": null,
+      "integration": "integrated_photonic",
+      "trl_band": "lab",
+      "ai_dc_fit": "unclear",
+      "adjacent_field": null,
+      "evidence_span": "One-to-two and one-to-four multicast operations are demonstrated.",
+      "confidence": "low"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W2952418242",
+    "title": "A survey on key roles of optical switching and labeling technologies on big data traffic of Data Centers and HPC environments",
+    "year": 2019,
+    "venue": "AIMS Electronics and Electrical Engineering",
+    "abstract": "The tremendous big data and IP traffic growth rate between interconnected Data Centers (DC) and High Performance Computing (HPC) environments have imposed the need for ultrahigh link capacities and ultrahigh packet switching speeds, at network nodes. In order to overcome these ultrahigh demands, and particularly packet routing and forwarding speeds, long tested and established technologies, such as optical switching and labeling technology, seem to provide adequate solutions, not only by conveying ultrahigh bit rate data streams, but also by achieving multi Tb/s cross connection throughputs, in a cost and energy efficient way. By adoption of optical switching and labeling technology, big data streams are propagating directly in optical layer, thus lessening down bottlenecks, latency issues, and multi stage hierarchy layering. This paper, apart from optical switching and labeling potentials, investigates thoroughly other critical issues, strictly related to the proper choice of employing a switching architecture layout, such as its implementation technology, its elasticity potentials, in terms of flexible bandwidth (BW) provisioning, its adopted control plane lying on top of data infrastructure plane, providing cognition, control and orchestration over its network elements, as well as related to the proper choice of optical labeling techniques adopted, in conjunction with current, advanced, coherent, multi level modulation formats, for ultrahigh link capacities and packet switching speed demands of scalable, big data interconnected DCs and HPC environments.",
+    "cited_by_count": 6,
+    "tags": {
+      "tech_route": "unclear",
+      "tech_route_secondary": null,
+      "integration": "unclear",
+      "trl_band": "unclear",
+      "ai_dc_fit": "indirect",
+      "adjacent_field": null,
+      "evidence_span": "This paper, apart from optical switching and labeling potentials, investigates thoroughly other critical issues, strictly related to the proper choice of employing a switching architecture layout, such as its implementation technology, its elasticity potentials, in terms of flexible bandwidth (BW) provisioning, its adopted control plane lying on top of data infrastructure plane, providing cognition, control and orchestration over its network elements, as well as related to the proper choice of optical labeling techniques adopted, in conjunction with current, advanced, coherent, multi level modulation formats, for ultrahigh link capacities and packet switching speed demands of scalable, big data interconnected DCs and HPC environments.",
+      "confidence": "low"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W2968922880",
+    "title": "Low-Loss, Low-Crosstalk, and Large-Scale Optical Switch Based on Silicon Photonics",
+    "year": 2019,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "We review the research progress of strictly nonblocking optical switches based on silicon photonics. We have developed a switch chip fabrication process based on a complementary metal-oxide-semiconductor pilot line and optical and electrical packaging technologies. We demonstrated all-paths transmission and switching of up to 32 input ports × 32 output ports with an average fiber-to-fiber insertion loss of 10.8 dB. Furthermore, we demonstrated an operating bandwidth wider than 100 nm for -30 dB crosstalk with double-Mach-Zehnder element switches in an 8 × 8 switch. For polarization-insensitive operation, we adopted a polarization diversity scheme and fabricated an 8 × 8 switch with fiber-based polarization-beam-splitters and two switch chips. The 8 × 8 switch exhibited a polarization-dependent loss of less than 0.5 dB. Moreover, an on-chip polarization diversity 8 × 8 switch integrated with polarization splitter rotators and two switch matrices on a single chip demonstrated a differential group delay less than 1 ps. Based on current technologies, we discuss the prospects for further port count expansion and remaining challenges for commercial deployment.",
+    "cited_by_count": 58,
+    "tags": {
+      "tech_route": "unclear",
+      "tech_route_secondary": null,
+      "integration": "integrated_photonic",
+      "trl_band": "lab",
+      "ai_dc_fit": "unclear",
+      "adjacent_field": null,
+      "evidence_span": "We review the research progress of strictly nonblocking optical switches based on silicon photonics.",
+      "confidence": "low"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W3009983062",
+    "title": "Large-scale silicon photonics switch based on 45-nm CMOS technology",
+    "year": 2020,
+    "venue": "Optics Communications",
+    "abstract": "In optical networks for telecom and datacom, an unprecedented energy efficient system is demanded since the amount of data traffic is rapidly increasing while a significant improvement of the energy efficiency in electronics devices such as switch ASICs is no longer expected. To overcome the energy constraints, introduction of energy-efficient optical circuit switching (OCS) to the conventional electrical packet switching network is considered. The energy consumption of the OCS is almost independent of the bandwidth because the transparent optical path with no optical-to-electrical/electrical-to-optical signal conversion supports an ultrawide bandwidth of highly multiplexed optical signals. In the OCS, high-speed and large-port-count optical switches are essential. We have been working on optical switches based on CMOS-compatible silicon photonics that offer fast switching, compactness, low power consumption, and low cost. By using our 45-nm CMOS process, we have recently demonstrated a low loss 32 × 32 silicon photonics switch and its performance improvements of wide operation bandwidth, polarization-independent operation, and so forth. In this paper, we review the recent progress of our silicon photonics switches. We discuss the importance of the silicon photonics switches for a sustainable optical network with a comparison of other switching technologies and explain comprehensively how our numerous achievements are advanced and related to each other.",
+    "cited_by_count": 35,
+    "tags": {
+      "tech_route": "unclear",
+      "tech_route_secondary": null,
+      "integration": "integrated_photonic",
+      "trl_band": "lab",
+      "ai_dc_fit": "indirect",
+      "adjacent_field": "silicon_photonics",
+      "evidence_span": "We have been working on optical switches based on CMOS-compatible silicon photonics that offer fast switching, compactness, low power consumption, and low cost.",
+      "confidence": "low"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W3094530140",
+    "title": "Port-Alternated Switch-and-Select Optical Switches",
+    "year": 2020,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "We propose and demonstrate a port-alternated switch-and-select architecture for planar waveguide-based optical switches. The proposed architecture reduces the number of intersections on a path, which leads to both small insertion loss and small path dependence. We demonstrate an 8 × 8 optical switch based on the proposed architecture using a silicon photonic platform, which exhibits a fiber-to-fiber insertion loss of 5.7 dB with a crosstalk below -30 dB. We discuss the scalability of the switch, including the propagation and bend losses of the waveguides.",
+    "cited_by_count": 12,
+    "tags": {
+      "tech_route": "unclear",
+      "tech_route_secondary": null,
+      "integration": "integrated_photonic",
+      "trl_band": "lab",
+      "ai_dc_fit": "unclear",
+      "adjacent_field": null,
+      "evidence_span": "We propose and demonstrate a port-alternated switch-and-select architecture for planar waveguide-based optical switches.",
+      "confidence": "low"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W3164101439",
+    "title": "High-port-count optical circuit switches for intra-datacenter networks [Invited Tutorial]",
+    "year": 2021,
+    "venue": "Journal of Optical Communications and Networking",
+    "abstract": "With the rapid spread of cloud-based services, intra-datacenter traffic is growing exponentially. In typical present datacenters, top-of-rack switches, which act as gateways to computer systems, are interconnected via multi-tier electrical-switching networks. The electrical switch necessitates costly optical-to-electrical and electrical-to-optical conversion. Furthermore, its power consumption will explode due to the ever-increasing intra-datacenter traffic. To handle the large volumes of traffic in a cost-effective manner, optical switches are expected to play a key role in future intra-datacenter networks. To realize such cost-effective networks, high-port-count optical circuit switches will be a critical component. High-port-count optical circuit switches can be used to construct a flat network, and we can reduce the dependence on costly multi-tier electrical-switching networks. In this tutorial paper, we overview high-port-count optical circuit switch architectures for future intra-datacenter networks and discuss their characteristics. The high-port-count switch can be attained by combining the different dimensions of space and wavelength.",
+    "cited_by_count": 40,
+    "tags": {
+      "tech_route": "unclear",
+      "tech_route_secondary": null,
+      "integration": "unclear",
+      "trl_band": "unclear",
+      "ai_dc_fit": "indirect",
+      "adjacent_field": null,
+      "evidence_span": "In this tutorial paper, we overview high-port-count optical circuit switch architectures for future intra-datacenter networks and discuss their characteristics.",
+      "confidence": "low"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W4205819848",
+    "title": "Prospects and Challenges of Photonic Switching in Data Centers and Computing Systems",
+    "year": 2021,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "This Tutorial will discuss the motivation, benefits, and challenges of photonic switching in data centers and cover prospects of future data centers involving emerging new technologies and cross-layer solutions. The primary motivation for considering photonic switching in data centers rises from the need for energy-efficient and scalable intra-data center networks to meet rapid increases in data traffic driven by emerging applications, including machine learning. The data traffic inside the data centers (East-West traffic) is typically significantly greater than that of the traffic coming in and out of the data centers (North-South traffic) (Bensonet al.2010). To accommodate such traffic, today's large-scale data centers employ cascaded stages of many power-hungry electronic packet switches interconnected across the data center network in fixed hierarchical communication topologies. These electronic switches add significant latency and energy consumption while limiting the communication bandwidth. On the other hand, photonic switches can, in principle, support interconnections at very high data rates on many parallel wavelengths while keeping their energy consumption nearly independent of the switch port bandwidth. Numerous research papers have predicted significant benefits in scalability, throughput, and power efficiency from deploying photonic switches in data centers. However, photonic switching is not yet widely deployed in commercial warehouse-scale data centers at the time of writing this Tutorial due to significant challenges. They are related to 1) cross-layer issues involving control and management planes together with data integrity during switching, 2) scalability to >5000 racks (>a quarter-million servers), 3) performance monitoring required for reliable operation, 4) currently existing standards allowing limited power margin (3 dB), and 5) other practical (technology-dependent) issues relating to polarization sensitivity, temperature sensitivity, cost, etc. In telecom, commercial deployments of reconfigurable optical add-drop multiplexers (ROADMs) (Lightwave, 2003)–(Perrin, 2015) also had faced similar challenges and took place nearly ten years after the first research network testbed demonstrations in 1997 (Garrett, 2015) with fully implemented network control and management planes. In data centers, the challenges are far more significant due to the scale of the network and the dynamicity of the traffic. We will discuss possible solutions for future data centers involving cross-layer methods, new topologies, and innovative photonic switching technologies. In particular, the Tutorial broadly surveys state-of-the-art photonic switching technologies, architectures, and experimental results, and further covers the details of arrayed-waveguide-grating-router-based switch fabrics offering hybrid switching methods with distributed control planes towards scalable data center networking.",
+    "cited_by_count": 119,
+    "tags": {
+      "tech_route": "unclear",
+      "tech_route_secondary": null,
+      "integration": "unclear",
+      "trl_band": "unclear",
+      "ai_dc_fit": "direct",
+      "adjacent_field": null,
+      "evidence_span": "The primary motivation for considering photonic switching in data centers rises from the need for energy-efficient and scalable intra-data center networks to meet rapid increases in data traffic driven by emerging applications, including machine learning.",
+      "confidence": "low"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W4225000980",
+    "title": "Nanosecond optical switching and control system for data center networks",
+    "year": 2022,
+    "venue": "Nature Communications",
+    "abstract": "Electrical switching based data center networks have an intrinsic bandwidth bottleneck and, require inefficient and power-consuming multi-tier switching layers to cope with the rapid growing traffic in data centers. With the benefits of ultra-large bandwidth, high-efficient cost and power consumption, switching traffic in the optical domain has been investigated to replace the electrical switches inside data center networks. However, the deployment of nanosecond optical switches remains a challenge due to the lack of corresponding nanosecond switch control, the lack of optical buffers for packet contention, and the requirement of nanosecond clock and data recovery. In this work, a nanosecond optical switching and control system has been experimentally demonstrated to enable an optically switched data center network with 43.4 nanosecond switching and control capability and with packet contention resolution as well as 3.1 nanosecond clock and data recovery.",
+    "cited_by_count": 124,
+    "tags": {
+      "tech_route": "unclear",
+      "tech_route_secondary": null,
+      "integration": "unclear",
+      "trl_band": "lab",
+      "ai_dc_fit": "direct",
+      "adjacent_field": null,
+      "evidence_span": "In this work, a nanosecond optical switching and control system has been experimentally demonstrated to enable an optically switched data center network with 43.4 nanosecond switching and control capability and with packet contention resolution as well as 3.1 nanosecond clock and data recovery.",
+      "confidence": "low"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W4284963505",
+    "title": "MEMS‐based Optical Switches",
+    "year": 2022,
+    "venue": null,
+    "abstract": "The constant demand for mobility, interconnectivity, and bandwidth made it mandatory for the rapid expansion and upgradation of optical fiber-based telecommunication infrastructure across the globe. To support the increasing demand for speed and bandwidth, optical subsystems such as all-optical switches have become very important components. Among various possible optical subsystems, MEMS-based optical devices capable of integrating mechanical, electrical, and optical components on a single wafer are performing a number of strategic optical-network functions in a compact and low-cost form. A brief discussion of MEMS-based optical switch technology, fabrication process, switch architectures, actuation mechanism, switch parameters, and related reliability challenges is presented in this chapter. Understanding of these key issues will help in successful development and commercialization of MEMS-based optical switches.",
+    "cited_by_count": 8,
+    "tags": {
+      "tech_route": "unclear",
+      "tech_route_secondary": null,
+      "integration": "unclear",
+      "trl_band": "unclear",
+      "ai_dc_fit": "none",
+      "adjacent_field": null,
+      "evidence_span": "The constant demand for mobility, interconnectivity, and bandwidth made it mandatory for the rapid expansion and upgradation of optical fiber-based telecommunication infrastructure across the globe.",
+      "confidence": "low"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W4308917574",
+    "title": "Optical Switching in Future Fiber-Optic Networks Utilizing Spectral and Spatial Degrees of Freedom",
+    "year": 2022,
+    "venue": "Proceedings of the IEEE",
+    "abstract": "Forthcoming capacity scaling requirements of optical networks and advances in optical fiber communications beyond the omnipresent single-mode fiber operating over the conventional band introduces new opportunities and challenges for exploiting the expanded spectral and spatial resources available for fiber-optic network designs. The spectral and spatial degrees of freedom introduce utilization tradeoffs that can be leveraged under different applications. After briefly reviewing the supporting network building elements (emerging fiber types, multiplexers, optical switches, and amplifiers), we consider networking scenarios such as intra/inter datacenter, terrestrial, undersea, and wireless 5G/6G hauling networks and identify the best utilization plan and key attributes that can be harnessed by the offered spectral and spatial degrees of freedom for each scenario and how optical switching can be employed therein for traffic management. Networks supporting these scenarios are experiencing tremendous traffic growth pushing their existing implementations to their physical capacity-distance limits. New network builds must offer significant capacity multipliers in an efficient and cost-effective manner, requiring new switching solutions for supporting the unabated traffic growths foreseen in the years to come. We discuss how space-division multiplexed networks can help address this challenge in key communication scenarios.",
+    "cited_by_count": 52,
+    "tags": {
+      "tech_route": "unclear",
+      "tech_route_secondary": null,
+      "integration": "unclear",
+      "trl_band": "unclear",
+      "ai_dc_fit": "indirect",
+      "adjacent_field": "telecom_oxc_roadm",
+      "evidence_span": "After briefly reviewing the supporting network building elements (emerging fiber types, multiplexers, optical switches, and amplifiers), we consider networking scenarios such as intra/inter datacenter, terrestrial, undersea, and wireless 5G/6G hauling networks and identify the best utilization plan and key attributes that can be harnessed by the offered spectral and spatial degrees of freedom for each scenario and how optical switching can be employed therein for traffic management.",
+      "confidence": "low"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W4377082743",
+    "title": "Apollo: Large-Scale Deployment of Optical Circuit Switching for Datacenter Networking",
+    "year": 2023,
+    "venue": null,
+    "abstract": "In this paper, we describe Apollo, to the best of our knowledge, the world’s first large-scale production deployment of optical circuit switches (OCSes) for datacenter networking. We review the underlying hardware technologies including the design of our internally developed OCS and WDM transceivers.",
+    "cited_by_count": 19,
+    "tags": {
+      "tech_route": "unclear",
+      "tech_route_secondary": null,
+      "integration": "unclear",
+      "trl_band": "production",
+      "ai_dc_fit": "indirect",
+      "adjacent_field": null,
+      "evidence_span": "In this paper, we describe Apollo, to the best of our knowledge, the world’s first large-scale production deployment of optical circuit switches (OCSes) for datacenter networking.",
+      "confidence": "low"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W4408995512",
+    "title": "A Micromechanical Wide-Range Stiffness-Tuning Mechanism for MEMS Optical Switches",
+    "year": 2025,
+    "venue": "Micromachines",
+    "abstract": "MEMS stiffness-tunable devices, owing to their low resonant frequency and high sensitivity, have been widely adopted in fields such as biological force sensing, vibration sensing, and inertial sensing. However, traditional stress-effect-based stiffness-adjustment methods offer limited tuning range. This paper introduces a novel stiffness-tuning mechanism based on the principle of stiffness compensation, integrating positive stiffness springs with V-shaped negative stiffness springs in a parallel configuration. A self-locking mechanism enables precise control of the mechanical preloading on the negative stiffness structures to realize stiffness adjustment. This design is prototyped by microscale fabrication techniques and is suitable for miniaturization. The experimental results confirm a stiffness reduction of over 90% and demonstrate bistability. These findings highlight the potential of the design for high-sensitivity MEMS accelerometers and dual-mode optical switches with low switching voltage.",
+    "cited_by_count": 2,
+    "tags": {
+      "tech_route": "unclear",
+      "tech_route_secondary": null,
+      "integration": "unclear",
+      "trl_band": "lab",
+      "ai_dc_fit": "none",
+      "adjacent_field": null,
+      "evidence_span": "These findings highlight the potential of the design for high-sensitivity MEMS accelerometers and dual-mode optical switches with low switching voltage.",
+      "confidence": "low"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "arxiv:2501.18136",
+    "title": "PipSwitch: A Circuit Switch Using Programmable Integrated Photonics",
+    "year": 2025,
+    "venue": "arXiv",
+    "abstract": "We present an optical circuit switch design for programmable integrated photonics (PIPs). Our solution finds the correct and optimal set of matchings that provides all-to-all network connectivity and demonstrates scalability to 32 ports.",
+    "cited_by_count": null,
+    "tags": {
+      "tech_route": "unclear",
+      "tech_route_secondary": null,
+      "integration": "integrated_photonic",
+      "trl_band": "lab",
+      "ai_dc_fit": "unclear",
+      "adjacent_field": null,
+      "evidence_span": "We present an optical circuit switch design for programmable integrated photonics (PIPs).",
+      "confidence": "low"
+    },
+    "match": "primary"
+  }
+]

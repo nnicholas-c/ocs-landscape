@@ -1,0 +1,116 @@
+[
+  {
+    "paper_id": "W2002555923",
+    "title": "A Multiport Microsecond Optical Circuit Switch for Data Center Networking",
+    "year": 2013,
+    "venue": "IEEE Photonics Technology Letters",
+    "abstract": "We experimentally evaluate the network-level switching time of a functional 23-host prototype hybrid optical circuit-switched/electrical packet-switched network for datacenters called Mordia (Microsecond Optical Research Datacenter Interconnect Architecture). This hybrid network uses a standard electrical packet switch and an optical circuit-switched architecture based on a wavelength-selective switch that has a measured mean port-to-port network reconfiguration time of 11.5$\\mu{\\rm s}$including the signal acquisition by the network interface card. Using multiple parallel rings, we show that this architecture can scale to support the large bisection bandwidth required for future datacenters.",
+    "cited_by_count": 82,
+    "tags": {
+      "tech_route": "lcos",
+      "tech_route_secondary": null,
+      "integration": "free_space_bulk",
+      "trl_band": "lab",
+      "ai_dc_fit": "indirect",
+      "adjacent_field": null,
+      "evidence_span": "This hybrid network uses a standard electrical packet switch and an optical circuit-switched architecture based on a wavelength-selective switch that has a measured mean port-to-port network reconfiguration time of 11.5$\\mu{\\rm s}$including the signal acquisition by the network interface card.",
+      "confidence": "high"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W2605844474",
+    "title": "Diffraction-Based Optical Switching with MEMS",
+    "year": 2017,
+    "venue": "Applied Sciences",
+    "abstract": "We are presenting an overview of MEMS-based (Micro-Electro-Mechanical System) optical switch technology starting from the reflective two-dimensional (2D) and three-dimensional (3D) MEMS implementations. To further increase the speed of the MEMS from these devices, the mirror size needs to be reduced. Small mirror size prevents efficient reflection but favors a diffraction-based approach. Two implementations have been demonstrated, one using the Texas Instruments DLP (Digital Light Processing), and the other an LCoS-based (Liquid Crystal on Silicon) SLM (Spatial Light Modulator). These switches demonstrated the benefit of diffraction, by independently achieving high speed, efficiency, and high number of ports. We also demonstrated for the first time that PSK (Phase Shift Keying) modulation format can be used with diffraction-based devices. To be truly effective in diffraction mode, the MEMS pixels should modulate the phase of the incident light. We are presenting our past and current efforts to manufacture a new type of MEMS where the pixels are moving in the vertical direction. The original structure is a 32 × 32 phase modulator array with high contrast grating pixels, and we are introducing a new sub-wavelength linear array capable of a 310 kHz modulation rate.",
+    "cited_by_count": 32,
+    "tags": {
+      "tech_route": "mems_2d",
+      "tech_route_secondary": "lcos",
+      "integration": "free_space_bulk",
+      "trl_band": "lab",
+      "ai_dc_fit": "none",
+      "adjacent_field": null,
+      "evidence_span": "We are presenting our past and current efforts to manufacture a new type of MEMS where the pixels are moving in the vertical direction.",
+      "confidence": "medium"
+    },
+    "match": "secondary"
+  },
+  {
+    "paper_id": "W3034334810",
+    "title": "Principle, Design, and Prototyping of Core Selective Switch Using Free-Space Optics for Spatial Channel Network",
+    "year": 2020,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "We describe the principle, design, and prototyping of a free-space-optics-based core selective switch (CSS) for spatial channel (SCh) networks (SCNs) in the age of space division multiplexing (SDM). A CSS in an SCN corresponds to a conventional wavelength selective switch (WSS) in a current wavelength division multiplexing network. It incorporates functionalities for spatially demultiplexing SChs from an input SDM port and for switching and multiplexing any of them into any of output SDM ports. We discuss the design for free-space-optics-based CSSs that is applicable to CSSs supporting various numbers of cores per multicore fiber (MCF) and various numbers of MCF ports. We show an example of an implemented 5-core 1 × 6 CSS prototype that integrates an MCF collimator, spatial multiplexer/demultiplexer array, and liquid-crystal-on-silicon spatial light modulator. Although some output MCF ports exhibit relatively high insertion loss (IL), the CSS prototype shows that a CSS will potentially provide low net IL at the level of approximately 2 dB. To verify that there are no unknown deteriorating factors in the CSS prototype, we tested the prototype implemented in a hierarchical optical cross-connect configuration by measuring the pre-forward error correction bit error rate. Spatial bypassing and spectral grooming of a 900-Gb/s SCh employing a CSS-based spatial cross-connect and a conventional wavelength cross-connect are successfully demonstrated with no optical signal-to-noise ratio penalty.",
+    "cited_by_count": 45,
+    "tags": {
+      "tech_route": "lcos",
+      "tech_route_secondary": null,
+      "integration": "free_space_bulk",
+      "trl_band": "lab",
+      "ai_dc_fit": "none",
+      "adjacent_field": null,
+      "evidence_span": "We show an example of an implemented 5-core 1 × 6 CSS prototype that integrates an MCF collimator, spatial multiplexer/demultiplexer array, and liquid-crystal-on-silicon spatial light modulator.",
+      "confidence": "medium"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W3036907365",
+    "title": "ROTOS: A Reconfigurable and Cost-Effective Architecture for High-Performance Optical Data Center Networks",
+    "year": 2020,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "Fast and high capacity optical switching techniques have the potential to enable low latency and high throughput optical data center networks (DCNs) to afford the rapid increasing traffic boosted by multiple applications. Flexibility of the DCN is of key importance to provide adaptive and dynamic bandwidth and capacity to handle the variable traffic patterns of heterogeneous applications. Aiming at improving the network performance and the system flexibility of optical DCNs, we propose and investigate a novel optical DCN architecture named ROTOS based on reconfigurable optical top of rack (ToR) and fast optical switches. In the proposed DCN architecture, the novel optical flexible ToRs employing multiple transceivers (TRXs) and a wavelength selective switch (WSS) are reconfigured by the software-defined networking (SDN) control plane. The bandwidth can be dynamically allocated to the dedicated optical links on-demand according to the desired oversubscription (OV) and intra-/inter-cluster traffic matrix. Numerical investigations of the novel architecture under realistic traffic model indicate that dynamically allocating the TRXs and elastically controlling the WSS, a packet loss below 1E-5 and a server-to-server latency lower than 3 μs can be guaranteed for different traffic patterns at load of 0.4. With respect to the DCN with static interconnections, the average packet loss of ROTOS decreases two orders of magnitude and the average server-to-server latency performance improves by 21.5%. Scalability investigation to a large number of servers shows limited (11%) performance degradation as the network scale from 2560 to 40960 servers. Additionally, the dynamic bandwidth allocation of the DCN is experimentally validated. Network performance results show a packet loss of 0.05 and 5.85 μs end-to-end latency at the load of 0.8. Finally, investigations on the cost and power consumption confirm that the ROTOS DCN architecture has 28.4% lower cost and 35.0% better improvement for power efficiency with respect to the electrical switch based DCNs.",
+    "cited_by_count": 67,
+    "tags": {
+      "tech_route": "architecture_only",
+      "tech_route_secondary": "lcos",
+      "integration": "unclear",
+      "trl_band": "lab",
+      "ai_dc_fit": "indirect",
+      "adjacent_field": null,
+      "evidence_span": "In the proposed DCN architecture, the novel optical flexible ToRs employing multiple transceivers (TRXs) and a wavelength selective switch (WSS) are reconfigured by the software-defined networking (SDN) control plane.",
+      "confidence": "medium"
+    },
+    "match": "secondary"
+  },
+  {
+    "paper_id": "W3203666589",
+    "title": "Automatically reconfigurable optical data center network with dynamic bandwidth allocation",
+    "year": 2021,
+    "venue": "Journal of Optics",
+    "abstract": "Abstract The rapid increasing traffic in data centers (DCs) puts tremendous pressure to the present multi-tier network architectures and electrical switching techniques. Switching traffic in the optical domain featuring ultra-high bandwidth, therefore, has been intensively investigated to build the high capacity data center networks (DCNs). To handle the variable traffic pattern in DCs, the network reconfigurability with adaptable optical bandwidth allocation is of key importance to flexibly assign the optical bandwidth. To this end, we propose and experimentally evaluate a software-defined networking enabled reconfigurable optical DCN with dynamic bandwidth allocation in this work, based on novel optical top of racks exploiting a wavelength selective switch. Experimental assessments show that the proposed solution can automatically reallocate the optical bandwidth in real-time to adapt the dynamic traffic pattern. Compared with the conventional optical DCN with static bandwidth provision, the end-to-end latency performance of the reconfigurable scheme with adaptable bandwidth allocation improves of 58.3% and the average packet loss decreases one order of magnitude. Moreover, the reconfigurable optical DCN features deterministic latency performance, with much lower time variations of packets delivery completion. Based on the experimental parameters, the simulation platform is also built to validate the good scalability of the proposed reconfigurable DCN. Numerical results illustrate the negligible performance degradation (11%) as the network scales from 2560 to 40 960 servers.",
+    "cited_by_count": 9,
+    "tags": {
+      "tech_route": "architecture_only",
+      "tech_route_secondary": "lcos",
+      "integration": "unclear",
+      "trl_band": "lab",
+      "ai_dc_fit": "indirect",
+      "adjacent_field": null,
+      "evidence_span": "To this end, we propose and experimentally evaluate a software-defined networking enabled reconfigurable optical DCN with dynamic bandwidth allocation in this work, based on novel optical top of racks exploiting a wavelength selective switch.",
+      "confidence": "medium"
+    },
+    "match": "secondary"
+  },
+  {
+    "paper_id": "W4404238479",
+    "title": "COCSN: A Multi-Tiered Cascaded Optical Circuit Switching Network for Data Center",
+    "year": 2024,
+    "venue": "IEEE Transactions on Cloud Computing",
+    "abstract": "A cascaded network represents a classic scaling-out model in traditional electrical switching networks. Recent proposals have integrated optical circuit switching at specific tiers of these networks to reduce power consumption and enhance topological flexibility. Utilizing a multi-tiered cascaded optical circuit switching network is expected to extend the advantages of optical circuit switching further. The main challenges fall into two categories. First, an architecture with sufficient connectivity is required to support varying workloads. Second, the network reconfiguration is more complex and necessitates a low-complexity scheduling algorithm. In this work, we propose COCSN, a multi-tiered cascaded optical circuit switching network architecture for data center. COCSN employs wavelength-selective switches that integrate multiple wavelengths to enhance network connectivity. We formulate a mathematical model covering lightpath establishment, network reconfiguration, and reconfiguration goals, and propose theorems to optimize the model. Based on the theorems, we introduce an over-subscription-supported wavelength-by-wavelength scheduling algorithm, facilitating agile establishment of lightpaths in COCSN tailored to communication demand. This algorithm effectively addresses scheduling complexities and mitigates the issue of lengthy WSS configuration times. Simulation studies investigate the impact of flow length, WSS reconfiguration time, and communication domain on COCSN, verifying its significantly lower complexity and superior performance over classical cascaded networks.",
+    "cited_by_count": 5,
+    "tags": {
+      "tech_route": "architecture_only",
+      "tech_route_secondary": "lcos",
+      "integration": "unclear",
+      "trl_band": "lab",
+      "ai_dc_fit": "direct",
+      "adjacent_field": null,
+      "evidence_span": "COCSN employs wavelength-selective switches that integrate multiple wavelengths to enhance network connectivity.",
+      "confidence": "high"
+    },
+    "match": "secondary"
+  }
+]

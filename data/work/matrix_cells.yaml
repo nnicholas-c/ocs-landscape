@@ -1,836 +1,671 @@
-# Stage 6 analyst cell decisions, read by pipeline.matrix_build.
-# Quote spec: [source, start, end]. source is a paper_id from data/work/route_<route>.json
-# or "row:N" for data/projects.csv. The script slices the quote from the source text,
-# from `start` through `end` (or to the end of the sentence when `end` is left out).
-# Nothing here is a quote. Every number in value/unit/min/max/note must appear in a quote.
-# A reported value must share a word or number with its first quote, so category codes carry
-# the quote's signal words, e.g. "lab (fabricated)" (stage 6 rework after audit check b).
-
-default_read:   # route -> paper whose full text would most likely fill that route's gaps
-  mems_3d: W4292950821
-  mems_2d: W2914521323
-  mems_silicon_photonic: W2909208749
-  lcos: W3034334810
-  piezo: W2913395450
-  thermo_optic: W2896156020
-  electro_optic: W2896156020
-  soa: W2056973550
-  robotic_patch_panel: W2073240697
+# Stage 6 analyst cell decisions, rebuilt from scratch in the rework after run 1.
+# Read by pipeline.matrix_build (cells) and pipeline.matrix_render (reading_list).
+#
+# Each cell lists quotes as [source, start] or [source, start, end]. source is a
+# paper_id from data/work/route_<route>.json or "row N" (Nth data row of
+# data/projects.csv). With one anchor the builder copies the whole sentence that
+# contains it from the abstract; with two it copies from start through end. With
+# no anchor it copies the project row's full evidence_quote. Quotes are never typed here.
+# A cell with no value is not_reported_in_abstract. academic_groups and companies
+# are computed by the builder and do not appear here.
 
 cells:
-# ---------------------------------------------------------------- mems_3d
-- route: mems_3d
-  dim: switching_time
-  value: "150 us to few ms"
-  unit: "us to ms"
-  min: "150 us"
-  max: "few ms"
-  status: reported
-  conf: medium
-  quotes:
-    - ["W2560361359", "We present the design, fabrication", "interconnection mappings."]
-    - ["W2996949883", "However, 3D MEMS fabrics are generally dismissed", "($100/port)."]
-  note: "150 us is a 61-port selector switch prototype that is only partially configurable (W2560361359). Few ms is how W2996949883 describes conventional 3D MEMS fabrics."
-- route: mems_3d
-  dim: insertion_loss
-  value: "1.33 to 4.0"
-  unit: dB
-  min: "1.33"
-  max: "4.0"
-  status: reported
-  conf: high
-  quotes:
-    - ["W2040047675", "This paper describes the subsystem design", "less than 2dB."]
-    - ["W2138361600", "We present a microelectromechanical", "across all possible connections."]
-  note: "1.33 dB is the average loss of a 256 port fabric (W2040047675). 4.0 dB is the maximum loss of a fabric with more than 1100 ports (W2138361600)."
-- route: mems_3d
-  dim: port_count
-  value: "exceeding 1100 ports"
-  unit: ports
-  status: reported
-  conf: medium
-  quotes:
-    - ["W2138361600", "We present a microelectromechanical", "across all possible connections."]
-    - ["W1982772673", "We review the performance and applications of compact"]
-    - ["W2560361359", "We demonstrate the scalability of this switch architecture"]
-  note: "W1982772673 reports a 320 x 320 switch. W2560361359 gives an optical design for a 2048-port selector switch, which is a design and is only partially configurable. The stored abstract of W3041044413 gives a port count that disagrees with its title (a digit looks lost), so it is not used."
-- route: mems_3d
-  dim: polarization_dependent_loss
-  status: not_reported_in_abstract
-  note: "The stored abstract of W3215039088 has a garbled polarization dependent loss figure (math markup lost in the source record), so it is not used. A human should check the full text of W3215039088 or W4292950821."
-- route: mems_3d
-  dim: crosstalk
-  status: not_reported_in_abstract
-  note: "W2040047675 says measured static and dynamic crosstalk were compared but gives no figure in the abstract. A human should check the full text of W2040047675 or W4292950821."
-- route: mems_3d
-  dim: wavelength_range
-  value: "1500 to 1630 nm (S, C and L bands)"
-  unit: nm
-  min: "1500"
-  max: "1630"
-  status: reported
-  conf: medium
-  quotes:
-    - ["W3215039088", "over an ultra-wide wavelength range from 1500 nm", "1630 nm"]
-    - ["W3215039088", "Bit-error-rate measurements using optical signals"]
-  note: "From a core selective switch built on a MEMS mirror array for spatial channel networks, not an N x N crossconnect."
-- route: mems_3d
-  dim: integration
-  value: "free_space_bulk (collimator array and MEMS mirror array)"
-  status: reported
-  conf: high
-  quotes:
-    - ["W3215039088", "In this paper, we report on a novel CSS design"]
-    - ["W2560361359", "This architecture and switch design enable MEMS beam-steering micromirrors"]
-  note: "Collimator arrays and tilting mirror arrays in free space."
-- route: mems_3d
-  dim: packaging_notes
-  value: "cubic switch housing, tolerance-expansion packaging and shock absorption for reliability; loss stable within 0.2 dB over days without feedback control"
-  status: reported
-  conf: medium
-  quotes:
-    - ["W2043855221", "stable switch housing with cubic structure", "reliability by shock absorption"]
-    - ["W2138361600", "The resulting connections feature optical loss stability"]
-- route: mems_3d
-  dim: trl_band
-  value: production
-  status: reported
-  conf: high
-  quotes:
-    - ["W4292950821", "In this paper, we describe Apollo"]
-    - ["row:1", "Over multiple years"]
-    - ["row:4", "With over 1 million port switches shipped"]
-  note: "Apollo is Google's internal deployment (projects.csv row 1). Calient row 4 is a vendor claim."
-- route: mems_3d
-  dim: ai_cluster_fit
-  value: "partial (datacenter applications)"
-  status: reported
-  conf: medium
-  quotes:
-    - ["W4292950821", "We then delve into the requirements of OCSes"]
-    - ["W2996949883", "With these improvements in hand"]
-  note: "Data center networks, including production use in Apollo. No mems_3d abstract mentions accelerator, TPU, GPU, or ML training clusters. The cluster papers are tagged architecture_only (see the note under the table)."
-- route: mems_3d
-  dim: cost_per_port
-  value: "100"
-  unit: "USD per port"
-  status: reported
-  conf: low
-  quotes:
-    - ["W2996949883", "However, 3D MEMS fabrics are generally dismissed", "($100/port)."]
-  note: "Stated as the typical cost that keeps 3D MEMS out of data centers, not a measured price. The same abstract claims its open loop control cuts cost by a factor of three."
-- route: mems_3d
-  dim: scaling_limit
-  value: "switching speed falls as port count grows (mirror optics and kinematics); cross-axis coupling of two-axis mirrors slows switching"
-  status: reported
-  conf: medium
-  quotes:
-    - ["W2560361359", "However, conventional MEMS beam-steering cross-connects"]
-    - ["W2108251206", "We present a first-principles analysis"]
-    - ["W2529948110", "In a 3DMEMS switch"]
+  mems_3d:
+    switching_time:
+      value: '20 us to a few ms'
+      quotes:
+        - [W2560361359, 'to achieve 150', 'switching time.']
+        - [W2996949883, 'However, 3D MEMS fabrics are generally dismissed']
+        - [W2914521323, 'The switching MEMS-based cross-connects speed']
+      confidence: medium
+      note: 'Both microsecond figures come from W2560361359, which gives up any-to-any connection. 150 us is measured on a 61-port prototype and 20 us is a design for a 2048-port selector switch. W2996949883 says conventional 3D MEMS switches take a few milliseconds. The review W2914521323 spans less than 1 us to tens of ms across all MEMS crossconnect types.'
+    insertion_loss:
+      value: '1.2 to 4.0'
+      unit: dB
+      value_min: 1.2
+      value_max: 4.0
+      quotes:
+        - [W3215039088, 'We experimentally show that the CSS prototype']
+        - [W2138361600, 'We present a microelectromechanical systems-based']
+        - [W2040047675, 'This paper describes the subsystem design']
+        - [W1982772673, 'The low loss (<3dB']
+      confidence: medium
+      note: 'The top of the range is the maximum loss of a crossconnect with more than 1100 ports (W2138361600). The bottom is a small core selective switch for multicore fiber (W3215039088), a different device class. Average losses of large crossconnects fall inside the range (W2040047675, W1982772673).'
+    port_count:
+      value: 'more than 1100'
+      unit: ports
+      quotes:
+        - [W2138361600, 'We present a microelectromechanical systems-based']
+      confidence: medium
+      note: 'Largest port count demonstrated in a route abstract. W2560361359 gives a larger count for a design only. W3041044413 has a title and an abstract that disagree on the module size, so a human should check the full text of W3041044413.'
+    polarization_dependent_loss:
+      quotes:
+        - [W3215039088, 'We experimentally show that the CSS prototype']
+      note: 'W3215039088 prints its polarization dependent loss with garbled markup as a negative figure, which cannot be a loss as written, so no value is entered. A human should check the full text of W3215039088.'
+    crosstalk:
+      note: 'W2040047675 compares expected and measured static and dynamic crosstalk without a figure in the abstract, and W2529948110 only says low crosstalk. A human should check the full text of W2040047675 and of the production system paper W4292950821.'
+    wavelength_range:
+      value: '1500 to 1630'
+      unit: nm
+      value_min: 1500
+      value_max: 1630
+      quotes:
+        - [W3215039088, 'We experimentally show that the CSS prototype']
+      confidence: medium
+      note: 'Only W3215039088, a core selective switch for multicore fiber, states a range. The same abstract reports transmission in the C, S and L bands.'
+    integration:
+      value: free_space_bulk
+      quotes:
+        - [W2138361600, 'We present a microelectromechanical systems-based']
+      confidence: high
+      note: 'Beam steering between micromirror arrays sends light through free space between fiber ports.'
+    packaging_notes:
+      value: 'cubic switch housing, packaging by tolerance expansion, shock absorption; microlens-based multicore fiber collimator array'
+      quotes:
+        - [W2043855221, 'stable switch housing with cubic structure', 'reliability by shock absorption']
+        - [W3215039088, 'In this paper, we report on a novel CSS design']
+      confidence: medium
+    trl_band:
+      value: production
+      quotes:
+        - [W4292950821, 'In this paper, we describe Apollo']
+        - [row 1]
+        - [row 4]
+      confidence: high
+      note: 'Apollo is a production deployment of an internally developed 3D MEMS switch (W4292950821), and projects.csv row 1 is the Google blog on the same system. projects.csv row 4 (Calient) reports shipped switches, a vendor claim.'
+    ai_cluster_fit:
+      value: 'yes'
+      quotes:
+        - [W2560361359, 'This architecture and switch design enable']
+        - [W4292950821, 'In this paper, we describe Apollo']
+      confidence: medium
+      note: 'Yes under the comparison-framework definition, because W2560361359 proposes a switch that moves a data center network between preset interconnection topologies and W4292950821 reports production use in datacenter networks. No abstract in this route names accelerators, GPUs, TPUs or machine learning training.'
+    cost_per_port:
+      value: '100'
+      unit: USD per port
+      quotes:
+        - [W2996949883, 'However, 3D MEMS fabrics are generally dismissed']
+      confidence: medium
+      note: 'Stated as the high cost that keeps 3D MEMS out of data centers. The same abstract claims its open loop control lowers that cost.'
+    scaling_limit:
+      value: 'switching speed falls as port count grows, set by micromirror dynamics'
+      quotes:
+        - [W2560361359, 'However, conventional MEMS beam-steering cross-connects']
+        - [W2108251206, 'We present a first-principles analysis']
+        - [W2529948110, 'As indicated by the simulation results']
+      confidence: high
 
-# ---------------------------------------------------------------- mems_2d
-- route: mems_2d
-  dim: switching_time
-  value: "less than 1 us to tens of ms (all MEMS cross-connect types)"
-  unit: "us to ms"
-  min: "1 us"
-  max: "tens of ms"
-  status: reported
-  conf: low
-  quotes:
-    - ["W2914521323", "The switching MEMS-based cross-connects speed"]
-  note: "Review statement that covers every MEMS cross-connect type, not 2D MEMS alone (W2914521323 is a secondary match here). No primary mems_2d abstract states a switching time."
-- route: mems_2d
-  dim: insertion_loss
-  status: not_reported_in_abstract
-  note: "W1653883346 says low loss without a figure. A human should check the full text of W2914521323."
-- route: mems_2d
-  dim: port_count
-  value: "16 x 16"
-  unit: ports
-  status: reported
-  conf: medium
-  quotes:
-    - ["W1653883346", "we have demonstrated fully nonblocking", "surface micro-machining"]
-- route: mems_2d
-  dim: integration
-  value: "free_space_bulk (reflective mirrors)"
-  status: reported
-  conf: low
-  quotes:
-    - ["W2605844474", "We are presenting an overview of MEMS-based"]
-  note: "The abstracts say reflective 2D MEMS but do not describe the optical path."
-- route: mems_2d
-  dim: packaging_notes
-  value: "packaged single-chip component; mechanical cell design chosen for reliable actuation"
-  status: reported
-  conf: medium
-  quotes:
-    - ["W1653883346", "high angular repeatability of the movement", "packaged component."]
-- route: mems_2d
-  dim: trl_band
-  value: "lab (demonstrated, fabricated)"
-  status: reported
-  conf: medium
-  quotes:
-    - ["W1653883346", "we have demonstrated fully nonblocking", "surface micro-machining"]
-- route: mems_2d
-  dim: ai_cluster_fit
-  value: "no"
-  status: reported
-  conf: medium
-  quotes:
-    - ["W2089755139", "The use of MEMS for optical switching"]
-  note: "All primary mems_2d abstracts target telecom fiber networks."
-- route: mems_2d
-  dim: cost_per_port
-  status: not_reported_in_abstract
-  note: "W2089755139 calls silicon optical MEMS low-cost without a figure. A human should check the full text of W2914521323."
-- route: mems_2d
-  dim: scaling_limit
-  status: not_reported_in_abstract
-  note: "No mems_2d abstract states what limits port count. W2605844474 says mirror size must shrink to raise speed, which is a speed limit, not a port count limit. A human should check the full text of W2914521323."
+  mems_2d:
+    switching_time:
+      note: 'The review W2914521323, tagged mems_3d with mems_2d as secondary route, gives a speed range for MEMS crossconnects in general, not for 2D MEMS, so it is not transferred. A human should check the full text of W2914521323.'
+    insertion_loss:
+      note: 'W1653883346 reports low loss for its packaged switch without a figure. A human should check the full text of W1653883346.'
+    port_count:
+      value: '16 x 16'
+      unit: ports
+      quotes:
+        - [W1653883346, 'In conclusion we have demonstrated']
+      confidence: medium
+      note: 'A single-chip switch. The array size in W2605844474 counts phase modulator pixels, not switch ports.'
+    polarization_dependent_loss:
+      note: 'No 2D MEMS abstract gives a polarization figure. A human should check the full text of W2914521323.'
+    crosstalk:
+      note: 'A human should check the full text of W2914521323, which discusses crosstalk of MEMS crossconnects.'
+    wavelength_range:
+      note: 'A human should check the full text of W2089755139.'
+    integration:
+      value: free_space_bulk
+      quotes:
+        - [W2605844474, 'We are presenting an overview of MEMS-based']
+      confidence: low
+      note: 'Reflective 2D MEMS mirrors pass light through free space, but W1653883346 builds its whole switch on a single chip. No abstract states the packaging.'
+    packaging_notes:
+      value: 'packaged single-chip component with reliable actuation'
+      quotes:
+        - [W1653883346, 'high reliability of the actuation mechanism', 'packaged component.']
+      confidence: medium
+    trl_band:
+      value: lab
+      quotes:
+        - [W1653883346, 'In conclusion we have demonstrated']
+      confidence: medium
+      note: 'Papers report demonstrated devices. No projects.csv row has tech_route mems_2d.'
+    ai_cluster_fit:
+      value: 'no'
+      quotes:
+        - [W2089755139, 'We show that this technology meets']
+      confidence: medium
+      note: 'Papers target fiber optic telecom networks. None names data centers.'
+    cost_per_port:
+      note: 'W2089755139 calls silicon optical MEMS low cost without a figure. A human should check the full text of W2089755139.'
+    scaling_limit:
+      value: 'higher speed needs smaller mirrors, which reflect less efficiently'
+      quotes:
+        - [W2605844474, 'To further increase the speed', 'favors a diffraction-based approach.']
+      confidence: low
+      note: 'This limits speed rather than port count. No 2D MEMS abstract states what limits port count.'
 
-# ---------------------------------------------------------------- mems_silicon_photonic
-- route: mems_silicon_photonic
-  dim: switching_time
-  value: "0.4 to 200"
-  unit: us
-  min: "0.4"
-  max: "200"
-  status: reported
-  conf: medium
-  quotes:
-    - ["W2615050161", "Fiber-to-grating coupler loss"]
-    - ["W2094432207", "The switches are characterized by low actuation voltage"]
-  note: "0.4 us is a packaged digital switch (W2615050161). 200 us is the slow end of early cantilever waveguide switches (W2094432207). Most large fabrics in this route report sub-microsecond switching."
-- route: mems_silicon_photonic
-  dim: insertion_loss
-  value: "3.7 to 22.7"
-  unit: dB
-  min: "3.7"
-  max: "22.7"
-  status: reported
-  conf: medium
-  quotes:
-    - ["W2260723393", "Here, we present a 64 x 64"]
-    - ["W2800201100", "The maximum (minimum) on-chip loss"]
-    - ["W2581695752", "We report on the first electrical and optical packaging"]
-  note: "On-chip loss of N x N fabrics. 3.7 dB is a 64 x 64 switch (W2260723393). 22.7 dB is the worst path of the largest fabric (W2800201100). Packaged fiber-to-fiber loss is higher (W2581695752)."
-- route: mems_silicon_photonic
-  dim: port_count
-  value: "128 x 128"
-  unit: ports
-  status: reported
-  conf: high
-  quotes:
-    - ["W2800201100", "128", "mm2 chip."]
-    - ["W2786734285", "We design and fabricate the packaging of 128"]
-- route: mems_silicon_photonic
-  dim: polarization_dependent_loss
-  value: "0.5 to 8.5"
-  unit: dB
-  min: "0.5"
-  max: "8.5"
-  status: reported
-  conf: low
-  quotes:
-    - ["W2591111335", "The adiabatically tapered waveguide couplers in Gen-C"]
-    - ["W2782897921", "A polarization-dependent loss of 8.5 dB"]
-  note: "0.5 dB is a design target in a dissertation (W2591111335). 8.5 dB is measured on a fabricated prototype (W2782897921). Design versus measurement, so the range is wide."
-- route: mems_silicon_photonic
-  dim: crosstalk
-  value: "-80 to -30"
-  unit: dB
-  min: "-80"
-  max: "-30"
-  status: reported
-  conf: medium
-  quotes:
-    - ["W4226451033", "The maximum on-chip loss is measured to be 4 dB"]
-    - ["W2979824403", "The WXC exhibits a low crosstalk"]
-  note: "-80 dB is a wafer-bonded switch (W4226451033). -30 dB is a wavelength cross-connect (W2979824403)."
-- route: mems_silicon_photonic
-  dim: wavelength_range
-  value: "1250 to 1700"
-  unit: nm
-  min: "1250"
-  max: "1700"
-  status: reported
-  conf: medium
-  quotes:
-    - ["W3115038226", "This photonic switch works very well"]
-    - ["W2257494936", "Our switch exhibits a sub-microsecond"]
-  note: "1250-1650 nm is a single switch element (W3115038226). 1400-1700 nm is a full switch fabric (W2257494936)."
-- route: mems_silicon_photonic
-  dim: integration
-  value: integrated_photonic
-  status: reported
-  conf: high
-  quotes:
-    - ["W1982681165", "In this paper, we report on a new type of integrated OCS"]
-    - ["W2257494936", "In this paper, we report on a 50"]
-- route: mems_silicon_photonic
-  dim: packaging_notes
-  value: "grating-coupler fiber attach through flip-chip interposers and fiber arrays (4.25 dB and 2.5 dB per facet); a pluggable package moves fiber coupling off the package"
-  status: reported
-  conf: medium
-  quotes:
-    - ["W2615050161", "Fiber-to-grating coupler loss"]
-    - ["W2786734285", "The apodised grating couplers"]
-    - ["W2919451605", "This approach shifts fibre coupling away", "electrical.”"]
-- route: mems_silicon_photonic
-  dim: trl_band
-  value: "lab (fabricated)"
-  status: reported
-  conf: medium
-  quotes:
-    - ["W3138799074", "The switch is fabricated on 200-mm"]
-    - ["row:8", "nEye"]
-  note: "Commercial foundry fabrication and a startup prototype (nEye, projects.csv row 8, stage prototype), but no pilot or production evidence. The row 8 quote says the chip is moving to the fab, not that it is in a field trial or a production run."
-- route: mems_silicon_photonic
-  dim: ai_cluster_fit
-  value: "yes"
-  status: reported
-  conf: high
-  quotes:
-    - ["arxiv:2608.03146", "Large-scale photonic switches are emerging"]
-    - ["W4402905306", "High-performance photonic switches are essential"]
-- route: mems_silicon_photonic
-  dim: cost_per_port
-  status: not_reported_in_abstract
-  note: "W2260723393 cites low manufacturing cost of silicon photonics without a per-port figure. A human should check the full text of W2909208749."
-- route: mems_silicon_photonic
-  dim: scaling_limit
-  value: "electrical connections grow as N squared with individual addressing, so addressing and packaging of the electrical and optical I/O limit scale"
-  status: reported
-  conf: medium
-  quotes:
-    - ["W2271940456", "For a crossbar architecture switch fabric"]
-    - ["W2615050161", "The challenges in packaging", "interconnections are addressed"]
-  note: "Several papers state the crossbar architecture itself scales because light passes only one switching element (W1982681165)."
+  mems_silicon_photonic:
+    switching_time:
+      value: '0.4 to 200'
+      unit: us
+      value_min: 0.4
+      value_max: 200
+      quotes:
+        - [W2581695752, 'We report on the first electrical']
+        - [W2260723393, 'The measured switching time is 0.91']
+        - [W2094432207, 'The switches are characterized by']
+      confidence: medium
+      note: 'Sub-microsecond values come from large digital switches with MEMS-actuated couplers (W2581695752, W2260723393). The slow end is an early cantilever waveguide switch (W2094432207).'
+    insertion_loss:
+      value: '3.7 to 22.7'
+      unit: dB
+      value_min: 3.7
+      value_max: 22.7
+      quotes:
+        - [W2260723393, 'Here, we present a 64 x 64']
+        - [W2800201100, 'The maximum (minimum) on-chip loss']
+      confidence: medium
+      note: 'On-chip loss of full switch matrices. Single switch elements report much lower excess loss (W3115038226, W4414694752), and packaged fiber-to-fiber loss is higher (W2581695752).'
+    port_count:
+      value: '128 x 128'
+      unit: ports
+      quotes:
+        - [W2800201100, 'silicon photonic switch with 16,384']
+        - [W2786734285, 'We design and fabricate the packaging']
+      confidence: high
+      note: 'One paper reports the chip and the other its package, at the same size.'
+    polarization_dependent_loss:
+      value: '0.5 to 8.5'
+      unit: dB
+      value_min: 0.5
+      value_max: 8.5
+      quotes:
+        - [W2782897921, 'A polarization-dependent loss of 8.5']
+        - [W2591111335, 'The adiabatically tapered waveguide couplers in Gen-C']
+      confidence: low
+      note: '8.5 dB is measured on a prototype (W2782897921). 0.5 dB is a design value (W2591111335), and W2782897921 also projects lower values from simulation.'
+    crosstalk:
+      value: '-80 to -30'
+      unit: dB
+      value_min: -80
+      value_max: -30
+      quotes:
+        - [W4226451033, 'The maximum on-chip loss is measured to be 4 dB']
+        - [W2094432207, 'The switches are characterized by']
+      confidence: low
+      note: 'The two figures differ widely. The low end comes from a very short abstract, so a human should check the full text of W4226451033.'
+    wavelength_range:
+      value: '1250 to 1700'
+      unit: nm
+      value_min: 1250
+      value_max: 1700
+      quotes:
+        - [W3115038226, 'This photonic switch works very well']
+        - [W2257494936, 'Our switch exhibits a sub-microsecond']
+      confidence: medium
+      note: 'The low end is a single switch element (W3115038226) and the high end a full switch matrix (W2257494936). Other devices in this route work in the O band (W4226451033) or the C band (arxiv:2608.03146).'
+    integration:
+      value: integrated_photonic
+      quotes:
+        - [W1982681165, 'In this paper, we report on a new type of integrated OCS']
+      confidence: high
+      note: 'Light stays in silicon waveguides on the chip, and MEMS actuators move waveguide couplers.'
+    packaging_notes:
+      value: 'flip-chip bonding onto aluminum nitride or through-glass-via glass interposers with fiber arrays; a pluggable package with passive optical coupling'
+      quotes:
+        - [W2615050161, 'The challenges in packaging', 'aluminum nitride interposer']
+        - [W2786734285, 'We design and fabricate the packaging']
+        - [W2919451605, 'In this article, we proposed a pluggable']
+      confidence: high
+      note: 'W1945545782 reports reliability tests run without packaging.'
+    trl_band:
+      value: lab
+      quotes:
+        - [W2909208749, 'Finally, the critical challenges']
+        - [W3138799074, 'The switch is fabricated on 200-mm']
+      confidence: medium
+      note: 'Devices are demonstrated in the lab, one of them made in a commercial CMOS foundry (W3138799074). projects.csv row 8 (nEye) says its chip is moving from the lab to the fab, and the scout lists its stage as prototype, so the band stays lab.'
+    ai_cluster_fit:
+      value: 'yes'
+      quotes:
+        - ['arxiv:2608.03146', 'Large-scale photonic switches are emerging']
+        - [W4402905306, 'High-performance photonic switches are essential']
+        - [W1982681165, 'Fast optical circuit switches (OCSs) with high port count']
+      confidence: high
+      note: 'Two abstracts name AI or machine learning directly (arxiv:2608.03146, W4402905306), and W1982681165 proposes the switch for reconfigurable datacenter bandwidth.'
+    cost_per_port:
+      note: 'Abstracts claim low cost from CMOS processes without a figure. A human should check the full text of W2909208749.'
+    scaling_limit:
+      value: 'electrical connection count, which grows with the square of port count under individual addressing, and packaging those connections'
+      quotes:
+        - [W2271940456, 'For a crossbar architecture switch fabric']
+        - [W2615050161, 'The challenges in packaging', 'aluminum nitride interposer']
+      confidence: medium
+      note: 'Optical loss is less of a limit in the crossbar layout because light passes one switching element whatever the switch size (W2257494936, W1982681165).'
 
-# ---------------------------------------------------------------- lcos
-- route: lcos
-  dim: switching_time
-  value: "11.5"
-  unit: us
-  status: reported
-  conf: low
-  quotes:
-    - ["W2002555923", "a wavelength-selective switch that has a measured", "network interface card."]
-  note: "Network-level reconfiguration time including signal acquisition. The abstract says wavelength-selective switch and does not name LCoS, so the lcos tag rests on the WSS signal word. A human should check the full text of W2002555923."
-- route: lcos
-  dim: insertion_loss
-  value: "approximately 2 dB (projected net loss)"
-  unit: dB
-  status: reported
-  conf: low
-  quotes:
-    - ["W3034334810", "Although some output MCF ports"]
-  note: "A projection from a prototype whose measured loss is higher on some ports."
-- route: lcos
-  dim: port_count
-  value: "1 x 6 core selective switch prototype; 23-host network prototype"
-  unit: ports
-  status: reported
-  conf: medium
-  quotes:
-    - ["W3034334810", "We show an example of an implemented"]
-    - ["W2002555923", "We experimentally evaluate the network-level switching time"]
-- route: lcos
-  dim: integration
-  value: free_space_bulk
-  status: reported
-  conf: medium
-  quotes:
-    - ["W3034334810", "We describe the principle, design, and prototyping"]
-- route: lcos
-  dim: packaging_notes
-  value: "multicore fiber collimator and spatial multiplexer array integrated with the LCoS spatial light modulator"
-  status: reported
-  conf: medium
-  quotes:
-    - ["W3034334810", "We show an example of an implemented"]
-- route: lcos
-  dim: trl_band
-  value: "lab (prototype)"
-  status: reported
-  conf: medium
-  quotes:
-    - ["W3034334810", "We show an example of an implemented"]
-    - ["row:3", "a new optical circuit switch"]
-  note: "Coherent (projects.csv row 3) introduced an optical circuit switch on digital liquid-crystal technology with a live demo, but its stage is unknown in projects.csv, so the band stays lab."
-- route: lcos
-  dim: ai_cluster_fit
-  value: "partial (future datacenters)"
-  status: reported
-  conf: medium
-  quotes:
-    - ["W2002555923", "Using multiple parallel rings"]
-    - ["W4404238479", "COCSN employs wavelength-selective switches"]
-  note: "Data center networks only. No abstract in this route names accelerator or ML clusters."
-- route: lcos
-  dim: companies   # hand-written because the row 3 quote does not name Coherent; matrix_build checks the rows match projects.csv
-  value: "Coherent (row 3, stage unknown), optical circuit switch on digital liquid-crystal technology"
-  status: reported
-  conf: low
-  quotes:
-    - ["row:3", "a new optical circuit switch"]
-  note: "Vendor claim from data/projects.csv. The quote says digital liquid-crystal technology and never says liquid crystal on silicon (LCoS), so the lcos route for this row is the scout's assignment. A human should confirm the device type on the row 3 evidence_url."
-- route: lcos
-  dim: cost_per_port
-  status: not_reported_in_abstract
-  note: "W3036907365 compares whole-network cost with electrical switching, not cost per port. A human should check the full text of W3036907365."
-- route: lcos
-  dim: scaling_limit
-  status: not_reported_in_abstract
-  note: "W4404238479 calls WSS configuration time lengthy, which limits agility rather than port count. A human should check the full text of W3034334810."
+  lcos:
+    switching_time:
+      value: '11.5'
+      unit: us
+      quotes:
+        - [W2002555923, 'an optical circuit-switched architecture', 'network interface card.']
+      confidence: low
+      note: 'Network-level reconfiguration time of a wavelength selective switch in a datacenter prototype, including signal acquisition. The abstract does not say that this switch uses LCoS, so its route rests on the tag. W4404238479 calls wavelength selective switch configuration times lengthy without a figure.'
+    insertion_loss:
+      value: 'approximately 2'
+      unit: dB
+      quotes:
+        - [W3034334810, 'Although some output MCF ports exhibit']
+      confidence: low
+      note: 'Projected net loss of a core selective switch prototype. The same sentence says some ports measured higher loss.'
+    port_count:
+      value: '1 x 6'
+      unit: ports
+      quotes:
+        - [W3034334810, 'We show an example of an implemented']
+      confidence: medium
+      note: 'A core selective switch for five-core fiber. projects.csv row 3 (Coherent) names a larger port count in its product field, but its evidence quote does not state it, so it is not used.'
+    polarization_dependent_loss:
+      note: 'A human should check the full text of W3034334810.'
+    crosstalk:
+      note: 'A human should check the full text of W3034334810.'
+    wavelength_range:
+      note: 'A human should check the full text of W3034334810.'
+    integration:
+      value: free_space_bulk
+      quotes:
+        - [W3034334810, 'We describe the principle, design, and prototyping']
+      confidence: medium
+      note: 'The prototype routes beams in free space between a multicore fiber collimator and a spatial light modulator.'
+    packaging_notes:
+      value: 'multicore fiber collimator, spatial multiplexer and demultiplexer array, and LCoS spatial light modulator integrated in one prototype'
+      quotes:
+        - [W3034334810, 'We show an example of an implemented']
+      confidence: medium
+    trl_band:
+      value: lab
+      quotes:
+        - [W3034334810, 'We show an example of an implemented']
+      confidence: medium
+      note: 'Papers report prototypes. projects.csv row 3 (Coherent) announces a new liquid crystal switch with a live demo, and its fetched text does not state availability, so the band stays lab.'
+    ai_cluster_fit:
+      value: 'yes'
+      quotes:
+        - [W2002555923, 'We experimentally evaluate the network-level switching time']
+        - [W4404238479, 'Recent proposals have integrated optical circuit switching']
+      confidence: medium
+      note: 'Wavelength selective switches reconfigure datacenter network connections in W2002555923 and in architecture papers that carry lcos as secondary route. No abstract in this route names accelerators, GPUs, TPUs or machine learning.'
+    cost_per_port:
+      note: 'W3036907365 compares whole-network cost with electrical switching, not cost per port. A human should check the full text of W3036907365.'
+    scaling_limit:
+      note: 'W4404238479 names long wavelength selective switch configuration time as a network issue, not a port count limit. A human should check the full text of W2002555923.'
 
-# ---------------------------------------------------------------- piezo
-- route: piezo
-  dim: switching_time
-  value: millisecond
-  unit: ms
-  status: reported
-  conf: low
-  quotes:
-    - ["W4323644257", "a re-configurable network with both tunable sources", "PZT switching time"]
-  note: "From a network design that assumes piezo beam steering (secondary match), not a measured switch."
-- route: piezo
-  dim: insertion_loss
-  value: "below 2.2 dB"
-  unit: dB
-  status: reported
-  conf: medium
-  quotes:
-    - ["W2591729902", "A 3-port single-sided beam-steering switch"]
-  note: "Core-to-core loss of a 3-port switch for 4-core fibers."
-- route: piezo
-  dim: port_count
-  value: "3 ports demonstrated; 50 by design"
-  unit: ports
-  status: reported
-  conf: low
-  quotes:
-    - ["W2591729902", "A 3-port single-sided beam-steering switch"]
-    - ["W2913395450", "A 50 port switch is possible", "(TA-MCF)"]
-  note: "The 50-port figure is a design analysis for multicore fibers."
-- route: piezo
-  dim: crosstalk
-  value: "-25 dB (design, intercore crosstalk after 1 km)"
-  unit: dB
-  status: reported
-  conf: low
-  quotes:
-    - ["W2913395450", "A 50 port switch is possible", "after 1 km"]
-  note: "A designed multicore-fiber switch, not a measurement."
-- route: piezo
-  dim: wavelength_range
-  value: "1550 nm (design assumption)"
-  unit: nm
-  status: reported
-  conf: low
-  quotes:
-    - ["W2913395450", "assuming an operational wavelength of 1550 nm", "1550 nm"]
-- route: piezo
-  dim: integration
-  value: "free_space_bulk (collimated beams between opposing fiber arrays)"
-  status: reported
-  conf: medium
-  quotes:
-    - ["row:5", "makes connections using compact piezo-electric actuators"]
-    - ["W2913395450", "The design and performance characteristics of a beam steering"]
-  note: "The project row quote is a vendor claim."
-- route: piezo
-  dim: packaging_notes
-  value: "multicore fibers integrated directly into the switch ports"
-  status: reported
-  conf: medium
-  quotes:
-    - ["W2591729902", "We report on the development of the first multi-lane"]
-- route: piezo
-  dim: trl_band
-  value: "lab (development of the first multi-lane switch)"
-  status: reported
-  conf: medium
-  quotes:
-    - ["W2591729902", "We report on the development of the first multi-lane"]
-  note: "Downgraded from production (vendor) in the analyst rework after the audit. projects.csv gives stage shipping for Polatis (row 5) from shop links the scout saw, but the row 5 quote describes the mechanism only, so no quote supports production. A human should check the row 5 evidence_url before raising the band."
-- route: piezo
-  dim: ai_cluster_fit
-  value: "partial (data center network, DCN)"
-  status: reported
-  conf: medium
-  quotes:
-    - ["W2068954499", "Beam-steering large-port-count fiber switches"]
-    - ["W4323644257", "This paper presents the physical layer design"]
-  note: "Data center network designs that assume beam steering (secondary matches). No abstract names accelerator or ML clusters."
-- route: piezo
-  dim: scaling_limit
-  value: "port count set by maximum steering angle and port separation; more cores per fiber raise intercore crosstalk"
-  status: reported
-  conf: medium
-  quotes:
-    - ["W2913395450", "Decreasing port separation"]
+  piezo:
+    switching_time:
+      value: 'millisecond scale'
+      quotes:
+        - [W4323644257, 'a re-configurable network with both tunable sources', 'PZT switching time']
+      confidence: low
+      note: 'Stated as an order of magnitude with no figure, in a network design that assumes piezo beam steering (W4323644257 carries piezo as secondary route).'
+    insertion_loss:
+      value: 'below 2.2'
+      unit: dB
+      quotes:
+        - [W2591729902, 'A 3-port single-sided beam-steering switch']
+      confidence: medium
+      note: 'Core-to-core loss of a small switch for multicore fiber.'
+    port_count:
+      value: '3 to 50'
+      unit: ports
+      value_min: 3
+      value_max: 50
+      quotes:
+        - [W2591729902, 'A 3-port single-sided beam-steering switch']
+        - [W2913395450, 'A 50 port switch is possible', 'trench assisted MCF (TA-MCF)']
+      confidence: low
+      note: '3 ports is a demonstrated switch (W2591729902) and 50 ports is a design estimate (W2913395450). Neither primary paper uses the word piezo, so their route rests on the tag.'
+    polarization_dependent_loss:
+      note: 'A human should check the full text of W2913395450.'
+    crosstalk:
+      value: '-25'
+      unit: dB
+      quotes:
+        - [W2913395450, 'with a total mean statistical crosstalk', '1550 nm']
+      confidence: low
+      note: 'Design estimate of intercore crosstalk on the central core of multicore fiber after a fiber link, not a measured switch crosstalk.'
+    wavelength_range:
+      value: '1550'
+      unit: nm
+      quotes:
+        - [W2913395450, 'with a total mean statistical crosstalk', '1550 nm']
+      confidence: low
+      note: 'An assumed operating wavelength in a design study, not a measured range.'
+    integration:
+      value: free_space_bulk
+      quotes:
+        - [row 5]
+        - [W2591729902, 'A 3-port single-sided beam-steering switch']
+      confidence: medium
+      note: 'projects.csv row 5 (Polatis) describes piezo actuators aligning collimated beams between fiber arrays, a vendor description.'
+    packaging_notes:
+      value: 'multicore fibers integrated directly into the switch; losses from misalignment and core pitch variation estimated'
+      quotes:
+        - [W2591729902, 'We report on the development of the first multi-lane']
+        - [W2913395450, 'Potential losses from system misalignments']
+      confidence: medium
+    trl_band:
+      value: production
+      quotes:
+        - [row 5]
+        - [row 10]
+      confidence: low
+      note: 'Vendor claim. The quote describes a product line on the vendor page, and projects.csv row 5 notes that shop links for the series indicate current availability. projects.csv row 10 (Drut Technologies) uses a Polatis switch in its fabric. Papers in this route are lab designs and prototypes (W2591729902, W2913395450).'
+    ai_cluster_fit:
+      value: 'yes'
+      quotes:
+        - [W2068954499, 'Beam-steering large-port-count fiber switches']
+        - [W4323644257, 'a re-configurable network with both tunable sources', 'PZT switching time']
+      confidence: medium
+      note: 'Both papers carry piezo as secondary route and use beam-steering switches to reconfigure datacenter connections. W2068954499 does not name piezo actuation. No abstract in this route names accelerators, GPUs, TPUs or machine learning.'
+    cost_per_port:
+      note: 'A human should check the full text of W2068954499.'
+    scaling_limit:
+      value: 'port separation and maximum steering angle; more fiber cores add intercore crosstalk'
+      quotes:
+        - [W2913395450, 'Decreasing port separation or increasing']
+      confidence: medium
 
-# ---------------------------------------------------------------- thermo_optic
-- route: thermo_optic
-  dim: switching_time
-  value: "3.52 to 100"
-  unit: us
-  min: "3.52"
-  max: "100"
-  status: reported
-  conf: medium
-  quotes:
-    - ["W3119039973", "A dual-carrier 256-Gb/s"]
-    - ["W2053780865", "At a 1550-nm wavelength"]
-  note: "Both are upper bounds. 3.52 us is a switch system whose thermo-optic tunable filters set the time (W3119039973). 100 us is a small Mach-Zehnder switch (W2053780865)."
-- route: thermo_optic
-  dim: insertion_loss
-  value: "1.74 to 15.8"
-  unit: dB
-  min: "1.74"
-  max: "15.8"
-  status: reported
-  conf: medium
-  quotes:
-    - ["W2974096969", "The on-chip insertion losses are"]
-    - ["W834513743", "The on-chip loss is measured to be"]
-    - ["W4378650891", "The measured average fiber"]
-  note: "1.74 dB is a small switch in thermo-optic mode (W2974096969). 15.8 dB is the on-chip loss of the largest fabric (W834513743). W4378650891 reports 12.88 dB fiber-to-fiber."
-- route: thermo_optic
-  dim: port_count
-  value: "32 x 32"
-  unit: ports
-  status: reported
-  conf: high
-  quotes:
-    - ["W834513743", "We demonstrate a 32"]
-    - ["W2758695468", "A packaged and fully operational 32"]
-    - ["W3119039973", "A dual-carrier 256-Gb/s"]
-    - ["W4394930219", "By two-level cascading"]
-  note: "W3119039973 demonstrates a 1,856 x 1,856 switch system built from thermo-optic tunable filters and coherent receivers, and W4394930219 says two-level cascading expands its lens switch to 576 ports. Both are system or cascade figures, not a single N x N chip."
-- route: thermo_optic
-  dim: polarization_dependent_loss
-  value: "around 2 dB"
-  unit: dB
-  status: reported
-  conf: medium
-  quotes:
-    - ["W4308917780", "The polarization-dependent losses are around 2 dB"]
-  note: "A polarization-insensitive 2 x 2 switch."
-- route: thermo_optic
-  dim: crosstalk
-  value: "-50 to -20"
-  unit: dB
-  min: "-50"
-  max: "-20"
-  status: reported
-  conf: medium
-  quotes:
-    - ["W1985329895", "Lowest crosstalk levels"]
-    - ["W834513743", "The total crosstalk of the switch"]
-  note: "-50 dB is the best state of a small switch (W1985329895). -20 dB is the estimated total for a large fabric (W834513743)."
-- route: thermo_optic
-  dim: wavelength_range
-  value: "C+L band; 110 nm window"
-  unit: "band; nm"
-  status: reported
-  conf: medium
-  quotes:
-    - ["W4391878049", "In this paper, we demonstrate a largest ever"]
-    - ["W4378650891", "In addition, the crosstalk is less than"]
-- route: thermo_optic
-  dim: integration
-  value: integrated_photonic
-  status: reported
-  conf: high
-  quotes:
-    - ["W2053780865", "Using silicon photonic wire waveguides"]
-    - ["W2088068353", "The PILOSS switch consists of"]
-- route: thermo_optic
-  dim: packaging_notes
-  value: "flip-chip bonding to a ceramic land grid array interposer; wire-bonded ceramic package with an attached 68-fiber ribbon; feedback control tolerates thermal crosstalk without chip cooling"
-  status: reported
-  conf: medium
-  quotes:
-    - ["W834513743", "For reliable electrical packaging"]
-    - ["W2758695468", "The die was wire-bonded", "permanently attached"]
-    - ["W2327284773", "thus making the switch fabric robust", "for the silicon chip."]
-- route: thermo_optic
-  dim: trl_band
-  value: "lab (demonstration)"
-  status: reported
-  conf: medium
-  quotes:
-    - ["W4298339091", "We present fully-loaded"]
-- route: thermo_optic
-  dim: ai_cluster_fit
-  value: "yes"
-  status: reported
-  conf: high
-  quotes:
-    - ["W4391878049", "Optical switches significantly improve energy efficiency"]
-    - ["W4384820653", "Reflecting the recent slow-down"]
-- route: thermo_optic
-  dim: cost_per_port
-  status: not_reported_in_abstract
-  note: "W4384820653 calls silicon photonics cost-effective for mass production without a per-port figure. A human should check the full text of W4384820653."
-- route: thermo_optic
-  dim: scaling_limit
-  value: "control units and wiring grow quickly with port count; waveguide crossings add path-dependent loss; heaters draw high power"
-  status: reported
-  conf: high
-  quotes:
-    - ["W4394930219", "Furthermore, when they are cascaded"]
-    - ["W4378650891", "However, it suffers from high path"]
-    - ["W4319827927", "However, the use of"]
+  thermo_optic:
+    switching_time:
+      value: '3.52 to 100'
+      unit: us
+      value_min: 3.52
+      value_max: 100
+      quotes:
+        - [W3119039973, 'A dual-carrier 256-Gb/s DP-QPSK experiment']
+        - [W2053780865, 'At a 1550-nm wavelength']
+        - [W2039715757, 'Thermo-optic actuation with a 2-D array']
+      confidence: high
+      note: 'Both ends are stated as upper bounds. The fast end is a switch system that tunes filters thermo-optically (W3119039973).'
+    insertion_loss:
+      value: '0.2 to 15.8'
+      unit: dB
+      value_min: 0.2
+      value_max: 15.8
+      quotes:
+        - [W4308917780, 'Across the C-band']
+        - [W834513743, 'The on-chip loss is measured to be']
+        - [W4378650891, 'insertion loss is 12.88']
+      confidence: medium
+      note: 'Loss grows with switch size. The low end is a single switch element and the high end is the on-chip loss of a full matrix. W4409153023 reports lower values from simulation only, so they are left out.'
+    port_count:
+      value: '32 x 32 to 1,856 x 1,856'
+      unit: ports
+      value_min: 32
+      value_max: 1856
+      quotes:
+        - [W834513743, 'We demonstrate a 32']
+        - [W3119039973, 'A dual-carrier 256-Gb/s DP-QPSK experiment']
+      confidence: medium
+      note: '32 x 32 is the largest single chip, reported by several papers (W834513743, W2758695468, W4378650891). 1,856 x 1,856 is a switch system that combines tunable filters with coherent detection (W3119039973).'
+    polarization_dependent_loss:
+      value: 'around 2'
+      unit: dB
+      quotes:
+        - [W4308917780, 'The polarization-dependent losses are around 2 dB']
+      confidence: medium
+    crosstalk:
+      value: '-50 to -20'
+      unit: dB
+      value_min: -50
+      value_max: -20
+      quotes:
+        - [W1985329895, 'Lowest crosstalk levels of -50 dB']
+        - [W834513743, 'The total crosstalk of the switch is estimated']
+      confidence: medium
+      note: 'The low end is the best state of a small switch (W1985329895) and the high end an estimate for a full matrix (W834513743).'
+    wavelength_range:
+      value: '1525 to 1565 nm, and C+L band'
+      value_min: 1525
+      value_max: 1565
+      quotes:
+        - [W2797687360, 'The experimental spectral responses are also characterized']
+        - [W4391878049, 'In this paper, we demonstrate a largest ever']
+      confidence: medium
+    integration:
+      value: integrated_photonic
+      quotes:
+        - [W2053780865, 'Using silicon photonic wire waveguides']
+      confidence: high
+    packaging_notes:
+      value: 'flip-chip bonding to a ceramic land grid array interposer; wire bonding to a ceramic package with a permanently attached fiber ribbon; feedback control that runs without chip cooling'
+      quotes:
+        - [W834513743, 'For reliable electrical packaging']
+        - [W2758695468, 'The die was wire-bonded', 'permanently attached']
+        - [W2327284773, 'feedback controlled stabilization', 'for the silicon chip.']
+      confidence: high
+      note: 'W2758695468 gives a different fiber count in its title and its abstract, so a human should check the full text of W2758695468.'
+    trl_band:
+      value: lab
+      quotes:
+        - [W2896156020, 'Moving these demonstrations from research to product']
+        - [W2758695468, 'A packaged and fully operational']
+      confidence: high
+      note: 'No projects.csv row has tech_route thermo_optic.'
+    ai_cluster_fit:
+      value: 'yes'
+      quotes:
+        - [W4391878049, 'Optical switches significantly improve energy efficiency']
+        - [W4384820653, 'Reflecting the recent slow-down']
+      confidence: high
+      note: 'Both abstracts name AI workloads, and W4391878049 names co-integration with GPUs.'
+    cost_per_port:
+      note: 'Abstracts mention cost-effective mass production without a figure. A human should check the full text of W4384820653.'
+    scaling_limit:
+      value: 'control units and wiring grow with port count; waveguide crossings add path-dependent loss'
+      quotes:
+        - [W4394930219, 'Furthermore, when they are cascaded to a network']
+        - [W4378650891, 'However, it suffers from high path']
+      confidence: high
 
-# ---------------------------------------------------------------- electro_optic
-- route: electro_optic
-  dim: switching_time
-  value: "3 to 4"
-  unit: ns
-  min: "3"
-  max: "4"
-  status: reported
-  conf: high
-  quotes:
-    - ["W1997754090", "A switching time of 3 ns"]
-    - ["W2094700182", "Full 2 x 2 switching functionality"]
-  note: "4 ns is an upper bound (less than). 3 ns is a Mach-Zehnder and SOA hybrid (W1997754090)."
-- route: electro_optic
-  dim: insertion_loss
-  value: "1 to 18.5"
-  unit: dB
-  min: "1"
-  max: "18.5"
-  status: reported
-  conf: medium
-  quotes:
-    - ["W1558865741", "We demonstrate a push-pull drive switch"]
-    - ["W2587610600", "The losses were 14.4 to 18.5"]
-  note: "About 1 dB is a single switch element (W1558865741). 18.5 dB is the worst case of the largest fabric in bar status (W2587610600)."
-- route: electro_optic
-  dim: port_count
-  value: "32 x 32"
-  unit: ports
-  status: reported
-  conf: medium
-  quotes:
-    - ["W2587610600", "With these methods, a 32"]
-    - ["W2062631387", "Our analysis indicates"]
-    - ["W2062054310", "while even after seven passes", "10 Gb/s."]
-  note: "W2062631387 argues a 128 x 128 microring fabric is feasible by analysis, and W2062054310 emulates a 128 x 128 router in a recirculating loop. Neither is a fabricated fabric."
-- route: electro_optic
-  dim: crosstalk
-  value: "-24.8 to -9"
-  unit: dB
-  min: "-24.8"
-  max: "-9"
-  status: reported
-  conf: medium
-  quotes:
-    - ["W2587610600", "At a wavelength of 1520 nm"]
-    - ["W2015534895", "We successfully demonstrate operation in all 9"]
-    - ["W1997754090", "An excellent 40 dB"]
-  note: "-24.8 dB is the best state of the largest fabric (W2587610600). -9 dB is the worst case of a small switch (W2015534895). A Mach-Zehnder and SOA hybrid reports 40 dB crosstalk or extinction (W1997754090)."
-- route: electro_optic
-  dim: wavelength_range
-  value: "7 to 110"
-  unit: "nm of optical bandwidth"
-  min: "7"
-  max: "110"
-  status: reported
-  conf: medium
-  quotes:
-    - ["W2015534895", "We successfully demonstrate operation in all 9"]
-    - ["W2094700182", "Crosstalk levels lower than -17 dB"]
-    - ["W1558865741", "We demonstrate a push-pull drive switch"]
-  note: "W1558865741 reports a 45-nm window in the O band."
-- route: electro_optic
-  dim: integration
-  value: "integrated_photonic (monolithically integrated matrix switches)"
-  status: reported
-  conf: high
-  quotes:
-    - ["W1979338531", "Monolithically integrated 8"]
-    - ["W2094700182", "We present an ultra-broadband"]
-- route: electro_optic
-  dim: packaging_notes
-  value: "monolithic integration with CMOS logic and driver circuits on the switch chip; no fiber attach or package described"
-  status: reported
-  conf: medium
-  quotes:
-    - ["W2070900489", "These fabrics are integrated onto a single chip"]
-- route: electro_optic
-  dim: trl_band
-  value: "lab (fabricated)"
-  status: reported
-  conf: medium
-  quotes:
-    - ["W1979338531", "Monolithically integrated 8"]
-- route: electro_optic
-  dim: ai_cluster_fit
-  value: "partial (data center interconnection networks)"
-  status: reported
-  conf: medium
-  quotes:
-    - ["W2062631387", "In this paper we analyze the feasibility"]
-    - ["W2070900489", "This chip-scale switching system"]
-  note: "Data center and high-performance computing interconnects. Only the tutorial W4384820653 (a secondary match) names AI and ML workloads."
-- route: electro_optic
-  dim: scaling_limit
-  value: "crosstalk accumulates across stages and limits fabric size; fabrication non-uniformity needs per-unit calibration; carrier dispersion gives only a small index change"
-  status: reported
-  conf: medium
-  quotes:
-    - ["W2062631387", "We show that optimization of physical layer parameters"]
-    - ["W2587610600", "we developed a method using a limited number", "arising from fabrication errors."]
-    - ["W4319827927", "However, the use of"]
+  electro_optic:
+    switching_time:
+      value: '3 to 4'
+      unit: ns
+      value_min: 3
+      value_max: 4
+      quotes:
+        - [W1997754090, 'A switching time of 3 ns is demonstrated.']
+        - [W2094700182, 'Full 2 x 2 switching functionality']
+        - [W1558865741, 'We further achieve a transition time']
+      confidence: high
+      note: 'W1997754090 is a hybrid of Mach-Zehnder switches and SOA gates. W4297053117 reports a longer connection set-up latency for a whole network, which is not a device switching time.'
+    insertion_loss:
+      value: '1 to 18.5'
+      unit: dB
+      value_min: 1
+      value_max: 18.5
+      quotes:
+        - [W1558865741, 'We demonstrate a push-pull drive switch']
+        - [W2587610600, 'The losses were 14.4 to 18.5 dB']
+      confidence: medium
+      note: 'The low end is a single switch element and the high end is the on-chip loss of a full matrix in its worst state.'
+    port_count:
+      value: '32 x 32'
+      unit: ports
+      quotes:
+        - [W2587610600, 'With these methods, a 32']
+      confidence: medium
+      note: 'Larger fabrics appear only in analysis or simulation (W2062631387, W2007654061).'
+    polarization_dependent_loss:
+      note: 'A human should check the full text of W2896156020, a review that compares common metrics.'
+    crosstalk:
+      value: '-24.8 to -9'
+      unit: dB
+      value_min: -24.8
+      value_max: -9
+      quotes:
+        - [W2587610600, 'At a wavelength of 1520 nm']
+        - [W2015534895, 'We successfully demonstrate operation in all 9']
+      confidence: medium
+      note: 'Crosstalk varies with switch state and design. The hybrid switch with SOA gates in W1997754090 records a stronger extinction.'
+    wavelength_range:
+      value: 'O band; bandwidth 45 to 110 nm'
+      value_min: 45
+      value_max: 110
+      quotes:
+        - [W1558865741, 'We demonstrate a push-pull drive switch']
+        - [W2094700182, 'Crosstalk levels lower than -17 dB']
+      confidence: medium
+      note: 'These are optical bandwidths, not start and end wavelengths.'
+    integration:
+      value: integrated_photonic
+      quotes:
+        - [W2070900489, 'These fabrics are integrated onto a single chip']
+      confidence: high
+    packaging_notes:
+      value: 'CMOS logic and drivers integrated on the switch chip; wide bandwidth kept over temperature variation'
+      quotes:
+        - [W2070900489, 'These fabrics are integrated onto a single chip']
+        - [W2094700182, 'The wide optical bandwidth is maintained']
+      confidence: medium
+      note: 'No abstract in this route describes fiber attach.'
+    trl_band:
+      value: lab
+      quotes:
+        - [W2587610600, 'With these methods, a 32']
+        - [W2896156020, 'Moving these demonstrations from research to product']
+      confidence: high
+    ai_cluster_fit:
+      value: 'yes'
+      quotes:
+        - [W2070900489, 'This chip-scale switching system technology may provide']
+        - [W4384820653, 'The optical switch can simplify the present multi-tier']
+      confidence: medium
+      note: 'W2070900489 proposes replacing electronic switch chips in high-performance computing systems. W4384820653, which carries electro_optic as secondary route, names machine learning workloads and proposes a single optical switch tier in data centers.'
+    cost_per_port:
+      note: 'A human should check the full text of W2909208749.'
+    scaling_limit:
+      value: 'crosstalk and signal degradation that grow with switch size'
+      quotes:
+        - [W2062631387, 'We show that optimization of physical layer parameters']
+        - [W2007654061, 'Optical signal degradation is estimated']
+      confidence: medium
 
-# ---------------------------------------------------------------- soa
-- route: soa
-  dim: switching_time
-  value: "115 to 900"
-  unit: ps
-  min: "115"
-  max: "900"
-  status: reported
-  conf: high
-  quotes:
-    - ["W2064033006", "Switching times up to 115 ps"]
-    - ["W3093967660", "Further, we use a photonic integrated circuit", "burst mode transmission"]
-  note: "Both are sub-nanosecond. 900 ps is an upper bound (less than)."
-- route: soa
-  dim: insertion_loss
-  value: "net gain of more than 14.3 dB for a gate switch; InP WDM switches described as lossless"
-  unit: dB
-  status: reported
-  conf: medium
-  quotes:
-    - ["W2028213396", "The device exhibited a large ON-state gain"]
-    - ["W2912886516", "The lossless photonic WDM switches"]
-- route: soa
-  dim: port_count
-  value: "4 x 4 monolithic cross-connect; 128 x 128 emulated in a recirculating loop"
-  unit: ports
-  status: reported
-  conf: medium
-  quotes:
-    - ["W1989769976", "A monolithic InGaAsP/InP 4"]
-    - ["W2062054310", "while even after seven passes", "10 Gb/s."]
-    - ["W2056973550", "Broadband operation through wavelength division multiplexing"]
-  note: "W2056973550 sizes a 64x64 network by simulation."
-- route: soa
-  dim: polarization_dependent_loss
-  status: not_reported_in_abstract
-  note: "W2028213396 says its SOA gates are polarization insensitive but gives no figure. A human should check the full text of W2028213396."
-- route: soa
-  dim: crosstalk
-  status: not_reported_in_abstract
-  note: "The abstracts give ON-OFF extinction ratio, not crosstalk (W2028213396, W2064033006). A human should decide whether extinction ratio can stand in, and check the full text of W1983164798."
-- route: soa
-  dim: wavelength_range
-  status: not_reported_in_abstract
-  note: "W1989769976 routes four wavelength channels without stating the band. A human should check the full text of W1989769976."
-- route: soa
-  dim: integration
-  value: "integrated_photonic (monolithic cross-connect)"
-  status: reported
-  conf: high
-  quotes:
-    - ["W1989769976", "A monolithic InGaAsP/InP 4"]
-    - ["W2028213396", "A monolithic 8:1 SOA gate switch"]
-- route: soa
-  dim: packaging_notes
-  value: "chip-on-carrier SOA; quantum-dot SOA switch elements can run uncooled"
-  status: reported
-  conf: medium
-  quotes:
-    - ["W2064033006", "An ultrafast electro-optical amplified switch"]
-    - ["W2056973550", "A low distortion space switch technology"]
-- route: soa
-  dim: trl_band
-  value: "lab (we demonstrate)"
-  status: reported
-  conf: medium
-  quotes:
-    - ["W3093967660", "Here we demonstrate ultrafast OCS"]
-- route: soa
-  dim: ai_cluster_fit
-  value: "partial (computing systems and data networks)"
-  status: reported
-  conf: medium
-  quotes:
-    - ["W2056973550", "The proposed architecture is envisaged"]
-    - ["W3093967660", "To support dynamic data center workloads"]
-  note: "Computing systems and data center networks. No abstract names accelerator or ML clusters."
-- route: soa
-  dim: scaling_limit
-  value: "signal degradation and power grow with network size, which limits fabrics to several tens of connections; hybrid Mach-Zehnder and SOA designs cut energy versus pure SOA fabrics"
-  status: reported
-  conf: medium
-  quotes:
-    - ["W2056973550", "Power efficiency and physical layer complexity"]
-    - ["W2007654061", "A comparison between hybrid and SOA switching fabrics"]
+  soa:
+    switching_time:
+      value: '115 to 900'
+      unit: ps
+      value_min: 115
+      value_max: 900
+      quotes:
+        - [W2064033006, 'Switching times up to 115 ps']
+        - [W3093967660, 'Further, we use a photonic integrated circuit', '(<900 ps)']
+      confidence: high
+      note: 'Both papers report sub-nanosecond switching.'
+    insertion_loss:
+      note: 'SOA gates add gain, so W2028213396 reports gain rather than loss and W2912886516 calls its switches lossless. A human should check the full text of W1989769976, which resolves power loss inside its circuit.'
+    port_count:
+      value: '4 x 4 to 128 x 128'
+      unit: ports
+      value_min: 4
+      value_max: 128
+      quotes:
+        - [W1989769976, 'A monolithic InGaAsP/InP 4']
+        - [W2062054310, 'a single pass switch penalty', 'router']
+      confidence: low
+      note: '4 x 4 is a fabricated cross-connect (W1989769976). 128 x 128 is emulated by passing signals through a 2x2 module many times in a loop (W2062054310), a hybrid with Mach-Zehnder switches.'
+    polarization_dependent_loss:
+      note: 'W2028213396 reports polarization insensitivity without a figure. A human should check the full text of W2028213396.'
+    crosstalk:
+      note: 'Abstracts report on-off extinction ratio, not crosstalk (W2028213396, W2064033006), and extinction ratio is not substituted. A human should check the full text of W1983164798, which studies causes of crosstalk.'
+    wavelength_range:
+      note: 'A human should check the full text of W1989769976.'
+    integration:
+      value: integrated_photonic
+      quotes:
+        - [W1989769976, 'A monolithic InGaAsP/InP 4']
+      confidence: high
+      note: 'Several architecture papers in this route use SOA gates in systems whose integration the tag leaves unclear.'
+    packaging_notes:
+      value: 'quantum-dot SOAs operated uncooled; SOAs flip-chip or wafer bonded onto silicon switch fabrics (proposed)'
+      quotes:
+        - [W2056973550, 'A low distortion space switch technology']
+        - [W1983164798, 'We propose integrating semiconductor optical amplifiers']
+      confidence: medium
+    trl_band:
+      value: lab
+      quotes:
+        - [W1989769976, 'A monolithic InGaAsP/InP 4']
+      confidence: medium
+      note: 'No projects.csv row has tech_route soa.'
+    ai_cluster_fit:
+      value: 'yes'
+      quotes:
+        - [W3093967660, 'Optical circuit switches (OCS) represent an appealing option']
+        - [W3006394648, 'We introduce PULSE']
+      confidence: medium
+      note: 'Proposed to replace electrical switches in the core of datacenter networks. W2056973550 targets computing systems. No abstract in this route names accelerators, GPUs, TPUs or machine learning.'
+    cost_per_port:
+      note: 'A human should check the full text of W2912886516, which proposes low cost node designs.'
+    scaling_limit:
+      value: 'signal impairments and degradation that grow with network size'
+      quotes:
+        - [W2056973550, 'Optical signal degradation is estimated as a function of data capacity']
+        - [W2007654061, 'The significantly reduced impairments']
+      confidence: medium
+      note: 'W2007654061 carries soa as secondary route.'
 
-# ---------------------------------------------------------------- robotic_patch_panel
-- route: robotic_patch_panel
-  dim: insertion_loss
-  status: not_reported_in_abstract
-  note: "W2073240697 says low loss and high return loss without a figure. A human should check the full text of W2073240697."
-- route: robotic_patch_panel
-  dim: integration
-  value: mechanical_fiber
-  status: reported
-  conf: medium
-  quotes:
-    - ["W2073240697", "We have developed a fiber-handling robot"]
-- route: robotic_patch_panel
-  dim: packaging_notes
-  value: "connection mechanisms handle angled physical contact connector plugs; environmental specifications were evaluated"
-  status: reported
-  conf: medium
-  quotes:
-    - ["W2073240697", "We also devise new optical connection mechanisms"]
-    - ["W2073240697", "We evaluate the performance of the equipment, such as its optical characteristics and environmental"]
-- route: robotic_patch_panel
-  dim: trl_band
-  value: "production (vendor product launch)"
-  status: reported
-  conf: medium
-  quotes:
-    - ["row:6", "announces today the launch"]
-  note: "Vendor claim, because Telescent announced a product launch (projects.csv row 6, stage shipping). The one core paper is lab work."
-- route: robotic_patch_panel
-  dim: companies   # hand-written because the row 6 quote does not name Telescent; matrix_build checks the rows match projects.csv
-  value: "Telescent (row 6, stage shipping), G5 Robotic Patch Panel"
-  status: reported
-  conf: medium
-  quotes:
-    - ["row:6", "announces today the launch"]
-  note: "Vendor claim from data/projects.csv. The quote names the product, and the company name comes from the row 6 entity and evidence_url."
-- route: robotic_patch_panel
-  dim: ai_cluster_fit
-  value: "no"
-  status: reported
-  conf: low
-  quotes:
-    - ["W2073240697", "indicating that the automated", "access networks."]
-  note: "Only one core paper, aimed at buildings and access networks. The scout quote for row 6 does not mention data centers or AI."
+  robotic_patch_panel:
+    switching_time:
+      note: 'A human should check the full text of W2073240697, the only paper in this route.'
+    insertion_loss:
+      note: 'W2073240697 reports low loss without a figure. A human should check the full text of W2073240697.'
+    port_count:
+      note: 'A human should check the full text of W2073240697.'
+    polarization_dependent_loss:
+      note: 'A human should check the full text of W2073240697.'
+    crosstalk:
+      note: 'A human should check the full text of W2073240697.'
+    wavelength_range:
+      note: 'A human should check the full text of W2073240697.'
+    integration:
+      value: mechanical_fiber
+      quotes:
+        - [W2073240697, 'We have developed a fiber-handling robot']
+      confidence: medium
+    packaging_notes:
+      value: 'handles and connects angled physical contact connector plugs'
+      quotes:
+        - [W2073240697, 'We also devise new optical connection mechanisms']
+      confidence: medium
+    trl_band:
+      value: production
+      quotes:
+        - [row 6]
+      confidence: low
+      note: 'Vendor claim, based on the product launch in projects.csv row 6 (Telescent). The one paper in this route evaluates its equipment and calls it suitable for practical use (W2073240697).'
+    ai_cluster_fit:
+      value: 'no'
+      quotes:
+        - [W2073240697, 'indicating that the automated optical fiber', 'optical access networks.']
+      confidence: medium
+      note: 'The paper targets buildings and access networks. The projects.csv row 6 quote does not mention AI or data centers.'
+    cost_per_port:
+      note: 'W2073240697 says manual cross-connection is expensive, without a figure. A human should check the full text of W2073240697.'
+    scaling_limit:
+      note: 'A human should check the full text of W2073240697.'
 
-reading_list:   # paper_id, why. title, year, and the cells it would fill are added by pipeline.matrix_render
-  - ["W4292950821", "Google's production Apollo system paper. A hyperscaler system paper states the design targets for port count, switching time, and optical performance, so it is the best single read for the 3D MEMS gaps and for AI cluster fit."]
-  - ["W2914521323", "Survey of MEMS cross-connects covering insertion loss, crosstalk, switching speed, and scalability for both 2D and 3D MEMS, where 2D MEMS abstracts are nearly empty."]
-  - ["W2896156020", "Survey of silicon photonic switch fabrics that defines common metrics across thermo-optic, electro-optic, and MEMS actuation, so one read fills gaps in three routes."]
-  - ["W2909208749", "Review of silicon photonic switches with insertion loss, crosstalk, switching time, and packaging per switch engine, the main source for the silicon photonic MEMS cost gap and a cross-check of its wide ranges."]
-  - ["W2073240697", "The only core paper on robotic patch panels, so every performance cell for that route depends on its full text."]
-  - ["W3034334810", "LCoS core selective switch prototype. Its full text should give crosstalk, polarization dependent loss, and wavelength range, which the LCoS abstracts leave empty."]
-  - ["W2913395450", "Design paper for beam steering multicore switches, the best available source for piezo polarization dependent loss, cost, and switching time."]
-  - ["W2002555923", "Mordia datacenter switch. Its full text settles whether its wavelength selective switch is LCoS, which decides if the only LCoS switching time belongs to that route."]
-  - ["W3215039088", "MEMS mirror core selective switch whose stored abstract lost its polarization dependent loss figure to broken math markup."]
-  - ["W2028213396", "SOA gate switch that claims polarization insensitivity and high extinction without the matching crosstalk and polarization figures."]
+# Ten papers for deliverables/reading_list.md, most empty cells first.
+reading_list:
+  - [W2073240697, 'The only paper on robotic patch panels, so its full text could fill most of that route.']
+  - [W2914521323, 'A survey of MEMS crossconnects that discusses speed, loss and crosstalk by actuator type, which could fill the 2D MEMS gaps.']
+  - [W3034334810, 'The main LCoS switch prototype. Its full text likely gives crosstalk, polarization loss and band.']
+  - [W4292950821, 'The Apollo production system paper from Google. It would give production figures for 3D MEMS and settle the crosstalk gap.']
+  - [W2909208749, 'A review of silicon photonic switches that evaluates loss, crosstalk and switching time and discusses the path to commercialization.']
+  - [W2896156020, 'A review of silicon photonic switch fabrics that compares thermo-optic, electro-optic and MEMS switches on common metrics.']
+  - [W1989769976, 'A monolithic SOA cross-connect whose full text resolves power loss inside the circuit.']
+  - [W2089755139, 'A 2D MEMS technology overview that claims low cost and discusses performance and reliability.']
+  - [W3215039088, 'A 3D MEMS core selective switch whose abstract prints a garbled polarization loss figure.']
+  - [W2040047675, 'A 3D MEMS crossconnect subsystem paper that compares measured static and dynamic crosstalk.']

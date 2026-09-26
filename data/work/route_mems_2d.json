@@ -1,0 +1,78 @@
+[
+  {
+    "paper_id": "W2089755139",
+    "title": "Digital MEMS for optical switching",
+    "year": 2002,
+    "venue": "IEEE Communications Magazine",
+    "abstract": "Over the last few years an amazing amount of interest has emerged for applications of micro electro-mechanical systems (MEMS) in telecommunications. Silicon-based optical MEMS have proven to be the technology of choice for low-cost scalable photonic applications because they allow mass manufacturing of highly accurate miniaturized parts, and use materials with excellent mechanical and electrical properties. Applications include tunable lasers, optical switches, and tunable filters. The use of MEMS for optical switching has turned out to be most attractive since this application could revolutionize fiber optic telecommunications. We discuss the technology, performance, and reliability of 2D MEMS optical switches. We show that this technology meets the scalability, performance, and reliability requirements for important applications in fiber optic networks.",
+    "cited_by_count": 176,
+    "tags": {
+      "tech_route": "mems_2d",
+      "tech_route_secondary": null,
+      "integration": "free_space_bulk",
+      "trl_band": "lab",
+      "ai_dc_fit": "none",
+      "adjacent_field": null,
+      "evidence_span": "We discuss the technology, performance, and reliability of 2D MEMS optical switches.",
+      "confidence": "high"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W1653883346",
+    "title": "Digital MEMS switch for planar photonic crossconnects",
+    "year": 2003,
+    "venue": null,
+    "abstract": "In conclusion we have demonstrated fully nonblocking 16/spl times/16 switches in a single chip solution using MEMS fabricated by a surface micro-machining. We have shown how the critical mechanical elements of the MEMS-cell have been chosen to achieve large mechanical movement, high angular repeatability of the movement, and high reliability of the actuation mechanism, which translated into low loss and high reliability of the packaged component. Test results for these components have been presented.",
+    "cited_by_count": 31,
+    "tags": {
+      "tech_route": "mems_2d",
+      "tech_route_secondary": null,
+      "integration": "free_space_bulk",
+      "trl_band": "lab",
+      "ai_dc_fit": "none",
+      "adjacent_field": null,
+      "evidence_span": "In conclusion we have demonstrated fully nonblocking 16/spl times/16 switches in a single chip solution using MEMS fabricated by a surface micro-machining.",
+      "confidence": "medium"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W2605844474",
+    "title": "Diffraction-Based Optical Switching with MEMS",
+    "year": 2017,
+    "venue": "Applied Sciences",
+    "abstract": "We are presenting an overview of MEMS-based (Micro-Electro-Mechanical System) optical switch technology starting from the reflective two-dimensional (2D) and three-dimensional (3D) MEMS implementations. To further increase the speed of the MEMS from these devices, the mirror size needs to be reduced. Small mirror size prevents efficient reflection but favors a diffraction-based approach. Two implementations have been demonstrated, one using the Texas Instruments DLP (Digital Light Processing), and the other an LCoS-based (Liquid Crystal on Silicon) SLM (Spatial Light Modulator). These switches demonstrated the benefit of diffraction, by independently achieving high speed, efficiency, and high number of ports. We also demonstrated for the first time that PSK (Phase Shift Keying) modulation format can be used with diffraction-based devices. To be truly effective in diffraction mode, the MEMS pixels should modulate the phase of the incident light. We are presenting our past and current efforts to manufacture a new type of MEMS where the pixels are moving in the vertical direction. The original structure is a 32 × 32 phase modulator array with high contrast grating pixels, and we are introducing a new sub-wavelength linear array capable of a 310 kHz modulation rate.",
+    "cited_by_count": 32,
+    "tags": {
+      "tech_route": "mems_2d",
+      "tech_route_secondary": "lcos",
+      "integration": "free_space_bulk",
+      "trl_band": "lab",
+      "ai_dc_fit": "none",
+      "adjacent_field": null,
+      "evidence_span": "We are presenting our past and current efforts to manufacture a new type of MEMS where the pixels are moving in the vertical direction.",
+      "confidence": "medium"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W2914521323",
+    "title": "A Comparative Review of MEMS-Based Optical Cross-Connects for All-Optical Networks From the Past to the Present Day",
+    "year": 2019,
+    "venue": "IEEE Communications Surveys & Tutorials",
+    "abstract": "Micro-electro-mechanical systems (MEMS)-based cross-connects are widely used for all-optical switching in recent optical networks. This paper provides a brief overview of various photonic switching technologies and a detailed review of the working principles, actuating mechanisms, and architectures of MEMS-based optical cross-connects (OXCs) from the last two decades. New approaches, which, potentially, will be adopted in the next generation of MEMS-based cross-connects are also described. The switching MEMS-based cross-connects speed can vary from less than 1 μs to tens of ms depending on the chosen switching mechanism and actuator parameters. This paper describes the various types of actuators used to manipulate the optical signal inside all-OXCs. Optical properties (insertion loss, crosstalk), switching speed, and scalability are also discussed.",
+    "cited_by_count": 56,
+    "tags": {
+      "tech_route": "mems_3d",
+      "tech_route_secondary": "mems_2d",
+      "integration": "free_space_bulk",
+      "trl_band": "unclear",
+      "ai_dc_fit": "indirect",
+      "adjacent_field": null,
+      "evidence_span": "This paper provides a brief overview of various photonic switching technologies and a detailed review of the working principles, actuating mechanisms, and architectures of MEMS-based optical cross-connects (OXCs) from the last two decades.",
+      "confidence": "medium"
+    },
+    "match": "secondary"
+  }
+]

@@ -1,0 +1,477 @@
+[
+  {
+    "paper_id": "W2053780865",
+    "title": "Compact 1 × N thermo-optic switches based on silicon photonic wire waveguides",
+    "year": 2005,
+    "venue": "Optics Express",
+    "abstract": "Using silicon photonic wire waveguides, we constructed compact 1 x 1, 1 x 2, and 1 x 4 Mach-Zehnder interferometer type optical switches on a silicon-on-insulator substrate and demonstrated their switching operations through the thermo-optic effect. These switches were smaller than 140 x 65, 85 x 30, and 190 x 75 mum, respectively. At a 1550-nm wavelength, we obtained an extinction ratio larger than 30 dB, a switching power as low as 90 mW, and a switching response time of less than 100 mus. Furthermore, switching operations were successfully demonstrated for the 1 x 4 switch.",
+    "cited_by_count": 143,
+    "tags": {
+      "tech_route": "thermo_optic",
+      "tech_route_secondary": null,
+      "integration": "integrated_photonic",
+      "trl_band": "lab",
+      "ai_dc_fit": "unclear",
+      "adjacent_field": null,
+      "evidence_span": "Using silicon photonic wire waveguides, we constructed compact 1 x 1, 1 x 2, and 1 x 4 Mach-Zehnder interferometer type optical switches on a silicon-on-insulator substrate and demonstrated their switching operations through the thermo-optic effect.",
+      "confidence": "high"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W1985329895",
+    "title": "Low-crosstalk 2 × 2 thermo-optic switch with silicon wire waveguides",
+    "year": 2010,
+    "venue": "Optics Express",
+    "abstract": "We demonstrate a low-crosstalk 2 x 2 thermo-optic switch with silicon wire waveguides. The device is based on a 2 x 2 array of Mach-Zehnder interferometer (MZI) switches. Lowest crosstalk levels of -50 dB and -30 dB are obtained for 'bar' and 'cross' switching states, respectively. An intersection in the switch is important for low-crosstalk operation. The power consumption of one MZI element switch is 40 mW and the total power consumption of the device is at most 160 mW.",
+    "cited_by_count": 130,
+    "tags": {
+      "tech_route": "thermo_optic",
+      "tech_route_secondary": null,
+      "integration": "integrated_photonic",
+      "trl_band": "lab",
+      "ai_dc_fit": "unclear",
+      "adjacent_field": null,
+      "evidence_span": "We demonstrate a low-crosstalk 2 x 2 thermo-optic switch with silicon wire waveguides.",
+      "confidence": "high"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W2062193700",
+    "title": "Wavelength selective switching with one-chip silicon photonic circuit including 8 × 8 matrix switch",
+    "year": 2011,
+    "venue": null,
+    "abstract": "Polarization-independent wavelength path switching is demonstrated with one-chip silicon photonic circuit including 64 thermo-optical switch elements within 12mm × 3mm. Owing to uniformity, any path can be constructed by simply turning on one switch element.",
+    "cited_by_count": 42,
+    "tags": {
+      "tech_route": "thermo_optic",
+      "tech_route_secondary": null,
+      "integration": "integrated_photonic",
+      "trl_band": "lab",
+      "ai_dc_fit": "unclear",
+      "adjacent_field": null,
+      "evidence_span": "Polarization-independent wavelength path switching is demonstrated with one-chip silicon photonic circuit including 64 thermo-optical switch elements within 12mm × 3mm.",
+      "confidence": "high"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W2017873014",
+    "title": "Large current MOSFET on photonic silicon-on-insulator wafers and its monolithic integration with a thermo–optic 2 × 2 Mach–Zehnder switch",
+    "year": 2013,
+    "venue": "Optics Express",
+    "abstract": "n-channel body-tied partially depleted metal-oxide-semiconductor field-effect transistors (MOSFETs) were fabricated for large current applications on a silicon-on-insulator wafer with photonics-oriented specifications. The MOSFET can drive an electrical current as large as 20 mA. We monolithically integrated this MOSFET with a 2 × 2 Mach-Zehnder interferometer optical switch having thermo-optic phase shifters. The static and dynamic performances of the integrated device are experimentally evaluated.",
+    "cited_by_count": 21,
+    "tags": {
+      "tech_route": "thermo_optic",
+      "tech_route_secondary": null,
+      "integration": "integrated_photonic",
+      "trl_band": "lab",
+      "ai_dc_fit": "unclear",
+      "adjacent_field": null,
+      "evidence_span": "We monolithically integrated this MOSFET with a 2 × 2 Mach-Zehnder interferometer optical switch having thermo-optic phase shifters.",
+      "confidence": "high"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W2070900489",
+    "title": "Monolithic Silicon Integration of Scaled Photonic Switch Fabrics, CMOS Logic, and Device Driver Circuits",
+    "year": 2013,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "We demonstrate 4 × 4 and 8 × 8 switch fabrics in multistage topologies based on 2 × 2 Mach–Zehnder interferometer switching elements. These fabrics are integrated onto a single chip with digital CMOS logic, device drivers, thermo-optic phase tuners, and electro-optic phase modulators using IBM's 90 nm silicon integrated nanophotonics technology. We show that the various switch-and-driver systems are capable of delivering nanosecond-scale reconfiguration times, low crosstalk, compact footprints, low power dissipations, and broad spectral bandwidths. Moreover, we validate the dynamic reconfigurability of the switch fabric changing the state of the fabric using time slots with sub-100-ns durations. We further verify the integrity of high-speed data transfers under such dynamic operation. This chip-scale switching system technology may provide a compelling solution to replace some routing functionality currently implemented as bandwidth- and power-limited electronic switch chips in high-performance computing systems.",
+    "cited_by_count": 171,
+    "tags": {
+      "tech_route": "electro_optic",
+      "tech_route_secondary": "thermo_optic",
+      "integration": "integrated_photonic",
+      "trl_band": "lab",
+      "ai_dc_fit": "indirect",
+      "adjacent_field": null,
+      "evidence_span": "These fabrics are integrated onto a single chip with digital CMOS logic, device drivers, thermo-optic phase tuners, and electro-optic phase modulators using IBM's 90 nm silicon integrated nanophotonics technology.",
+      "confidence": "medium"
+    },
+    "match": "secondary"
+  },
+  {
+    "paper_id": "W2039715757",
+    "title": "Optical Crosspoint Matrix Using Broadband Resonant Switches",
+    "year": 2014,
+    "venue": "IEEE Journal of Selected Topics in Quantum Electronics",
+    "abstract": "A low loss, broadband crosspoint switch matrix using high-order resonant optical switch elements is designed, and fabricated for the first time. Multi-path routing is demonstrated for a broad range of representative paths across the circuit. Connections are assessed between eight inputs and four outputs to show losses as low as 0.9 dB per off state ring and 2.0 dB per on state ring. Analysis of the on-state and off-state transfer functions reveal switch extinction ratios exceeding 20 dB for operational bandwidths of 100 GHz for twenty-five different path combinations. Switching is implemented with thermo-optic tuning to give 100-GHz passbands and stopbands. Thermo-optic actuation with a 2-D array of on-chip microheaters allows rise and fall switching times of 17 and 4 microseconds respectively. Power penalties of less than 1.0 dB at 10 Gb/s are observed for twenty eight paths and comparable performance is observed for 40 Gb/s routing on representative paths through the switch matrix without significant signal degradation.",
+    "cited_by_count": 76,
+    "tags": {
+      "tech_route": "thermo_optic",
+      "tech_route_secondary": null,
+      "integration": "integrated_photonic",
+      "trl_band": "lab",
+      "ai_dc_fit": "unclear",
+      "adjacent_field": null,
+      "evidence_span": "Switching is implemented with thermo-optic tuning to give 100-GHz passbands and stopbands.",
+      "confidence": "high"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W2088068353",
+    "title": "Ultra-compact 8 × 8 strictly-non-blocking Si-wire PILOSS switch",
+    "year": 2014,
+    "venue": "Optics Express",
+    "abstract": "We report on a path-independent insertion-loss (PILOSS) 8 × 8 matrix switch based on Si-wire waveguides, which has a record-small footprint of 3.5 × 2.4 mm2. The PILOSS switch consists of 64 thermooptic Mach-Zehnder (MZ) switches and 49 low-crosstalk intersections. Each of the MZ switches and intersections employs directional couplers, which enable the composition of a low loss PILOSS switch. We demonstrate successful switching of digital-coherent 43-Gbps QPSK signal.",
+    "cited_by_count": 123,
+    "tags": {
+      "tech_route": "thermo_optic",
+      "tech_route_secondary": null,
+      "integration": "integrated_photonic",
+      "trl_band": "lab",
+      "ai_dc_fit": "unclear",
+      "adjacent_field": null,
+      "evidence_span": "The PILOSS switch consists of 64 thermooptic Mach-Zehnder (MZ) switches and 49 low-crosstalk intersections.",
+      "confidence": "high"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W1558865741",
+    "title": "Design and Fabrication of Low-Insertion-Loss and Low-Crosstalk Broadband $2\\times 2$ Mach–Zehnder Silicon Photonic Switches",
+    "year": 2015,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "We present the design, fabrication, and measurement results of low-insertion-loss and low-crosstalk broadband 2 × 2 Mach-Zehnder switches for nanosecond-scale optical data routing applications. We propose a simulation framework to calculate the spectral characteristics of switches and use it to design two switches: one based on directional couplers, the other using two-section directional couplers for broader bandwidth. We show that driving the switch in a push-pull manner enables to reduce insertion loss and optical crosstalk at the expense of the optical bandwidth. We achieve a good correlation between simulations and devices fabricated in IBM's 90-nm photonics-enabled CMOS process. We demonstrate a push-pull drive switch with insertion loss of ~1 dB and an optical crosstalk smaller than -23 dB over a 45-nm optical bandwidth in the O-band. We further achieve a transition time of ~4 ns with an average phase shifter consumption of 1 mW and a heater efficiency of ~25 mW/π.",
+    "cited_by_count": 94,
+    "tags": {
+      "tech_route": "electro_optic",
+      "tech_route_secondary": "thermo_optic",
+      "integration": "integrated_photonic",
+      "trl_band": "lab",
+      "ai_dc_fit": "unclear",
+      "adjacent_field": null,
+      "evidence_span": "We present the design, fabrication, and measurement results of low-insertion-loss and low-crosstalk broadband 2 × 2 Mach-Zehnder switches for nanosecond-scale optical data routing applications.",
+      "confidence": "medium"
+    },
+    "match": "secondary"
+  },
+  {
+    "paper_id": "W2324604385",
+    "title": "Fast and accurate calibration method for large-port-count Si-wire PILOSS optical switch",
+    "year": 2015,
+    "venue": null,
+    "abstract": "We propose a calibration method for N×N Si-wire path-independent-insertion-loss (PILOSS) optical switches with thermo-optic Mach-Zehnder-interferometer (MZI) element switches. Calibration for a 32x32 switch is numerically demonstrated with an error less than 1% within an hour.",
+    "cited_by_count": 4,
+    "tags": {
+      "tech_route": "thermo_optic",
+      "tech_route_secondary": null,
+      "integration": "integrated_photonic",
+      "trl_band": "lab",
+      "ai_dc_fit": "none",
+      "adjacent_field": null,
+      "evidence_span": "We propose a calibration method for N×N Si-wire path-independent-insertion-loss (PILOSS) optical switches with thermo-optic Mach-Zehnder-interferometer (MZI) element switches.",
+      "confidence": "high"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W834513743",
+    "title": "Ultra-compact 32 × 32 strictly-non-blocking Si-wire optical switch with fan-out LGA interposer",
+    "year": 2015,
+    "venue": "Optics Express",
+    "abstract": "We demonstrate a 32 × 32 path-independent-insertion-loss optical path switch that integrates 1024 thermooptic Mach-Zehnder switches and 961 intersections on a small, 11 × 25 mm2 die. The switch is fabricated on a 300-mm-diameter silicon-on-insulator wafer by a complementary metal-oxide semiconductor-compatible process with advanced ArF immersion lithography. For reliable electrical packaging, the switch chip is flip-chip bonded to a ceramic interposer that arranges the electrodes in a 0.5-mm pitch land grid array. The on-chip loss is measured to be 15.8 ± 1.0 dB, and successful switching is demonstrated for digital-coherent 43-Gb/s QPSK signals. The total crosstalk of the switch is estimated to be less than -20 dB at the center wavelength of 1545 nm. The bandwidth narrowing caused by dimensional errors that arise during fabrication is discussed.",
+    "cited_by_count": 193,
+    "tags": {
+      "tech_route": "thermo_optic",
+      "tech_route_secondary": null,
+      "integration": "integrated_photonic",
+      "trl_band": "lab",
+      "ai_dc_fit": "unclear",
+      "adjacent_field": null,
+      "evidence_span": "We demonstrate a 32 × 32 path-independent-insertion-loss optical path switch that integrates 1024 thermooptic Mach-Zehnder switches and 961 intersections on a small, 11 × 25 mm2 die.",
+      "confidence": "high"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W2327284773",
+    "title": "Automated Routing and Control of Silicon Photonic Switch Fabrics",
+    "year": 2016,
+    "venue": "IEEE Journal of Selected Topics in Quantum Electronics",
+    "abstract": "Automatic reconfiguration and feedback controlled routing is demonstrated in an$8 \\times 8$silicon photonic switch fabric based on Mach–Zehnder interferometers. The use of noninvasive contactless integrated photonic probes (CLIPPs) enables real-time monitoring of the state of each switching element individually. Local monitoring provides direct information on the routing path, allowing an easy sequential tuning and feedback controlled stabilization of the individual switching elements, thus making the switch fabric robust against thermal crosstalk, even in the absence of a cooling system for the silicon chip. Up to 24 CLIPPs are interrogated by a multichannel integrated ASIC wire bonded to the photonic chip. Optical routing is demonstrated on simultaneous WDM input signals that are labeled directly on-chip by suitable pilot tones without affecting the quality of the signals. Neither preliminary circuit calibration nor lookup tables are required, being the proposed control scheme inherently insensible to channels power fluctuations.",
+    "cited_by_count": 56,
+    "tags": {
+      "tech_route": "thermo_optic",
+      "tech_route_secondary": null,
+      "integration": "integrated_photonic",
+      "trl_band": "lab",
+      "ai_dc_fit": "unclear",
+      "adjacent_field": null,
+      "evidence_span": "Automatic reconfiguration and feedback controlled routing is demonstrated in an$8 \\times 8$silicon photonic switch fabric based on Mach–Zehnder interferometers.",
+      "confidence": "medium"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W2758695468",
+    "title": "Silicon Photonic Switch Subsystem With 900 Monolithically Integrated Calibration Photodiodes and 64-Fiber Package",
+    "year": 2017,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "A packaged and fully operational 32 × 32 silicon photonic switch chip having 448 switch cells and 1856 crossings is demonstrated. The switch chip includes 900 monolithically integrated photodiodes used for calibrating the thermo-optic Mach-Zehnder switch cells. The calibration procedure employs an external laser source and follows a reachability-tree sequence to calibrate all switch cells. The accuracy of the calibration is demonstrated by the measurement of switch cell extinction ratios, for both states of each switch cell. The mean extinction ratio for both states is 35 dB. Arbitrary light path switching is demonstrated. Measurement of the channel-to-channel crosstalk was performed for a large number of aggressor and victim light path combinations. The matrix crosstalk is dominated by contributions from waveguide crossings. The die was wire-bonded to a custom ceramic package, to which a 68-fiber ribbon was permanently attached, which coupled the input and output optical signals to edge couplers on the chip through a waveguide pitch- and mode-concentrating silica chip. The fiber-to-fiber loss of on-chip loopback waveguides was less than 6.5 dB from 1530 to 1565 nm. The entirety of switch cells and monitors was driven by controller boards and A/D chips using a controller field-programmable gate array (FPGA). The calibration procedure was completed in less than 10 min using only the on-chip monitors, without off-chip detectors. The chip was recalibrated after six months storage, and the measured change in drive current was within the calibration uncertainty, indicating that the chip and driver are stable over time.",
+    "cited_by_count": 78,
+    "tags": {
+      "tech_route": "thermo_optic",
+      "tech_route_secondary": null,
+      "integration": "integrated_photonic",
+      "trl_band": "lab",
+      "ai_dc_fit": "unclear",
+      "adjacent_field": null,
+      "evidence_span": "The switch chip includes 900 monolithically integrated photodiodes used for calibrating the thermo-optic Mach-Zehnder switch cells.",
+      "confidence": "high"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W2797687360",
+    "title": "Six‐port optical switch for cluster‐mesh photonic network‐on‐chip",
+    "year": 2018,
+    "venue": "Nanophotonics",
+    "abstract": "Abstract Photonic network‐on‐chip for high‐performance multi‐core processors has attracted substantial interest in recent years as it offers a systematic method to meet the demand of large bandwidth, low latency and low power dissipation. In this paper we demonstrate a non‐blocking six‐port optical switch for cluster‐mesh photonic network‐on‐chip. The architecture is constructed by substituting three optical switching units of typical Spanke‐Benes network to optical waveguide crossings. Compared with Spanke‐Benes network, the number of optical switching units is reduced by 20%, while the connectivity of routing path is maintained. By this way the footprint and power consumption can be reduced at the expense of sacrificing the network latency performance in some cases. The device is realized by 12 thermally tuned silicon Mach‐Zehnder optical switching units. Its theoretical spectral responses are evaluated by establishing a numerical model. The experimental spectral responses are also characterized, which indicates that the optical signal‐to‐noise ratios of the optical switch are larger than 13.5 dB in the wavelength range from 1525 nm to 1565 nm. Data transmission experiment with the data rate of 32 Gbps is implemented for each optical link.",
+    "cited_by_count": 24,
+    "tags": {
+      "tech_route": "thermo_optic",
+      "tech_route_secondary": null,
+      "integration": "integrated_photonic",
+      "trl_band": "lab",
+      "ai_dc_fit": "none",
+      "adjacent_field": null,
+      "evidence_span": "In this paper we demonstrate a non‐blocking six‐port optical switch for cluster‐mesh photonic network‐on‐chip.",
+      "confidence": "high"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W2896156020",
+    "title": "Silicon Photonic Switch Fabrics: Technology and Architecture",
+    "year": 2018,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "Photonic switching technologies show potential for transforming communication networks across diverse markets from long-haul to short-reach distance scales due to their large bandwidth density, high energy efficiency, and potential for low cost. In recent years, numerous outstanding advancements have been made in scaled silicon photonic switching fabrics: spanning a variety of manufacturing platforms and packaging methods, relying on different switching mechanisms, and assembled on-chip in a diverse mixture of loosely related architectures. This paper reviews the current approaches employed by leading researchers in this area, and surveys the state of the art in achieved performance at both the technological and the architectural level. Specifically, we consider thermo-optic, electro-optic, and MEMS-based switch actuation embedded in Mach-Zehnder interferometer, ring resonator, and directional coupler based silicon photonic switches. We define common metrics and compare performances. We outline critical requirements for constructing scaled switch fabrics from elementary cells. We investigate similarities and differences between a number of commonly utilized topologies. And, we survey recent accomplishments in scaled switch fabrics at the chip and package level. Moving these demonstrations from research to product will require many further advancements, and we highlight areas that we believe will be critical for market adoption.",
+    "cited_by_count": 102,
+    "tags": {
+      "tech_route": "thermo_optic",
+      "tech_route_secondary": "electro_optic",
+      "integration": "integrated_photonic",
+      "trl_band": "unclear",
+      "ai_dc_fit": "unclear",
+      "adjacent_field": null,
+      "evidence_span": "Specifically, we consider thermo-optic, electro-optic, and MEMS-based switch actuation embedded in Mach-Zehnder interferometer, ring resonator, and directional coupler based silicon photonic switches.",
+      "confidence": "medium"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W2974096969",
+    "title": "Silicon Non-Blocking 4 × 4 Optical Switch Chip Integrated With Both Thermal and Electro-Optic Tuners",
+    "year": 2019,
+    "venue": "IEEE photonics journal",
+    "abstract": "We experimentally demonstrate an integrated strictly non-blocking silicon 4 × 4 optical switch chip that can be operated in both thermo-optic (TO) and electro-optic (EO) switching modes. It is based on the double-layer network (DLN) architecture and consists of twelve 2 × 2 Mach-Zehnder interferometer (MZI) switch elements. TO phase shifters based on TiN microheaters and EO phase shifters based on p-i-n diodes are embedded in both waveguide arms of the MZI elements. The power consumption for TO and EO switching is 34 mW/π and 7 mW/π, respectively. The on-chip insertion losses are 1.74 ± 0.59 dB and 3.79 dB ± 1.32 dB for TO and EO switching, respectively. Due to the merits of the DLN architecture and the optimized performance of the switch elements, the chip possesses low crosstalk of −29.1 dB and −19.4 dB for TO and EO switching, respectively. Quadrature phase-shift keying (QPSK) optical signals with a data rate of 64 Gb/s are transmitted through the switch with no observable deteriorations. Such an optical switch is a promising candidate for both optical circuit switching and optical packet switching for a variety of applications.",
+    "cited_by_count": 32,
+    "tags": {
+      "tech_route": "thermo_optic",
+      "tech_route_secondary": "electro_optic",
+      "integration": "integrated_photonic",
+      "trl_band": "lab",
+      "ai_dc_fit": "unclear",
+      "adjacent_field": null,
+      "evidence_span": "We experimentally demonstrate an integrated strictly non-blocking silicon 4 × 4 optical switch chip that can be operated in both thermo-optic (TO) and electro-optic (EO) switching modes.",
+      "confidence": "high"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W3119039973",
+    "title": "Scalable and Fast Optical Circuit Switch Based on Colorless Coherent Detection: Design Principle and Experimental Demonstration",
+    "year": 2021,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "We investigate a large-scale and fast optical circuit switch system that uses digital coherent technologies. The achievable port count is expanded by introducing colorless detection which eliminates channel selecting filters at receivers. Wavelength selection is performed using a shared local oscillator (LO) bank, which is configured by combining a multi-wavelength optical source with Silicon-photonic tunable filters (TFs). Microsecond switching times are realized with the thermo-optic effect available with the Silicon-photonic TF. Design optimization of the proposed system handles complex level of freedom, i.e., available wavelength number, space switch port count, optical amplifier location and gain, and device loss. In addition, colorless coherent detection induces penalties, which further complicates switch scale assessment. In this paper, we develop a simulator to clarify how those parameters affect switch performance; the switch throughput is maximized with consideration of the degradation stemming from colorless detection. The design performance accurately matches results measured in various system scenarios. A dual-carrier 256-Gb/s DP-QPSK experiment successfully demonstrates a 1,856 × 1,856 optical switch system with switching time under 3.52 μs. The resulting total throughput is 441 Tb/s assuming 7%-overhead HD-FEC. To the best of our knowledge, this is the first demonstration of 400-Tbps class large bandwidth optical switches that use TFs as wavelength selective devices for coherent detection.",
+    "cited_by_count": 17,
+    "tags": {
+      "tech_route": "thermo_optic",
+      "tech_route_secondary": null,
+      "integration": "integrated_photonic",
+      "trl_band": "lab",
+      "ai_dc_fit": "unclear",
+      "adjacent_field": null,
+      "evidence_span": "Microsecond switching times are realized with the thermo-optic effect available with the Silicon-photonic TF.",
+      "confidence": "high"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W4297053117",
+    "title": "Prospects and challenges of optical switching technologies for intra data center networks",
+    "year": 2022,
+    "venue": "Journal of Optical Communications and Networking",
+    "abstract": "This paper explores how optical switching technologies can innovate future intra data center networks. The effectiveness of applying large-port-count optical switches is clarified by comparing the available scales and performances of electrical and optical switching networks. The two core technologies needed to make it happen are presented: large-port-count optical switches that have pay-as-you-grow scalability and a simple and fast switch control procedure. Different from the present multi-tier electrical switch network, single-tier large-port-count optical switches and their parallel configurations are shown to greatly simplify the network. Their combination offers low blocking rates and low latency even though the connection set-up is performed in a completely distributed and asynchronous manner where network wide synchronization and routing control are unneeded. The design and performance verification of our control network are detailed, and experiments on a control network emulation based on field programmable gate arrays are presented. The connection set-up latency of around 20 µs is verified within a floor (200 m) using our recently developed silicon photonic switch and tunable filter devices. The devices rely on the thermo-optic effect, but if we apply the electro-optic effect and adopt a simplified connection set-up procedure, the set-up latency is reduced to around 7 µs. The direction discussed here will pave the way for achieving bandwidth abundant and energy efficient data center networks in the future.",
+    "cited_by_count": 23,
+    "tags": {
+      "tech_route": "thermo_optic",
+      "tech_route_secondary": "electro_optic",
+      "integration": "integrated_photonic",
+      "trl_band": "lab",
+      "ai_dc_fit": "indirect",
+      "adjacent_field": null,
+      "evidence_span": "The connection set-up latency of around 20 µs is verified within a floor (200 m) using our recently developed silicon photonic switch and tunable filter devices.",
+      "confidence": "high"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W4298339091",
+    "title": "Fully-loaded 32×32 silicon thermo-optic switches for disaggregated computing",
+    "year": 2022,
+    "venue": "2022 27th OptoElectronics and Communications Conference (OECC) and 2022 International Conference on Photonics in Switching and Computing (PSC)",
+    "abstract": "This paper discusses how to create a high-radix, fast optical switch for disaggregated computing applications. We present fully-loaded and hitless demonstration of 32×32 silicon thermo-optic switch, achieving hundred thousand port-counts and microsecond switching times.",
+    "cited_by_count": 2,
+    "tags": {
+      "tech_route": "thermo_optic",
+      "tech_route_secondary": null,
+      "integration": "integrated_photonic",
+      "trl_band": "lab",
+      "ai_dc_fit": "indirect",
+      "adjacent_field": null,
+      "evidence_span": "This paper discusses how to create a high-radix, fast optical switch for disaggregated computing applications.",
+      "confidence": "high"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W4308917780",
+    "title": "Broadband Polarization-Insensitive Thermo-Optic Switches on a 220-nm Silicon-on-Insulator Platform",
+    "year": 2022,
+    "venue": "IEEE photonics journal",
+    "abstract": "We demonstrate a polarization-insensitive 2 × 2 thermo-optic switch on a 220-nm silicon-on-insulator platform. This device is based on a balanced Mach-Zehnder interferometer with arms consisting of square-cross-section waveguides. In simulations, the Mach-Zehnder switch (MZS) exhibits extinction ratios (ERs) > 9.5 dB for the transverse electric (TE) and transverse magnetic (TM) polarized modes from 1500 nm to 1600 nm. Experimental results verify the broadband operation of the MZS: switching the two polarizations with ERs > 10 dB over an 85-nm wavelength range. Across the C-band (1530$\\sim$1565 nm), the fabricated MZS has insertion losses of 0.2$\\sim$4.3 dB and ERs > 16 dB (14 dB) at the cross (bar) port for both the TE and TM polarizations. The polarization-dependent losses are around 2 dB within a 100-nm wavelength range, showing the low polarization diversity of the MZS. The proposed MZS is a promising building block for implementing on-chip polarization-division-multiplexed optical interconnects.",
+    "cited_by_count": 14,
+    "tags": {
+      "tech_route": "thermo_optic",
+      "tech_route_secondary": null,
+      "integration": "integrated_photonic",
+      "trl_band": "lab",
+      "ai_dc_fit": "unclear",
+      "adjacent_field": null,
+      "evidence_span": "We demonstrate a polarization-insensitive 2 × 2 thermo-optic switch on a 220-nm silicon-on-insulator platform.",
+      "confidence": "high"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W4319827927",
+    "title": "A Review of Silicon‐Based Integrated Optical Switches",
+    "year": 2023,
+    "venue": "Laser & Photonics Review",
+    "abstract": "Abstract Recently, silicon‐integrated optical circuits have attracted intensive interests, thanks to the compatibility with the complementary metal‐oxide‐semiconductor (CMOS) technology that enables mass production at low cost. The optical switch is an essential part of optical integrated circuits, with broad applications in optical communications and networks, optical computing, and sensing such as LiDAR. In general, the silicon‐integrated optical switch adopts thermo‐optic or carrier dispersion effect to realize reconfigurable signal routing. However, the use of thermo‐optic effect leads to high power consumption, and the carrier dispersion effect has the disadvantage of small refractive index change. In addition, both effects are non‐latching, and hence, continuous power consumption is required even when switching is not needed. For overcoming these drawbacks, phase‐change materials (PCMs) have been introduced into silicon‐integrated optical switches. In this paper, silicon‐integrated optical switches are classified according to the underlying structure and recent research is reviewed. Recent studies on silicon‐integrated optical switches incorporating PCMs are also reviewed. Furthermore, the pros and cons of different types of integrated optical switches with and without PCMs are compared and discussed.",
+    "cited_by_count": 176,
+    "tags": {
+      "tech_route": "thermo_optic",
+      "tech_route_secondary": "electro_optic",
+      "integration": "integrated_photonic",
+      "trl_band": "unclear",
+      "ai_dc_fit": "indirect",
+      "adjacent_field": null,
+      "evidence_span": "In general, the silicon‐integrated optical switch adopts thermo‐optic or carrier dispersion effect to realize reconfigurable signal routing.",
+      "confidence": "medium"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W4378650891",
+    "title": "Broadband 32 × 32 Strictly‐Nonblocking Optical Switch on a Multi‐Layer Si3N4‐on‐SOI Platform",
+    "year": 2023,
+    "venue": "Laser & Photonics Review",
+    "abstract": "Abstract Large‐scale silicon optical switches are essential to support the ever‐increasing data traffic. Among the various switching architectures, the well‐known switch‐and‐select (S&S) architecture has the advantages of low crosstalk and strict non‐blocking. However, it suffers from high path‐dependent losses as the waveguide crossings increase dramatically with the number of ports. In this paper, a large‐scale 32 × 32 S&S optical switch on a multi‐layer Si3N4‐on‐SOI platform is reported. The optical switch chip incorporates 1984 broadband thermo‐optic Mach‐Zehnder interferometer (MZI)‐based switch elements, 246 016 three‐dimensional (3D) waveguide crossings, and 2048 interlayer couplers. Both ≈1‐mdB‐loss 3D waveguide crossings and ≈0.3‐dB‐loss interlayer couplers are realized, significantly reducing the overall insertion loss and footprint of the switch chip. The measured average fiber‐to‐fiber insertion loss is 12.88 dB at the 1580 nm wavelength. In addition, the crosstalk is less than −20.7 dB over the 110‐nm wavelength range. The power consumption of the entire switch chip is only ≈0.98 W due to the air trenches and substrate undercut. High‐fidelity optical transmission of a 50 Gb s−1 quadrature phase‐shift keying signal verifies the high‐performance routing capability of this chip. These results indicate that the large‐scale optical switch with broadband, low crosstalk, and high‐power efficiency is promising for datacenter optical network applications.",
+    "cited_by_count": 47,
+    "tags": {
+      "tech_route": "thermo_optic",
+      "tech_route_secondary": null,
+      "integration": "integrated_photonic",
+      "trl_band": "lab",
+      "ai_dc_fit": "indirect",
+      "adjacent_field": null,
+      "evidence_span": "The optical switch chip incorporates 1984 broadband thermo‐optic Mach‐Zehnder interferometer (MZI)‐based switch elements, 246 016 three‐dimensional (3D) waveguide crossings, and 2048 interlayer couplers.",
+      "confidence": "high"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W4384820653",
+    "title": "Optical switching will innovate intra data center networks [Invited Tutorial]",
+    "year": 2023,
+    "venue": "Journal of Optical Communications and Networking",
+    "abstract": "Reflecting the recent slow-down in Moore’s law and the proliferation of artificial intelligence/machine learning workloads, the performance and energy consumption of networks are becoming barriers in high-performance computing (HPC) and data centers. Optical switches are expected to break these barriers, and indeed their introduction has recently commenced in data centers. This paper discusses how optical switching technologies can innovate future intra data center networks. Hyperscale data centers are much bigger in scale, and network requirements are slightly different from those of HPC. This paper focus on data center networks, since the impact of optical technologies will be more significant in data centers than in HPC. In addition to the scale issue, important metrics to be considered for network design are traffic characteristics and latency, both of which are highlighted in this paper. For hybrid (electrical packet and optical circuit) switching networks, the target latency for the optical circuit switch network (connection setup/teardown time) is shown to be around 10 µs, and the needed technologies are clarified and verified by experiments. The optical switch can simplify the present multi-tier switching network above tier-1 switches into a single tier configuration, which is possible with the development of efficient large port count optical switches. Among the different switching architectures, combining the different dimensions of space and wavelength is shown to be one of the best solutions. Fast switching needs fast device response time. Si photonics devices using Mach–Zehnder interferometers or ring-resonator-based switches and tunable filters are the most promising candidates; they offer cost-effective mass-production and fast operation and so are excellent candidates for the optical switches envisaged. Another critical technology to maximize the benefits of optical switches is a simple and low-latency control mechanism. Different approaches have been suggested as summarized in this work. Among them, harnessing optical switch parallelism is a unique technique that matches recent advances in electrical switch chips. A fast control network is realized by using a fully decentralized and asynchronous control mechanism. A hyperscale data center offers a wide variety of services, and no one system fits all needs. Optimization of parameters is an important task for maximizing the impact of optical switching in different kinds of data centers.",
+    "cited_by_count": 61,
+    "tags": {
+      "tech_route": "thermo_optic",
+      "tech_route_secondary": "electro_optic",
+      "integration": "integrated_photonic",
+      "trl_band": "lab",
+      "ai_dc_fit": "direct",
+      "adjacent_field": null,
+      "evidence_span": "Si photonics devices using Mach–Zehnder interferometers or ring-resonator-based switches and tunable filters are the most promising candidates; they offer cost-effective mass-production and fast operation and so are excellent candidates for the optical switches envisaged.",
+      "confidence": "medium"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W4391878049",
+    "title": "Large-Scale and Multiband Silicon Photonics Wavelength Cross-Connect Switch With FSR-Free Grating-Assisted Contra-Directional Couplers",
+    "year": 2024,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "The recent advancement of cloud computing including AI applications requires a large networking capacity in datacenters resulting in a large power consumption at the same time. Optical switches significantly improve energy efficiency in datacenter networks, and silicon photonics enables the optical switch to operate faster than microseconds and be highly integrable for co-integration with GPUs. To support such high-capacity interconnect and switching, flexible use of multiple lanes and wavelength division multiplexing is essential, which can be implemented by a wavelength selective switch or wavelength cross-connect (WXC) switch. We proposed a novel silicon photonics WXC switch with free-spectral-range (FSR)-free grating-assisted contra-directional couplers (C-DCs) and Mach-Zehnder interferometers (MZIs), where extremely broadband operation is expected because of the unlimited FSR. In this paper, we demonstrate a largest ever port- and channel-count, 16 × 16 ports and 16 wavelength channels over the C+L-band, monolithically integrated WXC switch with 256 FSR-free grating-assisted C-DCs and 1,024 thermo-optic MZIs. Further extended multiband operation from the O-band to U-band will be potentially available by implementing two additional design considerations.",
+    "cited_by_count": 7,
+    "tags": {
+      "tech_route": "thermo_optic",
+      "tech_route_secondary": null,
+      "integration": "integrated_photonic",
+      "trl_band": "lab",
+      "ai_dc_fit": "direct",
+      "adjacent_field": null,
+      "evidence_span": "In this paper, we demonstrate a largest ever port- and channel-count, 16 × 16 ports and 16 wavelength channels over the C+L-band, monolithically integrated WXC switch with 256 FSR-free grating-assisted C-DCs and 1,024 thermo-optic MZIs.",
+      "confidence": "high"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W4394930219",
+    "title": "Large-scale optical switches by thermo-optic waveguide lens",
+    "year": 2024,
+    "venue": "PhotoniX",
+    "abstract": "Abstract Optical switches are desired in telecom and datacom as an upgrade to electrical ones for lower power consumption and expenses while improving bandwidth and network transparency. Compact, integrated optical switches are attractive thanks to their scalability, readiness for mass production, and robustness against mechanical disturbances. The basic unit relies mostly on a microring resonator or a Mach–Zehnder interferometer for binary “bar” and “cross” switching. Such single-mode structures are often wavelength / polarization dependent, sensitive to phase errors and loss-prone. Furthermore, when they are cascaded to a network, the number of control units grows quickly with the port count, causing high complexity in electronic wiring and drive circuit integration. Herein, we propose a new switching method by thermo-optic waveguide lens. Essentially, this multimode waveguide forms a square law medium by a pair of heater electrodes and focuses light within a chip by robust 1 × 1 imaging. A 1 × 24 basic switch is demonstrated with 32 electrodes and only two are biased at a time for a chosen output. By two-level cascading, the switch expands to 576 ports and only four electrodes are needed for one path. The chips are fabricated on wafer scale in a low-budget laboratory without resorting to foundries. Yet, the performance goes beyond state of the art for low insertion loss, low wavelength dependence and low polarization dependence. This work provides an original, alternative, and practical route to construct large-scale optical switches, enabling broad applications in telecom, datacom and photonic computing.",
+    "cited_by_count": 24,
+    "tags": {
+      "tech_route": "thermo_optic",
+      "tech_route_secondary": null,
+      "integration": "integrated_photonic",
+      "trl_band": "lab",
+      "ai_dc_fit": "indirect",
+      "adjacent_field": null,
+      "evidence_span": "Herein, we propose a new switching method by thermo-optic waveguide lens.",
+      "confidence": "high"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W4409153023",
+    "title": "On-chip Non-Blocking 4 × 4 and 8 × 8 Photonic Switches Using MMI-MZI Configuration for Next-Generation Data Center Networks",
+    "year": 2025,
+    "venue": "IEEE Transactions on Nanotechnology",
+    "abstract": "The advancement of future photonic integrated circuits for data center networks relies crucially on the development of highly efficient, low-power, and compact switches. This paper presents the design of non-blocking 4×4 and 8×8 silicon photonics switches intended using Multimode Interferometer (MMI)-Mach-Zehnder interferometer (MZI) structures. These proposed switches consist of 2×2 MMI-MZI switches realized by changing the phase of an optical signal using the thermo-optic effect. At 1550 nm, the proposed 2×2 switch exhibits an insertion loss of 0.04 dB and crosstalk of < 39.95 dB. Similarly, the C-band showcases an insertion loss of < 0.06 dB and crosstalk of < -33 dB. To support complex network topologies and enhance network efficiency, a data center network necessitates a higher quantity of port switches. The results show that at 1550 nm, the insertion loss for the 4×4 and 8×8 switches is 0.47 dB and 1.02 dB, respectively. Furthermore, the insertion loss for the C-band is < 0.50 dB and < 1.5 dB, respectively. The switches exhibit crosstalk of -37.59 dB and -34.67 dB at 1550 nm, respectively. Additionally, they demonstrate crosstalk of < -30 dB for the C-band. This suggests the potential for further scalability in terms of port counts. The switches are designed using the eigenmode expansion method, and the micro heater is designed with a finite element heat transfer solver. These advantages and excellent performance make the device a promising candidate for use in advanced communication systems and photonic integrated circuits.",
+    "cited_by_count": 7,
+    "tags": {
+      "tech_route": "thermo_optic",
+      "tech_route_secondary": null,
+      "integration": "integrated_photonic",
+      "trl_band": "lab",
+      "ai_dc_fit": "indirect",
+      "adjacent_field": null,
+      "evidence_span": "These proposed switches consist of 2×2 MMI-MZI switches realized by changing the phase of an optical signal using the thermo-optic effect.",
+      "confidence": "high"
+    },
+    "match": "primary"
+  }
+]

@@ -1,8 +1,9 @@
 # Stage 7 validation report
 
 This report is produced by pipeline/audit.py. It runs the four checks in
-PLAN.md stage 7 against a fixed random seed, SEED = 20260926, recorded in
-the script and here so the sample can be reproduced. The script is
+PLAN.md stage 7 against a fixed random seed recorded in the script and
+here so the sample can be reproduced. Run 1 used SEED = 20260926 and
+Run 2 uses SEED = 20260927, which is the value the script now holds. The script is
 read only. It does not edit the database, the matrix, the tags table, or
 projects.csv.
 
@@ -13,6 +14,13 @@ Round 1's results are kept exactly as first written; nothing in it has been
 edited, removed, or softened.
 
 ---
+
+## Run 1
+
+Everything under this heading (Round 1 and Round 2) is kept exactly as first
+written for run 1. Nothing below has been edited, removed, or softened.
+See "Run 2" further down for the rework's audit, its own new seed, and a
+side-by-side rate comparison across all three rounds.
 
 ## Round 1
 
@@ -266,3 +274,225 @@ does not use the word piezo. The fix corrected what the cell asserts, not
 the thinness of its evidence base; that remains a property of the small
 core-paper count on this route (2 core papers), same as round 1 noted for
 the routes involved in all 5 failures.
+
+---
+
+## Run 2
+
+This is the rework audit, run after stage 6 rebuilt the comparison matrix
+from scratch. It uses a new seed, SEED = 20260927, set in pipeline/audit.py
+(kept as a comment there alongside run 1's seed, 20260926). The script was
+rewritten, not edited in place, and check (b) now treats cells by dimension
+instead of running one shared-word test against every value. Raw JSON output
+is saved at data/work/audit_run2_round1.json. The judgment inputs and
+outputs behind the category cells below are at
+data/work/audit_run2_judge_input.json and data/work/audit_run2_judgments.json.
+
+### Rate comparison across all three rounds
+
+| Check | Threshold | Run 1 Round 1 | Run 1 Round 2 | Run 2 Round 1 |
+|---|---|---|---|---|
+| (a) core paper re-fetch, mismatch rate | at most 10 percent | 0 percent (16 of 20 usable, 4 dropped) PASS | 0 percent (16 of 20 usable, 4 dropped) PASS | 0 percent (20 of 20 usable, 0 dropped) PASS |
+| (b) matrix cell evidence, unsupported rate (20-cell Gate C sample) | at most 10 percent | 25 percent (5 of 20) FAIL | 0 percent (20 of 20) PASS, but see below, not trustworthy | 5 percent (1 of 20) PASS |
+| (c) project evidence URL, fail rate | at most 20 percent | 0 percent (10 of 10) PASS | 0 percent (10 of 10) PASS | 0 percent (10 of 10) PASS |
+| (d) evidence span substring, pass rate | at least 90 percent | 100 percent (376 of 376) PASS | 100 percent (376 of 376) PASS | 100 percent (376 of 376) PASS |
+
+Run 2 has no round 2 yet because Gate C passed on round 1 (see "Gate C
+summary" below), so PLAN.md's retry clause was never triggered.
+
+Why run 1 round 2's check (b) rate cannot be trusted. Between round 1 and
+round 2, pipeline/matrix_build.py was changed to import
+pipeline.audit.value_in_quote, the exact function check (b) itself uses to
+decide whether a cell's value is supported. From round 2 onward the matrix
+was built by a script that ran the checker's own test against every
+candidate quote before writing the cell, and 18 of the 27 reported category
+cells (integration, trl_band, ai_cluster_fit) were rewritten to carry quote
+words in parentheses, such as "partial (computing systems and data
+networks)", specifically so that shared-word test would pass. A check
+cannot find a matrix wrong when the matrix was built to satisfy that same
+check first. Round 2's 0 percent (b) rate is therefore a property of the
+shared function, not independent evidence that the 20 sampled cells are
+actually supported by their quotes, and the auditor's own round 2 notes say
+so ("the audit value test is now circular"). This rework's fix was to
+delete value_in_quote from anything importable (pipeline/audit.py no longer
+defines a module-level value test at all, see "no other pipeline file
+imports pipeline.audit" below) and to make the build and the audit fully
+separate scripts again, then rebuild the matrix from scratch in stage 6
+before running this fresh audit.
+
+No other pipeline file imports pipeline.audit. `grep -rn "pipeline.audit"
+pipeline/*.py` outside pipeline/audit.py itself returns nothing, and the
+number-in-quote and wavelength-band checks used in check (b) below are
+private helpers nested inside pipeline.audit's own check_b function, not
+module-level functions another script could import.
+
+### Gate C summary
+
+| Check | Sample | Pass | Fail | Rate | Threshold | Gate C |
+|---|---|---|---|---|---|---|
+| (a) core paper re-fetch | 20 (20 usable, 0 dropped) | 20 | 0 | 0 percent | at most 10 percent mismatches | PASS |
+| (b) matrix cell evidence | 20 | 19 | 1 | 5 percent | at most 10 percent unsupported | PASS |
+| (c) project evidence URL | 10 | 10 | 0 | 0 percent | at most 20 percent failures | PASS |
+| (d) evidence span substring | 376 (all tags rows) | 376 | 0 | 100 percent pass | at least 90 percent | PASS |
+
+All four checks pass. Gate C passes on round 1. No retry is needed.
+
+### Check (a). Re-fetch 20 random core papers
+
+Method. 20 of the 267 core_set=1 papers were drawn with random.Random(SEED),
+SEED = 20260927. The sample differs from run 1's (different seed). 16 of 20
+have an openalex_id and were re-fetched by ID with `Works()[openalex_id]`.
+The other 4 are arXiv-only. They are arxiv:2211.02466, arxiv:2405.20869,
+arxiv:2501.16907, and arxiv:2603.07373. Title (normalized), year,
+cited_by_count (match if within 10 percent), and the first author's first
+institution (when the source states one) were compared against the stored
+row. Any one of these four differing counts as a mismatch.
+
+For the 4 arXiv-only papers, the script first tries
+`arxiv.Client(delay_seconds=10.0, num_retries=3)` with
+`arxiv.Search(id_list=[arxiv_id])`, the same call run 1 used except for the
+longer delay and explicit retry count. All 4 still failed this way, the
+same HTTP 406 from export.arxiv.org/api/query that dropped 4 of 20 papers in
+run 1. This was confirmed again directly outside the script, where one
+bare retry loop with delay_seconds=10 and num_retries=5 took 50 seconds
+before raising the same HTTP 406. This is unresolved and source-side,
+present in both runs. New this round, when the arxiv package call fails the
+script falls back to
+a plain GET on `https://arxiv.org/abs/<arxiv_id>` and reads the
+citation_title and citation_date meta tags off the page. All 4 papers
+succeeded through this fallback.
+
+Result. 20 drawn, 20 compared, 0 dropped. 20 of 20 pass (16 by method
+"openalex", 4 by method "arxiv_html_fallback"), 0 fail. Mismatch rate is 0
+percent, well under the 10 percent gate. Run 1 dropped 4 of 20 with no
+fallback available at the time; this round's fallback means every drawn
+paper was actually checked against its source, not just the 16 that
+OpenAlex covers.
+
+### Check (b). Matrix cells, by dimension
+
+Method. Of the 126 comparison_matrix.csv rows, 81 carry status=reported and
+9 carry status=derived (the academic_groups cells, always derived by
+pipeline/matrix_build.py's own convention). Every reported or derived cell
+gets the same ID and quote mechanical check. Every cited paper_id must
+exist in the database, every cited project_rows
+number must exist in projects.csv, and every quote in evidence_quote
+(quotes for several sources are joined by " || ") must be a verbatim
+substring of a cited paper's abstract or a cited project row's
+evidence_quote.
+
+Measured dimensions (switching_time, insertion_loss, port_count,
+polarization_dependent_loss, crosstalk, wavelength_range, cost_per_port)
+get one more automatic check on top. Every number in value, and for
+wavelength_range every band name such as "C band" or "C+L band", must
+appear in at least one of the cell's quotes. All 33 reported measured cells
+passed both the ID/quote check and the number check; nothing in this group
+needed judgment.
+
+academic_groups (9 cells, always derived) and companies (9 cells, 5
+reported and 4 no_source) are checked entirely by code. pipeline/audit.py
+imports academic_groups() and companies() from pipeline.matrix_build, the
+same functions that built comparison_matrix.csv, and recomputes each
+route's value, status, and cited paper_ids or project_rows straight from
+graphs/top_pis.csv, data/db/papers.sqlite, and data/projects.csv, then diffs
+the result against the CSV. 18 of 18 recomputed cells matched exactly, so no
+judgment call was needed for either dimension.
+
+Category cells (integration, trl_band, ai_cluster_fit) and free-text cells
+(packaging_notes, scaling_limit) that pass the ID/quote mechanical check
+still need a human or LLM read, because a shared-word test cannot tell a
+paraphrase from real support (this is exactly the gap run 1's check (b)
+kept finding, and the reason run 1 round 2's value_in_quote fix was
+circular rather than real, see above). pipeline/audit.py writes every such
+candidate cell (each cell id, its value, its quote or quotes, and the
+label's definition from the ocs-domain and comparison-framework skills) to
+data/work/audit_run2_judge_input.json. The auditor read all 29 candidate
+cells (the 20-cell Gate C sample plus all 27 reported category cells,
+deduplicated) against those definitions and wrote one supported or
+not_supported verdict with a one-line reason per cell to
+data/work/audit_run2_judgments.json. `.venv/bin/python -m pipeline.audit
+--merge` then folded the verdicts back into the Gate C sample and the
+category census below.
+
+Result, Gate C sample (20 cells). 19 of 20 pass, 1 of 20 fails. Fail rate
+is 5 percent, under the 10 percent gate.
+
+Failing cell (Gate C sample).
+
+- mems_2d:packaging_notes (paper W1653883346). Value is "packaged
+  single-chip component with reliable actuation". The quote ("high
+  reliability of the actuation mechanism, which translated into low loss
+  and high reliability of the packaged component") supports reliable
+  actuation and a packaged component, but never says single-chip. That
+  detail is not stated in this cell's quote.
+
+### Category cell census (all 27 reported category cells, not part of Gate C)
+
+Every reported integration, trl_band, and ai_cluster_fit cell was judged,
+not just the ones the random sample happened to draw, so the meeting sees
+all of them. 24 of 27 pass, 3 of 27 fail. Fail rate is 11.1 percent. This
+census has no Gate C threshold of its own; it is reported here for the
+meeting, separately from Gate C.
+
+Failing cells (category census).
+
+- mems_3d:integration. Value is "free_space_bulk". The quote describes a
+  MEMS beam-steering optical crossconnect switch core but never uses free,
+  space, bulk, air, or collimator. free_space_bulk here rests on domain
+  knowledge that a beam-steering MEMS crossconnect is a free-space device,
+  not on words the quote itself states. This is the same paraphrase gap
+  run 1 round 1 flagged for this cell (with different papers cited then);
+  the rework changed which paper is cited but the underlying evidence gap
+  is unchanged.
+- mems_2d:integration. Value is "free_space_bulk". The quote ("reflective
+  two-dimensional (2D) and three-dimensional (3D) MEMS implementations")
+  does not state free space, air, or bulk optics either. The cell's own
+  note and its confidence rating of low already say no abstract states the
+  packaging.
+- piezo:trl_band. Value is "production". Neither cited quote (one from
+  projects.csv row 5, Polatis, one from row 10, Drut Technologies) states
+  production, shipping, deployment, or commercial availability; both only
+  describe the piezo actuation mechanism or a partner integration. This is
+  the same cell and the same gap run 1 round 1 found. Per
+  comparison_matrix.csv's own note and STATUS.md, the stage 6 rework
+  considered this and knowingly kept "production" rather than the safer
+  "lab" value, so the gap is a known, deliberate choice, not a new defect.
+
+### Check (c). 10 random projects.csv rows
+
+Method. Unchanged from run 1 (see above), same SEED = 20260927. 10 of the
+12 rows were drawn. The Drut Technologies encoding fix from run 1 is
+already in the script this round ran.
+
+Result. 10 of 10 fetched successfully. 10 of 10 pass, 0 fail, 0
+unreachable. Fail rate is 0 percent, under the 20 percent gate.
+
+### Check (d). Evidence span substring check, all tags rows
+
+Method. Unchanged from run 1 (see above); exhaustive, not sampled. Stage 6
+does not touch the tags table, so no change was expected here.
+
+Result. 376 of 376 pass. Pass rate is 100 percent, over the 90 percent
+gate.
+
+### Other observations, not covered by the four checks (run 2)
+
+The 4 arXiv HTTP 406 errors in check (a) are confirmed source-side again
+this round (same host, same error, now with a longer delay and an explicit
+retry count too), but this round they no longer block the check. The
+arxiv.org/abs HTML fallback recovered all 4 papers, so every drawn core
+paper was actually re-checked against its source for the first time across
+both runs.
+
+3 of the 4 not_supported cells across the Gate C sample and the category
+census are the same underlying pattern. Either a category value is correct
+by domain knowledge but not spelled out in the quote itself
+(mems_3d:integration, mems_2d:integration), or a value the rework
+deliberately kept despite thin quote support (piezo:trl_band). None of the
+4 involves a missing ID, a broken quote, or a wrong number. The mechanical
+checks all passed for each; these are judgment-call gaps, the same category
+of finding run 1 made before its check (b) was compromised by the
+value_in_quote import. academic_groups and companies, the two dimensions
+with a code-level correctness check instead of a judgment call, had 0
+mismatches across all 18 cells, so the counts and names in those columns
+are the most solidly checked part of the matrix this round.

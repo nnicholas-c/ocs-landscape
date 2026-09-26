@@ -1,0 +1,287 @@
+[
+  {
+    "paper_id": "W2138361600",
+    "title": "1100 x 1100 port MEMS-based optical crossconnect with 4-dB maximum loss",
+    "year": 2003,
+    "venue": "IEEE Photonics Technology Letters",
+    "abstract": "We present a microelectromechanical systems-based beam steering optical crossconnect switch core with port count exceeding 1100, featuring mean fiber-to-fiber insertion loss of 2.1 dB and maximum insertion loss of 4.0 dB across all possible connections. The challenge of efficient measurement and optimization of all possible connections was met by an automated testing facility. The resulting connections feature optical loss stability of better than 0.2 dB over days, without any feedback control under normal laboratory conditions.",
+    "cited_by_count": 197,
+    "tags": {
+      "tech_route": "mems_3d",
+      "tech_route_secondary": null,
+      "integration": "free_space_bulk",
+      "trl_band": "lab",
+      "ai_dc_fit": "none",
+      "adjacent_field": null,
+      "evidence_span": "We present a microelectromechanical systems-based beam steering optical crossconnect switch core with port count exceeding 1100, featuring mean fiber-to-fiber insertion loss of 2.1 dB and maximum insertion loss of 4.0 dB across all possible connections.",
+      "confidence": "high"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W2040047675",
+    "title": "256 $,times,$ 256 Port Optical Cross-Connect Subsystem",
+    "year": 2004,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "This paper describes the subsystem design and performance of a 256/spl times/256-port micromechanical beam-steering optical cross-connect with 1.33-dB average loss, which can provide 238/spl times/238-port cross-connect with a maximum loss of less than 2dB. This paper describes the design chosen and analyzes the tolerance ranges required to produce low loss and simulate the expected loss distribution of the fabric. The method of establishing and testing the connections is also described. The simulation is compared with the measured system, and the expected and measured static and dynamic crosstalk are compared.",
+    "cited_by_count": 50,
+    "tags": {
+      "tech_route": "mems_3d",
+      "tech_route_secondary": null,
+      "integration": "free_space_bulk",
+      "trl_band": "lab",
+      "ai_dc_fit": "unclear",
+      "adjacent_field": null,
+      "evidence_span": "This paper describes the subsystem design and performance of a 256/spl times/256-port micromechanical beam-steering optical cross-connect with 1.33-dB average loss, which can provide 238/spl times/238-port cross-connect with a maximum loss of less than 2dB.",
+      "confidence": "high"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W2043855221",
+    "title": "Optical MEMS for photonic switching-compact and stable optical crossconnect switches for simple, fast, and flexible wavelength applications in recent photonic networks",
+    "year": 2005,
+    "venue": "IEEE Journal of Selected Topics in Quantum Electronics",
+    "abstract": "We review the development trends and state-of-the-art technologies of large-port-count optical switches over the past decade. Practical implementation of optical switch fabrics is discussed in terms of optical switch architectures, optical configurations, port counts, switch elements, and so on. We describe compact and stable optical crossconnect three-dimensional microelectromechanical systems (3-D-MEMS) switches that are a key technology in recent photonic networks. To show how these enable simple, fast, and flexible wavelength applications in the photonic layer, we discuss the fast and stable MEMS switching by novel comb actuator and V-shaped torsion bar, compact optical configuration with roof-type mirror, stable switch housing with cubic structure, packaging techniques by tolerance expansion and simple procedures of the component assembly, MEMS mirror controller with fast and low power digital notch circuit, reliability by shock absorption, and field trials. In addition, we discuss the impact of these switches on system integration for recent metropolitan area networks and enterprise networks.",
+    "cited_by_count": 119,
+    "tags": {
+      "tech_route": "mems_3d",
+      "tech_route_secondary": null,
+      "integration": "free_space_bulk",
+      "trl_band": "pilot",
+      "ai_dc_fit": "none",
+      "adjacent_field": null,
+      "evidence_span": "We describe compact and stable optical crossconnect three-dimensional microelectromechanical systems (3-D-MEMS) switches that are a key technology in recent photonic networks.",
+      "confidence": "high"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W1982772673",
+    "title": "Compact and scalable three-dimensional microelectromechanical system optical switches [Invited]",
+    "year": 2007,
+    "venue": "Journal of Optical Networking",
+    "abstract": "Feature Issue on Nanoscale Integrated Photonics for Optical Networks We review the performance and applications of compact (20cm3) and large-scale (320×320) three-dimensional microelectromechanical system (3-D MEMS) based optical switches. The low loss (<3dB for all 102,400 paths) and variable attenuation capable optical switch performs penalty-free for cascaded operation at 40Gbits/s. Scalability and performance of integrated wavelength-selective cross-connects based on 3-D MEMS with an unprecedented 12.8Tbit/s switching capacity for next-generation all-optical networks are also presented.",
+    "cited_by_count": 17,
+    "tags": {
+      "tech_route": "mems_3d",
+      "tech_route_secondary": null,
+      "integration": "free_space_bulk",
+      "trl_band": "lab",
+      "ai_dc_fit": "unclear",
+      "adjacent_field": null,
+      "evidence_span": "We review the performance and applications of compact (20cm3) and large-scale (320×320) three-dimensional microelectromechanical system (3-D MEMS) based optical switches.",
+      "confidence": "high"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W3041044413",
+    "title": "512 × 512 Port 3D MEMS Optical Switch Module with Toroidal Concave Mirror",
+    "year": 2012,
+    "venue": "NTT technical review",
+    "abstract": "We present a 52 × 52 MEMS (microelectromechanical system) optical switch module in a Wshaped layout with a toroidal concave mirror.The 52-array optical components are made by assembling four 28-array components.The concave mirror minimizes the tilt angle of the MEMS mirrors.All of the optical path connections were demonstrated in a prototype module.",
+    "cited_by_count": 17,
+    "tags": {
+      "tech_route": "mems_3d",
+      "tech_route_secondary": null,
+      "integration": "free_space_bulk",
+      "trl_band": "lab",
+      "ai_dc_fit": "unclear",
+      "adjacent_field": null,
+      "evidence_span": "We present a 52 × 52 MEMS (microelectromechanical system) optical switch module in a Wshaped layout with a toroidal concave mirror.",
+      "confidence": "high"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W2108251206",
+    "title": "Scaling Limits of Free-Space Tilt Mirror MEMS Switches for Data Center Networks",
+    "year": 2015,
+    "venue": "Optical Fiber Communication Conference",
+    "abstract": "We present a first-principles analysis of the scaling of switch response speed as a function of port count, crosstalk, and insertion loss, based on physical optics and kinematics of canonical MEMS tilt mirror switch structures.",
+    "cited_by_count": 2,
+    "tags": {
+      "tech_route": "mems_3d",
+      "tech_route_secondary": null,
+      "integration": "free_space_bulk",
+      "trl_band": "lab",
+      "ai_dc_fit": "direct",
+      "adjacent_field": null,
+      "evidence_span": "We present a first-principles analysis of the scaling of switch response speed as a function of port count, crosstalk, and insertion loss, based on physical optics and kinematics of canonical MEMS tilt mirror switch structures.",
+      "confidence": "medium"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W2343971467",
+    "title": "Advanced three-dimensional MEMS photonic cross-connect switch for nonblocking all-optical networks",
+    "year": 2016,
+    "venue": "Optical Switching and Networking",
+    "abstract": null,
+    "cited_by_count": 5,
+    "tags": {
+      "tech_route": "mems_3d",
+      "tech_route_secondary": null,
+      "integration": "free_space_bulk",
+      "trl_band": "unclear",
+      "ai_dc_fit": "unclear",
+      "adjacent_field": null,
+      "evidence_span": "Advanced three-dimensional MEMS photonic cross-connect switch for nonblocking all-optical networks",
+      "confidence": "low"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W2529948110",
+    "title": "MEMS optical switch: Switching time reduction",
+    "year": 2016,
+    "venue": "Open Computer Science",
+    "abstract": "Abstract Existing 3D MEMS-based optical switches offer good optical properties (low insertion loss, low crosstalk), high reliability and low power consumption. These switches utilize highly reflective micro-mirrors to manipulate an optical signal inside the switch directly without any conversions. They are used to build dynamically reconfigurable, highly-scalable physical optical network layer. As indicated by the simulation results of this paper, many of existing micro-mirror designs do not have their dynamic characteristics well optimized and this limits the switching speed of the optical switch. In a 3DMEMS switch, the coupling between the mechanical structure (micro-mirror) and electrostatic field (electrodes) results in dynamic coupled rotation of the micro-mirror about its axes, known as the cross-axis coupling effect. The coupling nature of micro-mirror rotation makes its control difficult. In this paper,we present the simulation case studies and a simple optimization technique leading to decoupled rotation of the micro-mirror about two perpendicular axes. This helps to reduce the switching time of the switch while keeping the same manufacturing process and only minimal design changes.",
+    "cited_by_count": 15,
+    "tags": {
+      "tech_route": "mems_3d",
+      "tech_route_secondary": null,
+      "integration": "free_space_bulk",
+      "trl_band": "lab",
+      "ai_dc_fit": "unclear",
+      "adjacent_field": null,
+      "evidence_span": "In a 3DMEMS switch, the coupling between the mechanical structure (micro-mirror) and electrostatic field (electrodes) results in dynamic coupled rotation of the micro-mirror about its axes, known as the cross-axis coupling effect.",
+      "confidence": "high"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W2560361359",
+    "title": "A Scalable, Partially Configurable Optical Switch for Data Center Networks",
+    "year": 2016,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "Optical circuit switching may be instrumental in meeting the cost, energy, and aggregate bandwidth requirements of future data center networks. However, conventional MEMS beam-steering cross-connects cannot provide submillisecond switching with the port count necessary for data centers. Here, we investigate a novel noncrossbar selector switch architecture and pupil-division switching layout to improve optical switching performance by relaxing the requirement of arbitrary switch configurability. This architecture and switch design enable MEMS beam-steering micromirrors to scale to microsecond response speeds while supporting high port count and low loss switching, and can realize a number of useful interconnection topologies. We present the design, fabrication, and experimental characterization of a proof-of-principle prototype using a single comb-driven MEMS mirror to achieve 150 μs switching of 61 ports between four preprogrammed interconnection mappings. We demonstrate the scalability of this switch architecture with a detailed optical design of a 2048-port selector switch with 20 μs switching time.",
+    "cited_by_count": 41,
+    "tags": {
+      "tech_route": "mems_3d",
+      "tech_route_secondary": null,
+      "integration": "free_space_bulk",
+      "trl_band": "lab",
+      "ai_dc_fit": "indirect",
+      "adjacent_field": null,
+      "evidence_span": "We present the design, fabrication, and experimental characterization of a proof-of-principle prototype using a single comb-driven MEMS mirror to achieve 150 μs switching of 61 ports between four preprogrammed interconnection mappings.",
+      "confidence": "high"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W2775765784",
+    "title": "MEMS-based reconfigurable optical wireless networking in data centers",
+    "year": 2017,
+    "venue": null,
+    "abstract": "A flexible wireless Data Center (DC) network based on precise steerable Free Space Optical (FSO) links is described as a promising solution to meet future DC demands of high-throughput, with robustness to dynamic traffic patterns, reducing cabling complexity and increased energy efficiency. Robust and precise steerable FSO links over dynamic traffic play a key role in the reconfigurable optical wireless DC inter-rack networks. In this work, we propose and demonstrate a reconfigurable 10 Gbps FSO system incorporating a smart beam acquisition and tracking mechanism based on gimbal-less two-axis MEMS micro-mirror and retro-reflective film marked aperture. The fast MEMS-based beam acquisition switches laser beam of FSO terminal from one rack to the next for reconfigurable networking, and the precise beam tracking makes FSO device auto-correct any misalignments in real-time. We present the measured optical power loss and b it e rror rate performance of steerable FSO links in various directions. Experimental results suggest that the MEMS based beam steerable FSO links hold merit for future reconfigurable wireless DC networks.",
+    "cited_by_count": 5,
+    "tags": {
+      "tech_route": "mems_3d",
+      "tech_route_secondary": null,
+      "integration": "free_space_bulk",
+      "trl_band": "lab",
+      "ai_dc_fit": "indirect",
+      "adjacent_field": null,
+      "evidence_span": "In this work, we propose and demonstrate a reconfigurable 10 Gbps FSO system incorporating a smart beam acquisition and tracking mechanism based on gimbal-less two-axis MEMS micro-mirror and retro-reflective film marked aperture.",
+      "confidence": "high"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W2792477041",
+    "title": "Reconfigurable free space optical data center network using gimbal-less MEMS retroreflective acquisition and tracking",
+    "year": 2018,
+    "venue": null,
+    "abstract": "Robust and agile reconfigurable free space optical communication (FSO) links over dynamic traffic play a key role in next generation flexible wireless datacenter inter-rack networks, in terms of high throughput, dynamic robustness, cable complexity and energy efficiency. In this paper, we propose and demonstrate an agile reconfigurable 10Gbps FSO system incorporated with intelligent beam acquisition and tracking mechanism based on gimbal-less two-axis MEMS micromirror and retro-reflective film optics. Steering latency and alignment accuracy of reconfigurable FSO links are evaluated over various distances and directions, and get enhanced by intelligent adaptive acquisition and tracking schemes. Optical power loss and bit error rate of reconfigurable 10Gbps FSO links with mobility are reported over a distance of 13 m. Results show that it is feasible to use MEMS retroreflective acquisition and tracking system to achieve agile reconfigurable FSO links for flexible wireless datacenter inter-rack networks.",
+    "cited_by_count": 20,
+    "tags": {
+      "tech_route": "mems_3d",
+      "tech_route_secondary": null,
+      "integration": "free_space_bulk",
+      "trl_band": "lab",
+      "ai_dc_fit": "indirect",
+      "adjacent_field": null,
+      "evidence_span": "In this paper, we propose and demonstrate an agile reconfigurable 10Gbps FSO system incorporated with intelligent beam acquisition and tracking mechanism based on gimbal-less two-axis MEMS micromirror and retro-reflective film optics.",
+      "confidence": "high"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W2914521323",
+    "title": "A Comparative Review of MEMS-Based Optical Cross-Connects for All-Optical Networks From the Past to the Present Day",
+    "year": 2019,
+    "venue": "IEEE Communications Surveys & Tutorials",
+    "abstract": "Micro-electro-mechanical systems (MEMS)-based cross-connects are widely used for all-optical switching in recent optical networks. This paper provides a brief overview of various photonic switching technologies and a detailed review of the working principles, actuating mechanisms, and architectures of MEMS-based optical cross-connects (OXCs) from the last two decades. New approaches, which, potentially, will be adopted in the next generation of MEMS-based cross-connects are also described. The switching MEMS-based cross-connects speed can vary from less than 1 μs to tens of ms depending on the chosen switching mechanism and actuator parameters. This paper describes the various types of actuators used to manipulate the optical signal inside all-OXCs. Optical properties (insertion loss, crosstalk), switching speed, and scalability are also discussed.",
+    "cited_by_count": 56,
+    "tags": {
+      "tech_route": "mems_3d",
+      "tech_route_secondary": "mems_2d",
+      "integration": "free_space_bulk",
+      "trl_band": "unclear",
+      "ai_dc_fit": "indirect",
+      "adjacent_field": null,
+      "evidence_span": "This paper provides a brief overview of various photonic switching technologies and a detailed review of the working principles, actuating mechanisms, and architectures of MEMS-based optical cross-connects (OXCs) from the last two decades.",
+      "confidence": "medium"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W2996949883",
+    "title": "Open loop control theory algorithms for high-speed 3D MEMS optical switches",
+    "year": 2019,
+    "venue": "Optics Express",
+    "abstract": "There is a world-wide push to create the next-generation all-optical transmission and switching technologies for exascale data centers. In this paper we focus on the switching fabrics. Many different types of 2D architectures are being explored including MEMS/waveguides and semiconductor optical amplifiers. However, these tend to suffer from high, path-dependent losses and crosstalk issues. The technologies with the best optical properties demonstrated to date in large fabrics (>100 ports) are 3D MEMS beam steering approaches. These have low average insertion losses and, equally important, a narrow loss distribution. However, 3D MEMS fabrics are generally dismissed from serious consideration for this application because of their slow switching speeds (∼few milliseconds) and high costs ($100/port). In this paper we show how novel feedforward open loop controls can solve both problems by improving MEMS switching speeds by two orders of magnitude and costs by a factor of three. With these improvements in hand, we believe 3D MEMS fabrics can become the technology of choice for data centers.",
+    "cited_by_count": 11,
+    "tags": {
+      "tech_route": "mems_3d",
+      "tech_route_secondary": null,
+      "integration": "free_space_bulk",
+      "trl_band": "lab",
+      "ai_dc_fit": "direct",
+      "adjacent_field": null,
+      "evidence_span": "There is a world-wide push to create the next-generation all-optical transmission and switching technologies for exascale data centers.",
+      "confidence": "high"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W3215039088",
+    "title": "Core Selective Switch With Low Insertion Loss Over Ultra-Wide Wavelength Range for Spatial Channel Networks",
+    "year": 2021,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "The core selective switch (CSS) is an optical spatial switch that has been recently proposed as a key building block to achieve a scalable and low-insertion-loss spatial cross-connects for use in future spatial channel networks. In this paper, we report on a novel CSS design employing a two dimensionally arranged microlens-based multicore fiber (MCF) collimator array and a micro-electromechanical systems (MEMS) mirror array. The former enables precise alignment between MCFs and collimator lenses, and the latter yields polarization-independent high reflection over a wide wavelength range and a large tilt angle. Based on the design, a compact (∼50 mm) five-core$1 \\times 8$CSS prototype is fabricated. We experimentally show that the CSS prototype exhibits low insertion loss (1.2∼2.7 dB), low polarization dependent loss ($ - 30$dB) characteristics over an ultra-wide wavelength range from 1500 nm to 1630 nm. Bit-error-rate measurements using optical signals in the C-band, S-band, and L-band show that the CSS prototype incurs no optical signal-to-noise ratio penalty in spatial channel routing over an ultra-wide wavelength band.",
+    "cited_by_count": 29,
+    "tags": {
+      "tech_route": "mems_3d",
+      "tech_route_secondary": null,
+      "integration": "free_space_bulk",
+      "trl_band": "lab",
+      "ai_dc_fit": "none",
+      "adjacent_field": null,
+      "evidence_span": "In this paper, we report on a novel CSS design employing a two dimensionally arranged microlens-based multicore fiber (MCF) collimator array and a micro-electromechanical systems (MEMS) mirror array.",
+      "confidence": "medium"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W4292950821",
+    "title": "Mission Apollo: Landing Optical Circuit Switching at Datacenter Scale",
+    "year": 2022,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "In this paper, we describe Apollo, to the best of our knowledge, the world's first large-scale production deployment of optical circuit switches (OCSes) for datacenter networking. We will first describe the infrastructure challenges and use cases that motivated optical switching inside datacenters. We then delve into the requirements of OCSes for datacenter applications: balancing cost, port count, switching time, and optical performance, which drive design choices and implementation details of our internally developed 3D MEMS-based OCS. To enable the Apollo optical switching layer, we employ circulators to realize bidirectional links through the OCS, effectively doubling the OCS radix. The OCS and circulator design choices were critical for meeting network bandwidth, scale, and cost targets. We review the critical co-design of WDM transceiver technology for these OCS plus circulator-based bidirectional links and their corresponding physical impairments, delivered over four generations/speeds of optical interconnect. Finally, we conclude with thoughts on future directions in hardware development and associated applications.",
+    "cited_by_count": 25,
+    "tags": {
+      "tech_route": "mems_3d",
+      "tech_route_secondary": null,
+      "integration": "free_space_bulk",
+      "trl_band": "production",
+      "ai_dc_fit": "indirect",
+      "adjacent_field": null,
+      "evidence_span": "We then delve into the requirements of OCSes for datacenter applications: balancing cost, port count, switching time, and optical performance, which drive design choices and implementation details of our internally developed 3D MEMS-based OCS.",
+      "confidence": "high"
+    },
+    "match": "primary"
+  }
+]

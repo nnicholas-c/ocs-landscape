@@ -1,0 +1,192 @@
+[
+  {
+    "paper_id": "W2121095819",
+    "title": "A polarization-controlled free-space photonic switch based on a PI-LOSS switch",
+    "year": 1993,
+    "venue": "IEEE Photonics Technology Letters",
+    "abstract": "We propose a polarization-controlled free-space photonic switch based on a PI-LOSS switch that has similar insertion loss and lower crosstalk compared to the conventional crossbar switch. We describe a multistage switching network with cross-connected PI-LOSS switch modules that is easier to control and smaller than other strictly nonblocking switch structures.>",
+    "cited_by_count": 26,
+    "tags": {
+      "tech_route": "other",
+      "tech_route_secondary": null,
+      "integration": "free_space_bulk",
+      "trl_band": "lab",
+      "ai_dc_fit": "none",
+      "adjacent_field": null,
+      "evidence_span": "We propose a polarization-controlled free-space photonic switch based on a PI-LOSS switch that has similar insertion loss and lower crosstalk compared to the conventional crossbar switch.",
+      "confidence": "low"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W2024436451",
+    "title": "Large Port Count Wavelength Routing Optical Switch Consisting of Cascaded Small-Size Cyclic Arrayed Waveguide Gratings",
+    "year": 2012,
+    "venue": "IEEE Photonics Technology Letters",
+    "abstract": "We propose a highly scalable switch architecture suitable for client-side cross-connect switches in reconfigurable optical add/drop multiplexers and optical switching in data centers. It consists of cascaded cyclic arrayed waveguide gratings (AWGs). We develop a 270 × 270 prototype switch consisting of an assembly of arrayed small switches and couplers and AWGs that are fabricated on planar lightwave circuit chips. Transmission experiments verify its technical feasibility.",
+    "cited_by_count": 28,
+    "tags": {
+      "tech_route": "other",
+      "tech_route_secondary": null,
+      "integration": "integrated_photonic",
+      "trl_band": "lab",
+      "ai_dc_fit": "indirect",
+      "adjacent_field": null,
+      "evidence_span": "We propose a highly scalable switch architecture suitable for client-side cross-connect switches in reconfigurable optical add/drop multiplexers and optical switching in data centers.",
+      "confidence": "medium"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W1990200961",
+    "title": "Design and Preliminary Implementation of an N $\\times$ N Diffractive All-Optical Fiber Optic Switch",
+    "year": 2013,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "We have demonstrated a diffraction-based nonblocking, scalable N × N optical switch employing a digital micromirror display (DMD) with 12 μs switching speed, performing 100 times faster than the currently available technology. The distributed nature of diffraction makes this switch more robust than one-to-one reflective systems where a single mirror failure incapacitates an entire connection. We thereby address a key bottleneck in data centers and optical aggregation networks by decreasing circuit-switching speed and allowing for facile port count scalability.",
+    "cited_by_count": 20,
+    "tags": {
+      "tech_route": "other",
+      "tech_route_secondary": null,
+      "integration": "free_space_bulk",
+      "trl_band": "lab",
+      "ai_dc_fit": "direct",
+      "adjacent_field": null,
+      "evidence_span": "We have demonstrated a diffraction-based nonblocking, scalable N × N optical switch employing a digital micromirror display (DMD) with 12 μs switching speed, performing 100 times faster than the currently available technology.",
+      "confidence": "high"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W2065747405",
+    "title": "7×7 DMD-based diffractive fiber switch at 1550nm",
+    "year": 2014,
+    "venue": "Optics Communications",
+    "abstract": null,
+    "cited_by_count": 10,
+    "tags": {
+      "tech_route": "other",
+      "tech_route_secondary": null,
+      "integration": "free_space_bulk",
+      "trl_band": "unclear",
+      "ai_dc_fit": "unclear",
+      "adjacent_field": null,
+      "evidence_span": "7×7 DMD-based diffractive fiber switch at 1550nm",
+      "confidence": "low"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W2486960733",
+    "title": "ProjecToR",
+    "year": 2016,
+    "venue": null,
+    "abstract": "We explore a novel, free-space optics based approach for building data center interconnects. It uses a digital micromirror device (DMD) and mirror assembly combination as a transmitter and a photodetector on top of the rack as a receiver (Figure 1). Our approach enables all pairs of racks to establish direct links, and we can reconfigure such links (i.e., connect different rack pairs) within 12 us. To carry traffic from a source to a destination rack, transmitters and receivers in our interconnect can be dynamically linked in millions of ways. We develop topology construction and routing methods to exploit this flexibility, including a flow scheduling algorithm that is a constant factor approximation to the offline optimal solution. Experiments with a small prototype point to the feasibility of our approach. Simulations using realistic data center workloads show that, compared to the conventional folded-Clos interconnect, our approach can improve mean flow completion time by 30-95% and reduce cost by 25-40%.",
+    "cited_by_count": 289,
+    "tags": {
+      "tech_route": "other",
+      "tech_route_secondary": null,
+      "integration": "free_space_bulk",
+      "trl_band": "lab",
+      "ai_dc_fit": "indirect",
+      "adjacent_field": null,
+      "evidence_span": "It uses a digital micromirror device (DMD) and mirror assembly combination as a transmitter and a photodetector on top of the rack as a receiver (Figure 1).",
+      "confidence": "high"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W2807655209",
+    "title": "Design and Verification of Large-Scale Optical Circuit Switch Using ULCF AWGs for Datacenter Application",
+    "year": 2018,
+    "venue": "Journal of Optical Communications and Networking",
+    "abstract": "The exponential increase in the volume of traffic being processed by datacenters demands massive electrical switches and complicated interconnections. The power consumption will soon become critical, and the problem is expected to be resolved by introducing large-port-count optical circuit switches that connect many server racks or pods. In this paper, we propose a novel optical-circuit-switch architecture that uses n × N uniformloss and cyclic-frequency (ULCF) arrayed-waveguide gratings (AWGs) as low-loss wavelength routers. To confirm the effectiveness of our proposal, a pair of 12 × 48 ULCF AWGs is fabricated using planar-lightwave-circuit technology. Part of a 1536 × 1536 optical circuit switch is constructed, and its good transmission performance is experimentally confirmed through 96-wavelength 100-Gbps signal transmission in the full C-band. The switch throughput reaches 153.6 Tbps.",
+    "cited_by_count": 24,
+    "tags": {
+      "tech_route": "other",
+      "tech_route_secondary": null,
+      "integration": "integrated_photonic",
+      "trl_band": "lab",
+      "ai_dc_fit": "indirect",
+      "adjacent_field": null,
+      "evidence_span": "In this paper, we propose a novel optical-circuit-switch architecture that uses n × N uniformloss and cyclic-frequency (ULCF) arrayed-waveguide gratings (AWGs) as low-loss wavelength routers.",
+      "confidence": "medium"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W2905370602",
+    "title": "Low-Loss Integrated Photonic Switch Using Subwavelength Patterned Phase Change Material",
+    "year": 2018,
+    "venue": "ACS Photonics",
+    "abstract": "Efficient integrated photonic switches play a critical role in both interchip optical interconnects and data center networks that need to be dynamically reconfigured. Here, we demonstrate a 1 × 2 switch using phase change material Ge–Sb–Te (GST) combined with a silicon nitride microring resonator. The switch operates by utilizing the dramatic difference in the optical refractive index and extinction coefficient between the crystalline and amorphous phases of GST. By patterning and encapsulating the GST into subwavelength structures, the device achieves a low insertion loss of less than 1 dB in both output ports and can be switched reliably both photothermally and electrothermally.",
+    "cited_by_count": 183,
+    "tags": {
+      "tech_route": "other",
+      "tech_route_secondary": null,
+      "integration": "integrated_photonic",
+      "trl_band": "lab",
+      "ai_dc_fit": "direct",
+      "adjacent_field": null,
+      "evidence_span": "Efficient integrated photonic switches play a critical role in both interchip optical interconnects and data center networks that need to be dynamically reconfigured.",
+      "confidence": "high"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W3046344355",
+    "title": "Sirius",
+    "year": 2020,
+    "venue": null,
+    "abstract": "The increasing gap between the growth of datacenter traffic and electrical switch capacity is expected to worsen due to the slowdown of Moore's law, motivating the need for a new switching technology for the post-Moore's law era that can meet the increasingly stringent requirements of hardware-driven cloud workloads. We propose Sirius, an optically-switched network for datacenters providing the abstraction of a single, high-radix switch that can connect thousands of nodes---racks or servers---in a datacenter while achieving nanosecond-granularity reconfiguration. At its core, Sirius uses a combination of tunable lasers and simple, passive gratings that route light based on its wavelength. Sirius' switching technology and topology is tightly codesigned with its routing and scheduling and with novel congestion-control and time-synchronization mechanisms to achieve a scalable yet flat network that can offer high bandwidth and very low end-to-end latency. Through a small-scale prototype using a custom tunable laser chip that can tune in less than 912 ps, we demonstrate 3.84 ns end-to-end reconfiguration atop 50 Gbps channels. Through large-scale simulations, we show that Sirius can approximate the performance of an ideal, electrically-switched non-blocking network with up to 74-77% lower power.",
+    "cited_by_count": 202,
+    "tags": {
+      "tech_route": "other",
+      "tech_route_secondary": null,
+      "integration": "integrated_photonic",
+      "trl_band": "lab",
+      "ai_dc_fit": "indirect",
+      "adjacent_field": null,
+      "evidence_span": "At its core, Sirius uses a combination of tunable lasers and simple, passive gratings that route light based on its wavelength.",
+      "confidence": "medium"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W4390032166",
+    "title": "Optical Circuit Switching Using REC-DFB Laser Array",
+    "year": 2023,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "The ongoing growth of data traffic from existing and new latency-sensitive applications poses a challenge to the data center network. Wavelength-routed optical circuit switching promises high bandwidth, low power and latency networking for data centers, but requires a wideband wavelength tunable source capable of nanosecond-scale hitless wavelength switching at every node. A tunable source based on DFB laser arrays is a potential candidate due to the high-speed dynamic property and high single-longitudinal-mode (SLM) stability of the DFB laser. However, the large-scale integration of the DFB laser and the high precision control of the lasing wavelength are still problems. In this work, we proposed and fabricated a monolithic integrated 16-channel DFB laser array with high SLM stability and 100-GHz channel spacing by using the reconstruction-equivalent-chirp (REC) technique. The maximum output power of each channel was above 6 mW. Based on the custom-designed fast switching drive board with a field-programmable gate array (FPGA), the switch-ON and OFF time between any pair of channel combinations were measured at less than 10 ns. Dynamic switching wavelengths remained stable and resided within the receiver bandwidth. Wavelength switching experiments for modulated light signals were done by driving the external modulator, achieving bit error performance at 1 × 10−9for 10 Gb/s NRZ data.",
+    "cited_by_count": 6,
+    "tags": {
+      "tech_route": "other",
+      "tech_route_secondary": null,
+      "integration": "integrated_photonic",
+      "trl_band": "lab",
+      "ai_dc_fit": "direct",
+      "adjacent_field": null,
+      "evidence_span": "Wavelength-routed optical circuit switching promises high bandwidth, low power and latency networking for data centers, but requires a wideband wavelength tunable source capable of nanosecond-scale hitless wavelength switching at every node.",
+      "confidence": "medium"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "arxiv:2509.20016",
+    "title": "Nonreciprocal optical circuit switching",
+    "year": 2025,
+    "venue": "arXiv",
+    "abstract": "Directly switching optical signals outperforms conventional optoelectronic hardware in terms of cost, latency, and energy efficiency, and is expected to address the growing demand for data node capacity driven by the development of machine learning and artificial intelligence (AI) technologies. Therefore, optical circuit switching (OCS) technology has piqued widespread research interest in various technical solutions, including silicon photonics. However, silicon-based integrated OCS remains constrained by challenges such as network performance and port scalability. Here we propose a magneto-optical heterogeneous integrated nonreciprocal OCS (NOCS) network based on a silicon photonics platform, achieving bidirectional full-duplex nonreciprocal transmission by programming reciprocal and nonreciprocal phase shifters. We demonstrate that compared with the existing OCS architecture, NOCS has the advantages of ultra-high reconfiguration speed, large-scale integration compatibility, and bidirectional channel isolation reducing the number of required ports. NOCS could meet the programming speed requirements of the AI backend network, or supports nonreciprocal optical switching applications without multiplexing technology.",
+    "cited_by_count": null,
+    "tags": {
+      "tech_route": "other",
+      "tech_route_secondary": null,
+      "integration": "integrated_photonic",
+      "trl_band": "lab",
+      "ai_dc_fit": "direct",
+      "adjacent_field": null,
+      "evidence_span": "Here we propose a magneto-optical heterogeneous integrated nonreciprocal OCS (NOCS) network based on a silicon photonics platform, achieving bidirectional full-duplex nonreciprocal transmission by programming reciprocal and nonreciprocal phase shifters.",
+      "confidence": "medium"
+    },
+    "match": "primary"
+  }
+]

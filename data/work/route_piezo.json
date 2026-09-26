@@ -1,0 +1,78 @@
+[
+  {
+    "paper_id": "W2068954499",
+    "title": "Archon: A Function Programmable Optical Interconnect Architecture for Transparent Intra and Inter Data Center SDM/TDM/WDM Networking",
+    "year": 2015,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "This paper reports all-optical, function programmable, transparent, intra- and inter-data center networking (DCN) using space and time-division multiplexing (SDM/TDM) within data centers and wavelength division multiplexing (WDM) between data centers. A multielement fiber is used for SDM transmission to provide a large quantity of optical links between the top-of-racks (ToRs) and the function programmable cluster switch. Beam-steering large-port-count fiber switches, used as central cluster switches and intercluster switch, provide a single hop optical circuit switching solution, and also enable network function programmability for DCN to support variable traffic patterns and different network functions. A TDM switch as a plug-in function provides intra-cluster communication with variable capacity and low latency. The flat-structured intra data center architecture, with a circuit-switched SDM and TDM hybrid network enables scalable, large-capacity and low-latency DCN communication. In addition, all-optical ToR-to-ToR inter-DCN is realized through metro/core networks. A highly-nonlinear fiber based all-optical SDM-to-WDM converter transfers three SDM signals to three-carrier spectral superchannel signals, which are transmitted to the destination DCN, through the metro/core networks. The all-optical ToR-ToR cross-DCN connections enable the geographically distributed DCNs to appear as one big data center.",
+    "cited_by_count": 64,
+    "tags": {
+      "tech_route": "architecture_only",
+      "tech_route_secondary": "piezo",
+      "integration": "unclear",
+      "trl_band": "lab",
+      "ai_dc_fit": "indirect",
+      "adjacent_field": null,
+      "evidence_span": "Beam-steering large-port-count fiber switches, used as central cluster switches and intercluster switch, provide a single hop optical circuit switching solution, and also enable network function programmability for DCN to support variable traffic patterns and different network functions.",
+      "confidence": "medium"
+    },
+    "match": "secondary"
+  },
+  {
+    "paper_id": "W2591729902",
+    "title": "Beam-Steering All-Optical Switch for Multi-Core Fibers",
+    "year": 2017,
+    "venue": "Optical Fiber Communication Conference",
+    "abstract": "We report on the development of the first multi-lane all-optical switch with directly integrated multi-core fibers. A 3-port single-sided beam-steering switch connecting 4-core fibers shows core-to-core losses below 2.2 dB with less than 1-dB variation.",
+    "cited_by_count": 19,
+    "tags": {
+      "tech_route": "piezo",
+      "tech_route_secondary": null,
+      "integration": "free_space_bulk",
+      "trl_band": "lab",
+      "ai_dc_fit": "unclear",
+      "adjacent_field": null,
+      "evidence_span": "We report on the development of the first multi-lane all-optical switch with directly integrated multi-core fibers.",
+      "confidence": "medium"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W2913395450",
+    "title": "Design and Analysis of Beam Steering Multicore Fiber Optical Switches",
+    "year": 2019,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "The design and performance characteristics of a beam steering optical switch for multicore fibers (MCFs) are reported. Port count, core count, transmission crosstalk, or a combination thereof can be optimized for the required application. Decreasing port separation or increasing the maximum steering angle both increase port count, whilst a higher core count or larger mode field diameter increase port capacity or port count, respectively, at the expense of greater intercore crosstalk. Potential losses from system misalignments and fiber fabrication variations in the core pitch are also estimated. A 50 port switch is possible for a 25 μm core pitch 7 core hexagonal trench assisted MCF (TA-MCF) with a total mean statistical crosstalk on the central core of -25 dB after 1 km, assuming an operational wavelength of 1550 nm and maximum collimator actuator angle of 10°. In contrast, a high capacity 25 μm core pitch 61 core hexagonal TA-MCF can still offer up to a 5 port switch for the same level of crosstalk. For longer link distances, -25 dB crosstalk after 100 km (metro network) is achievable for a 50 port switch using a 35 μm core pitch 7 core TA-MCF. Similar levels of crosstalk can be accomplished at 1000 km (core network) for a 41 port switch using a 25 μm core pitch 7 core TA-MCF.",
+    "cited_by_count": 7,
+    "tags": {
+      "tech_route": "piezo",
+      "tech_route_secondary": null,
+      "integration": "free_space_bulk",
+      "trl_band": "lab",
+      "ai_dc_fit": "unclear",
+      "adjacent_field": null,
+      "evidence_span": "The design and performance characteristics of a beam steering optical switch for multicore fibers (MCFs) are reported.",
+      "confidence": "medium"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W4323644257",
+    "title": "A Hybrid Beam Steering Free-Space and Fiber Based Optical Data Center Network",
+    "year": 2023,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "Wireless data center networks (DCNs) are promising solutions to mitigate the cabling complexity in traditional wired DCNs and potentially reduce the end-to-end latency with faster propagation speed in free space. Yet, physical architectures in wireless DCNs must be carefully designed regarding wireless link blockage, obstacle bypassing, path loss, interference and spatial efficiency in a dense deployment. This paper presents the physical layer design of a hybrid FSO/in-fiber DCN while guaranteeing an all-optical, single hop, non-oversubscribed and full-bisection bandwidth network. We propose two layouts and analyze their scalability: (1) A static network utilizing only tunable sources which can scale up to 43 racks, 15,609 nodes and 15,609 channels; and (2) a re-configurable network with both tunable sources and piezoelectric actuator (PZT) based beam-steering which can scale up to 8 racks, 2,904 nodes and 185,856 channels at millisecond PZT switching time. Based on a traffic generation framework and a dynamic wavelength-timeslot scheduling algorithm, the system-level network performance is simulated for a 363-node subnet, reaching$>\\!\\!99\\%$throughput and 1.23$\\mu$s average scheduler latency at 90% load.",
+    "cited_by_count": 16,
+    "tags": {
+      "tech_route": "architecture_only",
+      "tech_route_secondary": "piezo",
+      "integration": "free_space_bulk",
+      "trl_band": "lab",
+      "ai_dc_fit": "indirect",
+      "adjacent_field": null,
+      "evidence_span": "This paper presents the physical layer design of a hybrid FSO/in-fiber DCN while guaranteeing an all-optical, single hop, non-oversubscribed and full-bisection bandwidth network.",
+      "confidence": "medium"
+    },
+    "match": "secondary"
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "paper_id": "W2073240697",
+    "title": "Fiber-handling robot and optical connection mechanisms for automatic cross-connection of multiple optical connectors",
+    "year": 2013,
+    "venue": "Optical Engineering",
+    "abstract": "Conventionally, in intelligent buildings in a metropolitan area network and in small-scale facilities in the optical access network, optical connectors are joined manually using an optical connection board and a patch panel. In this manual connection approach, mistakes occur due to discrepancies between the actual physical settings of the connections and their management because these processes are independent. Moreover, manual cross-connection is time-consuming and expensive because maintenance personnel must be dispatched to remote places to correct mistakes. We have developed a fiber-handling robot and optical connection mechanisms for automatic cross-connection of multiple optical connectors, which are the key elements of automatic optical fiber cross-connect equipment. We evaluate the performance of the equipment, such as its optical characteristics and environmental specifications. We also devise new optical connection mechanisms that enable the automated optical fiber cross-connect module to handle and connect angled physical contact (APC) optical connector plugs. We evaluate the performance of the equipment, such as its optical characteristics. The evaluation results confirm that the automated optical fiber cross-connect equipment can connect APC connectors with low loss and high return loss, indicating that the automated optical fiber cross-connect equipment is suitable for practical use in intelligent buildings and optical access networks.",
+    "cited_by_count": 5,
+    "tags": {
+      "tech_route": "robotic_patch_panel",
+      "tech_route_secondary": null,
+      "integration": "mechanical_fiber",
+      "trl_band": "lab",
+      "ai_dc_fit": "none",
+      "adjacent_field": null,
+      "evidence_span": "We have developed a fiber-handling robot and optical connection mechanisms for automatic cross-connection of multiple optical connectors, which are the key elements of automatic optical fiber cross-connect equipment.",
+      "confidence": "high"
+    },
+    "match": "primary"
+  }
+]

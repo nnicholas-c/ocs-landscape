@@ -1,0 +1,247 @@
+{
+ "judge": "orchestrator checker, stage 7 run 2 round 1, blind to audit_run2_judgments.json",
+ "source": "data/work/audit_run2_judge_input.json plus cited abstracts in data/db/papers.sqlite and data/projects.csv",
+ "judgments": [
+  {
+   "cell": "mems_2d:ai_cluster_fit",
+   "value": "no",
+   "judgment": "supported",
+   "reason": "All mems_2d papers target fiber optic telecom networks (W2089755139 quote), none names data centers, accelerators or reconfigurable topologies, so 'no' holds."
+  },
+  {
+   "cell": "robotic_patch_panel:integration",
+   "value": "mechanical_fiber",
+   "judgment": "supported",
+   "reason": "A fiber-handling robot physically cross-connects optical connectors, which is mechanical_fiber."
+  },
+  {
+   "cell": "piezo:ai_cluster_fit",
+   "value": "yes",
+   "judgment": "supported",
+   "reason": "Beam-steering fiber switches serve as reconfigurable cluster switches in a DCN (W2068954499) and PZT beam steering makes a re-configurable DCN (W4323644257), which is the framework's reconfigurable-topology case."
+  },
+  {
+   "cell": "mems_2d:packaging_notes",
+   "value": "packaged single-chip component with reliable actuation",
+   "judgment": "supported",
+   "reason": "W1653883346 abstract states a single-chip 16x16 solution and high reliability of the actuation mechanism and of the packaged component; 'single-chip' is in the abstract, not in the quote."
+  },
+  {
+   "cell": "soa:scaling_limit",
+   "value": "signal impairments and degradation that grow with network size",
+   "judgment": "supported",
+   "reason": "W2007654061 says reduced impairments enable port-count scaling versus conventional SOA switches and W2056973550 estimates degradation as a function of network size, so impairments are the stated limit."
+  },
+  {
+   "cell": "mems_silicon_photonic:integration",
+   "value": "integrated_photonic",
+   "judgment": "supported",
+   "reason": "Quote states an integrated OCS combining silicon photonics with MEMS actuation, light stays in waveguides on the chip."
+  },
+  {
+   "cell": "lcos:integration",
+   "value": "free_space_bulk",
+   "judgment": "supported",
+   "reason": "Quote states a free-space-optics-based core selective switch, which is free_space_bulk."
+  },
+  {
+   "cell": "mems_3d:integration",
+   "value": "free_space_bulk",
+   "judgment": "supported",
+   "reason": "A MEMS beam-steering crossconnect with fiber-to-fiber loss steers beams in free space between fiber ports, the ocs-domain mems_3d mechanism; the words 'free space' are not in the quote, so this rests on that inference."
+  },
+  {
+   "cell": "mems_3d:trl_band",
+   "value": "production",
+   "judgment": "supported",
+   "reason": "Apollo is described as the first large-scale production deployment of OCSes, built on an internally developed 3D MEMS OCS."
+  },
+  {
+   "cell": "mems_3d:ai_cluster_fit",
+   "value": "yes",
+   "judgment": "supported",
+   "reason": "W2560361359 proposes a MEMS switch for data center networks that switches between preprogrammed interconnection topologies (framework: reconfigurable topologies); no abstract names accelerators, so it rests on that clause."
+  },
+  {
+   "cell": "mems_2d:integration",
+   "value": "free_space_bulk",
+   "judgment": "supported",
+   "reason": "Reflective 2D MEMS mirrors redirect beams travelling in free space; weak because the overview sentence does not say free space or packaging, low confidence is right."
+  },
+  {
+   "cell": "mems_2d:trl_band",
+   "value": "lab",
+   "judgment": "supported",
+   "reason": "Quote reports demonstrated, fabricated 16x16 switches, lab; no mems_2d source shows pilot or production."
+  },
+  {
+   "cell": "mems_silicon_photonic:trl_band",
+   "value": "lab",
+   "judgment": "supported",
+   "reason": "Review names the lab-to-commercialization gap and a device fabricated in a CMOS foundry is still a demonstrated device; nEye row 8 is a prototype, so lab is the highest supported band."
+  },
+  {
+   "cell": "mems_silicon_photonic:ai_cluster_fit",
+   "value": "yes",
+   "judgment": "supported",
+   "reason": "Two abstracts name AI/ML clusters and AI large models directly and W1982681165 targets reconfigurable datacenter bandwidth."
+  },
+  {
+   "cell": "lcos:trl_band",
+   "value": "lab",
+   "judgment": "supported",
+   "reason": "The cited CSS is an implemented prototype, lab; Coherent row 3 announces a demo without availability, so no higher band is shown (its 'field-proven' wording refers to the technology, not the switch)."
+  },
+  {
+   "cell": "lcos:ai_cluster_fit",
+   "value": "yes",
+   "judgment": "supported",
+   "reason": "Mordia uses a WSS-based OCS to reconfigure a datacenter network and COCSN uses WSSs for topological flexibility in data center tiers, the reconfigurable-topology case."
+  },
+  {
+   "cell": "piezo:integration",
+   "value": "free_space_bulk",
+   "judgment": "supported",
+   "reason": "Piezo actuators align collimated beams between opposing fiber arrays (row 5) and W2591729902 is a beam-steering switch, which is free_space_bulk."
+  },
+  {
+   "cell": "piezo:trl_band",
+   "value": "production",
+   "judgment": "supported",
+   "reason": "Row 5 describes the named POLATIS 6000/7000 series on the vendor product page and row 10 says a POLATIS OCS is a component of Drut's fabric, which shows a product sold to a third party; weak, since no quote says available or shipping, so low confidence and vendor claim are right."
+  },
+  {
+   "cell": "thermo_optic:integration",
+   "value": "integrated_photonic",
+   "judgment": "supported",
+   "reason": "Thermo-optic MZI switches built from silicon photonic wire waveguides on SOI are integrated_photonic."
+  },
+  {
+   "cell": "thermo_optic:trl_band",
+   "value": "lab",
+   "judgment": "supported",
+   "reason": "A packaged 32x32 switch chip is demonstrated and the review says moving demonstrations to product needs further work, lab."
+  },
+  {
+   "cell": "thermo_optic:ai_cluster_fit",
+   "value": "yes",
+   "judgment": "supported",
+   "reason": "W4391878049 names AI applications and co-integration with GPUs, W4384820653 names AI/ML workloads in data centers."
+  },
+  {
+   "cell": "electro_optic:integration",
+   "value": "integrated_photonic",
+   "judgment": "supported",
+   "reason": "Switch fabrics integrated on a single silicon nanophotonics chip, integrated_photonic."
+  },
+  {
+   "cell": "electro_optic:trl_band",
+   "value": "lab",
+   "judgment": "supported",
+   "reason": "A 32x32 electro-optic switch is fabricated and the review places the field before product, lab."
+  },
+  {
+   "cell": "electro_optic:ai_cluster_fit",
+   "value": "yes",
+   "judgment": "supported",
+   "reason": "W4384820653 (electro_optic secondary) names AI/ML workloads and proposes collapsing the multi-tier network above tier-1 into one optical tier, i.e. spine replacement."
+  },
+  {
+   "cell": "soa:integration",
+   "value": "integrated_photonic",
+   "judgment": "supported",
+   "reason": "A monolithic InGaAsP/InP 4x4 cross-connect realized on a multi-project wafer is integrated_photonic."
+  },
+  {
+   "cell": "soa:trl_band",
+   "value": "lab",
+   "judgment": "supported",
+   "reason": "The cross-connect is designed, fabricated and demonstrated, lab."
+  },
+  {
+   "cell": "soa:ai_cluster_fit",
+   "value": "yes",
+   "judgment": "supported",
+   "reason": "W3093967660 proposes an SOA-based OCS to remove electrical switches in the core of data center networks, i.e. spine replacement; PULSE is a broadcast-and-select OCS DCN."
+  },
+  {
+   "cell": "robotic_patch_panel:trl_band",
+   "value": "production",
+   "judgment": "supported",
+   "reason": "Telescent press release announces the launch of the G5 Robotic Patch Panel system, a product for sale; vendor claim, low confidence is right."
+  },
+  {
+   "cell": "robotic_patch_panel:ai_cluster_fit",
+   "value": "no",
+   "judgment": "supported",
+   "reason": "The only route paper targets intelligent buildings and optical access networks, and the Telescent quote names no AI or data center use."
+  }
+ ],
+ "measured_cells_read_after_blind_pass": [
+  {
+   "cell": "lcos:insertion_loss",
+   "judgment": "supported",
+   "reason": "W3034334810 states projected net IL of approximately 2 dB; note says projected, low confidence right."
+  },
+  {
+   "cell": "electro_optic:crosstalk",
+   "judgment": "supported",
+   "reason": "W2587610600 gives -17.9 to -24.8 dB and W2015534895 worst case below -9 dB, both electro_optic."
+  },
+  {
+   "cell": "piezo:crosstalk",
+   "judgment": "supported",
+   "reason": "W2913395450 gives -25 dB total mean crosstalk for its 50-port beam-steering MCF switch design after 1 km; a design estimate, which the note says."
+  },
+  {
+   "cell": "mems_3d:cost_per_port",
+   "judgment": "supported",
+   "reason": "W2996949883 states 3D MEMS fabrics cost $100/port."
+  },
+  {
+   "cell": "electro_optic:wavelength_range",
+   "judgment": "supported",
+   "reason": "Value text (O band; bandwidth 45 to 110 nm) matches W1558865741 and W2094700182, but value_min/value_max hold bandwidths 45/110 with an empty unit in a wavelength_range cell."
+  },
+  {
+   "cell": "thermo_optic:polarization_dependent_loss",
+   "judgment": "supported",
+   "reason": "W4308917780 states PDL around 2 dB."
+  },
+  {
+   "cell": "piezo:port_count",
+   "judgment": "supported",
+   "reason": "3 ports demonstrated (W2591729902), 50 ports possible by design (W2913395450), note says so."
+  },
+  {
+   "cell": "electro_optic:switching_time",
+   "judgment": "supported",
+   "reason": "3 ns, <4 ns and ~4 ns are stated by three electro_optic papers."
+  },
+  {
+   "cell": "piezo:switching_time",
+   "judgment": "supported",
+   "reason": "W4323644257 states millisecond PZT switching time."
+  },
+  {
+   "cell": "mems_3d:switching_time",
+   "judgment": "supported",
+   "reason": "20 us design, 150 us prototype and few ms for conventional 3D MEMS are all stated."
+  },
+  {
+   "cell": "mems_silicon_photonic:switching_time",
+   "judgment": "supported",
+   "reason": "0.4 us, 0.91 us and 32-200 us are stated by three route papers."
+  },
+  {
+   "cell": "mems_silicon_photonic:wavelength_range",
+   "judgment": "supported",
+   "reason": "1250-1650 nm and 1400-1700 nm stated by two route papers, span 1250 to 1700."
+  },
+  {
+   "cell": "thermo_optic:crosstalk",
+   "judgment": "supported",
+   "reason": "-50 dB (best state) and < -20 dB (matrix estimate) stated."
+  }
+ ]
+}

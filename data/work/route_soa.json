@@ -1,0 +1,268 @@
+[
+  {
+    "paper_id": "W2028213396",
+    "title": "Monolithically Integrated 8:1 SOA Gate Switch With Large Extinction Ratio and Wide Input Power Dynamic Range",
+    "year": 2009,
+    "venue": "IEEE Journal of Quantum Electronics",
+    "abstract": "A monolithic 8:1 SOA gate switch that integrates an 8-ch SOA gate array, an 8:1 optical coupler, and a 1-ch SOA gate was developed for use in a large scale optical packet switching system. A 250-mum-long compact field-flattened coupler (FFC) produces a very small channel-imbalance together with a compact total chip size of 3.0 times 1.0 mm. The device exhibited a large ON-state gain of >14.3 dB and a small total gain deviation of 3.0 dB. The optimized passive waveguide structure successfully suppressed the stray light, which resulted in a record-high ON-OFF extinction ratio of >70 dB. We used a thin tensile-strained multi-quantum well (MQW) active layer which can attain high-saturation output power, low noise, and polarization insensitivity for SOA gates. Due to the coexistence of a high saturation output power and a low noise figure, the device exhibited a very wide input power dynamic range of 20.5 dB for a 10-Gb/s NRZ signal.",
+    "cited_by_count": 63,
+    "tags": {
+      "tech_route": "soa",
+      "tech_route_secondary": null,
+      "integration": "integrated_photonic",
+      "trl_band": "lab",
+      "ai_dc_fit": "none",
+      "adjacent_field": null,
+      "evidence_span": "A monolithic 8:1 SOA gate switch that integrates an 8-ch SOA gate array, an 8:1 optical coupler, and a 1-ch SOA gate was developed for use in a large scale optical packet switching system.",
+      "confidence": "high"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W2056973550",
+    "title": "Scalable optical switches for computing applications [Invited]",
+    "year": 2009,
+    "venue": "Journal of Optical Networking",
+    "abstract": "A scalable photonic interconnection network architecture is proposed whereby a Clos network is populated with broadcast-and-select stages. This enables the efficient exploitation of an emerging class of photonic integrated switch fabric. A low distortion space switch technology based on recently demonstrated quantum-dot semiconductor optical amplifier technology, which can be operated uncooled, is used as the base switch element. The viability of these switches in cascaded networks is reviewed, and predictions are made through detailed physical layer simulation to explore the potential for larger-scale network connectivity. Optical signal degradation is estimated as a function of data capacity and network size. Power efficiency and physical layer complexity are addressed for high end-to-end bandwidth, nanosecond-reconfigurable switch fabrics, to highlight the potential for scaling to several tens of connections. The proposed architecture is envisaged to facilitate high-capacity, low-latency switching suited to computing systems, backplanes, and data networks. Broadband operation through wavelength division multiplexing is studied to identify practical interconnection networks scalable to 100 Gbits/s per path and a power consumption of the order of 20 mW/(Gbits/s) for a 64×64 size interconnection network.",
+    "cited_by_count": 41,
+    "tags": {
+      "tech_route": "soa",
+      "tech_route_secondary": null,
+      "integration": "integrated_photonic",
+      "trl_band": "lab",
+      "ai_dc_fit": "direct",
+      "adjacent_field": null,
+      "evidence_span": "A low distortion space switch technology based on recently demonstrated quantum-dot semiconductor optical amplifier technology, which can be operated uncooled, is used as the base switch element.",
+      "confidence": "high"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W1989361652",
+    "title": "Scalable and Distributed Contention Resolution in AWGR-Based Data Center Switches Using RSOA-Based Optical Mutual Exclusion",
+    "year": 2012,
+    "venue": "IEEE Journal of Selected Topics in Quantum Electronics",
+    "abstract": "We describe a mutual exclusion element using a reflective semiconductor optical amplifier (RSOA) and a simple scheme for contention resolution in arrayed waveguide grating router (AWGR)-based optical switches in data centers. We describe a hardware demonstration and detailed performance analysis of an AWGR-based optical switch based on the proposed concept. We show that the proposed RSOA-based contention resolution significantly reduces latency compared to existing methods and that it does not require any global or centralized coordination, which makes it inherently scalable and suitable for emerging data center networks.",
+    "cited_by_count": 28,
+    "tags": {
+      "tech_route": "soa",
+      "tech_route_secondary": null,
+      "integration": "unclear",
+      "trl_band": "lab",
+      "ai_dc_fit": "direct",
+      "adjacent_field": null,
+      "evidence_span": "We describe a mutual exclusion element using a reflective semiconductor optical amplifier (RSOA) and a simple scheme for contention resolution in arrayed waveguide grating router (AWGR)-based optical switches in data centers.",
+      "confidence": "medium"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W1989769976",
+    "title": "Monolithic Nanosecond-Reconfigurable 4$\\,\\times\\,$4 Space and Wavelength Selective Cross-Connect",
+    "year": 2012,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "A monolithic InGaAsP/InP 4 × 4 cross-connect is designed, fabricated and demonstrated. Each of the four inputs fan out to two stages of semiconductor optical amplifier-based gates to perform broadband-input-selection and wavelength-specific-selection. Stages of parallel cyclic arrayed waveguide grating routers and wavelength-agnostic fan-ins allow independent electronically controlled routing of four unique wavelength channels between the four inputs and outputs. The circuit is realized within a 15 mm area on a multi-project wafer. Circuit performance is evaluated by resolving optical power loss within the circuit to show component level performance at and close to design specification. Data routing experiments for wavelength multiplexed signals are performed and quantified in terms of optical power penalty. Multi-path routing is performed with both co- and counter-propagating data. Bi-directional and fast reconfigurable routing is similarly quantified. Low power penalty of less than 1 dB is measured for the simultaneous routing of data over multiple circuit paths.",
+    "cited_by_count": 25,
+    "tags": {
+      "tech_route": "soa",
+      "tech_route_secondary": null,
+      "integration": "integrated_photonic",
+      "trl_band": "lab",
+      "ai_dc_fit": "unclear",
+      "adjacent_field": null,
+      "evidence_span": "Each of the four inputs fan out to two stages of semiconductor optical amplifier-based gates to perform broadband-input-selection and wavelength-specific-selection.",
+      "confidence": "high"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W2007654061",
+    "title": "Scalable, Low-Energy Hybrid Photonic Space Switch",
+    "year": 2013,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "A scalable monolithically integrated photonic space switch is proposed which uses a combination of Mach-Zehnder modulators and semiconductor optical amplifiers (SOAs) for improved crosstalk performance and reduced switch loss. This architecture enables the design of high-capacity, high-speed, large-port count, low-energy switches. Extremely low crosstalk of better than -50 dB can be achieved using a 2 × 2 dilated hybrid switch module. A “building block” approach is applied to make large port count optical switches possible. Detailed physical layer multiwavelength simulations are used to investigate the viability of a 64 × 64 port switch. Optical signal degradation is estimated as a function of switch size and waveguide induced crosstalk. A comparison between hybrid and SOA switching fabrics highlights the power-efficient, high-performance nature of the hybrid switch design, which consumes less than one-third of the energy of an equivalent SOA-based switch. The significantly reduced impairments resulting from this switch design enable scaling of the port count, compared to conventional SOA-based switches.",
+    "cited_by_count": 60,
+    "tags": {
+      "tech_route": "electro_optic",
+      "tech_route_secondary": "soa",
+      "integration": "integrated_photonic",
+      "trl_band": "lab",
+      "ai_dc_fit": "unclear",
+      "adjacent_field": null,
+      "evidence_span": "A scalable monolithically integrated photonic space switch is proposed which uses a combination of Mach-Zehnder modulators and semiconductor optical amplifiers (SOAs) for improved crosstalk performance and reduced switch loss.",
+      "confidence": "medium"
+    },
+    "match": "secondary"
+  },
+  {
+    "paper_id": "W1997754090",
+    "title": "Monolithic MZI-SOA hybrid switch for low-power and low-penalty operation",
+    "year": 2014,
+    "venue": "Optics Letters",
+    "abstract": "We report the first experimental demonstration of a monolithically integrated hybrid dilated 2×2 modular optical switch using Mach-Zehnder modulators as low-loss 1×2 switching elements and short semiconductor optical amplifiers to provide additional extinction and gain. An excellent 40 dB cross-talk/extinction ratio is recorded with data-modulated signal-to-noise ratios of up to 44 dB in a 0.1 nm bandwidth. A switching time of 3 ns is demonstrated. Bit error rate studies show extremely low subsystem penalties of less than 0.1 dB, and studies indicate that, by using this hybrid switch building block, an 8×8 port switch could be achieved with 14 dB input power dynamic range for subsystem penalties of less than 0.5 dB.",
+    "cited_by_count": 36,
+    "tags": {
+      "tech_route": "electro_optic",
+      "tech_route_secondary": "soa",
+      "integration": "integrated_photonic",
+      "trl_band": "lab",
+      "ai_dc_fit": "unclear",
+      "adjacent_field": null,
+      "evidence_span": "We report the first experimental demonstration of a monolithically integrated hybrid dilated 2×2 modular optical switch using Mach-Zehnder modulators as low-loss 1×2 switching elements and short semiconductor optical amplifiers to provide additional extinction and gain.",
+      "confidence": "medium"
+    },
+    "match": "secondary"
+  },
+  {
+    "paper_id": "W2062054310",
+    "title": "Demonstration of the feasibility of large-port-count optical switching using a hybrid Mach–Zehnder interferometer–semiconductor optical amplifier switch module in a recirculating loop",
+    "year": 2014,
+    "venue": "Optics Letters",
+    "abstract": "For what we believe is the first time, the feasibility of large-port-count nanosecond-reconfiguration-time optical switches is demonstrated using a hybrid approach, where Mach-Zehnder interferometric (MZI) switches provide low-loss, high-speed routing with short semiconductor optical amplifiers (SOAs) being integrated to enhance extinction. By repeatedly passing signals through a monolithic hybrid dilated 2×2 switch module in a recirculating loop, the potential performance of high-port-count switches using the hybrid approach is demonstrated. Experimentally, a single pass switch penalty of only 0.1 dB is demonstrated for the 2×2 module, while even after seven passes through the switch, equivalent to a 128×128 router, a penalty of only 2.4 dB is recorded at a data rate of 10 Gb/s.",
+    "cited_by_count": 46,
+    "tags": {
+      "tech_route": "soa",
+      "tech_route_secondary": "electro_optic",
+      "integration": "integrated_photonic",
+      "trl_band": "lab",
+      "ai_dc_fit": "unclear",
+      "adjacent_field": null,
+      "evidence_span": "For what we believe is the first time, the feasibility of large-port-count nanosecond-reconfiguration-time optical switches is demonstrated using a hybrid approach, where Mach-Zehnder interferometric (MZI) switches provide low-loss, high-speed routing with short semiconductor optical amplifiers (SOAs) being integrated to enhance extinction.",
+      "confidence": "medium"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W2064033006",
+    "title": "Hundred-Picoseconds Electro-Optical Switching With Semiconductor Optical Amplifiers Using Multi-Impulse Step Injection Current",
+    "year": 2014,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "An ultrafast electro-optical amplified switch based on chip-on-carrier semiconductor optical amplifier with high optical contrast (33 dB) is presented. Switching times up to 115 ps with small overshoot were achieved by using the multi-impulse step injected current technique. These results are compared with previous preimpulse step injected current technique, and achieve a reduction of the inherent, post switching gain fluctuations without worsening the switching times. In addition, pulse formats for controlling such a kind of electro-optical switches are numerically analyzed and compared with experiments.",
+    "cited_by_count": 35,
+    "tags": {
+      "tech_route": "soa",
+      "tech_route_secondary": null,
+      "integration": "integrated_photonic",
+      "trl_band": "lab",
+      "ai_dc_fit": "none",
+      "adjacent_field": null,
+      "evidence_span": "An ultrafast electro-optical amplified switch based on chip-on-carrier semiconductor optical amplifier with high optical contrast (33 dB) is presented.",
+      "confidence": "high"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W1983164798",
+    "title": "Silicon Photonic Switch Fabrics in Computer Communications Systems",
+    "year": 2015,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "We discuss silicon photonic switch fabric designs that target data-intensive computing networks, reviewing recent results, and projecting future performance goals. We analyze the achievements of demonstrated hardware in terms of switching time, footprint, crosstalk, and power consumption, concluding that the most crucial metric to improve upon is net loss. We propose integrating semiconductor optical amplifiers into the switch fabric using either flip-chip or wafer-bonding technology, and investigate its potential merits alongside several challenges in implementation. Furthermore, we explore the dominant causes of crosstalk, and discuss manners for reducing it. We perform switch simulations that project a 7-dB reduction in crosstalk, when using a push-pull, rather than a single-ended phase shifter drive scheme. We also evaluate crosstalk effects on transmission performance using a full-link model that incorporates multiple crosstalk-accumulating photonic switch hops. The study demonstrates the degree to which crosstalk may degrade signal integrity after just a few occurrences. Finally, a comparison of four topologies highlights tradeoffs in physical-layer design and scheduling complexity, illustrating the scales that may be accomplished with the simplest topologies, and the device improvements required to achieve the more robust architectures.",
+    "cited_by_count": 60,
+    "tags": {
+      "tech_route": "unclear",
+      "tech_route_secondary": "soa",
+      "integration": "integrated_photonic",
+      "trl_band": "unclear",
+      "ai_dc_fit": "indirect",
+      "adjacent_field": null,
+      "evidence_span": "We discuss silicon photonic switch fabric designs that target data-intensive computing networks, reviewing recent results, and projecting future performance goals.",
+      "confidence": "low"
+    },
+    "match": "secondary"
+  },
+  {
+    "paper_id": "W2912886516",
+    "title": "Photonic integrated WDM cross-connects for optical metro and data center networks",
+    "year": 2019,
+    "venue": null,
+    "abstract": "We present a scalable and novel modular optical metro core node architecture and low cost metro access node architectures with edge computing functionalities employing photonic WDM integrated switches. Photonic integrated switches has been des igned as the building blocks to realize the modular metro node architectures, namely photonic WDM switches with express and add/drop ports, photonic integrated WSS aggregation/disaggregation functions for merging/dropping the network traffic, and photonic integrated multi-cast switch (MCS), as well as bandwidth variable transceivers aggregators to achieve multi-Terabits/second operation. Moreover, a dynamic re-configurable metro-access nodes based on low-cost 2-degree photonic integrated mini-ROADMs will be discussed. The lossless photonic WDM switches are based on InP technology and employ semiconductor optical amplifiers as on -chip gain element and fast switch. The photonic WDM circuits allows to switch multiple format data signals in wavelength, space, and time for full flexibility, scalability of the interconnected network elements as well as capacity. Applications to data center interconnects and 5G will be discussed and experimental results reported.",
+    "cited_by_count": 15,
+    "tags": {
+      "tech_route": "soa",
+      "tech_route_secondary": null,
+      "integration": "integrated_photonic",
+      "trl_band": "lab",
+      "ai_dc_fit": "indirect",
+      "adjacent_field": null,
+      "evidence_span": "The lossless photonic WDM switches are based on InP technology and employ semiconductor optical amplifiers as on -chip gain element and fast switch.",
+      "confidence": "high"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W3006394648",
+    "title": "PULSE: Optical Circuit Switched Data Center Architecture Operating at Nanosecond Timescales",
+    "year": 2020,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "We introduce PULSE, a sub-μs optical circuit switched data centre network architecture controlled by distributed hardware schedulers. PULSE is a flat architecture that uses parallel passive coupler-based broadcast and select networks. We employ a novel transceiver architecture, for dynamic wavelength-timeslot selection, to achieve a reconfiguration time down to O(100 ps), establishing timeslots of O(10 ns). A novel scheduling algorithm that has a clock period of 2.3 ns performs multiple iterations to maximize throughput, wavelength usage and reduce latency, enhancing the overall performance. In order to scale, the single-hop PULSE architecture uses sub-networks that are disjoint by using multiple transceivers for each node in 64 node racks. At the reconfiguration circuit duration (epoch = 120 ns), the scheduling algorithm is shown to achieve up to 93% throughput and 100% wavelength usage of 64 wavelengths, incurring an average latency that ranges from 0.7-1.2 μs with best-case 0.4 μs median and 5 μs tail latency, limited by the timeslot (20 ns) and epoch size (120 ns). We show how the 4096-node PULSE architecture allows up to 260 k optical channels to be re-used across sub-networks achieving a capacity of 25.6 Pbps with an energy consumption of 82 pJ/bit when using coherent receiver.",
+    "cited_by_count": 60,
+    "tags": {
+      "tech_route": "soa",
+      "tech_route_secondary": null,
+      "integration": "unclear",
+      "trl_band": "lab",
+      "ai_dc_fit": "indirect",
+      "adjacent_field": null,
+      "evidence_span": "We introduce PULSE, a sub-μs optical circuit switched data centre network architecture controlled by distributed hardware schedulers.",
+      "confidence": "medium"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W3093967660",
+    "title": "Ultrafast optical circuit switching for data centers using integrated soliton microcombs",
+    "year": 2021,
+    "venue": "Nature Communications",
+    "abstract": "Abstract Due to the slowdown of Moore’s law, it will become increasingly challenging to efficiently scale the network in current data centers utilizing electrical packet switches as data rates grow. Optical circuit switches (OCS) represent an appealing option to overcome this issue by eliminating the need for expensive and power-hungry transceivers and electrical switches in the core of the network. In particular, optical switches based on tunable lasers and arrayed waveguide grating routers are quite promising due to the use of a passive core, which increases fault tolerance and reduces management overhead. Such an OCS-network can offer high bandwidth, low network latency and an energy-efficient and scalable data center network. To support dynamic data center workloads efficiently, however, it is critical to switch between wavelengths at nanosecond (ns) timescales. Here we demonstrate ultrafast OCS based on a microcomb and semiconductor optical amplifiers (SOAs). Using a photonic integrated Si 3 N 4 microcomb, sub-ns (<520 ps) switching along with the 25-Gbps non-return-to-zero (NRZ) and 50-Gbps four-level pulse amplitude modulation (PAM-4) burst mode data transmission is achieved. Further, we use a photonic integrated circuit comprising an Indium phosphide based SOA array and an arrayed waveguide grating to show sub-ns switching (<900 ps) along with 25-Gbps NRZ burst mode transmission providing a path towards a more scalable and energy-efficient wavelength-switched network for data centers in the post Moore’s Law era.",
+    "cited_by_count": 96,
+    "tags": {
+      "tech_route": "soa",
+      "tech_route_secondary": null,
+      "integration": "integrated_photonic",
+      "trl_band": "lab",
+      "ai_dc_fit": "indirect",
+      "adjacent_field": null,
+      "evidence_span": "Here we demonstrate ultrafast OCS based on a microcomb and semiconductor optical amplifiers (SOAs).",
+      "confidence": "high"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W4220911475",
+    "title": "Low-Latency Optical Wireless Data-Center Networks Using Nanoseconds Semiconductor-Based Wavelength Selectors and Arrayed Waveguide Grating Router",
+    "year": 2022,
+    "venue": "Photonics",
+    "abstract": "In order to meet the massively increasing requirements of big-data applications, data centers (DCs) are key infrastructures to cope with the associated demands, such as high performance, easy scalability, low cabling complexity and low power consumption. Many research efforts have been dedicated to traditional wired data center networks (DCNs). However, DCNs’ static and rigid topology based on optical cables significantly limits their flexibility, scalability, and even reconfigurability. The limitations of this wired connection can be addressed with optical wireless technology, which avoids cable complexity problems while allowing dynamic adaption and fast reconfiguration. Here, we propose and investigate a novel optical wireless data-center network (OW-DCN) architecture based on nanoseconds semiconductor optical amplifier (SOA)-based wavelength selectors and arrayed waveguide grating router (AWGR) controlled by fast field-programmable gate array (FPGA)-based switch schedulers. The full architecture, including the design, packet-switching strategy, contention solving methodology, and reconfiguration capability, is presented and demonstrated. Dynamic switch scheduling with a FPGA-based switch scheduler processing optical label and software-defined network (SDN)-based reconfiguration were experimentally confirmed. The proposed OW-DCN was also achieved with a power penalty of less than 2 dB power penalty at BER < 1 × 10−9 for a 50 Gb/s OOK transmission and packet-switching transmission.",
+    "cited_by_count": 21,
+    "tags": {
+      "tech_route": "soa",
+      "tech_route_secondary": null,
+      "integration": "unclear",
+      "trl_band": "lab",
+      "ai_dc_fit": "indirect",
+      "adjacent_field": null,
+      "evidence_span": "Here, we propose and investigate a novel optical wireless data-center network (OW-DCN) architecture based on nanoseconds semiconductor optical amplifier (SOA)-based wavelength selectors and arrayed waveguide grating router (AWGR) controlled by fast field-programmable gate array (FPGA)-based switch schedulers.",
+      "confidence": "medium"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W4285084333",
+    "title": "ReSAW: a reconfigurable and picosecond-synchronized optical data center network based on an AWGR and the WR protocol",
+    "year": 2022,
+    "venue": "Journal of Optical Communications and Networking",
+    "abstract": "The explosive growth of data center (DC) traffic imposes unprecedented challenges on the current electrical switch-based data center networks (DCNs) with the bottleneck of limited bandwidth and high latency. Benefitting from transparency to the data rate and format, optical switching with theoretically infinite bandwidth could overcome the bandwidth bottleneck of electrical switching DCNs. However, DCNs normally deploy multitenant applications with a variety of DC traffic. It is hard to reconfigure the optical interconnections in real-time to provide adaptable bandwidth to the traffic with heterogeneous characteristics. Moreover, to improve the bandwidth utilization, statistical multiplexing is generally deployed in optical DCNs to forward the traffic flow in a time slot, which requires the network time to be precisely synchronized to all network nodes. For fast optical switches with a nanosecond switching configuration time, overall end node times must be synchronized at subnanosecond magnitude. In this paper, we propose and experimentally investigate a reconfigurable and picosecond-synchronized optical DCN (ReSAW) based on an arrayed waveguide grating router (AWGR) and the White Rabbit (WR) protocol. A scheduler based on a distributed field-programmable gate array is implemented in the proposed ReSAW to realize flexible wavelength configuration by controlling the fast laser array based on semiconductor optical amplifiers (SOAs) according to time slot and traffic priority. Moreover, the WR protocol is implemented in optical DCNs for what we believe is the first time to synchronize the time of the distributed top of racks (ToRs). The experimental demonstration validates that ReSAW achieves an average end-to-end latency of 317.44 ns and a precise synchronized time with an average 386 ps skew. When the load is 0.4, the packet loss after ReSAW reconfiguration is less than 1.83 × 10 − 6 , and the network latency is less than 1.73 µs. Based on the experimental parameters and results, the OMNeT++ simulation model is built to further verify the reconfigurability and scalability of the ReSAW network. Results show that the packet loss rate and latency performance increase 8.24% and 12.47%, respectively, at a load of 0.6 as the ReSAW network scales from 2560 to 40,960 servers compared to before the reconfiguration.",
+    "cited_by_count": 15,
+    "tags": {
+      "tech_route": "soa",
+      "tech_route_secondary": null,
+      "integration": "unclear",
+      "trl_band": "lab",
+      "ai_dc_fit": "indirect",
+      "adjacent_field": null,
+      "evidence_span": "A scheduler based on a distributed field-programmable gate array is implemented in the proposed ReSAW to realize flexible wavelength configuration by controlling the fast laser array based on semiconductor optical amplifiers (SOAs) according to time slot and traffic priority.",
+      "confidence": "low"
+    },
+    "match": "primary"
+  }
+]

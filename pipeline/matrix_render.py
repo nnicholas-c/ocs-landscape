@@ -56,8 +56,9 @@ def short(row):
         return "[not reported]"
     if row["status"] == "no_source":
         return "[no source]"
-    # A bare number or range gets its unit; a value written as text already carries it.
-    text = f"{row['value']} {row['unit']}".strip() if re.fullmatch(r"[-\d., xto]+", row["value"]) else row["value"]
+    # Append the unit unless the value already carries it.
+    unit = row["unit"]
+    text = row["value"] if not unit or unit in row["value"] else f"{row['value']} {unit}"
     return text if len(text) <= TABLE_CELL_MAX else text[:TABLE_CELL_MAX - 3].rstrip() + "..."
 
 
@@ -74,7 +75,21 @@ def render_matrix(rows):
            "Every cell comes from deliverables/comparison_matrix.csv, which pipeline.matrix_build fills from core-paper abstracts "
            "and data/projects.csv. This file is written by pipeline.matrix_render, not by hand.", "",
            "Abbreviations used below. MEMS is micro-electro-mechanical systems. LCoS is liquid crystal on silicon. "
-           "SOA is semiconductor optical amplifier. TRL is technology readiness level. ML is machine learning.", "",
+           "SOA is semiconductor optical amplifier. TRL is technology readiness level. ML is machine learning. "
+           "AI is artificial intelligence. GPU is graphics processing unit and TPU is tensor processing unit. "
+           "CMOS is complementary metal-oxide-semiconductor. WSS is wavelength selective switch. "
+           "Quoted abstracts use more abbreviations of their own, left as written.", "",
+           "Status reported means a quoted source states the value. derived means a script computed it, as the note says. "
+           "not_reported_in_abstract means the route has papers but their abstracts do not say, and the note names the paper "
+           "whose full text should be read. no_source is used only for companies cells where no row of data/projects.csv "
+           "carries the route. Every route has core papers.", "",
+           "Category cells (integration, trl_band, ai_cluster_fit) hold only the controlled label. The reasoning is in the note. "
+           "ai_cluster_fit follows the comparison-framework definition, so yes means an abstract uses or proposes the route for "
+           "accelerator clusters, reconfigurable data center topologies, or replacing a spine layer. The note says whether "
+           "any abstract names accelerators or machine learning directly.", "",
+           "When a cell draws on several sources, the evidence holds one exact quote per source. The CSV separates them with || "
+           "and this file shows the separator as // because a bar would break the table. "
+           "projects.csv row N means the Nth data row of data/projects.csv, not counting the header.", "",
            "Quotes here are folded to plain ASCII, so the micro sign reads u and the times sign reads x. "
            "The CSV keeps every quote verbatim.", "",
            "## Overview", "",
@@ -110,7 +125,7 @@ def render_matrix(rows):
             r = by_key[(route, d)]
             out.append("| " + " | ".join(cell_md(x) for x in (
                 d, r["value"], r["unit"], r["status"], r["confidence"], sources(r),
-                f'"{r["evidence_quote"]}"' if r["evidence_quote"] else "", r["note"])) + " |")
+                " || ".join(f'"{q}"' for q in r["evidence_quote"].split(" || ") if q), r["note"])) + " |")
 
     counts = Counter(r["status"] for r in rows)
     out += ["", "## Cell counts by status", "",
@@ -130,7 +145,9 @@ def render_reading_list(rows):
     out = ["# Reading list", "",
            "Ten core papers whose full text would fill the most matrix cells that abstracts left empty, "
            "or settle the widest ranges. Picked by the stage 6 analyst. Title and year come from data/db/papers.sqlite, "
-           "and the cell lists come from deliverables/comparison_matrix.csv. Written by pipeline.matrix_render.", ""]
+           "and the cell lists come from deliverables/comparison_matrix.csv. Written by pipeline.matrix_render.", "",
+           "MEMS is micro-electro-mechanical systems, LCoS is liquid crystal on silicon, and SOA is semiconductor "
+           "optical amplifier.", ""]
     for n, (pid, why) in enumerate(spec["reading_list"], start=1):
         title, year = con.execute("SELECT title, year FROM papers WHERE paper_id = ?", (pid,)).fetchone()
         fills = [f"{r['tech_route']} {r['dimension']}" for r in rows
