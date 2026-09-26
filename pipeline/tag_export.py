@@ -69,10 +69,20 @@ def write_batches(records, prefix, start_num, size):
 
 
 def existing_relevance_keys():
-    if not RELEVANCE_CSV.exists():
-        return set()
-    with open(RELEVANCE_CSV, newline="", encoding="utf-8") as f:
-        return {row["record_key"] for row in csv.DictReader(f)}
+    done = set()
+    if RELEVANCE_CSV.exists():
+        with open(RELEVANCE_CSV, newline="", encoding="utf-8") as f:
+            done.update(row["record_key"] for row in csv.DictReader(f))
+    # Also skip records already sitting in a pending (not yet tagged/imported)
+    # batch file, so a rerun before tag_import does not re-export the same
+    # records into a second set of batches and double the tagging work.
+    batch_name_re = re.compile(r"^relevance_batch_(\d{3})\.json$")
+    for p in WORK_DIR.glob("relevance_batch_*.json"):
+        if not batch_name_re.match(p.name):
+            continue
+        with open(p, encoding="utf-8") as f:
+            done.update(rec["record_key"] for rec in json.load(f))
+    return done
 
 
 def export_relevance():

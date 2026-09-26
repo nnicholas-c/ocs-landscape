@@ -37,7 +37,7 @@
 <node id="IBM (United States)">
   <data key="d0">37</data>
   <data key="d1">11</data>
-  <data key="d2">12</data>
+  <data key="d2">13</data>
   <data key="d3">architecture_only;electro_optic;thermo_optic;unclear</data>
 </node>
 <node id="Assumption University">
@@ -77,9 +77,9 @@
   <data key="d3">mems_silicon_photonic;other</data>
 </node>
 <node id="University of California, Santa Barbara">
-  <data key="d0">13</data>
+  <data key="d0">14</data>
   <data key="d1">3</data>
-  <data key="d2">12</data>
+  <data key="d2">13</data>
   <data key="d3">architecture_only;mems_3d;unclear</data>
 </node>
 <node id="Tohoku University">
@@ -138,8 +138,8 @@
 </node>
 <node id="National Institute of Advanced Industrial Science and Technology">
   <data key="d0">32</data>
-  <data key="d1">15</data>
-  <data key="d2">16</data>
+  <data key="d1">16</data>
+  <data key="d2">17</data>
   <data key="d3">architecture_only;thermo_optic;unclear</data>
 </node>
 <node id="University of California, Davis">
@@ -156,8 +156,8 @@
 </node>
 <node id="University of Arizona">
   <data key="d0">10</data>
-  <data key="d1">5</data>
-  <data key="d2">5</data>
+  <data key="d1">6</data>
+  <data key="d2">6</data>
   <data key="d3">architecture_only;mems_2d;other</data>
 </node>
 <node id="Texas Instruments (United States)">
@@ -167,10 +167,22 @@
   <data key="d3">other</data>
 </node>
 <node id="Ghent University">
-  <data key="d0">39</data>
+  <data key="d0">43</data>
   <data key="d1">3</data>
-  <data key="d2">15</data>
+  <data key="d2">16</data>
   <data key="d3">mems_silicon_photonic</data>
+</node>
+<node id="Harvard University">
+  <data key="d0">24</data>
+  <data key="d1">0</data>
+  <data key="d2">5</data>
+  <data key="d3"></data>
+</node>
+<node id="Cornell University">
+  <data key="d0">1</data>
+  <data key="d1">0</data>
+  <data key="d2">1</data>
+  <data key="d3"></data>
 </node>
 <node id="Commissariat à l'Énergie Atomique et aux Énergies Alternatives">
   <data key="d0">2</data>
@@ -185,9 +197,9 @@
   <data key="d3">unclear</data>
 </node>
 <node id="Institut polytechnique de Grenoble">
-  <data key="d0">4</data>
+  <data key="d0">7</data>
   <data key="d1">0</data>
-  <data key="d2">3</data>
+  <data key="d2">4</data>
   <data key="d3"></data>
 </node>
 <node id="IMEC">
@@ -196,11 +208,17 @@
   <data key="d2">8</data>
   <data key="d3">electro_optic;mems_silicon_photonic;unclear</data>
 </node>
+<node id="University of Massachusetts Boston">
+  <data key="d0">1</data>
+  <data key="d1">2</data>
+  <data key="d2">4</data>
+  <data key="d3">electro_optic;unclear</data>
+</node>
 <node id="University of California San Diego">
-  <data key="d0">26</data>
-  <data key="d1">13</data>
-  <data key="d2">13</data>
-  <data key="d3">architecture_only;lcos;mems_3d;mems_silicon_photonic;unclear</data>
+  <data key="d0">32</data>
+  <data key="d1">15</data>
+  <data key="d2">16</data>
+  <data key="d3">architecture_only;lcos;mems_3d;mems_silicon_photonic;thermo_optic;unclear</data>
 </node>
 <node id="Cisco Systems (China)">
   <data key="d0">1</data>
@@ -226,11 +244,41 @@
   <data key="d2">1</data>
   <data key="d3"></data>
 </node>
+<node id="Wuhan National Laboratory for Optoelectronics">
+  <data key="d0">12</data>
+  <data key="d1">1</data>
+  <data key="d2">6</data>
+  <data key="d3">unclear</data>
+</node>
+<node id="Purdue University West Lafayette">
+  <data key="d0">11</data>
+  <data key="d1">0</data>
+  <data key="d2">2</data>
+  <data key="d3"></data>
+</node>
+<node id="Chinese Academy of Sciences">
+  <data key="d0">21</data>
+  <data key="d1">4</data>
+  <data key="d2">7</data>
+  <data key="d3">electro_optic;thermo_optic</data>
+</node>
+<node id="Shanghai Institute of Microsystem and Information Technology">
+  <data key="d0">1</data>
+  <data key="d1">0</data>
+  <data key="d2">1</data>
+  <data key="d3"></data>
+</node>
 <node id="Intel (United States)">
-  <data key="d0">40</data>
+  <data key="d0">42</data>
   <data key="d1">2</data>
-  <data key="d2">8</data>
+  <data key="d2">9</data>
   <data key="d3">architecture_only</data>
+</node>
+<node id="Technical University of Denmark">
+  <data key="d0">15</data>
+  <data key="d1">0</data>
+  <data key="d2">3</data>
+  <data key="d3"></data>
 </node>
 <node id="University of Illinois Urbana-Champaign">
   <data key="d0">1</data>
@@ -245,15 +293,15 @@
   <data key="d3">architecture_only</data>
 </node>
 <node id="University of Southampton">
-  <data key="d0">16</data>
+  <data key="d0">23</data>
   <data key="d1">3</data>
-  <data key="d2">6</data>
+  <data key="d2">8</data>
   <data key="d3">architecture_only;piezo;unclear</data>
 </node>
 <node id="University of Surrey">
-  <data key="d0">3</data>
+  <data key="d0">2</data>
   <data key="d1">0</data>
-  <data key="d2">3</data>
+  <data key="d2">2</data>
   <data key="d3"></data>
 </node>
 <node id="Athens Information Technology">
@@ -268,12 +316,6 @@
   <data key="d2">3</data>
   <data key="d3">architecture_only;unclear</data>
 </node>
-<node id="Harvard University">
-  <data key="d0">18</data>
-  <data key="d1">0</data>
-  <data key="d2">4</data>
-  <data key="d3"></data>
-</node>
 <node id="Massachusetts Institute of Technology">
   <data key="d0">19</data>
   <data key="d1">1</data>
@@ -282,14 +324,14 @@
 </node>
 <node id="Nagoya University">
   <data key="d0">7</data>
-  <data key="d1">10</data>
-  <data key="d2">10</data>
+  <data key="d1">11</data>
+  <data key="d2">11</data>
   <data key="d3">architecture_only;other;thermo_optic;unclear</data>
 </node>
 <node id="NTT (Japan)">
   <data key="d0">22</data>
-  <data key="d1">9</data>
-  <data key="d2">10</data>
+  <data key="d1">10</data>
+  <data key="d2">11</data>
   <data key="d3">architecture_only;mems_3d;other;robotic_patch_panel;unclear</data>
 </node>
 <node id="The University of Osaka">
@@ -311,9 +353,9 @@
   <data key="d3">mems_3d;other;soa</data>
 </node>
 <node id="Swiss Federal Laboratories for Materials Science and Technology">
-  <data key="d0">2</data>
+  <data key="d0">3</data>
   <data key="d1">0</data>
-  <data key="d2">1</data>
+  <data key="d2">2</data>
   <data key="d3"></data>
 </node>
 <node id="Nokia (United States)">
@@ -323,9 +365,9 @@
   <data key="d3">mems_3d;unclear</data>
 </node>
 <node id="California Institute of Technology">
-  <data key="d0">5</data>
+  <data key="d0">13</data>
   <data key="d1">0</data>
-  <data key="d2">4</data>
+  <data key="d2">6</data>
   <data key="d3"></data>
 </node>
 <node id="National Laboratory of the Rockies">
@@ -364,12 +406,6 @@
   <data key="d2">2</data>
   <data key="d3">unclear</data>
 </node>
-<node id="Chinese Academy of Sciences">
-  <data key="d0">19</data>
-  <data key="d1">4</data>
-  <data key="d2">6</data>
-  <data key="d3">electro_optic;thermo_optic</data>
-</node>
 <node id="The University of Tokyo">
   <data key="d0">10</data>
   <data key="d1">1</data>
@@ -395,16 +431,22 @@
   <data key="d3">unclear</data>
 </node>
 <node id="Universidade Estadual de Campinas (UNICAMP)">
-  <data key="d0">5</data>
+  <data key="d0">7</data>
   <data key="d1">1</data>
-  <data key="d2">1</data>
+  <data key="d2">2</data>
   <data key="d3">soa</data>
 </node>
 <node id="The University of Texas at Austin">
-  <data key="d0">6</data>
-  <data key="d1">0</data>
-  <data key="d2">1</data>
-  <data key="d3"></data>
+  <data key="d0">10</data>
+  <data key="d1">1</data>
+  <data key="d2">3</data>
+  <data key="d3">thermo_optic</data>
+</node>
+<node id="Omega Optics (United States)">
+  <data key="d0">2</data>
+  <data key="d1">1</data>
+  <data key="d2">2</data>
+  <data key="d3">thermo_optic</data>
 </node>
 <node id="University of Bristol">
   <data key="d0">20</data>
@@ -456,7 +498,7 @@
 </node>
 <node id="Technische Universität Berlin">
   <data key="d0">3</data>
-  <data key="d1">3</data>
+  <data key="d1">2</data>
   <data key="d2">4</data>
   <data key="d3">architecture_only</data>
 </node>
@@ -476,12 +518,6 @@
   <data key="d0">13</data>
   <data key="d1">2</data>
   <data key="d2">5</data>
-  <data key="d3">unclear</data>
-</node>
-<node id="University of Massachusetts Boston">
-  <data key="d0">1</data>
-  <data key="d1">1</data>
-  <data key="d2">3</data>
   <data key="d3">unclear</data>
 </node>
 <node id="Verizon (United States)">
@@ -533,9 +569,9 @@
   <data key="d3">architecture_only</data>
 </node>
 <node id="University of Washington">
-  <data key="d0">3</data>
-  <data key="d1">1</data>
-  <data key="d2">2</data>
+  <data key="d0">9</data>
+  <data key="d1">2</data>
+  <data key="d2">4</data>
   <data key="d3">other</data>
 </node>
 <node id="Alps Electric (United Kingdom)">
@@ -545,9 +581,9 @@
   <data key="d3"></data>
 </node>
 <node id="Northwestern University">
-  <data key="d0">3</data>
+  <data key="d0">7</data>
   <data key="d1">2</data>
-  <data key="d2">2</data>
+  <data key="d2">3</data>
   <data key="d3">architecture_only</data>
 </node>
 <node id="Polytechnique Montréal">
@@ -598,6 +634,12 @@
   <data key="d2">1</data>
   <data key="d3">architecture_only</data>
 </node>
+<node id="University of Science and Technology of China">
+  <data key="d0">17</data>
+  <data key="d1">4</data>
+  <data key="d2">5</data>
+  <data key="d3">architecture_only;thermo_optic</data>
+</node>
 <node id="Dublin City University">
   <data key="d0">3</data>
   <data key="d1">1</data>
@@ -629,9 +671,9 @@
   <data key="d3">architecture_only;soa</data>
 </node>
 <node id="Shanghai Jiao Tong University">
-  <data key="d0">19</data>
+  <data key="d0">25</data>
   <data key="d1">9</data>
-  <data key="d2">10</data>
+  <data key="d2">11</data>
   <data key="d3">architecture_only;electro_optic;thermo_optic</data>
 </node>
 <node id="University of Virginia">
@@ -641,9 +683,9 @@
   <data key="d3">architecture_only</data>
 </node>
 <node id="IBM Research - Zurich">
-  <data key="d0">3</data>
+  <data key="d0">5</data>
   <data key="d1">1</data>
-  <data key="d2">1</data>
+  <data key="d2">2</data>
   <data key="d3">architecture_only</data>
 </node>
 <node id="Evropský Polytechnický Institut">
@@ -657,6 +699,24 @@
   <data key="d1">4</data>
   <data key="d2">4</data>
   <data key="d3">mems_3d;unclear</data>
+</node>
+<node id="Simon Fraser University">
+  <data key="d0">7</data>
+  <data key="d1">0</data>
+  <data key="d2">1</data>
+  <data key="d3"></data>
+</node>
+<node id="Leibniz Institute for Crystal Growth">
+  <data key="d0">2</data>
+  <data key="d1">0</data>
+  <data key="d2">1</data>
+  <data key="d3"></data>
+</node>
+<node id="Physikalisch-Technische Bundesanstalt">
+  <data key="d0">1</data>
+  <data key="d1">0</data>
+  <data key="d2">1</data>
+  <data key="d3"></data>
 </node>
 <node id="Rockley Photonics (United States)">
   <data key="d0">1</data>
@@ -700,17 +760,17 @@
   <data key="d2">2</data>
   <data key="d3">unclear</data>
 </node>
-<node id="Wuhan National Laboratory for Optoelectronics">
-  <data key="d0">11</data>
-  <data key="d1">1</data>
-  <data key="d2">4</data>
-  <data key="d3">unclear</data>
-</node>
 <node id="Pennsylvania State University">
   <data key="d0">4</data>
   <data key="d1">3</data>
   <data key="d2">3</data>
   <data key="d3">architecture_only;mems_3d</data>
+</node>
+<node id="Monash University">
+  <data key="d0">6</data>
+  <data key="d1">0</data>
+  <data key="d2">3</data>
+  <data key="d3"></data>
 </node>
 <node id="Polatis (United Kingdom)">
   <data key="d0">6</data>
@@ -726,9 +786,9 @@
 </node>
 <node id="University of Münster">
   <data key="d0">1</data>
-  <data key="d1">0</data>
-  <data key="d2">1</data>
-  <data key="d3"></data>
+  <data key="d1">1</data>
+  <data key="d2">2</data>
+  <data key="d3">thermo_optic</data>
 </node>
 <node id="University of Exeter">
   <data key="d0">1</data>
@@ -749,9 +809,9 @@
   <data key="d3">architecture_only;mems_silicon_photonic;other;thermo_optic</data>
 </node>
 <node id="University of Toronto">
-  <data key="d0">5</data>
+  <data key="d0">8</data>
   <data key="d1">0</data>
-  <data key="d2">1</data>
+  <data key="d2">2</data>
   <data key="d3"></data>
 </node>
 <node id="Materials Processing (United States)">
@@ -790,12 +850,6 @@
   <data key="d2">2</data>
   <data key="d3"></data>
 </node>
-<node id="Monash University">
-  <data key="d0">3</data>
-  <data key="d1">0</data>
-  <data key="d2">2</data>
-  <data key="d3"></data>
-</node>
 <node id="University of British Columbia">
   <data key="d0">2</data>
   <data key="d1">0</data>
@@ -808,10 +862,16 @@
   <data key="d2">3</data>
   <data key="d3">mems_silicon_photonic</data>
 </node>
-<node id="University of Vienna">
+<node id="Ablynx (Belgium)">
   <data key="d0">1</data>
-  <data key="d1">1</data>
+  <data key="d1">0</data>
   <data key="d2">1</data>
+  <data key="d3"></data>
+</node>
+<node id="University of Vienna">
+  <data key="d0">2</data>
+  <data key="d1">5</data>
+  <data key="d2">6</data>
   <data key="d3">architecture_only</data>
 </node>
 <node id="Moscow Institute of Thermal Technology">
@@ -820,11 +880,17 @@
   <data key="d2">4</data>
   <data key="d3">architecture_only</data>
 </node>
-<node id="University of Science and Technology of China">
-  <data key="d0">11</data>
-  <data key="d1">3</data>
-  <data key="d2">4</data>
-  <data key="d3">architecture_only</data>
+<node id="Kim Il-sung University">
+  <data key="d0">5</data>
+  <data key="d1">1</data>
+  <data key="d2">1</data>
+  <data key="d3">other</data>
+</node>
+<node id="Max-Born-Institute for Nonlinear Optics and Short Pulse Spectroscopy">
+  <data key="d0">1</data>
+  <data key="d1">1</data>
+  <data key="d2">1</data>
+  <data key="d3">other</data>
 </node>
 <node id="Illinois Institute of Technology">
   <data key="d0">1</data>
@@ -849,6 +915,36 @@
   <data key="d1">2</data>
   <data key="d2">3</data>
   <data key="d3">unclear</data>
+</node>
+<node id="Swinburne University of Technology">
+  <data key="d0">5</data>
+  <data key="d1">0</data>
+  <data key="d2">3</data>
+  <data key="d3"></data>
+</node>
+<node id="Centre for Ultrahigh Bandwidth Devices for Optical Systems">
+  <data key="d0">2</data>
+  <data key="d1">0</data>
+  <data key="d2">2</data>
+  <data key="d3"></data>
+</node>
+<node id="City University of Hong Kong">
+  <data key="d0">6</data>
+  <data key="d1">0</data>
+  <data key="d2">3</data>
+  <data key="d3"></data>
+</node>
+<node id="Xi'an Institute of Optics and Precision Mechanics">
+  <data key="d0">3</data>
+  <data key="d1">0</data>
+  <data key="d2">3</data>
+  <data key="d3"></data>
+</node>
+<node id="University of Electronic Science and Technology of China">
+  <data key="d0">7</data>
+  <data key="d1">1</data>
+  <data key="d2">4</data>
+  <data key="d3">architecture_only</data>
 </node>
 <node id="MIT Lincoln Laboratory">
   <data key="d0">5</data>
@@ -892,6 +988,12 @@
   <data key="d2">1</data>
   <data key="d3"></data>
 </node>
+<node id="Fiber Optics Research Center">
+  <data key="d0">1</data>
+  <data key="d1">0</data>
+  <data key="d2">1</data>
+  <data key="d3"></data>
+</node>
 <node id="University of Minnesota">
   <data key="d0">1</data>
   <data key="d1">1</data>
@@ -916,6 +1018,12 @@
   <data key="d2">3</data>
   <data key="d3">architecture_only;piezo</data>
 </node>
+<node id="ADVA Optical Networking (Germany)">
+  <data key="d0">2</data>
+  <data key="d1">0</data>
+  <data key="d2">2</data>
+  <data key="d3"></data>
+</node>
 <node id="University College London">
   <data key="d0">8</data>
   <data key="d1">5</data>
@@ -930,6 +1038,24 @@
 </node>
 <node id="Sumitomo Electric Industries (Japan)">
   <data key="d0">2</data>
+  <data key="d1">1</data>
+  <data key="d2">1</data>
+  <data key="d3">architecture_only</data>
+</node>
+<node id="atesio (Germany)">
+  <data key="d0">2</data>
+  <data key="d1">1</data>
+  <data key="d2">1</data>
+  <data key="d3">architecture_only</data>
+</node>
+<node id="Zuse Institute Berlin">
+  <data key="d0">1</data>
+  <data key="d1">1</data>
+  <data key="d2">1</data>
+  <data key="d3">architecture_only</data>
+</node>
+<node id="Juniper Networks (United States)">
+  <data key="d0">1</data>
   <data key="d1">1</data>
   <data key="d2">1</data>
   <data key="d3">architecture_only</data>
@@ -970,6 +1096,12 @@
   <data key="d2">2</data>
   <data key="d3">mems_silicon_photonic</data>
 </node>
+<node id="Ben-Gurion University of the Negev">
+  <data key="d0">2</data>
+  <data key="d1">6</data>
+  <data key="d2">7</data>
+  <data key="d3">architecture_only</data>
+</node>
 <node id="Dalle Molle Institute for Artificial Intelligence Research">
   <data key="d0">1</data>
   <data key="d1">0</data>
@@ -984,15 +1116,9 @@
 </node>
 <node id="Trinity College Dublin">
   <data key="d0">2</data>
-  <data key="d1">0</data>
-  <data key="d2">1</data>
-  <data key="d3"></data>
-</node>
-<node id="Technical University of Denmark">
-  <data key="d0">1</data>
-  <data key="d1">0</data>
-  <data key="d2">1</data>
-  <data key="d3"></data>
+  <data key="d1">1</data>
+  <data key="d2">2</data>
+  <data key="d3">architecture_only</data>
 </node>
 <node id="University of Chicago">
   <data key="d0">1</data>
@@ -1018,17 +1144,17 @@
   <data key="d2">1</data>
   <data key="d3">mems_3d</data>
 </node>
+<node id="University of Southern Denmark">
+  <data key="d0">6</data>
+  <data key="d1">1</data>
+  <data key="d2">3</data>
+  <data key="d3">electro_optic</data>
+</node>
 <node id="University of Florida">
   <data key="d0">3</data>
   <data key="d1">0</data>
   <data key="d2">1</data>
   <data key="d3"></data>
-</node>
-<node id="University of Electronic Science and Technology of China">
-  <data key="d0">6</data>
-  <data key="d1">1</data>
-  <data key="d2">2</data>
-  <data key="d3">architecture_only</data>
 </node>
 <node id="Southwest Jiaotong University">
   <data key="d0">1</data>
@@ -1036,11 +1162,29 @@
   <data key="d2">1</data>
   <data key="d3">architecture_only</data>
 </node>
+<node id="Griffith University">
+  <data key="d0">7</data>
+  <data key="d1">0</data>
+  <data key="d2">1</data>
+  <data key="d3"></data>
+</node>
+<node id="Veeco (United States)">
+  <data key="d0">1</data>
+  <data key="d1">1</data>
+  <data key="d2">1</data>
+  <data key="d3">thermo_optic</data>
+</node>
 <node id="Hồng Đức University">
   <data key="d0">2</data>
   <data key="d1">1</data>
   <data key="d2">1</data>
   <data key="d3">architecture_only</data>
+</node>
+<node id="University of Ha'il">
+  <data key="d0">1</data>
+  <data key="d1">0</data>
+  <data key="d2">1</data>
+  <data key="d3"></data>
 </node>
 <node id="Kagawa University">
   <data key="d0">5</data>
@@ -1084,6 +1228,12 @@
   <data key="d2">1</data>
   <data key="d3"></data>
 </node>
+<node id="Oak Ridge National Laboratory">
+  <data key="d0">1</data>
+  <data key="d1">0</data>
+  <data key="d2">1</data>
+  <data key="d3"></data>
+</node>
 <node id="University of Tsukuba">
   <data key="d0">1</data>
   <data key="d1">0</data>
@@ -1102,6 +1252,18 @@
   <data key="d2">4</data>
   <data key="d3">mems_silicon_photonic</data>
 </node>
+<node id="Indian Institute of Information Technology, Design and Manufacturing, Kancheepuram">
+  <data key="d0">3</data>
+  <data key="d1">1</data>
+  <data key="d2">1</data>
+  <data key="d3">thermo_optic</data>
+</node>
+<node id="Institute of Physics">
+  <data key="d0">1</data>
+  <data key="d1">1</data>
+  <data key="d2">1</data>
+  <data key="d3">thermo_optic</data>
+</node>
 <node id="State Key Laboratory of Modern Optical Instruments">
   <data key="d0">7</data>
   <data key="d1">1</data>
@@ -1115,6 +1277,30 @@
   <data key="d3"></data>
 </node>
 <node id="Centre National de la Recherche Scientifique">
+  <data key="d0">4</data>
+  <data key="d1">0</data>
+  <data key="d2">2</data>
+  <data key="d3"></data>
+</node>
+<node id="University of Pavia">
+  <data key="d0">4</data>
+  <data key="d1">0</data>
+  <data key="d2">1</data>
+  <data key="d3"></data>
+</node>
+<node id="Munster Technological University">
+  <data key="d0">2</data>
+  <data key="d1">0</data>
+  <data key="d2">1</data>
+  <data key="d3"></data>
+</node>
+<node id="University of St Andrews">
+  <data key="d0">1</data>
+  <data key="d1">0</data>
+  <data key="d2">1</data>
+  <data key="d3"></data>
+</node>
+<node id="Institut de Microelectrònica de Barcelona">
   <data key="d0">1</data>
   <data key="d1">0</data>
   <data key="d2">1</data>
@@ -1136,18 +1322,6 @@
   <data key="d0">6</data>
   <data key="d1">0</data>
   <data key="d2">1</data>
-  <data key="d3"></data>
-</node>
-<node id="ADVA Optical Networking (Germany)">
-  <data key="d0">2</data>
-  <data key="d1">0</data>
-  <data key="d2">1</data>
-  <data key="d3"></data>
-</node>
-<node id="University of Southern Denmark">
-  <data key="d0">4</data>
-  <data key="d1">0</data>
-  <data key="d2">2</data>
   <data key="d3"></data>
 </node>
 <node id="SINTEF">
@@ -1204,10 +1378,22 @@
   <data key="d2">1</data>
   <data key="d3"></data>
 </node>
+<node id="University of Rochester">
+  <data key="d0">8</data>
+  <data key="d1">0</data>
+  <data key="d2">2</data>
+  <data key="d3"></data>
+</node>
+<node id="Clemson University">
+  <data key="d0">2</data>
+  <data key="d1">0</data>
+  <data key="d2">1</data>
+  <data key="d3"></data>
+</node>
 <node id="Peking University">
   <data key="d0">13</data>
-  <data key="d1">2</data>
-  <data key="d2">3</data>
+  <data key="d1">3</data>
+  <data key="d2">4</data>
   <data key="d3">architecture_only;mems_silicon_photonic</data>
 </node>
 <node id="University of Edinburgh">
@@ -1246,6 +1432,24 @@
   <data key="d2">1</data>
   <data key="d3"></data>
 </node>
+<node id="National Sun Yat-sen University">
+  <data key="d0">1</data>
+  <data key="d1">1</data>
+  <data key="d2">1</data>
+  <data key="d3">thermo_optic</data>
+</node>
+<node id="Argonne National Laboratory">
+  <data key="d0">2</data>
+  <data key="d1">0</data>
+  <data key="d2">1</data>
+  <data key="d3"></data>
+</node>
+<node id="Fermi National Accelerator Laboratory">
+  <data key="d0">4</data>
+  <data key="d1">0</data>
+  <data key="d2">1</data>
+  <data key="d3"></data>
+</node>
 <node id="Hebrew University of Jerusalem">
   <data key="d0">1</data>
   <data key="d1">1</data>
@@ -1264,23 +1468,11 @@
   <data key="d2">1</data>
   <data key="d3"></data>
 </node>
-<node id="University of Rochester">
-  <data key="d0">1</data>
-  <data key="d1">0</data>
-  <data key="d2">1</data>
-  <data key="d3"></data>
-</node>
 <node id="RMIT University">
-  <data key="d0">4</data>
+  <data key="d0">3</data>
   <data key="d1">1</data>
-  <data key="d2">2</data>
+  <data key="d2">1</data>
   <data key="d3">thermo_optic</data>
-</node>
-<node id="Ben-Gurion University of the Negev">
-  <data key="d0">1</data>
-  <data key="d1">2</data>
-  <data key="d2">2</data>
-  <data key="d3">architecture_only</data>
 </node>
 <node id="State Key Laboratory of Resources and Environmental Information System">
   <data key="d0">1</data>
@@ -1298,6 +1490,12 @@
   <data key="d0">4</data>
   <data key="d1">0</data>
   <data key="d2">1</data>
+  <data key="d3"></data>
+</node>
+<node id="Central South University">
+  <data key="d0">3</data>
+  <data key="d1">0</data>
+  <data key="d2">2</data>
   <data key="d3"></data>
 </node>
 <node id="Collaborative Innovation Center of Advanced Microstructures">
@@ -1338,9 +1536,15 @@
 </node>
 <node id="Kyoto University">
   <data key="d0">4</data>
-  <data key="d1">4</data>
-  <data key="d2">4</data>
+  <data key="d1">5</data>
+  <data key="d2">5</data>
   <data key="d3">architecture_only</data>
+</node>
+<node id="Australian Research Council">
+  <data key="d0">2</data>
+  <data key="d1">0</data>
+  <data key="d2">1</data>
+  <data key="d3"></data>
 </node>
 <node id="Beijing Information Science &amp; Technology University">
   <data key="d0">8</data>
@@ -1433,13 +1637,22 @@
   <data key="d4">3</data>
 </edge>
 <edge source="IBM (United States)" target="IBM Research - Zurich">
-  <data key="d4">12</data>
+  <data key="d4">18</data>
 </edge>
 <edge source="IBM (United States)" target="Swiss Federal Laboratories for Materials Science and Technology">
-  <data key="d4">16</data>
+  <data key="d4">19</data>
 </edge>
 <edge source="IBM (United States)" target="Institut polytechnique de Grenoble">
   <data key="d4">8</data>
+</edge>
+<edge source="IBM (United States)" target="Technische Universität Berlin">
+  <data key="d4">3</data>
+</edge>
+<edge source="IBM (United States)" target="The University of Texas at Austin">
+  <data key="d4">3</data>
+</edge>
+<edge source="IBM (United States)" target="ADVA Optical Networking (Germany)">
+  <data key="d4">3</data>
 </edge>
 <edge source="IBM (United States)" target="Los Alamos National Laboratory">
   <data key="d4">15</data>
@@ -1621,10 +1834,19 @@
 <edge source="University of California, Santa Barbara" target="Intel (United States)">
   <data key="d4">12</data>
 </edge>
+<edge source="University of California, Santa Barbara" target="University of Rochester">
+  <data key="d4">26</data>
+</edge>
+<edge source="University of California, Santa Barbara" target="California Institute of Technology">
+  <data key="d4">12</data>
+</edge>
+<edge source="University of California, Santa Barbara" target="Clemson University">
+  <data key="d4">6</data>
+</edge>
 <edge source="University of California, Santa Barbara" target="Peking University">
   <data key="d4">44</data>
 </edge>
-<edge source="University of California, Santa Barbara" target="RMIT University">
+<edge source="University of California, Santa Barbara" target="Centre for Ultrahigh Bandwidth Devices for Optical Systems">
   <data key="d4">2</data>
 </edge>
 <edge source="University of California, Santa Barbara" target="Harvard University">
@@ -1640,9 +1862,6 @@
   <data key="d4">4</data>
 </edge>
 <edge source="University of California, Santa Barbara" target="nLIGHT (United States)">
-  <data key="d4">2</data>
-</edge>
-<edge source="University of California, Santa Barbara" target="University of Rochester">
   <data key="d4">2</data>
 </edge>
 <edge source="University of California, Santa Barbara" target="University of Massachusetts Boston">
@@ -1778,7 +1997,7 @@
   <data key="d4">33</data>
 </edge>
 <edge source="National Institute of Advanced Industrial Science and Technology" target="Nagoya University">
-  <data key="d4">43</data>
+  <data key="d4">45</data>
 </edge>
 <edge source="University of California, Davis" target="Universitat Politècnica de Catalunya">
   <data key="d4">12</data>
@@ -1809,6 +2028,15 @@
 </edge>
 <edge source="University of Arizona" target="Hồng Đức University">
   <data key="d4">2</data>
+</edge>
+<edge source="University of Arizona" target="NTT (Japan)">
+  <data key="d4">2</data>
+</edge>
+<edge source="University of Arizona" target="Kyoto University">
+  <data key="d4">2</data>
+</edge>
+<edge source="University of Arizona" target="Trinity College Dublin">
+  <data key="d4">1</data>
 </edge>
 <edge source="Ghent University" target="IMEC">
   <data key="d4">47</data>
@@ -1846,17 +2074,47 @@
 <edge source="Ghent University" target="Intel (United States)">
   <data key="d4">9</data>
 </edge>
+<edge source="Ghent University" target="Ablynx (Belgium)">
+  <data key="d4">6</data>
+</edge>
 <edge source="Ghent University" target="ADVA Optical Networking (Germany)">
   <data key="d4">10</data>
 </edge>
 <edge source="Ghent University" target="University of Southampton">
-  <data key="d4">7</data>
-</edge>
-<edge source="Ghent University" target="University of Surrey">
-  <data key="d4">1</data>
+  <data key="d4">8</data>
 </edge>
 <edge source="Ghent University" target="Technische Universität Berlin">
   <data key="d4">5</data>
+</edge>
+<edge source="Harvard University" target="Cornell University">
+  <data key="d4">6</data>
+</edge>
+<edge source="Harvard University" target="Massachusetts Institute of Technology">
+  <data key="d4">6</data>
+</edge>
+<edge source="Harvard University" target="Centre for Ultrahigh Bandwidth Devices for Optical Systems">
+  <data key="d4">1</data>
+</edge>
+<edge source="Harvard University" target="California Institute of Technology">
+  <data key="d4">14</data>
+</edge>
+<edge source="Harvard University" target="nLIGHT (United States)">
+  <data key="d4">23</data>
+</edge>
+<edge source="Harvard University" target="University of Southern California">
+  <data key="d4">12</data>
+</edge>
+<edge source="Harvard University" target="The University of Sydney">
+  <data key="d4">15</data>
+</edge>
+<edge source="Harvard University" target="The University of Adelaide">
+  <data key="d4">1</data>
+</edge>
+<edge source="Harvard University" target="Stanford University">
+  <data key="d4">2</data>
+</edge>
+<edge source="Harvard University" target="University of Rochester">
+  <data key="d4">1</data>
 </edge>
 <edge source="Commissariat à l'Énergie Atomique et aux Énergies Alternatives" target="Institut polytechnique de Grenoble">
   <data key="d4">2</data>
@@ -1894,6 +2152,18 @@
 <edge source="Institut polytechnique de Grenoble" target="Swiss Federal Laboratories for Materials Science and Technology">
   <data key="d4">2</data>
 </edge>
+<edge source="Institut polytechnique de Grenoble" target="Swinburne University of Technology">
+  <data key="d4">6</data>
+</edge>
+<edge source="Institut polytechnique de Grenoble" target="Central South University">
+  <data key="d4">9</data>
+</edge>
+<edge source="Institut polytechnique de Grenoble" target="Australian Research Council">
+  <data key="d4">6</data>
+</edge>
+<edge source="Institut polytechnique de Grenoble" target="Centre National de la Recherche Scientifique">
+  <data key="d4">9</data>
+</edge>
 <edge source="IMEC" target="KTH Royal Institute of Technology">
   <data key="d4">7</data>
 </edge>
@@ -1901,6 +2171,15 @@
   <data key="d4">2</data>
 </edge>
 <edge source="IMEC" target="HOGENT University of Applied Sciences and Arts">
+  <data key="d4">1</data>
+</edge>
+<edge source="University of Massachusetts Boston" target="Advanced Technologies Group (United States)">
+  <data key="d4">1</data>
+</edge>
+<edge source="University of Massachusetts Boston" target="University of British Columbia">
+  <data key="d4">2</data>
+</edge>
+<edge source="University of Massachusetts Boston" target="Queen's University">
   <data key="d4">1</data>
 </edge>
 <edge source="University of California San Diego" target="Cisco Systems (China)">
@@ -1915,6 +2194,15 @@
 <edge source="University of California San Diego" target="Stanford University">
   <data key="d4">1</data>
 </edge>
+<edge source="University of California San Diego" target="Universidade Estadual de Campinas (UNICAMP)">
+  <data key="d4">4</data>
+</edge>
+<edge source="University of California San Diego" target="Veeco (United States)">
+  <data key="d4">5</data>
+</edge>
+<edge source="University of California San Diego" target="National Sun Yat-sen University">
+  <data key="d4">3</data>
+</edge>
 <edge source="Cisco Systems (China)" target="Google (United States)">
   <data key="d4">1</data>
 </edge>
@@ -1923,6 +2211,69 @@
 </edge>
 <edge source="University of Michigan" target="Motorola (United States)">
   <data key="d4">1</data>
+</edge>
+<edge source="Wuhan National Laboratory for Optoelectronics" target="Purdue University West Lafayette">
+  <data key="d4">8</data>
+</edge>
+<edge source="Wuhan National Laboratory for Optoelectronics" target="Shanghai Institute of Microsystem and Information Technology">
+  <data key="d4">1</data>
+</edge>
+<edge source="Wuhan National Laboratory for Optoelectronics" target="Chinese Academy of Sciences">
+  <data key="d4">2</data>
+</edge>
+<edge source="Wuhan National Laboratory for Optoelectronics" target="University of Southampton">
+  <data key="d4">9</data>
+</edge>
+<edge source="Wuhan National Laboratory for Optoelectronics" target="Technical University of Denmark">
+  <data key="d4">10</data>
+</edge>
+<edge source="Wuhan National Laboratory for Optoelectronics" target="University of Shanghai for Science and Technology">
+  <data key="d4">10</data>
+</edge>
+<edge source="Wuhan National Laboratory for Optoelectronics" target="Chinese University of Hong Kong">
+  <data key="d4">5</data>
+</edge>
+<edge source="Wuhan National Laboratory for Optoelectronics" target="State Key Laboratory of Modern Optical Instruments">
+  <data key="d4">15</data>
+</edge>
+<edge source="Wuhan National Laboratory for Optoelectronics" target="Huazhong University of Science and Technology">
+  <data key="d4">3</data>
+</edge>
+<edge source="Wuhan National Laboratory for Optoelectronics" target="National University of Singapore">
+  <data key="d4">3</data>
+</edge>
+<edge source="Purdue University West Lafayette" target="Shanghai Institute of Microsystem and Information Technology">
+  <data key="d4">8</data>
+</edge>
+<edge source="Purdue University West Lafayette" target="Chinese Academy of Sciences">
+  <data key="d4">16</data>
+</edge>
+<edge source="Purdue University West Lafayette" target="Oak Ridge National Laboratory">
+  <data key="d4">5</data>
+</edge>
+<edge source="Chinese Academy of Sciences" target="Shanghai Institute of Microsystem and Information Technology">
+  <data key="d4">2</data>
+</edge>
+<edge source="Chinese Academy of Sciences" target="The University of Tokyo">
+  <data key="d4">2</data>
+</edge>
+<edge source="Chinese Academy of Sciences" target="Chinese University of Hong Kong">
+  <data key="d4">1</data>
+</edge>
+<edge source="Chinese Academy of Sciences" target="Zhejiang University">
+  <data key="d4">2</data>
+</edge>
+<edge source="Chinese Academy of Sciences" target="Huazhong University of Science and Technology">
+  <data key="d4">1</data>
+</edge>
+<edge source="Chinese Academy of Sciences" target="Shanghai Jiao Tong University">
+  <data key="d4">2</data>
+</edge>
+<edge source="Chinese Academy of Sciences" target="Huawei Technologies (China)">
+  <data key="d4">4</data>
+</edge>
+<edge source="Chinese Academy of Sciences" target="Sun Yat-sen University">
+  <data key="d4">7</data>
 </edge>
 <edge source="Intel (United States)" target="Massachusetts Institute of Technology">
   <data key="d4">4</data>
@@ -1936,6 +2287,18 @@
 <edge source="Intel (United States)" target="Tsinghua–Berkeley Shenzhen Institute">
   <data key="d4">4</data>
 </edge>
+<edge source="Technical University of Denmark" target="Politecnico di Milano">
+  <data key="d4">2</data>
+</edge>
+<edge source="Technical University of Denmark" target="Dalle Molle Institute for Artificial Intelligence Research">
+  <data key="d4">1</data>
+</edge>
+<edge source="Technical University of Denmark" target="University College Dublin">
+  <data key="d4">1</data>
+</edge>
+<edge source="Technical University of Denmark" target="Trinity College Dublin">
+  <data key="d4">2</data>
+</edge>
 <edge source="University of Illinois Urbana-Champaign" target="Princeton University">
   <data key="d4">12</data>
 </edge>
@@ -1946,7 +2309,7 @@
   <data key="d4">16</data>
 </edge>
 <edge source="University of Southampton" target="University of Surrey">
-  <data key="d4">13</data>
+  <data key="d4">7</data>
 </edge>
 <edge source="University of Southampton" target="Université Paris-Sud">
   <data key="d4">9</data>
@@ -1963,20 +2326,26 @@
 <edge source="University of Southampton" target="STMicroelectronics (India)">
   <data key="d4">3</data>
 </edge>
-<edge source="University of Southampton" target="Wuhan National Laboratory for Optoelectronics">
-  <data key="d4">9</data>
-</edge>
 <edge source="University of Southampton" target="Huazhong University of Science and Technology">
   <data key="d4">3</data>
 </edge>
 <edge source="University of Southampton" target="National University of Singapore">
   <data key="d4">3</data>
 </edge>
+<edge source="University of Southampton" target="Institut de Microelectrònica de Barcelona">
+  <data key="d4">6</data>
+</edge>
 <edge source="University of Southampton" target="University of Bristol">
   <data key="d4">45</data>
 </edge>
 <edge source="University of Southampton" target="Polatis (United Kingdom)">
   <data key="d4">25</data>
+</edge>
+<edge source="University of Southampton" target="University of Toronto">
+  <data key="d4">6</data>
+</edge>
+<edge source="University of Southampton" target="Fiber Optics Research Center">
+  <data key="d4">2</data>
 </edge>
 <edge source="University of Surrey" target="Université Paris-Sud">
   <data key="d4">3</data>
@@ -2007,33 +2376,6 @@
 </edge>
 <edge source="University of Patras" target="University of Bristol">
   <data key="d4">3</data>
-</edge>
-<edge source="Harvard University" target="Massachusetts Institute of Technology">
-  <data key="d4">6</data>
-</edge>
-<edge source="Harvard University" target="California Institute of Technology">
-  <data key="d4">14</data>
-</edge>
-<edge source="Harvard University" target="nLIGHT (United States)">
-  <data key="d4">23</data>
-</edge>
-<edge source="Harvard University" target="University of Southern California">
-  <data key="d4">12</data>
-</edge>
-<edge source="Harvard University" target="The University of Sydney">
-  <data key="d4">15</data>
-</edge>
-<edge source="Harvard University" target="RMIT University">
-  <data key="d4">1</data>
-</edge>
-<edge source="Harvard University" target="The University of Adelaide">
-  <data key="d4">1</data>
-</edge>
-<edge source="Harvard University" target="Stanford University">
-  <data key="d4">2</data>
-</edge>
-<edge source="Harvard University" target="University of Rochester">
-  <data key="d4">1</data>
 </edge>
 <edge source="Massachusetts Institute of Technology" target="Materials Processing (United States)">
   <data key="d4">15</data>
@@ -2080,14 +2422,29 @@
 <edge source="NTT (Japan)" target="Fujitsu (Japan)">
   <data key="d4">2</data>
 </edge>
+<edge source="NTT (Japan)" target="Trinity College Dublin">
+  <data key="d4">2</data>
+</edge>
 <edge source="NTT (Japan)" target="Hebrew University of Jerusalem">
   <data key="d4">1</data>
 </edge>
 <edge source="NTT (Japan)" target="Kyoto University">
-  <data key="d4">15</data>
+  <data key="d4">19</data>
 </edge>
 <edge source="The University of Osaka" target="NTT Advanced Technology Corporation (Japan)">
   <data key="d4">3</data>
+</edge>
+<edge source="Swiss Federal Laboratories for Materials Science and Technology" target="IBM Research - Zurich">
+  <data key="d4">2</data>
+</edge>
+<edge source="Swiss Federal Laboratories for Materials Science and Technology" target="Technische Universität Berlin">
+  <data key="d4">1</data>
+</edge>
+<edge source="Swiss Federal Laboratories for Materials Science and Technology" target="The University of Texas at Austin">
+  <data key="d4">1</data>
+</edge>
+<edge source="Swiss Federal Laboratories for Materials Science and Technology" target="ADVA Optical Networking (Germany)">
+  <data key="d4">1</data>
 </edge>
 <edge source="Nokia (United States)" target="Hebrew University of Jerusalem">
   <data key="d4">1</data>
@@ -2110,6 +2467,21 @@
 <edge source="California Institute of Technology" target="The University of Sydney">
   <data key="d4">5</data>
 </edge>
+<edge source="California Institute of Technology" target="Argonne National Laboratory">
+  <data key="d4">10</data>
+</edge>
+<edge source="California Institute of Technology" target="Northwestern University">
+  <data key="d4">20</data>
+</edge>
+<edge source="California Institute of Technology" target="Fermi National Accelerator Laboratory">
+  <data key="d4">20</data>
+</edge>
+<edge source="California Institute of Technology" target="University of Rochester">
+  <data key="d4">32</data>
+</edge>
+<edge source="California Institute of Technology" target="Clemson University">
+  <data key="d4">8</data>
+</edge>
 <edge source="Umeå University" target="Islamic Azad University, Tehran">
   <data key="d4">1</data>
 </edge>
@@ -2118,27 +2490,6 @@
 </edge>
 <edge source="Islamic Azad University, Tehran" target="Universiti Putra Malaysia">
   <data key="d4">1</data>
-</edge>
-<edge source="Chinese Academy of Sciences" target="The University of Tokyo">
-  <data key="d4">2</data>
-</edge>
-<edge source="Chinese Academy of Sciences" target="Chinese University of Hong Kong">
-  <data key="d4">1</data>
-</edge>
-<edge source="Chinese Academy of Sciences" target="Zhejiang University">
-  <data key="d4">2</data>
-</edge>
-<edge source="Chinese Academy of Sciences" target="Huazhong University of Science and Technology">
-  <data key="d4">1</data>
-</edge>
-<edge source="Chinese Academy of Sciences" target="Shanghai Jiao Tong University">
-  <data key="d4">2</data>
-</edge>
-<edge source="Chinese Academy of Sciences" target="Huawei Technologies (China)">
-  <data key="d4">4</data>
-</edge>
-<edge source="Chinese Academy of Sciences" target="Sun Yat-sen University">
-  <data key="d4">7</data>
 </edge>
 <edge source="The University of Tokyo" target="RIKEN Center for Advanced Photonics">
   <data key="d4">8</data>
@@ -2167,13 +2518,22 @@
 <edge source="Agency for Science, Technology and Research" target="National University of Singapore">
   <data key="d4">16</data>
 </edge>
-<edge source="Advanced Technologies Group (United States)" target="University of Massachusetts Boston">
-  <data key="d4">1</data>
-</edge>
 <edge source="Advanced Technologies Group (United States)" target="University of British Columbia">
   <data key="d4">2</data>
 </edge>
 <edge source="Advanced Technologies Group (United States)" target="Queen's University">
+  <data key="d4">1</data>
+</edge>
+<edge source="The University of Texas at Austin" target="Omega Optics (United States)">
+  <data key="d4">13</data>
+</edge>
+<edge source="The University of Texas at Austin" target="IBM Research - Zurich">
+  <data key="d4">2</data>
+</edge>
+<edge source="The University of Texas at Austin" target="ADVA Optical Networking (Germany)">
+  <data key="d4">1</data>
+</edge>
+<edge source="The University of Texas at Austin" target="Technische Universität Berlin">
   <data key="d4">1</data>
 </edge>
 <edge source="University of Bristol" target="Universitat Politècnica de Catalunya">
@@ -2218,9 +2578,6 @@
 <edge source="Politecnico di Milano" target="University College Dublin">
   <data key="d4">2</data>
 </edge>
-<edge source="Politecnico di Milano" target="Technical University of Denmark">
-  <data key="d4">2</data>
-</edge>
 <edge source="Politecnico di Milano" target="Trinity College Dublin">
   <data key="d4">4</data>
 </edge>
@@ -2234,13 +2591,16 @@
   <data key="d4">4</data>
 </edge>
 <edge source="Technische Universität Berlin" target="University of Vienna">
-  <data key="d4">1</data>
+  <data key="d4">2</data>
 </edge>
-<edge source="Technische Universität Berlin" target="Moscow Institute of Thermal Technology">
+<edge source="Technische Universität Berlin" target="IBM Research - Zurich">
+  <data key="d4">2</data>
+</edge>
+<edge source="Technische Universität Berlin" target="ADVA Optical Networking (Germany)">
   <data key="d4">1</data>
 </edge>
 <edge source="Technische Universität Berlin" target="Ben-Gurion University of the Negev">
-  <data key="d4">3</data>
+  <data key="d4">2</data>
 </edge>
 <edge source="Rice University" target="Carnegie Mellon University">
   <data key="d4">3</data>
@@ -2260,26 +2620,20 @@
 <edge source="Stanford University" target="Vrije Universiteit Brussel">
   <data key="d4">10</data>
 </edge>
+<edge source="Stanford University" target="Centre for Ultrahigh Bandwidth Devices for Optical Systems">
+  <data key="d4">2</data>
+</edge>
 <edge source="Stanford University" target="University of Southern California">
   <data key="d4">2</data>
 </edge>
 <edge source="Stanford University" target="nLIGHT (United States)">
   <data key="d4">2</data>
 </edge>
-<edge source="Stanford University" target="The University of Adelaide">
-  <data key="d4">2</data>
-</edge>
-<edge source="Stanford University" target="RMIT University">
-  <data key="d4">2</data>
-</edge>
 <edge source="Stanford University" target="University of Rochester">
   <data key="d4">2</data>
 </edge>
-<edge source="University of Massachusetts Boston" target="University of British Columbia">
+<edge source="Stanford University" target="The University of Adelaide">
   <data key="d4">2</data>
-</edge>
-<edge source="University of Massachusetts Boston" target="Queen's University">
-  <data key="d4">1</data>
 </edge>
 <edge source="Sensors (United States)" target="University of Maryland, College Park">
   <data key="d4">12</data>
@@ -2298,6 +2652,12 @@
 </edge>
 <edge source="University of Washington" target="University of Minnesota">
   <data key="d4">1</data>
+</edge>
+<edge source="Northwestern University" target="Argonne National Laboratory">
+  <data key="d4">8</data>
+</edge>
+<edge source="Northwestern University" target="Fermi National Accelerator Laboratory">
+  <data key="d4">16</data>
 </edge>
 <edge source="Polytechnique Montréal" target="University of Freiburg">
   <data key="d4">1</data>
@@ -2325,6 +2685,15 @@
 </edge>
 <edge source="Barcelona Supercomputing Center" target="Infinera (United States)">
   <data key="d4">8</data>
+</edge>
+<edge source="University of Science and Technology of China" target="Illinois Institute of Technology">
+  <data key="d4">4</data>
+</edge>
+<edge source="University of Science and Technology of China" target="Hong Kong Baptist University">
+  <data key="d4">8</data>
+</edge>
+<edge source="University of Science and Technology of China" target="Microsoft Research Asia (China)">
+  <data key="d4">4</data>
 </edge>
 <edge source="Dublin City University" target="IBM Research - Ireland">
   <data key="d4">3</data>
@@ -2383,8 +2752,20 @@
 <edge source="University of Virginia" target="University of Chicago">
   <data key="d4">1</data>
 </edge>
+<edge source="IBM Research - Zurich" target="ADVA Optical Networking (Germany)">
+  <data key="d4">2</data>
+</edge>
 <edge source="Evropský Polytechnický Institut" target="Czech Technical University in Prague">
   <data key="d4">3</data>
+</edge>
+<edge source="Simon Fraser University" target="Physikalisch-Technische Bundesanstalt">
+  <data key="d4">7</data>
+</edge>
+<edge source="Simon Fraser University" target="Leibniz Institute for Crystal Growth">
+  <data key="d4">14</data>
+</edge>
+<edge source="Leibniz Institute for Crystal Growth" target="Physikalisch-Technische Bundesanstalt">
+  <data key="d4">2</data>
 </edge>
 <edge source="Rockley Photonics (United States)" target="Université Paris-Sud">
   <data key="d4">3</data>
@@ -2422,20 +2803,14 @@
 <edge source="Nanyang Technological University" target="Huazhong University of Science and Technology">
   <data key="d4">1</data>
 </edge>
-<edge source="Wuhan National Laboratory for Optoelectronics" target="University of Shanghai for Science and Technology">
-  <data key="d4">10</data>
+<edge source="Monash University" target="LioniX (Netherlands)">
+  <data key="d4">22</data>
 </edge>
-<edge source="Wuhan National Laboratory for Optoelectronics" target="Chinese University of Hong Kong">
-  <data key="d4">5</data>
-</edge>
-<edge source="Wuhan National Laboratory for Optoelectronics" target="State Key Laboratory of Modern Optical Instruments">
-  <data key="d4">15</data>
-</edge>
-<edge source="Wuhan National Laboratory for Optoelectronics" target="Huazhong University of Science and Technology">
+<edge source="Monash University" target="University of Twente">
   <data key="d4">3</data>
 </edge>
-<edge source="Wuhan National Laboratory for Optoelectronics" target="National University of Singapore">
-  <data key="d4">3</data>
+<edge source="Monash University" target="The University of Sydney">
+  <data key="d4">2</data>
 </edge>
 <edge source="Polatis (United Kingdom)" target="Network Group (Czechia)">
   <data key="d4">2</data>
@@ -2500,6 +2875,9 @@
 <edge source="Huawei Technologies (China)" target="Xidian University">
   <data key="d4">5</data>
 </edge>
+<edge source="University of Toronto" target="Fiber Optics Research Center">
+  <data key="d4">3</data>
+</edge>
 <edge source="Materials Processing (United States)" target="Xiamen University">
   <data key="d4">4</data>
 </edge>
@@ -2512,35 +2890,23 @@
 <edge source="LioniX (Netherlands)" target="The University of Sydney">
   <data key="d4">44</data>
 </edge>
-<edge source="LioniX (Netherlands)" target="Monash University">
-  <data key="d4">22</data>
-</edge>
 <edge source="LioniX (Netherlands)" target="University of Twente">
   <data key="d4">66</data>
 </edge>
 <edge source="University of Twente" target="The University of Sydney">
   <data key="d4">6</data>
 </edge>
-<edge source="University of Twente" target="Monash University">
-  <data key="d4">3</data>
-</edge>
-<edge source="The University of Sydney" target="Monash University">
-  <data key="d4">2</data>
-</edge>
 <edge source="University of British Columbia" target="Queen's University">
   <data key="d4">2</data>
 </edge>
 <edge source="University of Vienna" target="Moscow Institute of Thermal Technology">
-  <data key="d4">1</data>
+  <data key="d4">2</data>
 </edge>
-<edge source="University of Science and Technology of China" target="Illinois Institute of Technology">
-  <data key="d4">4</data>
+<edge source="University of Vienna" target="Ben-Gurion University of the Negev">
+  <data key="d4">6</data>
 </edge>
-<edge source="University of Science and Technology of China" target="Hong Kong Baptist University">
-  <data key="d4">8</data>
-</edge>
-<edge source="University of Science and Technology of China" target="Microsoft Research Asia (China)">
-  <data key="d4">4</data>
+<edge source="Kim Il-sung University" target="Max-Born-Institute for Nonlinear Optics and Short Pulse Spectroscopy">
+  <data key="d4">5</data>
 </edge>
 <edge source="Huazhong University of Science and Technology" target="National University of Singapore">
   <data key="d4">5</data>
@@ -2550,6 +2916,75 @@
 </edge>
 <edge source="Huazhong University of Science and Technology" target="Zhejiang University">
   <data key="d4">2</data>
+</edge>
+<edge source="Swinburne University of Technology" target="Centre for Ultrahigh Bandwidth Devices for Optical Systems">
+  <data key="d4">10</data>
+</edge>
+<edge source="Swinburne University of Technology" target="University of Electronic Science and Technology of China">
+  <data key="d4">7</data>
+</edge>
+<edge source="Swinburne University of Technology" target="Xi'an Institute of Optics and Precision Mechanics">
+  <data key="d4">7</data>
+</edge>
+<edge source="Swinburne University of Technology" target="City University of Hong Kong">
+  <data key="d4">7</data>
+</edge>
+<edge source="Swinburne University of Technology" target="Central South University">
+  <data key="d4">12</data>
+</edge>
+<edge source="Swinburne University of Technology" target="Centre National de la Recherche Scientifique">
+  <data key="d4">6</data>
+</edge>
+<edge source="Swinburne University of Technology" target="Australian Research Council">
+  <data key="d4">4</data>
+</edge>
+<edge source="Centre for Ultrahigh Bandwidth Devices for Optical Systems" target="University of Electronic Science and Technology of China">
+  <data key="d4">2</data>
+</edge>
+<edge source="Centre for Ultrahigh Bandwidth Devices for Optical Systems" target="Xi'an Institute of Optics and Precision Mechanics">
+  <data key="d4">2</data>
+</edge>
+<edge source="Centre for Ultrahigh Bandwidth Devices for Optical Systems" target="City University of Hong Kong">
+  <data key="d4">2</data>
+</edge>
+<edge source="Centre for Ultrahigh Bandwidth Devices for Optical Systems" target="University of Southern California">
+  <data key="d4">1</data>
+</edge>
+<edge source="Centre for Ultrahigh Bandwidth Devices for Optical Systems" target="The University of Adelaide">
+  <data key="d4">1</data>
+</edge>
+<edge source="Centre for Ultrahigh Bandwidth Devices for Optical Systems" target="nLIGHT (United States)">
+  <data key="d4">1</data>
+</edge>
+<edge source="Centre for Ultrahigh Bandwidth Devices for Optical Systems" target="University of Rochester">
+  <data key="d4">1</data>
+</edge>
+<edge source="City University of Hong Kong" target="University of Electronic Science and Technology of China">
+  <data key="d4">2</data>
+</edge>
+<edge source="City University of Hong Kong" target="Xi'an Institute of Optics and Precision Mechanics">
+  <data key="d4">12</data>
+</edge>
+<edge source="City University of Hong Kong" target="Central South University">
+  <data key="d4">3</data>
+</edge>
+<edge source="Xi'an Institute of Optics and Precision Mechanics" target="University of Electronic Science and Technology of China">
+  <data key="d4">2</data>
+</edge>
+<edge source="Xi'an Institute of Optics and Precision Mechanics" target="Central South University">
+  <data key="d4">3</data>
+</edge>
+<edge source="University of Electronic Science and Technology of China" target="Central South University">
+  <data key="d4">3</data>
+</edge>
+<edge source="University of Electronic Science and Technology of China" target="University of Southern Denmark">
+  <data key="d4">4</data>
+</edge>
+<edge source="University of Electronic Science and Technology of China" target="Southwest Jiaotong University">
+  <data key="d4">5</data>
+</edge>
+<edge source="University of Electronic Science and Technology of China" target="SINTEF">
+  <data key="d4">3</data>
 </edge>
 <edge source="MIT Lincoln Laboratory" target="University of Central Florida">
   <data key="d4">15</data>
@@ -2611,6 +3046,15 @@
 <edge source="Foundation for Research and Technology Hellas" target="Sumitomo Electric Industries (Japan)">
   <data key="d4">4</data>
 </edge>
+<edge source="atesio (Germany)" target="Juniper Networks (United States)">
+  <data key="d4">2</data>
+</edge>
+<edge source="atesio (Germany)" target="Zuse Institute Berlin">
+  <data key="d4">2</data>
+</edge>
+<edge source="Zuse Institute Berlin" target="Juniper Networks (United States)">
+  <data key="d4">1</data>
+</edge>
 <edge source="NTT Basic Research Laboratories" target="Tokyo Institute of Technology">
   <data key="d4">12</data>
 </edge>
@@ -2629,32 +3073,20 @@
 <edge source="Dalle Molle Institute for Artificial Intelligence Research" target="University College Dublin">
   <data key="d4">1</data>
 </edge>
-<edge source="Dalle Molle Institute for Artificial Intelligence Research" target="Technical University of Denmark">
-  <data key="d4">1</data>
-</edge>
 <edge source="Dalle Molle Institute for Artificial Intelligence Research" target="Trinity College Dublin">
   <data key="d4">2</data>
-</edge>
-<edge source="University College Dublin" target="Technical University of Denmark">
-  <data key="d4">1</data>
 </edge>
 <edge source="University College Dublin" target="Trinity College Dublin">
   <data key="d4">2</data>
 </edge>
-<edge source="Trinity College Dublin" target="Technical University of Denmark">
+<edge source="Trinity College Dublin" target="Kyoto University">
   <data key="d4">2</data>
 </edge>
 <edge source="Hong Kong Baptist University" target="Microsoft Research Asia (China)">
   <data key="d4">1</data>
 </edge>
-<edge source="University of Electronic Science and Technology of China" target="Southwest Jiaotong University">
-  <data key="d4">5</data>
-</edge>
-<edge source="University of Electronic Science and Technology of China" target="University of Southern Denmark">
-  <data key="d4">4</data>
-</edge>
-<edge source="University of Electronic Science and Technology of China" target="SINTEF">
-  <data key="d4">3</data>
+<edge source="University of Southern Denmark" target="SINTEF">
+  <data key="d4">15</data>
 </edge>
 <edge source="Nanjing University of Aeronautics and Astronautics" target="Microsoft Research Asia (China)">
   <data key="d4">2</data>
@@ -2686,17 +3118,32 @@
 <edge source="KTH Royal Institute of Technology" target="HOGENT University of Applied Sciences and Arts">
   <data key="d4">3</data>
 </edge>
+<edge source="Indian Institute of Information Technology, Design and Manufacturing, Kancheepuram" target="Institute of Physics">
+  <data key="d4">3</data>
+</edge>
 <edge source="State Key Laboratory of Modern Optical Instruments" target="Chinese University of Hong Kong">
   <data key="d4">3</data>
 </edge>
 <edge source="Institute of Physical Chemistry" target="Centre National de la Recherche Scientifique">
   <data key="d4">1</data>
 </edge>
+<edge source="Centre National de la Recherche Scientifique" target="Central South University">
+  <data key="d4">9</data>
+</edge>
+<edge source="Centre National de la Recherche Scientifique" target="Australian Research Council">
+  <data key="d4">6</data>
+</edge>
+<edge source="University of Pavia" target="Munster Technological University">
+  <data key="d4">8</data>
+</edge>
+<edge source="University of Pavia" target="University of St Andrews">
+  <data key="d4">4</data>
+</edge>
+<edge source="Munster Technological University" target="University of St Andrews">
+  <data key="d4">2</data>
+</edge>
 <edge source="University of Southern California" target="nLIGHT (United States)">
   <data key="d4">3</data>
-</edge>
-<edge source="University of Southern California" target="RMIT University">
-  <data key="d4">1</data>
 </edge>
 <edge source="University of Southern California" target="The University of Adelaide">
   <data key="d4">1</data>
@@ -2704,17 +3151,11 @@
 <edge source="University of Southern California" target="University of Rochester">
   <data key="d4">1</data>
 </edge>
-<edge source="nLIGHT (United States)" target="RMIT University">
-  <data key="d4">1</data>
-</edge>
 <edge source="nLIGHT (United States)" target="The University of Adelaide">
   <data key="d4">1</data>
 </edge>
 <edge source="nLIGHT (United States)" target="University of Rochester">
   <data key="d4">1</data>
-</edge>
-<edge source="University of Southern Denmark" target="SINTEF">
-  <data key="d4">15</data>
 </edge>
 <edge source="Alibaba Group (China)" target="Alibaba Group (United States)">
   <data key="d4">1</data>
@@ -2725,23 +3166,26 @@
 <edge source="HOGENT University of Applied Sciences and Arts" target="Tyndall Centre">
   <data key="d4">2</data>
 </edge>
+<edge source="University of Rochester" target="Clemson University">
+  <data key="d4">16</data>
+</edge>
+<edge source="University of Rochester" target="The University of Adelaide">
+  <data key="d4">1</data>
+</edge>
 <edge source="University of Edinburgh" target="Peng Cheng Laboratory">
   <data key="d4">1</data>
 </edge>
 <edge source="Indian Institute of Engineering Science and Technology, Shibpur" target="University of Kalyani">
   <data key="d4">1</data>
 </edge>
-<edge source="The University of Adelaide" target="RMIT University">
-  <data key="d4">1</data>
-</edge>
-<edge source="The University of Adelaide" target="University of Rochester">
-  <data key="d4">1</data>
-</edge>
-<edge source="University of Rochester" target="RMIT University">
-  <data key="d4">1</data>
+<edge source="Argonne National Laboratory" target="Fermi National Accelerator Laboratory">
+  <data key="d4">8</data>
 </edge>
 <edge source="Purple Mountain Laboratories" target="Nanjing University">
   <data key="d4">32</data>
+</edge>
+<edge source="Central South University" target="Australian Research Council">
+  <data key="d4">6</data>
 </edge>
 <edge source="Collaborative Innovation Center of Advanced Microstructures" target="Nanjing University of Posts and Telecommunications">
   <data key="d4">14</data>
