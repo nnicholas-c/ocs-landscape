@@ -1,6 +1,6 @@
 # Small-sample demo results
 
-Every number points to a file or to a query Q1 to Q12, listed at the end. Table text is folded to plain ASCII.
+Every number points to a file or to a query Q1 to Q14, listed at the end. Table text is folded to plain ASCII. MEMS is micro-electro-mechanical systems.
 
 ## Numbers
 
@@ -16,7 +16,7 @@ Records per raw file, before dedup (Q1, deliverables/curation_report.md).
 
 The 10 smoke records repeat stage 1a records, leaving 904 unique records (deliverables/curation_report.md).
 
-Records per query (Q1). Collectors skip records already on disk, so each record counts only for the first query that found it (deliverables/pitfalls.md, stage 8). The cap is 50 per query (pipeline/queries.yaml).
+Records per query (Q1), counted for the first query that found each record, since collectors skip records already on disk (deliverables/pitfalls.md, stage 8). The cap is 50 per query (pipeline/queries.yaml).
 
 | source | query | records |
 |---|---|---|
@@ -42,13 +42,19 @@ Records per query (Q1). Collectors skip records already on disk, so each record 
 | arxiv | optical circuit switch | 47 |
 | arxiv | the other 9 phrases | 0 |
 
-arXiv's other 9 phrases got HTTP 429 and 406 errors, so their zeros say nothing about arXiv's content (STATUS.md, stage 1a line). Anchors found were 10 of 13, and the c-Through hit is a false match to a 1999 paper titled "OPTICS" (STATUS.md, Gate A line).
+arXiv's other 9 phrases got HTTP (web protocol) errors 429 and 406, so their zeros say nothing about arXiv's content (STATUS.md, stage 1a line). Anchors found were 10 of 13, one a false match (STATUS.md, Gate A line).
 
-OpenAlex reported 0.001 USD (US dollars) for stage 0 and 0.030 USD for stage 1a, and 0.033 USD used after stage 1a (STATUS.md). The snowball cost was not saved (deliverables/pitfalls.md, stage 8).
+OpenAlex use was 0.033 USD (US dollars) after stage 1a, and the snowball cost was not saved (STATUS.md; deliverables/pitfalls.md, stage 8).
 
-Relevance scores were 433 at 0, 116 at 1, 72 at 2, and 283 at 3, out of 904 (Q2). 355 scored 2 or 3, above Gate A's 200, so the core set is score 3 only (STATUS.md, Gate A line).
+Relevance scoring and dedup follow (DOI is digital object identifier). Because more than 200 records scored 2 or 3, Gate A kept score 3 only as the core set (PLAN.md).
 
-Dedup removed 3 records by DOI (digital object identifier), 4 by arXiv ID, and 12 by fuzzy title, leaving 885 papers (deliverables/curation_report.md), after the checker made the curator undo 3 wrong merges (STATUS.md, stage 2 RETRY line).
+| step | count | source |
+|---|---|---|
+| relevance score 0, 1, 2, 3 (of 904) | 433, 116, 72, 283 | Q2 |
+| score 2 or 3 | 355 | STATUS.md, Gate A line |
+| duplicates removed by DOI, arXiv ID, fuzzy title | 3, 4, 12 | deliverables/curation_report.md |
+| wrong fuzzy merges undone after the checker's retry | 3 | STATUS.md, stage 2 RETRY line |
+| papers after dedup | 885 | deliverables/curation_report.md |
 
 | set | papers | no abstract |
 |---|---|---|
@@ -91,9 +97,9 @@ Core papers by tag, out of 267 (Q4, Q5, Q6).
 | direct | 69 |
 | none | 28 |
 
-architecture_only is the largest group, 101 of 267 (Q4). These papers use an optical circuit switch (OCS) in a network design rather than build one. Among devices, silicon photonic MEMS (micro-electro-mechanical systems) leads with 43, and three routes have 2 or fewer (Q4). 221 core papers are lab work and 4 are production (Q5).
+architecture_only is the largest group, 101 of 267 (Q4). These papers use an optical circuit switch (OCS) in a network design rather than build one. Among devices, silicon photonic MEMS leads with 43, three routes have 2 or fewer, and 221 core papers are lab work (Q4, Q5).
 
-This does not show which route is better or sells, because the queries have about one phrase per route (pipeline/queries.yaml). 4 of 12 company rows are mems_3d against 15 core papers, and the 2 piezo company rows sit on 2 core papers (Q10, Q4).
+The 43 reflects how the sample was built, not the field. One phrase, "silicon photonic MEMS switch", supplied 27 of the 43, while the only 3D MEMS phrase is credited with 0 core papers and 16 of its 46 records have "print" in the title (deliverables/number_checks.md, section 1). Without the snowball the route still has 37 against 11 for mems_3d (same section). Phrase queries also start in 2012, and 4 of 15 mems_3d core papers are older, against 3 of 43 (STATUS.md, 14:24 line; Q14). "Paper counts measure research output in this sample, not shipping products" (deliverables/number_checks.md, section 1).
 
 ## Team map
 
@@ -149,9 +155,11 @@ Community detection split 1597 authors into 143 communities. The largest has 130
 
 The co-author plot is [graphs/coauthor.html](../graphs/coauthor.html), one self-contained file with nodes colored by route and adjacent-only authors hollow (STATUS.md, stage 4 DONE line).
 
-The core groups are clear. They are the University of California (UC) Berkeley silicon photonic MEMS group (Ming C. Wu, 24 core papers), the AIST (National Institute of Advanced Industrial Science and Technology) thermo-optic group (Keijiro Suzuki, 12), the Eindhoven semiconductor optical amplifier and architecture group (Nicola Calabretta, 11), and UC San Diego with Google on architecture and 3D MEMS (George C. Papen 10, Amin M. Vahdat 9), with all counts from graphs/top_pis.csv.
+The core groups are UC (University of California) Berkeley on silicon photonic MEMS (Ming C. Wu, 24 core papers), AIST (National Institute of Advanced Industrial Science and Technology) on thermo-optic switches (Keijiro Suzuki, 12), Eindhoven on optical amplifier switches and architecture (Nicola Calabretta, 11), and UC San Diego with Google on architecture and 3D MEMS (George C. Papen 10, Amin M. Vahdat 9), all from graphs/top_pis.csv.
 
-The adjacent side is large. 553 of 1597 authors have no core paper (Q8). Communities 7 and 10 have no core route, and 33 of 39 and 31 of 31 of their members carry the silicon_photonics field (graphs/clusters.csv joined to graphs/top_pis.csv). These groups are the "transferable teams" pool, and their data is weakest. 26 of 109 extended-only papers lost their adjacent field in tagging (STATUS.md, stage 4 DONE line), 301 authors have no affiliation (Q8), and 149 name keys map to more than one author record (deliverables/pitfalls.md, 06:32). Keren Bergman, for example, has one record with 10 core papers and another with 1 (graphs/top_pis.csv).
+The adjacent side is large. 553 of 1597 authors have no core paper (Q8). Communities 7 and 10 have no core route, and 33 of 39 and 31 of 31 of their members carry the silicon_photonics field (graphs/clusters.csv joined to graphs/top_pis.csv). This "transferable teams" pool has the weakest data, because 26 of 109 extended-only papers lost their adjacent field (STATUS.md, stage 4 DONE line) and 301 authors have no affiliation (Q8).
+
+Split people affect the whole map. Of 149 flagged name keys (last name plus first initial), a random 15 got the same label from two classifiers, and 10 are one person split into several records, which scales to about 99 keys (62 to 126), so the number check calls it "mostly a real bug" (deliverables/number_checks.md, section 2). Keren Bergman has two records, with 10 and 1 core papers (graphs/top_pis.csv). Person rankings need a hand check. Groups are safer, but 14 of 16 split pairs fall in different communities (STATUS.md, 14:24 line).
 
 ## Early project map
 
@@ -172,40 +180,40 @@ The adjacent side is large. 553 of 1597 authors have no core paper (Q8). Communi
 | 12 | Lightmatter | startup | Passage M1000 photonic interposer (built-in solid-state OCS) | unclear | unknown | unknown | 2026-09-26 | https://futurumgroup.com/insights/lightmatter-solving-how-to-interconnect-millions-of-chips/ | The M1000 employs solid-state optical circuit switching, while the L200 incorporates Alphawave Semi's chiplet technology |
 | 3 | Coherent | established_vendor | Optical Circuit Switch (DLX-based, up to 512x512) | lcos | unknown | 2024-03-25 | 2024-03-25 | https://www.coherent.com/news/press-releases/optical-circuit-switch-for-data-centers-live-demo-at-ofc-2024-based-on-ultrareliable-dlx-technology | a new optical circuit switch (OCS) based on the company's field-proven and ultrareliable digital liquid-crystal technology |
 
-Several evidence dates are fetch dates (data/projects.csv, note column). Polatis "shipping" rests on shop links, not a quoted sentence (deliverables/comparison_matrix.csv, piezo trl_band note). Microsoft Sirius was dropped because its site throttled every fetch (deliverables/pitfalls.md, 06:10).
+Several evidence dates are fetch dates (data/projects.csv, note column). Polatis "shipping" rests on shop links, not a quoted sentence (deliverables/comparison_matrix.csv, piezo trl_band note).
 
 ## Comparison matrix
 
-The full matrix with paper IDs and quotes is deliverables/comparison_matrix.md, written by pipeline/matrix_render.py. Its top-level table follows, with cells cut at 70 characters by the script (TABLE_CELL_MAX).
+The full matrix with paper IDs and quotes is deliverables/comparison_matrix.md, written by pipeline/matrix_render.py from the rebuilt CSV. Its top-level table follows, with cells cut at 70 characters by the script (TABLE_CELL_MAX).
 
 | tech_route | switching_time | insertion_loss | port_count | polarization_dependent_loss | crosstalk | wavelength_range | integration | packaging_notes | trl_band | academic_groups | companies | ai_cluster_fit | cost_per_port | scaling_limit |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| mems_3d | 150 us to few ms | 1.33 to 4.0 dB | exceeding 1100 ports | [not reported] | [not reported] | 1500 to 1630 nm (S, C and L bands) | free_space_bulk (collimator array and MEMS mirror array) | cubic switch housing, tolerance-expansion packaging and shock absor... | production | Michal Stepanovsky (Czech Technical University in Prague) 3; Joseph... | Google (row 1, stage shipping); Lumentum (row 2, stage unknown); Ca... | partial (datacenter applications) | 100 USD per port | switching speed falls as port count grows (mirror optics and kinema... |
-| mems_2d | less than 1 us to tens of ms (all MEMS cross-connect types) | [not reported] | 16 x 16 ports | [not reported] | [not reported] | [not reported] | free_space_bulk (reflective mirrors) | packaged single-chip component; mechanical cell design chosen for r... | lab (demonstrated, fabricated) | Ming C. Wu (University of California, Berkeley) 2; Steffen Gloeckne... | [no source] | no | [not reported] | [not reported] |
-| mems_silicon_photonic | 0.4 to 200 us | 3.7 to 22.7 dB | 128 x 128 ports | 0.5 to 8.5 dB | -80 to -30 dB | 1250 to 1700 nm | integrated_photonic | grating-coupler fiber attach through flip-chip interposers and fibe... | lab (fabricated) | Ming C. Wu (University of California, Berkeley) 19; Tae Joon Seok (... | nEye (row 8, stage prototype) | yes | [not reported] | electrical connections grow as N squared with individual addressing... |
-| lcos | 11.5 us | approximately 2 dB (projected net loss) | 1 x 6 core selective switch prototype; 23-host network prototype | [not reported] | [not reported] | [not reported] | free_space_bulk | multicore fiber collimator and spatial multiplexer array integrated... | lab (prototype) | George C. Papen (University of California San Diego) 1; Amin M. Vah... | Coherent (row 3, stage unknown), optical circuit switch on digital... | partial (future datacenters) | [not reported] | [not reported] |
-| piezo | millisecond | below 2.2 dB | 3 ports demonstrated; 50 by design | [not reported] | -25 dB (design, intercore crosstalk after 1 km) | 1550 nm (design assumption) | free_space_bulk (collimated beams between opposing fiber arrays) | multicore fibers integrated directly into the switch ports | lab (development of the first multi-lane switch) | Nick Parsons (Polatis (United Kingdom)) 2; Georgios Zervas (Univers... | Polatis (row 5, stage shipping); Drut Technologies (row 10, stage u... | partial (data center network, DCN) | [not reported] | port count set by maximum steering angle and port separation; more... |
-| thermo_optic | 3.52 to 100 us | 1.74 to 15.8 dB | 32 x 32 ports | around 2 dB | -50 to -20 dB | C+L band; 110 nm window | integrated_photonic | flip-chip bonding to a ceramic land grid array interposer; wire-bon... | lab (demonstration) | Keijiro Suzuki (National Institute of Advanced Industrial Science a... | [no source] | yes | [not reported] | control units and wiring grow quickly with port count; waveguide cr... |
-| electro_optic | 3 to 4 ns | 1 to 18.5 dB | 32 x 32 ports | [not reported] | -24.8 to -9 dB | 7 to 110 nm of optical bandwidth | integrated_photonic (monolithically integrated matrix switches) | monolithic integration with CMOS logic and driver circuits on the s... | lab (fabricated) | William M. J. Green (IBM (United States)) 4; Benjamin G. Lee (IBM (... | [no source] | partial (data center interconnection networks) | [not reported] | crosstalk accumulates across stages and limits fabric size; fabrica... |
-| soa | 115 to 900 ps | net gain of more than 14.3 dB for a gate switch; InP WDM switches d... | 4 x 4 monolithic cross-connect; 128 x 128 emulated in a recirculati... | [not reported] | [not reported] | [not reported] | integrated_photonic (monolithic cross-connect) | chip-on-carrier SOA; quantum-dot SOA switch elements can run uncooled | lab (we demonstrate) | Xuwei Xue (Eindhoven University of Technology) 3; Nicola Calabretta... | [no source] | partial (computing systems and data networks) | [not reported] | signal degradation and power grow with network size, which limits f... |
-| robotic_patch_panel | [not reported] | [not reported] | [not reported] | [not reported] | [not reported] | [not reported] | mechanical_fiber | connection mechanisms handle angled physical contact connector plug... | production (vendor product launch) | Mitsuhiro Makihara (NTT (Japan)) 1; Masato MIZUKAMI (NTT (Japan)) 1 | Telescent (row 6, stage shipping), G5 Robotic Patch Panel | no | [not reported] | [not reported] |
+| mems_3d | 20 us to a few ms | 1.2 to 4.0 dB | more than 1100 ports | [not reported] | [not reported] | 1500 to 1630 nm | free_space_bulk | cubic switch housing, packaging by tolerance expansion, shock absor... | production | Michal Stepanovsky (Czech Technical University in Prague) 3 papers;... | Google; Lumentum; Calient; UTStarcom | yes | 100 USD per port | switching speed falls as port count grows, set by micromirror dynamics |
+| mems_2d | [not reported] | [not reported] | 16 x 16 ports | [not reported] | [not reported] | [not reported] | free_space_bulk | packaged single-chip component with reliable actuation | lab | Ming C. Wu (University of California, Berkeley) 2 papers; Steffen G... | [no source] | no | [not reported] | higher speed needs smaller mirrors, which reflect less efficiently |
+| mems_silicon_photonic | 0.4 to 200 us | 3.7 to 22.7 dB | 128 x 128 ports | 0.5 to 8.5 dB | -80 to -30 dB | 1250 to 1700 nm | integrated_photonic | flip-chip bonding onto aluminum nitride or through-glass-via glass... | lab | Ming C. Wu (University of California, Berkeley) 19 papers; Tae Joon... | nEye | yes | [not reported] | electrical connection count, which grows with the square of port co... |
+| lcos | 11.5 us | approximately 2 dB | 1 x 6 ports | [not reported] | [not reported] | [not reported] | free_space_bulk | multicore fiber collimator, spatial multiplexer and demultiplexer a... | lab | Nicola Calabretta (Eindhoven University of Technology) 2 papers; Xu... | Coherent | yes | [not reported] | [not reported] |
+| piezo | millisecond scale | below 2.2 dB | 3 to 50 ports | [not reported] | -25 dB | 1550 nm | free_space_bulk | multicore fibers integrated directly into the switch; losses from m... | production | Georgios Zervas (University of Bristol) 3 papers; Nick Parsons (Pol... | Polatis; Drut Technologies | yes | [not reported] | port separation and maximum steering angle; more fiber cores add in... |
+| thermo_optic | 3.52 to 100 us | 0.2 to 15.8 dB | 32 x 32 to 1,856 x 1,856 ports | around 2 dB | -50 to -20 dB | 1525 to 1565 nm, and C+L band | integrated_photonic | flip-chip bonding to a ceramic land grid array interposer; wire bon... | lab | Keijiro Suzuki (National Institute of Advanced Industrial Science a... | [no source] | yes | [not reported] | control units and wiring grow with port count; waveguide crossings... |
+| electro_optic | 3 to 4 ns | 1 to 18.5 dB | 32 x 32 ports | [not reported] | -24.8 to -9 dB | O band; bandwidth 45 to 110 nm | integrated_photonic | CMOS logic and drivers integrated on the switch chip; wide bandwidt... | lab | Benjamin G. Lee (IBM (United States)) 4 papers; William M. J. Green... | [no source] | yes | [not reported] | crosstalk and signal degradation that grow with switch size |
+| soa | 115 to 900 ps | [not reported] | 4 x 4 to 128 x 128 ports | [not reported] | [not reported] | [not reported] | integrated_photonic | quantum-dot SOAs operated uncooled; SOAs flip-chip or wafer bonded... | lab | A. Wonfor (University of Cambridge) 4 papers; Ian H. White (Univers... | [no source] | yes | [not reported] | signal impairments and degradation that grow with network size |
+| robotic_patch_panel | [not reported] | [not reported] | [not reported] | [not reported] | [not reported] | [not reported] | mechanical_fiber | handles and connects angled physical contact connector plugs | production | Mitsuhiro Makihara (NTT (Japan)) 1 paper; Masato MIZUKAMI (NTT (Jap... | Telescent | no | [not reported] | [not reported] |
 
-Of the 126 cells, 82 are reported, 31 are not reported in any abstract, 9 are derived by a script, and 4 have no source (Q9).
+Of the 126 cells, 81 are reported, 32 are not reported in any abstract, 9 are derived, and 4 have no source (Q9), against 82, 31, 9, and 4 in run 1 (STATUS.md, 14:36 line).
 
 ## Audit results
 
-From deliverables/validation_report.md, seed 20260926, same samples in both rounds.
+A separate checker caught the matrix builder gaming the audit in run 1 round 2, a round Gate C had passed (STATUS.md, 07:42 line). So build and audit were separated, and stages 6 and 7 rerun from scratch with seed 20260927 in place of 20260926 (deliverables/validation_report.md, Run 2). Rates for all three rounds follow (same section).
 
-| check | round 1 | round 2 | Gate C limit | result |
+| check | Gate C limit | run 1 round 1 | run 1 round 2 | run 2 |
 |---|---|---|---|---|
-| (a) re-fetch 20 core papers | 16 pass, 0 fail, 4 errors, 0 percent mismatch | same | at most 10 percent | PASS both rounds |
-| (b) 20 reported matrix cells | 15 pass, 5 fail, 25 percent unsupported | 20 pass, 0 fail, 0 percent | at most 10 percent | FAIL round 1, PASS round 2 |
-| (c) 10 project rows | 10 pass, 0 fail, 0 unreachable | same | at most 20 percent | PASS both rounds |
-| (d) all 376 evidence spans | 376 pass, 100 percent | same | at least 90 percent | PASS both rounds |
+| (a) re-fetch 20 core papers, mismatch rate | at most 10 percent | 0 percent, 16 compared, 4 dropped, PASS | 0 percent, same 16 compared, same 4 dropped, PASS | 0 percent, 20 compared, 0 dropped, PASS |
+| (b) 20 reported matrix cells, unsupported rate | at most 10 percent | 25 percent (5 of 20), FAIL | 0 percent (0 of 20), PASS, not trustworthy | 5 percent (1 of 20), PASS |
+| (c) 10 project rows, fail rate | at most 20 percent | 0 percent, PASS | 0 percent, PASS | 0 percent, PASS |
+| (d) all 376 evidence spans, pass rate | at least 90 percent | 100 percent, PASS | 100 percent, PASS | 100 percent, PASS |
 
-Round 1 failed check (b) and sent the run back to stage 6 once. The auditor's words on the 5 failing cells follow (deliverables/validation_report.md).
+Gate C caught round 1's real unsupported cells, because check (b) failed and the auditor called this "a real property of how those cells were filled, not noise in the check" (validation_report.md, Run 1). Its words on each cell follow (CMOS is complementary metal-oxide-semiconductor).
 
-| cell | cites | value | auditor's words |
+| cell | cites | value | auditor's words (deliverables/validation_report.md, Run 1 round 1) |
 |---|---|---|---|
 | soa:ai_cluster_fit | W2056973550, W3093967660 | partial | The quote describes the switch fabric's use case in general terms and never uses a word close to partial, yes, or no. |
 | electro_optic:integration | W2094700182, W1979338531 | integrated_photonic | The quote describes a Mach-Zehnder switch in silicon but does not use the words integrated or photonic. |
@@ -213,13 +221,36 @@ Round 1 failed check (b) and sent the run back to stage 6 once. The auditor's wo
 | mems_silicon_photonic:trl_band | W3138799074, project row 8 | lab | The quote describes CMOS foundry fabrication and does not use the word lab or a synonym. |
 | piezo:trl_band | project row 5, no paper_id | production (vendor) | The quote describes the switching mechanism only and does not use the word production. |
 
-The auditor called this "a real property of how those cells were filled, not noise in the check". The problem was not limited to the sample. In round 2 the auditor reported that "the pre-fix version of the test failed 21 of 82 cells before the rewrite" (deliverables/validation_report.md, round 2 check (b)). After round 2 it left two problems open. The 4 arXiv-only papers of check (a) "still have never been successfully re-checked against their source in either audit round", and on piezo:trl_band "The fix corrected what the cell asserts, not the thinness of its evidence base" (deliverables/validation_report.md).
+The first fix was a bad one. matrix_build.py imported the audit's value test, and 18 of 27 category cells were rewritten with quote words, such as "partial (computing systems and data networks)", "specifically so that shared-word test would pass" (validation_report.md, Run 2). Only the checker's 07:42 note caught this, calling the test "circular" (STATUS.md, 07:42 line). So the rework deleted the shared test, rebuilt the matrix from scratch, and rewrote audit.py (STATUS.md, 14:11 to 15:10 lines).
 
-The checker found problems in the audit itself. In its words, "the audit value test is now circular because matrix_build.py imports pipeline.audit.value_in_quote", so its own hand read of the 20 sampled values, which found all 20 supported, is the real evidence (STATUS.md, stage 7 DONE line). To pass that test, "18 of 27 reported categorical cells" now carry quote words outside the skill's fixed vocabulary (same line). The round 1 report "says 7 of 20 sampled cells cite a project row (actual 3)", and its claim that 4 of 5 failures sit on thin routes holds for 1 of 5 (STATUS.md, stage 7 RETRY line). Also "the report says piezo:trl_band is built from projects.csv row 5 but the CSV cell cites no project row" (STATUS.md, stage 7 DONE line). The checker did match the 4 arXiv papers on title and year from arxiv.org/abs pages (same line).
+Run 2 checks each kind of cell its own way.
+
+| cells | how checked | result | source |
+|---|---|---|---|
+| 33 measured cells | code, every number must stand in a quote | 33 pass | validation_report.md, Run 2 |
+| 18 academic_groups and companies cells | recomputed with the build's own functions, which "shows reproducibility only" | 18 of 18 match | validation_report.md, Run 2; STATUS.md, 15:10 line |
+| same 18, checker | recomputed independently | 42 of 42 names, 9 of 9 routes | STATUS.md, 15:10 line |
+| 29 category and text cells, auditor | read against the label definitions | 1 of 20 Gate C sample cells fail, 3 of 27 census cells fail (11.1 percent, no gate) | validation_report.md, Run 2 |
+| same 29, checker | read blind to the auditor's verdicts | 29 of 29 supported, agreement 19 of 20 (sample) and 24 of 27 (census) | data/work/audit_run2_checker_judgments.json; STATUS.md, 15:10 line |
+
+The auditor's words on the 4 cells it failed follow (validation_report.md, Run 2).
+
+| cell | value | auditor's words (deliverables/validation_report.md, Run 2) |
+|---|---|---|
+| mems_2d:packaging_notes (Gate C sample) | packaged single-chip component with reliable actuation | never says single-chip. That detail is not stated in this cell's quote. |
+| mems_3d:integration (census) | free_space_bulk | free_space_bulk here rests on domain knowledge that a beam-steering MEMS crossconnect is a free-space device, not on words the quote itself states. |
+| mems_2d:integration (census) | free_space_bulk | does not state free space, air, or bulk optics either. |
+| piezo:trl_band (census) | production | This is the same cell and the same gap run 1 round 1 found. |
+
+The auditor calls the kept piezo value "a known, deliberate choice, not a new defect" (validation_report.md, Run 2). The checker traces the disagreement to "quote-only reading (auditor) versus reading the cited abstract and the route definition (checker)", "Left for a human to settle the standard" (deliverables/pitfalls_original_log.md, 15:10).
+
+Check (a) sample size. Run 1 drew 20, compared 16, and dropped 4 arXiv-only papers on HTTP 406 errors with no fallback, and round 2 dropped the same 4 (deliverables/number_checks.md, section 3). Run 2 drew 20, compared 20, and dropped 0, reading its 4 arXiv-only papers from arxiv.org/abs pages on title and year only (same section). So run 1's gap came from the arXiv service refusing every lookup, not from the sample design (same section).
+
+The checker found the report's preamble "still says SEED = 20260926" (STATUS.md, 15:10 line).
 
 ## Queries used above
 
-Run from the repo root. Q11 and Q12 back counts in open_questions.md and framework.md.
+Run from the repo root. Q11 to Q13 back counts in open_questions.md and framework.md.
 
 | query | command |
 |---|---|
@@ -233,3 +264,5 @@ Run from the repo root. Q11 and Q12 back counts in open_questions.md and framewo
 | Q10 | `.venv/bin/python -c "import pandas as pd; p=pd.read_csv('data/projects.csv'); print(len(p), p.stage.value_counts().to_dict(), p.tech_route.value_counts().to_dict())"` |
 | Q11 | `.venv/bin/python -c "import sqlite3; db=sqlite3.connect('data/db/papers.sqlite'); [print(p, db.execute('select count(*), sum(core_set) from papers where venue like ?', (p,)).fetchone()) for p in ('%Optical Fiber Communication%','%SIGCOMM%','%NSDI%','%Networked Systems%','%APEC%','%Applied Power Electronics%','%ECCE%','%Energy Conversion Congress%','%PCIM%','arXiv (Cornell University)')]"` |
 | Q12 | `.venv/bin/python -c "import sqlite3; print(sqlite3.connect('data/db/papers.sqlite').execute('select adjacent_field, count(*) from tags join papers using(paper_id) where extended_set=1 and core_set=0 group by 1 order by 2 desc').fetchall())"` |
+| Q13 | `.venv/bin/python -c "import sqlite3; print(sqlite3.connect('data/db/papers.sqlite').execute('select count(*), sum(t.tech_route_secondary is not null) from tags t join papers p using(paper_id) where p.core_set=1 and t.tech_route=?', ('architecture_only',)).fetchone())"` |
+| Q14 | `.venv/bin/python -c "import sqlite3; print(sqlite3.connect('data/db/papers.sqlite').execute('select t.tech_route, count(*), sum(p.year<2012) from tags t join papers p using(paper_id) where p.core_set=1 and t.tech_route in (?,?) group by 1', ('mems_3d','mems_silicon_photonic')).fetchall())"` |
