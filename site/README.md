@@ -4,11 +4,15 @@
 
 ## 本地预览
 
-在仓库根目录运行：
+源码位于 [原项目的 feat/chinese-project-pages 分支](https://github.com/nnicholas-c/ocs-landscape/tree/feat/chinese-project-pages)。以下构建命令针对该源码仓库。个人发布仓库只保存 site/ 的发布内容，不包含完整研究代码或数据生成器。
+
+在源码仓库根目录运行：
 
 ```sh
 python3 -m http.server 4173 --directory site
 ```
+
+如果克隆的是个人发布仓库 `ocs-landscape-presentation`，应在它的根目录运行 `python3 -m http.server 4173`，不加 `--directory site`。
 
 访问 http://localhost:4173 。页面包含中文正文、九阶段交互、两轮快照对比、126 格矩阵筛选、证据详情、项目表、图谱、八页汇报模式、打印和资料下载。
 
