@@ -6,7 +6,7 @@ We ran the optical circuit switching (OCS) pipeline on OpenAlex and arXiv on 202
 
 Run 1's stages 0 to 8 took 3 hours 55 minutes and 53 agent invocations (STATUS.md, finish line) and cost 0.04 USD (US dollars) of OpenAlex usage (STATUS.md, 16:14 note). Run 1's rework behind round 3 added 4 role-agent and 13 check invocations (STATUS.md, 15:53 line). Run 1 turned 904 raw records into 885 papers, a core set of 267, and an extended set of 376, with 1597 authors in the team map (STATUS.md, 05:57 and 06:50 lines). There are 12 company rows, each with a web address (URL) and a quote (data/projects.csv).
 
-- Run 2, the arXiv rebuild, took 341 records from OpenAlex's arXiv index for 0.01 USD, plus a 0.01 USD rerun, giving 1213 papers, 284 core, 420 extended, and 1827 team-map authors (deliverables/demo_results.md, Numbers).
+Run 2, the arXiv rebuild, took 341 records from OpenAlex's arXiv index for 0.01 USD, plus a 0.01 USD rerun, giving 1213 papers, 284 core, 420 extended, and 1827 team-map authors (deliverables/demo_results.md, Numbers).
 
 ## What worked
 

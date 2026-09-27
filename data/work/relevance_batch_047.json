@@ -1,0 +1,202 @@
+[
+  {
+    "record_key": "openalex:W2007123056",
+    "source": "arxiv_via_openalex",
+    "title": "Optical intensity interferometry with the Cherenkov Telescope Array",
+    "year": 2012,
+    "venue": "Astroparticle Physics",
+    "abstract": "With its unprecedented light-collecting area for night-sky observations, the Cherenkov Telescope Array (CTA) holds great potential for also optical stellar astronomy, in particular as a multi-element intensity interferometer for realizing imaging with sub-milliarcsecond angular resolution. Such an order-of-magnitude increase of the spatial resolution achieved in optical astronomy will reveal the surfaces of rotationally flattened stars with structures in their circumstellar disks and winds, or the gas flows between close binaries. Image reconstruction is feasible from the second-order coherence of light, measured as the temporal correlations of arrival times between photons recorded in different telescopes. This technique (once pioneered by Hanbury Brown and Twiss) connects telescopes only with electronic signals and is practically insensitive to atmospheric turbulence and to imperfections in"
+  },
+  {
+    "record_key": "openalex:W3015893859",
+    "source": "arxiv_via_openalex",
+    "title": "A quantum network node with crossed optical fibre cavities",
+    "year": 2020,
+    "venue": "Nature Physics",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W2056166808",
+    "source": "arxiv_via_openalex",
+    "title": "Spin–layer locking effects in optical orientation of exciton spin in bilayer WSe2",
+    "year": 2014,
+    "venue": "Nature Physics",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W2572181495",
+    "source": "arxiv_via_openalex",
+    "title": "A microfabricated optically-pumped magnetic gradiometer",
+    "year": 2017,
+    "venue": "Applied Physics Letters",
+    "abstract": "We report on the development of a microfabricated atomic magnetic gradiometer based on optical spectroscopy of alkali atoms in the vapor phase. The gradiometer, which operates in the spin-exchange relaxation free regime, has a length of 60 mm and cross sectional diameter of 12 mm, and consists of two chip-scale atomic magnetometers which are interrogated by a common laser light. The sensor can measure differences in magnetic fields, over a 20 mm baseline, of 10 fT/[Formula: see text] at frequencies above 20 Hz. The maximum rejection of magnetic field noise is 1000 at 10 Hz. By use of a set of compensation coils wrapped around the sensor, we also measure the sensor sensitivity at several external bias field strengths up"
+  },
+  {
+    "record_key": "openalex:W1967800207",
+    "source": "arxiv_via_openalex",
+    "title": "Simulation of non-Abelian gauge theories with optical lattices",
+    "year": 2013,
+    "venue": "Nature Communications",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W2577231583",
+    "source": "arxiv_via_openalex",
+    "title": "Millisecond Magnetar Birth Connects FRB 121102 to Superluminous Supernovae and Long-duration Gamma-Ray Bursts",
+    "year": 2017,
+    "venue": "The Astrophysical Journal",
+    "abstract": "Abstract Subarcsecond localization of the repeating fast radio burst FRB 121102 revealed its coincidence with a dwarf host galaxy and a steady (“quiescent”) nonthermal radio source. We show that the properties of the host galaxy are consistent with those of long-duration gamma-ray bursts (LGRB) and hydrogen-poor superluminous supernovae (SLSNe-I). Both LGRBs and SLSNe-I were previously hypothesized to be powered by the electromagnetic spin-down of newly formed, strongly magnetized neutron stars with millisecond birth rotation periods (“millisecond magnetars”). This motivates considering a scenario whereby the repeated bursts from FRB 121102 originate from a young magnetar remnant embedded within a young hydrogen-poor supernova (SN) remnant. Requirements on the gigahertz free–free optical depth through the expanding SN ejecta (accounting for photoionization by the"
+  },
+  {
+    "record_key": "openalex:W2892415914",
+    "source": "arxiv_via_openalex",
+    "title": "Continuously tunable orthogonally polarized RF optical single sideband generator based on micro-ring resonators",
+    "year": 2018,
+    "venue": "Journal of Optics",
+    "abstract": "Abstract We demonstrate a continuously RF tunable orthogonally polarized optical single sideband (OP-OSSB) generator based on dual cascaded micro-ring resonators (MRRs). By splitting the input double sideband signal into an orthogonally polarized carrier and lower sideband via TE- and TM-polarized MRRs, an OP-OSSB signal is generated. A large tuning range of the optical carrier to sideband ratio of up to 57.3 dB is achieved by adjusting the polarization angle of the input light. The operation RF frequency of the OP-OSSB generator can be continuously tuned with a 21.4 GHz range via independent thermal control of the two MRRs. Our device represents a competitive approach towards OP-OSSB generation with wideband tunable RF operation, and is promising for photonic RF signal transmission"
+  },
+  {
+    "record_key": "openalex:W2765433001",
+    "source": "arxiv_via_openalex",
+    "title": "Theory of optical absorption by interlayer excitons in transition metal dichalcogenide heterobilayers",
+    "year": 2018,
+    "venue": "Physical review. B./Physical review. B",
+    "abstract": "We present a theory of optical absorption by interlayer excitons in a heterobilayer formed from transition metal dichalcogenides. The theory accounts for the presence of small relative rotations that produce a momentum shift between electron and hole bands located in different layers, and a moir\\'e pattern in real space. Because of the momentum shift, the optically active interlayer excitons are located at the moir\\'e Brillouin zone's corners, instead of at its center, and would have elliptical optical selection rules if the individual layers were translationally invariant. We show that the exciton moir\\'e potential energy restores circular optical selection rules by coupling excitons with different center of mass momenta. A variety of interlayer excitons with both senses of circular optical activity,"
+  },
+  {
+    "record_key": "openalex:W2286156139",
+    "source": "arxiv_via_openalex",
+    "title": "Nuclear activity versus star formation: emission-line diagnostics at ultraviolet and optical wavelengths",
+    "year": 2016,
+    "venue": "Monthly Notices of the Royal Astronomical Society",
+    "abstract": "In the context of observations of the rest-frame ultraviolet and optical emission from distant galaxies, we explore the emission-line properties of photoionization models of active and inactive galaxies. Our aim is to identify new line-ratio diagnostics to discriminate between gas photoionization by active galactic nuclei (AGN) and star formation. We use a standard photoionization code to compute the emission from AGN narrow-line regions and compare this with calculations of the nebular emission from star-forming galaxies achieved using the same code. We confirm the appropriateness of widely used optical spectral diagnostics of nuclear activity versus star formation and explore new diagnostics at ultraviolet wavelengths. We find that combinations of a collisionally excited metal line or line multiplet, such as C iv"
+  },
+  {
+    "record_key": "openalex:W2972901907",
+    "source": "arxiv_via_openalex",
+    "title": "Efficient bidirectional piezo-optomechanical transduction between microwave and optical frequency",
+    "year": 2020,
+    "venue": "Nature Communications",
+    "abstract": "Efficient interconversion of both classical and quantum information between microwave and optical frequency is an important engineering challenge. The optomechanical approach with gigahertz-frequency mechanical devices has the potential to be extremely efficient due to the large optomechanical response of common materials, and the ability to localize mechanical energy into a micron-scale volume. However, existing demonstrations suffer from some combination of low optical quality factor, low electrical-to-mechanical transduction efficiency, and low optomechanical interaction rate. Here we demonstrate an on-chip piezo-optomechanical transducer that systematically addresses all these challenges to achieve nearly three orders of magnitude improvement in conversion efficiency over previous work. Our modulator demonstrates acousto-optic modulation with [Formula: see text] = 0.02 V. We show bidirectional conversion efficiency of [Formula: see"
+  },
+  {
+    "record_key": "openalex:W2272085088",
+    "source": "arxiv_via_openalex",
+    "title": "THE OPTICAL–INFRARED EXTINCTION CURVE AND ITS VARIATION IN THE MILKY WAY",
+    "year": 2016,
+    "venue": "The Astrophysical Journal",
+    "abstract": "ABSTRACT The dust extinction curve is a critical component of many observational programs and an important diagnostic of the physics of the interstellar medium. Here we present new measurements of the dust extinction curve and its variation toward tens of thousands of stars, a hundred-fold larger sample than in existing detailed studies. We use data from the APOGEE spectroscopic survey in combination with ten-band photometry from Pan-STARRS1, the Two Micron All-Sky Survey, and Wide-field Infrared Survey Explorer. We find that the extinction curve in the optical through infrared is well characterized by a one-parameter family of curves described by R(V). The extinction curve is more uniform than suggested in past works, with σ ( R ( V ) ) ="
+  },
+  {
+    "record_key": "openalex:W2895491352",
+    "source": "arxiv_via_openalex",
+    "title": "Analysis of Diffractive Optical Neural Networks and Their Integration With Electronic Neural Networks",
+    "year": 2019,
+    "venue": "IEEE Journal of Selected Topics in Quantum Electronics",
+    "abstract": "Optical machine learning offers advantages in terms of power efficiency, scalability, and computation speed. Recently, an optical machine learning method based on diffractive deep neural networks (D2NNs) has been introduced to execute a function as the input light diffracts through passive layers, designed by deep learning using a computer. Here, we introduce improvements to D2NNs by changing the training loss function and reducing the impact of vanishing gradients in the error back-propagation step. Using five phase-only diffractive layers, we numerically achieved a classification accuracy of 97.18% and 89.13% for optical recognition of handwritten digits and fashion products, respectively; using both phase and amplitude modulation (complex-valued) at each layer, our inference performance improved to 97.81% and 89.32%, respectively. Furthermore, we report"
+  },
+  {
+    "record_key": "openalex:W2896874413",
+    "source": "arxiv_via_openalex",
+    "title": "High-fidelity spin and optical control of single silicon-vacancy centres in silicon carbide",
+    "year": 2019,
+    "venue": "Nature Communications",
+    "abstract": "Abstract Scalable quantum networking requires quantum systems with quantum processing capabilities. Solid state spin systems with reliable spin–optical interfaces are a leading hardware in this regard. However, available systems suffer from large electron–phonon interaction or fast spin dephasing. Here, we demonstrate that the negatively charged silicon-vacancy centre in silicon carbide is immune to both drawbacks. Thanks to its 4A2 symmetry in ground and excited states, optical resonances are stable with near-Fourier-transform-limited linewidths, allowing exploitation of the spin selectivity of the optical transitions. In combination with millisecond-long spin coherence times originating from the high-purity crystal, we demonstrate high-fidelity optical initialization and coherent spin control, which we exploit to show coherent coupling to single nuclear spins with ∼1 kHz resolution. The summary"
+  },
+  {
+    "record_key": "openalex:W2051376764",
+    "source": "arxiv_via_openalex",
+    "title": "Optical Yagi‐Uda nanoantennas",
+    "year": 2012,
+    "venue": "Nanophotonics",
+    "abstract": "Abstract Conventional antennas, which are widely employed to transmit radio and TV signals, can be used at optical frequencies as long as they are shrunk to nanometer‐size dimensions. Optical nanoantennas made of metallic or high‐permittivity dielectric nanoparticles allow for enhancing and manipulating light on the scale much smaller than wavelength of light. Based on this ability, optical nanoantennas offer unique opportunities regarding key applications such as optical communications, photovoltaics, nonclassical light emission, and sensing. From a multitude of suggested nanoantenna concepts the Yagi‐Uda nanoantenna, an optical analogue of the well‐established radio‐frequency Yagi‐Uda antenna, stands out by its efficient unidirectional light emission and enhancement. Following a brief introduction to the emerging field of optical nanoantennas, here we review recent theoretical and"
+  },
+  {
+    "record_key": "openalex:W2951312821",
+    "source": "arxiv_via_openalex",
+    "title": "Diagrammatic approach to nonlinear optical response with application to Weyl semimetals",
+    "year": 2019,
+    "venue": "Physical review. B./Physical review. B",
+    "abstract": "Nonlinear optical responses are a crucial probe of physical systems including periodic solids. In the absence of electron-electron interactions, they are calculable with standard perturbation theory starting from the band structure of Bloch electrons, but the resulting formulas are often large and unwieldy, involving many energy denominators from intermediate states. This work gives a Feynman diagram approach to calculating nonlinear responses. This diagrammatic method is a systematic way to perform perturbation theory, which often offers shorter derivations and also provides a natural interpretation of nonlinear responses in terms of physical processes. Applying this method to second-order responses concisely reproduces formulas for the second-order-harmonic shift current. We then apply this method to third-order responses and derive formulas for third-order-harmonic generation and"
+  },
+  {
+    "record_key": "openalex:W2615083219",
+    "source": "arxiv_via_openalex",
+    "title": "Revisiting Optical Tidal Disruption Events with iPTF16axa",
+    "year": 2017,
+    "venue": "The Astrophysical Journal",
+    "abstract": "Abstract We report the discovery by the intermediate Palomar Transient Factory (iPTF) of a candidate tidal disruption event (TDE) iPTF16axa at z = 0.108 and present its broadband photometric and spectroscopic evolution from three months of follow-up observations with ground-based telescopes and Swift. The light curve is well fitted with a t −5/3 decay, and we constrain the rise time to peak to be <49 rest-frame days after disruption, which is roughly consistent with the fallback timescale expected for the ∼5 × 106 M ⊙ black hole inferred from the stellar velocity dispersion of the host galaxy. The UV and optical spectral energy distribution is well described by a constant blackbody temperature of T ∼ 3 × 104 K over"
+  },
+  {
+    "record_key": "openalex:W2124016474",
+    "source": "arxiv_via_openalex",
+    "title": "Synchronization of Distant Optical Clocks at the Femtosecond Level",
+    "year": 2016,
+    "venue": "Physical Review X",
+    "abstract": "The use of optical clocks or oscillators in future ultraprecise navigation, gravitational sensing, coherent arrays, and relativity experiments will require time comparison and synchronization over terrestrial or satellite free-space links.Here, we demonstrate full unambiguous synchronization of two optical time scales across a free-space link.The time deviation between synchronized time scales is below 1 fs over durations from 0.1 to 6500 s, despite atmospheric turbulence and kilometer-scale path length variations.Over 2 days, the time wander is 40 fs peak to peak.Our approach relies on the two-way reciprocity of a single-spatial-mode optical link, valid to below 225 attoseconds across a turbulent 4-km path.This femtosecond level of time-frequency transfer should enable optical networks using state-of-the-art optical clocks or oscillators."
+  },
+  {
+    "record_key": "openalex:W2092313798",
+    "source": "arxiv_via_openalex",
+    "title": "The ATLAS3D project – XXIX. The new look of early-type galaxies and surrounding fields disclosed by extremely deep optical images",
+    "year": 2014,
+    "venue": "Monthly Notices of the Royal Astronomical Society",
+    "abstract": "Galactic archaeology based on star counts is instrumental to reconstruct the past mass assembly of Local Group galaxies. The development of new observing techniques and data reduction, coupled with the use of sensitive large field of view cameras, now allows us to pursue this technique in more distant galaxies exploiting their diffuse low surface brightness (LSB) light. As part of the ATLAS3D project, we have obtained with the MegaCam camera at the Canada–France–Hawaii Telescope extremely deep, multiband images of nearby early-type galaxies (ETGs). We present here a catalogue of 92 galaxies from the ATLAS3D sample, which are located in low- to medium-density environments. The observing strategy and data reduction pipeline, which achieve a gain of several magnitudes in the limiting"
+  },
+  {
+    "record_key": "openalex:W2768224941",
+    "source": "arxiv_via_openalex",
+    "title": "Ultrathin and multicolour optical cavities with embedded metasurfaces",
+    "year": 2018,
+    "venue": "Nature Communications",
+    "abstract": "Over the past years, photonic metasurfaces have demonstrated their remarkable and diverse capabilities in advanced control over light propagation. Here, we demonstrate that these artificial films of deeply subwavelength thickness also offer new unparalleled capabilities in decreasing the overall dimensions of integrated optical systems. We propose an original approach of embedding a metasurface inside an optical cavity-one of the most fundamental optical elements-to drastically scale-down its thickness. By modifying the Fabry-Pérot interferometric principle, this methodology is shown to reduce the metasurface-based nanocavity thickness below the conventional λ/(2n) minimum. In addition, the nanocavities with embedded metasurfaces can support independently tunable resonances at multiple bands. As a proof-of-concept, using nanostructured metasurfaces within 100-nm nanocavities, we experimentally demonstrate high spatial resolution colour filtering"
+  },
+  {
+    "record_key": "openalex:W3013965544",
+    "source": "arxiv_via_openalex",
+    "title": "RAFT: Recurrent All-Pairs Field Transforms for Optical Flow",
+    "year": 2020,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "We introduce Recurrent All-Pairs Field Transforms (RAFT), a new deep network architecture for optical flow. RAFT extracts per-pixel features, builds multi-scale 4D correlation volumes for all pairs of pixels, and iteratively updates a flow field through a recurrent unit that performs lookups on the correlation volumes. RAFT achieves state-of-the-art performance. On KITTI, RAFT achieves an F1-all error of 5.10%, a 16% error reduction from the best published result (6.10%). On Sintel (final pass), RAFT obtains an end-point-error of 2.855 pixels, a 30% error reduction from the best published result (4.098 pixels). In addition, RAFT has strong cross-dataset generalization as well as high efficiency in inference time, training speed, and parameter count. Code is available at https://github.com/princeton-vl/RAFT."
+  },
+  {
+    "record_key": "openalex:W3045333323",
+    "source": "arxiv_via_openalex",
+    "title": "All-optical information-processing capacity of diffractive surfaces",
+    "year": 2021,
+    "venue": "Light Science & Applications",
+    "abstract": "The precise engineering of materials and surfaces has been at the heart of some of the recent advances in optics and photonics. These advances related to the engineering of materials with new functionalities have also opened up exciting avenues for designing trainable surfaces that can perform computation and machine-learning tasks through light-matter interactions and diffraction. Here, we analyze the information-processing capacity of coherent optical networks formed by diffractive surfaces that are trained to perform an all-optical computational task between a given input and output field-of-view. We show that the dimensionality of the all-optical solution space covering the complex-valued transformations between the input and output fields-of-view is linearly proportional to the number of diffractive surfaces within the optical network, up to"
+  },
+  {
+    "record_key": "openalex:W1952127781",
+    "source": "arxiv_via_openalex",
+    "title": "Chiral route to pulling optical forces and left-handed optical torques",
+    "year": 2015,
+    "venue": "Physical Review A",
+    "abstract": "We analyze how chirality can generate pulling optical forces and left-handed torques by cross-coupling linear-to-angular momenta between the light field and the chiral object. In the dipolar regime, we reveal that such effects can emerge from a competition between nonchiral and chiral contributions to dissipative optical forces and torques, a competition balanced by the strength of chirality of the object. We extend the analysis to large chiral spheres where the interplay between chirality and multipolar resonances can give rise to a break of symmetry that flips the signs of both optical forces and torques."
+  },
+  {
+    "record_key": "openalex:W2802941673",
+    "source": "arxiv_via_openalex",
+    "title": "Fundamental Limits to Near-Field Optical Response over Any Bandwidth",
+    "year": 2019,
+    "venue": "Physical Review X",
+    "abstract": "We develop an analytical framework to derive upper bounds to light-matter interactions in the optical near field, where applications ranging from spontaneous-emission amplification to greater-than-blackbody heat transfer show transformative potential.Our framework connects the classic complex-analytic properties of causal fields with newly developed energy-conservation principles, resulting in a new class of power-bandwidth limits.These limits demonstrate the possibility of orders-of-magnitude enhancement in near-field optical response with the right combination of material and geometry.At specific frequency and bandwidth combinations, the bounds can be closely approached by canonical plasmonic geometries, with the opportunity for new designs to emerge away from those frequency ranges.Embedded in the bounds is a material \"figure of merit,\" which determines the maximum response of any material (metal, dielectric, bulk, 2D,"
+  },
+  {
+    "record_key": "openalex:W2226788615",
+    "source": "arxiv_via_openalex",
+    "title": "Probing the electrical switching of a memristive optical antenna by STEM EELS",
+    "year": 2016,
+    "venue": "Nature Communications",
+    "abstract": "The scaling of active photonic devices to deep-submicron length scales has been hampered by the fundamental diffraction limit and the absence of materials with sufficiently strong electro-optic effects. Plasmonics is providing new opportunities to circumvent this challenge. Here we provide evidence for a solid-state electro-optical switching mechanism that can operate in the visible spectral range with an active volume of less than (5 nm)(3) or ∼10(-6) λ(3), comparable to the size of the smallest electronic components. The switching mechanism relies on electrochemically displacing metal atoms inside the nanometre-scale gap to electrically connect two crossed metallic wires forming a cross-point junction. These junctions afford extreme light concentration and display singular optical behaviour upon formation of a conductive channel. The active tuning"
+  },
+  {
+    "record_key": "openalex:W1905213536",
+    "source": "arxiv_via_openalex",
+    "title": "The XMM Cluster Survey: optical analysis methodology and the first data release",
+    "year": 2012,
+    "venue": "Monthly Notices of the Royal Astronomical Society",
+    "abstract": "The XMM Cluster Survey (XCS) is a serendipitous search for galaxy clusters using all publicly available data in the XMM–Newton Science Archive. Its main aims are to measure cosmological parameters and trace the evolution of X-ray scaling relations. In this paper we present the first data release from the XMM Cluster Survey (XCS-DR1). This consists of 503 optically confirmed, serendipitously detected, X-ray clusters. Of these clusters, 256 are new to the literature and 357 are new X-ray discoveries. We present 463 clusters with a redshift estimate (0.06 < z < 1.46), including 261 clusters with spectroscopic redshifts. The remainder have photometric redshifts. In addition, we have measured X-ray temperatures (TX) for 401 clusters (0.4 < TX < 14.7 keV). We"
+  }
+]

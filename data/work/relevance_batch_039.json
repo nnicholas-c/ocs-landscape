@@ -1,0 +1,202 @@
+[
+  {
+    "record_key": "openalex:W2074800816",
+    "source": "arxiv_via_openalex",
+    "title": "Helicity dependent directional surface plasmon polariton excitation using a metasurface with interfacial phase discontinuity",
+    "year": 2013,
+    "venue": "Light Science & Applications",
+    "abstract": "Surface plasmon polaritons (SPPs) have been widely exploited in various scientific communities, ranging from physics, chemistry to biology, due to the strong confinement of light to the metal surface. For many applications, it is important that the free space photon can be coupled to SPPs in a controllable manner. In this Letter, we apply the concept of interfacial phase discontinuity for circularly polarizations on a metasurface to the design of a novel type of polarization-dependent SPP unidirectional excitation at normal incidence. Selective unidirectional excitation of SPPs along opposite directions is experimentally demonstrated at optical frequencies by simply switching the helicity of the incident light. This approach, in conjunction with dynamic polarization modulation techniques, opens gateway towards integrated plasmonic circuits with"
+  },
+  {
+    "record_key": "openalex:W2904125267",
+    "source": "arxiv_via_openalex",
+    "title": "Arbitrarily routed mode-division multiplexed photonic circuits for dense integration",
+    "year": 2019,
+    "venue": "Nature Communications",
+    "abstract": "On-chip integrated mode-division multiplexing (MDM) is an emerging technique for large-capacity data communications. In the past few years, while several configurations have been developed to realize on-chip MDM circuits, their practical applications are significantly hindered by the large footprint and inter-mode cross talk. Most importantly, the high-speed MDM signal transmission in an arbitrarily routed circuit is still absent. Herein, we demonstrate the MDM circuits based on digitized meta-structures which have extremely compact footprints. 112 Gbit/s signals encoded on each mode are arbitrarily routed through the circuits consisting of many sharp bends and compact crossings with a bit error rate under forward error correction limit. This will significantly improve the integration density and benefit various on-chip multimode optical systems."
+  },
+  {
+    "record_key": "openalex:W2510721761",
+    "source": "arxiv_via_openalex",
+    "title": "Observation of a Dissipative Phase Transition in a One-Dimensional Circuit QED Lattice",
+    "year": 2017,
+    "venue": "Physical Review X",
+    "abstract": "Nonequilibrium phase transitions, where the physical properties of a system change suddenly, are of fundamental importance in condensed matter physics but are not well understood. Such phase transitions are now observed in a circuit quantum electrodynamics lattice, paving the way for greater insight into exotic materials."
+  },
+  {
+    "record_key": "openalex:W2790987131",
+    "source": "arxiv_via_openalex",
+    "title": "Modular linear optical circuits",
+    "year": 2018,
+    "venue": "Optica",
+    "abstract": "We propose and demonstrate a modular architecture for reconfigurable on-chip linear-optical circuits. Each module contains 10 independent phase-controlled Mach-Zehnder interferometers; several such modules can be connected to each other to build large reconfigurable interferometers. With this architecture, large interferometers are easier to build and characterize than with traditional, bespoke, monolithic designs. We demonstrate our approach by fabricating three modules in the form of UV-written silica-on-silicon chips. We characterize these chips, connect them to each other, and implement a wide range of linear optical transformations. We envisage that this architecture will enable many future experiments in quantum optics."
+  },
+  {
+    "record_key": "openalex:W1918709909",
+    "source": "arxiv_via_openalex",
+    "title": "Quantum simulations of lattice gauge theories using ultracold atoms in optical lattices",
+    "year": 2015,
+    "venue": "Reports on Progress in Physics",
+    "abstract": "Can high-energy physics be simulated by low-energy, non-relativistic, many-body systems such as ultracold atoms? Such ultracold atomic systems lack the type of symmetries and dynamical properties of high energy physics models: in particular, they manifest neither local gauge invariance nor Lorentz invariance, which are crucial properties of the quantum field theories which are the building blocks of the standard model of elementary particles. However, it turns out, surprisingly, that there are ways to configure an atomic system to manifest both local gauge invariance and Lorentz invariance. In particular, local gauge invariance can arise either as an effective low-energy symmetry, or as an exact symmetry, following from the conservation laws in atomic interactions. Hence, one could hope that such quantum simulators"
+  },
+  {
+    "record_key": "openalex:W2011789793",
+    "source": "arxiv_via_openalex",
+    "title": "Storage and Control of Optical Photons Using Rydberg Polaritons",
+    "year": 2013,
+    "venue": "Physical Review Letters",
+    "abstract": "We use a microwave field to control the quantum state of optical photons stored in a cold atomic cloud. The photons are stored in highly excited collective states (Rydberg polaritons) enabling both fast qubit rotations and control of photon-photon interactions. Through the collective read-out of these pseudospin rotations it is shown that the microwave field modifies the long-range interactions between polaritons. This technique provides a powerful interface between the microwave and optical domains, with applications in quantum simulations of spin liquids, quantum metrology and quantum networks."
+  },
+  {
+    "record_key": "openalex:W2417177018",
+    "source": "arxiv_via_openalex",
+    "title": "A two-dimensional spin field-effect switch",
+    "year": 2016,
+    "venue": "Nature Communications",
+    "abstract": "Abstract Future development in spintronic devices will require an advanced control of spin currents, for example by an electric field. Here we demonstrate an approach that differs from previous proposals such as the Datta and Das modulator, and that is based on a van de Waals heterostructure of atomically thin graphene and semiconducting MoS2. Our device combines the superior spin transport properties of graphene with the strong spin–orbit coupling of MoS2 and allows switching of the spin current in the graphene channel between ON and OFF states by tuning the spin absorption into the MoS2 with a gate electrode. Our proposal holds potential for technologically relevant applications such as search engines or pattern recognition circuits, and opens possibilities towards electrical"
+  },
+  {
+    "record_key": "openalex:W3017073028",
+    "source": "arxiv_via_openalex",
+    "title": "Modeling Electrical Switching of Nonvolatile Phase-Change Integrated Nanophotonic Structures with Graphene Heaters",
+    "year": 2020,
+    "venue": "ACS Applied Materials & Interfaces",
+    "abstract": "Progress in integrated nanophotonics has enabled large-scale programmable photonic integrated circuits (PICs) for general-purpose electronic–photonic systems on a chip. Relying on the weak, volatile thermo-optic, or electro-optic effects, such systems usually exhibit limited reconfigurability along with high-energy consumption and large footprints. These challenges can be addressed by resorting to chalcogenide phase-change materials (PCMs) such as Ge 2 Sb 2 Te 5 (GST) that provide a substantial optical contrast in a self-holding fashion upon phase transitions. However, current PCM-based integrated photonic applications are limited to single devices or simple PICs because of the poor scalability of the optical or electrical self-heating actuation approaches. Thermal-conduction heating via external electrical heaters, instead, allows large-scale integration and large-area switching, but fast and energy-efficient electrical"
+  },
+  {
+    "record_key": "openalex:W1993229420",
+    "source": "arxiv_via_openalex",
+    "title": "Significance of the Casimir force and surface roughness for actuation dynamics of MEMS",
+    "year": 2013,
+    "venue": "Physical Review B",
+    "abstract": "Using the measured optical response and surface roughness topography as inputs, we perform realistic calculations of the combined effect of Casimir and electrostatic forces on the actuation dynamics of microelectromechanical systems (MEMS). In contrast with the expectations, roughness can influence MEMS dynamics, even at distances between bodies significantly larger than the root-mean-square roughness. This effect is associated with statistically rare high asperities that can be locally close to the point of contact. It is found that even though surface roughness appears to have a detrimental effect on the availability of stable equilibria, it ensures that those equilibria can be reached more easily than in the case of flat surfaces. Hence our findings play a principal role for the stability of"
+  },
+  {
+    "record_key": "openalex:W2148088055",
+    "source": "arxiv_via_openalex",
+    "title": "Dual origin of defect magnetism in graphene and its reversible switching by molecular doping",
+    "year": 2013,
+    "venue": "Nature Communications",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W3159163441",
+    "source": "arxiv_via_openalex",
+    "title": "Structural Health Monitoring System With Narrowband IoT and MEMS Sensors",
+    "year": 2021,
+    "venue": "IEEE Sensors Journal",
+    "abstract": "Monitoring of civil infrastructures is critically needed to track aging, damages and ultimately to prevent severe failures which can endanger many lives. The ability to monitor in a continuous and fine-grained fashion the integrity of a wide variety of buildings, referred to as structural health monitoring, with low-cost, long-term and continuous measurements is essential from both an economic and a life-safety standpoint. To address these needs, we propose a low-cost wireless sensor node specifically designed to support modal analysis over extended periods of time with long-range connectivity at low power consumption. Our design uses very cost-effective MEMS accelerometers and exploits the Narrowband IoT protocol (NB-IoT) to establish long-distance connection with 4G infrastructure networks. Long-range wireless connectivity, cabling-free installation and multi-year"
+  },
+  {
+    "record_key": "openalex:W3158146353",
+    "source": "arxiv_via_openalex",
+    "title": "Electrochemically controlled metasurfaces with high-contrast switching at visible frequencies",
+    "year": 2021,
+    "venue": "Science Advances",
+    "abstract": "Recently in nanophotonics, a rigorous evolution from passive to active metasurfaces has been witnessed. This advancement not only brings forward interesting physical phenomena but also elicits opportunities for practical applications. However, active metasurfaces operating at visible frequencies often exhibit low performance due to design and fabrication restrictions at the nanoscale. In this work, we demonstrate electrochemically controlled metasurfaces with high intensity contrast, fast switching rate, and excellent reversibility at visible frequencies. We use a conducting polymer, polyaniline (PANI), that can be locally conjugated on preselected gold nanorods to actively control the phase profiles of the metasurfaces. The optical responses of the metasurfaces can be in situ monitored and optimized by controlling the PANI growth of subwavelength dimension during the electrochemical"
+  },
+  {
+    "record_key": "openalex:W3034339773",
+    "source": "arxiv_via_openalex",
+    "title": "Reversible optical tuning of GeSbTe phase-change metasurface spectral filters for mid-wave infrared imaging",
+    "year": 2020,
+    "venue": "Optica",
+    "abstract": "Tunable narrowband spectral filtering across arbitrary optical wavebands is highly desirable in a plethora of applications, from chemical sensing and hyperspectral imaging to infrared astronomy. Yet, the ability to reconfigure the optical properties, with full reversibility, of a solid-state large-area narrowband filter remains elusive. Existing solutions require either moving parts, have slow response times, or provide limited spectral coverage. Here, we demonstrate a 1-inch diameter continuously tunable, fully reversible, all-solid-state, narrowband phase-change metasurface filter based on a GeSbTe-225 (GST)-embedded plasmonic nanohole array. The passband of the presented device is ∼ 74 n m with ∼ 70 % transmittance and operates across the 3–5 µm thermal imaging waveband. Continuous, reconfigurable tuning is achieved by exploiting intermediate GST phases via optical switching"
+  },
+  {
+    "record_key": "openalex:W1964781087",
+    "source": "arxiv_via_openalex",
+    "title": "Sub-optical wavelength acoustic wave modulation of integrated photonic resonators at microwave frequencies",
+    "year": 2014,
+    "venue": "Nature Communications",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W2735841775",
+    "source": "arxiv_via_openalex",
+    "title": "The origin of the UV/optical lags in NGC 5548",
+    "year": 2017,
+    "venue": "Monthly Notices of the Royal Astronomical Society",
+    "abstract": "The new multiwavelength monitoring campaign on NGC 5548 shows clearly that the variability of the ultraviolet (UV)/optical light curves lags by progressively longer times at longer wavelengths, as expected from reprocessing off an optically thick disc, but that the time-scales are longer than expected for a standard Shakura–Sunyaev accretion disc. We build a full spectral-timing reprocessing model to simulate the UV/optical light curves of NGC 5548. We show that disc reprocessing of the observed hard X-ray light curve produces optical light curves with too much fast variability as well as too short a lag time. Suppressing the fast variability requires an intervening structure preventing the hard X-rays from illuminating the disc. We propose this is the disc itself, perhaps due"
+  },
+  {
+    "record_key": "openalex:W2246075628",
+    "source": "arxiv_via_openalex",
+    "title": "Resource Costs for Fault-Tolerant Linear Optical Quantum Computing",
+    "year": 2015,
+    "venue": "Physical Review X",
+    "abstract": "Linear optical quantum computing (LOQC) seems attractively simple: Information is borne entirely by light and processed by components such as beam splitters, phase shifters, and detectors.However, this very simplicity leads to limitations, such as the lack of deterministic entangling operations, which are compensated for by using substantial hardware overheads.Here, we quantify the resource costs for full-scale LOQC by proposing a specific protocol based on the surface code.With the caveat that our protocol can be further optimized, we report that the required number of physical components is at least 5 orders of magnitude greater than in comparable matter-based systems.Moreover, the resource requirements grow further if the per-component photon-loss rate is worse than 10 -3 or the per-component noise rate is worse"
+  },
+  {
+    "record_key": "openalex:W3132510228",
+    "source": "arxiv_via_openalex",
+    "title": "Reconfigurable all-dielectric metalens with diffraction-limited performance",
+    "year": 2021,
+    "venue": "Nature Communications",
+    "abstract": "Active metasurfaces, whose optical properties can be modulated post-fabrication, have emerged as an intensively explored field in recent years. The efforts to date, however, still face major performance limitations in tuning range, optical quality, and efficiency, especially for non-mechanical actuation mechanisms. In this paper, we introduce an active metasurface platform combining phase tuning in the full 2π range and diffraction-limited performance using an all-dielectric, low-loss architecture based on optical phase change materials (O-PCMs). We present a generic design principle enabling binary switching of metasurfaces between arbitrary phase profiles and propose a new figure-of-merit (FOM) tailored for reconfigurable meta-optics. We implement the approach to realize a high-performance varifocal metalens operating at 5.2 μm wavelength. The reconfigurable metalens features a record large"
+  },
+  {
+    "record_key": "openalex:W2033632707",
+    "source": "arxiv_via_openalex",
+    "title": "Synchronization of Micromechanical Oscillators Using Light",
+    "year": 2012,
+    "venue": "Physical Review Letters",
+    "abstract": "Synchronization, the emergence of spontaneous order in coupled systems, is of fundamental importance in both physical and biological systems. We demonstrate the synchronization of two dissimilar silicon nitride micromechanical oscillators, that are spaced apart by a few hundred nanometers and are coupled through an optical cavity radiation field. The tunability of the optical coupling between the oscillators enables one to externally control the dynamics and switch between coupled and individual oscillation states. These results pave a path toward reconfigurable synchronized oscillator networks."
+  },
+  {
+    "record_key": "openalex:W2060692000",
+    "source": "arxiv_via_openalex",
+    "title": "Casimir attractive-repulsive transition in MEMS",
+    "year": 2012,
+    "venue": "The European Physical Journal B",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W3012219314",
+    "source": "arxiv_via_openalex",
+    "title": "Manufacture and characterization of graphene membranes with suspended silicon proof masses for MEMS and NEMS applications",
+    "year": 2020,
+    "venue": "Microsystems & Nanoengineering",
+    "abstract": "Graphene's unparalleled strength, chemical stability, ultimate surface-to-volume ratio and excellent electronic properties make it an ideal candidate as a material for membranes in micro- and nanoelectromechanical systems (MEMS and NEMS). However, the integration of graphene into MEMS or NEMS devices and suspended structures such as proof masses on graphene membranes raises several technological challenges, including collapse and rupture of the graphene. We have developed a robust route for realizing membranes made of double-layer CVD graphene and suspending large silicon proof masses on membranes with high yields. We have demonstrated the manufacture of square graphene membranes with side lengths from 7 µm to 110 µm, and suspended proof masses consisting of solid silicon cubes that are from 5 µm × 5"
+  },
+  {
+    "record_key": "openalex:W2800768867",
+    "source": "arxiv_via_openalex",
+    "title": "Structured Optical Materials Controlled by Light",
+    "year": 2018,
+    "venue": "Advanced Optical Materials",
+    "abstract": "Abstract Materials whose optical response is determined by their structure are of much interest both for their fundamental properties and applications. Examples range from simple gratings to photonic crystals. Obtaining control over the optical properties is of crucial importance in this context, and it is often attempted by electro‐optical effect or by using magnetic fields. In this paper, the use of light is introduced to switch and tune the optical response of a structured material, exploiting a physical deformation induced by light itself. In this new strategy, light drives an elastic reshaping, which leads hence to a change in the optical response. This is made possible by using liquid crystalline networks structured by direct laser writing. As a proof of"
+  },
+  {
+    "record_key": "openalex:W4392616788",
+    "source": "arxiv_via_openalex",
+    "title": "Optical MEMS Design for Telecommunications Applications",
+    "year": 2024,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "As optical telecommunication networks become more complex, there is an emerging need for systems capable of very complex switching and manipulation of large numbers of optical signals. MEMS enable these systems by combining excellent capabilities and optical properties of macroscopic optomechanics with dense integration of multiple actuators on a single chip. Such optical MEMS present common design and process challenges, such as multiple electrical and optical IO, optical surface quality, optical integration density (fill factor) and actuator performance and reliability. We have used general design approaches such as pure-flexure design, electrostatic actuation and residual stress engineering in addressing these challenges. On several examples in this paper we illustrate these approaches along with underlying design tradeoffs and process requirements. We also"
+  },
+  {
+    "record_key": "openalex:W2562195364",
+    "source": "arxiv_via_openalex",
+    "title": "Some singular equations modeling MEMS",
+    "year": 2016,
+    "venue": "Bulletin of the American Mathematical Society",
+    "abstract": "In the past fifteen years mathematical models for microelectromechanical systems (MEMS) have been the subject of several studies, in particular due to the interesting qualitative properties they feature. Still most research is devoted to an illustrative but simplified model, which is deduced from a more complex model when the aspect ratio of the device vanishes, the so-called vanishing (or small) aspect ratio model. The analysis of the aforementioned complex model involving a moving boundary has started only recently, and an outlook of the results obtained so far in this direction is provided in this survey."
+  },
+  {
+    "record_key": "openalex:W4211046676",
+    "source": "arxiv_via_openalex",
+    "title": "Integrated optically pumped magnetometer for measurements within Earth's magnetic field",
+    "year": 2020,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "We present a portable optically pumped magnetometer instrument for ultra-sensitive measurements within the Earth's magnetic field. The central part of the system is a sensor head operating a MEMS-based Cs vapor cell in the light-shift dispersed Mz mode. It is connected to a compact, battery-driven electronics module by a flexible cable. We briefly review the working principles of the device and detail on the realization of both, sensor head and electronics. We show shielded and unshielded measurements within a static magnetic field amplitude of 50 uT demonstrating a noise level of the sensor system down to 140 fT/\\sqrt{Hz} and a sensor bandwidth of several 100 Hz. In a detailed analysis of sensor noise we reveal the system to be limited"
+  },
+  {
+    "record_key": "openalex:W4285501434",
+    "source": "arxiv_via_openalex",
+    "title": "Spin-orbit torque switching of magnetic tunnel junctions for memory applications",
+    "year": 2022,
+    "venue": "Journal of Magnetism and Magnetic Materials",
+    "abstract": ""
+  }
+]

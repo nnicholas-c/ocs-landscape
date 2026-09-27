@@ -1,0 +1,152 @@
+[
+  {
+    "record_key": "openalex:W3007303655",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Attention mechanism hardware accelerator, unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W3041090558",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Deep learning accelerators for healthcare devices, unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W4297076413",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Google TPU ASIC performance analysis, unrelated to optical switching."
+  },
+  {
+    "record_key": "openalex:W4317437673",
+    "score": 2,
+    "adjacent_field": "dc_network_systems",
+    "reason": "Dynamic link scheduling algorithms for optical-switch based reconfigurable datacenters."
+  },
+  {
+    "record_key": "openalex:W2782679512",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Inter-thread communication in reconfigurable compute arrays, not optical."
+  },
+  {
+    "record_key": "openalex:W4399912755",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Proposes D3, a new reconfigurable datacenter network architecture using optical switching."
+  },
+  {
+    "record_key": "openalex:W4399317831",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Characterizes throughput bounds of optical circuit switch based datacenter networks."
+  },
+  {
+    "record_key": "openalex:W3093766311",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Federated and fog learning over wireless networks, unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W3108426037",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Survey of DNN hardware and software acceleration, unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W4391835825",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Models topology and traffic engineering for optical-switching based reconfigurable networks."
+  },
+  {
+    "record_key": "openalex:W3034286545",
+    "score": 1,
+    "adjacent_field": "free_space_optics_packaging",
+    "reason": "Title only, abstract empty; FSO for datacenter telemetry, unclear switching role."
+  },
+  {
+    "record_key": "openalex:W4281805071",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Survey of DL workload scheduling in GPU datacenters, no optical switching."
+  },
+  {
+    "record_key": "openalex:W2806666179",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "GAN hardware accelerator, unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W4221161683",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Proposes topology algorithm for self-adjusting circuit-switched optical datacenter networks."
+  },
+  {
+    "record_key": "openalex:W2884288768",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "FPGA compiler overlay for neural network inference, unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W3090302053",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Reconfigurable convolution accelerator architecture, not an optical network."
+  },
+  {
+    "record_key": "openalex:W2926903444",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Survey of SDN data plane programmability, no optical circuit switching."
+  },
+  {
+    "record_key": "openalex:W2996075766",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Survey of distributed machine learning, unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W3039376411",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Secret sharing MPC on FPGAs, unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W2972799440",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Ternary neural network FPGA implementation, unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W3201951111",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Google Edge TPU inference bottleneck analysis, unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W4286857867",
+    "score": 2,
+    "adjacent_field": "dc_network_systems",
+    "reason": "Oblivious routing theory for reconfigurable datacenter network topologies."
+  },
+  {
+    "record_key": "openalex:W3085725209",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Hardware accelerator and neural network co-design search, unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W4221166306",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Carbon-aware datacenter software case, unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W2967037585",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Resistive memory binarized neural network hardware, unrelated to OCS."
+  }
+]

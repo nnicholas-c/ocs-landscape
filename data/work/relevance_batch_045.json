@@ -1,0 +1,202 @@
+[
+  {
+    "record_key": "openalex:W2798552709",
+    "source": "arxiv_via_openalex",
+    "title": "Time-Periodic Stiffness Modulation in Elastic Metamaterials for Selective Wave Filtering: Theory and Experiment",
+    "year": 2019,
+    "venue": "Physical Review Letters",
+    "abstract": "Elastic waveguides with time-modulated stiffness feature a frequency-periodic dispersion spectrum, where branches merge at multiple integers of half the modulation frequency and over a finite wave number range. In this range, frequency becomes complex, with its real part remaining constant. The vanishing group velocity associated with these flat bands leads to frequency-selective reflection at an interface between a nonmodulated medium and a time-modulated one, which converts a broadband input into a narrow-band output centered at the half modulation frequency. This behavior is illustrated in an elastic waveguide in transverse motion, where modulation is implemented experimentally by an array of piezoelectric patches shunted through a negative electrical capacitance controlled by a switching circuit. The switching schedule defines the modulation frequency and"
+  },
+  {
+    "record_key": "openalex:W2510310435",
+    "source": "arxiv_via_openalex",
+    "title": "Optical Writing of Magnetic Properties by Remanent Photostriction",
+    "year": 2016,
+    "venue": "Physical Review Letters",
+    "abstract": "We present an optically induced remanent photostriction in BiFeO_{3}, resulting from the photovoltaic effect, which is used to modify the ferromagnetism of Ni film in a hybrid BiFeO_{3}/Ni structure. The 75% change in coercivity in the Ni film is achieved via optical and nonvolatile control. This photoferromagnetic effect can be reversed by static or ac electric depolarization of BiFeO_{3}. Hence, the strain dependent changes in magnetic properties are written optically, and erased electrically. Light-mediated straintronics is therefore a possible approach for low-power multistate control of magnetic elements relevant for memory and spintronic applications."
+  },
+  {
+    "record_key": "openalex:W4310544708",
+    "source": "arxiv_via_openalex",
+    "title": "A self-starting bi-chromatic LiNbO3 soliton microcomb",
+    "year": 2018,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "For its many useful properties, including second and third-order optical nonlinearity as well as electro-optic control, lithium niobate is considered an important potential microcomb material. Here, a soliton microcomb is demonstrated in a monolithic high-Q lithium niobate resonator. Besides the demonstration of soliton mode locking, the photorefractive effect enables mode locking to self-start and soliton switching to occur bi-directionally. Second-harmonic generation of the soliton spectrum is also observed, an essential step for comb self-referencing. The Raman shock time constant of lithium niobate is also determined by measurement of soliton self-frequency-shift. Besides the considerable technical simplification provided by a self-starting soliton system, these demonstrations, together with the electro-optic and piezoelectric properties of lithium niobate, open the door to a multi-functional microcomb"
+  },
+  {
+    "record_key": "openalex:W3174093665",
+    "source": "arxiv_via_openalex",
+    "title": "Longitudinal piezoelectric resonant photoelastic modulator for efficient intensity modulation at megahertz frequencies",
+    "year": 2022,
+    "venue": "Nature Communications",
+    "abstract": "Intensity modulators are an essential component in optics for controlling free-space beams. Many applications require the intensity of a free-space beam to be modulated at a single frequency, including wide-field lock-in detection for sensitive measurements, mode-locking in lasers, and phase-shift time-of-flight imaging (LiDAR). Here, we report a new type of single frequency intensity modulator that we refer to as a longitudinal piezoelectric resonant photoelastic modulator. The modulator consists of a thin lithium niobate wafer coated with transparent surface electrodes. One of the fundamental acoustic modes of the modulator is excited through the surface electrodes, confining an acoustic standing wave to the electrode region. The modulator is placed between optical polarizers; light propagating through the modulator and polarizers is intensity modulated"
+  },
+  {
+    "record_key": "openalex:W2964824258",
+    "source": "arxiv_via_openalex",
+    "title": "A pyramid MOT with integrated optical cavities as a cold atom platform for an optical lattice clock",
+    "year": 2019,
+    "venue": "Scientific Reports",
+    "abstract": "Abstract We realize a two-stage, hexagonal pyramid magneto-optical trap (MOT) with strontium, and demonstrate loading of cold atoms into cavity-enhanced 1D and 2D optical lattice traps, all within a single compact assembly of in-vacuum optics. We show that the device is suitable for high-performance quantum technologies, focusing especially on its intended application as a strontium optical lattice clock. We prepare 2 × 10 4 spin-polarized atoms of 87 Sr in the optical lattice within 500 ms; we observe a vacuum-limited lifetime of atoms in the lattice of 27 s; and we measure a background DC electric field of 12 V m −1 from stray charges, corresponding to a fractional frequency shift of (−1.2 ± 0.8) × 10 −18 to the"
+  },
+  {
+    "record_key": "openalex:W2476307541",
+    "source": "arxiv_via_openalex",
+    "title": "Dynamical Piezoelectric and Magnetopiezoelectric Effects in Polar Metals from Berry Phases and Orbital Moments",
+    "year": 2016,
+    "venue": "Physical Review Letters",
+    "abstract": "The polarization of a material and its response to applied electric and magnetic fields are key solid-state properties with a long history in insulators, although a satisfactory theory required new concepts such as Berry-phase gauge fields. In metals, quantities such as static polarization and the magnetoelectric θ term cease to be well defined. In polar metals, there can be analogous dynamical current responses, which we study in a common theoretical framework. We find that current responses to dynamical strain in polar metals depend on both the first and second Chern forms, related to polarization and magnetoelectricity in insulators as well as the orbital magnetization on the Fermi surface. We provide realistic estimates that predict that the latter contribution will dominate,"
+  },
+  {
+    "record_key": "openalex:W2134953679",
+    "source": "arxiv_via_openalex",
+    "title": "Formation and switching of defect dipoles in acceptor-doped lead titanate: A kinetic model based on first-principles calculations",
+    "year": 2013,
+    "venue": "Physical Review B",
+    "abstract": "The formation and field-induced switching of defect dipoles in acceptor doped lead titanate is described by a kinetic model representing an extension of the well established Arlt-Neumann model [Ferroelectrics 76, 303 (1987)]. Energy barriers for defect association and reorientation of oxygen vacancy-dopant (Cu and Fe) complexes are obtained from first-principles calculations and serve as input for kinetic coefficients of the rate equation model. The numerical solution of the model describes the time evolution of the oxygen vacancy distribution at different temperatures and dopant concentrations in the presence or absence of an alternating external field. We predict the characteristic time scale for the alignment of all defect dipoles with the spontaneous polarization of the surrounding matrix. In this state the defect"
+  },
+  {
+    "record_key": "openalex:W3093650388",
+    "source": "arxiv_via_openalex",
+    "title": "Two-Dimensional Materials with Giant Optical Nonlinearities near the Theoretical Upper Limit",
+    "year": 2021,
+    "venue": "ACS Nano",
+    "abstract": "Nonlinear optical (NLO) phenomena such as harmonic generation and Kerr and Pockels effects are of great technological importance for lasers, frequency converters, modulators, switches, etc . Recently, two-dimensional (2D) materials have drawn significant attention due to their strong and peculiar NLO properties. Here, we describe an efficient first-principles workflow for calculating the quadratic optical response and apply it to 375 non-centrosymmetric semiconductor monolayers from the Computational 2D Materials Database (C2DB). Sorting the nonresonant nonlinearities with respect to bandgap E g reveals an upper limit proportional to E g –4, which is neatly explained by two distinct generic models. We identify multiple promising candidates with giant nonlinearities and bandgaps ranging from 0.4 to 5 eV, some of which approach the theoretical"
+  },
+  {
+    "record_key": "openalex:W1574006679",
+    "source": "arxiv_via_openalex",
+    "title": "Cooling and manipulation of a levitated nanoparticle with an optical fiber trap",
+    "year": 2015,
+    "venue": "Applied Physics Letters",
+    "abstract": "Accurate delivery of small targets in high vacuum is a pivotal task in many branches of science and technology. Beyond the different strategies developed for atoms, proteins, macroscopic clusters, and pellets, the manipulation of neutral particles over macroscopic distances still poses a formidable challenge. Here, we report an approach based on a mobile optical trap operated under feedback control that enables cooling and long range 3D manipulation of a silica nanoparticle in high vacuum. We apply this technique to load a single nanoparticle into a high-finesse optical cavity through a load-lock vacuum system. We foresee our scheme to benefit the field of optomechanics with levitating nano-objects as well as ultrasensitive detection and monitoring."
+  },
+  {
+    "record_key": "openalex:W2514445405",
+    "source": "arxiv_via_openalex",
+    "title": "Resonant optical spectroscopy and coherent control of Cr4+ spin ensembles in SiC and GaN",
+    "year": 2017,
+    "venue": "Physical review. B./Physical review. B",
+    "abstract": "The authors identify a new class of optically controllable, semiconductor-based defect spin that is formed from the $d$-orbital electrons of chromium ions in silicon carbide and gallium nitride. These ions possess a simple lambda optical structure that couples only weakly to phonons and lattice strain. Therefore, even though they probe an ensemble of many ions at once with varying strain environments, the optical transitions they observe are exceptionally narrow and possess a high radiative efficiency. These properties allow the authors to individually interrogate the magnetic sublevels of the ground-state spin using resonant optical excitation, enabling ensemble optical spin polarization as well as optically detected magnetic resonance in the time domain. Each ion species emits the majority of its luminescence within"
+  },
+  {
+    "record_key": "openalex:W4410189339",
+    "source": "arxiv_via_openalex",
+    "title": "Optical microcombs for ultrahigh-bandwidth communications",
+    "year": 2025,
+    "venue": "Nature Photonics",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W2777202942",
+    "source": "arxiv_via_openalex",
+    "title": "Entanglement and teleportation between polarization and wave-like encodings of an optical qubit",
+    "year": 2018,
+    "venue": "Nature Communications",
+    "abstract": "Light is an irreplaceable means of communication among various quantum information processing and storage devices. Due to their different physical nature, some of these devices couple more strongly to discrete, and some to continuous degrees of freedom of a quantum optical wave. It is therefore desirable to develop a technological capability to interconvert quantum information encoded in these degrees of freedom. Here we generate and characterize an entangled state between a dual-rail (polarization-encoded) single-photon qubit and a qubit encoded as a superposition of opposite-amplitude coherent states. We furthermore demonstrate the application of this state as a resource for the interfacing of quantum information between these encodings. In particular, we show teleportation of a polarization qubit onto a freely propagating continuous-variable"
+  },
+  {
+    "record_key": "openalex:W2075728804",
+    "source": "arxiv_via_openalex",
+    "title": "Superconducting nanowire single-photon detectors: physics and applications",
+    "year": 2012,
+    "venue": "Superconductor Science and Technology",
+    "abstract": "Single-photon detectors based on superconducting nanowires (SSPDs or SNSPDs) have rapidly emerged as a highly promising photon-counting technology for infrared wavelengths. These devices offer high efficiency, low dark counts and excellent timing resolution. In this review, we consider the basic SNSPD operating principle and models of device behaviour. We give an overview of the evolution of SNSPD device design and the improvements in performance which have been achieved. We also evaluate device limitations and noise mechanisms. We survey practical refrigeration technologies and optical coupling schemes for SNSPDs. Finally we summarize promising application areas, ranging from quantum cryptography to remote sensing. Our goal is to capture a detailed snapshot of an emerging superconducting detector technology on the threshold of maturity."
+  },
+  {
+    "record_key": "openalex:W4285390819",
+    "source": "arxiv_via_openalex",
+    "title": "Silicon–organic hybrid thermo-optic switch based on a slot waveguide directional coupler",
+    "year": 2022,
+    "venue": "Optics Letters",
+    "abstract": "We propose and demonstrate a passively biased 2 × 2 thermo-optic switch with high power efficiency and fast response time. The device benefits from the highly concentrated optical field of a slot waveguide mode and the strong thermo-optic effect of a nematic liquid crystal (NLC) cladding. The NLC fills the nano-slot region and is aligned by the subwavelength grating inside. The measured power consumption and thermal time constant are 0.58 mW and 11.8 µs, respectively, corresponding to a figure-of-merit of 6.8 mW µs. The proposed silicon-organic hybrid device provides a new solution to design thermo-optic actuators having low power consumption and fast operation speed."
+  },
+  {
+    "record_key": "openalex:W2949366708",
+    "source": "arxiv_via_openalex",
+    "title": "Chalcogenide glass-on-graphene photonics",
+    "year": 2017,
+    "venue": "Nature Photonics",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W2952285760",
+    "source": "arxiv_via_openalex",
+    "title": "Efficient, compact and low loss thermo-optic phase shifter in silicon",
+    "year": 2014,
+    "venue": "Optics Express",
+    "abstract": "We design a resistive heater optimized for efficient and low-loss optical phase modulation in a silicon-on-insulator (SOI) waveguide and characterize the fabricated devices. Modulation is achieved by flowing current perpendicular to a new ridge waveguide geometry. The resistance profile is engineered using different dopant concentrations to obtain localized heat generation and maximize the overlap between the optical mode and the high temperature regions of the structure, while simultaneously minimizing optical loss due to free-carrier absorption. A 61.6 μm long phase shifter was fabricated in a CMOS process with oxide cladding and two metal layers. The device features a phase-shifting efficiency of 24.77 ± 0.43 mW/π and a -3 dB modulation bandwidth of 130.0 ± 5.59 kHz; the insertion loss measured"
+  },
+  {
+    "record_key": "openalex:W4402705205",
+    "source": "arxiv_via_openalex",
+    "title": "Fast thermo-optic switching on silicon nitride platform through parity-time symmetry breaking",
+    "year": 2024,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "Reconfigurable photonic integrated circuits (PICs) are key elements for emerging applications like photonic sensing, LiDAR, and quantum computing. In such applications, optical switches with fast response and robust fabrication methods are crucial for reprogramming linear optical transformations on demand. Here, we demonstrate a fast thermo-optic switching mechanism on the silicon nitride on insulator platform, leveraging parity-time symmetry breaking. The cladding-free design operating at 775 nm enables optical propagation in a partially metal-covered waveguide with minimal loss—an uncommon phenomenon given the typical absorption associated with metal proximity. The fabricated device exhibits a 7.1 µs rise time for a π phase shift, despite the weak thermo-optic coefficient in silicon nitride. Our design provides reproducible fabrication metrics and holds promises for large-scale photonic"
+  },
+  {
+    "record_key": "openalex:W3114768400",
+    "source": "arxiv_via_openalex",
+    "title": "Thermo-optic refraction in MoS2 medium for “Normally on” all optical switch",
+    "year": 2020,
+    "venue": "Optical Materials",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W3192413892",
+    "source": "arxiv_via_openalex",
+    "title": "Thermo-optic refraction based switchable optical mode converter",
+    "year": 2021,
+    "venue": "Journal of Quantitative Spectroscopy and Radiative Transfer",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W3211439343",
+    "source": "arxiv_via_openalex",
+    "title": "Power-efficient silicon nitride thermo-optic phase shifters for visible light",
+    "year": 2021,
+    "venue": "Optics Express",
+    "abstract": "We demonstrate power-efficient, thermo-optic, silicon nitride waveguide phase shifters for blue, green, and yellow wavelengths. The phase shifters operated with low power consumption due to a suspended structure and multi-pass waveguide design. The devices were fabricated on 200-mm silicon wafers using deep ultraviolet lithography as part of an active visible-light integrated photonics platform. The measured power consumption to achieve a π phase shift (averaged over multiple devices) was 0.78, 0.93, 1.09, and 1.20 mW at wavelengths of 445, 488, 532, and 561 nm, respectively. The phase shifters were integrated into Mach-Zehnder interferometer switches, and 10 - 90% rise(fall) times of about 570(590) μs were measured."
+  },
+  {
+    "record_key": "openalex:W2763125919",
+    "source": "arxiv_via_openalex",
+    "title": "Fourier transform spectrometer on silicon with thermo-optic non-linearity and dispersion correction",
+    "year": 2018,
+    "venue": "Nature Communications",
+    "abstract": "Miniaturized integrated spectrometers will have unprecedented impact on applications ranging from unmanned aerial vehicles to mobile phones, and silicon photonics promises to deliver compact, cost-effective devices. Mirroring its ubiquitous free-space counterpart, a silicon photonics-based Fourier transform spectrometer (Si-FTS) can bring broadband operation and fine resolution to the chip scale. Here we present the modeling and experimental demonstration of a thermally tuned Si-FTS accounting for dispersion, thermo-optic non-linearity, and thermal expansion. We show how these effects modify the relation between the spectrum and interferogram of a light source and we develop a quantitative correction procedure through calibration with a tunable laser. We retrieve a broadband spectrum (7 THz around 193.4 THz with 0.38-THz resolution consuming 2.5 W per heater) and demonstrate"
+  },
+  {
+    "record_key": "openalex:W4400065203",
+    "source": "arxiv_via_openalex",
+    "title": "2D Graphene Oxide: A Versatile Thermo‐Optic Material",
+    "year": 2024,
+    "venue": "Advanced Functional Materials",
+    "abstract": "Abstract Efficient heat management and control in optical devices, facilitated by advanced thermo‐optic materials, are critical for many applications such as photovoltaics, thermal emitters, mode‐locked lasers, and optical switches. Here, a range of thermo‐optic properties of 2D graphene oxide (GO) films are investigated by precisely integrating them onto microring resonators (MRRs) with control over the film thicknesses and lengths. The refractive index, extinction coefficient, thermo‐optic coefficient, and thermal conductivity for the GO films with different layer numbers and degrees of reduction, as well as reversible reduction and enhanced optical bistability induced by the photo‐thermal effects, are comprehensively characterized. Experimental results show that the thermo‐optic properties of 2D GO films vary widely with the degree of reduction. In addition, significant anisotropy"
+  },
+  {
+    "record_key": "openalex:W3171607420",
+    "source": "arxiv_via_openalex",
+    "title": "Efficient and compact thermo-optic phase shifter in silicon-rich silicon nitride",
+    "year": 2021,
+    "venue": "Optics Letters",
+    "abstract": "The design, fabrication, and characterization of low-loss ultra-compact bends in high-index ( n = 3.1 at λ = 1550 n m ) plasma-enhanced chemical vapor deposition silicon-rich silicon nitride (SRN) were demonstrated and utilized to realize efficient, small footprint thermo-optic phase shifter. Compact bends were structured into a folded waveguide geometry to form a rectangular spiral within an area of 65 × 65 µ m 2 , having a total active waveguide length of 1.2 mm. The device featured a phase-shifting efficiency of 8 m W / π and a 3 dB switching bandwidth of 15 KHz. We propose SRN as a promising thermo-optic platform that combines the properties of silicon and stoichiometric silicon nitride."
+  },
+  {
+    "record_key": "openalex:W2186837746",
+    "source": "arxiv_via_openalex",
+    "title": "Optical vortex beam based optical fan for high-precision optical measurements and optical switching",
+    "year": 2014,
+    "venue": "Optics Letters",
+    "abstract": "The polarization and orbital angular momentum properties of light are of great importance in optical science and technology in the fields of high-precision optical measurements and high-capacity and high-speed optical communications. Here we show a method for the construction of a simple and robust scheme to rotate a light beam such as a fan, which is based on a combination of these two properties and using the thermal-dispersion and electro-optical effect of birefringent crystals. Using a computer-based digital image-processing technique, we determine the temperature and thermal-dispersion difference of the crystal with high resolution. We also use the rotation phenomenon to realize thermo-optic and electro-optic switches. The basic operating principles for measurement and switching processes are presented in detail. The methods"
+  },
+  {
+    "record_key": "openalex:W3004483219",
+    "source": "arxiv_via_openalex",
+    "title": "Plasmonic monolithic lithium niobate directional coupler switches",
+    "year": 2020,
+    "venue": "Nature Communications",
+    "abstract": "Lithium niobate (LN) has been the material of choice for electro-optic modulators owing to its excellent physical properties. While conventional LN electro-optic modulators continue to be the workhorse of the modern optoelectronics, they are becoming progressively too bulky, expensive, and power-hungry to fully serve the needs of this industry. Here, we demonstrate plasmonic electro-optic directional coupler switches consisting of two closely spaced nm-thin gold nanostripes on LN substrates that guide both coupled electromagnetic modes and electrical signals that control their coupling, thereby enabling ultra-compact switching and modulation functionalities. Extreme confinement and good spatial overlap of both slow-plasmon modes and electrostatic fields created by the nanostripes allow us to achieve a 90% modulation depth with 20-μm-long switches characterized by a broadband"
+  }
+]

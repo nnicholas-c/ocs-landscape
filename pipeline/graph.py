@@ -19,7 +19,7 @@ communities on the author graph, and writes:
     graphs/clusters.csv
 
 Safe to run twice: every output is fully rewritten each run from the
-database; nothing is appended to except deliverables/pitfalls.md.
+database; nothing is appended to except deliverables/pitfalls_original_log.md.
 
 Exact SQL used to count core/extended papers per author. This is what
 build_author_records() computes in Python from the same three tables; the
@@ -58,10 +58,7 @@ import networkx as nx
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DB_PATH = REPO_ROOT / "data" / "db" / "papers.sqlite"
 GRAPHS_DIR = REPO_ROOT / "graphs"
-# run 2: logging is redirected while another process finishes STATUS.md and
-# deliverables/pitfalls.md, so pitfalls go here instead (orchestrator merges
-# it later); see .claude/agents/grapher.md and the run 2 task instructions.
-PITFALLS_PATH = REPO_ROOT / "data" / "work" / "run2_pitfalls.log"
+PITFALLS_PATH = REPO_ROOT / "deliverables" / "pitfalls_original_log.md"
 
 PAPER_COUNT_SQL = """
     SELECT pa.author_id,

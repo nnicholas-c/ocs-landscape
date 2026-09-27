@@ -2,7 +2,7 @@
 
 ## What the pipeline does, in one paragraph
 
-The pipeline maps optical circuit switching (OCS) for AI (artificial intelligence) data centers from OpenAlex and arXiv. It pulls papers, scores relevance, dedups into one SQLite database, tags each paper with a switching technology and maturity, and maps technologies, teams, and companies, one Python script per stage (PLAN.md). Run 1 took 04:32 to 08:27 on 2026-09-26 with 53 subagent invocations, 36 by role agents and 17 by checks (STATUS.md, finish line), and a rework from 14:11 rebuilt the matrix and audit. Run 2, the arXiv rebuild, redid collection and stages 1b to 4, 6, and 7, because export.arxiv.org refuses this host with HTTP (web protocol) error 406 (STATUS.md, 16:50 line).
+The pipeline maps optical circuit switching (OCS) for AI (artificial intelligence) data centers from OpenAlex and arXiv. It pulls papers, scores relevance, dedups into one SQLite database, tags each paper with a switching technology and maturity, and maps technologies, teams, and companies, one Python script per stage (PLAN.md). Run 1 took 04:32 to 08:27 on 2026-09-26 with 53 subagent invocations, 36 by role agents and 17 by checks (STATUS.md, finish line), and a rework from 14:11 rebuilt the matrix and audit. Run 2, the arXiv rebuild, redid collection, stages 1b to 4, and stages 6 to 8, because export.arxiv.org refuses this host with HTTP (web protocol) error 406 (STATUS.md, 16:50 line).
 
 ## Agent roster
 
@@ -11,7 +11,7 @@ From .claude/agents/*.md. "Base six" is Read, Write, Edit, Bash, Glob, Grep.
 | agent | model | tools | reads | writes | one-line purpose |
 |---|---|---|---|---|---|
 | orchestrator (Workflow script) | none, code | launches agents | PLAN.md, STATUS.md | nothing directly | Runs stages, reruns a failed one once |
-| second judge (checker agent) | not recorded | runs code | stage outputs | STATUS.md | Verifies each stage so none grades its own work |
+| second judge (checker agent) | not recorded | runs code | stage outputs | STATUS.md, data/work/audit_run2_checker_judgments.json, data/work/audit_r2data_second_judge*.json | Verifies each stage so none grades its own work |
 | collector | sonnet | base six | queries.yaml | collect_*.py, data/raw | Pulls one source per call |
 | tagger | sonnet | base six | data/work batches | tag_*.py, batch outputs | Relevance and tags with verbatim evidence |
 | curator | sonnet | base six | data/raw, schema.sql | curate.py, papers.sqlite | Dedup and load the database |
@@ -23,7 +23,7 @@ From .claude/agents/*.md. "Base six" is Read, Write, Edit, Bash, Glob, Grep.
 
 ## Data flow
 
-Thresholds in the diamonds come from PLAN.md. Run 2's collector, pipeline/collect_arxiv_via_openalex.py, runs the 10 arXiv phrases in queries.yaml as OpenAlex searches filtered to OpenAlex's arXiv source and labels each record arxiv_via_openalex. It skips record_keys already in data/raw, so a second run added 0 records (deliverables/pitfalls_original_log.md, 16:05).
+Thresholds in the diamonds come from PLAN.md. Run 2's collector, pipeline/collect_arxiv_via_openalex.py, runs the 10 arXiv phrases (pipeline/queries.yaml) as OpenAlex searches filtered to OpenAlex's arXiv source and labels each record arxiv_via_openalex. It skips record_keys already in data/raw, so a second run added 0 records (deliverables/pitfalls_original_log.md, 16:05).
 
 ```mermaid
 flowchart TD

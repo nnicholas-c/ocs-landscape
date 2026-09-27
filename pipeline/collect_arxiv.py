@@ -19,7 +19,7 @@ from dotenv import load_dotenv
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 QUERIES_PATH = REPO_ROOT / "pipeline" / "queries.yaml"
-PITFALLS_PATH = REPO_ROOT / "deliverables" / "pitfalls.md"
+PITFALLS_PATH = REPO_ROOT / "deliverables" / "pitfalls_original_log.md"
 
 VERSION_SUFFIX = re.compile(r"v\d+$")
 

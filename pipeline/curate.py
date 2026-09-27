@@ -11,8 +11,9 @@ data/db/papers.sqlite, and writes deliverables/curation_report.md.
 
 Safe to run twice: papers, authors, institutions, paper_authors,
 paper_references and duplicates are rebuilt from data/raw each run (DELETE
-then re-insert in one transaction). The tags table belongs to stage 3 and is
-never touched here.
+then re-insert in one transaction). The tags table belongs to stage 3. The
+only change made to it here is deleting tags rows whose paper_id no longer
+exists in papers after the rebuild.
 """
 import csv
 import json
@@ -26,17 +27,14 @@ from pathlib import Path
 from rapidfuzz import fuzz
 from unidecode import unidecode
 
+from pipeline.collect_openalex import extract_arxiv_id
+
 REPO_ROOT = Path(__file__).resolve().parent.parent
 RAW_DIR = REPO_ROOT / "data" / "raw"
 DB_PATH = REPO_ROOT / "data" / "db" / "papers.sqlite"
 SCHEMA_PATH = REPO_ROOT / "pipeline" / "schema.sql"
 RELEVANCE_CSV = RAW_DIR / "relevance.csv"
-# ponytail: hardcoded for this run-2 checkout only. The orchestrator's other
-# deliverables files are being finalized by a separate process this phase, so
-# stage 2 pitfalls go to a scratch log instead of deliverables/pitfalls.md
-# (the orchestrator merges it later). Point this back at deliverables/pitfalls.md
-# for a normal run.
-PITFALLS_PATH = REPO_ROOT / "data" / "work" / "run2_pitfalls.log"
+PITFALLS_PATH = REPO_ROOT / "deliverables" / "pitfalls_original_log.md"
 REPORT_PATH = REPO_ROOT / "deliverables" / "curation_report.md"
 # Frozen once, on this script's first-ever run against a fresh run-2 checkout
 # (get_run1_baseline() below), so reruns compare against run 1 forever after
@@ -52,7 +50,7 @@ FUZZY_THRESHOLD = 95
 # test catches that: token_sort_ratio also has to clear FUZZY_SORT_THRESHOLD.
 # This narrows the playbook's rule (token_set_ratio >= 95 alone); it can only
 # drop merges the playbook rule would have made, never add new ones. Logged
-# as a deviation in deliverables/pitfalls.md, pending orchestrator approval.
+# as a deviation in deliverables/pitfalls_original_log.md, pending orchestrator approval.
 FUZZY_SORT_THRESHOLD = 90
 YEAR_TOLERANCE = 1
 METHOD_PRECEDENCE = ["doi", "arxiv_id", "fuzzy_title"]
@@ -132,6 +130,11 @@ def load_raw_records():
                 if key in records:
                     dup_key_occurrences += 1
                     continue
+                # Records collected before extract_arxiv_id learned /pdf/ and
+                # old-style IDs carry arxiv_id null; recover it from the raw
+                # OpenAlex work so arXiv ID dedup still sees them.
+                if not rec.get("arxiv_id") and isinstance(rec.get("raw"), dict):
+                    rec["arxiv_id"] = extract_arxiv_id(rec["raw"])
                 records[key] = rec
                 order.append(key)
     return records, order, per_source_file_counts, dup_key_occurrences
@@ -681,28 +684,28 @@ def main():
         orphan_mapping.append((old_pid, new_pid))
 
     # tags is stage 3's table (never rebuilt above), but a row whose paper_id
-    # a run 2 merge retired is now orphaned: no papers row will ever join to
-    # it again. Delete only those rows; every other tags row is untouched.
-    if orphan_mapping or gained_openalex_id:
-        con = sqlite3.connect(DB_PATH)
-        try:
-            for entry in gained_openalex_id:
-                entry["has_institution"] = con.execute(
-                    "SELECT COUNT(*) FROM paper_authors WHERE paper_id = ? AND inst_id IS NOT NULL",
-                    (entry["new_paper_id"],),
-                ).fetchone()[0] > 0
-            if orphan_mapping:
-                con.executemany("DELETE FROM tags WHERE paper_id = ?", [(o,) for o, _ in orphan_mapping])
-                con.commit()
-        finally:
-            con.close()
-    if orphan_mapping:
+    # a merge retired is now orphaned: no papers row will ever join to it
+    # again. Delete only those rows, found in the live tags table (not the
+    # run 1 baseline, which misses rows stage 3 added since); every other
+    # tags row is untouched. orphan_mapping above is only the report's run 1
+    # table.
+    orphan_where = "FROM tags WHERE paper_id NOT IN (SELECT paper_id FROM papers)"
+    con = sqlite3.connect(DB_PATH)
+    try:
+        for entry in gained_openalex_id:
+            entry["has_institution"] = con.execute(
+                "SELECT COUNT(*) FROM paper_authors WHERE paper_id = ? AND inst_id IS NOT NULL",
+                (entry["new_paper_id"],),
+            ).fetchone()[0] > 0
+        tags_deleted = [r[0] for r in con.execute(f"SELECT paper_id {orphan_where}")]
+        n_tags_deleted = con.execute(f"DELETE {orphan_where}").rowcount
+        con.commit()
+    finally:
+        con.close()
+    if n_tags_deleted > 0:
         log_pitfall(
-            "deleted {} tags row(s) whose paper_id no longer exists in papers after the run 2 "
-            "arxiv_via_openalex merge; stage 3 must retag under the new id: {}".format(
-                len(orphan_mapping),
-                "; ".join(f"{o} -> {n or 'UNRESOLVED'}" for o, n in orphan_mapping),
-            )
+            f"deleted {n_tags_deleted} tags row(s) whose paper_id no longer exists in papers; "
+            f"stage 3 must retag these papers under their new id: {'; '.join(tags_deleted)}"
         )
 
     write_report(
@@ -731,6 +734,7 @@ def main():
         gained_openalex_id=gained_openalex_id,
         fuzzy_new_rows=fuzzy_new_rows,
         orphan_mapping=orphan_mapping,
+        n_tags_deleted=n_tags_deleted,
     )
 
     print(f"db={DB_PATH.relative_to(REPO_ROOT).as_posix()}")
@@ -746,7 +750,7 @@ def main():
     print(
         f"run2 core before/after={old['core']}/{n_core} extended before/after={old['extended']}/{n_extended} "
         f"gained_openalex_id={len(gained_openalex_id)} gained_institutions={sum(1 for g in gained_openalex_id if g['has_institution'])} "
-        f"orphaned_tags_deleted={len(orphan_mapping)}"
+        f"orphaned_tags_deleted={n_tags_deleted}"
     )
 
 
@@ -800,12 +804,14 @@ def write_report(**k):
     n_old_arxiv_only = len(old["arxiv_only"]) if old["exists"] else 0
     gained_institutions_count = sum(1 for g in gained if g["has_institution"])
     tags_orphan_note = (
-        f"{len(orphans)} tags row(s) referenced a paper_id no longer present in "
-        f"papers after this merge and were deleted (every other tags row is "
-        f"untouched); stage 3 must retag these under the new id shown below. "
-        f"Logged in {pitfalls_rel}."
+        f"{len(orphans)} run 1 tags row(s) referenced a paper_id that this merge "
+        f"retired. Stage 3 must retag these under the new id shown below."
         if orphans else
-        "No tags row referenced a paper_id that this run's merge retired."
+        "No run 1 tags row referenced a paper_id that this merge retired."
+    ) + (
+        f" This invocation deleted {k['n_tags_deleted']} tags row(s) whose paper_id "
+        f"is no longer in papers (every other tags row is untouched)"
+        + (f", logged in {pitfalls_rel}." if k["n_tags_deleted"] else ".")
     )
 
     text = f"""# Curation report
@@ -947,8 +953,7 @@ This run added data/raw/arxiv_via_openalex.jsonl ({k['new_arxiv_source_total']}
 records, source "arxiv_via_openalex": OpenAlex's own index of arXiv, source
 S4306400194) to the raw files curated above. Every section above already
 reflects the merged result; this section isolates what the new file changed.
-Pitfalls from this run are appended to {pitfalls_rel}, not this file's usual
-pitfalls.md, per the phase's logging setup.
+Pitfalls from this run are appended to {pitfalls_rel}.
 
 ### How the new records were absorbed
 

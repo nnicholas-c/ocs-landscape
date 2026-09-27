@@ -6,17 +6,24 @@ text calls round 3 "Run 2" -- that is the old naming, not this run). "Run 2"
 here means only the arXiv rebuild in this checkout.
 
 Usage (from repo root):
-    .venv/bin/python -m pipeline.audit          > data/work/audit_r2data_prejudge.json
-    # then the auditor reads data/work/audit_r2data_judge_input.json and writes
-    # data/work/audit_r2data_judgments.json by hand
-    .venv/bin/python -m pipeline.audit --merge  > data/work/audit_r2data_round1.json
+    .venv/bin/python -m pipeline.audit --seed S [--round N] [--prefix P]
+    # writes data/work/<P>prejudge.json and data/work/<P>judge_input.json;
+    # the auditor reads judge_input and writes data/work/<P>judgments.json by hand
+    .venv/bin/python -m pipeline.audit --seed S [--round N] [--prefix P] --merge
+    # writes data/work/<P>round<N>.json
+P defaults to audit_s<S>_. For N > 1 the prejudge, judge_input and judgments
+names get a round<N>_ tag after P. This run's committed audit_r2data_* files
+came from --seed 20260928 --prefix audit_r2data_ with --round 1 and --round 2.
+Each file's JSON is also printed to stdout, and the next-step hint goes to
+stderr. Do not redirect stdout onto the output files; the script writes them.
 
 Read-only. Never writes to the database, the matrix, the tags table, or
-projects.csv. Never overwrites an existing data/work/audit_* file from an
-earlier round; this run's files all carry the audit_r2data_ prefix instead.
-Runs the four PLAN.md stage 7 checks with SEED below (this run's seed; run
-1's rounds used SEED = 20260926 for rounds 1-2 and SEED = 20260927 for round
-3, see deliverables/validation_report.md).
+projects.csv. Every output file is opened in exclusive-create mode ("x"), so
+an existing data/work/audit_* file from an earlier round, seed or prefix stops
+the script instead of being overwritten (stage 1 checks its two files before
+any network call). Runs the four PLAN.md stage 7 checks with --seed (run 1's
+rounds used 20260926 for rounds 1-2 and 20260927 for round 3; this run 2 used
+20260928, see deliverables/validation_report.md).
 
 Never calls export.arxiv.org or any other arXiv API (that host refuses this
 one HTTP 406). The only network calls are to api.openalex.org (via pyalex,
@@ -63,6 +70,7 @@ import os
 import random
 import re
 import sqlite3
+import sys
 import time
 from collections import defaultdict
 from datetime import datetime, timezone
@@ -76,32 +84,12 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 DB_PATH = REPO_ROOT / "data" / "db" / "papers.sqlite"
 MATRIX_PATH = REPO_ROOT / "deliverables" / "comparison_matrix.csv"
 PROJECTS_PATH = REPO_ROOT / "data" / "projects.csv"
-PITFALLS_PATH = REPO_ROOT / "deliverables" / "pitfalls_original_log.md"  # overrides CLAUDE.md rule 5 for this rework
+PITFALLS_PATH = REPO_ROOT / "deliverables" / "pitfalls_original_log.md"  # the raw running log every stage script appends to
 WORK_DIR = REPO_ROOT / "data" / "work"
-# This run's file prefix. Do not reuse audit_run2_* (that prefix belongs to
-# round 3 of run 1's audit, old naming, and must never be overwritten) or
-# plain audit_round1/2* (rounds 1-2 of run 1). Set as constants for this run;
-# there is only one seed and one prefix per audit run, so a flag would be
-# unused machinery.
-FILE_PREFIX = "audit_r2data_"
-# Round of this run's own audit (Gate C sent stage 7 back to stage 6 once
-# already; this is that second pass, still all under audit_r2data_, never
-# audit_run2_* or audit_round1/2*). Set via AUDIT_ROUND=2 in the environment;
-# defaults to "1" so every path below is byte-identical to round 1's and
-# round 1's files are never touched. Round 2's prejudge/judge_input/judgments
-# get their own round2_ names too, so round 1's are preserved untouched.
-ROUND = os.environ.get("AUDIT_ROUND", "1")
-_suffix = "" if ROUND == "1" else f"round{ROUND}_"
-PREJUDGE_PATH = WORK_DIR / f"{FILE_PREFIX}{_suffix}prejudge.json"
-JUDGE_INPUT_PATH = WORK_DIR / f"{FILE_PREFIX}{_suffix}judge_input.json"
-JUDGMENTS_PATH = WORK_DIR / f"{FILE_PREFIX}{_suffix}judgments.json"
-FINAL_PATH = WORK_DIR / f"{FILE_PREFIX}round{ROUND}.json"
-
-# This run's seed. Earlier seeds, kept here for the record (see
-# deliverables/validation_report.md): SEED = 20260926 for run 1's round 1
-# and round 2 (padded); SEED = 20260927 for run 1's round 3 (after the fix).
-# Both of those were run 1's audits, not this run 2 arXiv rebuild.
-SEED = 20260928
+# Seed and prefix come from --seed/--prefix. Taken prefixes, for the record:
+# audit_round1/2* (run 1 rounds 1-2, seed 20260926), audit_run2_* (run 1
+# round 3, old naming, seed 20260927), audit_r2data_* (this run 2, seed
+# 20260928). Exclusive-create writes refuse to overwrite any of them.
 SLEEP_SECONDS = 0.2  # playbook: stay well under OpenAlex's 100 req/s limit
 HTTP_TIMEOUT = 15
 USER_AGENT = "ocs-landscape-audit/1.0"
@@ -191,6 +179,23 @@ def open_db():
     return con
 
 
+def audit_paths(prefix, round_):
+    """(prejudge, judge_input, judgments, final) paths for one round. Round 1
+    has no round tag on the first three, so --prefix audit_r2data_ --round 1
+    and --round 2 give back this run's committed file names."""
+    tag = "" if round_ == 1 else f"round{round_}_"
+    return (WORK_DIR / f"{prefix}{tag}prejudge.json",
+            WORK_DIR / f"{prefix}{tag}judge_input.json",
+            WORK_DIR / f"{prefix}{tag}judgments.json",
+            WORK_DIR / f"{prefix}round{round_}.json")
+
+
+def write_new(path, obj):
+    """Exclusive create: an existing file raises FileExistsError and is never overwritten."""
+    with open(path, "x", encoding="utf-8") as f:
+        f.write(json.dumps(obj, indent=2, ensure_ascii=False))
+
+
 # ---------- (a) re-fetch 20 random core papers ----------
 
 def first_author_institution(con, paper_id):
@@ -238,12 +243,12 @@ def refetch_arxiv_html(arxiv_id):
     return title, year
 
 
-def check_a(con, api_key, sample_size=20):
+def check_a(con, api_key, seed, sample_size=20):
     papers = [dict(r) for r in con.execute(
         "SELECT paper_id, openalex_id, arxiv_id, title, year, cited_by_count "
         "FROM papers WHERE core_set = 1"
     )]
-    sample = random.Random(SEED).sample(papers, min(sample_size, len(papers)))
+    sample = random.Random(seed).sample(papers, min(sample_size, len(papers)))
 
     items = []
     for p in sample:
@@ -449,7 +454,7 @@ def _academic_groups_companies_check(con, projects, pis, actual_rows, routes):
     return {"items": items, "pass": n_pass, "fail": len(items) - n_pass}
 
 
-def check_b(con):
+def check_b(con, seed, judge_input_path):
     with open(MATRIX_PATH, newline="", encoding="utf-8") as f:
         rows = list(csv.DictReader(f))
     with open(PROJECTS_PATH, newline="", encoding="utf-8") as f:
@@ -489,7 +494,7 @@ def check_b(con):
                                       "quotes": quotes_list, "label_definition": LABEL_DEFS.get(dim, "")}
 
     reported = [r for r in rows if r["status"] == "reported"]
-    gate_sample = random.Random(SEED).sample(reported, min(20, len(reported)))
+    gate_sample = random.Random(seed).sample(reported, min(20, len(reported)))
     gate_sample_ids = [f"{r['tech_route']}:{r['dimension']}" for r in gate_sample]
     category_census_ids = [f"{r['tech_route']}:{r['dimension']}" for r in reported
                             if r["dimension"] in CATEGORY_DIMS]
@@ -498,12 +503,10 @@ def check_b(con):
     # neither just sits unresolved in `to_judge` and is never reported.
     needed_ids = [cid for cid in dict.fromkeys(gate_sample_ids + category_census_ids) if cid in to_judge]
 
-    JUDGE_INPUT_PATH.write_text(
-        json.dumps([to_judge[cid] for cid in needed_ids], indent=2, ensure_ascii=False),
-        encoding="utf-8")
+    write_new(judge_input_path, [to_judge[cid] for cid in needed_ids])
 
     return {
-        "seed": SEED,
+        "seed": seed,
         "resolved": resolved,                       # cell_id -> result, for every reported/derived cell not needing judgment
         "pending_judgment_cell_ids": sorted(needed_ids),
         "gate_sample_ids": gate_sample_ids,
@@ -549,10 +552,10 @@ def merge_b(b_stage1, judgments):
 
 # ---------- (c) 10 random projects.csv rows ----------
 
-def check_c(sample_size=10):
+def check_c(seed, sample_size=10):
     with open(PROJECTS_PATH, newline="", encoding="utf-8") as f:
         rows = list(csv.DictReader(f))
-    sample = random.Random(SEED).sample(rows, min(sample_size, len(rows)))
+    sample = random.Random(seed).sample(rows, min(sample_size, len(rows)))
 
     items = []
     for row in sample:
@@ -613,7 +616,10 @@ def check_d(con):
     }
 
 
-def run_stage1():
+def run_stage1(seed, prejudge_path, judge_input_path, judgments_path):
+    existing = [p.name for p in (prejudge_path, judge_input_path) if p.exists()]
+    if existing:  # fail before any network call; write_new would only catch it at the end
+        raise SystemExit(f"refusing to overwrite {existing} in data/work; pick a new --round or --prefix")
     load_dotenv(str(REPO_ROOT / ".env"))
     api_key = os.environ.get("OPENALEX_API_KEY")
     if not api_key or api_key == "paste_your_key_here":
@@ -625,11 +631,11 @@ def run_stage1():
     con = open_db()
     try:
         result = {
-            "seed": SEED,
+            "seed": seed,
             "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-            "a_refetch": check_a(con, api_key),
-            "b_matrix_cells_stage1": check_b(con),
-            "c_project_evidence": check_c(),
+            "a_refetch": check_a(con, api_key, seed),
+            "b_matrix_cells_stage1": check_b(con, seed, judge_input_path),
+            "c_project_evidence": check_c(seed),
             "d_evidence_spans": check_d(con),
         }
     except Exception as exc:
@@ -638,32 +644,42 @@ def run_stage1():
     finally:
         con.close()
 
-    PREJUDGE_PATH.write_text(json.dumps(result, indent=2, ensure_ascii=False), encoding="utf-8")
+    write_new(prejudge_path, result)
     print(json.dumps(result, indent=2, ensure_ascii=False))
     print(f"\n{len(result['b_matrix_cells_stage1']['pending_judgment_cell_ids'])} cells need "
-          f"judgment: see {JUDGE_INPUT_PATH.relative_to(REPO_ROOT)}. Write "
-          f"{JUDGMENTS_PATH.relative_to(REPO_ROOT)} then rerun with --merge.")
+          f"judgment: see {judge_input_path.relative_to(REPO_ROOT)}. Write "
+          f"{judgments_path.relative_to(REPO_ROOT)} then rerun with --merge.", file=sys.stderr)
 
 
-def run_merge():
-    prejudge = json.loads(PREJUDGE_PATH.read_text(encoding="utf-8"))
-    judgments = json.loads(JUDGMENTS_PATH.read_text(encoding="utf-8"))
+def run_merge(prejudge_path, judgments_path, final_path):
+    prejudge = json.loads(prejudge_path.read_text(encoding="utf-8"))
+    judgments = json.loads(judgments_path.read_text(encoding="utf-8"))
     b_final = merge_b(prejudge["b_matrix_cells_stage1"], judgments)
     result = {k: v for k, v in prejudge.items() if k != "b_matrix_cells_stage1"}
     result["b_matrix_cells"] = b_final
-    FINAL_PATH.write_text(json.dumps(result, indent=2, ensure_ascii=False), encoding="utf-8")
+    write_new(final_path, result)
     print(json.dumps(result, indent=2, ensure_ascii=False))
 
 
 def main():
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(description="Stage 7 audit. See the module docstring.")
+    parser.add_argument("--seed", type=int, required=True,
+                         help="random seed for the (a), (b) and (c) samples, recorded in the output")
+    parser.add_argument("--round", type=int, default=1,
+                         help="audit round; N > 1 adds a roundN_ tag to the file names (default 1)")
+    parser.add_argument("--prefix",
+                         help="data/work file prefix (default audit_s<seed>_); "
+                              "this run's committed files used audit_r2data_")
     parser.add_argument("--merge", action="store_true",
-                         help=f"fold {JUDGMENTS_PATH.relative_to(REPO_ROOT).as_posix()} into the prejudge result")
+                         help="fold <prefix>[roundN_]judgments.json into the prejudge result "
+                              "and write <prefix>roundN.json")
     args = parser.parse_args()
+    prefix = args.prefix or f"audit_s{args.seed}_"
+    prejudge, judge_input, judgments, final = audit_paths(prefix, args.round)
     if args.merge:
-        run_merge()
+        run_merge(prejudge, judgments, final)
     else:
-        run_stage1()
+        run_stage1(args.seed, prejudge, judge_input, judgments)
 
 
 if __name__ == "__main__":

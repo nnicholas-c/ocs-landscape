@@ -26,9 +26,9 @@ Every number points to a file or to a query Q1 to Q17, listed at the end. Number
 | audit (b), unsupported sampled cells | 5 percent, 1 of 20 (round 3) | 15 percent, 3 of 20, FAIL on the first try, then 0 percent, 0 of 20 | same |
 | audit (c), failed project links | 0 percent, 0 of 10 (round 3) | 0 percent, 0 of 10 | same |
 | audit (d), verbatim evidence spans | 100 percent, 376 of 376 (round 3) | 100 percent, 420 of 420 | same |
-| OpenAlex cost | 0.033 USD (US dollars) after stage 1a, 0.0404 USD at the finish, snowball cost not saved | 0.01 USD for the 10 new searches, 0.01 USD more for a rerun | STATUS.md, stage 1a, 16:14 and 15:58 lines; deliverables/pitfalls_original_log.md, 16:05 |
+| OpenAlex cost | 0.033 USD (US dollars) after stage 1a, 0.0404 USD at the finish (snowball included, its own share not saved) | 0.01 USD for the 10 new searches, 0.01 USD more for a rerun, 0.0016 USD at the finish counted only from the 17:00 day rollover, total not captured | STATUS.md, stage 1a, 15:58, 16:14 and 18:49 lines; deliverables/pitfalls_original_log.md, 07:50 and 16:05 |
 
-Run 1 had no arxiv_via_openalex file, so its 40 arXiv-only papers had only arxiv records, and Q15 still finds all 40.
+Run 1 had no arxiv_via_openalex file, so its 40 arXiv-only papers had only arxiv records, and the same test still finds all 40 (Q15).
 
 ### arXiv coverage gap before run 2
 

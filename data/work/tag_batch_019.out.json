@@ -1,0 +1,178 @@
+[
+  {
+    "paper_id": "W2089069546",
+    "tech_route": "mems_silicon_photonic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "evidence_span": "The proposed switch consists of a coupler of two freestanding 400-nm-wide 260-nm-thick Si waveguides, three 30-μm-wide 40-μm-long comb-drive actuators, and a nanolatch mechanism.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W2089755139",
+    "tech_route": "mems_2d",
+    "tech_route_secondary": null,
+    "integration": "free_space_bulk",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": null,
+    "evidence_span": "We discuss the technology, performance, and reliability of 2D MEMS optical switches.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W2094432207",
+    "tech_route": "mems_silicon_photonic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "evidence_span": "Planar micromechanical waveguide switches based on lateral deflection of a cantilever beam are presented.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W2094700182",
+    "tech_route": "electro_optic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "evidence_span": "We present an ultra-broadband Mach-Zehnder based optical switch in silicon, electrically driven through carrier injection.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W2098514595",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "none",
+    "adjacent_field": "telecom_oxc_roadm",
+    "evidence_span": "Broadband devices include optical switches, crossconnects, optical attenuators, and data modulators, while wavelength-selective components encompass wavelength add/drop multiplexers, wavelength-selective switches and crossconnects, spectral equalizers, dispersion compensators, spectrometers, and tunable lasers.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2103195791",
+    "tech_route": "mems_silicon_photonic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "evidence_span": "Coupling is controlled by changing the gap and the coupling length between the two waveguides via electrostatic pull-in.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W1979673782",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "We present a converged EPS and OCS switching fabric for data center networks (DCNs) based on a distributed optical switching architecture leveraging both WDM & SDM technologies.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W2062294208",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "evidence_span": "Large-scale nanophotonic phased array",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2066708803",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": "silicon_photonics",
+    "evidence_span": "In addition, the first 1x12 polysilicon MMI is demonstrated with a low insertion loss of -1.29dB and a high uniformity of 1.07 dB.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2468172470",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "unclear",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": "silicon_photonics",
+    "evidence_span": "Silicon photonics is a disruptive technology that is poised to revolutionize a number of application areas, for example, data centers, high-performance computing and sensing.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2481781603",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": "silicon_photonics",
+    "evidence_span": "Many applications, including laser (LIDAR) mapping, free-space optical communications, and spatially resolved optical sensors, demand compact, robust solutions to steering an optical beam.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2758695468",
+    "tech_route": "thermo_optic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "evidence_span": "The switch chip includes 900 monolithically integrated photodiodes used for calibrating the thermo-optic Mach-Zehnder switch cells.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W2770966813",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": "silicon_photonics",
+    "evidence_span": "We present a three-layer silicon nitride on silicon platform for constructing very large photonic integrated circuits.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2897089376",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "Recent progress addressing the challenges of terabit/s links and networks at the laser, modulator, photodiode, and switch levels is reported and summarized.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W4281849792",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "unclear",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": "silicon_photonics",
+    "evidence_span": "Silicon photonic technology can overcome the limitations of traditional transceiver technology in high-speed transmission networks to support faster interconnection between data centers.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W3126304295",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": "silicon_photonics",
+    "evidence_span": "Here, we demonstrate a scalable on-chip photonic implementation of a simplified recurrent neural network, called a reservoir computer, using an integrated coherent linear photonic processor.",
+    "confidence": "low"
+  }
+]

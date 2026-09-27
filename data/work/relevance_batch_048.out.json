@@ -1,0 +1,152 @@
+[
+  {
+    "record_key": "openalex:W1850774354",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Astrophysics; dark matter halo angular momentum, unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W2981106367",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Astrophysics; interstellar extinction curves, unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W3100541423",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Quantum optics theory of polarization; no switching device or application."
+  },
+  {
+    "record_key": "openalex:W2948322074",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Radio astronomy; galaxy cluster filament, unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W2910637084",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Quantum entanglement distribution over fiber; not a switch."
+  },
+  {
+    "record_key": "openalex:W2802275066",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Nuclear astrophysics r-process; unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W2130244744",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Material science; optical phonon modes in MoTe2, unrelated."
+  },
+  {
+    "record_key": "openalex:W2957440405",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Cold atom physics; optical lattice simulation, unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W2945511481",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Plasmonic optical tweezers; nanomanipulation, not switching."
+  },
+  {
+    "record_key": "openalex:W1563766405",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Ultracold atom physics; Weyl points in optical lattices, unrelated."
+  },
+  {
+    "record_key": "openalex:W3138831328",
+    "score": 2,
+    "adjacent_field": "dc_network_systems",
+    "reason": "Online matching algorithm motivated by optical reconfigurable datacenter links."
+  },
+  {
+    "record_key": "openalex:W3036896065",
+    "score": 2,
+    "adjacent_field": "dc_network_systems",
+    "reason": "Competitive b-matching algorithm for optical reconfigurable datacenter networks."
+  },
+  {
+    "record_key": "openalex:W4226146239",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Analyzes buffer and throughput tradeoffs of optical circuit switch based RDCNs."
+  },
+  {
+    "record_key": "openalex:W2774778035",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "General datacenter traffic control survey; no optical switching mentioned."
+  },
+  {
+    "record_key": "openalex:W3093151243",
+    "score": 2,
+    "adjacent_field": "dc_network_systems",
+    "reason": "Scheduling algorithm for ProjecToR-style reconfigurable optical datacenter links."
+  },
+  {
+    "record_key": "openalex:W2905867785",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Blockchain consensus survey, unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W4414838842",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Surveys datacenter network designs built on reconfigurable optical switching."
+  },
+  {
+    "record_key": "openalex:W4225673079",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "TCP congestion control algorithm; no optical or reconfigurable network."
+  },
+  {
+    "record_key": "openalex:W2907463061",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "FPGA deep learning accelerator survey, unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W2795077673",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Neural network architecture design (SqueezeNext), unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W3001979534",
+    "score": 2,
+    "adjacent_field": "dc_network_systems",
+    "reason": "Flow scheduling algorithm assuming optically reconfigurable network topology."
+  },
+  {
+    "record_key": "openalex:W1860657994",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Low latency datacenter networking survey; no optical switching."
+  },
+  {
+    "record_key": "openalex:W3159854664",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Optical neural network computation, not a circuit switch."
+  },
+  {
+    "record_key": "openalex:W2619096655",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "CNN sparsity structure for hardware acceleration, unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W2962814013",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Edge computing and deep learning survey, unrelated to OCS."
+  }
+]

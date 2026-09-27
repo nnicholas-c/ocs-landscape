@@ -85,7 +85,7 @@ def spec_cell(route, dim, c, papers, projects):
             raise SystemExit(f"{route} {dim}: anchor {anchors} not found in {src}")
         assert q in text and len(q.split()) < MAX_WORDS, f"{route} {dim}: bad quote from {src}: {q!r}"
         quotes.append(q)
-    # One quote per contributing paper or project row, in the order of paper_ids then project_rows as given.
+    # One quote per contributing paper or project row, in the order the YAML lists them.
     assert len(quotes) == len(set(pids)) + len(set(prows)), f"{route} {dim}: a source has more than one quote"
     joined = SEP.join(quotes)
     value = str(c.get("value", ""))

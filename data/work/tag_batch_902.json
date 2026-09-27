@@ -1,0 +1,142 @@
+[
+  {
+    "paper_id": "W3004483219",
+    "title": "Plasmonic monolithic lithium niobate directional coupler switches",
+    "year": 2020,
+    "venue": "Nature Communications",
+    "abstract": "Lithium niobate (LN) has been the material of choice for electro-optic modulators owing to its excellent physical properties. While conventional LN electro-optic modulators continue to be the workhorse of the modern optoelectronics, they are becoming progressively too bulky, expensive, and power-hungry to fully serve the needs of this industry. Here, we demonstrate plasmonic electro-optic directional coupler switches consisting of two closely spaced nm-thin gold nanostripes on LN substrates that guide both coupled electromagnetic modes and electrical signals that control their coupling, thereby enabling ultra-compact switching and modulation functionalities. Extreme confinement and good spatial overlap of both slow-plasmon modes and electrostatic fields created by the nanostripes allow us to achieve a 90% modulation depth with 20-μm-long switches characterized by a broadband electro-optic modulation efficiency of 0.3 V cm. Our monolithic LN plasmonic platform enables a wide range of cost-effective optical communication applications that demand μm-scale footprints, ultrafast operation and high environmental stability."
+  },
+  {
+    "paper_id": "W3027646862",
+    "title": "Multichannel optomechanical switch and locking system for wavemeters",
+    "year": 2020,
+    "venue": "Applied Optics",
+    "abstract": "Here we present a cost-effective multichannel optomechanical switch and software proportional–integral–derivative (PID) controller system for locking multiple lasers to a single-channel commercial wavemeter. The switch is based on a rotating cylinder that selectively transmits one laser beam at a time to the wavemeter. The wavelength is read by the computer, and an error signal is output to the lasers to correct wavelength drifts every millisecond. We use this system to stabilize 740 nm (subsequently frequency doubled to 370 nm), 399 nm, and 935 nm lasers for trapping and cooling different isotopes of a Y b + ion. We characterize the frequency stability of the three lasers by using a second, more precise, commercial wavemeter. We also characterize the absolute frequency stability of the 740 nm laser using the fluorescence drift rate of a trapped 174 Y b + ion. For the 740 nm laser we demonstrate an Allan deviation σ y of 3 × 10 − 10 (at 20 s integration time), equivalent to sub-200 kHz stability."
+  },
+  {
+    "paper_id": "W3030859832",
+    "title": "Thermo-Optic Properties of Silicon-Rich Silicon Nitride for On-chip Applications",
+    "year": 2020,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "We demonstrate the thermo-optic properties of silicon-rich silicon nitride (SRN) films deposited using plasma-enhanced chemical vapor deposition (PECVD). Shifts in the spectral response of Mach-Zehnder Interferometers (MZIs) as a function of temperature were used to characterize the thermo-optic coefficients of silicon nitride films with varying silicon contents. A clear relation is demonstrated between the silicon content and the exhibited thermo-optic coefficient in silicon nitride films, with the highest achievable coefficient being as high as (1.65+/-0.08) x 10-4 K-1. Furthermore, we realize an SRN Multi-Mode Interferometer (MMI) based thermo-optic switch with over 20 dB extinction ratio and total power consumption for two-port switching of 50 mW."
+  },
+  {
+    "paper_id": "W3034286545",
+    "title": "F4Tele: FSO for data center network management and packet telemetry",
+    "year": 2020,
+    "venue": "Computer Networks",
+    "abstract": null
+  },
+  {
+    "paper_id": "W3045970880",
+    "title": "Silicon integrated microwave photonic beamformer",
+    "year": 2020,
+    "venue": "Optica",
+    "abstract": "Optical beam-forming networks (OBFNs) based on optical true-time delay lines (OTTDLs) are well known as the promising candidate for solving the bandwidth limitation of traditional electronic phased array antennas (PAAs) due to beam squinting. Here we report, to the best of our knowledge, the first monolithic 1 × 8 microwave photonic beamformer, based on switchable OTTDLs on the silicon-on-insulator platform. The chip consists of a modulator, an eight-channel OBFN, and eight photodetectors, thus including hundreds of active and passive components in total. It has a wide operating bandwidth from 8 to 18 GHz, which is almost two orders larger than that of electronic PAAs. The beam can be steered to 31 distinguishable angles in the range from − 75.51 ∘ to 75.64°, based on the beam pattern calculation with the measured radiofrequency response. The response time for beam steering is 56 µs. These results represent a significant step toward the realization of integrated microwave photonic beamformers that can satisfy compact-size and low-power consumption requirements for the future radar and wireless communication systems."
+  },
+  {
+    "paper_id": "W3094158907",
+    "title": "Adaptive bandwidth management for entanglement distribution in quantum networks",
+    "year": 2021,
+    "venue": "Optica",
+    "abstract": "Flexible grid wavelength division multiplexing is a powerful tool in lightwave communications to maximize spectral efficiency. In the emerging field of quantum networking, the need for effective resource provisioning is particularly acute, given the generally lower power levels, higher sensitivity to loss, and inapplicability of optical detection and retransmission. In this letter, we leverage flex grid technology to demonstrate reconfigurable distribution of quantum entanglement in a four-user tabletop network. By adaptively partitioning bandwidth with a single wavelength-selective switch, we successfully equalize two-party coincidence rates that initially differ by over two orders of magnitude. Our scalable approach introduces loss that is fixed with the number of users, offering a practical path for the establishment and management of quality-of-service guarantees in large quantum networks."
+  },
+  {
+    "paper_id": "W3114768400",
+    "title": "Thermo-optic refraction in MoS2 medium for “Normally on” all optical switch",
+    "year": 2020,
+    "venue": "Optical Materials",
+    "abstract": null
+  },
+  {
+    "paper_id": "W3117873041",
+    "title": "Thermo-optically induced transparency on a photonic chip",
+    "year": 2021,
+    "venue": "Light Science & Applications",
+    "abstract": "Controlling the optical response of a medium through suitably tuned coherent electromagnetic fields is highly relevant in a number of potential applications, from all-optical modulators to optical storage devices. In particular, electromagnetically induced transparency (EIT) is an established phenomenon in which destructive quantum interference creates a transparency window over a narrow spectral range around an absorption line, which, in turn, allows to slow and ultimately stop light due to the anomalous refractive index dispersion. Here we report on the observation of a new form of both induced transparency and amplification of a weak probe beam in a strongly driven silicon photonic crystal resonator at room temperature. The effect is based on the oscillating temperature field induced in a nonlinear optical cavity, and it reproduces many of the key features of EIT while being independent of either atomic or mechanical resonances. Such thermo-optically induced transparency will allow a versatile implementation of EIT-analogs in an integrated photonic platform, at almost arbitrary wavelength of interest, room temperature and in a practical, low cost, and scalable system."
+  },
+  {
+    "paper_id": "W3120228857",
+    "title": "Non‐Volatile Reconfigurable Integrated Photonics Enabled by Broadband Low‐Loss Phase Change Material",
+    "year": 2021,
+    "venue": "Advanced Optical Materials",
+    "abstract": "Abstract Phase change materials (PCMs) have long been used as a storage medium in rewritable compact disk and later in random access memory. In recent years, integration of PCMs with nanophotonic structures has introduced a new paradigm for non‐volatile reconfigurable optics. However, the high loss of the archetypal PCM Ge 2 Sb 2 Te 5 in both visible and telecommunication wavelengths has fundamentally limited its applications. Sb 2 S 3 has recently emerged as a wide‐bandgap PCM with transparency windows ranging from 610 nm to near‐IR. In this paper, the strong optical phase modulation and low optical loss of Sb 2 S 3 are experimentally demonstrated for the first time in integrated photonic platforms at both 750 and 1550 nm. As opposed to silicon, the thermo‐optic coefficient of Sb 2 S 3 is shown to be negative, making the Sb 2 S 3 –Si hybrid platform less sensitive to thermal fluctuation. Finally, a Sb 2 S 3 integrated non‐volatile microring switch is demonstrated which can be tuned electrically between a high and low transmission state with a contrast over 30 dB. This work experimentally verifies prominent phase modification and low loss of Sb 2 S 3 in wavelength ranges relevant for both solid‐state quantum emitter and telecommunication, enabling potential applications such as optical field programmable gate array, post‐fabrication trimming, and large‐scale integrated quantum photonic network."
+  },
+  {
+    "paper_id": "W3122552036",
+    "title": "Towards low loss non-volatile phase change materials in mid index waveguides",
+    "year": 2021,
+    "venue": "Neuromorphic Computing and Engineering",
+    "abstract": "Abstract Photonic integrated circuits currently use platform intrinsic thermo-optic and electro-optic effects to implement dynamic functions such as switching, modulation and other processing. Currently, there is a drive to implement field programmable photonic circuits, a need which is only magnified by new neuromorphic and quantum computing applications. The most promising non-volatile photonic components employ phase change materials such as GST and GSST, which had their origin in electronic memory. However, in the optical domain, these compounds introduce significant losses potentially preventing a large number of applications. Here, we evaluate the use of two newly introduced low loss phase change materials, Sb2S3 and Sb2Se3, on a silicon nitride photonic platform for future implementation in neuromorphic computing. We focus the study on Mach–Zehnder interferometers that operate at the O and C bands to demonstrate the performance of the system. Our measurements show an insertion loss below 0.04 dB μm−1 for Sb2S3 and lower than 0.09 dB μm−1 for Sb2Se3 cladded devices for both amorphous and crystalline phases. The effective refractive index contrast for Sb2S3 on SiNx was measured to be 0.05 at 1310 nm and 0.02 at 1550 nm, whereas for Sb2Se3, it was 0.03 at 1310 nm and 0.05 at 1550 nm highlighting the performance of the integrated device."
+  },
+  {
+    "paper_id": "W3138806262",
+    "title": "An Interpretable Mapping From a Communication System to a Neural Network for Optimal Transceiver-Joint Equalization",
+    "year": 2021,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "In this paper, we propose a scheme that utilizes the optimization ability of artificial intelligence (AI) for optimal transceiver-joint equalization in compensating for the optical filtering impairments caused by wavelength selective switches (WSS). In contrast to adding or replacing a certain module of existing digital signal processing (DSP), we exploit the similarity between a communication system and a neural network (NN). By mapping a communication system to an NN, in which the equalization modules correspond to the convolutional layers and other modules can been regarded as static layers, the optimal transceiver-joint equalization coefficients can be obtained. In particular, the DSP structure of the communication system is not changed. Extensive numerical simulations are performed to validate the performance of the proposed method. For a 65 GBaud 16QAM signal, it can achieve a 0.76 dB gain when the number of WSSs is 16 with a -6 dB bandwidth of 73 GHz."
+  },
+  {
+    "paper_id": "W3163993441",
+    "title": "Post-Fabrication Trimming of Silicon Photonic Ring Resonators at Wafer-Scale",
+    "year": 2021,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "Silicon ring resonator-based devices, such as modulators, detectors, filters, and switches, play important roles in integrated photonic circuits for optical communication, high-performance computing, and sensing applications. However, the high sensitivity to fabrication variations has limited their volume manufacturability and commercial adoption. Here, we report a low-cost post-fabrication trimming method to tune the resonance wavelength of a silicon ring resonator and correct for fabrication variations at wafer-scale. We use Ge implant to create an index trimmable section in the ring resonator and an on-chip heater to apply a precise and localized thermal annealing to tune and set its resonance to a desired wavelength. We demonstrate resonance wavelength trimming of ring resonators fabricated across a 300 mm silicon-on-insulator (SOI) wafer to within ±32 pm of a target wavelength of 1310 nm, providing a viable path to high-volume manufacturing and opening up new practical applications for these devices."
+  },
+  {
+    "paper_id": "W4221142669",
+    "title": "Broadband nonvolatile electrically programmable silicon photonic switches",
+    "year": 2022,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "Programmable photonic integrated circuits (PICs) have recently gained significant interest due to their potential in creating next-generation technologies ranging from artificial neural networks and microwave photonics to quantum information processing. The fundamental building block of such programmable PICs is a tunable 2 x 2 switch, traditionally controlled by the thermo-optic or free-carrier dispersion. Yet, these implementations are power-hungry, volatile, and have a large footprint (typically > 100 um). Therefore, a truly 'set-and-forget' type 2 x 2 switch with zero static power consumption is highly desirable for large-scale PICs. Here, we report a broadband nonvolatile electrically programmable 2 x 2 silicon photonic switch based on the phase-change material Ge2Sb2Te5. The directional coupler switch exhibits a compact coupling length (64 um), small insertion loss (<2 dB), and minimal crosstalk ("
+  },
+  {
+    "paper_id": "W4221161683",
+    "title": "Self-Adjusting Ego-Trees Topology for Reconfigurable Datacenter Networks",
+    "year": 2022,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "State-of-the-art topologies for datacenters (DC) and high-performance computing (HPC) networks are demand-oblivious and static. Therefore, such network topologies are optimized for the worst-case traffic scenarios and can't take advantage of changing demand patterns when such exist. However, recent optical switching technologies enable the concept of dynamically reconfiguring circuit-switched topologies in real-time. This capability opens the door for the design of self-adjusting networks: networks with demand-aware and dynamic topologies in which links between nodes can be established and re-adjusted online and respond to evolving traffic patterns. This paper studies a recently proposed model for optical leaf-spine reconfigurable networks. We present a novel algorithm, GreedyEgoTrees, that dynamically changes the network topology. The algorithm greedily builds ego trees for nodes in the network, where nodes cooperate to help each other, taking into account the global needs of the network. We show that GreedyEgoTrees has nice theoretical properties, outperforms other possible algorithms (like static expander and greedy dynamic matching) and can significantly improve the average path length for real DC and HPC traces."
+  },
+  {
+    "paper_id": "W4221166638",
+    "title": "Ultra-high-linearity integrated lithium niobate electro-optic modulators",
+    "year": 2022,
+    "venue": "Photonics Research",
+    "abstract": "Integrated lithium niobate (LN) photonics is a promising platform for future chip-scale microwave photonics systems owing to its unique electro-optic properties, low optical loss, and excellent scalability. A key enabler for such systems is a highly linear electro-optic modulator that could faithfully convert analog electrical signals into optical signals. In this work, we demonstrate a monolithic integrated LN modulator with an ultra-high spurious-free dynamic range (SFDR) of 120.04 dB · Hz 4 / 5 at 1 GHz, using a ring-assisted Mach–Zehnder interferometer configuration. The excellent synergy between the intrinsically linear electro-optic response of LN and an optimized linearization strategy allows us to fully suppress the cubic terms of third-order intermodulation distortions (IMD3) without active feedback controls, leading to ∼ 20 dB improvement over previous results in the thin-film LN platform. Our ultra-high-linearity LN modulators could become a core building block for future large-scale functional microwave photonic integrated circuits by further integration with other high-performance components like low-loss delay lines, tunable filters, and phase shifters available on the LN platform."
+  },
+  {
+    "paper_id": "W4224980528",
+    "title": "Integrated Pockels laser",
+    "year": 2022,
+    "venue": "Nature Communications",
+    "abstract": "Abstract The development of integrated semiconductor lasers has miniaturized traditional bulky laser systems, enabling a wide range of photonic applications. A progression from pure III-V based lasers to III-V/external cavity structures has harnessed low-loss waveguides in different material systems, leading to significant improvements in laser coherence and stability. Despite these successes, however, key functions remain absent. In this work, we address a critical missing function by integrating the Pockels effect into a semiconductor laser. Using a hybrid integrated III-V/Lithium Niobate structure, we demonstrate several essential capabilities that have not existed in previous integrated lasers. These include a record-high frequency modulation speed of 2 exahertz/s (2.0 × 10 18 Hz/s) and fast switching at 50 MHz, both of which are made possible by integration of the electro-optic effect. Moreover, the device co-lases at infrared and visible frequencies via the second-harmonic frequency conversion process, the first such integrated multi-color laser. Combined with its narrow linewidth and wide tunability, this new type of integrated laser holds promise for many applications including LiDAR, microwave photonics, atomic physics, and AR/VR."
+  },
+  {
+    "paper_id": "W4285390819",
+    "title": "Silicon–organic hybrid thermo-optic switch based on a slot waveguide directional coupler",
+    "year": 2022,
+    "venue": "Optics Letters",
+    "abstract": "We propose and demonstrate a passively biased 2 × 2 thermo-optic switch with high power efficiency and fast response time. The device benefits from the highly concentrated optical field of a slot waveguide mode and the strong thermo-optic effect of a nematic liquid crystal (NLC) cladding. The NLC fills the nano-slot region and is aligned by the subwavelength grating inside. The measured power consumption and thermal time constant are 0.58 mW and 11.8 µs, respectively, corresponding to a figure-of-merit of 6.8 mW µs. The proposed silicon-organic hybrid device provides a new solution to design thermo-optic actuators having low power consumption and fast operation speed."
+  },
+  {
+    "paper_id": "W4297796831",
+    "title": "Design and Implementation of the Illinois Express Quantum Metropolitan Area Network",
+    "year": 2022,
+    "venue": "IEEE Transactions on Quantum Engineering",
+    "abstract": "The Illinois Express Quantum Network (IEQNET) is a program to realize metropolitan scale quantum networking over deployed optical fiber using currently available technology. IEQNET consists of multiple sites that are geographically dispersed in the Chicago metropolitan area. Each site has one or more quantum nodes (Q-Nodes) representing the communication parties in a quantum network. Q-Nodes generate or measure quantum signals such as entangled photons and communicate the measurement results via standard, classical signals and conventional networking processes. The entangled photons in IEQNET nodes are generated at multiple wavelengths, and are selectively distributed to the desired users via transparent optical switches. Here we describe the network architecture of IEQNET, including the Internet-inspired layered hierarchy that leverages software-defined networking (SDN) technology to perform traditional wavelength routing and assignment between the Q-Nodes. Specifically, SDN decouples the control and data planes, with the control plane being entirely implemented in the classical domain. We also discuss the IEQNET processes that address issues associated with synchronization, calibration, network monitoring, and scheduling. An important goal of IEQNET is to demonstrate the extent to which the control plane classical signals can co-propagate with the data plane quantum signals in the same fiber lines (quantum-classical signal “coexistence”). This goal is furthered by the use of tunable narrow-band optical filtering at the receivers and, at least in some cases, a wide wavelength separation between the quantum and classical channels. We envision IEQNET to aid in developing robust and practical quantum networks by demonstrating metro-scale quantum communication tasks such as entanglement distribution and quantum-state teleportation."
+  },
+  {
+    "paper_id": "W4389543308",
+    "title": "Thermo-Optic Response and Optical Bistablility of Integrated High-Index Doped Silica Ring Resonators",
+    "year": 2023,
+    "venue": "Sensors",
+    "abstract": "The engineering of thermo-optic effects has found broad applications in integrated photonic devices, facilitating efficient light manipulation to achieve various functionalities. Here, we perform both an experimental characterization and a theoretical analysis of these effects in integrated microring resonators made from high-index doped silica, which have had many applications in integrated photonics and nonlinear optics. By fitting the experimental results with theory, we obtain fundamental parameters that characterize their thermo-optic performance, including the thermo-optic coefficient, the efficiency of the optically induced thermo-optic process, and the thermal conductivity. The characteristics of these parameters are compared to those of other materials commonly used for integrated photonic platforms, such as silicon, silicon nitride, and silica. These results offer a comprehensive insight into the thermo-optic properties of doped silica-based devices. Understanding these properties is essential for efficiently controlling and engineering them in many practical applications."
+  },
+  {
+    "paper_id": "W4391013534",
+    "title": "A Fast Control Plane for a Large-Scale and High-Speed Optical Circuit Switch System",
+    "year": 2024,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "We experimentally verify a fast control plane with 100 microseconds of configuration time that can support more than 1000 racks, leveraged by a software-defined network controller and an industrial real-time Ethernet standard EtherCAT."
+  }
+]

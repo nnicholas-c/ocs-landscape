@@ -11,8 +11,10 @@ means only the arXiv rebuild in ocs-landscape-run2.
 
 This report is produced by pipeline/audit.py. It runs the four checks in
 PLAN.md stage 7 against a fixed random seed recorded in the script and
-here so the sample can be reproduced. Run 1 used SEED = 20260926 and
-Run 2 uses SEED = 20260927, which is the value the script now holds. The script is
+here so the sample can be reproduced. Round 1 and round 2 (padded) used
+SEED = 20260926, round 3 (after the fix) used SEED = 20260927, and the
+run 2 audit used SEED = 20260928. pipeline/audit.py now takes the seed as
+`--seed`. The script is
 read only. It does not edit the database, the matrix, the tags table, or
 projects.csv.
 
@@ -981,3 +983,184 @@ whether they need another rework pass or a documented limitation.
 
 Gate C passes this round on all four checks. Per PLAN.md, the run may
 proceed to stage 8.
+
+---
+
+## Corrections after code review (pull request #1)
+
+This section was added after the code review of pull request #1. The audit
+round sections above are left exactly as first written. Each item below
+quotes a sentence from them that is wrong or misleading, states the correct
+fact, and names where that fact comes from.
+
+The only edit above this section is the seed sentence in the preamble at the
+top, which belongs to no round. It used to say "Run 1 used SEED = 20260926
+and Run 2 uses SEED = 20260927, which is the value the script now holds."
+That was stale, because pipeline/audit.py held SEED = 20260928 as committed
+in 2b97e9a. The script now takes the seed as `--seed` instead.
+
+### 1. The four re-anchored cells did change value and paper
+
+"Run 2 audit, second round" says "No value, status, or paper changed for any
+of the four; only the quoted sentence changed, to one that already states
+the claimed detail in the same abstract. See STATUS.md and
+pipeline/audit.py's own log for the analyst's fix entries."
+
+Two values changed. The third clause of thermo_optic:packaging_notes went
+from "feedback control without chip cooling" to "feedback controlled
+stabilization without a chip cooling system". The second clause of
+mems_silicon_photonic:packaging_notes went from "glass-interposer package
+with 2.5 dB/facet grating couplers" to "through glass via interposer and
+pitch reducing fibre array", so the grating coupler loss figure left that
+cell. The source is the value field of these two cells in
+data/work/audit_r2data_judge_input.json (round 1) and
+data/work/audit_r2data_round2_judge_input.json (second round).
+
+Two cells now cite other papers, so their new quotes do not come from the
+same abstract. electro_optic:integration quoted W2015534895 in round 1 and
+quotes W1998881035 and W2070900489 in the second round.
+thermo_optic:integration quoted W834513743 in round 1 and quotes W1985329895
+and W4378650891 in the second round. The source is the quotes field of these
+two cells in the same two judge input files, with each quote matched to the
+paper in data/db/papers.sqlite whose abstract contains it. The paper_ids
+column of deliverables/comparison_matrix.csv at commit 2b97e9a lists the new
+papers. Run 2's matrix was committed only once, after the rework, so there
+is no git diff of the matrix between the two rounds. The two judge input
+files are the record of the change.
+
+No status and no category label changed. All 4 cells are status reported in
+the committed matrix, and its status counts (84 reported, 9 derived, 29
+not_reported_in_abstract, 4 no_source) equal the counts in STATUS.md's 17:11
+stage 6 line from before the rework. Both integration cells keep the value
+integrated_photonic in both judge input files.
+
+The analyst's fix entries are not in STATUS.md or in any log of
+pipeline/audit.py. They are the four 17:40 lines of
+deliverables/pitfalls_original_log.md (lines 192 to 195), summed up in one
+17:40 line of deliverables/pitfalls.md. STATUS.md logs no stage 6 event
+after its 17:11 line. pipeline/audit.py keeps no log of its own, and its
+log_pitfall function appends to pitfalls_original_log.md.
+
+### 2. Why three arXiv-only papers had OpenAlex records
+
+"Run 2 audit", check (a), says "All 3 are recent preprints (2025 and 2026),
+so this looks like OpenAlex's arXiv index catching up after collection ran,
+not a curation bug".
+
+arxiv:2202.05487 is a 2022 paper. Its stored year is 2022 in
+data/work/audit_r2data_round1.json (a_refetch, item arxiv:2202.05487).
+
+The index was not catching up. Free OpenAlex singleton lookups by DOI
+(10.48550/arxiv.<id>), made during the code review, return W4221152598 for
+arxiv:2202.05487 (created 2025-10-10), W4414970479 for arxiv:2510.03891
+(created 2025-10-09), and W7129076743 for arxiv:2602.12521 (created
+2026-02-17). All three have primary source S4306400194, the arXiv source
+run 2 collected from (ARXIV_SOURCE_ID in
+pipeline/collect_arxiv_via_openalex.py). Run 2 collected from that source
+on 2026-09-26 between 22:54 and 22:55 Coordinated Universal Time (UTC), per
+the fetched_at field of data/raw/arxiv_via_openalex.jsonl. That is months
+after all three records were created.
+
+The real cause is a coverage gap. None of the three OpenAlex IDs appears in
+any file in data/raw, so run 2's phrase queries did not return these papers.
+In data/raw the three arXiv IDs appear only in arxiv.jsonl (run 1's arXiv pull) and as record keys in relevance.csv.
+pipeline/curate.py makes no network calls, so it can only match records
+already in data/raw, and it never looks up an arxiv: paper by its DOI.
+
+### 3. Which census failures were domain-knowledge gaps, and how blind the re-read was
+
+"Run 2 audit, second round" says "The 2 cells round 1 judged a genuine
+domain-knowledge gap rather than a wrong-sentence quote (mems_2d:integration,
+soa:ai_cluster_fit) were not touched by stage 6 and are judged not_supported
+again this round, for the same reasons as round 1."
+
+This does not match round 1's own text. Round 1's "Other observations"
+section puts mems_2d:integration, thermo_optic:integration and
+electro_optic:integration in one gap, where the category label is right by
+domain knowledge but not by the quote's own words. Stage 6 fixed two of
+those three by citing other papers of the same route (see item 1) and did
+not touch mems_2d:integration. None of the 4 core papers tagged mems_2d, as
+primary or secondary route, has an abstract that says free space,
+collimator, bulk, or air (checked in data/db/papers.sqlite), so no other
+mems_2d quote could state free_space_bulk. soa:ai_cluster_fit was a
+different round 1 finding. Its "yes" label is stronger than its general
+data center network evidence, while electro_optic:ai_cluster_fit got "partial" for
+comparable evidence.
+
+The same section says "The auditor re-read all 31 candidate cells against
+the label definitions from scratch rather than copying round 1's verdicts
+forward." The re-read was not blind to round 1. 6 of the 31 reasons in
+data/work/audit_r2data_round2_judgments.json name round 1 or the stage 6
+rework, and electro_optic:integration's reason begins "Round 2 rework
+replaced the round 1 quote". The auditor knew which 4 cells had been
+reworked when judging them.
+
+### 4. The second round re-audited the same 20 cells
+
+"Run 2 audit, second round" reports "20 of 20 pass, 0 fail. Unsupported
+rate is 0 percent. Gate C PASSES on check (b) this round." It never says
+plainly what that result measures.
+
+The second round's check (b) re-audited the same 20 cells as round 1. The
+sampled_ids of b_matrix_cells are identical in
+data/work/audit_r2data_round1.json and data/work/audit_r2data_round2.json.
+3 of those 20 (thermo_optic:packaging_notes, electro_optic:integration,
+mems_silicon_photonic:packaging_notes) are round 1's 3 failures, which stage
+6 fixed after round 1 named them. The other 17 passed in round 1 and passed
+again. So 0 of 20 unsupported shows that those 3 fixes worked. It is not an
+independent re-sample of the matrix.
+
+The census rise from 23 to 25 of 27 is the same kind of result. The 2 census
+cells that flipped to supported (thermo_optic:integration,
+electro_optic:integration) are cells stage 6 fixed after round 1 flagged
+them. The 16 reported free-text cells (packaging_notes and scaling_limit)
+have no census. Only the 4 drawn into the Gate C sample are in either
+round's judge input, so 12 of the 16 were never judged in either round.
+
+### 5. Rate tables that count passes under a fail rate, and a summary table without the second round
+
+"Rate comparison, all rounds and this run" puts pass counts and fail counts
+in the same rate column. Its (b) row reads "25 percent (5 of 20) FAIL" for
+round 1, which counts failures, but "0 percent (20 of 20) PASS, but see
+round 3's note, not trustworthy" for round 2 (padded), which counts passes.
+Its (c) cells read "0 percent (10 of 10) PASS" under a fail rate, which also
+counts passes, and so do the (c) cells of "Rate comparison, both rounds of
+this run". The all-rounds table also has a single "Run 2 audit" column that
+holds only round 1's results, including (b) "15 percent (3 of 20) FAIL". The
+second round's PASS appears only in the later two-round table.
+
+The table below gives pass and fail counts in separate columns and both run
+2 rounds. Every number comes from the pass, fail, error or dropped, and rate
+fields of each check in data/work/audit_round1.json (round 1),
+audit_round2.json (round 2, padded), audit_run2_round1.json (round 3),
+audit_r2data_round1.json (run 2 audit, round 1) and audit_r2data_round2.json
+(run 2 audit, second round). For (a), Pass and Fail count compared papers,
+and a dropped paper counts as neither.
+
+| Check | Round | Sample | Pass | Fail | Rate | Threshold | Gate C |
+|---|---|---|---|---|---|---|---|
+| (a) core paper re-fetch | Round 1 | 20 drawn, 16 compared, 4 dropped | 16 | 0 | 0 percent mismatches | at most 10 percent mismatches | PASS |
+| (a) core paper re-fetch | Round 2 (padded) | 20 drawn, 16 compared, 4 dropped | 16 | 0 | 0 percent mismatches | at most 10 percent mismatches | PASS |
+| (a) core paper re-fetch | Round 3 (after the fix) | 20 drawn, 20 compared, 0 dropped | 20 | 0 | 0 percent mismatches | at most 10 percent mismatches | PASS |
+| (a) core paper re-fetch | Run 2 audit, round 1 | 20 drawn, 20 compared, 0 dropped | 20 | 0 | 0 percent mismatches | at most 10 percent mismatches | PASS |
+| (a) core paper re-fetch | Run 2 audit, second round | 20 drawn, 20 compared, 0 dropped | 20 | 0 | 0 percent mismatches | at most 10 percent mismatches | PASS |
+| (b) matrix cell evidence | Round 1 | 20 cells | 15 | 5 | 25 percent unsupported | at most 10 percent unsupported | FAIL |
+| (b) matrix cell evidence | Round 2 (padded) | 20 cells | 20 | 0 | 0 percent unsupported | at most 10 percent unsupported | PASS, not trustworthy (see round 3's note) |
+| (b) matrix cell evidence | Round 3 (after the fix) | 20 cells | 19 | 1 | 5 percent unsupported | at most 10 percent unsupported | PASS |
+| (b) matrix cell evidence | Run 2 audit, round 1 | 20 cells | 17 | 3 | 15 percent unsupported | at most 10 percent unsupported | FAIL |
+| (b) matrix cell evidence | Run 2 audit, second round | same 20 cells as run 2 round 1 | 20 | 0 | 0 percent unsupported | at most 10 percent unsupported | PASS (see item 4) |
+| (c) project evidence URL | Round 1 | 10 rows, 0 unreachable | 10 | 0 | 0 percent failures | at most 20 percent failures | PASS |
+| (c) project evidence URL | Round 2 (padded) | 10 rows, 0 unreachable | 10 | 0 | 0 percent failures | at most 20 percent failures | PASS |
+| (c) project evidence URL | Round 3 (after the fix) | 10 rows, 0 unreachable | 10 | 0 | 0 percent failures | at most 20 percent failures | PASS |
+| (c) project evidence URL | Run 2 audit, round 1 | 10 rows, 0 unreachable | 10 | 0 | 0 percent failures | at most 20 percent failures | PASS |
+| (c) project evidence URL | Run 2 audit, second round | 10 rows, 0 unreachable | 10 | 0 | 0 percent failures | at most 20 percent failures | PASS |
+| (d) evidence span substring | Round 1 | 376 (all tags rows) | 376 | 0 | 100 percent pass | at least 90 percent pass | PASS |
+| (d) evidence span substring | Round 2 (padded) | 376 (all tags rows) | 376 | 0 | 100 percent pass | at least 90 percent pass | PASS |
+| (d) evidence span substring | Round 3 (after the fix) | 376 (all tags rows) | 376 | 0 | 100 percent pass | at least 90 percent pass | PASS |
+| (d) evidence span substring | Run 2 audit, round 1 | 420 (all tags rows) | 420 | 0 | 100 percent pass | at least 90 percent pass | PASS |
+| (d) evidence span substring | Run 2 audit, second round | 420 (all tags rows) | 420 | 0 | 100 percent pass | at least 90 percent pass | PASS |
+
+Category census (all 27 reported category cells, not part of Gate C), from
+the same files. Round 3 had 24 pass and 3 fail. Run 2 audit round 1 had 23
+pass and 4 fail. Run 2 audit second round had 25 pass and 2 fail. Rounds 1
+and 2 (padded) ran no census.

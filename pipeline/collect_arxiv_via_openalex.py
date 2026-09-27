@@ -1,5 +1,5 @@
 """Collect arXiv-hosted papers through OpenAlex's index of arXiv (source
-S4306400194, confirmed by singleton lookup -- see data/work/run2_pitfalls.log).
+S4306400194, confirmed by singleton lookup -- see deliverables/pitfalls_original_log.md).
 
 Runs the arxiv.phrases from pipeline/queries.yaml as OpenAlex full-text
 searches filtered to that one source, so every hit is a paper OpenAlex has
@@ -32,25 +32,22 @@ from pipeline.collect_openalex import (
 )
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-# Run 2: logging is redirected while another process finishes STATUS.md and
-# the deliverables. Append here instead of deliverables/pitfalls.md.
-RUN2_PITFALLS_PATH = REPO_ROOT / "data" / "work" / "run2_pitfalls.log"
+PITFALLS_PATH = REPO_ROOT / "deliverables" / "pitfalls_original_log.md"
 
 ARXIV_SOURCE_ID = "S4306400194"  # arXiv (Cornell University), confirmed in step 2
 SLEEP_SECONDS = 0.2
 
 
 def log_pitfall(stage, message):
-    RUN2_PITFALLS_PATH.parent.mkdir(parents=True, exist_ok=True)
-    with open(RUN2_PITFALLS_PATH, "a", encoding="utf-8") as f:
+    with open(PITFALLS_PATH, "a", encoding="utf-8") as f:
         f.write(f"- [{datetime.now().strftime('%Y-%m-%d %H:%M')}] {stage} collector arxiv_via_openalex: {message}\n")
 
 
 def fetch_query(query_str, year_from, limit, source_id):
-    q = Works().search(query_str).filter(
-        locations={"source": {"id": source_id}},
-        from_publication_date=f"{year_from}-01-01",
-    )
+    filters = {"locations": {"source": {"id": source_id}}}
+    if year_from:
+        filters["from_publication_date"] = f"{year_from}-01-01"
+    q = Works().search(query_str).filter(**filters)
     per_page = min(limit, 100) if limit else 100
     records, cost = [], 0.0
     for page in q.paginate(per_page=per_page, n_max=limit):
