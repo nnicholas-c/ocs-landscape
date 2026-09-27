@@ -227,7 +227,7 @@ The core groups are UC (University of California) Berkeley on silicon photonic M
 
 The adjacent side is large, since 720 of 1827 authors have no core paper (Q8). In communities 11 and 12, which have no core member, 31 of 34 and 12 of 31 members carry the silicon_photonics field (graphs/clusters.csv joined to graphs/top_pis.csv). This "transferable teams" pool has the weakest data, because 33 of 136 extended-only papers have no adjacent field (Q12) and 338 authors have no affiliation (Q8).
 
-Split people affect the whole map. Run 2 flags 147 name keys (last name plus first initial), and 6 of 15 sampled (seed 20260930) were one person in several records, about 59 keys (29 to 94) (deliverables/number_checks.md, Run 2, section 2). Run 1 used a different sample and database, so the runs cannot show a trend (same file, section 2). Person rankings need a hand check.
+Split people affect the whole map. Run 2 flags 147 name keys (last name plus first initial), and 6 of 15 sampled (seed 20260930) were one person in several records, about 59 keys (29 to 94) (deliverables/number_checks.md, Run 2, section 2). Run 1 used a different sample and database, so the runs cannot show a trend (same file, Run 2, section 2). Person rankings need a hand check.
 
 ## Early project map
 
