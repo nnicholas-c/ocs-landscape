@@ -138,3 +138,119 @@ The script first tries the arxiv package with delay_seconds=10.0 and num_retries
 arXiv-only papers are 36 of the 267 core papers (query on data/db/papers.sqlite, core_set = 1 and openalex_id empty).
 
 Conclusion. Rounds 1 and 2 compared 16 of 20 because the arXiv service refused every id lookup, not because of the sample design. Round 3 compared all 20, but its 4 arXiv-only papers were checked on title and year only.
+
+## Run 2
+
+The three checks were rerun on run 2's database (data/db/papers.sqlite, after the arXiv via OpenAlex pull and the step 2 anchor rebuild). J2 marks a key in data/work/nc1_run2_route_provenance.json (pipeline/check_route_provenance.py). N3 marks a section of data/work/nc2_run2_name_keys.md (pipeline/merge_name_keys.py). A3 marks the a_refetch block of data/work/audit_s20260929_round1.json (pipeline/audit.py), and R3 marks the code output in data/work/nc3_run2_refetch.md. Each script was rerun for this section and matched its file.
+
+### 1. Papers per tech route
+
+arxiv_via_openalex is the run 2 path that runs a phrase against OpenAlex's index of arXiv papers.
+
+| tech_route | Run 1 core | Run 2 core | Snowball only | Without snowball only | arxiv_via_openalex only |
+|---|---|---|---|---|---|
+| architecture_only | 101 | 105 | 5 | 100 | 3 |
+| unclear | 44 | 44 | 9 | 35 | 0 |
+| mems_silicon_photonic | 43 | 43 | 6 | 37 | 0 |
+| thermo_optic | 23 | 30 | 7 | 23 | 7 |
+| mems_3d | 15 | 16 | 4 | 12 | 1 |
+| electro_optic | 12 | 14 | 8 | 6 | 2 |
+| other | 10 | 13 | 3 | 10 | 3 |
+| soa | 11 | 11 | 3 | 8 | 0 |
+| mems_2d | 3 | 3 | 2 | 1 | 0 |
+| lcos | 2 | 2 | 0 | 2 | 0 |
+| piezo | 2 | 2 | 0 | 2 | 0 |
+| robotic_patch_panel | 1 | 1 | 0 | 1 | 0 |
+
+(J1, core_route_counts. J2, core_route_counts, q2_snowball_only_core_by_route, q2_core_route_counts_without_snowball_only, route_entry[].by_entry_kind_exclusive.arxiv_via_openalex)
+
+Run 2 has 284 core papers against 267 in run 1 (J2, core_papers. J1, core_papers). 47 core papers have a snowball record and all 47 are snowball only (J2, q2_core_with_any_snowball_record).
+
+The largest route is architecture_only with 105 core papers (J2, largest_route). Of them 88 entered only through phrase queries, 7 through both an arxiv_via_openalex phrase and a phrase query, 5 only through the snowball, 3 only through an arxiv_via_openalex phrase and 2 only through an anchor lookup (J2, route_entry.architecture_only.by_entry_kind_exclusive).
+
+| Entry path of architecture_only | Core papers |
+|---|---|
+| arxiv query "optical circuit switch" | 37 |
+| openalex query "optical circuit switch" | 24 |
+| openalex query "optical circuit switching data center" | 14 |
+| openalex query "reconfigurable data center network optical" | 11 |
+| openalex query "optical interconnect reconfigurable topology distributed training" | 8 |
+| openalex query "optical beam steering switch fiber" | 2 |
+| openalex query "optical cross-connect data center" | 2 |
+| openalex query "semiconductor optical amplifier switch data center" | 2 |
+| openalex query "silicon photonic switch data center" | 1 |
+| arxiv_via_openalex "reconfigurable datacenter network" | 6 |
+| arxiv_via_openalex "optical circuit switch" | 4 |
+| anchor "Expanding across time to deliver bandwidth efficiency and low latency" | 1 |
+| anchor "Helios: A Hybrid Electrical/Optical Switch Architecture for Modular Data Centers" | 1 |
+| snowball from seed W2141810662 | 2 |
+| snowball from seed W2119638333 | 1 |
+| snowball from seed W2151668565 | 1 |
+| snowball from seed W2937088522 | 1 |
+
+(J2, route_entry.architecture_only.by_entry_path_nonexclusive)
+
+A paper counts once per path, and each raw record keeps only the first query that found it, so the rows overlap and each is a lower bound (data/work/nc1_run2_route_provenance.md). None of the 105 has a UC Berkeley affiliation in the data (J2, route_entry.architecture_only.ucb_affiliated).
+
+The largest device route is still mems_silicon_photonic at 43 (J2, core_route_counts). Its 6 snowball-only papers all came from seed W1982681165, none from the Berkeley anchor W2260723393 (J2, q3_seeds). Its 17 UC Berkeley-affiliated papers and 24 papers sharing an author with the anchor all entered through a phrase query (J2, q1_mems_silicon_photonic.summary).
+
+Conclusion. Section 1's finding holds in run 2, because the snowball adds only 6 of the 43 mems_silicon_photonic papers (J2, q2_snowball_only_core_by_route). arxiv_via_openalex is the only path of 7 thermo_optic papers, equal to that route's rise from 23 to 30, and of at most 3 papers in any other route (J1 and J2, core_route_counts. J2, route_entry[].by_entry_kind_exclusive).
+
+### 2. Split name keys, a fresh sample
+
+The flag rule from section 2 returns 147 keys on run 2's database, the same 147 the stage 4 grapher logged at 16:44 (N3 section 1, deliverables/pitfalls_original_log.md).
+
+| OpenAlex ID status | Flagged keys | Sampled | same_person | different_people | cannot_tell |
+|---|---|---|---|---|---|
+| all_openalex | 70 | 6 | 1 | 5 | 0 |
+| mixed | 69 | 9 | 5 | 3 | 1 |
+| all_name_only | 8 | 0 | 0 | 0 | 0 |
+
+(N3 section 2)
+
+15 keys were drawn at random with seed 20260930, not run 1's seed 20260927 (N3 section 3, section 2 above). Two classifiers, A and B, labeled each key without seeing each other's labels.
+
+| Key | Records in map of all | A | B | Final |
+|---|---|---|---|---|
+| chen b | 2 of 3 | different_people | different_people | different_people |
+| chen g | 2 of 4 | different_people | different_people | different_people |
+| chen s | 2 of 4 | same_person | same_person | same_person |
+| chen y | 10 of 20 | same_person | same_person | same_person |
+| liu z | 6 of 16 | same_person | same_person | same_person |
+| patterson d | 2 of 3 | same_person | same_person | same_person |
+| singh a | 4 of 4 | same_person | same_person | same_person |
+| wei y | 2 of 2 | different_people | different_people | different_people |
+| wu j | 4 of 7 | different_people | different_people | different_people |
+| xu h | 2 of 3 | cannot_tell | cannot_tell | cannot_tell |
+| yang y | 3 of 11 | different_people | different_people | different_people |
+| yang z | 2 of 2 | different_people | different_people | different_people |
+| zhang h | 3 of 12 | different_people | different_people | different_people |
+| zhang j | 2 of 4 | different_people | different_people | different_people |
+| zhu y | 3 of 7 | same_person | same_person | same_person |
+
+(N3 section 3)
+
+A and B gave the same label on 15 of 15 keys and listed the same same-person record pairs on 15 of 15 (N3 section 4). The same_person share is 6 of 15, or 40 percent, with a 95 percent Wilson interval of 20 to 64 percent (N3 section 5). Scaled to 147 keys that is about 59, with a range of 29 to 94 (N3 section 5). The cannot_tell key counts as not split. Counting only pairs with both records in the team map gives 5 of 15, or 33 percent (interval 15 to 58 percent) (N3 section 5).
+
+Among the 6 same_person keys, a split joins an OpenAlex record to a name-only record in 3, two name-only records in 1 and two OpenAlex records in 3 (N3 section 5). The stage 2 merge rule for name-only records cannot cause the last kind, because OpenAlex assigned both IDs itself (N3 section 2).
+
+Conclusion. The bug is real, but run 2's sample does not show that most flagged keys are splits, because its interval of 20 to 64 percent includes half (N3 section 6). Run 1's sample gave 10 of 15 (interval 42 to 85 percent) (section 2 above), so section 2's "mostly a real bug" rests on one sample of 15. Person-level rankings still need a hand check, and group-level use is still safer.
+
+### 3. Re-fetch sample (check a)
+
+This is the run 2 audit after the anchor papers, seed 20260929 (data/work/audit_s20260929_round1.json, seed). It drew 20, compared 20 and dropped 0, with 20 pass and 0 fail (A3, drawn, compared, dropped, pass, fail). 18 were re-fetched by OpenAlex ID and 2 by the free OpenAlex DOI (digital object identifier) singleton lookup on the arXiv DOI, and 0 used the arxiv.org abstract page (A3, items method). So no paper in this sample depended on the arXiv service.
+
+| Field | Compared | Not compared | Mismatched | Papers not compared |
+|---|---|---|---|---|
+| title | 20 | 0 | 0 | none |
+| year | 20 | 0 | 0 | none |
+| cited_by_count | 18 | 2 | 0 | arxiv:2604.22146, arxiv:2507.12265 |
+| first_institution | 16 | 4 | 0 | W2951487609, W2260723393, arxiv:2604.22146, arxiv:2507.12265 |
+
+(R3, from A3 items subchecks)
+
+2 papers, the arXiv-only arxiv:2604.22146 and arxiv:2507.12265, were compared on title and year only (R3, title_and_year_only). Their stored cited_by_count is null while OpenAlex returned 0, so our database lacked the value, not the source (A3, items stored, refetched). First institution is null on both sides for both (A3, items stored, refetched). In total 74 of 80 field comparisons were made and 0 mismatched (R3).
+
+validation_report.md says 0 mismatches "across all 20 papers", which is true of mismatches but not of fields compared. Its later section "Corrections after code review (pull request #4)" already states the 18 and 16 (validation_report.md, item 1 of that section).
+
+Conclusion. All 20 were compared on title and year, but 2 had no stored citation count (R3). The gap goes beyond the sample, because 31 of the 284 core papers are arXiv-only and all 31 have a null cited_by_count (query on data/db/papers.sqlite, core_set = 1, openalex_id empty, cited_by_count null). Check (a) cannot test citation counts for arXiv-only papers until the database stores them.

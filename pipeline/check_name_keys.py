@@ -2,6 +2,9 @@
 
 Usage (from repo root):
     .venv/bin/python -m pipeline.check_name_keys
+    .venv/bin/python -m pipeline.check_name_keys --seed 20260930 --out data/work/nc2_run2_evidence.json
+
+Defaults (seed 20260927, data/work/nc2_evidence.json) reproduce run 1's file.
 
 Where the 149 came from. deliverables/pitfalls_original_log.md 06:32 (stage 4
 grapher) logged "149 name_key(s) map to more than one author_id in the
@@ -31,6 +34,7 @@ same count in SQL:
 Writes data/work/nc2_evidence.json (fully rewritten each run, so safe to run
 twice). Evidence only, no judgement about who is the same person.
 """
+import argparse
 import json
 import random
 import sqlite3
@@ -53,6 +57,12 @@ def id_mix(author_ids, oa_id):
 
 
 def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--seed", type=int, default=SEED)
+    ap.add_argument("--out", type=Path, default=OUT_PATH, help="path relative to the repo root")
+    args = ap.parse_args()
+    seed, out_path = args.seed, REPO_ROOT / args.out
+
     con = sqlite3.connect(f"file:{DB_PATH}?mode=ro", uri=True)
     con.row_factory = sqlite3.Row
 
@@ -96,7 +106,7 @@ def main():
         author_rows[r["author_id"]].append((r["paper_id"], r["inst_id"]))
 
     ranked = sorted(flagged)
-    sample = sorted(random.Random(SEED).sample(ranked, min(SAMPLE_SIZE, len(ranked))))
+    sample = sorted(random.Random(seed).sample(ranked, min(SAMPLE_SIZE, len(ranked))))
 
     def record(aid):
         plist, own_insts, paper_insts, coauthors = [], set(), set(), {}
@@ -162,16 +172,16 @@ def main():
         "flagged_id_mix": dict(sorted(flagged_mix.items())),
         "all_multi_record_keys_total": len(multi_all),
         "all_multi_record_keys_id_mix": dict(sorted(all_mix.items())),
-        "seed": SEED,
+        "seed": seed,
         "sampled_keys": sample,
         "sample_note": "records list every authors row with the key, including rows with no extended-set paper (in_extended_set_graph false), which the flag rule did not count",
         "evidence": evidence,
     }
-    OUT_PATH.write_text(json.dumps(out, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    out_path.write_text(json.dumps(out, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"flagged keys: {len(flagged)}  mix: {dict(flagged_mix)}")
     print(f"all multi-record keys: {len(multi_all)}  mix: {dict(all_mix)}")
     print(f"sampled: {sample}")
-    print(f"wrote {OUT_PATH.relative_to(REPO_ROOT)}")
+    print(f"wrote {out_path.relative_to(REPO_ROOT)}")
 
 
 if __name__ == "__main__":
