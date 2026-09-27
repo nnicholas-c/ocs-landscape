@@ -1,6 +1,7 @@
 # 个人贡献记录
 
 本文件用于持续记录我在本项目中的贡献，按项目模块组织，并保留每次修改的目的、涉及文件和验证结果。
+> 注：`README.zh-CN.md` 反映的是第二次运行（run 2）之前的项目状态。(Note: README.zh-CN.md reflects the project state before run 2.)
 
 ## 按项目结构记录
 
