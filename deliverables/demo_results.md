@@ -136,6 +136,39 @@ architecture_only is the largest group, 105 of 284 (Q4). These papers use an opt
 
 The 43 reflects how the sample was built. In run 1 one phrase supplied 27 of the 43, and the only 3D MEMS phrase added 0 core papers (deliverables/number_checks.md, section 1). Phrase queries start in 2012, and 4 of 16 mems_3d core papers are older, against 3 of 43 (pipeline/queries.yaml; Q14).
 
+### Chart (graphs/tech_map.html)
+
+[graphs/tech_map.html](../graphs/tech_map.html) plots core papers by route and TRL (technology readiness level) band (pipeline/tech_map.py).
+
+| tech_route | lab | pilot | production | unclear | total |
+|---|---|---|---|---|---|
+| architecture_only | 84 | 0 | 2 | 19 | 105 |
+| unclear | 25 | 0 | 1 | 18 | 44 |
+| mems_silicon_photonic | 43 | 0 | 0 | 0 | 43 |
+| thermo_optic | 27 | 0 | 0 | 3 | 30 |
+| mems_3d | 12 | 1 | 1 | 2 | 16 |
+| electro_optic | 14 | 0 | 0 | 0 | 14 |
+| other | 12 | 0 | 0 | 1 | 13 |
+| soa | 11 | 0 | 0 | 0 | 11 |
+| mems_2d | 3 | 0 | 0 | 0 | 3 |
+| lcos | 2 | 0 | 0 | 0 | 2 |
+| piezo | 2 | 0 | 0 | 0 | 2 |
+| robotic_patch_panel | 1 | 0 | 0 | 0 | 1 |
+| all 12 routes plotted | 236 | 1 | 4 | 43 | 284 |
+| core papers with no tags row, not plotted | | | | | 0 |
+
+No radar chart was drawn, because only 3 of the 6 numeric matrix dimensions are reported for 5 or more of the 9 routes and a radar needs at least 4 such dimensions (pipeline/tech_map.py).
+
+| numeric dimension | routes with a reported value, of 9 | qualifies, 5 or more routes |
+|---|---|---|
+| switching_time | 7 | yes |
+| insertion_loss | 7 | yes |
+| port_count | 8 | yes |
+| polarization_dependent_loss | 2 | no |
+| crosstalk | 4 | no |
+| wavelength_range | 4 | no |
+| qualifying dimensions, 4 needed | 3 of 6 | no radar, graphs/tech_radar.html not written |
+
 ## Team map
 
 Top 15 authors (graphs/top_pis.csv, first 15 rows). Degree is the number of distinct co-authors. Betweenness measures how often an author sits between two others.
@@ -216,39 +249,6 @@ Run 2 skipped the scout (STATUS.md, 16:50 line), so these are run 1's 12 rows (Q
 | 3 | Coherent | established_vendor | Optical Circuit Switch (DLX-based, up to 512x512) | lcos | unknown | 2024-03-25 | 2024-03-25 | https://www.coherent.com/news/press-releases/optical-circuit-switch-for-data-centers-live-demo-at-ofc-2024-based-on-ultrareliable-dlx-technology | a new optical circuit switch (OCS) based on the company's field-proven and ultrareliable digital liquid-crystal technology |
 
 Several evidence dates are fetch dates (data/projects.csv, note column). Polatis "shipping" is the scout's stage, and its quote "describes the mechanism and not availability" (deliverables/comparison_matrix.csv, piezo trl_band note).
-
-## Technology map and project timeline
-
-[graphs/tech_map.html](../graphs/tech_map.html) plots core papers by route and TRL (technology readiness level) band (pipeline/tech_map.py).
-
-| tech_route | lab | pilot | production | unclear | total |
-|---|---|---|---|---|---|
-| architecture_only | 84 | 0 | 2 | 19 | 105 |
-| unclear | 25 | 0 | 1 | 18 | 44 |
-| mems_silicon_photonic | 43 | 0 | 0 | 0 | 43 |
-| thermo_optic | 27 | 0 | 0 | 3 | 30 |
-| mems_3d | 12 | 1 | 1 | 2 | 16 |
-| electro_optic | 14 | 0 | 0 | 0 | 14 |
-| other | 12 | 0 | 0 | 1 | 13 |
-| soa | 11 | 0 | 0 | 0 | 11 |
-| mems_2d | 3 | 0 | 0 | 0 | 3 |
-| lcos | 2 | 0 | 0 | 0 | 2 |
-| piezo | 2 | 0 | 0 | 0 | 2 |
-| robotic_patch_panel | 1 | 0 | 0 | 0 | 1 |
-| all 12 routes plotted | 236 | 1 | 4 | 43 | 284 |
-| core papers with no tags row, not plotted | | | | | 0 |
-
-No radar chart was drawn, because only 3 of the 6 numeric matrix dimensions are reported for 5 or more of the 9 routes and a radar needs at least 4 such dimensions (pipeline/tech_map.py).
-
-| numeric dimension | routes with a reported value, of 9 | qualifies, 5 or more routes |
-|---|---|---|
-| switching_time | 7 | yes |
-| insertion_loss | 7 | yes |
-| port_count | 8 | yes |
-| polarization_dependent_loss | 2 | no |
-| crosstalk | 4 | no |
-| wavelength_range | 4 | no |
-| qualifying dimensions, 4 needed | 3 of 6 | no radar, graphs/tech_radar.html not written |
 
 [graphs/project_timeline.html](../graphs/project_timeline.html) plots the projects.csv rows with a known first_public_date and lists the rest under the chart without a guessed date (pipeline/project_timeline.py).
 

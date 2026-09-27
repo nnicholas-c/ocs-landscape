@@ -105,6 +105,8 @@ def render(rows, known, unknown):
 
 def main():
     rows, known, unknown = load()
+    if not known:
+        raise SystemExit("no entity in data/projects.csv has a known first_public_date; nothing to plot")
     print("== project_timeline ==")
     print(f"source: data/projects.csv, {len(rows)} rows, {len({r['entity'] for r in rows})} entities")
     print(f"known first_public_date (plotted): {len(known)}")

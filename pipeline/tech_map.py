@@ -141,6 +141,11 @@ def load_counts(con):
 
 def radar_counts():
     rows = list(csv.DictReader(open(MATRIX_CSV, encoding="utf-8")))
+    missing = set(RADAR_DIMS) - {r["dimension"] for r in rows}
+    bad = {r["status"] for r in rows} - {"reported", "derived", "not_reported_in_abstract", "no_source"}
+    if missing or bad:
+        raise ValueError(f"comparison_matrix.csv: missing dimensions {sorted(missing)}, "
+                         f"unexpected status {sorted(bad)}; fix the matrix, do not guess")
     routes = sorted({r["tech_route"] for r in rows})
     per_dim = {d: len({r["tech_route"] for r in rows if r["dimension"] == d and r["status"] == "reported"})
                for d in RADAR_DIMS}
@@ -244,13 +249,14 @@ def main():
         ok = "qualifies" if per_dim[d] >= RADAR_MIN_ROUTES else "does not qualify"
         print(f"  {d}: reported for {per_dim[d]} of {len(routes_in_matrix)} routes, {ok}")
     print(f"qualifying dimensions: {len(qualifying)} of {len(RADAR_DIMS)} (need at least {RADAR_MIN_DIMS})")
+    if draw_radar:
+        # ponytail: no radar renderer, because the current matrix does not pass the gate (see the printed radar decision).
+        # The matrix values are text ranges with mixed units, so a radar needs a scaling rule decided first.
+        # Checked before the write so tech_map.html never gets the "No radar chart" note when the gate passes.
+        raise SystemExit("decision: draw radar, but no radar renderer exists yet; stopping instead of skipping it")
 
     GRAPHS_DIR.mkdir(parents=True, exist_ok=True)
     size = write_page(GRAPHS_DIR / "tech_map.html", render(counts, routes_in_matrix, per_dim, qualifying))
-    if draw_radar:
-        # ponytail: no radar renderer, because the current matrix never asks for one (3 of 6 dimensions qualify).
-        # The matrix values are text ranges with mixed units, so a radar needs a scaling rule decided first.
-        raise SystemExit("decision: draw radar, but no radar renderer exists yet; stopping instead of skipping it")
     (GRAPHS_DIR / "tech_radar.html").unlink(missing_ok=True)
     print("decision: no radar chart drawn (graphs/tech_radar.html not written)")
     print(f"wrote graphs/tech_map.html ({size} bytes)")

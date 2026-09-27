@@ -1,4 +1,4 @@
-step 3 printed output, run 1 (.venv/bin/python -m pipeline.tech_map, then -m pipeline.project_timeline)
+step 3 printed output, run 1 after the pull request #6 review fixes (.venv/bin/python -m pipeline.tech_map, then -m pipeline.project_timeline)
 == tech_map ==
 SQL (counts plotted):
 SELECT t.tech_route, t.trl_band, COUNT(*) AS n
@@ -127,3 +127,11 @@ listed rows, date unknown (entity, stage):
   Lumentum, unknown
   Oriole Networks, unknown
 wrote graphs/project_timeline.html (7146 bytes)
+
+sha256 of the pages after run 1 (sha256sum)
+b02c238ff281d3e575628c4ea9c9e1e52bf4fed9c7336eb96e7dcc0282f14944 *graphs/tech_map.html
+7fb32595e24c80403d885be2256a283c399290c51d758d7dfd794e7b68337bf9 *graphs/project_timeline.html
+
+sha256 of the pages after run 2 (sha256sum)
+b02c238ff281d3e575628c4ea9c9e1e52bf4fed9c7336eb96e7dcc0282f14944 *graphs/tech_map.html
+7fb32595e24c80403d885be2256a283c399290c51d758d7dfd794e7b68337bf9 *graphs/project_timeline.html

@@ -4,7 +4,7 @@ Numbers are run 2's (the arXiv rebuild) unless marked run 1.
 
 ## Tagging rubric
 
-The tagger labels each paper from its title and abstract only, and every tag carries one exact evidence sentence from them (ocs-domain skill). The import rejects any not verbatim, and all 420 passed (STATUS.md, 16:43 line).
+The tagger labels each paper from its title and abstract only, and every tag carries one exact evidence sentence from them (.claude/agents/tagger.md). The import rejects any not verbatim, and all 420 passed (STATUS.md, 16:43 line).
 
 Relevance is 3 (builds, tests, or deploys an optical circuit switch, OCS, or designs a network around one), 2 (an enabling component), 1 (an adjacent field), or 0 (unrelated).
 
@@ -18,6 +18,8 @@ Tech route is the main mechanism. MEMS is micro-electro-mechanical systems.
 - electro_optic. Voltage changes the index.
 - soa. Semiconductor optical amplifiers (SOA) act as on and off gates.
 - robotic_patch_panel. A robot reconnects fibers.
+
+Integration is free_space_bulk, integrated_photonic, mechanical_fiber, or unclear. TRL (technology readiness level) band is lab (prototype or simulation), pilot (field trial), production (in service or sold), or unclear. AI (artificial intelligence) data center fit is direct (accelerator clusters), indirect (data center networks), none, or unclear.
 
 ```mermaid
 flowchart LR
@@ -39,9 +41,7 @@ flowchart LR
     NR --> UN["unclear<br/>the abstract does not say"]
 ```
 
-Device routes sit under their integration cell, a label as few as 3 of 6 lcos papers carry (deliverables/comparison_matrix.csv, lcos note). Notes on the rest are from the ocs-domain skill.
-
-Integration is free_space_bulk, integrated_photonic, mechanical_fiber, or unclear. TRL (technology readiness level) band is lab (prototype or simulation), pilot (field trial), production (in service or sold), or unclear. AI (artificial intelligence) data center fit is direct (accelerator clusters), indirect (data center networks), none, or unclear.
+Each device route sits under its matrix integration cell, which only 3 of the 6 lcos route-file papers carry, the lowest share (deliverables/comparison_matrix.csv, lcos note). The other labels follow the ocs-domain skill.
 
 ## Comparison matrix
 

@@ -15,11 +15,11 @@ From .claude/agents/*.md. "Base six" is Read, Write, Edit, Bash, Glob, Grep.
 | collector | sonnet | base six | queries.yaml | collect_*.py, data/raw | Pulls one source per call |
 | tagger | sonnet | base six | data/work batches | tag_*.py, batch outputs | Relevance and tags with verbatim evidence |
 | curator | sonnet | base six | data/raw, schema.sql | curate.py, papers.sqlite | Dedup and load the database |
-| grapher | sonnet | base six | papers.sqlite | graph.py, graphs/* | Team networks, rankings, clusters |
+| grapher | sonnet | base six | papers.sqlite, comparison_matrix.csv, projects.csv | graph.py, tech_map.py, project_timeline.py, graphs/* | Team networks, rankings, clusters |
 | scout | sonnet | base six, WebSearch, WebFetch | ocs-domain seed list | data/projects.csv | Companies from the open web |
 | analyst | opus | base six | core papers, projects.csv | matrix_*.py, comparison_matrix.* | One sourced matrix cell at a time |
 | auditor | sonnet | base six minus Edit | everything | audit.py, validation_report.md | Spot checks, never fixes |
-| writer | opus | base six | deliverables, graphs, STATUS.md | six stage 8 files | This write-up |
+| writer | opus | base six | deliverables, graphs, STATUS.md | six stage 8 files | Write-up |
 
 ## Data flow
 
