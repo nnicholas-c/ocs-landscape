@@ -2,7 +2,7 @@
 
 ## What the pipeline does, in one paragraph
 
-The pipeline maps optical circuit switching (OCS) for AI (artificial intelligence) data centers from OpenAlex and arXiv. It pulls papers, scores relevance, dedups into one SQLite database, tags each paper with a switching technology and maturity, and maps technologies, teams, and companies, one Python script per stage (PLAN.md). Run 1 took 04:32 to 08:27 on 2026-09-26 with 53 subagent invocations, 36 by role agents and 17 by checks (STATUS.md, finish line), and a rework from 14:11 rebuilt the matrix and audit. Run 2, the arXiv rebuild, redid collection, stages 1b to 4, and stages 6 to 8, because export.arxiv.org refuses this host with HTTP (web protocol) error 406 (STATUS.md, 16:50 line).
+The pipeline maps optical circuit switching (OCS) for AI (artificial intelligence) data centers from OpenAlex and arXiv. It pulls papers, scores relevance, dedups into one SQLite database, tags each paper with a switching technology and maturity, and maps technologies, teams, and companies, one Python script per stage (PLAN.md). Run 1 took 04:32 to 08:27 on 2026-09-26 with 53 subagent invocations, 36 by role agents and 17 by checks (STATUS.md, finish line), and a rework from 14:11 rebuilt the matrix and audit. Run 2, the arXiv rebuild, redid collection, stages 1b to 4, and stages 6 to 8, because export.arxiv.org refuses this host with HTTP (web protocol) error 406 (STATUS.md, 16:50 line). Step 2 reran stages 1b to 8 except the scout (STATUS.md, 19:24 line).
 
 ## Agent roster
 
@@ -11,7 +11,7 @@ From .claude/agents/*.md. "Base six" is Read, Write, Edit, Bash, Glob, Grep.
 | agent | model | tools | reads | writes | one-line purpose |
 |---|---|---|---|---|---|
 | orchestrator (Workflow script) | none, code | launches agents | PLAN.md, STATUS.md | nothing directly | Runs stages, reruns a failed one once |
-| second judge (checker agent) | not recorded | runs code | stage outputs | STATUS.md, data/work/audit_run2_checker_judgments.json, data/work/audit_r2data_second_judge*.json | Verifies each stage so none grades its own work |
+| second judge (checker agent) | not recorded | runs code | stage outputs | STATUS.md, data/work/audit_run2_checker_judgments.json, data/work/audit_r2data_second_judge*.json, data/work/audit_s20260929_second_judge.json | Verifies each stage so none grades its own work |
 | collector | sonnet | base six | queries.yaml | collect_*.py, data/raw | Pulls one source per call |
 | tagger | sonnet | base six | data/work batches | tag_*.py, batch outputs | Relevance and tags with verbatim evidence |
 | curator | sonnet | base six | data/raw, schema.sql | curate.py, papers.sqlite | Dedup and load the database |
@@ -23,7 +23,7 @@ From .claude/agents/*.md. "Base six" is Read, Write, Edit, Bash, Glob, Grep.
 
 ## Data flow
 
-Thresholds in the diamonds come from PLAN.md. Run 2's collector, pipeline/collect_arxiv_via_openalex.py, runs the 10 arXiv phrases (pipeline/queries.yaml) as OpenAlex searches filtered to OpenAlex's arXiv source and labels each record arxiv_via_openalex. It skips record_keys already in data/raw, so a second run added 0 records (deliverables/pitfalls_original_log.md, 16:05).
+Thresholds in the diamonds come from PLAN.md. Run 2's collector, pipeline/collect_arxiv_via_openalex.py, runs the 10 arXiv phrases (pipeline/queries.yaml) as OpenAlex searches filtered to OpenAlex's arXiv source and labels each record arxiv_via_openalex. It skips records already on disk, so a rerun added 0 (deliverables/pitfalls_original_log.md, 16:05).
 
 ```mermaid
 flowchart TD
@@ -70,9 +70,9 @@ Gate B needs a route and a TRL (technology readiness level) band on every core p
 
 Gate C allows at most 10 percent re-fetch mismatches, 10 percent unsupported matrix cells, and 20 percent failed project links, plus 90 percent verbatim spans (PLAN.md). In run 1, round 1 found 25 percent of sampled cells unsupported. Then matrix_build.py imported the audit's value test and 18 of 27 category cells were padded to pass it, so Gate C passed round 2 at 0 percent (deliverables/validation_report.md, round 3). Only the second judge caught this (STATUS.md, 07:42 line), so the rework separated build and audit, and no pipeline script imports audit.py (STATUS.md, 15:10 and 17:56 lines).
 
-The run 2 audit failed check (b) at 15 percent, mostly on quotes from the wrong sentence, and passed at 0 percent after stage 6 re-anchored 4 quotes. Its check (a) never calls export.arxiv.org, and unlike round 3 it recomputes academic_groups and companies with its own query on papers.sqlite and its own read of projects.csv, matching 18 of 18 cells (deliverables/validation_report.md, Run 2 audit). The second judge re-judges the auditor's category and text cells blind, and they agreed on 19 of 20 sample and 24 of 27 category cells in round 3, and 20 of 20 and 25 of 27 in the run 2 audit's second round (STATUS.md, 15:10 and 17:56 lines).
+The first run 2 audit (seed 20260928) failed check (b) at 15 percent, mostly on quotes from the wrong sentence, and its second round passed at 0 percent by re-checking the same 20 cells after stage 6 re-anchored 4 quotes. The run 2 audit after the anchor papers (seed 20260929) drew new samples and passed on its first round. Neither calls export.arxiv.org, and unlike round 3 both recompute academic_groups and companies independently, matching 18 of 18 cells (deliverables/validation_report.md). Re-judging the category cells blind, the second judge agreed with the auditor on 24 of 27 in round 3 and in the latest audit (STATUS.md, 15:10 and 21:21 lines).
 
-The second judge also sent stages 2, 4, and 8 back for problems no gate measures, such as wrong merges and a broken graph page (STATUS.md, RETRY lines).
+The second judge also sent stages 1a, 2, 4, and 8 back for problems no gate measures, such as wrong merges and a broken graph page (STATUS.md, RETRY lines).
 
 ## Why this shape
 

@@ -1,0 +1,202 @@
+[
+  {
+    "record_key": "openalex:W2608944412",
+    "source": "openalex",
+    "title": "Advances in piezoelectric thin films for acoustic biosensors, acoustofluidics and lab-on-chip applications",
+    "year": 2017,
+    "venue": "Progress in Materials Science",
+    "abstract": "Recently, piezoelectric thin films including zinc oxide (ZnO) and aluminium nitride (AlN) have found a broad range of lab-on-chip applications such as biosensing, particle/cell concentrating, sorting/patterning, pumping, mixing, nebulisation and jetting. Integrated acoustic wave sensing/microfluidic devices have been fabricated by depositing these piezoelectric films onto a number of substrates such as silicon, ceramics, diamond, quartz, glass, and more recently also polymer, metallic foils and bendable glass/silicon for making flexible devices. Such thin film acoustic wave devices have great potential for implementing integrated, disposable, or bendable/flexible lab-on-a-chip devices into various sensing and actuating applications. This paper discusses the recent development in engineering high performance piezoelectric thin films, and highlights the critical issues such as film deposition, MEMS processing techniques, control of"
+  },
+  {
+    "record_key": "openalex:W2585218234",
+    "source": "openalex",
+    "title": "A Review on Piezoelectric Energy Harvesting: Materials, Methods, and Circuits",
+    "year": 2017,
+    "venue": "Energy Harvesting and Systems",
+    "abstract": "Abstract Piezoelectric microelectromechanical systems (PiezoMEMS) are attractive for developing next generation self-powered microsystems. PiezoMEMS promises to eliminate the costly assembly for microsensors/microsystems and provide various mechanisms for recharging the batteries, thereby, moving us closer towards batteryless wireless sensors systems and networks. In order to achieve practical implementation of this technology, a fully assembled energy harvester on the order of a quarter size dollar coin (diameter=24.26 mm, thickness=1.75 mm) should be able to generate about 100 μW continuous power from low frequency ambient vibrations (below 100 Hz). This paper reviews the state-of-the-art in microscale piezoelectric energy harvesting, summarizing key metrics such as power density and bandwidth of reported structures at low frequency input. This paper also describes the recent advancements in"
+  },
+  {
+    "record_key": "openalex:W1994319933",
+    "source": "openalex",
+    "title": "Emerging memories: resistive switching mechanisms and current status",
+    "year": 2012,
+    "venue": "Reports on Progress in Physics",
+    "abstract": "The resistance switching behaviour of several materials has recently attracted considerable attention for its application in non-volatile memory (NVM) devices, popularly described as resistive random access memories (RRAMs). RRAM is a type of NVM that uses a material(s) that changes the resistance when a voltage is applied. Resistive switching phenomena have been observed in many oxides: (i) binary transition metal oxides (TMOs), e.g. TiO(2), Cr(2)O(3), FeO(x) and NiO; (ii) perovskite-type complex TMOs that are variously functional, paraelectric, ferroelectric, multiferroic and magnetic, e.g. (Ba,Sr)TiO(3), Pb(Zr(x) Ti(1-x))O(3), BiFeO(3) and Pr(x)Ca(1-x)MnO(3); (iii) large band gap high-k dielectrics, e.g. Al(2)O(3) and Gd(2)O(3); (iv) graphene oxides. In the non-oxide category, higher chalcogenides are front runners, e.g. In(2)Se(3) and In(2)Te(3). Hence, the number of materials showing"
+  },
+  {
+    "record_key": "openalex:W2058515052",
+    "source": "openalex",
+    "title": "Optically active quantum dots in monolayer WSe2",
+    "year": 2015,
+    "venue": "Nature Nanotechnology",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W2914316664",
+    "source": "openalex",
+    "title": "Piezoelectric Transducer-Based Structural Health Monitoring for Aircraft Applications",
+    "year": 2019,
+    "venue": "Sensors",
+    "abstract": "Structural health monitoring (SHM) is being widely evaluated by the aerospace industry as a method to improve the safety and reliability of aircraft structures and also reduce operational cost. Built-in sensor networks on an aircraft structure can provide crucial information regarding the condition, damage state and/or service environment of the structure. Among the various types of transducers used for SHM, piezoelectric materials are widely used because they can be employed as either actuators or sensors due to their piezoelectric effect and vice versa. This paper provides a brief overview of piezoelectric transducer-based SHM system technology developed for aircraft applications in the past two decades. The requirements for practical implementation and use of structural health monitoring systems in aircraft application are"
+  },
+  {
+    "record_key": "openalex:W2910086439",
+    "source": "openalex",
+    "title": "Three-dimensional piezoelectric polymer microsystems for vibrational energy harvesting, robotic interfaces and biomedical implants",
+    "year": 2019,
+    "venue": "Nature Electronics",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W2805191155",
+    "source": "openalex",
+    "title": "Piezoelectrically Enhanced Photocatalysis with BiFeO3 Nanostructures for Efficient Water Remediation",
+    "year": 2018,
+    "venue": "iScience",
+    "abstract": "Designing new catalysts that can efficiently utilize multiple energy sources can contribute to solving the current challenges of environmental remediation and increasing energy demands. In this work, we fabricated single-crystalline BiFeO 3 (BFO) nanosheets and nanowires that can successfully harness visible light and mechanical vibrations and utilize them for degradation of organic pollutants. Under visible light both BFO nanostructures displayed a relatively slow reaction rate. However, under piezocatalysis both nanosheets and nanowires exhibited higher reaction rates in comparison with photocatalytic degradation. When both solar light and mechanical vibrations were used simultaneously, the reaction rates were elevated even further, with the BFO nanowires degrading 97% of RhB dye within 1 hr ( k -value 0.058 min −1 ). The enhanced degradation"
+  },
+  {
+    "record_key": "openalex:W2012779095",
+    "source": "openalex",
+    "title": "Piezoelectric Micromachined Ultrasound Transducer (PMUT) Arrays for Integrated Sensing, Actuation and Imaging",
+    "year": 2015,
+    "venue": "Sensors",
+    "abstract": "Many applications of ultrasound for sensing, actuation and imaging require miniaturized and low power transducers and transducer arrays integrated with electronic systems. Piezoelectric micromachined ultrasound transducers (PMUTs), diaphragm-like thin film flexural transducers typically formed on silicon substrates, are a potential solution for integrated transducer arrays. This paper presents an overview of the current development status of PMUTs and a discussion of their suitability for miniaturized and integrated devices. The thin film piezoelectric materials required to functionalize these devices are discussed, followed by the microfabrication techniques used to create PMUT elements and the constraints the fabrication imposes on device design. Approaches for electrical interconnection and integration with on-chip electronics are discussed. Electrical and acoustic measurements from fabricated PMUT arrays with up"
+  },
+  {
+    "record_key": "openalex:W2906077462",
+    "source": "openalex",
+    "title": "An ultrafast symmetry switch in a Weyl semimetal",
+    "year": 2018,
+    "venue": "Nature",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W2143910911",
+    "source": "openalex",
+    "title": "Strain-controlled magnetic domain wall propagation in hybrid piezoelectric/ferromagnetic structures",
+    "year": 2013,
+    "venue": "Nature Communications",
+    "abstract": "The control of magnetic order in nanoscale devices underpins many proposals for integrating spintronics concepts into conventional electronics. A key challenge lies in finding an energy-efficient means of control, as power dissipation remains an important factor limiting future miniaturization of integrated circuits. One promising approach involves magnetoelectric coupling in magnetostrictive/piezoelectric systems, where induced strains can bear directly on the magnetic anisotropy. While such processes have been demonstrated in several multiferroic heterostructures, the incorporation of such complex materials into practical geometries has been lacking. Here we demonstrate the possibility of generating sizeable anisotropy changes, through induced strains driven by applied electric fields, in hybrid piezoelectric/spin-valve nanowires. By combining magneto-optical Kerr effect and magnetoresistance measurements, we show that domain wall propagation fields"
+  },
+  {
+    "record_key": "openalex:W3139267667",
+    "source": "openalex",
+    "title": "Optical tweezers in single-molecule biophysics",
+    "year": 2021,
+    "venue": "Nature Reviews Methods Primers",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W2037657651",
+    "source": "openalex",
+    "title": "Adaptive optical microscopy: the ongoing quest for a perfect image",
+    "year": 2014,
+    "venue": "Light Science & Applications",
+    "abstract": "Abstract Adaptive optics is becoming a valuable tool for high resolution microscopy, providing correction for aberrations introduced by the refractive index structure of specimens. This is proving particularly promising for applications that require images from deep within biological tissue specimens. We review recent developments in adaptive microscopy, including methods and applications. A range of advances in different microscope modalities is covered and prospects for the future are discussed."
+  },
+  {
+    "record_key": "openalex:W2918760165",
+    "source": "openalex",
+    "title": "Organic piezoelectric materials: milestones and potential",
+    "year": 2019,
+    "venue": "NPG Asia Materials",
+    "abstract": "Abstract Research on the piezoelectric response of biomolecules has intensified following demonstration of open circuit voltages of over 20 V in biopiezoelectric generators. Organic piezoelectric nanotubes, fibers, and micro-islands have been grown and studied; however, the lack of fundamental understanding of the piezoelectric effect in nature hinders the rational design of biomaterials to provide a tailor-made piezoelectric response. Advances in high performance computing have facilitated the use of quantum mechanical calculations to predict the full piezoelectric tensor of biomolecular crystals, including amino acids and small peptides. By identifying directions of high piezoelectric response, the simulations can guide experimental crystal growth, device fabrication and electrical testing, which have led to the demonstration of unprecedented piezoelectric responses in organic crystals on the"
+  },
+  {
+    "record_key": "openalex:W2345114824",
+    "source": "openalex",
+    "title": "Photovoltaics with Ferroelectrics: Current Status and Beyond",
+    "year": 2016,
+    "venue": "Advanced Materials",
+    "abstract": "Ferroelectrics carry a switchable spontaneous electric polarization. This polarization is usually coupled to strain, making ferroelectrics good piezoelectrics. When coupled to magnetism, they become so-called multiferroic systems, a field that has been widely investigated since 2003. While ferroelectrics are birefringent and non-linear optically transparent materials, the coupling of polarization with optical properties has received, since 2009, renewed attention, triggered notably by low-bandgap ferroelectrics suitable for sunlight spectrum absorption and original photovoltaic effects. Consequently, power conversion efficiencies up to 8.1% were recently achieved and values of 19.5% were predicted, making photoferroelectrics promising photovoltaic alternatives. This article aims at providing an up-to-date review on this emerging and rapidly progressing field by highlighting several important issues and parameters, such as the role of"
+  },
+  {
+    "record_key": "openalex:W2936104152",
+    "source": "openalex",
+    "title": "Origin of giant negative piezoelectricity in a layered van der Waals ferroelectric",
+    "year": 2019,
+    "venue": "Science Advances",
+    "abstract": ". With the help of single crystal x-ray crystallography and density-functional theory calculations, we unravel the atomistic origin of negative piezoelectricity in this system, which arises from the large displacive instability of Cu ions coupled with its reduced lattice dimensionality. Furthermore, the sizable piezoelectric response and negligible substrate clamping effect of the 2D vdW piezoelectric materials warrant their great potential in nanoscale, flexible electromechanical devices."
+  },
+  {
+    "record_key": "openalex:W3037306418",
+    "source": "openalex",
+    "title": "Cavity optomechanics",
+    "year": 2014,
+    "venue": "Reviews of Modern Physics",
+    "abstract": "The field of cavity optomechanics is reviewed. This field explores the interaction between electromagnetic radiation and nanomechanical or micromechanical motion. This review covers the basics of optical cavities and mechanical resonators, their mutual optomechanical interaction mediated by the radiation-pressure force, the large variety of experimental systems which exhibit this interaction, optical measurements of mechanical motion, dynamical backaction amplification and cooling, nonlinear dynamics, multimode optomechanics, and proposals for future cavity-quantum-optomechanics experiments. In addition, the perspectives for fundamental quantum physics and for possible applications of optomechanical devices are described."
+  },
+  {
+    "record_key": "openalex:W4225771010",
+    "source": "openalex",
+    "title": "Recent advances in the preparation of PVDF-based piezoelectric materials",
+    "year": 2022,
+    "venue": "Nanotechnology Reviews",
+    "abstract": "Abstract In recent years, PVDF(polyvinylidene fluoride) and its copolymers have attracted great attention in the development of energy-harvesting devices because of their unique properties such as good flexibility, environmental friendliness, high halogen and acid resistance, lightweight and good biocompatibility. Compared to the most commonly used PZT (lead zirconate titanate), the piezoelectricity of PVDF and its copolymer-based materials is relatively low. To further expand the applications of PVDF, there is an urgent need for efficient methods to prepare high piezoelectric polymers or composites. In this work, the crystal phases are introduced first. Then, the preparation methods of PVDF and its copolymer-based materials are summarized, which are mainly focused on four determining factors of piezoelectricity. The mechanisms of piezoelectric β-phase formation and"
+  },
+  {
+    "record_key": "openalex:W2971102795",
+    "source": "openalex",
+    "title": "Self-starting bi-chromatic LiNbO 3 soliton microcomb",
+    "year": 2019,
+    "venue": "Optica",
+    "abstract": "For its many useful properties, including second and third-order optical nonlinearity as well as electro-optic control, lithium niobate is considered an important potential microcomb material. Here, a soliton microcomb is demonstrated in a monolithic high-Q lithium niobate resonator. Besides the demonstration of soliton mode locking, the photorefractive effect enables mode locking to self-start and soliton switching to occur bi-directionally. Second-harmonic generation of the soliton spectrum is also observed, an essential step for comb self-referencing. The Raman shock time constant of lithium niobate is also determined by measurement of soliton self-frequency-shift. Besides the considerable technical simplification provided by a self-starting soliton system, these demonstrations, together with the electro-optic and piezoelectric properties of lithium niobate, open the door to a multi-functional microcomb"
+  },
+  {
+    "record_key": "openalex:W4205874676",
+    "source": "openalex",
+    "title": "Recent Advances in Organic and Organic–Inorganic Hybrid Materials for Piezoelectric Mechanical Energy Harvesting",
+    "year": 2022,
+    "venue": "Advanced Functional Materials",
+    "abstract": "Abstract This article provides a comprehensive overview of piezo‐ and ferro‐electric materials based on organic molecules and organic–inorganic hybrids for mechanical energy harvesting. Molecular (organic and organic–inorganic hybrid) piezo‐ and ferroelectric materials exhibit significant advantages over traditional materials due to their simple solution‐phase synthesis, light‐weight nature, thermal stability, mechanical flexibility, high Curie temperature, and attractive piezo‐ and ferroelectric properties. However, the design and understanding of piezo‐ and ferroelectricity in organic and organic–inorganic hybrid materials for piezoelectric energy harvesting applications is less well developed. This review describes the fundamental characterization of piezo‐ and ferroelectricity for a range of recently reported organic and organic–inorganic hybrid materials. The limits of traditional piezoelectric harvesting materials are outlined, followed by an overview of the piezo‐"
+  },
+  {
+    "record_key": "openalex:W4224210237",
+    "source": "openalex",
+    "title": "Ferroelectric crystals with giant electro-optic property enabling ultracompact Q-switches",
+    "year": 2022,
+    "venue": "Science",
+    "abstract": "Relaxor-lead titanate (PbTiO 3 ) crystals, which exhibit extremely high piezoelectricity, are believed to possess high electro-optic (EO) coefficients. However, the optical transparency of relaxor-PbTiO 3 crystals is severely reduced as a result of light scattering and reflection by domain walls, limiting electro-optic applications. Through synergistic design of a ferroelectric phase, crystal orientation, and poling technique, we successfully removed all light-scattering domain walls and achieved an extremely high transmittance of 99.6% in antireflection film–coated crystals, with an ultrahigh EO coefficient r 33 of 900 picometers per volt (pm V −1 ), >30 times as high as that of conventionally used EO crystals. Using these crystals, we fabricated ultracompact EO Q-switches that require very low driving voltages, with superior performance to"
+  },
+  {
+    "record_key": "openalex:W4200034953",
+    "source": "openalex",
+    "title": "Piezoelectric Energy Harvesting Technology: From Materials, Structures, to Applications",
+    "year": 2021,
+    "venue": "Small Structures",
+    "abstract": "The piezoelectric energy harvesting is a promising, interesting and complex technology. Herein, the aim is to review the key groups of parameters that contribute to the performance of energy harvesting and to offer a guideline for the future development. For this purpose, a universal theoretical model is developed. According to the model, the parameters are divided into six groups. Each group is then discussed. First, a discussion on the piezoelectric materials status, advantages and disadvantages of ceramics, polymers, single crystals, composites, nanomaterials, and lead‐free materials are summarized. The orientation of materials is also discussed. Second, the structure designs, including off‐resonance, on‐resonance, and impact design were introduced. Third, typical sources of excitations and vibrations are given, including direct contact force, low"
+  },
+  {
+    "record_key": "openalex:W3119529004",
+    "source": "openalex",
+    "title": "Self-powered cardiac pacemaker by piezoelectric polymer nanogenerator implant",
+    "year": 2021,
+    "venue": "Nano Energy",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W2005480635",
+    "source": "openalex",
+    "title": "Micro- and nanodomain imaging in uniaxial ferroelectrics: Joint application of optical, confocal Raman, and piezoelectric force microscopy",
+    "year": 2014,
+    "venue": "Journal of Applied Physics",
+    "abstract": "The application of the most effective methods of the domain visualization in model uniaxial ferroelectrics of lithium niobate (LN) and lithium tantalate (LT) family, and relaxor strontium-barium niobate (SBN) have been reviewed in this paper. We have demonstrated the synergetic effect of joint usage of optical, confocal Raman, and piezoelectric force microscopies which provide extracting of the unique information about formation of the micro- and nanodomain structures. The methods have been applied for investigation of various types of domain structures with increasing complexity: (1) periodical domain structure in LN and LT, (2) nanodomain structures in LN, LT, and SBN, (3) nanodomain structures in LN with modified surface layer, (4) dendrite domain structure in LN. The self-assembled appearance of quasi-regular nanodomain"
+  },
+  {
+    "record_key": "openalex:W3008676885",
+    "source": "openalex",
+    "title": "Enhancing the current density of a piezoelectric nanogenerator using a three-dimensional intercalation electrode",
+    "year": 2020,
+    "venue": "Nature Communications",
+    "abstract": "Abstract The low output current density of piezoelectric nanogenerators (PENGs) severely restricts their application for ambient mechanical energy harvest. This has been a key challenge in the development of PENG. Here, to conquer this, based on a piezoelectric material with high piezoelectric coefficient (Sm-PMN-PT), a new design of PENG with a three-dimensional intercalation electrode (IENG) is proposed. By creating many boundary interfaces inside the piezoelectric material, the total amount of surface polarization charges increased, which contributes to an increased current density. The IENG can output a maximum peak short-circuit current of 320 μA, and the corresponding current density 290 μA cm −2 is 1.93 and 1.61 times the record values of PENG and triboelectric nanogenerator (TENG), respectively. It can also"
+  },
+  {
+    "record_key": "openalex:W2316329341",
+    "source": "openalex",
+    "title": "Piezoelectric thin films: an integrated review of transducers and energy harvesting",
+    "year": 2016,
+    "venue": "Smart Materials and Structures",
+    "abstract": "Abstract Piezoelectric thin films offer a number of advantages in various applications, such as high energy density harvesters, a wide dynamic range, and high sensitivity sensors, as well as large displacement and low power consumption actuators. This review covers the available material forms and applications of piezoelectric thin films: lead zirconate titanate (PZT)-based thin films, lead-free piezoelectric thin films, piezopolymer films, cellulose-based electroactive paper (EAPap), and many other thin films used for electromechanical transduction. The electromechanical properties and performances of piezoelectric films are compared and their suitability for particular applications are reported. The key ideas of piezoelectric thin films are reviewed and discussed for sensory and actuation systems, energy harvesting, and medical and acoustic transducers. In the last section, an"
+  }
+]

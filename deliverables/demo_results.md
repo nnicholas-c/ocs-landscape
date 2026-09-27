@@ -1,6 +1,6 @@
 # Small-sample demo results
 
-Every number points to a file or to a query Q1 to Q17, listed at the end. Numbers describe run 2, the arXiv rebuild, unless marked run 1. Run 2 took arXiv content through OpenAlex's arXiv index and labels it arxiv_via_openalex (STATUS.md, 16:50 line). Rounds 1 to 3 are run 1's audits. The auditor runs the four checks, and the second judge re-checks each stage. MEMS is micro-electro-mechanical systems.
+Every number points to a file or to a query Q1 to Q18, listed at the end. Numbers are run 2's, the arXiv rebuild as rerun in step 2 (the anchor papers), unless marked run 1. Run 2 took arXiv content through OpenAlex's arXiv index, labelled arxiv_via_openalex (STATUS.md, 16:50 line). Rounds 1 to 3 are run 1's audits, and run 2's rates come from the run 2 audit after the anchor papers. The auditor runs the four checks, and the second judge re-checks each stage. MEMS is micro-electro-mechanical systems.
 
 ## Numbers
 
@@ -14,25 +14,28 @@ Every number points to a file or to a query Q1 to Q17, listed at the end. Number
 | raw records, data/raw/arxiv_via_openalex.jsonl | 0 (no such file) | 341 | Q1 |
 | raw records, the two smoke files | 10 | 10 | STATUS.md, 04:41 line; Q1 |
 | unique raw records | 904 | 1245 | STATUS.md, 05:39 and 16:08 lines |
-| papers after dedup | 885 | 1213 | STATUS.md, 05:57 line; Q3 |
+| papers after dedup | 885 | 1211 (1213 before step 2) | STATUS.md, 05:57, 16:32 and 20:31 lines; Q3 |
 | core set | 267 | 284 | STATUS.md, 05:57 line; Q3 |
 | extended set | 376 | 420 | STATUS.md, 05:57 line; Q3 |
-| arXiv-only papers, every source is arxiv or arxiv_via_openalex (of them core) | 40 (36) | 368 (53) | data/work/run2_arxiv_coverage.md; Q15 |
+| anchor papers in the data, of 13, by full title or DOI (digital object identifier) | 8, c-Through only through the snowball, and 3 more by title prefix only | 8, and 3 more by title prefix only, Jupiter Evolving and RotorNet still missing | STATUS.md, Gate A and 20:31 lines; Q17; Q18 |
+| arXiv-only papers, every source is arxiv or arxiv_via_openalex (of them core) | 40 (36) | 366 (53) | data/work/run2_arxiv_coverage.md; Q15 |
 | papers with no OpenAlex ID (identifier), paper_id "arxiv:..." (of them core) | 40 (36) | 34 (31) | data/work/run2_arxiv_coverage.md; Q15 |
 | authors in the database | 5434 | 7624 | STATUS.md, 05:57 line; deliverables/curation_report.md |
 | authors in the team map | 1597 | 1827 | STATUS.md, 06:50 line; Q8 |
 | institutions | 1342 | 1641 | STATUS.md, 05:57 line; deliverables/curation_report.md |
-| audit (a), re-fetch mismatch rate | 0 percent, 20 of 20 compared (round 3) | 0 percent, 20 of 20 compared | deliverables/validation_report.md, round 3 and Run 2 audit |
-| audit (b), unsupported sampled cells | 5 percent, 1 of 20 (round 3) | 15 percent, 3 of 20, FAIL on the first try, then 0 percent, 0 of 20 | same |
-| audit (c), failed project links | 0 percent, 0 of 10 (round 3) | 0 percent, 0 of 10 | same |
-| audit (d), verbatim evidence spans | 100 percent, 376 of 376 (round 3) | 100 percent, 420 of 420 | same |
-| OpenAlex cost | 0.033 USD (US dollars) after stage 1a, 0.0404 USD at the finish (snowball included, its own share not saved) | 0.01 USD for the 10 new searches, 0.01 USD more for a rerun, 0.0016 USD at the finish counted only from the 17:00 day rollover, total not captured | STATUS.md, stage 1a, 15:58, 16:14 and 18:49 lines; deliverables/pitfalls_original_log.md, 07:50 and 16:05 |
+| audit behind the audit rows below | round 3 (after the fix), seed 20260927, passed Gate C on its first round | run 2 audit after the anchor papers, seed 20260929, passed Gate C on its first round, new samples | deliverables/validation_report.md, round 3 and Run 2 audit after the anchor papers |
+| audit (a), re-fetch mismatch rate | 0 percent, 20 of 20 compared | 0 percent, 20 of 20 compared | same |
+| audit (b), unsupported sampled cells | 5 percent, 1 of 20 | 0 percent, 0 of 20 | same |
+| audit (c), failed project links | 0 percent, 0 of 10 | 0 percent, 0 of 10 | same |
+| audit (d), verbatim evidence spans | 100 percent, 376 of 376 | 100 percent, 420 of 420 | same |
+| category census, unsupported of all 27 category cells (no gate, the broader signal) | 3 of 27 | 3 of 27 | same |
+| OpenAlex cost | 0.033 USD (US dollars) after stage 1a, 0.0404 USD at the finish (snowball included, its own share not saved) | 0.01 USD for the 10 new searches, 0.01 USD more for a rerun, 0.0016 USD at the finish counted only from the 17:00 day rollover, total not captured, and 0 USD for step 2's three DOI lookups | STATUS.md, stage 1a, 15:58, 16:14 and 18:49 lines; deliverables/pitfalls_original_log.md, 07:50 and 16:05; data/work/step2_anchors.md, Cost |
 
 Run 1 had no arxiv_via_openalex file, so its 40 arXiv-only papers had only arxiv records, and the same test still finds all 40 (Q15).
 
 ### arXiv coverage gap before run 2
 
-On the run 1 database, 133 of 885 papers were arXiv-hosted, meaning they had an arXiv ID, an arXiv DOI (digital object identifier), or an arxiv.org link. 40 of them had no OpenAlex ID, and in the core set 36 of 43 had none (data/work/run2_arxiv_coverage.md, query Q16). Run 2 closed little of that gap. Only 6 of the 40 gained an OpenAlex ID (deliverables/curation_report.md), and 31 of 60 arXiv-hosted core papers still have none (Q16).
+On the run 1 database, 133 of 885 papers were arXiv-hosted, meaning they had an arXiv ID, an arXiv DOI, or an arxiv.org link. 40 of them had no OpenAlex ID, and in the core set 36 of 43 had none (data/work/run2_arxiv_coverage.md, query Q16). Run 2 closed little of that gap. Only 6 of the 40 gained an OpenAlex ID (deliverables/curation_report.md), and 31 of 60 arXiv-hosted core papers still have none (Q16).
 
 ### Records per source and query
 
@@ -72,7 +75,7 @@ Records per query (Q1) count the first query that found each record (deliverable
 | arxiv_via_openalex (run 2) | silicon photonic switch | 31 |
 | arxiv_via_openalex (run 2) | optical circuit switching | 0 new (STATUS.md, 15:58 line) |
 
-In run 1, arXiv's other 9 phrases got HTTP (web protocol) errors 429 and 406, so their zeros say nothing about arXiv's content (STATUS.md, stage 1a line). Run 1 found 10 of 13 anchors, one a false match, and run 2 ran no anchor lookup, so Jupiter Evolving and RotorNet are still missing (STATUS.md, Gate A line; Q17).
+In run 1, arXiv's other 9 phrases got HTTP (web protocol) errors 429 and 406, so their zeros say nothing about arXiv's content (STATUS.md, stage 1a line). Gate A counted 10 of 13 anchors found, missing Jupiter Evolving, RotorNet, and c-Through, whose lookup hit an unrelated 1999 paper (STATUS.md, Gate A line). The real c-Through came in through the snowball. By full title or DOI, 8 of 13 are in the data, and 3 more match only by title prefix (Q18). Step 2 fetched the other two by DOI, but OpenAlex keeps only the title words before the colon, so the title check scored 23.88 and 23.19 against 95 and both were removed (data/work/step2_anchors.md; Q17).
 
 ### Relevance and dedup
 
@@ -82,14 +85,15 @@ Because more than 200 records scored 2 or 3, Gate A kept score 3 only as the cor
 |---|---|---|
 | relevance score 0, 1, 2, 3 (of 1245) | 694, 145, 98, 308 | Q2 |
 | score 2 or 3, before dedup | 416 | STATUS.md, 16:08 line |
-| duplicates removed by DOI, arXiv ID, fuzzy title | 4, 15, 13 | deliverables/curation_report.md |
+| duplicates removed by DOI, arXiv ID, fuzzy title | 4, 17, 13 | deliverables/curation_report.md |
+| of the arXiv ID merges, pairs found only by pull request #1's fix that reads the ID from a landing page link, first applied in step 2's rerun | 2 | deliverables/curation_report.md, Step 2 |
 | arxiv_via_openalex records that matched a run 1 paper by DOI, arXiv ID, fuzzy title | 0, 8, 2 | deliverables/curation_report.md |
 | wrong fuzzy merges undone after the run 1 retry | 3 | STATUS.md, 05:51 line |
-| papers after dedup | 1213 | deliverables/curation_report.md |
+| papers after dedup | 1211 | deliverables/curation_report.md |
 
 | set | papers | no abstract |
 |---|---|---|
-| all papers | 1213 | 112 |
+| all papers | 1211 | 111 |
 | core set | 284 | 14 |
 | extended set (core plus adjacent) | 420 | 26 |
 
@@ -219,47 +223,55 @@ The full matrix with paper IDs and quotes is deliverables/comparison_matrix.md, 
 
 | tech_route | switching_time | insertion_loss | port_count | polarization_dependent_loss | crosstalk | wavelength_range | integration | packaging_notes | trl_band | academic_groups | companies | ai_cluster_fit | cost_per_port | scaling_limit |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| mems_3d | 150 us to few ms | 1.2 to 4.0 dB | more than 1100 ports | -30 dB as printed | [not reported] | 1500 to 1630 nm | free_space_bulk | Stable cubic switch housing and tolerance-expanding assembly; compa... | production | Michal Stepanovsky (Czech Technical University in Prague) 3 papers;... | Google; Lumentum; Calient; UTStarcom | yes | 100 USD per port | Switching speed falls as port count grows; cross-axis coupling of m... |
-| mems_2d | [not reported] | [not reported] | 16 x 16 ports | [not reported] | [not reported] | [not reported] | free_space_bulk | Reliable actuation reported to carry over to the packaged component... | lab | Ming C. Wu (University of California, Berkeley) 2 papers; Steffen G... | [no source] | no | [not reported] | [not reported] |
-| mems_silicon_photonic | 0.4 to 200 us | 0.18 to 22.7 dB | 128 x 128 ports | 0.5 to 8.5 dB | -30 to -80 dB | 1250 to 1700 nm | integrated_photonic | Aluminum nitride interposer and 64-channel lidless fiber array; thr... | lab | Ming C. Wu (University of California, Berkeley) 19 papers; Tae Joon... | nEye | yes | [not reported] | Electrical interconnects grow as N squared with individual addressi... |
-| lcos | 11.5 us | approximately 2 dB | 1 x 6 ports | [not reported] | [not reported] | [not reported] | free_space_bulk | Multicore-fiber collimator, spatial multiplexer array and LCoS spat... | lab | Nicola Calabretta (Eindhoven University of Technology) 2 papers; Xu... | Coherent | yes | [not reported] | Lengthy WSS configuration times and scheduling complexity when opti... |
-| piezo | millisecond scale | below 2.2 dB | 3 to 50 ports | [not reported] | -25 dB | 1550 nm | free_space_bulk | Multicore fibers integrated directly at the switch ports; losses fr... | lab | Georgios Zervas (University of Bristol) 3 papers; Nick Parsons (Pol... | Polatis; Drut Technologies | yes | [not reported] | Port count set by port separation and maximum steering angle; more... |
-| thermo_optic | 1 to under 100 us | below 1 to 15.8 dB | 32 x 32 ports on one chip; 1,856 x 1,856 as a system | around 2 dB | -20 to -50 dB | C band to C+L band, up to 110 nm wide; one device at 775 nm | integrated_photonic | Flip-chip bond to a ceramic interposer with a land grid array; wire... | lab | Keijiro Suzuki (National Institute of Advanced Industrial Science a... | [no source] | yes | [not reported] | Crossing loss grows with port count; control units and drive wiring... |
-| electro_optic | 3 to 4 ns | about 1 to 18.5 dB | 32 x 32 ports | [not reported] | -9 to -40 dB | bandwidth 7 to 110 nm; O band in one device | integrated_photonic | CMOS logic and drivers integrated on the switch chip; bandwidth hol... | lab | Benjamin G. Lee (IBM (United States)) 4 papers; William M. J. Green... | [no source] | partial | [not reported] | Crosstalk limits fabric size; every switch unit needs calibration a... |
-| soa | 115 to 900 ps | on-state gain above 14.3 dB, lossless | 4 x 4 to 128 x 128 ports | [not reported] | extinction ratio 33 to more than 70 dB | [not reported] | integrated_photonic | Quantum-dot SOAs can run uncooled; chip-on-carrier SOA mounting; ch... | lab | A. Wonfor (University of Cambridge) 4 papers; Ian H. White (Univers... | [no source] | yes | [not reported] | Signal degradation and power grow with fabric size; scaling to seve... |
-| robotic_patch_panel | [not reported] | [not reported] | [not reported] | [not reported] | [not reported] | [not reported] | mechanical_fiber | Robot handles and mates angled physical contact (APC) connector plugs | production | Mitsuhiro Makihara (NTT (Japan)) 1 paper; Masato MIZUKAMI (NTT (Jap... | Telescent | no | [not reported] | [not reported] |
+| mems_3d | 150 us to a few ms | 1.2 to 4.0 dB | more than 1100 ports | [not reported] | [not reported] | 1500 to 1630 nm (S band, C band, L band) | free_space_bulk | Stable cubic switch housing, packaging by tolerance expansion, simp... | production | Michal Stepanovsky (Czech Technical University in Prague) 3 papers;... | Google; Lumentum; Calient; UTStarcom | yes | 100 USD per port | Response speed trades against port count, crosstalk and insertion l... |
+| mems_2d | [not reported] | [not reported] | 16 x 16 | [not reported] | [not reported] | [not reported] | free_space_bulk | Packaged component; high reliability of the actuation mechanism; pa... | lab | Ming C. Wu (University of California, Berkeley) 2 papers; Steffen G... | [no source] | no | [not reported] | [not reported] |
+| mems_silicon_photonic | 0.4 to 200 us | under 1.5 to 22.7 dB | 128 x 128 | 0.5 to 8.5 dB | -30 to -80 dB | 1250 to 1700 nm; C band | integrated_photonic | Electrical redistribution lines on an aluminum nitride interposer a... | lab | Ming C. Wu (University of California, Berkeley) 19 papers; Tae Joon... | nEye | yes | [not reported] | Individual addressing needs N squared electrodes, so electrical int... |
+| lcos | 11.5 us | about 2 dB (projected net loss) | 1 x 6 (5-core fiber ports) | [not reported] | [not reported] | [not reported] | free_space_bulk | Assembly integrates a multicore fiber collimator, a spatial multipl... | lab | Nicola Calabretta (Eindhoven University of Technology) 2 papers; Xu... | Coherent | yes | [not reported] | [not reported] |
+| piezo | millisecond scale | below 2.2 dB | 3 ports demonstrated; 50 ports in a design analysis | [not reported] | -25 dB (intercore, design analysis) | [not reported] | free_space_bulk | Multi-core fibers directly integrated in the switch; losses from sy... | lab | Georgios Zervas (University of Bristol) 3 papers; Nick Parsons (Pol... | Polatis; Drut Technologies | yes | [not reported] | Port count set by maximum steering angle and port separation; more... |
+| thermo_optic | 1 to under 100 us | 0.2 to 15.8 dB | 32 x 32 on one chip; 1,856 x 1,856 in a system with tunable filters | around 2 dB | -20 to -50 dB | C band (1530 to 1565 nm) and L band; 775 nm on silicon nitride | integrated_photonic | Chip flip-chip bonded to a ceramic interposer with a land grid arra... | lab | Keijiro Suzuki (National Institute of Advanced Industrial Science a... | [no source] | yes | [not reported] | Waveguide crossings multiply with port count and raise path-depende... |
+| electro_optic | 3 to about 4 ns | about 1 to 18.5 dB | 32 x 32 | [not reported] | -9 to -50 dB | O band; 1520 nm and 1550 nm; optical bandwidth 7 to 110 nm | integrated_photonic | Switch fabrics integrated on one chip with CMOS logic and device dr... | lab | Benjamin G. Lee (IBM (United States)) 4 papers; William M. J. Green... | [no source] | partial | [not reported] | Crosstalk limits fabric scalability; non-uniform effects from fabri... |
+| soa | 115 to under 900 ps | lossless; ON-state gain above 14.3 dB | 4 x 4 fabricated; 128 x 128 emulated in a recirculating loop | [not reported] | [not reported] | [not reported] | integrated_photonic | Quantum-dot SOA switch elements can be operated uncooled; chip-on-c... | lab | A. Wonfor (University of Cambridge) 4 papers; Ian H. White (Univers... | [no source] | yes | [not reported] | Signal impairments limit the port count of conventional SOA switche... |
+| robotic_patch_panel | [not reported] | [not reported] | [not reported] | [not reported] | [not reported] | [not reported] | mechanical_fiber | Connection mechanisms that let the robot handle and connect angled... | production | Mitsuhiro Makihara (NTT (Japan)) 1 paper; Masato MIZUKAMI (NTT (Jap... | Telescent | no | [not reported] | [not reported] |
 
-Of the 126 cells, 84 are reported, 29 are not reported in any abstract, 9 are derived, and 4 have no source (Q9), against 81, 32, 9, and 4 in run 1 after the rework (STATUS.md, 14:36 line).
+Of the 126 cells, 80 are reported, 33 are not reported in any abstract, 9 are derived, and 4 have no source (Q9). Step 2's rebuild moved 4 cells from reported to not reported, against 84, 29, 9, and 4 before it and 81, 32, 9, and 4 in run 1 after the rework (STATUS.md, 14:36 and 21:04 lines).
 
 ## Audit results
 
-### Run 2 audit
+### Run 2 audit after the anchor papers
 
-The run 2 audit used seed 20260928 and never calls export.arxiv.org. It recomputes academic_groups and companies itself, not with the build's functions, and 18 of 18 cells matched (deliverables/validation_report.md, Run 2 audit). Rates for every round follow (same file).
+This audit (seed 20260929) gives run 2's rates. It passed Gate C on its first round, so no second round ran. The broader signal is the census of all 27 category cells, which has no gate, where the auditor found 3 unsupported (deliverables/validation_report.md, Run 2 audit after the anchor papers).
 
-| check | Gate C limit | round 1 | round 2 (padded) | round 3 (after the fix) | run 2 audit, first try | run 2 audit, second round |
-|---|---|---|---|---|---|---|
-| (a) re-fetch 20 core papers, mismatch rate | at most 10 percent | 0 percent, 16 compared, 4 dropped, PASS | 0 percent, same 16 compared, same 4 dropped, PASS | 0 percent, 20 compared, 0 dropped, PASS | 0 percent, 20 compared, 0 dropped, PASS | 0 percent, same 20, PASS |
-| (b) 20 reported matrix cells, unsupported rate | at most 10 percent | 25 percent (5 of 20), FAIL | 0 percent (0 of 20), PASS, not trustworthy | 5 percent (1 of 20), PASS | 15 percent (3 of 20), FAIL | 0 percent (0 of 20), PASS |
-| (c) 10 project rows, fail rate | at most 20 percent | 0 percent, PASS | 0 percent, PASS | 0 percent, PASS | 0 percent, PASS | 0 percent, PASS |
-| (d) all evidence spans, pass rate | at least 90 percent | 100 percent of 376, PASS | 100 percent of 376, PASS | 100 percent of 376, PASS | 100 percent of 420, PASS | 100 percent of 420, PASS |
-| category census, unsupported cells | no gate | not run | not run | 3 of 27 | 4 of 27 | 2 of 27 |
-
-Check (b) failed at first, so Gate C sent the run back to stage 6 once. For two of the three failures, "the specific sentence pipeline/matrix_build.py's extract() function picked out as this clause's quote is a different, nearby sentence that does not itself say it" (Run 2 audit). Stage 6 re-anchored 4 quotes and the second round passed (same file). CMOS is complementary metal-oxide-semiconductor.
-
-| cell | where it failed | auditor's words (deliverables/validation_report.md, Run 2 audit) | second round |
+| how the audit was run | first run 2 audit | run 2 audit after the anchor papers | source |
 |---|---|---|---|
-| thermo_optic:packaging_notes | Gate C sample | The word feedback never appears in the cited quote. | passes |
-| electro_optic:integration | Gate C sample and census | integrated_photonic here rests on domain knowledge that a CMOS-fabricated Mach-Zehnder silicon switch is a waveguide device, not on words the quote itself states | passes |
-| mems_silicon_photonic:packaging_notes | Gate C sample | a different sentence in the same abstract that never mentions the interposer at all | passes |
-| thermo_optic:integration | census | never uses waveguide, chip, integrated, or photonic. | passes |
-| mems_2d:integration | census, both rounds | free_space_bulk still rests on domain knowledge the quote does not state. | still fails |
-| soa:ai_cluster_fit | census, both rounds | this cell is still at most "partial", not "yes". | still fails |
-| thermo_optic:wavelength_range | number check, not in the sample | the matrix should not claim "C band" on its own for this route without a quote that says so. | still fails |
+| seed and data | 20260928, run 2 database before step 2 | 20260929, step 2 database and matrix | deliverables/validation_report.md, both run 2 audit sections |
+| samples | 20 papers, 20 cells, 10 project rows | new draws, sharing 1 paper, 4 cells, and 8 project rows with the first run 2 audit | sampled_ids in data/work/audit_r2data_round1.json and audit_s20260929_round1.json |
+| check (a) | OpenAlex lookups, 3 arXiv-only papers compared on title and year only, arxiv.org fallback used 0 times, export.arxiv.org never called | free OpenAlex single-record lookups for all 20, 2 by arXiv DOI, export.arxiv.org never called, 2 citation counts and 4 institutions not on both sides so not compared | STATUS.md, 17:37 and 21:21 lines; validation_report.md, Run 2 audit after the anchor papers |
+| check (b), by code | measured cells, plus academic_groups and companies recomputed by the audit's own query, 18 of 18 match | 47 measured, academic_groups, and companies cells pass, and the recompute matches 18 of 18 | validation_report.md, both sections; data/work/audit_s20260929_round1.json |
+| check (b), by a reader | auditor judged 31 category and free-text cells, then the second judge blind | auditor judged 30 cells (27 category, 3 free-text sample cells), then the second judge blind | same; data/work/audit_s20260929_judgments.json |
+| rounds | round 1 failed (b) on 3 of the 20 sampled cells, stage 6 fixed 4 quotes (those 3 and 1 census cell), and the second round re-checked the same 20 sampled cells, the 3 fixed ones and 17 that had already passed | round 1 passed, no second round | validation_report.md, Corrections after code review, item 4, and Run 2 audit after the anchor papers |
+| second judge agreement | 17 of 20 sample and 23 of 27 census cells, then 20 of 20 and 25 of 27 (it called all 31 supported both times) | 7 of 7 judged sample cells and 24 of 27 census cells (it called all 30 supported) | data/work/audit_r2data_second_judge*.json and audit_s20260929_second_judge.json; STATUS.md, 17:37, 17:56 and 21:21 lines |
+| errors the second judge found in the report | says no re-anchored cell changed, but two changed value and two cite different papers | says the 47 code-checked cells include all 18 academic_groups and companies cells (14 do), and calls 30 cells the other reported or derived cells (42 remain) | STATUS.md, 17:56 line; deliverables/pitfalls_original_log.md, 21:21 |
 
-Judging blind, the second judge called all 31 judged cells supported in both rounds, so it agreed with the auditor on 17 of 20 sample and 23 of 27 census cells at first, then 20 of 20 and 25 of 27 (data/work/audit_r2data_second_judge*.json; STATUS.md, 17:37 and 17:56 lines). It also found that two re-anchored cells changed value and two cite different papers, although the report says none did (STATUS.md, 17:56 line).
+| check | Gate C limit | round 1 | round 2 (padded) | round 3 (after the fix) | first run 2 audit (seed 20260928), round 1 | first run 2 audit (seed 20260928), second round, same 20 cells after the fix | run 2 audit after the anchor papers (seed 20260929), first round |
+|---|---|---|---|---|---|---|---|
+| (a) re-fetch 20 core papers, mismatch rate | at most 10 percent | 0 percent, 16 compared, 4 dropped, PASS | 0 percent, same 16 compared, same 4 dropped, PASS | 0 percent, 20 compared, 0 dropped, PASS | 0 percent, 20 compared, 0 dropped, PASS | 0 percent, same 20, PASS | 0 percent, 20 compared, 0 dropped, PASS |
+| (b) 20 reported matrix cells, unsupported rate | at most 10 percent | 25 percent (5 of 20), FAIL | 0 percent (0 of 20), PASS, not trustworthy | 5 percent (1 of 20), PASS | 15 percent (3 of 20), FAIL | 0 percent (0 of 20), PASS | 0 percent (0 of 20), PASS |
+| (c) 10 project rows, fail rate | at most 20 percent | 0 percent, PASS | 0 percent, PASS | 0 percent, PASS | 0 percent, PASS | 0 percent, PASS | 0 percent, PASS |
+| (d) all evidence spans, pass rate | at least 90 percent | 100 percent of 376, PASS | 100 percent of 376, PASS | 100 percent of 376, PASS | 100 percent of 420, PASS | 100 percent of 420, PASS | 100 percent of 420, PASS |
+| category census, unsupported cells | no gate | not run | not run | 3 of 27 | 4 of 27 | 2 of 27 | 3 of 27 |
 
-Check (a) needed no arxiv.org fallback, which "says more about which 20 papers this seed happened to draw" (Run 2 audit).
+In the first run 2 audit (seed 20260928), for two of the three failures, the quote "is a different, nearby sentence that does not itself say it" (validation_report.md, Run 2 audit). Its second round's 0 percent shows the fixes worked, not the state of a fresh sample (same file, Corrections after code review, item 4). CMOS is complementary metal-oxide-semiconductor.
+
+| cell | where it failed | auditor's words (deliverables/validation_report.md, the last three rows from the run 2 audit after the anchor papers) | first run 2 audit, second round | run 2 audit after the anchor papers |
+|---|---|---|---|---|
+| thermo_optic:packaging_notes | first run 2 audit, Gate C sample | The word feedback never appears in the cited quote. | passes | not drawn |
+| electro_optic:integration | first run 2 audit, Gate C sample and census | integrated_photonic here rests on domain knowledge that a CMOS-fabricated Mach-Zehnder silicon switch is a waveguide device, not on words the quote itself states | passes | passes, census |
+| mems_silicon_photonic:packaging_notes | first run 2 audit, Gate C sample | a different sentence in the same abstract that never mentions the interposer at all | passes | not drawn |
+| thermo_optic:integration | first run 2 audit, census | never uses waveguide, chip, integrated, or photonic. | passes | passes, census |
+| thermo_optic:wavelength_range | first run 2 audit, number check, not in the sample | the matrix should not claim "C band" on its own for this route without a quote that says so. | still fails | passes the code check, after step 2 added a band-name check and quotes that name C and L band (STATUS.md, 21:04 line) |
+| mems_2d:integration | census, every run 2 round | It never describes a free-space beam path, mirrors, or fiber collimators for the 2D implementation by itself, so it does not support the value. | still fails | fails, census |
+| soa:ai_cluster_fit | census, every run 2 round | they support at most an indirect, data-center-in-general claim, not "yes". | still fails | fails, census |
+| piezo:trl_band | run 2 audit after the anchor papers, census | it does not support "lab" over "pilot" or "production". | passes, with an older quote that step 2's rebuild swapped for a loss measurement (data/work/audit_r2data_round2_judge_input.json and audit_s20260929_judge_input.json) | fails, census |
 
 ### Run 1 audits
 
@@ -312,4 +324,5 @@ Run from the repo root on the run 2 database.
 | Q14 | `.venv/bin/python -c "import sqlite3; print(sqlite3.connect('data/db/papers.sqlite').execute('select t.tech_route, count(*), sum(p.year<2012) from tags t join papers p using(paper_id) where p.core_set=1 and t.tech_route in (?,?) group by 1', ('mems_3d','mems_silicon_photonic')).fetchall())"` |
 | Q15 | `.venv/bin/python -c "import sqlite3; r=sqlite3.connect('data/db/papers.sqlite').execute('select sources, openalex_id is null, core_set from papers').fetchall(); s=[(set(a.split(',')),b,c) for a,b,c in r]; A={'arxiv','arxiv_via_openalex'}; print(sum(x<=A for x,_,_ in s), sum(c for x,_,c in s if x<=A), sum(b for _,b,_ in s), sum(b and c for _,b,c in s), sum('arxiv' in x and x<=A for x,_,_ in s))"` prints every-source-arXiv papers, of them core, no OpenAlex ID, of them core, and papers holding a run 1 arxiv record and no other OpenAlex pull |
 | Q16 | `.venv/bin/python -c "import sqlite3; db=sqlite3.connect('data/db/papers.sqlite'); h=\"(arxiv_id is not null or lower(doi) like '10.48550/arxiv.%' or lower(url) like '%arxiv.org%')\"; print([db.execute(f'select count(*), sum(openalex_id is not null), sum(openalex_id is null) from papers where {w} {h}').fetchone() for w in ('', 'core_set=1 and')])"`, the arXiv-hosted test from data/work/run2_arxiv_coverage.md, which gave 133, 93, 40 and 43, 7, 36 on the run 1 database |
-| Q17 | `.venv/bin/python -c "import sqlite3; print(sqlite3.connect('data/db/papers.sqlite').execute(\"select count(*) from papers where title like '%Jupiter Evolving%' or title like '%RotorNet%'\").fetchone())"` |
+| Q17 | `.venv/bin/python -c "import sqlite3; print(sqlite3.connect('data/db/papers.sqlite').execute(\"select sum(doi in ('10.1145/3544216.3544265','10.1145/3098822.3098838') or title like '%Jupiter Evolving%' or title like '%RotorNet%'), group_concat(case when doi='10.1145/1851182.1851222' then paper_id||' core '||core_set||' score '||relevance_score||' '||sources end) from papers\").fetchone())"` prints papers matching the Jupiter Evolving or RotorNet DOI or title, and the c-Through record |
+| Q18 | `.venv/bin/python -c "import yaml,sqlite3,re; from rapidfuzz.fuzz import token_sort_ratio as r; n=lambda s: ' '.join(re.sub(r'[^\w\s]',' ',s.lower()).split()); D={'Jupiter Evolving':'10.1145/3544216.3544265','RotorNet':'10.1145/3098822.3098838','c-Through':'10.1145/1851182.1851222'}; P=sqlite3.connect('data/db/papers.sqlite').execute('select title, doi, core_set from papers where title is not null').fetchall(); A=yaml.safe_load(open('pipeline/queries.yaml'))['anchors']; h=[[c for t,d,c in P if r(n(t),n(a))>=95 or d==D.get(a.split(':')[0],0)] for a in A]; print(len(A), sum(bool(x) for x in h), sum(any(x) for x in h), [a.split(':')[0] for a,x in zip(A,h) if not x and any(n(a).startswith(n(t)+' ') for t,d,c in P)])"` prints anchors, anchors present by step 2's title check (normalized token_sort_ratio of at least 95 against the full anchor title) or by the DOI step 2 took from the publisher's listing (data/work/step2_anchors.md), of them core, and the anchors that match only on their pre-colon OpenAlex titles. Those are Sirius, Helios and ProjecToR. The same pre-colon test is what step 2 did not accept for adding Jupiter Evolving and RotorNet, which were never in the raw pulls, while these 3 were. c-Through also matches only on its pre-colon title, but its DOI matches, so it counts. Run on the run 1 database (git show 8172417:data/db/papers.sqlite) it prints the same |

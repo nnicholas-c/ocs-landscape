@@ -1,0 +1,152 @@
+[
+  {
+    "record_key": "openalex:W1997416642",
+    "score": 1,
+    "adjacent_field": "silicon_photonics",
+    "reason": "Silicon photonics manufacturing platform for optical I/O, not switching."
+  },
+  {
+    "record_key": "openalex:W2002341618",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Demonstrates silicon photonic switches (2x2, 1x2, 4x4) with CMOS drivers."
+  },
+  {
+    "record_key": "openalex:W2015534895",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Demonstrates a non-blocking 4x4 electro-optic silicon switch for on-chip networks."
+  },
+  {
+    "record_key": "openalex:W2019883289",
+    "score": 1,
+    "adjacent_field": "silicon_photonics",
+    "reason": "Title-only silicon optical modulator review, modulators not switches."
+  },
+  {
+    "record_key": "openalex:W2024271185",
+    "score": 1,
+    "adjacent_field": "silicon_photonics",
+    "reason": "Fiber-to-nanophotonic-chip coupling technique, packaging skill, no switching."
+  },
+  {
+    "record_key": "openalex:W2049132385",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Title indicates a silicon nanophotonic wavelength-insensitive switch for on-chip networks."
+  },
+  {
+    "record_key": "openalex:W2063697229",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Demonstrates a compact low-loss low-power 8x8 broadband silicon optical switch."
+  },
+  {
+    "record_key": "openalex:W2069766991",
+    "score": 1,
+    "adjacent_field": "silicon_photonics",
+    "reason": "Title-only broad review of silicon photonics commercialization."
+  },
+  {
+    "record_key": "openalex:W2070348829",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Title-only, vague energy-efficient communication topic, no switching signal."
+  },
+  {
+    "record_key": "openalex:W2070900489",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Demonstrates monolithic silicon integration of photonic switch fabrics with CMOS logic."
+  },
+  {
+    "record_key": "openalex:W1236737278",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Facebook Haystack photo storage system, unrelated to optical switching."
+  },
+  {
+    "record_key": "openalex:W1588462524",
+    "score": 1,
+    "adjacent_field": "telecom_oxc_roadm",
+    "reason": "Optical burst switching, nanosecond-scale, adjacent to circuit switching."
+  },
+  {
+    "record_key": "openalex:W1990283121",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Matrix theory math paper, no abstract, unrelated."
+  },
+  {
+    "record_key": "openalex:W2115874523",
+    "score": 2,
+    "adjacent_field": "telecom_oxc_roadm",
+    "reason": "Wavelength add-drop switch using tilting micromirrors, telecom WSS device."
+  },
+  {
+    "record_key": "openalex:W2120655454",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "VLSI communication switch buffer design, electronic, not optical."
+  },
+  {
+    "record_key": "openalex:W2141911769",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Hybrid data center network scheduling traffic over microsecond optical circuit switches."
+  },
+  {
+    "record_key": "openalex:W2145192475",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Bipartite graph matching algorithm, no abstract, math paper."
+  },
+  {
+    "record_key": "openalex:W2147118406",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "OpenFlow, an electronic SDN switch protocol proposal."
+  },
+  {
+    "record_key": "openalex:W2148147078",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "TDMA scheme for electronic datacenter Ethernet, not optical."
+  },
+  {
+    "record_key": "openalex:W2151023321",
+    "score": 2,
+    "adjacent_field": "telecom_oxc_roadm",
+    "reason": "Reviews wavelength-selective switches for telecom ROADM applications."
+  },
+  {
+    "record_key": "openalex:W2159536473",
+    "score": 2,
+    "adjacent_field": "telecom_oxc_roadm",
+    "reason": "MONET project final report on a reconfigurable transparent optical telecom network."
+  },
+  {
+    "record_key": "openalex:W2165334967",
+    "score": 1,
+    "adjacent_field": "telecom_oxc_roadm",
+    "reason": "Terabit optical burst switching architecture, adjacent nanosecond switching, not OCS."
+  },
+  {
+    "record_key": "openalex:W2462988532",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Fat-tree topology fault tolerance study, electronic data center network."
+  },
+  {
+    "record_key": "openalex:W2493312408",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Zero-sum game / assignment problem math paper, no abstract."
+  },
+  {
+    "record_key": "openalex:W4238465620",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Duplicate: commodity Ethernet fat-tree data center architecture, electronic."
+  }
+]

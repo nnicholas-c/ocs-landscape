@@ -1,0 +1,202 @@
+[
+  {
+    "record_key": "openalex:W3180467685",
+    "source": "openalex",
+    "title": "Reconfigurable Intelligent Surfaces: Potentials, Applications, and Challenges for 6G Wireless Networks",
+    "year": 2021,
+    "venue": "IEEE Wireless Communications",
+    "abstract": "Reconfigurable intelligent surfaces (RISs), with the potential to realize smart radio environments, have emerged as an energy-efficient and a cost-effective technology to support the services and demands foreseen for coming decades. By leveraging a large number of low-cost passive reflecting elements, RISs introduce a phase-shift in the impinging signal to create a favorable propagation channel between the transmitter and the receiver. In this article, we provide a tutorial overview of RISs for sixth-generation (6G) wireless networks. Specifically, we present a comprehensive discussion on performance gains that can be achieved by integrating RISs with emerging communication technologies. We address the practical implementation of RIS-assisted networks and expose the crucial challenges, including the RIS reconfiguration, deployment and size optimization, and channel estimation."
+  },
+  {
+    "record_key": "openalex:W2171830950",
+    "source": "openalex",
+    "title": "Dynamically Reconfigurable Photonic Resources for Optically Connected Data Center Networks",
+    "year": 2012,
+    "venue": "Optical Fiber Communication Conference",
+    "abstract": "A modular, traffic-adaptable data center network architecture leveraging unique reconfigurable optical functionalities is presented. Optical multicasting and subnet formation is demonstrated between four ports at up to 80 Gb/s per port."
+  },
+  {
+    "record_key": "openalex:W2792477041",
+    "source": "openalex",
+    "title": "Reconfigurable free space optical data center network using gimbal-less MEMS retroreflective acquisition and tracking",
+    "year": 2018,
+    "venue": null,
+    "abstract": "Robust and agile reconfigurable free space optical communication (FSO) links over dynamic traffic play a key role in next generation flexible wireless datacenter inter-rack networks, in terms of high throughput, dynamic robustness, cable complexity and energy efficiency. In this paper, we propose and demonstrate an agile reconfigurable 10Gbps FSO system incorporated with intelligent beam acquisition and tracking mechanism based on gimbal-less two-axis MEMS micromirror and retro-reflective film optics. Steering latency and alignment accuracy of reconfigurable FSO links are evaluated over various distances and directions, and get enhanced by intelligent adaptive acquisition and tracking schemes. Optical power loss and bit error rate of reconfigurable 10Gbps FSO links with mobility are reported over a distance of 13 m. Results show that it"
+  },
+  {
+    "record_key": "openalex:W3110989801",
+    "source": "openalex",
+    "title": "Towards 6G wireless communication networks: vision, enabling technologies, and new paradigm shifts",
+    "year": 2020,
+    "venue": "Science China Information Sciences",
+    "abstract": "Abstract The fifth generation (5G) wireless communication networks are being deployed worldwide from 2020 and more capabilities are in the process of being standardized, such as mass connectivity, ultra-reliability, and guaranteed low latency. However, 5G will not meet all requirements of the future in 2030 and beyond, and sixth generation (6G) wireless communication networks are expected to provide global coverage, enhanced spectral/energy/cost efficiency, better intelligence level and security, etc. To meet these requirements, 6G networks will rely on new enabling technologies, i.e., air interface and transmission technologies and novel network architecture, such as waveform design, multiple access, channel coding schemes, multi-antenna technologies, network slicing, cell-free architecture, and cloud/fog/edge computing. Our vision on 6G is that it will have four new"
+  },
+  {
+    "record_key": "openalex:W3125126004",
+    "source": "openalex",
+    "title": "Nonreciprocal reconfigurable microwave optomechanical circuit",
+    "year": 2017,
+    "venue": "Nature Communications",
+    "abstract": "Nonreciprocal microwave devices are ubiquitous in radar and radio communication and indispensable in the readout chains of superconducting quantum circuits. Since they commonly rely on ferrite materials requiring large magnetic fields that make them bulky and lossy, there has been significant interest in magnetic-field-free on-chip alternatives, such as those recently implemented using the Josephson nonlinearity. Here, we realize reconfigurable nonreciprocal transmission between two microwave modes using purely optomechanical interactions in a superconducting electromechanical circuit. The scheme relies on the interference in two mechanical modes that mediate coupling between the microwave cavities and requires no magnetic field. We analyse the isolation, transmission and the noise properties of this nonreciprocal circuit. Finally, we show how quantum-limited circulators can be realized with the"
+  },
+  {
+    "record_key": "openalex:W2622218982",
+    "source": "openalex",
+    "title": "Multimode entanglement in reconfigurable graph states using optical frequency combs",
+    "year": 2017,
+    "venue": "Nature Communications",
+    "abstract": "Multimode entanglement is an essential resource for quantum information processing and quantum metrology. However, multimode entangled states are generally constructed by targeting a specific graph configuration. This yields to a fixed experimental setup that therefore exhibits reduced versatility and scalability. Here we demonstrate an optical on-demand, reconfigurable multimode entangled state, using an intrinsically multimode quantum resource and a homodyne detection apparatus. Without altering either the initial squeezing source or experimental architecture, we realize the construction of thirteen cluster states of various sizes and connectivities as well as the implementation of a secret sharing protocol. In particular, this system enables the interrogation of quantum correlations and fluctuations for any multimode Gaussian state. This initiates an avenue for implementing on-demand quantum information"
+  },
+  {
+    "record_key": "openalex:W4281958713",
+    "source": "openalex",
+    "title": "RGAIA: a reconfigurable AWGR based optical data center network",
+    "year": 2022,
+    "venue": "Optics Express",
+    "abstract": "Benefitting from the cost-effective and flexible interconnection between computing nodes and storing infrastructures, various applications and services are deployed in data centers (DCs). These traffic-boosting applications put tremendous pressures on current electrically switched DC networks (DCNs) which suffer the bandwidth bottleneck. Benefitting from the data-rate and format transparency, the optically switched DCN with intrinsic high-bandwidth characteristics is a promising solution to update the hierarchical electrical DCNs with bandwidth limitations. Moreover, the applications deployed in DCNs with mixed traffic characteristics require dynamic quality of service (QoS) provisioning. Optical DCNs thus need to be designed in a flexible topology with the capability of bandwidth reconfigurability to adapt the variety of the traffic. In this paper, we propose and experimentally investigate a reconfigurable"
+  },
+  {
+    "record_key": "openalex:W2583039042",
+    "source": "openalex",
+    "title": "FireFly: reconfigurable optical wireless networking data centers",
+    "year": 2017,
+    "venue": "Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE",
+    "abstract": "We explore a novel, free-space optics based approach for building data center interconnects. Data centers (DCs) are a critical piece of today’s networked applications in both private and public sectors. The key factors that have driven this trend are economies of scale, reduced management costs, better utilization of hardware via statistical multiplexing, and the ability to elastically scale applications in response to changing workload patterns. A robust DC network fabric is fundamental to the success of DCs and to ensure that the network does not become a bottleneck for high-performance applications. In this context, DC network design must satisfy several goals: high performance (e.g., high throughput and low latency), low equipment and management cost, robustness to dynamic traffic patterns, incremental"
+  },
+  {
+    "record_key": "openalex:W2067453331",
+    "source": "openalex",
+    "title": "A Survey on Software-Defined Networking",
+    "year": 2014,
+    "venue": "IEEE Communications Surveys & Tutorials",
+    "abstract": "Emerging mega-trends (e.g., mobile, social, cloud, and big data) in information and communication technologies (ICT) are commanding new challenges to future Internet, for which ubiquitous accessibility, high bandwidth, and dynamic management are crucial. However, traditional approaches based on manual configuration of proprietary devices are cumbersome and error-prone, and they cannot fully utilize the capability of physical network infrastructure. Recently, software-defined networking (SDN) has been touted as one of the most promising solutions for future Internet. SDN is characterized by its two distinguished features, including decoupling the control plane from the data plane and providing programmability for network application development. As a result, SDN is positioned to provide more efficient configuration, better performance, and higher flexibility to accommodate innovative network designs."
+  },
+  {
+    "record_key": "openalex:W2157224582",
+    "source": "openalex",
+    "title": "Survey and Evaluation of Space Division Multiplexing: From Technologies to Optical Networks",
+    "year": 2015,
+    "venue": "IEEE Communications Surveys & Tutorials",
+    "abstract": "Single-mode fiber's physical capacity boundaries will soon be reached; hence, alternative solutions are much needed to overcome the multiplying and remarkably large bandwidth requests. Space division multiplexing (SDM) using multicore fibers (MCFs), multielement fibers, multimode fibers, and their combination; few-mode MCFs; or fibers based on orbital angular momentum are considered to be the propitious stepping-stones to overcome the capacity crunch of conventional single-core fibers. We critically review research progress on SDM fibers and network components, and we introduce two figures of merit aiming for quantitative evaluation of technologies such as amplifiers, fan-in/fan-out multiplexers, transmitters, switches, and SDM nodes. Results show that SDM fibers achieve a 1185-fold (18-fold) spectral-spatial efficiency increase compared with the 276-SMF bundle (single-core fiber) currently installed on"
+  },
+  {
+    "record_key": "openalex:W2775765784",
+    "source": "openalex",
+    "title": "MEMS-based reconfigurable optical wireless networking in data centers",
+    "year": 2017,
+    "venue": null,
+    "abstract": "A flexible wireless Data Center (DC) network based on precise steerable Free Space Optical (FSO) links is described as a promising solution to meet future DC demands of high-throughput, with robustness to dynamic traffic patterns, reducing cabling complexity and increased energy efficiency. Robust and precise steerable FSO links over dynamic traffic play a key role in the reconfigurable optical wireless DC inter-rack networks. In this work, we propose and demonstrate a reconfigurable 10 Gbps FSO system incorporating a smart beam acquisition and tracking mechanism based on gimbal-less two-axis MEMS micro-mirror and retro-reflective film marked aperture. The fast MEMS-based beam acquisition switches laser beam of FSO terminal from one rack to the next for reconfigurable networking, and the precise beam tracking"
+  },
+  {
+    "record_key": "openalex:W4213428796",
+    "source": "openalex",
+    "title": "Space-efficient optical computing with an integrated chip diffractive neural network",
+    "year": 2022,
+    "venue": "Nature Communications",
+    "abstract": "Abstract Large-scale, highly integrated and low-power-consuming hardware is becoming progressively more important for realizing optical neural networks (ONNs) capable of advanced optical computing. Traditional experimental implementations need N 2 units such as Mach-Zehnder interferometers (MZIs) for an input dimension N to realize typical computing operations (convolutions and matrix multiplication), resulting in limited scalability and consuming excessive power. Here, we propose the integrated diffractive optical network for implementing parallel Fourier transforms, convolution operations and application-specific optical computing using two ultracompact diffractive cells (Fourier transform operation) and only N MZIs. The footprint and energy consumption scales linearly with the input data dimension, instead of the quadratic scaling in the traditional ONN framework. A ~10-fold reduction in both footprint and energy consumption, as"
+  },
+  {
+    "record_key": "openalex:W3005174771",
+    "source": "openalex",
+    "title": "Open and disaggregated optical transport networks for data center interconnects [Invited]",
+    "year": 2020,
+    "venue": "Journal of Optical Communications and Networking",
+    "abstract": "In this paper, we present Alibaba’s practices and views on open and disaggregated optical transport networks, with a focus on metro data center interconnects (DCIs). We first discuss technology developments that have enabled open optical transport networks, followed by a presentation of our open optical network architecture for DCI networks. We then describe an overall data center network architecture and the application scenario of open and disaggregated DCI technology. Details of the point-to-point DCI network architecture and the need for reconfigurable optical add–drop multiplexers (ROADMs) in DCI networks are then discussed. We present the data models of DCI equipment, including optical terminal transponders, point-to-point optical line systems, and ROADMs, developed based on OpenConfig YANG models. The detailed design and implementation"
+  },
+  {
+    "record_key": "openalex:W2810723790",
+    "source": "openalex",
+    "title": "Characterizing the algorithmic complexity of reconfigurable data center architectures",
+    "year": 2018,
+    "venue": null,
+    "abstract": "Emerging data center architectures are becoming reconfigurable. While prior work has shown the practical benefits of reconfigurable topologies, the underlying algorithmic complexity is not yet well understood. In particular, most reconfigurable topologies are hybrid, where parts of the network are reconfigurable (consisting of optical or wireless devices) while other parts are static (consisting of electrical switches). Current proposals enforce a routing policy that routes flows on either part \"exclusively\" by labeling flows as mice or elephant. We show that such artificial segregation in routing policy results in non-optimal paths and argue for algorithms that route packets across the network seamlessly. In doing so, we present the first algorithmic study of reconfigurable network architectures and provide optimality and hardness proofs in"
+  },
+  {
+    "record_key": "openalex:W4210530467",
+    "source": "openalex",
+    "title": "Reconfigurable perovskite nickelate electronics for artificial intelligence",
+    "year": 2022,
+    "venue": "Science",
+    "abstract": "Reconfigurable devices offer the ability to program electronic circuits on demand. In this work, we demonstrated on-demand creation of artificial neurons, synapses, and memory capacitors in post-fabricated perovskite NdNiO 3 devices that can be simply reconfigured for a specific purpose by single-shot electric pulses. The sensitivity of electronic properties of perovskite nickelates to the local distribution of hydrogen ions enabled these results. With experimental data from our memory capacitors, simulation results of a reservoir computing framework showed excellent performance for tasks such as digit recognition and classification of electrocardiogram heartbeat activity. Using our reconfigurable artificial neurons and synapses, simulated dynamic networks outperformed static networks for incremental learning scenarios. The ability to fashion the building blocks of brain-inspired computers on demand"
+  },
+  {
+    "record_key": "openalex:W4224296904",
+    "source": "openalex",
+    "title": "Reconfigurable halide perovskite nanocrystal memristors for neuromorphic computing",
+    "year": 2022,
+    "venue": "Nature Communications",
+    "abstract": "Abstract Many in-memory computing frameworks demand electronic devices with specific switching characteristics to achieve the desired level of computational complexity. Existing memristive devices cannot be reconfigured to meet the diverse volatile and non-volatile switching requirements, and hence rely on tailored material designs specific to the targeted application, limiting their universality. “Reconfigurable memristors” that combine both ionic diffusive and drift mechanisms could address these limitations, but they remain elusive. Here we present a reconfigurable halide perovskite nanocrystal memristor that achieves on-demand switching between diffusive/volatile and drift/non-volatile modes by controllable electrochemical reactions. Judicious selection of the perovskite nanocrystals and organic capping ligands enable state-of-the-art endurance performances in both modes – volatile (2 × 10 6 cycles) and non-volatile (5.6 × 10 3"
+  },
+  {
+    "record_key": "openalex:W4221160263",
+    "source": "openalex",
+    "title": "Reconfigurable intelligent surfaces for wireless communications: Overview of hardware designs, channel models, and estimation techniques",
+    "year": 2022,
+    "venue": "Intelligent and Converged Networks",
+    "abstract": "The demanding objectives for the future sixth generation (6G) of wireless communication networks have spurred recent research efforts on novel materials and radio-frequency front-end architectures for wireless connectivity, as well as revolutionary communication and computing paradigms. Among the pioneering candidate technologies for 6G belong the reconfigurable intelligent surfaces (RISs), which are artificial planar structures with integrated electronic circuits that can be programmed to manipulate the incoming electromagnetic field in a wide variety of functionalities. Incorporating RISs in wireless networks have been recently advocated as a revolutionary means to transform any wireless signal propagation environment to a dynamically programmable one, intended for various networking objectives, such as coverage extension and capacity boosting, spatiotemporal focusing with benefits in energy efficiency and secrecy,"
+  },
+  {
+    "record_key": "openalex:W2962819996",
+    "source": "openalex",
+    "title": "Survey of Reconfigurable Data Center Networks",
+    "year": 2019,
+    "venue": "ACM SIGACT News",
+    "abstract": "Emerging optical technologies introduce opportunities to recon gure network topologies at runtime. The resulting topological exibilities can be exploited to design novel demand-aware and self-adjusting networks. This paper provides an overview of the algorithmic problems introduced by this technology, and surveys rst solutions."
+  },
+  {
+    "record_key": "openalex:W2809053936",
+    "source": "openalex",
+    "title": "Multifunctional ferrofluid-infused surfaces with reconfigurable multiscale topography",
+    "year": 2018,
+    "venue": "Nature",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W1973255932",
+    "source": "openalex",
+    "title": "Reconfigurable Bandwidth Service based on optical network state for inter-data center communication",
+    "year": 2012,
+    "venue": null,
+    "abstract": "Geographically distributed data centers for the rapid growth of worldwide cloud service bring the demand of massive inter-data center information exchange. Considering the capacity and costs, existing optical networks show their advantages to carry the non-interactive, delay tolerated and bulk inter-data center data. In order not to affect the real-time traffic, these bulk data is usually transferred between data centers when traffic load is relatively light. However, to transfer these bulk data in the same period of time may cause severe resource competition, and the network performance will deteriorate. In this paper, we propose a strategy of Reconfigurable Bandwidth Service (RBS) based on optical network state to deal with the problem. Simulations are conducted to illustrate the improvement of our"
+  },
+  {
+    "record_key": "openalex:W4223554347",
+    "source": "openalex",
+    "title": "GNPy model of the physical layer for open and disaggregated optical networking [Invited]",
+    "year": 2022,
+    "venue": "Journal of Optical Communications and Networking",
+    "abstract": "Networking technologies are fast evolving to support the request for ubiquitous Internet access that is becoming a fundamental need for the modern and inclusive society, with a dramatic speed-up caused by the COVID-19 emergency. Such evolution needs the development of networks into disaggregated and programmable systems according to the software-defined networking (SDN) paradigm. Wavelength-division multiplexed (WDM) optical transmission and networking is expanding as physical layer technology from core and metro networks to 5G x -hauling and inter- and intra-data-center connections requiring the application of the SDN paradigm at the optical layer based on the WDM optical data transport virtualization. We present the fundamental principles of the open-source project Gaussian Noise in Python (GNPy) for the optical transport virtualization in modeling"
+  },
+  {
+    "record_key": "openalex:W2097053956",
+    "source": "openalex",
+    "title": "Power consumption modeling in optical multilayer networks",
+    "year": 2012,
+    "venue": "Photonic Network Communications",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W2980615180",
+    "source": "openalex",
+    "title": "Flexible and Scalable Optical Interconnects for Data Centers: Trends and Challenges",
+    "year": 2019,
+    "venue": "IEEE Communications Magazine",
+    "abstract": "Emerging applications such as machine learning place higher demands on the flexibility and scalability of data center networks. On one hand, it is difficult for the fixed network topology to match the traffic patterns of different neural networks. On the other hand, the rapid growth of training data, model size, and computing requirements has led to an ever-increasing scale of data center networks. Traditional electrical interconnects lack the ability to adjust the network topology and communication bandwidth, resulting in significant resource waste and high expansion costs. Optical interconnects are introduced to solve the above problems because of its high bandwidth, low power consumption, and reconfigurability. In this article, the optical interconnects in recent years are analyzed in detail, and the"
+  },
+  {
+    "record_key": "openalex:W3128241849",
+    "source": "openalex",
+    "title": "Dual closed-loop chemical recycling of synthetic polymers by intrinsically reconfigurable poly(disulfides)",
+    "year": 2021,
+    "venue": "Matter",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W3160587957",
+    "source": "openalex",
+    "title": "Quantum networks based on color centers in diamond",
+    "year": 2021,
+    "venue": "Journal of Applied Physics",
+    "abstract": "With the ability to transfer and process quantum information, large-scale quantum networks will enable a suite of fundamentally new applications, from quantum communications to distributed sensing, metrology, and computing. This Perspective reviews requirements for quantum network nodes and color centers in diamond as suitable node candidates. We give a brief overview of state-of-the-art quantum network experiments employing color centers in diamond and discuss future research directions, focusing, in particular, on the control and coherence of qubits that distribute and store entangled states, and on efficient spin–photon interfaces. We discuss a route toward large-scale integrated devices combining color centers in diamond with other photonic materials and give an outlook toward realistic future quantum network protocol implementations and applications."
+  }
+]

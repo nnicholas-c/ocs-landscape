@@ -1,0 +1,6 @@
+[
+  {"record_key": "openalex:W2160642098", "score": 0, "adjacent_field": null, "reason": "OPTICS clustering algorithm for database mining, name collision, unrelated to OCS."},
+  {"record_key": "openalex:W2486960733", "score": 3, "adjacent_field": null, "reason": "ProjecToR: free-space optical datacenter interconnect using DMD, reconfigures links in 12us."},
+  {"record_key": "openalex:W2260723393", "score": 3, "adjacent_field": null, "reason": "Demonstrates 64x64 large-scale silicon photonic switch with adiabatic couplers, low loss."},
+  {"record_key": "openalex:W2138361600", "score": 3, "adjacent_field": null, "reason": "1100x1100 port MEMS-based optical crossconnect switch with 4dB max loss."}
+]

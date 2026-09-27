@@ -1,0 +1,34 @@
+[
+  {
+    "record_key": "openalex:W2160642098",
+    "source": "openalex",
+    "title": "OPTICS",
+    "year": 1999,
+    "venue": "ACM SIGMOD Record",
+    "abstract": "Cluster analysis is a primary method for database mining. It is either used as a stand-alone tool to get insight into the distribution of a data set, e.g. to focus further analysis and data processing, or as a preprocessing step for other algorithms operating on the detected clusters. Almost all of the well-known clustering algorithms require input parameters which are hard to determine but have a significant influence on the clustering result. Furthermore, for many real-data sets there does not even exist a global parameter setting for which the result of the clustering algorithm describes the intrinsic clustering structure accurately. We introduce a new algorithm for the purpose of cluster analysis which does not produce a clustering of a data"
+  },
+  {
+    "record_key": "openalex:W2486960733",
+    "source": "openalex",
+    "title": "ProjecToR",
+    "year": 2016,
+    "venue": null,
+    "abstract": "We explore a novel, free-space optics based approach for building data center interconnects. It uses a digital micromirror device (DMD) and mirror assembly combination as a transmitter and a photodetector on top of the rack as a receiver (Figure 1). Our approach enables all pairs of racks to establish direct links, and we can reconfigure such links (i.e., connect different rack pairs) within 12 us. To carry traffic from a source to a destination rack, transmitters and receivers in our interconnect can be dynamically linked in millions of ways. We develop topology construction and routing methods to exploit this flexibility, including a flow scheduling algorithm that is a constant factor approximation to the offline optimal solution. Experiments with a small"
+  },
+  {
+    "record_key": "openalex:W2260723393",
+    "source": "openalex",
+    "title": "Large-scale broadband digital silicon photonic switches with vertical adiabatic couplers",
+    "year": 2016,
+    "venue": "Optica",
+    "abstract": "Large-scale photonic switches are essential devices for energy-and cost-efficient optical communication networks in cloud and data-intensive computing. Silicon photonics is an attractive platform for high-density photonic integrated circuits with low manufacturing costs through the leveraging of existing advanced complementary metal-oxide-semiconductor processes. Many optical components such as lasers, modulators, splitters, and photodetectors have been successfully integrated on silicon; however, the quest for large-scale silicon photonic switches has remained elusive. Previous silicon photonic switches made of cascaded 1 x 2 or 2 x 2 building blocks have a limited port count (= 8 x 8) or excessive optical losses (> 15 dB). Here, we present a 64 x 64 digital silicon photonic switch with a low on-chip insertion loss (3.7 dB) and"
+  },
+  {
+    "record_key": "openalex:W2138361600",
+    "source": "openalex",
+    "title": "1100 x 1100 port MEMS-based optical crossconnect with 4-dB maximum loss",
+    "year": 2003,
+    "venue": "IEEE Photonics Technology Letters",
+    "abstract": "We present a microelectromechanical systems-based beam steering optical crossconnect switch core with port count exceeding 1100, featuring mean fiber-to-fiber insertion loss of 2.1 dB and maximum insertion loss of 4.0 dB across all possible connections. The challenge of efficient measurement and optimization of all possible connections was met by an automated testing facility. The resulting connections feature optical loss stability of better than 0.2 dB over days, without any feedback control under normal laboratory conditions."
+  }
+]

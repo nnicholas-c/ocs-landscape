@@ -1,0 +1,142 @@
+[
+  {
+    "paper_id": "W3009983062",
+    "title": "Large-scale silicon photonics switch based on 45-nm CMOS technology",
+    "year": 2020,
+    "venue": "Optics Communications",
+    "abstract": "In optical networks for telecom and datacom, an unprecedented energy efficient system is demanded since the amount of data traffic is rapidly increasing while a significant improvement of the energy efficiency in electronics devices such as switch ASICs is no longer expected. To overcome the energy constraints, introduction of energy-efficient optical circuit switching (OCS) to the conventional electrical packet switching network is considered. The energy consumption of the OCS is almost independent of the bandwidth because the transparent optical path with no optical-to-electrical/electrical-to-optical signal conversion supports an ultrawide bandwidth of highly multiplexed optical signals. In the OCS, high-speed and large-port-count optical switches are essential. We have been working on optical switches based on CMOS-compatible silicon photonics that offer fast switching, compactness, low power consumption, and low cost. By using our 45-nm CMOS process, we have recently demonstrated a low loss 32 × 32 silicon photonics switch and its performance improvements of wide operation bandwidth, polarization-independent operation, and so forth. In this paper, we review the recent progress of our silicon photonics switches. We discuss the importance of the silicon photonics switches for a sustainable optical network with a comparison of other switching technologies and explain comprehensively how our numerous achievements are advanced and related to each other."
+  },
+  {
+    "paper_id": "W4391878049",
+    "title": "Large-Scale and Multiband Silicon Photonics Wavelength Cross-Connect Switch With FSR-Free Grating-Assisted Contra-Directional Couplers",
+    "year": 2024,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "The recent advancement of cloud computing including AI applications requires a large networking capacity in datacenters resulting in a large power consumption at the same time. Optical switches significantly improve energy efficiency in datacenter networks, and silicon photonics enables the optical switch to operate faster than microseconds and be highly integrable for co-integration with GPUs. To support such high-capacity interconnect and switching, flexible use of multiple lanes and wavelength division multiplexing is essential, which can be implemented by a wavelength selective switch or wavelength cross-connect (WXC) switch. We proposed a novel silicon photonics WXC switch with free-spectral-range (FSR)-free grating-assisted contra-directional couplers (C-DCs) and Mach-Zehnder interferometers (MZIs), where extremely broadband operation is expected because of the unlimited FSR. In this paper, we demonstrate a largest ever port- and channel-count, 16 × 16 ports and 16 wavelength channels over the C+L-band, monolithically integrated WXC switch with 256 FSR-free grating-assisted C-DCs and 1,024 thermo-optic MZIs. Further extended multiband operation from the O-band to U-band will be potentially available by implementing two additional design considerations."
+  },
+  {
+    "paper_id": "W2889455810",
+    "title": "De‐multiplexing free on‐chip low‐loss multimode switch enabling reconfigurable inter‐mode and inter‐path routing",
+    "year": 2018,
+    "venue": "Nanophotonics",
+    "abstract": "Abstract Switching and routing are critical functionalities for a reconfigurable bandwidth‐dense optical network, and great efforts had been made to accommodate mode‐division multiplexing technology. Although the reconfigurable routing for spatial‐mode groups between different optical paths was realized recently, a demultiplexing‐switching‐multiplexing process is necessary. Here we present a simplified and compact on‐chip 2×2 multimode switch that can be easily upgradable to a larger scale. Fully and reconfigurable routing between not only optical paths but also spatial modes is achieved. To obtain a low loss multimode processing, a novel structure free from demultiplexing and re‐multiplexing operations is adopted. The switch enables minimum and maximum insertion losses of 0.3 and 1.2 dB, with a compact footprint of 433 μm×433 μm and low crosstalk of <−16.6 dB for all channels. It is further extended to two types of 4×4 switch fabrics with cross‐bar and ring‐bus architectures, as demonstrations of high‐level integration. System characterization with 32 Gb/s high‐speed modulated signals is also carried out, reaching up to 256 Gb/s aggregate throughput. These results verify a general solution of 2×2 multimode switch for reconfigurable inter‐mode and inter‐path routing applicable in large‐scale and high‐density multimode optical network."
+  },
+  {
+    "paper_id": "W4409153023",
+    "title": "On-chip Non-Blocking 4 × 4 and 8 × 8 Photonic Switches Using MMI-MZI Configuration for Next-Generation Data Center Networks",
+    "year": 2025,
+    "venue": "IEEE Transactions on Nanotechnology",
+    "abstract": "The advancement of future photonic integrated circuits for data center networks relies crucially on the development of highly efficient, low-power, and compact switches. This paper presents the design of non-blocking 4×4 and 8×8 silicon photonics switches intended using Multimode Interferometer (MMI)-Mach-Zehnder interferometer (MZI) structures. These proposed switches consist of 2×2 MMI-MZI switches realized by changing the phase of an optical signal using the thermo-optic effect. At 1550 nm, the proposed 2×2 switch exhibits an insertion loss of 0.04 dB and crosstalk of < 39.95 dB. Similarly, the C-band showcases an insertion loss of < 0.06 dB and crosstalk of < -33 dB. To support complex network topologies and enhance network efficiency, a data center network necessitates a higher quantity of port switches. The results show that at 1550 nm, the insertion loss for the 4×4 and 8×8 switches is 0.47 dB and 1.02 dB, respectively. Furthermore, the insertion loss for the C-band is < 0.50 dB and < 1.5 dB, respectively. The switches exhibit crosstalk of -37.59 dB and -34.67 dB at 1550 nm, respectively. Additionally, they demonstrate crosstalk of < -30 dB for the C-band. This suggests the potential for further scalability in terms of port counts. The switches are designed using the eigenmode expansion method, and the micro heater is designed with a finite element heat transfer solver. These advantages and excellent performance make the device a promising candidate for use in advanced communication systems and photonic integrated circuits."
+  },
+  {
+    "paper_id": "W2897393425",
+    "title": "High-performance and scalable on-chip digital Fourier transform spectroscopy",
+    "year": 2018,
+    "venue": "Nature Communications",
+    "abstract": "Abstract On-chip spectrometers have the potential to offer dramatic size, weight, and power advantages over conventional benchtop instruments for many applications such as spectroscopic sensing, optical network performance monitoring, hyperspectral imaging, and radio-frequency spectrum analysis. Existing on-chip spectrometer designs, however, are limited in spectral channel count and signal-to-noise ratio. Here we demonstrate a transformative on-chip digital Fourier transform spectrometer that acquires high-resolution spectra via time-domain modulation of a reconfigurable Mach-Zehnder interferometer. The device, fabricated and packaged using industry-standard silicon photonics technology, claims the multiplex advantage to dramatically boost the signal-to-noise ratio and unprecedented scalability capable of addressing exponentially increasing numbers of spectral channels. We further explore and implement machine learning regularization techniques to spectrum reconstruction. Using an ‘elastic-D 1 ’ regularized regression method that we develop, we achieved significant noise suppression for both broad (>600 GHz) and narrow (<25 GHz) spectral features, as well as spectral resolution enhancement beyond the classical Rayleigh criterion."
+  },
+  {
+    "paper_id": "W2739117960",
+    "title": "Electro-optic routing of photons from a single quantum dot in photonic integrated circuits",
+    "year": 2017,
+    "venue": "Optics Express",
+    "abstract": "Recent breakthroughs in solid-state photonic quantum technologies enable generating and detecting single photons with near-unity efficiency as required for a range of photonic quantum technologies.The lack of methods to simultaneously generate and control photons within the same chip, however, has formed a main obstacle to achieving efficient multi-qubit gates and to harness the advantages of chip-scale quantum photonics.Here we propose and demonstrate an integrated voltage-controlled phase shifter based on the electro-optic effect in suspended photonic waveguides with embedded quantum emitters.The phase control allows building a compact Mach-Zehnder interferometer with two orthogonal arms, taking advantage of the anisotropic electro-optic response in gallium arsenide.Photons emitted by single self-assembled quantum dots can be actively routed into the two outputs of the interferometer.These results, together with the observed sub-microsecond response time, constitute a significant step towards chip-scale single-photon-source de-multiplexing, fiber-loop boson sampling, and linear optical quantum computing."
+  },
+  {
+    "paper_id": "W2335273496",
+    "title": "Broadband 4 $\\times$ 4 Nonblocking Silicon Electrooptic Switches Based on Mach–Zehnder Interferometers",
+    "year": 2015,
+    "venue": "IEEE photonics journal",
+    "abstract": "We report a broadband 4 × 4 nonblocking optical switch with Mach-Zehnder interferometers (MZIs) as switch elements on a silicon platform. Silicon resistive heaters are used for phase error correction of MZI arms with total thermooptic power consumption of 33.7 mW. Fast switching is enabled by p-i-n diodes, with average electrooptic tuning power of 14.3 mW for the 24 essential switching states as required for nonblocking routing. The average on-chip insertion loss is 5.8-7.7 dB and crosstalk better than -12 dB at wavelength of 1550 nm. Optical transmission experiments using a high-throughput 50 Gb/s quadrature phase-shift keying (QPSK) optical signal reveal that no significant deterioration is observed on constellation diagrams."
+  },
+  {
+    "paper_id": "W2324604385",
+    "title": "Fast and accurate calibration method for large-port-count Si-wire PILOSS optical switch",
+    "year": 2015,
+    "venue": null,
+    "abstract": "We propose a calibration method for N×N Si-wire path-independent-insertion-loss (PILOSS) optical switches with thermo-optic Mach-Zehnder-interferometer (MZI) element switches. Calibration for a 32x32 switch is numerically demonstrated with an error less than 1% within an hour."
+  },
+  {
+    "paper_id": "W2964101383",
+    "title": "An Overview on Application of Machine Learning Techniques in Optical Networks",
+    "year": 2018,
+    "venue": "IEEE Communications Surveys & Tutorials",
+    "abstract": "Today's telecommunication networks have become sources of enormous amounts of widely heterogeneous data. This information can be retrieved from network traffic traces, network alarms, signal quality indicators, users' behavioral data, etc. Advanced mathematical tools are required to extract meaningful information from these data and take decisions pertaining to the proper functioning of the networks from the network-generated data. Among these mathematical tools, machine learning (ML) is regarded as one of the most promising methodological approaches to perform network-data analysis and enable automated network self-configuration and fault management. The adoption of ML techniques in the field of optical communication networks is motivated by the unprecedented growth of network complexity faced by optical networks in the last few years. Such complexity increase is due to the introduction of a huge number of adjustable and interdependent system parameters (e.g., routing configurations, modulation format, symbol rate, coding schemes, etc.) that are enabled by the usage of coherent transmission/reception technologies, advanced digital signal processing, and compensation of nonlinear effects in optical fiber propagation. In this paper we provide an overview of the application of ML to optical communications and networking. We classify and survey relevant literature dealing with the topic, and we also provide an introductory tutorial on ML for researchers and practitioners interested in this field. Although a good number of research papers have recently appeared, the application of ML to optical networks is still in its infancy: to stimulate further work in this area, we conclude this paper proposing new possible research directions."
+  },
+  {
+    "paper_id": "W2022337631",
+    "title": "Power consumption evaluation of all-optical data center networks",
+    "year": 2012,
+    "venue": "Cluster Computing",
+    "abstract": null
+  },
+  {
+    "paper_id": "W2064033006",
+    "title": "Hundred-Picoseconds Electro-Optical Switching With Semiconductor Optical Amplifiers Using Multi-Impulse Step Injection Current",
+    "year": 2014,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "An ultrafast electro-optical amplified switch based on chip-on-carrier semiconductor optical amplifier with high optical contrast (33 dB) is presented. Switching times up to 115 ps with small overshoot were achieved by using the multi-impulse step injected current technique. These results are compared with previous preimpulse step injected current technique, and achieve a reduction of the inherent, post switching gain fluctuations without worsening the switching times. In addition, pulse formats for controlling such a kind of electro-optical switches are numerically analyzed and compared with experiments."
+  },
+  {
+    "paper_id": "W1989361652",
+    "title": "Scalable and Distributed Contention Resolution in AWGR-Based Data Center Switches Using RSOA-Based Optical Mutual Exclusion",
+    "year": 2012,
+    "venue": "IEEE Journal of Selected Topics in Quantum Electronics",
+    "abstract": "We describe a mutual exclusion element using a reflective semiconductor optical amplifier (RSOA) and a simple scheme for contention resolution in arrayed waveguide grating router (AWGR)-based optical switches in data centers. We describe a hardware demonstration and detailed performance analysis of an AWGR-based optical switch based on the proposed concept. We show that the proposed RSOA-based contention resolution significantly reduces latency compared to existing methods and that it does not require any global or centralized coordination, which makes it inherently scalable and suitable for emerging data center networks."
+  },
+  {
+    "paper_id": "W2587610600",
+    "title": "32 × 32 silicon electro-optic switch with built-in monitors and balanced-status units",
+    "year": 2017,
+    "venue": "Scientific Reports",
+    "abstract": "To construct large-scale silicon electro-optical switches for optical interconnections, we developed a method using a limited number of power monitors inserted at certain positions to detect and determine the optimum operating points of all switch units to eliminate non-uniform effects arising from fabrication errors. We also introduced an optical phase bias to one phase-shifter arm of a Mach-Zehnder interferometer (MZI)-type switch unit to balance the two operation statuses of a silicon electro-optical switch during push-pull operation. With these methods, a 32 × 32 MZI-based silicon electro-optical switch was successfully fabricated with 180-nm complementary metal-oxide-semiconductor (CMOS) process technology, which is the largest scale silicon electro-optical switch to the best of our knowledge. At a wavelength of 1520 nm, the on-chip insertion losses were 12.9 to 16.5 dB, and the crosstalk ranged from -17.9 to -24.8 dB when all units were set to the 'Cross' status. The losses were 14.4 to 18.5 dB, and the crosstalk ranged from -15.1 to -19.0 dB when all units were in the 'Bar' status. The total power consumptions of the 32 × 32 switch were 247.4 and 542.3 mW when all units were set to the 'Cross' and 'Bar' statuses, respectively."
+  },
+  {
+    "paper_id": "W4220911475",
+    "title": "Low-Latency Optical Wireless Data-Center Networks Using Nanoseconds Semiconductor-Based Wavelength Selectors and Arrayed Waveguide Grating Router",
+    "year": 2022,
+    "venue": "Photonics",
+    "abstract": "In order to meet the massively increasing requirements of big-data applications, data centers (DCs) are key infrastructures to cope with the associated demands, such as high performance, easy scalability, low cabling complexity and low power consumption. Many research efforts have been dedicated to traditional wired data center networks (DCNs). However, DCNs’ static and rigid topology based on optical cables significantly limits their flexibility, scalability, and even reconfigurability. The limitations of this wired connection can be addressed with optical wireless technology, which avoids cable complexity problems while allowing dynamic adaption and fast reconfiguration. Here, we propose and investigate a novel optical wireless data-center network (OW-DCN) architecture based on nanoseconds semiconductor optical amplifier (SOA)-based wavelength selectors and arrayed waveguide grating router (AWGR) controlled by fast field-programmable gate array (FPGA)-based switch schedulers. The full architecture, including the design, packet-switching strategy, contention solving methodology, and reconfiguration capability, is presented and demonstrated. Dynamic switch scheduling with a FPGA-based switch scheduler processing optical label and software-defined network (SDN)-based reconfiguration were experimentally confirmed. The proposed OW-DCN was also achieved with a power penalty of less than 2 dB power penalty at BER < 1 × 10−9 for a 50 Gb/s OOK transmission and packet-switching transmission."
+  },
+  {
+    "paper_id": "W2217959685",
+    "title": "Performance evaluation of hybrid optical switch architecture for data center networks",
+    "year": 2016,
+    "venue": "Optical Switching and Networking",
+    "abstract": null
+  },
+  {
+    "paper_id": "W3036907365",
+    "title": "ROTOS: A Reconfigurable and Cost-Effective Architecture for High-Performance Optical Data Center Networks",
+    "year": 2020,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "Fast and high capacity optical switching techniques have the potential to enable low latency and high throughput optical data center networks (DCNs) to afford the rapid increasing traffic boosted by multiple applications. Flexibility of the DCN is of key importance to provide adaptive and dynamic bandwidth and capacity to handle the variable traffic patterns of heterogeneous applications. Aiming at improving the network performance and the system flexibility of optical DCNs, we propose and investigate a novel optical DCN architecture named ROTOS based on reconfigurable optical top of rack (ToR) and fast optical switches. In the proposed DCN architecture, the novel optical flexible ToRs employing multiple transceivers (TRXs) and a wavelength selective switch (WSS) are reconfigured by the software-defined networking (SDN) control plane. The bandwidth can be dynamically allocated to the dedicated optical links on-demand according to the desired oversubscription (OV) and intra-/inter-cluster traffic matrix. Numerical investigations of the novel architecture under realistic traffic model indicate that dynamically allocating the TRXs and elastically controlling the WSS, a packet loss below 1E-5 and a server-to-server latency lower than 3 μs can be guaranteed for different traffic patterns at load of 0.4. With respect to the DCN with static interconnections, the average packet loss of ROTOS decreases two orders of magnitude and the average server-to-server latency performance improves by 21.5%. Scalability investigation to a large number of servers shows limited (11%) performance degradation as the network scale from 2560 to 40960 servers. Additionally, the dynamic bandwidth allocation of the DCN is experimentally validated. Network performance results show a packet loss of 0.05 and 5.85 μs end-to-end latency at the load of 0.8. Finally, investigations on the cost and power consumption confirm that the ROTOS DCN architecture has 28.4% lower cost and 35.0% better improvement for power efficiency with respect to the electrical switch based DCNs."
+  },
+  {
+    "paper_id": "W2141810662",
+    "title": "OSA: An Optical Switching Architecture for Data Center Networks With Unprecedented Flexibility",
+    "year": 2013,
+    "venue": "IEEE/ACM Transactions on Networking",
+    "abstract": "A detailed examination of evolving traffic characteristics, operator requirements, and network technology trends suggests a move away from nonblocking interconnects in data center networks (DCNs). As a result, recent efforts have advocated oversubscribed networks with the capability to adapt to traffic requirements on-demand. In this paper, we present the design, implementation, and evaluation of OSA, a novel Optical Switching Architecture for DCNs. Leveraging runtime reconfigurable optical devices, OSA dynamically changes its topology and link capacities, thereby achieving unprecedented flexibility to adapt to dynamic traffic patterns. Extensive analytical simulations using both real and synthetic traffic patterns demonstrate that OSA can deliver high bisection bandwidth (60%-100% of the nonblocking architecture). Implementation and evaluation of a small-scale functional prototype further demonstrate the feasibility of OSA."
+  },
+  {
+    "paper_id": "W3208402115",
+    "title": "DACON: a reconfigurable application-centric optical network for disaggregated data center infrastructures [Invited]",
+    "year": 2021,
+    "venue": "Journal of Optical Communications and Networking",
+    "abstract": "To solve the issues of low resource utilization and performance bottleneck in current server-centric data center networks (DCNs), we propose and experimentally demonstrate a disaggregated application-centric optical network (DACON) for data center infrastructures based on hybrid optical switches. DACON achieves flexible provision and dynamic reconfiguration of hardware nodes exploiting the softwared-define networking (SDN) orchestration plane. A four-node SDN-enabled disaggregated prototype is implemented with a field-programmable-gate-array-based controller of hardware nodes and nanosecond optical switches, performing a minimal node-to-node network latency of 378.6 ns and zero packet loss. Based on the unmodified Linux kernel and two different applications (distributed computing and a Memcached database), the application runtime of the disaggregated prototype is investigated and compared with the server-centric architecture. Experimental results show that the disaggregated prototype performs better with Memcached database applications, achieving a 1.46× faster runtime than the server-centric network at a memory node access ratio of 0.9. Based on the customized control plane orchestrator and dynamic resource reallocation, the node-to-node latency is reduced by 21% when CPU nodes access memory nodes. The scalability of DACON is then numerically assessed based on experimentally measured parameters. Results show that the intra-rack node-to-node latency is less than 404.8 ns with a 6144-node network and memory node access ratio of 0.9. Finally, the cost and power consumption are also studied and compared with current DCN architectures. Results indicate DACON saves 13.4% of the cost of an interconnect network compared with current disaggregated architecture and consumes up to 31.1% less power with respect to server-centric DCN architectures."
+  },
+  {
+    "paper_id": "W3032344992",
+    "title": "AgileDCN: An Agile Reconfigurable Optical Data Center Network Architecture",
+    "year": 2020,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "This paper presents a detailed examination of a novel data center network (DCN) that can satisfy the high capacity and low latency requirements of modern cloud computing applications. This reconfigurable architecture called AgileDCN uses fast-switching optical components with a centralized control function and workload scheduler. By providing a highly flexible optical network fabric between server racks, very high network efficiencies can be achieved even under imbalanced loading patterns. Our simulation results show that, at high (70%) loads, TCP flow completion times in the AgileDCN are significantly lower than in an equivalent electronic leaf-spine network."
+  },
+  {
+    "paper_id": "W4285233657",
+    "title": "Scaling Optical Interconnects for Hyperscale Data Center Networks",
+    "year": 2022,
+    "venue": "Proceedings of the IEEE",
+    "abstract": "Due to widespread applications and rapid development of cloud computing and Internet services, hyperscale data centers have experienced an unprecedented demand for networking. Data center networks are required not only to handle fast-growing traffic, which doubles almost every one to two years, but also to provide high flexibility and availability to support rapidly changing businesses as well. Therefore, hyperscale data center networks have become one of the main drivers for optical interconnect technologies in recent years. In this article, technologies for scaling optical interconnects for inter-data center interconnects (DCIs) are presented. We first describe hyperscale data center network architectures and requirements, as well as the differences between carrier’s optical transport networks and DCI optical networks, with the main focus on metro-DCI and campus-DCI networks. The scale and fast growth rates of DCI networks require innovations not only in data plane technologies but also in control and management planes as well. In data planes, high-capacity flexible coherent technology, pluggable wavelength-division-multiplexing (WDM) optical transponders, including 100G direct-detection four-level pulse-amplitude modulation (PAM4) and coherent 400ZR/800ZR, and flex-grid and disaggregated reconfigurable optical add-drop multiplexer (ROADM) optical networks are described. Control and management planes are an integral part of optical transport networks and crucial for effectively operating DCI networks. We show that standard protocols, data models, and modular design of a software platform are essential to building a scalable open and disaggregated optical network, which is fundamental to enabling high automation and intelligence in an optical network. An example control and management platform is discussed in detail. With current fiber capacity approaching the nonlinear Shannon limit, challenges to further scale DCI networks and some potential technologies to support ever-increasing traffic growth are discussed at the end."
+  }
+]

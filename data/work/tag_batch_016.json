@@ -1,0 +1,142 @@
+[
+  {
+    "paper_id": "W2097926925",
+    "title": "c-Through",
+    "year": 2010,
+    "venue": null,
+    "abstract": "Data-intensive applications that operate on large volumes of data have motivated a fresh look at the design of data center networks. The first wave of proposals focused on designing pure packet-switched networks that provide full bisection bandwidth. However, these proposals significantly increase network complexity in terms of the number of links and switches required and the restricted rules to wire them up. On the other hand, optical circuit switching technology holds a very large bandwidth advantage over packet switching technology. This fact motivates us to explore how optical circuit switching technology could benefit a data center network. In particular, we propose a hybrid packet and circuit switched data center network architecture (or HyPaC for short) which augments the traditional hierarchy of packet switches with a high speed, low complexity, rack-to-rack optical circuit-switched network to supply high bandwidth to applications. We discuss the fundamental requirements of this hybrid architecture and their design options. To demonstrate the potential benefits of the hybrid architecture, we have built a prototype system called c-Through. c-Through represents a design point where the responsibility for traffic demand estimation and traffic demultiplexing resides in end hosts, making it compatible with existing packet switches. Our emulation experiments show that the hybrid architecture can provide large benefits to unmodified popular data center applications at a modest scale. Furthermore, our experimental experience provides useful insights on the applicability of the hybrid architecture across a range of deployment scenarios."
+  },
+  {
+    "paper_id": "W2105661057",
+    "title": "Fiber optic communication technologies: What's needed for datacenter network operations",
+    "year": 2010,
+    "venue": "IEEE Communications Magazine",
+    "abstract": "In this article we review the growing trend of warehouse-scale mega-datacenter computing, the Internet transformation driven by mega-datacenter applications, and the opportunities and challenges for fiber optic communication technologies to support the growth of mega-datacenter computing in the next three to four years."
+  },
+  {
+    "paper_id": "W2112931687",
+    "title": "Optical pump-probe measurements of the latency of silicon CMOS optical interconnects",
+    "year": 2002,
+    "venue": "IEEE Photonics Technology Letters",
+    "abstract": "We present the first measurements of optical-electrical-optical conversion latency in a hybridly-integrated optoelectronic/silicon complementary metal-oxide-semiconductor (CMOS) chip designed for optical interconnection. Using an optical pump-probe technique, we perform precise measurements with picosecond resolution that closely match our simulations. Our findings suggest that optical interconnects have the potential to provide equal or lower latency than on-chip global wires in future CMOS microelectronics."
+  },
+  {
+    "paper_id": "W834513743",
+    "title": "Ultra-compact 32 × 32 strictly-non-blocking Si-wire optical switch with fan-out LGA interposer",
+    "year": 2015,
+    "venue": "Optics Express",
+    "abstract": "We demonstrate a 32 × 32 path-independent-insertion-loss optical path switch that integrates 1024 thermooptic Mach-Zehnder switches and 961 intersections on a small, 11 × 25 mm2 die. The switch is fabricated on a 300-mm-diameter silicon-on-insulator wafer by a complementary metal-oxide semiconductor-compatible process with advanced ArF immersion lithography. For reliable electrical packaging, the switch chip is flip-chip bonded to a ceramic interposer that arranges the electrodes in a 0.5-mm pitch land grid array. The on-chip loss is measured to be 15.8 ± 1.0 dB, and successful switching is demonstrated for digital-coherent 43-Gb/s QPSK signals. The total crosstalk of the switch is estimated to be less than -20 dB at the center wavelength of 1545 nm. The bandwidth narrowing caused by dimensional errors that arise during fabrication is discussed."
+  },
+  {
+    "paper_id": "W1982772673",
+    "title": "Compact and scalable three-dimensional microelectromechanical system optical switches [Invited]",
+    "year": 2007,
+    "venue": "Journal of Optical Networking",
+    "abstract": "Feature Issue on Nanoscale Integrated Photonics for Optical Networks We review the performance and applications of compact (20cm3) and large-scale (320×320) three-dimensional microelectromechanical system (3-D MEMS) based optical switches. The low loss (<3dB for all 102,400 paths) and variable attenuation capable optical switch performs penalty-free for cascaded operation at 40Gbits/s. Scalability and performance of integrated wavelength-selective cross-connects based on 3-D MEMS with an unprecedented 12.8Tbit/s switching capacity for next-generation all-optical networks are also presented."
+  },
+  {
+    "paper_id": "W1983164798",
+    "title": "Silicon Photonic Switch Fabrics in Computer Communications Systems",
+    "year": 2015,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "We discuss silicon photonic switch fabric designs that target data-intensive computing networks, reviewing recent results, and projecting future performance goals. We analyze the achievements of demonstrated hardware in terms of switching time, footprint, crosstalk, and power consumption, concluding that the most crucial metric to improve upon is net loss. We propose integrating semiconductor optical amplifiers into the switch fabric using either flip-chip or wafer-bonding technology, and investigate its potential merits alongside several challenges in implementation. Furthermore, we explore the dominant causes of crosstalk, and discuss manners for reducing it. We perform switch simulations that project a 7-dB reduction in crosstalk, when using a push-pull, rather than a single-ended phase shifter drive scheme. We also evaluate crosstalk effects on transmission performance using a full-link model that incorporates multiple crosstalk-accumulating photonic switch hops. The study demonstrates the degree to which crosstalk may degrade signal integrity after just a few occurrences. Finally, a comparison of four topologies highlights tradeoffs in physical-layer design and scheduling complexity, illustrating the scales that may be accomplished with the simplest topologies, and the device improvements required to achieve the more robust architectures."
+  },
+  {
+    "paper_id": "W1985329895",
+    "title": "Low-crosstalk 2 × 2 thermo-optic switch with silicon wire waveguides",
+    "year": 2010,
+    "venue": "Optics Express",
+    "abstract": "We demonstrate a low-crosstalk 2 x 2 thermo-optic switch with silicon wire waveguides. The device is based on a 2 x 2 array of Mach-Zehnder interferometer (MZI) switches. Lowest crosstalk levels of -50 dB and -30 dB are obtained for 'bar' and 'cross' switching states, respectively. An intersection in the switch is important for low-crosstalk operation. The power consumption of one MZI element switch is 40 mW and the total power consumption of the device is at most 160 mW."
+  },
+  {
+    "paper_id": "W1997416642",
+    "title": "Silicon photonics integrated circuits: a manufacturing platform for high density, low power optical I/O’s",
+    "year": 2015,
+    "venue": "Optics Express",
+    "abstract": "Silicon photonics integrated circuits are considered to enable future computing systems with optical input-outputs co-packaged with CMOS chips to circumvent the limitations of electrical interfaces. In this paper we present the recent progress made to enable dense multiplexing by exploiting the integration advantage of silicon photonics integrated circuits. We also discuss the manufacturability of such circuits, a key factor for a wide adoption of this technology."
+  },
+  {
+    "paper_id": "W2002341618",
+    "title": "Silicon Photonic Switches Hybrid-Integrated With CMOS Drivers",
+    "year": 2011,
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "abstract": "This paper describes the design and measured performance of three different silicon photonic switches: a 2×2 switch, a 1×2 switch, and a 4×4 switch. All of the devices have been hybrid integrated with a corresponding custom 90-nm CMOS driver. The 2×2 switch is based on a wavelength-insensitive Mach-Zehnder interferometer (WIMZ) and the 1×2 is based on a two-ring resonator. The power dissipation of the 2×2 WIMZ switch was 2 mW from a 1.0-V supply, with measured transition time of 3.9 ns. The 4×4 switch, composed of six 2×2 Mach-Zehnder interferometer (MZI) switches was demonstrated to route 3×40 Gb/s WDM data with BER-12, with less than -10-dB crosstalk and 7-dB loss."
+  },
+  {
+    "paper_id": "W2015534895",
+    "title": "Non-Blocking 4x4 Electro-Optic Silicon Switch for On-Chip Photonic Networks",
+    "year": 2010,
+    "venue": "Optics Express",
+    "abstract": "We present a 4x4 spatially non-blocking Mach-Zehnder based silicon optical switch fabricated using processes fully compatible with standard CMOS. We successfully demonstrate operation in all 9 unique switch states and 12 possible I/O routing configurations, with worst-case cross-talk levels lower than -9 dB, and common spectral bandwidth of 7 nm. High-speed 40 Gbps data transmission experiments verify optical data integrity for all input-output channels."
+  },
+  {
+    "paper_id": "W2019883289",
+    "title": "Silicon optical modulators",
+    "year": 2010,
+    "venue": "Nature Photonics",
+    "abstract": null
+  },
+  {
+    "paper_id": "W2024271185",
+    "title": "Efficient fiber-optical interface for nanophotonic devices",
+    "year": 2015,
+    "venue": "Optica",
+    "abstract": "We demonstrate a method for efficient coupling of guided light from a single-mode optical fiber to nanophotonic devices. Our approach makes use of single-sided conical tapered optical fibers that are evanescently coupled over the last ~10 μm to a nanophotonic waveguide. By means of adiabatic mode transfer using a properly chosen taper, single-mode fiber-waveguide coupling efficiencies as high as 97(1)% are achieved. Efficient coupling is obtained for a wide range of device geometries, which are either singly clamped on a chip or attached to the fiber, demonstrating a promising approach for integrated nanophotonic circuits, and quantum optical and nanoscale sensing applications."
+  },
+  {
+    "paper_id": "W2049132385",
+    "title": "High-throughput silicon nanophotonic wavelength-insensitive switch for on-chip optical networks",
+    "year": 2008,
+    "venue": "Nature Photonics",
+    "abstract": null
+  },
+  {
+    "paper_id": "W2063697229",
+    "title": "Compact, low-loss and low-power 8×8 broadband silicon optical switch",
+    "year": 2012,
+    "venue": "Optics Express",
+    "abstract": "We demonstrated a 8×8 broadband optical switch on silicon for transverse-electrical polarization using a switch-and-selector architecture. The switch has a footprint of only 8 mm × 8 mm, minimum on-chip loss of about 4 dB, and a port-to-port insertion loss variation of only 0.8 dB near some spectral regions. The port-to-port isolation is above 30 dB over the entire 80-nm-wide spectral range or above 45 dB near the central 30 nm. We also demonstrated a switching power of less than 1.5 mW per element and a speed of 2 kHz, and estimated the upper bound of total power consumption to be less than 70 mW even without optimization of the default state of the individual switch elements."
+  },
+  {
+    "paper_id": "W2069766991",
+    "title": "The commercialization of silicon photonics",
+    "year": 2014,
+    "venue": "Nature Photonics",
+    "abstract": null
+  },
+  {
+    "paper_id": "W2070900489",
+    "title": "Monolithic Silicon Integration of Scaled Photonic Switch Fabrics, CMOS Logic, and Device Driver Circuits",
+    "year": 2013,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "We demonstrate 4 × 4 and 8 × 8 switch fabrics in multistage topologies based on 2 × 2 Mach–Zehnder interferometer switching elements. These fabrics are integrated onto a single chip with digital CMOS logic, device drivers, thermo-optic phase tuners, and electro-optic phase modulators using IBM's 90 nm silicon integrated nanophotonics technology. We show that the various switch-and-driver systems are capable of delivering nanosecond-scale reconfiguration times, low crosstalk, compact footprints, low power dissipations, and broad spectral bandwidths. Moreover, we validate the dynamic reconfigurability of the switch fabric changing the state of the fabric using time slots with sub-100-ns durations. We further verify the integrity of high-speed data transfers under such dynamic operation. This chip-scale switching system technology may provide a compelling solution to replace some routing functionality currently implemented as bandwidth- and power-limited electronic switch chips in high-performance computing systems."
+  },
+  {
+    "paper_id": "W1588462524",
+    "title": "Optical burst switching (OBS) - a new paradigm for an optical Internet",
+    "year": 1999,
+    "venue": null,
+    "abstract": "To support bursty traffic on the Internet (and especially WWW) efficiently, optical burst switching (OBS) is proposed as a way to streamline both protocol and hardware in building the future generation Optical Internet. By leveraging the attractive properties of optical communications and at the same time, taking into account its limitations, OBS combines the best of optical circuitswitching and packet/cell switching. In this paper, the general concept of OBS protocols and in particular, those based on Just-Enough-Time (JET), is described, along with the applicability of OBS protocols to IP over WDM. Specific issues such as the use of fiber delay-lines (FDL) for accommodating processing delay and/or resolving conflicts are also discussed. In addition, the performance of JET-based OBS protocols which use an offset time along with delayed reservation to achieve efficient utilization of both bandwidth and FDLs as well as to support priority-based routing is evaluated. Keywords: bursty tr..."
+  },
+  {
+    "paper_id": "W2141911769",
+    "title": "Hunting mice with microsecond circuit switches",
+    "year": 2012,
+    "venue": null,
+    "abstract": "Recently, there have been proposals for constructing hybrid data center networks combining electronic packet switching with either wireless or optical circuit switching, which are ideally suited for supporting bulk traffic. Previous work has relied on a technique called hotspot scheduling, in which the traffic matrix is measured, hotspots identified, and circuits established to automatically offload traffic from the packet-switched network. While this hybrid approach does reduce CAPEX and OPEX, it still relies on having a well-provisioned packet-switched network to carry the remaining traffic. In this paper, we describe a generalization of hotspot scheduling, called traffic matrix scheduling, where most or even all bulk traffic is routed over circuits. In other words, we don't just hunt elephants, we also hunt mice. Traffic matrix scheduling rapidly time-shares circuits across many destinations at microsecond time scales. The traffic matrix scheduling algorithm can route arbitrary traffic patterns and runs in polynomial time. We briefly describe a working implementation of traffic matrix scheduling using a custom-built data center optical circuit switch with a 2.8 microsecond switching time."
+  },
+  {
+    "paper_id": "W2165334967",
+    "title": "Terabit Burst Switching",
+    "year": 1997,
+    "venue": "Open Scholarship Institutional Repository (Washington University in St. Louis)",
+    "abstract": "Demand for network bandwidth is growing at unprecedented rates, placing growing demands on switching and transmission technologies. Wavelength division multiplexing will soon make it possible to combine hundreds of gigabit channels on a single fiber. This paper presents an architecture for Burst Switching Systems designed to switch data among WDM links, treating each link as a shared resource rather than just a collection of independent channels. The proposed network architecture separates burst level data and control, allowing major simplifications in the data path in order to facilitate all-optical implementations. To handle short data bursts efficiently, the burst level control mechanisms in burst switching systems must keep track of future resource availability when assigning arriving data bursts to channels or storage locations. The resulting Lookahead Resource Management problems raise new issues and require the invention of completely new types of high speed control mechanisms. This paper introduces these problems and describes approaches to burst level resource management that attempt to strike an appropriate balance between high speed operation and efficiency of resource usage."
+  },
+  {
+    "paper_id": "W1990200961",
+    "title": "Design and Preliminary Implementation of an N $\\times$ N Diffractive All-Optical Fiber Optic Switch",
+    "year": 2013,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "We have demonstrated a diffraction-based nonblocking, scalable N × N optical switch employing a digital micromirror display (DMD) with 12 μs switching speed, performing 100 times faster than the currently available technology. The distributed nature of diffraction makes this switch more robust than one-to-one reflective systems where a single mirror failure incapacitates an entire connection. We thereby address a key bottleneck in data centers and optical aggregation networks by decreasing circuit-switching speed and allowing for facile port count scalability."
+  }
+]

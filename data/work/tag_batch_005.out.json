@@ -1,0 +1,222 @@
+[
+  {
+    "paper_id": "W4390032166",
+    "tech_route": "other",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "Wavelength-routed optical circuit switching promises high bandwidth, low power and latency networking for data centers, but requires a wideband wavelength tunable source capable of nanosecond-scale hitless wavelength switching at every node.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W4200142051",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "We offer a mathematical foundation for the design and performance analysis of ODC physical topologies in this paper.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W2970534079",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "A control and network system is proposed to offer optical circuits of 120 ns duration while achieving 91% throughput between 1000s of Servers.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W4413217623",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "The introduction of optical circuit switches (OCSs) has enabled the implementation of capacity- and energy-efficient networks in production data centers.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W4226369700",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "PULSE’s ns-speed NP-hard network scheduler delivers skew-tolerant performance at 90% input loads.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W2177488376",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "The potential advantages of optics at high link speeds have led to significant interest in deploying optical switching technology in data-center networks.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W3210177009",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "Simulation results show that the energy consumption of the hybrid data centers is saved, and the performance of the data centers is not degraded significantly.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W2948174331",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "This paper proposes and experimentally evaluates a fully developed novel architecture with purpose built low latency communication protocols for next generation disaggregated data centers (DDCs).",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W2099718645",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "This article reviews the benefits and challenges of extending SDN concepts to various transport network architectures that include optical wavelength and fiber switches, circuit switches, and sub-wavelength optical burst switches.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W2534962717",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "In a flattened optical data center network employing hybrid technologies, multi-tenancy is enabled by a new virtual data center embedding method that is equipped with network-aware VM placement exploiting the advanced but complex characteristics of diverse optical technologies.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W4225000980",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "In this work, a nanosecond optical switching and control system has been experimentally demonstrated to enable an optically switched data center network with 43.4 nanosecond switching and control capability and with packet contention resolution as well as 3.1 nanosecond clock and data recovery.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2884318141",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "Hybrid data center network architectures, which combine electrical packet switches (EPSs) with optical circuit switches (OCSs), have been proposed to handle the inter-rack link oversubscription problem in a cost- and power-efficient manner.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W4384820653",
+    "tech_route": "thermo_optic",
+    "tech_route_secondary": "electro_optic",
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "Si photonics devices using Mach–Zehnder interferometers or ring-resonator-based switches and tunable filters are the most promising candidates; they offer cost-effective mass-production and fast operation and so are excellent candidates for the optical switches envisaged.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W2068907524",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "Combining circuit and packet switching using a large port-count optical cross-connect for data center networks",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2937088522",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "Fast optical switches have been proposed as a promising alternative to enable continual scaling of data centers with increasing size and data rates.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W7168289392",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "Expansion-Aware Design Model for Optical-Circuit-Switched Data Center Networks Suppressing Fiber Link Rewiring",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2898651003",
+    "tech_route": "other",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": null,
+    "evidence_span": "We further demonstrate nonvolatile integrated optical switches with record low loss and large contrast ratio and an electrically-addressed spatial light modulator pixel, thereby validating its promise as a material for scalable nonvolatile photonics.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W4404238479",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": "lcos",
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "COCSN employs wavelength-selective switches that integrate multiple wavelengths to enhance network connectivity.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W2973870220",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "This paper discusses how to maximize the inherent benefits of optical circuit switching, which makes the best use of advances in silicon switch chips, for the creation of future intra-data center networks.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W1975357130",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "evidence_span": "MEMS optical switches and interconnects",
+    "confidence": "low"
+  }
+]

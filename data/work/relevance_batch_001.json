@@ -1,0 +1,202 @@
+[
+  {
+    "record_key": "arxiv:2609.25949",
+    "source": "arxiv",
+    "title": "Flux: Optimal Scheduling of Optical Circuit Switches for LLM Training",
+    "year": 2026,
+    "venue": "arXiv",
+    "abstract": "Optical Circuit Switching (OCS) offers high bandwidth density and energy efficiency for LLM training, but incurs a non-negligible reconfiguration delay. Prior work typically schedules optical circuit switches independently of compute, using aggregate traffic demand to determine which circuits to provision and when. We argue that this separation creates a fundamental inefficiency: reconfigurations that ignore the compute timeline can stall communication, resulting in low circuit utilization and large buffer requirements. In this paper, we present Flux, a scheduler that optimally schedules optical circuit switches based on the structure of the entire workload. Flux remains effective across a wide range of switching speeds by reusing circuits and amortizing reconfiguration delay behind compute and communication. We show that Flux reduces training iteration time"
+  },
+  {
+    "record_key": "arxiv:2010.00090",
+    "source": "arxiv",
+    "title": "COUDER: Robust Topology Engineering for Optical Circuit Switched Data Center Networks",
+    "year": 2020,
+    "venue": "arXiv",
+    "abstract": "Many optical circuit switched data center networks (DCN) have been proposed in the past to attain higher capacity and topology reconfigurability, though commercial adoption of these architectures have been minimal. One major challenge these architectures face is the difficulty of handling uncertain traffic demands using commercial optical circuit switches (OCS) with high switching latency. Prior works have generally focused on developing fast-switching OCS prototypes to quickly react to traffic changes through frequent reconfigurations. This approach, however, adds tremendous complexity to the control plane, and raises the barrier for commercial adoption of optical circuit switched data center networks. We propose COUDER, a robust topology and routing optimization framework for reconfigurable optical circuit switched data centers. COUDER optimizes topology and routing based"
+  },
+  {
+    "record_key": "arxiv:2509.20016",
+    "source": "arxiv",
+    "title": "Nonreciprocal optical circuit switching",
+    "year": 2025,
+    "venue": "arXiv",
+    "abstract": "Directly switching optical signals outperforms conventional optoelectronic hardware in terms of cost, latency, and energy efficiency, and is expected to address the growing demand for data node capacity driven by the development of machine learning and artificial intelligence (AI) technologies. Therefore, optical circuit switching (OCS) technology has piqued widespread research interest in various technical solutions, including silicon photonics. However, silicon-based integrated OCS remains constrained by challenges such as network performance and port scalability. Here we propose a magneto-optical heterogeneous integrated nonreciprocal OCS (NOCS) network based on a silicon photonics platform, achieving bidirectional full-duplex nonreciprocal transmission by programming reciprocal and nonreciprocal phase shifters. We demonstrate that compared with the existing OCS architecture, NOCS has the advantages of ultra-high reconfiguration speed, large-scale"
+  },
+  {
+    "record_key": "arxiv:2501.16907",
+    "source": "arxiv",
+    "title": "Experimental Evaluation of an SDN Controller for Open Optical-circuit-switched Networks",
+    "year": 2025,
+    "venue": "arXiv",
+    "abstract": "Open optical networks have been considered to be important for cost-effectively building and operating the networks. Recently, the optical-circuit-switches (OCSes) have attracted industry and academia because of their cost efficiency and higher capacity than traditional electrical packet switches (EPSes) and reconfigurable optical add drop multiplexers (ROADMs). Though the open interfaces and control planes for traditional ROADMs and transponders have been defined by several standard-defining organizations (SDOs), those of OCSes have not. Considering that several OCSes have already been installed in production datacenter networks (DCNs) and several OCS products are on the market, bringing the openness and interoperability into the OCS-based networks has become important. Motivated by this fact, this paper investigates a software-defined networking (SDN) controller for open optical-circuit-switched networks."
+  },
+  {
+    "record_key": "arxiv:2604.22146",
+    "source": "arxiv",
+    "title": "An O(K)-Approximation Coflow Scheduling in K-Core Optical Circuit Switching Networks",
+    "year": 2026,
+    "venue": "arXiv",
+    "abstract": "Coflow has emerged as a fundamental application-layer abstraction in distributed systems, enabling collaborative management of related flows to enhance job completion efficiency. To meet the increasing bandwidth demands of modern data center networks (DCNs), optical circuit switches are widely deployed due to their high capacity and energy efficiency. Simultaneously, DCN deployments are evolving towards heterogeneous parallel architectures, where multiple independent optical circuit switching (OCS) cores operate concurrently to facilitate bandwidth expansion and incremental upgrades. However, existing research on coflow scheduling in multi-core switching fabrics primarily focuses on electrical packet switching (EPS) networks, with a few known results on OCS networks without or with a poor performance guarantee. This paper studies the coflow scheduling problem in multi-core OCS networks under the"
+  },
+  {
+    "record_key": "arxiv:2208.10041",
+    "source": "arxiv",
+    "title": "Mission Apollo: Landing Optical Circuit Switching at Datacenter Scale",
+    "year": 2022,
+    "venue": "arXiv",
+    "abstract": "In this paper, we describe Apollo, to the best of our knowledge, the world's first large-scale production deployment of optical circuit switches (OCSes) for datacenter networking. We will first describe the infrastructure challenges and use cases that motivated optical switching inside datacenters. We then delve into the requirements of OCSes for datacenter applications: balancing cost, port count, switching time, and optical performance, which drive design choices and implementation details of our internally developed 3D MEMS-based OCS. To enable the Apollo optical switching layer, we employ circulators to realize bidirectional links through the OCS, effectively doubling the OCS radix. The OCS and circulator design choices were critical for meeting network bandwidth, scale, and cost targets. We review the critical co-design of"
+  },
+  {
+    "record_key": "arxiv:2603.07373",
+    "source": "arxiv",
+    "title": "Scheduling Parallel Optical Circuit Switches for AI Training",
+    "year": 2026,
+    "venue": "arXiv",
+    "abstract": "The rapid growth of AI training has dramatically increased datacenter traffic demand and energy consumption, which has motivated renewed interest in optical circuit switches (OCSes) as a high-bandwidth, energy-efficient alternative for AI fabrics. Deploying multiple parallel OCSes is a leading alternative. However, efficiently scheduling time-varying traffic matrices across parallel optical switches with non-negligible reconfiguration delays remains an open challenge. We consider the problem of scheduling a single AI traffic demand matrix $D$ over $s$ parallel OCSes while minimizing the makespan under reconfiguration delay $δ$. Our algorithm Spectra relies on a three-step approach: Decompose $D$ into a minimal set of weighted permutations; Schedule these permutations across parallel switches using load-aware assignment; then Equalize the imbalanced loads on the switches via controlled"
+  },
+  {
+    "record_key": "arxiv:2002.04077",
+    "source": "arxiv",
+    "title": "PULSE: Optical circuit switched Data Center architecture operating at nanosecond timescales",
+    "year": 2020,
+    "venue": "arXiv",
+    "abstract": "We introduce PULSE, a sub-microsecond optical circuit-switched data centre network architecture controlled by distributed hardware schedulers. PULSE is a flat architecture that uses parallel passive coupler-based broadcast and select networks. We employ a novel transceiver architecture, for dynamic wavelength-timeslot selection, to achieve a reconfiguration time down to O(100ps), establishing timeslots of O(10ns). A novel scheduling algorithm that has a clock period of 2.3ns performs multiple iterations to maximize throughput, wavelength usage and reduce latency, enhancing the overall performance. In order to scale, the single-hop PULSE architecture uses sub-networks that are disjoint by using multiple transceivers for each node in 64 node racks. At the reconfiguration circuit duration (epoch = 120 ns), the scheduling algorithm is shown to achieve up to"
+  },
+  {
+    "record_key": "arxiv:2010.10984",
+    "source": "arxiv",
+    "title": "Ultrafast optical circuit switching for data centers using integrated soliton microcombs",
+    "year": 2020,
+    "venue": "arXiv",
+    "abstract": "Networks inside current data centers comprise a hierarchy of power-hungry electronic packet switches interconnected via optical fibers and transceivers. As the scaling of such electrically-switched networks approaches a plateau, a power-efficient solution is to implement a flat network with optical circuit switching (OCS), without electronic switches and a reduced number of transceivers due to direct links among servers. One of the promising ways of implementing OCS is by using tunable lasers and arrayed waveguide grating routers. Such an OCS-network can offer high bandwidth and low network latency, and the possibility of photonic integration results in an energy-efficient, compact, and scalable photonic data center network. To support dynamic data center workloads efficiently, it is critical to switch between wavelengths in sub"
+  },
+  {
+    "record_key": "arxiv:2502.03885",
+    "source": "arxiv",
+    "title": "InfiniteHBD: Building Datacenter-Scale High-Bandwidth Domain for LLM with Optical Circuit Switching Transceivers",
+    "year": 2025,
+    "venue": "arXiv",
+    "abstract": "Scaling Large Language Model (LLM) training relies on multi-dimensional parallelism, where High-Bandwidth Domains (HBDs) are critical for communication-intensive parallelism like Tensor Parallelism. However, existing HBD architectures face fundamental limitations in scalability, cost, and fault resiliency: switch-centric HBDs (e.g., NVL-72) incur prohibitive scaling costs, while GPU-centric HBDs (e.g., TPUv3/Dojo) suffer from severe fault propagation. Switch-GPU hybrid HBDs (e.g., TPUv4) take a middle-ground approach, but the fault explosion radius remains large. We propose InfiniteHBD, a transceiver-centric HBD architecture that integrates connectivity and dynamic switching at the transceiver level by embedding Optical Circuit Switching (OCS) within each transceiver. It enables reconfigurable point-to-multipoint communication and scalable variable-size ring topologies. InfiniteHBD achieves datacenter-scale scalability without cost explosion, fault isolation at the node level, and full"
+  },
+  {
+    "record_key": "arxiv:2501.18136",
+    "source": "arxiv",
+    "title": "PipSwitch: A Circuit Switch Using Programmable Integrated Photonics",
+    "year": 2025,
+    "venue": "arXiv",
+    "abstract": "We present an optical circuit switch design for programmable integrated photonics (PIPs). Our solution finds the correct and optimal set of matchings that provides all-to-all network connectivity and demonstrates scalability to 32 ports."
+  },
+  {
+    "record_key": "arxiv:2002.00473",
+    "source": "arxiv",
+    "title": "METTEOR: Robust Multi-Traffic Topology Engineering for Commercial Data Center Networks",
+    "year": 2020,
+    "venue": "arXiv",
+    "abstract": "Numerous optical circuit switched data center networks have been proposed over the past decade for higher capacity, though commercial adoption of these architectures have been minimal so far. One major challenge commonly facing these architectures is the difficulty of handling bursty traffic with optical circuit switches (OCS) with high switching latency. Prior works generally rely on fast-switching OCS prototypes to better react to traffic changes via frequent reconfigurations. This approach, unfortunately, adds further complexity to the control plane. We propose METTEOR, an easily deployable solution for optical circuit switched data centers, that is designed for the current capabilities of commercial OCSs. Using multiple predicted traffic matrices, METTEOR designs data center topologies that are less sensitive to traffic changes, thus eliminating"
+  },
+  {
+    "record_key": "arxiv:2401.09284",
+    "source": "arxiv",
+    "title": "A Fast Control Plane for a Large-Scale and High-Speed Optical Circuit Switch System",
+    "year": 2024,
+    "venue": "arXiv",
+    "abstract": "We experimentally verify a fast control plane with 100 microseconds of configuration time that can support more than 1000 racks, leveraged by a software-defined network controller and an industrial real-time Ethernet standard EtherCAT."
+  },
+  {
+    "record_key": "arxiv:1208.0581",
+    "source": "arxiv",
+    "title": "Optimal Degree of Optical Circuit Switching in IP-over-WDM Networks",
+    "year": 2012,
+    "venue": "arXiv",
+    "abstract": "In this paper, we study the influence of technology, traffic properties and price trends on optimized design of a reference IP-over-WDM network with rich underlying fiber topology. In each network node, we investigate the optimal degree of traffic switching in an optical (lambda) domain versus an electrical (packet) domain, also known as measure of node transparency. This measure is studied in connection to changes in traffic volume, demand affinity, optical circuit speeds and equipment cost. By applying variable design constraints, we assess the relative roles of the two distinct equipment groups, IP routers and optical cross-connects, with respect to resulting changes in cost-sensitive network architectures."
+  },
+  {
+    "record_key": "arxiv:2510.03891",
+    "source": "arxiv",
+    "title": "Toward Co-adapting Machine Learning Job Shape and Cluster Topology",
+    "year": 2025,
+    "venue": "arXiv",
+    "abstract": "Allocating resources to distributed machine learning jobs in multi-tenant torus-topology clusters must meet each job's specific placement and communication requirements, which are typically described using shapes. There is an inherent tension between minimizing network contention and maximizing cluster utilization when placing various-shaped jobs. While existing schedulers typically optimize for one objective at the expense of the other, we demonstrate that both can be achieved simultaneously. Our proposed approach, RFold, adapts both job shapes and the underlying cluster topology at runtime. This is accomplished by combining two techniques: (1) identifying homomorphic job shapes that support the jobs communication needs, and (2) reconfiguring the optical circuit switch-enabled topology to support more diverse job shapes. Preliminary evaluation performed on a 4096-node torus cluster"
+  },
+  {
+    "record_key": "arxiv:2411.01503",
+    "source": "arxiv",
+    "title": "A Highly Scalable LLM Clusters with Optical Interconnect",
+    "year": 2024,
+    "venue": "arXiv",
+    "abstract": "Recent years have witnessed the adoption of optical circuit switch (OCS) technology. How to design the physical topology, defined by the physical wiring between electrical switching equipments and the OCS, is fundamental to designing efficient OCS-based clusters. We identify three features to evaluate the quality of a physical topology design: logical topology compatibility, cluster scalability, and topology engineering polynomial-solvability. However, none of existing physical topologies has achieved these three features simultaneously. This paper explores designing an optimal physical topology that simultaneously maximizes all. We begin by analyzing the importance of these features in OCS-based cluster and examine the limitations of current designs. Leveraging a proposed \\emph{Symmetric Integer Matrix Decomposition Theorem}, we outline a general approach for designing optimal physical topologies"
+  },
+  {
+    "record_key": "arxiv:2202.05487",
+    "source": "arxiv",
+    "title": "Kevin: de Bruijn-based topology with demand-aware links and greedy routing",
+    "year": 2022,
+    "venue": "arXiv",
+    "abstract": "We propose Kevin, a novel demand-aware reconfigurable rack-to-rack datacenter network realized with a simple and efficient control plane. In particular, Kevin makes effective use of the network capacity by supporting integrated and multi-hop routing as well as work-conserving scheduling. To this end, Kevin relies on local greedy routing with small forwarding tables which require local updates only during topological reconfigurations, making this approach ideal for dynamic networks. Specifically, Kevin is based on a de Bruijn topology (using a small number of optical circuit switches) in which static links are enhanced with opportunistic links."
+  },
+  {
+    "record_key": "arxiv:1609.04521",
+    "source": "arxiv",
+    "title": "C-Share: Optical Circuits Sharing for Software-Defined Data-Centers",
+    "year": 2016,
+    "venue": "arXiv",
+    "abstract": "Integrating optical circuit switches in data-centers is an on-going research challenge. In recent years, state-of-the-art solutions introduce hybrid packet/circuit architectures for different optical circuit switch technologies, control techniques, and traffic rerouting methods. These solutions are based on separated packet and circuit planes which do not have the ability to utilize an optical circuit with flows that do not arrive from or delivered to switches directly connected to the circuit's end-points. Moreover, current SDN-based elephant flow rerouting methods require a forwarding rule for each flow, which raise scalability issues. In this paper, we present C-Share -- a practical, scalable SDN-based circuit sharing solution for data center networks. C-Share inherently enable elephant flows to share optical circuits by exploiting a flat upper"
+  },
+  {
+    "record_key": "arxiv:2104.09680",
+    "source": "arxiv",
+    "title": "Shufflecast: An Optical, Data-rate Agnostic and Low-Power Multicast Architecture for Next-Generation Compute Clusters",
+    "year": 2021,
+    "venue": "arXiv",
+    "abstract": "An optical circuit-switched network core has the potential to overcome the inherent challenges of a conventional electrical packet-switched core of today's compute clusters. As optical circuit switches (OCS) directly handle the photon beams without any optical-electrical-optical (O/E/O) conversion and packet processing, OCS-based network cores have the following desirable properties: a) agnostic to data-rate, b) negligible/zero power consumption, c) no need of transceivers, d) negligible forwarding latency, and e) no need for frequent upgrade. Unfortunately, OCS can only provide point-to-point (unicast) circuits. They do not have built-in support for one-to-many (multicast) communication, yet multicast is fundamental to a plethora of data-intensive applications running on compute clusters nowadays. In this paper, we propose Shufflecast, a novel optical network architecture for next-generation compute"
+  },
+  {
+    "record_key": "arxiv:2606.15870",
+    "source": "arxiv",
+    "title": "Google's Training Supercomputers from TPU v2 to Ironwood: Architectural Stability, Scale, Resilience, Power Efficiency, and Sustainability Across Five Generations",
+    "year": 2026,
+    "venue": "arXiv",
+    "abstract": "This paper (to appear in the July/August 2026 issue of IEEE Micro magazine) summarizes five generations of Google s TPUs, from TPU v2 to Ironwood, highlighting their evolution as scalable, resilient, power-efficient, sustainable supercomputers for AI training. It details the TPU s stable architecture, which has surprisingly easily accommodated the rapidly changing deep neural network workloads, such as the rise of Transformers. Key advancements over eight years include 10x increase in HBM capacity and bandwidth per node, a 100x increase in peak node performance, and a 3600x increase in supercomputer performance. The paper also discusses the role of optical circuit switches, built-in self test, and hardware replay in enhancing resilience and how TPU's environmental impact is reduced with substantial improvements"
+  },
+  {
+    "record_key": "arxiv:2608.03146",
+    "source": "arxiv",
+    "title": "Zero-change foundry compatible silicon photonics MEMS optical switch",
+    "year": 2026,
+    "venue": "arXiv",
+    "abstract": "Large-scale photonic switches are emerging as essential devices for energy-efficient optical interconnect in data centers and AI/ML clusters as a key enabler for high-bandwidth and low-latency connectivity. Combining micro-electro-mechanical (MEMS) based mechanical reconfigurability with silicon photonic integrated circuits can enable a large-scale, low-loss, programmable platform required for large-scale optical circuit switches. We demonstrate a broadband silicon photonics MEMS switch with more than 30 dB extinction ratio operating in C-band using a zero-change foundry-compatible process and Back-end-of-Line (BEOL) post-processing. The optical switch element exhibits an insertion loss of less than 1.5 dB with a low static power consumption of approx 20 nW at maximum actuation voltage. Our results illustrate that MEMS-based silicon photonics modulators and phase shifters can be used alongside"
+  },
+  {
+    "record_key": "arxiv:2601.01209",
+    "source": "arxiv",
+    "title": "OrchestrRL: Dynamic Compute and Network Orchestration for Disaggregated RL",
+    "year": 2026,
+    "venue": "arXiv",
+    "abstract": "Disaggregating the generation and training stages in RL is widely adopted to scale LLM post-training. There are two critical challenges here. First, the generation stage often becomes a bottleneck due to dynamic workload shifts and severe execution imbalances. Second, the decoupled stages result in diverse and dynamic network traffic patterns that strain the conventional static fabric. We build OrchestrRL to orchestrate dynamically both compute and network in disaggregated RL. OrchestrRL employs an adaptive compute scheduler that adjusts parallelism configuration to match changing workload characteristics within and across generation steps. OrchestrRL adopts a reconfigurable optical-electrical fabric called RFabric: It leverages optical circuit switches to reconfigure the aggregation and core layers of the topology on demand, tailoring bandwidth resources to the unique"
+  },
+  {
+    "record_key": "arxiv:2609.14253",
+    "source": "arxiv",
+    "title": "Breaking the Duplex Barrier: Lane-Granularity OCS Scheduling for LLM Training",
+    "year": 2026,
+    "venue": "arXiv",
+    "abstract": "Optical circuit switch (OCS) can reconfigure physical connectivity to match the predictable communication schedules of large language model (LLM) training. Although each OCS light path is physically simplex, existing demand-aware OCS schedulers allocate capacity in duplex-port pairs, forcing equal bandwidth in both directions and stranding capacity under asymmetric node-pair traffic. This paper present LACE, the first offline OCS schedule compiler that independently allocates transmit (TX) and receive (RX) lanes for LLM training. Without changing the selected collective algorithms, operation order, or rank placement, LACE reconstructs directed node-level demand, jointly determines which consecutive operations share a configuration and how many simplex circuits serve each direction, and realizes these allocations as physical lane bindings and optical paths under per-node lane-inventory and multi-OCS"
+  },
+  {
+    "record_key": "arxiv:2211.15226",
+    "source": "arxiv",
+    "title": "RAMP: A Flat Nanosecond Optical Network and MPI Operations for Distributed Deep Learning Systems",
+    "year": 2022,
+    "venue": "arXiv",
+    "abstract": "Distributed deep learning (DDL) systems strongly depend on network performance. Current electronic packet switched (EPS) network architectures and technologies suffer from variable diameter topologies, low-bisection bandwidth and over-subscription affecting completion time of communication and collective operations. We introduce a near-exascale, full-bisection bandwidth, all-to-all, single-hop, all-optical network architecture with nanosecond reconfiguration called RAMP, which supports large-scale distributed and parallel computing systems (12.8~Tbps per node for up to 65,536 nodes). For the first time, a custom RAMP-x MPI strategy and a network transcoder is proposed to run MPI collective operations across the optical circuit switched (OCS) network in a schedule-less and contention-less manner. RAMP achieves 7.6-171$\\times$ speed-up in completion time across all MPI operations compared to realistic EPS and OCS counterparts. It"
+  },
+  {
+    "record_key": "arxiv:1204.1529",
+    "source": "arxiv",
+    "title": "Ensuring QOS Guarantees in a Hybrid OCS/OBS Network",
+    "year": 2012,
+    "venue": "arXiv",
+    "abstract": "The bursting aggregation assembly in edge nodes is one of the key technologies in OBS (Optical Burst Switching) network, which has a direct impact on flow characteristics and packet loss rate. An optical burst assembly technique supporting QoS is presented through this paper, which can automatically adjust the threshold along with the increasing and decreasing volume of business, reduce the operational burst, and generate corresponding BDP (Burst Data Packet) and BCP (Burst Control Packet). In addition to the burst aggregation technique a packet recovery technique by restoration method is also described. The data packet loss due to the physical optical link failure is not currently included in the QoS descriptions. This link failure is also a severe problem which reduces"
+  }
+]

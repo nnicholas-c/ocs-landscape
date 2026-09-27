@@ -1,0 +1,142 @@
+[
+  {
+    "paper_id": "W2488219102",
+    "title": "Technology and Applications of Liquid Crystal on Silicon (LCoS) in Telecommunications",
+    "year": 2013,
+    "venue": "Elsevier eBooks",
+    "abstract": null
+  },
+  {
+    "paper_id": "W4281778727",
+    "title": "Advanced liquid crystal devices for augmented reality and virtual reality displays: principles and applications",
+    "year": 2022,
+    "venue": "Light Science & Applications",
+    "abstract": "Liquid crystal displays (LCDs) and photonic devices play a pivotal role to augmented reality (AR) and virtual reality (VR). The recently emerging high-dynamic-range (HDR) mini-LED backlit LCDs significantly boost the image quality and brightness and reduce the power consumption for VR displays. Such a light engine is particularly attractive for compensating the optical loss of pancake structure to achieve compact and lightweight VR headsets. On the other hand, high-resolution-density, and high-brightness liquid-crystal-on-silicon (LCoS) is a promising image source for the see-through AR displays, especially under high ambient lighting conditions. Meanwhile, the high-speed LCoS spatial light modulators open a new door for holographic displays and focal surface displays. Finally, the ultrathin planar diffractive LC optical elements, such as geometric phase LC grating and lens, have found useful applications in AR and VR for enhancing resolution, widening field-of-view, suppressing chromatic aberrations, creating multiplanes to overcome the vergence-accommodation conflict, and dynamic pupil steering to achieve gaze-matched Maxwellian displays, just to name a few. The operation principles, potential applications, and future challenges of these advanced LC devices will be discussed."
+  },
+  {
+    "paper_id": "W3215039088",
+    "title": "Core Selective Switch With Low Insertion Loss Over Ultra-Wide Wavelength Range for Spatial Channel Networks",
+    "year": 2021,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "The core selective switch (CSS) is an optical spatial switch that has been recently proposed as a key building block to achieve a scalable and low-insertion-loss spatial cross-connects for use in future spatial channel networks. In this paper, we report on a novel CSS design employing a two dimensionally arranged microlens-based multicore fiber (MCF) collimator array and a micro-electromechanical systems (MEMS) mirror array. The former enables precise alignment between MCFs and collimator lenses, and the latter yields polarization-independent high reflection over a wide wavelength range and a large tilt angle. Based on the design, a compact (∼50 mm) five-core$1 \\times 8$CSS prototype is fabricated. We experimentally show that the CSS prototype exhibits low insertion loss (1.2∼2.7 dB), low polarization dependent loss ($ - 30$dB) characteristics over an ultra-wide wavelength range from 1500 nm to 1630 nm. Bit-error-rate measurements using optical signals in the C-band, S-band, and L-band show that the CSS prototype incurs no optical signal-to-noise ratio penalty in spatial channel routing over an ultra-wide wavelength band."
+  },
+  {
+    "paper_id": "W3034334810",
+    "title": "Principle, Design, and Prototyping of Core Selective Switch Using Free-Space Optics for Spatial Channel Network",
+    "year": 2020,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "We describe the principle, design, and prototyping of a free-space-optics-based core selective switch (CSS) for spatial channel (SCh) networks (SCNs) in the age of space division multiplexing (SDM). A CSS in an SCN corresponds to a conventional wavelength selective switch (WSS) in a current wavelength division multiplexing network. It incorporates functionalities for spatially demultiplexing SChs from an input SDM port and for switching and multiplexing any of them into any of output SDM ports. We discuss the design for free-space-optics-based CSSs that is applicable to CSSs supporting various numbers of cores per multicore fiber (MCF) and various numbers of MCF ports. We show an example of an implemented 5-core 1 × 6 CSS prototype that integrates an MCF collimator, spatial multiplexer/demultiplexer array, and liquid-crystal-on-silicon spatial light modulator. Although some output MCF ports exhibit relatively high insertion loss (IL), the CSS prototype shows that a CSS will potentially provide low net IL at the level of approximately 2 dB. To verify that there are no unknown deteriorating factors in the CSS prototype, we tested the prototype implemented in a hierarchical optical cross-connect configuration by measuring the pre-forward error correction bit error rate. Spatial bypassing and spectral grooming of a 900-Gb/s SCh employing a CSS-based spatial cross-connect and a conventional wavelength cross-connect are successfully demonstrated with no optical signal-to-noise ratio penalty."
+  },
+  {
+    "paper_id": "W4317734516",
+    "title": "Electrically tuned active metasurface towards metasurface-integrated liquid crystal on silicon (meta-LCoS) devices",
+    "year": 2023,
+    "venue": "Optics Express",
+    "abstract": "Active metasurfaces add a new dimension to static metasurfaces by introducing tunability, and this has received enormous attention from industry. Although various mechanisms have been proposed over the past few years in literature, solutions with good practicality are limited. Liquid crystal (LC)-based active metasurface is one of the most promising approaches due to the well-established LC industry. In this paper, an electrically tunable active metasurface was proposed and experimentally demonstrated using photoaligned nematic LC. The good quality of the LC photoalignment on the metasurface was demonstrated. Tunable transmission was obtained for telecommunication C band and the modulation depth in transmission amplitude of 94% was realized for 1530 nm. Sub-millisecond response time was achieved at operating a temperature of 60°C. The progress made here presents the potential of LC-based active metasurfaces for fast-switching photonic devices at optical communication wavelengths. More importantly, this work lays the foundations for the next-generation liquid crystal on silicon (LCoS) devices that are integrated with metasurfaces (meta-LCoS)."
+  },
+  {
+    "paper_id": "W2938572472",
+    "title": "Scalable Microring-Based Silicon Clos Switch Fabric With Switch-and-Select Stages",
+    "year": 2019,
+    "venue": "IEEE Journal of Selected Topics in Quantum Electronics",
+    "abstract": "We propose and analyze a scalable microring-based Clos switch fabric architecture constructed with switch-and-select switching stages. A silicon 4 × 4 building block that was designed and fabricated through American Institute for Manufacturing Integrated Photonics is used for the proof-of-principle demonstration of a 16 × 16 Clos switch fabric. By fully blocking the first-order crosstalk, the 4 × 4 device is measured to show a crosstalk ratio in the range of -57 to -48.5 dB, enabling better than -39 dB crosstalk for the 16 × 16 switch. Our study shows that the three-stage Clos design enables up to a factor of 4 in the reduction of the number of switching cells compared to single-stage switch-and-select fabrics. We further explore the design space for both first-order and second-order switching elements using the foundry-validated parameters and how these factors impact the performance and scalability of the three-stage Clos switch. A detailed power penalty map is drawn for Clos switch fabrics with various scales, which reveals that the ultimate key limiting factor is the shuffle insertion loss. An optimized 32-port Clos switch fabric using foundry-enabled parameters is shown to have a less than 10-dB power penalty."
+  },
+  {
+    "paper_id": "W2786482165",
+    "title": "Low-Loss Si3N4 TriPleX Optical Waveguides: Technology and Applications Overview",
+    "year": 2018,
+    "venue": "IEEE Journal of Selected Topics in Quantum Electronics",
+    "abstract": "An overview of the most recent developments and improvements to the low-loss TriPleX Si3N4waveguide technology is presented in this paper. The TriPleX platform provides a suite of waveguide geometries (box, double stripe, symmetric single stripe, and asymmetric double stripe) that can be combined to design complex functional circuits, but more important are manufactured in a single monolithic process flow to create a compact photonic integrated circuit. All functionalities of the integrated circuit are constructed using standard basic building blocks, namely straight and bent waveguides, splitters/combiners and couplers, spot size converters, and phase tuning elements. The basic functionalities that have been realized are: ring resonators and Mach-Zehnder interferometer filters, tunable delay elements, and waveguide switches. Combination of these basic functionalities evolves into more complex functions such as higher order filters, beamforming networks, and fully programmable architectures. Introduction of the active InP chip platform in a combination with the TriPleX will introduce light generation, modulation, and detection to the low-loss platform. This hybrid integration strategy enables fabrication of tunable lasers, fully integrated filters, and optical beamforming networks."
+  },
+  {
+    "paper_id": "W2591729902",
+    "title": "Beam-Steering All-Optical Switch for Multi-Core Fibers",
+    "year": 2017,
+    "venue": "Optical Fiber Communication Conference",
+    "abstract": "We report on the development of the first multi-lane all-optical switch with directly integrated multi-core fibers. A 3-port single-sided beam-steering switch connecting 4-core fibers shows core-to-core losses below 2.2 dB with less than 1-dB variation."
+  },
+  {
+    "paper_id": "W2913395450",
+    "title": "Design and Analysis of Beam Steering Multicore Fiber Optical Switches",
+    "year": 2019,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "The design and performance characteristics of a beam steering optical switch for multicore fibers (MCFs) are reported. Port count, core count, transmission crosstalk, or a combination thereof can be optimized for the required application. Decreasing port separation or increasing the maximum steering angle both increase port count, whilst a higher core count or larger mode field diameter increase port capacity or port count, respectively, at the expense of greater intercore crosstalk. Potential losses from system misalignments and fiber fabrication variations in the core pitch are also estimated. A 50 port switch is possible for a 25 μm core pitch 7 core hexagonal trench assisted MCF (TA-MCF) with a total mean statistical crosstalk on the central core of -25 dB after 1 km, assuming an operational wavelength of 1550 nm and maximum collimator actuator angle of 10°. In contrast, a high capacity 25 μm core pitch 61 core hexagonal TA-MCF can still offer up to a 5 port switch for the same level of crosstalk. For longer link distances, -25 dB crosstalk after 100 km (metro network) is achievable for a 50 port switch using a 35 μm core pitch 7 core TA-MCF. Similar levels of crosstalk can be accomplished at 1000 km (core network) for a 41 port switch using a 25 μm core pitch 7 core TA-MCF."
+  },
+  {
+    "paper_id": "W3158684015",
+    "title": "Integrated Optical Phased Arrays for Beam Forming and Steering",
+    "year": 2021,
+    "venue": "Applied Sciences",
+    "abstract": "Integrated optical phased arrays can be used for beam shaping and steering with a small footprint, lightweight, high mechanical stability, low price, and high-yield, benefiting from the mature CMOS-compatible fabrication. This paper reviews the development of integrated optical phased arrays in recent years. The principles, building blocks, and configurations of integrated optical phased arrays for beam forming and steering are presented. Various material platforms can be used to build integrated optical phased arrays, e.g., silicon photonics platforms, III/V platforms, and III–V/silicon hybrid platforms. Integrated optical phased arrays can be implemented in the visible, near-infrared, and mid-infrared spectral ranges. The main performance parameters, such as field of view, beamwidth, sidelobe suppression, modulation speed, power consumption, scalability, and so on, are discussed in detail. Some of the typical applications of integrated optical phased arrays, such as free-space communication, light detection and ranging, imaging, and biological sensing, are shown, with future perspectives provided at the end."
+  },
+  {
+    "paper_id": "W2949924416",
+    "title": "Liquid Crystal Beam Steering Devices: Principles, Recent Advances, and Future Developments",
+    "year": 2019,
+    "venue": "Crystals",
+    "abstract": "Continuous, wide field-of-view, high-efficiency, and fast-response beam steering devices are desirable in a plethora of applications. Liquid crystals (LCs)—soft, bi-refringent, and self-assembled materials which respond to various external stimuli—are especially promising for fulfilling these demands. In this paper, we review recent advances in LC beam steering devices. We first describe the general operation principles of LC beam steering techniques. Next, we delve into different kinds of beam steering devices, compare their pros and cons, and propose a new LC-cladding waveguide beam steerer using resistive electrodes and present our simulation results. Finally, two future development challenges are addressed: Fast response time for mid-wave infrared (MWIR) beam steering, and device hybridization for large-angle, high-efficiency, and continuous beam steering. To achieve fast response times for MWIR beam steering using a transmission-type optical phased array, we develop a low-loss polymer-network liquid crystal and characterize its electro-optical properties."
+  },
+  {
+    "paper_id": "W4214829241",
+    "title": "High‐performance optical beam steering with nanophotonics",
+    "year": 2022,
+    "venue": "Nanophotonics",
+    "abstract": "The ability to control and steer optical beams is critical for emerging technologies. Among these are light detection and ranging (LiDAR), laser display, free space communication, and single pixel imaging. Improvements in these areas promise enhanced 3D data collection capabilities, orders of magnitude increase in wireless data rate, less expensive cameras, and ever more immersive virtual/augmented reality (VR/AR) consumer electronics. Bulk mechanical or liquid crystal devices are conventionally utilized platforms that achieve optical beam steering, but they are bulky and limited in speed and reliability. Instead, chip-scale photonic platforms offer faster and more elegant mechanisms to manipulate light, capable of minimizing device size, weight, and power. Additionally, a critical device metric is its far field resolution, which influences fine feature detection in imaging applications, laser display quality, and signal power and fidelity of free space communication links. Strong light matter interaction achieved with nanophotonic approaches generally makes devices smaller and more efficient, yet ultimately these effects must be scaled to suitable aperture sizes to maintain good resolution. Recent years have seen rapid development in these performance characteristics, spurred by research on active metasurfaces, slow light waveguides, and waveguide phased arrays, with different architectures encountering unique tradeoffs between device complexity, resolution, and speed, in attempting to achieve groundbreaking values for all three. We review these diverse emerging nanophotonic approaches that aspire to achieve high-performance optical beam steering."
+  },
+  {
+    "paper_id": "W2068954499",
+    "title": "Archon: A Function Programmable Optical Interconnect Architecture for Transparent Intra and Inter Data Center SDM/TDM/WDM Networking",
+    "year": 2015,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "This paper reports all-optical, function programmable, transparent, intra- and inter-data center networking (DCN) using space and time-division multiplexing (SDM/TDM) within data centers and wavelength division multiplexing (WDM) between data centers. A multielement fiber is used for SDM transmission to provide a large quantity of optical links between the top-of-racks (ToRs) and the function programmable cluster switch. Beam-steering large-port-count fiber switches, used as central cluster switches and intercluster switch, provide a single hop optical circuit switching solution, and also enable network function programmability for DCN to support variable traffic patterns and different network functions. A TDM switch as a plug-in function provides intra-cluster communication with variable capacity and low latency. The flat-structured intra data center architecture, with a circuit-switched SDM and TDM hybrid network enables scalable, large-capacity and low-latency DCN communication. In addition, all-optical ToR-to-ToR inter-DCN is realized through metro/core networks. A highly-nonlinear fiber based all-optical SDM-to-WDM converter transfers three SDM signals to three-carrier spectral superchannel signals, which are transmitted to the destination DCN, through the metro/core networks. The all-optical ToR-ToR cross-DCN connections enable the geographically distributed DCNs to appear as one big data center."
+  },
+  {
+    "paper_id": "W3186137658",
+    "title": "Inverse-Designed Photonic Crystal Circuits for Optical Beam Steering",
+    "year": 2021,
+    "venue": "ACS Photonics",
+    "abstract": "The ability of photonic crystal waveguides (PCWs) to confine and slow down light makes them an ideal component to enhance the performance of various photonic devices, such as optical modulators or sensors. However, the integration of PCWs in photonic applications poses design challenges, most notably, engineering the PCW mode dispersion and creating efficient coupling devices. Here, we solve these challenges with photonic inverse design and experimentally demonstrate a slow-light PCW optical phased array (OPA) with a wide steering range. Even and odd mode PCWs are engineered for a group index of 25, over a bandwidth of 20 and 12 nm, respectively. Additionally, for both PCW designs, we create strip waveguide couplers and free-space vertical couplers. Finally, also relying on inverse design, the radiative losses of the PCW are engineered, allowing us to construct OPAs with a 20° steering range in a 20 nm bandwidth."
+  },
+  {
+    "paper_id": "W2919597673",
+    "title": "Optical orbital-angular-momentum-multiplexed data transmission under high scattering",
+    "year": 2019,
+    "venue": "Light Science & Applications",
+    "abstract": "Multiplexing multiple orbital angular momentum (OAM) channels enables high-capacity optical communication. However, optical scattering from ambient microparticles in the atmosphere or mode coupling in optical fibers significantly decreases the orthogonality between OAM channels for demultiplexing and eventually increases crosstalk in communication. Here, we propose a novel scattering-matrix-assisted retrieval technique (SMART) to demultiplex OAM channels from highly scattered optical fields and achieve an experimental crosstalk of -13.8 dB in the parallel sorting of 24 OAM channels after passing through a scattering medium. The SMART is implemented in a self-built data transmission system that employs a digital micromirror device to encode OAM channels and realize reference-free calibration simultaneously, thereby enabling a high tolerance to misalignment. We successfully demonstrate high-fidelity transmission of both gray and color images under scattering conditions at an error rate of <0.08%. This technique might open the door to high-performance optical communication in turbulent environments."
+  },
+  {
+    "paper_id": "W4323644257",
+    "title": "A Hybrid Beam Steering Free-Space and Fiber Based Optical Data Center Network",
+    "year": 2023,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "Wireless data center networks (DCNs) are promising solutions to mitigate the cabling complexity in traditional wired DCNs and potentially reduce the end-to-end latency with faster propagation speed in free space. Yet, physical architectures in wireless DCNs must be carefully designed regarding wireless link blockage, obstacle bypassing, path loss, interference and spatial efficiency in a dense deployment. This paper presents the physical layer design of a hybrid FSO/in-fiber DCN while guaranteeing an all-optical, single hop, non-oversubscribed and full-bisection bandwidth network. We propose two layouts and analyze their scalability: (1) A static network utilizing only tunable sources which can scale up to 43 racks, 15,609 nodes and 15,609 channels; and (2) a re-configurable network with both tunable sources and piezoelectric actuator (PZT) based beam-steering which can scale up to 8 racks, 2,904 nodes and 185,856 channels at millisecond PZT switching time. Based on a traffic generation framework and a dynamic wavelength-timeslot scheduling algorithm, the system-level network performance is simulated for a 363-node subnet, reaching$>\\!\\!99\\%$throughput and 1.23$\\mu$s average scheduler latency at 90% load."
+  },
+  {
+    "paper_id": "W4281661666",
+    "title": "All-Solid-State Beam Steering via Integrated Optical Phased Array Technology",
+    "year": 2022,
+    "venue": "Micromachines",
+    "abstract": "Light detection and ranging (LiDAR), combining traditional radar technology with modern laser technology, has much potential for applications in navigation, mapping, and so on. Benefiting from the superior performance, an all-solid-state beam steering realized by integrated optical phased array (OPA) is one of the key components in the LiDAR system. In this review, we first introduce the basic principle of OPA for beam steering. Then, we briefly review the detailed advances of different solutions such as micro-electromechanical system OPA, liquid crystal OPA, and metasurface OPA, where our main focus was on the recent progress of OPA in photonic integrated chips. Finally, we summarize the different solutions and discuss the challenges and perspectives of all-solid-state beam steering for LiDAR."
+  },
+  {
+    "paper_id": "W4308917574",
+    "title": "Optical Switching in Future Fiber-Optic Networks Utilizing Spectral and Spatial Degrees of Freedom",
+    "year": 2022,
+    "venue": "Proceedings of the IEEE",
+    "abstract": "Forthcoming capacity scaling requirements of optical networks and advances in optical fiber communications beyond the omnipresent single-mode fiber operating over the conventional band introduces new opportunities and challenges for exploiting the expanded spectral and spatial resources available for fiber-optic network designs. The spectral and spatial degrees of freedom introduce utilization tradeoffs that can be leveraged under different applications. After briefly reviewing the supporting network building elements (emerging fiber types, multiplexers, optical switches, and amplifiers), we consider networking scenarios such as intra/inter datacenter, terrestrial, undersea, and wireless 5G/6G hauling networks and identify the best utilization plan and key attributes that can be harnessed by the offered spectral and spatial degrees of freedom for each scenario and how optical switching can be employed therein for traffic management. Networks supporting these scenarios are experiencing tremendous traffic growth pushing their existing implementations to their physical capacity-distance limits. New network builds must offer significant capacity multipliers in an efficient and cost-effective manner, requiring new switching solutions for supporting the unabated traffic growths foreseen in the years to come. We discuss how space-division multiplexed networks can help address this challenge in key communication scenarios."
+  },
+  {
+    "paper_id": "W4387760959",
+    "title": "Modulo-addition operation enables terahertz programmable metasurface for high-resolution two-dimensional beam steering",
+    "year": 2023,
+    "venue": "Science Advances",
+    "abstract": "Electrically controlled terahertz (THz) beamforming antennas are essential for various applications such as wireless communications, security checks, and radar to improve coverage and information capacity. The emerging programmable metasurface provides a flexible, cost-effective platform for THz beam steering. However, scaling such arrays to achieve high-gain beam steering faces several technical challenges. Here, we propose a pixelated liquid crystal THz metasurface with a crossbar structure, thereby increasing the array scale to more than 3000. The coding pattern on the programmable device is generated by the modulo-addition of the coding sequences on the top and bottom layers. We experimentally demonstrate the programmable liquid crystal metasurface capable of active beam deflection in the upper half-space. This scale-up of programmable devices opens exciting opportunities in pencil beamforming, high-speed information processing, and optical computing."
+  },
+  {
+    "paper_id": "W4394930219",
+    "title": "Large-scale optical switches by thermo-optic waveguide lens",
+    "year": 2024,
+    "venue": "PhotoniX",
+    "abstract": "Abstract Optical switches are desired in telecom and datacom as an upgrade to electrical ones for lower power consumption and expenses while improving bandwidth and network transparency. Compact, integrated optical switches are attractive thanks to their scalability, readiness for mass production, and robustness against mechanical disturbances. The basic unit relies mostly on a microring resonator or a Mach–Zehnder interferometer for binary “bar” and “cross” switching. Such single-mode structures are often wavelength / polarization dependent, sensitive to phase errors and loss-prone. Furthermore, when they are cascaded to a network, the number of control units grows quickly with the port count, causing high complexity in electronic wiring and drive circuit integration. Herein, we propose a new switching method by thermo-optic waveguide lens. Essentially, this multimode waveguide forms a square law medium by a pair of heater electrodes and focuses light within a chip by robust 1 × 1 imaging. A 1 × 24 basic switch is demonstrated with 32 electrodes and only two are biased at a time for a chosen output. By two-level cascading, the switch expands to 576 ports and only four electrodes are needed for one path. The chips are fabricated on wafer scale in a low-budget laboratory without resorting to foundries. Yet, the performance goes beyond state of the art for low insertion loss, low wavelength dependence and low polarization dependence. This work provides an original, alternative, and practical route to construct large-scale optical switches, enabling broad applications in telecom, datacom and photonic computing."
+  }
+]

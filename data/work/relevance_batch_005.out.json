@@ -1,0 +1,152 @@
+[
+  {
+    "record_key": "openalex:W1982892759",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Free-space optical communication links, not circuit switching; no OCS relevance."
+  },
+  {
+    "record_key": "openalex:W3091342457",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Designs topology and routing optimization for OCS-based data center networks."
+  },
+  {
+    "record_key": "openalex:W3008830959",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Builds and characterizes a microsecond optical circuit switch prototype for data centers."
+  },
+  {
+    "record_key": "openalex:W4226369700",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Studies scheduling performance on an optical circuit switched data center network."
+  },
+  {
+    "record_key": "openalex:W4284882945",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Designs physical topology for optical-circuit-switched data center networks with performance guarantees."
+  },
+  {
+    "record_key": "openalex:W4281707213",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Designs physical topology for optical-circuit-switched data center networks with performance guarantees."
+  },
+  {
+    "record_key": "openalex:W1998544072",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Skin-mounted stretchable electronics; unrelated to optical circuit switching."
+  },
+  {
+    "record_key": "openalex:W2177488376",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Prototype hybrid ToR using microsecond optical circuit switching in data centers."
+  },
+  {
+    "record_key": "openalex:W3210177009",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Energy-efficient scaling of optical circuit switches in hybrid packet/circuit data centers."
+  },
+  {
+    "record_key": "openalex:W2948174331",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Proposes circuit-switched optical network architecture for disaggregated data centers."
+  },
+  {
+    "record_key": "openalex:W2099718645",
+    "score": 1,
+    "adjacent_field": "telecom_oxc_roadm",
+    "reason": "SDN control plane extended to optical transport; no specific OCS switch."
+  },
+  {
+    "record_key": "openalex:W2071137961",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Nanophotonic optical data storage review; unrelated to circuit switching."
+  },
+  {
+    "record_key": "openalex:W2534962717",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Multi-tenancy scheme for hybrid optical packet/circuit switched data center networks."
+  },
+  {
+    "record_key": "openalex:W2345562294",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Broad optical communications roadmap; abstract does not mention circuit switching."
+  },
+  {
+    "record_key": "openalex:W4225000980",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Demonstrates nanosecond optical switching and control system for data center networks."
+  },
+  {
+    "record_key": "openalex:W2884318141",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Evaluates Hadoop performance on data center networks with optical circuit switches."
+  },
+  {
+    "record_key": "openalex:W4384820653",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Tutorial on optical switching technologies for intra data center networks."
+  },
+  {
+    "record_key": "openalex:W2068907524",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Title: optical cross-connect combining circuit and packet switching for DCNs; abstract empty."
+  },
+  {
+    "record_key": "openalex:W2065863985",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Oxygen sensing via optical spectroscopy; unrelated to circuit switching."
+  },
+  {
+    "record_key": "openalex:W2937088522",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Builds wafer-scale silicon photonic optical switch scaling beyond reticle size limits."
+  },
+  {
+    "record_key": "openalex:W3160595640",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Review of optical trapping and tweezers; unrelated to circuit switching."
+  },
+  {
+    "record_key": "openalex:W2136389908",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Terahertz metamaterial switching; not an optical circuit switch for networking."
+  },
+  {
+    "record_key": "openalex:W7168289392",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Title indicates design model for optical-circuit-switched data centers; abstract empty."
+  },
+  {
+    "record_key": "openalex:W2898651003",
+    "score": 1,
+    "adjacent_field": "silicon_photonics",
+    "reason": "Phase-change photonic materials for switches/routers generally; not OCS-specific."
+  },
+  {
+    "record_key": "openalex:W2544385506",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Plasmonic circuits for optical information processing; not circuit switching."
+  }
+]

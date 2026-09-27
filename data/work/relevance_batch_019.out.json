@@ -1,0 +1,152 @@
+[
+  {
+    "record_key": "openalex:W2413950147",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Indoor optical wireless beam steering via wavelength tuning, unrelated to OCS"
+  },
+  {
+    "record_key": "openalex:W4313455582",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "THz beam steering via liquid crystal elastomer metasurface, unrelated"
+  },
+  {
+    "record_key": "openalex:W2755567273",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Hybrid photonic-crystal fiber review, unrelated to circuit switching"
+  },
+  {
+    "record_key": "openalex:W4214829241",
+    "score": 1,
+    "adjacent_field": "silicon_photonics",
+    "reason": "Chip-scale nanophotonic beam steering review for LiDAR/comms, not a switch"
+  },
+  {
+    "record_key": "openalex:W3092216269",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Functional fibers/fabrics for soft robotics wearables, unrelated"
+  },
+  {
+    "record_key": "openalex:W4200345206",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "OAM free-space optical communications review, unrelated to circuit switching"
+  },
+  {
+    "record_key": "openalex:W2554260837",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "MINFLUX super-resolution imaging, unrelated to optical switching"
+  },
+  {
+    "record_key": "openalex:W4321790208",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Optical fiber temperature sensors review, unrelated to circuit switching"
+  },
+  {
+    "record_key": "openalex:W4381434615",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Broad integrated metasurfaces review, unrelated to circuit switching"
+  },
+  {
+    "record_key": "openalex:W3173926265",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Indoor optical wireless beam steering for Industry 4.0, unrelated to OCS"
+  },
+  {
+    "record_key": "openalex:W2068954499",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Beam-steering fiber switches as cluster/intercluster OCS in DC network architecture"
+  },
+  {
+    "record_key": "openalex:W3190442075",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Optical phased array neural probes for brain tissue, unrelated"
+  },
+  {
+    "record_key": "openalex:W2946108906",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Switchable metasurface beams via material hydrogenation, unrelated to OCS"
+  },
+  {
+    "record_key": "openalex:W2113359970",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Acoustic metasurface wavefront modulation, unrelated; empty abstract"
+  },
+  {
+    "record_key": "openalex:W3186137658",
+    "score": 1,
+    "adjacent_field": "silicon_photonics",
+    "reason": "Inverse-designed photonic crystal waveguide beam steering chip, not a switch"
+  },
+  {
+    "record_key": "openalex:W2802011113",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Plasmonic metasurface beam steering for polarization control, unrelated"
+  },
+  {
+    "record_key": "openalex:W2919597673",
+    "score": 1,
+    "adjacent_field": "mems_micromirror",
+    "reason": "Uses digital micromirror device to encode OAM channels, not a switch"
+  },
+  {
+    "record_key": "openalex:W2955897898",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "6G wireless above 100GHz survey, unrelated to optical switching"
+  },
+  {
+    "record_key": "openalex:W2100234202",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Quantum EPR steering experiment, different meaning of steering, unrelated"
+  },
+  {
+    "record_key": "openalex:W2891187036",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Multimaterial optoelectronic fibers/textiles review, unrelated to switching"
+  },
+  {
+    "record_key": "openalex:W2218442732",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "mmWave beam steering integration survey for 5G antennas, unrelated"
+  },
+  {
+    "record_key": "openalex:W4323644257",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Hybrid beam-steering free-space/fiber optical data center network with PZT actuators"
+  },
+  {
+    "record_key": "openalex:W4281661666",
+    "score": 1,
+    "adjacent_field": "silicon_photonics",
+    "reason": "Integrated OPA beam steering review for LiDAR, chip focus, not a switch"
+  },
+  {
+    "record_key": "openalex:W3000699369",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Optical wireless hybrid networks survey, unrelated to circuit switching"
+  },
+  {
+    "record_key": "openalex:W4308917574",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Reviews optical switches and spectral/spatial multiplexing for datacenter networking scenarios"
+  }
+]

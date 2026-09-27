@@ -1,0 +1,152 @@
+[
+  {
+    "record_key": "openalex:W2900750062",
+    "score": 1,
+    "adjacent_field": "silicon_photonics",
+    "reason": "Multimode silicon photonics device design review, not switch-focused"
+  },
+  {
+    "record_key": "openalex:W2235174674",
+    "score": 1,
+    "adjacent_field": "silicon_photonics",
+    "reason": "Silicon quantum photonics component review, not switch-focused"
+  },
+  {
+    "record_key": "openalex:W3130725666",
+    "score": 1,
+    "adjacent_field": "silicon_photonics",
+    "reason": "Thin-film lithium niobate integrated photonics review, not switch-focused"
+  },
+  {
+    "record_key": "openalex:W2883000198",
+    "score": 1,
+    "adjacent_field": "silicon_photonics",
+    "reason": "On-chip silicon photonic signaling review, per title; empty abstract"
+  },
+  {
+    "record_key": "openalex:W2571361994",
+    "score": 1,
+    "adjacent_field": "silicon_photonics",
+    "reason": "Silicon photonic microwave notch filter, fab skills transfer, not a switch"
+  },
+  {
+    "record_key": "openalex:W2774352386",
+    "score": 1,
+    "adjacent_field": "silicon_photonics",
+    "reason": "Mid-infrared silicon photonics perspective, not switch-focused"
+  },
+  {
+    "record_key": "openalex:W2933780027",
+    "score": 1,
+    "adjacent_field": "silicon_photonics",
+    "reason": "Heterogeneous InP/silicon photonic transceivers, moves bits, not a switch"
+  },
+  {
+    "record_key": "openalex:W2165260925",
+    "score": 1,
+    "adjacent_field": "silicon_photonics",
+    "reason": "General silicon photonic devices and circuits review, not switch-focused"
+  },
+  {
+    "record_key": "openalex:W2753112608",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Broad electronic and photonic materials handbook, too general; empty abstract"
+  },
+  {
+    "record_key": "openalex:W2909208749",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Review of silicon photonic switches: MZI, microring, MEMS switch engines"
+  },
+  {
+    "record_key": "openalex:W1595003097",
+    "score": 1,
+    "adjacent_field": "silicon_photonics",
+    "reason": "Silicon photonic transceivers for telecom, moves bits not switching"
+  },
+  {
+    "record_key": "openalex:W2901868604",
+    "score": 1,
+    "adjacent_field": "silicon_photonics",
+    "reason": "High-speed silicon photonic modulators review, not switch-focused"
+  },
+  {
+    "record_key": "openalex:W2905370602",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Integrated photonic switch built using phase-change material, reconfigurable, low loss"
+  },
+  {
+    "record_key": "openalex:W2758404936",
+    "score": 1,
+    "adjacent_field": "silicon_photonics",
+    "reason": "Photonic synapse using phase-change silicon nitride, neuromorphic not routing"
+  },
+  {
+    "record_key": "openalex:W4210305137",
+    "score": 1,
+    "adjacent_field": "silicon_photonics",
+    "reason": "Photonic matrix multiplication accelerator review, computing not circuit switching"
+  },
+  {
+    "record_key": "openalex:W3159759503",
+    "score": 1,
+    "adjacent_field": "silicon_photonics",
+    "reason": "Silicon photonics modulator performance review, not switch-focused"
+  },
+  {
+    "record_key": "openalex:W1990459252",
+    "score": 1,
+    "adjacent_field": "silicon_photonics",
+    "reason": "Silicon photonics design/EDA challenges review, not switch-focused"
+  },
+  {
+    "record_key": "openalex:W2226240249",
+    "score": 1,
+    "adjacent_field": "silicon_photonics",
+    "reason": "Silicon photonic circuits for spectroscopic sensing, not switching"
+  },
+  {
+    "record_key": "openalex:W2005927954",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Bottom-up colloidal photonic crystal assembly, materials chemistry, unrelated"
+  },
+  {
+    "record_key": "openalex:W2887956223",
+    "score": 1,
+    "adjacent_field": "silicon_photonics",
+    "reason": "History and overview of silicon photonics platform, not switch-focused"
+  },
+  {
+    "record_key": "openalex:W1963836897",
+    "score": 1,
+    "adjacent_field": "silicon_photonics",
+    "reason": "Passive silicon photonic components (polarization, isolators), not switches"
+  },
+  {
+    "record_key": "openalex:W3008709580",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Silicon carbide quantum color centers, unrelated material and application"
+  },
+  {
+    "record_key": "openalex:W3029584541",
+    "score": 1,
+    "adjacent_field": "silicon_photonics",
+    "reason": "Wafer-scale silicon nitride photonic circuit fabrication, not switch-focused"
+  },
+  {
+    "record_key": "openalex:W3095839225",
+    "score": 1,
+    "adjacent_field": "silicon_photonics",
+    "reason": "Silicon photonics for telecom/datacom devices review, not switch-focused"
+  },
+  {
+    "record_key": "openalex:W4313555657",
+    "score": 1,
+    "adjacent_field": "silicon_photonics",
+    "reason": "Lithium niobate photonics review across applications, not switch-focused"
+  }
+]

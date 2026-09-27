@@ -1,0 +1,202 @@
+[
+  {
+    "record_key": "openalex:W3021393652",
+    "source": "openalex",
+    "title": "Microwave Photonic Radars",
+    "year": 2020,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "As the only method for all-weather, all-time and long-distance target detection and recognition, radar has been intensively studied since it was invented, and is considered as an essential sensor for future intelligent society. In the past few decades, great efforts were devoted to improving radar's functionality, precision, and response time, of which the key is to generate, control and process a wideband signal with high speed. Thanks to the broad bandwidth, flat response, low loss transmission, multidimensional multiplexing, ultrafast analog signal processing and electromagnetic interference immunity provided by modern photonics, implementation of the radar in the optical domain can achieve better performance in terms of resolution, coverage, and speed which would be difficult (if not impossible) to implement using traditional,"
+  },
+  {
+    "record_key": "openalex:W2804293795",
+    "source": "openalex",
+    "title": "Silicon Photonics-Based 100 Gbit/s, PAM4, DWDM Data Center Interconnects",
+    "year": 2018,
+    "venue": "Journal of Optical Communications and Networking",
+    "abstract": "In this paper we discuss the nature of and requirements for data center interconnects. We then demonstrate a switch-pluggable, 4.5 W, 100 Gbit/s, silicon-photonics-based, PAM4, QSFP-28 module to transport Ethernet data directly over DWDM for layer 2/3 connection between switches at data centers up to 120 km apart, thereby eliminating the need for a separate optical transport layer. The module, based on the direct detect modulation format, is of much reduced complexity, power, and cost compared to the coherent systems that are currently being deployed for this application."
+  },
+  {
+    "record_key": "openalex:W2900579067",
+    "source": "openalex",
+    "title": "Open-Access Silicon Photonics: Current Status and Emerging Initiatives",
+    "year": 2018,
+    "venue": "Proceedings of the IEEE",
+    "abstract": "Silicon photonics is widely acknowledged as a game-changing technology, driven by the needs of datacom and telecom. Silicon photonics builds on highly capital-intensive manufacturing infrastructure, and mature open-access silicon photonics platforms are translating the technology from research fabs to industrial manufacturing levels. To meet the current market demands for silicon photonics manufacturing, a variety of open-access platforms is offered by CMOS pilot lines, R&D institutes, and commercial foundries. This paper presents an overview of existing and upcoming commercial and noncommercial open-access silicon photonics technology platforms. We also discuss the diversity in these open-access platforms and their key differentiators."
+  },
+  {
+    "record_key": "openalex:W2981243347",
+    "source": "openalex",
+    "title": "Photonic quantum information processing: A concise review",
+    "year": 2019,
+    "venue": "Applied Physics Reviews",
+    "abstract": "Photons have been a flagship system for studying quantum mechanics, advancing quantum information science, and developing quantum technologies. Quantum entanglement, teleportation, quantum key distribution, and early quantum computing demonstrations were pioneered in this technology because photons represent a naturally mobile and low-noise system with quantum-limited detection readily available. The quantum states of individual photons can be manipulated with very high precision using interferometry, an experimental staple that has been under continuous development since the 19th century. The complexity of photonic quantum computing devices and protocol realizations has raced ahead as both underlying technologies and theoretical schemes have continued to develop. Today, photonic quantum computing represents an exciting path to medium- and large-scale processing. It promises to put aside its reputation"
+  },
+  {
+    "record_key": "openalex:W3041992595",
+    "source": "openalex",
+    "title": "Grating Couplers on Silicon Photonics: Design Principles, Emerging Trends and Practical Issues",
+    "year": 2020,
+    "venue": "Micromachines",
+    "abstract": "Silicon photonics is an enabling technology that provides integrated photonic devices and systems with low-cost mass manufacturing capability. It has attracted increasing attention in both academia and industry in recent years, not only for its applications in communications, but also in sensing. One important issue of silicon photonics that comes with its high integration density is an interface between its high-performance integrated waveguide devices and optical fibers or free-space optics. Surface grating coupler is a preferred candidate that provides flexibility for circuit design and reduces effort for both fabrication and alignment. In the past decades, considerable research efforts have been made on in-plane grating couplers to address their insufficiency in coupling efficiency, wavelength sensitivity and polarization sensitivity compared with out-of-plane"
+  },
+  {
+    "record_key": "openalex:W3095859605",
+    "source": "openalex",
+    "title": "Integrated Quantum Photonics with Silicon Carbide: Challenges and Prospects",
+    "year": 2020,
+    "venue": "PRX Quantum",
+    "abstract": "Optically addressable solid-state spin defects are promising candidates for storing and manipulating quantum information using their long coherence ground-state manifold; individual defects can be entangled using photon-photon interactions, offering a path toward large-scale quantum photonic networks.Quantum computing protocols place strict limits on the acceptable photon losses in the system.These lowloss requirements cannot be achieved without photonic engineering, but are attainable if combined with state-of-the-art nanophotonic technologies.However, most materials that host spin defects are challenging to process: as a result, the performance of quantum photonic devices is orders of magnitude behind that of their classical counterparts.Silicon carbide (SiC) is well suited to bridge the classical-quantum photonics gap, since it hosts promising optically addressable spin defects and can be processed into SiC-on-insulator"
+  },
+  {
+    "record_key": "openalex:W2613358869",
+    "source": "openalex",
+    "title": "Light Interaction with Photonic and Plasmonic Resonances",
+    "year": 2018,
+    "venue": "Laser & Photonics Review",
+    "abstract": "Abstract In this Review, the theory and applications of optical micro‐ and nano‐resonators are presented from the underlying concept of their natural resonances, the so‐called quasi‐normal modes (QNMs). QNMs are the basic constituents governing the response of resonators. Characterized by complex frequencies, QNMs are initially loaded by a driving field and then decay exponentially in time due to power leakage or absorption. Here, the use of QNM‐expansion formalisms to model these basic effects is explored. Such modal expansions that operate at complex frequencies distinguish from the current user habits in electromagnetic modeling, which rely on classical Maxwell's equation solvers operating at real frequencies or in the time domain; they also bring much deeper physical insight into the analysis. An extensive"
+  },
+  {
+    "record_key": "openalex:W2051645371",
+    "source": "openalex",
+    "title": "Observation of soliton compression in silicon photonic crystals",
+    "year": 2014,
+    "venue": "Nature Communications",
+    "abstract": "Solitons are nonlinear waves present in diverse physical systems including plasmas, water surfaces and optics. In silicon, the presence of two photon absorption and accompanying free carriers strongly perturb the canonical dynamics of optical solitons. Here we report the first experimental demonstration of soliton-effect pulse compression of picosecond pulses in silicon, despite two photon absorption and free carriers. Here we achieve compression of 3.7 ps pulses to 1.6 ps with <10 pJ energy. We demonstrate a ~1-ps free-carrier-induced pulse acceleration and show that picosecond input pulses are critical to these observations. These experiments are enabled by a dispersion-engineered slow-light photonic crystal waveguide and an ultra-sensitive frequency-resolved electrical gating technique to detect the ultralow energies in the nanostructured device. Strong agreement"
+  },
+  {
+    "record_key": "openalex:W4382726075",
+    "source": "openalex",
+    "title": "Massively scalable Kerr comb-driven silicon photonic link",
+    "year": 2023,
+    "venue": "Nature Photonics",
+    "abstract": "Abstract The growth of computing needs for artificial intelligence and machine learning is critically challenging data communications in today’s data-centre systems. Data movement, dominated by energy costs and limited ‘chip-escape’ bandwidth densities, is perhaps the singular factor determining the scalability of future systems. Using light to send information between compute nodes in such systems can dramatically increase the available bandwidth while simultaneously decreasing energy consumption. Through wavelength-division multiplexing with chip-based microresonator Kerr frequency combs, independent information channels can be encoded onto many distinct colours of light in the same optical fibre for massively parallel data transmission with low energy. Although previous high-bandwidth demonstrations have relied on benchtop equipment for filtering and modulating Kerr comb wavelength channels, data-centre interconnects require a"
+  },
+  {
+    "record_key": "openalex:W3021779279",
+    "source": "openalex",
+    "title": "Integrated lithium niobate photonics",
+    "year": 2020,
+    "venue": "Nanophotonics",
+    "abstract": "Abstract Lithium niobate (LiNbO 3 ) on insulator (LNOI) is a promising material platform for integrated photonics due to single crystal LiNbO 3 film’s wide transparent window, high refractive index, and high second‐order nonlinearity. Based on LNOI, the fast‐developing ridge‐waveguide fabrication techniques enabled various structures, devices, systems, and applications. We review the basic structures including waveguides, cavities, periodically poled LiNbO 3 , and couplers, along with their fabrication methods and optical properties. Treating those basic structures as building blocks, we review several integrated devices including electro‐optic modulators, nonlinear optical devices, and optical frequency combs with each device’s operating mechanism, design principle and methodology, and performance metrics. Starting from these integrated devices, we review how integrated LNOI devices boost the performance"
+  },
+  {
+    "record_key": "openalex:W2756058399",
+    "source": "openalex",
+    "title": "Silicon Nitride Photonic Integration Platforms for Visible, Near-Infrared and Mid-Infrared Applications",
+    "year": 2017,
+    "venue": "Sensors",
+    "abstract": "Silicon nitride photonics is on the rise owing to the broadband nature of the material, allowing applications of biophotonics, tele/datacom, optical signal processing and sensing, from visible, through near to mid-infrared wavelengths. In this paper, a review of the state of the art of silicon nitride strip waveguide platforms is provided, alongside the experimental results on the development of a versatile 300 nm guiding film height silicon nitride platform."
+  },
+  {
+    "record_key": "openalex:W2981656869",
+    "source": "openalex",
+    "title": "Silicon Photonics for 5G and Future Networks",
+    "year": 2019,
+    "venue": "IEEE Journal of Selected Topics in Quantum Electronics",
+    "abstract": "The evolution of mobile radio technologies towards the realization and deployment of 5G networks is creating relevant opportunities in the Industry and Society worldwide. On the other hand, the network infrastructure that will have to sustain many applications, including the ones requiring challenging network performance, in different terms, is leading to a network transformation and the capacity to handle bigger and bigger volumes of traffic at a reasonable cost and consumption of energy. Photonic technology will play a key role in 5G networks in different segments. In 5G transport it will allow the transmission and routing of huge amounts of data traffic at an acceptable cost, and the transformation of the radio access network. In data center photonic interconnect and"
+  },
+  {
+    "record_key": "openalex:W2976897596",
+    "source": "openalex",
+    "title": "Novel frontier of photonics for data processing—Photonic accelerator",
+    "year": 2019,
+    "venue": "APL Photonics",
+    "abstract": "In the emerging Internet of things cyber-physical system-embedded society, big data analytics needs huge computing capability with better energy efficiency. Coming to the end of Moore’s law of the electronic integrated circuit and facing the throughput limitation in parallel processing governed by Amdahl’s law, there is a strong motivation behind exploring a novel frontier of data processing in post-Moore era. Optical fiber transmissions have been making a remarkable advance over the last three decades. A record aggregated transmission capacity of the wavelength division multiplexing system per a single-mode fiber has reached 115 Tbit/s over 240 km. It is time to turn our attention to data processing by photons from the data transport by photons. A photonic accelerator (PAXEL) is a"
+  },
+  {
+    "record_key": "openalex:W3109897021",
+    "source": "openalex",
+    "title": "Silicon photonics for terabit/s communication in data centers and exascale computers",
+    "year": 2020,
+    "venue": "Solid-State Electronics",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W2782897921",
+    "source": "openalex",
+    "title": "Large-Scale Polarization-Insensitive Silicon Photonic MEMS Switches",
+    "year": 2018,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "We report on 50 × 50 silicon photonic micro-electromechanical-system (MEMS) switches with reduced polarization dependence. The switches make use of two-level waveguide crossbars and MEMS-actuated adiabatic couplers. Simulations indicate that by eliminating all polarization-dependent elements (e.g., waveguide crossings), low polarization-dependent losses (<;1 dB) can be realized. An experimental prototype switch was fabricated by bonding two silicon-on-insulator wafers. A polarization-dependent loss of 8.5 dB and a polarization-dependent delay of 44 ps were measured. The extinction ratios are greater than 40 dB for both polarizations. With improved fabrication, total on-chip loss <;2 dB can potentially be achieved for both polarizations."
+  },
+  {
+    "record_key": "openalex:W2257494936",
+    "source": "openalex",
+    "title": "Highly Scalable Digital Silicon Photonic MEMS Switches",
+    "year": 2015,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "Optical circuit switches with fast switching times can provide rapidly reconfigurable bandwidth in data center networks. Silicon photonic switches are attractive candidates with their fast response times and CMOS process compatibility. In this paper, we report on a 50 × 50 silicon photonic switch with MEMS-actuated vertical adiabatic couplers. The switch is monolithically integrated on a 7.6 × 7.6 mm2chip. It has an on-chip insertion loss of 8.5 dB. Our switch exhibits a sub-microsecond switching time (0.85 μs), a broad spectral bandwidth (1400-1700 nm), and digital switching characteristic. The switch architecture is highly scalable as light passes through only one switching element irrespective of the switch size."
+  },
+  {
+    "record_key": "openalex:W3097557698",
+    "source": "openalex",
+    "title": "Broadband Compact Single-Pole Double-Throw Silicon Photonic MEMS Switch",
+    "year": 2021,
+    "venue": "Journal of Microelectromechanical Systems",
+    "abstract": "Photonic Integrated Circuits (PICs) benefit from the technology advances in the semiconductor industry to incorporate an ever-increasing number of photonic components on a single chip to create large-scale photonic integrated circuits. We here present a broadband, compact and low-loss Silicon Photonic MEMS switch based on a Single-Pole Double-Throw (SPDT) architecture, where curved electrostatic actuators mechanically displace a movable input waveguide to redirect the optical signal on chip efficiently to either of two output waveguides. The photonic switch has been fabricated in an established silicon photonics technology platform with custom MEMS release post-processing. With a compact footprint of65×62μm2, the switch exhibits an extinction ratio exceeding 23 dB over 70 nm optical bandwidth, a low insertion loss and a fast response time"
+  },
+  {
+    "record_key": "openalex:W2918631369",
+    "source": "openalex",
+    "title": "Bistable silicon photonic MEMS switches",
+    "year": 2019,
+    "venue": null,
+    "abstract": "We present the design of a non-volatile, bistable silicon photonic MEMS switch. The switch architecture builds on our previously demonstrated silicon photonic MEMS switch unit cell, using vertically movable adiabatic couplers. We here propose to exploit compressive stress in the movable polysilicon waveguides in a controlled manner, to intentionally displace the movable waveguides out of plane upon release. We design the waveguide suspensions to achieve close alignment with the fixed bus waveguide in the ON state, and positioning of the movable waveguide far from the fixed waveguide in the OFF state. Both ON and OFF positions are stable mechanically, without the need for maintaining an actuation voltage. In order to actuate the movable waveguide, we design vertical comb drive actuators"
+  },
+  {
+    "record_key": "openalex:W2800201100",
+    "source": "openalex",
+    "title": "128×128 Silicon Photonic MEMS Switch with Scalable Row/Column Addressing",
+    "year": 2018,
+    "venue": "Conference on Lasers and Electro-Optics",
+    "abstract": "128×128 silicon photonic switch with 16,384 MEMS-actuated switching elements and row/column addressing scheme have been successfully integrated on a 16×17mm2 chip. The maximum (minimum) on-chip loss is 22.7 dB (4.8 dB)."
+  },
+  {
+    "record_key": "openalex:W4406015850",
+    "source": "openalex",
+    "title": "Silicon photonic MEMS switches based on split waveguide crossings",
+    "year": 2025,
+    "venue": "Nature Communications",
+    "abstract": "The continuous push for high-performance photonic switches is one of the most crucial premises for the sustainable scaling of programmable and reconfigurable photonic circuits for a wide spectrum of applications. Conventional optical switches rely on the perturbative mechanisms of mode coupling or mode interference, resulting in inherent bottlenecks in their switching performance concerning size, power consumption and bandwidth. Here we propose and realize a silicon photonic 2×2 elementary switch based on a split waveguide crossing (SWX) consisting of two halves. The propagation direction of the incident light is manipulated to implement the OFF/ON states by splitting/combining the two halves of the SWX, showing excellent performance with low excess loss and low crosstalk over an ultrawide bandwidth. Both elementary switch and"
+  },
+  {
+    "record_key": "openalex:W2186858051",
+    "source": "openalex",
+    "title": "64×64 Low-loss and broadband digital silicon photonic MEMS switches",
+    "year": 2015,
+    "venue": null,
+    "abstract": "We report on monolithically integrated 64×64 broadband digital silicon photonic MEMS switches with sub-microsecond switching time (0.9 μs), high extinction ratio (65 dB), low on-chip insertion loss (5.1 dB), broadband operation (1460-1580 nm wavelength) and compact footprint (7×7 mm2)."
+  },
+  {
+    "record_key": "openalex:W2271940456",
+    "source": "openalex",
+    "title": "Scalable Row/Column Addressing of Silicon Photonic MEMS Switches",
+    "year": 2016,
+    "venue": "IEEE Photonics Technology Letters",
+    "abstract": "In this letter, we demonstrate a scalable addressing scheme for silicon photonic MEMS switches. For a crossbar architecture switch fabric of dimension N × N, the row/column addressing scales with 2 · N electrodes, much reduced from the N2electrodes in individual addressing. It also compares favorably with other optical switch architectures, including path-independent insertion loss, Beneš, or switch-and-select networks, in terms of electrical interface. We have designed, fabricated, and experimentally characterized the performance of a 4 × 4 silicon photonic MEMS switch."
+  },
+  {
+    "record_key": "openalex:W2615050161",
+    "source": "openalex",
+    "title": "Flip Chip Packaging of Digital Silicon Photonics MEMS Switch for Cloud Computing and Data Centre",
+    "year": 2017,
+    "venue": "IEEE photonics journal",
+    "abstract": "We report on the flip chip packaging of Micro-Electro-Mechanical System (MEMS)-based digital silicon photonic switching device and the characterization results of 12 × 12 switching ports. The challenges in packaging N2electrical and 2N optical interconnections are addressed with single-layer electrical redistribution lines of 25 μm line width and space on aluminum nitride interposer and 13° polished 64-channel lidless fiber array (FA) with a pitch of 127 μm. 50 μm diameter solder spheres are laser-jetted onto the electrical bond pads surrounded by suspended MEMS actuators on the device before fluxless flip-chip bonding. A lidless FA is finally coupled near-vertically onto the device gratings using a 6-degree-of-freedom (6-DOF) alignment system. Fiber-to-grating coupler loss of 4.25 dB/facet, 10-11bit error rate (BER) through the"
+  },
+  {
+    "record_key": "openalex:W2951487609",
+    "source": "openalex",
+    "title": "Multicast silicon photonic MEMS switches with gap-adjustable directional couplers",
+    "year": 2019,
+    "venue": "Optics Express",
+    "abstract": "), and fast response (9.8 µs). The switching voltage is 9.6 V and 20 dB bandwidth is 31.5 nm. One-to-two and one-to-four multicast operations are demonstrated."
+  },
+  {
+    "record_key": "openalex:W3138799074",
+    "source": "openalex",
+    "title": "32 × 32 silicon photonic MEMS switch with gap-adjustable directional couplers fabricated in commercial CMOS foundry",
+    "year": 2021,
+    "venue": "Journal of Optical Microsystems",
+    "abstract": "We report on a 32 × 32 silicon photonic micro-electro-mechanical-system (MEMS) switch with gap-adjustable directional couplers. The switch is fabricated on 200-mm silicon-on-insulator wafers in a commercial complementary metal-oxide-semiconductor (CMOS) foundry. The fabricated device has a maximum on-chip loss of 7.7 dB and an extinction ratio of 50.8 dB. The switching voltage is 9.45 V and the 20-dB bandwidth is 28.7 nm. Our work shows a promising path for mass production of silicon photonic MEMS switches in commercial CMOS foundries."
+  }
+]

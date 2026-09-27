@@ -1164,3 +1164,262 @@ Category census (all 27 reported category cells, not part of Gate C), from
 the same files. Round 3 had 24 pass and 3 fail. Run 2 audit round 1 had 23
 pass and 4 fail. Run 2 audit second round had 25 pass and 2 fail. Rounds 1
 and 2 (padded) ran no census.
+
+## Run 2 audit after the anchor papers (seed 20260929)
+
+Step 2 tried to add three missing anchor papers by DOI (Jupiter Evolving,
+RotorNet, c-Through) before this audit. c-Through was already core
+(openalex:W2097926925, added earlier by the stage 1c snowball). Jupiter
+Evolving and RotorNet failed the title check (normalized token_sort_ratio
+under 95 because OpenAlex truncates both titles at the colon) and were not
+added. STATUS.md (2026-09-26 19:24 through 20:08) and
+data/work/step2_anchors.md have the full record. So the database and
+comparison matrix this audit checks are unchanged from the ones stage 6's
+second judge produced on 2026-09-26 21:04: 284 core papers, 420 extended
+papers, 420 tags rows, and a 126-row comparison matrix (80 reported, 9
+derived, 33 not_reported_in_abstract, 4 no_source, from an independent
+count of deliverables/comparison_matrix.csv run for this report).
+
+This round used `.venv/bin/python -m pipeline.audit --seed 20260929` with
+no `--prefix` and no `--round`, so the script's default prefix applied
+(audit_s20260929_) and this is round 1. The four checks and the 27-cell
+category census ran first and wrote data/work/audit_s20260929_prejudge.json
+(sample draws and every mechanically resolved cell) and
+data/work/audit_s20260929_judge_input.json (the 30 category and free-text
+cells needing a read: 3 scaling_limit/packaging_notes cells that landed in
+the Gate C sample, plus all 27 reported category cells for the census).
+The auditor judged all 30 by hand into
+data/work/audit_s20260929_judgments.json (supported or not_supported, one
+reason each), and `--merge` folded them into
+data/work/audit_s20260929_round1.json, the source for every number below.
+generated_at in that file is 2026-09-27T04:06:18Z (UTC).
+
+Check (a) re-fetched every OpenAlex-ID'd paper by singleton ID lookup and
+every arXiv-only paper by the free OpenAlex singleton lookup on its arXiv
+DOI (10.48550/arxiv.<id>). Both arXiv-only papers in this round's sample
+resolved on that lookup, so the arxiv.org/abs HTML fallback was not used at
+all, and export.arxiv.org was never called.
+
+### Gate C summary
+
+| Check | Sample | Pass | Fail | Rate | Threshold | Gate C |
+|---|---|---|---|---|---|---|
+| (a) core paper re-fetch | 20 drawn, 20 compared, 0 dropped | 20 | 0 | 0 percent mismatches | at most 10 percent | PASS |
+| (b) matrix cell evidence, Gate C sample | 20 cells | 20 | 0 | 0 percent unsupported | at most 10 percent | PASS |
+| (c) project evidence URL | 10 rows, 0 unreachable | 10 | 0 | 0 percent failures | at most 20 percent | PASS |
+| (d) evidence span substring | 420 (all tags rows) | 420 | 0 | 100 percent pass | at least 90 percent | PASS |
+
+All four checks pass Gate C on the first round. No rerun of stage 2, 3, 5,
+or 6 is needed and no second audit round is needed.
+
+### Check (a). Re-fetch 20 random core papers
+
+20 papers drawn from the 284 core papers with `random.Random(20260929)`,
+all 20 compared (0 dropped). 18 have an OpenAlex ID and were re-fetched by
+free singleton ID lookup. 2 are arXiv-only (arxiv:2604.22146 and
+arxiv:2507.12265) and were re-fetched by the free OpenAlex DOI singleton
+lookup, both on the first try. 0 mismatches on title, year,
+cited_by_count (within 10 percent), or the first author's first
+institution, across all 20 papers.
+
+Sampled paper_ids: W2889455810, W1997754090, W2951487609, W2116377381,
+W3089161534, W2490598172, W2047996703, W2797687360, W2049132385,
+W4380874786, W2121095819, arxiv:2604.22146, W4281560993, W2063297543,
+W2583039042, W2260723393, W2735125579, W4205819848, W2316851065,
+arxiv:2507.12265.
+
+No failing items.
+
+### Check (b). Matrix cells
+
+47 of the 126 matrix rows resolved mechanically, without needing the
+auditor's read (measured-dimension cells checked for a verbatim quote and
+every number in `value`, plus the 18 academic_groups and companies cells,
+one pair per route across the 9 routes, each recomputed independently by
+this script's own SQL against data/db/papers.sqlite and its own read of
+data/projects.csv, not by importing pipeline.matrix_build). All 47 pass, 0
+fail, including all 18 academic_groups and companies cells.
+
+The other 30 reported or derived cells (all category or free-text
+dimensions that passed the mechanical id-and-quote check) needed the
+auditor's read: the label definition against the value and the quoted
+sentences. 3 came out not_supported, all in the category census and none
+in the 20-cell Gate C sample, so the Gate C sample is 20 pass, 0 fail, 0
+percent unsupported.
+
+Gate C sampled cells: thermo_optic:port_count, electro_optic:scaling_limit,
+piezo:insertion_loss, electro_optic:port_count,
+mems_silicon_photonic:port_count, thermo_optic:ai_cluster_fit,
+lcos:port_count, thermo_optic:switching_time, electro_optic:wavelength_range,
+mems_3d:ai_cluster_fit, electro_optic:trl_band, mems_3d:insertion_loss,
+piezo:crosstalk, soa:port_count, thermo_optic:trl_band,
+electro_optic:insertion_loss, thermo_optic:scaling_limit,
+lcos:packaging_notes, lcos:switching_time, piezo:companies.
+
+No failing items in the Gate C sample.
+
+### Category cell census (all 27 reported category cells, not part of Gate C)
+
+24 pass, 3 fail (11.1 percent). This census is not gated (comparison-framework
+skill, PLAN.md stage 7). Failing cells:
+
+- mems_2d:integration = free_space_bulk. The quote is a generic overview
+  sentence naming 2D and 3D MEMS switch types together. It never describes
+  a free-space beam path, mirrors, or fiber collimators for the 2D
+  implementation by itself, so it does not support the value.
+- piezo:trl_band = lab. The quote states a loss and variation measurement
+  only. It has none of the lab signal words (demonstrate, fabricated,
+  prototype, testbed, simulation) and nothing else that would separate a
+  lab device from a shipped product, so it does not support "lab" over
+  "pilot" or "production".
+- soa:ai_cluster_fit = yes. The two quotes describe OCS benefits in general
+  terms and a wireless data-center-network architecture. Neither names
+  accelerator clusters, reconfigurable topologies, or spine replacement, so
+  they support at most an indirect, data-center-in-general claim, not
+  "yes".
+
+### Check (c). 10 random projects.csv rows
+
+10 rows drawn from the 12 rows in data/projects.csv with
+`random.Random(20260929)`. 0 unreachable, 10 pass, 0 fail. Every fetched
+page contained both the entity name and the evidence_quote after
+whitespace normalization.
+
+Sampled entities: iPronics, Oriole Networks, Polatis, nEye, Coherent,
+Calient, Lumentum, Drut Technologies, UTStarcom, Telescent.
+
+No failing items.
+
+### Check (d). Evidence span substring check, all tags rows
+
+420 of 420 tags rows pass (100 percent, exhaustive, not sampled). 0 fail.
+
+### Rate table, this round (pass and fail counts separate)
+
+| Check | Sample | Pass | Fail | Rate | Threshold | Gate C |
+|---|---|---|---|---|---|---|
+| (a) core paper re-fetch | 20 drawn, 20 compared, 0 dropped | 20 | 0 | 0 percent mismatches | at most 10 percent | PASS |
+| (b) matrix cell evidence, Gate C sample | 20 cells | 20 | 0 | 0 percent unsupported | at most 10 percent | PASS |
+| (b) category cell census, not gated | 27 cells | 24 | 3 | 11.1 percent unsupported | not gated | n/a |
+| (c) project evidence URL | 10 rows, 0 unreachable | 10 | 0 | 0 percent failures | at most 20 percent | PASS |
+| (d) evidence span substring | 420 (all tags rows) | 420 | 0 | 100 percent pass | at least 90 percent | PASS |
+
+### Other observations, not covered by the four checks
+
+- robotic_patch_panel has only 1 core paper, and lcos and piezo each have
+  only 2. A route with this few papers rests its whole comparison-matrix
+  row, and this census, on one or two sources, so a single mismatched
+  quote there changes the census rate a lot more than it would for a
+  43-paper route like mems_silicon_photonic.
+- mems_3d:trl_band cites a third quote beyond the two Apollo-paper
+  sentences that already support "production" on their own: "With over 1
+  million port switches shipped, we're automating & accelerating change
+  across industries." That sentence never names optical switches, MEMS, or
+  datacenters. It reads like generic company-wide marketing copy rather
+  than route-specific evidence. It does not change this cell's pass or
+  fail status this round because the other two quotes already carry it,
+  but it is a weak citation and worth a source check before demo_results.md
+  or meeting_summary.md quotes it.
+- The census failures here are not new. The run 2 audit's first and second
+  rounds (seed 20260928, above) both flagged mems_2d:integration and
+  soa:ai_cluster_fit as auditor-not-supported, and the second judge called
+  both supported both times. This round's independent read agrees with the
+  earlier auditor on both cells again. piezo:trl_band has the opposite
+  history: the stage 6 rebuild reworded it from "production" to "lab"
+  because "production" could not be tied to a shipping claim (STATUS.md,
+  run 2 stage 6 matrix rework, 2026-09-26 17:11), and this round finds that
+  "lab" now has the same kind of problem, because its quote never uses lab
+  language either.
+
+## Corrections after code review (pull request #4)
+
+This section was added after the code review of pull request #4. Every
+section above, including "Run 2 audit after the anchor papers (seed
+20260929)", is left exactly as first written. Each item below quotes a
+sentence from that section that is wrong or misleading, states the correct
+fact, and names where that fact comes from. The second judge of that audit
+flagged items 2 and 3 first, and noted the skipped subchecks behind item 1
+(STATUS.md, 2026-09-26 21:21 line). None of the three changes a pass count,
+a fail count, a rate, or the Gate C result
+(data/work/audit_s20260929_round1.json).
+
+### 1. Check (a) did not compare all four fields on all 20 papers
+
+"Check (a). Re-fetch 20 random core papers" says "0 mismatches on title,
+year, cited_by_count (within 10 percent), or the first author's first
+institution, across all 20 papers."
+
+The count of 0 mismatches stands (a_refetch.fail in
+data/work/audit_s20260929_round1.json), but not every field was compared on
+every paper. Title and year were compared on all 20 papers (the subchecks
+of a_refetch.items in the same file). cited_by_count was compared on 18
+(same file), because the 2 arXiv-only papers, arxiv:2604.22146 and
+arxiv:2507.12265, have no stored count (stored cited_by_count is null in
+the same file). First institution was compared on 16 (same file), because
+W2951487609, W2260723393 and the same 2 arXiv-only papers have no
+first-author institution on either the stored side or the re-fetched side.
+pipeline/audit.py records a field that is missing on either side as not
+compared, not as a pass (check_a, lines 293 to 302 at commit 4bc8129).
+
+### 2. Check (b) miscounted the code-checked and judged cells
+
+"Check (b). Matrix cells" says "All 47 pass, 0 fail, including all 18
+academic_groups and companies cells." It then says "The other 30 reported
+or derived cells (all category or free-text dimensions that passed the
+mechanical id-and-quote check) needed the auditor's read".
+
+Both counts are wrong. The 47 cells resolved by code are 38 reported and 9
+derived cells (b_matrix_cells_stage1.resolved in
+data/work/audit_s20260929_prejudge.json, matched to the status column of
+deliverables/comparison_matrix.csv). Only 14 of the 47 are academic_groups
+or companies cells, 9 academic_groups and 5 companies (same two files). The
+other 33 are measured-dimension cells (same two files).
+
+The other 4 companies cells (mems_2d, thermo_optic, electro_optic and soa)
+have status no_source (deliverables/comparison_matrix.csv), so they are not
+reported or derived cells and are not among the 47. The separate
+academic_groups and companies recompute did cover them, and it matched 18
+of 18 (academic_groups_companies_check in the prejudge file). So 18 is
+right for that recompute and wrong for the 47.
+
+The matrix has 89 reported or derived cells, 80 reported and 9 derived
+(status column of deliverables/comparison_matrix.csv). That leaves 42 after
+the 47, not 30. All 42 passed the mechanical check, which confirms that
+every cited paper and project row exists and that every quote is verbatim
+in a cited abstract or project row quote. The reason is that
+pipeline/audit.py writes a category or free-text cell that fails this
+check into resolved as a fail (check_b, lines 489 to 494 at commit
+4bc8129), and resolved holds 47 passes and 0 fails (prejudge file). The
+auditor judged 30 of the 42 (pending_judgment_cell_ids in the prejudge
+file). They are the 27 reported category cells in the census and the 3
+free-text cells that landed in the Gate C sample, electro_optic:scaling_limit,
+thermo_optic:scaling_limit and lcos:packaging_notes (category_census_ids
+and gate_sample_ids in the prejudge file).
+
+The other 12 reported free-text cells were neither checked by code for
+their value nor judged this round (prejudge file, compared with
+deliverables/comparison_matrix.csv). Their quotes are verbatim, but nobody
+read whether the quotes support the value. They are the packaging_notes
+cells of mems_3d, mems_2d, mems_silicon_photonic, piezo, thermo_optic,
+electro_optic, soa and robotic_patch_panel, and the scaling_limit cells of
+mems_3d, mems_silicon_photonic, piezo and soa. The script skips them by
+design, because it judges only cells in the Gate C sample or the census
+(the comment in check_b, lines 501 to 503 at commit 4bc8129). The section
+above does not say this, so a reader would take every reported cell as
+verified.
+
+### 3. The piezo:trl_band history cites a STATUS.md line that does not mention piezo
+
+The third item of "Other observations, not covered by the four checks" says
+the stage 6 rebuild changed piezo:trl_band from production to lab, and
+cites "(STATUS.md, run 2 stage 6 matrix rework, 2026-09-26 17:11)".
+
+The 17:11 line of STATUS.md (line 54) does not contain the word piezo. The
+production value is in STATUS.md's 2026-09-26 14:36 line (stage 6 matrix,
+run 2 rebuild), which gives piezo trl_band as "production (low, vendor
+claim)" from projects.csv rows 5 and 10. The change to lab and its reason
+are in the 2026-09-26 17:06 line from the run 2 stage 6 analyst in
+deliverables/pitfalls_original_log.md (line 186), which says "Row 5
+(Polatis) has stage shipping but its quote describes the mechanism, not
+availability, so piezo trl_band stays lab." The reason given in the section
+above matches that line. Only the citation was wrong.

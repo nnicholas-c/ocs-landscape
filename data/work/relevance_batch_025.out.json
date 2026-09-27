@@ -1,0 +1,152 @@
+[
+  {
+    "record_key": "openalex:W4413757104",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Builds OCS-based reconfigurable optical-electrical fabric prototype for MoE training clusters."
+  },
+  {
+    "record_key": "openalex:W3010886459",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "General neuromorphic computing physics review, no switching or OCS content."
+  },
+  {
+    "record_key": "openalex:W2789715390",
+    "score": 1,
+    "adjacent_field": "silicon_photonics",
+    "reason": "Reconfigurable photonic IC for pulse processing, not a circuit switch."
+  },
+  {
+    "record_key": "openalex:W4223926670",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Studies optical circuit switch placement and tradeoffs in reconfigurable HPC/DC networks."
+  },
+  {
+    "record_key": "openalex:W2153255031",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Review of smart fabric sensors and e-textiles, unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W4362655494",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Google TPU v4 supercomputer uses optical circuit switches to reconfigure interconnect topology."
+  },
+  {
+    "record_key": "openalex:W3196093339",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Review of optical computing for AI models, not circuit switching."
+  },
+  {
+    "record_key": "openalex:W2613833839",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Review of photonic reservoir computing, an optical computing paradigm not switching."
+  },
+  {
+    "record_key": "openalex:W4388701192",
+    "score": 2,
+    "adjacent_field": "silicon_photonics",
+    "reason": "SiPh resonators are building blocks for integrated wavelength-selective optical circuit switches."
+  },
+  {
+    "record_key": "openalex:W4300973219",
+    "score": 1,
+    "adjacent_field": "dc_network_systems",
+    "reason": "DNN training topology optimization fabric; snippet does not mention optical switching."
+  },
+  {
+    "record_key": "openalex:W4399310999",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "6G optical fronthaul survey, telecom access network, not data center OCS."
+  },
+  {
+    "record_key": "openalex:W4401176556",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "NegotiaToR is an on-demand reconfigurable optical DCN architecture using fast optical switching."
+  },
+  {
+    "record_key": "openalex:W2357843841",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "General distributed computing research infrastructure, no optical switching content."
+  },
+  {
+    "record_key": "openalex:W4319988710",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "6G wireless/optical access convergence survey, telecom focus not OCS."
+  },
+  {
+    "record_key": "openalex:W3188706325",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "SiP-ML uses reconfigurable optical interconnects with switching considerations for GPU ML training."
+  },
+  {
+    "record_key": "openalex:W4390488098",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Review of diffractive optics and metasurfaces, unrelated to circuit switching."
+  },
+  {
+    "record_key": "openalex:W3203558586",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Neuromorphic classifier from nanojunctions, unrelated to optical switching."
+  },
+  {
+    "record_key": "openalex:W3089706104",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Satellite communications survey, unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W4365790307",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "TROD is a low-complexity all-optical data center network design using optical switching."
+  },
+  {
+    "record_key": "openalex:W3080546329",
+    "score": 2,
+    "adjacent_field": "silicon_photonics",
+    "reason": "Optically connected memory uses reconfigurable micro-ring resonator interconnects for disaggregation."
+  },
+  {
+    "record_key": "openalex:W3048081097",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "6G wireless systems vision survey, unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W4410343081",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Reconfigurable datacenter network topologies enabled by optical switching technologies."
+  },
+  {
+    "record_key": "openalex:W3150418716",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Disaster resilience of telecom optical networks, unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W4322756647",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Reconfigurable DCNs based on optical circuit switches, citing RotorNet, Opera, Sirius."
+  },
+  {
+    "record_key": "openalex:W2157954477",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Big data analytics tutorial survey, unrelated to OCS."
+  }
+]

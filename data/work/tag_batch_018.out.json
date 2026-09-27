@@ -1,0 +1,222 @@
+[
+  {
+    "paper_id": "W1979338531",
+    "tech_route": "electro_optic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": null,
+    "evidence_span": "Monolithically integrated 8×8 semiconductor optical matrix switches have been successfully fabricated for the first time.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W1989460122",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": "telecom_oxc_roadm",
+    "evidence_span": "A control plane is implemented to allow the first (to our knowledge) demonstration of scheduling and power leveling in a monolithically integrated 8×8 switch for multi-path and multi-wavelength routing on a data packet timescale.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W1989769976",
+    "tech_route": "soa",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "evidence_span": "Each of the four inputs fan out to two stages of semiconductor optical amplifier-based gates to perform broadband-input-selection and wavelength-specific-selection.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W1994471904",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "none",
+    "adjacent_field": "silicon_photonics",
+    "evidence_span": "Heterogeneously integrated III-V-on-silicon second-order distributed feedback lasers utilizing an ultra-thin DVS-BCB die-to-wafer bonding process are reported.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W1997754090",
+    "tech_route": "electro_optic",
+    "tech_route_secondary": "soa",
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "evidence_span": "We report the first experimental demonstration of a monolithically integrated hybrid dilated 2×2 modular optical switch using Mach-Zehnder modulators as low-loss 1×2 switching elements and short semiconductor optical amplifiers to provide additional extinction and gain.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W2007654061",
+    "tech_route": "electro_optic",
+    "tech_route_secondary": "soa",
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "evidence_span": "A scalable monolithically integrated photonic space switch is proposed which uses a combination of Mach-Zehnder modulators and semiconductor optical amplifiers (SOAs) for improved crosstalk performance and reduced switch loss.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W2013921511",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "none",
+    "adjacent_field": "silicon_photonics",
+    "evidence_span": "A hybrid evanescently coupled III-V/silicon distributed-feedback laser with an integrated monitor photodiode, based on adhesive divinyl siloxane-benzocyclobutene bonding and emitting at 1310 nm, is presented.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2028213396",
+    "tech_route": "soa",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": null,
+    "evidence_span": "A monolithic 8:1 SOA gate switch that integrates an 8-ch SOA gate array, an 8:1 optical coupler, and a 1-ch SOA gate was developed for use in a large scale optical packet switching system.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W2040047675",
+    "tech_route": "mems_3d",
+    "tech_route_secondary": null,
+    "integration": "free_space_bulk",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "evidence_span": "This paper describes the subsystem design and performance of a 256/spl times/256-port micromechanical beam-steering optical cross-connect with 1.33-dB average loss, which can provide 238/spl times/238-port cross-connect with a maximum loss of less than 2dB.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W2042525359",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "none",
+    "adjacent_field": null,
+    "evidence_span": "Hydrogen-induced exfoliation combined with wafer bonding has been used to transfer ∼600-nm-thick films of (100) InP to Si substrates.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2043855221",
+    "tech_route": "mems_3d",
+    "tech_route_secondary": null,
+    "integration": "free_space_bulk",
+    "trl_band": "pilot",
+    "ai_dc_fit": "none",
+    "adjacent_field": null,
+    "evidence_span": "We describe compact and stable optical crossconnect three-dimensional microelectromechanical systems (3-D-MEMS) switches that are a key technology in recent photonic networks.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W2056973550",
+    "tech_route": "soa",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "A low distortion space switch technology based on recently demonstrated quantum-dot semiconductor optical amplifier technology, which can be operated uncooled, is used as the base switch element.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W1965253111",
+    "tech_route": "mems_silicon_photonic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "evidence_span": "In this study, we investigated the characteristics of a microelectromechanical silicon nanowire waveguide switch with a gap-variable coupler.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W1987691577",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": "mems_micromirror",
+    "evidence_span": "We present a high-speed optical beamsteering system based on an 8x8 MEMS phased array.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W1998335447",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": "silicon_photonics",
+    "evidence_span": "Loss reduction in silicon nanophotonic waveguide micro-bends through etch profile improvement",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2006295284",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "none",
+    "adjacent_field": "mems_micromirror",
+    "evidence_span": "Two closed form algebraic models describing electrostatic latch and release of micro cantilever beams are presented.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2017873014",
+    "tech_route": "thermo_optic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "evidence_span": "We monolithically integrated this MOSFET with a 2 × 2 Mach-Zehnder interferometer optical switch having thermo-optic phase shifters.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W2032418282",
+    "tech_route": "mems_silicon_photonic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "evidence_span": "The 1×3 switch was composed of two couplers with parallel silicon nanowire waveguides of 400 nm width and 260 nm thickness and comb-drive electrostatic actuators.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W2082515684",
+    "tech_route": "mems_silicon_photonic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "evidence_span": "A submicron silicon waveguide optical switch driven by a microelectromechanical actuator is fabricated.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W2088068353",
+    "tech_route": "thermo_optic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "evidence_span": "The PILOSS switch consists of 64 thermooptic Mach-Zehnder (MZ) switches and 49 low-crosstalk intersections.",
+    "confidence": "high"
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "record_key": "openalex:W3036147427",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Plasmonic metasurface spin-controlled beam steering, unrelated to circuit switching"
+  },
+  {
+    "record_key": "openalex:W4387760959",
+    "score": 1,
+    "adjacent_field": "lcos_display_phase",
+    "reason": "Liquid crystal THz metasurface phase-pixel beam steering, feeds LCoS route"
+  },
+  {
+    "record_key": "openalex:W2132431811",
+    "score": 1,
+    "adjacent_field": null,
+    "reason": "Photonic true-time delay module uses optical switches for antenna beamforming, not DC"
+  },
+  {
+    "record_key": "openalex:W3165447121",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Phototunable self-oscillating fiber actuator for soft robotics, unrelated"
+  },
+  {
+    "record_key": "openalex:W3005718611",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Indoor optical wireless user localization via beam steering, unrelated to OCS"
+  },
+  {
+    "record_key": "openalex:W4381325878",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Cascaded metasurfaces for continuous beam steering, unrelated to circuit switching"
+  },
+  {
+    "record_key": "openalex:W4394930219",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Large-scale thermo-optic waveguide lens optical switch for telecom/datacom, built and characterized"
+  },
+  {
+    "record_key": "openalex:W4224325468",
+    "score": 1,
+    "adjacent_field": "silicon_photonics",
+    "reason": "Silicon carbide electro-optic modulator, encodes bits, not a switch; feeds EO route"
+  },
+  {
+    "record_key": "openalex:W3094065577",
+    "score": 1,
+    "adjacent_field": "silicon_photonics",
+    "reason": "Silicon photonics review for fiber capacity scaling, transceivers not switch-focused"
+  },
+  {
+    "record_key": "openalex:W4297053117",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Reviews large-port-count optical switching technologies for intra data center networks"
+  },
+  {
+    "record_key": "openalex:W2062054310",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Large-port-count optical switch demonstrated with hybrid MZI-SOA switch module"
+  },
+  {
+    "record_key": "openalex:W2039715757",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Optical crosspoint switch matrix built and characterized with thermo-optic tuning"
+  },
+  {
+    "record_key": "openalex:W2786500500",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Tutorial review of integrated photonic switching structures, EO/TO/SOA switches"
+  },
+  {
+    "record_key": "openalex:W4308917780",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Thermo-optic silicon switch built and characterized, polarization-insensitive 2x2 MZI"
+  },
+  {
+    "record_key": "openalex:W2889030337",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "32x32 silicon photonics switch fabricated with silica PLC connector"
+  },
+  {
+    "record_key": "openalex:W2974096969",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Silicon 4x4 non-blocking optical switch chip with thermal and electro-optic tuning"
+  },
+  {
+    "record_key": "openalex:W2024436451",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "270x270 wavelength routing optical switch prototype using cascaded AWGs"
+  },
+  {
+    "record_key": "openalex:W2587786619",
+    "score": 2,
+    "adjacent_field": null,
+    "reason": "InP integrated optical switch matrix for packet data networks, not circuit switching"
+  },
+  {
+    "record_key": "openalex:W2968922880",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Large-scale silicon photonics optical switch chip built and characterized"
+  },
+  {
+    "record_key": "openalex:W147232447",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "The Gaia space astronomy mission, unrelated, likely OCS acronym false positive"
+  },
+  {
+    "record_key": "openalex:W4298339091",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "32x32 silicon thermo-optic switch demonstrated for disaggregated computing"
+  },
+  {
+    "record_key": "openalex:W2797687360",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Six-port optical switch built for cluster-mesh photonic network-on-chip"
+  },
+  {
+    "record_key": "openalex:W4386951819",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Antibody-based molecular biosensor switch, different meaning of switch, unrelated"
+  },
+  {
+    "record_key": "openalex:W2575526897",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Non-blocking silicon photonic switch fabric built with modular packaging"
+  },
+  {
+    "record_key": "openalex:W3094530140",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Port-alternated switch-and-select 8x8 silicon photonic optical switch demonstrated"
+  }
+]

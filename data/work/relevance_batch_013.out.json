@@ -1,0 +1,152 @@
+[
+  {
+    "record_key": "openalex:W3021393652",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Photonic radar system; no optical circuit switching relevance."
+  },
+  {
+    "record_key": "openalex:W2804293795",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Silicon photonic transceiver for data center interconnects; transport not switching."
+  },
+  {
+    "record_key": "openalex:W2900579067",
+    "score": 1,
+    "adjacent_field": "silicon_photonics",
+    "reason": "Reviews open-access silicon photonics foundry platforms; fabrication skills transfer, no switch."
+  },
+  {
+    "record_key": "openalex:W2981243347",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Photonic quantum information processing review; unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W3041992595",
+    "score": 1,
+    "adjacent_field": "silicon_photonics",
+    "reason": "Grating coupler design for silicon photonics; packaging skill transfers, no switch."
+  },
+  {
+    "record_key": "openalex:W3095859605",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Integrated quantum photonics with silicon carbide spin defects; unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W2613358869",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Review of photonic and plasmonic resonator theory; no switching content."
+  },
+  {
+    "record_key": "openalex:W2051645371",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Soliton pulse compression in silicon photonic crystals; nonlinear optics, not switching."
+  },
+  {
+    "record_key": "openalex:W4382726075",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Kerr comb WDM data center link; transceiver bandwidth, not circuit switching."
+  },
+  {
+    "record_key": "openalex:W3021779279",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Review of lithium niobate photonic modulators and combs; no switching demonstrated."
+  },
+  {
+    "record_key": "openalex:W2756058399",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Silicon nitride photonic platform review for sensing and datacom; no switch."
+  },
+  {
+    "record_key": "openalex:W2981656869",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Silicon photonics for 5G transport and interconnect; not switching."
+  },
+  {
+    "record_key": "openalex:W2976897596",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Photonic accelerator for data processing; unrelated to circuit switching."
+  },
+  {
+    "record_key": "openalex:W3109897021",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Title only, abstract null; silicon photonics for DC communication, not switching."
+  },
+  {
+    "record_key": "openalex:W2782897921",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Builds and characterizes a 50x50 silicon photonic MEMS optical switch."
+  },
+  {
+    "record_key": "openalex:W2257494936",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Builds a 50x50 silicon photonic MEMS optical circuit switch for datacenters."
+  },
+  {
+    "record_key": "openalex:W3097557698",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Builds a broadband silicon photonic MEMS SPDT optical switch."
+  },
+  {
+    "record_key": "openalex:W2918631369",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Builds a bistable nonvolatile silicon photonic MEMS switch."
+  },
+  {
+    "record_key": "openalex:W2800201100",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Builds a 128x128 silicon photonic MEMS switch with row/column addressing."
+  },
+  {
+    "record_key": "openalex:W4406015850",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Builds a silicon photonic MEMS switch using split waveguide crossings."
+  },
+  {
+    "record_key": "openalex:W2186858051",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Builds a 64x64 low-loss broadband silicon photonic MEMS switch."
+  },
+  {
+    "record_key": "openalex:W2271940456",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Demonstrates scalable row/column addressing for a silicon photonic MEMS switch."
+  },
+  {
+    "record_key": "openalex:W2615050161",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Flip-chip packaging of a silicon photonic MEMS switch for cloud/data center."
+  },
+  {
+    "record_key": "openalex:W2951487609",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Builds a multicast silicon photonic MEMS switch with directional couplers."
+  },
+  {
+    "record_key": "openalex:W3138799074",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Builds a 32x32 silicon photonic MEMS switch in a CMOS foundry."
+  }
+]

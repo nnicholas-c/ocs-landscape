@@ -1,0 +1,284 @@
+[
+  {
+    "cell": "electro_optic:scaling_limit",
+    "dimension": "scaling_limit",
+    "value": "Crosstalk limits fabric scalability; non-uniform effects from fabrication errors must be corrected across all switch units",
+    "quotes": [
+      "We show that optimization of physical layer parameters can reduce crosstalk and increase switch fabric scalability.",
+      "a limited number of power monitors inserted at certain positions to detect and determine the optimum operating points of all switch units to eliminate non-uniform effects arising from fabrication errors"
+    ],
+    "label_definition": "Free text: what stops the port count growing, as the source states it (mirror count, loss accumulation, control complexity, mechanical time). Supported means the quote actually states the limiting factor the value claims. (comparison-framework)"
+  },
+  {
+    "cell": "thermo_optic:ai_cluster_fit",
+    "dimension": "ai_cluster_fit",
+    "value": "yes",
+    "quotes": [
+      "Optical switches significantly improve energy efficiency in datacenter networks, and silicon photonics enables the optical switch to operate faster than microseconds and be highly integrable for co-integration with GPUs.",
+      "The optical switch can simplify the present multi-tier switching network above tier-1 switches into a single tier configuration, which is possible with the development of efficient large port count optical switches."
+    ],
+    "label_definition": "Does the literature use or propose this route for accelerator clusters, reconfigurable topologies, or replacing a spine layer? yes/partial/no/not_reported. (comparison-framework; ocs-domain's ai_dc_fit analog: direct = targets accelerator clusters, ML training, TPU/GPU pods, collective communication, or spine replacement; indirect = data center networks generally, or an application that includes data centers; none = telecom/sensing/other only; unclear = not stated.)"
+  },
+  {
+    "cell": "mems_3d:ai_cluster_fit",
+    "dimension": "ai_cluster_fit",
+    "value": "yes",
+    "quotes": [
+      "This architecture and switch design enable MEMS beam-steering micromirrors to scale to microsecond response speeds while supporting high port count and low loss switching, and can realize a number of useful interconnection topologies.",
+      "Results show that it is feasible to use MEMS retroreflective acquisition and tracking system to achieve agile reconfigurable FSO links for flexible wireless datacenter inter-rack networks.",
+      "unveiled concept prototypes of its next-generation Optical Circuit Switching (OCS) platform designed specifically for AI data center (AI DC) networking infrastructure"
+    ],
+    "label_definition": "Does the literature use or propose this route for accelerator clusters, reconfigurable topologies, or replacing a spine layer? yes/partial/no/not_reported. (comparison-framework; ocs-domain's ai_dc_fit analog: direct = targets accelerator clusters, ML training, TPU/GPU pods, collective communication, or spine replacement; indirect = data center networks generally, or an application that includes data centers; none = telecom/sensing/other only; unclear = not stated.)"
+  },
+  {
+    "cell": "electro_optic:trl_band",
+    "dimension": "trl_band",
+    "value": "lab",
+    "quotes": [
+      "We present a 4x4 spatially non-blocking Mach-Zehnder based silicon optical switch fabricated using processes fully compatible with standard CMOS."
+    ],
+    "label_definition": "lab: a prototype, fabricated device, simulation, or testbed (signal words: we demonstrate, fabricated, prototype, proof of concept, simulation). pilot: a field trial, single-facility deployment, small production run. production: in service at scale or sold as a product (in production, deployed across, commercially available, shipping). unclear: not stated. (ocs-domain)"
+  },
+  {
+    "cell": "thermo_optic:trl_band",
+    "dimension": "trl_band",
+    "value": "lab",
+    "quotes": [
+      "A packaged and fully operational 32 × 32 silicon photonic switch chip having 448 switch cells and 1856 crossings is demonstrated."
+    ],
+    "label_definition": "lab: a prototype, fabricated device, simulation, or testbed (signal words: we demonstrate, fabricated, prototype, proof of concept, simulation). pilot: a field trial, single-facility deployment, small production run. production: in service at scale or sold as a product (in production, deployed across, commercially available, shipping). unclear: not stated. (ocs-domain)"
+  },
+  {
+    "cell": "thermo_optic:scaling_limit",
+    "dimension": "scaling_limit",
+    "value": "Waveguide crossings multiply with port count and raise path-dependent loss; control units and drive wiring grow quickly with port count",
+    "quotes": [
+      "However, it suffers from high path‐dependent losses as the waveguide crossings increase dramatically with the number of ports.",
+      "Furthermore, when they are cascaded to a network, the number of control units grows quickly with the port count, causing high complexity in electronic wiring and drive circuit integration."
+    ],
+    "label_definition": "Free text: what stops the port count growing, as the source states it (mirror count, loss accumulation, control complexity, mechanical time). Supported means the quote actually states the limiting factor the value claims. (comparison-framework)"
+  },
+  {
+    "cell": "lcos:packaging_notes",
+    "dimension": "packaging_notes",
+    "value": "Assembly integrates a multicore fiber collimator, a spatial multiplexer/demultiplexer array and an LCoS spatial light modulator",
+    "quotes": [
+      "We show an example of an implemented 5-core 1 × 6 CSS prototype that integrates an MCF collimator, spatial multiplexer/demultiplexer array, and liquid-crystal-on-silicon spatial light modulator."
+    ],
+    "label_definition": "Free text: fiber attach, hermetic sealing, thermal control, whatever the source states about physically packaging the switch. Supported means the quote actually states the packaging detail the value claims. (comparison-framework)"
+  },
+  {
+    "cell": "mems_3d:integration",
+    "dimension": "integration",
+    "value": "free_space_bulk",
+    "quotes": [
+      "In this paper, we report on a novel CSS design employing a two dimensionally arranged microlens-based multicore fiber (MCF) collimator array and a micro-electromechanical systems (MEMS) mirror array."
+    ],
+    "label_definition": "free_space_bulk: beams travel through air between mirrors or collimators in a sealed box, fiber collimator arrays at the ports. integrated_photonic: light stays in waveguides on a chip. mechanical_fiber: fibers are physically moved or reconnected. unclear: not stated. (ocs-domain, comparison-framework)"
+  },
+  {
+    "cell": "mems_3d:trl_band",
+    "dimension": "trl_band",
+    "value": "production",
+    "quotes": [
+      "In this paper, we describe Apollo, to the best of our knowledge, the world's first large-scale production deployment of optical circuit switches (OCSes) for datacenter networking.",
+      "Over multiple years, we designed and built Apollo OCS that now forms the basis for the vast majority of our data center networks.",
+      "With over 1 million port switches shipped, we’re automating & accelerating change across industries."
+    ],
+    "label_definition": "lab: a prototype, fabricated device, simulation, or testbed (signal words: we demonstrate, fabricated, prototype, proof of concept, simulation). pilot: a field trial, single-facility deployment, small production run. production: in service at scale or sold as a product (in production, deployed across, commercially available, shipping). unclear: not stated. (ocs-domain)"
+  },
+  {
+    "cell": "mems_2d:integration",
+    "dimension": "integration",
+    "value": "free_space_bulk",
+    "quotes": [
+      "We are presenting an overview of MEMS-based (Micro-Electro-Mechanical System) optical switch technology starting from the reflective two-dimensional (2D) and three-dimensional (3D) MEMS implementations."
+    ],
+    "label_definition": "free_space_bulk: beams travel through air between mirrors or collimators in a sealed box, fiber collimator arrays at the ports. integrated_photonic: light stays in waveguides on a chip. mechanical_fiber: fibers are physically moved or reconnected. unclear: not stated. (ocs-domain, comparison-framework)"
+  },
+  {
+    "cell": "mems_2d:trl_band",
+    "dimension": "trl_band",
+    "value": "lab",
+    "quotes": [
+      "In conclusion we have demonstrated fully nonblocking 16/spl times/16 switches in a single chip solution using MEMS fabricated by a surface micro-machining."
+    ],
+    "label_definition": "lab: a prototype, fabricated device, simulation, or testbed (signal words: we demonstrate, fabricated, prototype, proof of concept, simulation). pilot: a field trial, single-facility deployment, small production run. production: in service at scale or sold as a product (in production, deployed across, commercially available, shipping). unclear: not stated. (ocs-domain)"
+  },
+  {
+    "cell": "mems_2d:ai_cluster_fit",
+    "dimension": "ai_cluster_fit",
+    "value": "no",
+    "quotes": [
+      "The use of MEMS for optical switching has turned out to be most attractive since this application could revolutionize fiber optic telecommunications."
+    ],
+    "label_definition": "Does the literature use or propose this route for accelerator clusters, reconfigurable topologies, or replacing a spine layer? yes/partial/no/not_reported. (comparison-framework; ocs-domain's ai_dc_fit analog: direct = targets accelerator clusters, ML training, TPU/GPU pods, collective communication, or spine replacement; indirect = data center networks generally, or an application that includes data centers; none = telecom/sensing/other only; unclear = not stated.)"
+  },
+  {
+    "cell": "mems_silicon_photonic:integration",
+    "dimension": "integration",
+    "value": "integrated_photonic",
+    "quotes": [
+      "In this paper, we report on a new type of integrated OCS that combines silicon photonics with MEMS actuation."
+    ],
+    "label_definition": "free_space_bulk: beams travel through air between mirrors or collimators in a sealed box, fiber collimator arrays at the ports. integrated_photonic: light stays in waveguides on a chip. mechanical_fiber: fibers are physically moved or reconnected. unclear: not stated. (ocs-domain, comparison-framework)"
+  },
+  {
+    "cell": "mems_silicon_photonic:trl_band",
+    "dimension": "trl_band",
+    "value": "lab",
+    "quotes": [
+      "An experimental prototype switch was fabricated by bonding two silicon-on-insulator wafers."
+    ],
+    "label_definition": "lab: a prototype, fabricated device, simulation, or testbed (signal words: we demonstrate, fabricated, prototype, proof of concept, simulation). pilot: a field trial, single-facility deployment, small production run. production: in service at scale or sold as a product (in production, deployed across, commercially available, shipping). unclear: not stated. (ocs-domain)"
+  },
+  {
+    "cell": "mems_silicon_photonic:ai_cluster_fit",
+    "dimension": "ai_cluster_fit",
+    "value": "yes",
+    "quotes": [
+      "Large-scale photonic switches are emerging as essential devices for energy-efficient optical interconnect in data centers and AI/ML clusters as a key enabler for high-bandwidth and low-latency connectivity.",
+      "Fast optical circuit switches (OCSs) with high port count offer reconfigurable bandwidth in optical networks and have the potential to significantly increase the performance and efficiency of modern datacenters."
+    ],
+    "label_definition": "Does the literature use or propose this route for accelerator clusters, reconfigurable topologies, or replacing a spine layer? yes/partial/no/not_reported. (comparison-framework; ocs-domain's ai_dc_fit analog: direct = targets accelerator clusters, ML training, TPU/GPU pods, collective communication, or spine replacement; indirect = data center networks generally, or an application that includes data centers; none = telecom/sensing/other only; unclear = not stated.)"
+  },
+  {
+    "cell": "lcos:integration",
+    "dimension": "integration",
+    "value": "free_space_bulk",
+    "quotes": [
+      "We describe the principle, design, and prototyping of a free-space-optics-based core selective switch (CSS) for spatial channel (SCh) networks (SCNs) in the age of space division multiplexing (SDM)."
+    ],
+    "label_definition": "free_space_bulk: beams travel through air between mirrors or collimators in a sealed box, fiber collimator arrays at the ports. integrated_photonic: light stays in waveguides on a chip. mechanical_fiber: fibers are physically moved or reconnected. unclear: not stated. (ocs-domain, comparison-framework)"
+  },
+  {
+    "cell": "lcos:trl_band",
+    "dimension": "trl_band",
+    "value": "lab",
+    "quotes": [
+      "We show an example of an implemented 5-core 1 × 6 CSS prototype that integrates an MCF collimator, spatial multiplexer/demultiplexer array, and liquid-crystal-on-silicon spatial light modulator."
+    ],
+    "label_definition": "lab: a prototype, fabricated device, simulation, or testbed (signal words: we demonstrate, fabricated, prototype, proof of concept, simulation). pilot: a field trial, single-facility deployment, small production run. production: in service at scale or sold as a product (in production, deployed across, commercially available, shipping). unclear: not stated. (ocs-domain)"
+  },
+  {
+    "cell": "lcos:ai_cluster_fit",
+    "dimension": "ai_cluster_fit",
+    "value": "yes",
+    "quotes": [
+      "To this end, we propose and experimentally evaluate a software-defined networking enabled reconfigurable optical DCN with dynamic bandwidth allocation in this work, based on novel optical top of racks exploiting a wavelength selective switch.",
+      "In the proposed DCN architecture, the novel optical flexible ToRs employing multiple transceivers (TRXs) and a wavelength selective switch (WSS) are reconfigured by the software-defined networking (SDN) control plane."
+    ],
+    "label_definition": "Does the literature use or propose this route for accelerator clusters, reconfigurable topologies, or replacing a spine layer? yes/partial/no/not_reported. (comparison-framework; ocs-domain's ai_dc_fit analog: direct = targets accelerator clusters, ML training, TPU/GPU pods, collective communication, or spine replacement; indirect = data center networks generally, or an application that includes data centers; none = telecom/sensing/other only; unclear = not stated.)"
+  },
+  {
+    "cell": "piezo:integration",
+    "dimension": "integration",
+    "value": "free_space_bulk",
+    "quotes": [
+      "makes connections using compact piezo-electric actuators to align collimated beams of light from opposing arrays of input and output fibers"
+    ],
+    "label_definition": "free_space_bulk: beams travel through air between mirrors or collimators in a sealed box, fiber collimator arrays at the ports. integrated_photonic: light stays in waveguides on a chip. mechanical_fiber: fibers are physically moved or reconnected. unclear: not stated. (ocs-domain, comparison-framework)"
+  },
+  {
+    "cell": "piezo:trl_band",
+    "dimension": "trl_band",
+    "value": "lab",
+    "quotes": [
+      "A 3-port single-sided beam-steering switch connecting 4-core fibers shows core-to-core losses below 2.2 dB with less than 1-dB variation."
+    ],
+    "label_definition": "lab: a prototype, fabricated device, simulation, or testbed (signal words: we demonstrate, fabricated, prototype, proof of concept, simulation). pilot: a field trial, single-facility deployment, small production run. production: in service at scale or sold as a product (in production, deployed across, commercially available, shipping). unclear: not stated. (ocs-domain)"
+  },
+  {
+    "cell": "piezo:ai_cluster_fit",
+    "dimension": "ai_cluster_fit",
+    "value": "yes",
+    "quotes": [
+      "a re-configurable network with both tunable sources and piezoelectric actuator (PZT) based beam-steering which can scale up to 8 racks, 2,904 nodes and 185,856 channels at millisecond PZT switching time",
+      "Beam-steering large-port-count fiber switches, used as central cluster switches and intercluster switch, provide a single hop optical circuit switching solution, and also enable network function programmability for DCN to support variable traffic patterns and different network functions."
+    ],
+    "label_definition": "Does the literature use or propose this route for accelerator clusters, reconfigurable topologies, or replacing a spine layer? yes/partial/no/not_reported. (comparison-framework; ocs-domain's ai_dc_fit analog: direct = targets accelerator clusters, ML training, TPU/GPU pods, collective communication, or spine replacement; indirect = data center networks generally, or an application that includes data centers; none = telecom/sensing/other only; unclear = not stated.)"
+  },
+  {
+    "cell": "thermo_optic:integration",
+    "dimension": "integration",
+    "value": "integrated_photonic",
+    "quotes": [
+      "We demonstrate a 32 × 32 path-independent-insertion-loss optical path switch that integrates 1024 thermooptic Mach-Zehnder switches and 961 intersections on a small, 11 × 25 mm2 die."
+    ],
+    "label_definition": "free_space_bulk: beams travel through air between mirrors or collimators in a sealed box, fiber collimator arrays at the ports. integrated_photonic: light stays in waveguides on a chip. mechanical_fiber: fibers are physically moved or reconnected. unclear: not stated. (ocs-domain, comparison-framework)"
+  },
+  {
+    "cell": "electro_optic:integration",
+    "dimension": "integration",
+    "value": "integrated_photonic",
+    "quotes": [
+      "Monolithically integrated 8×8 semiconductor optical matrix switches have been successfully fabricated for the first time."
+    ],
+    "label_definition": "free_space_bulk: beams travel through air between mirrors or collimators in a sealed box, fiber collimator arrays at the ports. integrated_photonic: light stays in waveguides on a chip. mechanical_fiber: fibers are physically moved or reconnected. unclear: not stated. (ocs-domain, comparison-framework)"
+  },
+  {
+    "cell": "electro_optic:ai_cluster_fit",
+    "dimension": "ai_cluster_fit",
+    "value": "partial",
+    "quotes": [
+      "In this paper we analyze the feasibility of building silicon photonic microring based switch fabrics for data center scale optical interconnection networks.",
+      "This chip-scale switching system technology may provide a compelling solution to replace some routing functionality currently implemented as bandwidth- and power-limited electronic switch chips in high-performance computing systems."
+    ],
+    "label_definition": "Does the literature use or propose this route for accelerator clusters, reconfigurable topologies, or replacing a spine layer? yes/partial/no/not_reported. (comparison-framework; ocs-domain's ai_dc_fit analog: direct = targets accelerator clusters, ML training, TPU/GPU pods, collective communication, or spine replacement; indirect = data center networks generally, or an application that includes data centers; none = telecom/sensing/other only; unclear = not stated.)"
+  },
+  {
+    "cell": "soa:integration",
+    "dimension": "integration",
+    "value": "integrated_photonic",
+    "quotes": [
+      "A monolithic InGaAsP/InP 4 × 4 cross-connect is designed, fabricated and demonstrated."
+    ],
+    "label_definition": "free_space_bulk: beams travel through air between mirrors or collimators in a sealed box, fiber collimator arrays at the ports. integrated_photonic: light stays in waveguides on a chip. mechanical_fiber: fibers are physically moved or reconnected. unclear: not stated. (ocs-domain, comparison-framework)"
+  },
+  {
+    "cell": "soa:trl_band",
+    "dimension": "trl_band",
+    "value": "lab",
+    "quotes": [
+      "A monolithic InGaAsP/InP 4 × 4 cross-connect is designed, fabricated and demonstrated."
+    ],
+    "label_definition": "lab: a prototype, fabricated device, simulation, or testbed (signal words: we demonstrate, fabricated, prototype, proof of concept, simulation). pilot: a field trial, single-facility deployment, small production run. production: in service at scale or sold as a product (in production, deployed across, commercially available, shipping). unclear: not stated. (ocs-domain)"
+  },
+  {
+    "cell": "soa:ai_cluster_fit",
+    "dimension": "ai_cluster_fit",
+    "value": "yes",
+    "quotes": [
+      "Optical circuit switches (OCS) represent an appealing option to overcome this issue by eliminating the need for expensive and power-hungry transceivers and electrical switches in the core of the network.",
+      "Here, we propose and investigate a novel optical wireless data-center network (OW-DCN) architecture based on nanoseconds semiconductor optical amplifier (SOA)-based wavelength selectors and arrayed waveguide grating router (AWGR) controlled by fast field-programmable gate array (FPGA)-based switch schedulers."
+    ],
+    "label_definition": "Does the literature use or propose this route for accelerator clusters, reconfigurable topologies, or replacing a spine layer? yes/partial/no/not_reported. (comparison-framework; ocs-domain's ai_dc_fit analog: direct = targets accelerator clusters, ML training, TPU/GPU pods, collective communication, or spine replacement; indirect = data center networks generally, or an application that includes data centers; none = telecom/sensing/other only; unclear = not stated.)"
+  },
+  {
+    "cell": "robotic_patch_panel:integration",
+    "dimension": "integration",
+    "value": "mechanical_fiber",
+    "quotes": [
+      "We have developed a fiber-handling robot and optical connection mechanisms for automatic cross-connection of multiple optical connectors, which are the key elements of automatic optical fiber cross-connect equipment."
+    ],
+    "label_definition": "free_space_bulk: beams travel through air between mirrors or collimators in a sealed box, fiber collimator arrays at the ports. integrated_photonic: light stays in waveguides on a chip. mechanical_fiber: fibers are physically moved or reconnected. unclear: not stated. (ocs-domain, comparison-framework)"
+  },
+  {
+    "cell": "robotic_patch_panel:trl_band",
+    "dimension": "trl_band",
+    "value": "production",
+    "quotes": [
+      "announces today the launch of its new G5 Robotic Patch Panel system"
+    ],
+    "label_definition": "lab: a prototype, fabricated device, simulation, or testbed (signal words: we demonstrate, fabricated, prototype, proof of concept, simulation). pilot: a field trial, single-facility deployment, small production run. production: in service at scale or sold as a product (in production, deployed across, commercially available, shipping). unclear: not stated. (ocs-domain)"
+  },
+  {
+    "cell": "robotic_patch_panel:ai_cluster_fit",
+    "dimension": "ai_cluster_fit",
+    "value": "no",
+    "quotes": [
+      "indicating that the automated optical fiber cross-connect equipment is suitable for practical use in intelligent buildings and optical access networks"
+    ],
+    "label_definition": "Does the literature use or propose this route for accelerator clusters, reconfigurable topologies, or replacing a spine layer? yes/partial/no/not_reported. (comparison-framework; ocs-domain's ai_dc_fit analog: direct = targets accelerator clusters, ML training, TPU/GPU pods, collective communication, or spine replacement; indirect = data center networks generally, or an application that includes data centers; none = telecom/sensing/other only; unclear = not stated.)"
+  }
+]

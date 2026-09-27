@@ -1,0 +1,152 @@
+[
+  {
+    "record_key": "openalex:W2529948110",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Analyzes switching time reduction in 3D MEMS-based optical switches."
+  },
+  {
+    "record_key": "openalex:W3041044413",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Builds a 512x512 port 3D MEMS optical switch module prototype."
+  },
+  {
+    "record_key": "openalex:W1977220786",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Sliding mode fault-tolerant control for a MEMS optical switch; abstract empty."
+  },
+  {
+    "record_key": "openalex:W4407948905",
+    "score": 2,
+    "adjacent_field": "mems_micromirror",
+    "reason": "MEMS optical switch built for laser ignition safety device, not networking."
+  },
+  {
+    "record_key": "openalex:W2996949883",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Open-loop control algorithms for high-speed 3D MEMS switching fabrics in data centers."
+  },
+  {
+    "record_key": "openalex:W2605844474",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Reviews diffraction-based MEMS optical switching, comparing DLP and LCoS approaches."
+  },
+  {
+    "record_key": "openalex:W2956148226",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Builds a translational MEMS platform for planar optical switching fabrics."
+  },
+  {
+    "record_key": "openalex:W2159513073",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Reviews MEMS micromirror technology used in fiber-optical switches."
+  },
+  {
+    "record_key": "openalex:W2978556994",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Review of optical vortices and orbital angular momentum; unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W2795355622",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Reviews MEMS-based all-optical switching fabric principles and architectures."
+  },
+  {
+    "record_key": "openalex:W4403460664",
+    "score": 1,
+    "adjacent_field": "mems_micromirror",
+    "reason": "Small MEMS switch used as component in a fiber sensor system; abstract empty."
+  },
+  {
+    "record_key": "openalex:W2533885611",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Designs and models an 8-channel MEMS optical switch array for signal control."
+  },
+  {
+    "record_key": "openalex:W2047996703",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Optimized sliding mode controller for MEMS optical switches used in optical networks."
+  },
+  {
+    "record_key": "openalex:W1982681165",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Builds a 50x50 silicon photonic MEMS optical circuit switch for data centers."
+  },
+  {
+    "record_key": "openalex:W3139026969",
+    "score": 2,
+    "adjacent_field": "mems_micromirror",
+    "reason": "MEMS mirror array built for wavelength selective switches; abstract empty."
+  },
+  {
+    "record_key": "openalex:W2807234289",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Reviews MEMS, LCoS, SOA, and MZI photonic switching technologies for datacenters."
+  },
+  {
+    "record_key": "openalex:W2492727504",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Title: Design of MEMS Optical Switches; abstract empty, directly on-topic."
+  },
+  {
+    "record_key": "openalex:W2253702363",
+    "score": 1,
+    "adjacent_field": "mems_micromirror",
+    "reason": "MEMS-actuated metamaterial for terahertz polarization modulation, not fiber circuit switching."
+  },
+  {
+    "record_key": "openalex:W4408995512",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Develops a stiffness-tuning actuator mechanism specifically for MEMS optical switches."
+  },
+  {
+    "record_key": "openalex:W4284963505",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Book chapter reviewing MEMS-based optical switch technology, fabrication, and reliability."
+  },
+  {
+    "record_key": "openalex:W3103527158",
+    "score": 1,
+    "adjacent_field": "mems_micromirror",
+    "reason": "General MEMS-IC integration review; micromirror arrays only one example among many."
+  },
+  {
+    "record_key": "openalex:W1561374189",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Reviews MEMS technology for optical switching in optical networks."
+  },
+  {
+    "record_key": "openalex:W3017763864",
+    "score": 1,
+    "adjacent_field": "mems_micromirror",
+    "reason": "Review of MEMS scanning mirrors for LiDAR, not optical circuit switching."
+  },
+  {
+    "record_key": "openalex:W4387805823",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Demonstrates hybrid 3-DOF MEMS actuator for efficient planar optical switching."
+  },
+  {
+    "record_key": "openalex:W4385800727",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Demonstrates a nonvolatile silicon MEMS optical switch using bistable mechanical beams."
+  }
+]

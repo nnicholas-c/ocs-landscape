@@ -1,0 +1,202 @@
+[
+  {
+    "record_key": "openalex:W1982892759",
+    "source": "openalex",
+    "title": "Survey on Free Space Optical Communication: A Communication Theory Perspective",
+    "year": 2014,
+    "venue": "IEEE Communications Surveys & Tutorials",
+    "abstract": "Optical wireless communication (OWC) refers to transmission in unguided propagation media through the use of optical carriers, i.e., visible, infrared (IR), and ultraviolet (UV) bands. In this survey, we focus on outdoor terrestrial OWC links which operate in near IR band. These are widely referred to as free space optical (FSO) communication in the literature. FSO systems are used for high rate communication between two fixed points over distances up to several kilometers. In comparison to radio-frequency (RF) counterparts, FSO links have a very high optical bandwidth available, allowing much higher data rates. They are appealing for a wide range of applications such as metropolitan area network (MAN) extension, local area network (LAN)-to-LAN connectivity, fiber back-up, backhaul for wireless cellular"
+  },
+  {
+    "record_key": "openalex:W3091342457",
+    "source": "openalex",
+    "title": "COUDER: Robust Topology Engineering for Optical Circuit Switched Data Center Networks",
+    "year": 2020,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "Many optical circuit switched data center networks (DCN) have been proposed in the past to attain higher capacity and topology reconfigurability, though commercial adoption of these architectures have been minimal. One major challenge these architectures face is the difficulty of handling uncertain traffic demands using commercial optical circuit switches (OCS) with high switching latency. Prior works have generally focused on developing fast-switching OCS prototypes to quickly react to traffic changes through frequent reconfigurations. This approach, however, adds tremendous complexity to the control plane, and raises the barrier for commercial adoption of optical circuit switched data center networks. We propose COUDER, a robust topology and routing optimization framework for reconfigurable optical circuit switched data centers. COUDER optimizes topology and routing based"
+  },
+  {
+    "record_key": "openalex:W3008830959",
+    "source": "openalex",
+    "title": "Integrating microsecond circuit switching into the data center",
+    "year": 2013,
+    "venue": "ACM SIGCOMM Computer Communication Review",
+    "abstract": "Recent proposals have employed optical circuit switching (OCS) to reduce the cost of data center networks. However, the relatively slow switching times (10--100 ms) assumed by these approaches, and the accompanying latencies of their control planes, has limited its use to only the largest data center networks with highly aggregated and constrained workloads. As faster switch technologies become available, designing a control plane capable of supporting them becomes a key challenge. In this paper, we design and implement an OCS prototype capable of switching in 11.5 us, and we use this prototype to expose a set of challenges that arise when supporting switching at microsecond time scales. In response, we propose a microsecond-latency control plane based on a circuit scheduling"
+  },
+  {
+    "record_key": "openalex:W4226369700",
+    "source": "openalex",
+    "title": "Traffic Tolerance of Nanosecond Scheduling on Optical Circuit Switched Data Center Network",
+    "year": 2022,
+    "venue": null,
+    "abstract": "PULSE’s ns-speed NP-hard network scheduler delivers skew-tolerant performance at 90% input loads. It achieves >90% throughput, 1.5-1.9 ms mean and 16-24 ms tail latency (99%) for up to 6:1 hot:cold skewed traffic in OCS DCN."
+  },
+  {
+    "record_key": "openalex:W4284882945",
+    "source": "openalex",
+    "title": "Understanding the Performance Guarantee of Physical Topology Design for Optical Circuit Switched Data Centers",
+    "year": 2022,
+    "venue": "ACM SIGMETRICS Performance Evaluation Review",
+    "abstract": "As a first step of designing O ptical-circuit-switched D ata C enters (ODC), physical topology design is critical as it determines the scalability and the performance limit of the entire ODC. However, prior works on ODC have not yet paid much attention to physical topology design, and the adopted physical topologies either scale poorly, or lack performance guarantee. We offer a mathematical foundation for the design and performance analysis of ODC physical topologies in this paper. We introduce a new performance metric β(\\mathcalG )$ to evaluate the gap between a physical topology $\\mathcalG $ and the ideal physical topology. We develop a coupling technique that bypasses a significant amount of computational complexity of calculating β(\\mathcalG )$. Using β(\\mathcalG )$ and"
+  },
+  {
+    "record_key": "openalex:W4281707213",
+    "source": "openalex",
+    "title": "Understanding the Performance Guarantee of Physical Topology Design for Optical Circuit Switched Data Centers",
+    "year": 2022,
+    "venue": null,
+    "abstract": "As a first step of designing O ptical-circuit-switched D ata C enters (ODC), physical topology design is critical as it determines the scalability and the performance limit of the entire ODC. However, prior works on ODC have not yet paid much attention to physical topology design, and the adopted physical topologies either scale poorly, or lack performance guarantee. We offer a mathematical foundation for the design and performance analysis of ODC physical topologies in this paper. We introduce a new performance metric β(\\mathcalG )$ to evaluate the gap between a physical topology $\\mathcalG $ and the ideal physical topology. We develop a coupling technique that bypasses a significant amount of computational complexity of calculating β(\\mathcalG )$. Using β(\\mathcalG )$ and"
+  },
+  {
+    "record_key": "openalex:W1998544072",
+    "source": "openalex",
+    "title": "Soft Microfluidic Assemblies of Sensors, Circuits, and Radios for the Skin",
+    "year": 2014,
+    "venue": "Science",
+    "abstract": "When mounted on the skin, modern sensors, circuits, radios, and power supply systems have the potential to provide clinical-quality health monitoring capabilities for continuous use, beyond the confines of traditional hospital or laboratory facilities. The most well-developed component technologies are, however, broadly available only in hard, planar formats. As a result, existing options in system design are unable to effectively accommodate integration with the soft, textured, curvilinear, and time-dynamic surfaces of the skin. Here, we describe experimental and theoretical approaches for using ideas in soft microfluidics, structured adhesive surfaces, and controlled mechanical buckling to achieve ultralow modulus, highly stretchable systems that incorporate assemblies of high-modulus, rigid, state-of-the-art functional elements. The outcome is a thin, conformable device technology that can softly"
+  },
+  {
+    "record_key": "openalex:W2177488376",
+    "source": "openalex",
+    "title": "Circuit switching under the radar with reactor",
+    "year": 2014,
+    "venue": null,
+    "abstract": "The potential advantages of optics at high link speeds have led to significant interest in deploying optical switching technology in data-center networks. Initial efforts have focused on hybrid approaches that rely on millisecond-scale circuit switching in the core of the network, while maintaining the flexibility of electrical packet switching at the edge. Recent demonstrations of microsecond-scale optical circuit switches motivate con-sidering circuit switching for more dynamic traffic such as that generated from a top-of-rack (ToR) switch. Based on these technology trends, we propose a prototype hy-brid ToR, called REACToR, which utilizes a combina-tion of packet switching and circuit switching to appear to end-hosts as a packet-switched ToR. In this paper, we describe a prototype REACToR con-trol plane which synchronizes end"
+  },
+  {
+    "record_key": "openalex:W3210177009",
+    "source": "openalex",
+    "title": "Energy-efficient Scaling of Active Electrical/Optical Switches in Hybrid Packet/Circuit Switched Data Center Networks",
+    "year": 2021,
+    "venue": null,
+    "abstract": "In the electrical/optical hybrid data center networks, the switching fabric is consuming a significant amount of energy. Regarding the fact that the data center traffic is time-varying, this paper studies the energy-efficient scaling approaches to manage the ON/OFF state of optical circuit switches and electrical packet switches to save energy while ensuring service quality. Simulation results show that the energy consumption of the hybrid data centers is saved, and the performance of the data centers is not degraded significantly."
+  },
+  {
+    "record_key": "openalex:W2948174331",
+    "source": "openalex",
+    "title": "MCF-SMF Hybrid Low-Latency Circuit-Switched Optical Network for Disaggregated Data Centers",
+    "year": 2019,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "This paper proposes and experimentally evaluates a fully developed novel architecture with purpose built low latency communication protocols for next generation disaggregated data centers (DDCs). In order to accommodate for capacity and latency needs of disaggregated IT elements (i.e., CPU, memory), this architecture makes use of a low latency and high-capacity circuit-switched optical network for interconnecting various end points that are equipped with multi-channel silicon photonic based integrated transceivers. In a move to further decrease the perceived latency between various disaggregated IT elements, this paper proposes a novel network topology that cuts down the latency over the optical network by 34% while enhancing system scalability and channel bonding over multi-core fiber (MCF) switched links to reduce head to tail latency"
+  },
+  {
+    "record_key": "openalex:W2099718645",
+    "source": "openalex",
+    "title": "Extending software defined network principles to include optical transport",
+    "year": 2013,
+    "venue": "IEEE Communications Magazine",
+    "abstract": "Software defined networks are based on the principle of a centralized control plane separated from the network forwarding or switching plane that it controls. The switching plane can be heterogeneous, composed of network elements from multiple vendors, and it can provide distinct services with different characteristics, configurations, and control at the packet and/or optical layers. Abstracting the control plane from the network elements allows network-platform- specific characteristics and differences that do not affect services to be hidden. In addition, software defined networking (SDN) is based on the principle that applications can request needed resources from the network via interfaces to the control plane. Through these interfaces, applications can dynamically request network resources or network information that may span disparate technologies."
+  },
+  {
+    "record_key": "openalex:W2071137961",
+    "source": "openalex",
+    "title": "Optical storage arrays: a perspective for future big data storage",
+    "year": 2014,
+    "venue": "Light Science & Applications",
+    "abstract": "The advance of nanophotonics has provided a variety of avenues for light–matter interaction at the nanometer scale through the enriched mechanisms for physical and chemical reactions induced by nanometer-confined optical probes in nanocomposite materials. These emerging nanophotonic devices and materials have enabled researchers to develop disruptive methods of tremendously increasing the storage capacity of current optical memory. In this paper, we present a review of the recent advancements in nanophotonics-enabled optical storage techniques. Particularly, we offer our perspective of using them as optical storage arrays for next-generation exabyte data centers. The science and technology of nanophotonics can help dramatically increase the capacity of optical discs. After reviewing research into next-generation optical data storage, Min Gu, Xiangping Li and Yaoyu Cao"
+  },
+  {
+    "record_key": "openalex:W2534962717",
+    "source": "openalex",
+    "title": "Enabling multi-tenancy in hybrid optical packet/circuit switched data center networks",
+    "year": 2014,
+    "venue": null,
+    "abstract": "In a flattened optical data center network employing hybrid technologies, multi-tenancy is enabled by a new virtual data center embedding method that is equipped with network-aware VM placement exploiting the advanced but complex characteristics of diverse optical technologies."
+  },
+  {
+    "record_key": "openalex:W2345562294",
+    "source": "openalex",
+    "title": "Roadmap of optical communications",
+    "year": 2016,
+    "venue": "Journal of Optics",
+    "abstract": "Lightwave communications is a necessity for the information age. Optical links provide enormous bandwidth, and the optical fiber is the only medium that can meet the modern society's needs for transporting massive amounts of data over long distances. Applications range from global high-capacity networks, which constitute the backbone of the internet, to the massively parallel interconnects that provide data connectivity inside datacenters and supercomputers. Optical communications is a diverse and rapidly changing field, where experts in photonics, communications, electronics, and signal processing work side by side to meet the ever-increasing demands for higher capacity, lower cost, and lower energy consumption, while adapting the system design to novel services and technologies. Due to the interdisciplinary nature of this rich research field,"
+  },
+  {
+    "record_key": "openalex:W4225000980",
+    "source": "openalex",
+    "title": "Nanosecond optical switching and control system for data center networks",
+    "year": 2022,
+    "venue": "Nature Communications",
+    "abstract": "Electrical switching based data center networks have an intrinsic bandwidth bottleneck and, require inefficient and power-consuming multi-tier switching layers to cope with the rapid growing traffic in data centers. With the benefits of ultra-large bandwidth, high-efficient cost and power consumption, switching traffic in the optical domain has been investigated to replace the electrical switches inside data center networks. However, the deployment of nanosecond optical switches remains a challenge due to the lack of corresponding nanosecond switch control, the lack of optical buffers for packet contention, and the requirement of nanosecond clock and data recovery. In this work, a nanosecond optical switching and control system has been experimentally demonstrated to enable an optically switched data center network with 43.4 nanosecond switching"
+  },
+  {
+    "record_key": "openalex:W2884318141",
+    "source": "openalex",
+    "title": "Evaluation Study of a Proposed Hadoop for Data Center Networks Incorporating Optical Circuit Switches",
+    "year": 2018,
+    "venue": "Journal of Optical Communications and Networking",
+    "abstract": "Hybrid data center network architectures, which combine electrical packet switches (EPSs) with optical circuit switches (OCSs), have been proposed to handle the inter-rack link oversubscription problem in a cost- and power-efficient manner. However, the high reconfiguration delay of optical switching technologies makes it challenging to effectively leverage OCSs in these hybrid networks. In our prior work, we proposed a modified version of Hadoop, called Hadoop for hybrid networks (HHN), to create network traffic patterns that match the characteristics of OCSs. This paper presents a comprehensive comparative evaluation of HHN on hybrid networks and the original Hadoop on conventional EPS-only networks. Numerical results validate our hypothesis that it is feasible to achieve similar system-level and user-level performance with HHN while simultaneously"
+  },
+  {
+    "record_key": "openalex:W4384820653",
+    "source": "openalex",
+    "title": "Optical switching will innovate intra data center networks [Invited Tutorial]",
+    "year": 2023,
+    "venue": "Journal of Optical Communications and Networking",
+    "abstract": "Reflecting the recent slow-down in Moore’s law and the proliferation of artificial intelligence/machine learning workloads, the performance and energy consumption of networks are becoming barriers in high-performance computing (HPC) and data centers. Optical switches are expected to break these barriers, and indeed their introduction has recently commenced in data centers. This paper discusses how optical switching technologies can innovate future intra data center networks. Hyperscale data centers are much bigger in scale, and network requirements are slightly different from those of HPC. This paper focus on data center networks, since the impact of optical technologies will be more significant in data centers than in HPC. In addition to the scale issue, important metrics to be considered for network design are"
+  },
+  {
+    "record_key": "openalex:W2068907524",
+    "source": "openalex",
+    "title": "Combining circuit and packet switching using a large port-count optical cross-connect for data center networks",
+    "year": 2012,
+    "venue": "Optics Communications",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W2065863985",
+    "source": "openalex",
+    "title": "Optical methods for sensing and imaging oxygen: materials, spectroscopies and applications",
+    "year": 2014,
+    "venue": "Chemical Society Reviews",
+    "abstract": "We review the current state of optical methods for sensing oxygen. These have become powerful alternatives to electrochemical detection and in the process of replacing the Clark electrode in many fields. The article (with 694 references) is divided into main sections on direct spectroscopic sensing of oxygen, on absorptiometric and luminescent probes, on polymeric matrices and supports, on additives and related materials, on spectroscopic schemes for read-out and imaging, and on sensing formats (such as waveguide sensing, sensor arrays, multiple sensors and nanosensors). We finally discuss future trends and applications and summarize the properties of the most often used indicator probes and polymers. The ESI† (with 385 references) gives a selection of specific applications of such sensors in medicine, biology,"
+  },
+  {
+    "record_key": "openalex:W2937088522",
+    "source": "openalex",
+    "title": "Wafer-scale silicon photonic switches beyond die size limit",
+    "year": 2019,
+    "venue": "Optica",
+    "abstract": "Fast optical switches have been proposed as a promising alternative to enable continual scaling of data centers with increasing size and data rates. Silicon photonics is a compelling platform for large-scale integrated photonic switches, leveraging advanced manufacturing foundries for electronic integrated circuits. In the past decade, the port counts of silicon photonic switches have increased steadily to 128×128. Further scaling of the switch is constrained by the maximum reticle size (2–3 cm) of lithography tools. Here, we propose to use wafer-scale integration to overcome the die size limit. As a proof of concept demonstration, we fabricated a 240×240 switch by lithographically stitching a 3×3 array of identical 80×80 switch blocks across reticle boundaries. Stitching loss is substantially reduced (0.004 dB)"
+  },
+  {
+    "record_key": "openalex:W3160595640",
+    "source": "openalex",
+    "title": "Optical trapping with structured light: a review",
+    "year": 2021,
+    "venue": "Advanced Photonics",
+    "abstract": "Optical trapping describes the interaction between light and matter to manipulate micro-objects through momentum transfer. In the case of 3D trapping with a single beam, this is termed optical tweezers. Optical tweezers are a powerful and noninvasive tool for manipulating small objects, and have become indispensable in many fields, including physics, biology, soft condensed matter, among others. In the early days, optical trapping was typically accomplished with a single Gaussian beam. In recent years, we have witnessed rapid progress in the use of structured light beams with customized phase, amplitude, and polarization in optical trapping. Unusual beam properties, such as phase singularities on-axis and propagation invariant nature, have opened up novel capabilities to the study of micromanipulation in liquid, air,"
+  },
+  {
+    "record_key": "openalex:W2136389908",
+    "source": "openalex",
+    "title": "Switching terahertz waves with gate-controlled active graphene metamaterials",
+    "year": 2012,
+    "venue": "Nature Materials",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W7168289392",
+    "source": "openalex",
+    "title": "Expansion-Aware Design Model for Optical-Circuit-Switched Data Center Networks Suppressing Fiber Link Rewiring",
+    "year": 2026,
+    "venue": null,
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W2898651003",
+    "source": "openalex",
+    "title": "Broadband transparent optical phase change materials for high-performance nonvolatile photonics",
+    "year": 2019,
+    "venue": "Nature Communications",
+    "abstract": "Abstract Optical phase change materials (O-PCMs), a unique group of materials featuring exceptional optical property contrast upon a solid-state phase transition, have found widespread adoption in photonic applications such as switches, routers and reconfigurable meta-optics. Current O-PCMs, such as Ge–Sb–Te (GST), exhibit large contrast of both refractive index (Δ n ) and optical loss (Δ k ), simultaneously. The coupling of both optical properties fundamentally limits the performance of many applications. Here we introduce a new class of O-PCMs based on Ge–Sb–Se–Te (GSST) which breaks this traditional coupling. The optimized alloy, Ge 2 Sb 2 Se 4 Te 1 , combines broadband transparency (1–18.5 μm), large optical contrast (Δ n = 2.0), and significantly improved glass forming ability, enabling an"
+  },
+  {
+    "record_key": "openalex:W2544385506",
+    "source": "openalex",
+    "title": "Plasmonic circuits for manipulating optical information",
+    "year": 2016,
+    "venue": "Nanophotonics",
+    "abstract": "Abstract Surface plasmons excited by light in metal structures provide a means for manipulating optical energy at the nanoscale. Plasmons are associated with the collective oscillations of conduction electrons in metals and play a role intermediate between photonics and electronics. As such, plasmonic devices have been created that mimic photonic waveguides as well as electrical circuits operating at optical frequencies. We review the plasmon technologies and circuits proposed, modeled, and demonstrated over the past decade that have potential applications in optical computing and optical information processing."
+  }
+]

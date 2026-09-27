@@ -1,0 +1,152 @@
+[
+  {
+    "record_key": "openalex:W2593369542",
+    "score": 2,
+    "adjacent_field": "telecom_oxc_roadm",
+    "reason": "LCoS wavelength selective switch for elastic optical networks and ROADM."
+  },
+  {
+    "record_key": "openalex:W2101457183",
+    "score": 1,
+    "adjacent_field": "lcos_display_phase",
+    "reason": "Fundamentals of phase-only LCOS devices for holography; no switch application."
+  },
+  {
+    "record_key": "openalex:W3034871008",
+    "score": 2,
+    "adjacent_field": "telecom_oxc_roadm",
+    "reason": "High-port-count LCoS wavelength selective switch module for ROADM applications."
+  },
+  {
+    "record_key": "openalex:W2890825222",
+    "score": 2,
+    "adjacent_field": "telecom_oxc_roadm",
+    "reason": "High-efficiency beam-steering LCOS device for wavelength selective switch."
+  },
+  {
+    "record_key": "openalex:W2401549857",
+    "score": 2,
+    "adjacent_field": "telecom_oxc_roadm",
+    "reason": "2D beam steering LCOS design for stacked wavelength selective switches."
+  },
+  {
+    "record_key": "openalex:W2047319155",
+    "score": 2,
+    "adjacent_field": "telecom_oxc_roadm",
+    "reason": "Reduces transient crosstalk in a phase-only LCOS wavelength selective switch."
+  },
+  {
+    "record_key": "openalex:W2137848725",
+    "score": 2,
+    "adjacent_field": "telecom_oxc_roadm",
+    "reason": "Crosstalk reduction method for holographic LCOS wavelength selective switches."
+  },
+  {
+    "record_key": "openalex:W3084051828",
+    "score": 2,
+    "adjacent_field": "telecom_oxc_roadm",
+    "reason": "Reviews recent progress of wavelength selective switches for ROADM networks."
+  },
+  {
+    "record_key": "openalex:W1987873225",
+    "score": 2,
+    "adjacent_field": "telecom_oxc_roadm",
+    "reason": "Compact AWG-based wavelength selective switch driven by single LCOS."
+  },
+  {
+    "record_key": "openalex:W2806321493",
+    "score": 2,
+    "adjacent_field": "telecom_oxc_roadm",
+    "reason": "Title only, abstract null; LCOS-based wavelength selective switch with flexible passbands."
+  },
+  {
+    "record_key": "openalex:W2026537731",
+    "score": 2,
+    "adjacent_field": "telecom_oxc_roadm",
+    "reason": "LCOS-based flexible-grid 1x40 wavelength selective switch demonstration."
+  },
+  {
+    "record_key": "openalex:W1799756684",
+    "score": 2,
+    "adjacent_field": "telecom_oxc_roadm",
+    "reason": "2D beam steering demonstrated in an LCOS-based wavelength selective switch."
+  },
+  {
+    "record_key": "openalex:W3023959449",
+    "score": 2,
+    "adjacent_field": "telecom_oxc_roadm",
+    "reason": "Hybrid algorithm optimizes multi-beam steering in an LCOS wavelength selective switch."
+  },
+  {
+    "record_key": "openalex:W4313477415",
+    "score": 2,
+    "adjacent_field": "telecom_oxc_roadm",
+    "reason": "Folded 3x3 LCOS-based wavelength selective switch with high spectral resolution."
+  },
+  {
+    "record_key": "openalex:W3010509388",
+    "score": 2,
+    "adjacent_field": "telecom_oxc_roadm",
+    "reason": "High-port-count wavelength selective switches using a single 4k LCoS."
+  },
+  {
+    "record_key": "openalex:W2901479220",
+    "score": 2,
+    "adjacent_field": "telecom_oxc_roadm",
+    "reason": "Wide-passband C+L-band wavelength selective switch built on LCOS."
+  },
+  {
+    "record_key": "openalex:W4381158453",
+    "score": 1,
+    "adjacent_field": "lcos_display_phase",
+    "reason": "Metasurface-enabled polarization-independent LCoS device; general application, no switch demonstrated."
+  },
+  {
+    "record_key": "openalex:W2006699580",
+    "score": 2,
+    "adjacent_field": "telecom_oxc_roadm",
+    "reason": "LCoS-based few-mode fiber wavelength selective switch with spatial diversity."
+  },
+  {
+    "record_key": "openalex:W2003395751",
+    "score": 2,
+    "adjacent_field": "telecom_oxc_roadm",
+    "reason": "Wavelength selective switch built using LCoS display technology for ROADM."
+  },
+  {
+    "record_key": "openalex:W3209992943",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "AR/VR display technology review; not LCoS-for-switching, unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W1061033617",
+    "score": 2,
+    "adjacent_field": "telecom_oxc_roadm",
+    "reason": "Demonstrates a 1x32 LCOS-based wavelength selective switch for ROADM/OXC."
+  },
+  {
+    "record_key": "openalex:W2569202499",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Multi-plane light conversion mode multiplexer for fiber modes; not switching."
+  },
+  {
+    "record_key": "openalex:W2340261621",
+    "score": 2,
+    "adjacent_field": "telecom_oxc_roadm",
+    "reason": "MxN wavelength selective switch using LCOS beam splitting for ROADM."
+  },
+  {
+    "record_key": "openalex:W2973411916",
+    "score": 2,
+    "adjacent_field": "telecom_oxc_roadm",
+    "reason": "Asymmetric LCoS wavelength selective switch for optical access network edge node."
+  },
+  {
+    "record_key": "openalex:W3181432130",
+    "score": 2,
+    "adjacent_field": "telecom_oxc_roadm",
+    "reason": "Multi-band photonic integrated wavelength selective switch using thermo-optic routing."
+  }
+]

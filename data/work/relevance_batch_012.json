@@ -1,0 +1,202 @@
+[
+  {
+    "record_key": "openalex:W2900750062",
+    "source": "openalex",
+    "title": "Multimode silicon photonics",
+    "year": 2018,
+    "venue": "Nanophotonics",
+    "abstract": "Abstract Multimode silicon photonics is attracting more and more attention because the introduction of higher‐order modes makes it possible to increase the channel number for data transmission in mode‐division‐multiplexed (MDM) systems as well as improve the flexibility of device designs. On the other hand, the design of multimode silicon photonic devices becomes very different compared with the traditional case with the fundamental mode only. Since not only the fundamental mode but also the higher‐order modes are involved, one of the most important things for multimode silicon photonics is the realization of effective mode manipulation, which is not difficult, fortunately because the mode dispersion in multimode silicon optical waveguide is very strong. Great progresses have been achieved on multimode silicon photonics"
+  },
+  {
+    "record_key": "openalex:W2235174674",
+    "source": "openalex",
+    "title": "Silicon Quantum Photonics",
+    "year": 2016,
+    "venue": "IEEE Journal of Selected Topics in Quantum Electronics",
+    "abstract": "Integrated quantum photonic applications, providing physically guaranteed communications security, subshot-noise measurement, and tremendous computational power, are nearly within technological reach. Silicon as a technology platform has proven formidable in establishing the micro-electronics revolution, and it might do so again in the quantum technology revolution. Silicon has taken photonics by storm, with its promise of scalable manufacture, integration, and compatibility with CMOS microelectronics. These same properties, and a few others, motivate its use for large-scale quantum optics as well. In this paper, we provide context to the development of quantum optics in silicon. We review the development of the various components that constitute integrated quantum photonic systems, and we identify the challenges that must be faced and their potential solutions for"
+  },
+  {
+    "record_key": "openalex:W3130725666",
+    "source": "openalex",
+    "title": "Integrated photonics on thin-film lithium niobate",
+    "year": 2021,
+    "venue": "Advances in Optics and Photonics",
+    "abstract": "Lithium niobate (LN), an outstanding and versatile material, has influenced our daily life for decades—from enabling high-speed optical communications that form the backbone of the Internet to realizing radio-frequency filtering used in our cell phones. This half-century-old material is currently embracing a revolution in thin-film LN integrated photonics. The successes of manufacturing wafer-scale, high-quality thin films of LN-on-insulator (LNOI) and breakthroughs in nanofabrication techniques have made high-performance integrated nanophotonic components possible. With rapid development in the past few years, some of these thin-film LN devices, such as optical modulators and nonlinear wavelength converters, have already outperformed their legacy counterparts realized in bulk LN crystals. Furthermore, the nanophotonic integration has enabled ultra-low-loss resonators in LN, which has unlocked many novel applications"
+  },
+  {
+    "record_key": "openalex:W2883000198",
+    "source": "openalex",
+    "title": "On-chip silicon photonic signaling and processing: a review",
+    "year": 2018,
+    "venue": "中国科学通报：英文版",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W2571361994",
+    "source": "openalex",
+    "title": "Photonic crystal nanocavity assisted rejection ratio tunable notch microwave photonic filter",
+    "year": 2017,
+    "venue": "Scientific Reports",
+    "abstract": "Driven by the increasing demand on handing microwave signals with compact device, low power consumption, high efficiency and high reliability, it is highly desired to generate, distribute, and process microwave signals using photonic integrated circuits. Silicon photonics offers a promising platform facilitating ultracompact microwave photonic signal processing assisted by silicon nanophotonic devices. In this paper, we propose, theoretically analyze and experimentally demonstrate a simple scheme to realize ultracompact rejection ratio tunable notch microwave photonic filter (MPF) based on a silicon photonic crystal (PhC) nanocavity with fixed extinction ratio. Using a conventional modulation scheme with only a single phase modulator (PM), the rejection ratio of the presented MPF can be tuned from about 10 dB to beyond 60 dB. Moreover, the"
+  },
+  {
+    "record_key": "openalex:W2774352386",
+    "source": "openalex",
+    "title": "Mid‐infrared integrated photonics on silicon: a perspective",
+    "year": 2017,
+    "venue": "Nanophotonics",
+    "abstract": "Abstract The emergence of silicon photonics over the past two decades has established silicon as a preferred substrate platform for photonic integration. While most silicon‐based photonic components have so far been realized in the near‐infrared (near‐IR) telecommunication bands, the mid‐infrared (mid‐IR, 2–20‐μm wavelength) band presents a significant growth opportunity for integrated photonics. In this review, we offer our perspective on the burgeoning field of mid‐IR integrated photonics on silicon. A comprehensive survey on the state‐of‐the‐art of key photonic devices such as waveguides, light sources, modulators, and detectors is presented. Furthermore, on‐chip spectroscopic chemical sensing is quantitatively analyzed as an example of mid‐IR photonic system integration based on these basic building blocks, and the constituent component choices are discussed and contrasted"
+  },
+  {
+    "record_key": "openalex:W2933780027",
+    "source": "openalex",
+    "title": "Heterogeneously Integrated InP\\/Silicon Photonics: Fabricating Fully Functional Transceivers",
+    "year": 2019,
+    "venue": "IEEE Nanotechnology Magazine",
+    "abstract": "Silicon (Si) photonics research and development started more than 30 years ago and has intensified in the last 15 years as levels of device functionality, photonic integration, and commercialization have all increased [1]. The key drivers for using Si in photonics arise from the quality of wafers and the superior processing capabilities developed and funded by the microelectronics industry. It has the promise to revolutionize the photonics industry in the same way that CMOS design and processing revolutionized the microelectronics industry, by driving down photonic chip cost while enabling higher levels of photonic integration and functionality. Commercialization, so far, has focused on optical communication (Telecom [2] and data center [3]) and biosensing [4], with a wealth of future application areas,"
+  },
+  {
+    "record_key": "openalex:W2165260925",
+    "source": "openalex",
+    "title": "Silicon photonic devices and integrated circuits",
+    "year": 2014,
+    "venue": "Nanophotonics",
+    "abstract": "Abstract Silicon photonic devices and integrated circuits have undergone rapid and significant progresses during the last decade, transitioning from research topics in universities to product development in corporations. Silicon photonics is anticipated to be a disruptive optical technology for data communications, with applications such as intra‐chip interconnects, short‐reach communications in datacenters and supercomputers, and long‐haul optical transmissions. Bell Labs, as the research organization of Alcatel‐Lucent, a network system vendor, has an optimal position to identify the full potential of silicon photonics both in the applications and in its technical merits. Additionally it has demonstrated novel and improved high‐performance optical devices, and implemented multi‐function photonic integrated circuits to fulfill various communication applications. In this paper, we review our silicon photonic programs"
+  },
+  {
+    "record_key": "openalex:W2753112608",
+    "source": "openalex",
+    "title": "Springer Handbook of Electronic and Photonic Materials",
+    "year": 2017,
+    "venue": "Springer handbooks",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W2909208749",
+    "source": "openalex",
+    "title": "State of the Art and Perspectives on Silicon Photonic Switches",
+    "year": 2019,
+    "venue": "Micromachines",
+    "abstract": "In the last decade, silicon photonic switches are increasingly believed to be potential candidates for replacing the electrical switches in the applications of telecommunication networks, data center and high-throughput computing, due to their low power consumption (Picojoules per bit), large bandwidth (Terabits per second) and high-level integration (Square millimeters per port). This review paper focuses on the state of the art and our perspectives on silicon photonic switching technologies. It starts with a review of three types of fundamental switch engines, i.e., Mach-Zehnder interferometer, micro-ring resonator and micro-electro-mechanical-system actuated waveguide coupler. The working mechanisms are introduced and the key specifications such as insertion loss, crosstalk, switching time, footprint and power consumption are evaluated. Then it is followed by the discussion"
+  },
+  {
+    "record_key": "openalex:W1595003097",
+    "source": "openalex",
+    "title": "Silicon photonic integration in telecommunications",
+    "year": 2015,
+    "venue": "Frontiers in Physics",
+    "abstract": "Silicon photonics is the guiding of light in a planar arrangement of silicon-based materials to perform various functions. We focus here on the use of silicon photonics to create transmitters and receivers for fiber-optic telecommunications. As the need to squeeze more transmission into a given bandwidth, a given footprint, and a given cost increases, silicon photonics makes more and more economic sense."
+  },
+  {
+    "record_key": "openalex:W2901868604",
+    "source": "openalex",
+    "title": "High-Speed Silicon Photonics Modulators",
+    "year": 2018,
+    "venue": "Proceedings of the IEEE",
+    "abstract": "The realization of gigahertz bandwidth modulators out of silicon-based technology in the early 2000s marked a cornerstone of silicon photonics development. While modulation speeds have since progressed well above 50 GHz and satisfy the bandwidth requirements of current and emerging modulation formats, concurrently obtaining low drive voltages and low insertion losses remains a very active area of research. While modulators generally come in two categories, direct absorption and those relying on embedded phase shifters, the focus of this paper lies on the latter capable of supporting both complex-valued modulation and optically broadband operation. The paper provides an overview of the current state of the art, as well as of currently explored improvement paths. First, common phase shifter configurations, aspects related"
+  },
+  {
+    "record_key": "openalex:W2905370602",
+    "source": "openalex",
+    "title": "Low-Loss Integrated Photonic Switch Using Subwavelength Patterned Phase Change Material",
+    "year": 2018,
+    "venue": "ACS Photonics",
+    "abstract": "Efficient integrated photonic switches play a critical role in both interchip optical interconnects and data center networks that need to be dynamically reconfigured. Here, we demonstrate a 1 × 2 switch using phase change material Ge–Sb–Te (GST) combined with a silicon nitride microring resonator. The switch operates by utilizing the dramatic difference in the optical refractive index and extinction coefficient between the crystalline and amorphous phases of GST. By patterning and encapsulating the GST into subwavelength structures, the device achieves a low insertion loss of less than 1 dB in both output ports and can be switched reliably both photothermally and electrothermally."
+  },
+  {
+    "record_key": "openalex:W2758404936",
+    "source": "openalex",
+    "title": "On-chip photonic synapse",
+    "year": 2017,
+    "venue": "Science Advances",
+    "abstract": "The search for new \"neuromorphic computing\" architectures that mimic the brain's approach to simultaneous processing and storage of information is intense. Because, in real brains, neuronal synapses outnumber neurons by many orders of magnitude, the realization of hardware devices mimicking the functionality of a synapse is a first and essential step in such a search. We report the development of such a hardware synapse, implemented entirely in the optical domain via a photonic integrated-circuit approach. Using purely optical means brings the benefits of ultrafast operation speed, virtually unlimited bandwidth, and no electrical interconnect power losses. Our synapse uses phase-change materials combined with integrated silicon nitride waveguides. Crucially, we can randomly set the synaptic weight simply by varying the number of"
+  },
+  {
+    "record_key": "openalex:W4210305137",
+    "source": "openalex",
+    "title": "Photonic matrix multiplication lights up photonic accelerator and beyond",
+    "year": 2022,
+    "venue": "Light Science & Applications",
+    "abstract": "Matrix computation, as a fundamental building block of information processing in science and technology, contributes most of the computational overheads in modern signal processing and artificial intelligence algorithms. Photonic accelerators are designed to accelerate specific categories of computing in the optical domain, especially matrix multiplication, to address the growing demand for computing resources and capacity. Photonic matrix multiplication has much potential to expand the domain of telecommunication, and artificial intelligence benefiting from its superior performance. Recent research in photonic matrix multiplication has flourished and may provide opportunities to develop applications that are unachievable at present by conventional electronic processors. In this review, we first introduce the methods of photonic matrix multiplication, mainly including the plane light conversion method, Mach-Zehnder interferometer"
+  },
+  {
+    "record_key": "openalex:W3159759503",
+    "source": "openalex",
+    "title": "Taking silicon photonics modulators to a higher performance level: state-of-the-art and a review of new technologies",
+    "year": 2021,
+    "venue": "Advanced Photonics",
+    "abstract": "Optical links are moving to higher and higher transmission speeds while shrinking to shorter and shorter ranges where optical links are envisaged even at the chip scale. The scaling in data speed and span of the optical links demands modulators to be concurrently performant and cost-effective. Silicon photonics (SiPh), a photonic integrated circuit technology that leverages the fabrication sophistication of complementary metal-oxide-semiconductor technology, is well-positioned to deliver the performance, price, and manufacturing volume for the high-speed modulators of future optical communication links. SiPh has relied on the plasma dispersion effect, either in injection, depletion, or accumulation mode, to demonstrate efficient high-speed modulators. The high-speed plasma dispersion silicon modulators have been commercially deployed and have demonstrated excellent performance. Recent years have"
+  },
+  {
+    "record_key": "openalex:W1990459252",
+    "source": "openalex",
+    "title": "Design Challenges in Silicon Photonics",
+    "year": 2014,
+    "venue": "IEEE Journal of Selected Topics in Quantum Electronics",
+    "abstract": "Silicon photonics is rapidly gaining maturity in high-bandwidth optical communication, with applications in datacom, access networks, and I/O for bandwidth-intensive electronics. Also, applications are emerging in spectroscopy and sensing. To get the best performance out of the photonics, co-integration with electronics is needed: side-by-side, stacked, or on the same chip. However, the combination of photonics and electronics introduces a range of new problems on the design side: Codesign and cosimulation of complex photonic and electronic circuits, tolerance to variability, and verification algorithms that can handle photonic circuits. We will discuss these challenges and give an outlook on how tools need to evolve to address the needs of photonic-electronic IC designers."
+  },
+  {
+    "record_key": "openalex:W2226240249",
+    "source": "openalex",
+    "title": "Silicon and silicon nitride photonic circuits for spectroscopic sensing on-a-chip [Invited]",
+    "year": 2015,
+    "venue": "Photonics Research",
+    "abstract": "There is a rapidly growing demand to use silicon and silicon nitride (Si3N4) integrated photonics for sensing applications, ranging from refractive index to spectroscopic sensing. By making use of advanced CMOS technology, complex miniaturized circuits can be easily realized on a large scale and at a low cost covering visible to mid-IR wavelengths. In this paper we present our recent work on the development of silicon and Si3N4-based photonic integrated circuits for various spectroscopic sensing applications. We report our findings on waveguide-based absorption, and Raman and surface enhanced Raman spectroscopy. Finally we report on-chip spectrometers and on-chip broadband light sources covering very near-IR to mid-IR wavelengths to realize fully integrated spectroscopic systems on a chip. © 2015 Chinese Laser Press."
+  },
+  {
+    "record_key": "openalex:W2005927954",
+    "source": "openalex",
+    "title": "Bottom-up assembly of photonic crystals",
+    "year": 2012,
+    "venue": "Chemical Society Reviews",
+    "abstract": "In this tutorial review we highlight fundamental aspects of the physics underpinning the science of photonic crystals, provide insight into building-block assembly routes to the fabrication of different photonic crystal structures and compositions, discuss their properties and describe how these relate to function, and finally take a glimpse into future applications."
+  },
+  {
+    "record_key": "openalex:W2887956223",
+    "source": "openalex",
+    "title": "The Emergence of Silicon Photonics as a Flexible Technology Platform",
+    "year": 2018,
+    "venue": "Proceedings of the IEEE",
+    "abstract": "In this paper, we present a brief history of silicon photonics from the early research papers in the late 1980s and early 1990s, to the potentially revolutionary technology that exists today. Given that other papers in this special issue give detailed reviews of key aspects of the technology, this paper will concentrate on the key technological milestones that were crucial in demonstrating the capability of silicon photonics as both a successful technical platform, as well as indicating the potential for commercial success. The paper encompasses discussion of the key technology areas of passive devices, modulators, detectors, light sources, and system integration. In so doing, the paper will also serve as an introduction to the other papers within this special issue."
+  },
+  {
+    "record_key": "openalex:W1963836897",
+    "source": "openalex",
+    "title": "Passive technologies for future large-scale photonic integrated circuits on silicon: polarization handling, light non-reciprocity and loss reduction",
+    "year": 2012,
+    "venue": "Light Science & Applications",
+    "abstract": "Silicon-based large-scale photonic integrated circuits are becoming important, due to the need for higher complexity and lower cost for optical transmitters, receivers and optical buffers. In this paper, passive technologies for large-scale photonic integrated circuits are described, including polarization handling, light non-reciprocity and loss reduction. The design rule for polarization beam splitters based on asymmetrical directional couplers is summarized and several novel designs for ultra-short polarization beam splitters are reviewed. A novel concept for realizing a polarization splitter–rotator is presented with a very simple fabrication process. Realization of silicon-based light non-reciprocity devices (e.g., optical isolator), which is very important for transmitters to avoid sensitivity to reflections, is also demonstrated with the help of magneto-optical material by the bonding technology. Low-loss"
+  },
+  {
+    "record_key": "openalex:W3008709580",
+    "source": "openalex",
+    "title": "Silicon carbide color centers for quantum applications",
+    "year": 2020,
+    "venue": "Journal of Physics Photonics",
+    "abstract": "Abstract Silicon carbide has recently surged as an alternative material for scalable and integrated quantum photonics, as it is a host for naturally occurring color centers within its bandgap, emitting from the UV to the IR even at telecom wavelength. Some of these color centers have been proved to be characterized by quantum properties associated with their single-photon emission and their coherent spin state control, which make them ideal for quantum technology, such as quantum communication, computation, quantum sensing, metrology and can constitute the elements of future quantum networks. Due to its outstanding electrical, mechanical, and optical properties which extend to optical nonlinear properties, silicon carbide can also supply a more amenable platform for photonics devices with respect to other"
+  },
+  {
+    "record_key": "openalex:W3029584541",
+    "source": "openalex",
+    "title": "High-yield, wafer-scale fabrication of ultralow-loss, dispersion-engineered silicon nitride photonic circuits",
+    "year": 2021,
+    "venue": "Nature Communications",
+    "abstract": "Abstract Low-loss photonic integrated circuits and microresonators have enabled a wide range of applications, such as narrow-linewidth lasers and chip-scale frequency combs. To translate these into a widespread technology, attaining ultralow optical losses with established foundry manufacturing is critical. Recent advances in integrated Si 3 N 4 photonics have shown that ultralow-loss, dispersion-engineered microresonators with quality factors Q > 10 × 10 6 can be attained at die-level throughput. Yet, current fabrication techniques do not have sufficiently high yield and performance for existing and emerging applications, such as integrated travelling-wave parametric amplifiers that require meter-long photonic circuits. Here we demonstrate a fabrication technology that meets all requirements on wafer-level yield, performance and length scale. Photonic microresonators with a mean Q"
+  },
+  {
+    "record_key": "openalex:W3095839225",
+    "source": "openalex",
+    "title": "Silicon photonics for telecom and data-com applications",
+    "year": 2020,
+    "venue": "Opto-Electronic Advances",
+    "abstract": "In recent decades, silicon photonics has attracted much attention in telecom and data-com areas. Constituted of high refractive-index contrast waveguides on silicon-on-insulator (SOI), a variety of integrated photonic passive and active devices have been implemented supported by excellent optical properties of silicon in the mid-infrared spectrum. The main advantage of the silicon photonics is the ability to use complementary metal oxide semiconductor (CMOS) process-compatible fabrication technologies, resulting in high-volume production at low cost. On the other hand, explosively growing traffic in the telecom, data center and high-performance computer demands the data flow to have high speed, wide bandwidth, low cost, and high energy-efficiency, as well as the photonics and electronics to be integrated for ultra-fast data transfer in networks. In"
+  },
+  {
+    "record_key": "openalex:W4313555657",
+    "source": "openalex",
+    "title": "Lithium niobate photonics: Unlocking the electromagnetic spectrum",
+    "year": 2023,
+    "venue": "Science",
+    "abstract": "Lithium niobate (LN), first synthesized 70 years ago, has been widely used in diverse applications ranging from communications to quantum optics. These high-volume commercial applications have provided the economic means to establish a mature manufacturing and processing industry for high-quality LN crystals and wafers. Breakthrough science demonstrations to commercial products have been achieved owing to the ability of LN to generate and manipulate electromagnetic waves across a broad spectrum, from microwave to ultraviolet frequencies. Here, we provide a high-level Review of the history of LN as an optical material, its different photonic platforms, engineering concepts, spectral coverage, and essential applications before providing an outlook for the future of LN."
+  }
+]

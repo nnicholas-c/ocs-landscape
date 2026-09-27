@@ -1,0 +1,222 @@
+[
+  {
+    "paper_id": "arxiv:2601.01209",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "OrchestrRL adopts a reconfigurable optical-electrical fabric called RFabric: It leverages optical circuit switches to reconfigure the aggregation and core layers of the topology on demand, tailoring bandwidth resources to the unique communication patterns across various phases of training, generation, and weight synchronization.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "arxiv:2609.14253",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "This paper present LACE, the first offline OCS schedule compiler that independently allocates transmit (TX) and receive (RX) lanes for LLM training.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "arxiv:2211.15226",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "We introduce a near-exascale, full-bisection bandwidth, all-to-all, single-hop, all-optical network architecture with nanosecond reconfiguration called RAMP, which supports large-scale distributed and parallel computing systems (12.8~Tbps per node for up to 65,536 nodes).",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "arxiv:2308.05692",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "An OCS-vClos which introduces a layer of optical circuit switches (OCSs) in the leaf-spine network is also proposed to reduce potential network resource fragmentation caused by resource allocation strategy in vClos.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "arxiv:2507.08119",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "We propose a rethinking of the rail abstraction by retaining its communication semantics, but realizing it using optical circuit switches.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "arxiv:2608.00897",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "We propose Shiftfly, which keeps Boardfly's building block and group verbatim and replaces only the global tier with a generalized Kautz digraph, installed as a fixed permutation on the optical circuit switch the fabric already owns.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "arxiv:2305.04550",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "With a layer of Optical Circuit Switches (OCSes), hybrid optical-electrical DCNs can reconfigure its logical topologies to better match the on-going traffic patterns, but the reconfiguration time may directly affect the benefits of reconfigurability.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "arxiv:2306.09713",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "Meanwhile, a hybrid-switched DCN design combining optical circuit switches (OPS) and electrical packet switches (EPS) for transmitting high-volume traffic and low-volume traffic separately has received considerable research attention recently.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "arxiv:2507.12265",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "Optical Circuit Switching (OCS) technology is increasingly being adopted in data centers due to its advantages of low power consumption and low technology refresh costs.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "arxiv:2602.12521",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "We design and implement Opus, a control plane that orchestrates this in-job reconfiguration of photonic rails at parallelism phase boundaries, and evaluate it on a physical OCS testbed, the Perlmutter supercomputer, and in simulation at up to 2,048 GPUs.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "arxiv:2504.09892",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "We present Vermilion, a reconfigurable optical interconnect that breaks the throughput barrier of existing periodic reconfigurable networks, without the need for multi-hop routing -- thus eliminating congestion control and simplifying routing to direct communication.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "arxiv:2602.17449",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "Using low-radix OCSes as building blocks, ACOS supports the forms of reconfiguration needed in training clusters including topology selection, workload adaptation, and failure resilience.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "arxiv:2403.02866",
+    "tech_route": "electro_optic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "In this work, we focus on the exploitation of micro-ring resonant phase shifters (RPSs) that are wavelength selective for optical switching in a single plane.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W4413757104",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "Based on this, we design and implement a regionally reconfigurable high-bandwidth domain that augments existing electrical interconnects using optical circuit switching (OCS), achieving scalability while maintaining rapid adaptability.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W4380874786",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "production",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "Optical circuit switches (OCSes) dynamically reconfigure its interconnect topology to improve scale, availability, utilization, modularity, deployment, security, power, and performance; users can pick a twisted 3D torus topology if desired.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W4322756647",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "Dynamically reconfigurable topologies, e.g., based on optical circuit switches, are emerging as an innovative new technology to deal with the explosive growth of datacenter traffic.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "arxiv:2507.13717",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "Reconfigurable data center networks (DCNs) enhance traditional architectures with optical circuit switches (OCSs), enabling dynamic reconfiguration of inter-pod links, i.e., the logical topology.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "arxiv:2211.02466",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "This can be accomplished by means of using an optically circuit switched backbone in the data centre network (DCN); providing the required bandwidth and latency guarantees to ensure reliable performance when applications are run across non-local resource pools.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "arxiv:2603.28168",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "Recent years have witnessed the growing deployment of optical circuit switches (OCS) in commercial GPU clusters (e.g., Google A3 GPU cluster) optimized for machine learning (ML) workloads.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "arxiv:2604.08242",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "Modern data center networks (DCNs) are employing multiple independent optical circuit switching (OCS) cores operating concurrently to meet the massive bandwidth demands of application jobs.",
+    "confidence": "high"
+  }
+]

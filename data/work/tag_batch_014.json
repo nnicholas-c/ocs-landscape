@@ -1,0 +1,142 @@
+[
+  {
+    "paper_id": "W2241946296",
+    "title": "RODA: A reconfigurable optical data center network architecture",
+    "year": 2015,
+    "venue": null,
+    "abstract": "In this paper, we introduce a novel all-optical Data center networking (DCN) fabric, by leveraging the reconfigurability of the optical transceivers and switches, while dynamically changing the end-to-end optical routes to match the varying traffic demands. The dynamic flow scheduling along with their wavelength assignment turns out to be a NP-hard problem. We propose centralized heuristics for the inter-rack flow scheduling, by exploiting the optical wavelength division multiplexing, while minimizing the number of intermediate optical hops. Through extensive simulations, we show that the proposed architecture and flow scheduling reduces the network congestion by a factor of 15-18, compared to state-of-the-art part-time optical DCNs. For most of the traffic patterns, the proposed scheme can deliver >90% of the inter-rack traffic through direct optical communication."
+  },
+  {
+    "paper_id": "W4285084333",
+    "title": "ReSAW: a reconfigurable and picosecond-synchronized optical data center network based on an AWGR and the WR protocol",
+    "year": 2022,
+    "venue": "Journal of Optical Communications and Networking",
+    "abstract": "The explosive growth of data center (DC) traffic imposes unprecedented challenges on the current electrical switch-based data center networks (DCNs) with the bottleneck of limited bandwidth and high latency. Benefitting from transparency to the data rate and format, optical switching with theoretically infinite bandwidth could overcome the bandwidth bottleneck of electrical switching DCNs. However, DCNs normally deploy multitenant applications with a variety of DC traffic. It is hard to reconfigure the optical interconnections in real-time to provide adaptable bandwidth to the traffic with heterogeneous characteristics. Moreover, to improve the bandwidth utilization, statistical multiplexing is generally deployed in optical DCNs to forward the traffic flow in a time slot, which requires the network time to be precisely synchronized to all network nodes. For fast optical switches with a nanosecond switching configuration time, overall end node times must be synchronized at subnanosecond magnitude. In this paper, we propose and experimentally investigate a reconfigurable and picosecond-synchronized optical DCN (ReSAW) based on an arrayed waveguide grating router (AWGR) and the White Rabbit (WR) protocol. A scheduler based on a distributed field-programmable gate array is implemented in the proposed ReSAW to realize flexible wavelength configuration by controlling the fast laser array based on semiconductor optical amplifiers (SOAs) according to time slot and traffic priority. Moreover, the WR protocol is implemented in optical DCNs for what we believe is the first time to synchronize the time of the distributed top of racks (ToRs). The experimental demonstration validates that ReSAW achieves an average end-to-end latency of 317.44 ns and a precise synchronized time with an average 386 ps skew. When the load is 0.4, the packet loss after ReSAW reconfiguration is less than 1.83 × 10 − 6 , and the network latency is less than 1.73 µs. Based on the experimental parameters and results, the OMNeT++ simulation model is built to further verify the reconfigurability and scalability of the ReSAW network. Results show that the packet loss rate and latency performance increase 8.24% and 12.47%, respectively, at a load of 0.6 as the ReSAW network scales from 2560 to 40,960 servers compared to before the reconfiguration."
+  },
+  {
+    "paper_id": "W2174784067",
+    "title": "OSA: An Optical Switching Architecture for Data Center Networks with Unprecedented Flexibility",
+    "year": 2017,
+    "venue": null,
+    "abstract": null
+  },
+  {
+    "paper_id": "W3203666589",
+    "title": "Automatically reconfigurable optical data center network with dynamic bandwidth allocation",
+    "year": 2021,
+    "venue": "Journal of Optics",
+    "abstract": "Abstract The rapid increasing traffic in data centers (DCs) puts tremendous pressure to the present multi-tier network architectures and electrical switching techniques. Switching traffic in the optical domain featuring ultra-high bandwidth, therefore, has been intensively investigated to build the high capacity data center networks (DCNs). To handle the variable traffic pattern in DCs, the network reconfigurability with adaptable optical bandwidth allocation is of key importance to flexibly assign the optical bandwidth. To this end, we propose and experimentally evaluate a software-defined networking enabled reconfigurable optical DCN with dynamic bandwidth allocation in this work, based on novel optical top of racks exploiting a wavelength selective switch. Experimental assessments show that the proposed solution can automatically reallocate the optical bandwidth in real-time to adapt the dynamic traffic pattern. Compared with the conventional optical DCN with static bandwidth provision, the end-to-end latency performance of the reconfigurable scheme with adaptable bandwidth allocation improves of 58.3% and the average packet loss decreases one order of magnitude. Moreover, the reconfigurable optical DCN features deterministic latency performance, with much lower time variations of packets delivery completion. Based on the experimental parameters, the simulation platform is also built to validate the good scalability of the proposed reconfigurable DCN. Numerical results illustrate the negligible performance degradation (11%) as the network scales from 2560 to 40 960 servers."
+  },
+  {
+    "paper_id": "W2171830950",
+    "title": "Dynamically Reconfigurable Photonic Resources for Optically Connected Data Center Networks",
+    "year": 2012,
+    "venue": "Optical Fiber Communication Conference",
+    "abstract": "A modular, traffic-adaptable data center network architecture leveraging unique reconfigurable optical functionalities is presented. Optical multicasting and subnet formation is demonstrated between four ports at up to 80 Gb/s per port."
+  },
+  {
+    "paper_id": "W2792477041",
+    "title": "Reconfigurable free space optical data center network using gimbal-less MEMS retroreflective acquisition and tracking",
+    "year": 2018,
+    "venue": null,
+    "abstract": "Robust and agile reconfigurable free space optical communication (FSO) links over dynamic traffic play a key role in next generation flexible wireless datacenter inter-rack networks, in terms of high throughput, dynamic robustness, cable complexity and energy efficiency. In this paper, we propose and demonstrate an agile reconfigurable 10Gbps FSO system incorporated with intelligent beam acquisition and tracking mechanism based on gimbal-less two-axis MEMS micromirror and retro-reflective film optics. Steering latency and alignment accuracy of reconfigurable FSO links are evaluated over various distances and directions, and get enhanced by intelligent adaptive acquisition and tracking schemes. Optical power loss and bit error rate of reconfigurable 10Gbps FSO links with mobility are reported over a distance of 13 m. Results show that it is feasible to use MEMS retroreflective acquisition and tracking system to achieve agile reconfigurable FSO links for flexible wireless datacenter inter-rack networks."
+  },
+  {
+    "paper_id": "W4281958713",
+    "title": "RGAIA: a reconfigurable AWGR based optical data center network",
+    "year": 2022,
+    "venue": "Optics Express",
+    "abstract": "Benefitting from the cost-effective and flexible interconnection between computing nodes and storing infrastructures, various applications and services are deployed in data centers (DCs). These traffic-boosting applications put tremendous pressures on current electrically switched DC networks (DCNs) which suffer the bandwidth bottleneck. Benefitting from the data-rate and format transparency, the optically switched DCN with intrinsic high-bandwidth characteristics is a promising solution to update the hierarchical electrical DCNs with bandwidth limitations. Moreover, the applications deployed in DCNs with mixed traffic characteristics require dynamic quality of service (QoS) provisioning. Optical DCNs thus need to be designed in a flexible topology with the capability of bandwidth reconfigurability to adapt the variety of the traffic. In this paper, we propose and experimentally investigate a reconfigurable optical packet switching DCN named RGAIA, based on flexible top of racks (ToRs) and fast optical switch, where the optical switch is implemented by tunable transceiver combing with arrayed waveguide grating router (AWGR). Under the management of the designed software defined network (SDN) control plane, RGAIA can dynamically distribute the wavelength resource and then reconfigure the bandwidth in real-time based on the monitored traffic characteristics. Experimental assessments validate RGAIA improving performance of 37% and 66% in latency and packet loss, respectively, compared with the network with rigid interconnections at the traffic load of 0.8."
+  },
+  {
+    "paper_id": "W2583039042",
+    "title": "FireFly: reconfigurable optical wireless networking data centers",
+    "year": 2017,
+    "venue": "Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE",
+    "abstract": "We explore a novel, free-space optics based approach for building data center interconnects. Data centers (DCs) are a critical piece of today’s networked applications in both private and public sectors. The key factors that have driven this trend are economies of scale, reduced management costs, better utilization of hardware via statistical multiplexing, and the ability to elastically scale applications in response to changing workload patterns. A robust DC network fabric is fundamental to the success of DCs and to ensure that the network does not become a bottleneck for high-performance applications. In this context, DC network design must satisfy several goals: high performance (e.g., high throughput and low latency), low equipment and management cost, robustness to dynamic traffic patterns, incremental expandability to add new servers or racks, and other practical concerns such as cabling complexity, and power and cooling costs. Current DC network architectures do not seem to provide a satisfactory solution, with respect to the above requirements. In particular, traditional static (wired) networks are either overprovisioned or oversubscribed. Recent works have tried to overcome the above limitations by augmenting a static (wired) “core” with some flexible links (RF-wireless or optical). These augmented architectures show promise, but offer only incremental improvement in performance. Specifically, RFwireless based augmented solutions also offer only limited performance improvement, due to inherent interference and range constraints of RF links. This paper explores an alternative design point—a fully flexible and all-wireless DC interrack network based on free-space optical (FSO) links. We call this FireFly as in; Free-space optical Inter-Rack nEtwork with high FLexibilitY. We will present our designs and tests using various configurations that can help the performance and reliability of the FSO links."
+  },
+  {
+    "paper_id": "W2157224582",
+    "title": "Survey and Evaluation of Space Division Multiplexing: From Technologies to Optical Networks",
+    "year": 2015,
+    "venue": "IEEE Communications Surveys & Tutorials",
+    "abstract": "Single-mode fiber's physical capacity boundaries will soon be reached; hence, alternative solutions are much needed to overcome the multiplying and remarkably large bandwidth requests. Space division multiplexing (SDM) using multicore fibers (MCFs), multielement fibers, multimode fibers, and their combination; few-mode MCFs; or fibers based on orbital angular momentum are considered to be the propitious stepping-stones to overcome the capacity crunch of conventional single-core fibers. We critically review research progress on SDM fibers and network components, and we introduce two figures of merit aiming for quantitative evaluation of technologies such as amplifiers, fan-in/fan-out multiplexers, transmitters, switches, and SDM nodes. Results show that SDM fibers achieve a 1185-fold (18-fold) spectral-spatial efficiency increase compared with the 276-SMF bundle (single-core fiber) currently installed on the ground. In addition, an analysis of crosstalk in MCFs shows how SDM concepts can be further exploited to fit in various optical networks such as core, metro, and especially future intra-data center optical interconnects. Finally, research challenges and future directions are discussed."
+  },
+  {
+    "paper_id": "W2775765784",
+    "title": "MEMS-based reconfigurable optical wireless networking in data centers",
+    "year": 2017,
+    "venue": null,
+    "abstract": "A flexible wireless Data Center (DC) network based on precise steerable Free Space Optical (FSO) links is described as a promising solution to meet future DC demands of high-throughput, with robustness to dynamic traffic patterns, reducing cabling complexity and increased energy efficiency. Robust and precise steerable FSO links over dynamic traffic play a key role in the reconfigurable optical wireless DC inter-rack networks. In this work, we propose and demonstrate a reconfigurable 10 Gbps FSO system incorporating a smart beam acquisition and tracking mechanism based on gimbal-less two-axis MEMS micro-mirror and retro-reflective film marked aperture. The fast MEMS-based beam acquisition switches laser beam of FSO terminal from one rack to the next for reconfigurable networking, and the precise beam tracking makes FSO device auto-correct any misalignments in real-time. We present the measured optical power loss and b it e rror rate performance of steerable FSO links in various directions. Experimental results suggest that the MEMS based beam steerable FSO links hold merit for future reconfigurable wireless DC networks."
+  },
+  {
+    "paper_id": "W2810723790",
+    "title": "Characterizing the algorithmic complexity of reconfigurable data center architectures",
+    "year": 2018,
+    "venue": null,
+    "abstract": "Emerging data center architectures are becoming reconfigurable. While prior work has shown the practical benefits of reconfigurable topologies, the underlying algorithmic complexity is not yet well understood. In particular, most reconfigurable topologies are hybrid, where parts of the network are reconfigurable (consisting of optical or wireless devices) while other parts are static (consisting of electrical switches). Current proposals enforce a routing policy that routes flows on either part \"exclusively\" by labeling flows as mice or elephant. We show that such artificial segregation in routing policy results in non-optimal paths and argue for algorithms that route packets across the network seamlessly. In doing so, we present the first algorithmic study of reconfigurable network architectures and provide optimality and hardness proofs in terms of topology and routing policy. Our results show that classical matching algorithms, as used in prior work, are optimal only when the topology consists of one reconfigurable switch, and the routing policy is enforced to be segregated. In other words, if there is an option of routing flows seamlessly along reconfigurable and non-reconfigurable parts of the network, matching algorithms are not optimal. In fact, when the hybrid network is seen from a joint perspective, optimal routing is an NP-hard problem. We further show that optimally routing even two flows in a network with multiple reconfigurable switches is an NP-hard problem as well."
+  },
+  {
+    "paper_id": "W4223554347",
+    "title": "GNPy model of the physical layer for open and disaggregated optical networking [Invited]",
+    "year": 2022,
+    "venue": "Journal of Optical Communications and Networking",
+    "abstract": "Networking technologies are fast evolving to support the request for ubiquitous Internet access that is becoming a fundamental need for the modern and inclusive society, with a dramatic speed-up caused by the COVID-19 emergency. Such evolution needs the development of networks into disaggregated and programmable systems according to the software-defined networking (SDN) paradigm. Wavelength-division multiplexed (WDM) optical transmission and networking is expanding as physical layer technology from core and metro networks to 5G x -hauling and inter- and intra-data-center connections requiring the application of the SDN paradigm at the optical layer based on the WDM optical data transport virtualization. We present the fundamental principles of the open-source project Gaussian Noise in Python (GNPy) for the optical transport virtualization in modeling the WDM optical transmission for open and disaggregated networking. GNPy approximates transparent lightpaths as additive white and Gaussian noise channels and can be used as a vendor-agnostic digital twin for open network planning and management. The quality-of-transmission degradation of each network element is independently modeled to allow disaggregated network management. We describe the GNPy models for fiber propagation, optical amplifiers, and reconfigurable add/drop multiplexers together with modeling of coherent transceivers from the back-to-back characterization. We address the use of GNPy as a vendor-agnostic design and planning tool and as physical layer virtualization in software-defined optical networking."
+  },
+  {
+    "paper_id": "W2097053956",
+    "title": "Power consumption modeling in optical multilayer networks",
+    "year": 2012,
+    "venue": "Photonic Network Communications",
+    "abstract": null
+  },
+  {
+    "paper_id": "W2789715390",
+    "title": "Picosecond optical pulse processing using a terahertz‐bandwidth reconfigurable photonic integrated circuit",
+    "year": 2018,
+    "venue": "Nanophotonics",
+    "abstract": "Abstract Chip‐scale integrated optical signal processors promise to support a multitude of signal processing functions with bandwidths beyond the limit of microelectronics. Previous research has made great contributions in terms of demonstrating processing functions and device building blocks. Currently, there is a significant interest in providing functional reconfigurability, to match a key advantage of programmable microelectronic processors. To advance this concept, in this work, we experimentally demonstrate a photonic integrated circuit as an optical signal processor with an unprecedented combination of two key features: reconfigurability and terahertz bandwidth. These features enable a variety of processing functions on picosecond optical pulses using a single device. In the experiment, we successfully verified clock rate multiplication, arbitrary waveform generation, discretely and continuously tunable delays, multi‐path combining and bit‐pattern recognition for 1.2‐ps‐duration optical pulses at 1550 nm. These results and selected head‐to‐head comparisons with commercially available devices show our device to be a flexible integrated platform for ultrahigh‐bandwidth optical signal processing and point toward a wide range of applications for telecommunications and beyond."
+  },
+  {
+    "paper_id": "W4223926670",
+    "title": "Performance trade-offs in reconfigurable networks for HPC",
+    "year": 2022,
+    "venue": "Journal of Optical Communications and Networking",
+    "abstract": "Designing efficient interconnects to support high-bandwidth and low-latency communication is critical toward realizing high performance computing (HPC) and data center (DC) systems in the exascale era. At extreme computing scales, providing the requisite bandwidth through overprovisioning becomes impractical. These challenges have motivated studies exploring reconfigurable network architectures that can adapt to traffic patterns at runtime using optical circuit switching. Despite the plethora of proposed architectures, surprisingly little is known about the relative performances and trade-offs among different reconfigurable network designs. We aim to bridge this gap by tackling two key issues in reconfigurable network design. First, we study how cost, power consumption, network performance, and scalability vary based on optical circuit switch (OCS) placement in the physical topology. Specifically, we consider two classes of reconfigurable architectures: one that places OCSs between top-of-rack (ToR) switches—ToR-reconfigurable networks (TRNs)—and one that places OCSs between pods of racks—pod-reconfigurable networks (PRNs). Second, we tackle the effects of reconfiguration frequency on network performance. Our results, based on network simulations driven by real HPC and DC workloads, show that while TRNs are optimized for low fan-out communication patterns, they are less suited for carrying high fan-out workloads. PRNs exhibit better overall trade-off, capable of performing comparably to a fully non-blocking fat tree for low fan-out workloads, and significantly outperform TRNs for high fan-out communication patterns."
+  },
+  {
+    "paper_id": "W4300973219",
+    "title": "TopoOpt: Co-optimizing Network Topology and Parallelization Strategy for Distributed Training Jobs",
+    "year": 2022,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "We propose TopoOpt, a novel direct-connect fabric for deep neural network (DNN) training workloads. TopoOpt co-optimizes the distributed training process across three dimensions: computation, communication, and network topology. We demonstrate the mutability of AllReduce traffic, and leverage this property to construct efficient network topologies for DNN training jobs. TopoOpt then uses an alternating optimization technique and a group theory-inspired algorithm called TotientPerms to find the best network topology and routing plan, together with a parallelization strategy. We build a fully functional 12-node direct-connect prototype with remote direct memory access (RDMA) forwarding at 100 Gbps. Large-scale simulations on real distributed training models show that, compared to similar-cost Fat-Tree interconnects, TopoOpt reduces DNN training time by up to 3.4x."
+  },
+  {
+    "paper_id": "W4401176556",
+    "title": "NegotiaToR: Towards A Simple Yet Effective On-demand Reconfigurable Datacenter Network",
+    "year": 2024,
+    "venue": null,
+    "abstract": "Recent advances in fast optical switching technology show promise in meeting the high goodput and low latency requirements of datacenter networks (DCN). We present NegotiaToR, a simple network architecture for optical reconfigurable DCNs that utilizes on-demand scheduling to handle dynamic traffic. In NegotiaToR, racks exchange scheduling messages through an in-band control plane and distributedly calculate non-conflicting paths from binary traffic demand information. Optimized for incasts, it also provides opportunities to bypass scheduling delays. NegotiaToR is compatible with prevalent flat topologies, and is tailored towards a minimalist design for on-demand reconfigurable DCNs, enhancing practicality. Through large-scale simulations, we show that NegotiaToR achieves both small mice flow completion time (FCT) and high goodput on two representative flat topologies, especially under heavy loads. Particularly, the FCT of mice flows is one to two orders of magnitude better than the state-of-the-art traffic-oblivious reconfigurable DCN design."
+  },
+  {
+    "paper_id": "W3188706325",
+    "title": "SiP-ML",
+    "year": 2021,
+    "venue": null,
+    "abstract": "This paper proposes optical network interconnects as a key enabler for building high-bandwidth ML training clusters with strong scaling properties. Our design, called SiP-ML, accelerates the training time of popular DNN models using silicon photonics links capable of providing multiple terabits-per-second of bandwidth per GPU. SiP-ML partitions the training job across GPUs with hybrid data and model parallelism while ensuring the communication pattern can be supported efficiently on the network interconnect. We develop task partitioning and device placement methods that take the degree and reconfiguration latency of optical interconnects into account. Simulations using real DNN models show that, compared to the state-of-the-art electrical networks, our approach improves training time by 1.3--9.1x."
+  },
+  {
+    "paper_id": "W4365790307",
+    "title": "Threshold-Based Routing-Topology Co-Design for Optical Data Center",
+    "year": 2023,
+    "venue": "IEEE/ACM Transactions on Networking",
+    "abstract": "Despite the bandwidth scaling limit of electrical switching and the high cost of building Clos data center networks (DCNs), the adoption of optical DCNs is still limited. There are two reasons. First, existing optical DCN designs usually face high deployment complexity. Second, these designs are not full-optical and the performance benefit over the non-blocking Clos DCN is not clear. After exploring the design tradeoffs of the existing optical DCN designs, we propose TROD (ThresholdRouting basedOpticalDatacenter), a low-complexity optical DCN with superior performance than other optical DCNs. There are two novel designs in TROD that contribute to its success. First, TROD performs robust topology optimization based on the recurring traffic patterns and thus does not need to react to every traffic change, which lowers deployment and management complexity. Second, TROD introduces tVLB (threshold-based Valiant Load Balance), which can avoid network congestion as much as possible even under unexpected traffic bursts. We conduct simulation based on both Facebook’s real DCN traces and our synthesized highly bursty DCN traces. TROD reduces flow completion time (FCT) by about 1.15-2.16$\\times$compared to Google’s Jupiter DCN, at least 2$\\times$compared to other optical DCN designs, and about 2.4-3.2$\\times$compared to expander graph DCN. Compared with the non-blocking Clos, TROD reduces the hop count of the majority packets by one, and could even outperform the non-blocking Clos with proper bandwidth over-provision at the optical layer. Note that TROD can be built with commercially available hardware and does not require host modifications."
+  },
+  {
+    "paper_id": "W4410343081",
+    "title": "Revolutionizing Datacenter Networks via Reconfigurable Topologies",
+    "year": 2025,
+    "venue": "Communications of the ACM",
+    "abstract": "Recent optical switching technologies are enabling a shift toward dynamically reconfigurable network topologies."
+  }
+]

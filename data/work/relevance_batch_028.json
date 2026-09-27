@@ -1,0 +1,202 @@
+[
+  {
+    "record_key": "openalex:W4200595205",
+    "source": "openalex",
+    "title": "Magneto‐/ electro‐responsive polymers toward manufacturing, characterization, and biomedical/ soft robotic applications",
+    "year": 2021,
+    "venue": "Applied Materials Today",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W3174688612",
+    "source": "openalex",
+    "title": "Robotic Technologies for High-Throughput Plant Phenotyping: Contemporary Reviews and Future Perspectives",
+    "year": 2021,
+    "venue": "Frontiers in Plant Science",
+    "abstract": "Phenotyping plants is an essential component of any effort to develop new crop varieties. As plant breeders seek to increase crop productivity and produce more food for the future, the amount of phenotype information they require will also increase. Traditional plant phenotyping relying on manual measurement is laborious, time-consuming, error-prone, and costly. Plant phenotyping robots have emerged as a high-throughput technology to measure morphological, chemical and physiological properties of large number of plants. Several robotic systems have been developed to fulfill different phenotyping missions. In particular, robotic phenotyping has the potential to enable efficient monitoring of changes in plant traits over time in both controlled environments and in the field. The operation of these robots can be challenging as a"
+  },
+  {
+    "record_key": "openalex:W4387639856",
+    "source": "openalex",
+    "title": "Stretchable surface electromyography electrode array patch for tendon location and muscle injury prevention",
+    "year": 2023,
+    "venue": "Nature Communications",
+    "abstract": "Surface electromyography (sEMG) can provide multiplexed information about muscle performance. If current sEMG electrodes are stretchable, arrayed, and able to be used multiple times, they would offer adequate high-quality data for continuous monitoring. The lack of these properties delays the widespread use of sEMG in clinics and in everyday life. Here, we address these constraints by design of an adhesive dry electrode using tannic acid, polyvinyl alcohol, and PEDOT:PSS (TPP). The TPP electrode offers superior stretchability (~200%) and adhesiveness (0.58 N/cm) compared to current electrodes, ensuring stable and long-term contact with the skin for recording (>20 dB; >5 days). In addition, we developed a metal-polymer electrode array patch (MEAP) comprising liquid metal (LM) circuits and TPP electrodes. The MEAP demonstrated"
+  },
+  {
+    "record_key": "openalex:W4391433423",
+    "source": "openalex",
+    "title": "A Comprehensive Review of Sustainability in Natural-Fiber-Reinforced Polymers",
+    "year": 2024,
+    "venue": "Sustainability",
+    "abstract": "Fiber-reinforced polymer composites (FRCs) from renewable and biodegradable fiber and sustainable polymer resins have gained substantial attention for their potential to mitigate environmental impacts. The limitations of these composites become evident when considered in the context of high-performance engineering applications, where synthetic fiber composites like glass or carbon FRCs typically dominate. A balance between the performance of the composite and biodegradability is imperative in the pursuit of what may be termed an environmentally conscious composite. This comprehensive review article provides some insight into the sustainability of FRCs, alongside detailing the sustainability considerations at various stages—materials, performance, applications, and end of life. The discussion also covers the different types of sustainable natural fibers and the types of polymer resins with some"
+  },
+  {
+    "record_key": "openalex:W4386370067",
+    "source": "openalex",
+    "title": "Sustainable Robots 4D Printing",
+    "year": 2023,
+    "venue": "Advanced Sustainable Systems",
+    "abstract": "Abstract Nature frequently serves as an inspiration for modern robotics innovations that emphasize secure human–machine interaction. However, the advantages of increased automation and digital technology integration conflict with the global environmental objectives. Accordingly, biodegradable soft robots have been proposed for a range of intelligent applications. Biodegradability provides soft robotics with an extraordinary functional advantage for operations involving intelligent shape transformation in response to external stimuli such as heat, pH, and light. Soft robot fabrication using conventional manufacturing techniques is inflexible, time‐consuming, and labor‐intensive. Recent advances in 3D and 4D printing of soft materials and multi‐materials have become the key to enabling the direct manufacture of soft robotics with complex designs and functions. This review comprises a detailed survey of 3D"
+  },
+  {
+    "record_key": "openalex:W4384936792",
+    "source": "openalex",
+    "title": "Revolutionizing self-powered robotic systems with triboelectric nanogenerators",
+    "year": 2023,
+    "venue": "Nano Energy",
+    "abstract": "Triboelectric nanogenerators (TENGs), offering self-powered actuation, grasping, and sensing capabilities without the need for an external power source, have the potential to revolutionize the field of self-powered robotic systems. TENGs can directly convert mechanical energy into electrical energy that can be used to power small electronics. This review explores the huge potential of TENGs' mechanisms and modes for various robotics actuation and sensing applications. Firstly, the improvements in efficiency and reliability of TENG-based actuation systems by self-powered actuation systems are discussed. Following that, TENG-based grippers having controlled gripping power and a distinctive ability to self-calibrate for precise and sharp object handling are enlightened. Additionally, the design and development of TENG-based pressure sensors incorporated into robotic grippers are further discussed. Self-powered"
+  },
+  {
+    "record_key": "openalex:W4388076714",
+    "source": "openalex",
+    "title": "Morphing matter: from mechanical principles to robotic applications",
+    "year": 2023,
+    "venue": "Soft Science",
+    "abstract": "The adaptability of natural organisms in altering body shapes in response to the environment has inspired the development of artificial morphing matter. These materials encode the ability to transform their geometrical configurations in response to specific stimuli and have diverse applications in soft robotics, wearable electronics, and biomedical devices. However, achieving the morphing of intricate three-dimensional shapes from a two-dimensional flat state is challenging, as it requires manipulations of surface curvature in a controlled manner. In this review, we first summarize the mechanical principles extensively explored for realizing morphing matter, both at the material and structural levels. We then highlight its applications in the soft robotics field. Moreover, we offer insights into the open challenges and opportunities that this rapidly"
+  },
+  {
+    "record_key": "openalex:W2807149407",
+    "source": "openalex",
+    "title": "Progress in Self‐Healing Fiber‐Reinforced Polymer Composites",
+    "year": 2018,
+    "venue": "Advanced Materials Interfaces",
+    "abstract": "Abstract This paper sets out to review the current state of the art in applying self‐healing/self‐repair to high‐performing advanced fiber‐reinforced polymer composite materials (FRPs). A significant proportion of self‐healing studies have focused so far on developing and assessing healing efficiency of bulk polymer systems, applied to particulate composites or low‐volume fraction fiber‐reinforced materials. Only limited research is undertaken on self‐healing in advanced structural FRP composite materials. This review focuses on what is achieved to date, the ongoing challenges which have arisen in implementing self‐healing into FRPs, how considerations for industrialization and large‐scale manufacture must be considered from the outset, where self‐healing may provide most benefits, and how a functionality like self‐healing can be validated for application in real structures. Systems"
+  },
+  {
+    "record_key": "openalex:W2140358254",
+    "source": "openalex",
+    "title": "Non-invasive electrical and magnetic stimulation of the brain, spinal cord, roots and peripheral nerves: Basic principles and procedures for routine clinical and research application. An updated report from an I.F.C.N. Committee",
+    "year": 2015,
+    "venue": "Clinical Neurophysiology",
+    "abstract": "These guidelines provide an up-date of previous IFCN report on \"Non-invasive electrical and magnetic stimulation of the brain, spinal cord and roots: basic principles and procedures for routine clinical application\" (Rossini et al., 1994). A new Committee, composed of international experts, some of whom were in the panel of the 1994 \"Report\", was selected to produce a current state-of-the-art review of non-invasive stimulation both for clinical application and research in neuroscience. Since 1994, the international scientific community has seen a rapid increase in non-invasive brain stimulation in studying cognition, brain-behavior relationship and pathophysiology of various neurologic and psychiatric disorders. New paradigms of stimulation and new techniques have been developed. Furthermore, a large number of studies and clinical trials have demonstrated"
+  },
+  {
+    "record_key": "openalex:W4321350345",
+    "source": "openalex",
+    "title": "Advanced Soft Robotic System for In Situ 3D Bioprinting and Endoscopic Surgery",
+    "year": 2023,
+    "venue": "Advanced Science",
+    "abstract": "Three-dimensional (3D) bioprinting technology offers great potential in the treatment of tissue and organ damage. Conventional approaches generally rely on a large form factor desktop bioprinter to create in vitro 3D living constructs before introducing them into the patient's body, which poses several drawbacks such as surface mismatches, structure damage, and high contamination along with tissue injury due to transport and large open-field surgery. In situ bioprinting inside a living body is a potentially transformational solution as the body serves as an excellent bioreactor. This work introduces a multifunctional and flexible in situ 3D bioprinter (F3DB), which features a high degree of freedom soft printing head integrated into a flexible robotic arm to deliver multilayered biomaterials to internal organs/tissues. The"
+  },
+  {
+    "record_key": "openalex:W2611359820",
+    "source": "openalex",
+    "title": "Current perspectives in robotic hernia repair",
+    "year": 2017,
+    "venue": "Robotic Surgery Research and Reviews",
+    "abstract": "The surgical treatment of hernias has developed throughout the evolution of surgery. The fascination with hernia surgery is in part driven by its prevalence and by the variety of treatment options. Minimally invasive hernia surgery has a goal of a robust repair with minimal complications, and new robotic techniques are being developed in complex abdominal wall hernias with promising results. This review focuses on inguinal, ventral, and incisional hernias and their outcomes with a discussion on the traditional open, laparoscopic, and robotic techniques. The prevalence of minimally invasive hernia surgery and its advantages are also outlined. We highlight our experience in these procedures, specifically robotic herniorrhaphy, as it pertains to ventral incisional and inguinal hernia repair. We conclude that the"
+  },
+  {
+    "record_key": "openalex:W4286560842",
+    "source": "openalex",
+    "title": "End-to-end design of wearable sensors",
+    "year": 2022,
+    "venue": "Nature Reviews Materials",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W4225669925",
+    "source": "openalex",
+    "title": "CERBERUS: Autonomous Legged and Aerial Robotic Exploration in the Tunnel and Urban Circuits of the DARPA Subterranean Challenge",
+    "year": 2022,
+    "venue": "Field Robotics",
+    "abstract": "Autonomous exploration of subterranean environments constitutes a major frontier for robotic systems, as underground settings present key challenges that can render robot autonomy hard to achieve. This problem has motivated the DARPA Subterranean Challenge, where teams of robots search for objects of interest in various underground environments. In response, we present the CERBERUS system-of-systems, as a unified strategy for subterranean exploration using legged and flying robots. Our proposed approach relies on ANYmal quadraped as primary robots, exploiting their endurance and ability to traverse challenging terrain. For aerial robots, we use both conventional and collision-tolerant multirotors to explore spaces too narrow or otherwise"
+  },
+  {
+    "record_key": "openalex:W2067142709",
+    "source": "openalex",
+    "title": "IEEE Robotics and Automation Society Technical Committee on Agricultural Robotics and Automation [TC Spotlight]",
+    "year": 2013,
+    "venue": "IEEE Robotics & Automation Magazine",
+    "abstract": "The IEEE Robotics and Automation Society Technical Committee (TC) on Agricultural Robotics and Automation was launched in 2012 with the goal of bringing together researchers and practitioners, academic and industrial, in an informal setting to increase knowledge dissemination in the field. The goal for 2013 is to hold at least eight Webinars and for 2014 to hold one every month. The TC members are rewriting the Handbook of Robotics chapter on Agricultural and Forestry Robotics and wrote an invited chapter on Agricultural Robotics on an SAE book on autonomous vehicles. Beyond endowing machines and vehicles with higher levels of intelligence, two long-term challenges, such as humanlike manipulation of crops and harvesting robots, must be addressed before R&A makes a full"
+  },
+  {
+    "record_key": "openalex:W112949338",
+    "source": "openalex",
+    "title": "Fiber Bragg Gratings Sensors for Aircraft Wing Shape Measurement: Recent Applications and Technical Analysis",
+    "year": 2018,
+    "venue": "Sensors",
+    "abstract": "The safety monitoring and tracking of aircraft is becoming more and more important. Under aerodynamic loading, the aircraft wing will produce large bending and torsional deformation, which seriously affects the safety of aircraft. The variation of load on the aircraft wing directly affects the ground observation performance of the aircraft baseline. To compensate for baseline deformations caused by wing deformations, it is necessary to accurately obtain the deformation of the wing shape. The traditional aircraft wing shape measurement methods cannot meet the requirements of small size, light weight, low cost, anti-electromagnetic interference, and adapting to complex environment at the same time, the fiber optic sensing technology for aircraft wing shape measurement has been gradually proved to be a real time"
+  },
+  {
+    "record_key": "openalex:W4319761880",
+    "source": "openalex",
+    "title": "Multifunctional Integration of Optical Fibers and Nanomaterials for Aircraft Systems",
+    "year": 2023,
+    "venue": "Materials",
+    "abstract": "Smart sensing for aeronautical applications is a multidisciplinary process that involves the development of various sensor elements and advancements in the nanomaterials field. The expansion of research has fueled the development of commercial and military aircrafts in the aeronautical field. Optical technology is one of the supporting pillars for this, as well as the fact that the unique high-tech qualities of aircrafts align with sustainability criteria. In this study, a multidisciplinary investigation of airplane monitoring systems employing optical technologies based on optical fiber and nanomaterials that are incorporated into essential systems is presented. This manuscript reports the multifunctional integration of optical fibers and nanomaterials for aircraft sector discussing topics, such as airframe monitoring, flight environment sensing (from temperature and humidity"
+  },
+  {
+    "record_key": "openalex:W2931923206",
+    "source": "openalex",
+    "title": "Hybrid structural health monitoring on a composite plate manufactured with automatic fibers placement including embedded fiber Bragg gratings and bonded piezoelectric patches",
+    "year": 2019,
+    "venue": null,
+    "abstract": "Secondary bonded or embedded sensors are usually adopted in Structural Health Monitoring of composite structures. Each type of sensor has advantages and drawbacks when used separately although their proper integrated combination may improve the overall performance of a SHM system. The aim of the present work is to evaluate the feasibility of an efficient hybrid SHM system able to sense and locate low velocity impacts and to localize eventual impact damages at their early stage with few sensors. A CFRP panel demonstrator with embedded FBGs has been fabricated by NOVOTECH srl through an advanced out-of-autoclave manufacturing process based on the following main phases: production of dry preforms laid down with a laser assisted automated fiber placement robot (AFP); insertion of"
+  },
+  {
+    "record_key": "openalex:W4389879612",
+    "source": "openalex",
+    "title": "Cutaneous/Tactile Haptic Feedback in Robotic Teleoperation: Motivation, Survey, and Perspectives",
+    "year": 2023,
+    "venue": "IEEE Transactions on Robotics",
+    "abstract": "Cutaneous haptic feedback has recently received great attention from researchers in the robotic teleoperation field, as it has been proven to convey rich information to the human operator while guaranteeing the safety and stability of the control loop. In fact, delivering ungrounded cutaneous cues keeps the teleoperation system stable even in the presence of time-varying destabilizing factors such as hard contacts or communication delays. This aspect is particularly relevant for all the applications and scenarios where the safety of the system is of paramount importance, as in medical robotics. This article presents an overview on cutaneous haptic interaction followed by a review of the literature on cutaneous/tactile feedback systems for robotic teleoperation, categorizing the considered systems according to the type"
+  },
+  {
+    "record_key": "openalex:W4412654763",
+    "source": "openalex",
+    "title": "Thermally Actuated Soft Robotics",
+    "year": 2025,
+    "venue": "Advanced Materials",
+    "abstract": "Soft robots with exceptional adaptability and versatility have opened new possibilities for applications in complex and dynamic environments. Thermal actuation has emerged as a promising method among various actuation strategieis, offering distinct advantages such as programmability, light weight, low actuation voltage, and untethered operation. This review provides a comprehensive overview of soft thermal actuators, focusing on their heating mechanisms, material innovations, structural designs, and emerging applications. Heat generation mechanisms including Joule heating, electromagnetic induction, and electromagnetic radiation and heat transfer mechanisms such as fluid convection are discussed. Advances in materials are grouped into two areas: heating materials, primarily based on nanomaterials, and thermally responsive materials including hydrogels, liquid crystal elastomers, and shape-memory polymers. Structural designs, such as extension, bending, twisting,"
+  },
+  {
+    "record_key": "openalex:W2021995161",
+    "source": "openalex",
+    "title": "Wearable Electronics and Smart Textiles: A Critical Review",
+    "year": 2014,
+    "venue": "Sensors",
+    "abstract": "Electronic Textiles (e-textiles) are fabrics that feature electronics and interconnections woven into them, presenting physical flexibility and typical size that cannot be achieved with other existing electronic manufacturing techniques. Components and interconnections are intrinsic to the fabric and thus are less visible and not susceptible of becoming tangled or snagged by surrounding objects. E-textiles can also more easily adapt to fast changes in the computational and sensing requirements of any specific application, this one representing a useful feature for power management and context awareness. The vision behind wearable computing foresees future electronic systems to be an integral part of our everyday outfits. Such electronic devices have to meet special requirements concerning wearability. Wearable systems will be characterized by their ability"
+  },
+  {
+    "record_key": "openalex:W3165277233",
+    "source": "openalex",
+    "title": "Bioinspired Distributed Energy in Robotics and Enabling Technologies",
+    "year": 2021,
+    "venue": "Advanced Intelligent Systems",
+    "abstract": "On‐board sources of energy are critically needed for autonomous robots to work in unstructured environments for extended periods. Thus far, the power requirement of robots has been met through lead‐acid and Li‐ion batteries and energy harvesters. However, except for a few advances such as light weight, shape, and size, the batteries used in robotics have remained unchanged for several decades, even if the research advances in energy storage have led to devices with flexible form factors. Besides being slow at adopting new energy technologies, robotics also appears to have settled with the idea of centralized energy, as evident from the battery backpack designs of several humanoids. This is in contrast with the biological world, where energy sources are distributed all"
+  },
+  {
+    "record_key": "openalex:W4317743407",
+    "source": "openalex",
+    "title": "Advances in Climbing Robots for Vertical Structures in the Past Decade: A Review",
+    "year": 2023,
+    "venue": "Biomimetics",
+    "abstract": "Climbing robots are designed to conduct tasks that may be dangerous for humans working at height. In addition to improving safety, they can also increase task efficiency and reduce labor costs. They are widely used for bridge inspection, high-rise building cleaning, fruit picking, high-altitude rescue, and military reconnaissance. In addition to climbing, these robots need to carry tools to complete their tasks. Hence, their design and development are more challenging than those of most other robots. This paper analyzes and compares the past decade's design and development of climbing robots that can ascend vertical structures such as rods, cables, walls, and trees. Firstly, the main research fields and basic design requirements of climbing robots are introduced, and then the advantages"
+  },
+  {
+    "record_key": "openalex:W2969967824",
+    "source": "openalex",
+    "title": "Research and Development in Carbon Fibers and Advanced High-Performance Composites Supply Chain in Europe: A Roadmap for Challenges and the Industrial Uptake",
+    "year": 2019,
+    "venue": "Journal of Composites Science",
+    "abstract": "Structural materials, typically based on metal, have been gradually substituted by high-performance composites based on carbon fibers, embedded in a polymer matrix, due to their potential to provide lighter, stronger, and more durable solutions. In the last decades, the composites industry has witnessed a sustained growth, especially due to diffusion of these materials in key markets, such as the construction, wind energy, aeronautics, and automobile sectors. Carbon fibers are, by far, the most widely used fiber in high-performance applications. This important technology has huge potential for the future and it is expected to have a significant impact in the manufacturing industry within Europe and, therefore, coordination and strategic roadmapping actions are required. To lead a further drive to develop the"
+  },
+  {
+    "record_key": "openalex:W4413241168",
+    "source": "openalex",
+    "title": "Advances and perspectives in fiber-based electronic devices for next-generation soft systems",
+    "year": 2025,
+    "venue": "npj Flexible Electronics",
+    "abstract": "Fiber-based electronic devices (FEDs) exhibit high flexibility, low weight, and excellent integrability into wearable, implantable, and robotic systems. Recent advances have enabled applications in sensing, energy harvesting, and storage, and active functions. Despite this progress, challenges such as mechanical fatigue, interfacial delamination, and signal instability remain. This review offers key challenges and perspectives on the future of FEDs as interactive, autonomous platforms for next-generation electronics in healthcare, robotics, and beyond."
+  },
+  {
+    "record_key": "openalex:W3213189848",
+    "source": "openalex",
+    "title": "Soft actuators for real-world applications",
+    "year": 2021,
+    "venue": "Nature Reviews Materials",
+    "abstract": "Inspired by physically adaptive, agile, reconfigurable and multifunctional soft-bodied animals and human muscles, soft actuators have been developed for a variety of applications, including soft grippers, artificial muscles, wearables, haptic devices and medical devices. However, the complex performance of biological systems cannot yet be fully replicated in synthetic designs. In this Review, we discuss new materials and structural designs for the engineering of soft actuators with physical intelligence and advanced properties, such as adaptability, multimodal locomotion, self-healing and multi-responsiveness. We examine how performance can be improved and multifunctionality implemented by using programmable soft materials, and highlight important real-world applications of soft actuators. Finally, we discuss the challenges and opportunities for next-generation soft actuators, including physical intelligence, adaptability, manufacturing scalability and"
+  }
+]

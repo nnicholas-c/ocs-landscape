@@ -1,0 +1,202 @@
+[
+  {
+    "record_key": "openalex:W1484412996",
+    "source": "openalex_snowball",
+    "title": "A practical algorithm for the determination of phase from image and diffraction plane pictures",
+    "year": 1972,
+    "venue": "Optik",
+    "abstract": "An algorithm is presented for the rapid solution of the phase of the complete wave function whose intensity in the diffraction and imaging planes of an imaging system are known. A proof is given showing that a defined error between the estimated function and the correct function must decrease as the algorithm iterates. The problem of uniqueness is discussed and results are presented demonstrating the power of the method."
+  },
+  {
+    "record_key": "openalex:W1983330672",
+    "source": "openalex_snowball",
+    "title": "Comparison of laser beam propagation at 785 nm and 1550 nm in fog and haze for optical wireless communications",
+    "year": 2001,
+    "venue": "Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE",
+    "abstract": "12 There is currently a misconception among designers and users of free space laser communication (lasercom) equipment that 1550 nm light suffers from less atmospheric attenuation than 785 or 850 nm light in all weather conditions. This misconception is based upon a published equation for atmospheric attenuation as a function of wavelength, which is used frequently in the free-space lasercom literature. In hazy weather (visibility > 2 km), the prediction of less atmospheric attenuation at 1550 nm is most likely true. However, in foggy weather (visibility < 500 m), it appears that the attenuation of laser light is independent of wavelength, ie. 785 nm, 850 nm, and 1550 nm are all attenuated equally by fog. This same wavelength independence is"
+  },
+  {
+    "record_key": "openalex:W1988150362",
+    "source": "openalex_snowball",
+    "title": "Inside the Social Network's (Datacenter) Network",
+    "year": 2015,
+    "venue": null,
+    "abstract": "Large cloud service providers have invested in increasingly larger datacenters to house the computing infrastructure required to support their services. Accordingly, researchers and industry practitioners alike have focused a great deal of effort designing network fabrics to efficiently interconnect and manage the traffic within these datacenters in performant yet efficient fashions. Unfortunately, datacenter operators are generally reticent to share the actual requirements of their applications, making it challenging to evaluate the practicality of any particular design."
+  },
+  {
+    "record_key": "openalex:W1990200961",
+    "source": "openalex_snowball",
+    "title": "Design and Preliminary Implementation of an N $\\times$ N Diffractive All-Optical Fiber Optic Switch",
+    "year": 2013,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "We have demonstrated a diffraction-based nonblocking, scalable N × N optical switch employing a digital micromirror display (DMD) with 12 μs switching speed, performing 100 times faster than the currently available technology. The distributed nature of diffraction makes this switch more robust than one-to-one reflective systems where a single mirror failure incapacitates an entire connection. We thereby address a key bottleneck in data centers and optical aggregation networks by decreasing circuit-switching speed and allowing for facile port count scalability."
+  },
+  {
+    "record_key": "openalex:W2064284095",
+    "source": "openalex_snowball",
+    "title": "Matching, Euler tours and the Chinese postman",
+    "year": 1973,
+    "venue": "Mathematical Programming",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W2065747405",
+    "source": "openalex_snowball",
+    "title": "7×7 DMD-based diffractive fiber switch at 1550nm",
+    "year": 2014,
+    "venue": "Optics Communications",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W2068115726",
+    "source": "openalex_snowball",
+    "title": "College Admissions and the Stability of Marriage",
+    "year": 1962,
+    "venue": "American Mathematical Monthly",
+    "abstract": "(2013). College Admissions and the Stability of Marriage. The American Mathematical Monthly: Vol. 120, No. 5, pp. 386-391."
+  },
+  {
+    "record_key": "openalex:W2079931475",
+    "source": "openalex_snowball",
+    "title": "Matching output queueing with a combined input/output-queued switch",
+    "year": 1999,
+    "venue": "IEEE Journal on Selected Areas in Communications",
+    "abstract": "The Internet is facing two problems simultaneously: there is a need for a faster switching/routing infrastructure and a need to introduce guaranteed qualities-of-service (QoS). Each problem can be solved independently: switches and routers can be made faster by using input-queued crossbars instead of shared memory systems; QoS can be provided using weighted-fair queueing (WFQ)-based packet scheduling. Until now, however, the two solutions have been mutually exclusive-all of the work on WFQ-based scheduling algorithms has required that switches/routers use output-queueing or centralized shared memory. This paper demonstrates that a combined input/output-queueing (CIOQ) switch running twice as fast as an input-queued switch can provide precise emulation of a broad class of packet-scheduling algorithms, including WFQ and strict priorities. More precisely, we show"
+  },
+  {
+    "record_key": "openalex:W2108251206",
+    "source": "openalex_snowball",
+    "title": "Scaling Limits of Free-Space Tilt Mirror MEMS Switches for Data Center Networks",
+    "year": 2015,
+    "venue": "Optical Fiber Communication Conference",
+    "abstract": "We present a first-principles analysis of the scaling of switch response speed as a function of port count, crosstalk, and insertion loss, based on physical optics and kinematics of canonical MEMS tilt mirror switch structures."
+  },
+  {
+    "record_key": "openalex:W2117884704",
+    "source": "openalex_snowball",
+    "title": "pFabric",
+    "year": 2013,
+    "venue": null,
+    "abstract": "In this paper we present pFabric, a minimalistic datacenter transport design that provides near theoretically optimal flow completion times even at the 99th percentile for short flows, while still minimizing average flow completion time for long flows. Moreover, pFabric delivers this performance with a very simple design that is based on a key conceptual insight: datacenter transport should decouple flow scheduling from rate control. For flow scheduling, packets carry a single priority number set independently by each flow; switches have very small buffers and implement a very simple priority-based scheduling/dropping mechanism. Rate control is also correspondingly simpler; flows start at line rate and throttle back only under high and persistent packet loss. We provide theoretical intuition and show via extensive"
+  },
+  {
+    "record_key": "openalex:W2124700175",
+    "source": "openalex_snowball",
+    "title": "FireFly",
+    "year": 2014,
+    "venue": null,
+    "abstract": "Conventional static datacenter (DC) network designs offer extreme cost vs. performance tradeoffs---simple leaf-spine networks are cost-effective but oversubscribed, while \"fat tree\"-like solutions offer good worst-case performance but are expensive. Recent results make a promising case for augmenting an oversubscribed network with reconfigurable inter-rack wireless or optical links. Inspired by the promise of reconfigurability, this paper presents FireFly, an inter-rack network solution that pushes DC network design to the extreme on three key fronts: (1) all links are reconfigurable; (2) all links are wireless; and (3) non top-of-rack switches are eliminated altogether. This vision, if realized, can offer significant benefits in terms of increased flexibility, reduced equipment cost, and minimal cabling complexity. In order to achieve this vision, we need to"
+  },
+  {
+    "record_key": "openalex:W2139106050",
+    "source": "openalex_snowball",
+    "title": "Liquid crystal over silicon device characteristics for holographic projection of high-definition television images",
+    "year": 2008,
+    "venue": "Applied Optics",
+    "abstract": "We discuss some fundamental characteristics of a phase-modulating device suitable to holographically project a monochrome video frame with 1280 x 720 resolution. The phase-modulating device is expected to be a liquid crystal over silicon chip with silicon area similar to that of commercial devices. Its basic characteristics, such as number of pixels, bits per pixel, and pixel dimensions, are optimized in terms of image quality and optical efficiency. Estimates of the image quality are made from the noise levels and contrast, while efficiency is calculated by considering the beam apodization, device dead space, diffraction losses, and the sinc envelope."
+  },
+  {
+    "record_key": "openalex:W2140348302",
+    "source": "openalex_snowball",
+    "title": "A 32 × 32 optical phased array using polysilicon sub-wavelength high-contrast-grating mirrors",
+    "year": 2014,
+    "venue": "Optics Express",
+    "abstract": "We report on microelectromechanical systems (MEMS)-actuated 32 × 32 optical phased arrays (OPAs) with high fill-factors and microsecond response time. To reduce the mirror weight and temperature-dependent curvature, we use high-contrast-grating (HCG) mirrors comprising a single layer of sub-wavelength polysilicon gratings with 400 nm thickness, 1250 nm pitch, and 570 nm grating bar width. The mirror has a broad reflection band and a peak reflectivity of 99.9% at 1550 nm wavelength. With 20 × 20 μm2 pixels and 2 μm, the OPA has a total aperture of 702 × 702 μm2 and a fill factor of 85%. The OPA is electrostatically controlled by voltage and has a total field of view of ± 2°, an instantaneous field of view (beam"
+  },
+  {
+    "record_key": "openalex:W2143217585",
+    "source": "openalex_snowball",
+    "title": "Mirror mirror on the ceiling",
+    "year": 2012,
+    "venue": null,
+    "abstract": "Modern data centers are massive, and support a range of distributed applications across potentially hundreds of server racks. As their utilization and bandwidth needs continue to grow, traditional methods of augmenting bandwidth have proven complex and costly in time and resources. Recent measurements show that data center traffic is often limited by congestion loss caused by short traffic bursts. Thus an attractive alternative to adding physical bandwidth is to augment wired links with wireless links in the 60 GHz band."
+  },
+  {
+    "record_key": "openalex:W2163769126",
+    "source": "openalex_snowball",
+    "title": "Jellyfish: Networking Data Centers Randomly",
+    "year": 2011,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "Industry experience indicates that the ability to incrementally expand data centers is essential. However, existing high-bandwidth network designs have rigid structure that interferes with incremental expansion. We present Jellyfish, a high-capacity network interconnect, which, by adopting a random graph topology, yields itself naturally to incremental expansion. Somewhat surprisingly, Jellyfish is more cost-efficient than a fat-tree: A Jellyfish interconnect built using the same equipment as a fat-tree, supports as many as 25% more servers at full capacity at the scale of a few thousand nodes, and this advantage improves with scale. Jellyfish also allows great flexibility in building networks with different degrees of oversubscription. However, Jellyfish's unstructured design brings new challenges in routing, physical layout, and wiring. We describe and evaluate"
+  },
+  {
+    "record_key": "openalex:W1971760496",
+    "source": "openalex_snowball",
+    "title": "PDM-DQPSK Silicon Receiver With Integrated Monitor and Minimum Number of Controls",
+    "year": 2012,
+    "venue": "IEEE Photonics Technology Letters",
+    "abstract": "We demonstrate a novel polarization-division multiplexed differential quadrature phase-shift keying receiver. It has the minimum number of analog controls and an integrated polarization interference monitor for polarization tracking. It can theoretically tolerate polarization-dependent loss in the link. We achieve ~10 times tracking speed improvement, ~6-dB lower loss, and ~100 times lower average bit-error rate during most of the tracking over our previous work for 43-Gb/s PDM-DQPSK."
+  },
+  {
+    "record_key": "openalex:W1975289126",
+    "source": "openalex_snowball",
+    "title": "Tunable silicon photonics directional coupler driven by a transverse temperature gradient",
+    "year": 2013,
+    "venue": "Optics Letters",
+    "abstract": "A compact directional coupler fabricated on a silicon photonic platform is presented, with a power-splitting ratio that can be tuned through a transverse temperature gradient induced by a laterally shifted integrated heater. The tuning mechanism exploits the thermally induced phase velocity mismatch between the coupled modes of the silicon waveguides. The positions of the integrated heater and the waveguide design are optimized to maximize the tuning range and to reduce electric power consumption. Asynchronous devices with an intrinsic phase mismatch are demonstrated to be more efficient, providing a tunable coupled power from 0.7 to 0.01 with 36 mW maximum power dissipation."
+  },
+  {
+    "record_key": "openalex:W2026418326",
+    "source": "openalex_snowball",
+    "title": "Silicon Photonics for Exascale Systems",
+    "year": 2014,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "With the extraordinary growth in parallelism at all system scales driven by multicore architectures, computing performance is increasingly determined by how efficiently high-bandwidth data is communicated among the numerous compute resources. High-performance systems are especially challenged by the growing energy costs dominated by data movement. As future computing systems aim to realize the Exascale regime-surpassing 1018operations per second-achieving energy efficient high-bandwidth communication becomes paramount to scaled performance. Silicon photonics offers the possibility of delivering the needed communication bandwidths to match the growing computing powers of these highly parallel architectures with extremely scalable energy efficiency. However, the insertion of photonic interconnects is not a one-for-one replacement. The lack of practical buffering and the fundamental circuit switched nature of optical data communications"
+  },
+  {
+    "record_key": "openalex:W2050810792",
+    "source": "openalex_snowball",
+    "title": "Low-loss, low-cross-talk crossings for silicon-on-insulator nanophotonic waveguides",
+    "year": 2007,
+    "venue": "Optics Letters",
+    "abstract": "We present compact crossings for silicon-on-insulator photonic wires. The waveguides are broadened using a 3 microm parabolic taper in each arm. By locally applying a lower index contrast using a double-etch technique, loss of confinement is reduced and 97.5% transmission (-1.7 dB) is achieved with only -40 dB cross talk."
+  },
+  {
+    "record_key": "openalex:W2051201523",
+    "source": "openalex_snowball",
+    "title": "Architectures for large nonblocking optical space switches",
+    "year": 1986,
+    "venue": "IEEE Journal of Quantum Electronics",
+    "abstract": "This paper introduces three architectures for optical space switches that are based on a multiplicity of fiber interconnected optical components. The architectures eliminate the need for optical waveguide Crossovers and reduce the complexity required in the individual elements. The architectures are strictly nonblocking and allow for easy control and routing. Architecture type 1 exhibits a low system attenuation and a high system signal-to-noise ratio for very large switch dimensions. Architectures 2 and 3 are alternatives for realizing broadcast and point-to-point architectures."
+  },
+  {
+    "record_key": "openalex:W2053780865",
+    "source": "openalex_snowball",
+    "title": "Compact 1 × N thermo-optic switches based on silicon photonic wire waveguides",
+    "year": 2005,
+    "venue": "Optics Express",
+    "abstract": "Using silicon photonic wire waveguides, we constructed compact 1 x 1, 1 x 2, and 1 x 4 Mach-Zehnder interferometer type optical switches on a silicon-on-insulator substrate and demonstrated their switching operations through the thermo-optic effect. These switches were smaller than 140 x 65, 85 x 30, and 190 x 75 mum, respectively. At a 1550-nm wavelength, we obtained an extinction ratio larger than 30 dB, a switching power as low as 90 mW, and a switching response time of less than 100 mus. Furthermore, switching operations were successfully demonstrated for the 1 x 4 switch."
+  },
+  {
+    "record_key": "openalex:W2058203097",
+    "source": "openalex_snowball",
+    "title": "Ultralow loss single layer submicron silicon waveguide crossing for SOI optical interconnect",
+    "year": 2013,
+    "venue": "Optics Express",
+    "abstract": "We demonstrate compact, broadband, ultralow loss silicon waveguide crossings operating at 1550 nm and 1310 nm. Cross-wafer measurement of 30 dies shows transmission insertion loss of - 0.028 ± 0.009 dB for the 1550 nm device and - 0.017 ± 0.005 dB for the 1310 nm device. Both crossings show crosstalk lower than - 37 dB. The devices were fabricated in a CMOS-compatible process using 248 nm optical lithography with a single etch step."
+  },
+  {
+    "record_key": "openalex:W2062193700",
+    "source": "openalex_snowball",
+    "title": "Wavelength selective switching with one-chip silicon photonic circuit including 8 × 8 matrix switch",
+    "year": 2011,
+    "venue": null,
+    "abstract": "Polarization-independent wavelength path switching is demonstrated with one-chip silicon photonic circuit including 64 thermo-optical switch elements within 12mm × 3mm. Owing to uniformity, any path can be constructed by simply turning on one switch element."
+  },
+  {
+    "record_key": "openalex:W2063297543",
+    "source": "openalex_snowball",
+    "title": "Nonblocking 4×4 silicon electro-optic switch matrix with push–pull drive",
+    "year": 2013,
+    "venue": "Optics Letters",
+    "abstract": "A compact rearrangeable nonblocking 4×4 silicon electro-optic switch matrix based on a Spanke-Beneš network is proposed and fabricated by a 0.18 μm standard commercial complementary metal-oxide semiconductor line. By respectively modulating the two modulation arms with a push-pull drive, a cross talk (CT) of less than -18 dB is obtained for the switching element with 150-μm-long modulation arms. The total steady-state power consumption of the switch matrix ranges from 4.46 to 35.92 mW for different routing states. The CT values of the routing state with the minimum and maximum power consumptions are less than -19 dB and less than -12 dB, respectively."
+  },
+  {
+    "record_key": "openalex:W2066110041",
+    "source": "openalex_snowball",
+    "title": "Compact and Low-Loss 8×8 Silicon Photonic Switch Module for Transponder Aggregators in CDC-ROADM Application",
+    "year": 2015,
+    "venue": "Optical Fiber Communication Conference",
+    "abstract": "We present 8×8 silicon photonic switch modules with newly designed spot size converters on a silicon chip. Averaged module excess loss as low as 7.2 dB on all 64 paths is achieved along with 0.15-ms switching."
+  }
+]

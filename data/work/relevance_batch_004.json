@@ -1,0 +1,202 @@
+[
+  {
+    "record_key": "openalex:W2581603380",
+    "source": "openalex",
+    "title": "Toward exa-scale optical circuit switch interconnect networks for future datacenter/HPC",
+    "year": 2017,
+    "venue": "Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE",
+    "abstract": "This paper discusses how to realize an optical circuit switching interconnect capable of more than 10 Tbps link bandwidth and more than 100,000 end points scalability. To keep continuous performance improvement of datacenters or high performance computers, high capacity and low latency interconnect network is essential. To handle such large bandwidth interconnect networks with low energy consumption, optical switch technologies will become inevitable. This paper firstly examines the scaling of the energy consumption of optical circuit switching networks based on the state of the art silicon photonics switch technology. Secondly to achieve Tbps-class link bandwidth, the WDM transmission technology and a shared WDM light source mechanism named “wavelength bank” are introduced. Due to the shared light source, each optical transceiver"
+  },
+  {
+    "record_key": "openalex:W3000564174",
+    "source": "openalex",
+    "title": "A demonstration of ultra-low-latency data center optical circuit switching",
+    "year": 2012,
+    "venue": "ACM SIGCOMM Computer Communication Review",
+    "abstract": "We designed and constructed a 24x24-port optical circuit switch (OCS) prototype with a programming time of 68.5 μs, a switching time of 2.8 μs, and a receiver electronics initialization time of 8.7 μs [1]. We demonstrate the operation of this prototype switch in a data center testbed under various workloads."
+  },
+  {
+    "record_key": "openalex:W3186645739",
+    "source": "openalex",
+    "title": "Effective *-flow schedule for optical circuit switching based data center networks: A comprehensive survey",
+    "year": 2021,
+    "venue": "Computer Networks",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W1970579225",
+    "source": "openalex",
+    "title": "Virtual Machine Migration over Optical Circuit Switching Network in a Converged Inter/Intra Data Center Architecture",
+    "year": 2015,
+    "venue": "Optical Fiber Communication Conference",
+    "abstract": "We present a novel converged inter/intra data center architecture using optical-circuit-switching over metro-scale distances. A Software Defined Network (SDN) control-plane provides connectivity between the application and data-plane layers. Virtual-machine migration over 50km is experimentally demonstrated."
+  },
+  {
+    "record_key": "openalex:W2765275466",
+    "source": "openalex",
+    "title": "Dual-wavelength source based optical circuit switching and wavelength reconfiguration in multi-hop ROADM systems",
+    "year": 2017,
+    "venue": "Optics Express",
+    "abstract": "Using a dual-wavelength source, a single optical signal is distributed over two wavelengths. This approach is used to reduce power excursions due to optical circuit switching in ROADM systems. In a multi-hop optical transmission system with 100Gbps PM-QPSK signals switched over five ROADMs and 265 km of single mode fiber (SMF), power excursions are kept within ± 0.2 dB using dual-wavelength sources. A cumulative distribution function (CDF) of channel power excursions is generated from measurements of over 100 random channel loadings for four different channel loading plans. Using dual-wavelength sources, power excursions of up to ± 6 dB are reduced below ± 1.5 dB for 99% and ± 0.5 dB for 71.4% of the cases while switching up to 30"
+  },
+  {
+    "record_key": "openalex:W2001644091",
+    "source": "openalex",
+    "title": "Wavelength Assignment Dependency of AGC EDFA Gain Offset under Dynamic Optical Circuit Switching",
+    "year": 2014,
+    "venue": "Optical Fiber Communication Conference",
+    "abstract": "Dynamic gain offsets in WDM AGC EDFAs caused by optical circuit switching are experimentally evaluated. A simple wavelength assignment policy can reduce the gain offsets by up to 0.7 dB after five cascaded EDFAs."
+  },
+  {
+    "record_key": "openalex:W4392029208",
+    "source": "openalex",
+    "title": "Lightwave Fabrics: At-Scale Optical Circuit Switching for Datacenter and Machine Learning Systems",
+    "year": 2024,
+    "venue": null,
+    "abstract": "We describe our experience developing what we believe to be the world’s first large-scale production deployments of lightwave fabrics used for both datacenter networking and machine-learning (ML) applications [1],[2],[3],[4]. Using optical circuit switches (OCSes) and optical transceivers developed in-house, we employ hardware and software codesign to integrate the fabrics into our network and computing infrastructure. Key to our design is a high degree of multiplexing enabled by new kinds of wavelength-division-multiplexing (WDM) and optical circulators that support high-bandwidth bidirectional traffic on a single strand of optical fiber. The development of the requisite OCS and optical transceiver technologies leads to a synchronous lightwave fabric that is reconfigurable, low latency, rate agnostic, and highly available. These fabrics have provided substantial benefits for"
+  },
+  {
+    "record_key": "openalex:W2331688183",
+    "source": "openalex",
+    "title": "Advantages and Control of Hybrid Packet Optical-Circuit-Switched Data Center Networks",
+    "year": 2014,
+    "venue": null,
+    "abstract": "Modern Data Center networks must perform at near 100% utilization in order to economically support the high bandwidth, highly elastic traffic patterns and data flows seen in back-end networks. Hybrid Packet-OCS networks offer excellent CAPEX and OPEX advantages but require coordination of traffic between packet and circuit fabrics. This paper provides analysis of the economic benefits and describes a practical management and control plane architecture."
+  },
+  {
+    "record_key": "openalex:W2027447399",
+    "source": "openalex",
+    "title": "Torus-Topology Data Center Network Based on Optical Packet/Agile Circuit Switching with Intelligent Flow Management",
+    "year": 2015,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "We review our work on an intra-data center (DC) network based on co-deployment of optical packet switching (OPS) and optical circuit switching (OCS), conducted within the framework of a five-year-long national R&D program in Japan (∼March 2016). For the starter, preceding works relevant to optical switching technologies in intra-DC networks are briefly reviewed. Next, we present the architecture of our torus-topology OPS and agile OCS intra-DC network, together with a new flow management concept, where instantaneous optical path on-demand, so-calledExpress Pathis established. Then, our hybrid optoelectronic packet router (HOPR), which handles 100 Gbps (25 Gbps × 4-wavelength) optical packets and its enabling device and sub-system technologies are presented. The HOPR aims at a high energy-efficiency of 0.09 [W/Gbps] and low-latency"
+  },
+  {
+    "record_key": "openalex:W3091851330",
+    "source": "openalex",
+    "title": "Programmable photonic circuits",
+    "year": 2020,
+    "venue": "Nature",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W4380874786",
+    "source": "openalex",
+    "title": "TPU v4: An Optically Reconfigurable Supercomputer for Machine Learning with Hardware Support for Embeddings",
+    "year": 2023,
+    "venue": null,
+    "abstract": "In response to innovations in machine learning (ML) models, production workloads changed radically and rapidly. TPU v4 is the fifth Google domain specific architecture (DSA) and its third supercomputer for such ML models. Optical circuit switches (OCSes) dynamically reconfigure its interconnect topology to improve scale, availability, utilization, modularity, deployment, security, power, and performance; users can pick a twisted 3D torus topology if desired. Much cheaper, lower power, and faster than Infiniband, OCSes and underlying optical components are <5% of system cost and <3% of system power. Each TPU v4 includes SparseCores, dataflow processors that accelerate models that rely on embeddings by 5x--7x yet use only 5% of die area and power. Deployed since 2020, TPU v4 outperforms TPU v3 by"
+  },
+  {
+    "record_key": "openalex:W4401751711",
+    "source": "openalex",
+    "title": "Enhancing Capacity of Optical Circuit Switching Clos Network in Data Center: Progress and Challenges",
+    "year": 2024,
+    "venue": null,
+    "abstract": "Future data centers are anticipated to embrace cutting-edge circuit switching technologies, particularly optical switching, renowned for their heightened transmission capacity and energy efficiency. Optical circuit switching guarantees consistent communication quality by establishing dedicated connections for data transmission and maintaining their integrity. Data centers favor Clos-network structures due to their scalability. This paper examines the advancements in designing Clos networks to boost switching capacity while maintaining internal blocking quality. We analyze the characteristics of Clos network design models, providing essentials. We extensively discuss their performances regarding their switching capacities and computation times. Drawing from the review of research progress, we address the challenges in enhancing the switching capacity of Clos networks for future studies."
+  },
+  {
+    "record_key": "openalex:W2626250922",
+    "source": "openalex",
+    "title": "Slotted Store-and-Forward Optical Circuit-Switched Networks: A Performance Study",
+    "year": 2017,
+    "venue": "Journal of Optical Communications and Networking",
+    "abstract": "Optical switching techniques have benefited greatly from slotted network/node operations in terms of network performance, resource utilization, and computational complexity, especially for networks that are offered short, interactive flows. When we consider the delivery of bulk data flows, with each flow consuming a significant portion of the link bandwidth for a considerably long duration (of hours or days), then such fine granular slotted operations may be inefficient and unnecessary. In this paper, we investigate the applicability of coarser granular slotted network operations in networks where the majority of traffic is contributed by bulk data flows, and we consider how to find appropriate slot sizes, given the traffic demand distributions. Our study reveals that the choice of slot size is in"
+  },
+  {
+    "record_key": "openalex:W2798334538",
+    "source": "openalex",
+    "title": "Realization and Application of Large-scale Fast Optical Circuit Switch for Data Center Networking",
+    "year": 2017,
+    "venue": null,
+    "abstract": "Data centre networks place very different requirements on optical systems than communication networks. Grasping the right direction to proceed is of paramount importance. The role of large-scale optical circuit switches and realization technologies are presented."
+  },
+  {
+    "record_key": "openalex:W3009273389",
+    "source": "openalex",
+    "title": "1.6Tbps Silicon Photonics Integrated Circuit for Co-Packaged Optical-IO Switch Applications",
+    "year": 2020,
+    "venue": null,
+    "abstract": "We demonstrate 1.6Tbps Silicon Photonic Integrated Circuit (SiPIC) meeting co-packaged optics requirements for network switch applications. The SiPIC has sixteen 106Gbps PAM4 optical channels, including lasers, modulators and V-grooves. Post-FEC error-free operation over temperature is demonstrated."
+  },
+  {
+    "record_key": "openalex:W2982290016",
+    "source": "openalex",
+    "title": "Co-scheduler: Accelerating Data-Parallel Jobs in Datacenter Networks with Optical Circuit Switching",
+    "year": 2019,
+    "venue": null,
+    "abstract": "The optical circuit switch (OCS) in recently proposed hybrid electrical/optical datacenter networks (Hybrid-DCN) can only be used to transfer large flows (i.e., flows with a large size of data). Current job schedulers for data-parallel frameworks are not suitable for Hybrid-DCN, since they neither place tasks to aggregate data traffic to take advantage of OCS nor schedule tasks to minimize the Coflow completion time (CCT). In this paper, we propose Co-scheduler, a job scheduler for dataparallel frameworks that aims to improve job performance by attempting to place the tasks of a job to aggregate enough data traffic to take advantage of OCS and minimize the CCT in Hybrid-DCN. Specifically, for each job, Co-scheduler computes a guideline on the number of racks"
+  },
+  {
+    "record_key": "openalex:W2294810677",
+    "source": "openalex",
+    "title": "Lightness: A Function-Virtualizable Software Defined Data Center Network With All-Optical Circuit/Packet Switching",
+    "year": 2015,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "Modern high-performance data centers are responsible for delivering a huge variety of cloud applications to the end-users, which are increasingly pushing the limits of the currently deployed computing and network infrastructure. All-optical dynamic data center network (DCN) architectures are strong candidates to overcome those adversities, especially when they are combined with an intelligent software defined control plane. In this paper, we report the first harmonious integration of an optical flexible hardware framework operated by an agile software and virtualization platform. The LIGHTNESS deeply programmable all-optical circuit and packet switched data plane is able to perform unicast/multicast switch-over on-demand, while the powerful software defined networking (SDN) control plane enables the virtualization of computing and network resources creating a virtual data center"
+  },
+  {
+    "record_key": "openalex:W2955749708",
+    "source": "openalex",
+    "title": "Ultrafast and energy-efficient all-optical switching with graphene-loaded deep-subwavelength plasmonic waveguides",
+    "year": 2019,
+    "venue": "Nature Photonics",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W3195562526",
+    "source": "openalex",
+    "title": "Towards All-optical Circuit-switched Datacenter Network Cores",
+    "year": 2021,
+    "venue": null,
+    "abstract": "All-optical circuit switched network core is the holy grail for the next-generation datacenter architectures, as electrical packet switches are struggling to cope up with increasing challenges posed by the end of Moore's law. However, traffic skewness is the biggest enemy of such all-optical network cores comprising of a simple round-robin circuit-scheduling abstraction. Even though valiant load balancing can theoretically solve the problem, it falls short in most of the practical scenarios. In this paper, we point towards a new research direction to address the skewness problem: why not resolve most of the skewness at the network edge while keeping the optical core simple? This approach is fundamentally different and can potentially enable the all-optical network core to achieve good performance"
+  },
+  {
+    "record_key": "openalex:W2020424834",
+    "source": "openalex",
+    "title": "All-optical routing of single photons by a one-atom switch controlled by a single photon",
+    "year": 2014,
+    "venue": "Science",
+    "abstract": "The prospect of quantum networks, in which quantum information is carried by single photons in photonic circuits, has long been the driving force behind the effort to achieve all-optical routing of single photons. We realized a single-photon-activated switch capable of routing a photon from any of its two inputs to any of its two outputs. Our device is based on a single atom coupled to a fiber-coupled, chip-based microresonator. A single reflected control photon toggles the switch from high reflection (R ~ 65%) to high transmission (T ~ 90%), with an average of ~1.5 control photons per switching event (~3, including linear losses). No additional control fields are required. The control and target photons are both in-fiber and practically identical,"
+  },
+  {
+    "record_key": "openalex:W4390032166",
+    "source": "openalex",
+    "title": "Optical Circuit Switching Using REC-DFB Laser Array",
+    "year": 2023,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "The ongoing growth of data traffic from existing and new latency-sensitive applications poses a challenge to the data center network. Wavelength-routed optical circuit switching promises high bandwidth, low power and latency networking for data centers, but requires a wideband wavelength tunable source capable of nanosecond-scale hitless wavelength switching at every node. A tunable source based on DFB laser arrays is a potential candidate due to the high-speed dynamic property and high single-longitudinal-mode (SLM) stability of the DFB laser. However, the large-scale integration of the DFB laser and the high precision control of the lasing wavelength are still problems. In this work, we proposed and fabricated a monolithic integrated 16-channel DFB laser array with high SLM stability and 100-GHz channel spacing"
+  },
+  {
+    "record_key": "openalex:W4391087787",
+    "source": "openalex",
+    "title": "Apollo: Large-Scale Deployment of Optical Circuit Switching for Datacenter Networking",
+    "year": 2023,
+    "venue": null,
+    "abstract": "In this paper, we describe Apollo, to the best of our knowledge, the world’s first large-scale production deployment of optical circuit switches (OCSes) for datacenter networking. We review the underlying hardware technologies including the design of our internally developed OCS and WDM transceivers."
+  },
+  {
+    "record_key": "openalex:W4200142051",
+    "source": "openalex",
+    "title": "Understanding the Performance Guarantee of Physical Topology Design for Optical Circuit Switched Data Centers",
+    "year": 2021,
+    "venue": "Proceedings of the ACM on Measurement and Analysis of Computing Systems",
+    "abstract": "As a first step of designing O ptical-circuit-switched D ata C enters (ODC), physical topology design is critical as it determines the scalability and the performance limit of the entire ODC. However, prior works on ODC have not yet paid much attention to physical topology design, and the adopted physical topologies either scale poorly, or lack performance guarantee. We offer a mathematical foundation for the design and performance analysis of ODC physical topologies in this paper. We introduce a new performance metric β(G ) to evaluate the gap between a physical topology G and the ideal physical topology. We develop a coupling technique that bypasses a significant amount of computational complexity of calculating β(G). Using β(G ) and the coupling"
+  },
+  {
+    "record_key": "openalex:W2970534079",
+    "source": "openalex",
+    "title": "PULSE: Sub-microsecond Optical Circuit Switched Data Center Network",
+    "year": 2019,
+    "venue": null,
+    "abstract": "A control and network system is proposed to offer optical circuits of 120 ns duration while achieving 91% throughput between 1000s of Servers. It delivers 270ns median and 270 μs tail latency under 75% load."
+  },
+  {
+    "record_key": "openalex:W4413217623",
+    "source": "openalex",
+    "title": "Efficient verification algorithm for topology and quality of optical fibers in optical-circuit-switched data center networks",
+    "year": 2025,
+    "venue": "Journal of Optical Communications and Networking",
+    "abstract": "The introduction of optical circuit switches (OCSs) has enabled the implementation of capacity- and energy-efficient networks in production data centers. To correctly operate optical-circuit-switched data center networks (OCS DCNs), fibers between pairs of terminals (e.g., servers or top-of-rack switches) and OCSs should be verified before starting operations; otherwise, unexpected failures during operations could occur. However, this task is difficult because OCSs cannot use topology discovery or link-monitoring functions, which are only available on electrical packet switches. We thus studied a fiber-topology and quality verification (FTQV) problem for OCS DCNs. Though a previous study inspected fibers between pairs of OCSs in hierarchical OCS DCNs using only one dedicated tester for fiber probing, making the process time-consuming, we consider verifying fibers between"
+  }
+]

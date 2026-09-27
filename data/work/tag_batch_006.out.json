@@ -1,0 +1,222 @@
+[
+  {
+    "paper_id": "W2529948110",
+    "tech_route": "mems_3d",
+    "tech_route_secondary": null,
+    "integration": "free_space_bulk",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "evidence_span": "In a 3DMEMS switch, the coupling between the mechanical structure (micro-mirror) and electrostatic field (electrodes) results in dynamic coupled rotation of the micro-mirror about its axes, known as the cross-axis coupling effect.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W3041044413",
+    "tech_route": "mems_3d",
+    "tech_route_secondary": null,
+    "integration": "free_space_bulk",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "evidence_span": "We present a 52 × 52 MEMS (microelectromechanical system) optical switch module in a Wshaped layout with a toroidal concave mirror.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W1977220786",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "evidence_span": "A second order sliding mode strategy for fault detection and fault-tolerant-control of a MEMS optical switch",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2996949883",
+    "tech_route": "mems_3d",
+    "tech_route_secondary": null,
+    "integration": "free_space_bulk",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "There is a world-wide push to create the next-generation all-optical transmission and switching technologies for exascale data centers.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W2605844474",
+    "tech_route": "mems_2d",
+    "tech_route_secondary": "lcos",
+    "integration": "free_space_bulk",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": null,
+    "evidence_span": "We are presenting our past and current efforts to manufacture a new type of MEMS where the pixels are moving in the vertical direction.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W2956148226",
+    "tech_route": "mems_silicon_photonic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": null,
+    "evidence_span": "In this work, we present a 2-D translational MEMS platform capable of highly efficient planar optical switching through integration with silicon nitride (SiN) based optical waveguides.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W2159513073",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "none",
+    "adjacent_field": "mems_micromirror",
+    "evidence_span": "The large number of electromagnetic modes that can be accommodated by beam-steering micromirrors and diffractive optical MEMS, combined with the precision of these types of elements, is utilized in fiber-optical switches and filters, including dispersion compensators.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2795355622",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "evidence_span": "In general, optical MEMS-based switches can employ movable micromirrors as basic switching element, or movable couplers (resonators).",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W4403460664",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "none",
+    "adjacent_field": null,
+    "evidence_span": "A multi-channel AWG-based FBG interrogation system using a 1 × 4 MEMS optical switch",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2533885611",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": null,
+    "evidence_span": "该光开关阵列由8组双层静电梳齿结构的光开关组成，每组光开关均控制一个防空导弹系统子模块的通断。",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2047996703",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "evidence_span": "MEMS optical switches are used in optical networks in order to provide the desired bandwidth.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W1982681165",
+    "tech_route": "mems_silicon_photonic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "In this paper, we report on a new type of integrated OCS that combines silicon photonics with MEMS actuation.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W2807234289",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "We provide an overview of photonic switching technologies and develop an evaluation methodology for assessing their potential impact on datacenter performance.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2492727504",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "evidence_span": "Design of MEMS Optical Switches",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2253702363",
+    "tech_route": "other",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": null,
+    "evidence_span": "Here we demonstrate a handedness-switchable chiral metamaterial for polarization modulation employing vertically deformable Micro Electro Mechanical Systems.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W4408995512",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": null,
+    "evidence_span": "These findings highlight the potential of the design for high-sensitivity MEMS accelerometers and dual-mode optical switches with low switching voltage.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W4284963505",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "none",
+    "adjacent_field": null,
+    "evidence_span": "The constant demand for mobility, interconnectivity, and bandwidth made it mandatory for the rapid expansion and upgradation of optical fiber-based telecommunication infrastructure across the globe.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W3103527158",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "none",
+    "adjacent_field": "mems_micromirror",
+    "evidence_span": "Thus, the vast majority of commercial MEMS products, such as accelerometers, gyroscopes and micro-mirror arrays, are integrated and packaged together with ICs.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W1561374189",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "none",
+    "adjacent_field": null,
+    "evidence_span": "Over the last ten years, microelectromechanical systems (MEMS) devices have received attention in many application areas such microwave, wireless, and optical networks.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W3017763864",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "none",
+    "adjacent_field": "mems_micromirror",
+    "evidence_span": "This review presents an extensive overview of Microelectronechanical Systems (MEMS) scanning mirrors specifically for applications in LiDAR systems.",
+    "confidence": "low"
+  }
+]

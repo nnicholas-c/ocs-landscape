@@ -1,0 +1,152 @@
+[
+  {
+    "record_key": "openalex:W2608944412",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Piezoelectric thin films for lab-on-chip biosensors, unrelated to optical switching"
+  },
+  {
+    "record_key": "openalex:W2585218234",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Piezoelectric energy harvesting review, unrelated to optical switching"
+  },
+  {
+    "record_key": "openalex:W1994319933",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Resistive memory switching materials review, different meaning of switch, unrelated"
+  },
+  {
+    "record_key": "openalex:W2058515052",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Quantum dots in WSe2 monolayer, unrelated; empty abstract"
+  },
+  {
+    "record_key": "openalex:W2914316664",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Piezoelectric transducers for aircraft structural health monitoring, unrelated"
+  },
+  {
+    "record_key": "openalex:W2910086439",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Piezoelectric polymer microsystems for energy harvesting/implants, unrelated; empty abstract"
+  },
+  {
+    "record_key": "openalex:W2805191155",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Piezocatalysis for water remediation, unrelated to optical switching"
+  },
+  {
+    "record_key": "openalex:W2012779095",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Piezoelectric ultrasound transducer arrays (PMUT), unrelated to optical switching"
+  },
+  {
+    "record_key": "openalex:W2906077462",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Symmetry switch in Weyl semimetal, different meaning of switch; empty abstract"
+  },
+  {
+    "record_key": "openalex:W2143910911",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Piezoelectric/ferromagnetic spintronics domain wall control, unrelated to optics"
+  },
+  {
+    "record_key": "openalex:W3139267667",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Optical tweezers review, unrelated to circuit switching; empty abstract"
+  },
+  {
+    "record_key": "openalex:W2037657651",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Adaptive optical microscopy review, unrelated to circuit switching"
+  },
+  {
+    "record_key": "openalex:W2918760165",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Organic piezoelectric materials review, unrelated to optical switching"
+  },
+  {
+    "record_key": "openalex:W2345114824",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Ferroelectric photovoltaics review, unrelated to optical switching"
+  },
+  {
+    "record_key": "openalex:W2936104152",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Negative piezoelectricity in van der Waals ferroelectric, unrelated"
+  },
+  {
+    "record_key": "openalex:W3037306418",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Cavity optomechanics review, mechanical resonators, unrelated to circuit switching"
+  },
+  {
+    "record_key": "openalex:W4225771010",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "PVDF piezoelectric materials preparation review, unrelated to optical switching"
+  },
+  {
+    "record_key": "openalex:W2971102795",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Lithium niobate soliton microcomb, not a switch device"
+  },
+  {
+    "record_key": "openalex:W4205874676",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Organic piezoelectric energy harvesting review, unrelated to optical switching"
+  },
+  {
+    "record_key": "openalex:W4224210237",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Electro-optic Q-switch laser crystals, different application than circuit switching"
+  },
+  {
+    "record_key": "openalex:W4200034953",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Piezoelectric energy harvesting technology review, unrelated to optical switching"
+  },
+  {
+    "record_key": "openalex:W3119529004",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Piezoelectric cardiac pacemaker nanogenerator, unrelated; empty abstract"
+  },
+  {
+    "record_key": "openalex:W2005480635",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Ferroelectric domain imaging microscopy, unrelated to optical switching"
+  },
+  {
+    "record_key": "openalex:W3008676885",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Piezoelectric nanogenerator current density, unrelated to optical switching"
+  },
+  {
+    "record_key": "openalex:W2316329341",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Piezoelectric thin film transducers review, unrelated to optical switching"
+  }
+]
