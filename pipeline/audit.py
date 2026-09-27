@@ -1,17 +1,36 @@
-"""Stage 7 audit, run 2. See PLAN.md stage 7, .claude/agents/auditor.md.
+"""Stage 7 audit, the run 2 audit (arXiv content collected through OpenAlex's
+arXiv index; see PLAN.md stage 7, .claude/agents/auditor.md). Naming per
+CLAUDE.md/PLAN.md: "round 1", "round 2 (padded)" and "round 3 (after the
+fix)" in deliverables/validation_report.md were run 1's audits (some run 1
+text calls round 3 "Run 2" -- that is the old naming, not this run). "Run 2"
+here means only the arXiv rebuild in this checkout.
 
 Usage (from repo root):
-    .venv/bin/python -m pipeline.audit          > data/work/audit_run2_prejudge.json
-    # then the auditor reads data/work/audit_run2_judge_input.json and writes
-    # data/work/audit_run2_judgments.json by hand
-    .venv/bin/python -m pipeline.audit --merge  > data/work/audit_run2_round1.json
+    .venv/bin/python -m pipeline.audit          > data/work/audit_r2data_prejudge.json
+    # then the auditor reads data/work/audit_r2data_judge_input.json and writes
+    # data/work/audit_r2data_judgments.json by hand
+    .venv/bin/python -m pipeline.audit --merge  > data/work/audit_r2data_round1.json
 
 Read-only. Never writes to the database, the matrix, the tags table, or
-projects.csv. Runs the four PLAN.md stage 7 checks with SEED below (run 2's
-seed; run 1 used 20260926, see deliverables/validation_report.md "Run 1").
+projects.csv. Never overwrites an existing data/work/audit_* file from an
+earlier round; this run's files all carry the audit_r2data_ prefix instead.
+Runs the four PLAN.md stage 7 checks with SEED below (this run's seed; run
+1's rounds used SEED = 20260926 for rounds 1-2 and SEED = 20260927 for round
+3, see deliverables/validation_report.md).
+
+Never calls export.arxiv.org or any other arXiv API (that host refuses this
+one HTTP 406). The only network calls are to api.openalex.org (via pyalex,
+singleton lookups, free) and one plain GET per paper to arxiv.org/abs/<id>
+(the web page, not the API) for the few papers OpenAlex has no record of.
 
 (a) 20 random core papers re-fetched from their source and compared on
     title, year, cited_by_count, and the first author's first institution.
+    OpenAlex-ID'd papers are re-fetched from OpenAlex by ID. Papers with no
+    OpenAlex ID are looked up in OpenAlex by the free singleton DOI lookup
+    10.48550/arxiv.<id> (OpenAlex's own arXiv DOI); only if that also fails
+    is https://arxiv.org/abs/<id> fetched directly and its title/year
+    compared (cited_by_count and institution are not on that page, so those
+    two subchecks are skipped, not failed, for that paper).
 (b) Measured-dimension cells (switching_time, insertion_loss, port_count,
     polarization_dependent_loss, crosstalk, wavelength_range, cost_per_port)
     are checked mechanically only: cited IDs exist, every " || "-joined
@@ -20,11 +39,14 @@ seed; run 1 used 20260926, see deliverables/validation_report.md "Run 1").
     the quotes. Category cells (integration, trl_band, ai_cluster_fit) and
     free-text cells (packaging_notes, scaling_limit, academic_groups,
     companies) get the same ID/quote mechanical check; academic_groups and
-    companies are then verified by code (recomputed from
-    pipeline.matrix_build against graphs/top_pis.csv and data/projects.csv);
-    the rest are judged by the auditor via the judge_input/judgments files.
+    companies are then verified by code, recomputed independently here
+    (this script's own SQL against data/db/papers.sqlite and its own read
+    of data/projects.csv -- nothing is imported from pipeline.matrix_build,
+    the module that built the matrix, because an audit that reuses the
+    builder's own code only shows reproducibility, not correctness); the
+    rest are judged by the auditor via the judge_input/judgments files.
     Gate C samples 20 random cells with status=reported. Every reported
-    category cell (27) is also judged as a census, separate from Gate C.
+    category cell is also judged as a census, separate from Gate C.
 (c) 10 random projects.csv rows: fetch evidence_url with a plain HTTP GET
     and check the entity name and evidence_quote are both present in the
     page text after whitespace normalization. A network failure is
@@ -42,6 +64,7 @@ import random
 import re
 import sqlite3
 import time
+from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -55,12 +78,30 @@ MATRIX_PATH = REPO_ROOT / "deliverables" / "comparison_matrix.csv"
 PROJECTS_PATH = REPO_ROOT / "data" / "projects.csv"
 PITFALLS_PATH = REPO_ROOT / "deliverables" / "pitfalls_original_log.md"  # overrides CLAUDE.md rule 5 for this rework
 WORK_DIR = REPO_ROOT / "data" / "work"
-PREJUDGE_PATH = WORK_DIR / "audit_run2_prejudge.json"
-JUDGE_INPUT_PATH = WORK_DIR / "audit_run2_judge_input.json"
-JUDGMENTS_PATH = WORK_DIR / "audit_run2_judgments.json"
-FINAL_PATH = WORK_DIR / "audit_run2_round1.json"
+# This run's file prefix. Do not reuse audit_run2_* (that prefix belongs to
+# round 3 of run 1's audit, old naming, and must never be overwritten) or
+# plain audit_round1/2* (rounds 1-2 of run 1). Set as constants for this run;
+# there is only one seed and one prefix per audit run, so a flag would be
+# unused machinery.
+FILE_PREFIX = "audit_r2data_"
+# Round of this run's own audit (Gate C sent stage 7 back to stage 6 once
+# already; this is that second pass, still all under audit_r2data_, never
+# audit_run2_* or audit_round1/2*). Set via AUDIT_ROUND=2 in the environment;
+# defaults to "1" so every path below is byte-identical to round 1's and
+# round 1's files are never touched. Round 2's prejudge/judge_input/judgments
+# get their own round2_ names too, so round 1's are preserved untouched.
+ROUND = os.environ.get("AUDIT_ROUND", "1")
+_suffix = "" if ROUND == "1" else f"round{ROUND}_"
+PREJUDGE_PATH = WORK_DIR / f"{FILE_PREFIX}{_suffix}prejudge.json"
+JUDGE_INPUT_PATH = WORK_DIR / f"{FILE_PREFIX}{_suffix}judge_input.json"
+JUDGMENTS_PATH = WORK_DIR / f"{FILE_PREFIX}{_suffix}judgments.json"
+FINAL_PATH = WORK_DIR / f"{FILE_PREFIX}round{ROUND}.json"
 
-SEED = 20260927  # run 2 seed. Run 1 used SEED = 20260926 (see validation_report.md "Run 1").
+# This run's seed. Earlier seeds, kept here for the record (see
+# deliverables/validation_report.md): SEED = 20260926 for run 1's round 1
+# and round 2 (padded); SEED = 20260927 for run 1's round 3 (after the fix).
+# Both of those were run 1's audits, not this run 2 arXiv rebuild.
+SEED = 20260928
 SLEEP_SECONDS = 0.2  # playbook: stay well under OpenAlex's 100 req/s limit
 HTTP_TIMEOUT = 15
 USER_AGENT = "ocs-landscape-audit/1.0"
@@ -162,8 +203,7 @@ def first_author_institution(con, paper_id):
     return row["display_name"] if row else None
 
 
-def refetch_openalex(openalex_id):
-    w = Works()[openalex_id]
+def _openalex_work_fields(w):
     title = w.get("title")
     inst = None
     for auth in w.get("authorships") or []:
@@ -173,14 +213,16 @@ def refetch_openalex(openalex_id):
     return title, w.get("publication_year"), w.get("cited_by_count"), inst
 
 
-def refetch_arxiv_api(arxiv_id):
-    import arxiv
-    client = arxiv.Client(page_size=1, delay_seconds=10.0, num_retries=3)
-    results = list(client.results(arxiv.Search(id_list=[arxiv_id])))
-    if not results:
-        raise ValueError("arxiv id_list lookup returned no result")
-    r = results[0]
-    return r.title, (r.published.year if r.published else None)
+def refetch_openalex(openalex_id):
+    """Singleton lookup by OpenAlex ID. Free (playbook: single-record lookups cost nothing)."""
+    return _openalex_work_fields(Works()[openalex_id])
+
+
+def refetch_openalex_by_doi(arxiv_id):
+    """Free OpenAlex singleton lookup by the arXiv DOI OpenAlex assigns its own arXiv
+    index entries (playbook: 10.48550/arxiv.<id>). Never touches arxiv.org or
+    export.arxiv.org -- this is a normal OpenAlex works lookup, by DOI instead of by ID."""
+    return _openalex_work_fields(Works()[f"https://doi.org/10.48550/arxiv.{arxiv_id}"])
 
 
 def refetch_arxiv_html(arxiv_id):
@@ -217,19 +259,20 @@ def check_a(con, api_key, sample_size=20):
         if p["openalex_id"]:
             try:
                 new_title, new_year, new_cited, new_inst = refetch_openalex(p["openalex_id"])
-                method = "openalex"
+                method = "openalex_id"
                 time.sleep(SLEEP_SECONDS)
             except Exception as exc:
-                errors.append(f"openalex: {redact(exc, api_key)}")
+                errors.append(f"openalex_id: {redact(exc, api_key)}")
         elif p["arxiv_id"]:
             try:
-                new_title, new_year = refetch_arxiv_api(p["arxiv_id"])
-                method = "arxiv_api"
+                new_title, new_year, new_cited, new_inst = refetch_openalex_by_doi(p["arxiv_id"])
+                method = "openalex_doi_singleton"
+                time.sleep(SLEEP_SECONDS)
             except Exception as exc1:
-                errors.append(f"arxiv_api: {redact(exc1, api_key)}")
+                errors.append(f"openalex_doi_singleton: {redact(exc1, api_key)}")
                 try:
                     new_title, new_year = refetch_arxiv_html(p["arxiv_id"])
-                    method = "arxiv_html_fallback"
+                    method = "arxiv_html_fallback"  # plain GET on arxiv.org/abs, not export.arxiv.org
                 except Exception as exc2:
                     errors.append(f"arxiv_html_fallback: {redact(exc2, api_key)}")
         else:
@@ -339,26 +382,68 @@ def _measured_value_check(value, quotes_list, dimension):
     return (not reasons, reasons)
 
 
-def _academic_groups_companies_check(con, projects, pis, actual_rows):
-    """Recompute academic_groups and companies with pipeline.matrix_build's
-    own functions (the same code that built the CSV) and diff against the
-    CSV. This is the code check the task asks for; no judgment needed."""
-    from pipeline.matrix_build import ROUTES, academic_groups as mb_ag, companies as mb_co
+def _recompute_academic_groups(con, route, pis):
+    """Independent recompute of one route's academic_groups cell: this
+    script's own SQL on data/db/papers.sqlite, nothing from
+    pipeline.matrix_build. Core papers carrying `route` as tags.tech_route
+    or tags.tech_route_secondary, then the graphs/top_pis.csv authors on
+    those papers, ranked by paper count (ties broken by core_paper_count
+    then name), top 5 -- same rule the comparison-framework skill states."""
+    paper_rows = con.execute(
+        "SELECT p.paper_id FROM papers p JOIN tags t ON t.paper_id = p.paper_id "
+        "WHERE p.core_set = 1 AND (t.tech_route = ? OR t.tech_route_secondary = ?)",
+        (route, route),
+    ).fetchall()
+    paper_ids = [r["paper_id"] for r in paper_rows]
+    if not paper_ids:
+        return {"value": "", "status": "no_source", "paper_ids": "", "project_rows": ""}
 
+    placeholders = ",".join("?" * len(paper_ids))
+    by_author = defaultdict(set)
+    for author_id, paper_id in con.execute(
+            f"SELECT author_id, paper_id FROM paper_authors WHERE paper_id IN ({placeholders})",
+            paper_ids):
+        if author_id in pis:
+            by_author[author_id].add(paper_id)
+    if not by_author:
+        return {"value": "", "status": "no_source", "paper_ids": "", "project_rows": ""}
+
+    ranked = sorted(by_author, key=lambda a: (-len(by_author[a]), -int(pis[a]["core_paper_count"]), pis[a]["author"]))
+    top = ranked[:5]
+    value = "; ".join(
+        f"{pis[a]['author']} ({pis[a]['institution'] or 'institution unknown'}) "
+        f"{len(by_author[a])} paper{'s' if len(by_author[a]) != 1 else ''}" for a in top)
+    paper_ids_out = sorted(set().union(*(by_author[a] for a in top)))
+    return {"value": value, "status": "derived", "paper_ids": ";".join(paper_ids_out), "project_rows": ""}
+
+
+def _recompute_companies(route, projects):
+    """Independent recompute of one route's companies cell: this script's
+    own read of data/projects.csv, nothing from pipeline.matrix_build."""
+    hits = [(n, r) for n, r in projects.items() if r["tech_route"] == route]
+    if not hits:
+        return {"value": "", "status": "no_source", "paper_ids": "", "project_rows": ""}
+    return {"value": "; ".join(r["entity"] for _, r in hits), "status": "reported",
+            "paper_ids": "", "project_rows": ";".join(str(n) for n, _ in hits)}
+
+
+def _academic_groups_companies_check(con, projects, pis, actual_rows, routes):
+    """Recompute academic_groups and companies independently (own SQL, own
+    CSV read, no pipeline.matrix_build import -- reusing the builder's code
+    would only show reproducibility, not correctness) and diff against
+    comparison_matrix.csv. This is the code check the task asks for; no
+    judgment needed."""
     items = []
-    for route in ROUTES:
-        papers = {p["paper_id"]: p for p in json.loads(
-            (WORK_DIR / f"route_{route}.json").read_text(encoding="utf-8"))}
-        for dim, fn, args in (("academic_groups", mb_ag, (papers, con, pis)),
-                              ("companies", mb_co, (projects,))):
-            recomputed = fn(route, *args)
-            actual = actual_rows[(route, dim)]
+    for route in routes:
+        for dim, recomputed in (("academic_groups", _recompute_academic_groups(con, route, pis)),
+                                 ("companies", _recompute_companies(route, projects))):
+            actual = actual_rows.get((route, dim), {})
             mismatches = [f for f in ("value", "status", "paper_ids", "project_rows")
                           if recomputed.get(f, "") != actual.get(f, "")]
             items.append({
                 "cell": f"{route}:{dim}", "result": "not_supported" if mismatches else "supported",
                 "reason": (f"recomputed {mismatches} differs from comparison_matrix.csv"
-                           if mismatches else "recomputed value, status and citations match comparison_matrix.csv"),
+                           if mismatches else "independently recomputed value, status and citations match comparison_matrix.csv"),
             })
     n_pass = sum(1 for it in items if it["result"] == "supported")
     return {"items": items, "pass": n_pass, "fail": len(items) - n_pass}
@@ -373,8 +458,9 @@ def check_b(con):
     with open(pis_path, newline="", encoding="utf-8") as f:
         pis = {r["author_id"]: r for r in csv.DictReader(f)}
     actual_rows = {(r["tech_route"], r["dimension"]): r for r in rows}
+    routes = sorted(set(r["tech_route"] for r in rows))  # read from the matrix itself, not a hardcoded list
 
-    ag_co_result = _academic_groups_companies_check(con, projects, pis, actual_rows)
+    ag_co_result = _academic_groups_companies_check(con, projects, pis, actual_rows, routes)
     ag_co_by_cell = {it["cell"]: it for it in ag_co_result["items"]}
 
     resolved = {}     # cell_id -> {"result": pass/fail, "reasons": [...]}
@@ -572,7 +658,7 @@ def run_merge():
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--merge", action="store_true",
-                         help="fold data/work/audit_run2_judgments.json into the prejudge result")
+                         help=f"fold {JUDGMENTS_PATH.relative_to(REPO_ROOT).as_posix()} into the prejudge result")
     args = parser.parse_args()
     if args.merge:
         run_merge()

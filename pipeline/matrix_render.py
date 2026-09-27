@@ -85,8 +85,10 @@ def render_matrix(rows):
            "carries the route. Every route has core papers.", "",
            "Category cells (integration, trl_band, ai_cluster_fit) hold only the controlled label. The reasoning is in the note. "
            "ai_cluster_fit follows the comparison-framework definition, so yes means an abstract uses or proposes the route for "
-           "accelerator clusters, reconfigurable data center topologies, or replacing a spine layer. The note says whether "
-           "any abstract names accelerators or machine learning directly.", "",
+           "accelerator clusters, reconfigurable data center topologies, or replacing a spine layer. partial means abstracts "
+           "name data centers or high-performance computing as a use but none of those three. no means the abstracts name "
+           "only other uses, such as telecom or access networks. A yes may rest on a projects.csv row, which the cell lists. "
+           "The note says whether any abstract names accelerators or machine learning directly.", "",
            "When a cell draws on several sources, the evidence holds one exact quote per source. The CSV separates them with || "
            "and this file shows the separator as // because a bar would break the table. "
            "projects.csv row N means the Nth data row of data/projects.csv, not counting the header.", "",

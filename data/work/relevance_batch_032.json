@@ -1,0 +1,202 @@
+[
+  {
+    "record_key": "openalex:W617071296",
+    "source": "openalex_snowball",
+    "title": "Semiconductor device fundamentals",
+    "year": 1996,
+    "venue": "CERN Document Server (European Organization for Nuclear Research)",
+    "abstract": "I. SEMICONDUCTOR FUNDAMENTALS. 1. Semiconductors -- A General Introduction. General Material Properties. Crystal Structure. Crystal Growth. 2. Carrier Modeling. The Quantization Concept. Semiconductor Models. Carrier Properties. State and Carrier Distributions. Equilibrium Carrier Concentrations. 3. Carrier Action. Drift. Diffusion. Recombination -- Generation. Equations of State. Supplemental Concepts. 4. Basics of Device Fabrication. Fabrication Processes. Device Fabrication Examples. R1. Part I Supplement and Review. Alternative/Supplemental Reading List. Figure Sources/Cited References. Review List of Terms. Part I Review Problem Sets and Answers. IIA. PN JUNCTION DIODES. 5. PN Junction Electrostatics. Preliminaries. Quantitative Electrostatic Relationships. 6. PN Junction Diode -- I-V Characteristics. The Ideal Diode Equation. Deviations from the Ideal. Special Considerations. 7. PN Junction Diode -- Small-Signal Admittance. Introduction. Reverse-Bias Junction Capacitance. Forward-Bias"
+  },
+  {
+    "record_key": "openalex:W1536656161",
+    "source": "openalex_snowball",
+    "title": "Optical Networks: A Practical Perspective",
+    "year": 1998,
+    "venue": null,
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W1566502265",
+    "source": "openalex_snowball",
+    "title": "Advances in Information Optics and Photonics",
+    "year": 2008,
+    "venue": "SPIE eBooks",
+    "abstract": "SPIE Press is the largest independent publisher of optics and photonics books - access our growing scientific eBook collection ranging from monographs, reference works, field guides, and tutorial texts."
+  },
+  {
+    "record_key": "openalex:W1645511984",
+    "source": "openalex_snowball",
+    "title": "The Intimate Integration of Photonics and Electronics",
+    "year": 2010,
+    "venue": "SPIE eBooks",
+    "abstract": "It is evident that computing and switching performance must continue to scale to meet the growing proliferation of computing and communications capability and the reduced price per performance expected from systems manufacturers. Indeed, we have already witnessed over five orders of magnitude improvement in compute performance-per-dollar over the last three decades, well in excess of the improvements delivered by technology scaling alone. In fact, the demand from applications is underserved by Moore's law, and requires continued scaling and improvements in efficiencies at the system level. Examples of such applications include content servers and high-performance computing. For reasons that include hiding memory and wire latency, reducing power dissipation, and managing design complexity, it is now evident that multi-core, multi-threaded processors are"
+  },
+  {
+    "record_key": "openalex:W1698388015",
+    "source": "openalex_snowball",
+    "title": "Hedera: dynamic flow scheduling for data center networks",
+    "year": 2010,
+    "venue": null,
+    "abstract": "Today’s data centers offer tremendous aggregate bandwidth to clusters of tens of thousands of machines. However, because of limited port densities in even the highest-end switches, data center topologies typically consist of multi-rooted trees with many equal-cost paths between any given pair of hosts. Existing IP multipathing protocols usually rely on per-flow static hashing and can cause substantial bandwidth losses due to longterm collisions. In this paper, we present Hedera, a scalable, dynamic flow scheduling system that adaptively schedules a multi-stage switching fabric to efficiently utilize aggregate network resources. We describe our implementation using commodity switches and unmodified hosts, and show that for a simulated 8,192 host data center, Hedera delivers bisection bandwidth that is 96 % of optimal and"
+  },
+  {
+    "record_key": "openalex:W1857009450",
+    "source": "openalex_snowball",
+    "title": "Flyways To De-Congest Data Center Networks.",
+    "year": 2009,
+    "venue": null,
+    "abstract": "Abstract – Astudyofapplicationdemandsfromaproductiondatacenterof1500serversshowsthatexceptforafewoutliers, application demandscan begenerally metbyanetwork that isslightly oversubscribed. Eliminating over-subscription is hence a needless overkill. In a significant departure from recent proposals that do so, we advocate a hybrid architecture. The base network is provisioned for the average case, is oversubscribed, and canbebuiltwith any ofthe existing networkdesigns. Totacklethehotspotsthatremain,weaddextra links on an on-demand basis. Theselinks called flywaysprovideadditional capacity whereandwhenneeded. Ourresults showthatevenafewadditional flywayssubstantially improve performance (by over 50%), as long as they are added at the right place in the network. We consider two design alternatives foradding flywaysatnegligibleadditional cost: onethat useswirelesslinks (60GHzor802.11n) andanother thatuses commodityswitchestoaddcapacityinarandomizedmanner. 1."
+  },
+  {
+    "record_key": "openalex:W2055090023",
+    "source": "openalex_snowball",
+    "title": "Building a RCP (Rate Control Protocol) Test Network",
+    "year": 2007,
+    "venue": null,
+    "abstract": "We recently proposed the Rate Control Protocol (RCP) as way to minimize download times (or flow-completion times). Simulations suggest that if RCP were widely deployed, downloads would frequently finish ten times faster than with TCP. This is because RCP involves explicit feedback from the routers along the path, allowing a sender to pick a fast starting rate, and adapt quickly to network conditions. RCP is particularly appealing because it can be shown to be stable under broad operating conditions, and its performance is independent of the flow-size distribution and the RTT. Although it requires changes to the routers, the changes are small: The routers keep no per-flow state or per-flow queues, and the per-packet processing is minimal. However, the bar"
+  },
+  {
+    "record_key": "openalex:W2059608229",
+    "source": "openalex_snowball",
+    "title": "Paths, Trees, and Flowers",
+    "year": 2009,
+    "venue": "Birkhäuser Boston eBooks",
+    "abstract": "A graph G for purposes here is a finite set of elements called vertices and a finite set of elements called edges such that each edge meets exactly two vertices, called the end-points of the edge. An edge is said to join its end-points. These keywords were added by machine and not by the authors. This process is experimental and the keywords may be updated as the learning algorithm improves."
+  },
+  {
+    "record_key": "openalex:W2063657191",
+    "source": "openalex_snowball",
+    "title": "IP switching-ATM under IP",
+    "year": 1998,
+    "venue": "IEEE/ACM Transactions on Networking",
+    "abstract": "Internet protocol (IP) traffic on the Internet and private enterprise networks has been growing exponentially for some time. This growth is beginning to stress the traditional processor-based design of current-day routers. Switching technology offers much higher aggregate bandwidth, but presently only offers a layer-2 bridging solution. Various proposals are under way to support IP routing over an asynchronous transfer mode (ATM) network. However, these proposals hide the real network topology from the IP layer by treating the data-link layer as a large opaque network cloud. We argue that this leads to complexity, inefficiency, and duplication of functionality in the resulting network. We propose an alternative in which we discard the end-to-end ATM connection and integrate fast ATM hardware directly with"
+  },
+  {
+    "record_key": "openalex:W2101352979",
+    "source": "openalex_snowball",
+    "title": "MDCube",
+    "year": 2009,
+    "venue": null,
+    "abstract": "Shipping-container-based data centers have been introduced as building blocks for constructing mega-data centers. However, it is a challenge on how to interconnect those containers together with reasonable cost and cabling complexity, due to the fact that a mega-data center can have hundreds or even thousands of containers and the aggregate bandwidth among containers can easily reach tera-bit per second. As a new inner-container server-centric network architecture, BCube [9] interconnects thousands of servers inside a container and provides high bandwidth support for typical traffic patterns. It naturally serves as a building block for mega-data center."
+  },
+  {
+    "record_key": "openalex:W2111366547",
+    "source": "openalex_snowball",
+    "title": "The iSLIP scheduling algorithm for input-queued switches",
+    "year": 1999,
+    "venue": "IEEE/ACM Transactions on Networking",
+    "abstract": "An increasing number of high performance internetworking protocol routers, LAN and asynchronous transfer mode (ATM) switches use a switched backplane based on a crossbar switch. Most often, these systems use input queues to hold packets waiting to traverse the switching fabric. It is well known that if simple first in first out (FIFO) input queues are used to hold packets then, even under benign conditions, head-of-line (HOL) blocking limits the achievable bandwidth to approximately 58.6% of the maximum. HOL blocking can be overcome by the use of virtual output queueing, which is described in this paper. A scheduling algorithm is used to configure the crossbar switch, deciding the order in which packets will be served. Previous results have shown that"
+  },
+  {
+    "record_key": "openalex:W2114497163",
+    "source": "openalex_snowball",
+    "title": "Data Center Switch Architecture in the Age of Merchant Silicon",
+    "year": 2009,
+    "venue": null,
+    "abstract": "Today, data center networks that scale to tens of thousands of ports require the use of highly-specialized ASICs, with correspondingly high development costs. Simultaneously, these networks also face significant performance and management limitations. Just as commodity processors and disks now form the basis of computing and storage in the data center, we argue that there is an opportunity to leverage emerging high-speed commodity merchant switch silicon as the basis for a scalable, cost-effective, modular, and more manageable data center network fabric. This paper describes how to save cost and power by repackaging an entire data center network as a distributed multi-stage switch using a fat-tree topology and merchant silicon instead of proprietary ASICs. Compared to a fat tree of discrete"
+  },
+  {
+    "record_key": "openalex:W2116377381",
+    "source": "openalex_snowball",
+    "title": "On the Feasibility of Optical Circuit Switching for High Performance Computing Systems",
+    "year": 2005,
+    "venue": null,
+    "abstract": "The interconnect plays a key role in both the cost and performance of large-scale HPC systems. The cost of future high-bandwidth electronic interconnects mushrooms due to expensive optical transceivers needed between electronic switches. We describe a potentially cheaper and more power-efficient approach to building high-performance interconnects. Through empirical analysis of HPC applications, we find that the bulk of inter-processor communication (barring collectives) is bounded in degree and changes very slowly or never. Thus we propose a two-network interconnect: An Optical Circuit Switching (OCS) network handling long-lived bulk data transfers, using optical switches; and a secondary lower-bandwidth Electronic Packet Switching (EPS) network. An OCS could be significantly cheaper, as it uses fewer optical transceivers than an electronic network. Collectives and transient"
+  },
+  {
+    "record_key": "openalex:W2117358494",
+    "source": "openalex_snowball",
+    "title": "Scaling internet routers using optics",
+    "year": 2003,
+    "venue": null,
+    "abstract": "Routers built around a single-stage crossbar and a centralized scheduler do not scale, and (in practice) do not provide the throughput guarantees that network operators need to make efficient use of their expensive long-haul links. In this paper we consider how optics can be used to scale capacity and reduce power in a router. We start with the promising load-balanced switch architecture proposed by C-S. Chang. This approach eliminates the scheduler, is scalable, and guarantees 100% throughput for a broad class of traffic. But several problems need to be solved to make this architecture practical: (1) Packets can be mis-sequenced, (2) Pathological periodic traffic patterns can make throughput arbitrarily small, (3) The architecture requires a rapidly configuring switch fabric, and"
+  },
+  {
+    "record_key": "openalex:W2126169247",
+    "source": "openalex_snowball",
+    "title": "High-speed switch scheduling for local-area networks",
+    "year": 1993,
+    "venue": "ACM Transactions on Computer Systems",
+    "abstract": "Current technology trends make it possible to build communication networks that can support high-performance distributed computing. This paper describes issues in the design of a prototype switch for an arbitrary topology point-to-point network with link speeds of up to 1 Gbit/s. The switch deals in fixed-length ATM-style cells, which it can process at a rate of 37 million cells per second. It provides high bandwidth and low latency for datagram traffic. In addition, it supports real-time traffic by providing bandwidth reservations with guaranteed latency bounds. The key to the switch's operation is a technique called parallel iterative matching , which can quickly identify a set of conflict-free cells for transmission in a time slot. Bandwidth reservations are accommodated in the"
+  },
+  {
+    "record_key": "openalex:W105472389",
+    "source": "openalex_snowball",
+    "title": "Proceedings of the ACM SIGCOMM 2022 Conference",
+    "year": 2022,
+    "venue": null,
+    "abstract": "It is our great pleasure to welcome you to SIGCOMM 2022, the flagship conference of the ACM Special Interest Group on Data Communications! It is of particular pleasure for us to greet you in person, in the lovely city of Amsterdam! As we all know well, \"it's all about networking\". And, even at this time and age, when it comes to human networking, nothing comes close to personal interactions. We are thus particularly excited to hold SIGCOMM 2022 as the first in-person instantiation of the conference after two virtual editions."
+  },
+  {
+    "record_key": "openalex:W1501077214",
+    "source": "openalex_snowball",
+    "title": "Principles and Practices of Interconnection Networks",
+    "year": 2004,
+    "venue": null,
+    "abstract": "One of the greatest challenges faced by designers of digital systems is optimizing the communication and interconnection between system components. Interconnection networks offer an attractive and economical solution to this communication crisis and are fast becoming pervasive in digital systems. Current trends suggest that this communication bottleneck will be even more problematic when designing future generations of machines. Consequently, the anatomy of an interconnection network router and science of interconnection network design will only grow in importance in the coming years. This book offers a detailed and comprehensive presentation of the basic principles of interconnection network design, clearly illustrating them with numerous examples, chapter exercises, and case studies. It incorporates hardware-level descriptions of concepts, allowing a designer to see all"
+  },
+  {
+    "record_key": "openalex:W1999085092",
+    "source": "openalex_snowball",
+    "title": "1.1 Computing's energy problem (and what we can do about it)",
+    "year": 2014,
+    "venue": null,
+    "abstract": "Our challenge is clear: The drive for performance and the end of voltage scaling have made power, and not the number of transistors, the principal factor limiting further improvements in computing performance. Continuing to scale compute performance will require the creation and effective use of new specialized compute engines, and will require the participation of application experts to be successful. If we play our cards right, and develop the tools that allow our customers to become part of the design process, we will create a new wave of innovative and efficient computing devices."
+  },
+  {
+    "record_key": "openalex:W2002555321",
+    "source": "openalex_snowball",
+    "title": "Roofline",
+    "year": 2009,
+    "venue": "Communications of the ACM",
+    "abstract": "The Roofline model offers insight on how to improve the performance of software and hardware."
+  },
+  {
+    "record_key": "openalex:W2028263411",
+    "source": "openalex_snowball",
+    "title": "Anton, a special-purpose machine for molecular dynamics simulation",
+    "year": 2008,
+    "venue": "Communications of the ACM",
+    "abstract": "The ability to perform long, accurate molecular dynamics (MD) simulations involving proteins and other biological macro-molecules could in principle provide answers to some of the most important currently outstanding questions in the fields of biology, chemistry, and medicine. A wide range of biologically interesting phenomena, however, occur over timescales on the order of a millisecond---several orders of magnitude beyond the duration of the longest current MD simulations. We describe a massively parallel machine called Anton, which should be capable of executing millisecond-scale classical MD simulations of such biomolecular systems. The machine, which is scheduled for completion by the end of 2008, is based on 512 identical MD-specific ASICs that interact in a tightly coupled manner using a specialized highspeed communication"
+  },
+  {
+    "record_key": "openalex:W2060204338",
+    "source": "openalex_snowball",
+    "title": "The Datacenter as a Computer: An Introduction to the Design of Warehouse-Scale Machines",
+    "year": 2009,
+    "venue": "Synthesis lectures on computer architecture",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W2082887106",
+    "source": "openalex_snowball",
+    "title": "Doubly twisted torus networks for VLSI processor arrays",
+    "year": 1981,
+    "venue": "International Symposium on Computer Architecture",
+    "abstract": "The twisted torus processing surface, introduced and analyzed by Martin,1,2 is extended to contain a double twist and then mapped into a two-dimensional network suitable for implementation on a VLSI wafer. The result is a homogeneous, isotropic multiprocessor configuration without boundaries. Every processor has four nearest neighbors, and the interconnections between all pairs of processors are of approximately equal length. Special attention is given to mapping binary trees onto the processor array. Most divide-and-conquer-type problems will distribute themselves relatively uniformly over all available processors. Nine building blocks are introduced that will permit making doubly twisted torus arrays of arbitrary sizes."
+  },
+  {
+    "record_key": "openalex:W2097561580",
+    "source": "openalex_snowball",
+    "title": "The Illiac IV system",
+    "year": 1972,
+    "venue": "Proceedings of the IEEE",
+    "abstract": "The reasons for the creation of Illiac IV are described and the history of the Illiac IV project is recounted. The architecture or hard-ware structure of the Illiac IV is discussed--the Illiac IV array is an array processor with a specialized control unit (CU) that can be viewed as a small stand-alone computer. The Illiac IV software strategy is described in terms of current user habits and needs. Brief descriptions are given of the systems software itself, its history, and the major lessons learned during its development. Some ideas for future development are suggested. Applications of Illiac IV are discussed in terms of evaluating the function f(x) simultaneously on up to 64 distinct argument sets xi. Many of the time-consuming"
+  },
+  {
+    "record_key": "openalex:W2134839001",
+    "source": "openalex_snowball",
+    "title": "Communication Requirements and Interconnect Optimization for High-End Scientific Applications",
+    "year": 2009,
+    "venue": "IEEE Transactions on Parallel and Distributed Systems",
+    "abstract": "The path toward realizing next-generation petascale and exascale computing is increasingly dependent on building supercomputers with unprecedented numbers of processors. To prevent the interconnect from dominating the overall cost of these ultrascale systems, there is a critical need for scalable interconnects that capture the communication requirements of ultrascale applications. It is, therefore, essential to understand high-end application communication characteristics across a broad spectrum of computational methods, and utilize that insight to tailor interconnect designs to the specific requirements of the underlying codes. This work makes several unique contributions toward attaining that goal. First, we conduct one of the broadest studies to date of high-end application communication requirements, whose computational methods include: finite difference, lattice Boltzmann, particle-in-cell, sparse linear algebra, particle-mesh"
+  },
+  {
+    "record_key": "openalex:W2156275124",
+    "source": "openalex_snowball",
+    "title": "Synchronization and communication in the T3E multiprocessor",
+    "year": 1996,
+    "venue": null,
+    "abstract": "This paper describes the synchronization and communication primitives of the Cray T3E multiprocessor, a shared memory system scalable to 2048 processors. We discuss what we have learned from the T3D project (the predecessor to the T3E) and the rationale behind changes made for the T3E. We include performance measurements for various aspects of communication and synchronization.The T3E augments the memory interface of the DEC 21164 microprocessor with a large set of explicitly-managed, external registers (E-registers). E-registers are used as the source or target for all remote communication. They provide a highly pipelined interface to global memory that allows dozens of requests per processor to be outstanding. Through E-registers, the T3E provides a rich set of atomic memory operations and a"
+  }
+]

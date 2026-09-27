@@ -152,6 +152,25 @@
     "match": "secondary"
   },
   {
+    "paper_id": "W2186837746",
+    "title": "Optical vortex beam based optical fan for high-precision optical measurements and optical switching",
+    "year": 2014,
+    "venue": "Optics Letters",
+    "abstract": "The polarization and orbital angular momentum properties of light are of great importance in optical science and technology in the fields of high-precision optical measurements and high-capacity and high-speed optical communications. Here we show a method for the construction of a simple and robust scheme to rotate a light beam such as a fan, which is based on a combination of these two properties and using the thermal-dispersion and electro-optical effect of birefringent crystals. Using a computer-based digital image-processing technique, we determine the temperature and thermal-dispersion difference of the crystal with high resolution. We also use the rotation phenomenon to realize thermo-optic and electro-optic switches. The basic operating principles for measurement and switching processes are presented in detail. The methods developed here will have wide practical applicability in various fields, including remote sensing, materials science, and optical communication networks.",
+    "cited_by_count": 55,
+    "tags": {
+      "tech_route": "thermo_optic",
+      "tech_route_secondary": "electro_optic",
+      "integration": "free_space_bulk",
+      "trl_band": "lab",
+      "ai_dc_fit": "none",
+      "adjacent_field": null,
+      "evidence_span": "We also use the rotation phenomenon to realize thermo-optic and electro-optic switches.",
+      "confidence": "medium"
+    },
+    "match": "secondary"
+  },
+  {
     "paper_id": "W1558865741",
     "title": "Design and Fabrication of Low-Insertion-Loss and Low-Crosstalk Broadband $2\\times 2$ Mach–Zehnder Silicon Photonic Switches",
     "year": 2015,
@@ -167,6 +186,25 @@
       "adjacent_field": null,
       "evidence_span": "We present the design, fabrication, and measurement results of low-insertion-loss and low-crosstalk broadband 2 × 2 Mach-Zehnder switches for nanosecond-scale optical data routing applications.",
       "confidence": "medium"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W1998881035",
+    "title": "A compact plasmonic MOS-based 2x2 electro-optic switch",
+    "year": 2015,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "We report on a three-waveguide electro-optic switch for compact photonic integrated circuits and data routing applications. The device features a plasmonic metal-oxide-semiconductor (MOS) mode for enhanced light-matter-interactions. The switching mechanism originates from a capacitor-like design where the refractive index of the active medium, Indium-Tin-Oxide, is altered via shifting the plasma frequency due to carrier accumulation inside the waveguide-based MOS structure. This light manipulation mechanism controls the transmission direction of transverse magnetic polarized light into either a CROSS or BAR waveguide port. The extinction ratio of 18 dB (7) dB for the CROSS (BAR) state, respectively, is achieved via a gating voltage bias. The ultrafast broadband fJ/bit device allows for seamless integration with Siliconon- Insulator platforms to for low-cost manufacturing.",
+    "cited_by_count": 3,
+    "tags": {
+      "tech_route": "electro_optic",
+      "tech_route_secondary": null,
+      "integration": "integrated_photonic",
+      "trl_band": "lab",
+      "ai_dc_fit": "unclear",
+      "adjacent_field": null,
+      "evidence_span": "We report on a three-waveguide electro-optic switch for compact photonic integrated circuits and data routing applications.",
+      "confidence": "high"
     },
     "match": "primary"
   },
@@ -283,6 +321,25 @@
       "confidence": "high"
     },
     "match": "secondary"
+  },
+  {
+    "paper_id": "W3004483219",
+    "title": "Plasmonic monolithic lithium niobate directional coupler switches",
+    "year": 2020,
+    "venue": "Nature Communications",
+    "abstract": "Lithium niobate (LN) has been the material of choice for electro-optic modulators owing to its excellent physical properties. While conventional LN electro-optic modulators continue to be the workhorse of the modern optoelectronics, they are becoming progressively too bulky, expensive, and power-hungry to fully serve the needs of this industry. Here, we demonstrate plasmonic electro-optic directional coupler switches consisting of two closely spaced nm-thin gold nanostripes on LN substrates that guide both coupled electromagnetic modes and electrical signals that control their coupling, thereby enabling ultra-compact switching and modulation functionalities. Extreme confinement and good spatial overlap of both slow-plasmon modes and electrostatic fields created by the nanostripes allow us to achieve a 90% modulation depth with 20-μm-long switches characterized by a broadband electro-optic modulation efficiency of 0.3 V cm. Our monolithic LN plasmonic platform enables a wide range of cost-effective optical communication applications that demand μm-scale footprints, ultrafast operation and high environmental stability.",
+    "cited_by_count": 99,
+    "tags": {
+      "tech_route": "electro_optic",
+      "tech_route_secondary": null,
+      "integration": "integrated_photonic",
+      "trl_band": "lab",
+      "ai_dc_fit": "none",
+      "adjacent_field": "silicon_photonics",
+      "evidence_span": "Here, we demonstrate plasmonic electro-optic directional coupler switches consisting of two closely spaced nm-thin gold nanostripes on LN substrates that guide both coupled electromagnetic modes and electrical signals that control their coupling, thereby enabling ultra-compact switching and modulation functionalities.",
+      "confidence": "medium"
+    },
+    "match": "primary"
   },
   {
     "paper_id": "W4297053117",

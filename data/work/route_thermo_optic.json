@@ -133,6 +133,25 @@
     "match": "primary"
   },
   {
+    "paper_id": "W2186837746",
+    "title": "Optical vortex beam based optical fan for high-precision optical measurements and optical switching",
+    "year": 2014,
+    "venue": "Optics Letters",
+    "abstract": "The polarization and orbital angular momentum properties of light are of great importance in optical science and technology in the fields of high-precision optical measurements and high-capacity and high-speed optical communications. Here we show a method for the construction of a simple and robust scheme to rotate a light beam such as a fan, which is based on a combination of these two properties and using the thermal-dispersion and electro-optical effect of birefringent crystals. Using a computer-based digital image-processing technique, we determine the temperature and thermal-dispersion difference of the crystal with high resolution. We also use the rotation phenomenon to realize thermo-optic and electro-optic switches. The basic operating principles for measurement and switching processes are presented in detail. The methods developed here will have wide practical applicability in various fields, including remote sensing, materials science, and optical communication networks.",
+    "cited_by_count": 55,
+    "tags": {
+      "tech_route": "thermo_optic",
+      "tech_route_secondary": "electro_optic",
+      "integration": "free_space_bulk",
+      "trl_band": "lab",
+      "ai_dc_fit": "none",
+      "adjacent_field": null,
+      "evidence_span": "We also use the rotation phenomenon to realize thermo-optic and electro-optic switches.",
+      "confidence": "medium"
+    },
+    "match": "primary"
+  },
+  {
     "paper_id": "W1558865741",
     "title": "Design and Fabrication of Low-Insertion-Loss and Low-Crosstalk Broadband $2\\times 2$ Mach–Zehnder Silicon Photonic Switches",
     "year": 2015,
@@ -150,6 +169,44 @@
       "confidence": "medium"
     },
     "match": "secondary"
+  },
+  {
+    "paper_id": "W2217470677",
+    "title": "High-performance and power-efficient 2×2 optical switch on Silicon-on-Insulator",
+    "year": 2015,
+    "venue": "Optics Express",
+    "abstract": "A compact (15µm × 15µm) and highly-optimized 2×2 optical switch is demonstrated on a CMOS-compatible photonic crystal technology. On-chip insertion loss are below 1 dB, static and dynamic contrast are 40 dB and >20 dB respectively. Owing to efficient thermo-optic design, the power consumption is below 3 mW while the switching time is 1 µs.",
+    "cited_by_count": 14,
+    "tags": {
+      "tech_route": "thermo_optic",
+      "tech_route_secondary": null,
+      "integration": "integrated_photonic",
+      "trl_band": "lab",
+      "ai_dc_fit": "unclear",
+      "adjacent_field": null,
+      "evidence_span": "Owing to efficient thermo-optic design, the power consumption is below 3 mW while the switching time is 1 µs.",
+      "confidence": "high"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W2234047666",
+    "title": "Ultra-compact and wide-spectrum-range thermo-optic switch based on silicon coupled photonic crystal microcavities",
+    "year": 2015,
+    "venue": "Applied Physics Letters",
+    "abstract": "We design, fabricate, and experimentally demonstrate a compact thermo-optic gate switch comprising a 3.78 μm-long coupled L0-type photonic crystal microcavities on a silicon-on-insulator substrate. A nanohole is inserted in the center of each individual L0 photonic crystal microcavity. Coupling between identical microcavities gives rise to bonding and anti-bonding states of the coupled photonic molecules. The coupled photonic crystal microcavities are numerically simulated and experimentally verified with a 6 nm-wide flat-bottom resonance in its transmission spectrum, which enables wider operational spectrum range than microring resonators. An integrated micro-heater is in direct contact with the silicon core to efficiently drive the device. The thermo-optic switch is measured with an optical extinction ratio of 20 dB, an on-off switching power of 18.2 mW, a thermo-optic tuning efficiency of 0.63 nm/mW, a rise time of 14.8 μs, and a fall time of 18.5 μs. The measured on-chip loss on the transmission band is as low as 1 dB.",
+    "cited_by_count": 19,
+    "tags": {
+      "tech_route": "thermo_optic",
+      "tech_route_secondary": null,
+      "integration": "integrated_photonic",
+      "trl_band": "lab",
+      "ai_dc_fit": "unclear",
+      "adjacent_field": null,
+      "evidence_span": "The thermo-optic switch is measured with an optical extinction ratio of 20 dB, an on-off switching power of 18.2 mW, a thermo-optic tuning efficiency of 0.63 nm/mW, a rise time of 14.8 μs, and a fall time of 18.5 μs.",
+      "confidence": "high"
+    },
+    "match": "primary"
   },
   {
     "paper_id": "W2324604385",
@@ -207,6 +264,25 @@
       "confidence": "medium"
     },
     "match": "primary"
+  },
+  {
+    "paper_id": "W2748818791",
+    "title": "Silicon waveguide optical switch with embedded phase change material",
+    "year": 2017,
+    "venue": "Optics Express",
+    "abstract": "Phase-change materials (PCMs) have emerged as promising active elements in silicon (Si) photonic systems. In this work, we design, fabricate, and characterize a hybrid Si-PCM optical switch. By integrating vanadium dioxide (a PCM) within a Si photonic waveguide, in a non-resonant geometry, we achieve ~10 dB broadband optical contrast with a PCM length of 500 nm using thermal actuation.",
+    "cited_by_count": 104,
+    "tags": {
+      "tech_route": "other",
+      "tech_route_secondary": "thermo_optic",
+      "integration": "integrated_photonic",
+      "trl_band": "lab",
+      "ai_dc_fit": "unclear",
+      "adjacent_field": null,
+      "evidence_span": "In this work, we design, fabricate, and characterize a hybrid Si-PCM optical switch.",
+      "confidence": "medium"
+    },
+    "match": "secondary"
   },
   {
     "paper_id": "W2758695468",
@@ -285,6 +361,44 @@
     "match": "primary"
   },
   {
+    "paper_id": "W3030859832",
+    "title": "Thermo-Optic Properties of Silicon-Rich Silicon Nitride for On-chip Applications",
+    "year": 2020,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "We demonstrate the thermo-optic properties of silicon-rich silicon nitride (SRN) films deposited using plasma-enhanced chemical vapor deposition (PECVD). Shifts in the spectral response of Mach-Zehnder Interferometers (MZIs) as a function of temperature were used to characterize the thermo-optic coefficients of silicon nitride films with varying silicon contents. A clear relation is demonstrated between the silicon content and the exhibited thermo-optic coefficient in silicon nitride films, with the highest achievable coefficient being as high as (1.65+/-0.08) x 10-4 K-1. Furthermore, we realize an SRN Multi-Mode Interferometer (MMI) based thermo-optic switch with over 20 dB extinction ratio and total power consumption for two-port switching of 50 mW.",
+    "cited_by_count": 2,
+    "tags": {
+      "tech_route": "thermo_optic",
+      "tech_route_secondary": null,
+      "integration": "integrated_photonic",
+      "trl_band": "lab",
+      "ai_dc_fit": "none",
+      "adjacent_field": "silicon_photonics",
+      "evidence_span": "Furthermore, we realize an SRN Multi-Mode Interferometer (MMI) based thermo-optic switch with over 20 dB extinction ratio and total power consumption for two-port switching of 50 mW.",
+      "confidence": "high"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W3114768400",
+    "title": "Thermo-optic refraction in MoS2 medium for “Normally on” all optical switch",
+    "year": 2020,
+    "venue": "Optical Materials",
+    "abstract": null,
+    "cited_by_count": 14,
+    "tags": {
+      "tech_route": "thermo_optic",
+      "tech_route_secondary": null,
+      "integration": "unclear",
+      "trl_band": "unclear",
+      "ai_dc_fit": "none",
+      "adjacent_field": "silicon_photonics",
+      "evidence_span": "Thermo-optic refraction in MoS2 medium for “Normally on” all optical switch",
+      "confidence": "low"
+    },
+    "match": "primary"
+  },
+  {
     "paper_id": "W3119039973",
     "title": "Scalable and Fast Optical Circuit Switch Based on Colorless Coherent Detection: Design Principle and Experimental Demonstration",
     "year": 2021,
@@ -299,6 +413,25 @@
       "ai_dc_fit": "unclear",
       "adjacent_field": null,
       "evidence_span": "Microsecond switching times are realized with the thermo-optic effect available with the Silicon-photonic TF.",
+      "confidence": "high"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W4285390819",
+    "title": "Silicon–organic hybrid thermo-optic switch based on a slot waveguide directional coupler",
+    "year": 2022,
+    "venue": "Optics Letters",
+    "abstract": "We propose and demonstrate a passively biased 2 × 2 thermo-optic switch with high power efficiency and fast response time. The device benefits from the highly concentrated optical field of a slot waveguide mode and the strong thermo-optic effect of a nematic liquid crystal (NLC) cladding. The NLC fills the nano-slot region and is aligned by the subwavelength grating inside. The measured power consumption and thermal time constant are 0.58 mW and 11.8 µs, respectively, corresponding to a figure-of-merit of 6.8 mW µs. The proposed silicon-organic hybrid device provides a new solution to design thermo-optic actuators having low power consumption and fast operation speed.",
+    "cited_by_count": 10,
+    "tags": {
+      "tech_route": "thermo_optic",
+      "tech_route_secondary": null,
+      "integration": "integrated_photonic",
+      "trl_band": "lab",
+      "ai_dc_fit": "none",
+      "adjacent_field": "silicon_photonics",
+      "evidence_span": "We propose and demonstrate a passively biased 2 × 2 thermo-optic switch with high power efficiency and fast response time.",
       "confidence": "high"
     },
     "match": "primary"
@@ -451,6 +584,25 @@
       "ai_dc_fit": "indirect",
       "adjacent_field": null,
       "evidence_span": "Herein, we propose a new switching method by thermo-optic waveguide lens.",
+      "confidence": "high"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W4402705205",
+    "title": "Fast thermo-optic switching on silicon nitride platform through parity-time symmetry breaking",
+    "year": 2024,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "Reconfigurable photonic integrated circuits (PICs) are key elements for emerging applications like photonic sensing, LiDAR, and quantum computing. In such applications, optical switches with fast response and robust fabrication methods are crucial for reprogramming linear optical transformations on demand. Here, we demonstrate a fast thermo-optic switching mechanism on the silicon nitride on insulator platform, leveraging parity-time symmetry breaking. The cladding-free design operating at 775 nm enables optical propagation in a partially metal-covered waveguide with minimal loss—an uncommon phenomenon given the typical absorption associated with metal proximity. The fabricated device exhibits a 7.1 µs rise time for a π phase shift, despite the weak thermo-optic coefficient in silicon nitride. Our design provides reproducible fabrication metrics and holds promises for large-scale photonic networks operating at visible wavelengths.",
+    "cited_by_count": 3,
+    "tags": {
+      "tech_route": "thermo_optic",
+      "tech_route_secondary": null,
+      "integration": "integrated_photonic",
+      "trl_band": "lab",
+      "ai_dc_fit": "none",
+      "adjacent_field": null,
+      "evidence_span": "Here, we demonstrate a fast thermo-optic switching mechanism on the silicon nitride on insulator platform, leveraging parity-time symmetry breaking.",
       "confidence": "high"
     },
     "match": "primary"

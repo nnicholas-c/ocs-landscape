@@ -798,12 +798,12 @@
     "match": "primary"
   },
   {
-    "paper_id": "arxiv:2608.03146",
+    "paper_id": "W7172527693",
     "title": "Zero-change foundry compatible silicon photonics MEMS optical switch",
     "year": 2026,
-    "venue": "arXiv",
+    "venue": "arXiv (Cornell University)",
     "abstract": "Large-scale photonic switches are emerging as essential devices for energy-efficient optical interconnect in data centers and AI/ML clusters as a key enabler for high-bandwidth and low-latency connectivity. Combining micro-electro-mechanical (MEMS) based mechanical reconfigurability with silicon photonic integrated circuits can enable a large-scale, low-loss, programmable platform required for large-scale optical circuit switches. We demonstrate a broadband silicon photonics MEMS switch with more than 30 dB extinction ratio operating in C-band using a zero-change foundry-compatible process and Back-end-of-Line (BEOL) post-processing. The optical switch element exhibits an insertion loss of less than 1.5 dB with a low static power consumption of approx 20 nW at maximum actuation voltage. Our results illustrate that MEMS-based silicon photonics modulators and phase shifters can be used alongside standard silicon photonics components seamlessly in scenarios where performance in terms of footprint, extinction ratio, broad bandwidth, and low-loss operation is of paramount importance.",
-    "cited_by_count": null,
+    "cited_by_count": 0,
     "tags": {
       "tech_route": "mems_silicon_photonic",
       "tech_route_secondary": null,
