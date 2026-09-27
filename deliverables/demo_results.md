@@ -1,6 +1,6 @@
 # Small-sample demo results
 
-Every number points to a file or to a query Q1 to Q18, listed at the end. Numbers are run 2's, the arXiv rebuild as rerun in step 2 (the anchor papers), unless marked run 1. Run 2 took arXiv content through OpenAlex's arXiv index, labelled arxiv_via_openalex (STATUS.md, 16:50 line). Rounds 1 to 3 are run 1's audits, and run 2's rates come from the run 2 audit after the anchor papers. The auditor runs the four checks, and the second judge re-checks each stage. MEMS is micro-electro-mechanical systems.
+Every number points to a file or to a query Q1 to Q18, listed at the end. Numbers are run 2's, the arXiv rebuild as rerun in step 2 (the anchor papers), unless marked run 1. Run 2 took arXiv content through OpenAlex's arXiv index, labelled arxiv_via_openalex (STATUS.md, 16:50 line). Rounds 1 to 3 are run 1's audits, and run 2's rates come from the run 2 audit after the anchor papers. The auditor runs the four checks, and the second judge re-checks each stage. MEMS is micro-electro-mechanical systems, LCoS is liquid crystal on silicon, SOA is semiconductor optical amplifier, CMOS is complementary metal-oxide-semiconductor, and AI is artificial intelligence.
 
 ## Numbers
 
@@ -75,7 +75,7 @@ Records per query (Q1) count the first query that found each record (deliverable
 | arxiv_via_openalex (run 2) | silicon photonic switch | 31 |
 | arxiv_via_openalex (run 2) | optical circuit switching | 0 new (STATUS.md, 15:58 line) |
 
-In run 1, arXiv's other 9 phrases got HTTP (web protocol) errors 429 and 406, so their zeros say nothing about arXiv's content (STATUS.md, stage 1a line). Gate A counted 10 of 13 anchors found, missing Jupiter Evolving, RotorNet, and c-Through, whose lookup hit an unrelated 1999 paper (STATUS.md, Gate A line). The real c-Through came in through the snowball. By full title or DOI, 8 of 13 are in the data, and 3 more match only by title prefix (Q18). Step 2 fetched the other two by DOI, but OpenAlex keeps only the title words before the colon, so the title check scored 23.88 and 23.19 against 95 and both were removed (data/work/step2_anchors.md; Q17).
+In run 1, arXiv's other 9 phrases got HTTP (web protocol) errors 429 and 406, so their zeros say nothing about arXiv's content (STATUS.md, stage 1a line). Gate A counted 10 of 13 anchors found, missing Jupiter Evolving, RotorNet, and c-Through, whose lookup hit an unrelated 1999 paper (STATUS.md, Gate A line). The real c-Through came in through the snowball. Step 2 fetched the other two by DOI, but OpenAlex keeps only the title words before the colon, so the title check scored 23.88 and 23.19 against 95 and both were removed (data/work/step2_anchors.md; Q17).
 
 ### Relevance and dedup
 
@@ -97,7 +97,7 @@ Because more than 200 records scored 2 or 3, Gate A kept score 3 only as the cor
 | core set | 284 | 14 |
 | extended set (core plus adjacent) | 420 | 26 |
 
-(Q3.) 53 core papers have no venue (Q3).
+53 core papers have no venue (Q3).
 
 ## Technology map
 
@@ -135,6 +135,39 @@ Core papers by tag, run 2 from Q4, Q5, and Q6, run 1 from STATUS.md, 06:27 line.
 architecture_only is the largest group, 105 of 284 (Q4). These papers use an optical circuit switch (OCS) in a network design rather than build one. Among devices, silicon photonic MEMS leads with 43, thermo_optic grew most, and 236 core papers are lab work (Q4, Q5).
 
 The 43 reflects how the sample was built. In run 1 one phrase supplied 27 of the 43, and the only 3D MEMS phrase added 0 core papers (deliverables/number_checks.md, section 1). Phrase queries start in 2012, and 4 of 16 mems_3d core papers are older, against 3 of 43 (pipeline/queries.yaml; Q14).
+
+### Chart (graphs/tech_map.html)
+
+[graphs/tech_map.html](../graphs/tech_map.html) plots core papers by route and TRL (technology readiness level) band (pipeline/tech_map.py).
+
+| tech_route | lab | pilot | production | unclear | total |
+|---|---|---|---|---|---|
+| architecture_only | 84 | 0 | 2 | 19 | 105 |
+| unclear | 25 | 0 | 1 | 18 | 44 |
+| mems_silicon_photonic | 43 | 0 | 0 | 0 | 43 |
+| thermo_optic | 27 | 0 | 0 | 3 | 30 |
+| mems_3d | 12 | 1 | 1 | 2 | 16 |
+| electro_optic | 14 | 0 | 0 | 0 | 14 |
+| other | 12 | 0 | 0 | 1 | 13 |
+| soa | 11 | 0 | 0 | 0 | 11 |
+| mems_2d | 3 | 0 | 0 | 0 | 3 |
+| lcos | 2 | 0 | 0 | 0 | 2 |
+| piezo | 2 | 0 | 0 | 0 | 2 |
+| robotic_patch_panel | 1 | 0 | 0 | 0 | 1 |
+| all 12 routes plotted | 236 | 1 | 4 | 43 | 284 |
+| core papers with no tags row, not plotted | | | | | 0 |
+
+No radar chart was drawn, because only 3 of the 6 numeric matrix dimensions are reported for 5 or more of the 9 routes and a radar needs at least 4 such dimensions (pipeline/tech_map.py).
+
+| numeric dimension | routes with a reported value, of 9 | qualifies, 5 or more routes |
+|---|---|---|
+| switching_time | 7 | yes |
+| insertion_loss | 7 | yes |
+| port_count | 8 | yes |
+| polarization_dependent_loss | 2 | no |
+| crosstalk | 4 | no |
+| wavelength_range | 4 | no |
+| qualifying dimensions, 4 needed | 3 of 6 | no radar, graphs/tech_radar.html not written |
 
 ## Team map
 
@@ -217,6 +250,17 @@ Run 2 skipped the scout (STATUS.md, 16:50 line), so these are run 1's 12 rows (Q
 
 Several evidence dates are fetch dates (data/projects.csv, note column). Polatis "shipping" is the scout's stage, and its quote "describes the mechanism and not availability" (deliverables/comparison_matrix.csv, piezo trl_band note).
 
+[graphs/project_timeline.html](../graphs/project_timeline.html) plots the projects.csv rows with a known first_public_date and lists the rest under the chart without a guessed date (pipeline/project_timeline.py).
+
+| stage | plotted, date known | listed, date unknown | all rows |
+|---|---|---|---|
+| concept | 0 | 0 | 0 |
+| prototype | 1 (UTStarcom, 2026-09-21) | 1 (nEye) | 2 |
+| pilot | 0 | 0 | 0 |
+| shipping | 2 (Telescent, 2024-03-21; iPronics, 2025-03-31) | 3 (Calient, Google, Polatis) | 5 |
+| unknown | 1 (Coherent, 2024-03-25) | 4 (Drut Technologies, Lightmatter, Lumentum, Oriole Networks) | 5 |
+| all stages | 4 | 8 | 12 |
+
 ## Comparison matrix
 
 The full matrix with paper IDs and quotes is deliverables/comparison_matrix.md, written by pipeline/matrix_render.py. Its top-level table follows, cut at 70 characters per cell by the script (TABLE_CELL_MAX).
@@ -233,13 +277,21 @@ The full matrix with paper IDs and quotes is deliverables/comparison_matrix.md, 
 | soa | 115 to under 900 ps | lossless; ON-state gain above 14.3 dB | 4 x 4 fabricated; 128 x 128 emulated in a recirculating loop | [not reported] | [not reported] | [not reported] | integrated_photonic | Quantum-dot SOA switch elements can be operated uncooled; chip-on-c... | lab | A. Wonfor (University of Cambridge) 4 papers; Ian H. White (Univers... | [no source] | yes | [not reported] | Signal impairments limit the port count of conventional SOA switche... |
 | robotic_patch_panel | [not reported] | [not reported] | [not reported] | [not reported] | [not reported] | [not reported] | mechanical_fiber | Connection mechanisms that let the robot handle and connect angled... | production | Mitsuhiro Makihara (NTT (Japan)) 1 paper; Masato MIZUKAMI (NTT (Jap... | Telescent | no | [not reported] | [not reported] |
 
-Of the 126 cells, 80 are reported, 33 are not reported in any abstract, 9 are derived, and 4 have no source (Q9). Step 2's rebuild moved 4 cells from reported to not reported, against 84, 29, 9, and 4 before it and 81, 32, 9, and 4 in run 1 after the rework (STATUS.md, 14:36 and 21:04 lines).
+Step 2's rebuild moved 4 cells from reported to not reported (STATUS.md, 21:04 line).
+
+| status | run 1 after the rework | run 2 before step 2 | run 2 after step 2 | source |
+|---|---|---|---|---|
+| reported | 81 | 84 | 80 | STATUS.md, 14:36 and 21:04 lines; Q9 |
+| not_reported_in_abstract | 32 | 29 | 33 | same |
+| derived | 9 | 9 | 9 | same |
+| no_source | 4 | 4 | 4 | same |
+| all cells | 126 | 126 | 126 | same |
 
 ## Audit results
 
 ### Run 2 audit after the anchor papers
 
-This audit (seed 20260929) gives run 2's rates. It passed Gate C on its first round, so no second round ran. The broader signal is the census of all 27 category cells, which has no gate, where the auditor found 3 unsupported (deliverables/validation_report.md, Run 2 audit after the anchor papers).
+This audit (seed 20260929) gives run 2's rates (deliverables/validation_report.md, Run 2 audit after the anchor papers).
 
 | how the audit was run | first run 2 audit | run 2 audit after the anchor papers | source |
 |---|---|---|---|
@@ -260,7 +312,7 @@ This audit (seed 20260929) gives run 2's rates. It passed Gate C on its first ro
 | (d) all evidence spans, pass rate | at least 90 percent | 100 percent of 376, PASS | 100 percent of 376, PASS | 100 percent of 376, PASS | 100 percent of 420, PASS | 100 percent of 420, PASS | 100 percent of 420, PASS |
 | category census, unsupported cells | no gate | not run | not run | 3 of 27 | 4 of 27 | 2 of 27 | 3 of 27 |
 
-In the first run 2 audit (seed 20260928), for two of the three failures, the quote "is a different, nearby sentence that does not itself say it" (validation_report.md, Run 2 audit). Its second round's 0 percent shows the fixes worked, not the state of a fresh sample (same file, Corrections after code review, item 4). CMOS is complementary metal-oxide-semiconductor.
+In the first run 2 audit (seed 20260928), for two of the three failures, the quote "is a different, nearby sentence that does not itself say it" (validation_report.md, Run 2 audit). Its second round's 0 percent shows the fixes worked, not the state of a fresh sample (same file, Corrections after code review, item 4).
 
 | cell | where it failed | auditor's words (deliverables/validation_report.md, the last three rows from the run 2 audit after the anchor papers) | first run 2 audit, second round | run 2 audit after the anchor papers |
 |---|---|---|---|---|
