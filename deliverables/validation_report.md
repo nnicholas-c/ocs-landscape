@@ -1423,3 +1423,561 @@ deliverables/pitfalls_original_log.md (line 186), which says "Row 5
 (Polatis) has stage shipping but its quote describes the mechanism, not
 availability, so piezo trl_band stays lab." The reason given in the section
 above matches that line. Only the citation was wrong.
+
+---
+
+## Corrections after the step 7 style and source check
+
+This section was added after a style and source check of this file, run
+against the version at commit f363229. That commit is what `git rev-parse
+HEAD` and `git rev-parse origin/master` both currently give,
+f3632295dccacb0d4ec42f626826c0cb22fa9c3b. The checked version has 1425 lines
+(`git show origin/master:deliverables/validation_report.md | wc -l`), not the
+longer working-tree file this section is being appended to.
+
+The check's saved output is
+C:\Users\Nicho\AppData\Local\Temp\claude\C--Users-Nicho-Desktop-Claude-local-yuxuan\9d3d5322-8aa3-4b2d-b953-b48132df7282\scratchpad\step7_pregate.json,
+a session scratchpad file outside this repository that a reader of this
+report cannot open. Its findings array lists 50 entries, though its own
+summary sentence says 48. No two of the 50 entries share the same line and
+problem text, so 50 is the real count, and this section addresses all 50.
+
+Every section above this one is left exactly as first written, and nothing in
+it has been edited, removed, or softened.
+
+A raw byte comparison of this file against `git show
+origin/master:deliverables/validation_report.md` differs starting at the
+28th byte, because this repository's core.autocrlf git setting is true, so
+the working tree stores Windows line endings (a carriage return followed by
+a line feed) while the git blob stores Unix line endings (a line feed
+alone). This is not a content change. After converting the working tree
+copy's line endings from Windows style to Unix style, its first 81474
+bytes, the whole length of the origin/master blob, match that blob exactly.
+`git diff origin/master --
+deliverables/validation_report.md` confirms the same thing at the line level,
+reporting only added lines and 0 deleted lines, so every line above this
+heading is unchanged from origin/master.
+
+Items are grouped as definitions, then factual corrections, then numbers
+without a source, then style, the order the check itself recommended. Each
+item names the line and section of the wrong or unsourced text, quotes it
+briefly, and gives the corrected text with its source. Every number below was
+recomputed from data/db/papers.sqlite, the data/work/audit_*.json files, git
+history, PLAN.md, pipeline/audit.py, or the pitfalls logs, not copied from the
+check's own proposed fix text.
+
+### Definitions
+
+Abbreviations used above without a definition at first use.
+
+- API. Application programming interface, the service a program calls (line 597).
+- CMOS. Complementary metal-oxide-semiconductor, the standard process for making silicon chips (line 120).
+- CSV. Comma-separated values, a plain-text table file (line 409).
+- DOI. Digital Object Identifier, a permanent identifier for a paper (line 542).
+- GET. The plain page request of HTTP, the Hypertext Transfer Protocol (line 142, line 73).
+- GPU, TPU, and ML. Graphics processing unit, tensor processing unit, and machine learning (line 736).
+- HTML. Hypertext Markup Language, the format of web pages (line 494).
+- ID. Identifier (line 59).
+- ISO-8859-1. An old Western European text encoding from the International Organization for Standardization (line 152).
+- JSON. JavaScript Object Notation, a plain-text data file format (line 39).
+- LLM. Large language model (line 414).
+- MEMS. Micro-electro-mechanical systems, tiny moving mirrors or actuators built like chips (line 116).
+- OCS. Optical circuit switching, the subject of this report (line 1275).
+- SQL. Structured Query Language, used to query data/db/papers.sqlite (line 550).
+- URL. Uniform Resource Locator, a web address (line 48).
+- UTC. Coordinated Universal Time. It is used from line 38 but only defined on line 1060.
+- n/a and vs. Not applicable, and versus (line 1303, line 190).
+
+(Every line number above is the first use of that abbreviation in this file,
+checked by grep against deliverables/validation_report.md.)
+
+Terms used above without a definition.
+
+- Round 2 (padded). The rerun of the first matrix after its category values were padded with quote words in parentheses so the check's own shared-word test would pass, as explained under Round 3 (this file, lines 314 to 332).
+- Gate C. The stage 7 pass rule in PLAN.md (line 129), first named on line 21 of this file.
+- C band and C+L band. The conventional (C) and long (L) wavelength bands used in fiber-optic links, first named on line 398.
+- Tech route codes such as mems_3d, lcos, piezo, and soa. Each is defined in one line in deliverables/framework.md, under "Tagging rubric" (for example mems_3d, line 12, and piezo, line 16, of that file).
+
+### Factual corrections
+
+#### 1. Line 88, Round 1, check (b): how many sampled cells cite a project row
+
+The Method paragraph says a cell fails "if evidence_quote is not a verbatim
+substring of a cited paper's stored abstract or of a cited project row's
+evidence_quote (per the comparison-framework skill's own definition, since 7
+of the 20 sampled cells cite a project row instead of a paper)". That
+parenthetical is attached to the verbatim-substring clause (lines 85 to 88),
+not to the separate value-sharing clause that follows it in the same sentence
+(line 89).
+
+Only 3 of the 20 sampled cells cite a project row. They are mems_3d:trl_band
+(project rows 1 and 4, paper W4292950821), mems_silicon_photonic:trl_band
+(project row 8, paper W3138799074), and piezo:trl_band (project row 5, no
+paper_id). The source is the paper_ids and project_rows fields of
+b_matrix_cells.items in data/work/audit_round1.json, and STATUS.md's
+2026-09-26 07:28 line (line 34) already flags the same "7 of 20" text as
+wrong and gives the same figure of 3.
+
+#### 2. Line 170, Round 1, other observations: how many failures sit on thin routes
+
+This section says "4 of the 5 check (b) failures sit on tech routes with very
+few core papers".
+
+Only 1 of the 5 failing cells does. The five routes had 2 core papers (piezo),
+11 (soa), 12 (electro_optic), 15 (mems_3d), and 43 (mems_silicon_photonic), by
+primary tech_route among core_set=1 papers in data/db/papers.sqlite at commit
+8172417, so mems_silicon_photonic is the largest device route in run 1's core
+set, not a thin one. STATUS.md's 2026-09-26 07:28 line (line 34) already gives
+these same five counts and says "1 of 5". Round 2's other observations (this
+file, lines 285 to 287) repeat the wrong "4 of 5" claim, and it is wrong there
+too.
+
+#### 3. Line 282, Round 2 (padded), other observations: piezo:trl_band's citations after the fix
+
+This section says the cell "is still built from projects.csv row 5 (Polatis)
+plus one paper (W2591729902)".
+
+After the stage 6 fix, piezo:trl_band cites paper W2591729902 only, with no
+project row (b_matrix_cells.items of data/work/audit_round2.json, and the
+paper_ids and project_rows columns of deliverables/comparison_matrix.csv at
+commit 8172417). Row 5 appears only in the cell's note, as background for the
+downgrade (same file). Round 1's observation about thin evidence for this cell
+still applies, because it now rests on one paper whose abstract, per
+pitfalls.md, does not use the word piezo (deliverables/pitfalls.md, line 263).
+
+#### 4. Line 368, Round 3, check (a): the retry count of the direct test
+
+This section says "one bare retry loop with delay_seconds=10 and
+num_retries=5 took 50 seconds before raising the same HTTP 406".
+
+Read num_retries=3, not 5. The log line for that test gives delay_seconds=10
+and num_retries=3, and says one direct test took 50 seconds before raising
+(deliverables/pitfalls_original_log.md, line 144, and deliverables/pitfalls.md,
+line 95). No file records a test with num_retries=5.
+
+#### 5. Line 420, Round 3, check (b): which cells the auditor actually read
+
+This section says "the auditor read all 29 candidate cells (the 20-cell Gate C
+sample plus all 27 reported category cells, deduplicated)".
+
+The 29 candidate cells are the 27 reported category cells plus 2 free-text
+cells that landed in the Gate C sample, mems_2d:packaging_notes and
+soa:scaling_limit (pending_judgment_cell_ids and category_census_ids of
+b_matrix_cells_stage1 in data/work/audit_run2_prejudge.json). Only 7 of the
+20 Gate C sample cells are among those 29; the other 13 of the 20 were
+resolved by code (gate_sample_ids compared against pending_judgment_cell_ids,
+same file).
+
+#### 6. Line 38, Round 1: the run time
+
+This section says "Run at 2026-09-26T14:14 UTC".
+
+No file records a run at that time. The saved round 1 output was written at
+2026-09-26T14:21:02Z (generated_at in data/work/audit_round1.json). STATUS.md's
+2026-09-26 07:28 line (line 34) already flags this same "14:14 UTC" against the
+same "14:21:02Z" as a mismatch.
+
+#### 7. Line 193, Round 2 (padded): a zoned time next to unzoned ones
+
+This section gives the run as 14:37:16Z and says stage 6's fix is logged
+"in deliverables/pitfalls.md at 07:36", with no zone on the second time.
+
+Every unzoned HH:MM time in STATUS.md, deliverables/pitfalls.md, and
+deliverables/pitfalls_original_log.md (including 07:36, 17:11, 17:40, 19:24,
+20:08, 21:04, 14:36, 17:06, and 21:21 elsewhere in this file) is local time, 7
+hours behind UTC. Read that way, the 07:36 fix in pitfalls.md (line 268) is
+14:36 UTC, about a minute before round 2's run at 14:37:16Z, not 7 hours
+before it. Likewise, the 21:21 STATUS.md line for the seed 20260929 audit is
+04:21 UTC on 2026-09-27, about 15 minutes after that audit's generated_at of
+2026-09-27T04:06:18Z (data/work/audit_s20260929_round1.json).
+
+Note on time zones. STATUS.md and the two pitfalls logs never state
+their own time zone, and their times are local, 7 hours behind UTC (UTC-7).
+The evidence is this repository's own git history. Every commit through
+f363229 carries a -07:00 offset (`git log --date=iso-strict`, for example
+2a60dc7 at 2026-09-26T22:21:46-07:00), and no commit carries any other
+offset.
+
+#### 8. Line 349, Round 3, Gate C summary: which "round 1" passed
+
+This section says "Gate C passes on round 1".
+
+This means the first audit round of Round 3 (after the fix), under the old
+naming the preamble describes. It does not mean Round 1 of this report, which
+failed Gate C (gate_pass is false for check (b) in data/work/audit_round1.json).
+
+#### 9. Line 190, Round 2 (padded): a note that does not exist under that name
+
+This section points to a "Round 2 vs round 1" note under each check.
+
+No check has a note by that name. The comparison is the sentence "Sample is
+identical to round 1" in the Method paragraphs of checks (a), (b), and (c)
+(lines 214, 231, and 254 of this file). Check (d) is exhaustive, so it has no
+sample to compare.
+
+#### 10. Line 1314, other observations: which quotes are really from the Apollo paper
+
+This section calls two of mems_3d:trl_band's quotes "the two Apollo-paper
+sentences".
+
+mems_3d:trl_band cites paper W4292950821 (title "Mission Apollo: Landing
+Optical Circuit Switching at Datacenter Scale") and project rows 1 (Google)
+and 4 (Calient), three quotes joined by " || " in deliverables/comparison_matrix.csv.
+Only the first quote, "In this paper, we describe Apollo...", is in that
+paper's stored abstract (data/db/papers.sqlite). The second quote, "Over
+multiple years, we designed and built Apollo OCS...", is row 1's own
+evidence_quote in data/projects.csv, and the third, the one this section calls
+weak, "With over 1 million port switches shipped...", is row 4's (same file).
+Neither of the last two sentences appears in the paper's abstract.
+
+### Numbers without a source
+
+#### 11. Line 58: the 267 core papers and the 16/4 split
+
+The 267 core_set=1 papers are the row count of that query against
+data/db/papers.sqlite at commit 8172417, run 1's database. The split into 16
+papers re-fetched from OpenAlex and 4 arXiv-only papers is the paper_id prefix
+of a_refetch.items in data/work/audit_round1.json (16 without an "arxiv:"
+prefix, 4 with one). The same 267 recurs on line 353 of Round 3, with the same
+source.
+
+#### 12. Line 62: the gate limits and the citation tolerance
+
+The 10 percent limit for checks (a) and (b), 20 percent for check (c), 90
+percent for check (d), and the 10 percent cited_by_count tolerance are all in
+PLAN.md's Gate C line (line 129), and pipeline/audit.py applies the citation
+tolerance in check_a (line 298 at commit f363229). Of the 18
+data/work/audit_*.json files named in this report, 6 merged-result files (for
+example data/work/audit_round1.json) carry a gate_threshold of 0.1, 0.1, 0.2,
+and 0.9 for checks (a) through (d), and 4 prejudge files carry the same three
+thresholds for (a), (c), and (d) but none for (b), because (b) is not yet
+merged at that stage. The remaining 8 files, all judge_input and judgments
+files, carry no gate_threshold at all, and where a value is present every
+file agrees (read directly from all 18 files, for example
+data/work/audit_r2data_prejudge.json). This is the source for every "percent
+gate" or "percent limit" phrase in this file, including "within 10 percent"
+on lines 62, 358, 594, and 1222.
+
+#### 13. Line 71: the 4 errors and their HTTP 406 status
+
+The 4 errors and their HTTP 406 status are the error field of a_refetch.items
+in data/work/audit_round1.json and data/work/audit_round2.json. All 4 items in
+each file begin "Page request resulted in HTTP 406". The same 4 errors recur
+on lines 222 to 225 (Round 2, check (a)) and line 271 (Round 2, other
+observations), sourced by the same two files.
+
+#### 14. Line 82: the 126 matrix rows and 82 reported cells
+
+126 is the row count of deliverables/comparison_matrix.csv at commit 8172417.
+The 82 reported cells are STATUS.md's 2026-09-26 14:36 line (line 41), which
+gives "run 1 was reported 82", and deliverables/pitfalls.md's 07:36 line (line
+268), which counts "21 of 82 reported cells". The same 82 on line 247 of Round
+2 has the same source.
+
+#### 15. Line 99: the 3-letter rule and the 70-to-25 percent drop
+
+The rule of 3 or more letters for a content word is the regular expression in
+value_tokens in pipeline/audit.py at commit 8172417 (lines 83 to 89). The
+first draft's 70 percent fail rate is deliverables/pitfalls.md's 07:22 line
+(line 342). The 25 percent is b_matrix_cells.rate_fail in
+data/work/audit_round1.json.
+
+#### 16. Line 141: the 12 projects.csv rows and the 10 drawn
+
+12 is the row count of data/projects.csv at commit 8172417 (round 1), fe89ad5
+(round 3), and 2b97e9a (run 2 audit); it is still 12 in the current working
+tree. The 10 drawn rows are c_project_evidence.sample_size in
+data/work/audit_round1.json, data/work/audit_run2_round1.json, and
+data/work/audit_r2data_round1.json. The same numbers recur on lines 474 and
+746.
+
+#### 17. Line 319: the 18-of-27 padded cells and the 0 after the rework
+
+18 of the 27 reported integration, trl_band, and ai_cluster_fit cells contain
+a parenthesis in the value column of deliverables/comparison_matrix.csv at
+commit 8172417, the matrix Round 2 audited. After the rework, at commit
+fe89ad5, 0 of 27 do (same column, same query).
+
+#### 18. Line 353: the method split, run 1's drops, and the retry test
+
+The 16 papers re-fetched by method "openalex" and the 4 by
+"arxiv_html_fallback" are the method field of a_refetch.items in
+data/work/audit_run2_round1.json. Run 1's 4 of 20 dropped papers are the error
+field of a_refetch.items in data/work/audit_round1.json. The 50-second direct
+test is deliverables/pitfalls.md, line 95 (see also item 4 above).
+
+#### 19. Line 385: the reported/derived split and the companies split
+
+The status and dimension columns of deliverables/comparison_matrix.csv at
+commit fe89ad5 give 81 reported and 9 derived cells, 33 reported measured
+cells, and a companies split of 5 reported and 4 no_source. STATUS.md's
+2026-09-26 14:36 line (line 41) gives the same 81 and 9 for run 1 after the
+fix. Line 399's claim that all 33 reported measured cells passed both the
+ID/quote check and the number check is the resolved field of
+b_matrix_cells_stage1 in data/work/audit_run2_prejudge.json, which resolves
+exactly 33 measured-dimension cells and marks every one of them "pass". The
+18-of-18 recompute is academic_groups_companies_check.pass in
+data/work/audit_run2_round1.json.
+
+#### 20. Line 444: the category census fail rates
+
+11.1 percent (24 pass, 3 fail), 14.8 percent (23 pass, 4 fail), and 7.4
+percent (25 pass, 2 fail) are category_census.rate_fail, with its pass and
+fail fields, in data/work/audit_run2_round1.json (round 3),
+data/work/audit_r2data_round1.json (run 2 audit, round 1), and
+data/work/audit_r2data_round2.json (run 2 audit, second round). Counting
+each file's category_census.items by its own per-item result and ignoring
+the stored rate_fail field gives the same three counts in every file, so
+the three stored rates are correct.
+
+The same rates recur on line 715, and line 715 itself reads 14.8 percent,
+the run 2 audit round 1 figure, not 11.1 percent as an earlier draft of
+this correction said. They also recur on lines 860 and 861 (14.8 and 7.4
+percent together), and on lines 935 and 936 (7.4 percent, then round 1's
+14.8 percent again), all sourced by the same three files.
+
+#### 21. Line 498: the 4 not_supported cells and the 18-cell recompute
+
+The 4 not_supported cells are the 1 Gate C failure plus the 3 census failures,
+b_matrix_cells.fail and category_census.fail in data/work/audit_run2_round1.json.
+The 0 mismatches across 18 cells on line 507 is
+academic_groups_companies_check.fail (0) in the same file.
+
+#### 22. Line 519: run 2's 284 core papers and 420 tags rows
+
+284 core papers and 420 tags rows are counts in data/db/papers.sqlite at
+commit 2b97e9a. Run 1's 267 core papers and 376 tags rows are the same counts
+at commit 8172417. The 284 on lines 587, 802, and 1217 has the same source,
+and it is unchanged at commit 4bc8129 and in the current database.
+
+#### 23. Line 577: "1.5 times its threshold"
+
+1.5 is the 15 percent fail rate (b_matrix_cells.rate_fail) divided by the 10
+percent gate_threshold, both in data/work/audit_r2data_round1.json.
+
+#### 24. Line 588: the 17/3 method split and the 0-versus-null citation counts
+
+17 lookups by method "openalex_id" and 3 by "openalex_doi_singleton" are the
+method field of a_refetch.items in data/work/audit_r2data_round1.json (also
+true of data/work/audit_r2data_round2.json). The refetched cited_by_count of 0
+against a stored null, for the same 3 arXiv-only papers (arxiv:2202.05487,
+arxiv:2510.03891, arxiv:2602.12521), is the refetched and stored fields of
+those items.
+
+#### 25. Line 629: the 36 reported measured cells and the 35-of-36 pass
+
+36 reported measured cells are the status and dimension columns of
+deliverables/comparison_matrix.csv at commit 2b97e9a. 35 pass and 1 fails
+(thermo_optic:wavelength_range), per the resolved field of
+data/work/audit_r2data_prejudge.json, which has no dimension column of its
+own; it is a dict keyed by "tech_route:dimension" strings such as
+"mems_3d:switching_time", matched here against the 36 cells' tech_route and
+dimension columns in comparison_matrix.csv.
+
+#### 26. Line 638: the 9 academic_groups and companies 5/4 split
+
+The status column of deliverables/comparison_matrix.csv at commit 2b97e9a
+gives 9 derived academic_groups cells and a companies split of 5 reported and
+4 no_source. The
+18-of-18 recompute is academic_groups_companies_check.pass in
+data/work/audit_r2data_round1.json and data/work/audit_r2data_round2.json.
+
+#### 27. Line 646: the 27/16 category and free-text split and the 31 judged
+
+27 reported category cells and 16 reported free-text cells are the status and
+dimension columns of deliverables/comparison_matrix.csv at commit 2b97e9a. The
+31 cells sent for judgment, 4 of them free-text cells from the Gate C sample
+(thermo_optic:packaging_notes, mems_silicon_photonic:packaging_notes,
+thermo_optic:scaling_limit, and lcos:packaging_notes), are
+pending_judgment_cell_ids and category_census_ids of b_matrix_cells_stage1 in
+data/work/audit_r2data_prejudge.json. The same 16 reported free-text cells
+recur on line 1116, sourced by the same column of the same file.
+
+#### 28. Line 770: the 4 failing census cells and the 9 routes
+
+The 4 failing census cells are category_census.fail in
+data/work/audit_r2data_round1.json. 9 is the count of distinct tech_route
+values in deliverables/comparison_matrix.csv at commit 2b97e9a, which
+STATUS.md's 2026-09-26 17:11 line (line 54) describes as "9 routes x 14
+dimensions".
+
+#### 29. Line 802: the 31 core papers with no openalex_id, of 284
+
+31 core papers with no openalex_id, out of 284, are counts of core_set=1 rows
+in data/db/papers.sqlite at commit 2b97e9a; the count is still 31 at commit
+f363229 and in the current database (same query).
+
+#### 30. Line 840: the 27-of-31 unchanged verdicts and the 4 that changed
+
+Comparing the supported field of each of the 31 cells in
+data/work/audit_r2data_judgments.json (round 1) against
+data/work/audit_r2data_round2_judgments.json (second round) gives 27 unchanged
+and 4 changed. The 4 that flipped from not_supported to supported are
+thermo_optic:packaging_notes, electro_optic:integration,
+mems_silicon_photonic:packaging_notes, and thermo_optic:integration. The 2
+still not_supported in the second round are mems_2d:integration and
+soa:ai_cluster_fit (same two files).
+
+#### 31. Line 1174: the title check limit, the failing scores, and 284/420
+
+The title check limit of 95 and the failing scores, 23.88 (Jupiter Evolving)
+and 23.19 (RotorNet), are in STATUS.md's 2026-09-26 21:51 line (line 77),
+which also gives 284 core papers and 420 extended papers. The 420 tags rows
+are d_evidence_spans.sample_size in data/work/audit_s20260929_round1.json.
+
+#### 32. Line 1309: the route sizes
+
+These route sizes are not in data/work/audit_s20260929_round1.json, which line
+1194 of this file names as the source of every number in that section. They
+are counts of core_set=1 papers by primary tech_route in
+data/db/papers.sqlite at commit 4bc8129. The counts are 1 robotic_patch_panel
+paper, 2 lcos, 2 piezo, and 43 mems_silicon_photonic.
+
+#### 49. Line 793, Run 2 audit, other observations: the 0 mismatches across 18 cells
+
+This sentence gives academic_groups and companies "0 mismatches across all
+18 cells" with no source. This is a different occurrence from the same
+phrase on line 507, which item 21 above already sources to round 3; line
+793 is the run 2 audit round 1 section, so it needs its own source.
+
+Counting academic_groups_companies_check.items in
+data/work/audit_r2data_round1.json by each item's own result field, every
+one of the 18 items reads "supported", so there are 0 mismatches, matching
+the file's own stored pass (18) and fail (0) fields.
+
+### Style
+
+Claim-colon-evidence sentences, each rewritten as two sentences or joined with
+"because" or "so", per .claude/skills/report-format/SKILL.md.
+
+#### 33. Line 240, Round 2 (padded), check (b)
+
+This sentence should read "Per deliverables/pitfalls.md, the fix was at the source. Quotes
+in data/work/matrix_cells.yaml were rewritten to lead with the sentence that
+names the signal word for the value, for example the W1979338531
+"monolithically integrated" quote for electro_optic:integration."
+
+#### 34. Line 529, Run 2 audit (seed 20260928)
+
+This sentence should read "This run's audit files carry the audit_r2data_ prefix, so none
+of the earlier rounds' data/work/audit_* files were read for input or
+overwritten. The prejudge output is at data/work/audit_r2data_prejudge.json.
+The judge input and judgments behind the category and free-text cells are at
+data/work/audit_r2data_judge_input.json and data/work/audit_r2data_judgments.json,
+and the final merged result is at data/work/audit_r2data_round1.json."
+
+#### 35. Line 621, Run 2 audit, check (b)
+
+This sentence should read "Every reported or derived cell gets the same mechanical check of
+its IDs and quotes. Every cited paper_id must exist in the database, every
+cited project_rows number must exist in projects.csv, and every quote in
+evidence_quote must be a verbatim substring of a cited paper's abstract or a
+cited project row's evidence_quote."
+
+#### 36. Line 629, Run 2 audit, check (b)
+
+This sentence should read "Measured cells get one more automatic check. Every number in
+value, and for wavelength_range every band name such as "C band" or "C+L
+band", must appear in at least one of the cell's quotes."
+
+#### 37. Line 697, Run 2 audit, check (b)
+
+This sentence should read "The failures thermo_optic:packaging_notes and
+mems_silicon_photonic:packaging_notes share a new pattern. The value's claim
+is true and stated somewhere in the cited paper's abstract, but the sentence
+pipeline/matrix_build.py's extract() function picked as that clause's quote is
+a different, nearby sentence that does not say it."
+
+#### 38. Line 706, Run 2 audit, check (b)
+
+This sentence should read "The third failure, electro_optic:integration, is round 3's
+paraphrase gap on the opposite value. Round 3 found the gap on
+free_space_bulk cells (mems_3d:integration and mems_2d:integration), and
+mems_2d:integration fails again this round. This round the gap also appears
+on an integrated_photonic cell for the first time."
+
+#### 39. Line 785, Run 2 audit, other observations
+
+This sentence should read "The wrong-sentence failures, thermo_optic:packaging_notes and
+mems_silicon_photonic:packaging_notes, point at
+pipeline/matrix_build.py's extract() function or at the anchor phrases in
+data/work/matrix_cells.yaml, not at the underlying papers. Both papers state
+the claimed detail in a sentence next to the one that got quoted."
+
+#### 40. Line 798, Run 2 audit, other observations
+
+This sentence should read "Check (a) found no mismatches and, for the first time across
+every round of this audit, needed no fallback to arxiv.org/abs. Every
+arXiv-only paper in this sample resolved through OpenAlex's own free DOI
+lookup."
+
+#### 41. Line 824, Run 2 audit, second round
+
+This sentence should read "This round reran pipeline/audit.py with the same seed, SEED =
+20260928, and the same audit_r2data_ file prefix, so every sample from round 1
+is exactly reproduced. Check (a) drew the same 20 core papers, check (b) the
+same 20-cell Gate C sample and 27-cell category census, check (c) the same 10
+projects.csv rows, and check (d) all tags rows (sampled_ids of each check and
+the category_census items in data/work/audit_r2data_round1.json and
+data/work/audit_r2data_round2.json, which are identical)."
+
+#### 42. Line 859, Run 2 audit, rate comparison of both rounds
+
+This sentence should read "The category census covers the 27 reported category cells and
+is not part of Gate C. 23 of 27 passed in round 1 (14.8 percent fail) and 25
+of 27 in the second round (7.4 percent fail) (category_census in
+data/work/audit_r2data_round1.json and data/work/audit_r2data_round2.json)."
+
+#### 43. Line 876, Run 2 audit, check (a), second round
+
+This sentence should read "The second round re-fetched the same 20 papers as round 1,
+because it used the same seed. 17 were looked up by OpenAlex ID and 3 by the
+OpenAlex arXiv DOI singleton lookup (arxiv:2202.05487, arxiv:2510.03891,
+arxiv:2602.12521). The papers table did not change between rounds, only the
+comparison matrix did, so the result matches round 1. 20 of 20 passed, 0
+failed, and the mismatch rate was 0 percent (a_refetch in
+data/work/audit_r2data_round2.json)."
+
+#### 44. Line 890 and line 896, Run 2 audit, check (b), second round
+
+Line 890 should read "Measured cells. As in round 1, 35 of 36 pass the number
+check (resolved field of data/work/audit_r2data_round2_prejudge.json)."
+
+Line 896 should read "academic_groups and companies. As in round 1, 18 of 18
+recomputed cells match comparison_matrix.csv exactly, independent of
+pipeline.matrix_build (academic_groups_companies_check in
+data/work/audit_r2data_round2.json)."
+
+#### 45. Line 937, Run 2 audit, census, second round
+
+This sentence should read "thermo_optic:integration, one of round 1's 4 census failures
+(category_census in data/work/audit_r2data_round1.json), now passes. Its
+quotes are "We demonstrate a low-crosstalk 2 x 2 thermo-optic switch with
+silicon wire waveguides" (paper W1985329895) and a switch-chip description
+naming "waveguide crossings" (paper W4378650891), and both name a waveguide
+and a chip directly."
+
+#### 46. Line 1245, Run 2 audit after the anchor papers, check (b)
+
+This sentence should read "The auditor read 30 cells, comparing each label definition
+against the value and the quoted sentences (pending_judgment_cell_ids in
+data/work/audit_s20260929_prejudge.json). Item 2 of the pull request #4
+corrections above explains why these 30 are not all of the remaining cells."
+
+#### 47. Line 1328, Run 2 audit after the anchor papers, other observations
+
+This sentence should read "piezo:trl_band has the opposite history. The stage 6 rebuild
+reworded it from "production" to "lab" because "production" could not be tied
+to a shipping claim (deliverables/pitfalls_original_log.md, line 186, as item
+3 of the pull request #4 corrections above states)."
+
+#### 48. Line 3 and the 28 other lines listed by the check: long paragraphs
+
+Acknowledgment, not a rewrite. A sentence-count check of this file confirms
+that many paragraphs above run past the three-or-four-sentence limit in
+.claude/skills/report-format/SKILL.md. The step 7 check named the paragraphs
+starting at lines 3, 12, 58, 70, 91, 126, 293, 314, 353, 362, 450, 463, 498,
+535, 587, 627, 734, 839, 1019, 1053, 1077, 1104, 1122, 1163, 1170, 1336, 1352,
+1385, and 1399. This file is append-only, so they are left as first written.
+A future deliverable that quotes one of them should split it at the point of
+use, not repeat it whole.
