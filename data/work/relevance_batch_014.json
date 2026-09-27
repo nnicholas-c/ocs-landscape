@@ -1,0 +1,202 @@
+[
+  {
+    "record_key": "openalex:W2786734285",
+    "source": "openalex",
+    "title": "128 × 128 silicon photonic MEMS switch package using glass interposer and pitch reducing fibre array",
+    "year": 2017,
+    "venue": null,
+    "abstract": "We design and fabricate the packaging of 128 × 128 silicon photonic MEMS switch device using through glass via (TGV) interposer and pitch reducing fibre array. The switch device contains 16384 MEMS switch cells and 272 grating couplers spaced at 63.5 μm in a compact footprint of 17.4 mm × 16 mm. The apodised grating couplers designed for 1300 nm have an insertion loss of 2.5 dB/facet at 10° coupling angle. The 0.5 mm thick glass interposer contains 512 electrical vias while the pitch reducing optical coupling array is polished to 40° for planar coupling."
+  },
+  {
+    "record_key": "openalex:W1945545782",
+    "source": "openalex",
+    "title": "Reliability study of digital silicon photonic MEMS switches",
+    "year": 2015,
+    "venue": null,
+    "abstract": "We report on the reliability test of 50×50 digital silicon photonic MEMS switches. The switch operates reliably over 10 billion cycles and up to 48 hours of continuous contact in ambient environment without packaging."
+  },
+  {
+    "record_key": "openalex:W3139267661",
+    "source": "openalex",
+    "title": "Low-Voltage Silicon Photonic MEMS Switch with Vertical Actuation",
+    "year": 2021,
+    "venue": null,
+    "abstract": "We present a vertically movable silicon photonic MEMS switch realized in IMEC's standard silicon photonics platform followed by a dedicated postprocessing for MEMS release. The device has six optical ports, which enable four switching configurations with a safe electrical isolation of the switch's actuator. A low actuation voltage of 3.75 V is required to efficiently switch the optical signal from the drop port to the through port of the device. The device exhibits port extinctions of 16 dB and 26 dB at its OFF and ON states, respectively. With an insertion loss of35 nm, this component paves the way for low-power scalable circuits in MEMS-enabled silicon photonics."
+  },
+  {
+    "record_key": "openalex:W1976569985",
+    "source": "openalex",
+    "title": "50×50 Digital Silicon Photonic Switches with MEMS-Actuated Adiabatic Couplers",
+    "year": 2015,
+    "venue": "Optical Fiber Communication Conference",
+    "abstract": "We report on monolithically integrated 50×50 digital silicon photonic switches with MEMS actuation, sub-microsecond switching time, low optical insertion loss (<9.6dB), high extinction ratio (50dB), broadband operation (1400-1700nm), and compact footprint (7.6×7.6mm2)."
+  },
+  {
+    "record_key": "openalex:W2919451605",
+    "source": "openalex",
+    "title": "Pluggable Silicon Photonic MEMS Switch Package for Data Centre",
+    "year": 2018,
+    "venue": null,
+    "abstract": "Consumers’ thirst for data has led to the development of various silicon photonic switching devices that are highly scalable while maintaining their relatively compact form factor at the same time. This demands a paradigm shift in the way these devices are being packaged, as optical and electrical ports are involved. In this article, we proposed a pluggable silicon photonic MEMS switch package with passive optical coupling assembly. This approach shifts fibre coupling away from the package, keeping it “purely electrical.” The pluggable concept is separately demonstrated through spring contacted hybrid assembly and pairs of vertically stack surface gratings. Insertion losses are comparable to planar fibre-to-grating coupling, with relatively broadband transmission and assembly tolerance."
+  },
+  {
+    "record_key": "openalex:W2581695752",
+    "source": "openalex",
+    "title": "12×12 packaged digital silicon photonic MEMS switches",
+    "year": 2016,
+    "venue": null,
+    "abstract": "We report on the first electrical and optical packaging of digital silicon photonic MEMS switches with 12×12 ports, 13~18dB fiber-to-fiber loss, 10-11BER for 10-Gb/s datastream, 0.4μs switch reconfiguration time, and <;1.6V (5%) switching voltage variations."
+  },
+  {
+    "record_key": "openalex:W4414694752",
+    "source": "openalex",
+    "title": "Nonvolatile silicon photonic MEMS switches enabled by van der Waals force",
+    "year": 2025,
+    "venue": "Science Advances",
+    "abstract": "The rapid development of artificial intelligence has catalyzed substantial progress in photonic information processing, which requires ultralow-power photonic switches for extensive circuit reconfiguration. Nonvolatile switches with zero static power are promising, but current phase change material approaches face challenges including unreliable durability, high switching energy, complicated fabrication, and compromised scalability. Here, we propose and demonstrate a nonvolatile silicon photonic microelectromechanical system (MEMS) switch enabled by tailored stiction effect based on van der Waals (vdW) force. The device uses a unique split waveguide crossing (SWX) with a push-pull MEMS actuator to efficiently switch the mode propagation. The vdW force between two halves of the combined SWX with zero gap provides reliable nonvolatility. The device features 0.23-decibel excess loss, 44.4-decibel extinction ratio,"
+  },
+  {
+    "record_key": "openalex:W2226395753",
+    "source": "openalex",
+    "title": "Monolithic 50×50 MEMS Silicon Photonic Switches with Microsecond Response Time",
+    "year": 2014,
+    "venue": "Optical Fiber Communication Conference",
+    "abstract": "We report on 50×50 MEMS-actuated silicon photonic switches with 16V switching voltage and microsecond switching time. 2,500 MEMS cantilever 1×2 waveguide switches have been integrated on 9mm×9mm chips."
+  },
+  {
+    "record_key": "openalex:W2738975469",
+    "source": "openalex",
+    "title": "Large-Scale Silicon Photonic MEMS Switch",
+    "year": 2015,
+    "venue": "UC Berkeley",
+    "abstract": "Fast optical circuit switches with large port count will allow flexible bandwidth allocation in datacenter networks by augmenting electrical packet switching. Here we report microsecond speed optical circuit switch with 50x50 port counts implemented on silicon photonics platform using MEMS actuated directional couplers. The switch has fast switching speed (2.5 µs response time), high on-off extinction ratio (25 dB), small footprint (9x9 mm2), and simple fabrication process (3 lithography steps). We believe that our switch port-count can be scaled up to 100 x 100 and beyond."
+  },
+  {
+    "record_key": "openalex:W4281560993",
+    "source": "openalex",
+    "title": "Integrated 1 × 3 MEMS silicon nitride photonics switch",
+    "year": 2022,
+    "venue": "Optics Express",
+    "abstract": "We present a 1 × 3 optical switch based on a translational microelectromechanical system (MEMS) platform with integrated silicon nitride (SiN) photonic waveguides. The fabricated devices demonstrate efficient optical signal transmission between fixed and suspended movable waveguides. We report a minimum average insertion loss of 4.64 dB and a maximum average insertion loss of 5.83 dB in different switching positions over a wavelength range of 1530 nm to 1580 nm. The unique gap closing mechanism reduces the average insertion loss across two air gaps by a maximum of 7.89 dB. The optical switch was fabricated using a custom microfabrication process developed by AEPONYX Inc. This microfabrication process integrates SiN waveguides with silicon-on-insulator based MEMS devices with minimal stress related deformation"
+  },
+  {
+    "record_key": "openalex:W4378770566",
+    "source": "openalex",
+    "title": "Silicon photonic MEMS switches based on split waveguide crossings",
+    "year": 2023,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "The continuous push for high-performance photonic switches is one of the most crucial premises for the sustainable scaling of programmable and reconfigurable photonic circuits for a wide spectrum of applications. Conventional optical switches rely on the perturbative mechanisms of mode coupling or mode interference, resulting in inherent bottlenecks in their switching performance concerning size, power consumption and bandwidth. Here we propose and realize a silicon photonic 2x2 elementary switch based on a split waveguide crossing (SWX) consisting of two halves. The propagation direction of the incident light is manipulated to implement the OFF/ON states by splitting/combining the two halves of the SWX, showing excellent performance with low excess loss and low crosstalk over an ultrawide bandwidth. Both elementary switch and"
+  },
+  {
+    "record_key": "openalex:W2789555118",
+    "source": "openalex",
+    "title": "Silicon Photonics Circuit Design: Methods, Tools and Challenges",
+    "year": 2018,
+    "venue": "Laser & Photonics Review",
+    "abstract": "Abstract Silicon Photonics technology is rapidly maturing as a platform for larger‐scale photonic circuits. As a result, the associated design methodologies are also evolving from component‐oriented design to a more circuit‐oriented design flow, that makes abstraction from the very detailed geometry and enables design on a larger scale. In this paper, the state of this emerging photonic circuit design flow and its synergies with electronic design automation (EDA) are reviewed. The design flow from schematic capture, circuit simulation, layout and verification is covered. The similarities and the differences between photonic and electronic design, and the challenges and opportunities that present themselves in the new photonic design landscape, such as variability analysis, photonic‐electronic co‐simulation and compact model definition are discussed."
+  },
+  {
+    "record_key": "openalex:W4393174577",
+    "source": "openalex",
+    "title": "Large-scale silicon photonic MEMS switch with flip-chip integrated CMOS drivers",
+    "year": 2023,
+    "venue": "IET conference proceedings.",
+    "abstract": "We report on 32x32 silicon photonic switches controlled by digital CMOS chiplets with integrated high voltage drivers. Digital switching with sub-microsecond switching speed and 97 mW power consumption is experimentally demonstrated."
+  },
+  {
+    "record_key": "openalex:W2601258012",
+    "source": "openalex",
+    "title": "Nonlinear photonic metasurfaces",
+    "year": 2017,
+    "venue": "Nature Reviews Materials",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W4226451033",
+    "source": "openalex",
+    "title": "Low-Loss Wafer-Bonded Silicon Photonic MEMS Switches",
+    "year": 2022,
+    "venue": null,
+    "abstract": "We report on 32x32 silicon photonic switches realized through wafer bonding. Broadband operation is demonstrated over 1260-1320 nm range. The maximum on-chip loss is measured to be 4 dB and the cross-talk is -80 dB."
+  },
+  {
+    "record_key": "openalex:W4211023690",
+    "source": "openalex",
+    "title": "A Bistable Silicon Photonic Mems Phase Switch For Nonvolatile Photonic Circuits",
+    "year": 2022,
+    "venue": "2022 IEEE 35th International Conference on Micro Electro Mechanical Systems Conference (MEMS)",
+    "abstract": "Silicon photonic circuits are rapidly growing in complexity and spreading to new applications. However, programmable circuits consume much power and require active electrical interfaces. For the first time, we demonstrate a nonvolatile photonic MEMS π-phase switch using dual comb-drive actuation and adhesion forces, implemented in a silicon photonics foundry. Both nonvolatile states are low-loss, display low dispersion, could be cycled through over 100 times, and have retention times over 12 hours. We believe that the demonstrated nonvolatility combined with excellent optical performance can enable a new generation of programmable photonic chips that do not consume any electrical power once (re)configured."
+  },
+  {
+    "record_key": "openalex:W3115038226",
+    "source": "openalex",
+    "title": "New concept of silicon photonic MEMS switch based on total internal reflection",
+    "year": 2020,
+    "venue": null,
+    "abstract": "A novel silicon photonic MEMS switch based on total internal reflection (TIR) is proposed for the first time. The key element is a multimode interference (MMI) waveguide crossing with a switchable gap. This photonic switch works very well with a low excess loss of ~0.2 dB and a high extinction ratio of >23 dB in an ultra-broad wavelength range of 1250-1650 nm in the OFF state. The excess loss is still as low as 0.18 dB and the extinction ratio is as high as 58 dB in the ON state."
+  },
+  {
+    "record_key": "openalex:W2896156020",
+    "source": "openalex",
+    "title": "Silicon Photonic Switch Fabrics: Technology and Architecture",
+    "year": 2018,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "Photonic switching technologies show potential for transforming communication networks across diverse markets from long-haul to short-reach distance scales due to their large bandwidth density, high energy efficiency, and potential for low cost. In recent years, numerous outstanding advancements have been made in scaled silicon photonic switching fabrics: spanning a variety of manufacturing platforms and packaging methods, relying on different switching mechanisms, and assembled on-chip in a diverse mixture of loosely related architectures. This paper reviews the current approaches employed by leading researchers in this area, and surveys the state of the art in achieved performance at both the technological and the architectural level. Specifically, we consider thermo-optic, electro-optic, and MEMS-based switch actuation embedded in Mach-Zehnder interferometer, ring resonator, and directional"
+  },
+  {
+    "record_key": "openalex:W1515664994",
+    "source": "openalex",
+    "title": "Multicast 4×20 Silicon Photonic MEMS Switches",
+    "year": 2015,
+    "venue": null,
+    "abstract": "We report on monolithic 4×20 silicon photonic MEMS switches capable of multicast functions. The switch has small footprint (1.2×4.5mm2), low optical insertion loss (<4.0dB), fast switching (9.6µs). 1×2 and 1×4 multicasts were successfully demonstrated."
+  },
+  {
+    "record_key": "openalex:W1635046341",
+    "source": "openalex",
+    "title": "Row/column addressing of scalable silicon photonic MEMS switches",
+    "year": 2015,
+    "venue": null,
+    "abstract": "We present a scalable silicon photonic MEMS switch with an actuation scheme requiring only 2N electrical contacts for an N×N switch matrix. Unit cell size is 145μm × 145μm and switching loss 1.5dB at 1550nm."
+  },
+  {
+    "record_key": "openalex:W2802220660",
+    "source": "openalex",
+    "title": "MEMS-Actuated 8×8 Silicon Photonic Wavelength-Selective Switches with 8 Wavelength Channels",
+    "year": 2018,
+    "venue": "Conference on Lasers and Electro-Optics",
+    "abstract": "We report on a fully integrated 8×8 silicon photonic MEMS wavelength-selective switch with 8 wavelength channels on a 9.7mm ×6.7mm chip. Total on-chip loss including switches and echelle grating mux/demux is 13.3 dB."
+  },
+  {
+    "record_key": "openalex:W4402905306",
+    "source": "openalex",
+    "title": "Nonvolatile silicon photonic MEMS switch based on centrally clamped stepped bistable mechanical beams",
+    "year": 2024,
+    "venue": "Photonics Research",
+    "abstract": "High-performance photonic switches are essential for large-scale optical routing for AI large models and the Internet of Things. Realizing nonvolatility can further reduce power consumption and expand application scenarios. We propose a nonvolatile 2×2 silicon photonic micro-electromechanical system (MEMS) switch compatible with standard silicon photonic foundry processes. The switch employs an electrostatic comb actuator to change the air gap of the compact horizontal adiabatic coupler and achieves nonvolatility with centrally clamped stepped bistable mechanical beams. The photonic switch features a 10s μs-scale switching speed and a 10s fJ-scale simulated switching energy within a 100 μm ×100 μm footprint, with ≤12 V driving voltages. This 2×2 switch can be used in a variety of topologies for large-scale photonic switches, and its"
+  },
+  {
+    "record_key": "openalex:W2979736496",
+    "source": "openalex",
+    "title": "MEMS-Enabled Silicon Photonic Integrated Devices and Circuits",
+    "year": 2019,
+    "venue": "IEEE Journal of Quantum Electronics",
+    "abstract": "Photonic integrated circuits have seen a dramatic increase in complexity over the past decades. This development has been spurred by recent applications in datacenter communications and enabled by the availability of standardized mature technology platforms. Mechanical movement of wave-guiding structures at the micro- and nanoscale provides unique opportunities to further enhance functionality and to reduce power consumption in photonic integrated circuits. We here demonstrate integration of MEMS-enabled components in a simplified silicon photonics process based on IMEC's Standard iSiPP50G Silicon Photonics Platform and a custom release process."
+  },
+  {
+    "record_key": "openalex:W2597825491",
+    "source": "openalex",
+    "title": "LCoS SLM Study and Its Application in Wavelength Selective Switch",
+    "year": 2017,
+    "venue": "Photonics",
+    "abstract": "The Liquid-Crystal on Silicon (LCoS) spatial light modulator (SLM) has been used in wavelength selective switch (WSS) systems since the 1990s. However, most of the LCoS devices used for WSS systems have a pixel size larger than 6 µm. Although there are some negative physical effects related to smaller pixel sizes, the benefits of more available ports, larger spatial bandwidth, improved resolution, and the compactness of the whole system make the latest generation LCoS microdisplays highly appealing as the core component in WSS systems. In this review work, three specifications of the WSS system including response time, crosstalk and insertion loss, and optimization directions are discussed. With respect to response time, the achievements of liquid crystal material are briefly surveyed."
+  },
+  {
+    "record_key": "openalex:W2147694436",
+    "source": "openalex",
+    "title": "Demonstration of Multi-Casting in a 1 × 9 LCOS Wavelength Selective Switch",
+    "year": 2014,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "A multi-functional 1 × 9 wavelength selective switch based on liquid crystal on silicon (LCOS) spatial light modulator technology and anamorphic optics was tested at a channel spacing of 100 and 200 GHz, including dynamic data measurements on both single beam deflection and multi-casting to two ports. The multi-casting holograms were optimized using a modified Gerchberg–Saxton routine to design the core hologram, followed by a simulated annealing routine to reduce crosstalk at non-switched ports. The effect of clamping the magnitude of phase changes between neighboring pixels during optimization was investigated, with experimental results for multi-casting to two ports resulting in a signal insertion loss of −7.6 dB normalized to single port deflection, a uniformity of ±0.6%, and a worst case"
+  }
+]

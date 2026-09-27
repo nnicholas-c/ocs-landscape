@@ -1,0 +1,152 @@
+[
+  {
+    "record_key": "openalex:W2887258823",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Review of physical reservoir computing; unrelated to circuit switching."
+  },
+  {
+    "record_key": "openalex:W4388639388",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "AI-driven flexible sensors and artificial synapses; unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W4285802213",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Quantum ML for chemistry and physics; unrelated to switching."
+  },
+  {
+    "record_key": "openalex:W3109834426",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Deep learning for nano-photonic inverse design; not switch-specific."
+  },
+  {
+    "record_key": "openalex:W2965933955",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Memristive switching devices for memory/computing; not optical circuit switching."
+  },
+  {
+    "record_key": "openalex:W4313462484",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "AI/ML for quantum device control; unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W2395416306",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Neuroscience sleep circuit study; abstract empty, unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W4308657560",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Review of optical microcomb applications; not circuit switching specific."
+  },
+  {
+    "record_key": "openalex:W3138011117",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Review of plasmonic optical tweezers; unrelated to circuit switching."
+  },
+  {
+    "record_key": "openalex:W3091860120",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Deep learning for biological data mining; abstract empty, unrelated."
+  },
+  {
+    "record_key": "openalex:W4391970400",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Diffractive free-space optical computing perspective; not a circuit switch."
+  },
+  {
+    "record_key": "openalex:W4380152694",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "ML discovery of senolytic drugs; unrelated to circuit switching."
+  },
+  {
+    "record_key": "openalex:W2995136401",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Graph neural solver for multi-object tracking; unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W4394897042",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "ML review for precision farming; unrelated to circuit switching."
+  },
+  {
+    "record_key": "openalex:W3034560014",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Deep learning for COVID-19 diagnosis; unrelated to circuit switching."
+  },
+  {
+    "record_key": "openalex:W3000731494",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "ML survey against hardware Trojan attacks; unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W3203543304",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Survey of 5G RAN energy efficiency and ML; unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W3088915330",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "ML for routing/resource allocation in optical networks; not switch hardware."
+  },
+  {
+    "record_key": "openalex:W4362553764",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Survey of CNNs for medical image analysis; unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W3040838455",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Survey of event-based vision sensors; unrelated to circuit switching."
+  },
+  {
+    "record_key": "openalex:W2762321225",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Multiagent control overview for microgrids; unrelated to circuit switching."
+  },
+  {
+    "record_key": "openalex:W2930741432",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Miniaturized microscopes for neural circuit imaging; different meaning of circuit."
+  },
+  {
+    "record_key": "openalex:W2761015455",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Reinforcement learning for quantum state control; unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W3178661111",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Federated learning framework for edge intelligence; unrelated to circuit switching."
+  },
+  {
+    "record_key": "openalex:W1975357130",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Title: MEMS optical switches and interconnects; abstract empty, directly on-topic."
+  }
+]

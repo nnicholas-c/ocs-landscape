@@ -1,0 +1,222 @@
+[
+  {
+    "paper_id": "arxiv:2609.25949",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "In this paper, we present Flux, a scheduler that optimally schedules optical circuit switches based on the structure of the entire workload.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W3091342457",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "We propose COUDER, a robust topology and routing optimization framework for reconfigurable optical circuit switched data centers.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "arxiv:2509.20016",
+    "tech_route": "other",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "Here we propose a magneto-optical heterogeneous integrated nonreciprocal OCS (NOCS) network based on a silicon photonics platform, achieving bidirectional full-duplex nonreciprocal transmission by programming reciprocal and nonreciprocal phase shifters.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "arxiv:2501.16907",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "Motivated by this fact, this paper investigates a software-defined networking (SDN) controller for open optical-circuit-switched networks.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "arxiv:2604.22146",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "To meet the increasing bandwidth demands of modern data center networks (DCNs), optical circuit switches are widely deployed due to their high capacity and energy efficiency.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W4292950821",
+    "tech_route": "mems_3d",
+    "tech_route_secondary": null,
+    "integration": "free_space_bulk",
+    "trl_band": "production",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "We then delve into the requirements of OCSes for datacenter applications: balancing cost, port count, switching time, and optical performance, which drive design choices and implementation details of our internally developed 3D MEMS-based OCS.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "arxiv:2603.07373",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "However, efficiently scheduling time-varying traffic matrices across parallel optical switches with non-negligible reconfiguration delays remains an open challenge.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W3006394648",
+    "tech_route": "soa",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "We introduce PULSE, a sub-μs optical circuit switched data centre network architecture controlled by distributed hardware schedulers.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W3093967660",
+    "tech_route": "soa",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "Here we demonstrate ultrafast OCS based on a microcomb and semiconductor optical amplifiers (SOAs).",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "arxiv:2502.03885",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "We propose InfiniteHBD, a transceiver-centric HBD architecture that integrates connectivity and dynamic switching at the transceiver level by embedding Optical Circuit Switching (OCS) within each transceiver.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "arxiv:2501.18136",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "evidence_span": "We present an optical circuit switch design for programmable integrated photonics (PIPs).",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "arxiv:2002.00473",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "We propose METTEOR, an easily deployable solution for optical circuit switched data centers, that is designed for the current capabilities of commercial OCSs.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "arxiv:2401.09284",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "We experimentally verify a fast control plane with 100 microseconds of configuration time that can support more than 1000 racks, leveraged by a software-defined network controller and an industrial real-time Ethernet standard EtherCAT.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "arxiv:2510.03891",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "This is accomplished by combining two techniques: (1) identifying homomorphic job shapes that support the jobs communication needs, and (2) reconfiguring the optical circuit switch-enabled topology to support more diverse job shapes.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "arxiv:2411.01503",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "The feasibility and advantages of Cross Wiring are verified through a 128-NPU testbed and large-scale real-trace-based simulations.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "arxiv:2202.05487",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "Specifically, Kevin is based on a de Bruijn topology (using a small number of optical circuit switches) in which static links are enhanced with opportunistic links.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "arxiv:1609.04521",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "In this paper, we present C-Share -- a practical, scalable SDN-based circuit sharing solution for data center networks.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "arxiv:2104.09680",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "In this paper, we propose Shufflecast, a novel optical network architecture for next-generation compute clusters that can support high-performance multicast satisfying all the properties of an OCS-based network core.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "arxiv:2606.15870",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "production",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "The paper also discusses the role of optical circuit switches, built-in self test, and hardware replay in enhancing resilience and how TPU's environmental impact is reduced with substantial improvements in performance per Watt and in carbon emissions per floating point operation.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "arxiv:2608.03146",
+    "tech_route": "mems_silicon_photonic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "We demonstrate a broadband silicon photonics MEMS switch with more than 30 dB extinction ratio operating in C-band using a zero-change foundry-compatible process and Back-end-of-Line (BEOL) post-processing.",
+    "confidence": "high"
+  }
+]

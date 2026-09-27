@@ -1,0 +1,202 @@
+[
+  {
+    "record_key": "openalex:W2997045286",
+    "source": "openalex",
+    "title": "Handwritten Optical Character Recognition (OCR): A Comprehensive Systematic Literature Review (SLR)",
+    "year": 2020,
+    "venue": "IEEE Access",
+    "abstract": "Given the ubiquity of handwritten documents in human transactions, Optical Character Recognition (OCR) of documents have invaluable practical worth. Optical character recognition is a science that enables to translate various types of documents or images into analyzable, editable and searchable data. During last decade, researchers have used artificial intelligence/machine learning tools to automatically analyze handwritten and printed documents in order to convert them into electronic format. The objective of this review paper is to summarize research that has been conducted on character recognition of handwritten documents and to provide research directions. In this Systematic Literature Review (SLR) we collected, synthesized and analyzed research articles on the topic of handwritten OCR (and closely related topics) which were published between year 2000"
+  },
+  {
+    "record_key": "openalex:W4390345325",
+    "source": "openalex",
+    "title": "Optical skyrmions and other topological quasiparticles of light",
+    "year": 2023,
+    "venue": "Nature Photonics",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W2611853687",
+    "source": "openalex",
+    "title": "Connecting Earth observation to high-throughput biodiversity data",
+    "year": 2017,
+    "venue": "Nature Ecology & Evolution",
+    "abstract": "Understandably, given the fast pace of biodiversity loss, there is much interest in using Earth observation technology to track biodiversity, ecosystem functions and ecosystem services. However, because most biodiversity is invisible to Earth observation, indicators based on Earth observation could be misleading and reduce the effectiveness of nature conservation and even unintentionally decrease conservation effort. We describe an approach that combines automated recording devices, high-throughput DNA sequencing and modern ecological modelling to extract much more of the information available in Earth observation data. This approach is achievable now, offering efficient and near-real-time monitoring of management impacts on biodiversity and its functions and services. A new approach is outlined for capturing multiple facets of biodiversity in near real-time by combining the"
+  },
+  {
+    "record_key": "openalex:W2560361359",
+    "source": "openalex",
+    "title": "A Scalable, Partially Configurable Optical Switch for Data Center Networks",
+    "year": 2016,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "Optical circuit switching may be instrumental in meeting the cost, energy, and aggregate bandwidth requirements of future data center networks. However, conventional MEMS beam-steering cross-connects cannot provide submillisecond switching with the port count necessary for data centers. Here, we investigate a novel noncrossbar selector switch architecture and pupil-division switching layout to improve optical switching performance by relaxing the requirement of arbitrary switch configurability. This architecture and switch design enable MEMS beam-steering micromirrors to scale to microsecond response speeds while supporting high port count and low loss switching, and can realize a number of useful interconnection topologies. We present the design, fabrication, and experimental characterization of a proof-of-principle prototype using a single comb-driven MEMS mirror to achieve 150 μs switching of"
+  },
+  {
+    "record_key": "openalex:W2977468072",
+    "source": "openalex",
+    "title": "Deep Neural Network Through an InP SOA-Based Photonic Integrated Cross-Connect",
+    "year": 2019,
+    "venue": "IEEE Journal of Selected Topics in Quantum Electronics",
+    "abstract": "Photonic neuromorphic computing is raising a growing interest as it promises to provide massive parallelism and low power consumption. In this paper, we demonstrate for the first time a feed-forward neural network via an 8 × 8 Indium Phosphide cross-connect chip, where up to 8 on-chip weighted addition circuits are co-integrated, based on semiconductor optical amplifier technology. We perform the weight calibration per neuron, resulting in a normalized root mean square error smaller than 0.08 and a best case dynamic range of 27 dB. The 4 input to 1 output weighted addition operation is executed on-chip and is part of a neuron, whose non-linear function is implemented via software. A three feedback loop optimization procedure is demonstrated to enable an"
+  },
+  {
+    "record_key": "openalex:W2736397792",
+    "source": "openalex",
+    "title": "Generalized optical memory effect",
+    "year": 2017,
+    "venue": "Optica",
+    "abstract": "The optical memory effect is a well-known type of tilt/tilt wave correlation that is observed in coherent fields, allowing control over scattered light through thin and diffusive materials. Here we show that the optical memory effect is a special case of a more general class of combined shift/tilt correlations occurring in media of arbitrary geometry. We experimentally demonstrate the existence of these correlations, and provide an analytical framework that allows us to predict and understand this class of scattering correlations. This “generalized optical memory effect” can be utilized for maximizing the imaging field-of-view of deep tissue imaging techniques such as phase conjugation and adaptive optics."
+  },
+  {
+    "record_key": "openalex:W2336039769",
+    "source": "openalex",
+    "title": "Spatiotemporal Optical Vortices",
+    "year": 2016,
+    "venue": "Physical Review X",
+    "abstract": "We present the first experimental evidence, supported by theory and simulation, of spatiotemporal optical vortices (STOVs).A STOV is an optical vortex with phase and energy circulation in a spatiotemporal plane.Depending on the sign of the material dispersion, the local electromagnetic energy flow is saddle or spiral about the STOV.STOVs are a fundamental element of the nonlinear collapse and subsequent propagation of short optical pulses in material media, and conserve topological charge, constraining their birth, evolution, and annihilation.We measure a self-generated STOV consisting of a ring-shaped null in the electromagnetic field about which the phase is spiral, forming a dynamic torus that is concentric with and tracks the propagating pulse.Our results, here obtained for optical pulse collapse and filamentation in air,"
+  },
+  {
+    "record_key": "openalex:W3005127469",
+    "source": "openalex",
+    "title": "Eleven grand challenges in single-cell data science",
+    "year": 2020,
+    "venue": "Genome biology",
+    "abstract": "The recent boom in microfluidics and combinatorial indexing strategies, combined with low sequencing costs, has empowered single-cell sequencing technology. Thousands-or even millions-of cells analyzed in a single experiment amount to a data revolution in single-cell biology and pose unique data science problems. Here, we outline eleven challenges that will be central to bringing this emerging field of single-cell data science forward. For each challenge, we highlight motivating research questions, review prior work, and formulate open problems. This compendium is for established researchers, newcomers, and students alike, highlighting interesting and rewarding problems for the coming years."
+  },
+  {
+    "record_key": "openalex:W2323657038",
+    "source": "openalex",
+    "title": "Optical Performance Monitoring: A Review of Current and Future Technologies",
+    "year": 2015,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "Optical performance monitoring (OPM) is the estimation and acquisition of different physical parameters of transmitted signals and various components of an optical network. OPM functionalities are indispensable in ensuring robust network operation and plays a key role in enabling flexibility and improve overall network efficiency. We review the development of various OPM techniques for direct-detection systems and digital coherent systems and discuss future OPM challenges in flexible and elastic optical networks."
+  },
+  {
+    "record_key": "openalex:W2905241809",
+    "source": "openalex",
+    "title": "The Zwicky Transient Facility: Data Processing, Products, and Archive",
+    "year": 2018,
+    "venue": "Publications of the Astronomical Society of the Pacific",
+    "abstract": "The Zwicky Transient Facility (ZTF) is a new robotic time-domain survey currently in progress using the Palomar 48-inch Schmidt Telescope. ZTF uses a 47 square degree field with a 600 megapixel camera to scan the entire northern visible sky at rates of ∼3760 square degrees/hour to median depths of g ∼ 20.8 and r ∼ 20.6 mag (AB, 5 σ in 30 sec). We describe the Science Data System that is housed at IPAC, Caltech. This comprises the data-processing pipelines, alert production system, data archive, and user interfaces for accessing and analyzing the products. The real-time pipeline employs a novel image-differencing algorithm, optimized for the detection of point-source transient events. These events are vetted for reliability using a machine-learned classifier"
+  },
+  {
+    "record_key": "openalex:W2900538720",
+    "source": "openalex",
+    "title": "The Beijing Climate Center Climate System Model (BCC-CSM): the main progress from CMIP5 to CMIP6",
+    "year": 2019,
+    "venue": "Geoscientific model development",
+    "abstract": "The main advancements of the Beijing Climate Center (BCC) climate system model from phase 5 of the Coupled Model Intercomparison Project (CMIP5) to phase 6 (CMIP6) are presented, in terms of physical parameterizations and model performance. BCC-CSM1.1 and BCC-CSM1.1m are the two models involved in CMIP5, whereas BCC-CSM2-MR, BCC-CSM2-HR, and BCC-ESM1.0 are the three models configured for CMIP6. Historical simulations from 1851 to 2014 from BCC-CSM2-MR (CMIP6) and from 1851 to 2005 from BCC-CSM1.1m (CMIP5) are used for models assessment. The evaluation matrices include the following: (a) the energy budget at top-of-atmosphere; (b) surface air temperature, precipitation, and atmospheric circulation for the global and East Asia regions; (c) the sea surface temperature (SST) in the tropical Pacific; (d) sea-ice extent"
+  },
+  {
+    "record_key": "openalex:W2897340379",
+    "source": "openalex",
+    "title": "Real-time high-resolution mid-infrared optical coherence tomography",
+    "year": 2019,
+    "venue": "Light Science & Applications",
+    "abstract": "The potential for improving the penetration depth of optical coherence tomography systems by using light sources with longer wavelengths has been known since the inception of the technique in the early 1990s. Nevertheless, the development of mid-infrared optical coherence tomography has long been challenged by the maturity and fidelity of optical components in this spectral region, resulting in slow acquisition, low sensitivity, and poor axial resolution. In this work, a mid-infrared spectral-domain optical coherence tomography system operating at a central wavelength of 4 µm and an axial resolution of 8.6 µm is demonstrated. The system produces two-dimensional cross-sectional images in real time enabled by a high-brightness 0.9- to 4.7-µm mid-infrared supercontinuum source with a pulse repetition rate of 1 MHz"
+  },
+  {
+    "record_key": "openalex:W2735125579",
+    "source": "openalex",
+    "title": "OPSquare: towards Petabit/s Optical Data Center Networks based on Fast WDM Cross-Connect Switches and Optical Flow Control",
+    "year": 2017,
+    "venue": null,
+    "abstract": "OPSquare is an optical DCN architecture that potentially addresses the DCN scaling issues by employing parallel intra- and inter-cluster switching networks based on distributed fast WDM optical cross-connect switches and a novel top-of-rack switch architecture."
+  },
+  {
+    "record_key": "openalex:W2282905743",
+    "source": "openalex",
+    "title": "Ultrafast optical spectroscopy of strongly correlated materials and high-temperature superconductors: a non-equilibrium approach",
+    "year": 2016,
+    "venue": "Advances In Physics",
+    "abstract": "In the last two decades non-equilibrium spectroscopies have evolved from avant-garde studies to crucial tools for expanding our understanding of the physics of strongly correlated materials. The possibility of obtaining simultaneously spectroscopic and temporal information has led to insights that are complementary to (and in several cases beyond) those attainable by studying the matter at equilibrium. From this perspective, multiple phase transitions and new orders arising from competing interactions are benchmark examples where the interplay among electrons, lattice and spin dynamics can be disentangled because of the different timescales that characterize the recovery of the initial ground state. For example, the nature of the broken-symmetry phases and of the bosonic excitations that mediate the electronic interactions, eventually leading to superconductivity"
+  },
+  {
+    "record_key": "openalex:W2778552376",
+    "source": "openalex",
+    "title": "Optical coherence elastography in ophthalmology",
+    "year": 2017,
+    "venue": "Journal of Biomedical Optics",
+    "abstract": "Optical coherence elastography (OCE) can provide clinically valuable information based on local measurements of tissue stiffness. Improved light sources and scanning methods in optical coherence tomography (OCT) have led to rapid growth in systems for high-resolution, quantitative elastography using imaged displacements and strains within soft tissue to infer local mechanical properties. We describe in some detail the physical processes underlying tissue mechanical response based on static and dynamic displacement methods. Namely, the assumptions commonly used to interpret displacement and strain measurements in terms of tissue elasticity for static OCE and propagating wave modes in dynamic OCE are discussed with the ultimate focus on OCT system design for ophthalmic applications. Practical OCT motion-tracking methods used to map tissue elasticity are also"
+  },
+  {
+    "record_key": "openalex:W2979363123",
+    "source": "openalex",
+    "title": "Fiber-Reinforced Polymer Composites: Manufacturing, Properties, and Applications",
+    "year": 2019,
+    "venue": "Polymers",
+    "abstract": "Composites have been found to be the most promising and discerning material available in this century. Presently, composites reinforced with fibers of synthetic or natural materials are gaining more importance as demands for lightweight materials with high strength for specific applications are growing in the market. Fiber-reinforced polymer composite offers not only high strength to weight ratio, but also reveals exceptional properties such as high durability; stiffness; damping property; flexural strength; and resistance to corrosion, wear, impact, and fire. These wide ranges of diverse features have led composite materials to find applications in mechanical, construction, aerospace, automobile, biomedical, marine, and many other manufacturing industries. Performance of composite materials predominantly depends on their constituent elements and manufacturing techniques, therefore, functional properties"
+  },
+  {
+    "record_key": "openalex:W4210818687",
+    "source": "openalex",
+    "title": "Magnetic Soft Materials and Robots",
+    "year": 2022,
+    "venue": "Chemical Reviews",
+    "abstract": "In conventional classification, soft robots feature mechanical compliance as the main distinguishing factor from traditional robots made of rigid materials. Recent advances in functional soft materials have facilitated the emergence of a new class of soft robots capable of tether-free actuation in response to external stimuli such as heat, light, solvent, or electric or magnetic field. Among the various types of stimuli-responsive materials, magnetic soft materials have shown remarkable progress in their design and fabrication, leading to the development of magnetic soft robots with unique advantages and potential for many important applications. However, the field of magnetic soft robots is still in its infancy and requires further advancements in terms of design principles, fabrication methods, control mechanisms, and sensing modalities."
+  },
+  {
+    "record_key": "openalex:W2973569033",
+    "source": "openalex",
+    "title": "Electronic Skin: Recent Progress and Future Prospects for Skin‐Attachable Devices for Health Monitoring, Robotics, and Prosthetics",
+    "year": 2019,
+    "venue": "Advanced Materials",
+    "abstract": "Recent progress in electronic skin or e-skin research is broadly reviewed, focusing on technologies needed in three main applications: skin-attachable electronics, robotics, and prosthetics. First, since e-skin will be exposed to prolonged stresses of various kinds and needs to be conformally adhered to irregularly shaped surfaces, materials with intrinsic stretchability and self-healing properties are of great importance. Second, tactile sensing capability such as the detection of pressure, strain, slip, force vector, and temperature are important for health monitoring in skin attachable devices, and to enable object manipulation and detection of surrounding environment for robotics and prosthetics. For skin attachable devices, chemical and electrophysiological sensing and wireless signal communication are of high significance to fully gauge the state of health of"
+  },
+  {
+    "record_key": "openalex:W3047411995",
+    "source": "openalex",
+    "title": "Hydrogel soft robotics",
+    "year": 2020,
+    "venue": "Materials Today Physics",
+    "abstract": "With the rapidly growing attention to human-robot interfaces, soft robotics has attracted a great deal of interest. Soft robots have diverse advantages, including compliancy and safety, which contribute to seamless interactions with humans. To boost progress in the field, there is a need for compliant materials. Hydrogels are promising as compliant materials for soft robots because of their outstanding features, including high stretchability, transparency, ion conductivity, and biocompatibility. Furthermore, hydrogels provide innovative capabilities for soft robotics based on their unique responsiveness to stimuli. In this review, we discuss the unique features of hydrogel-based soft robots, from their fundamental working mechanisms to notable applications. Finally, we suggest perspectives on future directions that addressing potential challenges in the field of hydrogel soft"
+  },
+  {
+    "record_key": "openalex:W3110518727",
+    "source": "openalex",
+    "title": "Scalable thermoelectric fibers for multifunctional textile-electronics",
+    "year": 2020,
+    "venue": "Nature Communications",
+    "abstract": "Textile electronics are poised to revolutionize future wearable applications due to their wearing comfort and programmable nature. Many promising thermoelectric wearables have been extensively investigated for green energy harvesting and pervasive sensors connectivity. However, the practical applications of the TE textile are still hindered by the current laborious p/n junctions assembly of limited scale and mechanical compliance. Here we develop a gelation extrusion strategy that demonstrates the viability of digitalized manufacturing of continuous p/n TE fibers at high scalability and process efficiency. With such alternating p/n-type TE fibers, multifunctional textiles are successfully woven to realize energy harvesting on curved surface, multi-pixel touch panel for writing and communication. Moreover, modularized TE garments are worn on a robotic arm to fulfill diverse"
+  },
+  {
+    "record_key": "openalex:W3112747941",
+    "source": "openalex",
+    "title": "Becoming Sustainable, The New Frontier in Soft Robotics",
+    "year": 2020,
+    "venue": "Advanced Materials",
+    "abstract": "The advancement of technology has a profound and far-reaching impact on the society, now penetrating all areas of life. From cradle to grave, one is supported by and depends on a wide range of electronic and robotic appliances, with an ever more intimate integration of the digital and biological spheres. These advances, however, often come at the price of negatively impacting our ecosystem, with growing demands on energy, contributions to greenhouse gas emissions and environmental pollution-from production to improper disposal. Mitigating these adverse effects is among the grand challenges of the society and at the forefront of materials research. The currently emerging forms of soft, biologically inspired electronics and robotics have the unique potential of becoming not only like their"
+  },
+  {
+    "record_key": "openalex:W4280632309",
+    "source": "openalex",
+    "title": "The Robotic Multiobject Focal Plane System of the Dark Energy Spectroscopic Instrument (DESI)",
+    "year": 2022,
+    "venue": "The Astronomical Journal",
+    "abstract": "Abstract A system of 5020 robotic fiber positioners was installed in 2019 on the Mayall Telescope, at Kitt Peak National Observatory. The robots automatically retarget their optical fibers every 10–20 minutes, each to a precision of several microns, with a reconfiguration time of fewer than 2 minutes. Over the next 5 yr, they will enable the newly constructed Dark Energy Spectroscopic Instrument (DESI) to measure the spectra of 35 million galaxies and quasars. DESI will produce the largest 3D map of the universe to date and measure the expansion history of the cosmos. In addition to the 5020 robotic positioners and optical fibers, DESI’s Focal Plane System includes six guide cameras, four wave front cameras, 123 fiducial point sources, and"
+  },
+  {
+    "record_key": "openalex:W3189885260",
+    "source": "openalex",
+    "title": "Biomimetic chameleon soft robot with artificial crypsis and disruptive coloration skin",
+    "year": 2021,
+    "venue": "Nature Communications",
+    "abstract": "Development of an artificial camouflage at a complete device level remains a vastly challenging task, especially under the aim of achieving more advanced and natural camouflage characteristics via high-resolution camouflage patterns. Our strategy is to integrate a thermochromic liquid crystal layer with the vertically stacked, patterned silver nanowire heaters in a multilayer structure to overcome the limitations of the conventional lateral pixelated scheme through the superposition of the heater-induced temperature profiles. At the same time, the weaknesses of thermochromic camouflage schemes are resolved in this study by utilizing the temperature-dependent resistance of the silver nanowire network as the process variable of the active control system. Combined with the active control system and sensing units, the complete device chameleon model successfully"
+  },
+  {
+    "record_key": "openalex:W4389299351",
+    "source": "openalex",
+    "title": "Natural Fibers Composites: Origin, Importance, Consumption Pattern, and Challenges",
+    "year": 2023,
+    "venue": "Journal of Composites Science",
+    "abstract": "This comprehensive review explores the multifaceted world of natural fiber applications within the domain of composite materials. Natural fibers are meticulously examined in detail, considering their diverse origins, which encompass plant-derived fibers (cellulose-based), animal-derived fibers (protein-based), and even mineral-derived variations. This review conducts a profound analysis, not only scrutinizing their chemical compositions, intricate structures, and inherent physical properties but also highlighting their wide-ranging applications across various industries. The investigation extends to composites utilizing mineral or polymer matrices, delving into their synergistic interplay and the resulting material properties. Furthermore, this review does not limit itself to the intrinsic attributes of natural fibers but ventures into the realm of innovative enhancements. The exploration encompasses the augmentation of composites through the integration of"
+  },
+  {
+    "record_key": "openalex:W3111750080",
+    "source": "openalex",
+    "title": "Magnetically Controlled Soft Robotics Utilizing Elastomers and Gels in Actuation: A Review",
+    "year": 2020,
+    "venue": "Advanced Intelligent Systems",
+    "abstract": "A magnetic field has unique advantages in controlling soft robotics inside of an enclosed space, such as surgical catheters or untethered drug‐delivering robots operating in the human body. Soft actuators, made of elastomers and gels functionalized with magnetically active materials, are natural choices to drive magnetically controlled motions of soft robots. Recent innovations in soft material technologies, including 3D printing, origami/kirigami, tough hydrogels, mechanical metamaterials, and liquid metal‐injected elastomers, offer technological foundations to develop soft actuators and robots with significantly enhanced performance. Herein, an overview of magnetic soft actuators and robots from a materials engineer's perspective is provided. First, the historical background and recent trends of magnetic soft actuators are discussed. Second, the motions of tethered or untethered magnetic soft"
+  }
+]

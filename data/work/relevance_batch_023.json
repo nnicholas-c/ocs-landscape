@@ -1,0 +1,202 @@
+[
+  {
+    "record_key": "openalex:W2202490861",
+    "source": "openalex",
+    "title": "Recent advances in ultrafast semiconductor disk lasers",
+    "year": 2015,
+    "venue": "Light Science & Applications",
+    "abstract": "Abstract The performance of ultrafast semiconductor disk lasers has rapidly advanced in recent decades. The strong interest from industry for inexpensive, compact, and reliable ultrafast laser sources in the picosecond and femtosecond domains has driven this technology toward commercial products. Frequency metrology and biomedical applications would benefit from sub-200-femtosecond pulse durations with peak powers in the kilowatt range. The aim of this review is to briefly describe the market potential and give an overview of the current status of mode-locked semiconductor disk lasers. Particular focus is placed on the ongoing efforts to achieve shorter pulses with higher peak powers."
+  },
+  {
+    "record_key": "openalex:W4200293315",
+    "source": "openalex",
+    "title": "Lattice Strain and Defects Analysis in Nanostructured Semiconductor Materials and Devices by High‐Resolution X‐Ray Diffraction: Theoretical and Practical Aspects",
+    "year": 2021,
+    "venue": "Small Methods",
+    "abstract": "The reliability of semiconductor materials with electrical and optical properties are connected to their structures. The elastic strain field and tilt analysis of the crystal lattice, detectable by the variation in position and shape of the diffraction peaks, is used to quantify defects and investigate their mobility. The exploitation of high-resolution X-ray diffraction-based methods for the evaluation of structural defects in semiconductor materials and devices is reviewed. An efficient and non-destructive characterization is possible for structural parameters such as, lattice strain and tilt, layer composition and thickness, lattice mismatch, and dislocation density. The description of specific experimental diffraction geometries and scanning methods is provided. Today's X-ray diffraction based methods are evaluated and compared, also with respect to their applicability limits."
+  },
+  {
+    "record_key": "openalex:W2743487474",
+    "source": "openalex",
+    "title": "HfSe 2 and ZrSe 2 : Two-dimensional semiconductors with native high-κ oxides",
+    "year": 2017,
+    "venue": "Science Advances",
+    "abstract": "; on current, ~30 μA/μm), with native oxides reducing the effects of interfacial traps. These are the first 2D materials to demonstrate technologically relevant properties of silicon, in addition to unique compatibility with high-κ dielectrics, and scaling benefits from their atomically thin nature."
+  },
+  {
+    "record_key": "openalex:W1041139178",
+    "source": "openalex",
+    "title": "Observation of optical solitons in PT-symmetric lattices",
+    "year": 2015,
+    "venue": "Nature Communications",
+    "abstract": "Controlling light transport in nonlinear active environments is a topic of considerable interest in the field of optics. In such complex arrangements, of particular importance is to devise strategies to subdue chaotic behaviour even in the presence of gain/loss and nonlinearity, which often assume adversarial roles. Quite recently, notions of parity-time (PT) symmetry have been suggested in photonic settings as a means to enforce stable energy flow in platforms that simultaneously employ both amplification and attenuation. Here we report the experimental observation of optical solitons in PT-symmetric lattices. Unlike other non-conservative nonlinear arrangements where self-trapped states appear as fixed points in the parameter space of the governing equations, discrete PT solitons form a continuous parametric family of solutions. The possibility"
+  },
+  {
+    "record_key": "openalex:W3007890462",
+    "source": "openalex",
+    "title": "A chiral switchable photovoltaic ferroelectric 1D perovskite",
+    "year": 2020,
+    "venue": "Science Advances",
+    "abstract": ". Optical and electrical measurements characterize its semiconducting, ferroelectric, switchable pyroelectricity and switchable photoferroelectric properties. Temperature dependent structural, dielectric and transport measurements reveal a ferroelectric-paraelectric phase transition. Circular dichroism spectroscopy confirms its chirality. The development of a material with such a combination of these properties will facilitate the exploration of phenomena such as electric field and chiral enantiomer-dependent Rashba-Dresselhaus splitting and circular photogalvanic effects."
+  },
+  {
+    "record_key": "openalex:W4220911475",
+    "source": "openalex",
+    "title": "Low-Latency Optical Wireless Data-Center Networks Using Nanoseconds Semiconductor-Based Wavelength Selectors and Arrayed Waveguide Grating Router",
+    "year": 2022,
+    "venue": "Photonics",
+    "abstract": "In order to meet the massively increasing requirements of big-data applications, data centers (DCs) are key infrastructures to cope with the associated demands, such as high performance, easy scalability, low cabling complexity and low power consumption. Many research efforts have been dedicated to traditional wired data center networks (DCNs). However, DCNs’ static and rigid topology based on optical cables significantly limits their flexibility, scalability, and even reconfigurability. The limitations of this wired connection can be addressed with optical wireless technology, which avoids cable complexity problems while allowing dynamic adaption and fast reconfiguration. Here, we propose and investigate a novel optical wireless data-center network (OW-DCN) architecture based on nanoseconds semiconductor optical amplifier (SOA)-based wavelength selectors and arrayed waveguide grating router (AWGR)"
+  },
+  {
+    "record_key": "openalex:W3016532901",
+    "source": "openalex",
+    "title": "A Review of Optical Neural Networks",
+    "year": 2020,
+    "venue": "IEEE Access",
+    "abstract": "Optical neural network can process information in parallel by using the technology based on free-space and integrated platform. Over the last half century, the development of integrated circuits has been limited by Moore’s law. We know that neural network is based on the digital computer for successive calculation, most of which cannot be made into real-time processing system. Therefore, it is necessary to develop ONN for real-time processing and device miniaturization. In this paper, we review the progress of optical neural networks. Firstly, based on the principle of artificial neural networks, we elaborate the essence of optical matrix multiplier for linear operation. Then we introduce the optical neural network achieved by free-space optical interconnection and waveguide optical interconnection. Finally we"
+  },
+  {
+    "record_key": "openalex:W4402694963",
+    "source": "openalex",
+    "title": "Optical neural networks: progress and challenges",
+    "year": 2024,
+    "venue": "Light Science & Applications",
+    "abstract": "Artificial intelligence has prevailed in all trades and professions due to the assistance of big data resources, advanced algorithms, and high-performance electronic hardware. However, conventional computing hardware is inefficient at implementing complex tasks, in large part because the memory and processor in its computing architecture are separated, performing insufficiently in computing speed and energy consumption. In recent years, optical neural networks (ONNs) have made a range of research progress in optical computing due to advantages such as sub-nanosecond latency, low heat dissipation, and high parallelism. ONNs are in prospect to provide support regarding computing speed and energy consumption for the further development of artificial intelligence with a novel computing paradigm. Herein, we first introduce the design method and principle of"
+  },
+  {
+    "record_key": "openalex:W2945787956",
+    "source": "openalex",
+    "title": "Roadmap on all-optical processing",
+    "year": 2019,
+    "venue": "Journal of Optics",
+    "abstract": "Abstract The ability to process optical signals without passing into the electrical domain has always attracted the attention of the research community. Processing photons by photons unfolds new scenarios, in principle allowing for unseen signal processing and computing capabilities. Optical computation can be seen as a large scientific field in which researchers operate, trying to find solutions to their specific needs by different approaches; although the challenges can be substantially different, they are typically addressed using knowledge and technological platforms that are shared across the whole field. This significant know-how can also benefit other scientific communities, providing lateral solutions to their problems, as well as leading to novel applications. The aim of this Roadmap is to provide a broad view"
+  },
+  {
+    "record_key": "openalex:W2217959685",
+    "source": "openalex",
+    "title": "Performance evaluation of hybrid optical switch architecture for data center networks",
+    "year": 2016,
+    "venue": "Optical Switching and Networking",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W2968810373",
+    "source": "openalex",
+    "title": "Wireless Communications Through Reconfigurable Intelligent Surfaces",
+    "year": 2019,
+    "venue": "IEEE Access",
+    "abstract": "The future of mobile communications looks exciting with the potential new use cases and challenging requirements of future 6th generation (6G) and beyond wireless networks. Since the beginning of the modern era of wireless communications, the propagation medium has been perceived as a randomly behaving entity between the transmitter and the receiver, which degrades the quality of the received signal due to the uncontrollable interactions of the transmitted radio waves with the surrounding objects. The recent advent of reconfigurable intelligent surfaces in wireless communications enables, on the other hand, network operators to control the scattering, reflection, and refraction characteristics of the radio waves, by overcoming the negative effects of natural wireless propagation. Recent results have revealed that reconfigurable intelligent surfaces"
+  },
+  {
+    "record_key": "openalex:W3036907365",
+    "source": "openalex",
+    "title": "ROTOS: A Reconfigurable and Cost-Effective Architecture for High-Performance Optical Data Center Networks",
+    "year": 2020,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "Fast and high capacity optical switching techniques have the potential to enable low latency and high throughput optical data center networks (DCNs) to afford the rapid increasing traffic boosted by multiple applications. Flexibility of the DCN is of key importance to provide adaptive and dynamic bandwidth and capacity to handle the variable traffic patterns of heterogeneous applications. Aiming at improving the network performance and the system flexibility of optical DCNs, we propose and investigate a novel optical DCN architecture named ROTOS based on reconfigurable optical top of rack (ToR) and fast optical switches. In the proposed DCN architecture, the novel optical flexible ToRs employing multiple transceivers (TRXs) and a wavelength selective switch (WSS) are reconfigured by the software-defined networking (SDN)"
+  },
+  {
+    "record_key": "openalex:W2141810662",
+    "source": "openalex",
+    "title": "OSA: An Optical Switching Architecture for Data Center Networks With Unprecedented Flexibility",
+    "year": 2013,
+    "venue": "IEEE/ACM Transactions on Networking",
+    "abstract": "A detailed examination of evolving traffic characteristics, operator requirements, and network technology trends suggests a move away from nonblocking interconnects in data center networks (DCNs). As a result, recent efforts have advocated oversubscribed networks with the capability to adapt to traffic requirements on-demand. In this paper, we present the design, implementation, and evaluation of OSA, a novel Optical Switching Architecture for DCNs. Leveraging runtime reconfigurable optical devices, OSA dynamically changes its topology and link capacities, thereby achieving unprecedented flexibility to adapt to dynamic traffic patterns. Extensive analytical simulations using both real and synthetic traffic patterns demonstrate that OSA can deliver high bisection bandwidth (60%-100% of the nonblocking architecture). Implementation and evaluation of a small-scale functional prototype further demonstrate the feasibility"
+  },
+  {
+    "record_key": "openalex:W4389373471",
+    "source": "openalex",
+    "title": "Logical quantum processor based on reconfigurable atom arrays",
+    "year": 2023,
+    "venue": "Nature",
+    "abstract": "Abstract Suppressing errors is the central challenge for useful quantum computing 1 , requiring quantum error correction (QEC) 2–6 for large-scale processing. However, the overhead in the realization of error-corrected ‘logical’ qubits, in which information is encoded across many physical qubits for redundancy 2–4 , poses substantial challenges to large-scale logical quantum computing. Here we report the realization of a programmable quantum processor based on encoded logical qubits operating with up to 280 physical qubits. Using logical-level control and a zoned architecture in reconfigurable neutral-atom arrays 7 , our system combines high two-qubit gate fidelities 8 , arbitrary connectivity 7,9 , as well as fully programmable single-qubit rotations and mid-circuit readout 10–15 . Operating this logical processor with various types"
+  },
+  {
+    "record_key": "openalex:W3208402115",
+    "source": "openalex",
+    "title": "DACON: a reconfigurable application-centric optical network for disaggregated data center infrastructures [Invited]",
+    "year": 2021,
+    "venue": "Journal of Optical Communications and Networking",
+    "abstract": "To solve the issues of low resource utilization and performance bottleneck in current server-centric data center networks (DCNs), we propose and experimentally demonstrate a disaggregated application-centric optical network (DACON) for data center infrastructures based on hybrid optical switches. DACON achieves flexible provision and dynamic reconfiguration of hardware nodes exploiting the softwared-define networking (SDN) orchestration plane. A four-node SDN-enabled disaggregated prototype is implemented with a field-programmable-gate-array-based controller of hardware nodes and nanosecond optical switches, performing a minimal node-to-node network latency of 378.6 ns and zero packet loss. Based on the unmodified Linux kernel and two different applications (distributed computing and a Memcached database), the application runtime of the disaggregated prototype is investigated and compared with the server-centric architecture. Experimental results show"
+  },
+  {
+    "record_key": "openalex:W3144786718",
+    "source": "openalex",
+    "title": "A Survey of Reconfigurable Optical Networks",
+    "year": 2021,
+    "venue": "Optical Switching and Networking",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W3032344992",
+    "source": "openalex",
+    "title": "AgileDCN: An Agile Reconfigurable Optical Data Center Network Architecture",
+    "year": 2020,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "This paper presents a detailed examination of a novel data center network (DCN) that can satisfy the high capacity and low latency requirements of modern cloud computing applications. This reconfigurable architecture called AgileDCN uses fast-switching optical components with a centralized control function and workload scheduler. By providing a highly flexible optical network fabric between server racks, very high network efficiencies can be achieved even under imbalanced loading patterns. Our simulation results show that, at high (70%) loads, TCP flow completion times in the AgileDCN are significantly lower than in an equivalent electronic leaf-spine network."
+  },
+  {
+    "record_key": "openalex:W4285233657",
+    "source": "openalex",
+    "title": "Scaling Optical Interconnects for Hyperscale Data Center Networks",
+    "year": 2022,
+    "venue": "Proceedings of the IEEE",
+    "abstract": "Due to widespread applications and rapid development of cloud computing and Internet services, hyperscale data centers have experienced an unprecedented demand for networking. Data center networks are required not only to handle fast-growing traffic, which doubles almost every one to two years, but also to provide high flexibility and availability to support rapidly changing businesses as well. Therefore, hyperscale data center networks have become one of the main drivers for optical interconnect technologies in recent years. In this article, technologies for scaling optical interconnects for inter-data center interconnects (DCIs) are presented. We first describe hyperscale data center network architectures and requirements, as well as the differences between carrier’s optical transport networks and DCI optical networks, with the main focus on"
+  },
+  {
+    "record_key": "openalex:W3194620979",
+    "source": "openalex",
+    "title": "Integrated Sensing and Communications: Toward Dual-Functional Wireless Networks for 6G and Beyond",
+    "year": 2022,
+    "venue": "IEEE Journal on Selected Areas in Communications",
+    "abstract": "As the standardization of 5G solidifies, researchers are speculating what 6G will be. The integration of sensing functionality is emerging as a key feature of the 6G Radio Access Network (RAN), allowing for the exploitation of dense cell infrastructures to construct a perceptive network. In this IEEE Journal on Selected Areas in Communications (JSAC) Special Issue overview, we provide a comprehensive review on the background, range of key applications and state-of-the-art approaches of Integrated Sensing and Communications (ISAC). We commence by discussing the interplay between sensing and communications (S&C) from a historical point of view, and then consider the multiple facets of ISAC and the resulting performance gains. By introducing both ongoing and potential use cases, we shed light on"
+  },
+  {
+    "record_key": "openalex:W779704277",
+    "source": "openalex",
+    "title": "Optically reconfigurable magnetic materials",
+    "year": 2015,
+    "venue": "Nature Physics",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W2241946296",
+    "source": "openalex",
+    "title": "RODA: A reconfigurable optical data center network architecture",
+    "year": 2015,
+    "venue": null,
+    "abstract": "In this paper, we introduce a novel all-optical Data center networking (DCN) fabric, by leveraging the reconfigurability of the optical transceivers and switches, while dynamically changing the end-to-end optical routes to match the varying traffic demands. The dynamic flow scheduling along with their wavelength assignment turns out to be a NP-hard problem. We propose centralized heuristics for the inter-rack flow scheduling, by exploiting the optical wavelength division multiplexing, while minimizing the number of intermediate optical hops. Through extensive simulations, we show that the proposed architecture and flow scheduling reduces the network congestion by a factor of 15-18, compared to state-of-the-art part-time optical DCNs. For most of the traffic patterns, the proposed scheme can deliver >90% of the inter-rack traffic through"
+  },
+  {
+    "record_key": "openalex:W4285084333",
+    "source": "openalex",
+    "title": "ReSAW: a reconfigurable and picosecond-synchronized optical data center network based on an AWGR and the WR protocol",
+    "year": 2022,
+    "venue": "Journal of Optical Communications and Networking",
+    "abstract": "The explosive growth of data center (DC) traffic imposes unprecedented challenges on the current electrical switch-based data center networks (DCNs) with the bottleneck of limited bandwidth and high latency. Benefitting from transparency to the data rate and format, optical switching with theoretically infinite bandwidth could overcome the bandwidth bottleneck of electrical switching DCNs. However, DCNs normally deploy multitenant applications with a variety of DC traffic. It is hard to reconfigure the optical interconnections in real-time to provide adaptable bandwidth to the traffic with heterogeneous characteristics. Moreover, to improve the bandwidth utilization, statistical multiplexing is generally deployed in optical DCNs to forward the traffic flow in a time slot, which requires the network time to be precisely synchronized to all network"
+  },
+  {
+    "record_key": "openalex:W3128409631",
+    "source": "openalex",
+    "title": "Reconfigurable Intelligent Surfaces: A signal processing perspective with wireless applications",
+    "year": 2022,
+    "venue": "IEEE Signal Processing Magazine",
+    "abstract": "Antenna array technology enables the directional transmission and reception of wireless signals for communication, localization, and sensing purposes. The signal processing algorithms that underpin it began to be developed several decades ago[1], but it was with the deployment of 5G wireless mobile networks that the technology became mainstream[2]. The number of antenna elements in the arrays of 5G base stations (BSs) and user devices can be measured on the order of hundreds and tens, respectively. As networks shift toward using higher-frequency bands, more antennas fit into a given aperture. For communication purposes, the arrays are harnessed to form beams in desired directions to improve the signal-to-noise ratio (SNR) and multiplex data signals in the spatial domain (to one or multiple"
+  },
+  {
+    "record_key": "openalex:W2174784067",
+    "source": "openalex",
+    "title": "OSA: An Optical Switching Architecture for Data Center Networks with Unprecedented Flexibility",
+    "year": 2017,
+    "venue": null,
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W3203666589",
+    "source": "openalex",
+    "title": "Automatically reconfigurable optical data center network with dynamic bandwidth allocation",
+    "year": 2021,
+    "venue": "Journal of Optics",
+    "abstract": "Abstract The rapid increasing traffic in data centers (DCs) puts tremendous pressure to the present multi-tier network architectures and electrical switching techniques. Switching traffic in the optical domain featuring ultra-high bandwidth, therefore, has been intensively investigated to build the high capacity data center networks (DCNs). To handle the variable traffic pattern in DCs, the network reconfigurability with adaptable optical bandwidth allocation is of key importance to flexibly assign the optical bandwidth. To this end, we propose and experimentally evaluate a software-defined networking enabled reconfigurable optical DCN with dynamic bandwidth allocation in this work, based on novel optical top of racks exploiting a wavelength selective switch. Experimental assessments show that the proposed solution can automatically reallocate the optical bandwidth in real-time"
+  }
+]

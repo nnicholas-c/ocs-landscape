@@ -35,13 +35,13 @@ it directly for any author_id to check a top_pis.csv row:
     GROUP BY pa.author_id
 
 Sanity check (first, middle, last row of the sorted top_pis.csv,
-reproduced by the query above against the actual database, run 2, 2026-09-26,
-after the arxiv_via_openalex merge raised extended_set to 420 papers and
-top_pis.csv to 1827 rows):
+reproduced by the query above against the actual database, rerun 2026-09-26
+after step 2's anchor-papers curation pass, extended_set still 420 papers,
+top_pis.csv still 1827 rows):
 
-    author_id=A5100669891 'Ming C. Wu'         -> core=24 extended=27  (row: core=24 extended=27)
-    author_id=A5080197427 'Fengyuan Ren'       -> core=1  extended=1   (row: core=1  extended=1)
-    author_id=A5110102724 'Jonathan Turner'    -> core=0  extended=1   (row: core=0  extended=1)
+    author_id=A5100669891 'Ming C. Wu'            -> core=24 extended=27  (row: core=24 extended=27)
+    author_id=A5084039159 'Antonio M. O. Ribeiro'  -> core=1  extended=1   (row: core=1  extended=1)
+    author_id=A5110102724 'Jonathan Turner'        -> core=0  extended=1   (row: core=0  extended=1)
 
 All three match. sanity_check() below repeats this on every run and raises
 AssertionError on a mismatch.

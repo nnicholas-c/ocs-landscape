@@ -1,0 +1,202 @@
+[
+  {
+    "record_key": "openalex:W4378650891",
+    "source": "openalex",
+    "title": "Broadband 32 × 32 Strictly‐Nonblocking Optical Switch on a Multi‐Layer Si3N4‐on‐SOI Platform",
+    "year": 2023,
+    "venue": "Laser & Photonics Review",
+    "abstract": "Abstract Large‐scale silicon optical switches are essential to support the ever‐increasing data traffic. Among the various switching architectures, the well‐known switch‐and‐select (S&S) architecture has the advantages of low crosstalk and strict non‐blocking. However, it suffers from high path‐dependent losses as the waveguide crossings increase dramatically with the number of ports. In this paper, a large‐scale 32 × 32 S&S optical switch on a multi‐layer Si3N4‐on‐SOI platform is reported. The optical switch chip incorporates 1984 broadband thermo‐optic Mach‐Zehnder interferometer (MZI)‐based switch elements, 246 016 three‐dimensional (3D) waveguide crossings, and 2048 interlayer couplers. Both ≈1‐mdB‐loss 3D waveguide crossings and ≈0.3‐dB‐loss interlayer couplers are realized, significantly reducing the overall insertion loss and footprint of the switch chip. The measured average fiber‐to‐fiber insertion loss"
+  },
+  {
+    "record_key": "openalex:W2327284773",
+    "source": "openalex",
+    "title": "Automated Routing and Control of Silicon Photonic Switch Fabrics",
+    "year": 2016,
+    "venue": "IEEE Journal of Selected Topics in Quantum Electronics",
+    "abstract": "Automatic reconfiguration and feedback controlled routing is demonstrated in an$8 \\times 8$silicon photonic switch fabric based on Mach–Zehnder interferometers. The use of noninvasive contactless integrated photonic probes (CLIPPs) enables real-time monitoring of the state of each switching element individually. Local monitoring provides direct information on the routing path, allowing an easy sequential tuning and feedback controlled stabilization of the individual switching elements, thus making the switch fabric robust against thermal crosstalk, even in the absence of a cooling system for the silicon chip. Up to 24 CLIPPs are interrogated by a multichannel integrated ASIC wire bonded to the photonic chip. Optical routing is demonstrated on simultaneous WDM input signals that are labeled directly on-chip by suitable pilot tones without affecting"
+  },
+  {
+    "record_key": "openalex:W4394954660",
+    "source": "openalex",
+    "title": "Electro-optic tuning in composite silicon photonics based on ferroionic 2D materials",
+    "year": 2024,
+    "venue": "Light Science & Applications",
+    "abstract": "Abstract Tunable optical materials are indispensable elements in modern optoelectronics, especially in integrated photonics circuits where precise control over the effective refractive index is essential for diverse applications. Two-dimensional materials like transition metal dichalcogenides (TMDs) and graphene exhibit remarkable optical responses to external stimuli. However, achieving distinctive modulation across short-wave infrared (SWIR) regions while enabling precise phase control at low signal loss within a compact footprint remains an ongoing challenge. In this work, we unveil the robust electro-refractive response of multilayer ferroionic two-dimensional CuCrP2S6 (CCPS) in the near-infrared wavelength range. By integrating CCPS into silicon photonics (SiPh) microring resonators (MRR), we enhance light-matter interaction and measurement sensitivity to minute phase and absorption variations. Results show that electrically driven Cu ions"
+  },
+  {
+    "record_key": "openalex:W2948602808",
+    "source": "openalex",
+    "title": "Advances in quantum cryptography",
+    "year": 2020,
+    "venue": "Advances in Optics and Photonics",
+    "abstract": "Quantum cryptography is arguably the fastest growing area in quantum information science. Novel theoretical protocols are designed on a regular basis, security proofs are constantly improving, and experiments are gradually moving from proof-of-principle lab demonstrations to in-field implementations and technological prototypes. In this paper, we provide both a general introduction and a state-of-the-art description of the recent advances in the field, both theoretical and experimental. We start by reviewing protocols of quantum key distribution based on discrete variable systems. Next we consider aspects of device independence, satellite challenges, and protocols based on continuous-variable systems. We will then discuss the ultimate limits of point-to-point private communications and how quantum repeaters and networks may overcome these restrictions. Finally, we will discuss some"
+  },
+  {
+    "record_key": "openalex:W2763363916",
+    "source": "openalex",
+    "title": "Micro-combs: A novel generation of optical sources",
+    "year": 2017,
+    "venue": "Physics Reports",
+    "abstract": "The quest towards the integration of ultra-fast, high-precision optical clocks is reflected in the large number of high-impact papers on the topic published in the last few years. This interest has been catalysed by the impact that high-precision optical frequency combs (OFCs) have had on metrology and spectroscopy in the last decade [ [1] , [2] , [3] , [4] , [5] ]. OFCs are often referred to as optical rulers: their spectra consist of a precise sequence of discrete and equally-spaced spectral lines that represent precise marks in frequency. Their importance was recognised worldwide with the 2005 Nobel Prize being awarded to T.W. Hänsch and J. Hall for their breakthrough in OFC science [ 5 ]. They demonstrated that"
+  },
+  {
+    "record_key": "openalex:W4293078036",
+    "source": "openalex",
+    "title": "Advances in lithium niobate photonics: development status and perspectives",
+    "year": 2022,
+    "venue": "Advanced Photonics",
+    "abstract": "Lithium niobate (LN) has experienced significant developments during past decades due to its versatile properties, especially its large electro-optic (EO) coefficient. For example, bulk LN-based modulators with high speeds and a superior linearity are widely used in typical fiber-optic communication systems. However, with ever-increasing demands for signal transmission capacity, the high power and large size of bulk LN-based devices pose great challenges, especially when one of its counterparts, integrated silicon photonics, has experienced dramatic developments in recent decades. Not long ago, high-quality thin-film LN on insulator (LNOI) became commercially available, which has paved the way for integrated LN photonics and opened a hot research area of LN photonics devices. LNOI allows a large refractive index contrast, thus light can be"
+  },
+  {
+    "record_key": "openalex:W2591111335",
+    "source": "openalex",
+    "title": "Highly Scalable Silicon Photonic Switches Based on Waveguide Crossbar with Movable Waveguide Couplers",
+    "year": 2016,
+    "venue": "eScholarship (California Digital Library)",
+    "abstract": "Fast optical-circuit-switches (OCS) having a large number of ports can significantly enhance the performance and the efficiency of modern data centers by actively rearranging network patterns. Commercially available optical switches typically operate with the use of moving mirror arrays. These switches can have port counts exceeding 100x100 and insertion losses lower than a few dBs. However, their switching speeds are typically tens-of-milliseconds which limits their applications in highly dynamic traffic patterns. Moreover, the moving-mirror-based optical switches make use of free-space optics that requires manual assembly and, as a result, the costs are high. Recently, optical switches based on silicon photonics technology have been designed and built. Silicon photonics technology provides an attractive platform for optical switches. In them, light is"
+  },
+  {
+    "record_key": "openalex:W3133879440",
+    "source": "openalex",
+    "title": "MINFLUX nanometer-scale 3D imaging and microsecond-range tracking on a common fluorescence microscope",
+    "year": 2021,
+    "venue": "Nature Communications",
+    "abstract": "The recently introduced minimal photon fluxes (MINFLUX) concept pushed the resolution of fluorescence microscopy to molecular dimensions. Initial demonstrations relied on custom made, specialized microscopes, raising the question of the method's general availability. Here, we show that MINFLUX implemented with a standard microscope stand can attain 1-3 nm resolution in three dimensions, rendering fluorescence microscopy with molecule-scale resolution widely applicable. Advances, such as synchronized electro-optical and galvanometric beam steering and a stabilization that locks the sample position to sub-nanometer precision with respect to the stand, ensure nanometer-precise and accurate real-time localization of individually activated fluorophores. In our MINFLUX imaging of cell- and neurobiological samples, ~800 detected photons suffice to attain a localization precision of 2.2 nm, whereas ~2500 photons yield"
+  },
+  {
+    "record_key": "openalex:W3009983062",
+    "source": "openalex",
+    "title": "Large-scale silicon photonics switch based on 45-nm CMOS technology",
+    "year": 2020,
+    "venue": "Optics Communications",
+    "abstract": "In optical networks for telecom and datacom, an unprecedented energy efficient system is demanded since the amount of data traffic is rapidly increasing while a significant improvement of the energy efficiency in electronics devices such as switch ASICs is no longer expected. To overcome the energy constraints, introduction of energy-efficient optical circuit switching (OCS) to the conventional electrical packet switching network is considered. The energy consumption of the OCS is almost independent of the bandwidth because the transparent optical path with no optical-to-electrical/electrical-to-optical signal conversion supports an ultrawide bandwidth of highly multiplexed optical signals. In the OCS, high-speed and large-port-count optical switches are essential. We have been working on optical switches based on CMOS-compatible silicon photonics that offer fast switching,"
+  },
+  {
+    "record_key": "openalex:W4391878049",
+    "source": "openalex",
+    "title": "Large-Scale and Multiband Silicon Photonics Wavelength Cross-Connect Switch With FSR-Free Grating-Assisted Contra-Directional Couplers",
+    "year": 2024,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "The recent advancement of cloud computing including AI applications requires a large networking capacity in datacenters resulting in a large power consumption at the same time. Optical switches significantly improve energy efficiency in datacenter networks, and silicon photonics enables the optical switch to operate faster than microseconds and be highly integrable for co-integration with GPUs. To support such high-capacity interconnect and switching, flexible use of multiple lanes and wavelength division multiplexing is essential, which can be implemented by a wavelength selective switch or wavelength cross-connect (WXC) switch. We proposed a novel silicon photonics WXC switch with free-spectral-range (FSR)-free grating-assisted contra-directional couplers (C-DCs) and Mach-Zehnder interferometers (MZIs), where extremely broadband operation is expected because of the unlimited FSR. In this paper,"
+  },
+  {
+    "record_key": "openalex:W3008629526",
+    "source": "openalex",
+    "title": "Advances in Quantum Cryptography",
+    "year": 2019,
+    "venue": "White Rose Research Online (University of Leeds, The University of Sheffield, University of York)",
+    "abstract": "Quantum cryptography is arguably the fastest growing area in quantum information science.Novel theoretical protocols are designed on a regular basis, security proofs are constantly improv-ing, and experiments are gradually moving from proof-of-principle lab demonstrations to in-fieldimplementations and technological prototypes. In this review, we provide both a general introduc-tion and a state of the art description of the recent advancesin the field, both theoretically andexperimentally. We start by reviewing protocols of quantumkey distribution based on discretevariable systems. Next we consider aspects of device independence, satellite challenges, and highrate protocols based on continuous variable systems. We will then discuss the ultimate limits ofpoint-to-point private communications and how quantum repeaters and networks may overcomethese restrictions. Finally, we will discuss some aspects of quantum"
+  },
+  {
+    "record_key": "openalex:W4395075783",
+    "source": "openalex",
+    "title": "Low-loss and polarization insensitive 32 × 4 optical switch for ROADM applications",
+    "year": 2024,
+    "venue": "Light Science & Applications",
+    "abstract": "Integrated switches play a crucial role in the development of reconfigurable optical add-drop multiplexers (ROADMs) that have greater flexibility and compactness, ultimately leading to robust single-chip solutions. Despite decades of research on switches with various structures and platforms, achieving a balance between dense integration, low insertion loss (IL), and polarization-dependent loss (PDL) remains a significant challenge. In this paper, we propose and demonstrate a 32 × 4 optical switch using high-index doped silica glass (HDSG) for ROADM applications. This switch is designed to route any of the 32 inputs to the express ports or drop any channels from 32 inputs to the target 4 drop ports or add any of the 4 ports to any of the 32 express channels."
+  },
+  {
+    "record_key": "openalex:W2619613367",
+    "source": "openalex",
+    "title": "Microglia Are Irrelevant for Neuronal Degeneration and Axon Regeneration after Acute Injury",
+    "year": 2017,
+    "venue": "Journal of Neuroscience",
+    "abstract": "The role of microglia in degenerative and regenerative processes after damage of the nervous system remains ambiguous, partially due to the paucity of appropriate investigative methods. Here, we show that treatment with the pharmacological colony stimulating factor 1 receptor inhibitor PLX5622 specifically eliminated microglia in murine retinae and optic nerves with high efficiency. Interestingly, time course and extent of retinal ganglion cell (RGC) degeneration after optic nerve crush remained unaffected upon microglia depletion, although remnants of prelabeled apoptotic RGCs were not cleared from the retina in these animals. In addition, microglia depletion neither affected the induction of regeneration associated genes upon optic nerve injury nor the increased regenerative potential of RGCs upon lens injury (LI). However, although the repopulation of"
+  },
+  {
+    "record_key": "openalex:W2889455810",
+    "source": "openalex",
+    "title": "De‐multiplexing free on‐chip low‐loss multimode switch enabling reconfigurable inter‐mode and inter‐path routing",
+    "year": 2018,
+    "venue": "Nanophotonics",
+    "abstract": "Abstract Switching and routing are critical functionalities for a reconfigurable bandwidth‐dense optical network, and great efforts had been made to accommodate mode‐division multiplexing technology. Although the reconfigurable routing for spatial‐mode groups between different optical paths was realized recently, a demultiplexing‐switching‐multiplexing process is necessary. Here we present a simplified and compact on‐chip 2×2 multimode switch that can be easily upgradable to a larger scale. Fully and reconfigurable routing between not only optical paths but also spatial modes is achieved. To obtain a low loss multimode processing, a novel structure free from demultiplexing and re‐multiplexing operations is adopted. The switch enables minimum and maximum insertion losses of 0.3 and 1.2 dB, with a compact footprint of 433 μm×433 μm and low crosstalk"
+  },
+  {
+    "record_key": "openalex:W4409153023",
+    "source": "openalex",
+    "title": "On-chip Non-Blocking 4 × 4 and 8 × 8 Photonic Switches Using MMI-MZI Configuration for Next-Generation Data Center Networks",
+    "year": 2025,
+    "venue": "IEEE Transactions on Nanotechnology",
+    "abstract": "The advancement of future photonic integrated circuits for data center networks relies crucially on the development of highly efficient, low-power, and compact switches. This paper presents the design of non-blocking 4×4 and 8×8 silicon photonics switches intended using Multimode Interferometer (MMI)-Mach-Zehnder interferometer (MZI) structures. These proposed switches consist of 2×2 MMI-MZI switches realized by changing the phase of an optical signal using the thermo-optic effect. At 1550 nm, the proposed 2×2 switch exhibits an insertion loss of 0.04 dB and crosstalk of < 39.95 dB. Similarly, the C-band showcases an insertion loss of < 0.06 dB and crosstalk of < -33 dB. To support complex network topologies and enhance network efficiency, a data center network necessitates a higher quantity of"
+  },
+  {
+    "record_key": "openalex:W2897393425",
+    "source": "openalex",
+    "title": "High-performance and scalable on-chip digital Fourier transform spectroscopy",
+    "year": 2018,
+    "venue": "Nature Communications",
+    "abstract": "Abstract On-chip spectrometers have the potential to offer dramatic size, weight, and power advantages over conventional benchtop instruments for many applications such as spectroscopic sensing, optical network performance monitoring, hyperspectral imaging, and radio-frequency spectrum analysis. Existing on-chip spectrometer designs, however, are limited in spectral channel count and signal-to-noise ratio. Here we demonstrate a transformative on-chip digital Fourier transform spectrometer that acquires high-resolution spectra via time-domain modulation of a reconfigurable Mach-Zehnder interferometer. The device, fabricated and packaged using industry-standard silicon photonics technology, claims the multiplex advantage to dramatically boost the signal-to-noise ratio and unprecedented scalability capable of addressing exponentially increasing numbers of spectral channels. We further explore and implement machine learning regularization techniques to spectrum reconstruction. Using an ‘elastic-D 1 ’"
+  },
+  {
+    "record_key": "openalex:W2739117960",
+    "source": "openalex",
+    "title": "Electro-optic routing of photons from a single quantum dot in photonic integrated circuits",
+    "year": 2017,
+    "venue": "Optics Express",
+    "abstract": "Recent breakthroughs in solid-state photonic quantum technologies enable generating and detecting single photons with near-unity efficiency as required for a range of photonic quantum technologies.The lack of methods to simultaneously generate and control photons within the same chip, however, has formed a main obstacle to achieving efficient multi-qubit gates and to harness the advantages of chip-scale quantum photonics.Here we propose and demonstrate an integrated voltage-controlled phase shifter based on the electro-optic effect in suspended photonic waveguides with embedded quantum emitters.The phase control allows building a compact Mach-Zehnder interferometer with two orthogonal arms, taking advantage of the anisotropic electro-optic response in gallium arsenide.Photons emitted by single self-assembled quantum dots can be actively routed into the two outputs of the interferometer.These results,"
+  },
+  {
+    "record_key": "openalex:W4404306027",
+    "source": "openalex",
+    "title": "Prefrontal transthalamic uncertainty processing drives flexible switching",
+    "year": 2024,
+    "venue": "Nature",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W4367676360",
+    "source": "openalex",
+    "title": "Handling mode and polarization in fiber by fs-laser inscribed (de)multiplexer and silicon switch array",
+    "year": 2023,
+    "venue": "PhotoniX",
+    "abstract": "Abstract The emergence of dynamic optical switching has opened up new perspectives for lightening the ever growing load on the electrical switches and routers, to meet the increasing demand on high-speed and flexible data processing and management in fiber-optic communications. Despite diversity schemes of optical switching in the single-mode regime, multi-mode switching of the hybrid fiber and chip system enabled by photonic integrated circuits, especially for the fiber-chip-fiber system, is still an outstanding challenge. Here, we propose and demonstrate the mode and polarization transmission and switching fiber-chip-fiber system with few-mode fibers (FMFs), including the FMF links for mode- and polarization-division multiplexing data transmission, the femtosecond (fs)-laser inscribed 3-dimensional (3D) photonic lantern silica chip for (de)multiplexing and coupling between FMFs and"
+  },
+  {
+    "record_key": "openalex:W2335273496",
+    "source": "openalex",
+    "title": "Broadband 4 $\\times$ 4 Nonblocking Silicon Electrooptic Switches Based on Mach–Zehnder Interferometers",
+    "year": 2015,
+    "venue": "IEEE photonics journal",
+    "abstract": "We report a broadband 4 × 4 nonblocking optical switch with Mach-Zehnder interferometers (MZIs) as switch elements on a silicon platform. Silicon resistive heaters are used for phase error correction of MZI arms with total thermooptic power consumption of 33.7 mW. Fast switching is enabled by p-i-n diodes, with average electrooptic tuning power of 14.3 mW for the 24 essential switching states as required for nonblocking routing. The average on-chip insertion loss is 5.8-7.7 dB and crosstalk better than -12 dB at wavelength of 1550 nm. Optical transmission experiments using a high-throughput 50 Gb/s quadrature phase-shift keying (QPSK) optical signal reveal that no significant deterioration is observed on constellation diagrams."
+  },
+  {
+    "record_key": "openalex:W2324604385",
+    "source": "openalex",
+    "title": "Fast and accurate calibration method for large-port-count Si-wire PILOSS optical switch",
+    "year": 2015,
+    "venue": null,
+    "abstract": "We propose a calibration method for N×N Si-wire path-independent-insertion-loss (PILOSS) optical switches with thermo-optic Mach-Zehnder-interferometer (MZI) element switches. Calibration for a 32x32 switch is numerically demonstrated with an error less than 1% within an hour."
+  },
+  {
+    "record_key": "openalex:W2739588406",
+    "source": "openalex",
+    "title": "Neuromorphic photonic networks using silicon photonic weight banks",
+    "year": 2017,
+    "venue": "Scientific Reports",
+    "abstract": "Photonic systems for high-performance information processing have attracted renewed interest. Neuromorphic silicon photonics has the potential to integrate processing functions that vastly exceed the capabilities of electronics. We report first observations of a recurrent silicon photonic neural network, in which connections are configured by microring weight banks. A mathematical isomorphism between the silicon photonic circuit and a continuous neural network model is demonstrated through dynamical bifurcation analysis. Exploiting this isomorphism, a simulated 24-node silicon photonic neural network is programmed using \"neural compiler\" to solve a differential system emulation task. A 294-fold acceleration against a conventional benchmark is predicted. We also propose and derive power consumption analysis for modulator-class neurons that, as opposed to laser-class neurons, are compatible with silicon photonic"
+  },
+  {
+    "record_key": "openalex:W2772829183",
+    "source": "openalex",
+    "title": "Ultrawide‐Bandgap Semiconductors: Research Opportunities and Challenges",
+    "year": 2017,
+    "venue": "Advanced Electronic Materials",
+    "abstract": "Abstract Ultrawide‐bandgap (UWBG) semiconductors, with bandgaps significantly wider than the 3.4 eV of GaN, represent an exciting and challenging new area of research in semiconductor materials, physics, devices, and applications. Because many figures‐of‐merit for device performance scale nonlinearly with bandgap, these semiconductors have long been known to have compelling potential advantages over their narrower‐bandgap cousins in high‐power and RF electronics, as well as in deep‐UV optoelectronics, quantum information, and extreme‐environment applications. Only recently, however, have the UWBG semiconductor materials, such as high Al‐content AlGaN, diamond and Ga 2 O 3 , advanced in maturity to the point where realizing some of their tantalizing advantages is a relatively near‐term possibility. In this article, the materials, physics, device and application research opportunities"
+  },
+  {
+    "record_key": "openalex:W3080673473",
+    "source": "openalex",
+    "title": "Bandgap engineering of two-dimensional semiconductor materials",
+    "year": 2020,
+    "venue": "npj 2D Materials and Applications",
+    "abstract": "Abstract Semiconductors are the basis of many vital technologies such as electronics, computing, communications, optoelectronics, and sensing. Modern semiconductor technology can trace its origins to the invention of the point contact transistor in 1947. This demonstration paved the way for the development of discrete and integrated semiconductor devices and circuits that has helped to build a modern society where semiconductors are ubiquitous components of everyday life. A key property that determines the semiconductor electrical and optical properties is the bandgap. Beyond graphene, recently discovered two-dimensional (2D) materials possess semiconducting bandgaps ranging from the terahertz and mid-infrared in bilayer graphene and black phosphorus, visible in transition metal dichalcogenides, to the ultraviolet in hexagonal boron nitride. In particular, these 2D materials were"
+  },
+  {
+    "record_key": "openalex:W2610847187",
+    "source": "openalex",
+    "title": "Ultrafast all-optical tuning of direct-gap semiconductor metasurfaces",
+    "year": 2017,
+    "venue": "Nature Communications",
+    "abstract": "Abstract Optical metasurfaces are regular quasi-planar nanopatterns that can apply diverse spatial and spectral transformations to light waves. However, metasurfaces are no longer adjustable after fabrication, and a critical challenge is to realise a technique of tuning their optical properties that is both fast and efficient. We experimentally realise an ultrafast tunable metasurface consisting of subwavelength gallium arsenide nanoparticles supporting Mie-type resonances in the near infrared. Using transient reflectance spectroscopy, we demonstrate a picosecond-scale absolute reflectance modulation of up to 0.35 at the magnetic dipole resonance of the metasurfaces and a spectral shift of the resonance by 30 nm, both achieved at unprecedentedly low pump fluences of less than 400 μJ cm–2. Our findings thereby enable a versatile tool for"
+  }
+]

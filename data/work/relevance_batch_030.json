@@ -1,0 +1,202 @@
+[
+  {
+    "record_key": "openalex:W2531320996",
+    "source": "openalex",
+    "title": "A survey on Internet of Things architectures",
+    "year": 2016,
+    "venue": "Journal of King Saud University - Computer and Information Sciences",
+    "abstract": "Internet of Things is a platform where every day devices become smarter, every day processing becomes intelligent, and every day communication becomes informative. While the Internet of Things is still seeking its own shape, its effects have already stared in making incredible strides as a universal solution media for the connected scenario. Architecture specific study does always pave the conformation of related field. The lack of overall architectural knowledge is presently resisting the researchers to get through the scope of Internet of Things centric approaches. This literature surveys Internet of Things oriented architectures that are capable enough to improve the understanding of related tool, technology, and methodology to facilitate developer’s requirements. Directly or indirectly, the presented architectures propose to solve"
+  },
+  {
+    "record_key": "openalex:W2152896489",
+    "source": "openalex",
+    "title": "A Survey of Projection-Based Model Reduction Methods for Parametric Dynamical Systems",
+    "year": 2015,
+    "venue": "SIAM Review",
+    "abstract": "Numerical simulation of large-scale dynamical systems plays a fundamental role in studying a wide range of complex physical phenomena; however, the inherent large-scale nature of the models often leads to unmanageable demands on computational resources. Model reduction aims to reduce this computational burden by generating reduced models that are faster and cheaper to simulate, yet accurately represent the original large-scale system behavior. Model reduction of linear, nonparametric dynamical systems has reached a considerable level of maturity, as reflected by several survey papers and books. However, parametric model reduction has emerged only more recently as an important and vibrant research area, with several recent advances making a survey paper timely. Thus, this paper aims to provide a resource that draws together"
+  },
+  {
+    "record_key": "openalex:W2000432868",
+    "source": "openalex",
+    "title": "Big Data: Survey, Technologies, Opportunities, and Challenges",
+    "year": 2014,
+    "venue": "The Scientific World JOURNAL",
+    "abstract": "Big Data has gained much attention from the academia and the IT industry. In the digital and computing world, information is generated and collected at a rate that rapidly exceeds the boundary range. Currently, over 2 billion people worldwide are connected to the Internet, and over 5 billion individuals own mobile phones. By 2020, 50 billion devices are expected to be connected to the Internet. At this point, predicted data production will be 44 times greater than that in 2009. As information is transferred and shared at light speed on optic fiber and wireless networks, the volume of data and the speed of market growth increase. However, the fast growth rate of such large data generates numerous challenges, such as"
+  },
+  {
+    "record_key": "openalex:W4292875581",
+    "source": "openalex",
+    "title": "Planck 2015 results",
+    "year": 2016,
+    "venue": "Astronomy and Astrophysics",
+    "abstract": "This paper presents cosmological results based on full-mission Planck observations of temperature and polarization anisotropies of the cosmic microwave background (CMB) radiation.Our results are in very good agreement with the 2013 analysis of the Planck nominal-mission temperature data, but with increased precision.The temperature and polarization power spectra are consistent with the standard spatially-flat 6-parameter ΛCDM cosmology with a power-law spectrum of adiabatic scalar perturbations (denoted \"base ΛCDM\" in this paper).From the Planck temperature data combined with Planck lensing, for this cosmology we find a Hubble constant, H 0 = (67.8± 0.9) km s -1 Mpc -1 , a matter density parameter Ω m = 0.308 ± 0.012, and a tilted scalar spectral index with n s = 0.968 ± 0.006,"
+  },
+  {
+    "record_key": "openalex:W2771152181",
+    "source": "openalex",
+    "title": "A Survey on 5G Networks for the Internet of Things: Communication Technologies and Challenges",
+    "year": 2017,
+    "venue": "IEEE Access",
+    "abstract": "The Internet of Things (IoT) is a promising technology which tends to revolutionize and connect the global world via heterogeneous smart devices through seamless connectivity. The current demand for machine-type communications (MTC) has resulted in a variety of communication technologies with diverse service requirements to achieve the modern IoT vision. More recent cellular standards like long-term evolution (LTE) have been introduced for mobile devices but are not well suited for low-power and low data rate devices such as the IoT devices. To address this, there is a number of emerging IoT standards. Fifth generation (5G) mobile network, in particular, aims to address the limitations of previous cellular standards and be a potential key enabler for future IoT. In this paper,"
+  },
+  {
+    "record_key": "openalex:W2951694401",
+    "source": "openalex",
+    "title": "A Survey on IoT Security: Application Areas, Security Threats, and Solution Architectures",
+    "year": 2019,
+    "venue": "IEEE Access",
+    "abstract": "The Internet of Things (IoT) is the next era of communication. Using the IoT, physical objects can be empowered to create, receive, and exchange data in a seamless manner. Various IoT applications focus on automating different tasks and are trying to empower the inanimate physical objects to act without any human intervention. The existing and upcoming IoT applications are highly promising to increase the level of comfort, efficiency, and automation for the users. To be able to implement such a world in an ever-growing fashion requires high security, privacy, authentication, and recovery from attacks. In this regard, it is imperative to make the required changes in the architecture of the IoT applications for achieving end-to-end secure IoT environments. In this"
+  },
+  {
+    "record_key": "openalex:W2811395263",
+    "source": "openalex",
+    "title": "Survey of Multifidelity Methods in Uncertainty Propagation, Inference, and Optimization",
+    "year": 2018,
+    "venue": "SIAM Review",
+    "abstract": "In many situations across computational science and engineering, multiple computational models are available that describe a system of interest. These different models have varying evaluation costs and varying fidelities. Typically, a computationally expensive high-fidelity model describes the system with the accuracy required by the current application at hand, while lower-fidelity models are less accurate but computationally cheaper than the high-fidelity model. Outer-loop applications, such as optimization, inference, and uncertainty quantification, require multiple model evaluations at many different inputs, which often leads to computational demands that exceed available resources if only the high-fidelity model is used. This work surveys multifidelity methods that accelerate the solution of outer-loop applications by combining high-fidelity and low-fidelity model evaluations, where the low-fidelity evaluations arise from"
+  },
+  {
+    "record_key": "openalex:W2215208662",
+    "source": "openalex",
+    "title": "Switchable Materials for Smart Windows",
+    "year": 2016,
+    "venue": "Annual Review of Chemical and Biomolecular Engineering",
+    "abstract": "This article reviews the basic principles of and recent developments in electrochromic, photochromic, and thermochromic materials for applications in smart windows. Compared with current static windows, smart windows can dynamically modulate the transmittance of solar irradiation based on weather conditions and personal preferences, thus simultaneously improving building energy efficiency and indoor human comfort. Although some smart windows are commercially available, their widespread implementation has not yet been realized. Recent advances in nanostructured materials provide new opportunities for next-generation smart window technology owing to their unique structure-property relations. Nanomaterials can provide enhanced coloration efficiency, faster switching kinetics, and longer lifetime. In addition, their compatibility with solution processing enables low-cost and high-throughput fabrication. This review also discusses the importance of dual-band modulation"
+  },
+  {
+    "record_key": "openalex:W2615459164",
+    "source": "openalex",
+    "title": "On Multi-Access Edge Computing: A Survey of the Emerging 5G Network Edge Cloud Architecture and Orchestration",
+    "year": 2017,
+    "venue": "IEEE Communications Surveys & Tutorials",
+    "abstract": "Multi-access edge computing (MEC) is an emerging ecosystem, which aims at converging telecommunication and IT services, providing a cloud computing platform at the edge of the radio access network. MEC offers storage and computational resources at the edge, reducing latency for mobile end users and utilizing more efficiently the mobile backhaul and core networks. This paper introduces a survey on MEC and focuses on the fundamental key enabling technologies. It elaborates MEC orchestration considering both individual services and a network of MEC platforms supporting mobility, bringing light into the different orchestration deployment options. In addition, this paper analyzes the MEC reference architecture and main deployment scenarios, which offer multitenancy support for application developers, content providers, and third parties. Finally, this"
+  },
+  {
+    "record_key": "openalex:W1957358593",
+    "source": "openalex",
+    "title": "A Survey on Wireless Security: Technical Challenges, Recent Advances, and Future Trends",
+    "year": 2016,
+    "venue": "Proceedings of the IEEE",
+    "abstract": "Due to the broadcast nature of radio propagation, the wireless air interface is open and accessible to both authorized and illegitimate users. This completely differs from a wired network, where communicating devices are physically connected through cables and a node without direct association is unable to access the network for illicit activities. The open communications environment makes wireless transmissions more vulnerable than wired communications to malicious attacks, including both the passive eavesdropping for data interception and the active jamming for disrupting legitimate transmissions. Therefore, this paper is motivated to examine the security vulnerabilities and threats imposed by the inherent open nature of wireless communications and to devise efficient defense mechanisms for improving the wireless network security. We first summarize the"
+  },
+  {
+    "record_key": "openalex:W2793519446",
+    "source": "openalex",
+    "title": "Network Slicing and Softwarization: A Survey on Principles, Enabling Technologies, and Solutions",
+    "year": 2018,
+    "venue": "IEEE Communications Surveys & Tutorials",
+    "abstract": "Network slicing has been identified as the backbone of the rapidly evolving 5G technology. However, as its consolidation and standardization progress, there are no literatures that comprehensively discuss its key principles, enablers, and research challenges. This paper elaborates network slicing from an end-to-end perspective detailing its historical heritage, principal concepts, enabling technologies and solutions as well as the current standardization efforts. In particular, it overviews the diverse use cases and network requirements of network slicing, the pre-slicing era, considering RAN sharing as well as the end-to-end orchestration and management, encompassing the radio access, transport network and the core network. This paper also provides details of specific slicing solutions for each part of the 5G system. Finally, this paper identifies a"
+  },
+  {
+    "record_key": "openalex:W1859314164",
+    "source": "openalex",
+    "title": "A Comprehensive Survey on Particle Swarm Optimization Algorithm and Its Applications",
+    "year": 2015,
+    "venue": "Mathematical Problems in Engineering",
+    "abstract": "Particle swarm optimization (PSO) is a heuristic global optimization method, proposed originally by Kennedy and Eberhart in 1995. It is now one of the most commonly used optimization techniques. This survey presented a comprehensive investigation of PSO. On one hand, we provided advances with PSO, including its modifications (including quantum-behaved PSO, bare-bones PSO, chaotic PSO, and fuzzy PSO), population topology (as fully connected, von Neumann, ring, star, random, etc.), hybridization (with genetic algorithm, simulated annealing, Tabu search, artificial immune system, ant colony algorithm, artificial bee colony, differential evolution, harmonic search, and biogeography-based optimization), extensions (to multiobjective, constrained, discrete, and binary optimization), theoretical analysis (parameter selection and tuning, and convergence analysis), and parallel implementation (in multicore, multiprocessor, GPU, and cloud computing"
+  },
+  {
+    "record_key": "openalex:W2044857874",
+    "source": "openalex",
+    "title": "A survey on Advanced Metering Infrastructure",
+    "year": 2014,
+    "venue": "International Journal of Electrical Power & Energy Systems",
+    "abstract": "This survey paper is an excerpt of a more comprehensive study on Smart Grid (SG) and the role of Advanced Metering Infrastructure (AMI) in SG. The survey was carried out as part of a feasibility study for creation of a Net-Zero community in a city in Ontario, Canada. SG is not a single technology; rather it is a combination of different areas of engineering, communication and management. This paper introduces AMI technology and its current status, as the foundation of SG, which is responsible for collecting all the data and information from loads and consumers. AMI is also responsible for implementing control signals and commands to perform necessary control actions as well as Demand Side Management (DSM). In this paper"
+  },
+  {
+    "record_key": "openalex:W2809684781",
+    "source": "openalex",
+    "title": "A comprehensive survey on machine learning for networking: evolution, applications and research opportunities",
+    "year": 2018,
+    "venue": "Journal of Internet Services and Applications",
+    "abstract": "Machine Learning (ML) has been enjoying an unprecedented surge in applications that solve problems and enable automation in diverse domains. Primarily, this is due to the explosion in the availability of data, significant improvements in ML techniques, and advancement in computing capabilities. Undoubtedly, ML has been applied to various mundane and complex problems arising in network operation and management. There are various surveys on ML for specific areas in networking or for specific network technologies. This survey is original, since it jointly presents the application of diverse ML techniques in various key areas of networking across different network technologies. In this way, readers will benefit from a comprehensive discussion on the different learning paradigms and ML techniques applied to fundamental"
+  },
+  {
+    "record_key": "openalex:W1516975232",
+    "source": "openalex",
+    "title": "Optical waveguides in crystalline dielectric materials produced by femtosecond‐laser micromachining",
+    "year": 2013,
+    "venue": "Laser & Photonics Review",
+    "abstract": "Abstract Femtosecond‐laser micromachining (also known as inscription or writing) has been developed as one of the most efficient techniques for direct three‐dimensional microfabrication of transparent optical materials. In integrated photonics, by using direct writing of femtosecond/ultrafast laser pulses, optical waveguides can be produced in a wide variety of optical materials. With diverse parameters, the formed waveguides may possess different configurations. This paper focuses on crystalline dielectric materials, and is a review of the state‐of‐the‐art in the fabrication, characterization and applications of femtosecond‐laser micromachined waveguiding structures in optical crystals and ceramics. A brief outlook is presented by focusing on a few potential spotlights."
+  },
+  {
+    "record_key": "openalex:W3127353117",
+    "source": "openalex",
+    "title": "An Exhaustive Survey on P4 Programmable Data Plane Switches: Taxonomy, Applications, Challenges, and Future Trends",
+    "year": 2021,
+    "venue": "IEEE Access",
+    "abstract": "Traditionally, the data plane has been designed with fixed functions to forward packets using a small set of protocols. This closed-design paradigm has limited the capability of the switches to proprietary implementations which are hard-coded by vendors, inducing a lengthy, costly, and inflexible process. Recently, data plane programmability has attracted significant attention from both the research community and the industry, permitting operators and programmers in general to run customized packet processing functions. This open-design paradigm is paving the way for an unprecedented wave of innovation and experimentation by reducing the time of designing, testing, and adopting new protocols; enabling a customized, top-down approach to develop network applications; providing granular visibility of packet events defined by the programmer; reducing complexity and"
+  },
+  {
+    "record_key": "openalex:W2981854649",
+    "source": "openalex",
+    "title": "A Survey on the Role of IoT in Agriculture for the Implementation of Smart Farming",
+    "year": 2019,
+    "venue": "IEEE Access",
+    "abstract": "Internet of things (IoT) is a promising technology which provides efficient and reliable solutions towards the modernization of several domains. IoT based solutions are being developed to automatically maintain and monitor agricultural farms with minimal human involvement. The article presents many aspects of technologies involved in the domain of IoT in agriculture. It explains the major components of IoT based smart farming. A rigorous discussion on network technologies used in IoT based agriculture has been presented, that involves network architecture and layers, network topologies used, and protocols. Furthermore, the connection of IoT based agriculture systems with relevant technologies including cloud computing, big data storage and analytics has also been presented. In addition, security issues in IoT agriculture have been highlighted."
+  },
+  {
+    "record_key": "openalex:W2952418242",
+    "source": "openalex",
+    "title": "A survey on key roles of optical switching and labeling technologies on big data traffic of Data Centers and HPC environments",
+    "year": 2019,
+    "venue": "AIMS Electronics and Electrical Engineering",
+    "abstract": "The tremendous big data and IP traffic growth rate between interconnected Data Centers (DC) and High Performance Computing (HPC) environments have imposed the need for ultrahigh link capacities and ultrahigh packet switching speeds, at network nodes. In order to overcome these ultrahigh demands, and particularly packet routing and forwarding speeds, long tested and established technologies, such as optical switching and labeling technology, seem to provide adequate solutions, not only by conveying ultrahigh bit rate data streams, but also by achieving multi Tb/s cross connection throughputs, in a cost and energy efficient way. By adoption of optical switching and labeling technology, big data streams are propagating directly in optical layer, thus lessening down bottlenecks, latency issues, and multi stage hierarchy layering."
+  },
+  {
+    "record_key": "openalex:W2499628420",
+    "source": "openalex",
+    "title": "SDSS-IV MaNGA IFS GALAXY SURVEY—SURVEY DESIGN, EXECUTION, AND INITIAL DATA QUALITY",
+    "year": 2016,
+    "venue": "The Astronomical Journal",
+    "abstract": "ABSTRACT The MaNGA Survey (Mapping Nearby Galaxies at Apache Point Observatory) is one of three core programs in the Sloan Digital Sky Survey IV. It is obtaining integral field spectroscopy for 10,000 nearby galaxies at a spectral resolution of R ∼ 2000 from 3622 to 10354 Å. The design of the survey is driven by a set of science requirements on the precision of estimates of the following properties: star formation rate surface density, gas metallicity, stellar population age, metallicity, and abundance ratio, and their gradients; stellar and gas kinematics; and enclosed gravitational mass as a function of radius. We describe how these science requirements set the depth of the observations and dictate sample selection. The majority of targeted galaxies"
+  },
+  {
+    "record_key": "openalex:W2803750062",
+    "source": "openalex",
+    "title": "Survey on Multi-Access Edge Computing for Internet of Things Realization",
+    "year": 2018,
+    "venue": "IEEE Communications Surveys & Tutorials",
+    "abstract": "The Internet of Things (IoT) has recently advanced from an experimental technology to what will become the backbone of future customer value for both product and service sector businesses. This underscores the cardinal role of IoT on the journey toward the fifth generation of wireless communication systems. IoT technologies augmented with intelligent and big data analytics are expected to rapidly change the landscape of myriads of application domains ranging from health care to smart cities and industrial automations. The emergence of multi-access edge computing (MEC) technology aims at extending cloud computing capabilities to the edge of the radio access network, hence providing real-time, high-bandwidth, low-latency access to radio network resources. IoT is identified as a key use case of MEC,"
+  },
+  {
+    "record_key": "openalex:W2805657678",
+    "source": "openalex",
+    "title": "A Survey on Hybrid Beamforming Techniques in 5G: Architecture and System Model Perspectives",
+    "year": 2018,
+    "venue": "IEEE Communications Surveys & Tutorials",
+    "abstract": "The increasing wireless data traffic demands have driven the need to explore suitable spectrum regions for meeting the projected requirements. In the light of this, millimeter wave (mmWave) communication has received considerable attention from the research community. Typically, in fifth generation (5G) wireless networks, mmWave massive multiple-input multipleoutput (MIMO) communications is realized by the hybrid transceivers which combine high dimensional analog phase shifters and power amplifiers with lower-dimensional digital signal processing units. This hybrid beamforming design reduces the cost and power consumption which is aligned with an energy-efficient design vision of 5G. In this paper, we track the progress in hybrid beamforming for massive MIMO communications in the context of system models of the hybrid transceivers' structures, the digital and"
+  },
+  {
+    "record_key": "openalex:W3144404977",
+    "source": "openalex",
+    "title": "Survey on 6G Frontiers: Trends, Applications, Requirements, Technologies and Future Research",
+    "year": 2021,
+    "venue": "IEEE Open Journal of the Communications Society",
+    "abstract": "Emerging applications such as Internet of Everything, Holographic Telepresence, collaborative robots, and space and deep-sea tourism are already highlighting the limitations of existing fifth-generation (5G) mobile networks. These limitations are in terms of data-rate, latency, reliability, availability, processing, connection density and global coverage, spanning over ground, underwater and space. The sixth-generation (6G) of mobile networks are expected to burgeon in the coming decade to address these limitations. The development of 6G vision, applications, technologies and standards has already become a popular research theme in academia and the industry. In this paper, we provide a comprehensive survey of the current developments towards 6G. We highlight the societal and technological trends that initiate the drive towards 6G. Emerging applications to realize the"
+  },
+  {
+    "record_key": "openalex:W3046344355",
+    "source": "openalex",
+    "title": "Sirius",
+    "year": 2020,
+    "venue": null,
+    "abstract": "The increasing gap between the growth of datacenter traffic and electrical switch capacity is expected to worsen due to the slowdown of Moore's law, motivating the need for a new switching technology for the post-Moore's law era that can meet the increasingly stringent requirements of hardware-driven cloud workloads. We propose Sirius, an optically-switched network for datacenters providing the abstraction of a single, high-radix switch that can connect thousands of nodes---racks or servers---in a datacenter while achieving nanosecond-granularity reconfiguration. At its core, Sirius uses a combination of tunable lasers and simple, passive gratings that route light based on its wavelength. Sirius' switching technology and topology is tightly codesigned with its routing and scheduling and with novel congestion-control and time-synchronization mechanisms to"
+  },
+  {
+    "record_key": "openalex:W2934098931",
+    "source": "openalex",
+    "title": "Expanding across time to deliver bandwidth efficiency and low latency",
+    "year": 2019,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "Datacenters need networks that support both low-latency and high-bandwidth packet delivery to meet the stringent requirements of modern applications. We present Opera, a dynamic network that delivers latency-sensitive traffic quickly by relying on multi-hop forwarding in the same way as expander-graph-based approaches, but provides near-optimal bandwidth for bulk flows through direct forwarding over time-varying source-to-destination circuits. The key to Opera's design is the rapid and deterministic reconfiguration of the network, piece-by-piece, such that at any moment in time the network implements an expander graph, yet, integrated across time, the network provides bandwidth-efficient single-hop paths between all racks. We show that Opera supports low-latency traffic with flow completion times comparable to cost-equivalent static topologies, while delivering up to 4x the bandwidth"
+  },
+  {
+    "record_key": "openalex:W2119638333",
+    "source": "openalex",
+    "title": "Helios",
+    "year": 2010,
+    "venue": null,
+    "abstract": "The basic building block of ever larger data centers has shifted from a rack to a modular container with hundreds or even thousands of servers. Delivering scalable bandwidth among such containers is a challenge. A number of recent efforts promise full bisection bandwidth between all servers, though with significant cost, complexity, and power consumption. We present Helios, a hybrid electrical/optical switch architecture that can deliver significant reductions in the number of switching elements, cabling, cost, and power consumption relative to recently proposed data center network architectures. We explore architectural trade offs and challenges associated with realizing these benefits through the evaluation of a fully functional Helios prototype."
+  }
+]

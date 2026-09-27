@@ -1,0 +1,202 @@
+[
+  {
+    "record_key": "openalex:W2808460361",
+    "source": "openalex",
+    "title": "Nozzle condition monitoring in 3D printing",
+    "year": 2018,
+    "venue": "Robotics and Computer-Integrated Manufacturing",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W2112474154",
+    "source": "openalex",
+    "title": "Resource Allocation for Space-Division Multiplexing: Optical White Box Versus Optical Black Box Networking",
+    "year": 2015,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "Elastic optical networking (EON) with space-division multiplexing (SDM) is the only evident long-term solution to the capacity needs of the future networks. The introduction of space via spatial fibers, such as multicore fibers (MCF) to EON provides an additional dimension as well as challenges to the network planning and resource optimization problem. There are various types of technologies for SDM transmission medium, switching, and amplification; each of them induces different capabilities and constraints on the network. For example, employing MCF as the transmission medium for SDM mitigates the spectrum continuity constraint of the routing and spectrum allocation problem for EON. In fact, cores can be switched freely on different links during routing of the network traffic. On the other hand,"
+  },
+  {
+    "record_key": "openalex:W2092016229",
+    "source": "openalex",
+    "title": "Development of a 3D printer using scanning projection stereolithography",
+    "year": 2015,
+    "venue": "Scientific Reports",
+    "abstract": "We have developed a system for the rapid fabrication of low cost 3D devices and systems in the laboratory with micro-scale features yet cm-scale objects. Our system is inspired by maskless lithography, where a digital micromirror device (DMD) is used to project patterns with resolution up to 10 µm onto a layer of photoresist. Large area objects can be fabricated by stitching projected images over a 5 cm(2) area. The addition of a z-stage allows multiple layers to be stacked to create 3D objects, removing the need for any developing or etching steps but at the same time leading to true 3D devices which are robust, configurable and scalable. We demonstrate the applications of the system by printing a range"
+  },
+  {
+    "record_key": "openalex:W2899794813",
+    "source": "openalex",
+    "title": "Increasing the functionalities of 3D printed microchemical devices by single material, multimaterial, and print-pause-print 3D printing",
+    "year": 2018,
+    "venue": "Lab on a Chip",
+    "abstract": "3D printing has emerged as a valuable approach for the fabrication of fluidic devices and may replace soft-lithography as the method of choice for rapid prototyping. The potential of this disruptive technology is much greater than this - it allows for functional integration in a single, highly automated manufacturing step in a cost and time effective manner. Integration of functionality with a 3D printer can be done through spatial configuration of a single material, inserting pre-made components mid-print in a print-pause-print approach, and/or through the precise spatial deposition of different materials with a multimaterial printer. This review provides an overview on the ways in which 3D printing has been exploited to create and use fluidic devices with different functionality, which"
+  },
+  {
+    "record_key": "openalex:W3116273806",
+    "source": "openalex",
+    "title": "Sensing of COVID‐19 Antibodies in Seconds via Aerosol Jet Nanoprinted Reduced‐Graphene‐Oxide‐Coated 3D Electrodes",
+    "year": 2020,
+    "venue": "Advanced Materials",
+    "abstract": "Abstract Rapid diagnosis is critical for the treatment and prevention of diseases. An advanced nanomaterial‐based biosensing platform that detects COVID‐19 antibodies within seconds is reported. The biosensing platform is created by 3D nanoprinting of three‐dimensional electrodes, coating the electrodes by nanoflakes of reduced‐graphene‐oxide (rGO), and immobilizing specific viral antigens on the rGO nanoflakes. The electrode is then integrated with a microfluidic device and used in a standard electrochemical cell. When antibodies are introduced on the electrode surface, they selectively bind with the antigens, changing the impedance of the electrical circuit which is detected via impedance spectroscopy. Antibodies to SARS‐CoV‐2 spike S1 protein and its receptor‐binding‐domain (RBD) are detected at a limit‐of‐detection of 2.8 × 10 −15 and 16.9 × 10"
+  },
+  {
+    "record_key": "openalex:W3008142701",
+    "source": "openalex",
+    "title": "Spatial Channel Cross-Connect Architectures for Spatial Channel Networks",
+    "year": 2020,
+    "venue": "IEEE Journal of Selected Topics in Quantum Electronics",
+    "abstract": "A spatial channel network (SCN) is a novel optical network architecture targeting the space division multiplexing (SDM) era where the optical layer is explicitly evolved into the hierarchical SDM layer and wavelength division multiplexing layer, and an optical node is decoupled into a spatial channel cross-connect (SXC) and a wavelength cross-connect to form a hierarchical optical cross-connect. In this article, we discuss a wide variety of SXC architectures based on optical matrix switches (MSs) and newly proposed core selective switches (CSSs) from the viewpoints of connection flexibility and architectural complexity. After briefly reviewing the architecture and functionalities of an SCN and its building-block optical devices, novel SXC architectures based on sub-MSs and CSSs are described and formulas are derived for"
+  },
+  {
+    "record_key": "openalex:W2736469010",
+    "source": "openalex",
+    "title": "Roadmap on optical sensors",
+    "year": 2017,
+    "venue": "Journal of Optics",
+    "abstract": "Sensors are devices or systems able to detect, measure and convert magnitudes from any domain to an electrical one. Using light as a probe for optical sensing is one of the most efficient approaches for this purpose. The history of optical sensing using some methods based on absorbance, emissive and florescence properties date back to the 16th century. The field of optical sensors evolved during the following centuries, but it did not achieve maturity until the demonstration of the first laser in 1960. The unique properties of laser light become particularly important in the case of laser-based sensors, whose operation is entirely based upon the direct detection of laser light itself, without relying on any additional mediating device. However, compared"
+  },
+  {
+    "record_key": "openalex:W2959799147",
+    "source": "openalex",
+    "title": "Polymer Optical Fiber Sensors in Healthcare Applications: A Comprehensive Review",
+    "year": 2019,
+    "venue": "Sensors",
+    "abstract": "Advances in medicine and improvements in life quality has led to an increase in the life expectancy of the general population. An ageing world population have placed demands on the use of assistive technology and, in particular, towards novel healthcare devices and sensors. Besides the electromagnetic field immunity, polymer optical fiber (POF) sensors have additional advantages due to their material features such as high flexibility, lower Young's modulus (enabling high sensitivity for mechanical parameters), higher elastic limits, and impact resistance. Such advantages are well-aligned with the instrumentation requirements of many healthcare devices and in movement analysis. Aiming at these advantages, this review paper presents the state-of-the-art developments of POF sensors for healthcare applications. A plethora of healthcare applications are discussed,"
+  },
+  {
+    "record_key": "openalex:W3093584113",
+    "source": "openalex",
+    "title": "Review of Photonic Integrated Optical Phased Arrays for Space Optical Communication",
+    "year": 2020,
+    "venue": "IEEE Access",
+    "abstract": "A review of photonic integrated optical phased array (OPA) for space optical communication is presented. We review and summarize the typical works of the photonic integrated OPAs with one-dimensional and two-dimensional optical antenna array in recent years. The basic components of the photonic integrated OPA are introduced separately, including optical coupler, optical power division network, phase shifter, and optical antenna. In addition, the configuration of the optical antenna array and the control circuit are introduced for OPA beam steering. The basic principle and experiment setup for testing the radiation properties of the OPA are presented. A proof-of-concept nonuniform silicon integrated OPA with 64 antennas is designed and a one-dimensional beam steering range of 28° is achieved with beam width of"
+  },
+  {
+    "record_key": "openalex:W4403840744",
+    "source": "openalex",
+    "title": "Graphene MEMS and NEMS",
+    "year": 2024,
+    "venue": "Microsystems & Nanoengineering",
+    "abstract": "Graphene is being increasingly used as an interesting transducer membrane in micro- and nanoelectromechanical systems (MEMS and NEMS, respectively) due to its atomical thickness, extremely high carrier mobility, high mechanical strength, and piezoresistive electromechanical transductions. NEMS devices based on graphene feature increased sensitivity, reduced size, and new functionalities. In this review, we discuss the merits of graphene as a functional material for MEMS and NEMS, the related properties of graphene, the transduction mechanisms of graphene MEMS and NEMS, typical transfer methods for integrating graphene with MEMS substrates, methods for fabricating suspended graphene, and graphene patterning and electrical contact. Consequently, we provide an overview of devices based on suspended and nonsuspended graphene structures. Finally, we discuss the potential and challenges of"
+  },
+  {
+    "record_key": "openalex:W2522007538",
+    "source": "openalex",
+    "title": "Mechanical assembly of complex, 3D mesostructures from releasable multilayers of advanced materials",
+    "year": 2016,
+    "venue": "Science Advances",
+    "abstract": "Buckling-driven assembly of 3D mesostructures from releasable multilayers offers versatile design options for unique applications."
+  },
+  {
+    "record_key": "openalex:W3019958894",
+    "source": "openalex",
+    "title": "The Use of Composite Materials in 3D Printing",
+    "year": 2020,
+    "venue": "Journal of Composites Science",
+    "abstract": "Nowadays, all production, from the smallest ones to large companies, and research activities are affected by the use of 3D printing technology. The major limitation, in order to cover as many fields of application as possible, is represented by the set of 3D printable materials and their limited spectrum of physico-chemical properties. To expand this spectrum and employ the 3D-printed objects in areas such as biomedical, mechanical, electronical and so on, the introduction of fibers or particles in a polymer matrix has been widely studied and applied. In this review, all those studies that proposed modified polymer presenting advantages associated with rapid prototyping are reported."
+  },
+  {
+    "record_key": "openalex:W3193768780",
+    "source": "openalex",
+    "title": "Terahertz MEMS metadevices",
+    "year": 2021,
+    "venue": "Journal of Micromechanics and Microengineering",
+    "abstract": "Abstract Terahertz (THz) part of the electromagnetic spectrum (0.1–10 THz) holds the key for next-generation high-speed wireless communication, non-destructive biosensing, fingerprint chemical detection and imaging for astronomy and security surveillance. The limited THz response of naturally occurring materials had left a technological gap in the THz region of the electromagnetic spectrum. Artificially engineered materials termed as ‘metamaterials’, have shown great potential in THz wave interaction and its active counterpart termed as ‘metadevices’ have been widely reported for on-demand manipulation of THz waves. One of the most efficient means of realizing metadevices is to reconfigure the shape of unit cells and hence the corresponding THz response. The 50+ years of development in microelectromechanical systems (MEMS) and the wide array of microactuator"
+  },
+  {
+    "record_key": "openalex:W3189750891",
+    "source": "openalex",
+    "title": "Optical elements from 3D printed polymers",
+    "year": 2021,
+    "venue": "e-Polymers",
+    "abstract": "Abstract 3D printing belongs to the emerging technologies of our time. Describing diverse specific techniques, 3D printing enables rapid production of individual objects and creating shapes that would not be produced with other techniques. One of the drawbacks of typical 3D printing processes, however, is the layered structure of the created parts. This is especially problematic in the production of optical elements, which in most cases necessitate highly even surfaces. To meet this challenge, advanced 3D printing techniques as well as other sophisticated solutions can be applied. Here, we give an overview of 3D printed optical elements, such as lenses, mirrors, and waveguides, with a focus on freeform optics and other elements for which 3D printing is especially well suited."
+  },
+  {
+    "record_key": "openalex:W3114594461",
+    "source": "openalex",
+    "title": "A novel 3D printed hollow microneedle microelectromechanical system for controlled, personalized transdermal drug delivery",
+    "year": 2020,
+    "venue": "Additive manufacturing",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W2922158825",
+    "source": "openalex",
+    "title": "Design Approaches of MEMS Microphones for Enhanced Performance",
+    "year": 2019,
+    "venue": "Journal of Sensors",
+    "abstract": "This paper reports a review about microelectromechanical system (MEMS) microphones. The focus of this review is to identify the issues in MEMS microphone designs and thoroughly discuss the state-of-the-art solutions that have been presented by the researchers to improve performance. Considerable research work has been carried out in capacitive MEMS microphones, and this field has attracted the research community because these designs have high sensitivity, flat frequency response, and low noise level. A detailed overview of the omnidirectional microphones used in the applications of an audio frequency range has been presented. Since the microphone membrane is made of a thin film, it has residual stress that degrades the microphone performance. An in-depth detailed review of research articles containing solutions to"
+  },
+  {
+    "record_key": "openalex:W2791270922",
+    "source": "openalex",
+    "title": "Micro/Nanofibre Optical Sensors: Challenges and Prospects",
+    "year": 2018,
+    "venue": "Sensors",
+    "abstract": "Micro/nanofibres (MNFs) are optical fibres with diameters close to or below the vacuum wavelength of visible or near-infrared light. Due to its wavelength- or sub-wavelength scale diameter and relatively large index contrast between the core and cladding, an MNF can offer engineerable waveguiding properties including optical confinement, fractional evanescent fields and surface intensity, which is very attractive to optical sensing on the micro and nanometer scale. In particular, the waveguided low-loss tightly confined large fractional evanescent fields, enabled by atomic level surface roughness and extraordinary geometric and material uniformity in a glass MNF, is one of its most prominent merits in realizing optical sensing with high sensitivity and great versatility. Meanwhile, the mesoporous matrix and small diameter of a polymer"
+  },
+  {
+    "record_key": "openalex:W2900595881",
+    "source": "openalex",
+    "title": "Monolithic Multi Degree of Freedom (MDoF) Capacitive MEMS Accelerometers",
+    "year": 2018,
+    "venue": "Micromachines",
+    "abstract": "With the continuous advancements in microelectromechanical systems (MEMS) fabrication technology, inertial sensors like accelerometers and gyroscopes can be designed and manufactured with smaller footprint and lower power consumption. In the literature, there are several reported accelerometer designs based on MEMS technology and utilizing various transductions like capacitive, piezoelectric, optical, thermal, among several others. In particular, capacitive accelerometers are the most popular and highly researched due to several advantages like high sensitivity, low noise, low temperature sensitivity, linearity, and small footprint. Accelerometers can be designed to sense acceleration in all the three directions (X, Y, and Z-axis). Single-axis accelerometers are the most common and are often integrated orthogonally and combined as multiple-degree-of-freedom (MDoF) packages for sensing acceleration in the three directions."
+  },
+  {
+    "record_key": "openalex:W2044169471",
+    "source": "openalex",
+    "title": "Graphene-based carbon-layered electrode array technology for neural imaging and optogenetic applications",
+    "year": 2014,
+    "venue": "Nature Communications",
+    "abstract": "Neural micro-electrode arrays that are transparent over a broad wavelength spectrum from ultraviolet to infrared could allow for simultaneous electrophysiology and optical imaging, as well as optogenetic modulation of the underlying brain tissue. The long-term biocompatibility and reliability of neural micro-electrodes also require their mechanical flexibility and compliance with soft tissues. Here we present a graphene-based, carbon-layered electrode array (CLEAR) device, which can be implanted on the brain surface in rodents for high-resolution neurophysiological recording. We characterize optical transparency of the device at >90% transmission over the ultraviolet to infrared spectrum and demonstrate its utility through optical interface experiments that use this broad spectrum transparency. These include optogenetic activation of focal cortical areas directly beneath electrodes, in vivo imaging of"
+  },
+  {
+    "record_key": "openalex:W2062631387",
+    "source": "openalex",
+    "title": "Scaling silicon photonic switch fabrics for data center interconnection networks",
+    "year": 2015,
+    "venue": "Optics Express",
+    "abstract": "With the rapidly increasing aggregate bandwidth requirements of data centers there is a growing interest in the insertion of optically interconnected networks with high-radix transparent optical switch fabrics. Silicon photonics is a particularly promising and applicable technology due to its small footprint, CMOS compatibility, high bandwidth density, and the potential for nanosecond scale dynamic connectivity. In this paper we analyze the feasibility of building silicon photonic microring based switch fabrics for data center scale optical interconnection networks. We evaluate the scalability of a microring based switch fabric for WDM signals. Critical parameters including crosstalk, insertion loss and switching speed are analyzed, and their sensitivity with respect to device parameters is examined. We show that optimization of physical layer parameters can"
+  },
+  {
+    "record_key": "openalex:W4211161891",
+    "source": "openalex",
+    "title": "Topological photonics",
+    "year": 2019,
+    "venue": "Reviews of Modern Physics",
+    "abstract": "The robustness of the integer quantum Hall effect of electron systems is due to the existence of a topological invariant that characterizes the variation of the electron wave function over the Brillouin zone. Topological phenomena are generic features of waves in periodic media, and this article reviews how photonic systems such as waveguide arrays and photonic metamaterials allow exploration and application of topological effects in new physical regimes and in new devices."
+  },
+  {
+    "record_key": "openalex:W4391232091",
+    "source": "openalex",
+    "title": "Roadmapping the next generation of silicon photonics",
+    "year": 2024,
+    "venue": "Nature Communications",
+    "abstract": "Silicon photonics has developed into a mainstream technology driven by advances in optical communications. The current generation has led to a proliferation of integrated photonic devices from thousands to millions-mainly in the form of communication transceivers for data centers. Products in many exciting applications, such as sensing and computing, are around the corner. What will it take to increase the proliferation of silicon photonics from millions to billions of units shipped? What will the next generation of silicon photonics look like? What are the common threads in the integration and fabrication bottlenecks that silicon photonic applications face, and which emerging technologies can solve them? This perspective article is an attempt to answer such questions. We chart the generational trends in"
+  },
+  {
+    "record_key": "openalex:W2894308888",
+    "source": "openalex",
+    "title": "Silicon Nitride in Silicon Photonics",
+    "year": 2018,
+    "venue": "Proceedings of the IEEE",
+    "abstract": "The silicon nitride (Si3N4) planar waveguide platform has enabled a broad class of low-loss planar-integrated devices and chip-scale solutions that benefit from transparency over a wide wavelength range (400-2350 nm) and fabrication using wafer-scale processes. As a complimentary platform to silicon-on-insulator (SOI) and III-V photonics, Si3N4waveguide technology opens up a new generation of system-on-chip applications not achievable with the other platforms alone. The availability of low-loss waveguides (3N4has expanded the practical application of optical signal processing functions that can reduce energy consumption, size and cost over today's digital electronic solutions. Researchers have been able to push the performance photonic-integrated components beyond other integrated platforms, including ultrahigh Q resonators, optical filters, highly coherent lasers, optical signal processing circuits, nonlinear optical devices,"
+  },
+  {
+    "record_key": "openalex:W2996556490",
+    "source": "openalex",
+    "title": "Silicon Photonic Switch Topologies and Routing Strategies for Disaggregated Data Centers",
+    "year": 2019,
+    "venue": "IEEE Journal of Selected Topics in Quantum Electronics",
+    "abstract": "Disaggregation enabled by silicon photonic switch fabrics is a path to low-cost and energy-efficient data centers. The routing strategy, which can be seamlessly incorporated into the switch control plane, potentially provides an additional dimension for the physical-layer performance optimization, at no extra cost. In this paper, we analyze the role of optical routing strategies for silicon photonic switch fabrics. We define and quantify the number of global switching states in various switching topologies and discuss their relationship to the number of switch permutations. We propose a topology-agnostic approach that is shown to optimize fabric-wide switch path power penalties and consequently reduce the dynamic-range requirement on receivers. Additionally, it potentially compensates for device fabrication variations by taking advantage of the redundancy"
+  },
+  {
+    "record_key": "openalex:W4280617936",
+    "source": "openalex",
+    "title": "Microcomb-driven silicon photonic systems",
+    "year": 2022,
+    "venue": "Nature",
+    "abstract": "Abstract Microcombs have sparked a surge of applications over the past decade, ranging from optical communications to metrology 1–4 . Despite their diverse deployment, most microcomb-based systems rely on a large amount of bulky elements and equipment to fulfil their desired functions, which is complicated, expensive and power consuming. By contrast, foundry-based silicon photonics (SiPh) has had remarkable success in providing versatile functionality in a scalable and low-cost manner 5–7 , but its available chip-based light sources lack the capacity for parallelization, which limits the scope of SiPh applications. Here we combine these two technologies by using a power-efficient and operationally simple aluminium-gallium-arsenide-on-insulator microcomb source to drive complementary metal–oxide–semiconductor SiPh engines. We present two important chip-scale photonic systems for optical"
+  }
+]

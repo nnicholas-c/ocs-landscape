@@ -1,0 +1,152 @@
+[
+  {
+    "record_key": "openalex:W3196241303",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Interfacial ferroelectricity in bilayer TMD, unrelated; empty abstract"
+  },
+  {
+    "record_key": "openalex:W3011579125",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "3D-printed piezoelectric nanogenerator, unrelated to optical switching"
+  },
+  {
+    "record_key": "openalex:W1965294670",
+    "score": 1,
+    "adjacent_field": null,
+    "reason": "Ultrafast THz all-optical modulator, different regime from OCS circuit switching"
+  },
+  {
+    "record_key": "openalex:W4378363703",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Biodegradable piezoelectric polymers for bioelectronics, unrelated"
+  },
+  {
+    "record_key": "openalex:W2786482165",
+    "score": 1,
+    "adjacent_field": "silicon_photonics",
+    "reason": "Si3N4 integrated waveguide platform review, waveguide switches one of many blocks"
+  },
+  {
+    "record_key": "openalex:W2020360871",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Optical trapping and tweezers review, unrelated to circuit switching"
+  },
+  {
+    "record_key": "openalex:W3041624699",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Piezoelectric materials for electrochemistry, unrelated to optical switching"
+  },
+  {
+    "record_key": "openalex:W3163628203",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Piezoelectric peptide assemblies, unrelated to optical switching"
+  },
+  {
+    "record_key": "openalex:W4308681347",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Natural piezoelectric biomaterials review, unrelated to optical switching"
+  },
+  {
+    "record_key": "openalex:W4395449486",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "PVDF piezoelectric nanoyarn fabric sensor, unrelated to optical switching"
+  },
+  {
+    "record_key": "openalex:W2805634289",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "AlN thin film sputtering for piezoelectric devices, unrelated"
+  },
+  {
+    "record_key": "openalex:W2940942374",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Piezoelectric energy harvesting for IoT review, unrelated"
+  },
+  {
+    "record_key": "openalex:W2782172413",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Lead-free piezoelectric materials review, unrelated to optical switching"
+  },
+  {
+    "record_key": "openalex:W2766793249",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Fiber Bragg grating piezoelectric voltage sensor, unrelated to switching"
+  },
+  {
+    "record_key": "openalex:W1981987996",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Plastic optical fiber sensors review, unrelated to circuit switching"
+  },
+  {
+    "record_key": "openalex:W2962024859",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Piezo-catalytic dye degradation foam, unrelated to optical switching"
+  },
+  {
+    "record_key": "openalex:W2591729902",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Beam-steering all-optical switch for multi-core fibers, built and characterized"
+  },
+  {
+    "record_key": "openalex:W2913395450",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Beam steering optical switch design for multicore fibers, port count analyzed"
+  },
+  {
+    "record_key": "openalex:W2040220307",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Quantum EPR steering entanglement, different meaning of steering; empty abstract"
+  },
+  {
+    "record_key": "openalex:W3158684015",
+    "score": 1,
+    "adjacent_field": "silicon_photonics",
+    "reason": "Integrated optical phased array review for beam steering, chip-scale, not a switch"
+  },
+  {
+    "record_key": "openalex:W2587359616",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Metasurface fiber-tip beam steering for sensing, unrelated to circuit switching"
+  },
+  {
+    "record_key": "openalex:W2802065375",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Free-space wireless beam steering via AWGR wavelength tuning, indoor comm not OCS"
+  },
+  {
+    "record_key": "openalex:W3095881173",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Optical fiber tip integration review, unrelated to circuit switching"
+  },
+  {
+    "record_key": "openalex:W4392199370",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Broad metasurfaces roadmap review, unrelated to circuit switching"
+  },
+  {
+    "record_key": "openalex:W2949924416",
+    "score": 1,
+    "adjacent_field": "lcos_display_phase",
+    "reason": "Liquid crystal beam steering devices review, feeds LCoS route, not switch-focused"
+  }
+]

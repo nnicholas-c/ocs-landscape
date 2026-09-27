@@ -1,0 +1,152 @@
+[
+  {
+    "record_key": "openalex:W1484412996",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Gerchberg-Saxton phase retrieval algorithm for imaging, no switching mention."
+  },
+  {
+    "record_key": "openalex:W1983330672",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Atmospheric laser beam propagation study for free-space wireless comm."
+  },
+  {
+    "record_key": "openalex:W1988150362",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Facebook's electronic data center network measurement study."
+  },
+  {
+    "record_key": "openalex:W1990200961",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Demonstrates a DMD-based diffractive N x N all-optical fiber switch for data centers."
+  },
+  {
+    "record_key": "openalex:W2064284095",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Graph theory matching and Euler tour paper, no abstract."
+  },
+  {
+    "record_key": "openalex:W2065747405",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Title indicates a 7x7 DMD-based diffractive optical fiber switch demo."
+  },
+  {
+    "record_key": "openalex:W2068115726",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "College admissions stable matching theory, unrelated to optics."
+  },
+  {
+    "record_key": "openalex:W2079931475",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Electronic input/output-queued crossbar switch scheduling algorithm."
+  },
+  {
+    "record_key": "openalex:W2108251206",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Analyzes scaling limits of free-space tilt-mirror MEMS switches for data centers."
+  },
+  {
+    "record_key": "openalex:W2117884704",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "pFabric electronic datacenter transport and flow scheduling design."
+  },
+  {
+    "record_key": "openalex:W2124700175",
+    "score": 1,
+    "adjacent_field": "dc_network_systems",
+    "reason": "FireFly reconfigurable inter-rack network uses wireless, not optical, links."
+  },
+  {
+    "record_key": "openalex:W2139106050",
+    "score": 1,
+    "adjacent_field": "lcos_display_phase",
+    "reason": "LCoS device for holographic HDTV projection, feeds the LCoS route."
+  },
+  {
+    "record_key": "openalex:W2140348302",
+    "score": 1,
+    "adjacent_field": "mems_micromirror",
+    "reason": "MEMS-actuated 32x32 optical phased array for beam steering, no stated switching use."
+  },
+  {
+    "record_key": "openalex:W2143217585",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Steerable-mirror redirected 60 GHz wireless links for data centers, not optical."
+  },
+  {
+    "record_key": "openalex:W2163769126",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Jellyfish random-graph electronic data center network topology."
+  },
+  {
+    "record_key": "openalex:W1971760496",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Coherent PDM-DQPSK silicon receiver for telecom, not a switch."
+  },
+  {
+    "record_key": "openalex:W1975289126",
+    "score": 2,
+    "adjacent_field": "silicon_photonics",
+    "reason": "Tunable thermo-optic directional coupler, a core switch-fabric building block."
+  },
+  {
+    "record_key": "openalex:W2026418326",
+    "score": 1,
+    "adjacent_field": "silicon_photonics",
+    "reason": "Silicon photonics for exascale HPC, mentions circuit-switched nature in passing."
+  },
+  {
+    "record_key": "openalex:W2050810792",
+    "score": 1,
+    "adjacent_field": "silicon_photonics",
+    "reason": "Low-loss waveguide crossings, a photonic switch fabric building block."
+  },
+  {
+    "record_key": "openalex:W2051201523",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Architectures for large nonblocking optical space switches, classic OCS design paper."
+  },
+  {
+    "record_key": "openalex:W2053780865",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Demonstrates compact 1xN thermo-optic silicon photonic wire waveguide switches."
+  },
+  {
+    "record_key": "openalex:W2058203097",
+    "score": 1,
+    "adjacent_field": "silicon_photonics",
+    "reason": "Ultralow-loss silicon waveguide crossing, a switch fabric building block."
+  },
+  {
+    "record_key": "openalex:W2062193700",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Demonstrates a one-chip silicon photonic wavelength-selective 8x8 matrix switch."
+  },
+  {
+    "record_key": "openalex:W2063297543",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Demonstrates a nonblocking 4x4 silicon electro-optic switch matrix."
+  },
+  {
+    "record_key": "openalex:W2066110041",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Demonstrates a compact low-loss 8x8 silicon photonic switch module for CDC-ROADM."
+  }
+]

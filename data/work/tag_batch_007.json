@@ -1,0 +1,142 @@
+[
+  {
+    "paper_id": "W4387805823",
+    "title": "Hybrid MEMS Actuator With 3 Degrees-of- Freedom for Efficient Planar Optical Switching",
+    "year": 2023,
+    "venue": "Journal of Microelectromechanical Systems",
+    "abstract": "This work demonstrates a hybrid MEMS actuator platform that combines electrostatic and piezoelectric actuators to displace a suspended MEMS platform along 3 degrees-of-freedom (DOF). The prototype MEMS actuator tested produces maximum displacements of$8.8 \\mu \\text{m}$along the positive X-axis, and$8.5 \\mu \\text{m}$along the negative X-axis, with digital control. Analog control produces maximum displacements of$5.9 \\mu \\text{m}$along the positive X-axis, and$5.8 \\mu \\text{m}$along the negative X-axis. It can also provide$2.2 \\mu \\text{m}$of in-plane displacement along the negative Y-axis with analog control. The electrostatic actuator used for displacement along the negative Y-axis also compensates for any out-of-plane misalignment between the suspended MEMS platform and fixed silicon due to the significant residual stress caused by deposited piezoelectric material layers. In addition, up to 550 nm of misalignment compensation using the electrostatic actuator before electrostatic pull-in is demonstrated. The piezoelectric actuator provides fine alignment capability with a maximum out-of-plane displacement of 200 nm and 100 nm with analog control along the positive and negative Z-axis, respectively. This hybrid MEMS actuator can be integrated with channel waveguides for efficient planar optical switching applications. [2023-0121]"
+  },
+  {
+    "paper_id": "W4385800727",
+    "title": "Nonvolatile Silicon MEMS Optical Switch Based on Bistable Mechanical Beams",
+    "year": 2023,
+    "venue": null,
+    "abstract": "We have proposed and implemented a $2 \\times 2$ nonvolatile silicon MEMS optical switch based on bistable mechanical beams driven by electrostatic comb actuators, which is fully compatible with standard silicon photonics foundry processes."
+  },
+  {
+    "paper_id": "W3176835102",
+    "title": "Dynamic piezoelectric MEMS-based optical metasurfaces",
+    "year": 2021,
+    "venue": "Science Advances",
+    "abstract": "Optical metasurfaces (OMSs) have shown unprecedented capabilities for versatile wavefront manipulations at the subwavelength scale. However, most well-established OMSs are static, featuring well-defined optical responses determined by OMS configurations set during their fabrication, whereas dynamic OMS configurations investigated so far often exhibit specific limitations and reduced reconfigurability. Here, by combining a thin-film piezoelectric microelectromechanical system (MEMS) with a gap-surface plasmon-based OMS, we develop an electrically driven dynamic MEMS-OMS platform that offers controllable phase and amplitude modulation of the reflected light by finely actuating the MEMS mirror. Using this platform, we demonstrate MEMS-OMS components for polarization-independent beam steering and two-dimensional (2D) focusing with high modulation efficiencies (~50%), broadband operation (~20% near the operating wavelength of 800 nanometers), and fast responses (<0.4 milliseconds). The developed MEMS-OMS platform offers flexible solutions for realizing complex dynamic 2D wavefront manipulations that could be used in reconfigurable and adaptive optical networks and systems."
+  },
+  {
+    "paper_id": "W2994903006",
+    "title": "Low-voltage MEMS optical phase modulators and switches on a indium phosphide membrane on silicon",
+    "year": 2019,
+    "venue": "Applied Physics Letters",
+    "abstract": "In this paper, an optical switch based on a microelectromechanical phase modulator is presented. Phase tuning is achieved by tuning the vertical gap between two vertically coupled waveguides through the application of a reverse bias on a p-i-n junction. An effective refractive index tuning Δneff of 0.03 and a phase shift of more than 3π rad at telecom wavelengths are measured with an on-chip Mach–Zehnder interferometer (MZI), with a phase-tuning length of only 140 μm. With a bias voltage of 5.1 V, a half-wave-voltage-length product (Vπ L) of 5.6 × 10−3 V·cm is achieved. Furthermore, optical crossbar switching in a MZI is demonstrated with a 15 dB extinction ratio using an actuation voltage of only 4.2 V. Our work provides a solution to on-chip, low-voltage phase modulation and optical switching. The switch is fabricated on an indium-phosphide membrane on a silicon substrate, which enables the integration with active components (e.g., amplifiers, lasers, and detectors) on a single chip."
+  },
+  {
+    "paper_id": "W4220706180",
+    "title": "A large-scale microelectromechanical-systems-based silicon photonics LiDAR",
+    "year": 2022,
+    "venue": "Nature",
+    "abstract": "Abstract Three-dimensional (3D) imaging sensors allow machines to perceive, map and interact with the surrounding world1. The size of light detection and ranging (LiDAR) devices is often limited by mechanical scanners. Focal plane array-based 3D sensors are promising candidates for solid-state LiDARs because they allow electronic scanning without mechanical moving parts. However, their resolutions have been limited to 512 pixels or smaller2. In this paper, we report on a 16,384-pixel LiDAR with a wide field of view (FoV, 70° × 70°), a fine addressing resolution (0.6° × 0.6°), a narrow beam divergence (0.050° × 0.049°) and a random-access beam addressing with sub-MHz operation speed. The 128 × 128-element focal plane switch array (FPSA) of grating antennas and microelectromechanical systems (MEMS)-actuated optical switches are monolithically integrated on a 10 × 11-mm2 silicon photonic chip, where a 128 × 96 subarray is wire bonded and tested in experiments. 3D imaging with a distance resolution of 1.7 cm is achieved with frequency-modulated continuous-wave (FMCW) ranging in monostatic configuration. The FPSA can be mass-produced in complementary metal–oxide–semiconductor (CMOS) foundries, which will allow ubiquitous 3D sensors for use in autonomous cars, drones, robots and smartphones."
+  },
+  {
+    "paper_id": "W4319827927",
+    "title": "A Review of Silicon‐Based Integrated Optical Switches",
+    "year": 2023,
+    "venue": "Laser & Photonics Review",
+    "abstract": "Abstract Recently, silicon‐integrated optical circuits have attracted intensive interests, thanks to the compatibility with the complementary metal‐oxide‐semiconductor (CMOS) technology that enables mass production at low cost. The optical switch is an essential part of optical integrated circuits, with broad applications in optical communications and networks, optical computing, and sensing such as LiDAR. In general, the silicon‐integrated optical switch adopts thermo‐optic or carrier dispersion effect to realize reconfigurable signal routing. However, the use of thermo‐optic effect leads to high power consumption, and the carrier dispersion effect has the disadvantage of small refractive index change. In addition, both effects are non‐latching, and hence, continuous power consumption is required even when switching is not needed. For overcoming these drawbacks, phase‐change materials (PCMs) have been introduced into silicon‐integrated optical switches. In this paper, silicon‐integrated optical switches are classified according to the underlying structure and recent research is reviewed. Recent studies on silicon‐integrated optical switches incorporating PCMs are also reviewed. Furthermore, the pros and cons of different types of integrated optical switches with and without PCMs are compared and discussed."
+  },
+  {
+    "paper_id": "W2914521323",
+    "title": "A Comparative Review of MEMS-Based Optical Cross-Connects for All-Optical Networks From the Past to the Present Day",
+    "year": 2019,
+    "venue": "IEEE Communications Surveys & Tutorials",
+    "abstract": "Micro-electro-mechanical systems (MEMS)-based cross-connects are widely used for all-optical switching in recent optical networks. This paper provides a brief overview of various photonic switching technologies and a detailed review of the working principles, actuating mechanisms, and architectures of MEMS-based optical cross-connects (OXCs) from the last two decades. New approaches, which, potentially, will be adopted in the next generation of MEMS-based cross-connects are also described. The switching MEMS-based cross-connects speed can vary from less than 1 μs to tens of ms depending on the chosen switching mechanism and actuator parameters. This paper describes the various types of actuators used to manipulate the optical signal inside all-OXCs. Optical properties (insertion loss, crosstalk), switching speed, and scalability are also discussed."
+  },
+  {
+    "paper_id": "W4404563748",
+    "title": "MEMS-metasurface–enabled mode-switchable vortex lasers",
+    "year": 2024,
+    "venue": "Science Advances",
+    "abstract": "Compared to conventional lasers limited to generating static modes, mode-switchable lasers equipped with adjustable optics significantly enhance the flexibility and versatility of coherent light sources. However, most current approaches to achieving mode-switchable lasers depend on conventional, i.e., inherently bulky and slow, optical components. Here, we demonstrate fiber lasers empowered by electrically actuated intracavity microelectromechanical system (MEMS)–based optical metasurface (MEMS-OMS) enabling mode switching between fundamental Gaussian and vortex modes at ~1030 nm. By finely adjusting the voltage applied to the MEMS mirror, high-contrast switching between Gaussian ( l = 0) and vortex ( l = 1, 2, 3, and 5, depending on the OMS arrangement) laser modes is achieved, featuring high mode purities (>95%) and fast responses (~100 microseconds). The proposed intracavity MEMS-OMS–enabled laser configuration provides an at-source solution for generating high-purity fast-switchable laser modes, with potential applications ranging from advanced optical imaging to optical tweezers, optical machining, and intelligent photonics."
+  },
+  {
+    "paper_id": "W2343971467",
+    "title": "Advanced three-dimensional MEMS photonic cross-connect switch for nonblocking all-optical networks",
+    "year": 2016,
+    "venue": "Optical Switching and Networking",
+    "abstract": null
+  },
+  {
+    "paper_id": "W3042321904",
+    "title": "Research Status and Development Trend of MEMS Switches: A Review",
+    "year": 2020,
+    "venue": "Micromachines",
+    "abstract": "MEMS switch is a movable device manufactured by means of semiconductor technology, possessing many incomparable advantages such as a small volume, low power consumption, high integration, etc. This paper reviews recent research of MEMS switches, pointing out the important performance indexes and systematically summarizing the classification according to driving principles. Then, a comparative study of current MEMS switches stressing their strengths and drawbacks is presented, based on performance requirements such as driven voltage, power consumption, and reliability. The efforts of teams to optimize MEMS switches are introduced and the applications of switches with different driving principles are also briefly reviewed. Furthermore, the development trend of MEMS switch and the research gaps are discussed. Finally, a summary and forecast about MEMS switches is given with the aim of providing a reference for future research in this domain."
+  },
+  {
+    "paper_id": "W2050362991",
+    "title": "MEMS-based micro-optical switch for display devices",
+    "year": 2012,
+    "venue": "Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE",
+    "abstract": "This paper presents a micro electromechanical system (MEMS) based micro optical switch for display devices. The size of the micro optical switch was 254 μm × 254 μm. The micro optical switch moves vertically by electrostatic force and consists of two parallel plate electrodes which have rectangular aperture array. The lower electrode was directly patterned on a glass substrate and the upper electrode was suspended by cantilever spring which was supported by anchors. The electrodes were made of thin aluminum film and the gap between two electrodes was 3.3 μm. The thickness of the electrodes was 0.3 μm respectively and the lower electrode was covered with 0.3 μm silicon dioxide. The width of the aperture and the metal were 8 μm and 5 μm respectively. The upper aperture array was aligned with the lower aperture array with 6.5 μm offset horizontally and the overlapping width of the two electrodes was 1.5 μm. The micro optical switch is in open state when no voltage is applied and the light passes through the two electrodes by the leakage or the reflection between the two electrodes. The micro optical switch is in close state when voltage is applied and the light is reflected to the backlight unit. The required voltages for pull in and pull out were 16.0 V and 11.4 V respectively. The switching time was 30 μs from the open state to the closed state and 50 μs from the closed state to the open state."
+  },
+  {
+    "paper_id": "W2979824403",
+    "title": "Silicon photonic wavelength cross-connect with integrated MEMS switching",
+    "year": 2019,
+    "venue": "APL Photonics",
+    "abstract": "We report on monolithically integrated wavelength cross-connects (WXCs) on an enhanced silicon photonic platform with integrated micro-electro-mechanical-system (MEMS) actuators. An 8 × 8 WXC with 8 wavelength channels comprising 16 echelle gratings and 512 silicon photonic MEMS switches is integrated on a 9.7 mm × 6.7 mm silicon chip. The WXC inherits the fundamental advantages of silicon photonic MEMS space switches, including low loss, broad optical bandwidth, large fabrication tolerance, and simple digital control. The WXC exhibits a low crosstalk of −30 dB, a submicrosecond switching time of 0.7 µs, and on-chip optical insertion losses varying from 8.8 dB to 16.4 dB. To our knowledge, it is the largest channel capacity (64 channels = 8 ports × 8 wavelengths) integrated WXC ever reported."
+  },
+  {
+    "paper_id": "W2037530588",
+    "title": "A strong electro-optically active lead-free ferroelectric integrated on silicon",
+    "year": 2013,
+    "venue": "Nature Communications",
+    "abstract": null
+  },
+  {
+    "paper_id": "W3116813957",
+    "title": "MEMS Scanning Mirrors for Optical Coherence Tomography",
+    "year": 2020,
+    "venue": "Photonics",
+    "abstract": "This contribution presents an overview of advances in scanning micromirrors based on MEMS (Micro-electro-mechanical systems) technologies to achieve beam scanning for OCT (Optical Coherence Tomography). The use of MEMS scanners for miniaturized OCT probes requires appropriate optical architectures. Their design involves a suitable actuation mechanism and an adapted imaging scheme in terms of achievable scan range, scan speed, low power consumption, and acceptable size of the OCT probe. The electrostatic, electromagnetic, and electrothermal actuation techniques are discussed here as well as the requirements that drive the design and fabrication of functional OCT probes. Each actuation mechanism is illustrated by examples of miniature OCT probes demonstrating the effectiveness of in vivo bioimaging. Finally, the design issues are discussed to permit users to select an OCT scanner that is adapted to their specific imaging needs."
+  },
+  {
+    "paper_id": "W2133627653",
+    "title": "Progress of MEMS Scanning Micromirrors for Optical Bio-Imaging",
+    "year": 2015,
+    "venue": "Micromachines",
+    "abstract": "Microelectromechanical systems (MEMS) have an unmatched ability to incorporate numerous functionalities into ultra-compact devices, and due to their versatility and miniaturization, MEMS have become an important cornerstone in biomedical and endoscopic imaging research. To incorporate MEMS into such applications, it is critical to understand underlying architectures involving choices in actuation mechanism, including the more common electrothermal, electrostatic, electromagnetic, and piezoelectric approaches, reviewed in this paper. Each has benefits and tradeoffs and is better suited for particular applications or imaging schemes due to achievable scan ranges, power requirements, speed, and size. Many of these characteristics are fabrication-process dependent, and this paper discusses various fabrication flows developed to integrate additional optical functionality beyond simple lateral scanning, enabling dynamic control of the focus or mirror surface. Out of this provided MEMS flexibility arises some challenges when obtaining high resolution images: due to scanning non-linearities, calibration of MEMS scanners may become critical, and inherent image artifacts or distortions during scanning can degrade image quality. Several reviewed methods and algorithms have been proposed to address these complications from MEMS scanning. Given their impact and promise, great effort and progress have been made toward integrating MEMS and biomedical imaging."
+  },
+  {
+    "paper_id": "W2092016229",
+    "title": "Development of a 3D printer using scanning projection stereolithography",
+    "year": 2015,
+    "venue": "Scientific Reports",
+    "abstract": "We have developed a system for the rapid fabrication of low cost 3D devices and systems in the laboratory with micro-scale features yet cm-scale objects. Our system is inspired by maskless lithography, where a digital micromirror device (DMD) is used to project patterns with resolution up to 10 µm onto a layer of photoresist. Large area objects can be fabricated by stitching projected images over a 5 cm(2) area. The addition of a z-stage allows multiple layers to be stacked to create 3D objects, removing the need for any developing or etching steps but at the same time leading to true 3D devices which are robust, configurable and scalable. We demonstrate the applications of the system by printing a range of micro-scale objects as well as a fully functioning microfluidic droplet device and test its integrity by pumping dye through the channels."
+  },
+  {
+    "paper_id": "W3093584113",
+    "title": "Review of Photonic Integrated Optical Phased Arrays for Space Optical Communication",
+    "year": 2020,
+    "venue": "IEEE Access",
+    "abstract": "A review of photonic integrated optical phased array (OPA) for space optical communication is presented. We review and summarize the typical works of the photonic integrated OPAs with one-dimensional and two-dimensional optical antenna array in recent years. The basic components of the photonic integrated OPA are introduced separately, including optical coupler, optical power division network, phase shifter, and optical antenna. In addition, the configuration of the optical antenna array and the control circuit are introduced for OPA beam steering. The basic principle and experiment setup for testing the radiation properties of the OPA are presented. A proof-of-concept nonuniform silicon integrated OPA with 64 antennas is designed and a one-dimensional beam steering range of 28° is achieved with beam width of about 0.25°. The challenges and development trends of large-scale integrated OPA chip applied in space optical communication are also discussed."
+  },
+  {
+    "paper_id": "W2062631387",
+    "title": "Scaling silicon photonic switch fabrics for data center interconnection networks",
+    "year": 2015,
+    "venue": "Optics Express",
+    "abstract": "With the rapidly increasing aggregate bandwidth requirements of data centers there is a growing interest in the insertion of optically interconnected networks with high-radix transparent optical switch fabrics. Silicon photonics is a particularly promising and applicable technology due to its small footprint, CMOS compatibility, high bandwidth density, and the potential for nanosecond scale dynamic connectivity. In this paper we analyze the feasibility of building silicon photonic microring based switch fabrics for data center scale optical interconnection networks. We evaluate the scalability of a microring based switch fabric for WDM signals. Critical parameters including crosstalk, insertion loss and switching speed are analyzed, and their sensitivity with respect to device parameters is examined. We show that optimization of physical layer parameters can reduce crosstalk and increase switch fabric scalability. Our analysis indicates that with current state-of-the-art devices, a high radix 128 × 128 silicon photonic single chip switch fabric with tolerable power penalty is feasible. The applicability of silicon photonic microrings for data center switching is further supported via review of microring operations and control demonstrations. The challenges and opportunities for this technology platform are discussed."
+  },
+  {
+    "paper_id": "W4391232091",
+    "title": "Roadmapping the next generation of silicon photonics",
+    "year": 2024,
+    "venue": "Nature Communications",
+    "abstract": "Silicon photonics has developed into a mainstream technology driven by advances in optical communications. The current generation has led to a proliferation of integrated photonic devices from thousands to millions-mainly in the form of communication transceivers for data centers. Products in many exciting applications, such as sensing and computing, are around the corner. What will it take to increase the proliferation of silicon photonics from millions to billions of units shipped? What will the next generation of silicon photonics look like? What are the common threads in the integration and fabrication bottlenecks that silicon photonic applications face, and which emerging technologies can solve them? This perspective article is an attempt to answer such questions. We chart the generational trends in silicon photonics technology, drawing parallels from the generational definitions of CMOS technology. We identify the crucial challenges that must be solved to make giant strides in CMOS-foundry-compatible devices, circuits, integration, and packaging. We identify challenges critical to the next generation of systems and applications-in communication, signal processing, and sensing. By identifying and summarizing such challenges and opportunities, we aim to stimulate further research on devices, circuits, and systems for the silicon photonics ecosystem."
+  },
+  {
+    "paper_id": "W2894308888",
+    "title": "Silicon Nitride in Silicon Photonics",
+    "year": 2018,
+    "venue": "Proceedings of the IEEE",
+    "abstract": "The silicon nitride (Si3N4) planar waveguide platform has enabled a broad class of low-loss planar-integrated devices and chip-scale solutions that benefit from transparency over a wide wavelength range (400-2350 nm) and fabrication using wafer-scale processes. As a complimentary platform to silicon-on-insulator (SOI) and III-V photonics, Si3N4waveguide technology opens up a new generation of system-on-chip applications not achievable with the other platforms alone. The availability of low-loss waveguides (3N4has expanded the practical application of optical signal processing functions that can reduce energy consumption, size and cost over today's digital electronic solutions. Researchers have been able to push the performance photonic-integrated components beyond other integrated platforms, including ultrahigh Q resonators, optical filters, highly coherent lasers, optical signal processing circuits, nonlinear optical devices, frequency comb generators, and biophotonic system-on-chip. This review paper covers the history of low-loss Si3N4waveguide technology and a survey of worldwide research in a variety of device and applications as well as the status of Si3N4foundries."
+  }
+]

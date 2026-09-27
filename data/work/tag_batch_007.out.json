@@ -1,0 +1,222 @@
+[
+  {
+    "paper_id": "W4387805823",
+    "tech_route": "mems_silicon_photonic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "confidence": "medium",
+    "evidence_span": "This hybrid MEMS actuator can be integrated with channel waveguides for efficient planar optical switching applications."
+  },
+  {
+    "paper_id": "W4385800727",
+    "tech_route": "mems_silicon_photonic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "confidence": "high",
+    "evidence_span": "We have proposed and implemented a $2 \\times 2$ nonvolatile silicon MEMS optical switch based on bistable mechanical beams driven by electrostatic comb actuators, which is fully compatible with standard silicon photonics foundry processes."
+  },
+  {
+    "paper_id": "W3176835102",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": "mems_micromirror",
+    "confidence": "medium",
+    "evidence_span": "The developed MEMS-OMS platform offers flexible solutions for realizing complex dynamic 2D wavefront manipulations that could be used in reconfigurable and adaptive optical networks and systems."
+  },
+  {
+    "paper_id": "W2994903006",
+    "tech_route": "mems_silicon_photonic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "confidence": "medium",
+    "evidence_span": "In this paper, an optical switch based on a microelectromechanical phase modulator is presented."
+  },
+  {
+    "paper_id": "W4220706180",
+    "tech_route": "mems_silicon_photonic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": "mems_micromirror",
+    "confidence": "medium",
+    "evidence_span": "The 128 × 128-element focal plane switch array (FPSA) of grating antennas and microelectromechanical systems (MEMS)-actuated optical switches are monolithically integrated on a 10 × 11-mm2 silicon photonic chip, where a 128 × 96 subarray is wire bonded and tested in experiments."
+  },
+  {
+    "paper_id": "W4319827927",
+    "tech_route": "thermo_optic",
+    "tech_route_secondary": "electro_optic",
+    "integration": "integrated_photonic",
+    "trl_band": "unclear",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "confidence": "medium",
+    "evidence_span": "In general, the silicon‐integrated optical switch adopts thermo‐optic or carrier dispersion effect to realize reconfigurable signal routing."
+  },
+  {
+    "paper_id": "W2914521323",
+    "tech_route": "mems_3d",
+    "tech_route_secondary": "mems_2d",
+    "integration": "free_space_bulk",
+    "trl_band": "unclear",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "confidence": "medium",
+    "evidence_span": "This paper provides a brief overview of various photonic switching technologies and a detailed review of the working principles, actuating mechanisms, and architectures of MEMS-based optical cross-connects (OXCs) from the last two decades."
+  },
+  {
+    "paper_id": "W4404563748",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": "mems_micromirror",
+    "confidence": "low",
+    "evidence_span": "By finely adjusting the voltage applied to the MEMS mirror, high-contrast switching between Gaussian ( l = 0) and vortex ( l = 1, 2, 3, and 5, depending on the OMS arrangement) laser modes is achieved, featuring high mode purities (>95%) and fast responses (~100 microseconds)."
+  },
+  {
+    "paper_id": "W3042321904",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "none",
+    "adjacent_field": "mems_micromirror",
+    "confidence": "low",
+    "evidence_span": "This paper reviews recent research of MEMS switches, pointing out the important performance indexes and systematically summarizing the classification according to driving principles."
+  },
+  {
+    "paper_id": "W2050362991",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "free_space_bulk",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": "mems_micromirror",
+    "confidence": "low",
+    "evidence_span": "This paper presents a micro electromechanical system (MEMS) based micro optical switch for display devices."
+  },
+  {
+    "paper_id": "W2979824403",
+    "tech_route": "mems_silicon_photonic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "confidence": "high",
+    "evidence_span": "We report on monolithically integrated wavelength cross-connects (WXCs) on an enhanced silicon photonic platform with integrated micro-electro-mechanical-system (MEMS) actuators."
+  },
+  {
+    "paper_id": "W3116813957",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "free_space_bulk",
+    "trl_band": "unclear",
+    "ai_dc_fit": "none",
+    "adjacent_field": "mems_micromirror",
+    "confidence": "low",
+    "evidence_span": "This contribution presents an overview of advances in scanning micromirrors based on MEMS (Micro-electro-mechanical systems) technologies to achieve beam scanning for OCT (Optical Coherence Tomography)."
+  },
+  {
+    "paper_id": "W2133627653",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "free_space_bulk",
+    "trl_band": "unclear",
+    "ai_dc_fit": "none",
+    "adjacent_field": "mems_micromirror",
+    "confidence": "low",
+    "evidence_span": "Microelectromechanical systems (MEMS) have an unmatched ability to incorporate numerous functionalities into ultra-compact devices, and due to their versatility and miniaturization, MEMS have become an important cornerstone in biomedical and endoscopic imaging research."
+  },
+  {
+    "paper_id": "W2092016229",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": "mems_micromirror",
+    "confidence": "low",
+    "evidence_span": "Our system is inspired by maskless lithography, where a digital micromirror device (DMD) is used to project patterns with resolution up to 10 µm onto a layer of photoresist."
+  },
+  {
+    "paper_id": "W3093584113",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": "silicon_photonics",
+    "confidence": "medium",
+    "evidence_span": "A proof-of-concept nonuniform silicon integrated OPA with 64 antennas is designed and a one-dimensional beam steering range of 28° is achieved with beam width of about 0.25°."
+  },
+  {
+    "paper_id": "W2062631387",
+    "tech_route": "electro_optic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "confidence": "medium",
+    "evidence_span": "Silicon photonics is a particularly promising and applicable technology due to its small footprint, CMOS compatibility, high bandwidth density, and the potential for nanosecond scale dynamic connectivity."
+  },
+  {
+    "paper_id": "W4391232091",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": "silicon_photonics",
+    "confidence": "low",
+    "evidence_span": "The current generation has led to a proliferation of integrated photonic devices from thousands to millions-mainly in the form of communication transceivers for data centers."
+  },
+  {
+    "paper_id": "W2894308888",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "unclear",
+    "ai_dc_fit": "none",
+    "adjacent_field": "silicon_photonics",
+    "confidence": "low",
+    "evidence_span": "The silicon nitride (Si3N4) planar waveguide platform has enabled a broad class of low-loss planar-integrated devices and chip-scale solutions that benefit from transparency over a wide wavelength range (400-2350 nm) and fabrication using wafer-scale processes."
+  },
+  {
+    "paper_id": "W2343971467",
+    "tech_route": "mems_3d",
+    "tech_route_secondary": null,
+    "integration": "free_space_bulk",
+    "trl_band": "unclear",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "confidence": "low",
+    "evidence_span": "Advanced three-dimensional MEMS photonic cross-connect switch for nonblocking all-optical networks"
+  },
+  {
+    "paper_id": "W2037530588",
+    "tech_route": "electro_optic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "unclear",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "confidence": "low",
+    "evidence_span": "A strong electro-optically active lead-free ferroelectric integrated on silicon"
+  }
+]

@@ -1,0 +1,202 @@
+[
+  {
+    "record_key": "openalex:W4367181416",
+    "source": "openalex",
+    "title": "Agricultural Harvesting Robot Concept Design and System Components: A Review",
+    "year": 2023,
+    "venue": "AgriEngineering",
+    "abstract": "Developing different robotic platforms for farm operations is vital to addressing the increasing world population. A harvesting robot significantly increases a farm’s productivity while farmers focus on other relevant farm operations. From the literature, it could be summarized that the design concepts of the harvesting mechanisms were categorized as grasping and cutting, vacuum suction plucking systems, twisting and plucking mechanisms, and shaking and catching. Meanwhile, robotic system components include the mobile platform, manipulators, and end effectors, sensing and localization, and path planning and navigation. The robotic system must be cost-effective and safe. The findings of this research could contribute to the design process of developing a harvesting robot or developing a harvesting module that can be retrofitted to a commercially"
+  },
+  {
+    "record_key": "openalex:W4309845453",
+    "source": "openalex",
+    "title": "MEMS-Based Tactile Sensors: Materials, Processes and Applications in Robotics",
+    "year": 2022,
+    "venue": "Micromachines",
+    "abstract": "Commonly encountered problems in the manipulation of objects with robotic hands are the contact force control and the setting of approaching motion. Microelectromechanical systems (MEMS) sensors on robots offer several solutions to these problems along with new capabilities. In this review, we analyze tactile, force and/or pressure sensors produced by MEMS technologies including off-the-shelf products such as MEMS barometric sensors. Alone or in conjunction with other sensors, MEMS platforms are considered very promising for robots to detect the contact forces, slippage and the distance to the objects for effective dexterous manipulation. We briefly reviewed several sensing mechanisms and principles, such as capacitive, resistive, piezoresistive and triboelectric, combined with new flexible materials technologies including polymers processing and MEMS-embedded textiles for flexible"
+  },
+  {
+    "record_key": "openalex:W2823918704",
+    "source": "openalex",
+    "title": "A Review of PZT Patches Applications in Submerged Systems",
+    "year": 2018,
+    "venue": "Sensors",
+    "abstract": "Submerged systems are found in many engineering, biological, and medicinal applications. For such systems, due to the particular environmental conditions and working medium, the research on the mechanical and structural properties at every scale (from macroscopic to nanoscopic), and the control of the system dynamics and induced effects become very difficult tasks. For such purposes in submerged systems, piezoelectric patches (PZTp), which are light, small and economic, have been proved to be a very good solution. PZTp have been recently used as sensors/actuators for applications such as modal analysis, active sound and vibration control, energy harvesting and atomic force microscopes in submerged systems. As a consequence, in these applications, newly developed transducers based on PZTp have become the most used"
+  },
+  {
+    "record_key": "openalex:W2969373676",
+    "source": "openalex",
+    "title": "The Next Frontier in Melt Electrospinning: Taming the Jet",
+    "year": 2019,
+    "venue": "Advanced Functional Materials",
+    "abstract": "Abstract There is a specialized niche for the electrohydrodynamic jetting of melts, from biomedical products to filtration and soft matter applications. The next frontier includes optics, microfluidics, flexible electronic devices, and soft network composites in biomaterial science and soft robotics. The recent emphasis on reproducibly direct‐writing continual molten jets has enabled a spectrum of contemporary microscale 3D objects to be fabricated. One strong suit of melt processing is the capacity for the jet to solidify rapidly into a fiber, thus fixing a particular structure into position. The ability to direct‐write complex and multiscaled architectures and structures has greatly contributed to a large number of recent studies, explicitly, toward fiber–hydrogel composites and fugitive inks, and has expanded into several biomedical applications"
+  },
+  {
+    "record_key": "openalex:W4225131936",
+    "source": "openalex",
+    "title": "Machine learning techniques for robotic and autonomous inspection of mechanical systems and civil infrastructure",
+    "year": 2022,
+    "venue": "Autonomous Intelligent Systems",
+    "abstract": "Abstract Machine learning and in particular deep learning techniques have demonstrated the most efficacy in training, learning, analyzing, and modelling large complex structured and unstructured datasets. These techniques have recently been commonly deployed in different industries to support robotic and autonomous system (RAS) requirements and applications ranging from planning and navigation to machine vision and robot manipulation in complex environments. This paper reviews the state-of-the-art with regard to RAS technologies (including unmanned marine robot systems, unmanned ground robot systems, climbing and crawler robots, unmanned aerial vehicles, and space robot systems) and their application for the inspection and monitoring of mechanical systems and civil infrastructure. We explore various types of data provided by such systems and the analytical techniques being adopted"
+  },
+  {
+    "record_key": "openalex:W4394891757",
+    "source": "openalex",
+    "title": "Soft Robot Design, Manufacturing, and Operation Challenges: A Review",
+    "year": 2024,
+    "venue": "Journal of Manufacturing and Materials Processing",
+    "abstract": "Advancements in smart manufacturing have embraced the adoption of soft robots for improved productivity, flexibility, and automation as well as safety in smart factories. Hence, soft robotics is seeing a significant surge in popularity by garnering considerable attention from researchers and practitioners. Bionic soft robots, which are composed of compliant materials like silicones, offer compelling solutions to manipulating delicate objects, operating in unstructured environments, and facilitating safe human–robot interactions. However, despite their numerous advantages, there are some fundamental challenges to overcome, which particularly concern motion precision and stiffness compliance in performing physical tasks that involve external forces. In this regard, enhancing the operation performance of soft robots necessitates intricate, complex structural designs, compliant multifunctional materials, and proper manufacturing methods. The"
+  },
+  {
+    "record_key": "openalex:W3100476583",
+    "source": "openalex",
+    "title": "Robust Gesture-Based Communication for Underwater Human-Robot Interaction in the context of Search and Rescue Diver Missions",
+    "year": 2018,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "We propose a robust gesture-based communication pipeline for divers to instruct an Autonomous Underwater Vehicle (AUV) to assist them in performing high-risk tasks and helping in case of emergency. A gesture communication language (CADDIAN) is developed, based on consolidated and standardized diver gestures, including an alphabet, syntax and semantics, ensuring a logical consistency. A hierarchical classification approach is introduced for hand gesture recognition based on stereo imagery and multi-descriptor aggregation to specifically cope with underwater image artifacts, e.g. light backscatter or color attenuation. Once the classification task is finished, a syntax check is performed to filter out invalid command sequences sent by the diver or generated by errors in the classifier. Throughout this process, the diver receives constant feedback from"
+  },
+  {
+    "record_key": "openalex:W4399284121",
+    "source": "openalex",
+    "title": "Instantly adhesive and ultra-elastic patches for dynamic organ and wound repair",
+    "year": 2024,
+    "venue": "Nature Communications",
+    "abstract": "Bioadhesive materials and patches are promising alternatives to surgical sutures and staples. However, many existing bioadhesives do not meet the functional requirements of current surgical procedures and interventions. Here, we present a translational patch material that exhibits instant adhesion to tissues (2.5-fold stronger than Tisseel, an FDA-approved fibrin glue), ultra-stretchability (stretching to >300% its original length without losing elasticity), compatibility with rapid photo-projection (<2 min fabrication time/patch), and ability to deliver therapeutics. Using our established procedures for the in silico design and optimization of anisotropic-auxetic patches, we created next-generation patches for instant attachment to tissues while conforming to a broad range of organ mechanics ex vivo and in vivo. Patches coated with extracellular vesicles derived from mesenchymal stem cells demonstrate"
+  },
+  {
+    "record_key": "openalex:W3020957857",
+    "source": "openalex",
+    "title": "Fabrication of High-Quality Polymer Composite Frame by a New Method of Fiber Winding Process",
+    "year": 2020,
+    "venue": "Polymers",
+    "abstract": "Polymer composite frame has been frequently used in the main structural body of vehicles in aerospace, automotive, etc., applications. Manufacturing of complex curved composite frame suffer from the lack of accurate and optimum method of winding process that lead to preparation of uniform fiber arrangement in critical location of the curved frame. This article deals with the fabrication of high-quality polymer composite frame through an optimal winding of textile fibers onto a non-bearing core frame using a fiber-processing head and an industrial robot. The number of winding layers of fibers and their winding angles are determined based on the operational load on the composite structure. Ensuring the correct winding angles and thus also the homogeneity of fibers in each winding"
+  },
+  {
+    "record_key": "openalex:W2896281700",
+    "source": "openalex",
+    "title": "A microfabricated nerve-on-a-chip platform for rapid assessment of neural conduction in explanted peripheral nerve fibers",
+    "year": 2018,
+    "venue": "Nature Communications",
+    "abstract": "Peripheral nerves are anisotropic and heterogeneous neural tissues. Their complex physiology restricts realistic in vitro models, and high resolution and selective probing of axonal activity. Here, we present a nerve-on-a-chip platform that enables rapid extracellular recording and axonal tracking of action potentials collected from tens of myelinated fibers. The platform consists of microfabricated stimulation and recording microchannel electrode arrays. First, we identify conduction velocities of action potentials traveling through the microchannel and propose a robust data-sorting algorithm using velocity selective recording. We optimize channel geometry and electrode spacing to enhance the algorithm reliability. Second, we demonstrate selective heat-induced neuro-inhibition of peripheral nerve activity upon local illumination of a conjugated polymer (P3HT) blended with a fullerene derivative (PCBM) coated on the"
+  },
+  {
+    "record_key": "openalex:W3184727742",
+    "source": "openalex",
+    "title": "Fiber Optic Sensors Embedded in Textile-Reinforced Concrete for Smart Structural Health Monitoring: A Review",
+    "year": 2021,
+    "venue": "Sensors",
+    "abstract": "The last decade has seen rapid developments in the areas of carbon fiber technology, additive manufacturing technology, sensor engineering, i.e., wearables, and new structural reinforcement techniques. These developments, although from different areas, have collectively paved way for concrete structures with non-corrosive reinforcement and in-built sensors. Therefore, the purpose of this effort is to bridge the gap between civil engineering and sensor engineering communities through an overview on the up-to-date technological advances in both sectors, with a special focus on textile reinforced concrete embedded with fiber optic sensors. The introduction section highlights the importance of reducing the carbon footprint resulting from the building industry and how this could be effectively achieved by the use of state-of-the-art reinforcement techniques. Added to these"
+  },
+  {
+    "record_key": "openalex:W2073240697",
+    "source": "openalex",
+    "title": "Fiber-handling robot and optical connection mechanisms for automatic cross-connection of multiple optical connectors",
+    "year": 2013,
+    "venue": "Optical Engineering",
+    "abstract": "Conventionally, in intelligent buildings in a metropolitan area network and in small-scale facilities in the optical access network, optical connectors are joined manually using an optical connection board and a patch panel. In this manual connection approach, mistakes occur due to discrepancies between the actual physical settings of the connections and their management because these processes are independent. Moreover, manual cross-connection is time-consuming and expensive because maintenance personnel must be dispatched to remote places to correct mistakes. We have developed a fiber-handling robot and optical connection mechanisms for automatic cross-connection of multiple optical connectors, which are the key elements of automatic optical fiber cross-connect equipment. We evaluate the performance of the equipment, such as its optical characteristics and environmental specifications."
+  },
+  {
+    "record_key": "openalex:W4385146846",
+    "source": "openalex",
+    "title": "Industrial, Collaborative and Mobile Robotics in Latin America: Review of Mechatronic Technologies for Advanced Automation",
+    "year": 2023,
+    "venue": "Emerging Science Journal",
+    "abstract": "Mechatronics and Robotics (MaR) have recently gained importance in product development and manufacturing settings and applications. Therefore, the Center for Space Emerging Technologies (C-SET) has managed an international multi-disciplinary study to present, historically, the first Latin American general review of industrial, collaborative, and mobile robotics, with the support of North American and European researchers and institutions. The methodology is developed by considering literature extracted from Scopus, Web of Science, and Aerospace Research Central and adding reports written by companies and government organizations. This describes the state-of-the-art of MaR until the year 2023 in the 3 Sub-Regions: North America, Central America, and South America, having achieved important results related to the academy, industry, government, and entrepreneurship; thus, the statistics shown in"
+  },
+  {
+    "record_key": "openalex:W2540480190",
+    "source": "openalex",
+    "title": "Digital Morphing Wing: Active Wing Shaping Concept Using Composite Lattice-Based Cellular Structures",
+    "year": 2016,
+    "venue": "Soft Robotics",
+    "abstract": "We describe an approach for the discrete and reversible assembly of tunable and actively deformable structures using modular building block parts for robotic applications. The primary technical challenge addressed by this work is the use of this method to design and fabricate low density, highly compliant robotic structures with spatially tuned stiffness. This approach offers a number of potential advantages over more conventional methods for constructing compliant robots. The discrete assembly reduces manufacturing complexity, as relatively simple parts can be batch-produced and joined to make complex structures. Global mechanical properties can be tuned based on sub-part ordering and geometry, because local stiffness and density can be independently set to a wide range of values and varied spatially. The structure's intrinsic"
+  },
+  {
+    "record_key": "openalex:W2055952492",
+    "source": "openalex",
+    "title": "A Survey on Optical Interconnects for Data Centers",
+    "year": 2012,
+    "venue": "IEEE Communications Surveys & Tutorials",
+    "abstract": "Data centers are experiencing an exponential increase in the amount of network traffic that they have to sustain due to cloud computing and several emerging web applications. To face this network load, large data centers are required with thousands of servers interconnected with high bandwidth switches. Current data center networks, based on electronic packet switches, consume excessive power to handle the increased communication bandwidth of emerging applications. Optical interconnects have gained attention recently as a promising solution offering high throughput, low latency and reduced energy consumption compared to current networks based on commodity switches. This paper presents a thorough survey on optical interconnects for next generation data center networks. Furthermore, the paper provides a qualitative categorization and comparison of the"
+  },
+  {
+    "record_key": "openalex:W2128145324",
+    "source": "openalex",
+    "title": "A Survey of 5G Network: Architecture and Emerging Technologies",
+    "year": 2015,
+    "venue": "IEEE Access",
+    "abstract": "In the near future, i.e., beyond 4G, some of the prime objectives or demands that need to be addressed are increased capacity, improved data rate, decreased latency, and better quality of service. To meet these demands, drastic improvements need to be made in cellular network architecture. This paper presents the results of a detailed survey on the fifth generation (5G) cellular network architecture and some of the key emerging technologies that are helpful in improving the architecture and meeting the demands of users. In this detailed survey, the prime focus is on the 5G cellular network architecture, massive multiple input multiple output technology, and device-to-device communication (D2D). Along with this, some of the emerging technologies that are addressed in this"
+  },
+  {
+    "record_key": "openalex:W2126302311",
+    "source": "openalex",
+    "title": "Visual Tracking: An Experimental Survey",
+    "year": 2014,
+    "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+    "abstract": "There is a large variety of trackers, which have been proposed in the literature during the last two decades with some mixed success. Object tracking in realistic scenarios is a difficult problem, therefore, it remains a most active area of research in computer vision. A good tracker should perform well in a large number of videos involving illumination changes, occlusion, clutter, camera motion, low contrast, specularities, and at least six more aspects. However, the performance of proposed trackers have been evaluated typically on less than ten videos, or on the special purpose datasets. In this paper, we aim to evaluate trackers systematically and experimentally on 315 video fragments covering above aspects. We selected a set of nineteen trackers to include"
+  },
+  {
+    "record_key": "openalex:W4288079944",
+    "source": "openalex",
+    "title": "Planck 2018 results",
+    "year": 2020,
+    "venue": "Astronomy and Astrophysics",
+    "abstract": "We present cosmological parameter results from the final full-mission Planck measurements of the cosmic microwave background (CMB) anisotropies, combining information from the temperature and polarization maps and the lensing reconstruction. Compared to the 2015 results, improved measurements of large-scale polarization allow the reionization optical depth to be measured with higher precision, leading to significant gains in the precision of other correlated parameters. Improved modelling of the small-scale polarization leads to more robust constraints on many parameters, with residual modelling uncertainties estimated to affect them only at the 0.5 σ level. We find good consistency with the standard spatially-flat 6-parameter ΛCDM cosmology having a power-law spectrum of adiabatic scalar perturbations (denoted “base ΛCDM” in this paper), from polarization, temperature, and lensing,"
+  },
+  {
+    "record_key": "openalex:W4213147678",
+    "source": "openalex",
+    "title": "Unmanned Aerial Vehicles (UAVs): A Survey on Civil Applications and Key Research Challenges",
+    "year": 2019,
+    "venue": "IEEE Access",
+    "abstract": "The use of unmanned aerial vehicles (UAVs) is growing rapidly across many civil application domains, including real-time monitoring, providing wireless coverage, remote sensing, search and rescue, delivery of goods, security and surveillance, precision agriculture, and civil infrastructure inspection. Smart UAVs are the next big revolution in the UAV technology promising to provide new opportunities in different applications, especially in civil infrastructure in terms of reduced risks and lower cost. Civil infrastructure is expected to dominate more than $45 Billion market value of UAV usage. In this paper, we present UAV civil applications and their challenges. We also discuss the current research trends and provide future insights for potential UAV uses. Furthermore, we present the key challenges for UAV civil applications,"
+  },
+  {
+    "record_key": "openalex:W2507657534",
+    "source": "openalex",
+    "title": "Formation of oxygen vacancies and Ti3+ state in TiO2 thin film and enhanced optical properties by air plasma treatment",
+    "year": 2016,
+    "venue": "Scientific Reports",
+    "abstract": "This is the first time we report that simply air plasma treatment can also enhances the optical absorbance and absorption region of titanium oxide (TiO2) films, while keeping them transparent. TiO2 thin films having moderate doping of Fe and Co exhibit significant enhancement in the aforementioned optical properties upon air plasma treatment. The moderate doping could facilitate the formation of charge trap centers or avoid the formation of charge recombination centers. Variation in surface species viz. Ti(3+), Ti(4+), O(2-), oxygen vacancies, OH group and optical properties was studied using X-ray photon spectroscopy (XPS) and UV-Vis spectroscopy. The air plasma treatment caused enhanced optical absorbance and optical absorption region as revealed by the formation of Ti(3+) and oxygen vacancies in the"
+  },
+  {
+    "record_key": "openalex:W2405554247",
+    "source": "openalex",
+    "title": "The features, hardware, and architectures of data center networks: A survey",
+    "year": 2016,
+    "venue": "Journal of Parallel and Distributed Computing",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W4205819848",
+    "source": "openalex",
+    "title": "Prospects and Challenges of Photonic Switching in Data Centers and Computing Systems",
+    "year": 2021,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "This Tutorial will discuss the motivation, benefits, and challenges of photonic switching in data centers and cover prospects of future data centers involving emerging new technologies and cross-layer solutions. The primary motivation for considering photonic switching in data centers rises from the need for energy-efficient and scalable intra-data center networks to meet rapid increases in data traffic driven by emerging applications, including machine learning. The data traffic inside the data centers (East-West traffic) is typically significantly greater than that of the traffic coming in and out of the data centers (North-South traffic) (Bensonet al.2010). To accommodate such traffic, today's large-scale data centers employ cascaded stages of many power-hungry electronic packet switches interconnected across the data center network in fixed hierarchical"
+  },
+  {
+    "record_key": "openalex:W2785375817",
+    "source": "openalex",
+    "title": "ATLAS: A High-cadence All-sky Survey System",
+    "year": 2018,
+    "venue": "Publications of the Astronomical Society of the Pacific",
+    "abstract": "Technology has advanced to the point that it is possible to image the entire sky every night and process the data in real time. The sky is hardly static: many interesting phenomena occur, including variable stationary objects such as stars or QSOs, transient stationary objects such as supernovae or M dwarf flares, and moving objects such as asteroids and the stars themselves. Funded by NASA, we have designed and built a sky survey system for the purpose of finding dangerous near-Earth asteroids (NEAs). This system, the \"Asteroid Terrestrial-impact Last Alert System\" (ATLAS), has been optimized to produce the best survey capability per unit cost, and therefore is an efficient and competitive system for finding potentially hazardous asteroids (PHAs) but also"
+  },
+  {
+    "record_key": "openalex:W2095655043",
+    "source": "openalex",
+    "title": "Text as Data: The Promise and Pitfalls of Automatic Content Analysis Methods for Political Texts",
+    "year": 2013,
+    "venue": "Political Analysis",
+    "abstract": "Politics and political conflict often occur in the written and spoken word. Scholars have long recognized this, but the massive costs of analyzing even moderately sized collections of texts have hindered their use in political science research. Here lies the promise of automated text analysis: it substantially reduces the costs of analyzing large collections of text. We provide a guide to this exciting new area of research and show how, in many instances, the methods have already obtained part of their promise. But there are pitfalls to using automated methods—they are no substitute for careful thought and close reading and require extensive and problem-specific validation. We survey a wide range of new methods, provide guidance on how to validate the"
+  },
+  {
+    "record_key": "openalex:W3104608022",
+    "source": "openalex",
+    "title": "The Dark Energy Survey: Data Release 1",
+    "year": 2018,
+    "venue": "The Astrophysical Journal Supplement Series",
+    "abstract": "Abstract We describe the first public data release of the Dark Energy Survey, DES DR1, consisting of reduced single-epoch images, co-added images, co-added source catalogs, and associated products and services assembled over the first 3 yr of DES science operations. DES DR1 is based on optical/near-infrared imaging from 345 distinct nights (2013 August to 2016 February) by the Dark Energy Camera mounted on the 4 m Blanco telescope at the Cerro Tololo Inter-American Observatory in Chile. We release data from the DES wide-area survey covering ∼5000 deg 2 of the southern Galactic cap in five broad photometric bands, grizY . DES DR1 has a median delivered point-spread function of , r = 0.96, i = 0.88, z = 0.84, and"
+  }
+]

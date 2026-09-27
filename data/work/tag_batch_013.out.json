@@ -1,0 +1,222 @@
+[
+  {
+    "paper_id": "W3009983062",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": "silicon_photonics",
+    "evidence_span": "We have been working on optical switches based on CMOS-compatible silicon photonics that offer fast switching, compactness, low power consumption, and low cost.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W4391878049",
+    "tech_route": "thermo_optic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "In this paper, we demonstrate a largest ever port- and channel-count, 16 × 16 ports and 16 wavelength channels over the C+L-band, monolithically integrated WXC switch with 256 FSR-free grating-assisted C-DCs and 1,024 thermo-optic MZIs.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W2889455810",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": "silicon_photonics",
+    "evidence_span": "Fully and reconfigurable routing between not only optical paths but also spatial modes is achieved.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W4409153023",
+    "tech_route": "thermo_optic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "These proposed switches consist of 2×2 MMI-MZI switches realized by changing the phase of an optical signal using the thermo-optic effect.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W2897393425",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": "silicon_photonics",
+    "evidence_span": "Here we demonstrate a transformative on-chip digital Fourier transform spectrometer that acquires high-resolution spectra via time-domain modulation of a reconfigurable Mach-Zehnder interferometer.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2739117960",
+    "tech_route": "electro_optic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": "silicon_photonics",
+    "evidence_span": "Here we propose and demonstrate an integrated voltage-controlled phase shifter based on the electro-optic effect in suspended photonic waveguides with embedded quantum emitters.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W2335273496",
+    "tech_route": "electro_optic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": null,
+    "evidence_span": "Fast switching is enabled by p-i-n diodes, with average electrooptic tuning power of 14.3 mW for the 24 essential switching states as required for nonblocking routing.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W2324604385",
+    "tech_route": "thermo_optic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": null,
+    "evidence_span": "We propose a calibration method for N×N Si-wire path-independent-insertion-loss (PILOSS) optical switches with thermo-optic Mach-Zehnder-interferometer (MZI) element switches.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W2964101383",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "none",
+    "adjacent_field": null,
+    "evidence_span": "In this paper we provide an overview of the application of ML to optical communications and networking.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2022337631",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "Power consumption evaluation of all-optical data center networks",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2064033006",
+    "tech_route": "soa",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": null,
+    "evidence_span": "An ultrafast electro-optical amplified switch based on chip-on-carrier semiconductor optical amplifier with high optical contrast (33 dB) is presented.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W1989361652",
+    "tech_route": "soa",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "We describe a mutual exclusion element using a reflective semiconductor optical amplifier (RSOA) and a simple scheme for contention resolution in arrayed waveguide grating router (AWGR)-based optical switches in data centers.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W2587610600",
+    "tech_route": "electro_optic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": null,
+    "evidence_span": "With these methods, a 32 × 32 MZI-based silicon electro-optical switch was successfully fabricated with 180-nm complementary metal-oxide-semiconductor (CMOS) process technology, which is the largest scale silicon electro-optical switch to the best of our knowledge.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W4220911475",
+    "tech_route": "soa",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "Here, we propose and investigate a novel optical wireless data-center network (OW-DCN) architecture based on nanoseconds semiconductor optical amplifier (SOA)-based wavelength selectors and arrayed waveguide grating router (AWGR) controlled by fast field-programmable gate array (FPGA)-based switch schedulers.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W2217959685",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "Performance evaluation of hybrid optical switch architecture for data center networks",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W3036907365",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": "lcos",
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "In the proposed DCN architecture, the novel optical flexible ToRs employing multiple transceivers (TRXs) and a wavelength selective switch (WSS) are reconfigured by the software-defined networking (SDN) control plane.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W2141810662",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "Leveraging runtime reconfigurable optical devices, OSA dynamically changes its topology and link capacities, thereby achieving unprecedented flexibility to adapt to dynamic traffic patterns.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W3208402115",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "A four-node SDN-enabled disaggregated prototype is implemented with a field-programmable-gate-array-based controller of hardware nodes and nanosecond optical switches, performing a minimal node-to-node network latency of 378.6 ns and zero packet loss.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W3032344992",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "This reconfigurable architecture called AgileDCN uses fast-switching optical components with a centralized control function and workload scheduler.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W4285233657",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": "telecom_oxc_roadm",
+    "evidence_span": "In data planes, high-capacity flexible coherent technology, pluggable wavelength-division-multiplexing (WDM) optical transponders, including 100G direct-detection four-level pulse-amplitude modulation (PAM4) and coherent 400ZR/800ZR, and flex-grid and disaggregated reconfigurable optical add-drop multiplexer (ROADM) optical networks are described.",
+    "confidence": "low"
+  }
+]

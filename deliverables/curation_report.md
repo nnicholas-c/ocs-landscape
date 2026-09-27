@@ -39,13 +39,13 @@ integrated CMOS drivers", a different, score 3 paper); token_sort_ratio
 compares the titles as whole sorted strings and does not have that flaw.
 Adding this second test can only drop merges the playbook's single test
 would have made, never add new ones. Logged as a deviation from the
-playbook, pending orchestrator approval, in data/work/run2_pitfalls.log.
+playbook, pending orchestrator approval, in deliverables/pitfalls_original_log.md.
 
 - Duplicates found by DOI: 4
-- Duplicates found by arXiv ID: 15
+- Duplicates found by arXiv ID: 17
 - Duplicates found by fuzzy title: 13
-- Total duplicates removed: 32
-- Papers in the database: 1213
+- Total duplicates removed: 34
+- Papers in the database: 1211
 
 The canonical record for a cluster is chosen by preferring an OpenAlex
 sourced record over an arXiv only record, then preferring a record with a
@@ -99,18 +99,18 @@ papers are in neither set this run.
 
 - Core papers (core_set = 1): 284
 - Extended papers (extended_set = 1): 420
-- Papers with no abstract: 112
+- Papers with no abstract: 111
 
 ## Authors and institutions
 
-- Author appearances read from canonical records: 9310
+- Author appearances read from canonical records: 9303
 - Distinct authors written: 7624
 - Of those, with an OpenAlex author ID: 6601
 - Author appearances merged into an existing author record: 109
   (89 merged into an ID bearing author by a shared
   institution, 20 merged into another no ID
   appearance by a shared institution)
-- Institution appearances read: 11743
+- Institution appearances read: 11739
 - Distinct institutions written: 1641
 
 Author identity rules, from the playbook. An OpenAlex author ID is always
@@ -133,7 +133,7 @@ here rather than hidden. 82 such no ID, same
 name_key appearances were kept separate this run and given a disambiguated
 author_id (name:<name_key>#2 and so on).
 
-2237 author appearances listed more than one
+2236 author appearances listed more than one
 institution on the same paper. Only the first is stored in paper_authors,
 since the table holds one affiliation per paper per author; the full list
 for that author is still visible on any other paper where it appears.
@@ -154,8 +154,7 @@ This run added data/raw/arxiv_via_openalex.jsonl (341
 records, source "arxiv_via_openalex": OpenAlex's own index of arXiv, source
 S4306400194) to the raw files curated above. Every section above already
 reflects the merged result; this section isolates what the new file changed.
-Pitfalls from this run are appended to data/work/run2_pitfalls.log, not this file's usual
-pitfalls.md, per the phase's logging setup.
+Pitfalls from this run are appended to deliverables/pitfalls_original_log.md.
 
 ### How the new records were absorbed
 
@@ -165,7 +164,7 @@ Of the 341 arxiv_via_openalex records:
 - Matched an existing (run 1) paper by arXiv ID: 8
 - Matched an existing (run 1) paper by fuzzy title: 2
 - Became new papers, no run 1 record in the cluster: 331
-  records, forming 328 new paper(s)
+  records, forming 326 new paper(s)
 
 ### Core and extended set sizes, before and after
 
@@ -176,10 +175,10 @@ Of the 341 arxiv_via_openalex records:
 
 ### arXiv coverage after run 2
 
-- Papers with an arXiv ID: 458
+- Papers with an arXiv ID: 460
 - Papers that are arXiv-hosted only (every source is arxiv or
   arxiv_via_openalex, no openalex or openalex_snowball record):
-  368
+  366
 
 ### Run 1 arXiv-only papers that gained OpenAlex data
 
@@ -210,7 +209,7 @@ above involve at least one arxiv_via_openalex record.
 
 ### Tags table cleanup
 
-5 tags row(s) referenced a paper_id no longer present in papers after this merge and were deleted (every other tags row is untouched); stage 3 must retag these under the new id shown below. Logged in data/work/run2_pitfalls.log.
+5 run 1 tags row(s) referenced a paper_id that this merge retired. Stage 3 must retag these under the new id shown below. This invocation deleted 0 tags row(s) whose paper_id is no longer in papers (every other tags row is untouched).
 
 | old paper_id (no longer in papers) | became |
 |---|---|
@@ -219,3 +218,28 @@ above involve at least one arxiv_via_openalex record.
 | arxiv:2401.09284 | W4391013534 |
 | arxiv:2608.03146 | W7172527693 |
 | arxiv:2405.20869 | W4399317831 |
+
+## Step 2, anchor papers
+
+Step 2 tried to add the 3 anchors the stage 1a anchor search missed (Jupiter Evolving, RotorNet and c-Through). The attempt is recorded in data/work/step2_anchors.md; this section states only what this run found on disk, by DOI, not what the attempt intended.
+
+- Jupiter Evolving (DOI 10.1145/3544216.3544265): not in any data/raw/*.jsonl file and not in the database (0 raw record(s) with this DOI).
+- RotorNet (DOI 10.1145/3098822.3098838): not in any data/raw/*.jsonl file and not in the database (0 raw record(s) with this DOI).
+- c-Through (DOI 10.1145/1851182.1851222): in the database as W2097926925, core (score 3), sources "openalex_snowball", matched by 1 raw record(s) carrying this DOI.
+
+Jupiter Evolving and RotorNet were fetched from OpenAlex by DOI and then removed before this stage ran, so this run added neither. The anchor title check (rapidfuzz token_sort_ratio at least 95 against the full anchor title in pipeline/queries.yaml) does not confirm either one, because OpenAlex's title field holds only the words before the colon ("Jupiter evolving", "RotorNet"), so the check scores 23.88 for Jupiter Evolving and 23.19 for RotorNet, both well under the threshold. The two anchors were not confirmed by the title check, so they were not added. That is left as an open question for a human in data/work/step2_anchors.md. Neither DOI is in any data/raw/*.jsonl file now (0 record(s) on disk with these DOIs), so this run merged neither with an existing paper. c-Through was never missing from the database. It reached it as W2097926925 (sources "openalex_snowball"). That is a different raw record than the stage 1a anchor search's false match (openalex:W2160642098, "OPTICS", 1999, still on file under the c-Through query, since raw files are never edited).
+
+### The two arXiv-ID merges from the extract_arxiv_id fallback
+
+The PR #1 code review fix that recovers arxiv_id from a raw OpenAlex
+record's landing_page_url, for records whose own arxiv_id field is null,
+let arXiv-ID matching catch 2 pair(s) this run that
+duplicate detection missed before the fix (both sides of each pair already
+existed in data/raw/*.jsonl; this is not new data from step 2's anchor
+search). In both pairs the two records share the same arxiv_id, and
+the full author lists also match (3 authors and 4 authors). openalex:W2960571025 is an SSRN working paper record.
+
+| record_key (source) | title A | paper_id (source) | title B | shared arxiv_id |
+|---|---|---|---|---|
+| openalex:W2960571025 (arxiv_via_openalex) | Design and Evaluation of Product Aesthetics: A Human-Machine Hybrid Approach | W4285069006 (arxiv_via_openalex) | Product Aesthetic Design: A Machine Learning Augmentation | 1907.07786 |
+| openalex:W3036896065 (arxiv_via_openalex) | A Competitive B-Matching Algorithm for Reconfigurable Datacenter Networks. | W3138831328 (arxiv_via_openalex) | Online Dynamic B-Matching With Applications to Reconfigurable Datacenter Networks | 2006.10692 |

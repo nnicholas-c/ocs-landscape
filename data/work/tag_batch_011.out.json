@@ -1,0 +1,222 @@
+[
+  {
+    "paper_id": "W2488219102",
+    "tech_route": "lcos",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "none",
+    "adjacent_field": "telecom_oxc_roadm",
+    "evidence_span": "Technology and Applications of Liquid Crystal on Silicon (LCoS) in Telecommunications",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W4281778727",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "none",
+    "adjacent_field": "lcos_display_phase",
+    "evidence_span": "On the other hand, high-resolution-density, and high-brightness liquid-crystal-on-silicon (LCoS) is a promising image source for the see-through AR displays, especially under high ambient lighting conditions.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W3215039088",
+    "tech_route": "mems_3d",
+    "tech_route_secondary": null,
+    "integration": "free_space_bulk",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": null,
+    "evidence_span": "In this paper, we report on a novel CSS design employing a two dimensionally arranged microlens-based multicore fiber (MCF) collimator array and a micro-electromechanical systems (MEMS) mirror array.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W3034334810",
+    "tech_route": "lcos",
+    "tech_route_secondary": null,
+    "integration": "free_space_bulk",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": null,
+    "evidence_span": "We show an example of an implemented 5-core 1 × 6 CSS prototype that integrates an MCF collimator, spatial multiplexer/demultiplexer array, and liquid-crystal-on-silicon spatial light modulator.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W4317734516",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": "lcos_display_phase",
+    "evidence_span": "In this paper, an electrically tunable active metasurface was proposed and experimentally demonstrated using photoaligned nematic LC.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2938572472",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "evidence_span": "We propose and analyze a scalable microring-based Clos switch fabric architecture constructed with switch-and-select switching stages.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2786482165",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "unclear",
+    "ai_dc_fit": "none",
+    "adjacent_field": "silicon_photonics",
+    "evidence_span": "The basic functionalities that have been realized are: ring resonators and Mach-Zehnder interferometer filters, tunable delay elements, and waveguide switches.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2591729902",
+    "tech_route": "piezo",
+    "tech_route_secondary": null,
+    "integration": "free_space_bulk",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "evidence_span": "We report on the development of the first multi-lane all-optical switch with directly integrated multi-core fibers.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W2913395450",
+    "tech_route": "piezo",
+    "tech_route_secondary": null,
+    "integration": "free_space_bulk",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "evidence_span": "The design and performance characteristics of a beam steering optical switch for multicore fibers (MCFs) are reported.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W3158684015",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "none",
+    "adjacent_field": null,
+    "evidence_span": "Integrated optical phased arrays can be used for beam shaping and steering with a small footprint, lightweight, high mechanical stability, low price, and high-yield, benefiting from the mature CMOS-compatible fabrication.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2949924416",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "none",
+    "adjacent_field": "lcos_display_phase",
+    "evidence_span": "In this paper, we review recent advances in LC beam steering devices.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W4214829241",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "none",
+    "adjacent_field": "silicon_photonics",
+    "evidence_span": "Instead, chip-scale photonic platforms offer faster and more elegant mechanisms to manipulate light, capable of minimizing device size, weight, and power.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2068954499",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": "piezo",
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "Beam-steering large-port-count fiber switches, used as central cluster switches and intercluster switch, provide a single hop optical circuit switching solution, and also enable network function programmability for DCN to support variable traffic patterns and different network functions.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W3186137658",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": null,
+    "evidence_span": "Here, we solve these challenges with photonic inverse design and experimentally demonstrate a slow-light PCW optical phased array (OPA) with a wide steering range.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2919597673",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": null,
+    "evidence_span": "Here, we propose a novel scattering-matrix-assisted retrieval technique (SMART) to demultiplex OAM channels from highly scattered optical fields and achieve an experimental crosstalk of -13.8 dB in the parallel sorting of 24 OAM channels after passing through a scattering medium.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W4323644257",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": "piezo",
+    "integration": "free_space_bulk",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "This paper presents the physical layer design of a hybrid FSO/in-fiber DCN while guaranteeing an all-optical, single hop, non-oversubscribed and full-bisection bandwidth network.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W4281661666",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "none",
+    "adjacent_field": "mems_micromirror",
+    "evidence_span": "Light detection and ranging (LiDAR), combining traditional radar technology with modern laser technology, has much potential for applications in navigation, mapping, and so on.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W4308917574",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": "telecom_oxc_roadm",
+    "evidence_span": "After briefly reviewing the supporting network building elements (emerging fiber types, multiplexers, optical switches, and amplifiers), we consider networking scenarios such as intra/inter datacenter, terrestrial, undersea, and wireless 5G/6G hauling networks and identify the best utilization plan and key attributes that can be harnessed by the offered spectral and spatial degrees of freedom for each scenario and how optical switching can be employed therein for traffic management.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W4387760959",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": null,
+    "evidence_span": "We experimentally demonstrate the programmable liquid crystal metasurface capable of active beam deflection in the upper half-space.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W4394930219",
+    "tech_route": "thermo_optic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "Herein, we propose a new switching method by thermo-optic waveguide lens.",
+    "confidence": "high"
+  }
+]

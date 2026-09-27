@@ -1,0 +1,222 @@
+[
+  {
+    "paper_id": "W2065747405",
+    "tech_route": "other",
+    "tech_route_secondary": null,
+    "integration": "free_space_bulk",
+    "trl_band": "unclear",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "evidence_span": "7×7 DMD-based diffractive fiber switch at 1550nm",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2108251206",
+    "tech_route": "mems_3d",
+    "tech_route_secondary": null,
+    "integration": "free_space_bulk",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "We present a first-principles analysis of the scaling of switch response speed as a function of port count, crosstalk, and insertion loss, based on physical optics and kinematics of canonical MEMS tilt mirror switch structures.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W2124700175",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "this paper presents FireFly, an inter-rack network solution that pushes DC network design to the extreme on three key fronts: (1) all links are reconfigurable; (2) all links are wireless; and (3) non top-of-rack switches are eliminated altogether.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W2139106050",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "none",
+    "adjacent_field": "lcos_display_phase",
+    "evidence_span": "We discuss some fundamental characteristics of a phase-modulating device suitable to holographically project a monochrome video frame with 1280 x 720 resolution.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2140348302",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": "mems_micromirror",
+    "evidence_span": "We report on microelectromechanical systems (MEMS)-actuated 32 × 32 optical phased arrays (OPAs) with high fill-factors and microsecond response time.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2026418326",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "The lack of practical buffering and the fundamental circuit switched nature of optical data communications require a holistic approach to designing system-wide photonic interconnection networks.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W2050810792",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": "silicon_photonics",
+    "evidence_span": "We present compact crossings for silicon-on-insulator photonic wires.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2051201523",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "none",
+    "adjacent_field": null,
+    "evidence_span": "This paper introduces three architectures for optical space switches that are based on a multiplicity of fiber interconnected optical components.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2053780865",
+    "tech_route": "thermo_optic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "evidence_span": "Using silicon photonic wire waveguides, we constructed compact 1 x 1, 1 x 2, and 1 x 4 Mach-Zehnder interferometer type optical switches on a silicon-on-insulator substrate and demonstrated their switching operations through the thermo-optic effect.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W2058203097",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": "silicon_photonics",
+    "evidence_span": "We demonstrate compact, broadband, ultralow loss silicon waveguide crossings operating at 1550 nm and 1310 nm.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2062193700",
+    "tech_route": "thermo_optic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "evidence_span": "Polarization-independent wavelength path switching is demonstrated with one-chip silicon photonic circuit including 64 thermo-optical switch elements within 12mm × 3mm.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W2063297543",
+    "tech_route": "electro_optic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "evidence_span": "A compact rearrangeable nonblocking 4×4 silicon electro-optic switch matrix based on a Spanke-Beneš network is proposed and fabricated by a 0.18 μm standard commercial complementary metal-oxide semiconductor line.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W2066110041",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": "telecom_oxc_roadm",
+    "evidence_span": "We present 8×8 silicon photonic switch modules with newly designed spot size converters on a silicon chip.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2078357199",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": "silicon_photonics",
+    "evidence_span": "Here, we demonstrate non-invasive light observation in silicon photonics devices by exploiting photon interaction with intra-gap energy states localized at the waveguide surface.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2099610951",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": "silicon_photonics",
+    "evidence_span": "The pace of the development of silicon photonics has quickened since 2004 due to investment by industry and government.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2113209593",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "none",
+    "adjacent_field": null,
+    "evidence_span": "This paper describes the construction of a permutation network which is advantageous for optical switching.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2121095819",
+    "tech_route": "other",
+    "tech_route_secondary": null,
+    "integration": "free_space_bulk",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": null,
+    "evidence_span": "We propose a polarization-controlled free-space photonic switch based on a PI-LOSS switch that has similar insertion loss and lower crosstalk compared to the conventional crossbar switch.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W1558865741",
+    "tech_route": "electro_optic",
+    "tech_route_secondary": "thermo_optic",
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "evidence_span": "We present the design, fabrication, and measurement results of low-insertion-loss and low-crosstalk broadband 2 × 2 Mach-Zehnder switches for nanosecond-scale optical data routing applications.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W1653883346",
+    "tech_route": "mems_2d",
+    "tech_route_secondary": null,
+    "integration": "free_space_bulk",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": null,
+    "evidence_span": "In conclusion we have demonstrated fully nonblocking 16/spl times/16 switches in a single chip solution using MEMS fabricated by a surface micro-machining.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W1887234615",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": "silicon_photonics",
+    "evidence_span": "InP integrated photonics has become a critical enabler for modern telecommunications, and is poised to revolutionize data communications, precision metrology, spectrometry, and imaging.",
+    "confidence": "low"
+  }
+]

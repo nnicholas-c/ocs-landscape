@@ -1,0 +1,152 @@
+[
+  {
+    "record_key": "openalex:W617071296",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "General semiconductor device physics textbook, no switching content."
+  },
+  {
+    "record_key": "openalex:W1536656161",
+    "score": 1,
+    "adjacent_field": "telecom_oxc_roadm",
+    "reason": "Title-only optical networking textbook, likely covers switching, no abstract."
+  },
+  {
+    "record_key": "openalex:W1566502265",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "SPIE eBook collection marketing blurb, not about OCS."
+  },
+  {
+    "record_key": "openalex:W1645511984",
+    "score": 1,
+    "adjacent_field": "silicon_photonics",
+    "reason": "Vision paper on photonics-electronics integration for computing, no switch demo."
+  },
+  {
+    "record_key": "openalex:W1698388015",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Electronic flow scheduling for packet-switched data center networks."
+  },
+  {
+    "record_key": "openalex:W1857009450",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Hybrid wireless flyway architecture to relieve data center hotspots."
+  },
+  {
+    "record_key": "openalex:W2055090023",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Rate Control Protocol test network, electronic congestion control."
+  },
+  {
+    "record_key": "openalex:W2059608229",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Graph theory textbook on paths, trees, and flowers."
+  },
+  {
+    "record_key": "openalex:W2063657191",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "ATM/IP switching protocol integration paper, not optical."
+  },
+  {
+    "record_key": "openalex:W2101352979",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Electronic server-centric data center network architecture (MDCube)."
+  },
+  {
+    "record_key": "openalex:W2111366547",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "iSLIP scheduling algorithm for electronic input-queued crossbar switches."
+  },
+  {
+    "record_key": "openalex:W2114497163",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Electronic ASIC-based merchant silicon data center switch architecture."
+  },
+  {
+    "record_key": "openalex:W2116377381",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Proposes optical circuit switching network for HPC bulk data transfers."
+  },
+  {
+    "record_key": "openalex:W2117358494",
+    "score": 2,
+    "adjacent_field": "telecom_oxc_roadm",
+    "reason": "Uses optics and a switch fabric to scale internet router capacity."
+  },
+  {
+    "record_key": "openalex:W2126169247",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "ATM-style electronic switch scheduling for local-area networks."
+  },
+  {
+    "record_key": "openalex:W105472389",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "SIGCOMM 2022 conference welcome message, no research content."
+  },
+  {
+    "record_key": "openalex:W1501077214",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "General textbook on electronic interconnection network design principles."
+  },
+  {
+    "record_key": "openalex:W1999085092",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "General computing energy scaling essay, no optical content."
+  },
+  {
+    "record_key": "openalex:W2002555321",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Roofline performance model paper, unrelated to switching."
+  },
+  {
+    "record_key": "openalex:W2028263411",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Anton, an ASIC machine for molecular dynamics simulation."
+  },
+  {
+    "record_key": "openalex:W2060204338",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Title-only warehouse-scale computing textbook, no switching content."
+  },
+  {
+    "record_key": "openalex:W2082887106",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "VLSI processor array interconnect topology, electronic, not optical."
+  },
+  {
+    "record_key": "openalex:W2097561580",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Historical Illiac IV parallel computer architecture description."
+  },
+  {
+    "record_key": "openalex:W2134839001",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "HPC interconnect communication requirements study, no optical switching."
+  },
+  {
+    "record_key": "openalex:W2156275124",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Cray T3E multiprocessor synchronization and communication primitives."
+  }
+]

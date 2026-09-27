@@ -1,0 +1,222 @@
+[
+  {
+    "paper_id": "W2490598172",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "In this work we present a novel all-optical flat DCN architecture OPSquare that potentially addresses the scaling issues by employing parallel intra-/inter-cluster switching networks, distributed fast WDM optical cross-connect (OXC) switches, and a novel top-of-rack (ToR) switch architecture.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W2912886516",
+    "tech_route": "soa",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "The lossless photonic WDM switches are based on InP technology and employ semiconductor optical amplifiers as on -chip gain element and fast switch.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W2592504242",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": "silicon_photonics",
+    "evidence_span": "The switching performance of a photonic integrated WDM cross-connect switch is assessed with 40Gb/s NRZ-OOK, 20Gb/s PAM4 and data-rate adaptive DMT traffic.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2560361359",
+    "tech_route": "mems_3d",
+    "tech_route_secondary": null,
+    "integration": "free_space_bulk",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "We present the design, fabrication, and experimental characterization of a proof-of-principle prototype using a single comb-driven MEMS mirror to achieve 150 μs switching of 61 ports between four preprogrammed interconnection mappings.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W2735125579",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "OPSquare is an optical DCN architecture that potentially addresses the DCN scaling issues by employing parallel intra- and inter-cluster switching networks based on distributed fast WDM optical cross-connect switches and a novel top-of-rack switch architecture.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2073240697",
+    "tech_route": "robotic_patch_panel",
+    "tech_route_secondary": null,
+    "integration": "mechanical_fiber",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": null,
+    "evidence_span": "We have developed a fiber-handling robot and optical connection mechanisms for automatic cross-connection of multiple optical connectors, which are the key elements of automatic optical fiber cross-connect equipment.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W4205819848",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "The primary motivation for considering photonic switching in data centers rises from the need for energy-efficient and scalable intra-data center networks to meet rapid increases in data traffic driven by emerging applications, including machine learning.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W1516975232",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "none",
+    "adjacent_field": "silicon_photonics",
+    "evidence_span": "This paper focuses on crystalline dielectric materials, and is a review of the state‐of‐the‐art in the fabrication, characterization and applications of femtosecond‐laser micromachined waveguiding structures in optical crystals and ceramics.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2952418242",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "This paper, apart from optical switching and labeling potentials, investigates thoroughly other critical issues, strictly related to the proper choice of employing a switching architecture layout, such as its implementation technology, its elasticity potentials, in terms of flexible bandwidth (BW) provisioning, its adopted control plane lying on top of data infrastructure plane, providing cognition, control and orchestration over its network elements, as well as related to the proper choice of optical labeling techniques adopted, in conjunction with current, advanced, coherent, multi level modulation formats, for ultrahigh link capacities and packet switching speed demands of scalable, big data interconnected DCs and HPC environments.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W3046344355",
+    "tech_route": "other",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "At its core, Sirius uses a combination of tunable lasers and simple, passive gratings that route light based on its wavelength.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W2934098931",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "We present Opera, a dynamic network that delivers latency-sensitive traffic quickly by relying on multi-hop forwarding in the same way as expander-graph-based approaches, but provides near-optimal bandwidth for bulk flows through direct forwarding over time-varying source-to-destination circuits.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2119638333",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "We present Helios, a hybrid electrical/optical switch architecture that can deliver significant reductions in the number of switching elements, cabling, cost, and power consumption relative to recently proposed data center network architectures.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W2486960733",
+    "tech_route": "other",
+    "tech_route_secondary": null,
+    "integration": "free_space_bulk",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "It uses a digital micromirror device (DMD) and mirror assembly combination as a transmitter and a photodetector on top of the rack as a receiver (Figure 1).",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W2260723393",
+    "tech_route": "mems_silicon_photonic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "The matrix switch with 4096 microelectromechanical-systems-actuated vertical adiabatic couplers has been integrated on a 8.6 mm x 8.6 mm chip.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W2138361600",
+    "tech_route": "mems_3d",
+    "tech_route_secondary": null,
+    "integration": "free_space_bulk",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": null,
+    "evidence_span": "We present a microelectromechanical systems-based beam steering optical crossconnect switch core with port count exceeding 1100, featuring mean fiber-to-fiber insertion loss of 2.1 dB and maximum insertion loss of 4.0 dB across all possible connections.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W1536656161",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "none",
+    "adjacent_field": null,
+    "evidence_span": "Optical Networks: A Practical Perspective",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W1645511984",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "unclear",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": "silicon_photonics",
+    "evidence_span": "We believe that techniques that increase the number of effective channels using dense integration of photonic devices with silicon, combined with WDM and multi-level encoding to increase the number of multiplexed optical data channels per optical waveguide will be key.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2116377381",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "Thus we propose a two-network interconnect: An Optical Circuit Switching (OCS) network handling long-lived bulk data transfers, using optical switches; and a secondary lower-bandwidth Electronic Packet Switching (EPS) network.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W2017036528",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "In line with this work, we propose Proteus, an all-optical architecture targeting unprecedented topology-flexibility, lower complexity and higher energy efficiency.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2083823757",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "We review the growing need for optical interconnect bandwidth in data center networks, and the opportunities and challenges for wavelength division multiplexing (WDM) to sustain the “last 2km” bandwidth growth inside data center networks.",
+    "confidence": "low"
+  }
+]

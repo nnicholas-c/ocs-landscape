@@ -1,0 +1,202 @@
+[
+  {
+    "record_key": "openalex:W2413950147",
+    "source": "openalex",
+    "title": "Ultra-High Capacity Indoor Optical Wireless Communication Using 2D-Steered Pencil Beams",
+    "year": 2016,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "Free-space indoor optical communication deploying pencil beams can offer ultra-high wireless capacity individually per user device. By means of two-dimensional (2D) diffractive modules, such as a pair of crossed gratings, 2D steering of multiple beams by just tuning the wavelength of each beam can be achieved. The design aspects of an indoor system fed via an intelligent optical fiber backbone network are discussed. 2D angular beam steering over a 6° × 12° area was achieved by wavelength tuning from 1505 to 1630 nm. System experiments using PAM-4 modulation have shown a capacity of 32 Gbit/s per infrared beam. With radio-overfiber techniques and optical carrier recovery from the downstream signal, 10 Gbit/s upstream transmission of a 60 GHz radio signal has"
+  },
+  {
+    "record_key": "openalex:W4313455582",
+    "source": "openalex",
+    "title": "Active terahertz beam steering based on mechanical deformation of liquid crystal elastomer metasurface",
+    "year": 2023,
+    "venue": "Light Science & Applications",
+    "abstract": "Active metasurfaces are emerging as the core of next-generation optical devices with their tunable optical responses and flat-compact topography. Especially for the terahertz band, active metasurfaces have been developed as fascinating devices for optical chopping and compressive sensing imaging. However, performance regulation by changing the dielectric parameters of the integrated functional materials exhibits severe limitations and parasitic losses. Here, we introduce a C-shape-split-ring-based phase discontinuity metasurface with liquid crystal elastomer as the substrate for infrared modulation of terahertz wavefront. Line-focused infrared light is applied to manipulate the deflection of the liquid crystal elastomer substrate, enabling controllable and broadband wavefront steering with a maximum output angle change of 22° at 0.68 THz. Heating as another control method is also investigated and"
+  },
+  {
+    "record_key": "openalex:W2755567273",
+    "source": "openalex",
+    "title": "Hybrid photonic-crystal fiber",
+    "year": 2017,
+    "venue": "Reviews of Modern Physics",
+    "abstract": "Optical fibers provide much more than a means to transport light between different locations. This article reviews how integration of functional fluid, solid, and gaseous materials in photonic crystal fibers enables control of their linear and nonlinear properties with applications in optoelectronics, sensing, and laser science."
+  },
+  {
+    "record_key": "openalex:W4214829241",
+    "source": "openalex",
+    "title": "High‐performance optical beam steering with nanophotonics",
+    "year": 2022,
+    "venue": "Nanophotonics",
+    "abstract": "The ability to control and steer optical beams is critical for emerging technologies. Among these are light detection and ranging (LiDAR), laser display, free space communication, and single pixel imaging. Improvements in these areas promise enhanced 3D data collection capabilities, orders of magnitude increase in wireless data rate, less expensive cameras, and ever more immersive virtual/augmented reality (VR/AR) consumer electronics. Bulk mechanical or liquid crystal devices are conventionally utilized platforms that achieve optical beam steering, but they are bulky and limited in speed and reliability. Instead, chip-scale photonic platforms offer faster and more elegant mechanisms to manipulate light, capable of minimizing device size, weight, and power. Additionally, a critical device metric is its far field resolution, which influences fine feature"
+  },
+  {
+    "record_key": "openalex:W3092216269",
+    "source": "openalex",
+    "title": "Functional Fibers and Fabrics for Soft Robotics, Wearables, and Human–Robot Interface",
+    "year": 2020,
+    "venue": "Advanced Materials",
+    "abstract": "Soft robotics inspired by the movement of living organisms, with excellent adaptability and accuracy for accomplishing tasks, are highly desirable for efficient operations and safe interactions with human. With the emerging wearable electronics, higher tactility and skin affinity are pursued for safe and user-friendly human-robot interactions. Fabrics interlocked by fibers perform traditional static functions such as warming, protection, and fashion. Recently, dynamic fibers and fabrics are favorable to deliver active stimulus responses such as sensing and actuating abilities for soft-robots and wearables. First, the responsive mechanisms of fiber/fabric actuators and their performances under various external stimuli are reviewed. Fiber/yarn-based artificial muscles for soft-robots manipulation and assistance in human motion are discussed, as well as smart clothes for improving human perception."
+  },
+  {
+    "record_key": "openalex:W4200345206",
+    "source": "openalex",
+    "title": "Orbital angular momentum and beyond in free‐space optical communications",
+    "year": 2021,
+    "venue": "Nanophotonics",
+    "abstract": "Abstract Orbital angular momentum (OAM), which describes tailoring the spatial physical dimension of light waves into a helical phase structure, has given rise to many applications in optical manipulation, microscopy, imaging, metrology, sensing, quantum science, and optical communications. Light beams carrying OAM feature two distinct characteristics, i.e., inherent orthogonality and unbounded states in principle, which are suitable for capacity scaling of optical communications. In this paper, we give an overview of OAM and beyond in free‐space optical communications. The fundamentals of OAM, concept of optical communications using OAM, OAM modulation (OAM modulation based on spatial light modulator, high‐speed OAM modulation, spatial array modulation), OAM multiplexing (spectrally efficient, high capacity, long distance), OAM multicasting (adaptive multicasting, N ‐dimensional multicasting), OAM communications"
+  },
+  {
+    "record_key": "openalex:W2554260837",
+    "source": "openalex",
+    "title": "Nanometer resolution imaging and tracking of fluorescent molecules with minimal photon fluxes",
+    "year": 2016,
+    "venue": "Science",
+    "abstract": "Superresolution imaging in sharper focus An optical microscope cannot distinguish objects separated by less than half the wavelength of light. Superresolution techniques have broken this “diffraction limit” and provided exciting new insights into cell biology. Still, such techniques hit a limit at a resolution of about 10 nm. Balzarotti et al. describe another way of localizing single molecules called MINFLUX (see the Perspective by Xiao and Ha). As in photoactivated localization microscopy and stochastic optical reconstruction microscopy, fluorophores are stochastically switched on and off, but the emitter is located using an excitation beam that is doughnut-shaped, as in stimulated emission depletion. Finding the point where emission is minimal reduces the number of photons needed to localize an emitter. MINFLUX attained"
+  },
+  {
+    "record_key": "openalex:W4321790208",
+    "source": "openalex",
+    "title": "Optical Fiber Based Temperature Sensors: A Review",
+    "year": 2023,
+    "venue": "Optics",
+    "abstract": "The current generation is witnessing a huge interest in optical waveguides due to their salient features: they are of low cost, immune to electromagnetic interference, easy to multiplex, have a compact size, etc. These features of optical fibers make them a useful tool for various sensing applications including in medicine, automotives, biotechnology, food quality control, aerospace, physical and chemical monitoring. Among all the reported applications, optical waveguides have been widely exploited to measure the physical and chemical variations in the surrounding environment. Optical fiber-based temperature sensors have played a crucial role in this decade to detect high fever and tackle COVID-19-like pandemics. Recognizing the major developments in the field of optical fibers, this article provides recent progress in temperature sensors"
+  },
+  {
+    "record_key": "openalex:W4381434615",
+    "source": "openalex",
+    "title": "Integrated metasurfaces for re-envisioning a near-future disruptive optical platform",
+    "year": 2023,
+    "venue": "Light Science & Applications",
+    "abstract": "Metasurfaces have been continuously garnering attention in both scientific and industrial fields, owing to their unprecedented wavefront manipulation capabilities using arranged subwavelength artificial structures. To date, research has mainly focused on the full control of electromagnetic characteristics, including polarization, phase, amplitude, and even frequencies. Consequently, versatile possibilities of electromagnetic wave control have been achieved, yielding practical optical components such as metalenses, beam-steerers, metaholograms, and sensors. Current research is now focused on integrating the aforementioned metasurfaces with other standard optical components (e.g., light-emitting diodes, charged-coupled devices, micro-electro-mechanical systems, liquid crystals, heaters, refractive optical elements, planar waveguides, optical fibers, etc.) for commercialization with miniaturization trends of optical devices. Herein, this review describes and classifies metasurface-integrated optical components, and subsequently discusses their promising"
+  },
+  {
+    "record_key": "openalex:W3173926265",
+    "source": "openalex",
+    "title": "Beam-Steered Optical Wireless Communication for Industry 4.0",
+    "year": 2021,
+    "venue": "IEEE Journal of Selected Topics in Quantum Electronics",
+    "abstract": "By means of narrow 2D-steerable infrared beams, interference-free individual wireless connections to densely-spaced devices in industry 4.0 settings can be made. Beam steering by fiber-fed passive diffractive beam steering modules and wavelength-tunable transceivers located in a separate controller location enable readily scalable connectivity to many devices and their nomadic mobility. To accommodate the dynamics in industry 4.0 settings, self-calibrating localization of the devices by means of retro-reflecting corner cube foils and beam scanning is demonstrated, and a low-complexity broadband wide field-of-view optical wireless receiver is presented, based on a matrix of photodiodes."
+  },
+  {
+    "record_key": "openalex:W2068954499",
+    "source": "openalex",
+    "title": "Archon: A Function Programmable Optical Interconnect Architecture for Transparent Intra and Inter Data Center SDM/TDM/WDM Networking",
+    "year": 2015,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "This paper reports all-optical, function programmable, transparent, intra- and inter-data center networking (DCN) using space and time-division multiplexing (SDM/TDM) within data centers and wavelength division multiplexing (WDM) between data centers. A multielement fiber is used for SDM transmission to provide a large quantity of optical links between the top-of-racks (ToRs) and the function programmable cluster switch. Beam-steering large-port-count fiber switches, used as central cluster switches and intercluster switch, provide a single hop optical circuit switching solution, and also enable network function programmability for DCN to support variable traffic patterns and different network functions. A TDM switch as a plug-in function provides intra-cluster communication with variable capacity and low latency. The flat-structured intra data center architecture, with a circuit-switched SDM and"
+  },
+  {
+    "record_key": "openalex:W3190442075",
+    "source": "openalex",
+    "title": "Optical phased array neural probes for beam-steering in brain tissue",
+    "year": 2021,
+    "venue": "Optics Letters",
+    "abstract": "Implantable silicon neural probes with integrated nanophotonic waveguides can deliver patterned dynamic illumination into brain tissue at depth. Here, we introduce neural probes with integrated optical phased arrays and demonstrate optical beam steering in vitro. Beam formation in brain tissue is simulated and characterized. The probes are used for optogenetic stimulation and calcium imaging."
+  },
+  {
+    "record_key": "openalex:W2946108906",
+    "source": "openalex",
+    "title": "Generation of Switchable Singular Beams with Dynamic Metasurfaces",
+    "year": 2019,
+    "venue": "ACS Nano",
+    "abstract": "Singular beams have attracted great attention due to their optical properties and broad applications from light manipulation to optical communications. However, there has been a lack of practical schemes with which to achieve switchable singular beams with sub-wavelength resolution using ultrathin and flat optical devices. In this work, we demonstrate the generation of switchable vector and vortex beams utilizing dynamic metasurfaces at visible frequencies. The dynamic functionality of the metasurface pixels is enabled by the utilization of magnesium nanorods, which possess plasmonic reconfigurability upon hydrogenation and dehydrogenation. We show that switchable vector beams of different polarization states and switchable vortex beams of different topological charges can be implemented through simple hydrogenation and dehydrogenation of the same metasurfaces. Furthermore, we demonstrate"
+  },
+  {
+    "record_key": "openalex:W2113359970",
+    "source": "openalex",
+    "title": "Wavefront modulation and subwavelength diffractive acoustics with an acoustic metasurface",
+    "year": 2014,
+    "venue": "Nature Communications",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W3186137658",
+    "source": "openalex",
+    "title": "Inverse-Designed Photonic Crystal Circuits for Optical Beam Steering",
+    "year": 2021,
+    "venue": "ACS Photonics",
+    "abstract": "The ability of photonic crystal waveguides (PCWs) to confine and slow down light makes them an ideal component to enhance the performance of various photonic devices, such as optical modulators or sensors. However, the integration of PCWs in photonic applications poses design challenges, most notably, engineering the PCW mode dispersion and creating efficient coupling devices. Here, we solve these challenges with photonic inverse design and experimentally demonstrate a slow-light PCW optical phased array (OPA) with a wide steering range. Even and odd mode PCWs are engineered for a group index of 25, over a bandwidth of 20 and 12 nm, respectively. Additionally, for both PCW designs, we create strip waveguide couplers and free-space vertical couplers. Finally, also relying on inverse"
+  },
+  {
+    "record_key": "openalex:W2802011113",
+    "source": "openalex",
+    "title": "Bifunctional gap-plasmon metasurfaces for visible light: polarization-controlled unidirectional surface plasmon excitation and beam steering at normal incidence",
+    "year": 2017,
+    "venue": "Light Science & Applications",
+    "abstract": "Integration of multiple diversified functionalities into a single, planar and ultra-compact device has become an emerging research area with fascinating possibilities for realization of very dense integration and miniaturization in photonics that requires addressing formidable challenges, particularly for operation in the visible range. Here we design, fabricate and experimentally demonstrate bifunctional gap-plasmon metasurfaces for visible light, allowing for simultaneous polarization-controlled unidirectional surface plasmon polariton (SPP) excitation and beam steering at normal incidence. The designed bifunctional metasurfaces, consisting of anisotropic gap-plasmon resonator arrays, produce two different linear phase gradients along the same direction for respective linear polarizations of incident light, resulting in distinctly different functionalities realized by the same metasurface. The proof-of-concept fabricated metasurfaces exhibit efficient (>25% on average) unidirectional (extinction"
+  },
+  {
+    "record_key": "openalex:W2919597673",
+    "source": "openalex",
+    "title": "Optical orbital-angular-momentum-multiplexed data transmission under high scattering",
+    "year": 2019,
+    "venue": "Light Science & Applications",
+    "abstract": "Multiplexing multiple orbital angular momentum (OAM) channels enables high-capacity optical communication. However, optical scattering from ambient microparticles in the atmosphere or mode coupling in optical fibers significantly decreases the orthogonality between OAM channels for demultiplexing and eventually increases crosstalk in communication. Here, we propose a novel scattering-matrix-assisted retrieval technique (SMART) to demultiplex OAM channels from highly scattered optical fields and achieve an experimental crosstalk of -13.8 dB in the parallel sorting of 24 OAM channels after passing through a scattering medium. The SMART is implemented in a self-built data transmission system that employs a digital micromirror device to encode OAM channels and realize reference-free calibration simultaneously, thereby enabling a high tolerance to misalignment. We successfully demonstrate high-fidelity transmission of both"
+  },
+  {
+    "record_key": "openalex:W2955897898",
+    "source": "openalex",
+    "title": "Wireless Communications and Applications Above 100 GHz: Opportunities and Challenges for 6G and Beyond",
+    "year": 2019,
+    "venue": "IEEE Access",
+    "abstract": "Frequencies from 100 GHz to 3 THz are promising bands for the next generation of wireless communication systems because of the wide swaths of unused and unexplored spectrum. These frequencies also offer the potential for revolutionary applications that will be made possible by new thinking, and advances in devices, circuits, software, signal processing, and systems. This paper describes many of the technical challenges and opportunities for wireless communication and sensing applications above 100 GHz, and presents a number of promising discoveries, novel approaches, and recent results that will aid in the development and implementation of the sixth generation (6G) of wireless networks, and beyond. This paper shows recent regulatory and standard body rulings that are anticipating wireless products and services"
+  },
+  {
+    "record_key": "openalex:W2100234202",
+    "source": "openalex",
+    "title": "Loophole-free Einstein–Podolsky–Rosen experiment via quantum steering",
+    "year": 2012,
+    "venue": "New Journal of Physics",
+    "abstract": "Tests of the predictions of quantum mechanics for entangled systems have provided increasing evidence against local realistic theories. However, there remains the crucial challenge of simultaneously closing all major loopholes—the locality, freedom-of-choice and detection loopholes—in a single experiment. An important sub-class of local realistic theories can be tested with the concept of 'steering'. The term 'steering' was introduced by Schrödinger in 1935 for the fact that entanglement would seem to allow an experimenter to remotely steer the state of a distant system as in the Einstein–Podolsky–Rosen (EPR) argument. Einstein called this 'spooky action at a distance'. EPR-steering has recently been rigorously formulated as a quantum information task opening it up to new experimental tests. Here, we present the first loophole-free"
+  },
+  {
+    "record_key": "openalex:W2891187036",
+    "source": "openalex",
+    "title": "Advanced Multimaterial Electronic and Optoelectronic Fibers and Textiles",
+    "year": 2018,
+    "venue": "Advanced Materials",
+    "abstract": "The ability to integrate complex electronic and optoelectronic functionalities within soft and thin fibers is one of today's key advanced manufacturing challenges. Multifunctional and connected fiber devices will be at the heart of the development of smart textiles and wearable devices. These devices also offer novel opportunities for surgical probes and tools, robotics and prostheses, communication systems, and portable energy harvesters. Among the various fiber-processing methods, the preform-to-fiber thermal drawing technique is a very promising process that is used to fabricate multimaterial fibers with complex architectures at micro- and nanoscale feature sizes. Recently, a series of scientific and technological breakthroughs have significantly advanced the field of multimaterial fibers, allowing a wider range of functionalities, better performance, and novel applications. Here,"
+  },
+  {
+    "record_key": "openalex:W2218442732",
+    "source": "openalex",
+    "title": "Advanced Integration Techniques on Broadband Millimeter-Wave Beam Steering for 5G Wireless Networks and Beyond",
+    "year": 2015,
+    "venue": "IEEE Journal of Quantum Electronics",
+    "abstract": "Recently, the desired very high throughput of 5G wireless networks drives millimeter-wave (mm-wave) communication into practical applications. A phased array technique is required to increase the effective antenna aperture at mm-wave frequency. Integrated solutions of beamforming/beam steering are extremely attractive for practical implementations. After a discussion on the basic principles of radio beam steering, we review and explore the recent advanced integration techniques of silicon-based electronic integrated circuits (EICs), photonic integrated circuits (PICs), and antenna-on-chip (AoC). For EIC, the latest advanced designs of on-chip true time delay (TTD) are explored. Even with such advances, the fundamental loss of a silicon-based EIC still exists, which can be solved by advanced PIC solutions with ultra-broad bandwidth and low loss. Advanced PIC designs"
+  },
+  {
+    "record_key": "openalex:W4323644257",
+    "source": "openalex",
+    "title": "A Hybrid Beam Steering Free-Space and Fiber Based Optical Data Center Network",
+    "year": 2023,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "Wireless data center networks (DCNs) are promising solutions to mitigate the cabling complexity in traditional wired DCNs and potentially reduce the end-to-end latency with faster propagation speed in free space. Yet, physical architectures in wireless DCNs must be carefully designed regarding wireless link blockage, obstacle bypassing, path loss, interference and spatial efficiency in a dense deployment. This paper presents the physical layer design of a hybrid FSO/in-fiber DCN while guaranteeing an all-optical, single hop, non-oversubscribed and full-bisection bandwidth network. We propose two layouts and analyze their scalability: (1) A static network utilizing only tunable sources which can scale up to 43 racks, 15,609 nodes and 15,609 channels; and (2) a re-configurable network with both tunable sources and piezoelectric actuator (PZT)"
+  },
+  {
+    "record_key": "openalex:W4281661666",
+    "source": "openalex",
+    "title": "All-Solid-State Beam Steering via Integrated Optical Phased Array Technology",
+    "year": 2022,
+    "venue": "Micromachines",
+    "abstract": "Light detection and ranging (LiDAR), combining traditional radar technology with modern laser technology, has much potential for applications in navigation, mapping, and so on. Benefiting from the superior performance, an all-solid-state beam steering realized by integrated optical phased array (OPA) is one of the key components in the LiDAR system. In this review, we first introduce the basic principle of OPA for beam steering. Then, we briefly review the detailed advances of different solutions such as micro-electromechanical system OPA, liquid crystal OPA, and metasurface OPA, where our main focus was on the recent progress of OPA in photonic integrated chips. Finally, we summarize the different solutions and discuss the challenges and perspectives of all-solid-state beam steering for LiDAR."
+  },
+  {
+    "record_key": "openalex:W3000699369",
+    "source": "openalex",
+    "title": "Optical Wireless Hybrid Networks: Trends, Opportunities, Challenges, and Research Directions",
+    "year": 2020,
+    "venue": "IEEE Communications Surveys & Tutorials",
+    "abstract": "Optical wireless communication (OWC) is an excellent complementary solution to its radio frequency (RF) counterpart. OWC technologies have been demonstrated to be able to support high traffic generated by massive connectivity of the Internet of Things (IoT) and upcoming 5thgeneration (5G) wireless communication systems. As the characteristics of OWC and RF are complementary, a combined application is regarded as a promising approach to support 5G and beyond communication systems. Hybrid RF/optical and optical/optical wireless systems offer an excellent solution for recovering the limitations of individual systems as well as for providing positive features of each of the technologies. An RF/optical wireless hybrid system consists both RF and optical-based wireless technologies, whereas an optical/optical wireless hybrid system consists two or more"
+  },
+  {
+    "record_key": "openalex:W4308917574",
+    "source": "openalex",
+    "title": "Optical Switching in Future Fiber-Optic Networks Utilizing Spectral and Spatial Degrees of Freedom",
+    "year": 2022,
+    "venue": "Proceedings of the IEEE",
+    "abstract": "Forthcoming capacity scaling requirements of optical networks and advances in optical fiber communications beyond the omnipresent single-mode fiber operating over the conventional band introduces new opportunities and challenges for exploiting the expanded spectral and spatial resources available for fiber-optic network designs. The spectral and spatial degrees of freedom introduce utilization tradeoffs that can be leveraged under different applications. After briefly reviewing the supporting network building elements (emerging fiber types, multiplexers, optical switches, and amplifiers), we consider networking scenarios such as intra/inter datacenter, terrestrial, undersea, and wireless 5G/6G hauling networks and identify the best utilization plan and key attributes that can be harnessed by the offered spectral and spatial degrees of freedom for each scenario and how optical switching can be"
+  }
+]

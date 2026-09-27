@@ -1,0 +1,152 @@
+[
+  {
+    "record_key": "openalex:W2885657717",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Fog/edge computing survey, unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W4323653529",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Flexible sensors roadmap, unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W4210823697",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Photonic neuromorphic computing review, not circuit switching."
+  },
+  {
+    "record_key": "openalex:W4206390255",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "ML for optical performance monitoring in short-reach links, not switch hardware."
+  },
+  {
+    "record_key": "openalex:W2998747575",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "AC/DC microgrid protection review, unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W4313894114",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Photonic multiplexing for neuromorphic ONNs, an optical computing review not switching."
+  },
+  {
+    "record_key": "openalex:W4226299668",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Distributed satellite synchronization survey, unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W4319918345",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "FPGA cluster prototype for HPC, no optical switching content."
+  },
+  {
+    "record_key": "openalex:W4226315885",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Tunable optics vision for optical wireless networks, not circuit switch fabric."
+  },
+  {
+    "record_key": "openalex:W4401692725",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Chip/package interconnect overview for computing systems, no OCS mention in snippet."
+  },
+  {
+    "record_key": "openalex:W4327898871",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Co-packaged optics review; CPO moves bits but does not switch, per domain guide."
+  },
+  {
+    "record_key": "openalex:W4377008345",
+    "score": 2,
+    "adjacent_field": "silicon_photonics",
+    "reason": "SiPAC uses resonator-based wavelength-selective photonics for multicast I/O in DL clusters."
+  },
+  {
+    "record_key": "openalex:W3038568908",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Radiation-resistant camera for plasma monitoring, unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W2490598172",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "OPSquare uses fast nanosecond WDM optical cross-connect switches for all-optical flat DCN."
+  },
+  {
+    "record_key": "openalex:W2950385297",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Review of optical atomic clocks, unrelated meaning of optical."
+  },
+  {
+    "record_key": "openalex:W2912886516",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Photonic integrated WDM cross-connect and multicast switches for metro/data center networks."
+  },
+  {
+    "record_key": "openalex:W2159714423",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "LSST astronomy survey telescope design, unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W2940692781",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Perovskite optical light sources review, unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W2592504242",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Monolithically integrated WDM cross-connect switch demonstrated for optical data center networks."
+  },
+  {
+    "record_key": "openalex:W2789554261",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Underwater optical wireless communications survey, unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W217075555",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Anterior segment optical coherence tomography, medical imaging not OCS."
+  },
+  {
+    "record_key": "openalex:W2888802925",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Review of optical vortex beam generation physics, unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W2487200295",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Big data analytics business review, unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W2155302366",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Optical flow estimation in computer vision, unrelated to circuit switching."
+  },
+  {
+    "record_key": "openalex:W1570588423",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Tissue optical clearing for biomedical imaging, unrelated to OCS."
+  }
+]

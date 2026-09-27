@@ -1,0 +1,142 @@
+[
+  {
+    "paper_id": "W1979338531",
+    "title": "First 8×8 semiconductor optical matrix switches using GaAs/AlGaAs electro-optic guided-wave directional couplers",
+    "year": 1992,
+    "venue": "Electronics Letters",
+    "abstract": "Monolithically integrated 8×8 semiconductor optical matrix switches have been successfully fabricated for the first time. They were constructed on GaAs substrates from 64 GaAs/AlGaAs electro-optic directional couplers using a simplified tree architecture. The devices have a chip size of 26.5×3 mm2 and a minimum total loss (excluding coupling loss) of 8.7 dB."
+  },
+  {
+    "paper_id": "W1989460122",
+    "title": "First Demonstration of Automated Control and Assessment of a Dynamically Reconfigured Monolithic 8 × 8 Wavelength-and-Space Switch [Invited]",
+    "year": 2015,
+    "venue": "Journal of Optical Communications and Networking",
+    "abstract": "A control plane is implemented to allow the first (to our knowledge) demonstration of scheduling and power leveling in a monolithically integrated 8×8 switch for multi-path and multi-wavelength routing on a data packet timescale. Automated control and path assessment is enabled under dynamically reconfigured wavelength-and-space routing. Eight data connections from eight inputs to each output are established within 8 μs by using a round robin scheduler. Fast automated bit-error-rate measurements under a range of decision thresholds are performed for each of the established connections. A comprehensive analysis on the path performance is performed for the whole device. Error-free (<10−9) operation under dynamic wavelength-and-space routing are demonstrated for all the electrically connected paths. The first investigation on the impact of varied switch loads from unicast to multicast to broadcast on device performance is also performed."
+  },
+  {
+    "paper_id": "W1989769976",
+    "title": "Monolithic Nanosecond-Reconfigurable 4$\\,\\times\\,$4 Space and Wavelength Selective Cross-Connect",
+    "year": 2012,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "A monolithic InGaAsP/InP 4 × 4 cross-connect is designed, fabricated and demonstrated. Each of the four inputs fan out to two stages of semiconductor optical amplifier-based gates to perform broadband-input-selection and wavelength-specific-selection. Stages of parallel cyclic arrayed waveguide grating routers and wavelength-agnostic fan-ins allow independent electronically controlled routing of four unique wavelength channels between the four inputs and outputs. The circuit is realized within a 15 mm area on a multi-project wafer. Circuit performance is evaluated by resolving optical power loss within the circuit to show component level performance at and close to design specification. Data routing experiments for wavelength multiplexed signals are performed and quantified in terms of optical power penalty. Multi-path routing is performed with both co- and counter-propagating data. Bi-directional and fast reconfigurable routing is similarly quantified. Low power penalty of less than 1 dB is measured for the simultaneous routing of data over multiple circuit paths."
+  },
+  {
+    "paper_id": "W1994471904",
+    "title": "Heterogeneously integrated III-V/silicon distributed feedback lasers",
+    "year": 2013,
+    "venue": "Optics Letters",
+    "abstract": "Heterogeneously integrated III-V-on-silicon second-order distributed feedback lasers utilizing an ultra-thin DVS-BCB die-to-wafer bonding process are reported. A novel DFB laser design exploiting high confinement in the active waveguide is demonstrated. A 14 mW single-facet output power coupled to a silicon waveguide, 50 dB side-mode suppression ratio and continuous wave operation up to 60°C around 1550 nm is obtained."
+  },
+  {
+    "paper_id": "W1997754090",
+    "title": "Monolithic MZI-SOA hybrid switch for low-power and low-penalty operation",
+    "year": 2014,
+    "venue": "Optics Letters",
+    "abstract": "We report the first experimental demonstration of a monolithically integrated hybrid dilated 2×2 modular optical switch using Mach-Zehnder modulators as low-loss 1×2 switching elements and short semiconductor optical amplifiers to provide additional extinction and gain. An excellent 40 dB cross-talk/extinction ratio is recorded with data-modulated signal-to-noise ratios of up to 44 dB in a 0.1 nm bandwidth. A switching time of 3 ns is demonstrated. Bit error rate studies show extremely low subsystem penalties of less than 0.1 dB, and studies indicate that, by using this hybrid switch building block, an 8×8 port switch could be achieved with 14 dB input power dynamic range for subsystem penalties of less than 0.5 dB."
+  },
+  {
+    "paper_id": "W2007654061",
+    "title": "Scalable, Low-Energy Hybrid Photonic Space Switch",
+    "year": 2013,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "A scalable monolithically integrated photonic space switch is proposed which uses a combination of Mach-Zehnder modulators and semiconductor optical amplifiers (SOAs) for improved crosstalk performance and reduced switch loss. This architecture enables the design of high-capacity, high-speed, large-port count, low-energy switches. Extremely low crosstalk of better than -50 dB can be achieved using a 2 × 2 dilated hybrid switch module. A “building block” approach is applied to make large port count optical switches possible. Detailed physical layer multiwavelength simulations are used to investigate the viability of a 64 × 64 port switch. Optical signal degradation is estimated as a function of switch size and waveguide induced crosstalk. A comparison between hybrid and SOA switching fabrics highlights the power-efficient, high-performance nature of the hybrid switch design, which consumes less than one-third of the energy of an equivalent SOA-based switch. The significantly reduced impairments resulting from this switch design enable scaling of the port count, compared to conventional SOA-based switches."
+  },
+  {
+    "paper_id": "W2013921511",
+    "title": "Hybrid III–V/Si Distributed-Feedback Laser Based on Adhesive Bonding",
+    "year": 2012,
+    "venue": "IEEE Photonics Technology Letters",
+    "abstract": "A hybrid evanescently coupled III-V/silicon distributed-feedback laser with an integrated monitor photodiode, based on adhesive divinyl siloxane-benzocyclobutene bonding and emitting at 1310 nm, is presented. An output power of ~2.85 mW is obtained in a continuous wave regime at 10°C. The threshold current is 20 mA and a sidemode suppression ratio of 45 dB is demonstrated. Optical feedback is provided via corrugations on top of the silicon rib waveguide, while a specially developed bonding procedure yields 40-nm-thick adhesive bonding layers, enabling efficient evanescent coupling."
+  },
+  {
+    "paper_id": "W2028213396",
+    "title": "Monolithically Integrated 8:1 SOA Gate Switch With Large Extinction Ratio and Wide Input Power Dynamic Range",
+    "year": 2009,
+    "venue": "IEEE Journal of Quantum Electronics",
+    "abstract": "A monolithic 8:1 SOA gate switch that integrates an 8-ch SOA gate array, an 8:1 optical coupler, and a 1-ch SOA gate was developed for use in a large scale optical packet switching system. A 250-mum-long compact field-flattened coupler (FFC) produces a very small channel-imbalance together with a compact total chip size of 3.0 times 1.0 mm. The device exhibited a large ON-state gain of >14.3 dB and a small total gain deviation of 3.0 dB. The optimized passive waveguide structure successfully suppressed the stray light, which resulted in a record-high ON-OFF extinction ratio of >70 dB. We used a thin tensile-strained multi-quantum well (MQW) active layer which can attain high-saturation output power, low noise, and polarization insensitivity for SOA gates. Due to the coexistence of a high saturation output power and a low noise figure, the device exhibited a very wide input power dynamic range of 20.5 dB for a 10-Gb/s NRZ signal."
+  },
+  {
+    "paper_id": "W2040047675",
+    "title": "256 $,times,$ 256 Port Optical Cross-Connect Subsystem",
+    "year": 2004,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "This paper describes the subsystem design and performance of a 256/spl times/256-port micromechanical beam-steering optical cross-connect with 1.33-dB average loss, which can provide 238/spl times/238-port cross-connect with a maximum loss of less than 2dB. This paper describes the design chosen and analyzes the tolerance ranges required to produce low loss and simulate the expected loss distribution of the fabric. The method of establishing and testing the connections is also described. The simulation is compared with the measured system, and the expected and measured static and dynamic crosstalk are compared."
+  },
+  {
+    "paper_id": "W2042525359",
+    "title": "InGaAs/InP double heterostructures on InP/Si templates fabricated by wafer bonding and hydrogen-induced exfoliation",
+    "year": 2003,
+    "venue": "Applied Physics Letters",
+    "abstract": "Hydrogen-induced exfoliation combined with wafer bonding has been used to transfer ∼600-nm-thick films of (100) InP to Si substrates. Cross-section transmission electron microscopy (TEM) shows a transferred crystalline InP layer with no observable defects in the region near the bonded interface and an intimately bonded interface. InP and Si are covalently bonded as inferred by the fact that InP/Si pairs survived both TEM preparation and thermal cycles up to 620 °C necessary for metalorganic chemical vapor deposition growth. The InP transferred layers were used as epitaxial templates for the growth of InP/In0.53Ga0.47As/InP double heterostructures. Photoluminescence measurements of the In0.53Ga0.47As layer show that it is optically active and under tensile strain, due to differences in the thermal expansion between InP and Si. These are promising results in terms of a future integration of Si electronics with optical devices based on InP-lattice-matched materials."
+  },
+  {
+    "paper_id": "W2043855221",
+    "title": "Optical MEMS for photonic switching-compact and stable optical crossconnect switches for simple, fast, and flexible wavelength applications in recent photonic networks",
+    "year": 2005,
+    "venue": "IEEE Journal of Selected Topics in Quantum Electronics",
+    "abstract": "We review the development trends and state-of-the-art technologies of large-port-count optical switches over the past decade. Practical implementation of optical switch fabrics is discussed in terms of optical switch architectures, optical configurations, port counts, switch elements, and so on. We describe compact and stable optical crossconnect three-dimensional microelectromechanical systems (3-D-MEMS) switches that are a key technology in recent photonic networks. To show how these enable simple, fast, and flexible wavelength applications in the photonic layer, we discuss the fast and stable MEMS switching by novel comb actuator and V-shaped torsion bar, compact optical configuration with roof-type mirror, stable switch housing with cubic structure, packaging techniques by tolerance expansion and simple procedures of the component assembly, MEMS mirror controller with fast and low power digital notch circuit, reliability by shock absorption, and field trials. In addition, we discuss the impact of these switches on system integration for recent metropolitan area networks and enterprise networks."
+  },
+  {
+    "paper_id": "W2056973550",
+    "title": "Scalable optical switches for computing applications [Invited]",
+    "year": 2009,
+    "venue": "Journal of Optical Networking",
+    "abstract": "A scalable photonic interconnection network architecture is proposed whereby a Clos network is populated with broadcast-and-select stages. This enables the efficient exploitation of an emerging class of photonic integrated switch fabric. A low distortion space switch technology based on recently demonstrated quantum-dot semiconductor optical amplifier technology, which can be operated uncooled, is used as the base switch element. The viability of these switches in cascaded networks is reviewed, and predictions are made through detailed physical layer simulation to explore the potential for larger-scale network connectivity. Optical signal degradation is estimated as a function of data capacity and network size. Power efficiency and physical layer complexity are addressed for high end-to-end bandwidth, nanosecond-reconfigurable switch fabrics, to highlight the potential for scaling to several tens of connections. The proposed architecture is envisaged to facilitate high-capacity, low-latency switching suited to computing systems, backplanes, and data networks. Broadband operation through wavelength division multiplexing is studied to identify practical interconnection networks scalable to 100 Gbits/s per path and a power consumption of the order of 20 mW/(Gbits/s) for a 64×64 size interconnection network."
+  },
+  {
+    "paper_id": "W1965253111",
+    "title": "Single and multiple optical switches that use freestanding silicon nanowire waveguide couplers",
+    "year": 2012,
+    "venue": "Light Science & Applications",
+    "abstract": "Silicon photonic devices consisting of nanowire waveguides are a promising technology for on-chip integration in future optical telecommunication and interconnection systems based on silicon-large scale integration fabrication. However, the accommodation of variable optical components on a chip remains challenging due to the small size of microchips. In this study, we investigated the characteristics of a microelectromechanical silicon nanowire waveguide switch with a gap-variable coupler. Due to its capacitive operation, the proposed waveguide switch consumed negligible power relative to switches that use a thermo-optical effect and carrier injection. The proposed switch was characterized using analyses based on coupled-mode theory for rectangular waveguides, as well as a simulation using the finite difference time domain method. A 2×2 single switch with an improved configuration and a 2×6 multiple switch composed of the 2×2 switches was designed and fabricated by a combination of electron beam lithography, fast-atom beam etching and hydrofluoric acid vapor sacrificial etching. The properties of the switches were measured and evaluated at a wavelength of 1.55 µm. A new miniature silicon optical switch requires far less electrical power than schemes employing thermo-optic effects or carrier injection. The device, developed by Yuta Akihama and Kazuhiro Hane from Tohoku University in Japan, relies on optical coupling between two arms in a 2×2 silicon waveguide coupler. By allowing one of the arms to move and connecting it to an electrostatic comb-drive actuator, an electrical voltage can be used to vary the gap between the waveguide arms and thus control the amount of coupling. The result is an efficient switch that operates at the wavelength of 1.55 µm and has a footprint of 100 µm×100 µm. As well as demonstrating a single 2×2 switch, the researchers also cascaded several devices together to construct a 2×6 switch."
+  },
+  {
+    "paper_id": "W1987691577",
+    "title": "Optical beamsteering using an 8 × 8 MEMS phased array with closed-loop interferometric phase control",
+    "year": 2013,
+    "venue": "Optics Express",
+    "abstract": "We present a high-speed optical beamsteering system based on an 8x8 MEMS phased array. The system incorporates an in situ interferometer that provides a real-time, dynamic measure of the phase of each mirror in the array during beamsteering. A closed-loop phase-control algorithm results in <π/100 mirror phase accuracy and far field beam steering is shown. Stroboscopic measurement capabilities are demonstrated which allow us to show feedforward control to eliminate micromirror ringing."
+  },
+  {
+    "paper_id": "W1998335447",
+    "title": "Loss reduction in silicon nanophotonic waveguide micro-bends through etch profile improvement",
+    "year": 2011,
+    "venue": "Optics Communications",
+    "abstract": null
+  },
+  {
+    "paper_id": "W2006295284",
+    "title": "MEMS cantilever beam electrostatic pull-in model",
+    "year": 2001,
+    "venue": "Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE",
+    "abstract": "Two closed form algebraic models describing electrostatic latch and release of micro cantilever beams are presented. The 1st model is based on beam theory with a fixed moment at the boundary to represent the electrostatic force and it predicts that electrostatic pull-in occurs at a beam tip displacement of 46% the initial actuator gap. The 2nd model uses a rigid beam pinned at the anchor with a spring equivalent to the beam's mechanical restoring force attached to the tip and describes electrostatic pull-in occurring at a beam tip deflection of 44% the initial actuator gap. Pull-in voltage measurements of polysilicon cantilever beam arrays (6mm wide, 2mm thick, 160 mm long) correlate to both the 1st and 2nd presented models with errors of 8.2% ((sigma) equals1.3%), and 4.9% ((sigma) equals1.4%), respectively. The 1st and 2nd models were observed to improve pull-in voltage prediction by at least 10.3% and 13.7% respectively when compared to previously presented models without the use of empirical correction factors."
+  },
+  {
+    "paper_id": "W2017873014",
+    "title": "Large current MOSFET on photonic silicon-on-insulator wafers and its monolithic integration with a thermo–optic 2 × 2 Mach–Zehnder switch",
+    "year": 2013,
+    "venue": "Optics Express",
+    "abstract": "n-channel body-tied partially depleted metal-oxide-semiconductor field-effect transistors (MOSFETs) were fabricated for large current applications on a silicon-on-insulator wafer with photonics-oriented specifications. The MOSFET can drive an electrical current as large as 20 mA. We monolithically integrated this MOSFET with a 2 × 2 Mach-Zehnder interferometer optical switch having thermo-optic phase shifters. The static and dynamic performances of the integrated device are experimentally evaluated."
+  },
+  {
+    "paper_id": "W2032418282",
+    "title": "A Compact 1×3 Silicon Photonic Waveguide Switch Based on Precise Investigation of Coupling Characteristics of Variable-Gap Coupler",
+    "year": 2013,
+    "venue": "Japanese Journal of Applied Physics",
+    "abstract": "A variable-gap silicon nanowire waveguide coupler was fabricated and its characteristics were measured for comparison with those determined by a rigorous electromagnetic simulation. The three-dimensional model of the coupler was simulated by the finite-difference time-domain method. On the basis of the results obtained, a compact 1×3 silicon nanowire coupler switch was designed and fabricated. The 1×3 switch was composed of two couplers with parallel silicon nanowire waveguides of 400 nm width and 260 nm thickness and comb-drive electrostatic actuators. The output isolation and extinction ratio of the variable coupler were measured to be 12.9 and 18.6 dB, respectively. The loss of the variable coupler was 0.21 dB. The measured coupling coefficient was explained quantitatively by the simulation. The proposed 1×3 switch was demonstrated by showing the infrared images of the switch outputs. The port isolation of the 1×3 switch was better than 11.3 dB."
+  },
+  {
+    "paper_id": "W2082515684",
+    "title": "Submicron silicon waveguide optical switch driven by microelectromechanical actuator",
+    "year": 2008,
+    "venue": "Applied Physics Letters",
+    "abstract": "A submicron silicon waveguide optical switch driven by a microelectromechanical actuator is fabricated. The switch is composed of single-mode silicon input and output waveguides and a movable waveguide suspended by silicon springs. Switching occurs when the air gap between input and output waveguides is closed by displacing the movable waveguide 540±20nm by an electrostatic comb actuator. The switch, fabricated on a silicon-on-insulator wafer, is monolithic, and active switching region is as small as about 40×60μm2. An extinction ratio of 15±2dB is experimentally obtained between switch off and on states at 1.55μm wavelength."
+  },
+  {
+    "paper_id": "W2088068353",
+    "title": "Ultra-compact 8 × 8 strictly-non-blocking Si-wire PILOSS switch",
+    "year": 2014,
+    "venue": "Optics Express",
+    "abstract": "We report on a path-independent insertion-loss (PILOSS) 8 × 8 matrix switch based on Si-wire waveguides, which has a record-small footprint of 3.5 × 2.4 mm2. The PILOSS switch consists of 64 thermooptic Mach-Zehnder (MZ) switches and 49 low-crosstalk intersections. Each of the MZ switches and intersections employs directional couplers, which enable the composition of a low loss PILOSS switch. We demonstrate successful switching of digital-coherent 43-Gbps QPSK signal."
+  }
+]

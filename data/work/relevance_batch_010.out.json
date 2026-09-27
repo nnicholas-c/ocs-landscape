@@ -1,0 +1,152 @@
+[
+  {
+    "record_key": "openalex:W2496209904",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Optical security and encryption roadmap, unrelated to circuit switching"
+  },
+  {
+    "record_key": "openalex:W2103979104",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Kirigami mesostructure assembly, materials science, unrelated"
+  },
+  {
+    "record_key": "openalex:W3123833583",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "3D microelectrode array for neural circuits, unrelated"
+  },
+  {
+    "record_key": "openalex:W4327858904",
+    "score": 2,
+    "adjacent_field": "silicon_photonics",
+    "reason": "Review of silicon photonic MEMS devices generally, not switch-focused"
+  },
+  {
+    "record_key": "openalex:W2994819244",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "3D bioprinting review, unrelated"
+  },
+  {
+    "record_key": "openalex:W2612686510",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Astronomical interferometry instrument, unrelated"
+  },
+  {
+    "record_key": "openalex:W2401218707",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Metasurface physics review, no switching application"
+  },
+  {
+    "record_key": "openalex:W2976859966",
+    "score": 2,
+    "adjacent_field": "silicon_photonics",
+    "reason": "MEMS tunable components review for photonic integrated circuits generally"
+  },
+  {
+    "record_key": "openalex:W2066696807",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Lithium microbattery manufacturing, unrelated; empty abstract"
+  },
+  {
+    "record_key": "openalex:W2037530588",
+    "score": 1,
+    "adjacent_field": "silicon_photonics",
+    "reason": "Electro-optic ferroelectric material on silicon, enabling material not a switch"
+  },
+  {
+    "record_key": "openalex:W3116813957",
+    "score": 1,
+    "adjacent_field": "mems_micromirror",
+    "reason": "MEMS scanning mirrors for OCT imaging, not circuit switching"
+  },
+  {
+    "record_key": "openalex:W2889032805",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Genome organization mapping method, unrelated"
+  },
+  {
+    "record_key": "openalex:W4389954216",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "MEMS pressure sensor review, unrelated"
+  },
+  {
+    "record_key": "openalex:W2143829622",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "3D facial expression recognition survey, unrelated; empty abstract"
+  },
+  {
+    "record_key": "openalex:W2227388478",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "3D-printed passive wireless sensors, unrelated"
+  },
+  {
+    "record_key": "openalex:W3031545202",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "MEMS actuators for biomedical applications, unrelated"
+  },
+  {
+    "record_key": "openalex:W4285711482",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Optical multiplexing techniques review (WDM/SDM/MDM), not switching"
+  },
+  {
+    "record_key": "openalex:W3126743042",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "3D bioprinting tissue models, unrelated"
+  },
+  {
+    "record_key": "openalex:W2787403570",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "3D printed responsive hydrogel, unrelated"
+  },
+  {
+    "record_key": "openalex:W2886279143",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Chiral metaphotonic nanostructures review, unrelated"
+  },
+  {
+    "record_key": "openalex:W2133627653",
+    "score": 1,
+    "adjacent_field": "mems_micromirror",
+    "reason": "MEMS scanning micromirrors for bio-imaging, not circuit switching"
+  },
+  {
+    "record_key": "openalex:W3112950318",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "3D bioprinting materials overview, unrelated"
+  },
+  {
+    "record_key": "openalex:W3158763067",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "3D printing in prosthetic dentistry, unrelated"
+  },
+  {
+    "record_key": "openalex:W2955888413",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Bioresorbable implantable pressure/temperature sensors, unrelated"
+  },
+  {
+    "record_key": "openalex:W4319780230",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "3D printed microfluidics review, unrelated"
+  }
+]

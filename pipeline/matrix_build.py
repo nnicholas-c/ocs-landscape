@@ -11,6 +11,8 @@ data/work/route_<route>.json or from the evidence_quote of a data/projects.csv r
 located by the anchors in the YAML. Several quotes are joined by " || ".
 academic_groups is counted from data/db/papers.sqlite and graphs/top_pis.csv, and
 companies is read from data/projects.csv. projects.csv row N is its Nth data row.
+Self-check: every number and every band name (C band, O band, ...) in a cell's
+value or note must appear in one of that cell's quotes.
 
 Safe to run twice: the CSV is fully rewritten.
 """
@@ -50,6 +52,13 @@ NUM_RE = re.compile(r"\d+(?:[.,]\d+)*")
 ID_RE = re.compile(r"W\d+|arxiv:[\d.]+|mems_[23]d|\b[23]D\b|\brows? \d+")
 SENT_START = re.compile(r"[.!?]\s+(?=[A-Z(])")
 SENT_END = re.compile(r"[.!?](?=\s+[A-Z(]|\s*$)")
+# Band names: "C band", "C-band", "C+L-band", "C- and L-band". Group 1 holds the band letters.
+BAND_RE = re.compile(r"\b([OESCLU](?:(?:\s*(?:[+/,-]|and|or))+\s*[OESCLU])*)[ -]?bands?\b")
+
+
+def bands(text):
+    """Band letters named in text, e.g. {"C", "L"} for "over the C+L-band"."""
+    return {b for m in BAND_RE.finditer(text) for b in re.findall(r"[OESCLU]", m.group(1))}
 
 
 def extract(text, anchors):
@@ -94,6 +103,9 @@ def spec_cell(route, dim, c, papers, projects):
     quoted = set(NUM_RE.findall(joined))
     for num in NUM_RE.findall(value + " " + ID_RE.sub(" ", note)):
         assert num in quoted, f"{route} {dim}: number {num} is in no quote"
+    # Same rule for band names (C band, O band, ...): each one in value or note must be named in a quote.
+    missing = bands(value + " " + note) - bands(joined)
+    assert not missing, f"{route} {dim}: band {sorted(missing)} is named in no quote"
     if dim in CATEGORIES:
         assert value in CATEGORIES[dim], f"{route} {dim}: {value!r} is not a controlled label"
         if dim == "integration":

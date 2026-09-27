@@ -1,0 +1,222 @@
+[
+  {
+    "paper_id": "W2996556490",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "confidence": "high",
+    "evidence_span": "Disaggregation enabled by silicon photonic switch fabrics is a path to low-cost and energy-efficient data centers."
+  },
+  {
+    "paper_id": "W4280617936",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": "silicon_photonics",
+    "confidence": "low",
+    "evidence_span": "A microcomb-based integrated photonic data link is demonstrated, based on a pulse-amplitude four-level modulation scheme with a two-terabit-per-second aggregate rate, and a highly reconfigurable microwave photonic filter with a high level of integration is constructed using a time-stretch approach."
+  },
+  {
+    "paper_id": "W2900750062",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "unclear",
+    "ai_dc_fit": "none",
+    "adjacent_field": "silicon_photonics",
+    "confidence": "low",
+    "evidence_span": "In this paper, a review of the recent progresses of the representative multimode silicon photonic devices and circuits is given."
+  },
+  {
+    "paper_id": "W2235174674",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "unclear",
+    "ai_dc_fit": "none",
+    "adjacent_field": "silicon_photonics",
+    "confidence": "low",
+    "evidence_span": "In this paper, we provide context to the development of quantum optics in silicon."
+  },
+  {
+    "paper_id": "W3130725666",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "unclear",
+    "ai_dc_fit": "none",
+    "adjacent_field": "silicon_photonics",
+    "confidence": "low",
+    "evidence_span": "In this review, we cover—from basic principles to the state of the art—the diverse aspects of integrated thin-film LN photonics, including the materials, basic passive components, and various active devices based on electro-optics, all-optical nonlinearities, and acousto-optics."
+  },
+  {
+    "paper_id": "W2571361994",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": "silicon_photonics",
+    "confidence": "low",
+    "evidence_span": "In this paper, we propose, theoretically analyze and experimentally demonstrate a simple scheme to realize ultracompact rejection ratio tunable notch microwave photonic filter (MPF) based on a silicon photonic crystal (PhC) nanocavity with fixed extinction ratio."
+  },
+  {
+    "paper_id": "W2774352386",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "unclear",
+    "ai_dc_fit": "none",
+    "adjacent_field": "silicon_photonics",
+    "confidence": "low",
+    "evidence_span": "In this review, we offer our perspective on the burgeoning field of mid‐IR integrated photonics on silicon."
+  },
+  {
+    "paper_id": "W2933780027",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "unclear",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": "silicon_photonics",
+    "confidence": "low",
+    "evidence_span": "Commercialization, so far, has focused on optical communication (Telecom [2] and data center [3]) and biosensing [4], with a wealth of future application areas, including high-performance computing [5], automotive (lidar) [6], optical switches [7], and artificial intelligence [8]."
+  },
+  {
+    "paper_id": "W2165260925",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "unclear",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": "silicon_photonics",
+    "confidence": "low",
+    "evidence_span": "Silicon photonics is anticipated to be a disruptive optical technology for data communications, with applications such as intra‐chip interconnects, short‐reach communications in datacenters and supercomputers, and long‐haul optical transmissions."
+  },
+  {
+    "paper_id": "W2909208749",
+    "tech_route": "mems_silicon_photonic",
+    "tech_route_secondary": "electro_optic",
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "confidence": "high",
+    "evidence_span": "In the last decade, silicon photonic switches are increasingly believed to be potential candidates for replacing the electrical switches in the applications of telecommunication networks, data center and high-throughput computing, due to their low power consumption (Picojoules per bit), large bandwidth (Terabits per second) and high-level integration (Square millimeters per port)."
+  },
+  {
+    "paper_id": "W1595003097",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "unclear",
+    "ai_dc_fit": "none",
+    "adjacent_field": "silicon_photonics",
+    "confidence": "low",
+    "evidence_span": "We focus here on the use of silicon photonics to create transmitters and receivers for fiber-optic telecommunications."
+  },
+  {
+    "paper_id": "W2901868604",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "unclear",
+    "ai_dc_fit": "none",
+    "adjacent_field": "silicon_photonics",
+    "confidence": "low",
+    "evidence_span": "The realization of gigahertz bandwidth modulators out of silicon-based technology in the early 2000s marked a cornerstone of silicon photonics development."
+  },
+  {
+    "paper_id": "W2905370602",
+    "tech_route": "other",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "confidence": "high",
+    "evidence_span": "Efficient integrated photonic switches play a critical role in both interchip optical interconnects and data center networks that need to be dynamically reconfigured."
+  },
+  {
+    "paper_id": "W2758404936",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": "silicon_photonics",
+    "confidence": "low",
+    "evidence_span": "We report the development of such a hardware synapse, implemented entirely in the optical domain via a photonic integrated-circuit approach."
+  },
+  {
+    "paper_id": "W4210305137",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "unclear",
+    "ai_dc_fit": "none",
+    "adjacent_field": "silicon_photonics",
+    "confidence": "low",
+    "evidence_span": "Photonic accelerators are designed to accelerate specific categories of computing in the optical domain, especially matrix multiplication, to address the growing demand for computing resources and capacity."
+  },
+  {
+    "paper_id": "W3159759503",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "unclear",
+    "ai_dc_fit": "none",
+    "adjacent_field": "silicon_photonics",
+    "confidence": "low",
+    "evidence_span": "Silicon photonics (SiPh), a photonic integrated circuit technology that leverages the fabrication sophistication of complementary metal-oxide-semiconductor technology, is well-positioned to deliver the performance, price, and manufacturing volume for the high-speed modulators of future optical communication links."
+  },
+  {
+    "paper_id": "W1990459252",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "unclear",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": "silicon_photonics",
+    "confidence": "low",
+    "evidence_span": "Silicon photonics is rapidly gaining maturity in high-bandwidth optical communication, with applications in datacom, access networks, and I/O for bandwidth-intensive electronics."
+  },
+  {
+    "paper_id": "W2226240249",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": "silicon_photonics",
+    "confidence": "low",
+    "evidence_span": "There is a rapidly growing demand to use silicon and silicon nitride (Si3N4) integrated photonics for sensing applications, ranging from refractive index to spectroscopic sensing."
+  },
+  {
+    "paper_id": "W2887956223",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "unclear",
+    "ai_dc_fit": "none",
+    "adjacent_field": "silicon_photonics",
+    "confidence": "low",
+    "evidence_span": "In this paper, we present a brief history of silicon photonics from the early research papers in the late 1980s and early 1990s, to the potentially revolutionary technology that exists today."
+  },
+  {
+    "paper_id": "W2883000198",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "unclear",
+    "ai_dc_fit": "none",
+    "adjacent_field": "silicon_photonics",
+    "confidence": "low",
+    "evidence_span": "On-chip silicon photonic signaling and processing: a review"
+  }
+]

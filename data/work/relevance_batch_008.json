@@ -1,0 +1,202 @@
+[
+  {
+    "record_key": "openalex:W2529948110",
+    "source": "openalex",
+    "title": "MEMS optical switch: Switching time reduction",
+    "year": 2016,
+    "venue": "Open Computer Science",
+    "abstract": "Abstract Existing 3D MEMS-based optical switches offer good optical properties (low insertion loss, low crosstalk), high reliability and low power consumption. These switches utilize highly reflective micro-mirrors to manipulate an optical signal inside the switch directly without any conversions. They are used to build dynamically reconfigurable, highly-scalable physical optical network layer. As indicated by the simulation results of this paper, many of existing micro-mirror designs do not have their dynamic characteristics well optimized and this limits the switching speed of the optical switch. In a 3DMEMS switch, the coupling between the mechanical structure (micro-mirror) and electrostatic field (electrodes) results in dynamic coupled rotation of the micro-mirror about its axes, known as the cross-axis coupling effect. The coupling nature of micro-mirror"
+  },
+  {
+    "record_key": "openalex:W3041044413",
+    "source": "openalex",
+    "title": "512 × 512 Port 3D MEMS Optical Switch Module with Toroidal Concave Mirror",
+    "year": 2012,
+    "venue": "NTT technical review",
+    "abstract": "We present a 52 × 52 MEMS (microelectromechanical system) optical switch module in a Wshaped layout with a toroidal concave mirror.The 52-array optical components are made by assembling four 28-array components.The concave mirror minimizes the tilt angle of the MEMS mirrors.All of the optical path connections were demonstrated in a prototype module."
+  },
+  {
+    "record_key": "openalex:W1977220786",
+    "source": "openalex",
+    "title": "A second order sliding mode strategy for fault detection and fault-tolerant-control of a MEMS optical switch",
+    "year": 2012,
+    "venue": "Mechatronics",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W4407948905",
+    "source": "openalex",
+    "title": "Highly Integrated MEMS Optical Switch: Multibody Coupling Mechanism",
+    "year": 2025,
+    "venue": "IEEE Transactions on Instrumentation and Measurement",
+    "abstract": "A micro-electromechanical system (MEMS) optical switch, notable for its compact size, precise control, and ease of integration, has emerged as a promising candidate for the safety and arming device (SAD) in laser ignition system (LIS). Integrating functional microstructures and realizing complex logic control functions for LIS safety and arming, however, necessitate a sophisticated multifield and multibody coupling design method. This study focuses on designing a highly integrated MEMS optical switch that incorporates multiple functional structures on a single silicon chip. The integration leverages the dynamic properties of microstructures under multiphysics coupling. A time-sequence matching control circuit is proposed to implement logical control functions such as sensing overload, arming, driving, laser on-off switching, and locking. Consequently, four moveable microstructures are integrated"
+  },
+  {
+    "record_key": "openalex:W2996949883",
+    "source": "openalex",
+    "title": "Open loop control theory algorithms for high-speed 3D MEMS optical switches",
+    "year": 2019,
+    "venue": "Optics Express",
+    "abstract": "There is a world-wide push to create the next-generation all-optical transmission and switching technologies for exascale data centers. In this paper we focus on the switching fabrics. Many different types of 2D architectures are being explored including MEMS/waveguides and semiconductor optical amplifiers. However, these tend to suffer from high, path-dependent losses and crosstalk issues. The technologies with the best optical properties demonstrated to date in large fabrics (>100 ports) are 3D MEMS beam steering approaches. These have low average insertion losses and, equally important, a narrow loss distribution. However, 3D MEMS fabrics are generally dismissed from serious consideration for this application because of their slow switching speeds (∼few milliseconds) and high costs ($100/port). In this paper we show how novel"
+  },
+  {
+    "record_key": "openalex:W2605844474",
+    "source": "openalex",
+    "title": "Diffraction-Based Optical Switching with MEMS",
+    "year": 2017,
+    "venue": "Applied Sciences",
+    "abstract": "We are presenting an overview of MEMS-based (Micro-Electro-Mechanical System) optical switch technology starting from the reflective two-dimensional (2D) and three-dimensional (3D) MEMS implementations. To further increase the speed of the MEMS from these devices, the mirror size needs to be reduced. Small mirror size prevents efficient reflection but favors a diffraction-based approach. Two implementations have been demonstrated, one using the Texas Instruments DLP (Digital Light Processing), and the other an LCoS-based (Liquid Crystal on Silicon) SLM (Spatial Light Modulator). These switches demonstrated the benefit of diffraction, by independently achieving high speed, efficiency, and high number of ports. We also demonstrated for the first time that PSK (Phase Shift Keying) modulation format can be used with diffraction-based devices. To be truly"
+  },
+  {
+    "record_key": "openalex:W2956148226",
+    "source": "openalex",
+    "title": "Translational MEMS Platform for Planar Optical Switching Fabrics",
+    "year": 2019,
+    "venue": "Micromachines",
+    "abstract": "While 3-D microelectromechanical systems (MEMS) allow switching between a large number of ports in optical telecommunication networks, the development of such systems often suffers from design, fabrication and packaging constraints due to the complex structures, the wafer bonding processes involved, and the tight alignment tolerances between different components. In this work, we present a 2-D translational MEMS platform capable of highly efficient planar optical switching through integration with silicon nitride (SiN) based optical waveguides. The discrete lateral displacement provided by simple parallel plate actuators on opposite sides of the central platform enables switching between different input and output waveguides. The proposed structure can displace the central platform by 3.37 µm in two directions at an actuation voltage of 65 V."
+  },
+  {
+    "record_key": "openalex:W2159513073",
+    "source": "openalex",
+    "title": "Optical MEMS: From Micromirrors to Complex Systems",
+    "year": 2014,
+    "venue": "Journal of Microelectromechanical Systems",
+    "abstract": "Microelectromechanical system (MEMS) technology, and surface micromachining in particular, have led to the development of miniaturized optical devices with a substantial impact in a large number of application areas. The reason is the unique MEMS characteristics that are advantageous in fabrication, systems integration, and operation of micro-optical systems. The precision mechanics of MEMS, microfabrication techniques, and optical functionality all make possible a wide variety of movable and tunable mirrors, lenses, filters, and other optical structures. In these systems, electrostatic, magnetic, thermal, and pneumatic actuators provide mechanical precision and control. The large number of electromagnetic modes that can be accommodated by beam-steering micromirrors and diffractive optical MEMS, combined with the precision of these types of elements, is utilized in fiber-optical switches"
+  },
+  {
+    "record_key": "openalex:W2978556994",
+    "source": "openalex",
+    "title": "Optical vortices 30 years on: OAM manipulation from topological charge to multiple singularities",
+    "year": 2019,
+    "venue": "Light Science & Applications",
+    "abstract": "Thirty years ago, Coullet et al. proposed that a special optical field exists in laser cavities bearing some analogy with the superfluid vortex. Since then, optical vortices have been widely studied, inspired by the hydrodynamics sharing similar mathematics. Akin to a fluid vortex with a central flow singularity, an optical vortex beam has a phase singularity with a certain topological charge, giving rise to a hollow intensity distribution. Such a beam with helical phase fronts and orbital angular momentum reveals a subtle connection between macroscopic physical optics and microscopic quantum optics. These amazing properties provide a new understanding of a wide range of optical and physical phenomena, including twisting photons, spin-orbital interactions, Bose-Einstein condensates, etc., while the associated technologies for"
+  },
+  {
+    "record_key": "openalex:W2795355622",
+    "source": "openalex",
+    "title": "MEMS technology in optical switching",
+    "year": 2017,
+    "venue": null,
+    "abstract": "All-optical switching fabrics based on the Micro-Electro-Mechanical Systems (MEMS) technology are now widely available on the market. This paper reviews working principles and architectures of MEMS-based optical switches from the past to the present day. During the last two decades, many approaches and actuating mechanisms emerged. In general, optical MEMS-based switches can employ movable micromirrors as basic switching element, or movable couplers (resonators). The switching speed can vary from less than to tens of ms. This paper briefly describes principles of all of these switches. Optical properties (insertion loss, crosstalk) and switching speed are also discussed."
+  },
+  {
+    "record_key": "openalex:W4403460664",
+    "source": "openalex",
+    "title": "A multi-channel AWG-based FBG interrogation system using a 1 × 4 MEMS optical switch",
+    "year": 2024,
+    "venue": "Optical Fiber Technology",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W2533885611",
+    "source": "openalex",
+    "title": "Design and application of MEMS optical switch array",
+    "year": 2016,
+    "venue": "Journal of Applied Optics",
+    "abstract": "针对如何缩短防空导弹系统反应时间的问题，设计了一种MEMS(micro electro mechanical system，微机电系统)光开关阵列，用于控制防空导弹系统各分系统模块之间的信号传输。该光开关阵列由8组双层静电梳齿结构的光开关组成，每组光开关均控制一个防空导弹系统子模块的通断。根据拉格朗日麦克斯韦方程，建立系统的机电动力学模型，确定质量、弹性系数、电容、气膜阻尼等主要参数。仿真结果表明：MEMS光开关的响应时间为0.627 ms，稳态位移为4.724 m，最大位移为6.801 m，将相同阶段的反应时间缩短为原先的1/4。由此可以得出结论：MEMS光开关阵列不仅缩短了防空导弹系统的反应时间，而且保证了系统的稳定性。"
+  },
+  {
+    "record_key": "openalex:W2047996703",
+    "source": "openalex",
+    "title": "Application of optimized Higher Order Sliding Mode control on MEMS optical switch",
+    "year": 2012,
+    "venue": null,
+    "abstract": "MEMS optical switches are used in optical networks in order to provide the desired bandwidth. This paper presents the results of an optimised Higher Order Sliding Mode (HOSM) position controller design. The algorithm requires time derivatives of the sliding variable. A Robust Exact Differentiator is used to estimate time derivatives of the sliding variable. A novel application of Particle Swarm Optimization (PSO) is introduced for optimal tuning of the HOSM controller. Robustness of the controller is investigated and the performance is compared with that obtained by a First Order Sliding Mode (FOSM) controller."
+  },
+  {
+    "record_key": "openalex:W1982681165",
+    "source": "openalex",
+    "title": "Large-scale silicon photonic switches with movable directional couplers",
+    "year": 2015,
+    "venue": "Optica",
+    "abstract": "Fast optical circuit switches (OCSs) with high port count offer reconfigurable bandwidth in optical networks and have the potential to significantly increase the performance and efficiency of modern datacenters. In this paper, we report on a new type of integrated OCS that combines silicon photonics with MEMS actuation. The switch is built on a 50 × 50 passive crossbar network with very low optical loss (0.04 dB/crossing). Efficient switching is achieved by a pair of directional couplers with moving waveguides and an actuation voltage of 14 V. 2500 MEMS-actuated directional coupler switches have been integrated with the crossbar network to form a strictly nonblocking 50 × 50 OCS on a 9 mm×9 mm chip. The measured switching time is 2.5"
+  },
+  {
+    "record_key": "openalex:W3139026969",
+    "source": "openalex",
+    "title": "A 1×20 MEMS mirror array with large scan angle and low driving voltage for optical wavelength-selective switches",
+    "year": 2021,
+    "venue": "Sensors and Actuators A Physical",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W2807234289",
+    "source": "openalex",
+    "title": "Photonic switching in high performance datacenters [Invited]",
+    "year": 2018,
+    "venue": "Optics Express",
+    "abstract": "Photonic switches are increasingly considered for insertion in high performance datacenter architectures to meet the growing performance demands of interconnection networks. We provide an overview of photonic switching technologies and develop an evaluation methodology for assessing their potential impact on datacenter performance. We begin with a review of three categories of optical switches, namely, free-space switches, III-V integrated switches and silicon integrated switches. The state-of-the-art of MEMS, LCOS, SOA, MZI and MRR switching technologies are covered, together with insights on their performance limitations and scalability considerations. The performance metrics that are required for optical switches to truly emerge in datacenters are discussed and summarized, with special focus on the switching time, cost, power consumption, scalability and optical power penalty. Furthermore,"
+  },
+  {
+    "record_key": "openalex:W2492727504",
+    "source": "openalex",
+    "title": "Design of MEMS Optical Switches",
+    "year": 2018,
+    "venue": null,
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W2253702363",
+    "source": "openalex",
+    "title": "Enantiomeric switching of chiral metamaterial for terahertz polarization modulation employing vertically deformable MEMS spirals",
+    "year": 2015,
+    "venue": "Nature Communications",
+    "abstract": "Active modulation of the polarization states of terahertz light is indispensable for polarization-sensitive spectroscopy, having important applications such as non-contact Hall measurements, vibrational circular dichroism measurements and anisotropy imaging. In the terahertz region, the lack of a polarization modulator similar to a photoelastic modulator in the visible range hampers expansion of such spectroscopy. A terahertz chiral metamaterial has a huge optical activity unavailable in nature; nevertheless, its modulation is still challenging. Here we demonstrate a handedness-switchable chiral metamaterial for polarization modulation employing vertically deformable Micro Electro Mechanical Systems. Vertical deformation of a planar spiral by a pneumatic force creates a three-dimensional spiral. Enantiomeric switching is realized by selecting the deformation direction, where the polarity of the optical activity is altered"
+  },
+  {
+    "record_key": "openalex:W4408995512",
+    "source": "openalex",
+    "title": "A Micromechanical Wide-Range Stiffness-Tuning Mechanism for MEMS Optical Switches",
+    "year": 2025,
+    "venue": "Micromachines",
+    "abstract": "MEMS stiffness-tunable devices, owing to their low resonant frequency and high sensitivity, have been widely adopted in fields such as biological force sensing, vibration sensing, and inertial sensing. However, traditional stress-effect-based stiffness-adjustment methods offer limited tuning range. This paper introduces a novel stiffness-tuning mechanism based on the principle of stiffness compensation, integrating positive stiffness springs with V-shaped negative stiffness springs in a parallel configuration. A self-locking mechanism enables precise control of the mechanical preloading on the negative stiffness structures to realize stiffness adjustment. This design is prototyped by microscale fabrication techniques and is suitable for miniaturization. The experimental results confirm a stiffness reduction of over 90% and demonstrate bistability. These findings highlight the potential of the design for high-sensitivity MEMS"
+  },
+  {
+    "record_key": "openalex:W4284963505",
+    "source": "openalex",
+    "title": "MEMS‐based Optical Switches",
+    "year": 2022,
+    "venue": null,
+    "abstract": "The constant demand for mobility, interconnectivity, and bandwidth made it mandatory for the rapid expansion and upgradation of optical fiber-based telecommunication infrastructure across the globe. To support the increasing demand for speed and bandwidth, optical subsystems such as all-optical switches have become very important components. Among various possible optical subsystems, MEMS-based optical devices capable of integrating mechanical, electrical, and optical components on a single wafer are performing a number of strategic optical-network functions in a compact and low-cost form. A brief discussion of MEMS-based optical switch technology, fabrication process, switch architectures, actuation mechanism, switch parameters, and related reliability challenges is presented in this chapter. Understanding of these key issues will help in successful development and commercialization of MEMS-based optical switches."
+  },
+  {
+    "record_key": "openalex:W3103527158",
+    "source": "openalex",
+    "title": "Integrating MEMS and ICs",
+    "year": 2015,
+    "venue": "Microsystems & Nanoengineering",
+    "abstract": "The majority of microelectromechanical system (MEMS) devices must be combined with integrated circuits (ICs) for operation in larger electronic systems. While MEMS transducers sense or control physical, optical or chemical quantities, ICs typically provide functionalities related to the signals of these transducers, such as analog-to-digital conversion, amplification, filtering and information processing as well as communication between the MEMS transducer and the outside world. Thus, the vast majority of commercial MEMS products, such as accelerometers, gyroscopes and micro-mirror arrays, are integrated and packaged together with ICs. There are a variety of possible methods of integrating and packaging MEMS and IC components, and the technology of choice strongly depends on the device, the field of application and the commercial requirements. In this"
+  },
+  {
+    "record_key": "openalex:W1561374189",
+    "source": "openalex",
+    "title": "MEMS Technology for Optical Switching",
+    "year": 2012,
+    "venue": "DOAJ (DOAJ: Directory of Open Access Journals)",
+    "abstract": "Over the last ten years, microelectromechanical systems (MEMS) devices have received attention in many application areas such microwave, wireless, and optical networks. Especially in optical networks, MEMS technology is employed to provide the advantages of large switch matrix size with low loss at an optimum cost [1,2]. Therefore, optical switches based MEMS technology are now widely used and are considered a good option for optical switching networks. Moreover, they also provide wavelength insensitivity, polarization insensitivity, scalability, and very low crosstalk [3-5]. MEMS optical switches provide fast switching speeds ranging from milliseconds to several hundred microseconds. In this article, MEMS-based optical switches are reviewed including their advantages and disadvantages."
+  },
+  {
+    "record_key": "openalex:W3017763864",
+    "source": "openalex",
+    "title": "MEMS Mirrors for LiDAR: A Review",
+    "year": 2020,
+    "venue": "Micromachines",
+    "abstract": "In recent years, Light Detection and Ranging (LiDAR) has been drawing extensive attention both in academia and industry because of the increasing demand for autonomous vehicles. LiDAR is believed to be the crucial sensor for autonomous driving and flying, as it can provide high-density point clouds with accurate three-dimensional information. This review presents an extensive overview of Microelectronechanical Systems (MEMS) scanning mirrors specifically for applications in LiDAR systems. MEMS mirror-based laser scanners have unrivalled advantages in terms of size, speed and cost over other types of laser scanners, making them ideal for LiDAR in a wide range of applications. A figure of merit (FoM) is defined for MEMS mirrors in LiDAR scanners in terms of aperture size, field of view"
+  },
+  {
+    "record_key": "openalex:W4387805823",
+    "source": "openalex",
+    "title": "Hybrid MEMS Actuator With 3 Degrees-of- Freedom for Efficient Planar Optical Switching",
+    "year": 2023,
+    "venue": "Journal of Microelectromechanical Systems",
+    "abstract": "This work demonstrates a hybrid MEMS actuator platform that combines electrostatic and piezoelectric actuators to displace a suspended MEMS platform along 3 degrees-of-freedom (DOF). The prototype MEMS actuator tested produces maximum displacements of$8.8 \\mu \\text{m}$along the positive X-axis, and$8.5 \\mu \\text{m}$along the negative X-axis, with digital control. Analog control produces maximum displacements of$5.9 \\mu \\text{m}$along the positive X-axis, and$5.8 \\mu \\text{m}$along the negative X-axis. It can also provide$2.2 \\mu \\text{m}$of in-plane displacement along the negative Y-axis with analog control. The electrostatic actuator used for displacement along the negative Y-axis also compensates for any out-of-plane misalignment between the suspended MEMS platform and fixed silicon due to the significant residual stress caused by deposited piezoelectric material layers. In addition, up to 550"
+  },
+  {
+    "record_key": "openalex:W4385800727",
+    "source": "openalex",
+    "title": "Nonvolatile Silicon MEMS Optical Switch Based on Bistable Mechanical Beams",
+    "year": 2023,
+    "venue": null,
+    "abstract": "We have proposed and implemented a $2 \\times 2$ nonvolatile silicon MEMS optical switch based on bistable mechanical beams driven by electrostatic comb actuators, which is fully compatible with standard silicon photonics foundry processes."
+  }
+]

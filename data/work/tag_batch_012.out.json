@@ -1,0 +1,222 @@
+[
+  {
+    "paper_id": "W4224325468",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": null,
+    "evidence_span": "Here we design, fabricate, and demonstrate a Pockels modulator in silicon carbide.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W3094065577",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "none",
+    "adjacent_field": "silicon_photonics",
+    "evidence_span": "This paper provides a system perspective and reviews recent progress in silicon photonics probing all dimensions of light to scale the capacity of fiber‐optic networks toward terabits‐per‐second per optical interface and petabits‐per‐second per transmission link.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W4297053117",
+    "tech_route": "thermo_optic",
+    "tech_route_secondary": "electro_optic",
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "The connection set-up latency of around 20 µs is verified within a floor (200 m) using our recently developed silicon photonic switch and tunable filter devices.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W2062054310",
+    "tech_route": "soa",
+    "tech_route_secondary": "electro_optic",
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "evidence_span": "For what we believe is the first time, the feasibility of large-port-count nanosecond-reconfiguration-time optical switches is demonstrated using a hybrid approach, where Mach-Zehnder interferometric (MZI) switches provide low-loss, high-speed routing with short semiconductor optical amplifiers (SOAs) being integrated to enhance extinction.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W2039715757",
+    "tech_route": "thermo_optic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "evidence_span": "Switching is implemented with thermo-optic tuning to give 100-GHz passbands and stopbands.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W2786500500",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "unclear",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "Recent developments in waveguided 2 × 2 and N × M photonic switches are reviewed, including both broadband and narrowband resonant devices for the Si, InP, and AlN platforms.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W4308917780",
+    "tech_route": "thermo_optic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "evidence_span": "We demonstrate a polarization-insensitive 2 × 2 thermo-optic switch on a 220-nm silicon-on-insulator platform.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W2889030337",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "evidence_span": "We fabricate a 32 × 32 silicon photonics switch on a 300-mm silicon-on-insulator wafer by using our complementary metal-oxide-semiconductor pilot line equipped with an immersion ArF scanner and demonstrate an average fiber-to-fiber insertion loss of 10.8 dB with a standard deviation of 0.54 dB, and on-chip electric power consumption of 1.9 W.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2974096969",
+    "tech_route": "thermo_optic",
+    "tech_route_secondary": "electro_optic",
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "evidence_span": "We experimentally demonstrate an integrated strictly non-blocking silicon 4 × 4 optical switch chip that can be operated in both thermo-optic (TO) and electro-optic (EO) switching modes.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W2024436451",
+    "tech_route": "other",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "We propose a highly scalable switch architecture suitable for client-side cross-connect switches in reconfigurable optical add/drop multiplexers and optical switching in data centers.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W2968922880",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "evidence_span": "We review the research progress of strictly nonblocking optical switches based on silicon photonics.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W4298339091",
+    "tech_route": "thermo_optic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "This paper discusses how to create a high-radix, fast optical switch for disaggregated computing applications.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W2797687360",
+    "tech_route": "thermo_optic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": null,
+    "evidence_span": "In this paper we demonstrate a non‐blocking six‐port optical switch for cluster‐mesh photonic network‐on‐chip.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W2575526897",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "In this work, we demonstrate 1×8 and 8×1 microring-based silicon photonic switch building blocks with software control, providing the feasibility of a full 8×8 architecture composed of silicon photonic building blocks.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W3094530140",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "evidence_span": "We propose and demonstrate a port-alternated switch-and-select architecture for planar waveguide-based optical switches.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W4378650891",
+    "tech_route": "thermo_optic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "The optical switch chip incorporates 1984 broadband thermo‐optic Mach‐Zehnder interferometer (MZI)‐based switch elements, 246 016 three‐dimensional (3D) waveguide crossings, and 2048 interlayer couplers.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W2327284773",
+    "tech_route": "thermo_optic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "evidence_span": "Automatic reconfiguration and feedback controlled routing is demonstrated in an$8 \\times 8$silicon photonic switch fabric based on Mach–Zehnder interferometers.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W4394954660",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "evidence_span": "Their potential applications range from phased arrays and optical switching to their use in environmental sensing and metrology, optical imaging systems, and neuromorphic systems in light-sensitive artificial synapses.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W4293078036",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "none",
+    "adjacent_field": null,
+    "evidence_span": "Lithium niobate (LN) has experienced significant developments during past decades due to its versatile properties, especially its large electro-optic (EO) coefficient.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2591111335",
+    "tech_route": "mems_silicon_photonic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "Fast optical-circuit-switches (OCS) having a large number of ports can significantly enhance the performance and the efficiency of modern data centers by actively rearranging network patterns.",
+    "confidence": "high"
+  }
+]

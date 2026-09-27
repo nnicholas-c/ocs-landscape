@@ -1,0 +1,202 @@
+[
+  {
+    "record_key": "openalex:W1997416642",
+    "source": "openalex_snowball",
+    "title": "Silicon photonics integrated circuits: a manufacturing platform for high density, low power optical I/O’s",
+    "year": 2015,
+    "venue": "Optics Express",
+    "abstract": "Silicon photonics integrated circuits are considered to enable future computing systems with optical input-outputs co-packaged with CMOS chips to circumvent the limitations of electrical interfaces. In this paper we present the recent progress made to enable dense multiplexing by exploiting the integration advantage of silicon photonics integrated circuits. We also discuss the manufacturability of such circuits, a key factor for a wide adoption of this technology."
+  },
+  {
+    "record_key": "openalex:W2002341618",
+    "source": "openalex_snowball",
+    "title": "Silicon Photonic Switches Hybrid-Integrated With CMOS Drivers",
+    "year": 2011,
+    "venue": "IEEE Journal of Solid-State Circuits",
+    "abstract": "This paper describes the design and measured performance of three different silicon photonic switches: a 2×2 switch, a 1×2 switch, and a 4×4 switch. All of the devices have been hybrid integrated with a corresponding custom 90-nm CMOS driver. The 2×2 switch is based on a wavelength-insensitive Mach-Zehnder interferometer (WIMZ) and the 1×2 is based on a two-ring resonator. The power dissipation of the 2×2 WIMZ switch was 2 mW from a 1.0-V supply, with measured transition time of 3.9 ns. The 4×4 switch, composed of six 2×2 Mach-Zehnder interferometer (MZI) switches was demonstrated to route 3×40 Gb/s WDM data with BER-12, with less than -10-dB crosstalk and 7-dB loss."
+  },
+  {
+    "record_key": "openalex:W2015534895",
+    "source": "openalex_snowball",
+    "title": "Non-Blocking 4x4 Electro-Optic Silicon Switch for On-Chip Photonic Networks",
+    "year": 2010,
+    "venue": "Optics Express",
+    "abstract": "We present a 4x4 spatially non-blocking Mach-Zehnder based silicon optical switch fabricated using processes fully compatible with standard CMOS. We successfully demonstrate operation in all 9 unique switch states and 12 possible I/O routing configurations, with worst-case cross-talk levels lower than -9 dB, and common spectral bandwidth of 7 nm. High-speed 40 Gbps data transmission experiments verify optical data integrity for all input-output channels."
+  },
+  {
+    "record_key": "openalex:W2019883289",
+    "source": "openalex_snowball",
+    "title": "Silicon optical modulators",
+    "year": 2010,
+    "venue": "Nature Photonics",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W2024271185",
+    "source": "openalex_snowball",
+    "title": "Efficient fiber-optical interface for nanophotonic devices",
+    "year": 2015,
+    "venue": "Optica",
+    "abstract": "We demonstrate a method for efficient coupling of guided light from a single-mode optical fiber to nanophotonic devices. Our approach makes use of single-sided conical tapered optical fibers that are evanescently coupled over the last ~10 μm to a nanophotonic waveguide. By means of adiabatic mode transfer using a properly chosen taper, single-mode fiber-waveguide coupling efficiencies as high as 97(1)% are achieved. Efficient coupling is obtained for a wide range of device geometries, which are either singly clamped on a chip or attached to the fiber, demonstrating a promising approach for integrated nanophotonic circuits, and quantum optical and nanoscale sensing applications."
+  },
+  {
+    "record_key": "openalex:W2049132385",
+    "source": "openalex_snowball",
+    "title": "High-throughput silicon nanophotonic wavelength-insensitive switch for on-chip optical networks",
+    "year": 2008,
+    "venue": "Nature Photonics",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W2063697229",
+    "source": "openalex_snowball",
+    "title": "Compact, low-loss and low-power 8×8 broadband silicon optical switch",
+    "year": 2012,
+    "venue": "Optics Express",
+    "abstract": "We demonstrated a 8×8 broadband optical switch on silicon for transverse-electrical polarization using a switch-and-selector architecture. The switch has a footprint of only 8 mm × 8 mm, minimum on-chip loss of about 4 dB, and a port-to-port insertion loss variation of only 0.8 dB near some spectral regions. The port-to-port isolation is above 30 dB over the entire 80-nm-wide spectral range or above 45 dB near the central 30 nm. We also demonstrated a switching power of less than 1.5 mW per element and a speed of 2 kHz, and estimated the upper bound of total power consumption to be less than 70 mW even without optimization of the default state of the individual switch elements."
+  },
+  {
+    "record_key": "openalex:W2069766991",
+    "source": "openalex_snowball",
+    "title": "The commercialization of silicon photonics",
+    "year": 2014,
+    "venue": "Nature Photonics",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W2070348829",
+    "source": "openalex_snowball",
+    "title": "Energy-efficient communication",
+    "year": 2011,
+    "venue": "Nature Photonics",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W2070900489",
+    "source": "openalex_snowball",
+    "title": "Monolithic Silicon Integration of Scaled Photonic Switch Fabrics, CMOS Logic, and Device Driver Circuits",
+    "year": 2013,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "We demonstrate 4 × 4 and 8 × 8 switch fabrics in multistage topologies based on 2 × 2 Mach–Zehnder interferometer switching elements. These fabrics are integrated onto a single chip with digital CMOS logic, device drivers, thermo-optic phase tuners, and electro-optic phase modulators using IBM's 90 nm silicon integrated nanophotonics technology. We show that the various switch-and-driver systems are capable of delivering nanosecond-scale reconfiguration times, low crosstalk, compact footprints, low power dissipations, and broad spectral bandwidths. Moreover, we validate the dynamic reconfigurability of the switch fabric changing the state of the fabric using time slots with sub-100-ns durations. We further verify the integrity of high-speed data transfers under such dynamic operation. This chip-scale switching system technology may provide a"
+  },
+  {
+    "record_key": "openalex:W1236737278",
+    "source": "openalex_snowball",
+    "title": "Finding a needle in Haystack: facebook's photo storage",
+    "year": 2010,
+    "venue": null,
+    "abstract": "Abstract: This paper describes Haystack, an object storage system optimized for Facebook’s Photos application. Facebook currently stores over 260 billion images, which translates to over 20 petabytes of data. Users upload one billion new photos (∼60 terabytes) each week and Facebook serves over one million images per second at peak. Haystack provides a less expensive and higher performing solution than our previous approach, which leveraged network attached storage appliances over NFS. Our key observation is that this traditional design incurs an excessive number of disk operations because of metadata lookups. We carefully reduce this per photo metadata so that Haystack storage machines can perform all metadata lookups in main memory. This choice conserves disk operations for reading actual data and"
+  },
+  {
+    "record_key": "openalex:W1588462524",
+    "source": "openalex_snowball",
+    "title": "Optical burst switching (OBS) - a new paradigm for an optical Internet",
+    "year": 1999,
+    "venue": null,
+    "abstract": "To support bursty traffic on the Internet (and especially WWW) efficiently, optical burst switching (OBS) is proposed as a way to streamline both protocol and hardware in building the future generation Optical Internet. By leveraging the attractive properties of optical communications and at the same time, taking into account its limitations, OBS combines the best of optical circuitswitching and packet/cell switching. In this paper, the general concept of OBS protocols and in particular, those based on Just-Enough-Time (JET), is described, along with the applicability of OBS protocols to IP over WDM. Specific issues such as the use of fiber delay-lines (FDL) for accommodating processing delay and/or resolving conflicts are also discussed. In addition, the performance of JET-based OBS protocols which"
+  },
+  {
+    "record_key": "openalex:W1990283121",
+    "source": "openalex_snowball",
+    "title": "A Relationship Between Arbitrary Positive Matrices and Doubly Stochastic Matrices",
+    "year": 1964,
+    "venue": "The Annals of Mathematical Statistics",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W2115874523",
+    "source": "openalex_snowball",
+    "title": "Wavelength add-drop switching using tilting micromirrors",
+    "year": 1999,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "This paper describes a single-mode optical fiber switch which routes individual signals into and out of a wavelength multiplexed data stream without interrupting the remaining channels. The switch uses free-space optical wavelength multiplexing and a column of micromechanical tilt-mirrors to switch 16 channels at 200 GHz spacing from 1531 to 1556 nm. The electrostatically actuated tilt mirrors use an 80 V peak-to-peak 300 KHz sinusoidal drive signal to switch between /spl plusmn/10/spl deg/ with a 20 /spl mu/s response. The total fiber-to-fiber insertion loss for the packaged switch is 5 dB for the passed signals and 8 dB for added and dropped signals, with 0.2 dB polarization dependence. Switching contrast was 30 dB or more for all 16 channels and"
+  },
+  {
+    "record_key": "openalex:W2120655454",
+    "source": "openalex_snowball",
+    "title": "High-performance multi-queue buffers for VLSI communications switches",
+    "year": 1988,
+    "venue": "ACM SIGARCH Computer Architecture News",
+    "abstract": "Small n x n switches are key components of multistage interconnection networks used in multiprocessors as well as in the communication coprocessors used in multicomputers. The design of the internal buffers in these switches is of critical importance for achieving high throughput low latency communication. We discuss several buffer structures and compare them in terms of implementation complexity and their ability to deal with variations in traffic patterns and message lengths. We present a new design of buffers that provide non-FIFO message handling and efficient storage allocation for variable size packets through the use of linked lists managed by a simple on-chip controller. We evaluate the new buffer design by comparing it to several alternative designs in the context of"
+  },
+  {
+    "record_key": "openalex:W2141911769",
+    "source": "openalex_snowball",
+    "title": "Hunting mice with microsecond circuit switches",
+    "year": 2012,
+    "venue": null,
+    "abstract": "Recently, there have been proposals for constructing hybrid data center networks combining electronic packet switching with either wireless or optical circuit switching, which are ideally suited for supporting bulk traffic. Previous work has relied on a technique called hotspot scheduling, in which the traffic matrix is measured, hotspots identified, and circuits established to automatically offload traffic from the packet-switched network. While this hybrid approach does reduce CAPEX and OPEX, it still relies on having a well-provisioned packet-switched network to carry the remaining traffic. In this paper, we describe a generalization of hotspot scheduling, called traffic matrix scheduling, where most or even all bulk traffic is routed over circuits. In other words, we don't just hunt elephants, we also hunt mice."
+  },
+  {
+    "record_key": "openalex:W2145192475",
+    "source": "openalex_snowball",
+    "title": "Perfect matchings in o( n log n ) time in regular bipartite graphs",
+    "year": 2010,
+    "venue": null,
+    "abstract": "In this paper we consider the well-studied problem of finding a perfect matching in a d-regular bipartite graph on 2n nodes with m=nd edges. The best-known algorithm for general bipartite graphs (due to Hopcroft and Karp) takes time O(m√n). In regular bipartite graphs, however, a matching is known to be computable in O(m) time (due to Cole, Ost, and Schirra). In a recent line of work by Goel, Kapralov, and Khanna the O(m) time bound was improved first to ~ O(min m, n2.5/d) and then to ~O(min {m, n2/d\\})."
+  },
+  {
+    "record_key": "openalex:W2147118406",
+    "source": "openalex_snowball",
+    "title": "OpenFlow",
+    "year": 2008,
+    "venue": "ACM SIGCOMM Computer Communication Review",
+    "abstract": "This whitepaper proposes OpenFlow: a way for researchers to run experimental protocols in the networks they use every day. OpenFlow is based on an Ethernet switch, with an internal flow-table, and a standardized interface to add and remove flow entries. Our goal is to encourage networking vendors to add OpenFlow to their switch products for deployment in college campus backbones and wiring closets. We believe that OpenFlow is a pragmatic compromise: on one hand, it allows researchers to run experiments on heterogeneous switches in a uniform way at line-rate and with high port-density; while on the other hand, vendors do not need to expose the internal workings of their switches. In addition to allowing researchers to evaluate their ideas in"
+  },
+  {
+    "record_key": "openalex:W2148147078",
+    "source": "openalex_snowball",
+    "title": "Practical TDMA for datacenter ethernet",
+    "year": 2012,
+    "venue": null,
+    "abstract": "Cloud computing is placing increasingly stringent demands on datacenter networks. Applications like MapReduce and Hadoop demand high bisection bandwidth to support their all-to-all shuffle communication phases. Conversely, Web services often rely on deep chains of relatively lightweight RPCs. While HPC vendors market niche hardware solutions, current approaches to providing high-bandwidth and low-latency communication in the datacenter exhibit significant inefficiencies on commodity Ethernet hardware."
+  },
+  {
+    "record_key": "openalex:W2151023321",
+    "source": "openalex_snowball",
+    "title": "Wavelength-Selective Switches for ROADM Applications",
+    "year": 2010,
+    "venue": "IEEE Journal of Selected Topics in Quantum Electronics",
+    "abstract": "The trends, architecture, and performance of wavelength-selective switches (WSS) are analyzed in the context of their application to reconfigurable optical add/drop multiplexer (ROADM)-based optical networks. The resulting analyses define the requirements for the latest generation of ROADM systems and provide insight into the critical specifications of this technology. In addition, the current trends for WSS technology are reviewed in the context of synergies with the strengths of different switching technologies."
+  },
+  {
+    "record_key": "openalex:W2159536473",
+    "source": "openalex_snowball",
+    "title": "The MONET project-a final report",
+    "year": 2000,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "The MONET project ended in November 1999. Over the five year duration of this project, many significant advances were made in optical networking architectures, components, subsystems, systems, and network demonstrations. In this paper, we report on the major accomplishment of the last year of the MONET project, which was the completion and operation of a transparent, reconfigurable optical network in Washington, DC. This paper describes the network and summarizes experimental results achieved in the first months of operation."
+  },
+  {
+    "record_key": "openalex:W2165334967",
+    "source": "openalex_snowball",
+    "title": "Terabit Burst Switching",
+    "year": 1997,
+    "venue": "Open Scholarship Institutional Repository (Washington University in St. Louis)",
+    "abstract": "Demand for network bandwidth is growing at unprecedented rates, placing growing demands on switching and transmission technologies. Wavelength division multiplexing will soon make it possible to combine hundreds of gigabit channels on a single fiber. This paper presents an architecture for Burst Switching Systems designed to switch data among WDM links, treating each link as a shared resource rather than just a collection of independent channels. The proposed network architecture separates burst level data and control, allowing major simplifications in the data path in order to facilitate all-optical implementations. To handle short data bursts efficiently, the burst level control mechanisms in burst switching systems must keep track of future resource availability when assigning arriving data bursts to channels or storage"
+  },
+  {
+    "record_key": "openalex:W2462988532",
+    "source": "openalex_snowball",
+    "title": "Scalability vs. Fault Tolerance in Aspen Trees",
+    "year": 2013,
+    "venue": null,
+    "abstract": "Fault recovery is a key issue in modern data centers. In a fat tree topology, a single link failure can disconnect a set of end hosts from the rest of the network until updated routing information propagates to every network element in the topology. The time for re-convergence can be substantial, leaving hosts disconnected for long periods of time and significantly reducing the overall availability of the data center. Moreover, the message overhead of sending updated routing information to the entire topology may be unacceptable at scale. We present techniques to modify hierarchical data center topologies to enable switches to react to failures locally, thus reducing both the convergence time and the control overhead of failure recovery. We find that"
+  },
+  {
+    "record_key": "openalex:W2493312408",
+    "source": "openalex_snowball",
+    "title": "1. A Certain Zero-sum Two-person Game Equivalent to the Optimal Assignment Problem",
+    "year": 1953,
+    "venue": "Princeton University Press eBooks",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W4238465620",
+    "source": "openalex_snowball",
+    "title": "A scalable, commodity data center network architecture",
+    "year": 2008,
+    "venue": null,
+    "abstract": "Today's data centers may contain tens of thousands of computers with significant aggregate bandwidth requirements. The network architecture typically consists of a tree of routing and switching elements with progressively more specialized and expensive equipment moving up the network hierarchy. Unfortunately, even when deploying the highest-end IP switches/routers, resulting topologies may only support 50% of the aggregate bandwidth available at the edge of the network, while still incurring tremendous cost. Non-uniform bandwidth among data center nodes complicates application design and limits overall system performance."
+  }
+]

@@ -1,0 +1,202 @@
+[
+  {
+    "record_key": "openalex:W3209285728",
+    "source": "openalex",
+    "title": "33.4: Hybrid Phase Modulation for Low Crosstalk LCOS Based Wavelength Selective Switch",
+    "year": 2021,
+    "venue": "SID Symposium Digest of Technical Papers",
+    "abstract": "A hybrid phase modulation of liquid crystal on silicon (LCOS) was proposed to optimize the crosstalk and diffraction efficiency of the ports with different deflection angle of wavelength selective switch(WSS). With phase profile of high phase depth, the ports of small deflection angle may achieve high diffraction efficiency and low crosstalk. And the ports of large deflection angle may achieve low crosstalk and relative high diffraction efficiency with phase profile of low phase depth. The hybrid phase modulation shows the great potential application of multi‐port WSS."
+  },
+  {
+    "record_key": "openalex:W2512219930",
+    "source": "openalex",
+    "title": "Application of Waveguide/Free-Space Optics Hybrid to ROADM Device",
+    "year": 2016,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "As optical networks have evolved from point-to-point systems to ring or mesh networks, the optical devices that are needed to construct optical nodes have become more important and need to be more scalable. Hybridization of waveguide and free-space optics, or spatial and planar optical circuits (SPOCs), may provide the solutions for such needs. An SPOC platform is attractive because it can take advantage of both waveguide technology and free-space optics. Waveguide technology provides a high degree of integration of optical functionality for devices such as splitters and non-wavelength selective switches while free-space optics supplies a high degree of parallelism with two-dimensional spatial light modulators such as a liquid crystal on silicon (LCOS) devices. In this paper, we summarize the basics"
+  },
+  {
+    "record_key": "openalex:W2901721529",
+    "source": "openalex",
+    "title": "Pursuing High Quality Phase-Only Liquid Crystal on Silicon (LCoS) Devices",
+    "year": 2018,
+    "venue": "Applied Sciences",
+    "abstract": "Fine pixel size and high-resolution liquid crystal on silicon (LCoS) backplanes have been developed by various companies and research groups since 1973. The development of LCoS is not only beneficial for full high definition displays but also to spatial light modulation. The high-quality and well-calibrated panels can project computer generated hologram (CGH) designs faithfully for phase-only holography, which can be widely utilized in 2D/3D holographic video projectors and components for optical telecommunications. As a result, we start by summarizing the current status of high-resolution panels, followed by addressing issues related to the driving frequency (i.e., liquid crystal response time and hardware interface). LCoS panel qualities were evaluated based on the following four characteristics: phase linearity control, phase precision, phase stability,"
+  },
+  {
+    "record_key": "openalex:W2607270186",
+    "source": "openalex",
+    "title": "Low-Cost CDC ROADM Architecture Based on Stacked Wavelength Selective Switches",
+    "year": 2017,
+    "venue": "Journal of Optical Communications and Networking",
+    "abstract": "A highly flexible, stacked, switch module is proposed, wherein multiple independent 1×N wavelength selective switches (WSSs) can be realized on a single 4k liquid crystal on silicon device. The stacked WSS module can be configured in different ways for application at either the transit side or the add/drop side of a colorless, directionless, and contentionless (CDC) reconfigurable optical add/drop multiplexer (ROADM). Two ROADM architectures are proposed based on the stacked WSS modules. Their costs are analyzed for both a 4-deg network node and a larger 8-deg node. The first proposed ROADM architecture with full CDC features is shown to realize a cost reduction of at least 35% in these two test network nodes, when compared with the conventional CDC ROADM"
+  },
+  {
+    "record_key": "openalex:W2314547817",
+    "source": "openalex",
+    "title": "Wavelength Selective Switch with Optimal Steering Element Utilization",
+    "year": 2016,
+    "venue": null,
+    "abstract": "We implement a free-space unitary transform inside a wavelength selective switch to produce rectangular shaped beams on the LCoS steering element. Compared to standard Gaussian illumination, the WSS can support 2× as many ports per pixel."
+  },
+  {
+    "record_key": "openalex:W2116218065",
+    "source": "openalex",
+    "title": "All-Optical OFDM With Cyclic Prefix Insertion Using Flexible Wavelength Selective Switch Optical Processing",
+    "year": 2014,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "We demonstrate that the optical Fourier transform and cyclic prefix in an all-optical OFDM transmitter can be simultaneously implemented using a liquid crystal on silicon wavelength selective switch (WSS). The design uses phase-modulated optical pulses at the inputs of the WSS; this has the advantage that the optical modulators are only sampled by the optical pulses once per data-symbol, so that the transition times between the data symbols are irrelevant to the performance of the system, allowing slow optical modulators to be used. Furthermore, each input of the WSS can be assigned to any combination of output subcarrier frequencies, including frequencies unrelated to the modal frequencies of the comb source. This is especially useful for testing in-service ultra-high bandwidth systems"
+  },
+  {
+    "record_key": "openalex:W4225941096",
+    "source": "openalex",
+    "title": "Challenges and Enabling Technologies for Multi-Band WDM Optical Networks",
+    "year": 2022,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "The ever increasing capacity demand on optical networks and the slowdown of improving spectral efficiency lead to the solution of utilizing more wavelength band in existing optical fibers. More and more operators will extend from C band to C+L bands, or plan to deploy C+L systems, and in future they may utilize more of other bands. This paper firstly discusses different optical layer architectures for multi-band system. Using optical components that can natively support multi-band is attractive to us, because in this way the multi-band system can be planned and operated similarly with the single-band system, which is customer friendly and potentially more economical. We address mainly three technical challenges in this paper. The first one is the wide-band fiber"
+  },
+  {
+    "record_key": "openalex:W1970986915",
+    "source": "openalex",
+    "title": "Reconfigurable all-optical Discrete Fourier Transform in a Wavelength Selective Switch for Optical OFDM demultiplexing",
+    "year": 2012,
+    "venue": "Optical Fiber Communication Conference",
+    "abstract": "We experimentally demonstrate that a multi-output optical DFT can be implemented using a LCOS-based wavelength-selective switch. This enables high-spectral efficiency OFDM systems to be implemented optically, potentially overcoming limitations in electronic processing."
+  },
+  {
+    "record_key": "openalex:W2186112211",
+    "source": "openalex",
+    "title": "MxN wavelength selective switches using beam splitting by space light modulators",
+    "year": 2015,
+    "venue": null,
+    "abstract": "We propose a multiple input and multiple output wavelength selective switch (MxN WSS) with an optical configuration that uses a single diffractive optics deflector. In the proposed WSS, broadcast-and-select functionality is achieved by multi-angle diffraction and control of diffraction angle using the phase modulation patterns on a spatial light modulator such as liquid crystal on silicon (LCOS). The experimental results show that a 5×5 WSS using the spatial modulation patterns designed using the computer-generated hologram (CGH) technique works well."
+  },
+  {
+    "record_key": "openalex:W2488219102",
+    "source": "openalex",
+    "title": "Technology and Applications of Liquid Crystal on Silicon (LCoS) in Telecommunications",
+    "year": 2013,
+    "venue": "Elsevier eBooks",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W2530918466",
+    "source": "openalex",
+    "title": "Polaritons in van der Waals materials",
+    "year": 2016,
+    "venue": "Science",
+    "abstract": "Polaritons in van der Waals (vdW) materials.Polaritons-a hybrid of light-matter oscillations-can originate in different physical phenomena: conduction electrons in graphene and topological insulators (surface plasmon polaritons), infrared-active phonons in boron nitride (phonon polaritons), excitons in dichalcogenide materials (exciton polaritons), superfluidity in FeSe-and Cu-based superconductors with high critical temperature T c (Cooper-pair polaritons), and magnetic resonances (magnon polaritons).The family of vdW materials supports all of these polaritons.The matter oscillation component results in negative permittivity (e B < 0) of the polaritonic material, giving rise to optical-field confinement at the interface with a positive-permittivity (e A > 0) environment.vdW polaritons exhibit strong confinement, as defined by the ratio of incident light wavelength l 0 to polariton wavelength l p ."
+  },
+  {
+    "record_key": "openalex:W4281778727",
+    "source": "openalex",
+    "title": "Advanced liquid crystal devices for augmented reality and virtual reality displays: principles and applications",
+    "year": 2022,
+    "venue": "Light Science & Applications",
+    "abstract": "Liquid crystal displays (LCDs) and photonic devices play a pivotal role to augmented reality (AR) and virtual reality (VR). The recently emerging high-dynamic-range (HDR) mini-LED backlit LCDs significantly boost the image quality and brightness and reduce the power consumption for VR displays. Such a light engine is particularly attractive for compensating the optical loss of pancake structure to achieve compact and lightweight VR headsets. On the other hand, high-resolution-density, and high-brightness liquid-crystal-on-silicon (LCoS) is a promising image source for the see-through AR displays, especially under high ambient lighting conditions. Meanwhile, the high-speed LCoS spatial light modulators open a new door for holographic displays and focal surface displays. Finally, the ultrathin planar diffractive LC optical elements, such as geometric phase LC"
+  },
+  {
+    "record_key": "openalex:W3215039088",
+    "source": "openalex",
+    "title": "Core Selective Switch With Low Insertion Loss Over Ultra-Wide Wavelength Range for Spatial Channel Networks",
+    "year": 2021,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "The core selective switch (CSS) is an optical spatial switch that has been recently proposed as a key building block to achieve a scalable and low-insertion-loss spatial cross-connects for use in future spatial channel networks. In this paper, we report on a novel CSS design employing a two dimensionally arranged microlens-based multicore fiber (MCF) collimator array and a micro-electromechanical systems (MEMS) mirror array. The former enables precise alignment between MCFs and collimator lenses, and the latter yields polarization-independent high reflection over a wide wavelength range and a large tilt angle. Based on the design, a compact (∼50 mm) five-core$1 \\times 8$CSS prototype is fabricated. We experimentally show that the CSS prototype exhibits low insertion loss (1.2∼2.7 dB), low polarization dependent"
+  },
+  {
+    "record_key": "openalex:W3034334810",
+    "source": "openalex",
+    "title": "Principle, Design, and Prototyping of Core Selective Switch Using Free-Space Optics for Spatial Channel Network",
+    "year": 2020,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "We describe the principle, design, and prototyping of a free-space-optics-based core selective switch (CSS) for spatial channel (SCh) networks (SCNs) in the age of space division multiplexing (SDM). A CSS in an SCN corresponds to a conventional wavelength selective switch (WSS) in a current wavelength division multiplexing network. It incorporates functionalities for spatially demultiplexing SChs from an input SDM port and for switching and multiplexing any of them into any of output SDM ports. We discuss the design for free-space-optics-based CSSs that is applicable to CSSs supporting various numbers of cores per multicore fiber (MCF) and various numbers of MCF ports. We show an example of an implemented 5-core 1 × 6 CSS prototype that integrates an MCF collimator, spatial"
+  },
+  {
+    "record_key": "openalex:W4311274663",
+    "source": "openalex",
+    "title": "Increasing steering angle of LCoS in a WSS system through integration with a metasurface",
+    "year": 2022,
+    "venue": "Applied Optics",
+    "abstract": "Liquid crystal on silicon (LCoS) has been the dominant choice for wavelength selective switches (WSSs) in telecommunication industry due to its high spatial resolution and compatibility with software defined flexible grid feature. Current LCoS devices generally have a limited steering angle, which also limits the minimum footprint of the WSS system. The steering angle of LCoS devices is fundamentally determined by the pixel pitch, which is highly challenging to be optimized without resorting to other techniques. In this paper, we present an approach to increase the steering angle of LCoS devices through the integration with dielectric metasurfaces. Here a dielectric Huygens-type metasurface is integrated with an LCoS device to increase its steering angle by 10°. This approach can effectively minimize"
+  },
+  {
+    "record_key": "openalex:W4384824134",
+    "source": "openalex",
+    "title": "Ultrabroadband 2D‐Dispersive Wavelength Selective Switch with 1.57 GHz Hyperfine Spectral Resolution and >1600 Channels",
+    "year": 2023,
+    "venue": "Laser & Photonics Review",
+    "abstract": "Abstract Wavelength selective switches (WSSs) are key components in commercial reconfigurable optical add/drop multiplexer systems that are essential for future wavelength‐division multiplexing (WDM) networks. With rapidly increasing data transmission, there is a demand for high‐capacity WSSs. However, in a WSS, the number of channels, which is related to the ratio of its band coverage relative to spectral resolution, is limited within a certain range, since the 1D dispersion of the grating fails to utilize the 2D selectivity of the liquid crystal on silicon (LCoS) pixel array in the “disperse and select” architecture.. To surpass this limitation, here a virtually imaged phased array (VIPA) is employed into the WSS system to expand 1D‐dispersion into 2D space in order to fully utilize"
+  },
+  {
+    "record_key": "openalex:W2166397221",
+    "source": "openalex",
+    "title": "Activation of Symbiosis Signaling by Arbuscular Mycorrhizal Fungi in Legumes and Rice",
+    "year": 2015,
+    "venue": "The Plant Cell",
+    "abstract": "Establishment of arbuscular mycorrhizal interactions involves plant recognition of diffusible signals from the fungus, including lipochitooligosaccharides (LCOs) and chitooligosaccharides (COs). Nitrogen-fixing rhizobial bacteria that associate with leguminous plants also signal to their hosts via LCOs, the so-called Nod factors. Here, we have assessed the induction of symbiotic signaling by the arbuscular mycorrhizal (Myc) fungal-produced LCOs and COs in legumes and rice (Oryza sativa). We show that Myc-LCOs and tetra-acetyl chitotetraose (CO4) activate the common symbiosis signaling pathway, with resultant calcium oscillations in root epidermal cells of Medicago truncatula and Lotus japonicus. The nature of the calcium oscillations is similar for LCOs produced by rhizobial bacteria and by mycorrhizal fungi; however, Myc-LCOs activate distinct gene expression. Calcium oscillations were activated in"
+  },
+  {
+    "record_key": "openalex:W4317734516",
+    "source": "openalex",
+    "title": "Electrically tuned active metasurface towards metasurface-integrated liquid crystal on silicon (meta-LCoS) devices",
+    "year": 2023,
+    "venue": "Optics Express",
+    "abstract": "Active metasurfaces add a new dimension to static metasurfaces by introducing tunability, and this has received enormous attention from industry. Although various mechanisms have been proposed over the past few years in literature, solutions with good practicality are limited. Liquid crystal (LC)-based active metasurface is one of the most promising approaches due to the well-established LC industry. In this paper, an electrically tunable active metasurface was proposed and experimentally demonstrated using photoaligned nematic LC. The good quality of the LC photoalignment on the metasurface was demonstrated. Tunable transmission was obtained for telecommunication C band and the modulation depth in transmission amplitude of 94% was realized for 1530 nm. Sub-millisecond response time was achieved at operating a temperature of 60°C. The"
+  },
+  {
+    "record_key": "openalex:W2938572472",
+    "source": "openalex",
+    "title": "Scalable Microring-Based Silicon Clos Switch Fabric With Switch-and-Select Stages",
+    "year": 2019,
+    "venue": "IEEE Journal of Selected Topics in Quantum Electronics",
+    "abstract": "We propose and analyze a scalable microring-based Clos switch fabric architecture constructed with switch-and-select switching stages. A silicon 4 × 4 building block that was designed and fabricated through American Institute for Manufacturing Integrated Photonics is used for the proof-of-principle demonstration of a 16 × 16 Clos switch fabric. By fully blocking the first-order crosstalk, the 4 × 4 device is measured to show a crosstalk ratio in the range of -57 to -48.5 dB, enabling better than -39 dB crosstalk for the 16 × 16 switch. Our study shows that the three-stage Clos design enables up to a factor of 4 in the reduction of the number of switching cells compared to single-stage switch-and-select fabrics. We further explore the"
+  },
+  {
+    "record_key": "openalex:W3114504878",
+    "source": "openalex",
+    "title": "Reciprocating Reflective Double Gratings Based LCOS Spectral Filter With Sharp Response",
+    "year": 2020,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "Optical filter based on liquid crystal on silicon (LCOS) is widely used in wavelength selective switch (WSS) to allocate the optical spectrum flexibly. Constrained by the achievable spectral resolution of single grating used in the WSS, the roll-off bandwidth of optical filter is challenging to improve for the purpose of precise and efficient spectrum allocation. In this article, we demonstrate a novel double gratings configuration to realize higher spectral resolution by repeatedly enlarging and accumulating the dispersion, under the condition of the maintenance of the final light spot size. After examining the filtering performance with respect to the diffraction number, we are able to achieve a spectral resolution of 1.63 GHz, indicating of almost tenfold enhancement in comparison with traditional"
+  },
+  {
+    "record_key": "openalex:W3176290265",
+    "source": "openalex",
+    "title": "Asymmetric Optical Wavelength Switch Based on LCoS-SLM for Edge Node of Optical Access Network",
+    "year": 2021,
+    "venue": "IEEE photonics journal",
+    "abstract": "A novel design of optical wavelength switch, based on an asymmetric switching architecture for edge node implementation, is presented in this paper. Compared to previous research for optical core transport network applications, the proposed work has a unique aspect to build dynamic multicasting and spectral equalization, vital functionalities for optical wavelength switch in the edge of optical access networks. An optical wavelength switch was experimentally implemented and evaluated in a 4 × 16 switching architecture to demonstrate the concept. This dynamic multicasting and spectral equalization were achieved by utilizing liquid crystal on a silicon spatial light modulator (LCoS-SLM) device. An optimal design of computer-generated holograms (CGHs) through an improved GS algorithm was used to perform the beam steering and wavelength"
+  },
+  {
+    "record_key": "openalex:W3008594216",
+    "source": "openalex",
+    "title": "Piezoelectric Nano‐Biomaterials for Biomedicine and Tissue Regeneration",
+    "year": 2020,
+    "venue": "Advanced Functional Materials",
+    "abstract": "Abstract Among various classes of biomaterials, the majority of non‐centrosymmetric crystalline materials exhibit piezoelectric properties, i.e., the accumulation of charge in response to applied mechanical stress or deformation. Due to the growing interest in nanomaterials, piezoelectric nano‐biomaterials have been widely investigated, leading to remarkable advancements throughout the last two decades. Piezoelectric properties, high surface energy, targeting properties, and intricate cell–material interactions render piezoelectric nanomaterials highly attractive for application in therapeutics as well as regenerative medicine. Herein, the major focus is to highlight the wide range of applications of piezoelectric nano‐biomaterials in drug delivery, theranostics, and tissue regeneration. After a brief introduction to piezoelectricity, an overview is provided on the major classes of piezoelectric biomaterials as well as a description of"
+  },
+  {
+    "record_key": "openalex:W2000611026",
+    "source": "openalex",
+    "title": "High-Temperature Piezoelectric Sensing",
+    "year": 2013,
+    "venue": "Sensors",
+    "abstract": "Piezoelectric sensing is of increasing interest for high-temperature applications in aerospace, automotive, power plants and material processing due to its low cost, compact sensor size and simple signal conditioning, in comparison with other high-temperature sensing techniques. This paper presented an overview of high-temperature piezoelectric sensing techniques. Firstly, different types of high-temperature piezoelectric single crystals, electrode materials, and their pros and cons are discussed. Secondly, recent work on high-temperature piezoelectric sensors including accelerometer, surface acoustic wave sensor, ultrasound transducer, acoustic emission sensor, gas sensor, and pressure sensor for temperatures up to 1,250 °C were reviewed. Finally, discussions of existing challenges and future work for high-temperature piezoelectric sensing are presented."
+  },
+  {
+    "record_key": "openalex:W2966362568",
+    "source": "openalex",
+    "title": "A review of energy harvesting using piezoelectric materials: state-of-the-art a decade later (2008–2018)",
+    "year": 2019,
+    "venue": "Smart Materials and Structures",
+    "abstract": "Abstract Energy harvesting technologies have been explored by researchers for more than two decades as an alternative to conventional power sources (e.g. batteries) for small-sized and low-power electronic devices. The limited life-time and necessity for periodic recharging or replacement of batteries has been a consistent issue in portable, remote, and implantable devices. Ambient energy can usually be found in the form of solar energy, thermal energy, and vibration energy. Amongst these energy sources, vibration energy presents a persistent presence in nature and manmade structures. Various materials and transduction mechanisms have the ability to convert vibratory energy to useful electrical energy, such as piezoelectric, electromagnetic, and electrostatic generators. Piezoelectric transducers, with their inherent electromechanical coupling and high power density compared to"
+  },
+  {
+    "record_key": "openalex:W2809332576",
+    "source": "openalex",
+    "title": "Two-dimensional materials with piezoelectric and ferroelectric functionalities",
+    "year": 2018,
+    "venue": "npj 2D Materials and Applications",
+    "abstract": "Abstract Two-dimensional (2D) layered materials with a non-centrosymmetric structure exhibit great potential for nano-scale electromechanical systems and electronic devices. Piezoelectric and ferroelectric 2D materials draw growing interest for applications in energy harvesting, electronics, and optoelectronics. This article first reviews the preparation of these functional 2D layered materials, including exfoliation methods and vapor phase deposition growth, followed by a general introduction to various piezo/ferro-electric characterization methods. Typical 2D piezoelectric and ferroelectric materials and their electronic properties, together with their potential applications, are also introduced. Finally, future research directions for 2D piezoelectric and ferroelectric materials are discussed."
+  }
+]

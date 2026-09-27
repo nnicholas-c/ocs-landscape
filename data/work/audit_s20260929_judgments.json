@@ -1,0 +1,122 @@
+{
+  "electro_optic:scaling_limit": {
+    "supported": true,
+    "reason": "Q1 ties reduced crosstalk to increased switch fabric scalability (crosstalk is the limiting factor) and Q2 states power monitors correct non-uniform fabrication-error effects across all switch units, matching both clauses of the value."
+  },
+  "thermo_optic:ai_cluster_fit": {
+    "supported": true,
+    "reason": "Q1 states the switch is highly integrable for co-integration with GPUs, a direct accelerator-cluster use."
+  },
+  "mems_3d:ai_cluster_fit": {
+    "supported": true,
+    "reason": "Q3 states a next-generation OCS platform designed specifically for AI data center (AI DC) networking infrastructure, a direct accelerator-cluster claim."
+  },
+  "electro_optic:trl_band": {
+    "supported": true,
+    "reason": "Quote uses the lab signal word 'fabricated' for the Mach-Zehnder silicon optical switch."
+  },
+  "thermo_optic:trl_band": {
+    "supported": true,
+    "reason": "Quote uses the lab signal word 'demonstrated' for the 32x32 switch chip."
+  },
+  "thermo_optic:scaling_limit": {
+    "supported": true,
+    "reason": "Q1 states waveguide crossings raise path-dependent loss with port count and Q2 states control units and wiring complexity grow with port count, matching both clauses of the value."
+  },
+  "lcos:packaging_notes": {
+    "supported": true,
+    "reason": "Quote states the prototype integrates an MCF collimator, a spatial mux/demux array, and an LCoS spatial light modulator, matching the value's assembly description."
+  },
+  "mems_3d:integration": {
+    "supported": true,
+    "reason": "Quote describes a fiber collimator array with a MEMS mirror array, the free-space beam-and-mirror architecture the free_space_bulk label defines."
+  },
+  "mems_3d:trl_band": {
+    "supported": true,
+    "reason": "Q1 and Q2 state Apollo is a large-scale production deployment forming the basis of the data center network, unambiguous production-stage language."
+  },
+  "mems_2d:integration": {
+    "supported": false,
+    "reason": "Quote is a generic overview sentence naming 2D and 3D MEMS switch types together and never describes a free-space beam path, mirrors, or fiber collimators specific to the 2D implementation."
+  },
+  "mems_2d:trl_band": {
+    "supported": true,
+    "reason": "Quote uses the lab signal words 'demonstrated' and 'fabricated' for the 16x16 MEMS switch."
+  },
+  "mems_2d:ai_cluster_fit": {
+    "supported": true,
+    "reason": "Quote states the application is fiber optic telecommunications, matching the 'no' (telecom/other only) definition."
+  },
+  "mems_silicon_photonic:integration": {
+    "supported": true,
+    "reason": "Quote states an integrated OCS combining silicon photonics with MEMS actuation, matching integrated_photonic."
+  },
+  "mems_silicon_photonic:trl_band": {
+    "supported": true,
+    "reason": "Quote uses the lab signal words 'experimental prototype' and 'fabricated'."
+  },
+  "mems_silicon_photonic:ai_cluster_fit": {
+    "supported": true,
+    "reason": "Q1 names AI/ML clusters directly as a target application."
+  },
+  "lcos:integration": {
+    "supported": true,
+    "reason": "Quote explicitly calls the design 'free-space-optics-based', matching free_space_bulk."
+  },
+  "lcos:trl_band": {
+    "supported": true,
+    "reason": "Quote uses the lab signal word 'prototype'."
+  },
+  "lcos:ai_cluster_fit": {
+    "supported": true,
+    "reason": "Quotes describe a reconfigurable optical DCN reconfigured by SDN, matching the 'reconfigurable topologies' criterion for yes."
+  },
+  "piezo:integration": {
+    "supported": true,
+    "reason": "Quote describes aligning collimated beams of light between opposing fiber arrays with piezo actuators, the free-space beam-and-collimator architecture free_space_bulk defines."
+  },
+  "piezo:trl_band": {
+    "supported": false,
+    "reason": "Quote is only a loss and variation performance measurement and contains none of the lab signal words (demonstrate, fabricated, prototype, testbed, simulation) or any other language distinguishing a lab device from a shipped product."
+  },
+  "piezo:ai_cluster_fit": {
+    "supported": true,
+    "reason": "Q2 names the switches as central cluster switches and intercluster switches for DCN, a direct cluster-networking use."
+  },
+  "thermo_optic:integration": {
+    "supported": true,
+    "reason": "Quote states the switches are integrated onto a small die, matching integrated_photonic."
+  },
+  "electro_optic:integration": {
+    "supported": true,
+    "reason": "Quote states the switch is monolithically integrated, matching integrated_photonic."
+  },
+  "electro_optic:ai_cluster_fit": {
+    "supported": true,
+    "reason": "Q2 ties the chip-scale switching technology to high-performance computing systems and to replacing some routing functionality, a partial rather than full accelerator-cluster claim."
+  },
+  "soa:integration": {
+    "supported": true,
+    "reason": "Quote states the cross-connect is monolithic, matching integrated_photonic."
+  },
+  "soa:trl_band": {
+    "supported": true,
+    "reason": "Quote uses the lab signal words 'designed, fabricated and demonstrated'."
+  },
+  "soa:ai_cluster_fit": {
+    "supported": false,
+    "reason": "Quotes describe OCS benefits generally and a wireless data-center-network architecture, neither of which names accelerator clusters, reconfigurable topologies, or spine replacement, which the yes value requires (at most an indirect data-center claim)."
+  },
+  "robotic_patch_panel:integration": {
+    "supported": true,
+    "reason": "Quote describes a fiber-handling robot physically cross-connecting optical connectors, matching mechanical_fiber."
+  },
+  "robotic_patch_panel:trl_band": {
+    "supported": true,
+    "reason": "Quote announces the commercial launch of the product, matching production."
+  },
+  "robotic_patch_panel:ai_cluster_fit": {
+    "supported": true,
+    "reason": "Quote states the application is intelligent buildings and optical access networks, matching the 'no' (telecom/other only) definition."
+  }
+}
