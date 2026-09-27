@@ -1,6 +1,8 @@
 # Small-sample demo results
 
-Every number points to a file or to a query Q1 to Q18, listed at the end. Numbers are run 2's, the arXiv rebuild as rerun in step 2 (the anchor papers), unless marked run 1. Run 2 took arXiv content through OpenAlex's arXiv index, labelled arxiv_via_openalex (STATUS.md, 16:50 line). Rounds 1 to 3 are run 1's audits, and run 2's rates come from the run 2 audit after the anchor papers. The auditor runs the four checks, and the second judge re-checks each stage. MEMS is micro-electro-mechanical systems, LCoS is liquid crystal on silicon, SOA is semiconductor optical amplifier, CMOS is complementary metal-oxide-semiconductor, and AI is artificial intelligence.
+Every number points to a file or to a query Q1 to Q18, listed at the end. Numbers are run 2's, the arXiv rebuild as rerun in step 2 (the anchor papers), unless marked run 1. Run 2 took arXiv content through OpenAlex's arXiv index, labelled arxiv_via_openalex (STATUS.md, 16:50 line).
+
+Rounds 1 to 3 are run 1's audits, and run 2's rates come from the run 2 audit after the anchor papers. The auditor runs the four checks, and the second judge re-checks each stage. MEMS is micro-electro-mechanical systems, LCoS is liquid crystal on silicon, SOA is semiconductor optical amplifier, CMOS is complementary metal-oxide-semiconductor, AI is artificial intelligence, and 3D is three-dimensional.
 
 ## Numbers
 
@@ -14,7 +16,7 @@ Every number points to a file or to a query Q1 to Q18, listed at the end. Number
 | raw records, data/raw/arxiv_via_openalex.jsonl | 0 (no such file) | 341 | Q1 |
 | raw records, the two smoke files | 10 | 10 | STATUS.md, 04:41 line; Q1 |
 | unique raw records | 904 | 1245 | STATUS.md, 05:39 and 16:08 lines |
-| papers after dedup | 885 | 1211 (1213 before step 2) | STATUS.md, 05:57, 16:32 and 20:31 lines; Q3 |
+| papers after deduplication | 885 | 1211 (1213 before step 2) | STATUS.md, 05:57, 16:32 and 20:31 lines; Q3 |
 | core set | 267 | 284 | STATUS.md, 05:57 line; Q3 |
 | extended set | 376 | 420 | STATUS.md, 05:57 line; Q3 |
 | anchor papers in the data, of 13, by full title or DOI (digital object identifier) | 8, c-Through only through the snowball, and 3 more by title prefix only | 8, and 3 more by title prefix only. Jupiter Evolving and RotorNet are a known limit, because OpenAlex truncates their long titles at the colon and ACM (Association for Computing Machinery) Digital Library pages refuse automated fetches. They are deferred to after the meeting, using the doi_publisher_confirmed method (issue #13) | STATUS.md, Gate A, 19:38 and 20:31 lines; Q17; Q18; data/work/step2_anchors.md |
@@ -76,21 +78,21 @@ Records per query (Q1) count the first query that found each record (deliverable
 | arxiv_via_openalex (run 2) | silicon photonic switch | 31 |
 | arxiv_via_openalex (run 2) | optical circuit switching | 0 new (STATUS.md, 15:58 line) |
 
-In run 1, arXiv's other 9 phrases got HTTP errors 429 and 406, so their zeros say nothing about arXiv's content (STATUS.md, stage 1a line). Gate A counted 10 of 13 anchors found, missing Jupiter Evolving, RotorNet, and c-Through, whose lookup hit an unrelated 1999 paper (STATUS.md, Gate A line). The real c-Through came in through the snowball. Step 2 fetched the other two by DOI, but OpenAlex keeps only the title words before the colon, so the title check scored 23.88 and 23.19 against 95 and both were removed (data/work/step2_anchors.md; Q17).
+Run 1's zeros for the 9 refused arXiv phrases say nothing about arXiv's content (STATUS.md, stage 1a line). Gate A counted 10 of 13 anchors found, missing Jupiter Evolving, RotorNet, and c-Through, whose lookup hit an unrelated 1999 paper (STATUS.md, Gate A line). The real c-Through came in through the snowball. Step 2 fetched the other two by DOI, but OpenAlex keeps only the title words before the colon, so the title check scored 23.88 and 23.19 against 95 and both were removed (data/work/step2_anchors.md; Q17).
 
-### Relevance and dedup
+### Relevance and deduplication
 
 Because more than 200 records scored 2 or 3, Gate A kept score 3 only as the core set (PLAN.md; STATUS.md, 16:08 line).
 
 | step | count | source |
 |---|---|---|
 | relevance score 0, 1, 2, 3 (of 1245) | 694, 145, 98, 308 | Q2 |
-| score 2 or 3, before dedup | 416 | STATUS.md, 16:08 line |
+| score 2 or 3, before deduplication | 416 | STATUS.md, 16:08 line |
 | duplicates removed by DOI, arXiv ID, fuzzy title | 4, 17, 13 | deliverables/curation_report.md |
 | of the arXiv ID merges, pairs found only by pull request #1's fix that reads the ID from a landing page link, first applied in step 2's rerun | 2 | deliverables/curation_report.md, Step 2 |
 | arxiv_via_openalex records that matched a run 1 paper by DOI, arXiv ID, fuzzy title | 0, 8, 2 | deliverables/curation_report.md |
 | wrong fuzzy merges undone after the run 1 retry | 3 | STATUS.md, 05:51 line |
-| papers after dedup | 1211 | deliverables/curation_report.md |
+| papers after deduplication | 1211 | deliverables/curation_report.md |
 
 | set | papers | no abstract |
 |---|---|---|
@@ -158,7 +160,7 @@ The 43 reflects how the sample was built. In run 1 one phrase supplied 27 of the
 | all 12 routes plotted | 236 | 1 | 4 | 43 | 284 |
 | core papers with no tags row, not plotted | | | | | 0 |
 
-No radar chart was drawn, because only 3 of the 6 numeric matrix dimensions are reported for 5 or more of the 9 routes and a radar needs at least 4 such dimensions (pipeline/tech_map.py).
+No radar chart was drawn, because a radar needs 4 numeric dimensions reported for 5 or more of the 9 routes, and only 3 of 6 qualify (pipeline/tech_map.py).
 
 | numeric dimension | routes with a reported value, of 9 | qualifies, 5 or more routes |
 |---|---|---|
@@ -249,7 +251,7 @@ Run 2 skipped the scout (STATUS.md, 16:50 line), so these are run 1's 12 rows (Q
 | 12 | Lightmatter | startup | Passage M1000 photonic interposer (built-in solid-state OCS) | unclear | unknown | unknown | 2026-09-26 | https://futurumgroup.com/insights/lightmatter-solving-how-to-interconnect-millions-of-chips/ | The M1000 employs solid-state optical circuit switching, while the L200 incorporates Alphawave Semi's chiplet technology |
 | 3 | Coherent | established_vendor | Optical Circuit Switch (DLX-based, up to 512x512) | lcos | unknown | 2024-03-25 | 2024-03-25 | https://www.coherent.com/news/press-releases/optical-circuit-switch-for-data-centers-live-demo-at-ofc-2024-based-on-ultrareliable-dlx-technology | a new optical circuit switch (OCS) based on the company's field-proven and ultrareliable digital liquid-crystal technology |
 
-Several evidence dates are fetch dates (data/projects.csv, note column). Polatis "shipping" is the scout's stage, and its quote "describes the mechanism and not availability" (deliverables/comparison_matrix.csv, piezo trl_band note).
+Several evidence dates are fetch dates (data/projects.csv, note column). Polatis "shipping" is the scout's stage, and its quote "describes the mechanism and not availability" (deliverables/comparison_matrix.csv, piezo trl_band note). DLX in row 3 is Coherent's name for the digital liquid-crystal technology quoted.
 
 [graphs/project_timeline.html](../graphs/project_timeline.html) plots the projects.csv rows with a known first_public_date and lists the rest under the chart without a guessed date (pipeline/project_timeline.py).
 
