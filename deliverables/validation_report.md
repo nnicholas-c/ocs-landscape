@@ -1446,12 +1446,14 @@ Every section above this one is left exactly as first written, and nothing in
 it has been edited, removed, or softened.
 
 A raw byte comparison of this file against `git show
-origin/master:deliverables/validation_report.md` differs starting at byte 27,
-because core.autocrlf is true in this repository (i, lf; w, crlf) and the
-working tree stores CRLF line endings while the git blob stores LF. This is
-not a content change. After normalizing the working tree copy's line endings
-from CRLF to LF, its first 81474 bytes, the whole length of the origin/master
-blob, match that blob exactly. `git diff origin/master --
+origin/master:deliverables/validation_report.md` differs starting at the
+28th byte, because this repository's core.autocrlf git setting is true, so
+the working tree stores Windows line endings (a carriage return followed by
+a line feed) while the git blob stores Unix line endings (a line feed
+alone). This is not a content change. After converting the working tree
+copy's line endings from Windows style to Unix style, its first 81474
+bytes, the whole length of the origin/master blob, match that blob exactly.
+`git diff origin/master --
 deliverables/validation_report.md` confirms the same thing at the line level,
 reporting only added lines and 0 deleted lines, so every line above this
 heading is unchanged from origin/master.
@@ -1540,8 +1542,8 @@ project row (b_matrix_cells.items of data/work/audit_round2.json, and the
 paper_ids and project_rows columns of deliverables/comparison_matrix.csv at
 commit 8172417). Row 5 appears only in the cell's note, as background for the
 downgrade (same file). Round 1's observation about thin evidence for this cell
-still applies, because it now rests on one paper whose abstract does not use
-the word piezo.
+still applies, because it now rests on one paper whose abstract, per
+pitfalls.md, does not use the word piezo (deliverables/pitfalls.md, line 263).
 
 #### 4. Line 368, Round 3, check (a): the retry count of the direct test
 
@@ -1723,10 +1725,16 @@ data/work/audit_run2_round1.json.
 percent (25 pass, 2 fail) are category_census.rate_fail, with its pass and
 fail fields, in data/work/audit_run2_round1.json (round 3),
 data/work/audit_r2data_round1.json (run 2 audit, round 1), and
-data/work/audit_r2data_round2.json (run 2 audit, second round). The same
-rates recur on line 715 (11.1 percent), lines 860 and 861 (14.8 and 7.4
-percent together), and line 935 (7.4 percent), sourced by the same three
-files.
+data/work/audit_r2data_round2.json (run 2 audit, second round). Counting
+each file's category_census.items by its own per-item result and ignoring
+the stored rate_fail field gives the same three counts in every file, so
+the three stored rates are correct.
+
+The same rates recur on line 715, and line 715 itself reads 14.8 percent,
+the run 2 audit round 1 figure, not 11.1 percent as an earlier draft of
+this correction said. They also recur on lines 860 and 861 (14.8 and 7.4
+percent together), and on lines 935 and 936 (7.4 percent, then round 1's
+14.8 percent again), all sourced by the same three files.
 
 #### 21. Line 498: the 4 not_supported cells and the 18-cell recompute
 
@@ -1761,8 +1769,10 @@ those items.
 36 reported measured cells are the status and dimension columns of
 deliverables/comparison_matrix.csv at commit 2b97e9a. 35 pass and 1 fails
 (thermo_optic:wavelength_range), per the resolved field of
-data/work/audit_r2data_prejudge.json matched against the same file's dimension
-column.
+data/work/audit_r2data_prejudge.json, which has no dimension column of its
+own; it is a dict keyed by "tech_route:dimension" strings such as
+"mems_3d:switching_time", matched here against the 36 cells' tech_route and
+dimension columns in comparison_matrix.csv.
 
 #### 26. Line 638: the 9 academic_groups and companies 5/4 split
 
@@ -1822,6 +1832,18 @@ These route sizes are not in data/work/audit_s20260929_round1.json, which line
 are counts of core_set=1 papers by primary tech_route in
 data/db/papers.sqlite at commit 4bc8129. The counts are 1 robotic_patch_panel
 paper, 2 lcos, 2 piezo, and 43 mems_silicon_photonic.
+
+#### 49. Line 793, Run 2 audit, other observations: the 0 mismatches across 18 cells
+
+This sentence gives academic_groups and companies "0 mismatches across all
+18 cells" with no source. This is a different occurrence from the same
+phrase on line 507, which item 21 above already sources to round 3; line
+793 is the run 2 audit round 1 section, so it needs its own source.
+
+Counting academic_groups_companies_check.items in
+data/work/audit_r2data_round1.json by each item's own result field, every
+one of the 18 items reads "supported", so there are 0 mismatches, matching
+the file's own stored pass (18) and fail (0) fields.
 
 ### Style
 
