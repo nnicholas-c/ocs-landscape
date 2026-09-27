@@ -20,7 +20,7 @@ All other items passed the second judge. The check matched all 50 findings, conf
 ## State left behind
 
 - Steps 1 to 4 are merged into master (pull requests #1, #4, #6, #7).
-- Steps 5 and 6 (pull requests #8, #9) are finishing their own reviews independently and merge on their own checks.
+- Steps 5 and 6 are merged into master after their own reviews and checks (pull request #8 at 95d5544, pull request #9 at 32cbce9).
 - The step 7 correction section is committed on fix/validation-report-sources as a draft pull request, not merged.
 - master has no run2-final tag, and docs/chinese-readme-contributions still exists.
 
