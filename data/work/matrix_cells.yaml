@@ -308,9 +308,9 @@ cells:
         silicon photonic switch fabrics that covers MEMS actuation.
     scaling_limit:
       value: >-
-        Electrical interconnect count: individual addressing needs N squared electrodes, and packaging must
-        handle N squared electrical and 2N optical connections; optical loss does not accumulate with port
-        count in the crossbar
+        Individual addressing needs N squared electrodes, so electrical interconnect count limits scaling, and
+        packaging must handle N squared electrical and 2N optical connections; optical loss does not
+        accumulate with port count in the crossbar
       confidence: medium
       quotes:
         - [W2271940456, "the row/column addressing scales with"]
@@ -860,7 +860,7 @@ cells:
 reading_list:
   - [W2073240697, "The only core paper on robotic patch panels, so its full text is the one source for nearly every empty cell of that route."]
   - [W2914521323, "A review of 2D and 3D MEMS cross-connects that discusses loss, crosstalk, switching speed and scalability, which the 2D MEMS abstracts leave empty."]
-  - [W2896156020, "A survey of thermo-optic, electro-optic and MEMS silicon photonic switch fabrics that compares common metrics, so one read can cover cost and PDL across three integrated routes."]
+  - [W2896156020, "A survey of thermo-optic, electro-optic and MEMS silicon photonic switch fabrics that compares common metrics, so one read can cover cost and PDL (polarization dependent loss) across three integrated routes."]
   - [W2089755139, "The main 2D MEMS switch paper, covering technology, performance and reliability, for the 2D MEMS cells no other abstract touches."]
   - [W3034334810, "The LCoS core selective switch prototype, the route's only device paper that names LCoS, for its optical specifications."]
   - [W2591729902, "The built multi-core fiber beam-steering switch, for the piezo optical specifications and to confirm whether its actuators are piezoelectric."]

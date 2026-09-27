@@ -1,5 +1,12 @@
 # Step 2, anchor papers
 
+Superseded, see the Decision section below. Everything above the Decision
+section is the step 2 stage 1a collector's log from 2026-09-26 19:29, kept as
+it was written. The orchestrator overrode it at 19:38. Jupiter Evolving and
+RotorNet are not confirmed and are not in the data, and data/raw/openalex.jsonl
+is back to 707 lines (deliverables/pitfalls_original_log.md, 19:29 and 19:38
+lines; STATUS.md, 19:38 line).
+
 Method for all three: found the DOI by web search from a primary source (ACM
 Digital Library or the publisher), then fetched the work from OpenAlex with a
 free singleton call `Works()["https://doi.org/<doi>"]` (cost_usd 0.000 for
@@ -61,7 +68,7 @@ recorded here rather than assumed.
 - OpenAlex W id: W4290990894
 - Title check: token_sort_ratio 23.88 (fail at 95); truncated-title prefix match confirmed (see above); year and author list cross-checked against the known paper
 - record_key `openalex:W4290990894`: not found in any existing data/raw/*.jsonl file
-- Action: appended to data/raw/openalex.jsonl, source "openalex", query "anchor:Jupiter Evolving: Transforming Google's Datacenter Network via Optical Circuit Switches and Software-Defined Networking"
+- Action: appended at 19:29, removed at 19:38 (see Decision). Appended to data/raw/openalex.jsonl, source "openalex", query "anchor:Jupiter Evolving: Transforming Google's Datacenter Network via Optical Circuit Switches and Software-Defined Networking"
 
 ### RotorNet: A Scalable, Low-complexity, Optical Datacenter Network
 
@@ -70,7 +77,7 @@ recorded here rather than assumed.
 - OpenAlex W id: W2743429249
 - Title check: token_sort_ratio 23.19 (fail at 95); truncated-title prefix match confirmed (see above); year and author list cross-checked against the known paper
 - record_key `openalex:W2743429249`: not found in any existing data/raw/*.jsonl file
-- Action: appended to data/raw/openalex.jsonl, source "openalex", query "anchor:RotorNet: A Scalable, Low-complexity, Optical Datacenter Network"
+- Action: appended at 19:29, removed at 19:38 (see Decision). Appended to data/raw/openalex.jsonl, source "openalex", query "anchor:RotorNet: A Scalable, Low-complexity, Optical Datacenter Network"
 
 ### c-Through: Part-time Optics in Data Centers
 
@@ -88,7 +95,7 @@ expected -- singleton lookups by ID/DOI are free per the playbook).
 
 ## Idempotency check
 
-Re-ran the fetch script a second time: all three anchors resolved to
+Re-ran the fetch script a second time (before the 19:38 removal): all three anchors resolved to
 "already_present" (the two just-appended plus c-Through), 0 new records
 appended, data/raw/openalex.jsonl unchanged at 709 lines.
 

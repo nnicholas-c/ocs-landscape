@@ -29,7 +29,7 @@ API means application programming interface. HTTP 429 means "too many requests" 
 - [2026-09-26 04:43, 05:04] 6 anchor titles were logged as unresolved. The checker found 4 of them (Mission Apollo, TPU v4, Lightwave Fabrics, TopoOpt) already in openalex.jsonl from phrase queries, because the script logs any anchor already on disk as a miss.
   Done. Not fixed. The data is right and only the log is wrong. True misses are Jupiter Evolving and RotorNet, still missing after step 2 (stage 1a anchor additions below).
 - [2026-09-26 05:39] The c-Through anchor matched a 1999 paper titled "OPTICS", because rapidfuzz token_set_ratio scores 100 when one title's words are a subset of the other's.
-  Done. Not fixed, because the record scored 0 and does not affect Gate A. Gate A counts 10 of 13 anchors found, with c-Through a miss, but the real c-Through came in through the snowball, so 11 of 13 are in the data (demo_results.md, Q18).
+  Done. Not fixed, because the record scored 0 and does not affect Gate A. Gate A counts 10 of 13 anchors found, with c-Through a miss, but the real c-Through came in through the snowball, so 8 of 13 are in the data by full title or DOI and 3 more by title prefix only (demo_results.md, Q18).
 
 ### Stage 1a collection (run 2, arXiv through OpenAlex)
 
@@ -49,7 +49,7 @@ API means application programming interface. HTTP 429 means "too many requests" 
 - [2026-09-26 19:38] The orchestrator did not accept the prefix, year, and author cross-check in place of the title check, since the queue never allows loosening a check.
   Done. Both appended lines were removed, openalex.jsonl was restored to match origin/master byte for byte, and both DOIs and OpenAlex IDs are kept in data/work/step2_anchors.md for a person to decide.
 - [2026-09-26 19:29] c-Through resolved to W2097926925, already on disk from the stage 1c snowball.
-  Done. Not appended. It is a core paper with relevance 3, so 11 of 13 anchors are in the data (demo_results.md, Q18).
+  Done. Not appended. It is a core paper with relevance 3, so 8 of 13 anchors are in the data by full title or DOI and 3 more by title prefix only (demo_results.md, Q18).
 - [2026-09-26 19:32] The stage 1a false match for c-Through (W2160642098, "OPTICS", 1999) still carries the c-Through query in openalex.jsonl. Sirius, Helios, and ProjecToR are also stored with short titles and would fail the same check.
   Done. Left as is, because raw files are never edited and the false match scores 0.
 - [2026-09-26 19:32] The DOI fetch script the collector says it ran twice was never saved in pipeline/, so the addition cannot be rerun from the repo.
@@ -384,9 +384,9 @@ The HTTP 406 evidence, in order. In run 1, export.arxiv.org returned 406 twice o
 - [2026-09-26 21:21] The blind second judge called all 30 judged cells supported where the auditor found 27, so the same census cells disagree for the third audit in a row (mems_2d integration and soa ai_cluster_fit every time, piezo trl_band now too).
   Done. No gate effect, because none is in the Gate C sample. Left for a person to decide the labels or quotes.
 - [2026-09-26 21:21] The new report section says the 47 code-checked cells include all 18 academic_groups and companies cells, but only 14 do (4 companies cells have no source), and it calls 30 cells the other reported or derived cells when 42 remain.
-  Done. Not fixed, because the report is append-only and a correction must be appended.
+  Done. Corrected in an appended section, because the report is append-only (deliverables/validation_report.md, Corrections after code review (pull request #4), item 2).
 - [2026-09-26 21:21, from STATUS.md, not the original log] The new section's piezo trl_band history cites STATUS.md 17:11, which does not mention piezo.
-  Done. Not fixed.
+  Done. Corrected in an appended section (deliverables/validation_report.md, Corrections after code review (pull request #4), item 3).
 
 ### Number checks (rework)
 
@@ -434,7 +434,7 @@ The HTTP 406 evidence, in order. In run 1, export.arxiv.org returned 406 twice o
 - [2026-09-26 21:35] This file said the original log had 194 entries, but it had 195 at origin/master, because the 18:40 line came after the count.
   Done. Recounted with code after this stage's lines were added.
 - [2026-09-26 21:35] demo_results.md said run 1 found 10 of 13 anchors, "one a false match", which reads as 9 real finds, and meeting_summary.md said a free DOI lookup would let a later run add the two missing anchors, which step 2 tried.
-  Done. Both now give Gate A's count (10 found, c-Through a miss), the snowball's c-Through, 11 of 13 anchors in the data (Q18), and the failed step 2 title check.
+  Done. Both now give Gate A's count (10 found, c-Through a miss), the snowball's c-Through, 8 of 13 anchors in the data by full title or DOI plus 3 by title prefix only (Q18), and the failed step 2 title check.
 - [2026-09-26 21:35] piezo trl_band fails the census for the first time, because step 2's rebuild replaced a quote that passed both rounds of the first run 2 audit with a loss measurement sentence.
   Done. Reported in demo_results.md and meeting_summary.md. The writer does not edit the matrix.
 - [2026-09-26 21:35] Covering two run 2 audits put demo_results.md over its 1200-word limit outside tables.
@@ -447,7 +447,7 @@ The HTTP 406 evidence, in order. In run 1, export.arxiv.org returned 406 twice o
 - Fuzzy-title dedup. Pairs to compare grow with the square of the record count, and the subset flaw already caused 3 wrong merges in run 1's 885 papers.
 - Split people. In run 1 about 99 of the 149 flagged name keys were one person in several records, run 2 flags 147, and the count grows with every source that lacks author IDs or affiliations.
 - Blocked web pages. JavaScript rendering, Cloudflare, throttling, and a timeout already blocked 4 sites for a scout run of 12 entities.
-- Judged cells. Two careful readers disagreed on 4 of 29 cells in round 3, 6 of 31 in the first run 2 audit's first round, and 3 of 30 in the run 2 audit after the anchor papers, and reading does not scale with the matrix.
+- Judged cells. Two careful readers disagreed on 4 of 29 cells in round 3 (seed 20260927), 6 of 31 in the first run 2 audit's first round (seed 20260928), and 3 of 30 in the run 2 audit after the anchor papers (seed 20260929), and reading does not scale with the matrix.
 - Truncated titles. OpenAlex stores at least 6 of the 13 anchors with only the title words before the colon (Jupiter Evolving, RotorNet, c-Through, Sirius, Helios, ProjecToR), and publisher pages refuse automated fetches, so a title check against full titles fails more often as the anchor list grows (data/work/step2_anchors.md; original log, 19:32).
 - Graders that share code with what they grade. Run 1's builder passed the audit by importing its test, and more agents mean more chances for that.
 - Query yield. One phrase per route decided the route counts, so more routes and sources need more phrases per route.

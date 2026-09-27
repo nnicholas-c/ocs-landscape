@@ -209,7 +209,7 @@ above involve at least one arxiv_via_openalex record.
 
 ### Tags table cleanup
 
-5 run 1 tags row(s) referenced a paper_id that this merge retired. Stage 3 must retag these under the new id shown below. This invocation deleted 0 tags row(s) whose paper_id is no longer in papers (every other tags row is untouched).
+5 run 1 tags row(s) referenced a paper_id that this merge retired. Every new id shown below already has a tags row. This invocation deleted 0 tags row(s) whose paper_id is no longer in papers (every other tags row is untouched).
 
 | old paper_id (no longer in papers) | became |
 |---|---|
@@ -227,17 +227,17 @@ Step 2 tried to add the 3 anchors the stage 1a anchor search missed (Jupiter Evo
 - RotorNet (DOI 10.1145/3098822.3098838): not in any data/raw/*.jsonl file and not in the database (0 raw record(s) with this DOI).
 - c-Through (DOI 10.1145/1851182.1851222): in the database as W2097926925, core (score 3), sources "openalex_snowball", matched by 1 raw record(s) carrying this DOI.
 
-Jupiter Evolving and RotorNet were fetched from OpenAlex by DOI and then removed before this stage ran, so this run added neither. The anchor title check (rapidfuzz token_sort_ratio at least 95 against the full anchor title in pipeline/queries.yaml) does not confirm either one, because OpenAlex's title field holds only the words before the colon ("Jupiter evolving", "RotorNet"), so the check scores 23.88 for Jupiter Evolving and 23.19 for RotorNet, both well under the threshold. The two anchors were not confirmed by the title check, so they were not added. That is left as an open question for a human in data/work/step2_anchors.md. Neither DOI is in any data/raw/*.jsonl file now (0 record(s) on disk with these DOIs), so this run merged neither with an existing paper. c-Through was never missing from the database. It reached it as W2097926925 (sources "openalex_snowball"). That is a different raw record than the stage 1a anchor search's false match (openalex:W2160642098, "OPTICS", 1999, still on file under the c-Through query, since raw files are never edited).
+Jupiter Evolving and RotorNet were fetched from OpenAlex by DOI and then removed before this stage ran, so this run added neither. The anchor title check (rapidfuzz token_sort_ratio at least 95 against the full anchor title in pipeline/queries.yaml, a stricter test than the playbook's token_set_ratio rule, which the truncated titles would pass) does not confirm either one, because OpenAlex's title field holds only the words before the colon ("Jupiter evolving", "RotorNet"), so the check scores 23.88 for Jupiter Evolving and 23.19 for RotorNet, both well under the threshold. The two anchors were not confirmed by the title check, so they were not added. That is left as an open question for a human in data/work/step2_anchors.md. Neither DOI is in any data/raw/*.jsonl file now (0 record(s) on disk with these DOIs), so this run merged neither with an existing paper. c-Through was never missing from the database. It reached it as W2097926925 (sources "openalex_snowball"). That is a different raw record than the stage 1a anchor search's false match (openalex:W2160642098, "OPTICS", 1999, still on file under the c-Through query, since raw files are never edited).
 
-### The two arXiv-ID merges from the extract_arxiv_id fallback
+### The 2 arXiv-ID merges from the extract_arxiv_id fallback
 
-The PR #1 code review fix that recovers arxiv_id from a raw OpenAlex
+The pull request #1 code review fix that recovers arxiv_id from a raw OpenAlex
 record's landing_page_url, for records whose own arxiv_id field is null,
 let arXiv-ID matching catch 2 pair(s) this run that
 duplicate detection missed before the fix (both sides of each pair already
 existed in data/raw/*.jsonl; this is not new data from step 2's anchor
 search). In both pairs the two records share the same arxiv_id, and
-the full author lists also match (3 authors and 4 authors). openalex:W2960571025 is an SSRN working paper record.
+the full author lists also match (3 authors and 4 authors). openalex:W2960571025 is an SSRN (Social Science Research Network) working paper record.
 
 | record_key (source) | title A | paper_id (source) | title B | shared arxiv_id |
 |---|---|---|---|---|

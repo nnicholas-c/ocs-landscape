@@ -52,8 +52,10 @@ NUM_RE = re.compile(r"\d+(?:[.,]\d+)*")
 ID_RE = re.compile(r"W\d+|arxiv:[\d.]+|mems_[23]d|\b[23]D\b|\brows? \d+")
 SENT_START = re.compile(r"[.!?]\s+(?=[A-Z(])")
 SENT_END = re.compile(r"[.!?](?=\s+[A-Z(]|\s*$)")
-# Band names: "C band", "C-band", "C+L-band", "C- and L-band". Group 1 holds the band letters.
-BAND_RE = re.compile(r"\b([OESCLU](?:(?:\s*(?:[+/,-]|and|or))+\s*[OESCLU])*)[ -]?bands?\b")
+# Band names: "C band", "C-Band", "C+L-band", "C&L band", "C- and L-band", "O- to U-bands", with an ASCII
+# hyphen or the U+2010, U+2011, U+2013 hyphens OpenAlex abstracts use. Group 1 holds the band letters.
+BAND_RE = re.compile(r"\b([OESCLU](?:(?:\s*(?:[+/,&\-\u2010\u2011\u2013]|and|or|to))+\s*[OESCLU])*)"
+                     r"[ \-\u2010\u2011\u2013]?[Bb]ands?\b")
 
 
 def bands(text):

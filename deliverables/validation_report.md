@@ -1330,3 +1330,96 @@ No failing items.
   run 2 stage 6 matrix rework, 2026-09-26 17:11), and this round finds that
   "lab" now has the same kind of problem, because its quote never uses lab
   language either.
+
+## Corrections after code review (pull request #4)
+
+This section was added after the code review of pull request #4. Every
+section above, including "Run 2 audit after the anchor papers (seed
+20260929)", is left exactly as first written. Each item below quotes a
+sentence from that section that is wrong or misleading, states the correct
+fact, and names where that fact comes from. The second judge of that audit
+flagged items 2 and 3 first, and noted the skipped subchecks behind item 1
+(STATUS.md, 2026-09-26 21:21 line). None of the three changes a pass count,
+a fail count, a rate, or the Gate C result
+(data/work/audit_s20260929_round1.json).
+
+### 1. Check (a) did not compare all four fields on all 20 papers
+
+"Check (a). Re-fetch 20 random core papers" says "0 mismatches on title,
+year, cited_by_count (within 10 percent), or the first author's first
+institution, across all 20 papers."
+
+The count of 0 mismatches stands (a_refetch.fail in
+data/work/audit_s20260929_round1.json), but not every field was compared on
+every paper. Title and year were compared on all 20 papers (the subchecks
+of a_refetch.items in the same file). cited_by_count was compared on 18
+(same file), because the 2 arXiv-only papers, arxiv:2604.22146 and
+arxiv:2507.12265, have no stored count (stored cited_by_count is null in
+the same file). First institution was compared on 16 (same file), because
+W2951487609, W2260723393 and the same 2 arXiv-only papers have no
+first-author institution on either the stored side or the re-fetched side.
+pipeline/audit.py records a field that is missing on either side as not
+compared, not as a pass (check_a, lines 293 to 302 at commit 4bc8129).
+
+### 2. Check (b) miscounted the code-checked and judged cells
+
+"Check (b). Matrix cells" says "All 47 pass, 0 fail, including all 18
+academic_groups and companies cells." It then says "The other 30 reported
+or derived cells (all category or free-text dimensions that passed the
+mechanical id-and-quote check) needed the auditor's read".
+
+Both counts are wrong. The 47 cells resolved by code are 38 reported and 9
+derived cells (b_matrix_cells_stage1.resolved in
+data/work/audit_s20260929_prejudge.json, matched to the status column of
+deliverables/comparison_matrix.csv). Only 14 of the 47 are academic_groups
+or companies cells, 9 academic_groups and 5 companies (same two files). The
+other 33 are measured-dimension cells (same two files).
+
+The other 4 companies cells (mems_2d, thermo_optic, electro_optic and soa)
+have status no_source (deliverables/comparison_matrix.csv), so they are not
+reported or derived cells and are not among the 47. The separate
+academic_groups and companies recompute did cover them, and it matched 18
+of 18 (academic_groups_companies_check in the prejudge file). So 18 is
+right for that recompute and wrong for the 47.
+
+The matrix has 89 reported or derived cells, 80 reported and 9 derived
+(status column of deliverables/comparison_matrix.csv). That leaves 42 after
+the 47, not 30. All 42 passed the mechanical check, which confirms that
+every cited paper and project row exists and that every quote is verbatim
+in a cited abstract or project row quote. The reason is that
+pipeline/audit.py writes a category or free-text cell that fails this
+check into resolved as a fail (check_b, lines 489 to 494 at commit
+4bc8129), and resolved holds 47 passes and 0 fails (prejudge file). The
+auditor judged 30 of the 42 (pending_judgment_cell_ids in the prejudge
+file). They are the 27 reported category cells in the census and the 3
+free-text cells that landed in the Gate C sample, electro_optic:scaling_limit,
+thermo_optic:scaling_limit and lcos:packaging_notes (category_census_ids
+and gate_sample_ids in the prejudge file).
+
+The other 12 reported free-text cells were neither checked by code for
+their value nor judged this round (prejudge file, compared with
+deliverables/comparison_matrix.csv). Their quotes are verbatim, but nobody
+read whether the quotes support the value. They are the packaging_notes
+cells of mems_3d, mems_2d, mems_silicon_photonic, piezo, thermo_optic,
+electro_optic, soa and robotic_patch_panel, and the scaling_limit cells of
+mems_3d, mems_silicon_photonic, piezo and soa. The script skips them by
+design, because it judges only cells in the Gate C sample or the census
+(the comment in check_b, lines 501 to 503 at commit 4bc8129). The section
+above does not say this, so a reader would take every reported cell as
+verified.
+
+### 3. The piezo:trl_band history cites a STATUS.md line that does not mention piezo
+
+The third item of "Other observations, not covered by the four checks" says
+the stage 6 rebuild changed piezo:trl_band from production to lab, and
+cites "(STATUS.md, run 2 stage 6 matrix rework, 2026-09-26 17:11)".
+
+The 17:11 line of STATUS.md (line 54) does not contain the word piezo. The
+production value is in STATUS.md's 2026-09-26 14:36 line (stage 6 matrix,
+run 2 rebuild), which gives piezo trl_band as "production (low, vendor
+claim)" from projects.csv rows 5 and 10. The change to lab and its reason
+are in the 2026-09-26 17:06 line from the run 2 stage 6 analyst in
+deliverables/pitfalls_original_log.md (line 186), which says "Row 5
+(Polatis) has stage shipping but its quote describes the mechanism, not
+availability, so piezo trl_band stays lab." The reason given in the section
+above matches that line. Only the citation was wrong.

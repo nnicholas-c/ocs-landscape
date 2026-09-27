@@ -70,9 +70,9 @@ Gate B needs a route and a TRL (technology readiness level) band on every core p
 
 Gate C allows at most 10 percent re-fetch mismatches, 10 percent unsupported matrix cells, and 20 percent failed project links, plus 90 percent verbatim spans (PLAN.md). In run 1, round 1 found 25 percent of sampled cells unsupported. Then matrix_build.py imported the audit's value test and 18 of 27 category cells were padded to pass it, so Gate C passed round 2 at 0 percent (deliverables/validation_report.md, round 3). Only the second judge caught this (STATUS.md, 07:42 line), so the rework separated build and audit, and no pipeline script imports audit.py (STATUS.md, 15:10 and 17:56 lines).
 
-The first run 2 audit failed check (b) at 15 percent, mostly on quotes from the wrong sentence, and its second round passed at 0 percent by re-checking the same 20 cells after stage 6 re-anchored 4 quotes. The run 2 audit after the anchor papers drew new samples and passed on its first round. Neither calls export.arxiv.org, and unlike round 3 both recompute academic_groups and companies independently, matching 18 of 18 cells (deliverables/validation_report.md). Re-judging the category cells blind, the second judge agreed with the auditor on 24 of 27 in round 3 and in the latest audit (STATUS.md, 15:10 and 21:21 lines).
+The first run 2 audit (seed 20260928) failed check (b) at 15 percent, mostly on quotes from the wrong sentence, and its second round passed at 0 percent by re-checking the same 20 cells after stage 6 re-anchored 4 quotes. The run 2 audit after the anchor papers (seed 20260929) drew new samples and passed on its first round. Neither calls export.arxiv.org, and unlike round 3 both recompute academic_groups and companies independently, matching 18 of 18 cells (deliverables/validation_report.md). Re-judging the category cells blind, the second judge agreed with the auditor on 24 of 27 in round 3 and in the latest audit (STATUS.md, 15:10 and 21:21 lines).
 
-The second judge also sent stages 2, 4, and 8 back for problems no gate measures, such as wrong merges and a broken graph page (STATUS.md, RETRY lines).
+The second judge also sent stages 1a, 2, 4, and 8 back for problems no gate measures, such as wrong merges and a broken graph page (STATUS.md, RETRY lines).
 
 ## Why this shape
 

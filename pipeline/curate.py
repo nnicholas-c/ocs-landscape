@@ -27,7 +27,7 @@ from pathlib import Path
 from rapidfuzz import fuzz
 from unidecode import unidecode
 
-from pipeline.collect_openalex import extract_arxiv_id
+from pipeline.collect_openalex import extract_arxiv_id, load_queries
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 RAW_DIR = REPO_ROOT / "data" / "raw"
@@ -42,15 +42,18 @@ REPORT_PATH = REPO_ROOT / "deliverables" / "curation_report.md"
 BASELINE_PATH = REPO_ROOT / "data" / "work" / "run2_baseline.json"
 ARXIV_VIA_OPENALEX_SOURCE = "arxiv_via_openalex"
 
-# Step 2, anchor papers. DOIs recorded in data/work/step2_anchors.md (found
-# by web search from ACM Digital Library / publisher pages, since OpenAlex's
-# title field truncates before the colon for all three and cannot clear
-# FUZZY_THRESHOLD on the full anchor title). Used only to look up whatever
-# ended up in the database, never to add or assume a record.
+# Step 2, anchor papers. DOIs and OpenAlex titles recorded in
+# data/work/step2_anchors.md (DOIs found by web search from ACM Digital
+# Library / publisher pages, since OpenAlex's title field truncates before
+# the colon for all three and cannot reach token_sort_ratio 95 against the
+# full anchor title; that is the step 2 title check, stricter than the
+# playbook's token_set_ratio rule, which scores a pre-colon subset 100). Used
+# only to look up whatever ended up in the database and to recompute the
+# title check score for the report, never to add or assume a record.
 STEP2_ANCHOR_DOIS = [
-    ("Jupiter Evolving", "10.1145/3544216.3544265"),
-    ("RotorNet", "10.1145/3098822.3098838"),
-    ("c-Through", "10.1145/1851182.1851222"),
+    ("Jupiter Evolving", "10.1145/3544216.3544265", "Jupiter evolving"),
+    ("RotorNet", "10.1145/3098822.3098838", "RotorNet"),
+    ("c-Through", "10.1145/1851182.1851222", "c-Through"),
 ]
 
 FUZZY_THRESHOLD = 95
@@ -743,22 +746,30 @@ def main():
         # Step 2, anchor papers: look up each anchor's known DOI (from
         # data/work/step2_anchors.md) against the rebuilt papers table. This
         # only reports what is on disk; it never adds a record.
+        anchor_titles = load_queries()["anchors"]
         anchor_status = []
-        for label, doi in STEP2_ANCHOR_DOIS:
+        for label, doi, oa_title in STEP2_ANCHOR_DOIS:
             ndoi = normalize_doi(doi)
             row = con.execute(
-                "SELECT paper_id, core_set, sources FROM papers WHERE doi = ?", (ndoi,)
+                "SELECT paper_id, core_set, sources, relevance_score FROM papers WHERE doi = ?", (ndoi,)
             ).fetchone()
             n_raw_with_doi = sum(
                 1 for kk in order if normalize_doi(records[kk].get("doi")) == ndoi
             )
+            (full_title,) = [t for t in anchor_titles if t.startswith(label)]
             anchor_status.append({
                 "label": label, "doi": ndoi,
                 "paper_id": row[0] if row else None,
                 "core_set": row[1] if row else None,
                 "sources": row[2] if row else None,
+                "relevance_score": row[3] if row else None,
                 "n_raw_with_doi": n_raw_with_doi,
+                "oa_title": oa_title,
+                "title_score": fuzz.token_sort_ratio(normalize_title(oa_title), normalize_title(full_title)),
             })
+        # Whether stage 3 has already retagged the ids that retired run 1 ids became.
+        tagged_now = {r[0] for r in con.execute("SELECT DISTINCT paper_id FROM tags")}
+        n_orphans_untagged = sum(1 for _, new_pid in orphan_mapping if new_pid not in tagged_now)
     finally:
         con.close()
     if n_tags_deleted > 0:
@@ -793,6 +804,7 @@ def main():
         gained_openalex_id=gained_openalex_id,
         fuzzy_new_rows=fuzzy_new_rows,
         orphan_mapping=orphan_mapping,
+        n_orphans_untagged=n_orphans_untagged,
         n_tags_deleted=n_tags_deleted,
         fallback_arxiv_merges=fallback_arxiv_merges,
         anchor_status=anchor_status,
@@ -870,7 +882,7 @@ def write_report(**k):
 
     def anchor_line(a):
         if a["paper_id"]:
-            core = "core (score 3)" if a["core_set"] == 1 else "not core"
+            core = f"core (score {a['relevance_score']})" if a["core_set"] == 1 else "not core"
             return (
                 f"- {a['label']} (DOI {a['doi']}): in the database as "
                 f"{a['paper_id']}, {core}, sources \"{a['sources']}\", matched "
@@ -914,15 +926,21 @@ def write_report(**k):
             ssrn_notes.append(f"{r['record_key']} is an SSRN working paper record")
         if (r["doi_b"] or "").startswith("10.2139/ssrn"):
             ssrn_notes.append(f"openalex:{r['paper_id']} is an SSRN working paper record")
-    fallback_ssrn_note = (" " + " and ".join(ssrn_notes) + ".") if ssrn_notes else ""
+    fallback_ssrn_note = (
+        " " + " and ".join(ssrn_notes).replace("SSRN", "SSRN (Social Science Research Network)", 1) + "."
+    ) if ssrn_notes else ""
 
     old_core_after = old["core"] if old["exists"] else "not available (no prior database)"
     old_extended_after = old["extended"] if old["exists"] else "not available (no prior database)"
     n_old_arxiv_only = len(old["arxiv_only"]) if old["exists"] else 0
     gained_institutions_count = sum(1 for g in gained if g["has_institution"])
+    n_untagged = k["n_orphans_untagged"]
     tags_orphan_note = (
         f"{len(orphans)} run 1 tags row(s) referenced a paper_id that this merge "
-        f"retired. Stage 3 must retag these under the new id shown below."
+        f"retired. "
+        + (f"{n_untagged} of the new ids shown below have no tags row yet, so stage 3 "
+           f"must retag them." if n_untagged else
+           "Every new id shown below already has a tags row.")
         if orphans else
         "No run 1 tags row referenced a paper_id that this merge retired."
     ) + (
@@ -931,10 +949,12 @@ def write_report(**k):
         + (f", logged in {pitfalls_rel}." if k["n_tags_deleted"] else ".")
     )
 
-    # ---- Step 2, anchor papers narrative. Built from anchor_status (a DB
-    # lookup, not an assumption), so this stays accurate if a future run adds
-    # an anchor or the raw files change, instead of hardcoding "2 missing, 1
-    # already present". ----
+    # ---- Step 2, anchor papers narrative. Which anchors are missing or
+    # present, and their title check scores, come from anchor_status (a DB
+    # lookup, with scores computed from the titles). The prose around them is
+    # written for step 2's outcome in data/work/step2_anchors.md (Jupiter
+    # Evolving and RotorNet fetched, then removed). The assert below stops the
+    # run if that outcome changes, so the paragraph must be revisited then. ----
     def _label_list(items):
         labels = [a["label"] for a in items]
         if not labels:
@@ -954,16 +974,21 @@ def write_report(**k):
     )
 
     if anchor_missing:
+        assert {a["label"] for a in anchor_missing} == {"Jupiter Evolving", "RotorNet"}, (
+            "the anchor paragraph below covers exactly these two; revisit it")
         missing_raw_total = sum(a["n_raw_with_doi"] for a in anchor_missing)
+        oa_titles = ", ".join(f"\"{a['oa_title']}\"" for a in anchor_missing)
+        scores = " and ".join(f"{a['title_score']:.2f} for {a['label']}" for a in anchor_missing)
         anchor_missing_para = (
             f"{_label_list(anchor_missing)} were fetched from OpenAlex by DOI "
             f"and then removed before this stage ran, so this run added "
             f"neither. The anchor title check (rapidfuzz token_sort_ratio at "
-            f"least 95 against the full anchor title in pipeline/queries.yaml) "
+            f"least 95 against the full anchor title in pipeline/queries.yaml, "
+            f"a stricter test than the playbook's token_set_ratio rule, which "
+            f"the truncated titles would pass) "
             f"does not confirm either one, because OpenAlex's title field "
-            f"holds only the words before the colon (\"Jupiter evolving\", "
-            f"\"RotorNet\"), so the check scores 23.88 for Jupiter Evolving and 23.19 for "
-            f"RotorNet, both well under the threshold. The two anchors were "
+            f"holds only the words before the colon ({oa_titles}), so the check "
+            f"scores {scores}, both well under the threshold. The two anchors were "
             f"not confirmed by the title check, so they were not added. That "
             f"is left as an open question for a human in "
             f"data/work/step2_anchors.md. Neither DOI is in any "
@@ -1202,9 +1227,9 @@ above involve at least one arxiv_via_openalex record.
 
 {anchor_missing_para} {anchor_present_para}
 
-### The two arXiv-ID merges from the extract_arxiv_id fallback
+### The {len(fallback_merges)} arXiv-ID merges from the extract_arxiv_id fallback
 
-The PR #1 code review fix that recovers arxiv_id from a raw OpenAlex
+The pull request #1 code review fix that recovers arxiv_id from a raw OpenAlex
 record's landing_page_url, for records whose own arxiv_id field is null,
 let arXiv-ID matching catch {len(fallback_merges)} pair(s) this run that
 duplicate detection missed before the fix (both sides of each pair already
