@@ -2,9 +2,12 @@
 
 Read-only. Opens data/db/papers.sqlite in read-only mode and reads data/raw/*.jsonl,
 pipeline/queries.yaml, data/raw/relevance.csv (through the collector's own seed
-function) and data/projects.csv. Writes only the --out JSON.
+function) and data/projects.csv. Writes only the --out JSON. --out is required so
+one run's output never overwrites another's.
 
-    .venv/bin/python -m pipeline.check_route_provenance --out data/work/nc1_route_provenance.json
+    run 1: .venv/bin/python -m pipeline.check_route_provenance --out data/work/nc1_route_provenance.json
+           (reproduces run 1's file only against run 1's database and data/raw files, commit 8172417)
+    run 2: .venv/bin/python -m pipeline.check_route_provenance --out data/work/nc1_run2_route_provenance.json
 
 SQL used (all SELECTs):
 
@@ -30,9 +33,11 @@ SQL used (all SELECTs):
       JOIN paper_authors b ON b.author_id = a.author_id
      WHERE a.paper_id = ? AND b.paper_id <> a.paper_id;
 
-Entry path of a raw record is read from its JSONL "query" field. It is one of
+Entry path of a raw record is read from its JSONL "query" and "source" fields. It is one of
   query:<source>:<exact query string>   a phrase query (openalex or arxiv)
-  anchor:<title>                        an anchor title lookup from queries.yaml
+  arxiv_via_openalex:<phrase>           a run 2 phrase query against OpenAlex's arXiv index
+  anchor:<title>                        an anchor title lookup; the query field holds either
+                                        the plain title from queries.yaml or "anchor:<title>"
   snowball:<seed openalex id>           the stage 1c snowball
 CAVEAT: the collectors skip a record_key already on disk, so each raw record
 carries only the FIRST query that found it. A paper also matched by a later
@@ -80,13 +85,19 @@ QUERY_NAMES_ROUTE = {
 }
 
 
+def phrase_tag(source, q):
+    if source == "arxiv_via_openalex":
+        return f"arxiv_via_openalex:{q}"
+    return f"query:{source}:{q}"
+
+
 def entry_path(rec, anchors):
     q = rec.get("query") or ""
-    if q.startswith("snowball:"):
+    if q.startswith(("snowball:", "anchor:")):
         return q
     if q in anchors:
         return f"anchor:{q}"
-    return f"query:{rec.get('source')}:{q}"
+    return phrase_tag(rec.get("source"), q)
 
 
 def kind(path):
@@ -99,7 +110,7 @@ def sorted_counter(c):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--out", default="data/work/nc1_route_provenance.json")
+    ap.add_argument("--out", required=True)
     args = ap.parse_args()
 
     cfg = yaml.safe_load(QUERIES_PATH.read_text(encoding="utf-8"))
@@ -263,11 +274,13 @@ def main():
     for pid, ps in paper_paths.items():
         for x in ps:
             by_path_papers[x].add(pid)
+    arxiv_phrases = (cfg.get("arxiv") or {}).get("phrases") or []
     qlist = [("openalex", q) for q in cfg.get("openalex") or []] + \
-            [("arxiv", q) for q in (cfg.get("arxiv") or {}).get("phrases") or []]
+            [("arxiv", q) for q in arxiv_phrases] + \
+            [("arxiv_via_openalex", q) for q in arxiv_phrases]
     queries = []
     for source, q in qlist:
-        tag = f"query:{source}:{q}"
+        tag = phrase_tag(source, q)
         pids = by_path_papers.get(tag, set())
         queries.append({
             "source": source,
@@ -297,6 +310,10 @@ def main():
                     for row in csv.DictReader(f) if row["tech_route"] in PROJECT_ROUTES]
 
     # ---- self-checks ----
+    assert entry_path({"query": "anchor:T"}, set()) == entry_path({"query": "T"}, {"T"}) == "anchor:T"
+    assert entry_path({"query": "p", "source": "arxiv_via_openalex"}, set()) == "arxiv_via_openalex:p"
+    assert entry_path({"query": "p", "source": "openalex"}, set()) == "query:openalex:p"
+    assert entry_path({"query": "snowball:W1", "source": "openalex_snowball"}, set()) == "snowball:W1"
     assert sum(r["core_papers"] for r in route_entry.values()) == len(core)
     assert all(paper_paths[pid] for pid in core), "a core paper has no raw record"
     assert sum(no_snowball.values()) == len(core) - sum(snowball_only(p) for p in core)
@@ -310,6 +327,7 @@ def main():
         "papers": len(papers),
         "core_papers": len(core),
         "core_route_counts": sorted_counter(route_counts),
+        "largest_route": next(iter(route_entry)),
         "route_entry": route_entry,
         "q1_mems_silicon_photonic": {"summary": focus_summary, "papers": focus_papers},
         "q2_core_route_counts_without_snowball_only": sorted_counter(no_snowball),

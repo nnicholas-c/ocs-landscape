@@ -1,0 +1,146 @@
+[
+ {
+  "name_key": "chen b",
+  "label": "different_people",
+  "pairs_same": [],
+  "reason": "Three records with three different given names (Benwen, Bao, Bin) at three different institutions (Nanjing University, Chinese Academy of Sciences, Hefei University of Technology) on unrelated topics. The only shared signal is co-author name key 'guo h', but the full names differ (Hangbing Guo vs Hangyu Guo)."
+ },
+ {
+  "name_key": "chen g",
+  "label": "different_people",
+  "pairs_same": [],
+  "reason": "Four records with four different given names (Genxiang, Guihai, Guanyu, Guo) at different institutions and on different topics (LCOS wavelength selective switches, data center network survey, lithium niobate and multimode switches, OCS scheduling). No shared co-authors, affiliations or papers."
+ },
+ {
+  "name_key": "chen s",
+  "label": "same_person",
+  "pairs_same": [
+   [
+    "A5068274938",
+    "A5108580591"
+   ]
+  ],
+  "reason": "The two Sai Chen records share co-author Chongjin Xie (same author ID) and own affiliation Alibaba Group (China) in adjacent years 2020 and 2021, both on data center optical networks. Shixi Chen and Shawn Shuoshuo Chen have different given names and no shared signals."
+ },
+ {
+  "name_key": "chen y",
+  "label": "same_person",
+  "pairs_same": [
+   [
+    "A5063849486",
+    "A5100383074"
+   ],
+   [
+    "A5100378075",
+    "A5100378166"
+   ],
+   [
+    "A5014132910",
+    "A5022536157"
+   ]
+  ],
+  "reason": "Ying Chen pair shares co-authors Genxiang Chen, Xiao Chen, Yiquan Wang, Yunshu Gao and own affiliation Minzu University of China on LCOS wavelength selective switches. Yan Chen pair (Northwestern University) shares co-authors including Ankit Singla and Atul Kumar Singh on two versions of the OSA paper. Young-Kai Chen pair (2012, 2014) shares institution Alcatel Lucent (Germany) and the silicon photonics topic, with no shared co-authors, so that pair is the least certain. The two Yu Chen records (genome mapping at University of Illinois Urbana-Champaign vs ML hardware roadmap at Fudan) look like different people; Yan Chen A5100772607 (6G white paper, no affiliation) has no link to the Northwestern Yan Chen."
+ },
+ {
+  "name_key": "liu z",
+  "label": "same_person",
+  "pairs_same": [
+   [
+    "A5045206037",
+    "name:liu z#2"
+   ],
+   [
+    "A5045206037",
+    "name:liu z#5"
+   ],
+   [
+    "name:liu z#2",
+    "name:liu z#5"
+   ],
+   [
+    "name:liu z",
+    "name:liu z#4"
+   ]
+  ],
+  "reason": "Zhuotao Liu appears as OpenAlex record A5045206037 (Tsinghua University, optical data center routing) and name-only records #2 and #5; all three share co-authors Peirui Cao, Shizhen Zhao and Xinbing Wang on OCS architecture papers. ZhuoRan Liu (name:liu z) and Zhuoran Liu (#4) share co-authors including Peirui Cao, Weihao Jiang and Xinchi Han. ZhuoRan and Zhuotao co-author the same papers (arxiv:2411.01503, arxiv:2603.28168), so they are two people. Zhuangjian Liu and Zhiyuan Liu co-author W4323653529, so they are two people. Other records have different given names and topics."
+ },
+ {
+  "name_key": "patterson d",
+  "label": "same_person",
+  "pairs_same": [
+   [
+    "A5077202069",
+    "name:patterson d"
+   ]
+  ],
+  "reason": "David A. Patterson A5077202069 (Google, TPU papers) and name-only David Patterson (2026, Google TPU supercomputers) share co-author Cliff Young and Norman P. Jouppi (listed as Norman Paul Jouppi), plus the TPU topic. The 2009 Berkeley record A5101927146 (Roofline) has no shared co-author or institution in the file, so its link to the others cannot be told from this evidence."
+ },
+ {
+  "name_key": "singh a",
+  "label": "same_person",
+  "pairs_same": [
+   [
+    "A5091977482",
+    "A5115593346"
+   ],
+   [
+    "A5100732962",
+    "A5103703352"
+   ]
+  ],
+  "reason": "The two Arjun Singh records share many co-author IDs (for example Ryohei Urata, Amin M. Vahdat, Hong Liu) on the Apollo OCS papers of 2022 and 2023. The two Atul Kumar Singh records share co-authors Ankit Singla, Kishore Ramachandran, Lei Xu, Yueping Zhang and own affiliation Princeton University on OSA and Proteus. Arjun and Atul Kumar are different people."
+ },
+ {
+  "name_key": "wei y",
+  "label": "different_people",
+  "pairs_same": [],
+  "reason": "Two records with different given names (Yuming at Huawei, 2017, silicon photonic switch; Yiran, 2025, nonreciprocal OCS) and no shared co-authors, affiliations or papers."
+ },
+ {
+  "name_key": "wu j",
+  "label": "different_people",
+  "pairs_same": [],
+  "reason": "Seven records with seven different given names (Jingbo, Jiamin, Jiayang, Jeffrey, Juejian, Junhui, Jian) at different institutions and on different topics. No pair shares a co-author, own affiliation or paper; the few shared institutions on papers link people with different given names."
+ },
+ {
+  "name_key": "xu h",
+  "label": "cannot_tell",
+  "pairs_same": [],
+  "reason": "Hongnan Xu (Chinese University of Hong Kong, silicon photonics) differs by given name. Hong Li Xu (2013 data center networking survey) and Hong Xu (2026 RL orchestration on data center networks) have close names and a loosely related topic, but no shared co-authors, no affiliation on either record and years 2013 vs 2026, so that pair cannot be decided from this file."
+ },
+ {
+  "name_key": "yang y",
+  "label": "different_people",
+  "pairs_same": [],
+  "reason": "Eleven records with eleven different given names (Yue, Yiyuan, Yisu, Yuanmu, Yuchao, Younghwan, Ya Feng, Yuanjie, Yang, Yiyao, Yucong) at different institutions and on different topics. No pair shares a co-author, own affiliation or paper."
+ },
+ {
+  "name_key": "yang z",
+  "label": "different_people",
+  "pairs_same": [],
+  "reason": "Two records with different given names (Zijiang, OCS with DFB laser array; Zhiyong, University of Central Florida, AR and VR liquid crystal displays) and no shared co-authors, affiliations or papers."
+ },
+ {
+  "name_key": "zhang h",
+  "label": "different_people",
+  "pairs_same": [],
+  "reason": "Twelve records, mostly with different given names. The three Hao Zhang records (Tianjin University 2021 optical phased arrays, University of Science and Technology of China 2019 OAM transmission, Beijing Institute of Technology 2025 MEMS switch) have different institutions, topics and co-author sets with no shared signal, though their years do not overlap, so a move cannot be fully excluded. Other shared institutions on papers link people with different given names."
+ },
+ {
+  "name_key": "zhang j",
+  "label": "different_people",
+  "pairs_same": [],
+  "reason": "Four records. Jinsong and Jianfa differ by given name. The two Jie Zhang records differ in institution (Beijing University of Posts and Telecommunications vs China Meteorological Administration), topic (hybrid electrical and optical switches vs climate model) and co-authors in adjacent years 2019 and 2021."
+ },
+ {
+  "name_key": "zhu y",
+  "label": "same_person",
+  "pairs_same": [
+   [
+    "A5084336844",
+    "name:zhu y"
+   ]
+  ],
+  "reason": "Yibo Zhu A5084336844 (2025, InfiniteHBD OCS paper) and name-only Yibo Zhu (2026, OrchestrRL) share co-authors Yu Zhou and Yimin Jiang (listed as 'Jiang, Yimin') on data center network papers in adjacent years. The 2012 Yibo Zhu record (Santa Barbara City College, paper 'Mirror mirror on the ceiling') has no shared signal with them, so its link cannot be told. Other records have different given names."
+ }
+]
