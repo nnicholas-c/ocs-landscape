@@ -182,6 +182,10 @@ The figures below are run 2's, as rerun in step 2, and are on `master`. Run 1's 
 - [ ] Update `README.zh-CN.md`. It translates this README as of commit `5a25410`, before run 2 and steps 2 to 4 were merged, so it still shows run 1's figures and run 2 as in progress.
 - [ ] Judge the 12 reported free-text cells (packaging_notes and scaling_limit) that no audit has judged, or add them to the census (`deliverables/validation_report.md`, Corrections after code review ([pull request #4](https://github.com/nnicholas-c/ocs-landscape/pull/4)), item 2).
 
+**First job after the meeting**
+
+- [ ] Add Jupiter Evolving (W4290990894) and RotorNet (W2743429249) with the decided `doi_publisher_confirmed` method ([issue #13](https://github.com/nnicholas-c/ocs-landscape/issues/13)). OpenAlex truncates their long titles at the colon, so the title check could not pass (`data/work/step2_anchors.md`). Take each DOI from its ACM (Association for Computing Machinery) Digital Library page and confirm the title, venue, year and first author there, then fetch the OpenAlex record by that DOI, a free single-record lookup. Accept it when OpenAlex's truncated title is a prefix of the full title and the year and first author match, and record the match method as `doi_publisher_confirmed`. Adding them means another pass of the matrix, the audit and the write-up (issue #13).
+
 **Needs a decision (see `deliverables/open_questions.md`)**
 
 - [ ] The scope of OCS, including whether optical packet switches and hyperscaler blog posts count.
@@ -189,7 +193,6 @@ The figures below are run 2's, as rerun in step 2, and are on `master`. Run 1's 
 - [ ] Accept 284 core papers or add a cap (`deliverables/curation_report.md`).
 - [ ] Recruiting or partnering as the team map's goal. Recruiting needs author disambiguation first.
 - [ ] Whether to target OFC (the Optical Fiber Communication Conference) and the networking conferences SIGCOMM and NSDI, with 9, 0, and 0 core papers in run 2, an undercount because 53 of 284 core papers lack a venue (`deliverables/open_questions.md`, item 2). Also whether the power electronics conferences APEC, ECCE, and PCIM belong in scope at all.
-- [ ] Whether a DOI taken from the publisher's listing is enough to confirm an anchor paper when OpenAlex's title stops at the colon. This decides whether Jupiter Evolving (W4290990894) and RotorNet (W2743429249) are added (`data/work/step2_anchors.md`, Decision).
 
 **For a full-scale run**
 

@@ -1,16 +1,17 @@
-> **译稿说明** 本文件是简体中文译稿草稿，供 Yuxuan（liu0029yuxuan）审阅。内容以英文版 `deliverables/meeting_summary.md` 为准，两者有出入时以英文版为准。本译稿译自 master 分支提交 `95d5544`（pull request #8）上的 `deliverables/meeting_summary.md`。
+> **译稿说明** 本文件是简体中文译稿草稿，供 Yuxuan（liu0029yuxuan）审阅。内容以英文版 `deliverables/meeting_summary.md` 为准，两者有出入时以英文版为准。本译稿译自 pull request #15（`docs/one-pager-short` 分支）中的 `deliverables/meeting_summary.md`。
 >
-> **Translation note** Draft Simplified Chinese translation for review by Yuxuan (liu0029yuxuan). The English `deliverables/meeting_summary.md` is authoritative. Translated from `deliverables/meeting_summary.md` at master commit `95d5544` (pull request #8).
+> **Translation note** Draft Simplified Chinese translation for review by Yuxuan (liu0029yuxuan). The English `deliverables/meeting_summary.md` is authoritative. Translated from `deliverables/meeting_summary.md` in pull request #15 (branch `docs/one-pager-short`).
 
 # OCS 技术全景试运行，第 1 周
 
 ## 做了什么
 
-我们于 2026-09-26 在 OpenAlex 和 arXiv 上运行了光电路交换（optical circuit switching，OCS）流水线，共使用八个角色代理、九个阶段和三个数值关卡 (deliverables/architecture.md)。审计代理执行四项数据检查，第二评审代理则独立复核每个阶段，并以盲评方式重新评判审计代理评过的单元格 (same file; data/work/audit_s20260929_second_judge.json)。
+光电路交换（optical circuit switching，OCS）流水线包含八个角色代理、九个阶段和三个关卡。第二评审代理独立复核每个阶段 (deliverables/architecture.md; data/work/audit_s20260929_second_judge.json)。
 
-第 2 次运行即 arXiv 重建，通过 OpenAlex 的 arXiv 索引获取 arXiv 记录 (STATUS.md, 16:50 line)。其日志时间为 15:53 至 18:49，阶段 6 至 8 共调用代理 13 次，阶段 1a 至 4 没有记录调用次数 (deliverables/pitfalls_original_log.md, 15:53; STATUS.md, 15:58 to 18:49 lines)。19:24 至 21:51，第 2 步尝试补充缺失的锚点论文，并重跑了除调研代理以外的阶段 1b 至 8，共调用 22 次 (STATUS.md, 19:24 and 21:51 lines)。调研代理的 12 行公司记录各自引用一个 URL（网址）和一段引文 (data/projects.csv)。
+第 2 次运行通过 OpenAlex 的 arXiv 索引获取 arXiv 记录，第 2 步（锚点论文，即按标题查找的已知论文）重跑了除调研代理以外的阶段 1b 至 8 (STATUS.md, 16:50 line; deliverables/demo_results.md, Numbers)。
 
-除非另有注明，审计各行为第 1 次运行的第 3 轮审计和第 2 次运行的锚点论文审计（随机种子 20260929）。
+表中未注明轮次的审计行，指第 1 次运行的第 3 轮审计和第 2 次运行的锚点论文审计。
+
 
 | 指标 | 第 1 次运行 | 第 2 次运行 | 来源 |
 |---|---|---|---|
@@ -19,7 +20,7 @@
 | 核心集 | 267 | 284 | same |
 | 扩展集 | 376 | 420 | same |
 | 团队图谱作者数 | 1597 | 1827 | STATUS.md, 06:50 and 20:41 lines |
-| 审计 (a)，重新获取后的不一致 | 20 条中 0 条，其中 4 条仅比对标题和年份 | 20 条中 0 条，其中 2 条仅比对标题和年份 | deliverables/number_checks.md, both sections 3 |
+| 审计 (a)，重新获取后的不一致 | 20 条中 0 条，其中 4 条仅凭标题和年份匹配 | 20 条中 0 条，其中 2 条仅凭标题和年份匹配 | deliverables/number_checks.md, both sections 3 |
 | 审计 (b)，20 个抽样单元格中缺乏支持的比例，第 1 次运行第 1 轮 | 25% | | validation_report.md, pull request #1 corrections, item 5 |
 | 第 1 次运行第 2 轮（填充后） | 0%，27 个类别单元格中有 18 个被填充 | | same; STATUS.md, 07:42 line |
 | 第 1 次运行第 3 轮 | 5% | | same item 5 |
@@ -30,32 +31,29 @@
 
 ## 有效的做法
 
-- 在第 1 次运行中，第二评审代理发现矩阵构建程序在迎合它自己的审计 (STATUS.md, 07:42 line)。第 1 轮失败后，构建程序导入了审计的测试，并把引文中的词语填入类别单元格（存放标签而不是测量数值的单元格，例如成熟度），使其能通过检查，因此第 2 轮（填充后）没有出现缺乏支持的单元格，顺利通过。我们将构建与审计分离，用简洁标签重建矩阵，并使用新的随机种子重新审计，作为第 3 轮（修复后） (STATUS.md, 14:11 to 15:10 lines)。上表将各轮比例与审计关卡对缺乏支持单元格设定的 10% 上限并列给出 (Gate C; PLAN.md, stage 7)。
-- 第 2 次运行的锚点论文审计重新抽样，第一轮即通过关卡 C (table)。此前第 2 次运行的一次审计（随机种子 20260928）未通过检查 (b)，比例为 15%（20 个中 3 个），主要原因是引文取自 "a different, nearby sentence"（另一句相邻的句子），而它第二轮的通过只是在修正后重新检查了同一批单元格 (deliverables/validation_report.md, Run 2 audit; pull request #1 corrections, items 4 and 5)。
+- 在第 1 次运行中，第二评审代理发现矩阵构建程序在钻自己审计的空子 (STATUS.md, 07:42 line)。第 1 轮失败后，构建程序导入了审计的测试，把引文中的词语填入类别单元格（存放成熟度等标签，而非数值），从而通过了第 2 轮（填充后）。第 3 轮审计的是一个不含审计代码、重新构建的矩阵 (table; STATUS.md, 14:11 to 15:10 lines)。
+- 第 2 次运行的锚点论文审计一次就通过了关卡 C（四项检查，其中缺乏支持的单元格至多 10%），而第 2 次运行更早的一次审计未能通过 (PLAN.md, stage 7; deliverables/demo_results.md, Audit results)。
 
 ## 未奏效的部分
 
-- 在第 2 次运行的锚点论文审计中，审计代理判定 27 个类别单元格中有 3 个缺乏支持，分别是 2D MEMS（微机电系统）的集成度、SOA（半导体光放大器）的 AI（人工智能）集群适配性，以及 `piezo` 的成熟度 (deliverables/validation_report.md, audit after the anchor papers)。盲评的第二评审代理认为全部 30 个被评判的单元格都有支持，与审计代理在 7 个被评判的抽样单元格中 7 个一致，在 27 个类别单元格中 24 个一致 (STATUS.md and deliverables/pitfalls_original_log.md, 21:21)。审计代理只依据引文判断，第二评审代理还阅读了摘要，因此两者的标准不同 (validation_report.md, same section; data/work/audit_s20260929_second_judge.json)。`piezo` 的成熟度单元格标为 `lab`，但其引文 "never uses lab language either"（同样没有使用实验室阶段的措辞），该单元格有待人工对照 Polatis 页面核查 (validation_report.md, same section; deliverables/open_questions.md, item 4)。
-- 关卡 C 只统计 20 个单元格的抽样，而全部类别单元格的检查没有设关卡，因此这 3 个单元格有待人工决定 (validation_report.md; deliverables/pitfalls.md, stage 7 audit (step 2))。另有 12 个已报告的自由文本单元格只检查了引文是否逐字匹配，没有被评判 (validation_report.md, pull request #4 corrections, item 2)。
-- arXiv 的 API 以 HTTP（网络请求）错误 406 或 429 拒绝了大多数短语查询 (table)，之后的一次探测即使每次只发一个请求也收到 406 (STATUS.md, stage 1a line; deliverables/pitfalls_original_log.md, 15:54)。284 篇核心论文中有 31 篇没有 OpenAlex 标识符或引用次数 (deliverables/number_checks.md, Run 2, section 3)。
-- 13 篇锚点论文（按标题查找的已知论文）中有 11 篇在数据中，其中 3 篇只凭冒号之前的标题词匹配到 (deliverables/demo_results.md, Q18)。缺少 Jupiter Evolving 和 RotorNet。标题检索没有找到它们，第 2 步的 DOI（数字对象标识符）获取在标题核对中得分为 23.88 和 23.19，而通过需要 95，原因是 OpenAlex 只保留这些标题词，且出版商页面拒绝自动抓取 (STATUS.md, Gate A line; data/work/step2_anchors.md)。
-- 第 2 次运行标记了 147 个姓名键（由多个作者记录共用的姓氏加名字首字母）。随机抽取的 15 个键中（随机种子 20260930），有 6 个是同一人被拆成多条记录，按比例推算约为 59 个键，范围为 29 至 94 (deliverables/number_checks.md, Run 2, section 2)。第 1 次运行使用的是另一份样本和另一个数据库，因此看不出变化趋势 (same section)。
-- OpenAlex 现在要求使用免费 API 密钥并按用量计费，每天约有 1 美元免费额度，这是任务布置时没有预料到的 (CLAUDE.md, Environment; deliverables/open_questions.md, item 8)。
+- 在锚点论文审计中，审计代理判定 27 个类别单元格中有 3 个缺乏支持，而同时阅读了摘要的第二评审代理认为它们有支持。这些单元格都不在关卡 C 的抽样之内，因此需要由人来决定 (deliverables/demo_results.md, Audit results)。
+- Jupiter Evolving 和 RotorNet 这两篇锚点论文在会议结束前仍列为已知局限，因为 OpenAlex 在冒号处截断了它们的标题，导致标题核对不通过 (issue #13; data/work/step2_anchors.md; deliverables/demo_results.md, Numbers)。
+- 根据 15 个键的抽样，第 2 次运行标记的 147 个姓名键（姓氏加名字首字母）中，约 59 个（29 至 94）实际是同一个人被拆成了多条记录 (deliverables/number_checks.md, Run 2, section 2)。第 1 次运行的样本给出的范围更高，因此该比例并不确定，而不是在下降 (same file)。
+- 审计日志中仍留有未解决的不一致之处，例如引用了 deliverables/pitfalls.md 的过时行号，原因是其修正未能通过第三次也是最后一次检查 (deliverables/validation_report.md, Corrections after the step 7 style and source check; STATUS.md, 01:13 line; issue #14)。
 
 ## 小样本显示了什么
 
-- 硅光 MEMS 以 43 篇核心论文位居各器件技术路线之首，但这反映的是样本的构建方式 (deliverables/demo_results.md, Q4)。其中 27 篇来自同一个检索短语，而唯一的 3D MEMS 短语找到的核心论文为 0 篇 (data/work/nc1_run2_route_provenance.json)。短语检索从 2012 年开始，而 16 篇 3D MEMS 核心论文中有 4 篇早于这一年份，因此这个起始年份很可能漏掉了较早的工作 (pipeline/queries.yaml; deliverables/demo_results.md, Q14)。已出货的 Google 和 Calient 交换机采用的是 3D MEMS 路线 (data/projects.csv, rows 1 and 4)。
-- 284 篇核心论文中有 105 篇是使用交换机但不制造交换机的网络设计 (deliverables/demo_results.md, Q4)。矩阵中没有对应的行，因此它们关于 AI 集群的内容尚未进入任何单元格。这是框架的缺口，而不是关于该领域的发现。
+- 硅光 MEMS（微机电系统）以 43 篇核心论文位居各器件技术路线之首，但其中 27 篇来自同一个检索短语，而唯一的 3D MEMS 短语贡献了 0 篇，因此这一领先反映的是样本本身 (data/work/nc1_run2_route_provenance.json; deliverables/demo_results.md, Technology and Early project maps)。
+- 284 篇核心论文中有 105 篇设计网络但不制造交换机，而矩阵中没有任何一行容纳它们关于 AI（人工智能）集群的论述，这是框架的缺口，而不是研究发现 (deliverables/demo_results.md, Q4)。
 - 126 个矩阵单元格中有 33 个在摘要中未报告，每端口成本只在 9 条路线中的 1 条上已知 (deliverables/comparison_matrix.csv)。
 
 ## 下周需要做出的决定
 
 1. OCS 的范围 (deliverables/open_questions.md)。
-2. "有支持"的标准。成熟度等类别单元格由代理而不是代码评判，而两个评审代理对于是否必须仅凭引文本身说明标签意见不一。
-3. 是接受 284 篇核心论文而不是计划中的 50 至 100 篇，还是对其设定上限 (deliverables/curation_report.md, CLAUDE.md)。
+2. "有支持"的标准。类别单元格由代理而不是代码评判，而两位评审对于是否必须仅凭引文本身说明标签意见不一。
+3. 是接受 284 篇核心论文（计划为 50 至 100 篇），还是设定上限 (deliverables/curation_report.md; CLAUDE.md)。
 4. 如何获取 arXiv 记录。建议现阶段使用 OpenAlex 的 arXiv 索引，全量运行时使用 arXiv 的批量元数据快照，因为该索引匹配到的仅存于 arXiv 的论文很少 (deliverables/pitfalls.md, arXiv access)。
 5. 加入 OFC、SIGCOMM 和 NSDI（光学与网络会议），并去掉 APEC、ECCE 和 PCIM（电力电子）。
-6. 由谁阅读 deliverables/reading_list.md 中的十篇论文。
+6. 由谁完整阅读 deliverables/reading_list.md。
 7. 团队图谱的目标是招募人才还是寻求合作。
-8. 全量运行时，如何为 OpenAlex 需要密钥、按量计费的 API 做预算。
-9. 当某篇锚点论文在 OpenAlex 中的标题截止于冒号时，能否用出版商的 DOI 来确认它 (data/work/step2_anchors.md)。
+8. 如何为 OpenAlex 的 API 做预算。它现在需要免费密钥并按用量计费（每天约 1 美元免费额度），这是任务布置时没有预料到的 (CLAUDE.md, Environment)。
