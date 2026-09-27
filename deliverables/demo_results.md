@@ -251,7 +251,7 @@ Run 2 skipped the scout (STATUS.md, 16:50 line), so these are run 1's 12 rows (Q
 | 12 | Lightmatter | startup | Passage M1000 photonic interposer (built-in solid-state OCS) | unclear | unknown | unknown | 2026-09-26 | https://futurumgroup.com/insights/lightmatter-solving-how-to-interconnect-millions-of-chips/ | The M1000 employs solid-state optical circuit switching, while the L200 incorporates Alphawave Semi's chiplet technology |
 | 3 | Coherent | established_vendor | Optical Circuit Switch (DLX-based, up to 512x512) | lcos | unknown | 2024-03-25 | 2024-03-25 | https://www.coherent.com/news/press-releases/optical-circuit-switch-for-data-centers-live-demo-at-ofc-2024-based-on-ultrareliable-dlx-technology | a new optical circuit switch (OCS) based on the company's field-proven and ultrareliable digital liquid-crystal technology |
 
-Several evidence dates are fetch dates (data/projects.csv, note column). Polatis "shipping" is the scout's stage, and its quote "describes the mechanism and not availability" (deliverables/comparison_matrix.csv, piezo trl_band note). DLX in row 3 is Coherent's product term, which the source does not expand.
+Several evidence dates are fetch dates (data/projects.csv, note column). Polatis "shipping" is the scout's stage, and its quote "describes the mechanism and not availability" (deliverables/comparison_matrix.csv, piezo trl_band note). DLX in row 3 is Coherent's name for the digital liquid-crystal technology quoted.
 
 [graphs/project_timeline.html](../graphs/project_timeline.html) plots the projects.csv rows with a known first_public_date and lists the rest under the chart without a guessed date (pipeline/project_timeline.py).
 

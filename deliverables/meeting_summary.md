@@ -2,11 +2,11 @@
 
 ## What was tried
 
-The optical circuit switching (OCS) pipeline has eight role agents, nine stages, and three gates (deliverables/architecture.md). A second judge reruns each stage's done-when checks and gate in code before the stage counts as done, and in audits re-judged the judged cells blind (STATUS.md, 15:10 and 21:21 lines).
+The optical circuit switching (OCS) pipeline has eight role agents, nine stages, and three gates (deliverables/architecture.md). A second judge reruns each stage's done-when checks and gate in code before the stage counts as done, and re-judges audit cells blind (STATUS.md, 15:10 and 21:21 lines).
 
-Run 1 took 3 hours 55 minutes and 53 subagent invocations, and run 2 added arXiv content through OpenAlex's index of arXiv because arXiv's own API (application programming interface) refused our client (STATUS.md, 08:27 and 16:50 lines).
+Run 1 took 3 hours 55 minutes and 53 subagent invocations before its round 3 rework, and run 2 added arXiv content through OpenAlex's arXiv index because arXiv's API (application programming interface) refused our client (STATUS.md, 08:27 and 16:50 lines).
 
-Unnamed audit rows are round 3 and run 2's final audit.
+Unnamed audit rows are run 1's round 3 and run 2's final audit.
 
 
 | measure | run 1 | run 2 | source |
@@ -23,7 +23,7 @@ Unnamed audit rows are round 3 and run 2's final audit.
 | run 2 | | 0 percent | validation_report.md, seed 20260929 section |
 | audit (c), failed project links | 0 of 10 | 0 of 10 | validation_report.md, item 5; run 2's final audit |
 | audit (d), verbatim tag sentences | 376 of 376 | 420 of 420 | same |
-| OpenAlex cost, USD (US dollars) | 0.0404 | 0.0216 to 0.0271. That is 0.01 for searches and 0.01 for a rerun before the billing day reset at 17:00, then 0.0016 used after it by 18:49 and 0.0071 by 02:29 the next day, which also covers later checks | STATUS.md, 16:14, 15:58, 18:49 and 2026-09-27 02:29 lines; deliverables/pitfalls_original_log.md, 16:05 |
+| OpenAlex cost, USD (US dollars) | 0.0404 | 0.0216, that is 0.02 before the billing day reset at 17:00 and 0.0016 after it to run 2's end, or up to 0.0271 with step 2 and later checks | STATUS.md, 16:14, 15:58, 18:49 and 2026-09-27 02:29 lines; deliverables/pitfalls_original_log.md, 16:05 |
 
 ## What worked
 
@@ -36,21 +36,21 @@ Unnamed audit rows are round 3 and run 2's final audit.
 - Jupiter Evolving and RotorNet, two anchor papers (known papers the pipeline should find), fail the title check because OpenAlex cuts their titles at the colon (issue #13; data/work/step2_anchors.md).
 - About 59 (29 to 94) of 147 flagged name keys (surname plus first initial) hide one split person (deliverables/number_checks.md, Run 2, section 2).
 - The audit log keeps inconsistencies, such as stale line citations, because its corrections failed a third and final check (STATUS.md, 01:13 line; issue #14).
-- arXiv's API refused 9 of 10 run 1 queries with error 406 or 429 and every request in a later probe, so run 2 used OpenAlex's index of arXiv, which gave institutions for 299 of 341 records against 0 of 47 from arXiv's API (deliverables/pitfalls.md, arXiv section; data/raw/arxiv_via_openalex.jsonl; data/raw/arxiv.jsonl).
+- arXiv's API refused 9 of 10 run 1 queries and every request in a later probe, while OpenAlex's index gave institutions for 299 of 341 records against 0 of 47 from arXiv's API (deliverables/pitfalls.md, arXiv section; data/raw/arxiv_via_openalex.jsonl; data/raw/arxiv.jsonl).
 
 ## What the small sample shows
 
 - Silicon photonic MEMS (micro-electro-mechanical systems) leads the device routes with 43 core papers, but one phrase supplied 27 and the only 3D (three-dimensional) MEMS phrase 0, so the lead reflects sampling (data/work/nc1_run2_route_provenance.json).
 - 105 of 284 core papers design networks without building a switch, and no matrix row holds their AI (artificial intelligence) cluster claims (deliverables/demo_results.md, Q4).
 - Abstracts leave 33 of 126 matrix cells unreported, and cost per port is known for 1 of 9 routes (deliverables/comparison_matrix.csv).
-- The team map groups 1827 authors into 159 communities (graphs/top_pis.csv; graphs/clusters.csv; graphs/coauthor.html). The project map lists 12 companies and projects, each with a link and a quote (data/projects.csv; graphs/project_timeline.html).
+- The team map groups 1827 authors into 159 communities (graphs/top_pis.csv; graphs/clusters.csv; graphs/coauthor.html). Run 2 kept run 1's project map of 12 companies and projects, each with a link and a quote (data/projects.csv; graphs/project_timeline.html; STATUS.md, 16:50 line).
 
 ## Decisions needed next week
 
 1. The scope of OCS (deliverables/open_questions.md).
 2. The standard for "supported" in category cells.
 3. Accept 284 core papers (planned 50 to 100) or cap them (deliverables/curation_report.md; CLAUDE.md).
-4. arXiv at full scale, from OpenAlex's index or arXiv's bulk snapshot (deliverables/pitfalls.md, arXiv access).
+4. arXiv at full scale, from OpenAlex's index, which matched few arXiv-only papers, or arXiv's bulk snapshot (deliverables/pitfalls.md, arXiv access).
 5. Adding OFC (Optical Fiber Communication Conference), SIGCOMM (Special Interest Group on Data Communication), and NSDI (Networked Systems Design and Implementation), dropping APEC (Applied Power Electronics Conference), ECCE (Energy Conversion Congress and Exposition), and PCIM (Power Conversion and Intelligent Motion).
 6. Who reads deliverables/reading_list.md in full.
 7. Recruiting or partnering as the team map's goal.
