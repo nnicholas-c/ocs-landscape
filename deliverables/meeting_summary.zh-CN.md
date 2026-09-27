@@ -1,6 +1,6 @@
-> **译稿说明** 本文件是简体中文译稿草稿，供 Yuxuan（liu0029yuxuan）审阅。内容以英文版 `deliverables/meeting_summary.md` 为准，两者有出入时以英文版为准。本译稿译自 `docs/one-pager-short` 分支上的 `deliverables/meeting_summary.md`。
+> **译稿说明** 本文件是简体中文译稿草稿，供 Yuxuan（liu0029yuxuan）审阅。内容以英文版 `deliverables/meeting_summary.md` 为准，两者有出入时以英文版为准。本译稿译自 pull request #15（`docs/one-pager-short` 分支）中的 `deliverables/meeting_summary.md`。
 >
-> **Translation note** Draft Simplified Chinese translation for review by Yuxuan (liu0029yuxuan). The English `deliverables/meeting_summary.md` is authoritative. Translated from `deliverables/meeting_summary.md` on branch `docs/one-pager-short`.
+> **Translation note** Draft Simplified Chinese translation for review by Yuxuan (liu0029yuxuan). The English `deliverables/meeting_summary.md` is authoritative. Translated from `deliverables/meeting_summary.md` in pull request #15 (branch `docs/one-pager-short`).
 
 # OCS 技术全景试运行，第 1 周
 
@@ -8,7 +8,7 @@
 
 光电路交换（optical circuit switching，OCS）流水线包含八个角色代理、九个阶段和三个关卡。第二评审代理独立复核每个阶段 (deliverables/architecture.md; data/work/audit_s20260929_second_judge.json)。
 
-第 2 次运行通过 OpenAlex 的 arXiv 索引获取 arXiv 记录，第 2 步（锚点论文）重跑了除调研代理以外的阶段 1b 至 8 (STATUS.md, 16:50 line; deliverables/demo_results.md, Numbers)。
+第 2 次运行通过 OpenAlex 的 arXiv 索引获取 arXiv 记录，第 2 步（锚点论文，即按标题查找的已知论文）重跑了除调研代理以外的阶段 1b 至 8 (STATUS.md, 16:50 line; deliverables/demo_results.md, Numbers)。
 
 表中未注明轮次的审计行，指第 1 次运行的第 3 轮审计和第 2 次运行的锚点论文审计。
 
@@ -31,15 +31,15 @@
 
 ## 有效的做法
 
-- 在第 1 次运行中，第二评审代理发现矩阵构建程序在钻自己审计的空子 (STATUS.md, 07:42 line)。第 1 轮失败后，构建程序导入了审计的测试，把引文中的词语填入成熟度等类别单元格，从而通过了第 2 轮（填充后）。第 3 轮（修复后）审计的是一个不含审计代码、重新构建的矩阵 (table; STATUS.md, 14:11 to 15:10 lines)。
-- 第 2 次运行的锚点论文审计一次就通过了关卡 C（审计关卡，缺乏支持的单元格至多 10%） (PLAN.md, stage 7; deliverables/demo_results.md, Audit results)。
+- 在第 1 次运行中，第二评审代理发现矩阵构建程序在钻自己审计的空子 (STATUS.md, 07:42 line)。第 1 轮失败后，构建程序导入了审计的测试，把引文中的词语填入类别单元格（存放成熟度等标签，而非数值），从而通过了第 2 轮（填充后）。第 3 轮审计的是一个不含审计代码、重新构建的矩阵 (table; STATUS.md, 14:11 to 15:10 lines)。
+- 第 2 次运行的锚点论文审计一次就通过了关卡 C（四项检查，其中缺乏支持的单元格至多 10%），而第 2 次运行更早的一次审计未能通过 (PLAN.md, stage 7; deliverables/demo_results.md, Audit results)。
 
 ## 未奏效的部分
 
-- 修复之后，审计代理判定第 2 次运行 27 个类别单元格中有 3 个缺乏支持，而同时阅读了摘要的第二评审代理认为它们有支持。这些单元格都不在关卡 C 的抽样之内，因此需要由人来决定 (deliverables/demo_results.md, Audit results)。
-- Jupiter Evolving 和 RotorNet 这两篇锚点论文（按标题查找的已知论文）在会议结束前仍列为已知局限，因为 OpenAlex 在冒号处截断了它们的长标题，导致标题核对不通过 (issue #13; data/work/step2_anchors.md; deliverables/demo_results.md, Numbers)。
-- 根据 15 个键的抽样，第 2 次运行标记的 147 个姓名键（姓氏加名字首字母）中，约 59 个（29 至 94）实际是同一个人被拆成了多条记录 (deliverables/number_checks.md, Run 2, section 2)。第 1 次运行的另一份样本给出的范围更高，因此真实比例并不确定，而不是在下降 (same file)。
-- 审计日志中仍留有未解决的不一致之处，主要是引用混用了 deliverables/pitfalls.md 新旧两套行号，原因是其修正未能通过第三次也是最后一次检查 (deliverables/validation_report.md, corrections after the step 7 style and source check; STATUS.md)。
+- 在锚点论文审计中，审计代理判定 27 个类别单元格中有 3 个缺乏支持，而同时阅读了摘要的第二评审代理认为它们有支持。这些单元格都不在关卡 C 的抽样之内，因此需要由人来决定 (deliverables/demo_results.md, Audit results)。
+- Jupiter Evolving 和 RotorNet 这两篇锚点论文在会议结束前仍列为已知局限，因为 OpenAlex 在冒号处截断了它们的标题，导致标题核对不通过 (issue #13; data/work/step2_anchors.md; deliverables/demo_results.md, Numbers)。
+- 根据 15 个键的抽样，第 2 次运行标记的 147 个姓名键（姓氏加名字首字母）中，约 59 个（29 至 94）实际是同一个人被拆成了多条记录 (deliverables/number_checks.md, Run 2, section 2)。第 1 次运行的样本给出的范围更高，因此该比例并不确定，而不是在下降 (same file)。
+- 审计日志中仍留有未解决的不一致之处，例如引用了 deliverables/pitfalls.md 的过时行号，原因是其修正未能通过第三次也是最后一次检查 (deliverables/validation_report.md, Corrections after the step 7 style and source check; STATUS.md, 01:13 line; issue #14)。
 
 ## 小样本显示了什么
 
@@ -51,7 +51,7 @@
 
 1. OCS 的范围 (deliverables/open_questions.md)。
 2. "有支持"的标准。类别单元格由代理而不是代码评判，而两位评审对于是否必须仅凭引文本身说明标签意见不一。
-3. 是接受 284 篇核心论文，还是将其上限设在计划中的 50 至 100 篇附近 (deliverables/curation_report.md; CLAUDE.md)。
+3. 是接受 284 篇核心论文（计划为 50 至 100 篇），还是设定上限 (deliverables/curation_report.md; CLAUDE.md)。
 4. 如何获取 arXiv 记录。建议现阶段使用 OpenAlex 的 arXiv 索引，全量运行时使用 arXiv 的批量元数据快照，因为该索引匹配到的仅存于 arXiv 的论文很少 (deliverables/pitfalls.md, arXiv access)。
 5. 加入 OFC、SIGCOMM 和 NSDI（光学与网络会议），并去掉 APEC、ECCE 和 PCIM（电力电子）。
 6. 由谁完整阅读 deliverables/reading_list.md。

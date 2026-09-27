@@ -328,7 +328,7 @@ In the first run 2 audit (seed 20260928), for two of the three failures, the quo
 
 | left open by the run 2 audit after the anchor papers | detail | source |
 |---|---|---|
-| the 3 failing census cells | The auditor called them unsupported and the second judge supported. None is in the 20-cell Gate C sample and the census has no gate, so they await a person's decision | validation_report.md, Run 2 audit after the anchor papers; deliverables/pitfalls.md, stage 7 audit (step 2); pitfalls_original_log.md, 21:21 |
+| the 3 failing census cells | The auditor called them unsupported and the second judge called them supported. None is in the 20-cell Gate C sample and the census has no gate, so they await a person's decision | validation_report.md, Run 2 audit after the anchor papers; deliverables/pitfalls.md, stage 7 audit (step 2); pitfalls_original_log.md, 21:21 |
 | why the judges differ | The auditor's input held only each cell's value, quotes and label definition. The second judge also read the cited abstracts, the route files and projects.csv | data/work/audit_s20260929_judge_input.json; data/work/audit_s20260929_second_judge.json, source and criterion |
 | piezo:trl_band | The cell says lab, but its quote "never uses lab language either". A person should check the Polatis page | validation_report.md, same section, Other observations; deliverables/open_questions.md, item 4 |
 | 12 reported free-text cells | Quotes verbatim, but nobody judged whether they support the value, because the audit judges only sampled and census cells | validation_report.md, Corrections after code review (pull request #4), item 2 |

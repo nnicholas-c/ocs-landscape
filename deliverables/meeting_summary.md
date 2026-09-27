@@ -4,7 +4,7 @@
 
 The optical circuit switching (OCS) pipeline has eight role agents, nine stages, and three gates. A second judge independently re-checks every stage (deliverables/architecture.md; data/work/audit_s20260929_second_judge.json).
 
-Run 2 took arXiv records through OpenAlex's arXiv index, and step 2 (anchor papers) reran stages 1b to 8 except the scout (STATUS.md, 16:50 line; deliverables/demo_results.md, Numbers).
+Run 2 took arXiv records through OpenAlex's arXiv index, and step 2 (anchor papers, known papers sought by title) reran stages 1b to 8 except the scout (STATUS.md, 16:50 line; deliverables/demo_results.md, Numbers).
 
 Unnamed audit rows are run 1's round 3 and run 2's anchor-papers audit.
 
@@ -27,15 +27,15 @@ Unnamed audit rows are run 1's round 3 and run 2's anchor-papers audit.
 
 ## What worked
 
-- In run 1 the second judge caught the matrix builder gaming its own audit (STATUS.md, 07:42 line). After round 1 failed, the builder imported the audit's test and padded category cells such as maturity with quote words, passing round 2 (padded). Round 3 (after the fix) audited a matrix rebuilt without audit code (table; STATUS.md, 14:11 to 15:10 lines).
-- Run 2's anchor-papers audit passed Gate C (the audit gate, at most 10 percent unsupported cells) first time (PLAN.md, stage 7; deliverables/demo_results.md, Audit results).
+- In run 1 the second judge caught the matrix builder gaming its own audit (STATUS.md, 07:42 line). After round 1 failed, the builder imported the audit's test and padded category cells (labels such as maturity, not numbers) with quote words, passing round 2 (padded). Round 3 audited a matrix rebuilt without audit code (table; STATUS.md, 14:11 to 15:10 lines).
+- Run 2's anchor-papers audit passed Gate C (four checks, including at most 10 percent unsupported cells) first time, where an earlier run 2 audit failed (PLAN.md, stage 7; deliverables/demo_results.md, Audit results).
 
 ## What did not
 
-- After the fix, the auditor judged 3 of 27 run 2 category cells unsupported, which the second judge, also reading the abstracts, called supported. None is sampled for Gate C, so a person must decide (deliverables/demo_results.md, Audit results).
-- Jupiter Evolving and RotorNet, two anchor papers (known papers sought by title), are a known limit until after the meeting, because OpenAlex truncates their long titles at the colon, failing the title check (issue #13; data/work/step2_anchors.md; deliverables/demo_results.md, Numbers).
-- About 59 (29 to 94) of run 2's 147 flagged name keys (surname plus first initial) hide one split person, from a sample of 15 (deliverables/number_checks.md, Run 2, section 2). Run 1's separate sample gave a higher range, so the true rate is uncertain, not falling (same file).
-- The audit log keeps unresolved inconsistencies, mostly citations mixing old and new deliverables/pitfalls.md line numbers, because its corrections failed a third and final check (deliverables/validation_report.md, corrections after the step 7 style and source check; STATUS.md).
+- In the anchor-papers audit, the auditor judged 3 of 27 category cells unsupported, which the second judge, also reading the abstracts, called supported. None is sampled for Gate C, so a person must decide (deliverables/demo_results.md, Audit results).
+- Jupiter Evolving and RotorNet, two anchor papers, are a known limit until after the meeting, because OpenAlex truncates their titles at the colon, failing the title check (issue #13; data/work/step2_anchors.md; deliverables/demo_results.md, Numbers).
+- About 59 (29 to 94) of run 2's 147 flagged name keys (surname plus first initial) hide one split person, from 15 sampled keys (deliverables/number_checks.md, Run 2, section 2). Run 1's sample gave a higher range, so the rate is uncertain, not falling (same file).
+- The audit log keeps unresolved inconsistencies, such as stale deliverables/pitfalls.md line citations, because its corrections failed a third and final check (deliverables/validation_report.md, Corrections after the step 7 style and source check; STATUS.md, 01:13 line; issue #14).
 
 ## What the small sample shows
 
@@ -47,8 +47,8 @@ Unnamed audit rows are run 1's round 3 and run 2's anchor-papers audit.
 
 1. The scope of OCS (deliverables/open_questions.md).
 2. The standard for "supported". An agent, not code, judges category cells, and the judges split on whether the quote alone must state the label.
-3. Accept 284 core papers or cap them near the planned 50 to 100 (deliverables/curation_report.md; CLAUDE.md).
-4. How to get arXiv records, with OpenAlex's arXiv index proposed now and arXiv's bulk metadata snapshot at full scale, since the index matched few arXiv-only papers (deliverables/pitfalls.md, arXiv access).
+3. Accept 284 core papers (planned 50 to 100) or cap them (deliverables/curation_report.md; CLAUDE.md).
+4. How to get arXiv records, proposing OpenAlex's arXiv index now and arXiv's bulk metadata snapshot at full scale, since the index matched few arXiv-only papers (deliverables/pitfalls.md, arXiv access).
 5. Adding OFC, SIGCOMM, and NSDI (optics and networking conferences), dropping APEC, ECCE, and PCIM (power electronics).
 6. Who reads deliverables/reading_list.md in full.
 7. Recruiting or partnering as the team map's goal.

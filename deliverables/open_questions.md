@@ -22,6 +22,6 @@ Unmarked numbers are run 2's.
 
 10. How should a full-scale run get arXiv records? In run 1, export.arxiv.org refused 9 of 10 phrase queries with web errors 406 or 429, and a one-at-a-time probe still got 406, so pacing was not the cause (STATUS.md, stage 1a line; deliverables/pitfalls_original_log.md, 15:54). OpenAlex's arXiv index gave only 6 of 40 run 1 arXiv-only papers an OpenAlex identifier (deliverables/curation_report.md), which leaves arXiv's bulk metadata snapshot.
 
-11. Jupiter Evolving and RotorNet are a known limit, because OpenAlex truncates their long titles at the colon, failing the title check (data/work/step2_anchors.md). They wait for the decided doi_publisher_confirmed method after the meeting (issue #13).
+11. Jupiter Evolving and RotorNet are a known limit, because OpenAlex truncates their titles at the colon, failing the title check (data/work/step2_anchors.md). They wait for the doi_publisher_confirmed method after the meeting (issue #13).
 
-12. An append-only audit log accumulated inconsistencies over six rounds, so a full-scale run should write one report per round plus an index (deliverables/validation_report.md, correction sections).
+12. An append-only audit log accumulated inconsistencies over six rounds, so a full-scale run should write one report per round plus an index (deliverables/validation_report.md, Gate C summary headings).
