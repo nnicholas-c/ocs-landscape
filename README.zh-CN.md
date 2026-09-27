@@ -2,6 +2,8 @@
 
 [English](README.md) | 简体中文
 
+[中文项目汇报网站 · Chinese presentation](https://liu0029yuxuan.github.io/ocs-landscape-presentation/)
+
 > 本文译自提交 `5a25410` 中的英文 README。进度、结果、配额和费用均沿用该版本的描述；“本周”等时间表述指原文的项目安排。个人贡献及后续更新见 [CONTRIBUTIONS.md](CONTRIBUTIONS.md)。
 
 这是一个由代理驱动的流水线，利用开放文献数据源梳理面向 AI 数据中心的光电路交换（Optical Circuit Switching，OCS）。Python 脚本负责确定性步骤，各角色代理负责需要判断的工作。每项判断都保存证据，例如原文引述、论文 ID 或网址，以便核查。流水线构建三类图谱：

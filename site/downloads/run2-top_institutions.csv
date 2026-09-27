@@ -1,0 +1,261 @@
+institution,author_count,core_paper_count,extended_paper_count,degree,betweenness,tech_routes
+"University of California, Berkeley",22,27,31,15,0.05563,mems_2d;mems_silicon_photonic;unclear
+Eindhoven University of Technology,34,18,20,19,0.078198,architecture_only;mems_silicon_photonic;soa;thermo_optic;unclear
+École Polytechnique Fédérale de Lausanne,17,18,19,13,0.025755,mems_3d;mems_silicon_photonic;soa
+National Institute of Advanced Industrial Science and Technology,32,16,17,2,0.005926,architecture_only;thermo_optic;unclear
+University of California San Diego,32,15,16,9,0.023831,architecture_only;lcos;mems_3d;mems_silicon_photonic;thermo_optic;unclear
+Columbia University,20,13,15,15,0.07978,architecture_only;electro_optic;other;unclear
+IBM (United States),37,11,13,13,0.040193,architecture_only;electro_optic;thermo_optic;unclear
+Nagoya University,7,11,11,2,0.011793,architecture_only;other;thermo_optic;unclear
+University of Bristol,20,10,12,16,0.04783,architecture_only;piezo;soa
+NTT (Japan),22,10,11,11,0.044388,architecture_only;mems_3d;other;robotic_patch_panel;unclear
+Google (United States),38,10,12,4,0.006249,architecture_only;lcos;mems_3d;unclear
+Shanghai Jiao Tong University,25,9,11,11,0.038042,architecture_only;electro_optic;thermo_optic
+University of Cambridge,16,8,12,4,0.020611,architecture_only;electro_optic;soa;unclear
+Beijing University of Posts and Telecommunications,22,7,8,11,0.016023,architecture_only;soa
+Jiaxing University,4,7,10,11,0.026074,mems_silicon_photonic;other
+University of Arizona,10,6,6,8,0.047453,architecture_only;mems_2d;other
+IMEC,9,6,8,7,0.010662,electro_optic;mems_silicon_photonic;unclear
+Ben-Gurion University of the Negev,2,6,7,2,0.0,architecture_only
+Zhejiang University,14,5,8,13,0.023764,mems_silicon_photonic
+Huawei Technologies (China),23,5,7,10,0.025769,architecture_only;mems_silicon_photonic;other;thermo_optic
+NEC (Japan),18,5,6,8,0.032563,architecture_only;electro_optic;thermo_optic;unclear
+University College London,8,5,5,7,0.000184,architecture_only;soa
+Nokia (United States),24,5,6,6,0.012891,mems_3d;unclear
+Kyoto University,4,5,5,3,0.0,architecture_only
+University of Vienna,2,5,6,3,0.001575,architecture_only
+Chinese Academy of Sciences,21,4,7,13,0.054164,electro_optic;thermo_optic
+University College Cork,5,4,5,11,0.020537,mems_silicon_photonic
+Hong Kong University of Science and Technology,12,4,4,6,0.008752,architecture_only
+University of Science and Technology of China,17,4,5,4,0.011258,architecture_only;thermo_optic
+University of Virginia,3,4,4,2,0.005926,architecture_only
+Czech Technical University in Prague,1,4,4,1,0.0,mems_3d;unclear
+Tohoku University,6,4,4,0,0.0,mems_silicon_photonic
+"University of California, Santa Barbara",14,3,13,32,0.176094,architecture_only;mems_3d;unclear
+Ghent University,43,3,16,19,0.071581,mems_silicon_photonic
+University of Southampton,23,3,8,17,0.069667,architecture_only;piezo;unclear
+"Agency for Science, Technology and Research",14,3,6,9,0.0148,thermo_optic;unclear
+Omron (Japan),4,3,3,8,0.00696,architecture_only;mems_2d
+Polatis (United Kingdom),6,3,3,8,0.010495,architecture_only;piezo
+Tsinghua University,8,3,3,7,0.022143,architecture_only
+Universitat Politècnica de Catalunya,6,3,3,7,0.00037,architecture_only
+"University of California, Davis",10,3,5,7,0.008598,architecture_only;soa;unclear
+Peking University,13,3,4,6,0.009961,architecture_only;mems_silicon_photonic
+Carnegie Mellon University,2,3,4,5,0.011793,architecture_only
+KTH Royal Institute of Technology,10,3,4,5,0.0,mems_silicon_photonic
+Moscow Institute of Thermal Technology,3,3,4,4,0.008656,architecture_only
+CMC Microsystems (Canada),2,3,3,3,6e-05,mems_silicon_photonic;thermo_optic
+Microsoft Research (United Kingdom),17,3,3,3,0.002061,other;soa
+Network Group (Czechia),3,3,3,3,0.0,architecture_only;piezo
+Princeton University,8,3,3,3,0.0,architecture_only
+Rice University,4,3,3,3,0.0,architecture_only
+Taiwan Semiconductor Manufacturing Company (United States),2,3,3,3,0.0,mems_silicon_photonic
+University of Illinois Urbana-Champaign,1,3,3,3,0.0,architecture_only
+Pennsylvania State University,4,3,3,2,0.0,architecture_only;mems_3d
+École de Technologie Supérieure,5,3,3,2,0.0,mems_silicon_photonic
+Evropský Polytechnický Institut,1,3,3,1,0.0,mems_3d;unclear
+Fujitsu (Japan),12,3,3,1,0.0,mems_3d;other;soa
+Stanford University,13,2,5,12,0.032689,unclear
+Technische Universität Berlin,3,2,4,8,0.010566,architecture_only
+IBM Research - Ireland,3,2,2,7,0.005926,architecture_only
+Intel (United States),42,2,9,7,0.027906,architecture_only
+Nextworks (Italy),2,2,2,7,0.00037,architecture_only
+Northwestern University,7,2,3,6,0.004989,architecture_only
+Microsoft Research Asia (China),3,2,2,5,0.005359,architecture_only
+National University of Singapore,7,2,3,5,0.001481,unclear
+University of Massachusetts Boston,1,2,4,5,0.0,electro_optic;unclear
+University of Patras,2,2,3,5,0.016829,architecture_only;unclear
+"University of Maryland, College Park",6,2,2,4,0.005926,mems_silicon_photonic;other
+Korea Advanced Institute of Science and Technology,1,2,2,3,0.0,mems_silicon_photonic
+University of Washington,9,2,4,3,0.0,other
+Active Ethernet Passive Optical Networks Over λ MultipleXing (Canada),1,2,2,2,0.0,mems_silicon_photonic
+Hong Kong Baptist University,1,2,2,2,0.0,architecture_only
+Furukawa Electric (Japan),3,2,2,1,0.0,thermo_optic;unclear
+Texas Instruments (United States),1,2,2,1,0.0,other
+AT&T (United States),1,2,2,0,0.0,unclear
+Kagawa University,5,2,2,0,0.0,lcos;mems_3d
+Massachusetts Institute of Technology,19,1,7,13,0.029616,architecture_only
+Huazhong University of Science and Technology,1,1,3,11,0.014168,unclear
+Wuhan National Laboratory for Optoelectronics,12,1,6,10,0.030661,unclear
+Advanced Technologies Group (United States),3,1,3,8,0.009398,unclear
+University of Electronic Science and Technology of China,7,1,4,8,0.012528,architecture_only
+Trinity College Dublin,2,1,2,7,0.016096,architecture_only
+Barcelona Supercomputing Center,4,1,1,6,0.0,architecture_only
+Foundation for Research and Technology Hellas,2,1,1,6,0.0,architecture_only
+Infinera (United States),2,1,1,6,0.0,architecture_only
+Politecnico di Milano,11,1,3,6,0.011793,thermo_optic
+Sumitomo Electric Industries (Japan),2,1,1,6,0.0,architecture_only
+The University of Texas at Austin,10,1,3,6,0.005926,thermo_optic
+Alcatel Lucent (Germany),4,1,3,5,0.007465,unclear
+HOGENT University of Applied Sciences and Arts,1,1,1,5,0.0,mems_silicon_photonic
+IBM Research - Zurich,5,1,2,5,0.0,architecture_only
+Tyndall Centre,2,1,1,5,0.0,mems_silicon_photonic
+Shandong University,3,1,2,4,0.005926,soa
+State Key Laboratory of Modern Optical Instruments,7,1,3,4,0.000354,mems_silicon_photonic
+Xiamen University,3,1,2,4,0.000291,architecture_only
+Alibaba Group (United States),1,1,2,3,0.005926,architecture_only
+China North Industries Group Corporation (China),1,1,1,3,0.0,architecture_only
+Hebrew University of Jerusalem,1,1,1,3,0.0,unclear
+Hefei University of Technology,1,1,1,3,0.0,soa
+Huawei Technologies (Canada),6,1,2,3,0.001305,thermo_optic
+NTT Advanced Technology Corporation (Japan),1,1,1,3,0.0,architecture_only
+Nanjing University of Aeronautics and Astronautics,1,1,1,3,0.0,architecture_only
+Nanyang Technological University,1,1,2,3,0.0,unclear
+Peng Cheng Laboratory,1,1,1,3,0.0,architecture_only
+Polytechnique Montréal,1,1,1,3,0.0,unclear
+State Key Laboratory of Resources and Environmental Information System,1,1,1,3,0.0,architecture_only
+The University of Osaka,3,1,1,3,0.0,architecture_only
+The University of Tokyo,10,1,2,3,0.005926,thermo_optic
+Tsinghua–Berkeley Shenzhen Institute,5,1,2,3,0.003012,mems_silicon_photonic
+University of Edinburgh,1,1,1,3,0.0,architecture_only
+University of Freiburg,1,1,1,3,0.0,unclear
+University of Minnesota,1,1,1,3,0.0,other
+University of Southern Denmark,6,1,3,3,0.001242,electro_optic
+Alibaba Group (China),1,1,1,2,0.0,architecture_only
+Boston University,2,1,1,2,0.0,mems_3d
+China University of Geosciences,2,1,1,2,0.0,mems_silicon_photonic
+Cisco Systems (China),1,1,1,2,0.0,lcos
+Collaborative Innovation Center of Advanced Microstructures,14,1,1,2,0.0,other
+"Islamic Azad University, Tehran",1,1,1,2,0.0,unclear
+Juniper Networks (United States),1,1,1,2,0.0,architecture_only
+Los Alamos National Laboratory,3,1,1,2,0.0,architecture_only
+Nanjing University of Posts and Telecommunications,1,1,1,2,0.0,other
+National Electronics and Computer Technology Center,1,1,1,2,0.0,architecture_only
+Office of Multidisciplinary Activities,12,1,1,2,0.0,mems_2d
+Stony Brook University,8,1,2,2,0.0,architecture_only
+Texas A&M University at Qatar,1,1,1,2,0.0,unclear
+Umeå University,1,1,1,2,0.0,unclear
+Universiti Putra Malaysia,1,1,1,2,0.0,unclear
+University of Glasgow,7,1,3,2,0.0,thermo_optic
+University of Kashan,1,1,1,2,0.0,unclear
+University of Münster,1,1,2,2,0.0,thermo_optic
+University of Pittsburgh,5,1,1,2,0.0,architecture_only
+University of Strathclyde,1,1,2,2,0.0,thermo_optic
+University of Windsor,1,1,1,2,0.0,unclear
+Zuse Institute Berlin,1,1,1,2,0.0,architecture_only
+atesio (Germany),2,1,1,2,0.0,architecture_only
+Athens Information Technology,1,1,1,1,0.0,architecture_only
+Beijing University of Technology,2,1,1,1,0.0,architecture_only
+Berkeley College,4,1,1,1,0.0,mems_silicon_photonic
+DEVCOM Army Research Laboratory,1,1,1,1,0.0,unclear
+Dublin City University,3,1,1,1,0.0,architecture_only
+Hồng Đức University,2,1,1,1,0.0,architecture_only
+IBM Research - Thomas J. Watson Research Center,5,1,1,1,0.0,electro_optic
+Illinois Institute of Technology,1,1,1,1,0.0,architecture_only
+"Indian Institute of Engineering Science and Technology, Shibpur",1,1,1,1,0.0,unclear
+"Indian Institute of Information Technology, Design and Manufacturing, Kancheepuram",3,1,1,1,0.0,thermo_optic
+Institute of Physics,1,1,1,1,0.0,thermo_optic
+Kim Il-sung University,5,1,1,1,0.0,other
+Max-Born-Institute for Nonlinear Optics and Short Pulse Spectroscopy,1,1,1,1,0.0,other
+McGill University,6,1,1,1,0.0,thermo_optic
+NanoPHAB (Netherlands),1,1,1,1,0.0,mems_silicon_photonic
+National Sun Yat-sen University,1,1,1,1,0.0,thermo_optic
+Norwegian University of Science and Technology,1,1,1,1,0.0,mems_silicon_photonic
+Omega Optics (United States),2,1,2,1,0.0,thermo_optic
+Sandia National Laboratories,4,1,1,1,0.0,mems_silicon_photonic
+Sensors (United States),4,1,1,1,0.0,mems_silicon_photonic
+Southwest Jiaotong University,1,1,1,1,0.0,architecture_only
+Universidade Estadual de Campinas (UNICAMP),7,1,2,1,0.0,soa
+University of Chicago,1,1,1,1,0.0,architecture_only
+University of Kalyani,1,1,1,1,0.0,unclear
+Veeco (United States),1,1,1,1,0.0,thermo_optic
+Xidian University,5,1,1,1,0.0,architecture_only
+Assumption University,1,1,1,0,0.0,unclear
+Indian Institute of Technology Dhanbad,2,1,1,0,0.0,thermo_optic
+National Taiwan University,2,1,1,0,0.0,unclear
+RMIT University,3,1,1,0,0.0,thermo_optic
+Temple University,2,1,1,0,0.0,architecture_only
+University of Thessaly,1,1,1,0,0.0,unclear
+Westlake University,6,1,1,0,0.0,thermo_optic
+Institut polytechnique de Grenoble,7,0,4,18,0.069078,
+California Institute of Technology,13,0,6,12,0.041185,
+Centre for Ultrahigh Bandwidth Devices for Optical Systems,2,0,2,11,0.022137,
+Harvard University,24,0,5,11,0.018438,
+Chinese University of Hong Kong,2,0,2,9,0.004807,
+University of Rochester,8,0,2,9,0.001824,
+University of Shanghai for Science and Technology,3,0,2,9,0.005565,
+National Research Council Canada,2,0,1,8,0.0,
+Rockley Photonics (United States),1,0,1,8,0.0,
+STMicroelectronics (India),1,0,1,8,0.0,
+Sun Yat-sen University,8,0,2,8,0.005792,
+Swinburne University of Technology,5,0,3,8,0.004232,
+University of Oxford,5,0,2,8,0.011793,
+University of Southern California,1,0,2,8,0.001435,
+University of Surrey,2,0,2,8,0.0,
+Université Paris-Sud,3,0,1,8,0.0,
+nLIGHT (United States),2,0,2,8,0.001435,
+Central South University,3,0,2,7,0.003345,
+The University of Adelaide,1,0,1,7,0.0,
+University of Central Florida,17,0,4,7,0.005926,
+ADVA Optical Networking (Germany),2,0,2,6,0.002755,
+MIT Lincoln Laboratory,5,0,1,6,0.0,
+Swiss Federal Laboratories for Materials Science and Technology,3,0,2,6,0.003052,
+Centre National de la Recherche Scientifique,4,0,2,5,0.005926,
+City University of Hong Kong,6,0,3,5,7.6e-05,
+Queen's University,1,0,1,5,0.0,
+Technical University of Denmark,15,0,3,5,0.016516,
+The University of Sydney,7,0,2,5,0.002362,
+University of British Columbia,2,0,2,5,0.0,
+Xi'an Institute of Optics and Precision Mechanics,3,0,3,5,7.6e-05,
+Australian Research Council,2,0,1,4,0.0,
+Commissariat à l'Énergie Atomique et aux Énergies Alternatives,2,0,1,4,0.0,
+Dalle Molle Institute for Artificial Intelligence Research,1,0,1,4,0.0,
+LioniX (Netherlands),22,0,2,4,0.010763,
+Purdue University West Lafayette,11,0,2,4,0.005926,
+University College Dublin,1,0,1,4,0.0,
+University of Toronto,8,0,2,4,0.003232,
+Argonne National Laboratory,2,0,1,3,0.0,
+Clemson University,2,0,1,3,0.0,
+Fermi National Accelerator Laboratory,4,0,1,3,0.0,
+Monash University,6,0,3,3,0.0,
+SINTEF,3,0,2,3,0.001242,
+Shanghai Institute of Microsystem and Information Technology,1,0,1,3,0.0,
+University of Twente,3,0,1,3,0.0,
+Fiber Optics Research Center,1,0,1,2,0.0,
+Leibniz Institute for Crystal Growth,2,0,1,2,0.0,
+Materials Processing (United States),4,0,2,2,0.0,
+Motorola (United States),1,0,1,2,0.0,
+Munster Technological University,2,0,1,2,0.0,
+National Institute for Materials Science,1,0,1,2,0.0,
+Physikalisch-Technische Bundesanstalt,1,0,1,2,0.0,
+Simon Fraser University,7,0,1,2,0.0,
+University of Delaware,4,0,1,2,0.0,
+University of Exeter,1,0,1,2,0.0,
+University of Michigan,1,0,1,2,0.0,
+University of Pavia,4,0,1,2,0.0,
+University of St Andrews,1,0,1,2,0.0,
+University of Tsukuba,1,0,1,2,0.0,
+Ablynx (Belgium),1,0,1,1,0.0,
+Alps Electric (United Kingdom),1,0,1,1,0.0,
+Cornell University,1,0,1,1,0.0,
+Indian Institute of Science Bangalore,1,0,1,1,0.0,
+Institut de Microelectrònica de Barcelona,1,0,1,1,0.0,
+Institute of Physical Chemistry,1,0,1,1,0.0,
+Integrated Device Technology (United States),1,0,1,1,0.0,
+Marvell (United States),1,0,1,1,0.0,
+NTT Basic Research Laboratories,3,0,1,1,0.0,
+Nanjing University,4,0,1,1,0.0,
+National Laboratory of the Rockies,2,0,1,1,0.0,
+National Yang Ming Chiao Tung University,4,0,1,1,0.0,
+Oak Ridge National Laboratory,1,0,1,1,0.0,
+Purple Mountain Laboratories,8,0,1,1,0.0,
+RIKEN Center for Advanced Photonics,1,0,1,1,0.0,
+Tellabs (Canada),1,0,1,1,0.0,
+Tokyo Institute of Technology,4,0,1,1,0.0,
+Universidad de Salamanca,1,0,1,1,0.0,
+Vrije Universiteit Brussel,2,0,1,1,0.0,
+Beijing Information Science & Technology University,8,0,1,0,0.0,
+Griffith University,7,0,1,0,0.0,
+New York University Abu Dhabi,4,0,1,0,0.0,
+Oclaro (Japan),1,0,1,0,0.0,
+Politecnico di Torino,1,0,1,0,0.0,
+RWTH Aachen University,1,0,1,0,0.0,
+Samsung (South Korea),1,0,1,0,0.0,
+Texas A&M University,3,0,1,0,0.0,
+Tianjin University,6,0,1,0,0.0,
+University of Florida,3,0,1,0,0.0,
+University of Ha'il,1,0,1,0,0.0,
+Université Laval,3,0,1,0,0.0,
+Verizon (United States),3,0,1,0,0.0,
+Washington University in St. Louis,1,0,1,0,0.0,
+Xi'an Jiaotong University,3,0,1,0,0.0,

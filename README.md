@@ -2,6 +2,8 @@
 
 English | [简体中文](README.zh-CN.md)
 
+[中文项目汇报网站 · Chinese presentation](https://liu0029yuxuan.github.io/ocs-landscape-presentation/)
+
 An agent-driven pipeline that maps optical circuit switching (OCS) for AI data centers from open bibliographic sources. Python scripts do the deterministic steps, role agents make the judgement calls, and every judgement is saved with its evidence (a quote, paper IDs, or a URL) so that it can be checked. The pipeline builds three maps.
 
 1. **Technologies.** The switching routes (3D MEMS, 2D MEMS, silicon photonic MEMS, LCoS, piezo, thermo-optic, electro-optic, SOA, robotic patch panels) and how they compare on switching time, loss, port count, maturity, and fit for AI clusters.
