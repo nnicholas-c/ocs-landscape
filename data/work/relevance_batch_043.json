@@ -1,0 +1,202 @@
+[
+  {
+    "record_key": "openalex:W1997620138",
+    "source": "arxiv_via_openalex",
+    "title": "State-selective intersystem crossing in nitrogen-vacancy centers",
+    "year": 2015,
+    "venue": "Physical Review B",
+    "abstract": "Motivated by recent measurements of state-selective intersystem crossing (ISC) in the nitrogen-vacancy (NV) center in diamond (see companion PRL), a new microscopic model is developed of the key ISC mechanism. These nonradiative transitions between states of different spin multiplicity are pivotal in the optical initialization and readout of the NV center's electronic spin, which has created a diverse range of room-temperature applications in metrology and quantum information science."
+  },
+  {
+    "record_key": "openalex:W2005826171",
+    "source": "arxiv_via_openalex",
+    "title": "Nanoscale sub-100 picosecond all-optical magnetization switching in GdFeCo microstructures",
+    "year": 2015,
+    "venue": "Nature Communications",
+    "abstract": "Ultrafast magnetization reversal driven by femtosecond laser pulses has been shown to be a promising way to write information. Seeking to improve the recording density has raised intriguing fundamental questions about the feasibility of combining ultrafast temporal resolution with sub-wavelength spatial resolution for magnetic recording. Here we report on the experimental demonstration of nanoscale sub-100 ps all-optical magnetization switching, providing a path to sub-wavelength magnetic recording. Using computational methods, we reveal the feasibility of nanoscale magnetic switching even for an unfocused laser pulse. This effect is achieved by structuring the sample such that the laser pulse, via both refraction and interference, focuses onto a localized region of the structure, the position of which can be controlled by the structural design."
+  },
+  {
+    "record_key": "openalex:W2914645477",
+    "source": "arxiv_via_openalex",
+    "title": "Experimental demonstration of linear and spinning Janus dipoles for polarisation- and wavelength-selective near-field coupling",
+    "year": 2019,
+    "venue": "Light Science & Applications",
+    "abstract": "The electromagnetic field scattered by nano-objects contains a broad range of wavevectors and can be efficiently coupled to waveguided modes. The dominant contribution to scattering from subwavelength dielectric and plasmonic nanoparticles is determined by electric and magnetic dipolar responses. Here, we experimentally demonstrate spectral and phase selective excitation of Janus dipoles, sources with electric and magnetic dipoles oscillating out of phase, in order to control near-field interference and directional coupling to waveguides. We show that by controlling the polarisation state of the dipolar excitations and the excitation wavelength to adjust their relative contributions, directionality and coupling strength can be fully tuned. Furthermore, we introduce a novel spinning Janus dipole featuring cylindrical symmetry in the near and far field, which results"
+  },
+  {
+    "record_key": "openalex:W2809093058",
+    "source": "arxiv_via_openalex",
+    "title": "Dynamically encircling an exceptional point in anti-parity-time symmetric systems: asymmetric mode switching for symmetry-broken modes",
+    "year": 2019,
+    "venue": "Light Science & Applications",
+    "abstract": "Abstract Dynamically encircling an exceptional point (EP) in parity-time (PT) symmetric waveguide systems exhibits interesting chiral dynamics that can be applied to asymmetric mode switching for symmetric and anti-symmetric modes. The counterpart symmetry-broken modes (i.e., each eigenmode is localized in one waveguide only), which are more useful for applications such as on-chip optical signal processing, exhibit only non-chiral dynamics and therefore cannot be used for asymmetric mode switching. Here, we solve this problem by resorting to anti-parity-time (anti-PT) symmetric systems and utilizing their unique topological structure, which is very different from that of PT-symmetric systems. We find that the dynamical encircling of an EP in anti-PT-symmetric systems with the starting point in the PT-broken phase results in chiral dynamics. As"
+  },
+  {
+    "record_key": "openalex:W1893298622",
+    "source": "arxiv_via_openalex",
+    "title": "Proposal for ultrafast switching of ferroelectrics using midinfrared pulses",
+    "year": 2015,
+    "venue": "Physical Review B",
+    "abstract": "I propose a method for ultrafast switching of ferroelectric polarization using midinfrared pulses. This involves selectively exciting the highest frequency ${A}_{1}$ phonon mode of a ferroelectric material with an intense midinfrared pulse. Large amplitude oscillations of this mode provides a unidirectional force to the lattice such that it displaces along the lowest frequency ${A}_{1}$ phonon mode coordinate because of a nonlinear coupling of the type $g{Q}_{\\mathrm{P}}{Q}_{\\mathrm{IR}}^{2}$ between the two modes. First-principles calculations show that this coupling is large in perovskite transition-metal oxide ferroelectrics, and the sign of the coupling is such that the lattice displaces in the switching direction. Furthermore, I find that the lowest frequency ${A}_{1}$ mode has a large ${Q}_{\\mathrm{P}}^{3}$ order anharmonicity, which causes a discontinuous switch of"
+  },
+  {
+    "record_key": "openalex:W2014947539",
+    "source": "arxiv_via_openalex",
+    "title": "Fano resonance control in a photonic crystal structure and its application to ultrafast switching",
+    "year": 2014,
+    "venue": "Applied Physics Letters",
+    "abstract": "We experimentally demonstrate a photonic crystal structure that allows easy and robust control of the Fano spectrum. Its operation relies on controlling the amplitude of light propagating along one of the light paths in the structure from which the Fano resonance is obtained. Short-pulse dynamic measurements show that besides drastically increasing the switching contrast, the transmission dynamics itself is strongly affected by the nature of the resonance. The influence of slow-recovery tails implied by a long carrier lifetime can thus be reduced using a Fano resonance due to a hitherto unrecognized reshaping effect of the nonlinear Fano transfer function. As an example, we present a system application of a Fano structure, demonstrating its advantages by the experimental realization of 10"
+  },
+  {
+    "record_key": "openalex:W3167325679",
+    "source": "arxiv_via_openalex",
+    "title": "Review Of Integrated Photonic Elastic WDM Switches For Data Centers",
+    "year": 2021,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "In this review paper, we present an elaborate discussion on wavelength selective switches and their demonstrations. We also review packaging and electronic photonic integration of switches; a topic neglected in other review papers. We also cover wavelength locking which is paramount in switching networks with many tunable filters."
+  },
+  {
+    "record_key": "openalex:W2810782249",
+    "source": "arxiv_via_openalex",
+    "title": "Light-Induced Subpicosecond Lattice Symmetry Switch in MoTe2",
+    "year": 2019,
+    "venue": "Physical Review X",
+    "abstract": "The recent development of ultrashort laser pulses allows for optical control of structural and electronic properties of complex quantum materials.The layered transition-metal dichalcogenide MoTe 2 , which can crystallize into several different structures with distinct topological and electronic properties, provides possibilities to control or switch between different phases.In this study, we report a photoinduced subpicosecond structural transition between the type-II Weyl semimetal phase and normal-semimetal phase in bulk crystalline MoTe 2 by using ultrafast pump-probe and time-resolved second-harmonic-generation spectroscopy.The phase transition is most clearly characterized by the dramatic change of the shear oscillation mode and the intensity loss of second-harmonic generation.This work opens up new possibilities for ultrafast manipulation of the topological properties of solids, enabling potentially practical applications for"
+  },
+  {
+    "record_key": "openalex:W3208214368",
+    "source": "arxiv_via_openalex",
+    "title": "A wavelength and polarization selective photon sieve for holographic applications",
+    "year": 2021,
+    "venue": "Nanophotonics",
+    "abstract": "Abstract Optical metasurfaces are perfect candidates for the phase and amplitude modulation of light, featuring an excellent basis for holographic applications. In this work, we present a dual amplitude holographic scheme based on the photon sieve principle, which is then combined with a phase hologram by utilizing the Pancharatnam–Berry phase. We demonstrate that two types of apertures, rectangular and square shapes in a gold film filled with silicon nanoantennas are sufficient to create two amplitude holograms at two different wavelengths in the visible, multiplexed with an additional phase‐only hologram. The nanoantennas are tailored to adjust the spectral transmittance of the apertures, enabling the wavelength sensitivity. The phase‐only hologram is implemented by utilizing the anisotropic rectangular structure. Interestingly, such three holograms"
+  },
+  {
+    "record_key": "openalex:W3028999415",
+    "source": "arxiv_via_openalex",
+    "title": "Bidirectional Electro-Optic Wavelength Conversion in the Quantum Ground State",
+    "year": 2020,
+    "venue": "PRX Quantum",
+    "abstract": "Microwave photonics lends the advantages of fiber optics to electronic sensing and communication systems.In contrast to nonlinear optics, electro-optic devices so far require classical modulation fields whose variance is dominated by electronic or thermal noise rather than quantum fluctuations.Here we demonstrate bidirectional single-sideband conversion of X band microwave to C band telecom light with a microwave mode occupancy as low as 0.025 ± 0.005 and an added output noise of less than or equal to 0.074 photons.This is facilitated by radiative cooling and a triply resonant ultra-low-loss transducer operating at millikelvin temperatures.The high bandwidth of 10.7 MHz and total (internal) photon conversion efficiency of 0.03% (0.67%) combined with the extremely slow heating rate of 1.1 added output noise photons per"
+  },
+  {
+    "record_key": "openalex:W3001857857",
+    "source": "arxiv_via_openalex",
+    "title": "Dual-Wavelength Lasing in Quantum-Dot Plasmonic Lattice Lasers",
+    "year": 2020,
+    "venue": "ACS Nano",
+    "abstract": "Abstract Arrays of metallic particles patterned on a substrate have emerged as a promising design for on-chip plasmonic lasers. In past examples of such devices, the periodic particles provided feedback at a single resonance wavelength, and organic dye molecules were used as the gain material. Here, we introduce a flexible template-based fabrication method that allows a broader design space for Ag particle-array lasers. Instead of dye molecules, we integrate colloidal quantum dots (QDs), which offer better photostability and wavelength tunability. Our fabrication approach also allows us to easily adjust the refractive index of the substrate and the QD-film thickness. Exploiting these capabilities, we demonstrate not only single-wavelength lasing but dual-wavelength lasing via two distinct strategies. First, by using particle arrays"
+  },
+  {
+    "record_key": "openalex:W2785354616",
+    "source": "arxiv_via_openalex",
+    "title": "Bright Single InAsP Quantum Dots at Telecom Wavelengths in Position-Controlled InP Nanowires: The Role of the Photonic Waveguide",
+    "year": 2018,
+    "venue": "Nano Letters",
+    "abstract": "We report on the site-selected growth of bright single InAsP quantum dots embedded within InP photonic nanowire waveguides emitting at telecom wavelengths. We demonstrate a dramatic dependence of the emission rate on both the emission wavelength and the nanowire diameter. With an appropriately designed waveguide, tailored to the emission wavelength of the dot, an increase in the count rate by nearly 2 orders of magnitude (0.4 to 35 kcps) is obtained for quantum dots emitting in the telecom O-band, showing high single-photon purity with multiphoton emission probabilities down to 2%. Using emission-wavelength-optimized waveguides, we demonstrate bright, narrow-line-width emission from single InAsP quantum dots with an unprecedented tuning range of 880 to 1550 nm. These results pave the way toward efficient"
+  },
+  {
+    "record_key": "openalex:W2954872842",
+    "source": "arxiv_via_openalex",
+    "title": "Realization of all-optical vortex switching in exciton-polariton condensates",
+    "year": 2020,
+    "venue": "Nature Communications",
+    "abstract": "Vortices are topological objects representing the circular motion of a fluid. With their additional degree of freedom, the vorticity, they have been widely investigated in many physical systems and different materials for fundamental interest and for applications in data storage and information processing. Vortices have also been observed in non-equilibrium exciton-polariton condensates in planar semiconductor microcavities. There they appear spontaneously or can be created and pinned in space using ring-shaped optical excitation profiles. However, using the vortex state for information processing not only requires creation of a vortex but also efficient control over the vortex after its creation. Here we demonstrate a simple approach to control and switch a localized polariton vortex between opposite states. In our scheme, both the"
+  },
+  {
+    "record_key": "openalex:W3027646862",
+    "source": "arxiv_via_openalex",
+    "title": "Multichannel optomechanical switch and locking system for wavemeters",
+    "year": 2020,
+    "venue": "Applied Optics",
+    "abstract": "Here we present a cost-effective multichannel optomechanical switch and software proportional–integral–derivative (PID) controller system for locking multiple lasers to a single-channel commercial wavemeter. The switch is based on a rotating cylinder that selectively transmits one laser beam at a time to the wavemeter. The wavelength is read by the computer, and an error signal is output to the lasers to correct wavelength drifts every millisecond. We use this system to stabilize 740 nm (subsequently frequency doubled to 370 nm), 399 nm, and 935 nm lasers for trapping and cooling different isotopes of a Y b + ion. We characterize the frequency stability of the three lasers by using a second, more precise, commercial wavemeter. We also characterize the absolute frequency"
+  },
+  {
+    "record_key": "openalex:W1977477344",
+    "source": "arxiv_via_openalex",
+    "title": "Ion beam synthesis of nanothermochromic diffraction gratings with giant switching contrast at telecom wavelengths",
+    "year": 2012,
+    "venue": "Applied Physics Letters",
+    "abstract": "Nanothermochromic diffraction gratings based on the metal-insulator transition of VO2 are fabricated by site-selective ion beam implantation in a SiO2 matrix. Gratings were defined either (i) directly by spatially selective ion beam synthesis or (ii) by site-selective deactivation of the phase transition by ion beam induced defects. The strongest increase of the diffracted light intensities was observed at a wavelength of 1550 nm exceeding a factor of 20 for the selectively deactivated gratings. The observed pronounced thermal hysteresis extending down close to room temperature makes this system ideally suited for optical memory applications."
+  },
+  {
+    "record_key": "openalex:W3138806262",
+    "source": "arxiv_via_openalex",
+    "title": "An Interpretable Mapping From a Communication System to a Neural Network for Optimal Transceiver-Joint Equalization",
+    "year": 2021,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "In this paper, we propose a scheme that utilizes the optimization ability of artificial intelligence (AI) for optimal transceiver-joint equalization in compensating for the optical filtering impairments caused by wavelength selective switches (WSS). In contrast to adding or replacing a certain module of existing digital signal processing (DSP), we exploit the similarity between a communication system and a neural network (NN). By mapping a communication system to an NN, in which the equalization modules correspond to the convolutional layers and other modules can been regarded as static layers, the optimal transceiver-joint equalization coefficients can be obtained. In particular, the DSP structure of the communication system is not changed. Extensive numerical simulations are performed to validate the performance of the proposed"
+  },
+  {
+    "record_key": "openalex:W2908992560",
+    "source": "arxiv_via_openalex",
+    "title": "Spatial sampling of terahertz fields with sub-wavelength accuracy via probe-beam encoding",
+    "year": 2019,
+    "venue": "Light Science & Applications",
+    "abstract": "Recently, computational sampling methods have been implemented to spatially characterize terahertz (THz) fields. Previous methods usually rely on either specialized THz devices such as THz spatial light modulators or complicated systems requiring assistance from photon-excited free carriers with high-speed synchronization among multiple optical beams. Here, by spatially encoding an 800-nm near-infrared (NIR) probe beam through the use of an optical SLM, we demonstrate a simple sampling approach that can probe THz fields with a single-pixel camera. This design does not require any dedicated THz devices, semiconductors or nanofilms to modulate THz fields. Using computational algorithms, we successfully measure 128 × 128 field distributions with a 62-μm transverse spatial resolution, which is 15 times smaller than the central wavelength of the"
+  },
+  {
+    "record_key": "openalex:W2789879708",
+    "source": "arxiv_via_openalex",
+    "title": "Metasurface holography: from fundamentals to applications",
+    "year": 2018,
+    "venue": "Nanophotonics",
+    "abstract": "Abstract Holography has emerged as a vital approach to fully engineer the wavefronts of light since its invention dating back to the last century. However, the typically large pixel size, small field of view and limited space‐bandwidth impose limitations in the on‐demand high‐performance applications, especially for three‐dimensional displays and large‐capacity data storage. Meanwhile, metasurfaces have shown great potential in controlling the propagation of light through the well‐tailored scattering behavior of the constituent ultrathin planar elements with a high spatial resolution, making them suitable for holographic beam‐shaping elements. Here, we review recent developments in the field of metasurface holography, from the classification of metasurfaces to the design strategies for both free‐space and surface waves. By employing the concepts of holographic multiplexing,"
+  },
+  {
+    "record_key": "openalex:W2788871496",
+    "source": "arxiv_via_openalex",
+    "title": "Nonlinear performance of asymmetric coupler based on dual-core photonic crystal fiber: Towards sub-nanojoule solitonic ultrafast all-optical switching",
+    "year": 2018,
+    "venue": "Optical Fiber Technology",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W3007900231",
+    "source": "arxiv_via_openalex",
+    "title": "Ultrafast all-optical switching enabled by epsilon-near-zero-tailored absorption in metal-insulator nanocavities",
+    "year": 2020,
+    "venue": "Communications Physics",
+    "abstract": "Abstract Ultrafast control of light−matter interactions is fundamental in view of new technological frontiers of information processing. However, conventional optical elements are either static or feature switching speeds that are extremely low with respect to the time scales at which it is possible to control light. Here, we exploit the artificial epsilon-near-zero (ENZ) modes of a metal-insulator-metal nanocavity to tailor the linear photon absorption of our system and realize a nondegenerate all-optical ultrafast modulation of the reflectance at a specific wavelength. Optical pumping of the system at its high energy ENZ mode leads to a strong redshift of the low energy mode because of the transient increase of the local dielectric function, which leads to a sub-3-ps control of the"
+  },
+  {
+    "record_key": "openalex:W2025703977",
+    "source": "arxiv_via_openalex",
+    "title": "Wavelength-tunable infrared metamaterial by tailoring magnetic resonance condition with VO2 phase transition",
+    "year": 2014,
+    "venue": "Journal of Applied Physics",
+    "abstract": "In this work, we report the design of a wavelength-tunable infrared metamaterial by tailoring magnetic resonance condition with the phase transition of vanadium dioxide (VO2). Numerical simulation based on the finite-difference time-domain method shows a broad absorption peak at the wavelength of 10.9 μm when VO2 is a metal, but it shifts to 15.1 μm when VO2 changes to dielectric phase below its phase transition temperature of 68 °C. The large tunability of 38.5% in the resonance wavelength stems from the different excitation conditions of magnetic resonance mediated by plasmon in metallic VO2 but optical phonons in dielectric VO2. The physical mechanism is elucidated with the aid of electromagnetic field distribution at the resonance wavelengths. A hybrid magnetic resonance mode"
+  },
+  {
+    "record_key": "openalex:W2797350338",
+    "source": "arxiv_via_openalex",
+    "title": "Storage and Reemission of Heralded Telecommunication-Wavelength Photons Using a Crystal Waveguide",
+    "year": 2019,
+    "venue": "Physical Review Applied",
+    "abstract": "Telecom-wavelength single photons are the leading carriers of quantum information for practical photonic quantum technologies, and there has been significant progress in developing compatible components like detectors and single-photon sources. However, an on-chip, broadband quantum memory for storage and reemission of single telecom photons---indispensable for future quantum repeaters---has been lacking. The authors demonstrate a light-matter interface for quantum storage of 1532-nm photons: a cryogenically cooled lithium niobate crystal waveguide. The memory hinges on a broadband atomic frequency comb created by persistent spectral hole burning through long-lived superhyperfine levels."
+  },
+  {
+    "record_key": "openalex:W4297796831",
+    "source": "arxiv_via_openalex",
+    "title": "Design and Implementation of the Illinois Express Quantum Metropolitan Area Network",
+    "year": 2022,
+    "venue": "IEEE Transactions on Quantum Engineering",
+    "abstract": "The Illinois Express Quantum Network (IEQNET) is a program to realize metropolitan scale quantum networking over deployed optical fiber using currently available technology. IEQNET consists of multiple sites that are geographically dispersed in the Chicago metropolitan area. Each site has one or more quantum nodes (Q-Nodes) representing the communication parties in a quantum network. Q-Nodes generate or measure quantum signals such as entangled photons and communicate the measurement results via standard, classical signals and conventional networking processes. The entangled photons in IEQNET nodes are generated at multiple wavelengths, and are selectively distributed to the desired users via transparent optical switches. Here we describe the network architecture of IEQNET, including the Internet-inspired layered hierarchy that leverages software-defined networking (SDN) technology to"
+  },
+  {
+    "record_key": "openalex:W2953610903",
+    "source": "arxiv_via_openalex",
+    "title": "Two-colour interferometry and switching through optomechanical dark mode excitation",
+    "year": 2020,
+    "venue": "Nature Communications",
+    "abstract": "Efficient switching and routing of photons of different wavelengths is a requirement for realizing a quantum internet. Multimode optomechanical systems can solve this technological challenge and enable studies of fundamental science involving widely separated wavelengths that are inaccessible to single-mode optomechanical systems. To this end, we demonstrate interference between two optomechanically induced transparency processes in a diamond on-chip cavity. This system allows us to directly observe the dynamics of an optomechanical dark mode that interferes photons at different wavelengths via their mutual coupling to a common mechanical resonance. This dark mode does not transfer energy to the dissipative mechanical reservoir and is predicted to enable quantum information processing applications that are insensitive to mechanical decoherence. Control of the dark mode"
+  },
+  {
+    "record_key": "openalex:W1578093073",
+    "source": "arxiv_via_openalex",
+    "title": "Nonlinear Optical Properties of Transition-Metal Dichalcogenide MX2 (M = Mo, W; X = S, Se) Monolayers and Trilayers from First-Principles Calculations",
+    "year": 2015,
+    "venue": "The Journal of Physical Chemistry C",
+    "abstract": "Because of the absence of interlayer coupling and inversion symmetry, transition-metal dichalcogenide (MX 2 ) semiconductor monolayers exhibit novel properties that are distinctly different from their bulk crystals such as direct optical band gaps, large band spin splittings, spin-valley coupling, and piezoelectric and nonlinear optical responses and thus have promising applications in, for example, optoelectronic and spintronic devices. Here, we have performed a systematic first-principles study of the second-order nonlinear optical properties of MX 2 (M = Mo, W; X = S, Se) monolayers and trilayers within the density functional theory with the generalized gradient approximation plus scissors correction. We find that all the four MX 2 monolayers possess large second-order optical susceptibility χ (2) in the optical frequency range"
+  }
+]

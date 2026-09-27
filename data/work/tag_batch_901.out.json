@@ -1,0 +1,222 @@
+[
+  {
+    "paper_id": "W1992393894",
+    "tech_route": "other",
+    "tech_route_secondary": "thermo_optic",
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": "silicon_photonics",
+    "evidence_span": "Here we demonstrate reconfiguration of coupled photonic crystal nanobeam cavities by using optical gradient force induced mechanical actuation.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W1998881035",
+    "tech_route": "electro_optic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "evidence_span": "We report on a three-waveguide electro-optic switch for compact photonic integrated circuits and data routing applications.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W2007828573",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": "silicon_photonics",
+    "evidence_span": "It modulates an individual pulse in a radio-frequency burst within 4 ns, achieving a reconfiguration speed three orders of magnitude faster than thermal tuning.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2014947539",
+    "tech_route": "other",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": "silicon_photonics",
+    "evidence_span": "As an example, we present a system application of a Fano structure, demonstrating its advantages by the experimental realization of 10 Gbit/s all-optical modulation with optical control power less than 1 mW.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W2186837746",
+    "tech_route": "thermo_optic",
+    "tech_route_secondary": "electro_optic",
+    "integration": "free_space_bulk",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": null,
+    "evidence_span": "We also use the rotation phenomenon to realize thermo-optic and electro-optic switches.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W2217470677",
+    "tech_route": "thermo_optic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "evidence_span": "Owing to efficient thermo-optic design, the power consumption is below 3 mW while the switching time is 1 µs.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W2234047666",
+    "tech_route": "thermo_optic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "evidence_span": "The thermo-optic switch is measured with an optical extinction ratio of 20 dB, an on-off switching power of 18.2 mW, a thermo-optic tuning efficiency of 0.63 nm/mW, a rise time of 14.8 μs, and a fall time of 18.5 μs.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W2442240527",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": null,
+    "evidence_span": "These results unlock clear pathways for silicon-based quantum computing, spin-to-photon conversion, photonic memories, integrated single-photon sources, and all-optical switches.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2512049535",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": "silicon_photonics",
+    "evidence_span": "By incorporating a graphene on a slow-light silicon photonic crystal waveguide, here we experimentally demonstrate an energy-efficient graphene microheater with a tuning efficiency of 1.07 nmmW −1 and power consumption per free spectral range of 3.99 mW.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2585826757",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": "lcos",
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "none",
+    "adjacent_field": "telecom_oxc_roadm",
+    "evidence_span": "By cyclically repeating the spectrum of a modulated signal, we show improved tolerance to impairments due to add/drop multiplexing with a commercial wavelength selective switch in systems using 5%-20% guard bands on a 50 GHz DWDM grid.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W2748818791",
+    "tech_route": "other",
+    "tech_route_secondary": "thermo_optic",
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "evidence_span": "In this work, we design, fabricate, and characterize a hybrid Si-PCM optical switch.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W2763125919",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": "silicon_photonics",
+    "evidence_span": "Here we present the modeling and experimental demonstration of a thermally tuned Si-FTS accounting for dispersion, thermo-optic non-linearity, and thermal expansion.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2803462617",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": "silicon_photonics",
+    "evidence_span": "Here, we demonstrate the first electro-optic modulators based on ferroelectric lead zirconate titanate (PZT) films on SiN, in both the O-band and C-band.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2829881810",
+    "tech_route": "other",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": null,
+    "evidence_span": "Based on this phenomenon, we propose a waveguide-integrated magnetically controlled switchable plasmonic routers with 99-%-high contrast within the optical bandwidth of tens of THz.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W2892415914",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": "silicon_photonics",
+    "evidence_span": "The operation RF frequency of the OP-OSSB generator can be continuously tuned with a 21.4 GHz range via independent thermal control of the two MRRs.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2904485030",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": null,
+    "evidence_span": "In this work, three frequency-conjugate entangled pairs are used to demonstrate quantum key distribution, with the wavelength-selective switching done manually.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2910306093",
+    "tech_route": "thermo_optic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": null,
+    "evidence_span": "We demonstrate automatic resonance alignment of 31 rings of a 16 x 16 switch and of a 14-ring coupled resonator optical waveguide, making them the largest, yet most compact, automatically controlled silicon ring resonator circuits to date, to the best of our knowledge.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W2913891200",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": "silicon_photonics",
+    "evidence_span": "In this work, we demonstrate monolithic integration of electro-optic modulators based on the Pockels effect in barium titanate (BTO) thin films into the back-end-of-line of a photonic integrated circuit (PIC) platform.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2949939478",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "none",
+    "adjacent_field": "telecom_oxc_roadm",
+    "evidence_span": "In each network node, we investigate the optimal degree of traffic switching in an optical (lambda) domain versus an electrical (packet) domain, also known as measure of node transparency.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W2963809841",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "direct",
+    "adjacent_field": "dc_network_systems",
+    "evidence_span": "This insight led to the development of demand-aware datacenter interconnects which can be reconfigured depending on the workload.",
+    "confidence": "medium"
+  }
+]

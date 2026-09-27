@@ -11,7 +11,7 @@ CREATE TABLE IF NOT EXISTS papers (
     abstract        TEXT,
     year            INTEGER,
     venue           TEXT,               -- journal or conference display name, or "arXiv"
-    sources         TEXT NOT NULL,      -- comma-separated: openalex, arxiv, openalex_snowball
+    sources         TEXT NOT NULL,      -- comma-separated: openalex, arxiv, openalex_snowball, arxiv_via_openalex
     cited_by_count  INTEGER,            -- from OpenAlex only; NULL for arXiv-only records
     relevance_score INTEGER,            -- 0..3 from stage 1b
     core_set        INTEGER DEFAULT 0,  -- 1 if in the core technical set

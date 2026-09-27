@@ -1,0 +1,130 @@
+[
+  {
+    "record_key": "openalex:W4285069006",
+    "source": "arxiv_via_openalex",
+    "title": "Product Aesthetic Design: A Machine Learning Augmentation",
+    "year": 2019,
+    "venue": "RePEc: Research Papers in Economics",
+    "abstract": "Aesthetics are critically important to market acceptance. In the automotive industry, an improved aesthetic design can boost sales by 30% or more. Firms invest heavily in designing and testing aesthetics. A single automotive \"theme clinic\" can cost over $100,000, and hundreds are conducted annually. We propose a model to augment the commonly-used aesthetic design process by predicting aesthetic scores and automatically generating innovative and appealing product designs. The model combines a probabilistic variational autoencoder (VAE) with adversarial components from generative adversarial networks (GAN) and a supervised learning component. We train and evaluate the model with data from an automotive partner-images of 203 SUVs evaluated by targeted consumers and 180,000 high-quality unrated images. Our model predicts well the appeal of new"
+  },
+  {
+    "record_key": "openalex:W3126787553",
+    "source": "arxiv_via_openalex",
+    "title": "Machine Learning for Electronic Design Automation: A Survey",
+    "year": 2021,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "With the down-scaling of CMOS technology, the design complexity of very large-scale integrated (VLSI) is increasing. Although the application of machine learning (ML) techniques in electronic design automation (EDA) can trace its history back to the 90s, the recent breakthrough of ML and the increasing complexity of EDA tasks have aroused more interests in incorporating ML to solve EDA tasks. In this paper, we present a comprehensive review of existing ML for EDA studies, organized following the EDA hierarchy."
+  },
+  {
+    "record_key": "openalex:W3111771041",
+    "source": "arxiv_via_openalex",
+    "title": "Nanoscale neural network using non-linear spin-wave interference",
+    "year": 2021,
+    "venue": "Nature Communications",
+    "abstract": "We demonstrate the design of a neural network hardware, where all neuromorphic computing functions, including signal routing and nonlinear activation are performed by spin-wave propagation and interference. Weights and interconnections of the network are realized by a magnetic-field pattern that is applied on the spin-wave propagating substrate and scatters the spin waves. The interference of the scattered waves creates a mapping between the wave sources and detectors. Training the neural network is equivalent to finding the field pattern that realizes the desired input-output mapping. A custom-built micromagnetic solver, based on the Pytorch machine learning framework, is used to inverse-design the scatterer. We show that the behavior of spin waves transitions from linear to nonlinear interference at high intensities and that"
+  },
+  {
+    "record_key": "openalex:W4205630102",
+    "source": "arxiv_via_openalex",
+    "title": "The Gravitational-wave Optical Transient Observer (GOTO): Prototype performance and prospects for transient science",
+    "year": 2021,
+    "venue": "Research Explorer (The University of Manchester)",
+    "abstract": "The Gravitational-wave Optical Transient Observer (GOTO) is an array of wide-field optical telescopes, designed to exploit new discoveries from the next generation of gravitational wave detectors (LIGO, Virgo, KAGRA), study rapidly evolving transients, and exploit multi-messenger opportunities arising from neutrino and very high energy gamma-ray triggers. In addition to a rapid response mode, the array will also perform a sensitive, all-sky transient survey with few day cadence. The facility features a novel, modular design with multiple 40-cm wide-field reflectors on a single mount. In June 2017 the GOTO collaboration deployed the initial project prototype, with 4 telescope units, at the Roque de los Muchachos Observatory (ORM), La Palma, Canary Islands. Here we describe the deployment, commissioning, and performance of the"
+  },
+  {
+    "record_key": "openalex:W2620342231",
+    "source": "arxiv_via_openalex",
+    "title": "A Survey of Neuromorphic Computing and Neural Networks in Hardware",
+    "year": 2017,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "Neuromorphic computing has come to refer to a variety of brain-inspired computers, devices, and models that contrast the pervasive von Neumann computer architecture. This biologically inspired approach has created highly connected synthetic neurons and synapses that can be used to model neuroscience theories as well as solve challenging machine learning problems. The promise of the technology is to create a brain-like ability to learn and adapt, but the technical challenges are significant, starting with an accurate neuroscience model of how the brain works, to finding materials and engineering breakthroughs to build devices to support these models, to creating a programming framework so the systems can learn, to creating applications with brain-like capabilities. In this work, we provide a comprehensive survey"
+  },
+  {
+    "record_key": "openalex:W3208167090",
+    "source": "arxiv_via_openalex",
+    "title": "Cascadable all-optical NAND gates using diffractive networks",
+    "year": 2022,
+    "venue": "Scientific Reports",
+    "abstract": "Abstract Owing to its potential advantages such as scalability, low latency and power efficiency, optical computing has seen rapid advances over the last decades. Here, we present the design and analysis of cascadable all-optical NAND gates using diffractive neural networks. We encoded the logical values at the input and output planes of a diffractive NAND gate using the relative optical power of two spatially-separated apertures. Based on this architecture, we numerically optimized the design of a diffractive neural network composed of 4 passive layers to all-optically perform NAND operation using diffraction of light, and cascaded these diffractive NAND gates to perform complex logical functions by successively feeding the output of one diffractive NAND gate into another. We numerically demonstrated the"
+  },
+  {
+    "record_key": "openalex:W2989615886",
+    "source": "arxiv_via_openalex",
+    "title": "Neural Turbo Equalization: Deep Learning for Fiber-Optic Nonlinearity Compensation",
+    "year": 2020,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "Recently, data-driven approaches motivated by modern deep learning have been applied to optical communications in place of traditional model-based counterparts. The application of deep neural networks (DNN) allows flexible statistical analysis of complicated fiber-optic systems without relying on any specific physical models. Due to the inherent nonlinearity in DNN, various equalizers based on DNN have shown significant potential to mitigate fiber nonlinearity. In this paper, we propose turbo equalization (TEQ) based on DNN as a new alternative framework to deal with nonlinear fiber impairments. The proposed DNN-TEQ is constructed with nested deep residual networks (ResNet) to train extrinsic likelihood given soft-information feedback from channel decoding. Through extrinsic information transfer (EXIT) analysis, we verify that our DNN-TEQ can accelerate decoding convergence"
+  },
+  {
+    "record_key": "openalex:W3128021040",
+    "source": "arxiv_via_openalex",
+    "title": "Soft-Demapping for Short Reach Optical Communication: A Comparison of Deep Neural Networks and Volterra Series",
+    "year": 2021,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "In optical fiber communication, optical and electrical components introduce nonlinearities, which require effective compensation to attain highest data rates. In particular, in short reach communication, components are the dominant source of nonlinearities. Volterra series are a popular countermeasure for receiver-side equalization of nonlinear component impairments and their memory effects. However, Volterra equalizer architectures are generally very complex. This article investigates soft deep neural network (DNN) architectures as an alternative for nonlinear equalization and soft-decision demapping. On coherent 92GBd dual polarization 64QAM back-to-back measurements performance and complexity is experimentally evaluated. The proposed bit-wise soft DNN equalizer (SDNNE) is compared to a 5th order Volterra equalizer at a 15% overhead forward error correction (FEC) limit. At equal performance, the computational complexity is"
+  },
+  {
+    "record_key": "openalex:W3136221959",
+    "source": "arxiv_via_openalex",
+    "title": "Deep Predictive Learning in Neocortex and Pulvinar",
+    "year": 2021,
+    "venue": "Journal of Cognitive Neuroscience",
+    "abstract": "How do humans learn from raw sensory experience? Throughout life, but most obviously in infancy, we learn without explicit instruction. We propose a detailed biological mechanism for the widely embraced idea that learning is driven by the differences between predictions and actual outcomes (i.e., predictive error-driven learning). Specifically, numerous weak projections into the pulvinar nucleus of the thalamus generate top-down predictions, and sparse driver inputs from lower areas supply the actual outcome, originating in Layer 5 intrinsic bursting neurons. Thus, the outcome representation is only briefly activated, roughly every 100 msec (i.e., 10 Hz, alpha), resulting in a temporal difference error signal, which drives local synaptic changes throughout the neocortex. This results in a biologically plausible form of error backpropagation"
+  },
+  {
+    "record_key": "openalex:W3116411329",
+    "source": "arxiv_via_openalex",
+    "title": "Scalable optical learning operator",
+    "year": 2021,
+    "venue": "Nature Computational Science",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W2960571025",
+    "source": "arxiv_via_openalex",
+    "title": "Design and Evaluation of Product Aesthetics: A Human-Machine Hybrid Approach",
+    "year": 2019,
+    "venue": "SSRN Electronic Journal",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W4319049883",
+    "source": "arxiv_via_openalex",
+    "title": "A Comprehensive Survey of Continual Learning: Theory, Method and Application",
+    "year": 2023,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "To cope with real-world dynamics, an intelligent system needs to incrementally acquire, update, accumulate, and exploit knowledge throughout its lifetime. This ability, known as continual learning, provides a foundation for AI systems to develop themselves adaptively. In a general sense, continual learning is explicitly limited by catastrophic forgetting, where learning a new task usually results in a dramatic performance degradation of the old tasks. Beyond this, increasingly numerous advances have emerged in recent years that largely extend the understanding and application of continual learning. The growing and widespread interest in this direction demonstrates its realistic significance as well as complexity. In this work, we present a comprehensive survey of continual learning, seeking to bridge the basic settings, theoretical foundations, representative"
+  },
+  {
+    "record_key": "openalex:W2888329769",
+    "source": "arxiv_via_openalex",
+    "title": "Toward Fast Neural Computing using All-Photonic Phase Change Spiking Neurons",
+    "year": 2018,
+    "venue": "Scientific Reports",
+    "abstract": "Abstract The rapid growth of brain-inspired computing coupled with the inefficiencies in the CMOS implementations of neuromrphic systems has led to intense exploration of efficient hardware implementations of the functional units of the brain, namely, neurons and synapses. However, efforts have largely been invested in implementations in the electrical domain with potential limitations of switching speed, packing density of large integrated systems and interconnect losses. As an alternative, neuromorphic engineering in the photonic domain has recently gained attention. In this work, we propose a purely photonic operation of an Integrate-and-Fire Spiking neuron, based on the phase change dynamics of Ge2Sb2Te5 (GST) embedded on top of a microring resonator, which alleviates the energy constraints of PCMs in electrical domain. We also"
+  },
+  {
+    "record_key": "openalex:W4414871478",
+    "source": "arxiv_via_openalex",
+    "title": "Systematic Literature Review of Machine Learning Models and Applications for Text Recognition",
+    "year": 2025,
+    "venue": "IEEE Access",
+    "abstract": "Optical Character Recognition (OCR) for text recognition using machine vision has significantly improved, particularly when handling heterogeneous textual data. Traditional OCR models struggle with script variations, writing styles, and degraded documents. Advancements in technology are leading to new AI models with improved architecture for handling multiple languages and complex data formats. Despite this progress, a comprehensive evaluation of OCR advancements remains limited. Based on the established preferred reporting items for systematic reviews and meta-analysis (PRISMA) guidelines, this literature review presents an extensive assessment of OCR research to trace the evolution of AI models over the past decade. It explores the transition in AI models, application domains, data types, linguistic coverage, and challenges. Through a detailed analysis of 97 selected studies"
+  },
+  {
+    "record_key": "openalex:W4387161253",
+    "source": "arxiv_via_openalex",
+    "title": "Differentiable Machine Learning-Based Modeling for Directly-Modulated Lasers",
+    "year": 2024,
+    "venue": "IEEE Photonics Technology Letters",
+    "abstract": "End-to-end learning has become a popular method for joint transmitter and receiver optimization in optical communication systems. Such approach may require a differentiable channel model, thus hindering the optimization of links based on directly modulated lasers (DMLs). This is due to the DML behavior in the large-signal regime, for which no analytical solution is available. In this letter, this problem is addressed by developing and comparing differentiable machine learning-based surrogate models. The models are quantitatively assessed in terms of root mean square error and training/testing time. Once the models are trained, the surrogates are then tested in a numerical equalization setup, resembling a practical end-to-end scenario. Based on the numerical investigation conducted, the convolutional attention transformer is shown to outperform"
+  },
+  {
+    "record_key": "openalex:W3023940643",
+    "source": "arxiv_via_openalex",
+    "title": "White Paper on Broadband Connectivity in 6G",
+    "year": 2020,
+    "venue": "e-space (Manchester Metropolitan University)",
+    "abstract": "This white paper explores the road to implementing broadband connectivity in future 6G wireless systems. Different categories of use cases are considered, from extreme capacity with peak data rates up to 1 Tbps, to raising the typical data rates by orders-of-magnitude, to support broadband connectivity at railway speeds up to 1000 km/h. To achieve these goals, not only the terrestrial networks will be evolved but they will also be integrated with satellite networks, all facilitating autonomous systems and various interconnected structures. We believe that several categories of enablers at the infrastructure, spectrum, and protocol/ algorithmic levels are required to realize the intended broadband connectivity goals in 6G. At the infrastructure level, we consider ultra-massive MIMO technology (possibly implemented using holographic"
+  }
+]

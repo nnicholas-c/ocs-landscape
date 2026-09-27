@@ -51,6 +51,36 @@ def test_relevance_export_dedups_across_files_and_skips_scored():
         batch = json.loads(written[0].read_text())
         assert batch[0]["record_key"] == "arxiv:B"
         assert len(batch[0]["abstract"].split()) <= 120
+        assert tag_export.export_relevance() == ([], 0)  # pending batch keys are not re-exported
+
+
+def test_full_export_skips_tagged_and_pending_unless_only():
+    with tempfile.TemporaryDirectory() as tmp:
+        tmp = Path(tmp)
+        tag_export.WORK_DIR = tmp / "work"
+        tag_export.DB_PATH = tmp / "papers.sqlite"
+
+        con = sqlite3.connect(tag_export.DB_PATH)
+        con.execute("CREATE TABLE papers (paper_id TEXT PRIMARY KEY, title TEXT, year INTEGER, venue TEXT, "
+                     "abstract TEXT, extended_set INTEGER)")
+        con.execute("CREATE TABLE tags (paper_id TEXT PRIMARY KEY)")
+        for pid, ext in [("TAGGED", 1), ("PENDING", 1), ("NEW", 1), ("NOT_EXT", 0)]:
+            con.execute("INSERT INTO papers VALUES (?, 'T', 2020, 'V', 'A', ?)", (pid, ext))
+        con.execute("INSERT INTO tags VALUES ('TAGGED')")
+        con.commit()
+        con.close()
+        tag_export.WORK_DIR.mkdir()
+        (tag_export.WORK_DIR / "tag_batch_001.json").write_text(json.dumps([{"paper_id": "PENDING"}]))
+
+        written, n = tag_export.export_full()
+        assert n == 1 and [p.name for p in written] == ["tag_batch_002.json"]
+        assert [r["paper_id"] for r in json.loads(written[0].read_text())] == ["NEW"]
+        assert tag_export.export_full() == ([], 0)  # second run exports nothing
+
+        only = tmp / "only.txt"
+        only.write_text("TAGGED\nPENDING\n")
+        written, n = tag_export.export_full(only)  # --only still retags whatever it names
+        assert n == 2 and [p.name for p in written] == ["tag_batch_901.json"]
 
 
 def test_evidence_ok():

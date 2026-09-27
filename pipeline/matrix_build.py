@@ -85,12 +85,15 @@ def spec_cell(route, dim, c, papers, projects):
             raise SystemExit(f"{route} {dim}: anchor {anchors} not found in {src}")
         assert q in text and len(q.split()) < MAX_WORDS, f"{route} {dim}: bad quote from {src}: {q!r}"
         quotes.append(q)
+    # One quote per contributing paper or project row, in the order the YAML lists them.
+    assert len(quotes) == len(set(pids)) + len(set(prows)), f"{route} {dim}: a source has more than one quote"
     joined = SEP.join(quotes)
     value = str(c.get("value", ""))
     note = c.get("note", "")
-    # CLAUDE.md rule 1: a number in value or note must stand in one of this cell's quotes.
+    # CLAUDE.md rule 1: a number in value or note must stand, as a whole number, in one of this cell's quotes.
+    quoted = set(NUM_RE.findall(joined))
     for num in NUM_RE.findall(value + " " + ID_RE.sub(" ", note)):
-        assert num in joined, f"{route} {dim}: number {num} is in no quote"
+        assert num in quoted, f"{route} {dim}: number {num} is in no quote"
     if dim in CATEGORIES:
         assert value in CATEGORIES[dim], f"{route} {dim}: {value!r} is not a controlled label"
         if dim == "integration":

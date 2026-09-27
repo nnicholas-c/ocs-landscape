@@ -1,21 +1,23 @@
 # Open questions
 
-1. What counts as optical circuit switching (OCS)? Hyperscaler blog posts are outside OpenAlex and arXiv, yet a Google blog post (data/projects.csv, row 1) backs the mems_3d production band. Optical packet switches count only as adjacent (ocs-domain skill), yet soa and electro_optic switch in nanoseconds or less (deliverables/comparison_matrix.csv).
+Numbers are run 2's unless marked run 1.
 
-2. Should OFC, SIGCOMM, and NSDI be targeted? The ocs-domain skill names OFC (Optical Fiber Communication Conference) for hardware and SIGCOMM and NSDI (networking systems conferences) for data center designs. This run found 9 core papers from OFC and 0 from SIGCOMM or NSDI (query Q11 in deliverables/demo_results.md), an undercount, since 53 of 267 core papers lack a venue (query Q3, same file).
+1. What counts as optical circuit switching (OCS)? A Google blog post, outside OpenAlex and arXiv, backs the mems_3d production band (data/projects.csv, row 1). Optical packet switches count only as adjacent (ocs-domain skill), yet soa and electro_optic switch in nanoseconds or less (deliverables/comparison_matrix.csv).
 
-3. Do APEC (Applied Power Electronics Conference), ECCE (Energy Conversion Congress and Expo), and PCIM (a power electronics conference) belong at all? This run found 0 papers from these power electronics venues, as expected (query Q11; ocs-domain skill). They fit only if switch power joins the scope.
+2. Should OFC (Optical Fiber Communication Conference), SIGCOMM, and NSDI (networking systems conferences) be targeted? The ocs-domain skill names them for switch hardware and data center designs. The data has 9 core papers from OFC and 0 from SIGCOMM or NSDI (Q11 in deliverables/demo_results.md), an undercount, since 53 of 284 core papers lack a venue (Q3).
 
-4. Which parts need a person reading full texts? The ten papers in deliverables/reading_list.md target the 32 cells no abstract reports (deliverables/comparison_matrix.csv). A person should check the Polatis page behind the piezo production value and whether Coherent's switch is LCoS, liquid crystal on silicon (same file, piezo trl_band note; deliverables/pitfalls.md, stage 6).
+3. Do APEC, ECCE, and PCIM (power electronics conferences) belong at all? The data has none, as expected (Q11; ocs-domain skill). They fit only if switch power joins the scope.
 
-5. Is the "transferable teams" goal for recruiting or partnering? About 99 of 149 flagged name keys (range 62 to 126) are one person split into several author records (deliverables/number_checks.md, section 2). Recruiting ranks individuals, so splits need merging by hand first. Partnering uses groups, which is safer, though split people add small false communities (STATUS.md, 14:24 line).
+4. Which parts need a person reading full texts? The ten papers in deliverables/reading_list.md target the 29 cells no abstract reports (deliverables/comparison_matrix.csv). A person should also check the Polatis page for piezo maturity, and whether Coherent's switch is LCoS, liquid crystal on silicon (same file, piezo trl_band note; deliverables/pitfalls.md, stage 6).
 
-6. What must a judged matrix cell meet? The auditor, reading quotes only, failed 4 of 29 judged cells, and the blind checker, reading abstracts too, passed all 29 (deliverables/pitfalls_original_log.md, 15:10).
+5. Is the "transferable teams" goal for recruiting or partnering? In run 1, about 99 of 149 flagged name keys were one person split across records (deliverables/number_checks.md, section 2), and run 2 flags 147 (STATUS.md, 16:47 line). Recruiting ranks individuals, so splits need merging by hand. Partnering uses groups, which is safer.
 
-7. How do we handle IEEE Xplore and PCIM? IEEE Xplore's API (application programming interface) has a key and a daily quota (report-format skill), so a full pull may span days. PCIM has no API, so it needs a manual export or a scout-style web agent.
+6. What must a judged matrix cell meet? In run 1's round 3 the auditor, reading quotes only, failed 4 of 29 judged cells, and the blind second judge failed none (deliverables/pitfalls_original_log.md, 15:10). In the run 2 audit's second round it was 2 of 31 against 0 (STATUS.md, 17:56 line).
 
-8. OpenAlex now requires a free API key and meters usage, with about 1 USD (US dollar) per day free (CLAUDE.md), which the assignment document did not anticipate. Stage 1a cost 0.030 USD (STATUS.md) and the snowball cost was never saved (deliverables/pitfalls.md, stage 8), so a full run needs a per-stage cost log.
+7. How do we handle IEEE Xplore and PCIM? IEEE Xplore's API (application programming interface) has a daily quota (report-format skill), so a full pull may span days, and PCIM has no API, so it needs a manual export.
 
-9. Is a core set of 267 acceptable, and how many phrases per route? The trial aimed for 50 to 100 (CLAUDE.md), but above 200 Gate A keeps every score 3 paper (PLAN.md; deliverables/curation_report.md). Route counts follow the phrases too, as one phrase supplied 27 of 43 papers on the largest device route (deliverables/number_checks.md, section 1).
+8. OpenAlex now requires a free API key and meters usage, with about 1 USD (US dollar) per day free (CLAUDE.md), which the assignment document did not anticipate. Run 1 cost 0.0404 USD (STATUS.md, 16:14 note), but the snowball's share of it was never saved (deliverables/pitfalls.md, stage 8), so a full run needs a per-stage cost log.
 
-10. How do we get arXiv records? 9 of 10 arXiv phrase queries failed on rate-limit errors (STATUS.md, stage 1a line). Options are slower pacing, arxiv.org/abs pages, which served all 4 audit lookups (deliverables/validation_report.md, round 3), or OpenAlex.
+9. Is a core set of 284 acceptable (deliverables/curation_report.md)? The trial aimed for 50 to 100 (CLAUDE.md), but above 200 Gate A keeps every score 3 paper (PLAN.md).
+
+10. How do we get arXiv records at full scale? In run 1, export.arxiv.org returned HTTP (web protocol) errors 406 or 429 on 9 of 10 phrase queries (STATUS.md, stage 1a line). A later probe, one request at a time, got 406 every time, so pacing was not the cause (deliverables/pitfalls_original_log.md, 15:54). Run 2 used OpenAlex's arXiv index, labelled arxiv_via_openalex, but only 6 of 40 run 1 arXiv-only papers gained an OpenAlex identifier (deliverables/curation_report.md). The full-scale option is arXiv's official bulk metadata snapshot.

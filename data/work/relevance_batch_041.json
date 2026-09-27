@@ -1,0 +1,202 @@
+[
+  {
+    "record_key": "openalex:W2057525163",
+    "source": "arxiv_via_openalex",
+    "title": "Directional visible light scattering by silicon nanoparticles",
+    "year": 2013,
+    "venue": "Nature Communications",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W3045970880",
+    "source": "arxiv_via_openalex",
+    "title": "Silicon integrated microwave photonic beamformer",
+    "year": 2020,
+    "venue": "Optica",
+    "abstract": "Optical beam-forming networks (OBFNs) based on optical true-time delay lines (OTTDLs) are well known as the promising candidate for solving the bandwidth limitation of traditional electronic phased array antennas (PAAs) due to beam squinting. Here we report, to the best of our knowledge, the first monolithic 1 × 8 microwave photonic beamformer, based on switchable OTTDLs on the silicon-on-insulator platform. The chip consists of a modulator, an eight-channel OBFN, and eight photodetectors, thus including hundreds of active and passive components in total. It has a wide operating bandwidth from 8 to 18 GHz, which is almost two orders larger than that of electronic PAAs. The beam can be steered to 31 distinguishable angles in the range from − 75.51 ∘"
+  },
+  {
+    "record_key": "openalex:W3214016574",
+    "source": "arxiv_via_openalex",
+    "title": "Photonics of time-varying media",
+    "year": 2022,
+    "venue": "Advanced Photonics",
+    "abstract": "Time-varying media have recently emerged as a new paradigm for wave manipulation, due to the synergy between the discovery of highly nonlinear materials, such as epsilon-near-zero materials, and the quest for wave applications, such as magnet-free nonreciprocity, multimode light shaping, and ultrafast switching. In this review, we provide a comprehensive discussion of the recent progress achieved with photonic metamaterials whose properties stem from their modulation in time. We review the basic concepts underpinning temporal switching and its relation with spatial scattering and deploy the resulting insight to review photonic time-crystals and their emergent research avenues, such as topological and non-Hermitian physics. We then extend our discussion to account for spatiotemporal modulation and its applications to nonreciprocity, synthetic motion, giant anisotropy,"
+  },
+  {
+    "record_key": "openalex:W2771496638",
+    "source": "arxiv_via_openalex",
+    "title": "Graphene–silicon phase modulators with gigahertz bandwidth",
+    "year": 2017,
+    "venue": "Nature Photonics",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W2050123983",
+    "source": "arxiv_via_openalex",
+    "title": "Compact spectrometer based on a disordered photonic chip",
+    "year": 2013,
+    "venue": "Nature Photonics",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W3004456582",
+    "source": "arxiv_via_openalex",
+    "title": "Self-Configuring and Reconfigurable Silicon Photonic Signal Processor",
+    "year": 2020,
+    "venue": "ACS Photonics",
+    "abstract": "Photonic signal processing is essential in the optical communication and optical computing. Numerous photonic signal processors have been proposed, but most of them exhibit limited reconfigurability and automaticity. A feature of fully automatic implementation and intelligent response is highly desirable for the multipurpose photonic signal processors. Here, a self-configuring and fully reconfigurable silicon photonic signal processor is proposed and experimentally demonstrated. The proposed photonic signal processor is capable of performing various functions, including multichannel optical switching, optical multiple-input-multiple-output descrambler, and tunable optical filter. All the functions are achieved by complete self-configuration without knowing the inner structure. Our demonstration suggests great potential for chip-scale fully programmable optical signal processing with the self-configuring ability."
+  },
+  {
+    "record_key": "openalex:W2512567572",
+    "source": "arxiv_via_openalex",
+    "title": "An integrated diamond nanophotonics platform for quantum-optical networks",
+    "year": 2016,
+    "venue": "Science",
+    "abstract": "Efficient interfaces between photons and quantum emitters form the basis for quantum networks and enable optical nonlinearities at the single-photon level. We demonstrate an integrated platform for scalable quantum nanophotonics based on silicon-vacancy (SiV) color centers coupled to diamond nanodevices. By placing SiV centers inside diamond photonic crystal cavities, we realize a quantum-optical switch controlled by a single color center. We control the switch using SiV metastable states and observe optical switching at the single-photon level. Raman transitions are used to realize a single-photon source with a tunable frequency and bandwidth in a diamond waveguide. By measuring intensity correlations of indistinguishable Raman photons emitted into a single waveguide, we observe a quantum interference effect resulting from the superradiant emission of"
+  },
+  {
+    "record_key": "openalex:W2903719643",
+    "source": "arxiv_via_openalex",
+    "title": "Generation and sampling of quantum states of light in a silicon chip",
+    "year": 2019,
+    "venue": "Nature Physics",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W2442240527",
+    "source": "arxiv_via_openalex",
+    "title": "A photonic platform for donor spin qubits in silicon",
+    "year": 2017,
+    "venue": "Science Advances",
+    "abstract": "donor, we measure lower bounds on the transition dipole moment and excited-state lifetime, enabling access to the strong coupling limit of cavity quantum electrodynamics using known silicon photonic resonator technology and integrated silicon photonics. We also report relatively strong photon emission from this same transition. These results unlock clear pathways for silicon-based quantum computing, spin-to-photon conversion, photonic memories, integrated single-photon sources, and all-optical switches."
+  },
+  {
+    "record_key": "openalex:W4317039400",
+    "source": "arxiv_via_openalex",
+    "title": "Graphene oxide for photonics, electronics and optoelectronics",
+    "year": 2023,
+    "venue": "Nature Reviews Chemistry",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W2752539361",
+    "source": "arxiv_via_openalex",
+    "title": "Topological hybrid silicon microlasers",
+    "year": 2018,
+    "venue": "Nature Communications",
+    "abstract": "Topological physics provides a robust framework for strategically controlling wave confinement and propagation dynamics. However, current implementations have been restricted to the limited design parameter space defined by passive topological structures. Active systems provide a more general framework where different fundamental symmetry paradigms, such as those arising from non-Hermiticity and nonlinear interaction, can generate a new landscape for topological physics and its applications. Here, we bridge this gap and present an experimental investigation of an active topological photonic system, demonstrating a topological hybrid silicon microlaser array respecting the charge-conjugation symmetry. The created new symmetry features favour the lasing of a protected zero mode, where robust single-mode laser action in the desired state prevails even with intentionally introduced perturbations. The demonstrated"
+  },
+  {
+    "record_key": "openalex:W2921245178",
+    "source": "arxiv_via_openalex",
+    "title": "Nonradiating photonics with resonant dielectric nanostructures",
+    "year": 2018,
+    "venue": "Nanophotonics",
+    "abstract": "Abstract Nonradiating sources of energy have traditionally been studied in quantum mechanics and astrophysics but have received very little attention in the photonics community. This situation has changed recently due to a number of pioneering theoretical studies and remarkable experimental demonstrations of the exotic states of light in dielectric resonant photonic structures and metasurfaces, with the possibility to localize efficiently the electromagnetic fields of high intensities within small volumes of matter. These recent advances underpin novel concepts in nanophotonics and provide a promising pathway to overcome the problem of losses usually associated with metals and plasmonic materials for the efficient control of light‐matter interaction at the nanoscale. This review paper provides a general background and several snapshots of the recent"
+  },
+  {
+    "record_key": "openalex:W2763624567",
+    "source": "arxiv_via_openalex",
+    "title": "The photonic lantern",
+    "year": 2015,
+    "venue": "Advances in Optics and Photonics",
+    "abstract": "Photonic lanterns are made by adiabatically merging several single-mode cores into one multimode core. They provide low-loss interfaces between single-mode and multimode systems, where the precise optical mapping between cores and individual modes is unimportant."
+  },
+  {
+    "record_key": "openalex:W4221142669",
+    "source": "arxiv_via_openalex",
+    "title": "Broadband nonvolatile electrically programmable silicon photonic switches",
+    "year": 2022,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "Programmable photonic integrated circuits (PICs) have recently gained significant interest due to their potential in creating next-generation technologies ranging from artificial neural networks and microwave photonics to quantum information processing. The fundamental building block of such programmable PICs is a tunable 2 x 2 switch, traditionally controlled by the thermo-optic or free-carrier dispersion. Yet, these implementations are power-hungry, volatile, and have a large footprint (typically > 100 um). Therefore, a truly 'set-and-forget' type 2 x 2 switch with zero static power consumption is highly desirable for large-scale PICs. Here, we report a broadband nonvolatile electrically programmable 2 x 2 silicon photonic switch based on the phase-change material Ge2Sb2Te5. The directional coupler switch exhibits a compact coupling length (64 um), small"
+  },
+  {
+    "record_key": "openalex:W3028561909",
+    "source": "arxiv_via_openalex",
+    "title": "Near-ideal spontaneous photon sources in silicon quantum photonics",
+    "year": 2020,
+    "venue": "Nature Communications",
+    "abstract": "While integrated photonics is a robust platform for quantum information processing, architectures for photonic quantum computing place stringent demands on high quality information carriers. Sources of single photons that are highly indistinguishable and pure, that are either near-deterministic or heralded with high efficiency, and that are suitable for mass-manufacture, have been elusive. Here, we demonstrate on-chip photon sources that simultaneously meet each of these requirements. Our photon sources are fabricated in silicon using mature processes, and exploit a dual-mode pump-delayed excitation scheme to engineer the emission of spectrally pure photon pairs through inter-modal spontaneous four-wave mixing in low-loss spiralled multi-mode waveguides. We simultaneously measure a spectral purity of 0.9904 ± 0.0006, a mutual indistinguishability of 0.987 ± 0.002, and >90%"
+  },
+  {
+    "record_key": "openalex:W2528617617",
+    "source": "arxiv_via_openalex",
+    "title": "High-dimensional quantum key distribution based on multicore fiber using silicon photonic integrated circuits",
+    "year": 2017,
+    "venue": "npj Quantum Information",
+    "abstract": "Abstract Quantum key distribution provides an efficient means to exchange information in an unconditionally secure way. Historically, quantum key distribution protocols have been based on binary signal formats, such as two polarization states, and the transmitted information efficiency of the quantum key is intrinsically limited to 1 bit/photon. Here we propose and experimentally demonstrate, for the first time, a high-dimensional quantum key distribution protocol based on space division multiplexing in multicore fiber using silicon photonic integrated lightwave circuits. We successfully realized three mutually unbiased bases in a four-dimensional Hilbert space, and achieved low and stable quantum bit error rate well below both the coherent attack and individual attack limits. Compared to previous demonstrations, the use of a multicore fiber in"
+  },
+  {
+    "record_key": "openalex:W3163993441",
+    "source": "arxiv_via_openalex",
+    "title": "Post-Fabrication Trimming of Silicon Photonic Ring Resonators at Wafer-Scale",
+    "year": 2021,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "Silicon ring resonator-based devices, such as modulators, detectors, filters, and switches, play important roles in integrated photonic circuits for optical communication, high-performance computing, and sensing applications. However, the high sensitivity to fabrication variations has limited their volume manufacturability and commercial adoption. Here, we report a low-cost post-fabrication trimming method to tune the resonance wavelength of a silicon ring resonator and correct for fabrication variations at wafer-scale. We use Ge implant to create an index trimmable section in the ring resonator and an on-chip heater to apply a precise and localized thermal annealing to tune and set its resonance to a desired wavelength. We demonstrate resonance wavelength trimming of ring resonators fabricated across a 300 mm silicon-on-insulator (SOI) wafer to within"
+  },
+  {
+    "record_key": "openalex:W2748818791",
+    "source": "arxiv_via_openalex",
+    "title": "Silicon waveguide optical switch with embedded phase change material",
+    "year": 2017,
+    "venue": "Optics Express",
+    "abstract": "Phase-change materials (PCMs) have emerged as promising active elements in silicon (Si) photonic systems. In this work, we design, fabricate, and characterize a hybrid Si-PCM optical switch. By integrating vanadium dioxide (a PCM) within a Si photonic waveguide, in a non-resonant geometry, we achieve ~10 dB broadband optical contrast with a PCM length of 500 nm using thermal actuation."
+  },
+  {
+    "record_key": "openalex:W3009653279",
+    "source": "arxiv_via_openalex",
+    "title": "Lithium niobate photonic-crystal electro-optic modulator",
+    "year": 2020,
+    "venue": "Nature Communications",
+    "abstract": "Abstract Modern advanced photonic integrated circuits require dense integration of high-speed electro-optic functional elements on a compact chip that consumes only moderate power. Energy efficiency, operation speed, and device dimension are thus crucial metrics underlying almost all current developments of photonic signal processing units. Recently, thin-film lithium niobate (LN) emerges as a promising platform for photonic integrated circuits. Here, we make an important step towards miniaturizing functional components on this platform, reporting high-speed LN electro-optic modulators, based upon photonic crystal nanobeam resonators. The devices exhibit a significant tuning efficiency up to 1.98 GHz V −1 , a broad modulation bandwidth of 17.5 GHz, while with a tiny electro-optic modal volume of only 0.58 μ m 3 . The modulators enable"
+  },
+  {
+    "record_key": "openalex:W2111721632",
+    "source": "arxiv_via_openalex",
+    "title": "An ultralow power athermal silicon modulator",
+    "year": 2014,
+    "venue": "Nature Communications",
+    "abstract": "Silicon photonics has emerged as the leading candidate for implementing ultralow power wavelength–division–multiplexed communication networks in high-performance computers, yet current components (lasers, modulators, filters and detectors) consume too much power for the high-speed femtojoule-class links that ultimately will be required. Here we demonstrate and characterize the first modulator to achieve simultaneous high-speed (25 Gb s−1), low-voltage (0.5 VPP) and efficient 0.9 fJ per bit error-free operation. This low-energy high-speed operation is enabled by a record electro-optic response, obtained in a vertical p–n junction device that at 250 pm V−1 (30 GHz V−1) is up to 10 times larger than prior demonstrations. In addition, this record electro-optic response is used to compensate for thermal drift over a 7.5 °C temperature range"
+  },
+  {
+    "record_key": "openalex:W2234047666",
+    "source": "arxiv_via_openalex",
+    "title": "Ultra-compact and wide-spectrum-range thermo-optic switch based on silicon coupled photonic crystal microcavities",
+    "year": 2015,
+    "venue": "Applied Physics Letters",
+    "abstract": "We design, fabricate, and experimentally demonstrate a compact thermo-optic gate switch comprising a 3.78 μm-long coupled L0-type photonic crystal microcavities on a silicon-on-insulator substrate. A nanohole is inserted in the center of each individual L0 photonic crystal microcavity. Coupling between identical microcavities gives rise to bonding and anti-bonding states of the coupled photonic molecules. The coupled photonic crystal microcavities are numerically simulated and experimentally verified with a 6 nm-wide flat-bottom resonance in its transmission spectrum, which enables wider operational spectrum range than microring resonators. An integrated micro-heater is in direct contact with the silicon core to efficiently drive the device. The thermo-optic switch is measured with an optical extinction ratio of 20 dB, an on-off switching power of 18.2 mW,"
+  },
+  {
+    "record_key": "openalex:W3103024753",
+    "source": "arxiv_via_openalex",
+    "title": "Single-Photon Switching and Entanglement of Solid-State Qubits in an Integrated Nanophotonic System",
+    "year": 2016,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "Efficient interfaces between photons and quantum emitters form the basis for quantum networks and enable nonlinear optical devices operating at the single-photon level. We demonstrate an integrated platform for scalable quantum nanophotonics based on silicon-vacancy (SiV) color centers coupled to nanoscale diamond devices. By placing SiV centers inside diamond photonic crystal cavities, we realize a quantum-optical switch controlled by a single color center. We control the switch using SiV metastable orbital states and verify optical switching at the single-photon level by using photon correlation measurements. We use Raman transitions to realize a single-photon source with a tunable frequency and bandwidth in a diamond waveguide. Finally, we create entanglement between two SiV centers by detecting indistinguishable Raman photons emitted into a"
+  },
+  {
+    "record_key": "openalex:W2986325278",
+    "source": "arxiv_via_openalex",
+    "title": "High-Speed Measurement-Device-Independent Quantum Key Distribution with Integrated Silicon Photonics",
+    "year": 2020,
+    "venue": "Physical Review X",
+    "abstract": "Measurement-device-independent quantum key distribution (MDI QKD) removes all detector side channels and enables secure QKD with an untrusted relay.It is suitable for building a star-type quantum access network, where the complicated and expensive measurement devices are placed in the central untrusted relay and each user requires only a low-cost transmitter, such as an integrated photonic chip.Here, we experimentally demonstrate a 1.25-GHz silicon photonic chip-based MDI QKD system using polarization encoding.The photonic chip transmitters integrate the necessary encoding components for a standard QKD source.We implement random modulations of polarization states and decoy intensities, and demonstrate a finite-key secret rate of 31 bit=s over 36-dB channel loss (or 180-km standard fiber).This key rate is higher than state-of-the-art MDI QKD experiments.The results show"
+  },
+  {
+    "record_key": "openalex:W2007828573",
+    "source": "arxiv_via_openalex",
+    "title": "Reconfigurable radio-frequency arbitrary waveforms synthesized in a silicon photonic chip",
+    "year": 2015,
+    "venue": "Nature Communications",
+    "abstract": "Photonic methods of radio-frequency waveform generation and processing can provide performance advantages and flexibility over electronic methods due to the ultrawide bandwidth offered by the optical carriers. However, bulk optics implementations suffer from the lack of integration and slow reconfiguration speed. Here we propose an architecture of integrated photonic radio-frequency generation and processing and implement it on a silicon chip fabricated in a semiconductor manufacturing foundry. Our device can generate programmable radio-frequency bursts or continuous waveforms with only the light source, electrical drives/controls and detectors being off-chip. It modulates an individual pulse in a radio-frequency burst within 4 ns, achieving a reconfiguration speed three orders of magnitude faster than thermal tuning. The on-chip optical delay elements offer an integrated approach"
+  },
+  {
+    "record_key": "openalex:W2409415787",
+    "source": "arxiv_via_openalex",
+    "title": "Edge Solitons in Nonlinear-Photonic Topological Insulators",
+    "year": 2016,
+    "venue": "Physical Review Letters",
+    "abstract": "We show theoretically that a photonic topological insulator can support edge solitons that are strongly self-localized and propagate unidirectionally along the lattice edge. The photonic topological insulator consists of a Floquet lattice of coupled helical waveguides, in a medium with local Kerr nonlinearity. The soliton behavior is strongly affected by the topological phase of the linear lattice. The topologically nontrivial phase gives a continuous family of solitons, while the topologically trivial phase gives an embedded soliton that occurs at a single power and arises from a self-induced local nonlinear shift in the intersite coupling. The solitons can be used for nonlinear switching and logical operations, functionalities that have not yet been explored in topological photonics. We demonstrate using solitons to"
+  }
+]

@@ -1,0 +1,126 @@
+{
+  "mems_silicon_photonic:ai_cluster_fit": {
+    "supported": true,
+    "reason": "First quote names AI/ML clusters directly (\"key enabler ... in data centers and AI/ML clusters\"), a direct match for yes."
+  },
+  "thermo_optic:packaging_notes": {
+    "supported": true,
+    "reason": "Round 2 rework re-anchored the third clause's quote: it now reads 'feedback controlled stabilization ... even in the absence of a cooling system for the silicon chip' in one sentence, stating both feedback control and no chip cooling. All four clauses (ceramic interposer LGA, wire-bonded package with 68-fiber ribbon, feedback stabilization without cooling, air trenches cutting power) now have a matching quote. Round 1's failure (feedback stated a clause earlier than the cited quote) is fixed."
+  },
+  "piezo:trl_band": {
+    "supported": true,
+    "reason": "\"We report on the development of the first multi-lane all-optical switch\" is a first-demonstration signal word matching lab; no pilot or production language is present."
+  },
+  "mems_silicon_photonic:trl_band": {
+    "supported": true,
+    "reason": "First quote explicitly says \"proof-of-concept in lab\" (moving toward commercialization, i.e. not there yet); second quote says \"fabricated\"; both are lab signal words."
+  },
+  "electro_optic:integration": {
+    "supported": true,
+    "reason": "Round 2 rework replaced the round 1 quote (which named neither waveguide nor chip) with two new quotes: \"photonic integrated circuits\" and \"integrated onto a single chip ... using IBM's ... silicon integrated nanophotonics technology\". Both name waveguide-on-chip integration directly, fixing round 1's gap."
+  },
+  "robotic_patch_panel:trl_band": {
+    "supported": true,
+    "reason": "\"Announces today the launch of its new G5 Robotic Patch Panel system\" is a product-launch statement, and the second quote confirms it is \"suitable for practical use\"; together these support production (shipping product) over lab or pilot."
+  },
+  "thermo_optic:scaling_limit": {
+    "supported": true,
+    "reason": "Each of the three clauses has a matching quote: waveguide crossing loss growing with port count, control-unit/wiring complexity growing with port count, and high power consumption from the thermo-optic (heater) effect."
+  },
+  "lcos:packaging_notes": {
+    "supported": true,
+    "reason": "Quote names the MCF collimator, spatial multiplexer/demultiplexer array, and LCoS spatial light modulator integrated in one prototype, matching the value's wording exactly."
+  },
+  "electro_optic:trl_band": {
+    "supported": true,
+    "reason": "\"Fabricated for the first time\" is a lab signal word."
+  },
+  "robotic_patch_panel:integration": {
+    "supported": true,
+    "reason": "Quote describes a fiber-handling robot performing \"automatic cross-connection of multiple optical connectors\", which is fibers being physically moved and reconnected, matching mechanical_fiber."
+  },
+  "mems_3d:trl_band": {
+    "supported": true,
+    "reason": "\"World's first large-scale production deployment of optical circuit switches\" and \"over 1 million port switches shipped\" are production signal words, not lab or pilot."
+  },
+  "mems_silicon_photonic:packaging_notes": {
+    "supported": true,
+    "reason": "Round 2 rework replaced the grating-coupler quote with the sentence that actually names the through-glass-via (TGV) interposer and pitch-reducing fibre array. All five clauses (aluminum nitride interposer/lidless fiber array, TGV interposer/pitch-reducing fibre array, pluggable package, CMOS driver chiplets, unpackaged reliability over 10 billion cycles) now have a matching quote, fixing round 1's wrong-sentence quote."
+  },
+  "lcos:trl_band": {
+    "supported": true,
+    "reason": "\"Implemented ... prototype\" is a lab signal word."
+  },
+  "mems_3d:integration": {
+    "supported": true,
+    "reason": "Quote names a \"microlens-based multicore fiber (MCF) collimator array\" and a \"MEMS mirror array\", which is the free_space_bulk definition's own vocabulary (mirrors, collimators), not an inference from domain knowledge alone."
+  },
+  "mems_3d:ai_cluster_fit": {
+    "supported": true,
+    "reason": "Second quote names \"AI data center (AI DC) networking infrastructure\" directly, a direct accelerator-cluster match for yes."
+  },
+  "mems_2d:integration": {
+    "supported": false,
+    "reason": "Quote only says \"reflective two-dimensional (2D) and three-dimensional (3D) MEMS implementations\"; none of free, space, bulk, air, mirror, or collimator appear. free_space_bulk rests on domain knowledge the quote does not state. This cell was not touched by the stage 6 rework (only 4 cells were re-anchored) and repeats the exact gap round 1 found here."
+  },
+  "mems_2d:trl_band": {
+    "supported": true,
+    "reason": "\"We have demonstrated\" is a lab signal word."
+  },
+  "mems_2d:ai_cluster_fit": {
+    "supported": true,
+    "reason": "Quote names only fiber optic telecommunications, with no data center or accelerator context, matching no."
+  },
+  "mems_silicon_photonic:integration": {
+    "supported": true,
+    "reason": "Quote says \"a new type of integrated OCS that combines silicon photonics with MEMS actuation\", naming integration and silicon photonics directly."
+  },
+  "lcos:integration": {
+    "supported": true,
+    "reason": "Quote literally says \"free-space-optics-based core selective switch\", a direct match for free_space_bulk."
+  },
+  "lcos:ai_cluster_fit": {
+    "supported": true,
+    "reason": "Quote proposes a \"reconfigurable optical DCN\", matching the reconfigurable-topologies clause of the ai_cluster_fit definition, which is sufficient for yes independent of accelerator-specific wording."
+  },
+  "piezo:integration": {
+    "supported": true,
+    "reason": "Quotes name \"collimated beams of light\" between fiber arrays and a \"collimator actuator\", matching free_space_bulk's beams-through-air-between-collimators definition."
+  },
+  "piezo:ai_cluster_fit": {
+    "supported": true,
+    "reason": "Quotes name racks, nodes, and \"central cluster switches\" for a \"re-configurable network\", matching the reconfigurable-topologies and cluster-switch clauses of the definition."
+  },
+  "thermo_optic:integration": {
+    "supported": true,
+    "reason": "Round 2 rework replaced the round 1 quote (wafer/CMOS process, no waveguide or chip named) with two new quotes: \"silicon wire waveguides\" and a \"switch chip\" with \"waveguide crossings\". Both now name waveguide-on-chip integration directly."
+  },
+  "thermo_optic:trl_band": {
+    "supported": true,
+    "reason": "Quote says moving \"these demonstrations\" from research to product will require further advancement, meaning the paper's own stage is still lab/demonstration, not yet a product."
+  },
+  "thermo_optic:ai_cluster_fit": {
+    "supported": true,
+    "reason": "First quote says the switch is \"highly integrable for co-integration with GPUs\", a direct accelerator-cluster match; second quote describes replacing multi-tier switching with a single tier, matching the spine-layer-replacement clause."
+  },
+  "electro_optic:ai_cluster_fit": {
+    "supported": true,
+    "reason": "Quotes describe \"data center scale\" interconnection and \"high-performance computing systems\" generally, with no accelerator, GPU, or ML-training wording. That supports the conservative label partial rather than a stronger claim, which is the same standard applied to soa:ai_cluster_fit below."
+  },
+  "soa:integration": {
+    "supported": true,
+    "reason": "Quote names an \"on-chip gain element\", matching integrated_photonic."
+  },
+  "soa:trl_band": {
+    "supported": true,
+    "reason": "\"Designed, fabricated and demonstrated\" are lab signal words."
+  },
+  "soa:ai_cluster_fit": {
+    "supported": false,
+    "reason": "Quote is generic (\"the core of the network\", \"expensive and power-hungry transceivers and electrical switches\"), naming no data center, accelerator, GPU, or ML training context, unlike the thermo_optic and mems_silicon_photonic ai_cluster_fit quotes above which name GPUs or AI/ML clusters directly. yes overstates this evidence; by the same conservative standard applied to electro_optic:ai_cluster_fit (labeled partial on comparable generic data-center evidence) this cell should be at most partial. This cell was not touched by the stage 6 rework and repeats the exact inconsistency round 1 found here."
+  },
+  "robotic_patch_panel:ai_cluster_fit": {
+    "supported": true,
+    "reason": "Quote names only \"intelligent buildings and optical access networks\", with no data center or accelerator context, matching no."
+  }
+}

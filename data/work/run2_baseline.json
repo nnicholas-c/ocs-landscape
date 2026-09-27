@@ -1,0 +1,2089 @@
+{
+  "exists": true,
+  "core": 267,
+  "extended": 376,
+  "arxiv_only": [
+    [
+      "arxiv:2609.25949",
+      "2609.25949",
+      "Flux: Optimal Scheduling of Optical Circuit Switches for LLM Training"
+    ],
+    [
+      "arxiv:2509.20016",
+      "2509.20016",
+      "Nonreciprocal optical circuit switching"
+    ],
+    [
+      "arxiv:2501.16907",
+      "2501.16907",
+      "Experimental Evaluation of an SDN Controller for Open Optical-circuit-switched Networks"
+    ],
+    [
+      "arxiv:2604.22146",
+      "2604.22146",
+      "An O(K)-Approximation Coflow Scheduling in K-Core Optical Circuit Switching Networks"
+    ],
+    [
+      "arxiv:2603.07373",
+      "2603.07373",
+      "Scheduling Parallel Optical Circuit Switches for AI Training"
+    ],
+    [
+      "arxiv:2502.03885",
+      "2502.03885",
+      "InfiniteHBD: Building Datacenter-Scale High-Bandwidth Domain for LLM with Optical Circuit Switching Transceivers"
+    ],
+    [
+      "arxiv:2501.18136",
+      "2501.18136",
+      "PipSwitch: A Circuit Switch Using Programmable Integrated Photonics"
+    ],
+    [
+      "arxiv:2002.00473",
+      "2002.00473",
+      "METTEOR: Robust Multi-Traffic Topology Engineering for Commercial Data Center Networks"
+    ],
+    [
+      "arxiv:2401.09284",
+      "2401.09284",
+      "A Fast Control Plane for a Large-Scale and High-Speed Optical Circuit Switch System"
+    ],
+    [
+      "arxiv:1208.0581",
+      "1208.0581",
+      "Optimal Degree of Optical Circuit Switching in IP-over-WDM Networks"
+    ],
+    [
+      "arxiv:2510.03891",
+      "2510.03891",
+      "Toward Co-adapting Machine Learning Job Shape and Cluster Topology"
+    ],
+    [
+      "arxiv:2411.01503",
+      "2411.01503",
+      "A Highly Scalable LLM Clusters with Optical Interconnect"
+    ],
+    [
+      "arxiv:2202.05487",
+      "2202.05487",
+      "Kevin: de Bruijn-based topology with demand-aware links and greedy routing"
+    ],
+    [
+      "arxiv:1609.04521",
+      "1609.04521",
+      "C-Share: Optical Circuits Sharing for Software-Defined Data-Centers"
+    ],
+    [
+      "arxiv:2104.09680",
+      "2104.09680",
+      "Shufflecast: An Optical, Data-rate Agnostic and Low-Power Multicast Architecture for Next-Generation Compute Clusters"
+    ],
+    [
+      "arxiv:2606.15870",
+      "2606.15870",
+      "Google's Training Supercomputers from TPU v2 to Ironwood: Architectural Stability, Scale, Resilience, Power Efficiency, and Sustainability Across Five Generations"
+    ],
+    [
+      "arxiv:2608.03146",
+      "2608.03146",
+      "Zero-change foundry compatible silicon photonics MEMS optical switch"
+    ],
+    [
+      "arxiv:2601.01209",
+      "2601.01209",
+      "OrchestrRL: Dynamic Compute and Network Orchestration for Disaggregated RL"
+    ],
+    [
+      "arxiv:2609.14253",
+      "2609.14253",
+      "Breaking the Duplex Barrier: Lane-Granularity OCS Scheduling for LLM Training"
+    ],
+    [
+      "arxiv:2211.15226",
+      "2211.15226",
+      "RAMP: A Flat Nanosecond Optical Network and MPI Operations for Distributed Deep Learning Systems"
+    ],
+    [
+      "arxiv:1204.1529",
+      "1204.1529",
+      "Ensuring QOS Guarantees in a Hybrid OCS/OBS Network"
+    ],
+    [
+      "arxiv:2308.05692",
+      "2308.05692",
+      "Isolated Scheduling for Distributed Training Tasks in GPU Clusters"
+    ],
+    [
+      "arxiv:2507.08119",
+      "2507.08119",
+      "Photonic Rails in ML Datacenters"
+    ],
+    [
+      "arxiv:2608.00897",
+      "2608.00897",
+      "Shiftfly: Scaling the Accelerator Interconnect Past the Pod with a Shift-Routed Optical Tier"
+    ],
+    [
+      "arxiv:2305.04550",
+      "2305.04550",
+      "Reducing Reconfiguration Time in Hybrid Optical-Electrical Datacenter Networks (Extended Abstract)"
+    ],
+    [
+      "arxiv:2306.09713",
+      "2306.09713",
+      "Efficient Coflow Scheduling in Hybrid-Switched Data Center Networks"
+    ],
+    [
+      "arxiv:2507.12265",
+      "2507.12265",
+      "FastReChain: A Novel Bidirectional Model-Based Algorithm for Topology Engineering of OCS-Based Clusters"
+    ],
+    [
+      "arxiv:2602.12521",
+      "2602.12521",
+      "Opus: Photonic Rail-Optimized Fabric in ML Datacenters"
+    ],
+    [
+      "arxiv:2504.09892",
+      "2504.09892",
+      "Vermilion: A Traffic-Aware Reconfigurable Optical Interconnect with Formal Throughput Guarantees"
+    ],
+    [
+      "arxiv:2602.17449",
+      "2602.17449",
+      "ACOS: Arrays of Cheap Optical Switches"
+    ],
+    [
+      "arxiv:2403.02866",
+      "2403.02866",
+      "Unlocking Electro-optic Resonant Phase Shifting for Multi-dimensional, Ultra-dynamic Photonic Switches"
+    ],
+    [
+      "arxiv:2507.13717",
+      "2507.13717",
+      "ATRO: A Fast Algorithm for Topology Engineering of Reconfigurable Datacenter Networks"
+    ],
+    [
+      "arxiv:2211.02466",
+      "2211.02466",
+      "Network Aware Compute and Memory Allocation in Optically Composable Data Centres with Deep Reinforcement Learning and Graph Neural Networks"
+    ],
+    [
+      "arxiv:2603.28168",
+      "2603.28168",
+      "Leaf-centric Logical Topology Design for OCS-based GPU Clusters"
+    ],
+    [
+      "arxiv:2604.08242",
+      "2604.08242",
+      "Scheduling Coflows in Multi-Core OCS Networks with Performance Guarantee"
+    ],
+    [
+      "arxiv:2405.20869",
+      "2405.20869",
+      "Understanding the Throughput Bounds of Reconfigurable Datacenter Networks"
+    ],
+    [
+      "arxiv:2605.12766",
+      "2605.12766",
+      "Bridge: Optimizing Collective Communication Schedules in Reconfigurable Networks with Reusable Subrings"
+    ],
+    [
+      "arxiv:2504.17310",
+      "2504.17310",
+      "An All-Optical Metro Network Architecture and QoS-Aware Wavelength Allocation Study for Converged Fixed, Mobile, and Edge Computing Multi-Granular Traffic"
+    ],
+    [
+      "arxiv:2603.28096",
+      "2603.28096",
+      "Beyond Traffic Matrix: DELTA -- A DAG-Aware OCS Logical Topology Optimization for AIDCs"
+    ],
+    [
+      "arxiv:2302.13113",
+      "2302.13113",
+      "Toward Self-Adjusting k-ary Search Tree Networks"
+    ]
+  ],
+  "tagged": {
+    "arxiv:2609.25949": {
+      "openalex_id": null,
+      "arxiv_id": "2609.25949",
+      "doi": null
+    },
+    "W3091342457": {
+      "openalex_id": "W3091342457",
+      "arxiv_id": "2010.00090",
+      "doi": "10.48550/arxiv.2010.00090"
+    },
+    "arxiv:2509.20016": {
+      "openalex_id": null,
+      "arxiv_id": "2509.20016",
+      "doi": null
+    },
+    "arxiv:2501.16907": {
+      "openalex_id": null,
+      "arxiv_id": "2501.16907",
+      "doi": "10.1364/jocn.558407"
+    },
+    "arxiv:2604.22146": {
+      "openalex_id": null,
+      "arxiv_id": "2604.22146",
+      "doi": null
+    },
+    "W4292950821": {
+      "openalex_id": "W4292950821",
+      "arxiv_id": "2208.10041",
+      "doi": "10.48550/arxiv.2208.10041"
+    },
+    "arxiv:2603.07373": {
+      "openalex_id": null,
+      "arxiv_id": "2603.07373",
+      "doi": null
+    },
+    "W3006394648": {
+      "openalex_id": "W3006394648",
+      "arxiv_id": "2002.04077",
+      "doi": "10.1109/jlt.2020.2997664"
+    },
+    "W3093967660": {
+      "openalex_id": "W3093967660",
+      "arxiv_id": "2010.10984",
+      "doi": "10.1038/s41467-021-25841-8"
+    },
+    "arxiv:2502.03885": {
+      "openalex_id": null,
+      "arxiv_id": "2502.03885",
+      "doi": null
+    },
+    "arxiv:2501.18136": {
+      "openalex_id": null,
+      "arxiv_id": "2501.18136",
+      "doi": null
+    },
+    "arxiv:2002.00473": {
+      "openalex_id": null,
+      "arxiv_id": "2002.00473",
+      "doi": null
+    },
+    "arxiv:2401.09284": {
+      "openalex_id": null,
+      "arxiv_id": "2401.09284",
+      "doi": null
+    },
+    "arxiv:2510.03891": {
+      "openalex_id": null,
+      "arxiv_id": "2510.03891",
+      "doi": null
+    },
+    "arxiv:2411.01503": {
+      "openalex_id": null,
+      "arxiv_id": "2411.01503",
+      "doi": null
+    },
+    "arxiv:2202.05487": {
+      "openalex_id": null,
+      "arxiv_id": "2202.05487",
+      "doi": null
+    },
+    "arxiv:1609.04521": {
+      "openalex_id": null,
+      "arxiv_id": "1609.04521",
+      "doi": "10.1145/3390251.3390253"
+    },
+    "arxiv:2104.09680": {
+      "openalex_id": null,
+      "arxiv_id": "2104.09680",
+      "doi": null
+    },
+    "arxiv:2606.15870": {
+      "openalex_id": null,
+      "arxiv_id": "2606.15870",
+      "doi": "10.1109/mm.2026.3699647"
+    },
+    "arxiv:2608.03146": {
+      "openalex_id": null,
+      "arxiv_id": "2608.03146",
+      "doi": null
+    },
+    "arxiv:2601.01209": {
+      "openalex_id": null,
+      "arxiv_id": "2601.01209",
+      "doi": null
+    },
+    "arxiv:2609.14253": {
+      "openalex_id": null,
+      "arxiv_id": "2609.14253",
+      "doi": null
+    },
+    "arxiv:2211.15226": {
+      "openalex_id": null,
+      "arxiv_id": "2211.15226",
+      "doi": null
+    },
+    "arxiv:2308.05692": {
+      "openalex_id": null,
+      "arxiv_id": "2308.05692",
+      "doi": null
+    },
+    "arxiv:2507.08119": {
+      "openalex_id": null,
+      "arxiv_id": "2507.08119",
+      "doi": null
+    },
+    "arxiv:2608.00897": {
+      "openalex_id": null,
+      "arxiv_id": "2608.00897",
+      "doi": null
+    },
+    "arxiv:2305.04550": {
+      "openalex_id": null,
+      "arxiv_id": "2305.04550",
+      "doi": null
+    },
+    "arxiv:2306.09713": {
+      "openalex_id": null,
+      "arxiv_id": "2306.09713",
+      "doi": null
+    },
+    "arxiv:2507.12265": {
+      "openalex_id": null,
+      "arxiv_id": "2507.12265",
+      "doi": null
+    },
+    "arxiv:2602.12521": {
+      "openalex_id": null,
+      "arxiv_id": "2602.12521",
+      "doi": "10.1145/3789240.3829187"
+    },
+    "arxiv:2504.09892": {
+      "openalex_id": null,
+      "arxiv_id": "2504.09892",
+      "doi": null
+    },
+    "arxiv:2602.17449": {
+      "openalex_id": null,
+      "arxiv_id": "2602.17449",
+      "doi": null
+    },
+    "arxiv:2403.02866": {
+      "openalex_id": null,
+      "arxiv_id": "2403.02866",
+      "doi": null
+    },
+    "W4413757104": {
+      "openalex_id": "W4413757104",
+      "arxiv_id": null,
+      "doi": "10.1145/3718958.3750465"
+    },
+    "W4380874786": {
+      "openalex_id": "W4380874786",
+      "arxiv_id": null,
+      "doi": "10.1145/3579371.3589350"
+    },
+    "W4322756647": {
+      "openalex_id": "W4322756647",
+      "arxiv_id": null,
+      "doi": "10.1145/3579312"
+    },
+    "arxiv:2507.13717": {
+      "openalex_id": null,
+      "arxiv_id": "2507.13717",
+      "doi": null
+    },
+    "arxiv:2211.02466": {
+      "openalex_id": null,
+      "arxiv_id": "2211.02466",
+      "doi": null
+    },
+    "arxiv:2603.28168": {
+      "openalex_id": null,
+      "arxiv_id": "2603.28168",
+      "doi": null
+    },
+    "arxiv:2604.08242": {
+      "openalex_id": null,
+      "arxiv_id": "2604.08242",
+      "doi": null
+    },
+    "arxiv:2405.20869": {
+      "openalex_id": null,
+      "arxiv_id": "2405.20869",
+      "doi": null
+    },
+    "arxiv:2605.12766": {
+      "openalex_id": null,
+      "arxiv_id": "2605.12766",
+      "doi": null
+    },
+    "arxiv:2603.28096": {
+      "openalex_id": null,
+      "arxiv_id": "2603.28096",
+      "doi": null
+    },
+    "arxiv:2302.13113": {
+      "openalex_id": null,
+      "arxiv_id": "2302.13113",
+      "doi": null
+    },
+    "W2002555923": {
+      "openalex_id": "W2002555923",
+      "arxiv_id": null,
+      "doi": "10.1109/lpt.2013.2270462"
+    },
+    "W2792328579": {
+      "openalex_id": "W2792328579",
+      "arxiv_id": null,
+      "doi": "10.1109/jlt.2018.2801308"
+    },
+    "W4386365418": {
+      "openalex_id": "W4386365418",
+      "arxiv_id": null,
+      "doi": "10.1145/3603269.3604836"
+    },
+    "W823246061": {
+      "openalex_id": "W823246061",
+      "arxiv_id": null,
+      "doi": "10.1184/r1/6612980.v1"
+    },
+    "W3164101439": {
+      "openalex_id": "W3164101439",
+      "arxiv_id": null,
+      "doi": "10.1364/jocn.425929"
+    },
+    "W2008366783": {
+      "openalex_id": "W2008366783",
+      "arxiv_id": null,
+      "doi": "10.1109/mcom.2013.6588650"
+    },
+    "W2316851065": {
+      "openalex_id": "W2316851065",
+      "arxiv_id": null,
+      "doi": "10.1364/jocn.8.000162"
+    },
+    "W2909415593": {
+      "openalex_id": "W2909415593",
+      "arxiv_id": null,
+      "doi": "10.1109/jlt.2019.2891209"
+    },
+    "W3129609980": {
+      "openalex_id": "W3129609980",
+      "arxiv_id": null,
+      "doi": "10.1109/tnet.2021.3058164"
+    },
+    "W2807655209": {
+      "openalex_id": "W2807655209",
+      "arxiv_id": null,
+      "doi": "10.1364/jocn.10.000b82"
+    },
+    "W4377082743": {
+      "openalex_id": "W4377082743",
+      "arxiv_id": null,
+      "doi": "10.1364/ofc.2023.m2g.1"
+    },
+    "W2319613051": {
+      "openalex_id": "W2319613051",
+      "arxiv_id": null,
+      "doi": "10.1364/ofc.2016.w3j.3"
+    },
+    "W2151668565": {
+      "openalex_id": "W2151668565",
+      "arxiv_id": null,
+      "doi": "10.1145/2486001.2486007"
+    },
+    "W2164698118": {
+      "openalex_id": "W2164698118",
+      "arxiv_id": null,
+      "doi": "10.1109/mnet.2013.6678922"
+    },
+    "W3089161534": {
+      "openalex_id": "W3089161534",
+      "arxiv_id": null,
+      "doi": "10.1109/tpds.2020.3025145"
+    },
+    "W2885686227": {
+      "openalex_id": "W2885686227",
+      "arxiv_id": null,
+      "doi": "10.1109/icc.2018.8422565"
+    },
+    "W3025347955": {
+      "openalex_id": "W3025347955",
+      "arxiv_id": null,
+      "doi": "10.1016/j.knosys.2020.106002"
+    },
+    "W2903019116": {
+      "openalex_id": "W2903019116",
+      "arxiv_id": null,
+      "doi": "10.1109/jlt.2018.2883387"
+    },
+    "W2810918131": {
+      "openalex_id": "W2810918131",
+      "arxiv_id": null,
+      "doi": "10.1109/lpt.2018.2852328"
+    },
+    "W2074285614": {
+      "openalex_id": "W2074285614",
+      "arxiv_id": null,
+      "doi": "10.1145/2342356.2342377"
+    },
+    "W4399846465": {
+      "openalex_id": "W4399846465",
+      "arxiv_id": null,
+      "doi": "10.1364/jocn.527794"
+    },
+    "W2982606503": {
+      "openalex_id": "W2982606503",
+      "arxiv_id": null,
+      "doi": "10.1109/icdcs.2019.00020"
+    },
+    "W3119039973": {
+      "openalex_id": "W3119039973",
+      "arxiv_id": null,
+      "doi": "10.1109/jlt.2021.3050734"
+    },
+    "W2581603380": {
+      "openalex_id": "W2581603380",
+      "arxiv_id": null,
+      "doi": "10.1117/12.2250796"
+    },
+    "W3186645739": {
+      "openalex_id": "W3186645739",
+      "arxiv_id": null,
+      "doi": "10.1016/j.comnet.2021.108321"
+    },
+    "W1970579225": {
+      "openalex_id": "W1970579225",
+      "arxiv_id": null,
+      "doi": "10.1364/ofc.2015.th4g.6"
+    },
+    "W2001644091": {
+      "openalex_id": "W2001644091",
+      "arxiv_id": null,
+      "doi": "10.1364/ofc.2014.w3e.4"
+    },
+    "W2331688183": {
+      "openalex_id": "W2331688183",
+      "arxiv_id": null,
+      "doi": "10.1364/ps.2014.pm2c.4"
+    },
+    "W2027447399": {
+      "openalex_id": "W2027447399",
+      "arxiv_id": null,
+      "doi": "10.1109/jlt.2015.2394384"
+    },
+    "W4401751711": {
+      "openalex_id": "W4401751711",
+      "arxiv_id": null,
+      "doi": "10.1109/icccn61486.2024.10637644"
+    },
+    "W2626250922": {
+      "openalex_id": "W2626250922",
+      "arxiv_id": null,
+      "doi": "10.1364/jocn.9.000563"
+    },
+    "W3009273389": {
+      "openalex_id": "W3009273389",
+      "arxiv_id": null,
+      "doi": "10.1364/ofc.2020.t3h.1"
+    },
+    "W2982290016": {
+      "openalex_id": "W2982290016",
+      "arxiv_id": null,
+      "doi": "10.1109/icdcs.2019.00027"
+    },
+    "W2294810677": {
+      "openalex_id": "W2294810677",
+      "arxiv_id": null,
+      "doi": "10.1109/jlt.2015.2509476"
+    },
+    "W2955749708": {
+      "openalex_id": "W2955749708",
+      "arxiv_id": "1907.01764",
+      "doi": "10.1038/s41566-019-0547-7"
+    },
+    "W3195562526": {
+      "openalex_id": "W3195562526",
+      "arxiv_id": null,
+      "doi": "10.1145/3473938.3474505"
+    },
+    "W4390032166": {
+      "openalex_id": "W4390032166",
+      "arxiv_id": null,
+      "doi": "10.1109/jlt.2023.3345162"
+    },
+    "W4200142051": {
+      "openalex_id": "W4200142051",
+      "arxiv_id": null,
+      "doi": "10.1145/3491054"
+    },
+    "W2970534079": {
+      "openalex_id": "W2970534079",
+      "arxiv_id": null,
+      "doi": "10.23919/ps.2019.8817674"
+    },
+    "W4413217623": {
+      "openalex_id": "W4413217623",
+      "arxiv_id": null,
+      "doi": "10.1364/jocn.563868"
+    },
+    "W4226369700": {
+      "openalex_id": "W4226369700",
+      "arxiv_id": null,
+      "doi": "10.1364/ofc.2022.th2a.17"
+    },
+    "W2177488376": {
+      "openalex_id": "W2177488376",
+      "arxiv_id": null,
+      "doi": null
+    },
+    "W3210177009": {
+      "openalex_id": "W3210177009",
+      "arxiv_id": null,
+      "doi": "10.1109/icocn53177.2021.9563711"
+    },
+    "W2948174331": {
+      "openalex_id": "W2948174331",
+      "arxiv_id": null,
+      "doi": "10.1109/jlt.2019.2920354"
+    },
+    "W2099718645": {
+      "openalex_id": "W2099718645",
+      "arxiv_id": null,
+      "doi": "10.1109/mcom.2013.6476863"
+    },
+    "W2534962717": {
+      "openalex_id": "W2534962717",
+      "arxiv_id": null,
+      "doi": "10.1109/ecoc.2014.6963911"
+    },
+    "W4225000980": {
+      "openalex_id": "W4225000980",
+      "arxiv_id": null,
+      "doi": "10.1038/s41467-022-29913-1"
+    },
+    "W2884318141": {
+      "openalex_id": "W2884318141",
+      "arxiv_id": null,
+      "doi": "10.1364/jocn.10.000c50"
+    },
+    "W4384820653": {
+      "openalex_id": "W4384820653",
+      "arxiv_id": null,
+      "doi": "10.1364/jocn.495006"
+    },
+    "W2068907524": {
+      "openalex_id": "W2068907524",
+      "arxiv_id": null,
+      "doi": "10.1016/j.optcom.2012.06.058"
+    },
+    "W2937088522": {
+      "openalex_id": "W2937088522",
+      "arxiv_id": null,
+      "doi": "10.1364/optica.6.000490"
+    },
+    "W7168289392": {
+      "openalex_id": "W7168289392",
+      "arxiv_id": null,
+      "doi": "10.1109/icc59461.2026.11587597"
+    },
+    "W2898651003": {
+      "openalex_id": "W2898651003",
+      "arxiv_id": "1811.00526",
+      "doi": "10.1038/s41467-019-12196-4"
+    },
+    "W4404238479": {
+      "openalex_id": "W4404238479",
+      "arxiv_id": null,
+      "doi": "10.1109/tcc.2024.3488275"
+    },
+    "W2973870220": {
+      "openalex_id": "W2973870220",
+      "arxiv_id": null,
+      "doi": "10.1109/icton.2019.8840149"
+    },
+    "W1975357130": {
+      "openalex_id": "W1975357130",
+      "arxiv_id": null,
+      "doi": "10.1016/j.displa.2014.11.007"
+    },
+    "W2529948110": {
+      "openalex_id": "W2529948110",
+      "arxiv_id": null,
+      "doi": "10.1515/comp-2016-0010"
+    },
+    "W3041044413": {
+      "openalex_id": "W3041044413",
+      "arxiv_id": null,
+      "doi": "10.53829/ntr201211ra1"
+    },
+    "W1977220786": {
+      "openalex_id": "W1977220786",
+      "arxiv_id": null,
+      "doi": "10.1016/j.mechatronics.2012.02.008"
+    },
+    "W2996949883": {
+      "openalex_id": "W2996949883",
+      "arxiv_id": null,
+      "doi": "10.1364/oe.367554"
+    },
+    "W2605844474": {
+      "openalex_id": "W2605844474",
+      "arxiv_id": null,
+      "doi": "10.3390/app7040411"
+    },
+    "W2956148226": {
+      "openalex_id": "W2956148226",
+      "arxiv_id": null,
+      "doi": "10.3390/mi10070435"
+    },
+    "W2159513073": {
+      "openalex_id": "W2159513073",
+      "arxiv_id": null,
+      "doi": "10.1109/jmems.2014.2319266"
+    },
+    "W2795355622": {
+      "openalex_id": "W2795355622",
+      "arxiv_id": null,
+      "doi": "10.1109/informatics.2017.8327264"
+    },
+    "W4403460664": {
+      "openalex_id": "W4403460664",
+      "arxiv_id": null,
+      "doi": "10.1016/j.yofte.2024.104004"
+    },
+    "W2533885611": {
+      "openalex_id": "W2533885611",
+      "arxiv_id": null,
+      "doi": "10.5768/jao201637.0305004"
+    },
+    "W2047996703": {
+      "openalex_id": "W2047996703",
+      "arxiv_id": null,
+      "doi": "10.1109/vss.2012.6163513"
+    },
+    "W1982681165": {
+      "openalex_id": "W1982681165",
+      "arxiv_id": null,
+      "doi": "10.1364/optica.2.000370"
+    },
+    "W2807234289": {
+      "openalex_id": "W2807234289",
+      "arxiv_id": null,
+      "doi": "10.1364/oe.26.016022"
+    },
+    "W2492727504": {
+      "openalex_id": "W2492727504",
+      "arxiv_id": null,
+      "doi": "10.1201/9781315219875-7"
+    },
+    "W2253702363": {
+      "openalex_id": "W2253702363",
+      "arxiv_id": null,
+      "doi": "10.1038/ncomms9422"
+    },
+    "W4408995512": {
+      "openalex_id": "W4408995512",
+      "arxiv_id": null,
+      "doi": "10.3390/mi16040397"
+    },
+    "W4284963505": {
+      "openalex_id": "W4284963505",
+      "arxiv_id": null,
+      "doi": "10.1002/9781119819264.ch6"
+    },
+    "W3103527158": {
+      "openalex_id": "W3103527158",
+      "arxiv_id": "1604.04843",
+      "doi": "10.1038/micronano.2015.5"
+    },
+    "W1561374189": {
+      "openalex_id": "W1561374189",
+      "arxiv_id": null,
+      "doi": "10.2004/wjst.v10i1.390"
+    },
+    "W3017763864": {
+      "openalex_id": "W3017763864",
+      "arxiv_id": null,
+      "doi": "10.3390/mi11050456"
+    },
+    "W4387805823": {
+      "openalex_id": "W4387805823",
+      "arxiv_id": null,
+      "doi": "10.1109/jmems.2023.3322223"
+    },
+    "W4385800727": {
+      "openalex_id": "W4385800727",
+      "arxiv_id": null,
+      "doi": "10.1109/oecc56963.2023.10209727"
+    },
+    "W3176835102": {
+      "openalex_id": "W3176835102",
+      "arxiv_id": null,
+      "doi": "10.1126/sciadv.abg5639"
+    },
+    "W2994903006": {
+      "openalex_id": "W2994903006",
+      "arxiv_id": null,
+      "doi": "10.1063/1.5128212"
+    },
+    "W4220706180": {
+      "openalex_id": "W4220706180",
+      "arxiv_id": null,
+      "doi": "10.1038/s41586-022-04415-8"
+    },
+    "W4319827927": {
+      "openalex_id": "W4319827927",
+      "arxiv_id": null,
+      "doi": "10.1002/lpor.202200571"
+    },
+    "W2914521323": {
+      "openalex_id": "W2914521323",
+      "arxiv_id": null,
+      "doi": "10.1109/comst.2019.2895817"
+    },
+    "W4404563748": {
+      "openalex_id": "W4404563748",
+      "arxiv_id": null,
+      "doi": "10.1126/sciadv.adq6299"
+    },
+    "W2343971467": {
+      "openalex_id": "W2343971467",
+      "arxiv_id": null,
+      "doi": "10.1016/j.osn.2016.04.007"
+    },
+    "W3042321904": {
+      "openalex_id": "W3042321904",
+      "arxiv_id": null,
+      "doi": "10.3390/mi11070694"
+    },
+    "W2050362991": {
+      "openalex_id": "W2050362991",
+      "arxiv_id": null,
+      "doi": "10.1117/12.929393"
+    },
+    "W2979824403": {
+      "openalex_id": "W2979824403",
+      "arxiv_id": null,
+      "doi": "10.1063/1.5120063"
+    },
+    "W2037530588": {
+      "openalex_id": "W2037530588",
+      "arxiv_id": null,
+      "doi": "10.1038/ncomms2695"
+    },
+    "W3116813957": {
+      "openalex_id": "W3116813957",
+      "arxiv_id": null,
+      "doi": "10.3390/photonics8010006"
+    },
+    "W2133627653": {
+      "openalex_id": "W2133627653",
+      "arxiv_id": null,
+      "doi": "10.3390/mi6111450"
+    },
+    "W2092016229": {
+      "openalex_id": "W2092016229",
+      "arxiv_id": null,
+      "doi": "10.1038/srep09875"
+    },
+    "W3093584113": {
+      "openalex_id": "W3093584113",
+      "arxiv_id": null,
+      "doi": "10.1109/access.2020.3030627"
+    },
+    "W2062631387": {
+      "openalex_id": "W2062631387",
+      "arxiv_id": null,
+      "doi": "10.1364/oe.23.001159"
+    },
+    "W4391232091": {
+      "openalex_id": "W4391232091",
+      "arxiv_id": null,
+      "doi": "10.1038/s41467-024-44750-0"
+    },
+    "W2894308888": {
+      "openalex_id": "W2894308888",
+      "arxiv_id": null,
+      "doi": "10.1109/jproc.2018.2861576"
+    },
+    "W2996556490": {
+      "openalex_id": "W2996556490",
+      "arxiv_id": null,
+      "doi": "10.1109/jstqe.2019.2960950"
+    },
+    "W4280617936": {
+      "openalex_id": "W4280617936",
+      "arxiv_id": "2110.12856",
+      "doi": "10.1038/s41586-022-04579-3"
+    },
+    "W2900750062": {
+      "openalex_id": "W2900750062",
+      "arxiv_id": null,
+      "doi": "10.1515/nanoph-2018-0161"
+    },
+    "W2235174674": {
+      "openalex_id": "W2235174674",
+      "arxiv_id": "1707.02334",
+      "doi": "10.1109/jstqe.2016.2573218"
+    },
+    "W3130725666": {
+      "openalex_id": "W3130725666",
+      "arxiv_id": "2102.11956",
+      "doi": "10.1364/aop.411024"
+    },
+    "W2883000198": {
+      "openalex_id": "W2883000198",
+      "arxiv_id": null,
+      "doi": "10.1016/j.scib.2018.05.038"
+    },
+    "W2571361994": {
+      "openalex_id": "W2571361994",
+      "arxiv_id": null,
+      "doi": "10.1038/srep40223"
+    },
+    "W2774352386": {
+      "openalex_id": "W2774352386",
+      "arxiv_id": null,
+      "doi": "10.1515/nanoph-2017-0085"
+    },
+    "W2933780027": {
+      "openalex_id": "W2933780027",
+      "arxiv_id": null,
+      "doi": "10.1109/mnano.2019.2891369"
+    },
+    "W2165260925": {
+      "openalex_id": "W2165260925",
+      "arxiv_id": null,
+      "doi": "10.1515/nanoph-2013-0023"
+    },
+    "W2909208749": {
+      "openalex_id": "W2909208749",
+      "arxiv_id": null,
+      "doi": "10.3390/mi10010051"
+    },
+    "W1595003097": {
+      "openalex_id": "W1595003097",
+      "arxiv_id": null,
+      "doi": "10.3389/fphy.2015.00037"
+    },
+    "W2901868604": {
+      "openalex_id": "W2901868604",
+      "arxiv_id": null,
+      "doi": "10.1109/jproc.2018.2877636"
+    },
+    "W2905370602": {
+      "openalex_id": "W2905370602",
+      "arxiv_id": null,
+      "doi": "10.1021/acsphotonics.8b01516"
+    },
+    "W2758404936": {
+      "openalex_id": "W2758404936",
+      "arxiv_id": null,
+      "doi": "10.1126/sciadv.1700160"
+    },
+    "W4210305137": {
+      "openalex_id": "W4210305137",
+      "arxiv_id": null,
+      "doi": "10.1038/s41377-022-00717-8"
+    },
+    "W3159759503": {
+      "openalex_id": "W3159759503",
+      "arxiv_id": null,
+      "doi": "10.1117/1.ap.3.2.024003"
+    },
+    "W1990459252": {
+      "openalex_id": "W1990459252",
+      "arxiv_id": null,
+      "doi": "10.1109/jstqe.2013.2295882"
+    },
+    "W2226240249": {
+      "openalex_id": "W2226240249",
+      "arxiv_id": null,
+      "doi": "10.1364/prj.3.000b47"
+    },
+    "W2887956223": {
+      "openalex_id": "W2887956223",
+      "arxiv_id": null,
+      "doi": "10.1109/jproc.2018.2854372"
+    },
+    "W1963836897": {
+      "openalex_id": "W1963836897",
+      "arxiv_id": null,
+      "doi": "10.1038/lsa.2012.1"
+    },
+    "W3029584541": {
+      "openalex_id": "W3029584541",
+      "arxiv_id": "2005.13949",
+      "doi": "10.1038/s41467-021-21973-z"
+    },
+    "W3095839225": {
+      "openalex_id": "W3095839225",
+      "arxiv_id": null,
+      "doi": "10.29026/oea.2020.200011"
+    },
+    "W4313555657": {
+      "openalex_id": "W4313555657",
+      "arxiv_id": null,
+      "doi": "10.1126/science.abj4396"
+    },
+    "W2900579067": {
+      "openalex_id": "W2900579067",
+      "arxiv_id": null,
+      "doi": "10.1109/jproc.2018.2878686"
+    },
+    "W3041992595": {
+      "openalex_id": "W3041992595",
+      "arxiv_id": null,
+      "doi": "10.3390/mi11070666"
+    },
+    "W2782897921": {
+      "openalex_id": "W2782897921",
+      "arxiv_id": null,
+      "doi": "10.1109/jlt.2018.2791502"
+    },
+    "W2257494936": {
+      "openalex_id": "W2257494936",
+      "arxiv_id": null,
+      "doi": "10.1109/jlt.2015.2496321"
+    },
+    "W3097557698": {
+      "openalex_id": "W3097557698",
+      "arxiv_id": null,
+      "doi": "10.1109/jmems.2021.3060182"
+    },
+    "W2918631369": {
+      "openalex_id": "W2918631369",
+      "arxiv_id": null,
+      "doi": "10.1117/12.2507192"
+    },
+    "W2800201100": {
+      "openalex_id": "W2800201100",
+      "arxiv_id": null,
+      "doi": "10.1364/cleo_si.2018.sf1a.4"
+    },
+    "W4406015850": {
+      "openalex_id": "W4406015850",
+      "arxiv_id": null,
+      "doi": "10.1038/s41467-024-55528-9"
+    },
+    "W2186858051": {
+      "openalex_id": "W2186858051",
+      "arxiv_id": null,
+      "doi": "10.1109/ecoc.2015.7341906"
+    },
+    "W2271940456": {
+      "openalex_id": "W2271940456",
+      "arxiv_id": null,
+      "doi": "10.1109/lpt.2016.2515106"
+    },
+    "W2615050161": {
+      "openalex_id": "W2615050161",
+      "arxiv_id": null,
+      "doi": "10.1109/jphot.2017.2704097"
+    },
+    "W2951487609": {
+      "openalex_id": "W2951487609",
+      "arxiv_id": null,
+      "doi": "10.1364/oe.27.017561"
+    },
+    "W3138799074": {
+      "openalex_id": "W3138799074",
+      "arxiv_id": null,
+      "doi": "10.1117/1.jom.1.2.024003"
+    },
+    "W2786734285": {
+      "openalex_id": "W2786734285",
+      "arxiv_id": null,
+      "doi": "10.1109/eptc.2017.8277436"
+    },
+    "W1945545782": {
+      "openalex_id": "W1945545782",
+      "arxiv_id": null,
+      "doi": "10.1109/group4.2015.7305908"
+    },
+    "W3139267661": {
+      "openalex_id": "W3139267661",
+      "arxiv_id": null,
+      "doi": "10.1109/mems51782.2021.9375168"
+    },
+    "W1976569985": {
+      "openalex_id": "W1976569985",
+      "arxiv_id": null,
+      "doi": "10.1364/ofc.2015.m2b.4"
+    },
+    "W2919451605": {
+      "openalex_id": "W2919451605",
+      "arxiv_id": null,
+      "doi": "10.1109/eptc.2018.8654270"
+    },
+    "W2581695752": {
+      "openalex_id": "W2581695752",
+      "arxiv_id": null,
+      "doi": "10.1109/ipcon.2016.7831260"
+    },
+    "W4414694752": {
+      "openalex_id": "W4414694752",
+      "arxiv_id": null,
+      "doi": "10.1126/sciadv.adv7099"
+    },
+    "W2226395753": {
+      "openalex_id": "W2226395753",
+      "arxiv_id": null,
+      "doi": "10.1364/ofc.2014.m2k.2"
+    },
+    "W2738975469": {
+      "openalex_id": "W2738975469",
+      "arxiv_id": null,
+      "doi": null
+    },
+    "W4281560993": {
+      "openalex_id": "W4281560993",
+      "arxiv_id": null,
+      "doi": "10.1364/oe.460533"
+    },
+    "W4378770566": {
+      "openalex_id": "W4378770566",
+      "arxiv_id": "2305.17366",
+      "doi": "10.48550/arxiv.2305.17366"
+    },
+    "W2789555118": {
+      "openalex_id": "W2789555118",
+      "arxiv_id": null,
+      "doi": "10.1002/lpor.201700237"
+    },
+    "W4393174577": {
+      "openalex_id": "W4393174577",
+      "arxiv_id": null,
+      "doi": "10.1049/icp.2023.2553"
+    },
+    "W4226451033": {
+      "openalex_id": "W4226451033",
+      "arxiv_id": null,
+      "doi": "10.1364/ofc.2022.m2d.8"
+    },
+    "W4211023690": {
+      "openalex_id": "W4211023690",
+      "arxiv_id": null,
+      "doi": "10.1109/mems51670.2022.9699739"
+    },
+    "W3115038226": {
+      "openalex_id": "W3115038226",
+      "arxiv_id": null,
+      "doi": "10.1364/acpc.2020.t1d.4"
+    },
+    "W2896156020": {
+      "openalex_id": "W2896156020",
+      "arxiv_id": null,
+      "doi": "10.1109/jlt.2018.2876828"
+    },
+    "W1515664994": {
+      "openalex_id": "W1515664994",
+      "arxiv_id": null,
+      "doi": "10.1364/cleo_si.2015.stu1f.1"
+    },
+    "W4402905306": {
+      "openalex_id": "W4402905306",
+      "arxiv_id": null,
+      "doi": "10.1364/prj.533773"
+    },
+    "W2101457183": {
+      "openalex_id": "W2101457183",
+      "arxiv_id": null,
+      "doi": "10.1038/lsa.2014.94"
+    },
+    "W4381158453": {
+      "openalex_id": "W4381158453",
+      "arxiv_id": null,
+      "doi": "10.1038/s41377-023-01202-6"
+    },
+    "W2901721529": {
+      "openalex_id": "W2901721529",
+      "arxiv_id": null,
+      "doi": "10.3390/app8112323"
+    },
+    "W4225941096": {
+      "openalex_id": "W4225941096",
+      "arxiv_id": null,
+      "doi": "10.1109/jlt.2022.3162725"
+    },
+    "W2488219102": {
+      "openalex_id": "W2488219102",
+      "arxiv_id": null,
+      "doi": "10.1016/b978-0-12-396958-3.00018-4"
+    },
+    "W4281778727": {
+      "openalex_id": "W4281778727",
+      "arxiv_id": null,
+      "doi": "10.1038/s41377-022-00851-3"
+    },
+    "W3215039088": {
+      "openalex_id": "W3215039088",
+      "arxiv_id": null,
+      "doi": "10.1109/jlt.2021.3131486"
+    },
+    "W3034334810": {
+      "openalex_id": "W3034334810",
+      "arxiv_id": null,
+      "doi": "10.1109/jlt.2020.3000304"
+    },
+    "W4317734516": {
+      "openalex_id": "W4317734516",
+      "arxiv_id": null,
+      "doi": "10.1364/oe.483452"
+    },
+    "W2938572472": {
+      "openalex_id": "W2938572472",
+      "arxiv_id": null,
+      "doi": "10.1109/jstqe.2019.2911421"
+    },
+    "W2786482165": {
+      "openalex_id": "W2786482165",
+      "arxiv_id": null,
+      "doi": "10.1109/jstqe.2018.2793945"
+    },
+    "W2591729902": {
+      "openalex_id": "W2591729902",
+      "arxiv_id": null,
+      "doi": "10.1364/ofc.2017.tu2c.4"
+    },
+    "W2913395450": {
+      "openalex_id": "W2913395450",
+      "arxiv_id": null,
+      "doi": "10.1109/jlt.2019.2896318"
+    },
+    "W3158684015": {
+      "openalex_id": "W3158684015",
+      "arxiv_id": null,
+      "doi": "10.3390/app11094017"
+    },
+    "W2949924416": {
+      "openalex_id": "W2949924416",
+      "arxiv_id": null,
+      "doi": "10.3390/cryst9060292"
+    },
+    "W4214829241": {
+      "openalex_id": "W4214829241",
+      "arxiv_id": null,
+      "doi": "10.1515/nanoph-2021-0805"
+    },
+    "W2068954499": {
+      "openalex_id": "W2068954499",
+      "arxiv_id": null,
+      "doi": "10.1109/jlt.2015.2392554"
+    },
+    "W3186137658": {
+      "openalex_id": "W3186137658",
+      "arxiv_id": "2102.00681",
+      "doi": "10.1021/acsphotonics.1c01119"
+    },
+    "W2919597673": {
+      "openalex_id": "W2919597673",
+      "arxiv_id": null,
+      "doi": "10.1038/s41377-019-0140-3"
+    },
+    "W4323644257": {
+      "openalex_id": "W4323644257",
+      "arxiv_id": null,
+      "doi": "10.1109/jlt.2023.3254160"
+    },
+    "W4281661666": {
+      "openalex_id": "W4281661666",
+      "arxiv_id": null,
+      "doi": "10.3390/mi13060894"
+    },
+    "W4308917574": {
+      "openalex_id": "W4308917574",
+      "arxiv_id": null,
+      "doi": "10.1109/jproc.2022.3207576"
+    },
+    "W4387760959": {
+      "openalex_id": "W4387760959",
+      "arxiv_id": null,
+      "doi": "10.1126/sciadv.adi7565"
+    },
+    "W4394930219": {
+      "openalex_id": "W4394930219",
+      "arxiv_id": null,
+      "doi": "10.1186/s43074-024-00131-w"
+    },
+    "W4224325468": {
+      "openalex_id": "W4224325468",
+      "arxiv_id": null,
+      "doi": "10.1038/s41467-022-29448-5"
+    },
+    "W3094065577": {
+      "openalex_id": "W3094065577",
+      "arxiv_id": null,
+      "doi": "10.1515/nanoph-2020-0309"
+    },
+    "W4297053117": {
+      "openalex_id": "W4297053117",
+      "arxiv_id": null,
+      "doi": "10.1364/jocn.467726"
+    },
+    "W2062054310": {
+      "openalex_id": "W2062054310",
+      "arxiv_id": null,
+      "doi": "10.1364/ol.39.005244"
+    },
+    "W2039715757": {
+      "openalex_id": "W2039715757",
+      "arxiv_id": null,
+      "doi": "10.1109/jstqe.2013.2296746"
+    },
+    "W2786500500": {
+      "openalex_id": "W2786500500",
+      "arxiv_id": null,
+      "doi": "10.1063/1.5017968"
+    },
+    "W4308917780": {
+      "openalex_id": "W4308917780",
+      "arxiv_id": null,
+      "doi": "10.1109/jphot.2022.3218753"
+    },
+    "W2889030337": {
+      "openalex_id": "W2889030337",
+      "arxiv_id": null,
+      "doi": "10.1109/jlt.2018.2867575"
+    },
+    "W2974096969": {
+      "openalex_id": "W2974096969",
+      "arxiv_id": null,
+      "doi": "10.1109/jphot.2019.2941960"
+    },
+    "W2024436451": {
+      "openalex_id": "W2024436451",
+      "arxiv_id": null,
+      "doi": "10.1109/lpt.2012.2218591"
+    },
+    "W2968922880": {
+      "openalex_id": "W2968922880",
+      "arxiv_id": null,
+      "doi": "10.1109/jlt.2019.2934768"
+    },
+    "W4298339091": {
+      "openalex_id": "W4298339091",
+      "arxiv_id": null,
+      "doi": "10.23919/oecc/psc53152.2022.9850231"
+    },
+    "W2797687360": {
+      "openalex_id": "W2797687360",
+      "arxiv_id": null,
+      "doi": "10.1515/nanoph-2017-0116"
+    },
+    "W2575526897": {
+      "openalex_id": "W2575526897",
+      "arxiv_id": null,
+      "doi": "10.1038/micronano.2016.71"
+    },
+    "W3094530140": {
+      "openalex_id": "W3094530140",
+      "arxiv_id": null,
+      "doi": "10.1109/jlt.2020.3032154"
+    },
+    "W4378650891": {
+      "openalex_id": "W4378650891",
+      "arxiv_id": null,
+      "doi": "10.1002/lpor.202300275"
+    },
+    "W2327284773": {
+      "openalex_id": "W2327284773",
+      "arxiv_id": null,
+      "doi": "10.1109/jstqe.2016.2551943"
+    },
+    "W4394954660": {
+      "openalex_id": "W4394954660",
+      "arxiv_id": null,
+      "doi": "10.1038/s41377-024-01432-2"
+    },
+    "W4293078036": {
+      "openalex_id": "W4293078036",
+      "arxiv_id": null,
+      "doi": "10.1117/1.ap.4.3.034003"
+    },
+    "W2591111335": {
+      "openalex_id": "W2591111335",
+      "arxiv_id": null,
+      "doi": null
+    },
+    "W3009983062": {
+      "openalex_id": "W3009983062",
+      "arxiv_id": null,
+      "doi": "10.1016/j.optcom.2020.125677"
+    },
+    "W4391878049": {
+      "openalex_id": "W4391878049",
+      "arxiv_id": null,
+      "doi": "10.1109/jlt.2024.3366553"
+    },
+    "W2889455810": {
+      "openalex_id": "W2889455810",
+      "arxiv_id": null,
+      "doi": "10.1515/nanoph-2018-0053"
+    },
+    "W4409153023": {
+      "openalex_id": "W4409153023",
+      "arxiv_id": null,
+      "doi": "10.1109/tnano.2025.3558256"
+    },
+    "W2897393425": {
+      "openalex_id": "W2897393425",
+      "arxiv_id": null,
+      "doi": "10.1038/s41467-018-06773-2"
+    },
+    "W2739117960": {
+      "openalex_id": "W2739117960",
+      "arxiv_id": "1707.06522",
+      "doi": "10.1364/oe.25.033514"
+    },
+    "W2335273496": {
+      "openalex_id": "W2335273496",
+      "arxiv_id": null,
+      "doi": "10.1109/jphot.2015.2390195"
+    },
+    "W2324604385": {
+      "openalex_id": "W2324604385",
+      "arxiv_id": null,
+      "doi": "10.1364/acpc.2015.as4a.2"
+    },
+    "W2964101383": {
+      "openalex_id": "W2964101383",
+      "arxiv_id": null,
+      "doi": "10.1109/comst.2018.2880039"
+    },
+    "W2022337631": {
+      "openalex_id": "W2022337631",
+      "arxiv_id": null,
+      "doi": "10.1007/s10586-012-0227-6"
+    },
+    "W2064033006": {
+      "openalex_id": "W2064033006",
+      "arxiv_id": null,
+      "doi": "10.1109/jlt.2014.2372893"
+    },
+    "W1989361652": {
+      "openalex_id": "W1989361652",
+      "arxiv_id": null,
+      "doi": "10.1109/jstqe.2012.2209113"
+    },
+    "W2587610600": {
+      "openalex_id": "W2587610600",
+      "arxiv_id": null,
+      "doi": "10.1038/srep42306"
+    },
+    "W4220911475": {
+      "openalex_id": "W4220911475",
+      "arxiv_id": null,
+      "doi": "10.3390/photonics9030203"
+    },
+    "W2217959685": {
+      "openalex_id": "W2217959685",
+      "arxiv_id": null,
+      "doi": "10.1016/j.osn.2015.12.003"
+    },
+    "W3036907365": {
+      "openalex_id": "W3036907365",
+      "arxiv_id": null,
+      "doi": "10.1109/jlt.2020.3002735"
+    },
+    "W2141810662": {
+      "openalex_id": "W2141810662",
+      "arxiv_id": null,
+      "doi": "10.1109/tnet.2013.2253120"
+    },
+    "W3208402115": {
+      "openalex_id": "W3208402115",
+      "arxiv_id": null,
+      "doi": "10.1364/jocn.438950"
+    },
+    "W3032344992": {
+      "openalex_id": "W3032344992",
+      "arxiv_id": null,
+      "doi": "10.1109/jlt.2020.2999778"
+    },
+    "W4285233657": {
+      "openalex_id": "W4285233657",
+      "arxiv_id": null,
+      "doi": "10.1109/jproc.2022.3178977"
+    },
+    "W2241946296": {
+      "openalex_id": "W2241946296",
+      "arxiv_id": null,
+      "doi": "10.1109/lcn.2015.7366371"
+    },
+    "W4285084333": {
+      "openalex_id": "W4285084333",
+      "arxiv_id": null,
+      "doi": "10.1364/jocn.470186"
+    },
+    "W2174784067": {
+      "openalex_id": "W2174784067",
+      "arxiv_id": null,
+      "doi": "10.1007/978-3-319-61052-8_4"
+    },
+    "W3203666589": {
+      "openalex_id": "W3203666589",
+      "arxiv_id": null,
+      "doi": "10.1088/2040-8986/ac29cb"
+    },
+    "W2171830950": {
+      "openalex_id": "W2171830950",
+      "arxiv_id": null,
+      "doi": "10.1364/ofc.2012.otu1b.2"
+    },
+    "W2792477041": {
+      "openalex_id": "W2792477041",
+      "arxiv_id": null,
+      "doi": "10.1117/12.2295831"
+    },
+    "W4281958713": {
+      "openalex_id": "W4281958713",
+      "arxiv_id": null,
+      "doi": "10.1364/oe.457527"
+    },
+    "W2583039042": {
+      "openalex_id": "W2583039042",
+      "arxiv_id": null,
+      "doi": "10.1117/12.2250637"
+    },
+    "W2157224582": {
+      "openalex_id": "W2157224582",
+      "arxiv_id": null,
+      "doi": "10.1109/comst.2015.2466458"
+    },
+    "W2775765784": {
+      "openalex_id": "W2775765784",
+      "arxiv_id": null,
+      "doi": "10.1109/ipcon.2017.8116034"
+    },
+    "W2810723790": {
+      "openalex_id": "W2810723790",
+      "arxiv_id": null,
+      "doi": "10.1145/3230718.3230722"
+    },
+    "W4223554347": {
+      "openalex_id": "W4223554347",
+      "arxiv_id": null,
+      "doi": "10.1364/jocn.452868"
+    },
+    "W2097053956": {
+      "openalex_id": "W2097053956",
+      "arxiv_id": null,
+      "doi": "10.1007/s11107-011-0370-7"
+    },
+    "W2789715390": {
+      "openalex_id": "W2789715390",
+      "arxiv_id": null,
+      "doi": "10.1515/nanoph-2017-0113"
+    },
+    "W4223926670": {
+      "openalex_id": "W4223926670",
+      "arxiv_id": null,
+      "doi": "10.1364/jocn.451760"
+    },
+    "W4300973219": {
+      "openalex_id": "W4300973219",
+      "arxiv_id": "2202.00433",
+      "doi": "10.48550/arxiv.2202.00433"
+    },
+    "W4401176556": {
+      "openalex_id": "W4401176556",
+      "arxiv_id": "2407.20045",
+      "doi": "10.1145/3651890.3672222"
+    },
+    "W3188706325": {
+      "openalex_id": "W3188706325",
+      "arxiv_id": null,
+      "doi": "10.1145/3452296.3472900"
+    },
+    "W4365790307": {
+      "openalex_id": "W4365790307",
+      "arxiv_id": null,
+      "doi": "10.1109/tnet.2023.3265276"
+    },
+    "W4410343081": {
+      "openalex_id": "W4410343081",
+      "arxiv_id": null,
+      "doi": "10.1145/3708980"
+    },
+    "W2490598172": {
+      "openalex_id": "W2490598172",
+      "arxiv_id": null,
+      "doi": "10.1109/jlt.2016.2593040"
+    },
+    "W2912886516": {
+      "openalex_id": "W2912886516",
+      "arxiv_id": null,
+      "doi": "10.1117/12.2508897"
+    },
+    "W2592504242": {
+      "openalex_id": "W2592504242",
+      "arxiv_id": null,
+      "doi": "10.1364/ofc.2017.tu3f.1"
+    },
+    "W2560361359": {
+      "openalex_id": "W2560361359",
+      "arxiv_id": null,
+      "doi": "10.1109/jlt.2016.2636025"
+    },
+    "W2735125579": {
+      "openalex_id": "W2735125579",
+      "arxiv_id": null,
+      "doi": "10.1364/networks.2017.new1b.3"
+    },
+    "W2073240697": {
+      "openalex_id": "W2073240697",
+      "arxiv_id": null,
+      "doi": "10.1117/1.oe.52.7.076116"
+    },
+    "W4205819848": {
+      "openalex_id": "W4205819848",
+      "arxiv_id": null,
+      "doi": "10.1109/jlt.2021.3136570"
+    },
+    "W1516975232": {
+      "openalex_id": "W1516975232",
+      "arxiv_id": null,
+      "doi": "10.1002/lpor.201300025"
+    },
+    "W2952418242": {
+      "openalex_id": "W2952418242",
+      "arxiv_id": null,
+      "doi": "10.3934/electreng.2019.3.233"
+    },
+    "W3046344355": {
+      "openalex_id": "W3046344355",
+      "arxiv_id": null,
+      "doi": "10.1145/3387514.3406221"
+    },
+    "W2934098931": {
+      "openalex_id": "W2934098931",
+      "arxiv_id": "1903.12307",
+      "doi": "10.48550/arxiv.1903.12307"
+    },
+    "W2119638333": {
+      "openalex_id": "W2119638333",
+      "arxiv_id": null,
+      "doi": "10.1145/1851182.1851223"
+    },
+    "W2486960733": {
+      "openalex_id": "W2486960733",
+      "arxiv_id": null,
+      "doi": "10.1145/2934872.2934911"
+    },
+    "W2260723393": {
+      "openalex_id": "W2260723393",
+      "arxiv_id": null,
+      "doi": "10.1364/optica.3.000064"
+    },
+    "W2138361600": {
+      "openalex_id": "W2138361600",
+      "arxiv_id": null,
+      "doi": "10.1109/lpt.2003.818653"
+    },
+    "W1536656161": {
+      "openalex_id": "W1536656161",
+      "arxiv_id": null,
+      "doi": null
+    },
+    "W1645511984": {
+      "openalex_id": "W1645511984",
+      "arxiv_id": null,
+      "doi": "10.1117/3.793309.ch28"
+    },
+    "W2116377381": {
+      "openalex_id": "W2116377381",
+      "arxiv_id": null,
+      "doi": "10.1109/sc.2005.48"
+    },
+    "W2017036528": {
+      "openalex_id": "W2017036528",
+      "arxiv_id": null,
+      "doi": "10.1145/1868447.1868455"
+    },
+    "W2083823757": {
+      "openalex_id": "W2083823757",
+      "arxiv_id": null,
+      "doi": "10.1109/hoti.2010.15"
+    },
+    "W2097926925": {
+      "openalex_id": "W2097926925",
+      "arxiv_id": null,
+      "doi": "10.1145/1851182.1851222"
+    },
+    "W2105661057": {
+      "openalex_id": "W2105661057",
+      "arxiv_id": null,
+      "doi": "10.1109/mcom.2010.5496876"
+    },
+    "W2112931687": {
+      "openalex_id": "W2112931687",
+      "arxiv_id": null,
+      "doi": "10.1109/lpt.2002.1022022"
+    },
+    "W834513743": {
+      "openalex_id": "W834513743",
+      "arxiv_id": null,
+      "doi": "10.1364/oe.23.017599"
+    },
+    "W1982772673": {
+      "openalex_id": "W1982772673",
+      "arxiv_id": null,
+      "doi": "10.1364/jon.6.000019"
+    },
+    "W1983164798": {
+      "openalex_id": "W1983164798",
+      "arxiv_id": null,
+      "doi": "10.1109/jlt.2014.2371616"
+    },
+    "W1985329895": {
+      "openalex_id": "W1985329895",
+      "arxiv_id": null,
+      "doi": "10.1364/oe.18.009071"
+    },
+    "W1997416642": {
+      "openalex_id": "W1997416642",
+      "arxiv_id": null,
+      "doi": "10.1364/oe.23.009369"
+    },
+    "W2002341618": {
+      "openalex_id": "W2002341618",
+      "arxiv_id": null,
+      "doi": "10.1109/jssc.2011.2170638"
+    },
+    "W2015534895": {
+      "openalex_id": "W2015534895",
+      "arxiv_id": null,
+      "doi": "10.1364/oe.19.000047"
+    },
+    "W2019883289": {
+      "openalex_id": "W2019883289",
+      "arxiv_id": null,
+      "doi": "10.1038/nphoton.2010.179"
+    },
+    "W2024271185": {
+      "openalex_id": "W2024271185",
+      "arxiv_id": null,
+      "doi": "10.1364/optica.2.000070"
+    },
+    "W2049132385": {
+      "openalex_id": "W2049132385",
+      "arxiv_id": null,
+      "doi": "10.1038/nphoton.2008.31"
+    },
+    "W2063697229": {
+      "openalex_id": "W2063697229",
+      "arxiv_id": null,
+      "doi": "10.1364/oe.20.018977"
+    },
+    "W2069766991": {
+      "openalex_id": "W2069766991",
+      "arxiv_id": null,
+      "doi": "10.1038/nphoton.2014.175"
+    },
+    "W2070900489": {
+      "openalex_id": "W2070900489",
+      "arxiv_id": null,
+      "doi": "10.1109/jlt.2013.2280400"
+    },
+    "W1588462524": {
+      "openalex_id": "W1588462524",
+      "arxiv_id": null,
+      "doi": null
+    },
+    "W2141911769": {
+      "openalex_id": "W2141911769",
+      "arxiv_id": null,
+      "doi": "10.1145/2390231.2390251"
+    },
+    "W2165334967": {
+      "openalex_id": "W2165334967",
+      "arxiv_id": null,
+      "doi": "10.7936/k7fj2f2t"
+    },
+    "W1990200961": {
+      "openalex_id": "W1990200961",
+      "arxiv_id": null,
+      "doi": "10.1109/jlt.2013.2280431"
+    },
+    "W2065747405": {
+      "openalex_id": "W2065747405",
+      "arxiv_id": null,
+      "doi": "10.1016/j.optcom.2014.07.073"
+    },
+    "W2108251206": {
+      "openalex_id": "W2108251206",
+      "arxiv_id": null,
+      "doi": "10.1364/ofc.2015.m2b.1"
+    },
+    "W2124700175": {
+      "openalex_id": "W2124700175",
+      "arxiv_id": null,
+      "doi": "10.1145/2619239.2626328"
+    },
+    "W2139106050": {
+      "openalex_id": "W2139106050",
+      "arxiv_id": null,
+      "doi": "10.1364/ao.47.004793"
+    },
+    "W2140348302": {
+      "openalex_id": "W2140348302",
+      "arxiv_id": null,
+      "doi": "10.1364/oe.22.019029"
+    },
+    "W2026418326": {
+      "openalex_id": "W2026418326",
+      "arxiv_id": null,
+      "doi": "10.1109/jlt.2014.2363947"
+    },
+    "W2050810792": {
+      "openalex_id": "W2050810792",
+      "arxiv_id": null,
+      "doi": "10.1364/ol.32.002801"
+    },
+    "W2051201523": {
+      "openalex_id": "W2051201523",
+      "arxiv_id": null,
+      "doi": "10.1109/jqe.1986.1073032"
+    },
+    "W2053780865": {
+      "openalex_id": "W2053780865",
+      "arxiv_id": null,
+      "doi": "10.1364/opex.13.010109"
+    },
+    "W2058203097": {
+      "openalex_id": "W2058203097",
+      "arxiv_id": null,
+      "doi": "10.1364/oe.21.029374"
+    },
+    "W2062193700": {
+      "openalex_id": "W2062193700",
+      "arxiv_id": null,
+      "doi": "10.1364/ofc.2011.otum2"
+    },
+    "W2063297543": {
+      "openalex_id": "W2063297543",
+      "arxiv_id": null,
+      "doi": "10.1364/ol.38.003926"
+    },
+    "W2066110041": {
+      "openalex_id": "W2066110041",
+      "arxiv_id": null,
+      "doi": "10.1364/ofc.2015.m2b.6"
+    },
+    "W2078357199": {
+      "openalex_id": "W2078357199",
+      "arxiv_id": null,
+      "doi": "10.1109/jstqe.2014.2300046"
+    },
+    "W2099610951": {
+      "openalex_id": "W2099610951",
+      "arxiv_id": null,
+      "doi": "10.1109/jstqe.2006.883151"
+    },
+    "W2113209593": {
+      "openalex_id": "W2113209593",
+      "arxiv_id": null,
+      "doi": "10.1364/ao.26.001226"
+    },
+    "W2121095819": {
+      "openalex_id": "W2121095819",
+      "arxiv_id": null,
+      "doi": "10.1109/68.257206"
+    },
+    "W1558865741": {
+      "openalex_id": "W1558865741",
+      "arxiv_id": null,
+      "doi": "10.1109/jlt.2015.2446463"
+    },
+    "W1653883346": {
+      "openalex_id": "W1653883346",
+      "arxiv_id": null,
+      "doi": "10.1109/ofc.2002.1036227"
+    },
+    "W1887234615": {
+      "openalex_id": "W1887234615",
+      "arxiv_id": null,
+      "doi": "10.1364/prj.3.000b60"
+    },
+    "W1979338531": {
+      "openalex_id": "W1979338531",
+      "arxiv_id": null,
+      "doi": "10.1049/el:19920278"
+    },
+    "W1989460122": {
+      "openalex_id": "W1989460122",
+      "arxiv_id": null,
+      "doi": "10.1364/jocn.7.00a388"
+    },
+    "W1989769976": {
+      "openalex_id": "W1989769976",
+      "arxiv_id": null,
+      "doi": "10.1109/jlt.2012.2208939"
+    },
+    "W1994471904": {
+      "openalex_id": "W1994471904",
+      "arxiv_id": null,
+      "doi": "10.1364/ol.38.005434"
+    },
+    "W1997754090": {
+      "openalex_id": "W1997754090",
+      "arxiv_id": null,
+      "doi": "10.1364/ol.39.001449"
+    },
+    "W2007654061": {
+      "openalex_id": "W2007654061",
+      "arxiv_id": null,
+      "doi": "10.1109/jlt.2013.2278708"
+    },
+    "W2013921511": {
+      "openalex_id": "W2013921511",
+      "arxiv_id": null,
+      "doi": "10.1109/lpt.2012.2223666"
+    },
+    "W2028213396": {
+      "openalex_id": "W2028213396",
+      "arxiv_id": null,
+      "doi": "10.1109/jqe.2009.2026652"
+    },
+    "W2040047675": {
+      "openalex_id": "W2040047675",
+      "arxiv_id": null,
+      "doi": "10.1109/jlt.2004.829223"
+    },
+    "W2042525359": {
+      "openalex_id": "W2042525359",
+      "arxiv_id": null,
+      "doi": "10.1063/1.1637429"
+    },
+    "W2043855221": {
+      "openalex_id": "W2043855221",
+      "arxiv_id": null,
+      "doi": "10.1109/jstqe.2005.846523"
+    },
+    "W2056973550": {
+      "openalex_id": "W2056973550",
+      "arxiv_id": null,
+      "doi": "10.1364/jon.8.000215"
+    },
+    "W1965253111": {
+      "openalex_id": "W1965253111",
+      "arxiv_id": null,
+      "doi": "10.1038/lsa.2012.16"
+    },
+    "W1987691577": {
+      "openalex_id": "W1987691577",
+      "arxiv_id": null,
+      "doi": "10.1364/oe.21.002807"
+    },
+    "W1998335447": {
+      "openalex_id": "W1998335447",
+      "arxiv_id": null,
+      "doi": "10.1016/j.optcom.2010.12.086"
+    },
+    "W2006295284": {
+      "openalex_id": "W2006295284",
+      "arxiv_id": null,
+      "doi": "10.1117/12.448834"
+    },
+    "W2017873014": {
+      "openalex_id": "W2017873014",
+      "arxiv_id": null,
+      "doi": "10.1364/oe.21.006889"
+    },
+    "W2032418282": {
+      "openalex_id": "W2032418282",
+      "arxiv_id": null,
+      "doi": "10.7567/jjap.52.06gl15"
+    },
+    "W2082515684": {
+      "openalex_id": "W2082515684",
+      "arxiv_id": null,
+      "doi": "10.1063/1.2892677"
+    },
+    "W2088068353": {
+      "openalex_id": "W2088068353",
+      "arxiv_id": null,
+      "doi": "10.1364/oe.22.003887"
+    },
+    "W2089069546": {
+      "openalex_id": "W2089069546",
+      "arxiv_id": null,
+      "doi": "10.1109/lpt.2013.2248354"
+    },
+    "W2089755139": {
+      "openalex_id": "W2089755139",
+      "arxiv_id": null,
+      "doi": "10.1109/35.989763"
+    },
+    "W2094432207": {
+      "openalex_id": "W2094432207",
+      "arxiv_id": null,
+      "doi": "10.1109/2944.991400"
+    },
+    "W2094700182": {
+      "openalex_id": "W2094700182",
+      "arxiv_id": null,
+      "doi": "10.1364/oe.17.024020"
+    },
+    "W2098514595": {
+      "openalex_id": "W2098514595",
+      "arxiv_id": null,
+      "doi": "10.1109/jlt.2006.886405"
+    },
+    "W2103195791": {
+      "openalex_id": "W2103195791",
+      "arxiv_id": null,
+      "doi": "10.1109/jmems.2005.851848"
+    },
+    "W1979673782": {
+      "openalex_id": "W1979673782",
+      "arxiv_id": null,
+      "doi": "10.1364/oe.23.003563"
+    },
+    "W2062294208": {
+      "openalex_id": "W2062294208",
+      "arxiv_id": null,
+      "doi": "10.1038/nature11727"
+    },
+    "W2066708803": {
+      "openalex_id": "W2066708803",
+      "arxiv_id": null,
+      "doi": "10.1364/oe.20.021722"
+    },
+    "W2468172470": {
+      "openalex_id": "W2468172470",
+      "arxiv_id": null,
+      "doi": "10.1088/2040-8978/18/7/073003"
+    },
+    "W2481781603": {
+      "openalex_id": "W2481781603",
+      "arxiv_id": null,
+      "doi": "10.1364/optica.3.000887"
+    },
+    "W2758695468": {
+      "openalex_id": "W2758695468",
+      "arxiv_id": null,
+      "doi": "10.1109/jlt.2017.2755578"
+    },
+    "W2770966813": {
+      "openalex_id": "W2770966813",
+      "arxiv_id": null,
+      "doi": "10.1364/oe.25.030862"
+    },
+    "W2897089376": {
+      "openalex_id": "W2897089376",
+      "arxiv_id": null,
+      "doi": "10.1364/optica.5.001354"
+    },
+    "W4281849792": {
+      "openalex_id": "W4281849792",
+      "arxiv_id": null,
+      "doi": "10.1364/prj.456772"
+    },
+    "W3126304295": {
+      "openalex_id": "W3126304295",
+      "arxiv_id": null,
+      "doi": "10.1038/s42005-021-00519-1"
+    }
+  }
+}

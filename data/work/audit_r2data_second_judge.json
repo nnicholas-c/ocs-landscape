@@ -1,0 +1,192 @@
+{
+ "judge": "second judge, run 2 stage 7 round 1, blind to audit_r2data_judgments.json",
+ "source": "data/work/audit_r2data_judge_input.json plus cited abstracts in data/db/papers.sqlite and data/projects.csv",
+ "judgments": [
+  {
+   "cell": "mems_silicon_photonic:ai_cluster_fit",
+   "value": "yes",
+   "judgment": "supported",
+   "reason": "W7172527693 names data centers and AI/ML clusters as the target of large-scale photonic switches."
+  },
+  {
+   "cell": "thermo_optic:packaging_notes",
+   "value": "Flip-chip bond to a ceramic interposer with a land grid array; wire-bonded ceramic package with a 68-fiber ribbon attached; feedback control without chip cooling; air trenches cut chip power",
+   "judgment": "supported",
+   "reason": "All four clauses are in the cited abstracts: flip-chip to ceramic LGA interposer (W834513743), wire-bonded ceramic package with 68-fiber ribbon (W2758695468), feedback-controlled stabilization without chip cooling (W2327284773), air trenches giving 0.98 W (W4378650891)."
+  },
+  {
+   "cell": "piezo:trl_band",
+   "value": "lab",
+   "judgment": "supported",
+   "reason": "W2591729902 reports development of a first beam-steering switch device, a lab build; caveat: Polatis row 5 ships, but its quote states only the mechanism."
+  },
+  {
+   "cell": "mems_silicon_photonic:trl_band",
+   "value": "lab",
+   "judgment": "supported",
+   "reason": "Review says the technology still has to move from lab proof of concept to commercialization, and W3138799074 is a fabricated prototype."
+  },
+  {
+   "cell": "electro_optic:integration",
+   "value": "integrated_photonic",
+   "judgment": "supported",
+   "reason": "A CMOS-fabricated Mach-Zehnder silicon switch keeps light in on-chip waveguides."
+  },
+  {
+   "cell": "robotic_patch_panel:trl_band",
+   "value": "production",
+   "judgment": "supported",
+   "reason": "Telescent row 6 announces a product launch, which counts as sold as a product (vendor claim)."
+  },
+  {
+   "cell": "thermo_optic:scaling_limit",
+   "value": "Crossing loss grows with port count; control units and drive wiring grow quickly with port count; high heater power",
+   "judgment": "supported",
+   "reason": "Crossing loss growing with port count and control units growing with port count are stated; high thermo-optic power is stated as a drawback but not tied to port count (weak third clause)."
+  },
+  {
+   "cell": "lcos:packaging_notes",
+   "value": "Multicore-fiber collimator, spatial multiplexer array and LCoS spatial light modulator integrated in one prototype",
+   "judgment": "supported",
+   "reason": "W3034334810 quote says the prototype integrates an MCF collimator, spatial mux/demux array and LCoS SLM."
+  },
+  {
+   "cell": "electro_optic:trl_band",
+   "value": "lab",
+   "judgment": "supported",
+   "reason": "8x8 matrix switches fabricated for the first time, a lab device."
+  },
+  {
+   "cell": "robotic_patch_panel:integration",
+   "value": "mechanical_fiber",
+   "judgment": "supported",
+   "reason": "A fiber-handling robot physically cross-connects connectors, so fibers are moved."
+  },
+  {
+   "cell": "mems_3d:trl_band",
+   "value": "production",
+   "judgment": "supported",
+   "reason": "Apollo (W4292950821) is a large-scale production deployment; Google row 1 and Calient row 4 back it."
+  },
+  {
+   "cell": "mems_silicon_photonic:packaging_notes",
+   "value": "Aluminum nitride interposer and 64-channel lidless fiber array; glass-interposer package with 2.5 dB/facet grating couplers; pluggable package; CMOS driver chiplets; unpackaged switch reliable over 10 billion cycles",
+   "judgment": "supported",
+   "reason": "Every clause is in the cited abstracts; the glass interposer is in the W2786734285 abstract and title though not in the quoted sentence."
+  },
+  {
+   "cell": "lcos:trl_band",
+   "value": "lab",
+   "judgment": "supported",
+   "reason": "An implemented CSS prototype is a lab build."
+  },
+  {
+   "cell": "mems_3d:integration",
+   "value": "free_space_bulk",
+   "judgment": "supported",
+   "reason": "A microlens MCF collimator array with a MEMS mirror array is a free-space beam path."
+  },
+  {
+   "cell": "mems_3d:ai_cluster_fit",
+   "value": "yes",
+   "judgment": "supported",
+   "reason": "Weak: the Apollo quote says only datacenter networking (indirect); the yes rests on UTStarcom row 11, an OCS platform designed for AI data centers (vendor claim)."
+  },
+  {
+   "cell": "mems_2d:integration",
+   "value": "free_space_bulk",
+   "judgment": "supported",
+   "reason": "Weak: reflective 2D MEMS mirrors steer beams in free space, but the abstract never says free space in words."
+  },
+  {
+   "cell": "mems_2d:trl_band",
+   "value": "lab",
+   "judgment": "supported",
+   "reason": "Demonstrated a 16x16 surface-micromachined switch chip, a lab device."
+  },
+  {
+   "cell": "mems_2d:ai_cluster_fit",
+   "value": "no",
+   "judgment": "supported",
+   "reason": "W2089755139 names fiber optic telecom as the application, none names data centers, so no fits."
+  },
+  {
+   "cell": "mems_silicon_photonic:integration",
+   "value": "integrated_photonic",
+   "judgment": "supported",
+   "reason": "Integrated OCS combining silicon photonics with MEMS actuation."
+  },
+  {
+   "cell": "lcos:integration",
+   "value": "free_space_bulk",
+   "judgment": "supported",
+   "reason": "The CSS is explicitly free-space-optics-based."
+  },
+  {
+   "cell": "lcos:ai_cluster_fit",
+   "value": "yes",
+   "judgment": "supported",
+   "reason": "W3203666589 proposes a WSS-based reconfigurable optical DCN, a reconfigurable topology; WSS is an lcos signal word though LCoS is not named."
+  },
+  {
+   "cell": "piezo:integration",
+   "value": "free_space_bulk",
+   "judgment": "supported",
+   "reason": "Polatis row 5: piezo actuators align collimated beams between opposing fiber arrays, a free-space path."
+  },
+  {
+   "cell": "piezo:ai_cluster_fit",
+   "value": "yes",
+   "judgment": "supported",
+   "reason": "W4323644257 and W2068954499 use PZT or beam-steering switches to reconfigure data center networks, a reconfigurable topology."
+  },
+  {
+   "cell": "thermo_optic:integration",
+   "value": "integrated_photonic",
+   "judgment": "supported",
+   "reason": "Switch fabricated on a 300-mm SOI wafer, light in on-chip waveguides."
+  },
+  {
+   "cell": "thermo_optic:trl_band",
+   "value": "lab",
+   "judgment": "supported",
+   "reason": "Review says moving the demonstrations from research to product needs further work, so lab."
+  },
+  {
+   "cell": "thermo_optic:ai_cluster_fit",
+   "value": "yes",
+   "judgment": "supported",
+   "reason": "W4391878049 names co-integration with GPUs and W4384820653 a single-tier optical layer replacing multi-tier switching."
+  },
+  {
+   "cell": "electro_optic:ai_cluster_fit",
+   "value": "partial",
+   "judgment": "supported",
+   "reason": "Data center scale interconnect and HPC switch-chip replacement, no accelerator cluster, topology or spine by name, so partial fits."
+  },
+  {
+   "cell": "soa:integration",
+   "value": "integrated_photonic",
+   "judgment": "supported",
+   "reason": "InP WDM switches with on-chip SOA gates."
+  },
+  {
+   "cell": "soa:trl_band",
+   "value": "lab",
+   "judgment": "supported",
+   "reason": "A 4x4 InP cross-connect designed, fabricated and demonstrated, a lab device."
+  },
+  {
+   "cell": "soa:ai_cluster_fit",
+   "value": "yes",
+   "judgment": "supported",
+   "reason": "W3093967660 proposes OCS in place of electrical switches in the core of the data center network and demonstrates it with SOAs, a spine replacement."
+  },
+  {
+   "cell": "robotic_patch_panel:ai_cluster_fit",
+   "value": "no",
+   "judgment": "supported",
+   "reason": "The only paper targets intelligent buildings and access networks, and the vendor quote names no application, so no fits."
+  }
+ ]
+}

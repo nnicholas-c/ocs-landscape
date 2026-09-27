@@ -1,0 +1,202 @@
+[
+  {
+    "record_key": "openalex:W3113087954",
+    "source": "arxiv_via_openalex",
+    "title": "Heterogeneous Dataflow Accelerators for Multi-DNN Workloads",
+    "year": 2021,
+    "venue": null,
+    "abstract": "Emerging AI-enabled applications such as augmented and virtual reality (AR/VR) leverage multiple deep neural network (DNN) models for various sub-tasks such as object detection, image segmentation, eye-tracking, speech recognition, and so on. Because of the diversity of the sub-tasks, the layers within and across the DNN models are highly heterogeneous in operation and shape. Diverse layer operations and shapes are major challenges for a fixed dataflow accelerator (FDA) that employs a fixed dataflow strategy on a single DNN accelerator substrate since each layer prefers different dataflows (computation order and parallelization) and tile sizes. Reconfigurable DNN accelerators (RDAs) have been proposed to adapt their dataflows to diverse layers to address the challenge. However, the dataflow flexibility in RDAs is enabled at"
+  },
+  {
+    "record_key": "openalex:W2963809841",
+    "source": "arxiv_via_openalex",
+    "title": "Demand-Aware Network Designs of Bounded Degree",
+    "year": 2017,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "Traditionally, networks such as datacenter interconnects are designed to optimize worst-case performance under arbitrary traffic patterns. Such network designs can however be far from optimal when considering the actual workloads and traffic patterns which they serve. This insight led to the development of demand-aware datacenter interconnects which can be reconfigured depending on the workload. Motivated by these trends, this paper initiates the algorithmic study of demand-aware networks (DANs) designs, and in particular the design of bounded-degree networks. The inputs to the network design problem are a discrete communication request distribution, D, defined over communicating pairs from the node set V , and a bound, d, on the maximum degree. In turn, our objective is to design an (undirected) demand-aware network"
+  },
+  {
+    "record_key": "openalex:W3095182478",
+    "source": "arxiv_via_openalex",
+    "title": "High-Performance Routing With Multipathing and Path Diversity in Ethernet and HPC Networks",
+    "year": 2020,
+    "venue": "IEEE Transactions on Parallel and Distributed Systems",
+    "abstract": "The recent line of research into topology design focuses on lowering network diameter. Many low-diameter topologies such as Slim Fly or Jellyfish that substantially reduce cost, power consumption, and latency have been proposed. A key challenge in realizing the benefits of these topologies is routing. On one hand, these networks provide shorter path lengths than established topologies such as Clos or torus, leading to performance improvements. On the other hand, the number of shortest paths between each pair of endpoints is much smaller than in Clos, but there is a large number of non-minimal paths between router pairs. This hampers or even makes it impossible to use established multipath routing schemes such as ECMP. In this article, to facilitate high-performance"
+  },
+  {
+    "record_key": "openalex:W2920338184",
+    "source": "arxiv_via_openalex",
+    "title": "SiamVGG: Visual Tracking using Deeper Siamese Networks",
+    "year": 2019,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "Recently, we have seen a rapid development of Deep Neural Network (DNN) based visual tracking solutions. Some trackers combine the DNN-based solutions with Discriminative Correlation Filters (DCF) to extract semantic features and successfully deliver the state-of-the-art tracking accuracy. However, these solutions are highly compute-intensive, which require long processing time, resulting unsecured real-time performance. To deliver both high accuracy and reliable real-time performance, we propose a novel tracker called SiamVGG\\footnote{https://github.com/leeyeehoo/SiamVGG}. It combines a Convolutional Neural Network (CNN) backbone and a cross-correlation operator, and takes advantage of the features from exemplary images for more accurate object tracking. The architecture of SiamVGG is customized from VGG-16 with the parameters shared by both exemplary images and desired input video frames. We demonstrate the proposed"
+  },
+  {
+    "record_key": "openalex:W2797033345",
+    "source": "arxiv_via_openalex",
+    "title": "End-to-End Deep Learning of Optical Fiber Communications",
+    "year": 2018,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "In this paper, we implement an optical fiber communication system as an end-to-end deep neural network, including the complete chain of transmitter, channel model, and receiver. This approach enables the optimization of the transceiver in a single end-to-end process. We illustrate the benefits of this method by applying it to intensity modulation/direct detection (IM/DD) systems and show that we can achieve bit error rates below the 6.7% hard-decision forward error correction (HD-FEC) threshold. We model all componentry of the transmitter and receiver, as well as the fiber channel, and apply deep learning to find transmitter and receiver configurations minimizing the symbol error rate. We propose and verify in simulations a training method that yields robust and flexible transceivers that allow-without"
+  },
+  {
+    "record_key": "openalex:W2761550419",
+    "source": "arxiv_via_openalex",
+    "title": "Photonic machine learning implementation for signal recovery in optical communications",
+    "year": 2018,
+    "venue": "Scientific Reports",
+    "abstract": "Machine learning techniques have proven very efficient in assorted classification tasks. Nevertheless, processing time-dependent high-speed signals can turn into an extremely challenging task, especially when these signals have been nonlinearly distorted. Recently, analogue hardware concepts using nonlinear transient responses have been gaining significant interest for fast information processing. Here, we introduce a simplified photonic reservoir computing scheme for data classification of severely distorted optical communication signals after extended fibre transmission. To this end, we convert the direct bit detection process into a pattern recognition problem. Using an experimental implementation of our photonic reservoir computer, we demonstrate an improvement in bit-error-rate by two orders of magnitude, compared to directly classifying the transmitted signal. This improvement corresponds to an extension of the"
+  },
+  {
+    "record_key": "openalex:W2995897104",
+    "source": "arxiv_via_openalex",
+    "title": "Development of Quantum Interconnects (QuICs) for Next-Generation Information Technologies",
+    "year": 2021,
+    "venue": "PRX Quantum",
+    "abstract": "Just as \"classical\" information technology rests on a foundation built of interconnected informationprocessing systems, quantum information technology (QIT) must do the same.A critical component of such systems is the \"interconnect,\" a device or process that allows transfer of information between disparate physical media, for example, semiconductor electronics, individual atoms, light pulses in optical fiber, or microwave fields.While interconnects have been well engineered for decades in the realm of classical information technology, quantum interconnects (QuICs) present special challenges, as they must allow the transfer of fragile quantum states between different physical parts or degrees of freedom of the system.The diversity of QIT platforms (superconducting, atomic, solid-state color center, optical, etc.) that will form a \"quantum internet\" poses additional challenges.As quantum systems"
+  },
+  {
+    "record_key": "openalex:W3196262621",
+    "source": "arxiv_via_openalex",
+    "title": "Scalable Optical Learning Operator",
+    "year": 2020,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "Today's heavy machine learning tasks are fueled by large datasets. Computing is performed with power hungry processors whose performance is ultimately limited by the data transfer to and from memory. Optics is one of the powerful means of communicating and processing information and there is intense current interest in optical information processing for realizing high-speed computations. Here we present and experimentally demonstrate an optical computing framework based on spatiotemporal effects in multimode fibers for a range of learning tasks from classifying COVID-19 X-ray lung images and speech recognition to predicting age from face images. The presented framework overcomes the energy scaling problem of existing systems without compromising speed. We leveraged simultaneous, linear, and nonlinear interaction of spatial modes as a"
+  },
+  {
+    "record_key": "openalex:W3004736936",
+    "source": "arxiv_via_openalex",
+    "title": "Photonic tensor cores for machine learning",
+    "year": 2020,
+    "venue": "Applied Physics Reviews",
+    "abstract": "With an ongoing trend in computing hardware toward increased heterogeneity, domain-specific coprocessors are emerging as alternatives to centralized paradigms. The tensor core unit has been shown to outperform graphic processing units by almost 3 orders of magnitude, enabled by a stronger signal and greater energy efficiency. In this context, photons bear several synergistic physical properties while phase-change materials allow for local nonvolatile mnemonic functionality in these emerging distributed non-von Neumann architectures. While several photonic neural network designs have been explored, a photonic tensor core to perform tensor operations is yet to be implemented. In this manuscript, we introduce an integrated photonics-based tensor core unit by strategically utilizing (i) photonic parallelism via wavelength division multiplexing, (ii) high 2 peta-operations-per-second throughputs enabled"
+  },
+  {
+    "record_key": "openalex:W2889149492",
+    "source": "arxiv_via_openalex",
+    "title": "Quantum optical neural networks",
+    "year": 2019,
+    "venue": "npj Quantum Information",
+    "abstract": "Abstract Physically motivated quantum algorithms for specific near-term quantum hardware will likely be the next frontier in quantum information science. Here, we show how many of the features of neural networks for machine learning can naturally be mapped into the quantum optical domain by introducing the quantum optical neural network (QONN). Through numerical simulation and analysis we train the QONN to perform a range of quantum information processing tasks, including newly developed protocols for quantum optical state compression, reinforcement learning, black-box quantum simulation, and one-way quantum repeaters. We consistently demonstrate that our system can generalize from only a small set of training data onto inputs for which it has not been trained. Our results indicate that QONNs are a powerful"
+  },
+  {
+    "record_key": "openalex:W2989670361",
+    "source": "arxiv_via_openalex",
+    "title": "Design of task-specific optical systems using broadband diffractive neural networks",
+    "year": 2019,
+    "venue": "Light Science & Applications",
+    "abstract": "Deep learning has been transformative in many fields, motivating the emergence of various optical computing architectures. Diffractive optical network is a recently introduced optical computing framework that merges wave optics with deep-learning methods to design optical neural networks. Diffraction-based all-optical object recognition systems, designed through this framework and fabricated by 3D printing, have been reported to recognize hand-written digits and fashion products, demonstrating all-optical inference and generalization to sub-classes of data. These previous diffractive approaches employed monochromatic coherent light as the illumination source. Here, we report a broadband diffractive optical neural network design that simultaneously processes a continuum of wavelengths generated by a temporally incoherent broadband source to all-optically perform a specific task learned using deep learning. We experimentally validated"
+  },
+  {
+    "record_key": "openalex:W4362679072",
+    "source": "arxiv_via_openalex",
+    "title": "Machine learning for automated experimentation in scanning transmission electron microscopy",
+    "year": 2023,
+    "venue": "npj Computational Materials",
+    "abstract": "Abstract Machine learning (ML) has become critical for post-acquisition data analysis in (scanning) transmission electron microscopy, (S)TEM, imaging and spectroscopy. An emerging trend is the transition to real-time analysis and closed-loop microscope operation. The effective use of ML in electron microscopy now requires the development of strategies for microscopy-centric experiment workflow design and optimization. Here, we discuss the associated challenges with the transition to active ML, including sequential data analysis and out-of-distribution drift effects, the requirements for edge operation, local and cloud data storage, and theory in the loop operations. Specifically, we discuss the relative contributions of human scientists and ML agents in the ideation, orchestration, and execution of experimental workflows, as well as the need to develop universal hyper"
+  },
+  {
+    "record_key": "openalex:W3208839263",
+    "source": "arxiv_via_openalex",
+    "title": "Applications and Techniques for Fast Machine Learning in Science",
+    "year": 2022,
+    "venue": "Frontiers in Big Data",
+    "abstract": "machine learning (ML) in science-the concept of integrating powerful ML methods into the real-time experimental data processing loop to accelerate scientific discovery. The material for the report builds on two workshops held by the Fast ML for Science community and covers three main areas: applications for fast ML across a number of scientific domains; techniques for training and implementing performant and resource-efficient ML algorithms; and computing architectures, platforms, and technologies for deploying these algorithms. We also present overlapping challenges across the multiple scientific domains where common solutions can be found. This community report is intended to give plenty of examples and inspiration for scientific discovery through integrated and accelerated ML solutions. This is followed by a high-level overview and organization"
+  },
+  {
+    "record_key": "openalex:W3045894692",
+    "source": "arxiv_via_openalex",
+    "title": "Meta‐optics for spatial optical analog computing",
+    "year": 2018,
+    "venue": "Nanophotonics",
+    "abstract": "Abstract Rapidly growing demands for high‐performance computing, powerful data processing, and big data necessitate the advent of novel optical devices to perform demanding computing processes effectively. Due to its unprecedented growth in the past two decades, the field of meta‐optics offers a viable solution for spatially, spectrally, and/or even temporally sculpting amplitude, phase, polarization, and/or dispersion of optical wavefronts. In this review, we discuss state‐of‐the‐art developments, as well as emerging trends, in computational metastructures as disruptive platforms for spatial optical analog computation. Two fundamental approaches based on general concepts of spatial Fourier transformation and Green’s function (GF) are discussed in detail. Moreover, numerical investigations and experimental demonstrations of computational optical surfaces and metastructures for solving a diverse set of mathematical"
+  },
+  {
+    "record_key": "openalex:W4294579005",
+    "source": "arxiv_via_openalex",
+    "title": "Diffractive Interconnects: All-Optical Permutation Operation Using Diffractive Networks",
+    "year": 2022,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "Permutation matrices form an important computational building block frequently used in various fields including e.g., communications, information security and data processing. Optical implementation of permutation operators with relatively large number of input-output interconnections based on power-efficient, fast, and compact platforms is highly desirable. Here, we present diffractive optical networks engineered through deep learning to all-optically perform permutation operations that can scale to hundreds of thousands of interconnections between an input and an output field-of-view using passive transmissive layers that are individually structured at the wavelength scale. Our findings indicate that the capacity of the diffractive optical network in approximating a given permutation operation increases proportional to the number of diffractive layers and trainable transmission elements in the system. Such deeper"
+  },
+  {
+    "record_key": "openalex:W2917927137",
+    "source": "arxiv_via_openalex",
+    "title": "Deep learning approach based on dimensionality reduction for designing electromagnetic nanostructures",
+    "year": 2020,
+    "venue": "npj Computational Materials",
+    "abstract": "Abstract In this paper, we demonstrate a computationally efficient new approach based on deep learning (DL) techniques for analysis, design and optimization of electromagnetic (EM) nanostructures. We use the strong correlation among features of a generic EM problem to considerably reduce the dimensionality of the problem and thus, the computational complexity, without imposing considerable errors. By employing the dimensionality reduction concept using the more recently demonstrated autoencoder technique, we redefine the conventional many-to-one design problem in EM nanostructures into a one-to-one problem plus a much simpler many-to-one problem, which can be simply solved using an analytic formulation. This approach reduces the computational complexity in solving both the forward problem (i.e., analysis) and the inverse problem (i.e., design) by orders of"
+  },
+  {
+    "record_key": "openalex:W4280588222",
+    "source": "arxiv_via_openalex",
+    "title": "Automating In-Network Machine Learning",
+    "year": 2022,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "Using programmable network devices to aid in-network machine learning has been the focus of significant research. However, most of the research was of a limited scope, providing a proof of concept or describing a closed-source algorithm. To date, no general solution has been provided for mapping machine learning algorithms to programmable network devices. In this paper, we present Planter, an open-source, modular framework for mapping trained machine learning models to programmable devices. Planter supports a wide range of machine learning models, multiple targets and can be easily extended. The evaluation of Planter compares different mapping approaches, and demonstrates the feasibility, performance, and resource efficiency for applications such as anomaly detection, financial transactions, and quality of experience. The results show that"
+  },
+  {
+    "record_key": "openalex:W3119622074",
+    "source": "arxiv_via_openalex",
+    "title": "A Survey on Silicon Photonics for Deep Learning",
+    "year": 2021,
+    "venue": "ACM Journal on Emerging Technologies in Computing Systems",
+    "abstract": "Deep learning has led to unprecedented successes in solving some very difficult problems in domains such as computer vision, natural language processing, and general pattern recognition. These achievements are the culmination of decades-long research into better training techniques and deeper neural network models, as well as improvements in hardware platforms that are used to train and execute the deep neural network models. Many application-specific integrated circuit (ASIC) hardware accelerators for deep learning have garnered interest in recent years due to their improved performance and energy-efficiency over conventional CPU and GPU architectures. However, these accelerators are constrained by fundamental bottlenecks due to (1) the slowdown in CMOS scaling, which has limited computational and performance-per-watt capabilities of emerging electronic processors; and (2)"
+  },
+  {
+    "record_key": "openalex:W3021735486",
+    "source": "arxiv_via_openalex",
+    "title": "White Paper on Critical and Massive Machine Type Communication Towards 6G",
+    "year": 2020,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "The society as a whole, and many vertical sectors in particular, is becoming increasingly digitalized. Machine Type Communication (MTC), encompassing its massive and critical aspects, and ubiquitous wireless connectivity are among the main enablers of such digitization at large. The recently introduced 5G New Radio is natively designed to support both aspects of MTC to promote the digital transformation of the society. However, it is evident that some of the more demanding requirements cannot be fully supported by 5G networks. Alongside, further development of the society towards 2030 will give rise to new and more stringent requirements on wireless connectivity in general, and MTC in particular. Driven by the societal trends towards 2030, the next generation (6G) will be an"
+  },
+  {
+    "record_key": "openalex:W3044091938",
+    "source": "arxiv_via_openalex",
+    "title": "Programmable phase-change metasurfaces on waveguides for multimode photonic convolutional neural network",
+    "year": 2021,
+    "venue": "Nature Communications",
+    "abstract": "Abstract Neuromorphic photonics has recently emerged as a promising hardware accelerator, with significant potential speed and energy advantages over digital electronics for machine learning algorithms, such as neural networks of various types. Integrated photonic networks are particularly powerful in performing analog computing of matrix-vector multiplication (MVM) as they afford unparalleled speed and bandwidth density for data transmission. Incorporating nonvolatile phase-change materials in integrated photonic devices enables indispensable programming and in-memory computing capabilities for on-chip optical computing. Here, we demonstrate a multimode photonic computing core consisting of an array of programable mode converters based on on-waveguide metasurfaces made of phase-change materials. The programmable converters utilize the refractive index change of the phase-change material Ge 2 Sb 2 Te 5 during phase"
+  },
+  {
+    "record_key": "openalex:W2999007819",
+    "source": "arxiv_via_openalex",
+    "title": "Optimizing High-Efficiency Quantum Memory with Quantum Machine Learning for Near-Term Quantum Devices",
+    "year": 2020,
+    "venue": "Scientific Reports",
+    "abstract": "Quantum memories are a fundamental of any global-scale quantum Internet, high-performance quantum networking and near-term quantum computers. A main problem of quantum memories is the low retrieval efficiency of the quantum systems from the quantum registers of the quantum memory. Here, we define a novel quantum memory called high-retrieval-efficiency (HRE) quantum memory for near-term quantum devices. An HRE quantum memory unit integrates local unitary operations on its hardware level for the optimization of the readout procedure and utilizes the advanced techniques of quantum machine learning. We define the integrated unitary operations of an HRE quantum memory, prove the learning procedure, and evaluate the achievable output signal-to-noise ratio values. We prove that the local unitaries of an HRE quantum memory achieve"
+  },
+  {
+    "record_key": "openalex:W4221138189",
+    "source": "arxiv_via_openalex",
+    "title": "1000× Faster Camera and Machine Vision with Ordinary Devices",
+    "year": 2022,
+    "venue": "Engineering",
+    "abstract": "In digital cameras, we find a major limitation: the image and video form inherited from a film camera obstructs it from capturing the rapidly changing photonic world. Here, we present vidar, a bit sequence array where each bit represents whether the accumulation of photons has reached a threshold, to record and reconstruct the scene radiance at any moment. By employing only consumer-level complementary metal-oxide-semiconductor (CMOS) sensors and integrated circuits, we have developed a vidar camera that is 1000× faster than conventional cameras. By treating vidar as spike trains in biological vision, we have further developed a spiking neural network (SNN)-based machine vision system that combines the speed of the machine and the mechanism of biological vision, achieving high-speed object detection"
+  },
+  {
+    "record_key": "openalex:W2977600537",
+    "source": "arxiv_via_openalex",
+    "title": "Enabling real-time multi-messenger astrophysics discoveries with deep learning",
+    "year": 2019,
+    "venue": "Nature Reviews Physics",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W2773804515",
+    "source": "arxiv_via_openalex",
+    "title": "Machine Learning and Manycore Systems Design: A Serendipitous Symbiosis",
+    "year": 2018,
+    "venue": "Computer",
+    "abstract": "Tight collaboration between manycore system designers and machine-learning experts is necessary to create a data-driven manycore design framework that integrates both learning and expert knowledge. Such a framework will be necessary to address the rising complexity of designing large-scale manycore systems and machine-learning techniques."
+  },
+  {
+    "record_key": "openalex:W3135342751",
+    "source": "arxiv_via_openalex",
+    "title": "Implementation of Quantum Machine Learning for Electronic Structure Calculations of Periodic Systems on Quantum Computing Devices",
+    "year": 2021,
+    "venue": "Journal of Chemical Information and Modeling",
+    "abstract": "Quantum machine learning algorithms, the extensions of machine learning to quantum regimes, are believed to be more powerful as they leverage the power of quantum properties. Quantum machine learning methods have been employed to solve quantum many-body systems and have demonstrated accurate electronic structure calculations of lattice models, molecular systems, and recently periodic systems. A hybrid approach using restricted Boltzmann machines and a quantum algorithm to obtain the probability distribution that can be optimized classically is a promising method due to its efficiency and ease of implementation. Here, we implement the benchmark test of the hybrid quantum machine learning on the IBM-Q quantum computer to calculate the electronic structure of typical two-dimensional crystal structures: hexagonal-boron nitride and graphene. The band"
+  }
+]

@@ -10,9 +10,11 @@ data/raw/relevance.csv, and writes 25-record batches to
 data/work/relevance_batch_NNN.json, numbered after the highest existing batch.
 
 full mode reads extended_set papers from data/db/papers.sqlite and writes
-20-record batches (full abstract) to data/work/tag_batch_NNN.json. --only
-takes a file of paper_ids (one per line) and numbers those batches from 901
-upward instead, so a partial retag never touches the normal range.
+20-record batches (full abstract) to data/work/tag_batch_NNN.json. It skips
+papers that already have a tags row or sit in a pending tag_batch_001..900 file.
+--only takes a file of paper_ids (one per line), exports exactly those (tagged
+or not), and numbers those batches from 901 upward instead, so a partial retag
+never touches the normal range.
 
 Safe to run twice: it only ever adds new batch files, never overwrites one.
 """
@@ -68,11 +70,26 @@ def write_batches(records, prefix, start_num, size):
     return written
 
 
+def pending_batch_keys(prefix, field, high=999):
+    """The <field> of every record in data/work/<prefix>_batch_NNN.json with NNN <= high
+    (not *.out.json), so a rerun before tag_import does not re-export the same
+    records into a second set of batches and double the tagging work."""
+    batch_name_re = re.compile(rf"^{re.escape(prefix)}_batch_(\d{{3}})\.json$")
+    keys = set()
+    for p in WORK_DIR.glob(f"{prefix}_batch_*.json"):
+        m = batch_name_re.match(p.name)
+        if m and int(m.group(1)) <= high:
+            with open(p, encoding="utf-8") as f:
+                keys.update(rec[field] for rec in json.load(f))
+    return keys
+
+
 def existing_relevance_keys():
-    if not RELEVANCE_CSV.exists():
-        return set()
-    with open(RELEVANCE_CSV, newline="", encoding="utf-8") as f:
-        return {row["record_key"] for row in csv.DictReader(f)}
+    done = pending_batch_keys("relevance", "record_key")
+    if RELEVANCE_CSV.exists():
+        with open(RELEVANCE_CSV, newline="", encoding="utf-8") as f:
+            done.update(row["record_key"] for row in csv.DictReader(f))
+    return done
 
 
 def export_relevance():
@@ -118,7 +135,8 @@ def extended_set_papers(only_ids=None):
             ).fetchall()
         else:
             rows = con.execute(
-                "SELECT paper_id, title, year, venue, abstract FROM papers WHERE extended_set = 1"
+                "SELECT paper_id, title, year, venue, abstract FROM papers WHERE extended_set = 1 "
+                "AND paper_id NOT IN (SELECT paper_id FROM tags)"
             ).fetchall()
         return [dict(r) for r in rows]
     finally:
@@ -137,6 +155,8 @@ def export_full(only_file=None):
     if only_ids:
         start = next_batch_num("tag", low=ONLY_BATCH_START, high=999)
     else:
+        pending = pending_batch_keys("tag", "paper_id", high=ONLY_BATCH_START - 1)
+        records = [r for r in records if r["paper_id"] not in pending]
         start = next_batch_num("tag", low=1, high=ONLY_BATCH_START - 1)
     written = write_batches(records, "tag", start, FULL_BATCH_SIZE)
     return written, len(records)

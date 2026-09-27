@@ -1,0 +1,98 @@
+[
+  {
+    "record_key": "openalex:W4285069006",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Automotive aesthetic design via machine learning, unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W3126787553",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Survey of machine learning for electronic design automation, unrelated."
+  },
+  {
+    "record_key": "openalex:W3111771041",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Spin-wave neural network hardware, unrelated to optical switching."
+  },
+  {
+    "record_key": "openalex:W4205630102",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Gravitational-wave optical telescope array, unrelated to circuit switching."
+  },
+  {
+    "record_key": "openalex:W2620342231",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Survey of neuromorphic computing hardware, unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W3208167090",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "All-optical NAND logic gates via diffractive networks, not switching."
+  },
+  {
+    "record_key": "openalex:W2989615886",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Deep learning equalizer for fiber nonlinearity compensation, not switching."
+  },
+  {
+    "record_key": "openalex:W3128021040",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Neural network demapping for optical communication receivers, not switching."
+  },
+  {
+    "record_key": "openalex:W3136221959",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Neuroscience model of predictive learning, unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W3116411329",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Optical computing operator by title only, abstract empty; unrelated."
+  },
+  {
+    "record_key": "openalex:W2960571025",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Product aesthetics design tool by title only, abstract empty."
+  },
+  {
+    "record_key": "openalex:W4319049883",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Survey of continual learning theory and methods, unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W2888329769",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "All-photonic spiking neuron for neuromorphic computing, not switching."
+  },
+  {
+    "record_key": "openalex:W4414871478",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Survey of OCR text recognition models, unrelated to optical switching."
+  },
+  {
+    "record_key": "openalex:W4387161253",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "ML modeling of directly-modulated lasers for links, not switching."
+  },
+  {
+    "record_key": "openalex:W3023940643",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "6G broadband connectivity white paper, unrelated to optical switching."
+  }
+]

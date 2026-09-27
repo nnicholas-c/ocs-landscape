@@ -1,0 +1,202 @@
+[
+  {
+    "record_key": "openalex:W3120228857",
+    "source": "arxiv_via_openalex",
+    "title": "Non‐Volatile Reconfigurable Integrated Photonics Enabled by Broadband Low‐Loss Phase Change Material",
+    "year": 2021,
+    "venue": "Advanced Optical Materials",
+    "abstract": "Abstract Phase change materials (PCMs) have long been used as a storage medium in rewritable compact disk and later in random access memory. In recent years, integration of PCMs with nanophotonic structures has introduced a new paradigm for non‐volatile reconfigurable optics. However, the high loss of the archetypal PCM Ge 2 Sb 2 Te 5 in both visible and telecommunication wavelengths has fundamentally limited its applications. Sb 2 S 3 has recently emerged as a wide‐bandgap PCM with transparency windows ranging from 610 nm to near‐IR. In this paper, the strong optical phase modulation and low optical loss of Sb 2 S 3 are experimentally demonstrated for the first time in integrated photonic platforms at both 750 and 1550 nm."
+  },
+  {
+    "record_key": "openalex:W4210603346",
+    "source": "arxiv_via_openalex",
+    "title": "Hydrodynamic manipulation of nano-objects by optically induced thermo-osmotic flows",
+    "year": 2022,
+    "venue": "Nature Communications",
+    "abstract": "Manipulation of nano-objects at the microscale is of great technological importance for constructing new functional materials, manipulating tiny amounts of fluids, reconfiguring sensor systems, or detecting tiny concentrations of analytes in medical screening. Here, we show that hydrodynamic boundary flows enable the trapping and manipulation of nano-objects near surfaces. We trigger thermo-osmotic flows by modulating the van der Waals and double layer interactions at a gold-liquid interface with optically generated local temperature fields. The hydrodynamic flows, attractive van der Waals and repulsive double layer forces acting on the suspended nanoparticles enable precise nanoparticle positioning and guidance. A rapid multiplexing of flow fields permits the parallel manipulation of many nano-objects and the generation of complex flow fields. Our findings have direct"
+  },
+  {
+    "record_key": "openalex:W4389543308",
+    "source": "arxiv_via_openalex",
+    "title": "Thermo-Optic Response and Optical Bistablility of Integrated High-Index Doped Silica Ring Resonators",
+    "year": 2023,
+    "venue": "Sensors",
+    "abstract": "The engineering of thermo-optic effects has found broad applications in integrated photonic devices, facilitating efficient light manipulation to achieve various functionalities. Here, we perform both an experimental characterization and a theoretical analysis of these effects in integrated microring resonators made from high-index doped silica, which have had many applications in integrated photonics and nonlinear optics. By fitting the experimental results with theory, we obtain fundamental parameters that characterize their thermo-optic performance, including the thermo-optic coefficient, the efficiency of the optically induced thermo-optic process, and the thermal conductivity. The characteristics of these parameters are compared to those of other materials commonly used for integrated photonic platforms, such as silicon, silicon nitride, and silica. These results offer a comprehensive insight into the"
+  },
+  {
+    "record_key": "openalex:W4221166638",
+    "source": "arxiv_via_openalex",
+    "title": "Ultra-high-linearity integrated lithium niobate electro-optic modulators",
+    "year": 2022,
+    "venue": "Photonics Research",
+    "abstract": "Integrated lithium niobate (LN) photonics is a promising platform for future chip-scale microwave photonics systems owing to its unique electro-optic properties, low optical loss, and excellent scalability. A key enabler for such systems is a highly linear electro-optic modulator that could faithfully convert analog electrical signals into optical signals. In this work, we demonstrate a monolithic integrated LN modulator with an ultra-high spurious-free dynamic range (SFDR) of 120.04 dB · Hz 4 / 5 at 1 GHz, using a ring-assisted Mach–Zehnder interferometer configuration. The excellent synergy between the intrinsically linear electro-optic response of LN and an optimized linearization strategy allows us to fully suppress the cubic terms of third-order intermodulation distortions (IMD3) without active feedback controls, leading to ∼ 20"
+  },
+  {
+    "record_key": "openalex:W3030859832",
+    "source": "arxiv_via_openalex",
+    "title": "Thermo-Optic Properties of Silicon-Rich Silicon Nitride for On-chip Applications",
+    "year": 2020,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "We demonstrate the thermo-optic properties of silicon-rich silicon nitride (SRN) films deposited using plasma-enhanced chemical vapor deposition (PECVD). Shifts in the spectral response of Mach-Zehnder Interferometers (MZIs) as a function of temperature were used to characterize the thermo-optic coefficients of silicon nitride films with varying silicon contents. A clear relation is demonstrated between the silicon content and the exhibited thermo-optic coefficient in silicon nitride films, with the highest achievable coefficient being as high as (1.65+/-0.08) x 10-4 K-1. Furthermore, we realize an SRN Multi-Mode Interferometer (MMI) based thermo-optic switch with over 20 dB extinction ratio and total power consumption for two-port switching of 50 mW."
+  },
+  {
+    "record_key": "openalex:W4234856688",
+    "source": "arxiv_via_openalex",
+    "title": "Advanced LIGO",
+    "year": 2015,
+    "venue": "Classical and Quantum Gravity",
+    "abstract": "The Advanced LIGO gravitational wave detectors are second-generation instruments designed and built for the two LIGO observatories in Hanford, WA and Livingston, LA, USA. The two instruments are identical in design, and are specialized versions of a Michelson interferometer with 4 km long arms. As in Initial LIGO, Fabry–Perot cavities are used in the arms to increase the interaction time with a gravitational wave, and power recycling is used to increase the effective laser power. Signal recycling has been added in Advanced LIGO to improve the frequency response. In the most sensitive frequency region around 100 Hz, the design strain sensitivity is a factor of 10 better than Initial LIGO. In addition, the low frequency end of the sensitivity band"
+  },
+  {
+    "record_key": "openalex:W3122552036",
+    "source": "arxiv_via_openalex",
+    "title": "Towards low loss non-volatile phase change materials in mid index waveguides",
+    "year": 2021,
+    "venue": "Neuromorphic Computing and Engineering",
+    "abstract": "Abstract Photonic integrated circuits currently use platform intrinsic thermo-optic and electro-optic effects to implement dynamic functions such as switching, modulation and other processing. Currently, there is a drive to implement field programmable photonic circuits, a need which is only magnified by new neuromorphic and quantum computing applications. The most promising non-volatile photonic components employ phase change materials such as GST and GSST, which had their origin in electronic memory. However, in the optical domain, these compounds introduce significant losses potentially preventing a large number of applications. Here, we evaluate the use of two newly introduced low loss phase change materials, Sb2S3 and Sb2Se3, on a silicon nitride photonic platform for future implementation in neuromorphic computing. We focus the study on"
+  },
+  {
+    "record_key": "openalex:W2910306093",
+    "source": "arxiv_via_openalex",
+    "title": "Photoconductive heaters enable control of large-scale silicon photonic ring resonator circuits",
+    "year": 2019,
+    "venue": "Optica",
+    "abstract": "A multitude of large-scale silicon photonic systems based on ring resonators have been envisioned for applications ranging from biomedical sensing to quantum computing and machine learning. Yet, due to the lack of a scalable solution for controlling ring resonators, practical demonstrations have been limited to systems with only a few rings. Here, we demonstrate that large systems can be controlled by using only doped waveguide elements inside their ringswhile preserving their area and cost. We measure the large photoconductive changes of the waveguides for monitoring the rings' resonance conditions across high-dynamic ranges and leverage their thermo-optic effects for tuning. This allows us to control ring resonators without requiring additional components, complex tuning algorithms, or additional electrical I/Os. We demonstrate automatic"
+  },
+  {
+    "record_key": "openalex:W2217470677",
+    "source": "arxiv_via_openalex",
+    "title": "High-performance and power-efficient 2×2 optical switch on Silicon-on-Insulator",
+    "year": 2015,
+    "venue": "Optics Express",
+    "abstract": "A compact (15µm × 15µm) and highly-optimized 2×2 optical switch is demonstrated on a CMOS-compatible photonic crystal technology. On-chip insertion loss are below 1 dB, static and dynamic contrast are 40 dB and >20 dB respectively. Owing to efficient thermo-optic design, the power consumption is below 3 mW while the switching time is 1 µs."
+  },
+  {
+    "record_key": "openalex:W2523789667",
+    "source": "arxiv_via_openalex",
+    "title": "Acousto-Optic Modulation and Optoacoustic Gating in Piezo-Optomechanical Circuits",
+    "year": 2017,
+    "venue": "Physical Review Applied",
+    "abstract": "Acoustic wave devices provide a promising chip-scale platform for efficiently coupling radio frequency (RF) and optical fields. Here, we use an integrated piezo-optomechanical circuit platform that exploits both the piezoelectric and photoelastic coupling mechanisms to link 2.4 GHz RF waves to 194 THz (1550 nm) optical waves, through coupling to propagating and localized 2.4 GHz acoustic waves. We demonstrate acousto-optic modulation, resonant in both the optical and mechanical domains, in which waveforms encoded on the RF carrier are mapped to the optical field. We also show opto-acoustic gating, in which the application of modulated optical pulses interferometrically gates the transmission of propagating acoustic pulses. The time-domain characteristics of this system under both pulsed RF and pulsed optical excitation are considered"
+  },
+  {
+    "record_key": "openalex:W1992393894",
+    "source": "arxiv_via_openalex",
+    "title": "All optical reconfiguration of optomechanical filters",
+    "year": 2012,
+    "venue": "Nature Communications",
+    "abstract": "Reconfigurable optical filters are of great importance for applications in optical communication and information processing. Of particular interest are tuning techniques that take advantage of mechanical deformation of the devices, as they offer wider tuning range. Here we demonstrate reconfiguration of coupled photonic crystal nanobeam cavities by using optical gradient force induced mechanical actuation. Propagating waveguide modes that exist over a wide wavelength range are used to actuate the structures and control the resonance of localized cavity modes. Using this all-optical approach, more than 18 linewidths of tuning range is demonstrated. Using an on-chip temperature self-referencing method, we determine that 20% of the total tuning was due to optomechanical reconfiguration and the rest due to thermo-optic effects. By operating the"
+  },
+  {
+    "record_key": "openalex:W3117873041",
+    "source": "arxiv_via_openalex",
+    "title": "Thermo-optically induced transparency on a photonic chip",
+    "year": 2021,
+    "venue": "Light Science & Applications",
+    "abstract": "Controlling the optical response of a medium through suitably tuned coherent electromagnetic fields is highly relevant in a number of potential applications, from all-optical modulators to optical storage devices. In particular, electromagnetically induced transparency (EIT) is an established phenomenon in which destructive quantum interference creates a transparency window over a narrow spectral range around an absorption line, which, in turn, allows to slow and ultimately stop light due to the anomalous refractive index dispersion. Here we report on the observation of a new form of both induced transparency and amplification of a weak probe beam in a strongly driven silicon photonic crystal resonator at room temperature. The effect is based on the oscillating temperature field induced in a nonlinear optical"
+  },
+  {
+    "record_key": "openalex:W2829881810",
+    "source": "arxiv_via_openalex",
+    "title": "Switchable plasmonic routers controlled by external magnetic fields by using magneto-plasmonic waveguides",
+    "year": 2018,
+    "venue": "Scientific Reports",
+    "abstract": "We analytically and numerically investigate magneto-plasmons in metal films surrounded by a ferromagnetic dielectric. In such waveguide using a metal film with a thickness exceeding the Skin depth, an external magnetic field in the transverse direction can induce a significant spatial asymmetry of mode distribution. Superposition of the odd and the even asymmetric modes over a distance leads to a concentration of the energy on one interface which is switched to the other interface by the magnetic field reversal. The requested magnitude of magnetization is exponentially reduced with the increase of the metal film thickness. Based on this phenomenon, we propose a waveguide-integrated magnetically controlled switchable plasmonic routers with 99-%-high contrast within the optical bandwidth of tens of THz. This"
+  },
+  {
+    "record_key": "openalex:W4200233651",
+    "source": "arxiv_via_openalex",
+    "title": "High-speed programmable photonic circuits in a cryogenically compatible, visible–near-infrared 200 mm CMOS architecture",
+    "year": 2021,
+    "venue": "Nature Photonics",
+    "abstract": "Abstract Recent advances in photonic integrated circuits have enabled a new generation of programmable Mach–Zehnder meshes (MZMs) realized by using cascaded Mach–Zehnder interferometers capable of universal linear-optical transformations on N input/output optical modes. MZMs serve critical functions in photonic quantum information processing, quantum-enhanced sensor networks, machine learning and other applications. However, MZM implementations reported to date rely on thermo-optic phase shifters, which limit applications due to slow response times and high power consumption. Here we introduce a large-scale MZM platform made in a 200 mm complementary metal–oxide–semiconductor foundry, which uses aluminium nitride piezo-optomechanical actuators coupled to silicon nitride waveguides, enabling low-loss propagation with phase modulation at greater than 100 MHz in the visible–near-infrared wavelengths. Moreover, the vanishingly low hold-power consumption"
+  },
+  {
+    "record_key": "openalex:W255368191",
+    "source": "arxiv_via_openalex",
+    "title": "Electronic modulation of infrared radiation in graphene plasmonic resonators",
+    "year": 2015,
+    "venue": "Nature Communications",
+    "abstract": "All matter at finite temperatures emits electromagnetic radiation due to the thermally induced motion of particles and quasiparticles. Dynamic control of this radiation could enable the design of novel infrared sources; however, the spectral characteristics of the radiated power are dictated by the electromagnetic energy density and emissivity, which are ordinarily fixed properties of the material and temperature. Here we experimentally demonstrate tunable electronic control of blackbody emission from graphene plasmonic resonators on a silicon nitride substrate. It is shown that the graphene resonators produce antenna-coupled blackbody radiation, which manifests as narrow spectral emission peaks in the mid-infrared. By continuously varying the nanoresonator carrier density, the frequency and intensity of these spectral features can be modulated via an electrostatic gate."
+  },
+  {
+    "record_key": "openalex:W2949095646",
+    "source": "arxiv_via_openalex",
+    "title": "Surface acoustic waves for acousto-optic modulation in buried silicon nitride waveguides",
+    "year": 2019,
+    "venue": "Optics Express",
+    "abstract": "in a low-loss, balanced Mach-Zehnder modulator should allow full-contrast modulation in devices as short as 120 μm (half-wave voltage length product = 0.24 Vcm)."
+  },
+  {
+    "record_key": "openalex:W2903782749",
+    "source": "arxiv_via_openalex",
+    "title": "All-optical switching in dye-doped DNA nanofibers",
+    "year": 2018,
+    "venue": "Journal of Materials Chemistry C",
+    "abstract": "All-optical switches are introduced which are based on deoxyribonucleic acid (DNA) in the form of electrospun fibers, where DNA is semi-intercalated with a push-pull, luminescent nonlinear pyrazoline derivative. Optical birefringence is found in the organic nanofibers, with fully reversible switching controlled through continuous-wave laser irradiation. The photoinduced signal is remarkably large, with birefringence highlighted by optically-driven refractive index anisotropy approaching 0.001. Sub-millisecond characteristic switching times are found. Integrating dye-intercalated DNA complex systems in organic nanofibers, as a convenient and efficient approach to template molecular organization and control it by external stimuli, might open new routes for realizing optical logic gates, reconfigurable photonic networks and sensors through physically-transient biopolymer components."
+  },
+  {
+    "record_key": "openalex:W1998881035",
+    "source": "arxiv_via_openalex",
+    "title": "A compact plasmonic MOS-based 2x2 electro-optic switch",
+    "year": 2015,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "We report on a three-waveguide electro-optic switch for compact photonic integrated circuits and data routing applications. The device features a plasmonic metal-oxide-semiconductor (MOS) mode for enhanced light-matter-interactions. The switching mechanism originates from a capacitor-like design where the refractive index of the active medium, Indium-Tin-Oxide, is altered via shifting the plasma frequency due to carrier accumulation inside the waveguide-based MOS structure. This light manipulation mechanism controls the transmission direction of transverse magnetic polarized light into either a CROSS or BAR waveguide port. The extinction ratio of 18 dB (7) dB for the CROSS (BAR) state, respectively, is achieved via a gating voltage bias. The ultrafast broadband fJ/bit device allows for seamless integration with Siliconon- Insulator platforms to for low-cost manufacturing."
+  },
+  {
+    "record_key": "openalex:W2803462617",
+    "source": "arxiv_via_openalex",
+    "title": "Nanophotonic Pockels modulators on a silicon nitride platform",
+    "year": 2018,
+    "venue": "Nature Communications",
+    "abstract": "Abstract Silicon nitride (SiN) is emerging as a competitive platform for CMOS-compatible integrated photonics. However, active devices such as modulators are scarce and still lack in performance. Ideally, such a modulator should have a high bandwidth, good modulation efficiency, low loss, and cover a wide wavelength range. Here, we demonstrate the first electro-optic modulators based on ferroelectric lead zirconate titanate (PZT) films on SiN, in both the O-band and C-band. Bias-free operation, bandwidths beyond 33 GHz and data rates of 40 Gbps are shown, as well as low propagation losses ( α ≈ 1 dB cm −1 ). A half-wave voltage-length product of 3.2 V cm is measured. Simulations indicate that further improvement is possible. This approach offers a much-anticipated"
+  },
+  {
+    "record_key": "openalex:W4224980528",
+    "source": "arxiv_via_openalex",
+    "title": "Integrated Pockels laser",
+    "year": 2022,
+    "venue": "Nature Communications",
+    "abstract": "Abstract The development of integrated semiconductor lasers has miniaturized traditional bulky laser systems, enabling a wide range of photonic applications. A progression from pure III-V based lasers to III-V/external cavity structures has harnessed low-loss waveguides in different material systems, leading to significant improvements in laser coherence and stability. Despite these successes, however, key functions remain absent. In this work, we address a critical missing function by integrating the Pockels effect into a semiconductor laser. Using a hybrid integrated III-V/Lithium Niobate structure, we demonstrate several essential capabilities that have not existed in previous integrated lasers. These include a record-high frequency modulation speed of 2 exahertz/s (2.0 × 10 18 Hz/s) and fast switching at 50 MHz, both of which are made"
+  },
+  {
+    "record_key": "openalex:W2522767679",
+    "source": "arxiv_via_openalex",
+    "title": "Nonlinear dynamics and chaos in an optomechanical beam",
+    "year": 2017,
+    "venue": "Nature Communications",
+    "abstract": "Optical nonlinearities, such as thermo-optic mechanisms and free-carrier dispersion, are often considered unwelcome effects in silicon-based resonators and, more specifically, optomechanical cavities, since they affect, for instance, the relative detuning between an optical resonance and the excitation laser. Here, we exploit these nonlinearities and their intercoupling with the mechanical degrees of freedom of a silicon optomechanical nanobeam to unveil a rich set of fundamentally different complex dynamics. By smoothly changing the parameters of the excitation laser we demonstrate accurate control to activate two- and four-dimensional limit cycles, a period-doubling route and a six-dimensional chaos. In addition, by scanning the laser parameters in opposite senses we demonstrate bistability and hysteresis between two- and four-dimensional limit cycles, between different coherent mechanical states"
+  },
+  {
+    "record_key": "openalex:W2102731194",
+    "source": "arxiv_via_openalex",
+    "title": "Topological Nature of Optical Bound States in the Continuum",
+    "year": 2014,
+    "venue": "Physical Review Letters",
+    "abstract": "Optical bound states in the continuum (BICs) have recently been realized in photonic crystal slabs, where the disappearance of out-of-plane radiation turns leaky resonances into guided modes with infinite lifetimes. We show that such BICs are vortex centers in the polarization directions of far-field radiation. They carry conserved and quantized topological charges, defined by the winding number of the polarization vectors, which ensure their robust existence and govern their generation, evolution, and annihilation. Our findings connect robust BICs in photonics to a wide range of topological physical phenomena."
+  },
+  {
+    "record_key": "openalex:W2972380308",
+    "source": "arxiv_via_openalex",
+    "title": "20 years of developments in optical frequency comb technology and applications",
+    "year": 2019,
+    "venue": "Communications Physics",
+    "abstract": "Abstract Optical frequency combs were developed nearly two decades ago to support the world’s most precise atomic clocks. Acting as precision optical synthesizers, frequency combs enable the precise transfer of phase and frequency information from a high-stability reference to hundreds of thousands of tones in the optical domain. This versatility, coupled with near-continuous spectroscopic coverage from microwave frequencies to the extreme ultra-violet, has enabled precision measurement capabilities in both fundamental and applied contexts. This review takes a tutorial approach to illustrate how 20 years of source development and technology has facilitated the journey of optical frequency combs from the lab into the field."
+  },
+  {
+    "record_key": "openalex:W2062210826",
+    "source": "arxiv_via_openalex",
+    "title": "Electromagnetic multipole theory for optical nanomaterials",
+    "year": 2012,
+    "venue": "New Journal of Physics",
+    "abstract": "Optical properties of natural or designed materials are determined by the electromagnetic multipole moments that light can excite in the constituent particles. In this paper, we present an approach to calculating the multipole excitations in arbitrary arrays of nanoscatterers in a dielectric host medium. We introduce a simple and illustrative multipole decomposition of the electric currents excited in the scatterers and connect this decomposition to the classical multipole expansion of the scattered field. In particular, we find that completely different multipoles can produce identical scattered fields. The presented multipole theory can be used as a basis for the design and characterization of optical nanomaterials."
+  },
+  {
+    "record_key": "openalex:W2953386322",
+    "source": "arxiv_via_openalex",
+    "title": "Nonlocal optical response in metallic nanostructures",
+    "year": 2015,
+    "venue": "Journal of Physics Condensed Matter",
+    "abstract": "This review provides a broad overview of the studies and effects of nonlocal response in metallic nanostructures. In particular, we thoroughly present the nonlocal hydrodynamic model and the recently introduced generalized nonlocal optical response (GNOR) model. The influence of nonlocal response on plasmonic excitations is studied in key metallic geometries, such as spheres and dimers, and we derive new consequences due to the GNOR model. Finally, we propose several trajectories for future work on nonlocal response, including experimental setups that may unveil further effects of nonlocal response."
+  }
+]

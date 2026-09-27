@@ -283,5 +283,24 @@
       "confidence": "high"
     },
     "match": "primary"
+  },
+  {
+    "paper_id": "W7171539399",
+    "title": "Quantum-Level Crosstalk Characterization of a 16x16 MEMS Optical Switch for Dynamic Quantum Communications",
+    "year": 2026,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "We present an all-to-all quantum-level crosstalk characterization of a commercial 16x16 MEMS optical switch for multi-user quantum communications using SNSPDs, correlating experimental data with a theoretical impact analysis on the decoy-state BB84 QKD protocol.",
+    "cited_by_count": 0,
+    "tags": {
+      "tech_route": "mems_3d",
+      "tech_route_secondary": null,
+      "integration": "free_space_bulk",
+      "trl_band": "lab",
+      "ai_dc_fit": "none",
+      "adjacent_field": null,
+      "evidence_span": "We present an all-to-all quantum-level crosstalk characterization of a commercial 16x16 MEMS optical switch for multi-user quantum communications using SNSPDs, correlating experimental data with a theoretical impact analysis on the decoy-state BB84 QKD protocol.",
+      "confidence": "medium"
+    },
+    "match": "primary"
   }
 ]

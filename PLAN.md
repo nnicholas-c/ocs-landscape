@@ -116,7 +116,7 @@ Done when. Every tech route in the taxonomy has a row for every dimension, even 
 
 Runs. auditor.
 
-Reads. Everything produced so far. The auditor writes pipeline/audit.py and only that script plus the report.
+Reads. Everything produced so far. The auditor writes pipeline/audit.py and only that script plus the report. Run it as `.venv/bin/python -m pipeline.audit --seed <new seed>` (add `--round 2` for a second round and `--merge` after the judgments are written). Every audit uses a new seed, and the script refuses to overwrite an earlier audit's files.
 
 Checks.
 (a) Pick 20 random core papers, re-fetch each from its source API, and compare title, year, cited_by_count, and the first author's first institution against the database.

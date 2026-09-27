@@ -1,0 +1,152 @@
+[
+  {
+    "record_key": "openalex:W3113087954",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "About dataflow accelerators for DNN workloads, no optical switching."
+  },
+  {
+    "record_key": "openalex:W2963809841",
+    "score": 1,
+    "adjacent_field": "dc_network_systems",
+    "reason": "Reconfigurable demand-aware datacenter network design, no explicit optical switch mention."
+  },
+  {
+    "record_key": "openalex:W3095182478",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Routing algorithms for fixed low-diameter topologies, not optical circuit switching."
+  },
+  {
+    "record_key": "openalex:W2920338184",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Visual object tracking with Siamese networks, unrelated to optical switching."
+  },
+  {
+    "record_key": "openalex:W2797033345",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Deep learning for fiber-optic transceivers, not switching."
+  },
+  {
+    "record_key": "openalex:W2761550419",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Photonic reservoir computing for signal recovery, not switching."
+  },
+  {
+    "record_key": "openalex:W2995897104",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Quantum interconnects across physical media, unrelated to optical circuit switching."
+  },
+  {
+    "record_key": "openalex:W3196262621",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Optical computing for machine learning tasks, not a switch."
+  },
+  {
+    "record_key": "openalex:W3004736936",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Photonic tensor core for ML acceleration, not switching."
+  },
+  {
+    "record_key": "openalex:W2889149492",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Quantum optical neural networks, unrelated to circuit switching."
+  },
+  {
+    "record_key": "openalex:W2989670361",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Diffractive optical neural network for object recognition, not switching."
+  },
+  {
+    "record_key": "openalex:W4362679072",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Machine learning for electron microscopy experiments, unrelated."
+  },
+  {
+    "record_key": "openalex:W3208839263",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Fast machine learning for science applications, unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W3045894692",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Meta-optics for analog computing, not switching fabric."
+  },
+  {
+    "record_key": "openalex:W4294579005",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Diffractive network performs optical permutation for computing, not circuit switching."
+  },
+  {
+    "record_key": "openalex:W2917927137",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Deep learning for electromagnetic nanostructure design, unrelated."
+  },
+  {
+    "record_key": "openalex:W4280588222",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Programmable packet-network devices for in-network ML, not optical circuit switch."
+  },
+  {
+    "record_key": "openalex:W3119622074",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Silicon photonics survey for deep learning accelerators, not switch fabrics."
+  },
+  {
+    "record_key": "openalex:W3021735486",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "6G machine-type communication white paper, unrelated to optical switching."
+  },
+  {
+    "record_key": "openalex:W3044091938",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Phase-change metasurface photonic computing core, not a switch."
+  },
+  {
+    "record_key": "openalex:W2999007819",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Quantum memory optimization, unrelated to optical circuit switching."
+  },
+  {
+    "record_key": "openalex:W4221138189",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "High-speed camera and machine vision sensor, unrelated."
+  },
+  {
+    "record_key": "openalex:W2977600537",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Astrophysics deep learning discovery paper, unrelated; abstract empty."
+  },
+  {
+    "record_key": "openalex:W2773804515",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Manycore system design with machine learning, unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W3135342751",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Quantum machine learning for electronic structure calculations, unrelated."
+  }
+]

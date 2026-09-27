@@ -1,0 +1,152 @@
+[
+  {
+    "record_key": "openalex:W2114993470",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Single-atom nanophotonic phase switch, quantum optics device, not an optical circuit switch"
+  },
+  {
+    "record_key": "openalex:W2138422822",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Polariton condensate transistor switch, exciton-polariton physics, unrelated to circuit switching"
+  },
+  {
+    "record_key": "openalex:W2076099374",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "All-optical transistor gated by single photon, quantum optics device, not OCS"
+  },
+  {
+    "record_key": "openalex:W2901559764",
+    "score": 2,
+    "adjacent_field": "silicon_photonics",
+    "reason": "Nonvolatile phase-change directional coupler switch for reconfigurable photonic integrated circuits"
+  },
+  {
+    "record_key": "openalex:W2216447290",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "All-optical polariton transistor using exciton-polaritons, unrelated to circuit switching"
+  },
+  {
+    "record_key": "openalex:W3037905030",
+    "score": 2,
+    "adjacent_field": "silicon_photonics",
+    "reason": "Nonvolatile electrically reconfigurable integrated photonic switch using silicon PIN diode heater"
+  },
+  {
+    "record_key": "openalex:W4406960606",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "SDN controller evaluation for open optical-circuit-switched networks already installed in field"
+  },
+  {
+    "record_key": "openalex:W2949939478",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Studies optimal degree of optical circuit switching versus packet switching in IP-over-WDM networks"
+  },
+  {
+    "record_key": "openalex:W2006436281",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Phonon waveguides for electromechanical circuits, unrelated to optical switching"
+  },
+  {
+    "record_key": "openalex:W2966094910",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Reciprocal skin effect in topolectrical (electronic) circuit, unrelated to optical switching"
+  },
+  {
+    "record_key": "openalex:W2801152785",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Single-photon switch and transistor via solid-state quantum memory, quantum optics not OCS"
+  },
+  {
+    "record_key": "openalex:W2983510028",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Integrated turnkey soliton microcombs, frequency comb generation, not a circuit switch"
+  },
+  {
+    "record_key": "openalex:W4407244986",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Proposes optical circuit switching transceivers for datacenter-scale LLM training interconnect"
+  },
+  {
+    "record_key": "openalex:W2999027813",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Review of tunable nanophotonics via phase-change materials for imaging and sensing, not switching"
+  },
+  {
+    "record_key": "openalex:W4391013534",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Demonstrates fast SDN control plane for large-scale optical circuit switch system"
+  },
+  {
+    "record_key": "openalex:W1975647260",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Nanobattery effect in redox-based resistive memory switches, electronic not optical"
+  },
+  {
+    "record_key": "openalex:W2891657045",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Lithium niobate photonic circuit for Kerr frequency comb generation, not switching"
+  },
+  {
+    "record_key": "openalex:W2606456423",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Ten-qubit entanglement in superconducting circuit, quantum computing unrelated to OCS"
+  },
+  {
+    "record_key": "openalex:W3157964186",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Single-molecule optical switching via Rabi splitting, quantum nonlinear optics not OCS"
+  },
+  {
+    "record_key": "openalex:W2252668610",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Quantum phase switch between solid-state spin and photon, quantum information not OCS"
+  },
+  {
+    "record_key": "openalex:W2509767011",
+    "score": 2,
+    "adjacent_field": "silicon_photonics",
+    "reason": "Demonstrates reconfigurable 7x7 silicon photonic switch for space-division multiplexing networks"
+  },
+  {
+    "record_key": "openalex:W2152919104",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Integrated coherent matter wave circuits using ultracold atoms, unrelated to optical switching"
+  },
+  {
+    "record_key": "openalex:W2762061373",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Heterogeneous integration for on-chip quantum photonic circuits with quantum dots, not OCS"
+  },
+  {
+    "record_key": "openalex:W2039211361",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Graphene field-effect tunneling transistor, electronic device unrelated to optical switching"
+  },
+  {
+    "record_key": "openalex:W2611050590",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Two-level systems in amorphous solids via quantum circuits, unrelated to OCS"
+  }
+]

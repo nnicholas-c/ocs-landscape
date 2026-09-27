@@ -19,7 +19,7 @@ communities on the author graph, and writes:
     graphs/clusters.csv
 
 Safe to run twice: every output is fully rewritten each run from the
-database; nothing is appended to except deliverables/pitfalls.md.
+database; nothing is appended to except deliverables/pitfalls_original_log.md.
 
 Exact SQL used to count core/extended papers per author. This is what
 build_author_records() computes in Python from the same three tables; the
@@ -35,11 +35,13 @@ it directly for any author_id to check a top_pis.csv row:
     GROUP BY pa.author_id
 
 Sanity check (first, middle, last row of the sorted top_pis.csv,
-reproduced by the query above against the actual database, 2026-09-26 run):
+reproduced by the query above against the actual database, run 2, 2026-09-26,
+after the arxiv_via_openalex merge raised extended_set to 420 papers and
+top_pis.csv to 1827 rows):
 
-    author_id=A5100669891 'Ming C. Wu'        -> core=24 extended=27  (row: core=24 extended=27)
-    author_id=A5109886498 'Jinzhong Yu'       -> core=1  extended=1   (row: core=1  extended=1)
-    author_id=A5110102724 'Jonathan Turner'   -> core=0  extended=1   (row: core=0  extended=1)
+    author_id=A5100669891 'Ming C. Wu'         -> core=24 extended=27  (row: core=24 extended=27)
+    author_id=A5080197427 'Fengyuan Ren'       -> core=1  extended=1   (row: core=1  extended=1)
+    author_id=A5110102724 'Jonathan Turner'    -> core=0  extended=1   (row: core=0  extended=1)
 
 All three match. sanity_check() below repeats this on every run and raises
 AssertionError on a mismatch.
@@ -56,7 +58,7 @@ import networkx as nx
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DB_PATH = REPO_ROOT / "data" / "db" / "papers.sqlite"
 GRAPHS_DIR = REPO_ROOT / "graphs"
-PITFALLS_PATH = REPO_ROOT / "deliverables" / "pitfalls.md"
+PITFALLS_PATH = REPO_ROOT / "deliverables" / "pitfalls_original_log.md"
 
 PAPER_COUNT_SQL = """
     SELECT pa.author_id,

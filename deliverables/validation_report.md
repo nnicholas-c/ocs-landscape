@@ -11,8 +11,10 @@ means only the arXiv rebuild in ocs-landscape-run2.
 
 This report is produced by pipeline/audit.py. It runs the four checks in
 PLAN.md stage 7 against a fixed random seed recorded in the script and
-here so the sample can be reproduced. Run 1 used SEED = 20260926 and
-Run 2 uses SEED = 20260927, which is the value the script now holds. The script is
+here so the sample can be reproduced. Round 1 and round 2 (padded) used
+SEED = 20260926, round 3 (after the fix) used SEED = 20260927, and the
+run 2 audit used SEED = 20260928. pipeline/audit.py now takes the seed as
+`--seed`. The script is
 read only. It does not edit the database, the matrix, the tags table, or
 projects.csv.
 
@@ -505,3 +507,660 @@ value_in_quote import. academic_groups and companies, the two dimensions
 with a code-level correctness check instead of a judgment call, had 0
 mismatches across all 18 cells, so the counts and names in those columns
 are the most solidly checked part of the matrix this round.
+
+---
+
+## Run 2 audit (arXiv via OpenAlex data, seed 20260928)
+
+This section audits run 2, the arXiv rebuild in this checkout (arXiv content
+collected through OpenAlex's arXiv index, not the earlier rounds above,
+which are run 1's audits under the old naming; see the naming note at the
+top of this report). Everything above this heading is unchanged from when
+it was first written. This run's core set has 284 papers (was 267 in run
+1), 420 tags rows (was 376), and a comparison matrix rebuilt from scratch by
+stage 6 on this run's database (126 rows: 84 reported, 9 derived, 29
+not_reported_in_abstract, 4 no_source).
+
+This run uses a new seed, SEED = 20260928, kept in pipeline/audit.py as a
+comment alongside the two earlier seeds (20260926 for round 1 and round 2
+padded, 20260927 for round 3). This run's audit files carry the
+audit_r2data_ prefix instead of audit_run2_ or audit_round1/2, so none of
+the earlier rounds' data/work/audit_* files were read for input or
+overwritten: prejudge output is at data/work/audit_r2data_prejudge.json,
+the judge input and judgments behind the category and free-text cells
+below are at data/work/audit_r2data_judge_input.json and
+data/work/audit_r2data_judgments.json, and the final merged result is at
+data/work/audit_r2data_round1.json.
+
+pipeline/audit.py was also changed in two ways for this run, both requested
+by the task rather than found as bugs. First, check (a) no longer uses the
+arxiv package or calls export.arxiv.org at all, since that host refuses
+this project's host with HTTP 406 (the same failure rounds 1 through 3
+worked around with an HTML fallback after the arxiv package call failed;
+this run skips the arxiv-package call entirely). OpenAlex-ID'd papers are
+still re-fetched from OpenAlex by ID. Papers with no OpenAlex ID are looked
+up in OpenAlex first, by the free singleton lookup on the DOI OpenAlex
+assigns its own arXiv index entries (10.48550/arxiv.<id>); only if that
+also fails is https://arxiv.org/abs/<id> fetched directly with one plain
+GET, as before. Second, check (b)'s academic_groups and companies code
+check no longer imports academic_groups() and companies() from
+pipeline.matrix_build, the module that built the comparison matrix.
+Reusing the builder's own functions only shows that the matrix is
+reproducible, not that it is correct, so this run's audit.py recomputes
+both cells independently: its own SQL query against data/db/papers.sqlite
+for academic_groups, and its own read of data/projects.csv for companies,
+then diffs the result against comparison_matrix.csv.
+
+### Rate comparison, all rounds and this run
+
+| Check | Threshold | Round 1 | Round 2 (padded) | Round 3 (after the fix) | Run 2 audit |
+|---|---|---|---|---|---|
+| (a) core paper re-fetch, mismatch rate | at most 10 percent | 0 percent (16 of 20 usable, 4 dropped) PASS | 0 percent (16 of 20 usable, 4 dropped) PASS | 0 percent (20 of 20 usable, 0 dropped) PASS | 0 percent (20 of 20 usable, 0 dropped) PASS |
+| (b) matrix cell evidence, unsupported rate (20-cell Gate C sample) | at most 10 percent | 25 percent (5 of 20) FAIL | 0 percent (20 of 20) PASS, but see round 3's note, not trustworthy | 5 percent (1 of 20) PASS | 15 percent (3 of 20) FAIL |
+| (c) project evidence URL, fail rate | at most 20 percent | 0 percent (10 of 10) PASS | 0 percent (10 of 10) PASS | 0 percent (10 of 10) PASS | 0 percent (10 of 10) PASS |
+| (d) evidence span substring, pass rate | at least 90 percent | 100 percent (376 of 376) PASS | 100 percent (376 of 376) PASS | 100 percent (376 of 376) PASS | 100 percent (420 of 420) PASS |
+
+Round 1, round 2 padded, and round 3 audited a different database and a
+different comparison matrix (run 1's, before the arXiv-via-OpenAlex
+rebuild), so their row counts differ from this run's; the rates are
+comparable, the sample contents are not the same papers or cells.
+
+### Gate C summary
+
+| Check | Sample | Pass | Fail | Rate | Threshold | Gate C |
+|---|---|---|---|---|---|---|
+| (a) core paper re-fetch | 20 drawn, 20 compared, 0 dropped | 20 | 0 | 0 percent | at most 10 percent mismatches | PASS |
+| (b) matrix cell evidence | 20 | 17 | 3 | 15 percent | at most 10 percent unsupported | FAIL |
+| (c) project evidence URL | 10 | 10 | 0 | 0 percent | at most 20 percent failures | PASS |
+| (d) evidence span substring | 420 (all tags rows) | 420 | 0 | 100 percent pass | at least 90 percent | PASS |
+
+Three of four checks pass. Check (b) fails, at 1.5 times its threshold. Per
+PLAN.md Gate C, a failing check sends the run back to the stage that
+produced the data (stage 6, the analyst, for check (b)) once with the
+failing list below, then stage 7 runs again; a second failure on check (b)
+stops the run. This report states the raw numbers un-softened, per the
+auditor's rules; whether and how to act on the FAIL is the orchestrator's
+call, not this script's.
+
+### Check (a). Re-fetch 20 random core papers
+
+Method. 20 of the 284 core_set=1 papers were drawn with random.Random(SEED),
+SEED = 20260928. 17 of 20 have an openalex_id and were re-fetched by ID
+with `Works()[openalex_id]`. The other 3 are arXiv-only in this database
+(arxiv:2202.05487, arxiv:2510.03891, arxiv:2602.12521) and were looked up
+by the free OpenAlex singleton DOI lookup on 10.48550/arxiv.<id>; all 3
+succeeded this way, so the arxiv.org/abs HTML fallback was never needed for
+this sample. Title (normalized), year, cited_by_count (match if within 10
+percent), and the first author's first institution (when the source states
+one) were compared against the stored row. Any one of these four differing
+counts as a mismatch. No call was made to export.arxiv.org or to any other
+arXiv API.
+
+Result. 20 drawn, 20 compared, 0 dropped. 20 of 20 pass (17 by method
+"openalex_id", 3 by method "openalex_doi_singleton"), 0 fail. Mismatch rate
+is 0 percent, well under the 10 percent gate.
+
+Observation, not a mismatch. All 3 arXiv-only papers found by the DOI
+singleton lookup came back with cited_by_count = 0 from OpenAlex, while
+their stored row has cited_by_count = null (this database's convention for
+an arXiv-only record with no OpenAlex match). Both are treated as "the
+source has no citation count to compare," so this is not counted as a
+mismatch, per the same rule used when either side is null. It does mean
+OpenAlex's own arXiv index now has an entry for all 3 of these papers,
+which stage 1's collection or stage 2's curation did not match to an
+openalex_id when the run was built. All 3 are recent preprints (2025 and
+2026), so this looks like OpenAlex's arXiv index catching up after
+collection ran, not a curation bug; a future re-collection or re-curation
+pass could pick up these 3 openalex_ids (and possibly others) if it is
+worth doing.
+
+### Check (b). Matrix cells, by dimension
+
+Method. Of the 126 comparison_matrix.csv rows, 84 carry status=reported and
+9 carry status=derived (93 total). Every reported or derived cell gets the
+same ID and quote mechanical check: every cited paper_id must exist in the
+database, every cited project_rows number must exist in projects.csv, and
+every quote in evidence_quote (quotes for several sources are joined by
+" || ") must be a verbatim substring of a cited paper's abstract or a cited
+project row's evidence_quote.
+
+Measured cells (switching_time, insertion_loss, port_count,
+polarization_dependent_loss, crosstalk, wavelength_range, cost_per_port,
+36 reported cells) get one more automatic check: every number in value, and
+for wavelength_range every band name such as "C band" or "C+L band", must
+appear in at least one of the cell's quotes. 35 of 36 passed both checks.
+thermo_optic:wavelength_range failed. Its value states "C band to C+L
+band", but the quotes only ever say "C+L-band" (once, hyphenated) and
+never state "C band" on its own. This cell was not drawn into the 20-cell
+Gate C sample, so it does not count in the Gate C rate above, but it is a
+real mechanical fail and is listed under "other observations" below.
+
+academic_groups (9 cells, always derived) and companies (9 cells, 5
+reported and 4 no_source) are checked entirely by code, recomputed
+independently in pipeline/audit.py (its own SQL against
+data/db/papers.sqlite and its own read of data/projects.csv, no
+pipeline.matrix_build import, see above). 18 of 18 recomputed cells matched
+exactly (value, status, and cited paper_ids or project_rows all agree), so
+no judgment call was needed for either dimension.
+
+Category cells (integration, trl_band, ai_cluster_fit, 27 reported) and
+free-text cells (packaging_notes, scaling_limit, 16 reported) that pass the
+ID/quote mechanical check still need a human or LLM read, because that
+check cannot tell a paraphrase, or a claim from the wrong sentence of the
+right abstract, from real support. pipeline/audit.py writes every such
+candidate cell that lands in the 20-cell Gate C sample or the category
+census (31 cells total: the 4 free-text cells drawn into the sample, plus
+all 27 reported category cells) to data/work/audit_r2data_judge_input.json,
+with the cell's value, its quote or quotes, and the label's definition
+condensed from the ocs-domain and comparison-framework skills. The auditor
+read all 31 candidate cells against those definitions and wrote one
+supported or not_supported verdict with a one-line reason per cell to
+data/work/audit_r2data_judgments.json. `.venv/bin/python -m pipeline.audit
+--merge` then folded the verdicts back into the Gate C sample and the
+category census below.
+
+Result, Gate C sample (20 cells). 17 of 20 pass, 3 of 20 fail. Fail rate is
+15 percent, over the 10 percent gate. Gate C FAILS on check (b) this round.
+
+Failing cells (Gate C sample).
+
+- thermo_optic:packaging_notes (paper W2327284773, one clause of a
+  four-clause value). The value's clause "feedback control" is true of the
+  paper (its abstract says "feedback controlled stabilization of the
+  individual switching elements"), but the quote actually cited for this
+  clause is only "making the switch fabric robust against thermal
+  crosstalk, even in the absence of a cooling system for the silicon
+  chip", the words immediately after "feedback controlled stabilization"
+  in the source sentence, not that phrase itself. The word feedback never
+  appears in the cited quote. The other three clauses of this cell's value
+  are each supported by their own quote.
+- electro_optic:integration (paper W2015534895, value is
+  "integrated_photonic"). The quote, "We present a 4x4 spatially
+  non-blocking Mach-Zehnder based silicon optical switch fabricated using
+  processes fully compatible with standard CMOS", never uses waveguide,
+  chip, integrated, or photonic. integrated_photonic here rests on domain
+  knowledge that a CMOS-fabricated Mach-Zehnder silicon switch is a
+  waveguide device, not on words the quote itself states, the same
+  standard round 3 applied to mems_3d:integration and mems_2d:integration.
+- mems_silicon_photonic:packaging_notes (paper W2786734285, one clause of
+  a five-clause value). The value's clause "glass-interposer package" is
+  true of the paper, whose title is "128 x 128 silicon photonic MEMS
+  switch package using glass interposer" and whose abstract states "The
+  0.5 mm thick glass interposer contains 512 electrical vias", but the
+  quote actually cited for this clause is "The apodised grating couplers
+  designed for 1300 nm have an insertion loss of 2.5 dB/facet", a
+  different sentence in the same abstract that never mentions the
+  interposer at all. The other four clauses of this cell's
+  value are each supported by their own quote.
+
+Two of the three failures (thermo_optic:packaging_notes,
+mems_silicon_photonic:packaging_notes) are the same new pattern: the
+value's claim is true and stated somewhere in the cited paper's abstract,
+but the specific sentence pipeline/matrix_build.py's extract() function
+picked out as this clause's quote is a different, nearby sentence that
+does not itself say it. This is a different defect from round 3's
+paraphrase gap (a value that is true by domain knowledge but that no
+sentence in the abstract states in those words); here the abstract does
+state it, just not in the quoted sentence. The third failure
+(electro_optic:integration) is round 3's paraphrase gap recurring on the
+opposite value: round 3 found it on free_space_bulk cells
+(mems_3d:integration, mems_2d:integration), and mems_2d:integration fails
+again this round (see the category census below); this round it also
+appears on an integrated_photonic cell for the first time.
+
+### Category cell census (all 27 reported category cells, not part of Gate C)
+
+Every reported integration, trl_band, and ai_cluster_fit cell was judged,
+not just the ones the random sample happened to draw. 23 of 27 pass, 4 of
+27 fail. Fail rate is 14.8 percent. This census has no Gate C threshold of
+its own; it is reported here for the meeting, separately from Gate C.
+
+Failing cells (category census).
+
+- mems_2d:integration. Value is "free_space_bulk". The quote, "reflective
+  two-dimensional (2D) and three-dimensional (3D) MEMS implementations",
+  states none of free, space, bulk, air, or collimator. This is the same
+  cell and the same gap round 3 found (with a different paper cited then);
+  the rebuild changed which paper is cited but the underlying evidence gap
+  is unchanged.
+- thermo_optic:integration. Value is "integrated_photonic". The quote,
+  "The switch is fabricated on a 300-mm-diameter silicon-on-insulator
+  wafer by a complementary metal-oxide semiconductor-compatible process
+  with advanced ArF immersion lithography", never uses waveguide, chip,
+  integrated, or photonic. Same domain-knowledge gap as
+  electro_optic:integration above.
+- electro_optic:integration. Listed under the Gate C sample above; it is
+  also one of the 27 census cells, so it appears in both counts.
+- soa:ai_cluster_fit. Value is "yes". The quote and the cited paper's full
+  abstract (W3093967660) describe a general data center network use case
+  ("the core of the network"), never accelerators, GPUs, TPUs, ML
+  training, or an explicit spine layer. The cell's own note already says
+  "no soa abstract names accelerators, GPUs, TPUs, or ML training", yet
+  the value is "yes" rather than "partial". By the same standard used for
+  electro_optic:ai_cluster_fit elsewhere in this same matrix (scored
+  "partial" for comparable generic data-center-scale evidence), this cell
+  is at most "partial", not "yes".
+
+### Check (c). 10 random projects.csv rows
+
+Method. Unchanged from earlier rounds (see above), new SEED = 20260928. 10
+of the 12 rows were drawn. The response-encoding fix from round 1
+(resp.encoding = resp.apparent_encoding) is already in the script this
+round ran.
+
+Result. 10 of 10 fetched successfully. 10 of 10 pass, 0 fail, 0
+unreachable. Fail rate is 0 percent, under the 20 percent gate.
+
+### Check (d). Evidence span substring check, all tags rows
+
+Method. Unchanged from earlier rounds (see above); exhaustive, not
+sampled. This run has 420 tags rows (run 1 had 376).
+
+Result. 420 of 420 pass. Pass rate is 100 percent, over the 90 percent
+gate.
+
+### Other observations, not covered by the four checks (run 2 audit)
+
+thermo_optic:wavelength_range mechanically fails check (b)'s number check
+(see above). Its value claims a standalone "C band", which no quote
+states, only "C+L-band". It was not in the 20-cell Gate C sample, so it
+does not change the Gate C rate, but the matrix should not claim "C band"
+on its own for this route without a quote that says so.
+
+3 of 4 failing category-census cells (mems_2d:integration,
+thermo_optic:integration, electro_optic:integration) are all the same
+"category label is right by domain knowledge, not by the quote's own
+words" gap, on the integration dimension specifically, across 3 of the 9
+routes. This is the largest single source of not_supported findings this
+round. A future rebuild could close most of this gap by having stage 6
+prefer, when one exists, a quote sentence that actually names the
+packaging category (waveguide, chip, integrated, silicon photonics for
+integrated_photonic; free space, collimator, air, bulk for
+free_space_bulk), the way mems_3d, mems_silicon_photonic, lcos, piezo, and
+soa's integration cells already do in this same matrix.
+
+The two "wrong sentence quoted" failures (thermo_optic:packaging_notes,
+mems_silicon_photonic:packaging_notes) point at
+pipeline/matrix_build.py's extract() function or at the anchor phrases in
+data/work/matrix_cells.yaml, not at the underlying papers: both papers do
+state the claimed detail, just in a sentence next to the one that got
+quoted. This is a narrower, more mechanical fix than the paraphrase gap
+above (pick a different anchor into the same abstract) and does not need a
+new value or a new paper.
+
+academic_groups and companies, the two dimensions with an independent
+code-level check instead of a judgment call, had 0 mismatches across all
+18 cells even after removing the shared code path with
+pipeline.matrix_build, so the counts and names in those two columns remain
+the most solidly checked part of the matrix in this run, same as round 3.
+
+Check (a) found no mismatches and, for the first time across every round
+of this audit, needed no fallback to arxiv.org/abs at all: every arXiv-only
+paper in this sample resolved through OpenAlex's own free DOI lookup. This
+says more about which 20 papers this seed happened to draw than about the
+arxiv.org fallback being unnecessary in general; this database still has
+31 core papers with no openalex_id (of 284), and a different seed could
+still draw one that OpenAlex has no record of.
+
+---
+
+### Run 2 audit, second round
+
+Gate C sent stage 7 back to stage 6 once, per PLAN.md, because check (b)
+failed at 15 percent unsupported cells (3 of 20), over the 10 percent
+limit. Stage 6 (the analyst) re-anchored the quotes for the 3 Gate C sample
+failures plus one census-only failure that carried the same gap
+(electro_optic:integration, one cell shared by both the sample and the
+census, and thermo_optic:integration, the census-only twin of the same
+"names no waveguide or chip" gap): thermo_optic:packaging_notes,
+electro_optic:integration, mems_silicon_photonic:packaging_notes, and
+thermo_optic:integration. No value, status, or paper changed for any of
+the four; only the quoted sentence changed, to one that already states the
+claimed detail in the same abstract. See STATUS.md and pipeline/audit.py's
+own log for the analyst's fix entries.
+
+This round reran pipeline/audit.py with the same seed, SEED = 20260928,
+and the same audit_r2data_ file prefix, so every sample from round 1 is
+exactly reproduced: the same 20 core papers for check (a), the same
+20-cell Gate C sample and 27-cell category census for check (b), the same
+10 projects.csv rows for check (c), and all tags rows for check (d).
+Round 1's files (data/work/audit_r2data_prejudge.json,
+audit_r2data_judge_input.json, audit_r2data_judgments.json, and
+audit_r2data_round1.json) were not read for input and were not
+overwritten. This round's own files carry round2_ names instead:
+data/work/audit_r2data_round2_prejudge.json,
+audit_r2data_round2_judge_input.json, audit_r2data_round2_judgments.json,
+and the final merged result at data/work/audit_r2data_round2.json.
+pipeline/audit.py itself changed only to add this round numbering (an
+AUDIT_ROUND environment variable, default 1, that selects the file
+names); the seed, the four checks, and the judgment process are otherwise
+unchanged from round 1.
+
+The auditor re-read all 31 candidate cells against the label definitions
+from scratch rather than copying round 1's verdicts forward. 27 of the 31
+verdicts came out the same as round 1's. The 4 that changed are exactly
+the 4 cells stage 6 re-anchored, and all 4 flipped from not_supported to
+supported because their new quotes now state the claimed detail. The 2
+cells round 1 judged a genuine domain-knowledge gap rather than a
+wrong-sentence quote (mems_2d:integration, soa:ai_cluster_fit) were not
+touched by stage 6 and are judged not_supported again this round, for the
+same reasons as round 1. Nothing found this round was softened to make the
+gate pass; the 2 remaining failures are carried forward below.
+
+#### Rate comparison, both rounds of this run
+
+| Check | Threshold | Run 2 audit, round 1 | Run 2 audit, second round |
+|---|---|---|---|
+| (a) core paper re-fetch, mismatch rate | at most 10 percent | 0 percent (20 of 20 usable, 0 dropped) PASS | 0 percent (20 of 20 usable, 0 dropped) PASS |
+| (b) matrix cell evidence, unsupported rate (20-cell Gate C sample) | at most 10 percent | 15 percent (3 of 20) FAIL | 0 percent (0 of 20) PASS |
+| (c) project evidence URL, fail rate | at most 20 percent | 0 percent (10 of 10) PASS | 0 percent (10 of 10) PASS |
+| (d) evidence span substring, pass rate | at least 90 percent | 100 percent (420 of 420) PASS | 100 percent (420 of 420) PASS |
+
+Category census (not part of Gate C, 27 reported category cells): 23 of 27
+pass in round 1 (14.8 percent fail), 25 of 27 pass in the second round
+(7.4 percent fail).
+
+#### Gate C summary, second round
+
+| Check | Sample | Pass | Fail | Rate | Threshold | Gate C |
+|---|---|---|---|---|---|---|
+| (a) core paper re-fetch | 20 drawn, 20 compared, 0 dropped | 20 | 0 | 0 percent | at most 10 percent mismatches | PASS |
+| (b) matrix cell evidence | 20 | 20 | 0 | 0 percent | at most 10 percent unsupported | PASS |
+| (c) project evidence URL | 10 | 10 | 0 | 0 percent | at most 20 percent failures | PASS |
+| (d) evidence span substring | 420 (all tags rows) | 420 | 0 | 100 percent pass | at least 90 percent | PASS |
+
+All four checks pass. Gate C passes this round.
+
+#### Check (a). Re-fetch 20 random core papers, second round
+
+Same 20 papers as round 1 (same seed): 17 by OpenAlex ID, 3 by the
+OpenAlex arXiv-DOI singleton lookup (arxiv:2202.05487, arxiv:2510.03891,
+arxiv:2602.12521). The papers table did not change between rounds (only
+the comparison matrix did), so the result is identical to round 1: 20 of
+20 pass, 0 fail, mismatch rate 0 percent.
+
+#### Check (b). Matrix cells, second round
+
+Method. Same as round 1 (see above), same seed, same 20-cell Gate C sample
+and 27-cell category census. The counts by status in comparison_matrix.csv
+are unchanged from round 1 (84 reported, 9 derived, 29
+not_reported_in_abstract, 4 no_source), because stage 6's fix only changed
+which sentence 4 cells quote, not any value or status.
+
+Measured cells. Unchanged from round 1: 35 of 36 pass the number check.
+thermo_optic:wavelength_range still fails, for the same reason as round 1
+(its value states "C band" on its own, the quotes only ever say
+"C+L-band"). This cell was not drawn into the Gate C sample either round,
+so it does not affect the gate; it is carried forward as still open below.
+
+academic_groups and companies. Unchanged from round 1: 18 of 18 recomputed
+cells match comparison_matrix.csv exactly, independent of
+pipeline.matrix_build.
+
+Category and free-text cells needing judgment. Same 31 candidate cells as
+round 1, in data/work/audit_r2data_round2_judge_input.json. The auditor's
+fresh read gave 29 supported and 2 not_supported verdicts, written to
+data/work/audit_r2data_round2_judgments.json, then folded in with
+`AUDIT_ROUND=2 .venv/bin/python -m pipeline.audit --merge`.
+
+Result, Gate C sample (20 cells). 20 of 20 pass, 0 fail. Unsupported rate
+is 0 percent. Gate C PASSES on check (b) this round.
+
+The 3 cells that failed round 1's Gate C sample all pass now, because
+stage 6 re-anchored their quotes to a sentence that already states the
+claimed detail.
+
+- thermo_optic:packaging_notes (paper W2327284773). The quote for the
+  "feedback control" clause now reads "feedback controlled stabilization
+  of the individual switching elements ... even in the absence of a
+  cooling system for the silicon chip", the whole sentence rather than the
+  half that starts after the word "feedback". All four clauses of this
+  cell's value are now supported.
+- electro_optic:integration (papers W1998881035, W2070900489). The quotes
+  are now "We report on a three-waveguide electro-optic switch for
+  compact photonic integrated circuits" and "These fabrics are integrated
+  onto a single chip ... using IBM's 90 nm silicon integrated
+  nanophotonics technology", both of which name a waveguide and a chip
+  directly, unlike round 1's quote.
+- mems_silicon_photonic:packaging_notes (paper W2786734285). The quote for
+  the "glass-interposer package" clause is now "We design and fabricate
+  the packaging of 128 x 128 silicon photonic MEMS switch device using
+  through glass via (TGV) interposer and pitch reducing fibre array", the
+  sentence that actually names the interposer, in place of round 1's
+  grating-coupler sentence. All five clauses of this cell's value are now
+  supported.
+
+#### Category cell census, second round (all 27 reported category cells, not part of Gate C)
+
+25 of 27 pass, 2 of 27 fail. Fail rate is 7.4 percent, down from round 1's
+14.8 percent (4 of 27). thermo_optic:integration, one of round 1's 4
+census failures, now passes: its quotes are "We demonstrate a
+low-crosstalk 2 x 2 thermo-optic switch with silicon wire waveguides"
+(paper W1985329895) and a switch-chip description naming "waveguide
+crossings" (paper W4378650891), both naming a waveguide and a chip
+directly. electro_optic:integration, counted under both the Gate C sample
+and the census, also passes now (see above).
+
+Two failures remain, both unchanged from round 1 because stage 6 did not
+touch either cell.
+
+- mems_2d:integration. Value is "free_space_bulk". The quote, "reflective
+  two-dimensional (2D) and three-dimensional (3D) MEMS implementations",
+  still states none of free, space, bulk, air, mirror, or collimator.
+  free_space_bulk still rests on domain knowledge the quote does not
+  state.
+- soa:ai_cluster_fit. Value is "yes". The quote and the cited paper's
+  abstract (W3093967660) still describe a general network use case ("the
+  core of the network"), never accelerators, GPUs, TPUs, ML training, or
+  an explicit spine layer. By the same standard applied to
+  electro_optic:ai_cluster_fit (labeled "partial" for comparable generic
+  data-center evidence, and itself judged supported again this round),
+  this cell is still at most "partial", not "yes".
+
+#### Check (c). 10 random projects.csv rows, second round
+
+Same 10 rows as round 1 (same seed). 10 of 10 fetched successfully, 10 of
+10 pass, 0 fail, 0 unreachable. Fail rate is 0 percent, unchanged from
+round 1.
+
+#### Check (d). Evidence span substring check, second round
+
+Same 420 tags rows (exhaustive, not sampled), unchanged because stage 3
+was not touched between rounds. 420 of 420 pass. Pass rate is 100 percent,
+unchanged from round 1.
+
+#### Other observations, second round
+
+thermo_optic:wavelength_range still mechanically fails check (b)'s number
+check, the same finding as round 1 (see above). It was not fixed and is
+still open.
+
+The 2 remaining category census failures (mems_2d:integration,
+soa:ai_cluster_fit) are exactly the 2 of round 1's 4 that stage 6 did not
+touch. They are not gated and were not sent back a second time; they are
+carried forward here, unsoftened, for stage 8 and the meeting to decide
+whether they need another rework pass or a documented limitation.
+
+Gate C passes this round on all four checks. Per PLAN.md, the run may
+proceed to stage 8.
+
+---
+
+## Corrections after code review (pull request #1)
+
+This section was added after the code review of pull request #1. The audit
+round sections above are left exactly as first written. Each item below
+quotes a sentence from them that is wrong or misleading, states the correct
+fact, and names where that fact comes from.
+
+The only edit above this section is the seed sentence in the preamble at the
+top, which belongs to no round. It used to say "Run 1 used SEED = 20260926
+and Run 2 uses SEED = 20260927, which is the value the script now holds."
+That was stale, because pipeline/audit.py held SEED = 20260928 as committed
+in 2b97e9a. The script now takes the seed as `--seed` instead.
+
+### 1. The four re-anchored cells did change value and paper
+
+"Run 2 audit, second round" says "No value, status, or paper changed for any
+of the four; only the quoted sentence changed, to one that already states
+the claimed detail in the same abstract. See STATUS.md and
+pipeline/audit.py's own log for the analyst's fix entries."
+
+Two values changed. The third clause of thermo_optic:packaging_notes went
+from "feedback control without chip cooling" to "feedback controlled
+stabilization without a chip cooling system". The second clause of
+mems_silicon_photonic:packaging_notes went from "glass-interposer package
+with 2.5 dB/facet grating couplers" to "through glass via interposer and
+pitch reducing fibre array", so the grating coupler loss figure left that
+cell. The source is the value field of these two cells in
+data/work/audit_r2data_judge_input.json (round 1) and
+data/work/audit_r2data_round2_judge_input.json (second round).
+
+Two cells now cite other papers, so their new quotes do not come from the
+same abstract. electro_optic:integration quoted W2015534895 in round 1 and
+quotes W1998881035 and W2070900489 in the second round.
+thermo_optic:integration quoted W834513743 in round 1 and quotes W1985329895
+and W4378650891 in the second round. The source is the quotes field of these
+two cells in the same two judge input files, with each quote matched to the
+paper in data/db/papers.sqlite whose abstract contains it. The paper_ids
+column of deliverables/comparison_matrix.csv at commit 2b97e9a lists the new
+papers. Run 2's matrix was committed only once, after the rework, so there
+is no git diff of the matrix between the two rounds. The two judge input
+files are the record of the change.
+
+No status and no category label changed. All 4 cells are status reported in
+the committed matrix, and its status counts (84 reported, 9 derived, 29
+not_reported_in_abstract, 4 no_source) equal the counts in STATUS.md's 17:11
+stage 6 line from before the rework. Both integration cells keep the value
+integrated_photonic in both judge input files.
+
+The analyst's fix entries are not in STATUS.md or in any log of
+pipeline/audit.py. They are the four 17:40 lines of
+deliverables/pitfalls_original_log.md (lines 192 to 195), summed up in one
+17:40 line of deliverables/pitfalls.md. STATUS.md logs no stage 6 event
+after its 17:11 line. pipeline/audit.py keeps no log of its own, and its
+log_pitfall function appends to pitfalls_original_log.md.
+
+### 2. Why three arXiv-only papers had OpenAlex records
+
+"Run 2 audit", check (a), says "All 3 are recent preprints (2025 and 2026),
+so this looks like OpenAlex's arXiv index catching up after collection ran,
+not a curation bug".
+
+arxiv:2202.05487 is a 2022 paper. Its stored year is 2022 in
+data/work/audit_r2data_round1.json (a_refetch, item arxiv:2202.05487).
+
+The index was not catching up. Free OpenAlex singleton lookups by DOI
+(10.48550/arxiv.<id>), made during the code review, return W4221152598 for
+arxiv:2202.05487 (created 2025-10-10), W4414970479 for arxiv:2510.03891
+(created 2025-10-09), and W7129076743 for arxiv:2602.12521 (created
+2026-02-17). All three have primary source S4306400194, the arXiv source
+run 2 collected from (ARXIV_SOURCE_ID in
+pipeline/collect_arxiv_via_openalex.py). Run 2 collected from that source
+on 2026-09-26 between 22:54 and 22:55 Coordinated Universal Time (UTC), per
+the fetched_at field of data/raw/arxiv_via_openalex.jsonl. That is months
+after all three records were created.
+
+The real cause is a coverage gap. None of the three OpenAlex IDs appears in
+any file in data/raw, so run 2's phrase queries did not return these papers.
+In data/raw the three arXiv IDs appear only in arxiv.jsonl (run 1's arXiv pull) and as record keys in relevance.csv.
+pipeline/curate.py makes no network calls, so it can only match records
+already in data/raw, and it never looks up an arxiv: paper by its DOI.
+
+### 3. Which census failures were domain-knowledge gaps, and how blind the re-read was
+
+"Run 2 audit, second round" says "The 2 cells round 1 judged a genuine
+domain-knowledge gap rather than a wrong-sentence quote (mems_2d:integration,
+soa:ai_cluster_fit) were not touched by stage 6 and are judged not_supported
+again this round, for the same reasons as round 1."
+
+This does not match round 1's own text. Round 1's "Other observations"
+section puts mems_2d:integration, thermo_optic:integration and
+electro_optic:integration in one gap, where the category label is right by
+domain knowledge but not by the quote's own words. Stage 6 fixed two of
+those three by citing other papers of the same route (see item 1) and did
+not touch mems_2d:integration. None of the 4 core papers tagged mems_2d, as
+primary or secondary route, has an abstract that says free space,
+collimator, bulk, or air (checked in data/db/papers.sqlite), so no other
+mems_2d quote could state free_space_bulk. soa:ai_cluster_fit was a
+different round 1 finding. Its "yes" label is stronger than its general
+data center network evidence, while electro_optic:ai_cluster_fit got "partial" for
+comparable evidence.
+
+The same section says "The auditor re-read all 31 candidate cells against
+the label definitions from scratch rather than copying round 1's verdicts
+forward." The re-read was not blind to round 1. 6 of the 31 reasons in
+data/work/audit_r2data_round2_judgments.json name round 1 or the stage 6
+rework, and electro_optic:integration's reason begins "Round 2 rework
+replaced the round 1 quote". The auditor knew which 4 cells had been
+reworked when judging them.
+
+### 4. The second round re-audited the same 20 cells
+
+"Run 2 audit, second round" reports "20 of 20 pass, 0 fail. Unsupported
+rate is 0 percent. Gate C PASSES on check (b) this round." It never says
+plainly what that result measures.
+
+The second round's check (b) re-audited the same 20 cells as round 1. The
+sampled_ids of b_matrix_cells are identical in
+data/work/audit_r2data_round1.json and data/work/audit_r2data_round2.json.
+3 of those 20 (thermo_optic:packaging_notes, electro_optic:integration,
+mems_silicon_photonic:packaging_notes) are round 1's 3 failures, which stage
+6 fixed after round 1 named them. The other 17 passed in round 1 and passed
+again. So 0 of 20 unsupported shows that those 3 fixes worked. It is not an
+independent re-sample of the matrix.
+
+The census rise from 23 to 25 of 27 is the same kind of result. The 2 census
+cells that flipped to supported (thermo_optic:integration,
+electro_optic:integration) are cells stage 6 fixed after round 1 flagged
+them. The 16 reported free-text cells (packaging_notes and scaling_limit)
+have no census. Only the 4 drawn into the Gate C sample are in either
+round's judge input, so 12 of the 16 were never judged in either round.
+
+### 5. Rate tables that count passes under a fail rate, and a summary table without the second round
+
+"Rate comparison, all rounds and this run" puts pass counts and fail counts
+in the same rate column. Its (b) row reads "25 percent (5 of 20) FAIL" for
+round 1, which counts failures, but "0 percent (20 of 20) PASS, but see
+round 3's note, not trustworthy" for round 2 (padded), which counts passes.
+Its (c) cells read "0 percent (10 of 10) PASS" under a fail rate, which also
+counts passes, and so do the (c) cells of "Rate comparison, both rounds of
+this run". The all-rounds table also has a single "Run 2 audit" column that
+holds only round 1's results, including (b) "15 percent (3 of 20) FAIL". The
+second round's PASS appears only in the later two-round table.
+
+The table below gives pass and fail counts in separate columns and both run
+2 rounds. Every number comes from the pass, fail, error or dropped, and rate
+fields of each check in data/work/audit_round1.json (round 1),
+audit_round2.json (round 2, padded), audit_run2_round1.json (round 3),
+audit_r2data_round1.json (run 2 audit, round 1) and audit_r2data_round2.json
+(run 2 audit, second round). For (a), Pass and Fail count compared papers,
+and a dropped paper counts as neither.
+
+| Check | Round | Sample | Pass | Fail | Rate | Threshold | Gate C |
+|---|---|---|---|---|---|---|---|
+| (a) core paper re-fetch | Round 1 | 20 drawn, 16 compared, 4 dropped | 16 | 0 | 0 percent mismatches | at most 10 percent mismatches | PASS |
+| (a) core paper re-fetch | Round 2 (padded) | 20 drawn, 16 compared, 4 dropped | 16 | 0 | 0 percent mismatches | at most 10 percent mismatches | PASS |
+| (a) core paper re-fetch | Round 3 (after the fix) | 20 drawn, 20 compared, 0 dropped | 20 | 0 | 0 percent mismatches | at most 10 percent mismatches | PASS |
+| (a) core paper re-fetch | Run 2 audit, round 1 | 20 drawn, 20 compared, 0 dropped | 20 | 0 | 0 percent mismatches | at most 10 percent mismatches | PASS |
+| (a) core paper re-fetch | Run 2 audit, second round | 20 drawn, 20 compared, 0 dropped | 20 | 0 | 0 percent mismatches | at most 10 percent mismatches | PASS |
+| (b) matrix cell evidence | Round 1 | 20 cells | 15 | 5 | 25 percent unsupported | at most 10 percent unsupported | FAIL |
+| (b) matrix cell evidence | Round 2 (padded) | 20 cells | 20 | 0 | 0 percent unsupported | at most 10 percent unsupported | PASS, not trustworthy (see round 3's note) |
+| (b) matrix cell evidence | Round 3 (after the fix) | 20 cells | 19 | 1 | 5 percent unsupported | at most 10 percent unsupported | PASS |
+| (b) matrix cell evidence | Run 2 audit, round 1 | 20 cells | 17 | 3 | 15 percent unsupported | at most 10 percent unsupported | FAIL |
+| (b) matrix cell evidence | Run 2 audit, second round | same 20 cells as run 2 round 1 | 20 | 0 | 0 percent unsupported | at most 10 percent unsupported | PASS (see item 4) |
+| (c) project evidence URL | Round 1 | 10 rows, 0 unreachable | 10 | 0 | 0 percent failures | at most 20 percent failures | PASS |
+| (c) project evidence URL | Round 2 (padded) | 10 rows, 0 unreachable | 10 | 0 | 0 percent failures | at most 20 percent failures | PASS |
+| (c) project evidence URL | Round 3 (after the fix) | 10 rows, 0 unreachable | 10 | 0 | 0 percent failures | at most 20 percent failures | PASS |
+| (c) project evidence URL | Run 2 audit, round 1 | 10 rows, 0 unreachable | 10 | 0 | 0 percent failures | at most 20 percent failures | PASS |
+| (c) project evidence URL | Run 2 audit, second round | 10 rows, 0 unreachable | 10 | 0 | 0 percent failures | at most 20 percent failures | PASS |
+| (d) evidence span substring | Round 1 | 376 (all tags rows) | 376 | 0 | 100 percent pass | at least 90 percent pass | PASS |
+| (d) evidence span substring | Round 2 (padded) | 376 (all tags rows) | 376 | 0 | 100 percent pass | at least 90 percent pass | PASS |
+| (d) evidence span substring | Round 3 (after the fix) | 376 (all tags rows) | 376 | 0 | 100 percent pass | at least 90 percent pass | PASS |
+| (d) evidence span substring | Run 2 audit, round 1 | 420 (all tags rows) | 420 | 0 | 100 percent pass | at least 90 percent pass | PASS |
+| (d) evidence span substring | Run 2 audit, second round | 420 (all tags rows) | 420 | 0 | 100 percent pass | at least 90 percent pass | PASS |
+
+Category census (all 27 reported category cells, not part of Gate C), from
+the same files. Round 3 had 24 pass and 3 fail. Run 2 audit round 1 had 23
+pass and 4 fail. Run 2 audit second round had 25 pass and 2 fail. Rounds 1
+and 2 (padded) ran no census.
