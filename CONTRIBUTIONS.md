@@ -1,7 +1,8 @@
 # 个人贡献记录
 
 本文件用于持续记录我在本项目中的贡献，按项目模块组织，并保留每次修改的目的、涉及文件和验证结果。
-> 注：`README.zh-CN.md` 反映的是第二次运行（run 2）之前的项目状态。(Note: README.zh-CN.md reflects the project state before run 2.)
+
+> 项目负责人注（由项目负责人添加，不是本文件贡献者所写）：`README.zh-CN.md` 译自提交 `5a25410` 的英文 README，该提交早于第二次运行（run 2）及步骤 2 至 4 的合并，最新进度与数字以 `README.md` 为准。(Note added by the project owner, not by the contributor who keeps this file. README.zh-CN.md translates README.md as of commit 5a25410, before run 2 and steps 2 to 4 were merged. README.md is current.)
 
 ## 按项目结构记录
 

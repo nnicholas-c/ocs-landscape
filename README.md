@@ -16,16 +16,18 @@ This repository holds a week-one, small-sample trial. Its purpose is to show tha
 |---|---|---|
 | Run 1. A full pass of stages 0 to 8 with three gates | Done | tag `run1` |
 | Audit fix. The matrix build is separated from its audit, stages 6 and 7 were rerun with a new seed, and three questioned numbers were checked in `deliverables/number_checks.md` | Done | tag `run1-fixed` |
-| Run 2. arXiv papers collected through OpenAlex's arXiv index and carried through stages 1b to 8, reusing run 1's scout output for stage 5 | Done | pull request #1 |
-| Step 2, anchor papers. The anchor papers the title search missed were looked up by DOI (digital object identifier), and stages 1b to 4 and 6 to 8 were rerun with audit seed 20260929 | Done | pull request #4 |
-| Step 3, technology map and project timeline. Two web pages in `graphs/` and a taxonomy tree in `deliverables/framework.md` | Done | pull request #6 |
-| Step 4, number checks. The three questioned numbers rechecked on run 2's data | Done | pull request #7 |
+| Step 1, run 2. arXiv papers collected through OpenAlex's arXiv index and carried through stages 1b to 8, reusing run 1's scout output for stage 5 | Done | [pull request #1](https://github.com/nnicholas-c/ocs-landscape/pull/1) |
+| Step 2, anchor papers. The anchor papers the title search missed were looked up by DOI (digital object identifier), and stages 1b to 4 and 6 to 8 were rerun with audit seed 20260929 | Done | [pull request #4](https://github.com/nnicholas-c/ocs-landscape/pull/4) |
+| Step 3, technology map and project timeline. Two web pages in `graphs/` and a taxonomy tree in `deliverables/framework.md` | Done | [pull request #6](https://github.com/nnicholas-c/ocs-landscape/pull/6) |
+| Step 4, number checks. The three questioned numbers rechecked on run 2's data | Done | [pull request #7](https://github.com/nnicholas-c/ocs-landscape/pull/7) |
+
+Steps 1 to 4 are the follow-up tasks after run 1, and each was merged as one pull request. They are not pipeline stages. A stage is one of the nine stages (0 to 8) that `PLAN.md` defines, and one step can rerun several stages.
 
 All four pull requests are merged into `master`, which is the version to present. The one-page summary is `deliverables/meeting_summary.md`, and `deliverables/demo_results.md` compares run 1 with run 2.
 
 ## Scope of the trial
 
-- **Sources.** OpenAlex and arXiv only (`CLAUDE.md`, rule 6). Since run 2, arXiv content comes through OpenAlex's index of arXiv, because arXiv's own API (application programming interface) refuses this host with HTTP (web request) status 406 (`STATUS.md`, 16:50 line). IEEE Xplore, PCIM (a power electronics conference), Crossref, patents, and paid company data are out of scope on purpose. `deliverables/architecture.md` records what adding IEEE Xplore, PCIM, patents, or company data would take.
+- **Sources.** OpenAlex and arXiv only (`CLAUDE.md`, rule 6). Since run 2, new arXiv content comes through OpenAlex's index of arXiv. The reason is that arXiv's own API (application programming interface) answered every request in a probe from the machine this trial ran on with HTTP (Hypertext Transfer Protocol) status 406 (`deliverables/pitfalls_original_log.md`, 15:54; `STATUS.md`, 16:50 line). That evidence covers only that machine. The 47 records run 1 pulled through that API are still in `data/raw/arxiv.jsonl` (`deliverables/curation_report.md`, Raw records). IEEE Xplore, PCIM (a power electronics conference), Crossref, patents, and paid company data are out of scope on purpose. `deliverables/architecture.md` records what adding IEEE Xplore, PCIM, patents, or company data would take.
 - **Size.** The trial aimed for 50 to 100 core papers (`CLAUDE.md`). Above 200 relevant records, Gate A keeps only score 3 records (`PLAN.md`), which gave 284 core papers after deduplication in run 2, up from 267 in run 1 (`deliverables/curation_report.md`). Whether to accept that is one of the open decisions.
 - **Cost.** OpenAlex requires a free API key and meters usage, with about 1 USD (US dollar) a day free (`CLAUDE.md`, Environment). Run 1 cost 0.04 USD (`STATUS.md`, 16:14 note). Run 2's ten new searches cost 0.01 USD, but its total was not captured (`deliverables/demo_results.md`, Run 1 versus run 2).
 
@@ -78,7 +80,7 @@ Requires Python 3.11 or newer (tested with 3.14).
 
 1. Create the environment with `python -m venv .venv`.
 2. Install the packages with `.venv/bin/pip install -r requirements.txt` (on Windows, `.venv\Scripts\pip`).
-3. Get a free OpenAlex key at https://openalex.org/settings/api, run `cp .env.example .env`, and set `OPENALEX_API_KEY`. The key is required, and `collect_openalex` and `audit` stop if it is unset. arXiv needs no key.
+3. Get a free OpenAlex key at https://openalex.org/settings/api, run `cp .env.example .env`, and set `OPENALEX_API_KEY`. The key is required, and `collect_openalex`, `collect_arxiv_via_openalex`, and `audit` stop if it is unset, because they are the only scripts that call OpenAlex. `collect_arxiv`, which calls arXiv's own API, needs no key.
 
 On Windows the interpreter is `.venv\Scripts\python.exe`, and the console's default code page crashes on non-ASCII titles. In Git Bash, create `.venv/bin/python` with the lines below and run `chmod +x .venv/bin/python`. In PowerShell, set `$env:PYTHONUTF8=1` and call `.venv\Scripts\python -m pipeline.<module>`.
 
@@ -93,9 +95,9 @@ Run each module from the repo root as `.venv/bin/python -m pipeline.<module>`. M
 
 | Module | Purpose |
 |---|---|
-| `collect_openalex` | Pull OpenAlex records into `data/raw/` (`--mode smoke`, `full`, or `snowball`, plus a required `--out <file>.jsonl`) |
+| `collect_openalex` | Pull OpenAlex records into `data/raw/` (`--mode smoke`, `full`, or `snowball`, plus a required `--out <file>.jsonl`). Needs the OpenAlex key |
 | `collect_arxiv` | Pull arXiv records through arXiv's API (`--mode smoke` or `full`, plus `--out`) |
-| `collect_arxiv_via_openalex` | Pull arXiv-hosted papers through OpenAlex's arXiv index (`--out`, default `data/raw/arxiv_via_openalex.jsonl`). Run 2 uses this instead of `collect_arxiv` |
+| `collect_arxiv_via_openalex` | Pull arXiv-hosted papers through OpenAlex's arXiv index (`--out`, default `data/raw/arxiv_via_openalex.jsonl`). Needs the OpenAlex key. Run 2 uses this instead of `collect_arxiv` |
 | `tag_export`, `tag_import` | Write batch files for the tagger and import its labels (`--mode relevance` or `full`). `tag_export --mode full --only <file>` retags the paper IDs listed one per line in that file |
 | `curate` | Deduplicate by DOI, then arXiv ID, then fuzzy title, and load `papers.sqlite` |
 | `graph` | Build the co-author and institution graphs, the rankings, and `coauthor.html` |
@@ -105,7 +107,15 @@ Run each module from the repo root as `.venv/bin/python -m pipeline.<module>`. M
 | `check_route_provenance`, `check_name_keys`, `merge_name_keys` | The number checks behind `deliverables/number_checks.md` |
 | `test_curate`, `test_tag_pipeline`, `test_matrix_build` | Regression checks |
 
-To rebuild the outputs from committed data, run `curate`, `graph`, `matrix_export`, `matrix_build`, `matrix_render`, `tech_map`, and `project_timeline` in that order. The number checks and the three tests also run from committed files. Until issue #5 is fixed, `graph` can write the members of `graphs/clusters.csv` in a different order on each run.
+To rebuild the outputs from committed data, run `curate`, `graph`, `matrix_export`, `matrix_build`, `matrix_render`, `tech_map`, and `project_timeline` in that order. The number checks and the three tests also run from committed files. The number checks need the flags below to reproduce run 2's files in `data/work/`. Without them, `check_route_provenance` and `check_name_keys` stop because `--out` is required (and `check_name_keys` would use run 1's seed if only `--out` were given), and `merge_name_keys` reads and writes run 1's files by default (each script's argparse options).
+
+```sh
+.venv/bin/python -m pipeline.check_route_provenance --out data/work/nc1_run2_route_provenance.json
+.venv/bin/python -m pipeline.check_name_keys --seed 20260930 --out data/work/nc2_run2_evidence.json
+.venv/bin/python -m pipeline.merge_name_keys --evidence data/work/nc2_run2_evidence.json --class-a data/work/nc2_run2_class_A.json --class-b data/work/nc2_run2_class_B.json --out data/work/nc2_run2_name_keys.md
+```
+
+Until [issue #5](https://github.com/nnicholas-c/ocs-landscape/issues/5) is fixed, `graph` can write the members of `graphs/clusters.csv` in a different order on each run.
 
 `matrix_build.py` imports nothing from `audit.py`. In the audit fix, the analyst rebuilt the matrix before `audit.py` was rewritten, so it never saw the new test. No rule enforces this yet.
 
@@ -134,15 +144,15 @@ The figures below are run 2's, as rerun in step 2, and are on `master`. Run 1's 
 | Company and project rows | 12, each with a URL and a quote | `data/projects.csv` |
 | Matrix cells | 126, of which 80 reported, 9 derived, 33 not reported, 4 with no source | `deliverables/comparison_matrix.csv` |
 | Gate C, run 2 audit after the anchor papers (seed 20260929) | Passed on the first round. 0 percent mismatches (0 of 20), 0 percent unsupported (0 of 20), 0 percent project failures (0 of 10), 100 percent verbatim (420 of 420) | `deliverables/validation_report.md`, Run 2 audit after the anchor papers |
-| Category cell census, not gated | 3 of 27 unsupported | `deliverables/validation_report.md`, same section |
+| Category cell census, not gated | 3 of 27 unsupported by the auditor, 0 of 27 by the blind second judge | `deliverables/validation_report.md`, same section; `STATUS.md`, 21:21 line |
 | Largest device route | Silicon photonic MEMS, 43 core papers, 6 of them only through the snowball | `deliverables/number_checks.md`, Run 2, section 1 |
 | Network designs that build no switch (architecture_only) | 105 of 284 core papers | `deliverables/number_checks.md`, Run 2, section 1 |
 | Split authors, fresh sample of 15 flagged name keys | 6 were one person (40 percent, 95 percent interval 20 to 64), about 59 of 147 keys | `deliverables/number_checks.md`, Run 2, section 2 |
 | Core papers with no OpenAlex ID and no citation count | 31 of 284 | `deliverables/number_checks.md`, Run 2, section 3 |
 
-**Maps.** Open these pages in a browser.
+**Maps.** Clone the repository and open these pages in a browser. GitHub shows only their HTML source.
 
-- [`graphs/tech_map.html`](graphs/tech_map.html) shows the 284 core papers by tech route, stacked by TRL band, and 236 of them are tagged lab (`data/work/step3_counts.txt`). No radar chart was drawn, because only 3 of the 6 numeric matrix dimensions are reported for 5 or more of the 9 device routes (same file).
+- [`graphs/tech_map.html`](graphs/tech_map.html) shows the 284 core papers by tech route, stacked by TRL band, and 236 of them are tagged lab (`data/work/step3_counts.txt`). No radar chart was drawn. A radar dimension counts when it is reported for 5 or more of the 9 device routes, a radar needs at least 4 of its 6 dimensions to count, and only 3 do (`data/work/step3_counts.txt`; `pipeline/tech_map.py`, lines 41 to 44).
 - [`graphs/project_timeline.html`](graphs/project_timeline.html) plots the 4 of 12 projects with a known first public date, colored by stage. The other 8 are listed under the chart without a guessed date (`data/work/step3_counts.txt`).
 - [`graphs/coauthor.html`](graphs/coauthor.html) is the co-author network behind the team map.
 - The taxonomy tree of tech routes is a diagram in `deliverables/framework.md`.
@@ -151,11 +161,11 @@ The figures below are run 2's, as rerun in step 2, and are on `master`. Run 1's 
 
 **Findings to know before using the data.**
 
-- **The sampled audit passed, but not every reported cell has been read.** The run 2 audit after the anchor papers found 0 of 20 sampled cells unsupported, but 3 of all 27 category cells unsupported. They are the 2D MEMS integration cell, the piezo maturity cell, and the SOA AI-fit cell (`deliverables/validation_report.md`, Run 2 audit after the anchor papers). Another 12 reported free-text cells were neither checked by code nor judged, because the audit judges only sampled and census cells (same file, Corrections after code review (pull request #4), item 2). The first run 2 audit, with seed 20260928, failed check (b) at 15 percent (`STATUS.md`, 17:37 line), and its second round re-checked the same 20 cells after they were fixed (`deliverables/validation_report.md`, Corrections after code review (pull request #1), item 4).
+- **The sampled audit passed, but not every reported cell has been read.** The run 2 audit after the anchor papers found 0 of 20 sampled cells unsupported. In the census of all 27 category cells, the auditor judged 3 unsupported. They are the 2D MEMS integration cell, the piezo maturity cell, and the SOA AI-fit cell (`deliverables/validation_report.md`, Run 2 audit after the anchor papers). The blind second judge judged all 27 supported, so the two judges disagree on these 3 (`STATUS.md`, 21:21 line). Another 12 reported free-text cells passed the code check, which confirms that every cited paper exists and every quote is verbatim, but nobody judged whether the quotes support the value, because the audit judges only sampled and census cells (`deliverables/validation_report.md`, Corrections after code review ([pull request #4](https://github.com/nnicholas-c/ocs-landscape/pull/4)), item 2). The first run 2 audit, with seed 20260928, failed check (b) at 15 percent (`STATUS.md`, 17:37 line), and its second round re-checked the same 20 cells after they were fixed (`deliverables/validation_report.md`, Corrections after code review ([pull request #1](https://github.com/nnicholas-c/ocs-landscape/pull/1)), item 4).
 - **The second judge, not the audit, caught the matrix build gaming the audit in run 1.** In round 2 the builder imported the audit's test and padded 18 of 27 category cells with words from the quotes so they would pass (`STATUS.md`, 07:42 line). Gate C passed that round at 0 percent unsupported, and only the second judge flagged it. The fix separated the build from the audit, and unsupported cells went from 25 percent in round 1, to 0 percent in round 2 (not trustworthy), to 5 percent in round 3 (`deliverables/validation_report.md`, Rate comparison across all three rounds).
-- **Silicon photonic MEMS leads the device routes with 43 core papers because of how the sample was built.** In run 1 one search phrase supplied 27 of them, and the 3D MEMS phrase found no core papers (`deliverables/number_checks.md`, section 1). Phrase searches start in 2012, which likely drops older 3D MEMS work (`pipeline/queries.yaml`, year_from). In run 2 the count is unchanged and the snowball supplies only 6 of the 43 (`deliverables/number_checks.md`, Run 2, section 1). OpenAlex's arXiv index is the only path for 7 thermo-optic papers, which is the whole of that route's rise from 23 to 30 (same section).
+- **Silicon photonic MEMS leads the device routes with 43 core papers because of how the sample was built.** In run 1 one search phrase supplied 27 of them, and the 3D MEMS phrase added no new core papers (`deliverables/number_checks.md`, section 1). That 0 is a lower bound, because each raw record is credited only to the first query that found it, and the 3D MEMS phrase ran fifth (`deliverables/pitfalls.md`, 14:17 and 14:24 entry). Phrase searches start in 2012, which likely drops older 3D MEMS work (`pipeline/queries.yaml`, year_from). In run 2 the count is unchanged and the snowball supplies only 6 of the 43 (`deliverables/number_checks.md`, Run 2, section 1). OpenAlex's arXiv index is the only path for 7 thermo-optic papers, which is the whole of that route's rise from 23 to 30 (same section).
 - **Author records are split, and how often is uncertain.** A flagged name key is a surname plus first initial with several author records. In run 2's fresh sample, 6 of 15 flagged keys were one person split in two or more, which scales to about 59 of 147 keys, with a range of 29 to 94 (`deliverables/number_checks.md`, Run 2, section 2). Run 1's sample gave 10 of 15 (same file, section 2). Person-level rankings need a hand check before the team map is used to recruit individuals, and group-level use is safer (same file, Run 2, section 2).
-- **arXiv content now comes through OpenAlex, but 31 core papers still lack OpenAlex data.** arXiv's API refused 9 of 10 phrase queries in run 1 with HTTP status 406 or 429, and a later probe, one request at a time, got 406 every time (`STATUS.md`, stage 1a line; `deliverables/pitfalls_original_log.md`, 15:54). Run 2 took 341 records from OpenAlex's arXiv index instead (`deliverables/curation_report.md`). Still, 31 of 284 core papers have no OpenAlex ID and no citation count, so audit check (a) cannot test their counts (`deliverables/number_checks.md`, Run 2, section 3). Issue #2 reports that these papers also lack institutions, and that a free DOI lookup found 29 of the 31 in review.
+- **arXiv content now comes through OpenAlex, but 31 core papers still lack OpenAlex data.** arXiv's API refused 9 of 10 phrase queries in run 1 with HTTP status 406 or 429, and a later probe, one request at a time, got 406 every time (`STATUS.md`, stage 1a line; `deliverables/pitfalls_original_log.md`, 15:54). Run 2 took 341 records from OpenAlex's arXiv index instead (`deliverables/curation_report.md`). Still, 31 of 284 core papers have no OpenAlex ID and no citation count, so audit check (a) cannot test their counts (`deliverables/number_checks.md`, Run 2, section 3). [Issue #2](https://github.com/nnicholas-c/ocs-landscape/issues/2) reports that these papers also lack institutions, and that a free DOI lookup found 29 of the 31 in review.
 - **Two anchor papers are still missing.** Anchor papers are 13 known papers the collector looks up by title (`pipeline/queries.yaml`, anchors). Jupiter Evolving and RotorNet were fetched by DOI in step 2 but not added. OpenAlex stores only the title words before the colon, so the title check scored 23.88 and 23.19 against a threshold of 95 (`data/work/step2_anchors.md`). The real c-Through paper is in the core set through the snowball (same file).
 
 ## What is left to do
@@ -166,14 +176,16 @@ The figures below are run 2's, as rerun in step 2, and are on `master`. Run 1's 
 - [ ] Commit the orchestration layer and a second-judge role, or write the second-judge step into `PLAN.md`, so it is part of the repo.
 - [ ] Forbid the analyst from reading or importing `pipeline/audit.py`, in `.claude/agents/analyst.md` and `PLAN.md` stage 6.
 - [ ] Log OpenAlex cost per stage. Run 1's snowball cost and run 2's total were not saved (`deliverables/demo_results.md`, Run 1 versus run 2).
-- [ ] Backfill OpenAlex records for arXiv-only papers with free DOI lookups (issue #2).
-- [ ] Keep the arXiv IDs of merged records in `pipeline/curate.py` when the canonical record has none (issue #3).
-- [ ] Make the member order in `graphs/clusters.csv` independent of `PYTHONHASHSEED` (issue #5).
+- [ ] Backfill OpenAlex records for arXiv-only papers with free DOI lookups ([issue #2](https://github.com/nnicholas-c/ocs-landscape/issues/2)).
+- [ ] Keep the arXiv IDs of merged records in `pipeline/curate.py` when the canonical record has none ([issue #3](https://github.com/nnicholas-c/ocs-landscape/issues/3)).
+- [ ] Make the member order in `graphs/clusters.csv` independent of `PYTHONHASHSEED` ([issue #5](https://github.com/nnicholas-c/ocs-landscape/issues/5)).
+- [ ] Update `README.zh-CN.md`. It translates this README as of commit `5a25410`, before run 2 and steps 2 to 4 were merged, so it still shows run 1's figures and run 2 as in progress.
+- [ ] Judge the 12 reported free-text cells (packaging_notes and scaling_limit) that no audit has judged, or add them to the census (`deliverables/validation_report.md`, Corrections after code review ([pull request #4](https://github.com/nnicholas-c/ocs-landscape/pull/4)), item 2).
 
 **Needs a decision (see `deliverables/open_questions.md`)**
 
 - [ ] The scope of OCS, including whether optical packet switches and hyperscaler blog posts count.
-- [ ] The standard for "supported" in judged category cells. This covers the 3 of 27 category cells the auditor judged unsupported in run 2, the 2D MEMS integration, piezo maturity, and SOA AI-fit cells (`deliverables/validation_report.md`, Run 2 audit after the anchor papers).
+- [ ] The standard for "supported" in judged category cells. This covers the 3 of 27 category cells the auditor judged unsupported and the blind second judge judged supported in run 2, the 2D MEMS integration, piezo maturity, and SOA AI-fit cells (`deliverables/validation_report.md`, Run 2 audit after the anchor papers; `STATUS.md`, 21:21 line).
 - [ ] Accept 284 core papers or add a cap (`deliverables/curation_report.md`).
 - [ ] Recruiting or partnering as the team map's goal. Recruiting needs author disambiguation first.
 - [ ] Whether to target OFC (the Optical Fiber Communication Conference) and the networking conferences SIGCOMM and NSDI, with 9, 0, and 0 core papers in run 2, an undercount because 53 of 284 core papers lack a venue (`deliverables/open_questions.md`, item 2). Also whether the power electronics conferences APEC, ECCE, and PCIM belong in scope at all.
