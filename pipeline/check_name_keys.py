@@ -1,10 +1,11 @@
 """Number check 2, evidence step. Read-only on data/db/papers.sqlite.
 
 Usage (from repo root):
-    .venv/bin/python -m pipeline.check_name_keys
-    .venv/bin/python -m pipeline.check_name_keys --seed 20260930 --out data/work/nc2_run2_evidence.json
+    run 1: .venv/bin/python -m pipeline.check_name_keys --seed 20260927 --out data/work/nc2_evidence.json
+    run 2: .venv/bin/python -m pipeline.check_name_keys --seed 20260930 --out data/work/nc2_run2_evidence.json
 
-Defaults (seed 20260927, data/work/nc2_evidence.json) reproduce run 1's file.
+The run 1 line reproduces run 1's file only against run 1's database (commit
+8172417). --out is required so one run's output never overwrites another's.
 
 Where the 149 came from. deliverables/pitfalls_original_log.md 06:32 (stage 4
 grapher) logged "149 name_key(s) map to more than one author_id in the
@@ -31,8 +32,8 @@ same count in SQL:
     HAVING COUNT(*) > 1 AND MAX(ext.has_core) = 1
     ORDER BY a.name_key;
 
-Writes data/work/nc2_evidence.json (fully rewritten each run, so safe to run
-twice). Evidence only, no judgement about who is the same person.
+Writes only the --out file (fully rewritten each run, so safe to run twice).
+Evidence only, no judgement about who is the same person.
 """
 import argparse
 import json
@@ -44,7 +45,6 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DB_PATH = REPO_ROOT / "data" / "db" / "papers.sqlite"
-OUT_PATH = REPO_ROOT / "data" / "work" / "nc2_evidence.json"
 SEED = 20260927
 SAMPLE_SIZE = 15
 
@@ -59,7 +59,7 @@ def id_mix(author_ids, oa_id):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--seed", type=int, default=SEED)
-    ap.add_argument("--out", type=Path, default=OUT_PATH, help="path relative to the repo root")
+    ap.add_argument("--out", type=Path, required=True, help="relative to the repo root, or absolute")
     args = ap.parse_args()
     seed, out_path = args.seed, REPO_ROOT / args.out
 
@@ -181,7 +181,7 @@ def main():
     print(f"flagged keys: {len(flagged)}  mix: {dict(flagged_mix)}")
     print(f"all multi-record keys: {len(multi_all)}  mix: {dict(all_mix)}")
     print(f"sampled: {sample}")
-    print(f"wrote {out_path.relative_to(REPO_ROOT)}")
+    print(f"wrote {out_path}")
 
 
 if __name__ == "__main__":

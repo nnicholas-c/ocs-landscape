@@ -147,6 +147,11 @@ def main():
     ap.add_argument("--out", type=Path, default=WORK / "nc2_name_keys.md", help="relative to the repo root")
     args = ap.parse_args()
     ev_path, a_path, b_path, out = (REPO_ROOT / p for p in (args.evidence, args.class_a, args.class_b, args.out))
+    # The report names its inputs repo-relative, so refuse outside inputs before writing anything.
+    bad = [n for n, p in (("--evidence", ev_path), ("--class-a", a_path), ("--class-b", b_path))
+           if not p.is_relative_to(REPO_ROOT)]
+    if bad:
+        ap.error(f"{', '.join(bad)} must be inside the repo, because the report names its inputs repo-relative")
     rel = lambda p: p.relative_to(REPO_ROOT).as_posix()
 
     ev = load(ev_path)

@@ -6,6 +6,7 @@ function) and data/projects.csv. Writes only the --out JSON. --out is required s
 one run's output never overwrites another's.
 
     run 1: .venv/bin/python -m pipeline.check_route_provenance --out data/work/nc1_route_provenance.json
+           (reproduces run 1's file only against run 1's database and data/raw files, commit 8172417)
     run 2: .venv/bin/python -m pipeline.check_route_provenance --out data/work/nc1_run2_route_provenance.json
 
 SQL used (all SELECTs):

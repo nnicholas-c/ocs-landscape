@@ -141,7 +141,7 @@ Conclusion. Rounds 1 and 2 compared 16 of 20 because the arXiv service refused e
 
 ## Run 2
 
-The three checks were rerun on run 2's database (data/db/papers.sqlite, after the arXiv via OpenAlex pull and the step 2 anchor rebuild). J2 marks a key in data/work/nc1_run2_route_provenance.json (pipeline/check_route_provenance.py). N3 marks a section of data/work/nc2_run2_name_keys.md (pipeline/merge_name_keys.py). A3 marks the a_refetch block of data/work/audit_s20260929_round1.json (pipeline/audit.py), and R3 marks the code output in data/work/nc3_run2_refetch.md. Each script was rerun for this section and matched its file.
+The three checks were rerun on run 2's database (data/db/papers.sqlite, after the arXiv via OpenAlex pull and the step 2 anchor rebuild). J2 marks a key in data/work/nc1_run2_route_provenance.json (pipeline/check_route_provenance.py). N3 marks a section of data/work/nc2_run2_name_keys.md (pipeline/merge_name_keys.py). A3 marks the a_refetch block of data/work/audit_s20260929_round1.json (pipeline/audit.py), and R3 marks the code output in data/work/nc3_run2_refetch.md. pipeline/check_route_provenance.py, pipeline/check_name_keys.py and pipeline/merge_name_keys.py were rerun with the run 2 options for this section, and each matched its committed file, as did the R3 code (STATUS.md, step 4 second judge, 22:41). pipeline/audit.py was not rerun, so A3 is the file the step 2 audit wrote (git log of data/work/audit_s20260929_round1.json, commit 4bc8129).
 
 ### 1. Papers per tech route
 
@@ -164,9 +164,9 @@ arxiv_via_openalex is the run 2 path that runs a phrase against OpenAlex's index
 
 (J1, core_route_counts. J2, core_route_counts, q2_snowball_only_core_by_route, q2_core_route_counts_without_snowball_only, route_entry[].by_entry_kind_exclusive.arxiv_via_openalex)
 
-Run 2 has 284 core papers against 267 in run 1 (J2, core_papers. J1, core_papers). 47 core papers have a snowball record and all 47 are snowball only (J2, q2_core_with_any_snowball_record).
+Run 2 has 284 core papers against 267 in run 1 (J2, core_papers. J1, core_papers). 47 core papers have a snowball record and all 47 are snowball only (J2, q2_core_with_any_snowball_record, q2_snowball_only_core_by_route).
 
-The largest route is architecture_only with 105 core papers (J2, largest_route). Of them 88 entered only through phrase queries, 7 through both an arxiv_via_openalex phrase and a phrase query, 5 only through the snowball, 3 only through an arxiv_via_openalex phrase and 2 only through an anchor lookup (J2, route_entry.architecture_only.by_entry_kind_exclusive).
+The largest route is architecture_only with 105 core papers (J2, largest_route, core_route_counts). Of them 88 entered only through phrase queries, 7 through both an arxiv_via_openalex phrase and a phrase query, 5 only through the snowball, 3 only through an arxiv_via_openalex phrase and 2 only through an anchor lookup (J2, route_entry.architecture_only.by_entry_kind_exclusive).
 
 | Entry path of architecture_only | Core papers |
 |---|---|
@@ -208,7 +208,7 @@ The flag rule from section 2 returns 147 keys on run 2's database, the same 147 
 
 (N3 section 2)
 
-15 keys were drawn at random with seed 20260930, not run 1's seed 20260927 (N3 section 3, section 2 above). Two classifiers, A and B, labeled each key without seeing each other's labels.
+15 keys were drawn at random with seed 20260930, not run 1's seed 20260927 (N3 section 3, section 2 above). Two classifiers, A and B, labeled each key without seeing each other's labels (data/work/nc2_run2_class_A.json, data/work/nc2_run2_class_B.json). One of A's summary views came from another agent's helper script, which read only data/work/nc2_run2_evidence.json, so it did not show A any of B's labels (deliverables/pitfalls_original_log.md, step 4 classifier A, 22:27).
 
 | Key | Records in map of all | A | B | Final |
 |---|---|---|---|---|
@@ -232,9 +232,11 @@ The flag rule from section 2 returns 147 keys on run 2's database, the same 147 
 
 A and B gave the same label on 15 of 15 keys and listed the same same-person record pairs on 15 of 15 (N3 section 4). The same_person share is 6 of 15, or 40 percent, with a 95 percent Wilson interval of 20 to 64 percent (N3 section 5). Scaled to 147 keys that is about 59, with a range of 29 to 94 (N3 section 5). The cannot_tell key counts as not split. Counting only pairs with both records in the team map gives 5 of 15, or 33 percent (interval 15 to 58 percent) (N3 section 5).
 
-Among the 6 same_person keys, a split joins an OpenAlex record to a name-only record in 3, two name-only records in 1 and two OpenAlex records in 3 (N3 section 5). The stage 2 merge rule for name-only records cannot cause the last kind, because OpenAlex assigned both IDs itself (N3 section 2).
+Among the 6 same_person keys, a split joins an OpenAlex record to a name-only record in 3, two name-only records in 1 and two OpenAlex records in 3 (N3 section 5). These add to 7, not 6, because a key can have more than one kind, and liu z has both of the first two kinds (N3 section 5, liu z pairs_same in data/work/nc2_run2_class_A.json and data/work/nc2_run2_class_B.json). The stage 2 merge rule for name-only records cannot cause the last kind, because OpenAlex assigned both IDs itself (N3 section 2).
 
-Conclusion. The bug is real, but run 2's sample does not show that most flagged keys are splits, because its interval of 20 to 64 percent includes half (N3 section 6). Run 1's sample gave 10 of 15 (interval 42 to 85 percent) (section 2 above), so section 2's "mostly a real bug" rests on one sample of 15. Person-level rankings still need a hand check, and group-level use is still safer.
+Conclusion. The bug is real, but run 2's sample does not show that most flagged keys are splits, because its interval of 20 to 64 percent includes half (N3 section 6). Run 1's sample gave 10 of 15 (interval 42 to 85 percent) (section 2 above), so section 2's "mostly a real bug" rests on one sample of 15.
+
+Run 1 and run 2 drew different samples, with different seeds (20260927 in section 2 above, 20260930 in N3 section 3), from different databases (run 1's is data/db/papers.sqlite in commit 8172417, run 2's is the one in place now), and different classifier runs labeled them (data/work/nc2_class_A.json and nc2_class_B.json for run 1, the run 2 files named above). So the move from 10 to 6 of 15 does not show that splitting fell between the runs (section 2 above, N3 section 5). The two intervals overlap from 42 to 64 percent (section 2 above, N3 section 5), and patterson d and yang y, the only keys drawn in both samples, got the same final label both times (section 2 above, N3 section 3). Person-level rankings still need a hand check, and group-level use is still safer.
 
 ### 3. Re-fetch sample (check a)
 
@@ -251,6 +253,6 @@ This is the run 2 audit after the anchor papers, seed 20260929 (data/work/audit_
 
 2 papers, the arXiv-only arxiv:2604.22146 and arxiv:2507.12265, were compared on title and year only (R3, title_and_year_only). Their stored cited_by_count is null while OpenAlex returned 0, so our database lacked the value, not the source (A3, items stored, refetched). First institution is null on both sides for both (A3, items stored, refetched). In total 74 of 80 field comparisons were made and 0 mismatched (R3).
 
-validation_report.md says 0 mismatches "across all 20 papers", which is true of mismatches but not of fields compared. Its later section "Corrections after code review (pull request #4)" already states the 18 and 16 (validation_report.md, item 1 of that section).
+The run 2 audit's check (a) text says 0 mismatches "across all 20 papers" (deliverables/validation_report.md, Run 2 audit after the anchor papers, check a). That is true of mismatches but not of fields compared. validation_report.md's later section "Corrections after code review (pull request #4)" already states the 18 and 16 (validation_report.md, item 1 of that section).
 
 Conclusion. All 20 were compared on title and year, but 2 had no stored citation count (R3). The gap goes beyond the sample, because 31 of the 284 core papers are arXiv-only and all 31 have a null cited_by_count (query on data/db/papers.sqlite, core_set = 1, openalex_id empty, cited_by_count null). Check (a) cannot test citation counts for arXiv-only papers until the database stores them.
