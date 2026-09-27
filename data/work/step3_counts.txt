@@ -1,0 +1,137 @@
+step 3 printed output, run 1 after the pull request #6 review fixes (.venv/bin/python -m pipeline.tech_map, then -m pipeline.project_timeline)
+== tech_map ==
+SQL (counts plotted):
+SELECT t.tech_route, t.trl_band, COUNT(*) AS n
+FROM tags t JOIN papers p ON p.paper_id = t.paper_id
+WHERE p.core_set = 1
+GROUP BY t.tech_route, t.trl_band
+ORDER BY t.tech_route, t.trl_band
+SQL (core papers with no tags row, not plotted):
+SELECT COUNT(*) FROM papers p LEFT JOIN tags t ON t.paper_id = p.paper_id
+WHERE p.core_set = 1 AND t.paper_id IS NULL
+per route (sorted as plotted): lab pilot production unclear total
+  architecture_only: 84 0 2 19 105
+  unclear: 25 0 1 18 44
+  mems_silicon_photonic: 43 0 0 0 43
+  thermo_optic: 27 0 0 3 30
+  mems_3d: 12 1 1 2 16
+  electro_optic: 14 0 0 0 14
+  other: 12 0 0 1 13
+  soa: 11 0 0 0 11
+  mems_2d: 3 0 0 0 3
+  lcos: 2 0 0 0 2
+  piezo: 2 0 0 0 2
+  robotic_patch_panel: 1 0 0 0 1
+per band lab: 236
+per band pilot: 1
+per band production: 4
+per band unclear: 43
+routes plotted: 12
+total core papers plotted: 284
+core papers with no tags row (not plotted): 0
+== radar decision ==
+source: deliverables/comparison_matrix.csv, 9 routes: electro_optic, lcos, mems_2d, mems_3d, mems_silicon_photonic, piezo, robotic_patch_panel, soa, thermo_optic
+  switching_time: reported for 7 of 9 routes, qualifies
+  insertion_loss: reported for 7 of 9 routes, qualifies
+  port_count: reported for 8 of 9 routes, qualifies
+  polarization_dependent_loss: reported for 2 of 9 routes, does not qualify
+  crosstalk: reported for 4 of 9 routes, does not qualify
+  wavelength_range: reported for 4 of 9 routes, does not qualify
+qualifying dimensions: 3 of 6 (need at least 4)
+decision: no radar chart drawn (graphs/tech_radar.html not written)
+wrote graphs/tech_map.html (10607 bytes)
+== project_timeline ==
+source: data/projects.csv, 12 rows, 12 entities
+known first_public_date (plotted): 4
+unknown first_public_date (listed under chart): 8
+per stage, plotted: concept 0, prototype 1, pilot 0, shipping 2, unknown 1
+per stage, listed: concept 0, prototype 1, pilot 0, shipping 3, unknown 4
+per stage, all rows: concept 0, prototype 2, pilot 0, shipping 5, unknown 5
+plotted rows (entity, stage, first_public_date):
+  Telescent, shipping, 2024-03-21
+  Coherent, unknown, 2024-03-25
+  iPronics, shipping, 2025-03-31
+  UTStarcom, prototype, 2026-09-21
+listed rows, date unknown (entity, stage):
+  nEye, prototype
+  Calient, shipping
+  Google, shipping
+  Polatis, shipping
+  Drut Technologies, unknown
+  Lightmatter, unknown
+  Lumentum, unknown
+  Oriole Networks, unknown
+wrote graphs/project_timeline.html (7146 bytes)
+
+step 3 printed output, run 2 (same two commands)
+== tech_map ==
+SQL (counts plotted):
+SELECT t.tech_route, t.trl_band, COUNT(*) AS n
+FROM tags t JOIN papers p ON p.paper_id = t.paper_id
+WHERE p.core_set = 1
+GROUP BY t.tech_route, t.trl_band
+ORDER BY t.tech_route, t.trl_band
+SQL (core papers with no tags row, not plotted):
+SELECT COUNT(*) FROM papers p LEFT JOIN tags t ON t.paper_id = p.paper_id
+WHERE p.core_set = 1 AND t.paper_id IS NULL
+per route (sorted as plotted): lab pilot production unclear total
+  architecture_only: 84 0 2 19 105
+  unclear: 25 0 1 18 44
+  mems_silicon_photonic: 43 0 0 0 43
+  thermo_optic: 27 0 0 3 30
+  mems_3d: 12 1 1 2 16
+  electro_optic: 14 0 0 0 14
+  other: 12 0 0 1 13
+  soa: 11 0 0 0 11
+  mems_2d: 3 0 0 0 3
+  lcos: 2 0 0 0 2
+  piezo: 2 0 0 0 2
+  robotic_patch_panel: 1 0 0 0 1
+per band lab: 236
+per band pilot: 1
+per band production: 4
+per band unclear: 43
+routes plotted: 12
+total core papers plotted: 284
+core papers with no tags row (not plotted): 0
+== radar decision ==
+source: deliverables/comparison_matrix.csv, 9 routes: electro_optic, lcos, mems_2d, mems_3d, mems_silicon_photonic, piezo, robotic_patch_panel, soa, thermo_optic
+  switching_time: reported for 7 of 9 routes, qualifies
+  insertion_loss: reported for 7 of 9 routes, qualifies
+  port_count: reported for 8 of 9 routes, qualifies
+  polarization_dependent_loss: reported for 2 of 9 routes, does not qualify
+  crosstalk: reported for 4 of 9 routes, does not qualify
+  wavelength_range: reported for 4 of 9 routes, does not qualify
+qualifying dimensions: 3 of 6 (need at least 4)
+decision: no radar chart drawn (graphs/tech_radar.html not written)
+wrote graphs/tech_map.html (10607 bytes)
+== project_timeline ==
+source: data/projects.csv, 12 rows, 12 entities
+known first_public_date (plotted): 4
+unknown first_public_date (listed under chart): 8
+per stage, plotted: concept 0, prototype 1, pilot 0, shipping 2, unknown 1
+per stage, listed: concept 0, prototype 1, pilot 0, shipping 3, unknown 4
+per stage, all rows: concept 0, prototype 2, pilot 0, shipping 5, unknown 5
+plotted rows (entity, stage, first_public_date):
+  Telescent, shipping, 2024-03-21
+  Coherent, unknown, 2024-03-25
+  iPronics, shipping, 2025-03-31
+  UTStarcom, prototype, 2026-09-21
+listed rows, date unknown (entity, stage):
+  nEye, prototype
+  Calient, shipping
+  Google, shipping
+  Polatis, shipping
+  Drut Technologies, unknown
+  Lightmatter, unknown
+  Lumentum, unknown
+  Oriole Networks, unknown
+wrote graphs/project_timeline.html (7146 bytes)
+
+sha256 of the pages after run 1 (sha256sum)
+b02c238ff281d3e575628c4ea9c9e1e52bf4fed9c7336eb96e7dcc0282f14944 *graphs/tech_map.html
+7fb32595e24c80403d885be2256a283c399290c51d758d7dfd794e7b68337bf9 *graphs/project_timeline.html
+
+sha256 of the pages after run 2 (sha256sum)
+b02c238ff281d3e575628c4ea9c9e1e52bf4fed9c7336eb96e7dcc0282f14944 *graphs/tech_map.html
+7fb32595e24c80403d885be2256a283c399290c51d758d7dfd794e7b68337bf9 *graphs/project_timeline.html
