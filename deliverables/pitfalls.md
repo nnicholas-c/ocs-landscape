@@ -74,6 +74,13 @@ API means application programming interface. HTTP 429 means "too many requests" 
 
 The HTTP 406 evidence, in order. In run 1, export.arxiv.org returned 406 twice on the stage 0 smoke query before a rerun got 5 records (04:37 to 04:40), 406 or 429 on 9 of 10 phrase queries (04:43 to 05:02), and 406 on the audit's re-fetch of arXiv-only papers in rounds 1 to 3 (07:22, 07:39, 14:57). A later probe sent one request at a time, 5 to 10 seconds apart after a long idle period, and got 406 on every request, so pacing was not the cause (15:54). Run 2 therefore took arXiv content through OpenAlex's arXiv index, and those records are labelled arxiv_via_openalex. For a full-scale run, the option is arXiv's official bulk metadata snapshot.
 
+Reports from other projects, not our evidence. Other projects also reported HTTP 406 errors from arXiv's API in September 2026 (opening dates of the four GitHub issues below). Nothing in this run depends on them.
+
+- https://github.com/sdewell/code-quorum/issues/2
+- https://github.com/alipourkarimi/ISAC_LLM/issues/1
+- https://github.com/pkuppens/production-agentic-rag-course/issues/46
+- https://github.com/openags/paper-search-mcp/issues/121
+
 ### Stage 0 smoke test
 
 - [2026-09-26 04:37, 04:39, 04:40] The smoke query 'optical circuit switch' got HTTP 406 on every retry, twice, and logged zero new records three times.
@@ -445,9 +452,9 @@ The HTTP 406 evidence, in order. In run 1, export.arxiv.org returned 406 twice o
 - arXiv access. export.arxiv.org refused this host with HTTP 406 even one request at a time, and OpenAlex's arXiv index gave only 6 of 40 run 1 arXiv-only papers an OpenAlex ID, so the option for a full-scale run is arXiv's official bulk metadata snapshot.
 - OpenAlex metered cost. More queries and snowball rounds cost more, a rerun is billed even when it adds nothing, and the snowball cost was not saved, so cost must be logged per stage.
 - Fuzzy-title dedup. Pairs to compare grow with the square of the record count, and the subset flaw already caused 3 wrong merges in run 1's 885 papers.
-- Split people. In run 1 about 99 of the 149 flagged name keys were one person in several records, run 2 flags 147, and the count grows with every source that lacks author IDs or affiliations.
+- Split people. Run 2 flags 147 name keys, and a sample of 15 (seed 20260930) puts about 59 of them, range 29 to 94, as one person in several records (deliverables/number_checks.md, Run 2, section 2). Run 1's estimate, about 99 of 149, came from a different sample (same section). The count grows with every source that lacks author IDs or affiliations.
 - Blocked web pages. JavaScript rendering, Cloudflare, throttling, and a timeout already blocked 4 sites for a scout run of 12 entities.
-- Judged cells. Two careful readers disagreed on 4 of 29 cells in round 3 (seed 20260927), 6 of 31 in the first run 2 audit's first round (seed 20260928), and 3 of 30 in the run 2 audit after the anchor papers (seed 20260929), and reading does not scale with the matrix.
+- Judged cells. The auditor judged from the quotes only and the second judge also read the cited abstracts, so they applied different criteria (deliverables/validation_report.md, check (b) of each audit; original log, 15:10 and 17:37). They disagreed on 4 of 29 cells in round 3 (seed 20260927), 6 of 31 in the first run 2 audit's first round (seed 20260928), and 3 of 30 in the run 2 audit after the anchor papers (seed 20260929), and reading does not scale with the matrix.
 - Truncated titles. OpenAlex stores at least 6 of the 13 anchors with only the title words before the colon (Jupiter Evolving, RotorNet, c-Through, Sirius, Helios, ProjecToR), and publisher pages refuse automated fetches, so a title check against full titles fails more often as the anchor list grows (data/work/step2_anchors.md; original log, 19:32).
 - Graders that share code with what they grade. Run 1's builder passed the audit by importing its test, and more agents mean more chances for that.
 - Query yield. One phrase per route decided the route counts, so more routes and sources need more phrases per route.
