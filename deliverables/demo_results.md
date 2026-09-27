@@ -17,12 +17,13 @@ Every number points to a file or to a query Q1 to Q18, listed at the end. Number
 | papers after dedup | 885 | 1211 (1213 before step 2) | STATUS.md, 05:57, 16:32 and 20:31 lines; Q3 |
 | core set | 267 | 284 | STATUS.md, 05:57 line; Q3 |
 | extended set | 376 | 420 | STATUS.md, 05:57 line; Q3 |
-| anchor papers in the data, of 13, by full title or DOI (digital object identifier) | 8, c-Through only through the snowball, and 3 more by title prefix only | 8, and 3 more by title prefix only, Jupiter Evolving and RotorNet still missing | STATUS.md, Gate A and 20:31 lines; Q17; Q18 |
+| anchor papers in the data, of 13, by full title or DOI (digital object identifier) | 8, c-Through only through the snowball, and 3 more by title prefix only | 8, and 3 more by title prefix only. Jupiter Evolving and RotorNet are a known limit, because OpenAlex truncates their long titles at the colon and ACM (Association for Computing Machinery) Digital Library pages refuse automated fetches. They are deferred to after the meeting, using the doi_publisher_confirmed method (issue #13) | STATUS.md, Gate A, 19:38 and 20:31 lines; Q17; Q18; data/work/step2_anchors.md |
 | arXiv-only papers, every source is arxiv or arxiv_via_openalex (of them core) | 40 (36) | 366 (53) | data/work/run2_arxiv_coverage.md; Q15 |
-| papers with no OpenAlex ID (identifier), paper_id "arxiv:..." (of them core) | 40 (36) | 34 (31) | data/work/run2_arxiv_coverage.md; Q15 |
+| papers with no OpenAlex ID (identifier), paper_id "arxiv:..." (of them core) | 40 (36) | 34 (31), and the 31 core papers have no citation count either | data/work/run2_arxiv_coverage.md; Q15; deliverables/number_checks.md, Run 2, section 3 |
 | authors in the database | 5434 | 7624 | STATUS.md, 05:57 line; deliverables/curation_report.md |
 | authors in the team map | 1597 | 1827 | STATUS.md, 06:50 line; Q8 |
 | institutions | 1342 | 1641 | STATUS.md, 05:57 line; deliverables/curation_report.md |
+| run time and agent invocations | not compared here | 2026-09-26, 15:53 to 18:49, 13 agent invocations in stages 6 to 8, and no count kept for stages 1a to 4. Step 2 reran stages 1b to 8 except the scout from 19:24 to 21:51 in 22 invocations | deliverables/pitfalls_original_log.md, 15:53; STATUS.md, 18:49, 19:24 and 21:51 lines |
 | audit behind the audit rows below | round 3 (after the fix), seed 20260927, passed Gate C on its first round | run 2 audit after the anchor papers, seed 20260929, passed Gate C on its first round, new samples | deliverables/validation_report.md, round 3 and Run 2 audit after the anchor papers |
 | audit (a), re-fetch mismatch rate | 0 percent, 20 of 20 compared | 0 percent, 20 of 20 compared | same |
 | audit (b), unsupported sampled cells | 5 percent, 1 of 20 | 0 percent, 0 of 20 | same |
@@ -63,7 +64,7 @@ Records per query (Q1) count the first query that found each record (deliverable
 | openalex | 7 anchor titles, one record each | 7 |
 | openalex snowball | 10 seed papers, 15 records each | 150 |
 | arxiv (run 1) | optical circuit switch | 47 |
-| arxiv (run 1) | the other 9 phrases | 0 |
+| arxiv (run 1) | the other 9 phrases | 0, refused with HTTP (web protocol) errors 429 and 406, and a later one-at-a-time probe also got 406 (deliverables/pitfalls_original_log.md, 15:54) |
 | arxiv_via_openalex (run 2) | wavelength selective switch | 45 |
 | arxiv_via_openalex (run 2) | reconfigurable datacenter network | 44 |
 | arxiv_via_openalex (run 2) | MEMS optical switch | 40 |
@@ -75,7 +76,7 @@ Records per query (Q1) count the first query that found each record (deliverable
 | arxiv_via_openalex (run 2) | silicon photonic switch | 31 |
 | arxiv_via_openalex (run 2) | optical circuit switching | 0 new (STATUS.md, 15:58 line) |
 
-In run 1, arXiv's other 9 phrases got HTTP (web protocol) errors 429 and 406, so their zeros say nothing about arXiv's content (STATUS.md, stage 1a line). Gate A counted 10 of 13 anchors found, missing Jupiter Evolving, RotorNet, and c-Through, whose lookup hit an unrelated 1999 paper (STATUS.md, Gate A line). The real c-Through came in through the snowball. Step 2 fetched the other two by DOI, but OpenAlex keeps only the title words before the colon, so the title check scored 23.88 and 23.19 against 95 and both were removed (data/work/step2_anchors.md; Q17).
+In run 1, arXiv's other 9 phrases got HTTP errors 429 and 406, so their zeros say nothing about arXiv's content (STATUS.md, stage 1a line). Gate A counted 10 of 13 anchors found, missing Jupiter Evolving, RotorNet, and c-Through, whose lookup hit an unrelated 1999 paper (STATUS.md, Gate A line). The real c-Through came in through the snowball. Step 2 fetched the other two by DOI, but OpenAlex keeps only the title words before the colon, so the title check scored 23.88 and 23.19 against 95 and both were removed (data/work/step2_anchors.md; Q17).
 
 ### Relevance and dedup
 
@@ -324,6 +325,13 @@ In the first run 2 audit (seed 20260928), for two of the three failures, the quo
 | mems_2d:integration | census, every run 2 round | It never describes a free-space beam path, mirrors, or fiber collimators for the 2D implementation by itself, so it does not support the value. | still fails | fails, census |
 | soa:ai_cluster_fit | census, every run 2 round | they support at most an indirect, data-center-in-general claim, not "yes". | still fails | fails, census |
 | piezo:trl_band | run 2 audit after the anchor papers, census | it does not support "lab" over "pilot" or "production". | passes, with an older quote that step 2's rebuild swapped for a loss measurement (data/work/audit_r2data_round2_judge_input.json and audit_s20260929_judge_input.json) | fails, census |
+
+| left open by the run 2 audit after the anchor papers | detail | source |
+|---|---|---|
+| the 3 failing census cells | The auditor called them unsupported and the second judge supported. None is in the 20-cell Gate C sample and the census has no gate, so they await a person's decision | validation_report.md, Run 2 audit after the anchor papers; deliverables/pitfalls.md, stage 7 audit (step 2); pitfalls_original_log.md, 21:21 |
+| why the judges differ | The auditor's input held only each cell's value, quotes and label definition. The second judge also read the cited abstracts, the route files and projects.csv | data/work/audit_s20260929_judge_input.json; data/work/audit_s20260929_second_judge.json, source and criterion |
+| piezo:trl_band | The cell says lab, but its quote "never uses lab language either". A person should check the Polatis page | validation_report.md, same section, Other observations; deliverables/open_questions.md, item 4 |
+| 12 reported free-text cells | Quotes verbatim, but nobody judged whether they support the value, because the audit judges only sampled and census cells | validation_report.md, Corrections after code review (pull request #4), item 2 |
 
 ### Run 1 audits
 
