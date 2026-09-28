@@ -1,0 +1,241 @@
+[
+ {
+  "rank": 1,
+  "author": "Ming C. Wu",
+  "author_id": "A5100669891",
+  "verdict": "split_across_records",
+  "other_records": [
+   {
+    "author_id": "A5144460793",
+    "display_name": "Ming Wu",
+    "same_person": "likely",
+    "why": "Only paper W7172527693 (2026, 'Zero-change foundry compatible silicon photonics MEMS optical switch', core, no affiliation). Its coauthor 'Jianheng Luo' (A5144418707) has the same full name as Wu's coauthor A5112187957 on W2800201100, W2937088522, W4226451033 and others. Same MEMS silicon photonic switch topic. Shows as a separate node 'Ming Wu | unknown' in coauthor.html."
+   },
+   {
+    "author_id": "A5018779616",
+    "display_name": "Mark N. Wu",
+    "same_person": "no",
+    "why": "Different first name, Johns Hopkins, one non-extended neuroscience paper W2395416306, no shared coauthor, institution or paper."
+   }
+  ],
+  "evidence": "name_key 'wu m'. Split: A5144460793 (its own OpenAlex ID, 1 core paper) shares the full-name coauthor Jianheng Luo and the topic, with no shared paper or institution. Merging moves core from 24 to 25 (computed), and rank 1 is unchanged. Also, two affiliation rows carry wrong institutions resolved by OpenAlex. W1653883346 (2003) shows 'Office of Multidisciplinary Activities' but the raw affiliation string is 'OMM, Inc., San Diego'. W4393174577 (2023) shows 'Berkeley College' because curate keeps only the first of two OpenAlex institutions ('Berkeley College', 'University of California, Berkeley') while the raw string says 'UC Berkeley'. The main institution, UC Berkeley (23 of 27 extended papers), is right."
+ },
+ {
+  "rank": 2,
+  "author": "Tae Joon Seok",
+  "author_id": "A5085789636",
+  "verdict": "one_person_correct",
+  "other_records": [],
+  "evidence": "No other author record has name_key 'seok t', and a surname-token search of the authors table found only people with other first initials. Institutions on extended papers: UC Berkeley 10, Gwangju Institute of Science and Technology (GIST) 6 (2017 to 2019), University College Cork 1, none 2. Counting every listed affiliation gives Berkeley 14. Also, W2786734285 gives Seok 'University College Cork' and Peter A. O'Brien 'University of California, Berkeley'. The raw OpenAlex affiliation strings carry the same assignment, so the swap is in the source, not the pipeline. Main institution Berkeley is right by count, but most of his extended papers from 2017 on list GIST."
+ },
+ {
+  "rank": 3,
+  "author": "Niels Quack",
+  "author_id": "A5064591043",
+  "verdict": "one_person_correct",
+  "other_records": [],
+  "evidence": "No other author record has name_key 'quack n', and a surname-token search of the authors table found only people with other first initials. Institutions on extended papers: EPFL 9, UC Berkeley 6 (2014 to 2015 plus W3138799074), none 1. Counting every listed affiliation gives EPFL 9 vs Berkeley 8, so EPFL wins narrowly. All 16 core papers are mems_silicon_photonic, which is consistent."
+ },
+ {
+  "rank": 4,
+  "author": "Sangyoon Han",
+  "author_id": "A5073485923",
+  "verdict": "one_person_correct",
+  "other_records": [
+   {
+    "author_id": "A5076455505",
+    "display_name": "Siyuan Han",
+    "same_person": "no",
+    "why": "Kansas, one non-extended qubit paper W2606456423, nothing shared."
+   },
+   {
+    "author_id": "A5070926896",
+    "display_name": "Song Han",
+    "same_person": "no",
+    "why": "One non-extended CNN sparsity paper W2619096655, nothing shared."
+   },
+   {
+    "author_id": "A5085074267",
+    "display_name": "Shuangfeng Han",
+    "same_person": "no",
+    "why": "China Mobile, one non-extended 6G paper W3110989801, nothing shared."
+   }
+  ],
+  "evidence": "name_key 'han s' collides with three other people who have different first names. None is in the extended set, and none shares a coauthor, institution or paper. Institutions: UC Berkeley 9, KAIST 2, DGIST 1, none 4. Consistent single person."
+ },
+ {
+  "rank": 5,
+  "author": "R.S. Muller",
+  "author_id": "A5073987024",
+  "verdict": "one_person_correct",
+  "other_records": [],
+  "evidence": "No other author record has name_key 'muller r', and a surname-token search of the authors table found only people with other first initials. (Others found: Rafael Rios-Muller, Clemens Muller, Eric R. Muller, F. H. Muller.) UC Berkeley 11, none 2. All papers are Berkeley MEMS silicon photonic switch papers shared with Wu, Seok, Han and Quack. The display name is initials only, which a reader may notice."
+ },
+ {
+  "rank": 6,
+  "author": "Shu Namiki",
+  "author_id": "A5065583266",
+  "verdict": "one_person_correct",
+  "other_records": [],
+  "evidence": "No other author record has name_key 'namiki s', and a surname-token search of the authors table found only people with other first initials. AIST 12 of 13 extended papers, none 1. Routes thermo_optic 6, architecture_only 2, unclear 4, consistent with the AIST silicon photonic OCS group."
+ },
+ {
+  "rank": 7,
+  "author": "Keijiro Suzuki",
+  "author_id": "A5048395151",
+  "verdict": "one_person_correct",
+  "other_records": [
+   {
+    "author_id": "A5057049058",
+    "display_name": "Kenya Suzuki",
+    "same_person": "no",
+    "why": "Different first name, NTT (Japan), four wavelength selective switch and ROADM papers, none in the extended set (W2340261621, W2512219930, W2901479220, W3168771553). No shared coauthor, institution or paper."
+   }
+  ],
+  "evidence": "name_key 'suzuki k' collides with Kenya Suzuki (NTT), a different person who is correctly kept apart. Keijiro Suzuki is AIST on 12 of 12. Consistent."
+ },
+ {
+  "rank": 8,
+  "author": "Nicola Calabretta",
+  "author_id": "A5080891126",
+  "verdict": "one_person_correct",
+  "other_records": [],
+  "evidence": "No other author record has name_key 'calabretta n', and a surname-token search of the authors table found only people with other first initials. Eindhoven University of Technology 11 of 11. Routes architecture_only 7, soa 2, unclear 2."
+ },
+ {
+  "rank": 9,
+  "author": "Kazuhiro Ikeda",
+  "author_id": "A5044456154",
+  "verdict": "one_person_correct",
+  "other_records": [],
+  "evidence": "No other author record has name_key 'ikeda k', and a surname-token search of the authors table found only people with other first initials. AIST 11 of 11. Routes thermo_optic 6, unclear 5."
+ },
+ {
+  "rank": 10,
+  "author": "Ken-ichi Sato",
+  "author_id": "A5075238724",
+  "verdict": "one_person_correct",
+  "other_records": [],
+  "evidence": "No other author record has name_key 'sato k', and a surname-token search of the authors table found only people with other first initials. The run-1 note in pipeline/merge_name_keys.py about two Sato records no longer applies, because the current database has one. Also, the institution is a tie: Nagoya University 5 (2012 to 2019) and AIST 5 (2019 to 2023), none 1. graph.py breaks ties by sorted inst_id, so 'Nagoya University' is an arbitrary pick and his recent papers are AIST. Route 'other' comes from the arrayed waveguide grating (AWG) wavelength-routing switch papers W2024436451 and W2807655209, whose abstracts do name AWGs."
+ },
+ {
+  "rank": 11,
+  "author": "George C. Papen",
+  "author_id": "A5001604903",
+  "verdict": "one_person_correct",
+  "other_records": [],
+  "evidence": "No other author record has name_key 'papen g', and a surname-token search of the authors table found only people with other first initials. UCSD 8, 'UC San Diego Health System' 1, Google 1. The Health System row (W2141911769) is an OpenAlex mis-resolution: the raw string is 'UC San Diego' and the first of two listed institutions was kept. Route mems_silicon_photonic comes from W2581695752 and W2615050161. The W2581695752 author list has UCSD coauthors Forencich, Grant and Knutson Dylan next to the Berkeley group, so this is a real collaboration. Route lcos comes from W2002555923, whose abstract says 'wavelength-selective switch' and never LCoS, so lcos is an inference."
+ },
+ {
+  "rank": 12,
+  "author": "Keren Bergman",
+  "author_id": "A5081695392",
+  "verdict": "split_across_records",
+  "other_records": [
+   {
+    "author_id": "name:bergman k",
+    "display_name": "Keren Bergman",
+    "same_person": "yes",
+    "why": "Name-only record from arXiv-only paper arxiv:2002.00473 (METTEOR, 2020, core, no affiliation). Both of its coauthors, Min Yee Teh and Shizhen Zhao, are also coauthors of A5081695392. Shows as a second node 'Keren Bergman | unknown' in coauthor.html."
+   }
+  ],
+  "evidence": "name_key 'bergman k'. Same full name plus two shared full-name coauthors. The name-only record could not merge because curate.py merges a no-ID record only on a shared institution, and arXiv-only rows have none. Merged core would be 11 (computed), not 10. Columbia (11 of 12) is right. Also, route electro_optic comes from W2062631387, whose abstract contains neither 'electro-optic' nor 'Mach'."
+ },
+ {
+  "rank": 13,
+  "author": "Hitoshi Kawashima",
+  "author_id": "A5044560248",
+  "verdict": "one_person_correct",
+  "other_records": [],
+  "evidence": "No other author record has name_key 'kawashima h', and a surname-token search of the authors table found only people with other first initials. AIST 10 of 10. Routes thermo_optic 5, unclear 5."
+ },
+ {
+  "rank": 14,
+  "author": "Georgios Zervas",
+  "author_id": "A5044981310",
+  "verdict": "split_across_records",
+  "other_records": [
+   {
+    "author_id": "A5002022033",
+    "display_name": "George Zervas",
+    "same_person": "yes",
+    "why": "Separate OpenAlex ID, one core paper W2164698118 (2013), University of Bristol. Shares 7 coauthors with A5044981310 (Dimitra E. Simeonidou, Reza Nejabati, Nicola Calabretta, Giacomo Bernini, Nicola Ciulli, Salvatore Spadaro, Shuping Peng) and the Bristol institution. Graph degree 24."
+   },
+   {
+    "author_id": "name:zervas g#2",
+    "display_name": "Georgios Zervas",
+    "same_person": "yes",
+    "why": "arXiv-only arxiv:2211.15226 (RAMP, 2022, core). Its coauthors Alessandro Ottino and Joshua Benjamin are both coauthors of A5044981310."
+   },
+   {
+    "author_id": "name:zervas g",
+    "display_name": "Georgios Zervas",
+    "same_person": "likely",
+    "why": "arXiv-only arxiv:2211.02466 (optically composable data centres, 2022, core). Same full name and topic. Its only coauthor, Zacharaya Shabka, does not appear on the main record's papers, so the link is name plus topic only."
+   }
+  ],
+  "evidence": "name_key 'zervas g' has four records, and all four are separate nodes in coauthor.html (three 'Georgios Zervas', one 'George Zervas'). Merging all four gives 12 core papers (computed), which would move him from rank 14 to a tie with Namiki and Suzuki (5 authors have more). Also, the institution is wrong. The CSV says University of Bristol, but counting every affiliation OpenAlex lists gives University College London 6 vs Bristol 4. On W2913395450 and W4323644257, OpenAlex lists a mis-resolved 'Network Group (Czechia)' before UCL (raw string 'Optical Networks Group, ... University College London'), and curate keeps only the first. The remaining 4 vs 4 tie is broken by sorted inst_id. All his papers since 2019 list UCL. Also, two routes look unsupported: piezo from W2913395450 and soa from W3006394648 (PULSE), and neither abstract contains 'piezo', 'SOA' or 'semiconductor optical amplifier'."
+ },
+ {
+  "rank": 15,
+  "author": "Amin M. Vahdat",
+  "author_id": "A5050245571",
+  "verdict": "one_person_correct",
+  "other_records": [],
+  "evidence": "No other author record has name_key 'vahdat a', and a surname-token search of the authors table found only people with other first initials. Extended papers: Google 5, UCSD 3, none 1 (every listed affiliation: Google 5, UCSD 4). Both are real. UCSD is on core papers 2010 to 2013 (W2119638333, W2074285614, W2151668565), and Google on 2012 to 2023 (W2141911769, W2002555923, W3188706325, W4377082743, W4386365418), so 'Google (United States)' is defensible but close. Route lcos comes from W2002555923, whose abstract says 'wavelength-selective switch' and never LCoS. mems_3d comes from W4292950821, whose abstract does mention MEMS."
+ },
+ {
+  "rank": 16,
+  "author": "George Porter",
+  "author_id": "A5053471164",
+  "verdict": "one_person_correct",
+  "other_records": [],
+  "evidence": "No other author record has name_key 'porter g', and a surname-token search of the authors table found only people with other first initials. UCSD 7, 'UC San Diego Health System' 1 (W2141911769, the same OpenAlex mis-resolution as Papen, raw string 'UC San Diego'). Main UCSD is right. Route lcos is inferred from W2002555923 'wavelength-selective switch', as for Papen and Vahdat."
+ },
+ {
+  "rank": 17,
+  "author": "Xuwei Xue",
+  "author_id": "A5074335209",
+  "verdict": "one_person_correct",
+  "other_records": [
+   {
+    "author_id": "A5050040712",
+    "display_name": "Xiaoxiao Xue",
+    "same_person": "no",
+    "why": "Different first name, Purdue, one non-extended micro-comb paper W2763363916, nothing shared."
+   }
+  ],
+  "evidence": "name_key 'xue x' collides with Xiaoxiao Xue, a different person who is correctly kept apart. Eindhoven 6, BUPT 2 (both 2022). Consistent."
+ },
+ {
+  "rank": 18,
+  "author": "Ryotaro Konoike",
+  "author_id": "A5048122574",
+  "verdict": "one_person_correct",
+  "other_records": [],
+  "evidence": "No other author record has name_key 'konoike r', and a surname-token search of the authors table found only people with other first initials. AIST 8 of 8. Routes thermo_optic 4, unclear 4. Lowest degree in the top 20 (11)."
+ },
+ {
+  "rank": 19,
+  "author": "Qixiang Cheng",
+  "author_id": "A5054716038",
+  "verdict": "split_across_records",
+  "other_records": [
+   {
+    "author_id": "name:cheng q",
+    "display_name": "Qixiang Cheng",
+    "same_person": "yes",
+    "why": "arXiv-only arxiv:2403.02866 (electro-optic resonant photonic switches, 2024, core, no affiliation). Coauthors Richard V. Penty and Rui Ma are both coauthors of A5054716038. Shows as a second node 'Qixiang Cheng | unknown' in coauthor.html."
+   }
+  ],
+  "evidence": "name_key 'cheng q'. Same full name plus two shared full-name coauthors. Merged core would be 8 (computed). Also, the institution is a tie: University of Cambridge 4 (2013 to 2015) and Columbia University 4 (2018 to 2023). graph.py breaks it by sorted inst_id, so 'University of Cambridge' is an arbitrary pick."
+ },
+ {
+  "rank": 20,
+  "author": "Johannes Henriksson",
+  "author_id": "A5085125488",
+  "verdict": "one_person_correct",
+  "other_records": [],
+  "evidence": "No other author record has name_key 'henriksson j', and a surname-token search of the authors table found only people with other first initials. UC Berkeley 6, GIST 1 (W2786734285, where the raw OpenAlex string says GIST), 'Berkeley College' 1 (W4393174577, mis-resolved: the raw string says 'UC Berkeley' and the first of two listed institutions was kept). Main UC Berkeley is right."
+ }
+]
