@@ -56,7 +56,7 @@
 
 在第 1 次运行中，arXiv 的 API 以 HTTP 406 或 429 拒绝了 10 次短语查询中的 9 次，之后一次每次只发一个请求的探测仍然每个请求都得到 406，所以原因不在请求节奏，最终只进来 47 条记录。第 2 次运行改为通过 OpenAlex 的 arXiv 索引获取了 341 条记录，其中 341 条中有 299 条带有机构信息，但第 1 次运行中 40 篇仅见于 arXiv 的论文只有 6 篇获得了 OpenAlex ID，所以全量运行要在这个索引和 arXiv 的批量元数据快照之间做选择。
 
-来源：deliverables/pitfalls.md:75; deliverables/demo_results.md:15-16; deliverables/meeting_summary.md:39, 53; deliverables/open_questions.md:23.
+来源：deliverables/pitfalls.md:75; deliverables/demo_results.md:15-16; deliverables/meeting_summary.md:39, 53; deliverables/open_questions.md:23; deliverables/pitfalls_original_log.md:153.
 
 ### 6. 矩阵可信吗？
 
@@ -78,7 +78,7 @@
 
 ### 9. 为什么审计日志中还留有不一致之处？
 
-validation_report.md 只能追加，所以六轮审计和修正堆积在一起，它的第 7 步修正一节两次未通过第二评审代理的检查，随后又在第三次也是最后一次检查中，因过时的 pitfalls.md 行号引用和一句过时的提交说明而未通过。项目负责人停止了修正，把遗留问题移到了 issue #14，针对全量运行的提议是每轮一份报告，另加一个索引。
+validation_report.md 只能追加，所以六轮审计和修正堆积在一起，它的第 7 步修正一节两次未通过第二评审代理的检查，随后又在第三次也是最后一次检查中，因过时的 pitfalls.md 行号引用和一句过时的提交说明而未通过。项目负责人停止了修正，把遗留问题移到了 issue #14，针对全量运行的提议是每轮一份报告。
 
 来源：deliverables/open_questions.md:27; STATUS.md:83-86, 89; SUMMARY-2026-09-27.md:152; deliverables/meeting_summary.md:38.
 

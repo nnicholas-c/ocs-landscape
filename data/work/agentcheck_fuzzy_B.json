@@ -1,0 +1,93 @@
+[
+ {
+  "line": 69,
+  "kept_id": "W2271940456",
+  "merged_key": "openalex:W1635046341",
+  "verdict": "different_papers",
+  "evidence": "A is a 2015 conference-paper (doi 10.1109/omn.2015.7288891, pages 1-2, 6 authors incl. Wencong Zhang); B is a 2016 IEEE Photonics Technology Letters article (vol 28 issue 5 pages 561-564, 5 authors, all shared with A by OpenAlex author ID). Abstracts differ (fuzz.ratio 36.2): A is a short results summary (145um cell, 1.5dB loss), B a full letter. Same group and work line, but a conference paper and its later journal letter are distinct publications."
+ },
+ {
+  "line": 70,
+  "kept_id": "W2340261621",
+  "merged_key": "openalex:W2186112211",
+  "verdict": "different_papers",
+  "evidence": "A is a 2015 OECC conference-paper (doi 10.1109/oecc.2015.7340301, pages 1-3); B is a 2016 IEEE Photonics Journal article (vol 8 issue 2 pages 1-9). Author lists differ by OpenAlex ID: 4 shared, A only Keita Yamaguchi and Joji Yamaguchi, B only Kenzo Yamaguchi and Mikitaka Itoh. Abstracts differ (fuzz.ratio 46.3; A: single diffractive optics deflector, broadcast-and-select; B: MPMT switch with same optics as 1xN LCOS switch). Related conference and journal papers, not the same paper."
+ },
+ {
+  "line": 71,
+  "kept_id": "W2792328579",
+  "merged_key": "openalex:W2798334538",
+  "verdict": "different_papers",
+  "evidence": "Same single author (Ken-ichi Sato, same OpenAlex ID) and title, but A is a 2017 ECOC conference-paper (doi 10.1109/ecoc.2017.8346155, pages 1-3, 263-char abstract) and B is a 2018 Journal of Lightwave Technology article (vol 36 issue 7 pages 1411-1419, 1031-char abstract). Abstracts are different text (fuzz.ratio 40.0). Conference talk paper vs journal article: distinct publications."
+ },
+ {
+  "line": 72,
+  "kept_id": "W2074285614",
+  "merged_key": "openalex:W3000564174",
+  "verdict": "same_paper",
+  "evidence": "Identical abstract (fuzz.ratio 100) and identical 8-author list; same publication date 2012-08-13 and same pages 95-96. A is the ACM SIGCOMM Computer Communication Review copy (vol 42 issue 4, doi 10.1145/2377677.2377698), B the SIGCOMM proceedings copy (doi 10.1145/2342356.2342377). One demo paper listed in two ACM containers."
+ },
+ {
+  "line": 73,
+  "kept_id": "W2948602808",
+  "merged_key": "openalex:W3008629526",
+  "verdict": "same_paper",
+  "evidence": "Same 18 authors in the same order (A full names, B initials). Abstracts near identical (fuzz.ratio 96.7), with small wording changes (A 'In this review', B 'In this paper'; A 'quantum data locking', B 'quantum random number generators'). A has no DOI and its primary location is the White Rose Research Online repository (2019-06-01); B is the Advances in Optics and Photonics article (doi 10.1364/aop.361502, 2020). A is a repository or accepted-manuscript copy of B. Merge correct (note: paper is quantum cryptography, off topic for OCS, but that is a relevance issue, not a merge issue)."
+ },
+ {
+  "line": 74,
+  "kept_id": "W2151668565",
+  "merged_key": "openalex:W3008830959",
+  "verdict": "same_paper",
+  "evidence": "Identical 9-author list, same pages 447-458, same DOI article suffix 2486007 (A 10.1145/2534169.2486007 in SIGCOMM CCR vol 43 issue 4; B 10.1145/2486001.2486007 SIGCOMM 2013 proceedings). B's abstract is an exact prefix of A's (A is the longer, untruncated copy). Same paper in two ACM containers."
+ },
+ {
+  "line": 75,
+  "kept_id": "W2130531694",
+  "merged_key": "openalex:W4238465620",
+  "verdict": "same_paper",
+  "evidence": "Identical 3-author list (Al-Fares, Loukissas, Vahdat), same date 2008-08-17, same pages 63-74, same DOI article suffix 1402967 (A 10.1145/1402958.1402967 proceedings; B 10.1145/1402946.1402967 SIGCOMM CCR vol 38 issue 4). A's abstract is an exact prefix of B's. Same paper in two ACM containers."
+ },
+ {
+  "line": 76,
+  "kept_id": "W4200142051",
+  "merged_key": "openalex:W4281707213",
+  "verdict": "same_paper",
+  "evidence": "Identical 3-author list (Zhao, Cao, Wang). Abstract near identical (fuzz.ratio 97.9; differences are LaTeX rendering of beta(G) and 'their ODCs'). A is a 2-page SIGMETRICS 2022 conference-paper (pages 97-98, doi 10.1145/3489048.3522639) whose referenced_works includes B; B is the full POMACS article (vol 5 issue 3 pages 1-24, 2021). A is the conference abstract of B, so same paper. A shares DOI suffix 3522639 with line 77's record, so lines 76 and 77 are the same item twice."
+ },
+ {
+  "line": 77,
+  "kept_id": "W4200142051",
+  "merged_key": "openalex:W4284882945",
+  "verdict": "same_paper",
+  "evidence": "Identical 3-author list and near-identical abstract (fuzz.ratio 97.9 vs B). A is the ACM SIGMETRICS Performance Evaluation Review copy (vol 50 issue 1 pages 97-98, doi 10.1145/3547353.3522639, same suffix 3522639 as line 76's record) and its referenced_works includes B, the full POMACS article (pages 1-24). 2-page abstract of B, same paper."
+ },
+ {
+  "line": 78,
+  "kept_id": "W2971102795",
+  "merged_key": "openalex:W4310544708",
+  "verdict": "same_paper",
+  "evidence": "Identical abstract (fuzz.ratio 100) and identical 10-author list. A is the arXiv preprint (doi 10.48550/arxiv.1812.09610, 2018-12-22); B is the Optica article (doi 10.1364/optica.6.001138, 2019-08-29, vol 6 issue 9). Title differs only by leading 'A' and 'LiNbO3' vs 'LiNbO 3'. Preprint and published version of one paper."
+ },
+ {
+  "line": 79,
+  "kept_id": "W4377082743",
+  "merged_key": "openalex:W4391087787",
+  "verdict": "same_paper",
+  "evidence": "Identical abstract (fuzz.ratio 100) and identical 14-author list, both OFC 2023 conference-papers. A is the IEEE Xplore copy (doi 10.23919/ofc49934.2023.10116374), B the Optica Publishing copy (doi 10.1364/ofc.2023.m2g.1, paper M2G.1). One OFC paper with two publisher DOIs."
+ },
+ {
+  "line": 80,
+  "kept_id": "W4386365418",
+  "merged_key": "openalex:W4392029208",
+  "verdict": "different_papers",
+  "evidence": "Same title and identical 15-author list, abstract near identical (fuzz.ratio 99.2), but A is an IEEE MEMS 2024 conference-paper (doi 10.1109/mems58180.2024.10439411, pages 156-161, 2024-01-21) whose abstract adds citation markers [1]-[4] and whose referenced_works includes B; B is the SIGCOMM 2023 paper (doi 10.1145/3603269.3604836, pages 499-515, 2023-09-01). A cites B, so A is a later invited or summary paper about the same work, not B itself. Low impact for the team map (same authors), but it collapses two publications into one."
+ },
+ {
+  "line": 81,
+  "kept_id": "W4410343081",
+  "merged_key": "openalex:W4414838842",
+  "verdict": "same_paper",
+  "evidence": "Identical title and identical 2-author list (Chen Avin, Stefan Schmid). A is the arXiv preprint (doi 10.48550/arxiv.2502.16228, 2025-02-22), B the Communications of the ACM article (doi 10.1145/3708980, 2025-05-13). A's abstract calls itself an overview 'article' that 'comes with complementary video interviews', consistent with a magazine article. B's stored abstract is a single standfirst sentence, so text overlap cannot be checked, and the arXiv record carries no journal_ref. Preprint of B; moderate confidence."
+ }
+]

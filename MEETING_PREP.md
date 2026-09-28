@@ -52,7 +52,7 @@ Derived estimate, not from any file. Formula: cost = (search result pages x 0.00
 
 In run 1 arXiv's API refused 9 of 10 phrase queries with HTTP 406 or 429, and a later probe that sent one request at a time still got 406 on every request, so pacing was not the cause and only 47 records came in. Run 2 took 341 records through OpenAlex's arXiv index instead, which gave institutions for 299 of 341 but gave only 6 of 40 run 1 arXiv-only papers an OpenAlex ID, so for full scale the choice is that index or arXiv's bulk metadata snapshot.
 
-Sources: deliverables/pitfalls.md:75; deliverables/demo_results.md:15-16; deliverables/meeting_summary.md:39, 53; deliverables/open_questions.md:23.
+Sources: deliverables/pitfalls.md:75; deliverables/demo_results.md:15-16; deliverables/meeting_summary.md:39, 53; deliverables/open_questions.md:23; deliverables/pitfalls_original_log.md:153.
 
 ### 6. Can the matrix be trusted?
 
@@ -74,7 +74,7 @@ Sources: deliverables/architecture.md:83; deliverables/open_questions.md:7, 17; 
 
 ### 9. Why does the audit log have leftover inconsistencies?
 
-validation_report.md is append-only, so six rounds of audits and corrections piled up, and its step 7 corrections section failed the second judge twice and then a third and final check on stale pitfalls.md line citations and an out-of-date commit sentence. The owner stopped correction passes and moved the leftovers to issue #14, and the proposal for a full-scale run is one report per round plus an index.
+validation_report.md is append-only, so six rounds of audits and corrections piled up, and its step 7 corrections section failed the second judge twice and then a third and final check on stale pitfalls.md line citations and an out-of-date commit sentence. The owner stopped correction passes and moved the leftovers to issue #14, and the proposal for a full-scale run is one report per round.
 
 Sources: deliverables/open_questions.md:27; STATUS.md:83-86, 89; SUMMARY-2026-09-27.md:152; deliverables/meeting_summary.md:38.
 

@@ -1,0 +1,437 @@
+[
+ {
+  "rank": 1,
+  "author": "Ming C. Wu",
+  "author_id": "A5100669891",
+  "verdict": "split_across_records",
+  "other_records": [
+   {
+    "author_id": "A5144460793",
+    "display_name": "Ming Wu",
+    "same_person": "yes",
+    "papers": [
+     "W7172527693"
+    ],
+    "extended_set_papers": 1,
+    "shared_papers": [],
+    "shared_coauthor_names": [
+     "Jianheng Luo"
+    ],
+    "shared_coauthor_ids": 0,
+    "shared_institutions": [],
+    "why": "2026 arXiv-via-OpenAlex paper W7172527693 on a silicon photonic MEMS optical switch, affiliation NULL. Its coauthor 'Jianheng Luo' (A5144418707) has the same name as coauthor A5112187957 'Jianheng Luo' on 6 of the main record's papers, so OpenAlex gave both people new IDs on this one paper."
+   },
+   {
+    "author_id": "A5018779616",
+    "display_name": "Mark N. Wu",
+    "same_person": "no",
+    "papers": [
+     "W2395416306"
+    ],
+    "extended_set_papers": 0,
+    "shared_papers": [],
+    "shared_coauthor_names": [],
+    "shared_coauthor_ids": 0,
+    "shared_institutions": [],
+    "why": "'Mark N. Wu', Johns Hopkins, one sleep neuroscience paper outside the extended set, no shared coauthor."
+   }
+  ],
+  "evidence": [
+   "name_key 'wu m'. top_pis.csv has core 24, extended 27, institution 'University of California, Berkeley'.",
+   "Main record papers are all optical MEMS or silicon photonic MEMS work, so no sign of two people merged into it.",
+   "Extended-set affiliations: University of California, Berkeley 23, Office of Multidisciplinary Activities 1, Berkeley College 1. 'Office of Multidisciplinary Activities' (W1653883346) and 'Berkeley College' (W4393174577) look like OpenAlex mis-mappings of UC Berkeley. The main institution is still right.",
+   "coauthor.html shows extra nodes 'Ming Wu | unknown | core 1' and 'Jianheng Luo | unknown | core 1' for that one paper.",
+   "Folding in the records marked yes gives core paper count 25 instead of 24. By core count alone the rank does not change."
+  ]
+ },
+ {
+  "rank": 2,
+  "author": "Tae Joon Seok",
+  "author_id": "A5085789636",
+  "verdict": "one_person",
+  "other_records": [],
+  "evidence": [
+   "name_key 'seok t'. top_pis.csv has core 19, extended 19, institution 'University of California, Berkeley'.",
+   "No other author record has name_key 'seok t'. Extended-set affiliations: University of California, Berkeley 10, Gwangju Institute of Science and Technology 6, University College Cork 1. Papers move from UC Berkeley to GIST, one consistent career.",
+   "W2786734285 lists Seok at University College Cork, Henriksson at GIST and Peter A. O'Brien at UC Berkeley, while W2581695752 and W2615050161 list O'Brien at University College Cork. The affiliations on that paper look shifted between authors in OpenAlex."
+  ]
+ },
+ {
+  "rank": 3,
+  "author": "Niels Quack",
+  "author_id": "A5064591043",
+  "verdict": "one_person",
+  "other_records": [],
+  "evidence": [
+   "name_key 'quack n'. top_pis.csv has core 16, extended 16, institution 'École Polytechnique Fédérale de Lausanne'.",
+   "No other record with name_key 'quack n'. Extended-set affiliations: École Polytechnique Fédérale de Lausanne 9, University of California, Berkeley 6. Fits one person moving from UC Berkeley to EPFL, and every paper is silicon photonic MEMS."
+  ]
+ },
+ {
+  "rank": 4,
+  "author": "Sangyoon Han",
+  "author_id": "A5073485923",
+  "verdict": "one_person",
+  "other_records": [
+   {
+    "author_id": "A5076455505",
+    "display_name": "Siyuan Han",
+    "same_person": "no",
+    "papers": [
+     "W2606456423"
+    ],
+    "extended_set_papers": 0,
+    "shared_papers": [],
+    "shared_coauthor_names": [],
+    "shared_coauthor_ids": 0,
+    "shared_institutions": [],
+    "why": "'Siyuan Han', University of Kansas, superconducting qubit paper outside the extended set."
+   },
+   {
+    "author_id": "A5070926896",
+    "display_name": "Song Han",
+    "same_person": "no",
+    "papers": [
+     "W2619096655"
+    ],
+    "extended_set_papers": 0,
+    "shared_papers": [],
+    "shared_coauthor_names": [],
+    "shared_coauthor_ids": 0,
+    "shared_institutions": [],
+    "why": "'Song Han', convolutional neural network sparsity paper outside the extended set."
+   },
+   {
+    "author_id": "A5085074267",
+    "display_name": "Shuangfeng Han",
+    "same_person": "no",
+    "papers": [
+     "W3110989801"
+    ],
+    "extended_set_papers": 0,
+    "shared_papers": [],
+    "shared_coauthor_names": [],
+    "shared_coauthor_ids": 0,
+    "shared_institutions": [],
+    "why": "'Shuangfeng Han', China Mobile, 6G paper outside the extended set."
+   }
+  ],
+  "evidence": [
+   "name_key 'han s'. top_pis.csv has core 16, extended 16, institution 'University of California, Berkeley'.",
+   "The three other 'han s' records have different first names and share no coauthor, institution or paper. Extended-set affiliations of the main record: University of California, Berkeley 9, Korea Advanced Institute of Science and Technology 2, Daegu Gyeongbuk Institute of Science and Technology 1, and some papers carry no affiliation."
+  ]
+ },
+ {
+  "rank": 5,
+  "author": "R.S. Muller",
+  "author_id": "A5073987024",
+  "verdict": "one_person",
+  "other_records": [],
+  "evidence": [
+   "name_key 'muller r'. top_pis.csv has core 13, extended 13, institution 'University of California, Berkeley'.",
+   "No other record with name_key 'muller r'. Extended-set affiliations: University of California, Berkeley 11. All papers are Berkeley silicon photonic MEMS switch papers."
+  ]
+ },
+ {
+  "rank": 6,
+  "author": "Shu Namiki",
+  "author_id": "A5065583266",
+  "verdict": "one_person",
+  "other_records": [],
+  "evidence": [
+   "name_key 'namiki s'. top_pis.csv has core 12, extended 13, institution 'National Institute of Advanced Industrial Science and Technology'.",
+   "No other record with name_key 'namiki s'. Extended-set affiliations: National Institute of Advanced Industrial Science and Technology 12."
+  ]
+ },
+ {
+  "rank": 7,
+  "author": "Keijiro Suzuki",
+  "author_id": "A5048395151",
+  "verdict": "one_person",
+  "other_records": [
+   {
+    "author_id": "A5057049058",
+    "display_name": "Kenya Suzuki",
+    "same_person": "no",
+    "papers": [
+     "W2340261621",
+     "W2512219930",
+     "W2901479220",
+     "W3168771553"
+    ],
+    "extended_set_papers": 0,
+    "shared_papers": [],
+    "shared_coauthor_names": [],
+    "shared_coauthor_ids": 0,
+    "shared_institutions": [],
+    "why": "'Kenya Suzuki', NTT (Japan), wavelength selective switch papers, none in the extended set, no shared coauthor or institution."
+   }
+  ],
+  "evidence": [
+   "name_key 'suzuki k'. top_pis.csv has core 12, extended 12, institution 'National Institute of Advanced Industrial Science and Technology'.",
+   "Extended-set affiliations of the main record: National Institute of Advanced Industrial Science and Technology 12. Kenya Suzuki has a different first name at a different institution."
+  ]
+ },
+ {
+  "rank": 8,
+  "author": "Nicola Calabretta",
+  "author_id": "A5080891126",
+  "verdict": "one_person",
+  "other_records": [],
+  "evidence": [
+   "name_key 'calabretta n'. top_pis.csv has core 11, extended 11, institution 'Eindhoven University of Technology'.",
+   "No other record with name_key 'calabretta n'. Extended-set affiliations: Eindhoven University of Technology 11."
+  ]
+ },
+ {
+  "rank": 9,
+  "author": "Kazuhiro Ikeda",
+  "author_id": "A5044456154",
+  "verdict": "one_person",
+  "other_records": [],
+  "evidence": [
+   "name_key 'ikeda k'. top_pis.csv has core 11, extended 11, institution 'National Institute of Advanced Industrial Science and Technology'.",
+   "No other record with name_key 'ikeda k'. Extended-set affiliations: National Institute of Advanced Industrial Science and Technology 11."
+  ]
+ },
+ {
+  "rank": 10,
+  "author": "Ken-ichi Sato",
+  "author_id": "A5075238724",
+  "verdict": "one_person",
+  "other_records": [],
+  "evidence": [
+   "name_key 'sato k'. top_pis.csv has core 11, extended 11, institution 'Nagoya University'.",
+   "Only one record has name_key 'sato k' in this database, so the earlier Ken-ichi Sato split is merged here.",
+   "Institution tie. Extended-set affiliations: Nagoya University 5, National Institute of Advanced Industrial Science and Technology 5. graph.py breaks a tie by sorting inst_id, so 'Nagoya University' in top_pis.csv is a tie-break, not a majority. His 2019 and later papers that have an affiliation are all AIST.",
+   "Route 'other' comes from W2024436451 and W2807655209, wavelength routing switches built from AWGs (arrayed waveguide gratings), which fits 'other'."
+  ]
+ },
+ {
+  "rank": 11,
+  "author": "George C. Papen",
+  "author_id": "A5001604903",
+  "verdict": "one_person",
+  "other_records": [],
+  "evidence": [
+   "name_key 'papen g'. top_pis.csv has core 10, extended 10, institution 'University of California San Diego'.",
+   "No other record with name_key 'papen g'. Extended-set affiliations: University of California San Diego 8, UC San Diego Health System 1, Google (United States) 1. 'UC San Diego Health System' on W2141911769 (Hunting mice) is an OpenAlex mis-mapping, and the same paper maps Porter and Fainman there too.",
+   "The route list includes mems_silicon_photonic only because Papen is an author on two Berkeley MEMS switch papers (W2581695752, W2615050161) together with UCSD coauthors Forencich, Grant and Dylan. That route describes the partner's device, not a UCSD technology.",
+   "Route lcos comes from W2002555923 (Mordia), tagged lcos with high confidence, but its evidence sentence only says 'wavelength-selective switch' and does not name LCoS. The same tag flows to Vahdat, Porter, Fainman and Forencich."
+  ]
+ },
+ {
+  "rank": 12,
+  "author": "Keren Bergman",
+  "author_id": "A5081695392",
+  "verdict": "split_across_records",
+  "other_records": [
+   {
+    "author_id": "name:bergman k",
+    "display_name": "Keren Bergman",
+    "same_person": "yes",
+    "papers": [
+     "arxiv:2002.00473"
+    ],
+    "extended_set_papers": 1,
+    "shared_papers": [],
+    "shared_coauthor_names": [
+     "Min Yee Teh",
+     "Shizhen Zhao"
+    ],
+    "shared_coauthor_ids": 0,
+    "shared_institutions": [],
+    "why": "arXiv-only record on arxiv:2002.00473 (METTEOR). Its only coauthors, Min Yee Teh and Shizhen Zhao, are both coauthors of the main record on W3091342457 (COUDER), and Teh also on W4223926670. curate.py keeps a name-only record apart unless it shares an institution, and arXiv-only records have none."
+   }
+  ],
+  "evidence": [
+   "name_key 'bergman k'. top_pis.csv has core 10, extended 12, institution 'Columbia University'.",
+   "Extended-set affiliations of the main record: Columbia University 11. coauthor.html shows a second node 'Keren Bergman | unknown | core 1'.",
+   "Folding in the records marked yes gives core paper count 11 instead of 10. By core count alone that puts the row at rank 8 (or tied there), not rank 12."
+  ]
+ },
+ {
+  "rank": 13,
+  "author": "Hitoshi Kawashima",
+  "author_id": "A5044560248",
+  "verdict": "one_person",
+  "other_records": [],
+  "evidence": [
+   "name_key 'kawashima h'. top_pis.csv has core 10, extended 10, institution 'National Institute of Advanced Industrial Science and Technology'.",
+   "No other record with name_key 'kawashima h'. Extended-set affiliations: National Institute of Advanced Industrial Science and Technology 10."
+  ]
+ },
+ {
+  "rank": 14,
+  "author": "Georgios Zervas",
+  "author_id": "A5044981310",
+  "verdict": "split_across_records",
+  "other_records": [
+   {
+    "author_id": "A5002022033",
+    "display_name": "George Zervas",
+    "same_person": "yes",
+    "papers": [
+     "W2164698118"
+    ],
+    "extended_set_papers": 1,
+    "shared_papers": [],
+    "shared_coauthor_names": [
+     "Dimitra E. Simeonidou",
+     "Giacomo Bernini",
+     "Nicola Calabretta",
+     "Nicola Ciulli",
+     "Reza Nejabati",
+     "Salvatore Spadaro",
+     "Shuping Peng"
+    ],
+    "shared_coauthor_ids": 7,
+    "shared_institutions": [
+     "University of Bristol"
+    ],
+    "why": "'George Zervas', University of Bristol, on W2164698118. Shares 7 coauthor IDs with the main record (Calabretta, Simeonidou, Nejabati, Peng, Spadaro, Bernini, Ciulli) and the University of Bristol affiliation. This split is on the OpenAlex side."
+   },
+   {
+    "author_id": "name:zervas g#2",
+    "display_name": "Georgios Zervas",
+    "same_person": "yes",
+    "papers": [
+     "arxiv:2211.15226"
+    ],
+    "extended_set_papers": 1,
+    "shared_papers": [],
+    "shared_coauthor_names": [
+     "Alessandro Ottino",
+     "Joshua Benjamin"
+    ],
+    "shared_coauthor_ids": 0,
+    "shared_institutions": [],
+    "why": "arXiv-only record on arxiv:2211.15226 (RAMP). Coauthors Joshua Benjamin and Alessandro Ottino are both coauthors of the main record (W2970534079, W3006394648, W4226369700, W4323644257)."
+   },
+   {
+    "author_id": "name:zervas g",
+    "display_name": "Georgios Zervas",
+    "same_person": "unclear",
+    "papers": [
+     "arxiv:2211.02466"
+    ],
+    "extended_set_papers": 1,
+    "shared_papers": [],
+    "shared_coauthor_names": [],
+    "shared_coauthor_ids": 0,
+    "shared_institutions": [],
+    "why": "arXiv-only record on arxiv:2211.02466 whose sole coauthor, Zacharaya Shabka, is not on the main record. Same display name 'Georgios Zervas' and the same topic (optically composable data centres), but no shared coauthor, institution or paper, so the database alone cannot confirm it."
+   }
+  ],
+  "evidence": [
+   "name_key 'zervas g'. top_pis.csv has core 9, extended 10, institution 'University of Bristol'.",
+   "Institution tie. Extended-set affiliations of the main record: University of Bristol 4, University College London 4, Network Group (Czechia) 2. 'University of Bristol' in top_pis.csv comes from the inst_id tie-break. The Bristol papers are 2014 to 2015 and every later paper is University College London or 'Network Group (Czechia)'.",
+   "'Network Group (Czechia)' on W2913395450 and W4323644257 looks like an OpenAlex mis-mapping of the UCL optical networks group. The coauthors on W4323644257 (Benjamin, Parsonson, Liu) are mapped there too.",
+   "Two name-only records with one name_key ('name:zervas g' and 'name:zervas g#2') exist because curate.py only merges name-only records that share an institution.",
+   "Route 'piezo' comes from W2913395450 and W4323644257 (beam steering switches with Polatis coauthors). The W2913395450 evidence sentence says 'beam steering optical switch' and does not name piezo, confidence medium.",
+   "Folding in the records marked yes gives core paper count 11 instead of 9. By core count alone that puts the row at rank 8 (or tied there), not rank 14."
+  ]
+ },
+ {
+  "rank": 15,
+  "author": "Amin M. Vahdat",
+  "author_id": "A5050245571",
+  "verdict": "one_person",
+  "other_records": [],
+  "evidence": [
+   "name_key 'vahdat a'. top_pis.csv has core 9, extended 9, institution 'Google (United States)'.",
+   "No other record with name_key 'vahdat a'. Extended-set affiliations: Google (United States) 5, University of California San Diego 3. Several of his papers sit outside the extended set (Fat-tree, PortLand, Hedera and similar), which fits one person.",
+   "W4377082743 (Apollo) is tagged unclear because its stored abstract does not name the switch mechanism. W4292950821 (Mission Apollo) is mems_3d."
+  ]
+ },
+ {
+  "rank": 16,
+  "author": "George Porter",
+  "author_id": "A5053471164",
+  "verdict": "one_person",
+  "other_records": [],
+  "evidence": [
+   "name_key 'porter g'. top_pis.csv has core 8, extended 8, institution 'University of California San Diego'.",
+   "No other record with name_key 'porter g'. Extended-set affiliations: University of California San Diego 7, UC San Diego Health System 1. 'UC San Diego Health System' on W2141911769 is an OpenAlex mis-mapping."
+  ]
+ },
+ {
+  "rank": 17,
+  "author": "Xuwei Xue",
+  "author_id": "A5074335209",
+  "verdict": "one_person",
+  "other_records": [
+   {
+    "author_id": "A5050040712",
+    "display_name": "Xiaoxiao Xue",
+    "same_person": "no",
+    "papers": [
+     "W2763363916"
+    ],
+    "extended_set_papers": 0,
+    "shared_papers": [],
+    "shared_coauthor_names": [],
+    "shared_coauthor_ids": 0,
+    "shared_institutions": [],
+    "why": "'Xiaoxiao Xue', Purdue, micro-comb paper outside the extended set, no shared coauthor or institution."
+   }
+  ],
+  "evidence": [
+   "name_key 'xue x'. top_pis.csv has core 8, extended 8, institution 'Eindhoven University of Technology'.",
+   "Extended-set affiliations of the main record: Eindhoven University of Technology 6, Beijing University of Posts and Telecommunications 2. Fits a move from TU/e to BUPT in 2022 with the same topic."
+  ]
+ },
+ {
+  "rank": 18,
+  "author": "Ryotaro Konoike",
+  "author_id": "A5048122574",
+  "verdict": "one_person",
+  "other_records": [],
+  "evidence": [
+   "name_key 'konoike r'. top_pis.csv has core 8, extended 8, institution 'National Institute of Advanced Industrial Science and Technology'.",
+   "No other record with name_key 'konoike r'. Extended-set affiliations: National Institute of Advanced Industrial Science and Technology 8."
+  ]
+ },
+ {
+  "rank": 19,
+  "author": "Qixiang Cheng",
+  "author_id": "A5054716038",
+  "verdict": "split_across_records",
+  "other_records": [
+   {
+    "author_id": "name:cheng q",
+    "display_name": "Qixiang Cheng",
+    "same_person": "yes",
+    "papers": [
+     "arxiv:2403.02866"
+    ],
+    "extended_set_papers": 1,
+    "shared_papers": [],
+    "shared_coauthor_names": [
+     "Richard V. Penty",
+     "Rui Ma"
+    ],
+    "shared_coauthor_ids": 0,
+    "shared_institutions": [],
+    "why": "arXiv-only record on arxiv:2403.02866 (electro-optic resonant photonic switches). Coauthors Richard V. Penty and Rui Ma are coauthors of the main record, Penty on 5 papers and Ma on W4403346542."
+   }
+  ],
+  "evidence": [
+   "name_key 'cheng q'. top_pis.csv has core 7, extended 8, institution 'University of Cambridge'.",
+   "Institution tie. Extended-set affiliations of the main record: University of Cambridge 4, Columbia University 4. 'University of Cambridge' comes from the inst_id tie-break. The extended-set Cambridge papers are 2013 to 2015 and the Columbia papers 2018 to 2019. The split 2024 record has Cambridge coauthors, so the value shown is plausible but was not chosen on evidence.",
+   "coauthor.html shows a second node 'Qixiang Cheng | unknown | core 1'.",
+   "Folding in the records marked yes gives core paper count 8 instead of 7. By core count alone that puts the row at rank 16 (or tied there), not rank 19."
+  ]
+ },
+ {
+  "rank": 20,
+  "author": "Johannes Henriksson",
+  "author_id": "A5085125488",
+  "verdict": "one_person",
+  "other_records": [],
+  "evidence": [
+   "name_key 'henriksson j'. top_pis.csv has core 7, extended 8, institution 'University of California, Berkeley'.",
+   "No other record with name_key 'henriksson j'. Extended-set affiliations: University of California, Berkeley 6, Gwangju Institute of Science and Technology 1, Berkeley College 1. 'Berkeley College' (W4393174577, where every author is mapped there) and GIST (W2786734285) look like OpenAlex mis-mappings."
+  ]
+ }
+]

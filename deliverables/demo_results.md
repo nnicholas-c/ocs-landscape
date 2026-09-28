@@ -174,7 +174,7 @@ No radar chart was drawn, because a radar needs 4 numeric dimensions reported fo
 
 ## Team map
 
-Top 15 authors (graphs/top_pis.csv, first 15 rows). Degree is the number of distinct co-authors. Betweenness measures how often an author sits between two others.
+Top 15 authors (graphs/top_pis.csv, first 15 rows). Degree counts distinct co-authors. Betweenness measures how often an author sits between two others.
 
 | author | institution | core_paper_count | extended_paper_count | degree | betweenness | tech_routes | adjacent_field |
 |---|---|---|---|---|---|---|---|
@@ -330,9 +330,9 @@ In the first run 2 audit (seed 20260928), for two of the three failures, the quo
 
 | left open by the run 2 audit after the anchor papers | detail | source |
 |---|---|---|
-| the 3 failing census cells | The auditor called them unsupported and the second judge called them supported. None is in the 20-cell Gate C sample and the census has no gate, so they await a person's decision | validation_report.md, Run 2 audit after the anchor papers; deliverables/pitfalls.md, stage 7 audit (step 2); pitfalls_original_log.md, 21:21 |
+| the 3 failing census cells | The auditor called them unsupported and the second judge called them supported. None is in the 20-cell Gate C sample and the census has no gate, so they await a person's decision. After the run the owner kept piezo:trl_band at lab (Reviews after the run) | validation_report.md, Run 2 audit after the anchor papers; deliverables/pitfalls.md, stage 7 audit (step 2); pitfalls_original_log.md, 21:21 |
 | why the judges differ | The auditor's input held only each cell's value, quotes and label definition. The second judge also read the cited abstracts, the route files and projects.csv | data/work/audit_s20260929_judge_input.json; data/work/audit_s20260929_second_judge.json, source and criterion |
-| piezo:trl_band | The cell says lab, but its quote "never uses lab language either". A person should check the Polatis page | validation_report.md, same section, Other observations; deliverables/open_questions.md, item 4 |
+| piezo:trl_band | The cell says lab, but its quote "never uses lab language either". The owner kept lab with low confidence after the run (Reviews after the run), and a person should still check the Polatis page | validation_report.md, same section, Other observations; deliverables/open_questions.md, item 4 |
 | 12 reported free-text cells | Quotes verbatim, but nobody judged whether they support the value, because the audit judges only sampled and census cells | validation_report.md, Corrections after code review (pull request #4), item 2 |
 
 ### Run 1 audits
@@ -365,6 +365,15 @@ The first fix was a bad one. matrix_build.py imported the audit's value test, an
 | piezo:trl_band (census) | production | This is the same cell and the same gap run 1 round 1 [now round 1] found. |
 
 The auditor called the kept piezo value "a known, deliberate choice, not a new defect" (validation_report.md, round 3), and run 2 sets it to lab (deliverables/comparison_matrix.csv). The second judge traced its disagreements to "quote-only reading (auditor) versus reading the cited abstract and the route definition (checker)" (deliverables/pitfalls_original_log.md, 15:10).
+
+### Reviews after the run
+
+| review | who checked, and how | result | agreement | source |
+|---|---|---|---|---|
+| piezo:trl_band, the maturity cell | the project owner, as a decision, not by reading new evidence | kept at lab with low confidence, with the note that Polatis ships piezo switches | not applicable, one decision | deliverables/comparison_matrix.csv, piezo trl_band row; data/projects.csv, row 5, stage shipping |
+| top 20 authors in graphs/coauthor.html | two agents, not a person. Each reviewed all 20 blind to the other, and a script reconciled their verdicts | 16 one person and 4 split across records (Ming C. Wu, Keren Bergman, Georgios Zervas, Qixiang Cheng). Of the 12 other author records they looked at, 4 are the same person by both agents, 6 are not, and on 2 the agents differ | 20 of 20 author verdicts. 10 of 12 record calls, and the 2 disagreements are Wu's A5144460793 (yes against likely) and Zervas's name:zervas g (unclear against likely) | graphs/top_pis.csv, first 20 rows; graphs/coauthor.html; data/work/agentcheck_final.md, Agreement counts and Table 1 |
+| the 13 fuzzy-title merges | the same two agents in the same way, not a person | 9 same paper and 4 different papers, so 4 merges are wrong | 13 of 13 | deliverables/curation_report.md, Agent review of the fuzzy-title merges (after the run); data/work/agentcheck_final.md, Table 2 |
+| fuzzy merges judged wrong | the same two agents | openalex:W1635046341 into W2271940456, openalex:W2186112211 into W2340261621, openalex:W2798334538 into W2792328579, and openalex:W4392029208 into W4386365418. Each joins two separate publications of one work. Three are a conference paper and its later journal article, and one is a 2024 conference paper that cites the 2023 conference paper it was merged into | 4 of 4 | same |
 
 ## Queries used above
 
