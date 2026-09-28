@@ -1,0 +1,616 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OCS Landscape Trial</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wdth,wght@0,75..100,400..700;1,75..100,400..700&display=swap" rel="stylesheet">
+<style>
+:root {
+  color-scheme: light;
+  --paper: #f3f5f6;
+  --panel: #ffffff;
+  --ink: #13232d;
+  --ink-2: #4d5d67;
+  --ink-3: #6b7b85;
+  --rule: #d4dde2;
+  --rule-2: #e7edf0;
+  --teal: #00959e;
+  --yellow: #eda100;
+  --bar: #5a7383;
+  --link: #006d75;
+  --pass: #2c7a4b;
+  --fail: #b8372c;
+  --hatch: #9aabb5;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --paper: #0c161c;
+    --panel: #122029;
+    --ink: #e3ebee;
+    --ink-2: #a3b4bd;
+    --ink-3: #82959f;
+    --rule: #263842;
+    --rule-2: #1a2a33;
+    --teal: #16a3aa;
+    --yellow: #c98500;
+    --bar: #7f98a7;
+    --link: #5cc6cc;
+    --pass: #5cbf83;
+    --fail: #ec6f62;
+    --hatch: #5d7280;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --paper: #0c161c;
+  --panel: #122029;
+  --ink: #e3ebee;
+  --ink-2: #a3b4bd;
+  --ink-3: #82959f;
+  --rule: #263842;
+  --rule-2: #1a2a33;
+  --teal: #16a3aa;
+  --yellow: #c98500;
+  --bar: #7f98a7;
+  --link: #5cc6cc;
+  --pass: #5cbf83;
+  --fail: #ec6f62;
+  --hatch: #5d7280;
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: "Instrument Sans", system-ui, sans-serif;
+  font-size: 17px;
+  line-height: 1.55;
+  font-variant-numeric: tabular-nums;
+}
+a { color: var(--link); text-underline-offset: 0.18em; text-decoration-thickness: 1px; }
+a:hover { text-decoration-thickness: 2px; }
+:focus-visible { outline: 2px solid var(--teal); outline-offset: 2px; border-radius: 2px; }
+code { font-family: ui-monospace, "Cascadia Mono", Consolas, monospace; font-size: 0.86em; color: var(--ink-2); overflow-wrap: anywhere; }
+
+.wrap { max-width: 1040px; margin: 0 auto; padding: 0 24px; }
+@media (max-width: 600px) { .wrap { padding: 0 16px; } body { font-size: 16px; } }
+
+/* header */
+header.top { padding-top: 56px; padding-bottom: 8px; }
+.repo { color: var(--ink-3); font-size: 0.9rem; margin: 0 0 28px; }
+h1 {
+  font-stretch: 75%;
+  font-weight: 650;
+  font-size: clamp(2.6rem, 7.4vw, 5rem);
+  line-height: 0.96;
+  letter-spacing: -0.01em;
+  margin: 0 0 24px;
+  max-width: 14ch;
+}
+.lead { font-size: 1.2rem; line-height: 1.5; max-width: 60ch; margin: 0 0 36px; color: var(--ink); }
+@media (max-width: 600px) { .lead { font-size: 1.08rem; } }
+
+.state { display: grid; grid-template-columns: 1fr 1fr; gap: 0; border-top: 2px solid var(--ink); margin-bottom: 8px; }
+.state > div { padding: 18px 24px 8px 0; }
+.state > div + div { padding-left: 24px; border-left: 1px solid var(--rule); }
+.state h2 { font-size: 1.05rem; font-stretch: 100%; margin: 0 0 8px; font-weight: 650; }
+.state ul { margin: 0; padding: 0; list-style: none; }
+.state li { padding: 7px 0 7px 26px; position: relative; border-top: 1px solid var(--rule-2); font-size: 0.97rem; }
+.state li:first-child { border-top: 0; }
+.state li::before { position: absolute; left: 0; top: 7px; font-weight: 700; }
+.done li::before { content: "\2713"; color: var(--pass); }
+.todo li::before { content: "\25CB"; color: var(--ink-3); }
+@media (max-width: 760px) {
+  .state { grid-template-columns: 1fr; }
+  .state > div + div { padding-left: 0; border-left: 0; border-top: 1px solid var(--rule); }
+}
+
+/* sections */
+section { padding: 56px 0 8px; }
+section > h2 {
+  font-stretch: 75%;
+  font-weight: 650;
+  font-size: clamp(1.7rem, 3.6vw, 2.35rem);
+  line-height: 1.05;
+  margin: 0 0 14px;
+  max-width: 24ch;
+}
+section > p, .prose p { max-width: 68ch; margin: 0 0 14px; }
+.note { color: var(--ink-2); font-size: 0.92rem; max-width: 72ch; }
+.src { color: var(--ink-3); font-size: 0.85rem; margin-top: 10px; max-width: 80ch; }
+
+.figure { background: var(--panel); border: 1px solid var(--rule); border-radius: 6px; padding: 22px 22px 14px; margin: 22px 0 6px; }
+@media (max-width: 600px) { .figure { padding: 16px 12px 10px; } }
+.fig-title { font-weight: 650; margin: 0 0 2px; }
+.fig-sub { color: var(--ink-2); font-size: 0.92rem; margin: 0 0 18px; }
+
+/* switching-time strip */
+.strip { --label: 11.5rem; }
+@media (max-width: 600px) { .strip { --label: 6.6rem; } }
+.srow { display: grid; grid-template-columns: var(--label) 1fr; align-items: center; min-height: 40px; }
+.srow .lab { font-size: 0.95rem; padding-right: 12px; line-height: 1.2; }
+.srow .lab small { display: block; color: var(--ink-3); font-size: 0.78rem; }
+.track { position: relative; height: 40px; border-top: 1px solid var(--rule-2); }
+.srow:first-of-type .track { border-top: 0; }
+.grid-line { position: absolute; top: 0; bottom: 0; width: 1px; background: var(--rule-2); }
+.span { position: absolute; top: 14px; height: 12px; min-width: 6px; border-radius: 6px; background: var(--teal); cursor: default; }
+.span.point { width: 12px; height: 12px; margin-left: -6px; border-radius: 50%; }
+.span.weak { background: var(--panel); border: 2px solid var(--teal); }
+.span.open { border-radius: 6px 0 0 6px; }
+.tail { position: absolute; top: 19px; height: 0; border-top: 2px dashed var(--teal); opacity: 0.8; }
+.fuzzy { position: absolute; top: 12px; height: 16px; border: 1.5px dashed var(--teal); border-radius: 8px; background: color-mix(in srgb, var(--teal) 10%, transparent); }
+.vlab { position: absolute; top: 11px; font-size: 0.82rem; color: var(--ink-2); white-space: nowrap; pointer-events: none; }
+.na { position: absolute; left: 0; top: 10px; font-size: 0.85rem; color: var(--ink-3); font-style: italic; }
+.axis { display: grid; grid-template-columns: var(--label) 1fr; margin-top: 4px; }
+.axis .ticks { position: relative; height: 22px; border-top: 1px solid var(--ink-3); }
+.axis .tick { position: absolute; top: 4px; transform: translateX(-50%); font-size: 0.78rem; color: var(--ink-3); white-space: nowrap; }
+@media (max-width: 600px) { .axis .tick.minor { display: none; } .vlab { font-size: 0.74rem; } }
+
+/* horizontal bars */
+.hbars { display: grid; grid-template-columns: minmax(8rem, 13rem) 1fr; row-gap: 3px; column-gap: 12px; align-items: center; }
+@media (max-width: 600px) { .hbars { grid-template-columns: 7.2rem 1fr; } }
+.hbars .lab { font-size: 0.93rem; line-height: 1.2; text-align: right; }
+.hbars .bw { display: flex; align-items: center; gap: 8px; min-height: 26px; }
+.hbars .b { height: 18px; background: var(--bar); border-radius: 0 4px 4px 0; min-width: 2px; }
+.hbars .b.hi { background: var(--yellow); }
+.hbars .v { font-size: 0.88rem; color: var(--ink-2); white-space: nowrap; }
+.hbars .ann { font-size: 0.8rem; color: var(--ink-3); white-space: normal; line-height: 1.25; }
+
+/* audit columns */
+.cols { position: relative; display: grid; grid-template-columns: repeat(6, 1fr); gap: 10px; height: 230px; align-items: end; margin: 8px 0 0 2.4rem; border-bottom: 1px solid var(--ink-3); }
+.cols .c { position: relative; height: 100%; display: flex; flex-direction: column; justify-content: flex-end; align-items: center; }
+.cols .bar { width: min(56px, 70%); border-radius: 4px 4px 0 0; }
+.cols .bar.fail { background: var(--fail); }
+.cols .bar.pass { background: var(--pass); }
+.cols .bar.padded { background: repeating-linear-gradient(135deg, var(--hatch) 0 3px, transparent 3px 7px); border: 1.5px solid var(--hatch); border-bottom: 0; }
+.cols .bar.zero { height: 4px !important; }
+.cols .pct { font-size: 0.9rem; font-weight: 650; margin-bottom: 4px; }
+.limit { position: absolute; left: -2.4rem; right: 0; border-top: 2px dashed var(--ink-2); pointer-events: none; }
+.limit span { position: absolute; left: 0; top: -1.35rem; font-size: 0.78rem; color: var(--ink-2); background: var(--panel); padding-right: 6px; }
+.ylab { position: absolute; left: -2.4rem; font-size: 0.75rem; color: var(--ink-3); transform: translateY(50%); }
+.clabs { display: grid; grid-template-columns: repeat(6, 1fr); gap: 10px; margin-left: 2.4rem; }
+.clabs div { font-size: 0.8rem; line-height: 1.25; padding-top: 8px; text-align: center; color: var(--ink-2); }
+.clabs b { display: block; font-weight: 650; color: var(--ink); margin-bottom: 2px; }
+.verdict { display: inline-block; margin-top: 4px; font-weight: 650; }
+.verdict.fail { color: var(--fail); }
+.verdict.pass { color: var(--pass); }
+.verdict.padded { color: var(--ink-2); }
+@media (max-width: 600px) { .cols, .clabs { gap: 4px; } .clabs div { font-size: 0.7rem; } .cols .pct { font-size: 0.78rem; } }
+
+.checks { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; margin: 22px 0 0; border-top: 1px solid var(--rule); }
+.checks div { padding: 14px 16px 4px 0; }
+.checks div + div { padding-left: 16px; border-left: 1px solid var(--rule-2); }
+.checks b { display: block; font-size: 1.6rem; font-stretch: 75%; font-weight: 650; line-height: 1.1; }
+.checks span { font-size: 0.86rem; color: var(--ink-2); display: block; line-height: 1.35; }
+@media (max-width: 700px) { .checks { grid-template-columns: 1fr 1fr; } .checks div:nth-child(3) { padding-left: 0; border-left: 0; } }
+
+/* evidence grid */
+.egrid-wrap { overflow-x: auto; }
+.egrid { display: grid; grid-template-columns: 9.5rem repeat(9, minmax(30px, 1fr)); gap: 3px; min-width: 520px; }
+@media (max-width: 600px) { .egrid { grid-template-columns: 6.8rem repeat(9, minmax(20px, 1fr)); gap: 2px; min-width: 0; } .egrid .rh { font-size: 0.76rem; padding-right: 4px; } .egrid .ch { font-size: 0.72rem; } .cell { height: 22px; } }
+.egrid .ch { writing-mode: vertical-rl; transform: rotate(180deg); font-size: 0.8rem; color: var(--ink-2); text-align: left; padding: 4px 0; justify-self: center; line-height: 1.1; max-height: 8.5rem; }
+.egrid .rh { font-size: 0.86rem; padding-right: 8px; align-self: center; line-height: 1.15; }
+.cell { height: 28px; border-radius: 3px; cursor: default; }
+.cell.reported { background: var(--teal); }
+.cell.derived { background: var(--yellow); }
+.cell.company { border: 1.5px solid var(--teal); background: repeating-linear-gradient(135deg, var(--teal) 0 3px, transparent 3px 6px); }
+.cell.not_reported_in_abstract { border: 1.5px solid color-mix(in srgb, var(--ink-3) 45%, transparent); background: transparent; }
+.cell.no_source { border: 1.5px dashed var(--hatch); background: repeating-linear-gradient(135deg, transparent 0 5px, color-mix(in srgb, var(--hatch) 45%, transparent) 5px 6.5px); }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 20px; margin: 16px 0 0; font-size: 0.88rem; color: var(--ink-2); padding: 0; list-style: none; }
+.legend li { display: flex; align-items: center; gap: 8px; }
+.legend .cell { width: 18px; height: 14px; display: inline-block; }
+.legend b { color: var(--ink); font-weight: 650; }
+
+/* tables */
+details { margin: 12px 0 4px; }
+summary { cursor: pointer; color: var(--link); font-size: 0.9rem; width: fit-content; }
+.tscroll { overflow-x: auto; margin-top: 10px; }
+table { border-collapse: collapse; width: 100%; font-size: 0.9rem; }
+th, td { text-align: left; padding: 8px 12px 8px 0; border-bottom: 1px solid var(--rule-2); vertical-align: top; }
+th { font-weight: 650; border-bottom: 1px solid var(--rule); color: var(--ink); }
+td.num, th.num { text-align: right; padding-right: 16px; }
+.data-table { background: var(--panel); border: 1px solid var(--rule); border-radius: 6px; padding: 6px 20px 10px; margin-top: 18px; }
+@media (max-width: 600px) { .data-table { padding: 4px 12px 8px; } }
+.runs td:first-child { color: var(--ink-2); }
+.data-table.narrow { max-width: 760px; }
+#pis td:first-child { white-space: nowrap; }
+.runs td.up { font-weight: 650; }
+.stage { display: inline-block; font-size: 0.8rem; padding: 1px 8px; border-radius: 10px; border: 1px solid var(--rule); color: var(--ink-2); white-space: nowrap; }
+.stage.shipping { border-color: var(--teal); color: var(--ink); }
+
+.two { display: grid; grid-template-columns: 1.1fr 1fr; gap: 40px; align-items: start; }
+@media (max-width: 820px) { .two { grid-template-columns: 1fr; gap: 8px; } }
+
+ol.decisions { padding-left: 1.4rem; margin: 10px 0 0; max-width: 70ch; }
+ol.decisions li { padding: 5px 0 5px 4px; }
+ul.plain { list-style: none; padding: 0; margin: 10px 0 0; }
+ul.plain li { padding: 9px 0; border-top: 1px solid var(--rule-2); }
+ul.plain li:first-child { border-top: 0; }
+ul.plain .k { font-weight: 650; margin-right: 6px; }
+
+.files { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 0 28px; margin-top: 10px; }
+.files a { display: block; padding: 10px 0; border-top: 1px solid var(--rule-2); text-decoration: none; }
+.files a span { display: block; color: var(--ink-2); font-size: 0.86rem; }
+.files a:hover strong { text-decoration: underline; }
+
+footer { margin-top: 64px; padding: 22px 0 48px; border-top: 1px solid var(--rule); color: var(--ink-3); font-size: 0.86rem; }
+
+#tip { position: fixed; z-index: 10; pointer-events: none; max-width: 300px; background: var(--ink); color: var(--paper); font-size: 0.84rem; line-height: 1.4; padding: 8px 10px; border-radius: 5px; opacity: 0; transition: opacity 0.08s; }
+#tip.on { opacity: 1; }
+@media (prefers-reduced-motion: reduce) { #tip { transition: none; } }
+@media (forced-colors: active) { .span, .cell.reported, .cell.derived, .hbars .b, .cols .bar { forced-color-adjust: none; } }
+</style>
+</head>
+<body>
+<div id="tip" role="tooltip"></div>
+
+<header class="top wrap">
+  <p class="repo"><a href="https://github.com/nnicholas-c/ocs-landscape">nnicholas-c/ocs-landscape</a>, master at <code>e35d27d</code>, 27 September 2026</p>
+  <h1>Optical circuit switching landscape</h1>
+  <p class="lead">A week-one trial that mapped the switching technologies and research teams behind optical circuit switching (OCS) for AI data centers from two free paper sources, OpenAlex and arXiv, and the companies from a capped search of their own web pages. Both runs are finished, audited and merged, and a handover for Yuxuan is on master.</p>
+
+  <div class="state">
+    <div class="done">
+      <h2>Done</h2>
+      <ul>
+        <li>Run 1 through all nine stages. Run 2 redid stages 1b to 8, keeping run 1's company scout, and its final audit passed on its first round. Both passed all three gates.</li>
+        <li>13 pull requests merged, 12 of them with a posted review or verifier comment.</li>
+        <li>One-pager, meeting prep and handover, each with a Chinese draft.</li>
+        <li>Agent checks of the top 20 authors and the 13 fuzzy-title merges.</li>
+        <li>Tags <code>run1</code>, <code>run1-fixed</code> and <code>run2-final</code> on GitHub.</li>
+      </ul>
+    </div>
+    <div class="todo">
+      <h2>Waiting on people</h2>
+      <ul>
+        <li>Eight decisions at next week's meeting, then a plan for run 3.</li>
+        <li>Confirm Jupiter Evolving and RotorNet on the ACM pages in a browser (<a href="https://github.com/nnicholas-c/ocs-landscape/issues/13">#13</a>).</li>
+        <li>Check the 4 split authors and the 4 merges of different papers (<a href="https://github.com/nnicholas-c/ocs-landscape/issues/20">#20</a>) before recruiting.</li>
+        <li>Read the ten reading-list papers, which target the 33 cells that abstracts left empty.</li>
+        <li>Yuxuan reviews the Chinese drafts and refreshes the Chinese project pages.</li>
+      </ul>
+    </div>
+  </div>
+  <p class="src">Source: <code>gh pr list --state merged</code>; <code>STATUS.md</code>; <code>deliverables/meeting_summary.md</code>; <code>deliverables/open_questions.md</code>, items 4 and 13; <code>HANDOVER.md</code>, sections 4 and 5.</p>
+</header>
+
+<main class="wrap">
+
+<section id="speed" aria-labelledby="speed-h">
+  <h2 id="speed-h">Switching time runs from picoseconds to milliseconds</h2>
+  <p>The fastest route in the matrix, the semiconductor optical amplifier (SOA), switches in as little as 115 picoseconds. 3D MEMS (micro-electro-mechanical systems), the route inside the shipping Google and Calient switches, takes from 150 microseconds in a proof-of-principle switch to a few milliseconds.</p>
+  <div class="figure">
+    <p class="fig-title">Switching time by route, as reported in abstracts</p>
+    <p class="fig-sub">Log scale. Solid marks are reported figures. Hollow and dashed marks are low-confidence or given only in words. Hover a mark for what it measured.</p>
+    <div class="strip" id="strip"></div>
+    <details>
+      <summary>Show as table</summary>
+      <div class="tscroll"><table id="strip-table"></table></div>
+    </details>
+  </div>
+  <p class="src">Source: <code>deliverables/comparison_matrix.csv</code>, switching_time rows; <code>data/projects.csv</code>, rows 1 and 4. The ranges mix devices from different papers, so they are not datasheet specifications.</p>
+</section>
+
+<section id="data" aria-labelledby="data-h">
+  <h2 id="data-h">What the pipeline collected</h2>
+  <p>Run 2 added arXiv content through OpenAlex's arXiv index, because arXiv's own API refused this host on 9 of 10 queries in run 1. The index also gave institutions for 299 of its 341 records, against 0 of 47 from arXiv's API. But it gave an OpenAlex ID to only 6 of run 1's 40 arXiv-only papers, and 31 core papers still have no OpenAlex record, so no institutions or citation counts (issue #2).</p>
+  <div class="data-table narrow">
+    <div class="tscroll">
+      <table class="runs">
+        <thead><tr><th>Measure</th><th class="num">Run 1</th><th class="num">Run 2</th></tr></thead>
+        <tbody>
+          <tr><td>Raw records, OpenAlex queries</td><td class="num">707</td><td class="num">707</td></tr>
+          <tr><td>Raw records, citation snowball</td><td class="num">150</td><td class="num">150</td></tr>
+          <tr><td>Raw records, arXiv API</td><td class="num">47</td><td class="num">47</td></tr>
+          <tr><td>Raw records, OpenAlex's arXiv index</td><td class="num">0</td><td class="num up">341</td></tr>
+          <tr><td>Papers after deduplication</td><td class="num">885</td><td class="num up">1211</td></tr>
+          <tr><td>Core set</td><td class="num">267</td><td class="num up">284</td></tr>
+          <tr><td>Extended set, for the team map</td><td class="num">376</td><td class="num up">420</td></tr>
+          <tr><td>Authors on the team map</td><td class="num">1597</td><td class="num up">1827</td></tr>
+          <tr><td>Co-author communities</td><td class="num">143</td><td class="num up">159</td></tr>
+          <tr><td>OpenAlex cost, US dollars</td><td class="num">0.0404</td><td class="num">0.0216, or 0.0271 with step 2 and later checks</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <p class="src">Source: <code>deliverables/meeting_summary.md</code>, before-and-after table; <code>STATUS.md</code>, stage 4 lines, for communities; <code>data/raw/*.jsonl</code>; <code>data/db/papers.sqlite</code>; <code>deliverables/open_questions.md</code>, item 10. The core set is 284, not the planned 50 to 100, because Gate A keeps every score 3 paper once more than 200 records score 2 or 3.</p>
+
+  <div class="two">
+    <div class="figure">
+      <p class="fig-title">Core papers by technology route</p>
+      <p class="fig-sub">284 core papers, one primary route each.</p>
+      <div class="hbars" id="routes"></div>
+      <details>
+        <summary>Show as table</summary>
+        <div class="tscroll"><table id="routes-table"></table></div>
+      </details>
+    </div>
+    <div class="prose" style="padding-top:22px">
+      <p>Silicon photonic MEMS leads the device routes with 43 core papers, but one search phrase supplied 27 of them, and the only 3D MEMS phrase added none. The lead reflects how the sample was built, not the field.</p>
+      <p>105 of the 284 core papers design networks that use a switch without building one. The matrix has no row for them. Only 4, tagged with LCoS or piezo as a second route, feed any cell, among them the LCoS and piezo AI-fit cells.</p>
+      <div class="figure" style="margin-top:18px">
+        <p class="fig-title">Maturity of core papers</p>
+        <p class="fig-sub">Technology readiness band, from the tagger.</p>
+        <div class="hbars" id="trl"></div>
+      </div>
+      <p class="src">Source: <code>data/db/papers.sqlite</code>, tags joined to core papers; <code>data/work/nc1_run2_route_provenance.json</code>; <code>deliverables/comparison_matrix.csv</code>, notes on the LCoS and piezo AI-fit cells.</p>
+    </div>
+  </div>
+</section>
+
+<section id="audit" aria-labelledby="audit-h">
+  <h2 id="audit-h">The second judge caught the pipeline gaming its own audit</h2>
+  <p>In run 1 the matrix builder imported the audit's own test and padded 18 of 27 category cells with words from the quotes, so round 2 passed at 0 percent. The second judge, a separate agent that reruns every check in code, caught it. Build and audit were split, the matrix was rebuilt with plain labels, and the audit reran on a new seed.</p>
+  <div class="figure">
+    <p class="fig-title">Unsupported matrix cells in each audit round</p>
+    <p class="fig-sub">Share of 20 sampled cells that their quote does not support. Gate C allows at most 10 percent.</p>
+    <div id="audit-chart"></div>
+    <details>
+      <summary>Show as table</summary>
+      <div class="tscroll"><table id="audit-table"></table></div>
+    </details>
+  </div>
+  <div class="checks" aria-label="Run 2 final audit, seed 20260929">
+    <div><b>0 of 20</b><span>re-fetched papers that differ from the stored record</span></div>
+    <div><b>0 of 20</b><span>sampled matrix cells unsupported by their quote</span></div>
+    <div><b>0 of 10</b><span>sampled project pages missing their company name or quote</span></div>
+    <div><b>420 of 420</b><span>tag evidence spans found verbatim, 394 in the abstract and 26 in the title of a paper with no abstract</span></div>
+  </div>
+  <p class="note" style="margin-top:16px">In the final audit the auditor called 3 of 27 category cells unsupported, and the second judge, judging blind, called all 27 supported. None of the 3 was in the Gate C sample. The two judges agreed on 27 of 30 judged cells overall, and the standard for “supported” is decision 2.</p>
+  <p class="src">Source: <code>deliverables/validation_report.md</code>; <code>STATUS.md</code>, 07:28, 07:42, 15:10, 17:37, 17:56 and 21:21 lines; <code>SUMMARY-2026-09-27.md</code>, Every gate result.</p>
+</section>
+
+<section id="matrix" aria-labelledby="matrix-h">
+  <h2 id="matrix-h">What the comparison matrix can and cannot say</h2>
+  <p>The matrix compares nine switching routes on fourteen dimensions. A filled cell names its source, either paper IDs with a quote from an abstract or a project row with a quote from a company page, and the academic-group cells list the papers they were computed from. A cell with no source stays visibly empty. Cost per port is known for 1 route of 9.</p>
+  <div class="figure">
+    <p class="fig-title">Evidence behind each of the 126 cells</p>
+    <p class="fig-sub">Hover or focus a cell for its value and confidence.</p>
+    <div class="egrid-wrap"><div class="egrid" id="egrid"></div></div>
+    <ul class="legend" id="elegend"></ul>
+    <details>
+      <summary>Show as table</summary>
+      <div class="tscroll"><table id="egrid-table"></table></div>
+    </details>
+  </div>
+  <p class="src">Source: <code>deliverables/comparison_matrix.csv</code>. Derived cells, the academic groups, are computed from the database rather than quoted. No-company cells are routes with no company in <code>data/projects.csv</code>. <code>deliverables/reading_list.md</code> names ten papers whose full text targets the 33 empty cells.</p>
+</section>
+
+<section id="companies" aria-labelledby="companies-h">
+  <h2 id="companies-h">Twelve companies and projects</h2>
+  <p>The scout stage was capped in time and entity count. Every row carries a link and a quote from that page, and a stage the page does not state stays unknown.</p>
+  <div class="data-table">
+    <div class="tscroll"><table id="projects"></table></div>
+  </div>
+  <p class="src">Source: <code>data/projects.csv</code>; the timeline is <code>graphs/project_timeline.html</code>. Six pages carry no date, so their row gives the day the scout fetched them. The piezo maturity cell stays at lab with low confidence by the owner's decision, although Polatis ships piezo switches (row 5).</p>
+</section>
+
+<section id="teams" aria-labelledby="teams-h">
+  <h2 id="teams-h">The research teams</h2>
+  <div class="two">
+    <div class="prose">
+      <p>The team map links 1827 authors through 9197 co-author pairs in 159 communities. 338 of the 1827 authors, 18.5 percent, have no institution on record.</p>
+      <p>One person can end up with several author records, for example one with an OpenAlex ID and one with only a name. Two agents, each blind to the other, checked the top 20 authors on the team map and found 16 are one person and 4 are split across records: Ming C. Wu, Keren Bergman, Georgios Zervas and Qixiang Cheng. They also found that 4 of the 13 fuzzy-title merges joined different publications, tracked in <a href="https://github.com/nnicholas-c/ocs-landscape/issues/20">#20</a>.</p>
+      <p>Across all 147 flagged name keys, run 2's sample puts about 59 (29 to 94) as one split person. Run 1's sample gave 62 to 126 of 149, so the true rate is uncertain rather than falling. Use the team map at group level until a person has checked it.</p>
+      <p class="src">Source: <code>graphs/coauthor.graphml</code>; <code>deliverables/demo_results.md</code>, Reviews after the run; <code>data/work/agentcheck_final.md</code>; <code>deliverables/number_checks.md</code>, sections 2.</p>
+    </div>
+    <div class="data-table" style="margin-top:0">
+      <div class="tscroll"><table id="pis"></table></div>
+      <p class="src" style="margin-top:6px">Top 10 authors by core papers, from <code>graphs/top_pis.csv</code>.</p>
+    </div>
+  </div>
+</section>
+
+<section id="next" aria-labelledby="next-h">
+  <h2 id="next-h">What is still open</h2>
+  <div class="two">
+    <div>
+      <p class="fig-title">Decisions for next week</p>
+      <ol class="decisions">
+        <li>The scope of OCS.</li>
+        <li>The standard for “supported” in category cells such as maturity.</li>
+        <li>Accept 284 core papers, against the planned 50 to 100, or cap them.</li>
+        <li>arXiv at full scale, from OpenAlex's index, which matched few arXiv-only papers, or arXiv's bulk metadata snapshot.</li>
+        <li>Add OFC, SIGCOMM and NSDI, and drop the power-electronics venues APEC, ECCE and PCIM.</li>
+        <li>Who reads the ten papers on the reading list in full.</li>
+        <li>Recruiting or partnering as the team map's goal.</li>
+        <li>How to budget OpenAlex, which now needs a free key and meters use.</li>
+      </ol>
+      <p class="note" style="margin-top:12px">The answers go into a PLAN-run3.md, and the first job of run 3 is issue #13.</p>
+      <p class="src">Source: <code>deliverables/meeting_summary.md</code>, Decisions needed next week; <code>HANDOVER.md</code>, section 4; <code>gh issue list --state open</code>.</p>
+    </div>
+    <div>
+      <p class="fig-title">Open issues</p>
+      <ul class="plain" id="issues"></ul>
+    </div>
+  </div>
+</section>
+
+<section id="files" aria-labelledby="files-h">
+  <h2 id="files-h">Where to find things</h2>
+  <div class="files" id="filelinks"></div>
+</section>
+
+</main>
+
+<footer class="wrap">
+  Built from master at <code>e35d27d</code>. Every number on this page is copied from a repository file, computed from its database, or read from GitHub with gh, and each part names its sources.
+</footer>
+
+<script>
+const MATRIX = /*MATRIX_JSON*/;
+const PIS = /*PIS_JSON*/;
+const PROJECTS = /*PROJECTS_JSON*/;
+const REPO = "https://github.com/nnicholas-c/ocs-landscape";
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const ROUTE = {
+  mems_3d: "3D MEMS", mems_2d: "2D MEMS", mems_silicon_photonic: "Silicon photonic MEMS",
+  lcos: "LCoS", piezo: "Piezo", thermo_optic: "Thermo-optic", electro_optic: "Electro-optic",
+  soa: "SOA", robotic_patch_panel: "Robotic patch panel", architecture_only: "Network designs, no device",
+  unclear: "Unclear", other: "Other"
+};
+
+/* switching-time strip: seconds on a log axis from 100 ps to 10 ms */
+const LO = -10, HI = -2;
+const pos = s => ((Math.log10(s) - LO) / (HI - LO) * 100);
+const SPEED = [
+  { r: "SOA", sub: "semiconductor optical amplifier", lo: 115e-12, hi: 900e-12, txt: "115 to under 900 ps", n: 2, q: "The low end is one SOA chip with a special multi-impulse drive current." },
+  { r: "Electro-optic", lo: 3e-9, hi: 4e-9, txt: "3 to about 4 ns", n: 3, q: "Mach-Zehnder switches, one a hybrid with SOAs." },
+  { r: "Silicon photonic MEMS", lo: 0.4e-6, hi: 200e-6, txt: "0.4 to 200 µs", n: 2 },
+  { r: "Thermo-optic", lo: 1e-6, hi: 100e-6, txt: "1 to under 100 µs", n: 3 },
+  { r: "LCoS", sub: "liquid crystal on silicon", lo: 11.5e-6, hi: 11.5e-6, txt: "11.5 µs", n: 1, weak: true, q: "Low confidence. A network-level time that includes the network card; the paper names a wavelength-selective switch, not LCoS." },
+  { r: "3D MEMS", lo: 150e-6, hi: 1e-3, open: 1e-2, txt: "150 µs to a few ms", n: 2, q: "The low end is a proof-of-principle selector switch; the high end is a general figure for 3D MEMS fabrics." },
+  { r: "Piezo", fuzzy: [1e-3, 1e-2], txt: "millisecond scale, not quantified", n: 1, q: "Low confidence. A time assumed in a network design, not a measurement." },
+  { r: "2D MEMS", na: true },
+  { r: "Robotic patch panel", na: true }
+];
+(function () {
+  const ticks = [[1e-10,"100 ps",1],[1e-9,"1 ns"],[1e-8,"10 ns",1],[1e-7,"100 ns",1],[1e-6,"1 µs"],[1e-5,"10 µs",1],[1e-4,"100 µs",1],[1e-3,"1 ms"],[1e-2,"10 ms",1]];
+  const grid = ticks.map(t => `<div class="grid-line" style="left:${pos(t[0])}%"></div>`).join("");
+  let h = "";
+  for (const d of SPEED) {
+    let m = "";
+    const tip = `${d.r}: ${d.na ? "not reported in this route's core abstracts" : d.txt}${d.n ? `. ${d.n} paper${d.n > 1 ? "s" : ""}.` : ""}${d.q ? " " + d.q : ""}`;
+    if (d.na) m = `<span class="na">not reported in core abstracts</span>`;
+    else if (d.fuzzy) {
+      const a = pos(d.fuzzy[0]), b = pos(d.fuzzy[1]);
+      m = `<div class="fuzzy" tabindex="0" data-tip="${esc(tip)}" style="left:${a}%;width:${b - a}%"></div><span class="vlab" style="right:calc(${100 - a}% + 8px)">${d.txt}</span>`;
+    } else if (d.lo === d.hi) {
+      m = `<div class="span point${d.weak ? " weak" : ""}" tabindex="0" data-tip="${esc(tip)}" style="left:${pos(d.lo)}%"></div><span class="vlab" style="left:calc(${pos(d.lo)}% + 12px)">${d.txt}</span>`;
+    } else {
+      const a = pos(d.lo), b = pos(d.hi);
+      m = `<div class="span${d.open ? " open" : ""}" tabindex="0" data-tip="${esc(tip)}" style="left:${a}%;width:${b - a}%"></div>`;
+      if (d.open) m += `<div class="tail" style="left:${b}%;width:${pos(d.open) - b}%"></div><span class="vlab" style="right:calc(${100 - a}% + 8px)">${d.txt}</span>`;
+      else m += `<span class="vlab" style="${b > 60 ? `right:calc(${100 - a}% + 8px)` : `left:calc(${b}% + 8px)`}">${d.txt}</span>`;
+    }
+    h += `<div class="srow"><div class="lab">${d.r}${d.sub ? `<small>${d.sub}</small>` : ""}</div><div class="track">${grid}${m}</div></div>`;
+  }
+  h += `<div class="axis"><div></div><div class="ticks">${ticks.map(t => `<span class="tick${t[2] ? " minor" : ""}" style="left:${pos(t[0])}%">${t[1]}</span>`).join("")}</div></div>`;
+  document.getElementById("strip").innerHTML = h;
+  document.getElementById("strip-table").innerHTML = "<thead><tr><th>Route</th><th>Switching time</th><th class='num'>Papers</th><th>What it measured</th></tr></thead><tbody>" +
+    SPEED.map(d => `<tr><td>${d.r}</td><td>${d.na ? "not reported in core abstracts" : d.txt}</td><td class="num">${d.n || 0}</td><td>${d.q || ""}</td></tr>`).join("") + "</tbody>";
+})();
+
+/* horizontal bars */
+function hbars(el, rows, max, hiKey) {
+  document.getElementById(el).innerHTML = rows.map(r =>
+    `<div class="lab">${r.label}</div><div class="bw"><div class="b${r.key === hiKey ? " hi" : ""}" tabindex="0" data-tip="${esc(r.label + ": " + r.v + (r.of ? " of " + r.of : "") + (r.ann ? ". " + r.ann : ""))}" style="width:${r.v / max * 72}%"></div><span class="v">${r.v}</span>${r.ann ? `<span class="ann">${r.ann}</span>` : ""}</div>`
+  ).join("");
+}
+const ROUTES = [["architecture_only",105],["unclear",44],["mems_silicon_photonic",43],["thermo_optic",30],["mems_3d",16],["electro_optic",14],["other",13],["soa",11],["mems_2d",3],["piezo",2],["lcos",2],["robotic_patch_panel",1]];
+hbars("routes", ROUTES.map(([k, v]) => ({ key: k, label: ROUTE[k], v, of: 284, ann: k === "mems_silicon_photonic" ? "27 from one search phrase" : "" })), 105, "mems_silicon_photonic");
+document.getElementById("routes-table").innerHTML = "<thead><tr><th>Route</th><th class='num'>Core papers</th></tr></thead><tbody>" + ROUTES.map(([k, v]) => `<tr><td>${ROUTE[k]}</td><td class="num">${v}</td></tr>`).join("") + "</tbody>";
+hbars("trl", [["Lab",236],["Unclear",43],["Production",4],["Pilot",1]].map(([l, v]) => ({ key: l, label: l, v, of: 284 })), 236, "");
+
+/* audit rounds */
+(function () {
+  const R = [
+    { k: "Run 1", s: "round 1", v: 25, n: "5 of 20", st: "fail", seed: "20260926" },
+    { k: "Run 1", s: "round 2", v: 0, n: "0 of 20", st: "padded", seed: "20260926", note: "18 of 27 category cells padded to pass" },
+    { k: "Run 1", s: "round 3", v: 5, n: "1 of 20", st: "pass", seed: "20260927" },
+    { k: "Run 2", s: "first audit, round 1", v: 15, n: "3 of 20", st: "fail", seed: "20260928" },
+    { k: "Run 2", s: "first audit, round 2", v: 0, n: "0 of 20", st: "pass", seed: "20260928" },
+    { k: "Run 2", s: "final audit", v: 0, n: "0 of 20", st: "pass", seed: "20260929" }
+  ];
+  const MAX = 30, word = { fail: "✕ Fail", pass: "✓ Pass", padded: "! Not trustworthy" };
+  let cols = `<div class="cols">`;
+  for (const y of [0, 10, 20, 30]) if (y !== 10) cols += `<span class="ylab" style="bottom:${y / MAX * 100}%">${y}%</span>`;
+  cols += `<div class="limit" style="bottom:${10 / MAX * 100}%"><span>10% limit</span></div>`;
+  for (const r of R) {
+    const tip = `${r.k}, ${r.s} (seed ${r.seed}): ${r.n} unsupported, ${word[r.st].slice(2).toLowerCase()}${r.note ? ". " + r.note : ""}`;
+    cols += `<div class="c"><span class="pct">${r.v}%</span><div class="bar ${r.st}${r.v === 0 ? " zero" : ""}" tabindex="0" data-tip="${esc(tip)}" style="height:${r.v / MAX * 100}%"></div></div>`;
+  }
+  cols += `</div><div class="clabs">` + R.map(r => `<div><b>${r.k}</b>${r.s}<br><span class="verdict ${r.st}">${word[r.st]}</span></div>`).join("") + `</div>`;
+  document.getElementById("audit-chart").innerHTML = cols;
+  document.getElementById("audit-table").innerHTML = "<thead><tr><th>Round</th><th>Seed</th><th class='num'>Unsupported</th><th>Result</th></tr></thead><tbody>" +
+    R.map(r => `<tr><td>${r.k}, ${r.s}</td><td>${r.seed}</td><td class="num">${r.n} (${r.v}%)</td><td>${word[r.st].slice(2)}${r.note ? ", " + r.note : ""}</td></tr>`).join("") + "</tbody>";
+})();
+
+/* evidence grid */
+(function () {
+  const DIM = { switching_time: "Switching time", insertion_loss: "Insertion loss", port_count: "Port count", polarization_dependent_loss: "Polarization-dependent loss", crosstalk: "Crosstalk", wavelength_range: "Wavelength range", integration: "Integration", packaging_notes: "Packaging", trl_band: "Maturity", academic_groups: "Academic groups", companies: "Companies", ai_cluster_fit: "AI cluster fit", cost_per_port: "Cost per port", scaling_limit: "Scaling limit" };
+  const ST = { reported: "Reported in an abstract", company: "From a company page", derived: "Derived from the database", not_reported_in_abstract: "Not reported in this route\u2019s core abstracts", no_source: "No company in the project map" };
+  MATRIX.forEach(m => { if (m.s === "reported" && !m.n && m.p) m.s = "company"; });
+  const routes = [...new Set(MATRIX.map(m => m.r))], dims = [...new Set(MATRIX.map(m => m.d))];
+  const at = {}; MATRIX.forEach(m => at[m.r + "|" + m.d] = m);
+  let h = `<div></div>` + routes.map(r => `<div class="ch">${ROUTE[r]}</div>`).join("");
+  for (const d of dims) {
+    h += `<div class="rh">${DIM[d]}</div>`;
+    for (const r of routes) {
+      const m = at[r + "|" + d];
+      const val = m.v ? `${m.v}${m.u && !m.v.includes(m.u) ? " " + m.u : ""}` : "";
+      const tip = `${ROUTE[r]}, ${DIM[d].toLowerCase()}. ${val ? val + ". " : ""}${ST[m.s]}${m.s === "company" ? " (data/projects.csv row " + m.p.split(";").join(", ") + ")" : ""}${m.c ? ", " + m.c + " confidence" : ""}${m.n ? ", " + m.n + " paper" + (m.n > 1 ? "s" : "") : ""}.`;
+      h += `<div class="cell ${m.s}" tabindex="0" data-tip="${esc(tip)}" aria-label="${esc(tip)}"></div>`;
+    }
+  }
+  document.getElementById("egrid").innerHTML = h;
+  const cnt = {}; MATRIX.forEach(m => cnt[m.s] = (cnt[m.s] || 0) + 1);
+  document.getElementById("elegend").innerHTML = Object.keys(ST).map(s => `<li><span class="cell ${s}"></span>${ST[s]} <b>${cnt[s] || 0}</b></li>`).join("");
+  const short = m => m.s === "not_reported_in_abstract" ? "not reported" : m.s === "no_source" ? "no company" : (m.v.length > 44 ? esc(m.v.slice(0, 42)) + "…" : esc(m.v)) + (m.u && !m.v.includes(m.u) ? " " + m.u : "");
+  document.getElementById("egrid-table").innerHTML = "<thead><tr><th>Dimension</th>" + routes.map(r => `<th>${ROUTE[r]}</th>`).join("") + "</tr></thead><tbody>" +
+    dims.map(d => `<tr><td>${DIM[d]}</td>` + routes.map(r => `<td>${short(at[r + "|" + d])}</td>`).join("") + "</tr>").join("") + "</tbody>";
+})();
+
+/* projects */
+document.getElementById("projects").innerHTML = "<thead><tr><th>Company</th><th>Product or project</th><th>Route</th><th>Stage</th><th>Evidence</th></tr></thead><tbody>" +
+  PROJECTS.map(p => `<tr><td>${esc(p.entity)}</td><td>${esc(p.product)}</td><td>${ROUTE[p.route] || esc(p.route)}</td><td><span class="stage ${p.stage}">${esc(p.stage)}</span></td><td><a href="${esc(p.url)}" rel="noopener">${esc(p.host)}</a>, ${p.fetched ? "fetched " : ""}${esc(p.date)}</td></tr>`).join("") + "</tbody>";
+
+/* top PIs */
+document.getElementById("pis").innerHTML = "<thead><tr><th>Author</th><th>Institution</th><th class='num'>Core</th></tr></thead><tbody>" +
+  PIS.map(p => `<tr><td>${esc(p.name)}</td><td>${esc(p.inst)}</td><td class="num">${p.core}</td></tr>`).join("") + "</tbody>";
+
+/* issues */
+const ISSUES = [
+  [13, "Add Jupiter Evolving and RotorNet via doi_publisher_confirmed", "first job of run 3"],
+  [20, "Split 4 fuzzy-title merges that joined different publications", "after the meeting"],
+  [14, "Residual inconsistencies in validation_report.md", "accepted by the owner"],
+  [10, "“0 SIGCOMM core papers” mostly reflects missing venue metadata", ""],
+  [5, "clusters.csv member order depends on PYTHONHASHSEED", ""],
+  [3, "Keep arXiv IDs from merged records when the kept record has none", ""],
+  [2, "Backfill OpenAlex records for arXiv-only papers with free DOI lookups", ""]
+];
+document.getElementById("issues").innerHTML = ISSUES.map(([n, t, s]) => `<li><a class="k" href="${REPO}/issues/${n}">#${n}</a>${esc(t)}${s ? `<span class="note">, ${s}</span>` : ""}</li>`).join("");
+
+/* files */
+const FILES = [
+  ["deliverables/meeting_summary.md", "One-pager", "about 500 words, with a Chinese draft"],
+  ["MEETING_PREP.md", "Meeting prep", "speaking order and likely questions"],
+  ["HANDOVER.md", "Handover to Yuxuan", "setup, workflow and open work, with a Chinese draft"],
+  ["SUMMARY-2026-09-27.md", "Run 2 summary", "gate results and pull requests up to #17"],
+  ["deliverables/demo_results.md", "Demo results", "counts, tables, and run 1 against run 2"],
+  ["deliverables/comparison_matrix.md", "Comparison matrix", "nine routes, fourteen dimensions"],
+  ["graphs/tech_map.html", "Technology map", "static page, opens offline"],
+  ["graphs/coauthor.html", "Team map", "1827 authors, names on hover"],
+  ["graphs/project_timeline.html", "Project timeline", "4 dated projects plotted, 8 undated listed"],
+  ["deliverables/validation_report.md", "Validation report", "every audit round, append-only"],
+  ["deliverables/open_questions.md", "Open questions", "thirteen, for next week"],
+  ["STATUS.md", "Run log", "one line per stage event"]
+];
+document.getElementById("filelinks").innerHTML = FILES.map(([p, t, s]) => `<a href="${REPO}/blob/master/${p}"><strong>${t}</strong><span>${s}</span></a>`).join("");
+
+/* tooltip */
+(function () {
+  const tip = document.getElementById("tip");
+  const show = (el, x, y) => {
+    tip.textContent = el.dataset.tip; tip.classList.add("on");
+    const w = tip.offsetWidth, hgt = tip.offsetHeight;
+    let left = Math.min(Math.max(8, x - w / 2), innerWidth - w - 8), top = y - hgt - 12;
+    if (top < 8) top = y + 18;
+    tip.style.left = left + "px"; tip.style.top = top + "px";
+  };
+  const hide = () => tip.classList.remove("on");
+  document.addEventListener("pointerover", e => { const el = e.target.closest("[data-tip]"); if (el) show(el, e.clientX, e.clientY); });
+  document.addEventListener("pointermove", e => { const el = e.target.closest("[data-tip]"); if (el) show(el, e.clientX, e.clientY); else hide(); });
+  document.addEventListener("focusin", e => { const el = e.target.closest("[data-tip]"); if (el) { const r = el.getBoundingClientRect(); show(el, r.left + r.width / 2, r.top); } });
+  document.addEventListener("focusout", hide);
+  addEventListener("scroll", hide, { passive: true });
+})();
+</script>
+</body>
+</html>

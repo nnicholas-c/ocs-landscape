@@ -217,6 +217,9 @@ data/work/              batch files and audit inputs (mostly gitignored; files t
 data/projects.csv       the scout's company and project table
 graphs/                 GraphML, rankings, clusters, coauthor.html, tech_map.html, project_timeline.html
 deliverables/           meeting documents, the matrix, the audit, the pitfalls log
+status/                 one-page status overview (index.html), built from template.html by build.py
 ```
+
+To rebuild the status page after the data changes, run `.venv/bin/python status/build.py` from the repo root. The page's prose and hand-entered figures live in `status/template.html`; the matrix, top authors and project rows are read from the repo's files.
 
 No secrets are committed, because `.env` is gitignored and the repo history has been scanned for the API key.
