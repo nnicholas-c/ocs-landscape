@@ -7,6 +7,7 @@ merging on fuzzy title.
 Plain assert, no framework. Run with:
     .venv/bin/python -m pipeline.test_curate
 """
+from pipeline.collect_openalex import extract_arxiv_id
 from pipeline.curate import cluster_records
 
 
@@ -44,6 +45,27 @@ def demo():
     )
 
     print("ok: subset-match titles stay split, near-duplicates still merge")
+
+    # extract_arxiv_id used to miss arxiv.org/pdf/ landing pages and cut
+    # old-style IDs at the first '/' or 'v' ("cond-mat", "sol").
+    def landing(url):
+        return {"locations": [{"landing_page_url": url}]}
+    cases = [
+        ("https://arxiv.org/abs/2006.10692", "2006.10692"),
+        ("https://arxiv.org/abs/2006.10692v3", "2006.10692"),
+        ("https://arxiv.org/pdf/1907.07786.pdf", "1907.07786"),
+        ("https://arxiv.org/pdf/2006.14800v2", "2006.14800"),
+        ("https://arxiv.org/abs/cond-mat/0601001", "cond-mat/0601001"),
+        ("https://arxiv.org/abs/solv-int/9901001v1", "solv-int/9901001"),
+        ("https://arxiv.org/abs/math.AG/0601001", "math.AG/0601001"),
+        ("https://eprints.whiterose.ac.uk/147141/8/Review_Crypto_v14_arxiv.pdf", None),
+    ]
+    for url, want in cases:
+        got = extract_arxiv_id(landing(url))
+        assert got == want, f"extract_arxiv_id({url!r}) = {got!r}, want {want!r}"
+    assert extract_arxiv_id({"doi": "https://doi.org/10.48550/arXiv.2012.12404"}) == "2012.12404"
+
+    print("ok: extract_arxiv_id handles /abs/, /pdf/, versions and old-style IDs")
 
 
 if __name__ == "__main__":

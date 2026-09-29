@@ -1,0 +1,222 @@
+[
+  {
+    "paper_id": "W3004483219",
+    "tech_route": "electro_optic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": "silicon_photonics",
+    "evidence_span": "Here, we demonstrate plasmonic electro-optic directional coupler switches consisting of two closely spaced nm-thin gold nanostripes on LN substrates that guide both coupled electromagnetic modes and electrical signals that control their coupling, thereby enabling ultra-compact switching and modulation functionalities.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W3027646862",
+    "tech_route": "other",
+    "tech_route_secondary": null,
+    "integration": "free_space_bulk",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": null,
+    "evidence_span": "The switch is based on a rotating cylinder that selectively transmits one laser beam at a time to the wavemeter.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W3030859832",
+    "tech_route": "thermo_optic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": "silicon_photonics",
+    "evidence_span": "Furthermore, we realize an SRN Multi-Mode Interferometer (MMI) based thermo-optic switch with over 20 dB extinction ratio and total power consumption for two-port switching of 50 mW.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W3034286545",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "F4Tele: FSO for data center network management and packet telemetry",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W3045970880",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": "silicon_photonics",
+    "evidence_span": "Here we report, to the best of our knowledge, the first monolithic 1 × 8 microwave photonic beamformer, based on switchable OTTDLs on the silicon-on-insulator platform.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W3094158907",
+    "tech_route": "lcos",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": "telecom_oxc_roadm",
+    "evidence_span": "By adaptively partitioning bandwidth with a single wavelength-selective switch, we successfully equalize two-party coincidence rates that initially differ by over two orders of magnitude.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W3114768400",
+    "tech_route": "thermo_optic",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "none",
+    "adjacent_field": "silicon_photonics",
+    "evidence_span": "Thermo-optic refraction in MoS2 medium for “Normally on” all optical switch",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W3117873041",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": "silicon_photonics",
+    "evidence_span": "The effect is based on the oscillating temperature field induced in a nonlinear optical cavity, and it reproduces many of the key features of EIT while being independent of either atomic or mechanical resonances.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W3120228857",
+    "tech_route": "other",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": "silicon_photonics",
+    "evidence_span": "Finally, a Sb 2 S 3 integrated non‐volatile microring switch is demonstrated which can be tuned electrically between a high and low transmission state with a contrast over 30 dB.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W3122552036",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": "silicon_photonics",
+    "evidence_span": "Photonic integrated circuits currently use platform intrinsic thermo-optic and electro-optic effects to implement dynamic functions such as switching, modulation and other processing.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W3138806262",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": "telecom_oxc_roadm",
+    "evidence_span": "In this paper, we propose a scheme that utilizes the optimization ability of artificial intelligence (AI) for optimal transceiver-joint equalization in compensating for the optical filtering impairments caused by wavelength selective switches (WSS).",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W3163993441",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": "silicon_photonics",
+    "evidence_span": "Silicon ring resonator-based devices, such as modulators, detectors, filters, and switches, play important roles in integrated photonic circuits for optical communication, high-performance computing, and sensing applications.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W4221142669",
+    "tech_route": "other",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": "silicon_photonics",
+    "evidence_span": "Here, we report a broadband nonvolatile electrically programmable 2 x 2 silicon photonic switch based on the phase-change material Ge2Sb2Te5.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W4221161683",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "However, recent optical switching technologies enable the concept of dynamically reconfiguring circuit-switched topologies in real-time.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W4221166638",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": null,
+    "evidence_span": "In this work, we demonstrate a monolithic integrated LN modulator with an ultra-high spurious-free dynamic range (SFDR) of 120.04 dB · Hz 4 / 5 at 1 GHz, using a ring-assisted Mach–Zehnder interferometer configuration.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W4224980528",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": null,
+    "evidence_span": "These include a record-high frequency modulation speed of 2 exahertz/s (2.0 × 10 18 Hz/s) and fast switching at 50 MHz, both of which are made possible by integration of the electro-optic effect.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W4285390819",
+    "tech_route": "thermo_optic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": "silicon_photonics",
+    "evidence_span": "We propose and demonstrate a passively biased 2 × 2 thermo-optic switch with high power efficiency and fast response time.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W4297796831",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "pilot",
+    "ai_dc_fit": "none",
+    "adjacent_field": "telecom_oxc_roadm",
+    "evidence_span": "The entangled photons in IEQNET nodes are generated at multiple wavelengths, and are selectively distributed to the desired users via transparent optical switches.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W4389543308",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": "silicon_photonics",
+    "evidence_span": "By fitting the experimental results with theory, we obtain fundamental parameters that characterize their thermo-optic performance, including the thermo-optic coefficient, the efficiency of the optically induced thermo-optic process, and the thermal conductivity.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W4391013534",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "We experimentally verify a fast control plane with 100 microseconds of configuration time that can support more than 1000 racks, leveraged by a software-defined network controller and an industrial real-time Ethernet standard EtherCAT.",
+    "confidence": "medium"
+  }
+]

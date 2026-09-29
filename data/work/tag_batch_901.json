@@ -1,0 +1,142 @@
+[
+  {
+    "paper_id": "W1992393894",
+    "title": "All optical reconfiguration of optomechanical filters",
+    "year": 2012,
+    "venue": "Nature Communications",
+    "abstract": "Reconfigurable optical filters are of great importance for applications in optical communication and information processing. Of particular interest are tuning techniques that take advantage of mechanical deformation of the devices, as they offer wider tuning range. Here we demonstrate reconfiguration of coupled photonic crystal nanobeam cavities by using optical gradient force induced mechanical actuation. Propagating waveguide modes that exist over a wide wavelength range are used to actuate the structures and control the resonance of localized cavity modes. Using this all-optical approach, more than 18 linewidths of tuning range is demonstrated. Using an on-chip temperature self-referencing method, we determine that 20% of the total tuning was due to optomechanical reconfiguration and the rest due to thermo-optic effects. By operating the device at frequencies higher than the thermal cutoff, we show high-speed operation dominated by just optomechanical effects. Independent control of mechanical and optical resonances of our structures is also demonstrated. Nanoscale optomechanical systems offer a route to using optical forces for a range of devices based on photonic structures. Deotareet al. present a reconfigurable optical filter based on coupled silicon photonic crystal nanobeam cavities that can overcome thermo-optic effects at high frequencies."
+  },
+  {
+    "paper_id": "W1998881035",
+    "title": "A compact plasmonic MOS-based 2x2 electro-optic switch",
+    "year": 2015,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "We report on a three-waveguide electro-optic switch for compact photonic integrated circuits and data routing applications. The device features a plasmonic metal-oxide-semiconductor (MOS) mode for enhanced light-matter-interactions. The switching mechanism originates from a capacitor-like design where the refractive index of the active medium, Indium-Tin-Oxide, is altered via shifting the plasma frequency due to carrier accumulation inside the waveguide-based MOS structure. This light manipulation mechanism controls the transmission direction of transverse magnetic polarized light into either a CROSS or BAR waveguide port. The extinction ratio of 18 dB (7) dB for the CROSS (BAR) state, respectively, is achieved via a gating voltage bias. The ultrafast broadband fJ/bit device allows for seamless integration with Siliconon- Insulator platforms to for low-cost manufacturing."
+  },
+  {
+    "paper_id": "W2007828573",
+    "title": "Reconfigurable radio-frequency arbitrary waveforms synthesized in a silicon photonic chip",
+    "year": 2015,
+    "venue": "Nature Communications",
+    "abstract": "Photonic methods of radio-frequency waveform generation and processing can provide performance advantages and flexibility over electronic methods due to the ultrawide bandwidth offered by the optical carriers. However, bulk optics implementations suffer from the lack of integration and slow reconfiguration speed. Here we propose an architecture of integrated photonic radio-frequency generation and processing and implement it on a silicon chip fabricated in a semiconductor manufacturing foundry. Our device can generate programmable radio-frequency bursts or continuous waveforms with only the light source, electrical drives/controls and detectors being off-chip. It modulates an individual pulse in a radio-frequency burst within 4 ns, achieving a reconfiguration speed three orders of magnitude faster than thermal tuning. The on-chip optical delay elements offer an integrated approach to accurately manipulating individual radio-frequency waveform features without constraints set by the speed and timing jitter of electronics, and should find applications ranging from high-speed wireless to defence electronics."
+  },
+  {
+    "paper_id": "W2014947539",
+    "title": "Fano resonance control in a photonic crystal structure and its application to ultrafast switching",
+    "year": 2014,
+    "venue": "Applied Physics Letters",
+    "abstract": "We experimentally demonstrate a photonic crystal structure that allows easy and robust control of the Fano spectrum. Its operation relies on controlling the amplitude of light propagating along one of the light paths in the structure from which the Fano resonance is obtained. Short-pulse dynamic measurements show that besides drastically increasing the switching contrast, the transmission dynamics itself is strongly affected by the nature of the resonance. The influence of slow-recovery tails implied by a long carrier lifetime can thus be reduced using a Fano resonance due to a hitherto unrecognized reshaping effect of the nonlinear Fano transfer function. As an example, we present a system application of a Fano structure, demonstrating its advantages by the experimental realization of 10 Gbit/s all-optical modulation with optical control power less than 1 mW."
+  },
+  {
+    "paper_id": "W2186837746",
+    "title": "Optical vortex beam based optical fan for high-precision optical measurements and optical switching",
+    "year": 2014,
+    "venue": "Optics Letters",
+    "abstract": "The polarization and orbital angular momentum properties of light are of great importance in optical science and technology in the fields of high-precision optical measurements and high-capacity and high-speed optical communications. Here we show a method for the construction of a simple and robust scheme to rotate a light beam such as a fan, which is based on a combination of these two properties and using the thermal-dispersion and electro-optical effect of birefringent crystals. Using a computer-based digital image-processing technique, we determine the temperature and thermal-dispersion difference of the crystal with high resolution. We also use the rotation phenomenon to realize thermo-optic and electro-optic switches. The basic operating principles for measurement and switching processes are presented in detail. The methods developed here will have wide practical applicability in various fields, including remote sensing, materials science, and optical communication networks."
+  },
+  {
+    "paper_id": "W2217470677",
+    "title": "High-performance and power-efficient 2×2 optical switch on Silicon-on-Insulator",
+    "year": 2015,
+    "venue": "Optics Express",
+    "abstract": "A compact (15µm × 15µm) and highly-optimized 2×2 optical switch is demonstrated on a CMOS-compatible photonic crystal technology. On-chip insertion loss are below 1 dB, static and dynamic contrast are 40 dB and >20 dB respectively. Owing to efficient thermo-optic design, the power consumption is below 3 mW while the switching time is 1 µs."
+  },
+  {
+    "paper_id": "W2234047666",
+    "title": "Ultra-compact and wide-spectrum-range thermo-optic switch based on silicon coupled photonic crystal microcavities",
+    "year": 2015,
+    "venue": "Applied Physics Letters",
+    "abstract": "We design, fabricate, and experimentally demonstrate a compact thermo-optic gate switch comprising a 3.78 μm-long coupled L0-type photonic crystal microcavities on a silicon-on-insulator substrate. A nanohole is inserted in the center of each individual L0 photonic crystal microcavity. Coupling between identical microcavities gives rise to bonding and anti-bonding states of the coupled photonic molecules. The coupled photonic crystal microcavities are numerically simulated and experimentally verified with a 6 nm-wide flat-bottom resonance in its transmission spectrum, which enables wider operational spectrum range than microring resonators. An integrated micro-heater is in direct contact with the silicon core to efficiently drive the device. The thermo-optic switch is measured with an optical extinction ratio of 20 dB, an on-off switching power of 18.2 mW, a thermo-optic tuning efficiency of 0.63 nm/mW, a rise time of 14.8 μs, and a fall time of 18.5 μs. The measured on-chip loss on the transmission band is as low as 1 dB."
+  },
+  {
+    "paper_id": "W2442240527",
+    "title": "A photonic platform for donor spin qubits in silicon",
+    "year": 2017,
+    "venue": "Science Advances",
+    "abstract": "donor, we measure lower bounds on the transition dipole moment and excited-state lifetime, enabling access to the strong coupling limit of cavity quantum electrodynamics using known silicon photonic resonator technology and integrated silicon photonics. We also report relatively strong photon emission from this same transition. These results unlock clear pathways for silicon-based quantum computing, spin-to-photon conversion, photonic memories, integrated single-photon sources, and all-optical switches."
+  },
+  {
+    "paper_id": "W2512049535",
+    "title": "Slow-light-enhanced energy efficiency for graphene microheaters on silicon photonic crystal waveguides",
+    "year": 2017,
+    "venue": "Nature Communications",
+    "abstract": "Abstract Slow light has been widely utilized to obtain enhanced nonlinearities, enhanced spontaneous emissions and increased phase shifts owing to its ability to promote light–matter interactions. By incorporating a graphene on a slow-light silicon photonic crystal waveguide, here we experimentally demonstrate an energy-efficient graphene microheater with a tuning efficiency of 1.07 nmmW −1 and power consumption per free spectral range of 3.99 mW. The rise and decay times (10–90%) are only 750 and 525 ns, which, to the best of our knowledge, are the fastest reported response times for microheaters in silicon photonics. The corresponding figure of merit of the device is 2.543 nW s, one order of magnitude better than results reported in previous studies. The influence of the length and shape of the graphene heater to the tuning efficiency is further investigated, providing valuable guidelines for enhancing the tuning efficiency of the graphene microheater."
+  },
+  {
+    "paper_id": "W2585826757",
+    "title": "Cyclic spectra for wavelength-routed optical networks",
+    "year": 2017,
+    "venue": "Optics Letters",
+    "abstract": "We propose occupying the guard bands in closely spaced WDM systems with redundant signal spectral components to increase tolerance to frequency misalignment and channel shaping from multiplexing elements. By cyclically repeating the spectrum of a modulated signal, we show improved tolerance to impairments due to add/drop multiplexing with a commercial wavelength selective switch in systems using 5%-20% guard bands on a 50 GHz DWDM grid."
+  },
+  {
+    "paper_id": "W2748818791",
+    "title": "Silicon waveguide optical switch with embedded phase change material",
+    "year": 2017,
+    "venue": "Optics Express",
+    "abstract": "Phase-change materials (PCMs) have emerged as promising active elements in silicon (Si) photonic systems. In this work, we design, fabricate, and characterize a hybrid Si-PCM optical switch. By integrating vanadium dioxide (a PCM) within a Si photonic waveguide, in a non-resonant geometry, we achieve ~10 dB broadband optical contrast with a PCM length of 500 nm using thermal actuation."
+  },
+  {
+    "paper_id": "W2763125919",
+    "title": "Fourier transform spectrometer on silicon with thermo-optic non-linearity and dispersion correction",
+    "year": 2018,
+    "venue": "Nature Communications",
+    "abstract": "Miniaturized integrated spectrometers will have unprecedented impact on applications ranging from unmanned aerial vehicles to mobile phones, and silicon photonics promises to deliver compact, cost-effective devices. Mirroring its ubiquitous free-space counterpart, a silicon photonics-based Fourier transform spectrometer (Si-FTS) can bring broadband operation and fine resolution to the chip scale. Here we present the modeling and experimental demonstration of a thermally tuned Si-FTS accounting for dispersion, thermo-optic non-linearity, and thermal expansion. We show how these effects modify the relation between the spectrum and interferogram of a light source and we develop a quantitative correction procedure through calibration with a tunable laser. We retrieve a broadband spectrum (7 THz around 193.4 THz with 0.38-THz resolution consuming 2.5 W per heater) and demonstrate the Si-FTS resilience to fabrication variations-a major advantage for large-scale manufacturing. Providing design flexibility and robustness, the Si-FTS is poised to become a fundamental building block for on-chip spectroscopy."
+  },
+  {
+    "paper_id": "W2803462617",
+    "title": "Nanophotonic Pockels modulators on a silicon nitride platform",
+    "year": 2018,
+    "venue": "Nature Communications",
+    "abstract": "Abstract Silicon nitride (SiN) is emerging as a competitive platform for CMOS-compatible integrated photonics. However, active devices such as modulators are scarce and still lack in performance. Ideally, such a modulator should have a high bandwidth, good modulation efficiency, low loss, and cover a wide wavelength range. Here, we demonstrate the first electro-optic modulators based on ferroelectric lead zirconate titanate (PZT) films on SiN, in both the O-band and C-band. Bias-free operation, bandwidths beyond 33 GHz and data rates of 40 Gbps are shown, as well as low propagation losses ( α ≈ 1 dB cm −1 ). A half-wave voltage-length product of 3.2 V cm is measured. Simulations indicate that further improvement is possible. This approach offers a much-anticipated route towards high-performance phase modulators on SiN."
+  },
+  {
+    "paper_id": "W2829881810",
+    "title": "Switchable plasmonic routers controlled by external magnetic fields by using magneto-plasmonic waveguides",
+    "year": 2018,
+    "venue": "Scientific Reports",
+    "abstract": "We analytically and numerically investigate magneto-plasmons in metal films surrounded by a ferromagnetic dielectric. In such waveguide using a metal film with a thickness exceeding the Skin depth, an external magnetic field in the transverse direction can induce a significant spatial asymmetry of mode distribution. Superposition of the odd and the even asymmetric modes over a distance leads to a concentration of the energy on one interface which is switched to the other interface by the magnetic field reversal. The requested magnitude of magnetization is exponentially reduced with the increase of the metal film thickness. Based on this phenomenon, we propose a waveguide-integrated magnetically controlled switchable plasmonic routers with 99-%-high contrast within the optical bandwidth of tens of THz. This configuration can also operate as a magneto-plasmonic modulator."
+  },
+  {
+    "paper_id": "W2892415914",
+    "title": "Continuously tunable orthogonally polarized RF optical single sideband generator based on micro-ring resonators",
+    "year": 2018,
+    "venue": "Journal of Optics",
+    "abstract": "Abstract We demonstrate a continuously RF tunable orthogonally polarized optical single sideband (OP-OSSB) generator based on dual cascaded micro-ring resonators (MRRs). By splitting the input double sideband signal into an orthogonally polarized carrier and lower sideband via TE- and TM-polarized MRRs, an OP-OSSB signal is generated. A large tuning range of the optical carrier to sideband ratio of up to 57.3 dB is achieved by adjusting the polarization angle of the input light. The operation RF frequency of the OP-OSSB generator can be continuously tuned with a 21.4 GHz range via independent thermal control of the two MRRs. Our device represents a competitive approach towards OP-OSSB generation with wideband tunable RF operation, and is promising for photonic RF signal transmission and processing in radar and communication systems."
+  },
+  {
+    "paper_id": "W2904485030",
+    "title": "Toward a reconfigurable quantum network enabled by a broadband entangled source",
+    "year": 2018,
+    "venue": "Journal of the Optical Society of America B",
+    "abstract": "We present a proof-of-principle experimental demonstration of a reconfigurable entanglement distribution scheme utilizing a poled fiber-based source of broadband polarization-entangled photon pairs and dense wavelength-division multiplexing. A large bandwidth (>90 nm, centered at 1555 nm) and highly spectrally correlated nature of the entangled source can be exploited to allow for the generation of more than 25 frequency-conjugate entangled pairs when aligned to the standard 200 GHz ITU grid. In this work, three frequency-conjugate entangled pairs are used to demonstrate quantum key distribution, with the wavelength-selective switching done manually. The entangled pairs are delivered over 40 km of actual fiber, and an estimated secure key rate of up to 20 bits/s per bi-party is obtained."
+  },
+  {
+    "paper_id": "W2910306093",
+    "title": "Photoconductive heaters enable control of large-scale silicon photonic ring resonator circuits",
+    "year": 2019,
+    "venue": "Optica",
+    "abstract": "A multitude of large-scale silicon photonic systems based on ring resonators have been envisioned for applications ranging from biomedical sensing to quantum computing and machine learning. Yet, due to the lack of a scalable solution for controlling ring resonators, practical demonstrations have been limited to systems with only a few rings. Here, we demonstrate that large systems can be controlled by using only doped waveguide elements inside their ringswhile preserving their area and cost. We measure the large photoconductive changes of the waveguides for monitoring the rings' resonance conditions across high-dynamic ranges and leverage their thermo-optic effects for tuning. This allows us to control ring resonators without requiring additional components, complex tuning algorithms, or additional electrical I/Os. We demonstrate automatic resonance alignment of 31 rings of a 16 x 16 switch and of a 14-ring coupled resonator optical waveguide, making them the largest, yet most compact, automatically controlled silicon ring resonator circuits to date, to the best of our knowledge."
+  },
+  {
+    "paper_id": "W2913891200",
+    "title": "A BaTiO3-Based Electro-Optic Pockels Modulator Monolithically Integrated on an Advanced Silicon Photonics Platform",
+    "year": 2019,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "To develop a new generation of high-speed photonic modulators on silicon-technology-based photonics, new materials with large Pockels coefficients have been transferred to silicon substrates. Previous approaches focus on realizing stand-alone devices on dedicated silicon substrates, incompatible with the fabrication process in silicon foundries. In this work, we demonstrate monolithic integration of electro-optic modulators based on the Pockels effect in barium titanate (BTO) thin films into the back-end-of-line of a photonic integrated circuit (PIC) platform. Molecular wafer bonding allows fully PIC-compatible integration of BTO-based devices and is, as shown, scalable to 200 mm wafers. The PIC-integrated BTO Mach-Zehnder modulators outperform conventional Si photonic modulators in modulation efficiency, losses, and static tuning power. The devices show excellent VπL (0.2 Vcm) and VπLα (1.3 VdB), work at high speed (25 Gbps), and can be tuned at low-static power consumption (100 nW). Our concept demonstrates the possibility of monolithic integration of Pockels-based electro-optic modulators in advanced silicon photonic platforms."
+  },
+  {
+    "paper_id": "W2949939478",
+    "title": "Optimal Degree of Optical Circuit Switching in IP-over-WDM Networks",
+    "year": 2012,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "In this paper, we study the influence of technology, traffic properties and price trends on optimized design of a reference IP-over-WDM network with rich underlying fiber topology. In each network node, we investigate the optimal degree of traffic switching in an optical (lambda) domain versus an electrical (packet) domain, also known as measure of node transparency. This measure is studied in connection to changes in traffic volume, demand affinity, optical circuit speeds and equipment cost. By applying variable design constraints, we assess the relative roles of the two distinct equipment groups, IP routers and optical cross-connects, with respect to resulting changes in cost-sensitive network architectures."
+  },
+  {
+    "paper_id": "W2963809841",
+    "title": "Demand-Aware Network Designs of Bounded Degree",
+    "year": 2017,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "Traditionally, networks such as datacenter interconnects are designed to optimize worst-case performance under arbitrary traffic patterns. Such network designs can however be far from optimal when considering the actual workloads and traffic patterns which they serve. This insight led to the development of demand-aware datacenter interconnects which can be reconfigured depending on the workload. Motivated by these trends, this paper initiates the algorithmic study of demand-aware networks (DANs) designs, and in particular the design of bounded-degree networks. The inputs to the network design problem are a discrete communication request distribution, D, defined over communicating pairs from the node set V , and a bound, d, on the maximum degree. In turn, our objective is to design an (undirected) demand-aware network N = (V,E) of bounded-degree d, which provides short routing paths between frequently communicating nodes distributed across N. In particular, the designed network should minimize the expected path length on N (with respect to D), which is a basic measure of the efficiency of the network. We show that this fundamental network design problem exhibits interesting connections to several classic combinatorial problems and to information theory. We derive a general lower bound based on the entropy of the communication pattern D, and present asymptotically optimal network-aware design algorithms for important distribution families, such as sparse distributions and distributions of locally bounded doubling dimensions."
+  }
+]

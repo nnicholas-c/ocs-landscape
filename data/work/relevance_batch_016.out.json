@@ -1,0 +1,152 @@
+[
+  {
+    "record_key": "openalex:W3209285728",
+    "score": 2,
+    "adjacent_field": "telecom_oxc_roadm",
+    "reason": "Hybrid phase modulation reduces crosstalk in LCOS wavelength selective switch."
+  },
+  {
+    "record_key": "openalex:W2512219930",
+    "score": 2,
+    "adjacent_field": "telecom_oxc_roadm",
+    "reason": "Waveguide/free-space LCOS hybrid optics for ROADM device design."
+  },
+  {
+    "record_key": "openalex:W2901721529",
+    "score": 1,
+    "adjacent_field": "lcos_display_phase",
+    "reason": "Reviews phase-only LCoS panel quality for holography and telecom; no switch built."
+  },
+  {
+    "record_key": "openalex:W2607270186",
+    "score": 2,
+    "adjacent_field": "telecom_oxc_roadm",
+    "reason": "Low-cost CDC ROADM architecture built from stacked wavelength selective switches."
+  },
+  {
+    "record_key": "openalex:W2314547817",
+    "score": 2,
+    "adjacent_field": "telecom_oxc_roadm",
+    "reason": "Wavelength selective switch design increases port count via steering optimization."
+  },
+  {
+    "record_key": "openalex:W2116218065",
+    "score": 2,
+    "adjacent_field": "telecom_oxc_roadm",
+    "reason": "Uses an LCOS wavelength selective switch for all-optical OFDM processing."
+  },
+  {
+    "record_key": "openalex:W4225941096",
+    "score": 1,
+    "adjacent_field": "telecom_oxc_roadm",
+    "reason": "Reviews multi-band WDM optical network architectures; no specific switch device."
+  },
+  {
+    "record_key": "openalex:W1970986915",
+    "score": 2,
+    "adjacent_field": "telecom_oxc_roadm",
+    "reason": "LCOS-based wavelength selective switch implements optical DFT for OFDM demux."
+  },
+  {
+    "record_key": "openalex:W2186112211",
+    "score": 2,
+    "adjacent_field": "telecom_oxc_roadm",
+    "reason": "MxN wavelength selective switch using LCOS spatial light modulator beam splitting."
+  },
+  {
+    "record_key": "openalex:W2488219102",
+    "score": 1,
+    "adjacent_field": "telecom_oxc_roadm",
+    "reason": "Title only, abstract null; general review of LCoS in telecommunications."
+  },
+  {
+    "record_key": "openalex:W2530918466",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Polariton physics in van der Waals materials; unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W4281778727",
+    "score": 1,
+    "adjacent_field": "lcos_display_phase",
+    "reason": "Reviews LCoS devices for AR/VR displays; display application, not switching."
+  },
+  {
+    "record_key": "openalex:W3215039088",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Builds a MEMS mirror array free-space core selective switch for SDM."
+  },
+  {
+    "record_key": "openalex:W3034334810",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Designs and prototypes a free-space optics core selective switch for SDM."
+  },
+  {
+    "record_key": "openalex:W4311274663",
+    "score": 2,
+    "adjacent_field": "telecom_oxc_roadm",
+    "reason": "Metasurface increases LCoS steering angle in a wavelength selective switch system."
+  },
+  {
+    "record_key": "openalex:W4384824134",
+    "score": 2,
+    "adjacent_field": "telecom_oxc_roadm",
+    "reason": "Ultrabroadband 2D-dispersive LCoS wavelength selective switch with high channel count."
+  },
+  {
+    "record_key": "openalex:W2166397221",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Plant symbiosis signaling biology; LCO acronym collision, unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W4317734516",
+    "score": 1,
+    "adjacent_field": "lcos_display_phase",
+    "reason": "Electrically tunable active metasurface LCoS device; general telecom band, no switch."
+  },
+  {
+    "record_key": "openalex:W2938572472",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Builds and characterizes a scalable microring-based silicon Clos switch fabric."
+  },
+  {
+    "record_key": "openalex:W3114504878",
+    "score": 2,
+    "adjacent_field": "telecom_oxc_roadm",
+    "reason": "LCOS spectral filter improves resolution for wavelength selective switch."
+  },
+  {
+    "record_key": "openalex:W3176290265",
+    "score": 2,
+    "adjacent_field": "telecom_oxc_roadm",
+    "reason": "Asymmetric LCoS-SLM optical wavelength switch for optical access network edge node."
+  },
+  {
+    "record_key": "openalex:W3008594216",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Piezoelectric nano-biomaterials for tissue regeneration; unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W2000611026",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "High-temperature piezoelectric sensing review; unrelated to beam steering or switching."
+  },
+  {
+    "record_key": "openalex:W2966362568",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Piezoelectric energy harvesting review; unrelated to optical switching."
+  },
+  {
+    "record_key": "openalex:W2809332576",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "2D piezoelectric/ferroelectric materials review; unrelated to optical switching."
+  }
+]

@@ -1,0 +1,202 @@
+[
+  {
+    "record_key": "openalex:W2496209904",
+    "source": "openalex",
+    "title": "Roadmap on optical security",
+    "year": 2016,
+    "venue": "Journal of Optics",
+    "abstract": "Abstract Information security and authentication are important challenges facing society. Recent attacks by hackers on the databases of large commercial and financial companies have demonstrated that more research and development of advanced approaches are necessary to deny unauthorized access to critical data. Free space optical technology has been investigated by many researchers in information security, encryption, and authentication. The main motivation for using optics and photonics for information security is that optical waveforms possess many complex degrees of freedom such as amplitude, phase, polarization, large bandwidth, nonlinear transformations, quantum properties of photons, and multiplexing that can be combined in many ways to make information encryption more secure and more difficult to attack. This roadmap article presents an overview of the"
+  },
+  {
+    "record_key": "openalex:W2103979104",
+    "source": "openalex",
+    "title": "A mechanically driven form of Kirigami as a route to 3D mesostructures in micro/nanomembranes",
+    "year": 2015,
+    "venue": "Proceedings of the National Academy of Sciences",
+    "abstract": "Assembly of 3D micro/nanostructures in advanced functional materials has important implications across broad areas of technology. Existing approaches are compatible, however, only with narrow classes of materials and/or 3D geometries. This paper introduces ideas for a form of Kirigami that allows precise, mechanically driven assembly of 3D mesostructures of diverse materials from 2D micro/nanomembranes with strategically designed geometries and patterns of cuts. Theoretical and experimental studies demonstrate applicability of the methods across length scales from macro to nano, in materials ranging from monocrystalline silicon to plastic, with levels of topographical complexity that significantly exceed those that can be achieved using other approaches. A broad set of examples includes 3D silicon mesostructures and hybrid nanomembrane-nanoribbon systems, including heterogeneous combinations with polymers"
+  },
+  {
+    "record_key": "openalex:W3123833583",
+    "source": "openalex",
+    "title": "3D high-density microelectrode array with optical stimulation and drug delivery for investigating neural circuit dynamics",
+    "year": 2021,
+    "venue": "Nature Communications",
+    "abstract": "Investigation of neural circuit dynamics is crucial for deciphering the functional connections among regions of the brain and understanding the mechanism of brain dysfunction. Despite the advancements of neural circuit models in vitro, technologies for both precisely monitoring and modulating neural activities within three-dimensional (3D) neural circuit models have yet to be developed. Specifically, no existing 3D microelectrode arrays (MEAs) have integrated capabilities to stimulate surrounding neurons and to monitor the temporal evolution of the formation of a neural network in real time. Herein, we present a 3D high-density multifunctional MEA with optical stimulation and drug delivery for investigating neural circuit dynamics within engineered 3D neural tissues. We demonstrate precise measurements of synaptic latencies in 3D neural networks. We expect"
+  },
+  {
+    "record_key": "openalex:W4327858904",
+    "source": "openalex",
+    "title": "Integrated silicon photonic MEMS",
+    "year": 2023,
+    "venue": "Microsystems & Nanoengineering",
+    "abstract": "Silicon photonics has emerged as a mature technology that is expected to play a key role in critical emerging applications, including very high data rate optical communications, distance sensing for autonomous vehicles, photonic-accelerated computing, and quantum information processing. The success of silicon photonics has been enabled by the unique combination of performance, high yield, and high-volume capacity that can only be achieved by standardizing manufacturing technology. Today, standardized silicon photonics technology platforms implemented by foundries provide access to optimized library components, including low-loss optical routing, fast modulation, continuous tuning, high-speed germanium photodiodes, and high-efficiency optical and electrical interfaces. However, silicon's relatively weak electro-optic effects result in modulators with a significant footprint and thermo-optic tuning devices that require high power consumption,"
+  },
+  {
+    "record_key": "openalex:W2994819244",
+    "source": "openalex",
+    "title": "Development of 3D bioprinting: From printing methods to biomedical applications",
+    "year": 2019,
+    "venue": "Asian Journal of Pharmaceutical Sciences",
+    "abstract": "Biomanufacturing of tissues/organs in vitro is our big dream, driven by two needs: organ transplantation and accurate tissue models. Over the last decades, 3D bioprinting has been widely applied in the construction of many tissues/organs such as skins, vessels, hearts, etc., which can not only lay a foundation for the grand goal of organ replacement, but also be served as in vitro models committed to pharmacokinetics, drug screening and so on. As organs are so complicated, many bioprinting methods are exploited to figure out the challenges of different applications. So the question is how to choose the suitable bioprinting method? Herein, we systematically review the evolution, process and classification of 3D bioprinting with an emphasis on the fundamental printing principles"
+  },
+  {
+    "record_key": "openalex:W2612686510",
+    "source": "openalex",
+    "title": "First light for GRAVITY: Phase referencing optical interferometry for the Very Large Telescope Interferometer",
+    "year": 2017,
+    "venue": "Astronomy and Astrophysics",
+    "abstract": "GRAVITY is a new instrument to coherently combine the light of the European Southern Observatory Very Large Telescope Interferometer to form a telescope with an equivalent 130 m diameter angular resolution and a collecting area of 200 m 2 . The instrument comprises fiber fed integrated optics beam combination, high resolution spectroscopy, built-in beam analysis and control, near-infrared wavefront sensing, phase-tracking, dual-beam operation, and laser metrology. GRAVITY opens up to optical/infrared interferometry the techniques of phase referenced imaging and narrow angle astrometry, in many aspects following the concepts of radio interferometry. This article gives an overview of GRAVITY and reports on the performance and the first astronomical observations during commissioning in 2015/16. We demonstrate phase-tracking on stars as faint as"
+  },
+  {
+    "record_key": "openalex:W2401218707",
+    "source": "openalex",
+    "title": "A review of metasurfaces: physics and applications",
+    "year": 2016,
+    "venue": "Reports on Progress in Physics",
+    "abstract": "Metamaterials are composed of periodic subwavelength metal/dielectric structures that resonantly couple to the electric and/or magnetic components of the incident electromagnetic fields, exhibiting properties that are not found in nature. This class of micro- and nano-structured artificial media have attracted great interest during the past 15 years and yielded ground-breaking electromagnetic and photonic phenomena. However, the high losses and strong dispersion associated with the resonant responses and the use of metallic structures, as well as the difficulty in fabricating the micro- and nanoscale 3D structures, have hindered practical applications of metamaterials. Planar metamaterials with subwavelength thickness, or metasurfaces, consisting of single-layer or few-layer stacks of planar structures, can be readily fabricated using lithography and nanoprinting methods, and the ultrathin thickness"
+  },
+  {
+    "record_key": "openalex:W2976859966",
+    "source": "openalex",
+    "title": "MEMS for Photonic Integrated Circuits",
+    "year": 2019,
+    "venue": "IEEE Journal of Selected Topics in Quantum Electronics",
+    "abstract": "The field of microelectromechanical systems (MEMS) for photonic integrated circuits (PICs) is reviewed. This field leverages mechanics at the nanometer to micrometer scale to improve existing components and introduce novel functionalities in PICs. This review covers the MEMS actuation principles and the mechanical tuning mechanisms for integrated photonics. The state of the art of MEMS tunable components in PICs is quantitatively reviewed and critically assessed with respect to suitability for large-scale integration in existing PIC technology platforms. MEMS provide a powerful approach to overcome current limitations in PIC technologies and to enable a new design dimension with a wide range of applications."
+  },
+  {
+    "record_key": "openalex:W2066696807",
+    "source": "openalex",
+    "title": "Latest advances in the manufacturing of 3D rechargeable lithium microbatteries",
+    "year": 2015,
+    "venue": "Journal of Power Sources",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W2037530588",
+    "source": "openalex",
+    "title": "A strong electro-optically active lead-free ferroelectric integrated on silicon",
+    "year": 2013,
+    "venue": "Nature Communications",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W3116813957",
+    "source": "openalex",
+    "title": "MEMS Scanning Mirrors for Optical Coherence Tomography",
+    "year": 2020,
+    "venue": "Photonics",
+    "abstract": "This contribution presents an overview of advances in scanning micromirrors based on MEMS (Micro-electro-mechanical systems) technologies to achieve beam scanning for OCT (Optical Coherence Tomography). The use of MEMS scanners for miniaturized OCT probes requires appropriate optical architectures. Their design involves a suitable actuation mechanism and an adapted imaging scheme in terms of achievable scan range, scan speed, low power consumption, and acceptable size of the OCT probe. The electrostatic, electromagnetic, and electrothermal actuation techniques are discussed here as well as the requirements that drive the design and fabrication of functional OCT probes. Each actuation mechanism is illustrated by examples of miniature OCT probes demonstrating the effectiveness of in vivo bioimaging. Finally, the design issues are discussed to permit users"
+  },
+  {
+    "record_key": "openalex:W2889032805",
+    "source": "openalex",
+    "title": "Mapping 3D genome organization relative to nuclear compartments using TSA-Seq as a cytological ruler",
+    "year": 2018,
+    "venue": "The Journal of Cell Biology",
+    "abstract": "While nuclear compartmentalization is an essential feature of three-dimensional genome organization, no genomic method exists for measuring chromosome distances to defined nuclear structures. In this study, we describe TSA-Seq, a new mapping method capable of providing a \"cytological ruler\" for estimating mean chromosomal distances from nuclear speckles genome-wide and for predicting several Mbp chromosome trajectories between nuclear compartments without sophisticated computational modeling. Ensemble-averaged results in K562 cells reveal a clear nuclear lamina to speckle axis correlated with a striking spatial gradient in genome activity. This gradient represents a convolution of multiple spatially separated nuclear domains including two types of transcription \"hot zones.\" Transcription hot zones protruding furthest into the nuclear interior and positioning deterministically very close to nuclear speckles have"
+  },
+  {
+    "record_key": "openalex:W4389954216",
+    "source": "openalex",
+    "title": "Advances in high-performance MEMS pressure sensors: design, fabrication, and packaging",
+    "year": 2023,
+    "venue": "Microsystems & Nanoengineering",
+    "abstract": "Abstract Pressure sensors play a vital role in aerospace, automotive, medical, and consumer electronics. Although microelectromechanical system (MEMS)-based pressure sensors have been widely used for decades, new trends in pressure sensors, including higher sensitivity, higher accuracy, better multifunctionality, smaller chip size, and smaller package size, have recently emerged. The demand for performance upgradation has led to breakthroughs in sensor materials, design, fabrication, and packaging methods, which have emerged frequently in recent decades. This paper reviews common new trends in MEMS pressure sensors, including minute differential pressure sensors (MDPSs), resonant pressure sensors (RPSs), integrated pressure sensors, miniaturized pressure chips, and leadless pressure sensors. To realize an extremely sensitive MDPS with broad application potential, including in medical ventilators and fire residual pressure"
+  },
+  {
+    "record_key": "openalex:W2143829622",
+    "source": "openalex",
+    "title": "Static and dynamic 3D facial expression recognition: A comprehensive survey",
+    "year": 2012,
+    "venue": "Image and Vision Computing",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W2227388478",
+    "source": "openalex",
+    "title": "3D-printed microelectronics for integrated circuitry and passive wireless sensors",
+    "year": 2015,
+    "venue": "Microsystems & Nanoengineering",
+    "abstract": "Abstract Three-dimensional (3D) additive manufacturing techniques have been utilized to make 3D electrical components, such as resistors, capacitors, and inductors, as well as circuits and passive wireless sensors. Using the fused deposition modeling technology and a multiple-nozzle system with a printing resolution of 30 μm, 3D structures with both supporting and sacrificial structures are constructed. After removing the sacrificial materials, suspensions with silver particles are injected subsequently solidified to form metallic elements/interconnects. The prototype results show good characteristics of fabricated 3D microelectronics components, including an inductor–capacitor-resonant tank circuitry with a resonance frequency at 0.53 GHz. A 3D “smart cap” with an embedded inductor–capacitor tank as the wireless passive sensor was demonstrated to monitor the quality of liquid food (e.g., milk"
+  },
+  {
+    "record_key": "openalex:W3031545202",
+    "source": "openalex",
+    "title": "MEMS actuators for biomedical applications: a review",
+    "year": 2020,
+    "venue": "Journal of Micromechanics and Microengineering",
+    "abstract": "Abstract Micro-electromechanical-system (MEMS) based actuators, which transduce certain domains of energy into mechanical movements in the microscopic scale, are increasingly contributing to the areas of biomedical engineering and healthcare applications. They are enabling new functionalities in biomedical devices through their unique miniaturized features. An effective selection of a particular actuator, among a wide range of actuator types available in the MEMS field, needs to be made through the assessment of many factors involved in both the actuator itself and the target application. This paper presents an overview of the state-of-the-art MEMS actuators that have been developed for biomedical applications. The actuation methods, working principle, and imperative features of these actuators are discussed along with their specific applications. An emphasis of"
+  },
+  {
+    "record_key": "openalex:W4285711482",
+    "source": "openalex",
+    "title": "Optical multiplexing techniques and their marriage for on-chip and optical fiber communication: a review",
+    "year": 2022,
+    "venue": "Opto-Electronic Advances",
+    "abstract": "Herein, an attention-grabbing and up-to-date review related to major multiplexing techniques is presented which includes wavelength division multiplexing (WDM), polarization division multiplexing (PDM), space division multiplexing (SDM), mode division multiplexing (MDM) and orbital angular momentum multiplexing (OAMM). Multiplexing is a mechanism by which multiple signals are combined into a shared channel used to showcase the maximum capacity of the optical links. However, it is critical to develop hybrid multiplexing methods to allow enhanced channel numbers. In this review, we have also included hybrid multiplexing techniques such as WDM-PDM, WDM-MDM and PDM-MDM. It is probable to attain N×M channels by utilizing N wavelengths and M guided-modes by simply utilizing hybrid WDM-MDM (de)multiplexers. To the best of our knowledge, this review paper"
+  },
+  {
+    "record_key": "openalex:W3126743042",
+    "source": "openalex",
+    "title": "3D bioprinting of high cell-density heterogeneous tissue models through spheroid fusion within self-healing hydrogels",
+    "year": 2021,
+    "venue": "Nature Communications",
+    "abstract": "Cellular models are needed to study human development and disease in vitro, and to screen drugs for toxicity and efficacy. Current approaches are limited in the engineering of functional tissue models with requisite cell densities and heterogeneity to appropriately model cell and tissue behaviors. Here, we develop a bioprinting approach to transfer spheroids into self-healing support hydrogels at high resolution, which enables their patterning and fusion into high-cell density microtissues of prescribed spatial organization. As an example application, we bioprint induced pluripotent stem cell-derived cardiac microtissue models with spatially controlled cardiomyocyte and fibroblast cell ratios to replicate the structural and functional features of scarred cardiac tissue that arise following myocardial infarction, including reduced contractility and irregular electrical activity. The bioprinted"
+  },
+  {
+    "record_key": "openalex:W2787403570",
+    "source": "openalex",
+    "title": "Micro 3D Printing of a Temperature-Responsive Hydrogel Using Projection Micro-Stereolithography",
+    "year": 2018,
+    "venue": "Scientific Reports",
+    "abstract": "Stimuli-responsive hydrogels exhibiting physical or chemical changes in response to environmental conditions have attracted growing attention for the past few decades. Poly(N-isopropylacrylamide) (PNIPAAm), a temperature responsive hydrogel, has been extensively studied in various fields of science and engineering. However, manufacturing of PNIPAAm has been heavily relying on conventional methods such as molding and lithography techniques that are inherently limited to a two-dimensional (2D) space. Here we report the three-dimensional (3D) printing of PNIPAAm using a high-resolution digital additive manufacturing technique, projection micro-stereolithography (PμSL). Control of the temperature dependent deformation of 3D printed PNIPAAm is achieved by controlling manufacturing process parameters as well as polymer resin composition. Also demonstrated is a sequential deformation of a 3D printed PNIPAAm structure by selective"
+  },
+  {
+    "record_key": "openalex:W2886279143",
+    "source": "openalex",
+    "title": "3D Metaphotonic Nanostructures with Intrinsic Chirality",
+    "year": 2018,
+    "venue": "Advanced Functional Materials",
+    "abstract": "Abstract Chirality is a universal geometric property in both micro‐ and macroworlds. Recently, optical chiral effects have drawn increased attention due to their great potential in fundamental studies and practical applications. Significantly, the optical chiral response of artificial structures can be enhanced by orders of magnitude compared to that of their naturally occurring counterparts. These man‐made structures generally exhibit two types of optical chirality: extrinsic chirality and intrinsic chirality. The former relies on external illumination conditions, while the latter arises from the geometric characteristics of 3D objects. Herein, this review mainly focuses on the intrinsic chirality of artificial structures and discusses the existing realizations based on their design principles. In particular, an overview is given of the recent demonstrations of"
+  },
+  {
+    "record_key": "openalex:W2133627653",
+    "source": "openalex",
+    "title": "Progress of MEMS Scanning Micromirrors for Optical Bio-Imaging",
+    "year": 2015,
+    "venue": "Micromachines",
+    "abstract": "Microelectromechanical systems (MEMS) have an unmatched ability to incorporate numerous functionalities into ultra-compact devices, and due to their versatility and miniaturization, MEMS have become an important cornerstone in biomedical and endoscopic imaging research. To incorporate MEMS into such applications, it is critical to understand underlying architectures involving choices in actuation mechanism, including the more common electrothermal, electrostatic, electromagnetic, and piezoelectric approaches, reviewed in this paper. Each has benefits and tradeoffs and is better suited for particular applications or imaging schemes due to achievable scan ranges, power requirements, speed, and size. Many of these characteristics are fabrication-process dependent, and this paper discusses various fabrication flows developed to integrate additional optical functionality beyond simple lateral scanning, enabling dynamic control of the focus"
+  },
+  {
+    "record_key": "openalex:W3112950318",
+    "source": "openalex",
+    "title": "An Overview on Materials and Techniques in 3D Bioprinting Toward Biomedical Application",
+    "year": 2020,
+    "venue": "Engineered Regeneration",
+    "abstract": "Three-dimensional (3D) bioprinting, an additive manufacturing based technique of biomaterials fabrication, is an innovative and auspicious strategy in medical and pharmaceutical fields. The ability of producing regenerative tissues and organs has made this technology a pioneer to the creation of artificial multi-cellular tissues/organs. A broad variety of biomaterials is currently being utilized in 3D bioprinting as well as multiple techniques employed by researchers. In this review, we demonstrate the most common and novel biomaterials in 3D bioprinting technology further with introducing the related techniques that are commonly taking into account by researchers. In addition, an attempt has been accomplished to hand over the most relevant application of 3D bioprinting techniques such as tissue regeneration, cancer investigations, etc. by presenting the"
+  },
+  {
+    "record_key": "openalex:W3158763067",
+    "source": "openalex",
+    "title": "3D Printing in Digital Prosthetic Dentistry: An Overview of Recent Developments in Additive Manufacturing",
+    "year": 2021,
+    "venue": "Journal of Clinical Medicine",
+    "abstract": "Popular media now often present 3D printing as a widely employed technology for the production of dental prostheses. This article aims to show, based on factual information, to what extent 3D printing can be used in dental laboratories and dental practices at present. It attempts to present a rational evaluation of todays´ applications of 3D printing technology in the context of dental restorations. In addition, the article discusses future perspectives and examines the ongoing viability of traditional dental laboratory services and manufacturing processes. It also shows which expertise is needed for the digital additive manufacturing of dental restorations."
+  },
+  {
+    "record_key": "openalex:W2955888413",
+    "source": "openalex",
+    "title": "Bioresorbable optical sensor systems for monitoring of intracranial pressure and temperature",
+    "year": 2019,
+    "venue": "Science Advances",
+    "abstract": "Continuous measurements of pressure and temperature within the intracranial, intraocular, and intravascular spaces provide essential diagnostic information for the treatment of traumatic brain injury, glaucoma, and cardiovascular diseases, respectively. Optical sensors are attractive because of their inherent compatibility with magnetic resonance imaging (MRI). Existing implantable optical components use permanent, nonresorbable materials that must be surgically extracted after use. Bioresorbable alternatives, introduced here, bypass this requirement, thereby eliminating the costs and risks of surgeries. Here, millimeter-scale bioresorbable Fabry-Perot interferometers and two dimensional photonic crystal structures enable precise, continuous measurements of pressure and temperature. Combined mechanical and optical simulations reveal the fundamental sensing mechanisms. In vitro studies and histopathological evaluations quantify the measurement accuracies, operational lifetimes, and biocompatibility of these systems. In"
+  },
+  {
+    "record_key": "openalex:W4319780230",
+    "source": "openalex",
+    "title": "3D printed microfluidics: advances in strategies, integration, and applications",
+    "year": 2023,
+    "venue": "Lab on a Chip",
+    "abstract": "The ability to construct multiplexed micro-systems for fluid regulation could substantially impact multiple fields, including chemistry, biology, biomedicine, tissue engineering, and soft robotics, among others. 3D printing is gaining traction as a compelling approach to fabricating microfluidic devices by providing unique capabilities, such as 1) rapid design iteration and prototyping, 2) the potential for automated manufacturing and alignment, 3) the incorporation of numerous classes of materials within a single platform, and 4) the integration of 3D microstructures with prefabricated devices, sensing arrays, and nonplanar substrates. However, to widely deploy 3D printed microfluidics at research and commercial scales, critical issues related to printing factors, device integration strategies, and incorporation of multiple functionalities require further development and optimization. In this review, we"
+  }
+]

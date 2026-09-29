@@ -1,0 +1,142 @@
+[
+  {
+    "paper_id": "W4390032166",
+    "title": "Optical Circuit Switching Using REC-DFB Laser Array",
+    "year": 2023,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "The ongoing growth of data traffic from existing and new latency-sensitive applications poses a challenge to the data center network. Wavelength-routed optical circuit switching promises high bandwidth, low power and latency networking for data centers, but requires a wideband wavelength tunable source capable of nanosecond-scale hitless wavelength switching at every node. A tunable source based on DFB laser arrays is a potential candidate due to the high-speed dynamic property and high single-longitudinal-mode (SLM) stability of the DFB laser. However, the large-scale integration of the DFB laser and the high precision control of the lasing wavelength are still problems. In this work, we proposed and fabricated a monolithic integrated 16-channel DFB laser array with high SLM stability and 100-GHz channel spacing by using the reconstruction-equivalent-chirp (REC) technique. The maximum output power of each channel was above 6 mW. Based on the custom-designed fast switching drive board with a field-programmable gate array (FPGA), the switch-ON and OFF time between any pair of channel combinations were measured at less than 10 ns. Dynamic switching wavelengths remained stable and resided within the receiver bandwidth. Wavelength switching experiments for modulated light signals were done by driving the external modulator, achieving bit error performance at 1 × 10−9for 10 Gb/s NRZ data."
+  },
+  {
+    "paper_id": "W4200142051",
+    "title": "Understanding the Performance Guarantee of Physical Topology Design for Optical Circuit Switched Data Centers",
+    "year": 2021,
+    "venue": "Proceedings of the ACM on Measurement and Analysis of Computing Systems",
+    "abstract": "As a first step of designing O ptical-circuit-switched D ata C enters (ODC), physical topology design is critical as it determines the scalability and the performance limit of the entire ODC. However, prior works on ODC have not yet paid much attention to physical topology design, and the adopted physical topologies either scale poorly, or lack performance guarantee. We offer a mathematical foundation for the design and performance analysis of ODC physical topologies in this paper. We introduce a new performance metric β(G ) to evaluate the gap between a physical topology G and the ideal physical topology. We develop a coupling technique that bypasses a significant amount of computational complexity of calculating β(G). Using β(G ) and the coupling technique, we study four physical topologies that are representative of those in literature, analyze their scalabilities and prove their performance guarantees. Our analysis may provide new guidance for network operators to design better physical topologies for their ODCs."
+  },
+  {
+    "paper_id": "W2970534079",
+    "title": "PULSE: Sub-microsecond Optical Circuit Switched Data Center Network",
+    "year": 2019,
+    "venue": null,
+    "abstract": "A control and network system is proposed to offer optical circuits of 120 ns duration while achieving 91% throughput between 1000s of Servers. It delivers 270ns median and 270 μs tail latency under 75% load."
+  },
+  {
+    "paper_id": "W4413217623",
+    "title": "Efficient verification algorithm for topology and quality of optical fibers in optical-circuit-switched data center networks",
+    "year": 2025,
+    "venue": "Journal of Optical Communications and Networking",
+    "abstract": "The introduction of optical circuit switches (OCSs) has enabled the implementation of capacity- and energy-efficient networks in production data centers. To correctly operate optical-circuit-switched data center networks (OCS DCNs), fibers between pairs of terminals (e.g., servers or top-of-rack switches) and OCSs should be verified before starting operations; otherwise, unexpected failures during operations could occur. However, this task is difficult because OCSs cannot use topology discovery or link-monitoring functions, which are only available on electrical packet switches. We thus studied a fiber-topology and quality verification (FTQV) problem for OCS DCNs. Though a previous study inspected fibers between pairs of OCSs in hierarchical OCS DCNs using only one dedicated tester for fiber probing, making the process time-consuming, we consider verifying fibers between pairs of terminals and OCSs by using the digital diagnostic monitoring (DDM) function at multiple terminals. We thus developed new theories, to the best of our knowledge, for correctly carrying out FTQV even when parallel probes are sent and then designed an algorithm that efficiently solves the FTQV problem with near-optimal inspection steps. We also theoretically analyzed the conditions of detectable and undetectable malfunctioning fibers given the maximum measurement error of the DDM function. Experimental results indicate the correctness of our theoretical analysis and superior performance of our algorithm; it completes FTQV at most 93.0 times faster than a baseline algorithm. The feasibility of our algorithm was also demonstrated through evaluations on an actual network."
+  },
+  {
+    "paper_id": "W4226369700",
+    "title": "Traffic Tolerance of Nanosecond Scheduling on Optical Circuit Switched Data Center Network",
+    "year": 2022,
+    "venue": null,
+    "abstract": "PULSE’s ns-speed NP-hard network scheduler delivers skew-tolerant performance at 90% input loads. It achieves >90% throughput, 1.5-1.9 ms mean and 16-24 ms tail latency (99%) for up to 6:1 hot:cold skewed traffic in OCS DCN."
+  },
+  {
+    "paper_id": "W2177488376",
+    "title": "Circuit switching under the radar with reactor",
+    "year": 2014,
+    "venue": null,
+    "abstract": "The potential advantages of optics at high link speeds have led to significant interest in deploying optical switching technology in data-center networks. Initial efforts have focused on hybrid approaches that rely on millisecond-scale circuit switching in the core of the network, while maintaining the flexibility of electrical packet switching at the edge. Recent demonstrations of microsecond-scale optical circuit switches motivate con-sidering circuit switching for more dynamic traffic such as that generated from a top-of-rack (ToR) switch. Based on these technology trends, we propose a prototype hy-brid ToR, called REACToR, which utilizes a combina-tion of packet switching and circuit switching to appear to end-hosts as a packet-switched ToR. In this paper, we describe a prototype REACToR con-trol plane which synchronizes end host transmissions with end-to-end circuit assignments. This control plane can react to rapid, bursty changes in the traffic from end hosts on a time scale of 100s of microseconds, sev-eral orders of magnitude faster than previous hybrid ap-proaches. Using the experimental data from a system of eight end hosts, we calibrate a hybrid network simula-tor and use this simulator to predict the performance of larger-scale hybrid networks. 1"
+  },
+  {
+    "paper_id": "W3210177009",
+    "title": "Energy-efficient Scaling of Active Electrical/Optical Switches in Hybrid Packet/Circuit Switched Data Center Networks",
+    "year": 2021,
+    "venue": null,
+    "abstract": "In the electrical/optical hybrid data center networks, the switching fabric is consuming a significant amount of energy. Regarding the fact that the data center traffic is time-varying, this paper studies the energy-efficient scaling approaches to manage the ON/OFF state of optical circuit switches and electrical packet switches to save energy while ensuring service quality. Simulation results show that the energy consumption of the hybrid data centers is saved, and the performance of the data centers is not degraded significantly."
+  },
+  {
+    "paper_id": "W2948174331",
+    "title": "MCF-SMF Hybrid Low-Latency Circuit-Switched Optical Network for Disaggregated Data Centers",
+    "year": 2019,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "This paper proposes and experimentally evaluates a fully developed novel architecture with purpose built low latency communication protocols for next generation disaggregated data centers (DDCs). In order to accommodate for capacity and latency needs of disaggregated IT elements (i.e., CPU, memory), this architecture makes use of a low latency and high-capacity circuit-switched optical network for interconnecting various end points that are equipped with multi-channel silicon photonic based integrated transceivers. In a move to further decrease the perceived latency between various disaggregated IT elements, this paper proposes a novel network topology that cuts down the latency over the optical network by 34% while enhancing system scalability and channel bonding over multi-core fiber (MCF) switched links to reduce head to tail latency and in turn increase sustained memory bandwidth for disaggregated remote memory. Furthermore, to reduce power consumption and enhance space efficiency, the integration of novel MCF-based transceivers, fibers, and optical switches are proposed and experimentally validated at the physical layer for this topology. It is shown that the integration of MCF-based subsystems in this topology can bring about an improvement in energy efficiency of the optical switching layer, which is above 60%. Finally, the performance of this proposed architecture and topology is evaluated experimentally at the application layer where the perceived memory throughput for accessing remote and local resources is measured and compared using electrical circuit and packet switching. The results also highlight a multi-fold increase in application perceived memory throughput over the proposed DDC topology by utilization and bonding of multiple optical channels to interconnect disaggregated IT elements that can be carried over MCF links."
+  },
+  {
+    "paper_id": "W2099718645",
+    "title": "Extending software defined network principles to include optical transport",
+    "year": 2013,
+    "venue": "IEEE Communications Magazine",
+    "abstract": "Software defined networks are based on the principle of a centralized control plane separated from the network forwarding or switching plane that it controls. The switching plane can be heterogeneous, composed of network elements from multiple vendors, and it can provide distinct services with different characteristics, configurations, and control at the packet and/or optical layers. Abstracting the control plane from the network elements allows network-platform- specific characteristics and differences that do not affect services to be hidden. In addition, software defined networking (SDN) is based on the principle that applications can request needed resources from the network via interfaces to the control plane. Through these interfaces, applications can dynamically request network resources or network information that may span disparate technologies. For instance, the application layer can dynamically request and obtain network resources at the packet flow, circuit, or even optical level based on application layer requirements. Current SDN implementations focus on Ethernet switching primarily for data center resource optimization. This article reviews the benefits and challenges of extending SDN concepts to various transport network architectures that include optical wavelength and fiber switches, circuit switches, and sub-wavelength optical burst switches. Control plane implementations for optical networks are more complex since they must account for physical constraints including optical signal reachability, bandwidth availability and granularity, light path routing, and light path reconfiguration speed. The longterm goal is to apply SDN concepts across multi-layer multivendor networks in order to support a unified control structure."
+  },
+  {
+    "paper_id": "W2534962717",
+    "title": "Enabling multi-tenancy in hybrid optical packet/circuit switched data center networks",
+    "year": 2014,
+    "venue": null,
+    "abstract": "In a flattened optical data center network employing hybrid technologies, multi-tenancy is enabled by a new virtual data center embedding method that is equipped with network-aware VM placement exploiting the advanced but complex characteristics of diverse optical technologies."
+  },
+  {
+    "paper_id": "W4225000980",
+    "title": "Nanosecond optical switching and control system for data center networks",
+    "year": 2022,
+    "venue": "Nature Communications",
+    "abstract": "Electrical switching based data center networks have an intrinsic bandwidth bottleneck and, require inefficient and power-consuming multi-tier switching layers to cope with the rapid growing traffic in data centers. With the benefits of ultra-large bandwidth, high-efficient cost and power consumption, switching traffic in the optical domain has been investigated to replace the electrical switches inside data center networks. However, the deployment of nanosecond optical switches remains a challenge due to the lack of corresponding nanosecond switch control, the lack of optical buffers for packet contention, and the requirement of nanosecond clock and data recovery. In this work, a nanosecond optical switching and control system has been experimentally demonstrated to enable an optically switched data center network with 43.4 nanosecond switching and control capability and with packet contention resolution as well as 3.1 nanosecond clock and data recovery."
+  },
+  {
+    "paper_id": "W2884318141",
+    "title": "Evaluation Study of a Proposed Hadoop for Data Center Networks Incorporating Optical Circuit Switches",
+    "year": 2018,
+    "venue": "Journal of Optical Communications and Networking",
+    "abstract": "Hybrid data center network architectures, which combine electrical packet switches (EPSs) with optical circuit switches (OCSs), have been proposed to handle the inter-rack link oversubscription problem in a cost- and power-efficient manner. However, the high reconfiguration delay of optical switching technologies makes it challenging to effectively leverage OCSs in these hybrid networks. In our prior work, we proposed a modified version of Hadoop, called Hadoop for hybrid networks (HHN), to create network traffic patterns that match the characteristics of OCSs. This paper presents a comprehensive comparative evaluation of HHN on hybrid networks and the original Hadoop on conventional EPS-only networks. Numerical results validate our hypothesis that it is feasible to achieve similar system-level and user-level performance with HHN while simultaneously achieving power and cost savings with the hybrid network. When the percentage of shuffle- heavy (SH) jobs is small, e.g., 5%, HHN performance is the same as that of the original Hadoop on an EPS-only network. When the percentage of SH jobs is large, e.g., 20%, the HHN performance is almost the same even at high loads, and even with a smaller number of input-block replicas when we placed an upper bound on the per-job input-data size. For large SH jobs with input-data sizes larger than the upper bound, the performance of HHN could be improved significantly when storing a larger number of replicas for each input block."
+  },
+  {
+    "paper_id": "W4384820653",
+    "title": "Optical switching will innovate intra data center networks [Invited Tutorial]",
+    "year": 2023,
+    "venue": "Journal of Optical Communications and Networking",
+    "abstract": "Reflecting the recent slow-down in Moore’s law and the proliferation of artificial intelligence/machine learning workloads, the performance and energy consumption of networks are becoming barriers in high-performance computing (HPC) and data centers. Optical switches are expected to break these barriers, and indeed their introduction has recently commenced in data centers. This paper discusses how optical switching technologies can innovate future intra data center networks. Hyperscale data centers are much bigger in scale, and network requirements are slightly different from those of HPC. This paper focus on data center networks, since the impact of optical technologies will be more significant in data centers than in HPC. In addition to the scale issue, important metrics to be considered for network design are traffic characteristics and latency, both of which are highlighted in this paper. For hybrid (electrical packet and optical circuit) switching networks, the target latency for the optical circuit switch network (connection setup/teardown time) is shown to be around 10 µs, and the needed technologies are clarified and verified by experiments. The optical switch can simplify the present multi-tier switching network above tier-1 switches into a single tier configuration, which is possible with the development of efficient large port count optical switches. Among the different switching architectures, combining the different dimensions of space and wavelength is shown to be one of the best solutions. Fast switching needs fast device response time. Si photonics devices using Mach–Zehnder interferometers or ring-resonator-based switches and tunable filters are the most promising candidates; they offer cost-effective mass-production and fast operation and so are excellent candidates for the optical switches envisaged. Another critical technology to maximize the benefits of optical switches is a simple and low-latency control mechanism. Different approaches have been suggested as summarized in this work. Among them, harnessing optical switch parallelism is a unique technique that matches recent advances in electrical switch chips. A fast control network is realized by using a fully decentralized and asynchronous control mechanism. A hyperscale data center offers a wide variety of services, and no one system fits all needs. Optimization of parameters is an important task for maximizing the impact of optical switching in different kinds of data centers."
+  },
+  {
+    "paper_id": "W2068907524",
+    "title": "Combining circuit and packet switching using a large port-count optical cross-connect for data center networks",
+    "year": 2012,
+    "venue": "Optics Communications",
+    "abstract": null
+  },
+  {
+    "paper_id": "W2937088522",
+    "title": "Wafer-scale silicon photonic switches beyond die size limit",
+    "year": 2019,
+    "venue": "Optica",
+    "abstract": "Fast optical switches have been proposed as a promising alternative to enable continual scaling of data centers with increasing size and data rates. Silicon photonics is a compelling platform for large-scale integrated photonic switches, leveraging advanced manufacturing foundries for electronic integrated circuits. In the past decade, the port counts of silicon photonic switches have increased steadily to 128×128. Further scaling of the switch is constrained by the maximum reticle size (2–3 cm) of lithography tools. Here, we propose to use wafer-scale integration to overcome the die size limit. As a proof of concept demonstration, we fabricated a 240×240 switch by lithographically stitching a 3×3 array of identical 80×80 switch blocks across reticle boundaries. Stitching loss is substantially reduced (0.004 dB) by tapering the waveguide width to 10 μm. The fabricated switch on a 4 cm×4 cm chip exhibits a maximum on-chip loss of 9.8 dB, an ON/OFF ratio of 70 dB, and switching times of less than 400 ns. To our knowledge, this is the largest integrated photonic switch ever reported. The loss-to-port count ratio (0.04 dB/port) is also the lowest."
+  },
+  {
+    "paper_id": "W7168289392",
+    "title": "Expansion-Aware Design Model for Optical-Circuit-Switched Data Center Networks Suppressing Fiber Link Rewiring",
+    "year": 2026,
+    "venue": null,
+    "abstract": null
+  },
+  {
+    "paper_id": "W2898651003",
+    "title": "Broadband transparent optical phase change materials for high-performance nonvolatile photonics",
+    "year": 2019,
+    "venue": "Nature Communications",
+    "abstract": "Abstract Optical phase change materials (O-PCMs), a unique group of materials featuring exceptional optical property contrast upon a solid-state phase transition, have found widespread adoption in photonic applications such as switches, routers and reconfigurable meta-optics. Current O-PCMs, such as Ge–Sb–Te (GST), exhibit large contrast of both refractive index (Δ n ) and optical loss (Δ k ), simultaneously. The coupling of both optical properties fundamentally limits the performance of many applications. Here we introduce a new class of O-PCMs based on Ge–Sb–Se–Te (GSST) which breaks this traditional coupling. The optimized alloy, Ge 2 Sb 2 Se 4 Te 1 , combines broadband transparency (1–18.5 μm), large optical contrast (Δ n = 2.0), and significantly improved glass forming ability, enabling an entirely new range of infrared and thermal photonic devices. We further demonstrate nonvolatile integrated optical switches with record low loss and large contrast ratio and an electrically-addressed spatial light modulator pixel, thereby validating its promise as a material for scalable nonvolatile photonics."
+  },
+  {
+    "paper_id": "W4404238479",
+    "title": "COCSN: A Multi-Tiered Cascaded Optical Circuit Switching Network for Data Center",
+    "year": 2024,
+    "venue": "IEEE Transactions on Cloud Computing",
+    "abstract": "A cascaded network represents a classic scaling-out model in traditional electrical switching networks. Recent proposals have integrated optical circuit switching at specific tiers of these networks to reduce power consumption and enhance topological flexibility. Utilizing a multi-tiered cascaded optical circuit switching network is expected to extend the advantages of optical circuit switching further. The main challenges fall into two categories. First, an architecture with sufficient connectivity is required to support varying workloads. Second, the network reconfiguration is more complex and necessitates a low-complexity scheduling algorithm. In this work, we propose COCSN, a multi-tiered cascaded optical circuit switching network architecture for data center. COCSN employs wavelength-selective switches that integrate multiple wavelengths to enhance network connectivity. We formulate a mathematical model covering lightpath establishment, network reconfiguration, and reconfiguration goals, and propose theorems to optimize the model. Based on the theorems, we introduce an over-subscription-supported wavelength-by-wavelength scheduling algorithm, facilitating agile establishment of lightpaths in COCSN tailored to communication demand. This algorithm effectively addresses scheduling complexities and mitigates the issue of lengthy WSS configuration times. Simulation studies investigate the impact of flow length, WSS reconfiguration time, and communication domain on COCSN, verifying its significantly lower complexity and superior performance over classical cascaded networks."
+  },
+  {
+    "paper_id": "W2973870220",
+    "title": "How Optical-Circuit/Electrical-Packet Hybrid Switching will Create High Performance and Cost-Effective Data Center Networks",
+    "year": 2019,
+    "venue": null,
+    "abstract": "This paper discusses how to maximize the inherent benefits of optical circuit switching, which makes the best use of advances in silicon switch chips, for the creation of future intra-data center networks. It is demonstrated that the parallelism of optical switches yields sufficient throughput performance even with simplified and decentralized control that does not employ any throughput maximization algorithm. The power consumption of the resulting network is shown to be about 70% less than the electrical alternative. Significant reductions are also verified in the number of fiber links and transceivers necessary."
+  },
+  {
+    "paper_id": "W1975357130",
+    "title": "MEMS optical switches and interconnects",
+    "year": 2014,
+    "venue": "Displays",
+    "abstract": null
+  }
+]

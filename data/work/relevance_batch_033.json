@@ -1,0 +1,202 @@
+[
+  {
+    "record_key": "openalex:W2156838963",
+    "source": "openalex_snowball",
+    "title": "Twisted Torus Topologies for Enhanced Interconnection Networks",
+    "year": 2010,
+    "venue": "IEEE Transactions on Parallel and Distributed Systems",
+    "abstract": "Many current parallel computers are built around a torus interconnection network. Machines from Cray, HP, and IBM, among others, make use of this topology. In terms of topological advantages, square (2D) or cubic (3D) tori would be the topologies of choice. However, for different practical reasons, 2D and 3D tori with different number of nodes per dimension have been used. These mixed-radix topologies are not edge symmetric, which translates into poor performance due to an unbalanced use of network resources. In this work, we analyze twisted 2D and 3D mixed-radix tori that remove the network bottlenecks present in nontwisted ones. Such topologies recover edge symmetry, and consequently, balance the utilization of their links. The distance-related properties of twisted tori together"
+  },
+  {
+    "record_key": "openalex:W2169731856",
+    "source": "openalex_snowball",
+    "title": "Lattice Graphs for High-Scale Interconnection Topologies",
+    "year": 2014,
+    "venue": "IEEE Transactions on Parallel and Distributed Systems",
+    "abstract": "Torus networks of moderate degree have been widely used in the supercomputer industry. Tori are superb when used for executing applications that require near-neighbor communications. Nevertheless, they are not so good when dealing with global communications. Hence, typical 3D implementations have evolved to 5D networks, among other reasons, to reduce network distances. Most of these big systems are mixed-radix tori, which are not the best option for minimizing distances and efficiently using network resources. This paper is focused on improving the topological properties of this kind of networks. By using integral matrices to deal with Cayley graphs over Abelian groups, we have been able to propose and analyze a family of high-dimensional mesh-based interconnection networks. As they are built over"
+  },
+  {
+    "record_key": "openalex:W2898781725",
+    "source": "openalex_snowball",
+    "title": "The Datacenter as a Computer: Designing Warehouse-Scale Machines, Third Edition",
+    "year": 2018,
+    "venue": "Synthesis lectures on computer architecture",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W3007855629",
+    "source": "openalex_snowball",
+    "title": "Recalibrating global data center energy-use estimates",
+    "year": 2020,
+    "venue": "Science",
+    "abstract": "Growth in energy use has slowed owing to efficiency gains that smart policies can help maintain in the near term"
+  },
+  {
+    "record_key": "openalex:W3030163527",
+    "source": "openalex_snowball",
+    "title": "Language Models are Few-Shot Learners",
+    "year": 2020,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "Recent work has demonstrated substantial gains on many NLP tasks and benchmarks by pre-training on a large corpus of text followed by fine-tuning on a specific task. While typically task-agnostic in architecture, this method still requires task-specific fine-tuning datasets of thousands or tens of thousands of examples. By contrast, humans can generally perform a new language task from only a few examples or from simple instructions - something which current NLP systems still largely struggle to do. Here we show that scaling up language models greatly improves task-agnostic, few-shot performance, sometimes even reaching competitiveness with prior state-of-the-art fine-tuning approaches. Specifically, we train GPT-3, an autoregressive language model with 175 billion parameters, 10x more than any previous non-sparse language model, and"
+  },
+  {
+    "record_key": "openalex:W202974634",
+    "source": "openalex_snowball",
+    "title": "ICTCP: Incast Congestion Control for TCP",
+    "year": 2010,
+    "venue": null,
+    "abstract": "TCP incast congestion happens in high-bandwidth and lowlatency networks, when multiple synchronized servers send data to a same receiver in parallel [15]. For many important data center applications such as MapReduce[5] and Search, this many-to-one traffic pattern is common. Hence TCP incast congestion may severely degrade their performances, e.g., by increasing response time. In this paper, we study TCP incast in detail by focusing on the relationship among TCP throughput, round trip time (RTT) and receive window. Different from the previous approach to mitigate the impact of incast congestion by a fine grained timeout value, our idea is to design an ICTCP (Incast congestion Control for TCP) scheme at the receiver side. In particular, our method adjusts TCP receive window"
+  },
+  {
+    "record_key": "openalex:W1516042705",
+    "source": "openalex_snowball",
+    "title": "The case for fine-grained traffic engineering in data centers",
+    "year": 2010,
+    "venue": "Minds at UW (University of Wisconsin)",
+    "abstract": "Data center traffic characteristics are not well understood. In particular, it is not clear how the prevalent traffic patterns may impact candidate mechanisms for managing traffic inside the data centers. In this paper, we conduct a measurement study of network-level traffic patterns inside data centers. Based on our empirical insights, we design a traffic generator for creating representative workloads for traffic between TOR switches in a data center. We use this generator to evaluate several traffic engineering techniques and data center network architectures, and analyze their short comings. Our findings highlight the need for fine-grained traffic engineering (TE) mechanisms. We design and implement such an approach using OpenFlow and show how it can significantly improve data center TE."
+  },
+  {
+    "record_key": "openalex:W1533565227",
+    "source": "openalex_snowball",
+    "title": "Approximation Algorithms for Degree-Constrained Bipartite Network Flow",
+    "year": 2003,
+    "venue": "Lecture notes in computer science",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W2017036528",
+    "source": "openalex_snowball",
+    "title": "Proteus",
+    "year": 2010,
+    "venue": null,
+    "abstract": "Full-bandwidth connectivity between all servers of a data center may be necessary for all-to-all traffic patterns, but such interconnects suffer from high cost, complexity, and energy consumption. Recent work has argued that if all-to-all traffic is uncommon, oversubscribed network architectures that can adapt the topology to meet traffic demands, are sufficient. In line with this work, we propose Proteus, an all-optical architecture targeting unprecedented topology-flexibility, lower complexity and higher energy efficiency."
+  },
+  {
+    "record_key": "openalex:W2032146159",
+    "source": "openalex_snowball",
+    "title": "A constructive proof of Vizing's theorem",
+    "year": 1992,
+    "venue": "Information Processing Letters",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W2056394733",
+    "source": "openalex_snowball",
+    "title": "ICTCP",
+    "year": 2010,
+    "venue": "Proceedings of the 6th International Conference",
+    "abstract": "TCP incast congestion happens in high-bandwidth and low-latency networks, when multiple synchronized servers send data to a same receiver in parallel [15]. For many important data center applications such as MapReduce[5] and Search, this many-to-one traffic pattern is common. Hence TCP in-cast congestion may severely degrade their performances, e.g., by increasing response time."
+  },
+  {
+    "record_key": "openalex:W2083823757",
+    "source": "openalex_snowball",
+    "title": "Scaling Optical Interconnects in Datacenter Networks Opportunities and Challenges for WDM",
+    "year": 2010,
+    "venue": null,
+    "abstract": "We review the growing need for optical interconnect bandwidth in data center networks, and the opportunities and challenges for wavelength division multiplexing (WDM) to sustain the “last 2km” bandwidth growth inside data center networks."
+  },
+  {
+    "record_key": "openalex:W2097926925",
+    "source": "openalex_snowball",
+    "title": "c-Through",
+    "year": 2010,
+    "venue": null,
+    "abstract": "Data-intensive applications that operate on large volumes of data have motivated a fresh look at the design of data center networks. The first wave of proposals focused on designing pure packet-switched networks that provide full bisection bandwidth. However, these proposals significantly increase network complexity in terms of the number of links and switches required and the restricted rules to wire them up. On the other hand, optical circuit switching technology holds a very large bandwidth advantage over packet switching technology. This fact motivates us to explore how optical circuit switching technology could benefit a data center network. In particular, we propose a hybrid packet and circuit switched data center network architecture (or HyPaC for short) which augments the traditional hierarchy"
+  },
+  {
+    "record_key": "openalex:W2105661057",
+    "source": "openalex_snowball",
+    "title": "Fiber optic communication technologies: What's needed for datacenter network operations",
+    "year": 2010,
+    "venue": "IEEE Communications Magazine",
+    "abstract": "In this article we review the growing trend of warehouse-scale mega-datacenter computing, the Internet transformation driven by mega-datacenter applications, and the opportunities and challenges for fiber optic communication technologies to support the growth of mega-datacenter computing in the next three to four years."
+  },
+  {
+    "record_key": "openalex:W2112931687",
+    "source": "openalex_snowball",
+    "title": "Optical pump-probe measurements of the latency of silicon CMOS optical interconnects",
+    "year": 2002,
+    "venue": "IEEE Photonics Technology Letters",
+    "abstract": "We present the first measurements of optical-electrical-optical conversion latency in a hybridly-integrated optoelectronic/silicon complementary metal-oxide-semiconductor (CMOS) chip designed for optical interconnection. Using an optical pump-probe technique, we perform precise measurements with picosecond resolution that closely match our simulations. Our findings suggest that optical interconnects have the potential to provide equal or lower latency than on-chip global wires in future CMOS microelectronics."
+  },
+  {
+    "record_key": "openalex:W2115412108",
+    "source": "openalex_snowball",
+    "title": "Augmenting data center networks with multi-gigabit wireless links",
+    "year": 2011,
+    "venue": null,
+    "abstract": "The 60 GHz wireless technology that is now emerging has the potential to provide dense and extremely fast connectivity at low cost. In this paper, we explore its use to relieve hotspots in oversubscribed data center (DC) networks. By experimenting with prototype equipment, we show that the DC environment is well suited to a deployment of 60GHz links contrary to concerns about interference and link reliability. Using directional antennas, many wireless links can run concurrently at multi-Gbps rates on top-of-rack (ToR) switches. The wired DC network can be used to sidestep several common wireless problems. By analyzing production traces of DC traffic for four real applications, we show that adding a small amount of network capacity in the form of"
+  },
+  {
+    "record_key": "openalex:W2123016589",
+    "source": "openalex_snowball",
+    "title": "PortLand",
+    "year": 2009,
+    "venue": null,
+    "abstract": "This paper considers the requirements for a scalable, easily manageable, fault-tolerant, and efficient data center network fabric. Trends in multi-core processors, end-host virtualization, and commodities of scale are pointing to future single-site data centers with millions of virtual end points. Existing layer 2 and layer 3 network protocols face some combination of limitations in such a setting: lack of scalability, difficult management, inflexible communication, or limited support for virtual machine migration. To some extent, these limitations may be inherent for Ethernet/IP style protocols when trying to support arbitrary topologies. We observe that data center networks are often managed as a single logical network fabric with a known baseline topology and growth model. We leverage this observation in the design and"
+  },
+  {
+    "record_key": "openalex:W2126210439",
+    "source": "openalex_snowball",
+    "title": "BCube",
+    "year": 2009,
+    "venue": null,
+    "abstract": "This paper presents BCube, a new network architecture specifically designed for shipping-container based, modular data centers. At the core of the BCube architecture is its server-centric network structure, where servers with multiple network ports connect to multiple layers of COTS (commodity off-the-shelf) mini-switches. Servers act as not only end hosts, but also relay nodes for each other. BCube supports various bandwidth-intensive applications by speeding-up one-to-one, one-to-several, and one-to-all traffic patterns, and by providing high network capacity for all-to-all traffic."
+  },
+  {
+    "record_key": "openalex:W2130531694",
+    "source": "openalex_snowball",
+    "title": "A scalable, commodity data center network architecture",
+    "year": 2008,
+    "venue": "ACM SIGCOMM Computer Communication Review",
+    "abstract": "Today's data centers may contain tens of thousands of computers with significant aggregate bandwidth requirements. The network architecture typically consists of a tree of routing and switching elements with progressively more specialized and expensive equipment moving up the network hierarchy. Unfortunately, even when deploying the highest-end IP switches/routers, resulting topologies may only support 50% of the aggregate bandwidth available at the edge of the network, while still incurring tremendous cost. Non-uniform bandwidth among data center nodes complicates application design and limits overall system performance. In this paper, we show how to leverage largely commodity Ethernet switches to support the full aggregate bandwidth of clusters consisting of tens of thousands of elements. Similar to how clusters of commodity computers have largely"
+  },
+  {
+    "record_key": "openalex:W2133581580",
+    "source": "openalex_snowball",
+    "title": "Safe and effective fine-grained TCP retransmissions for datacenter communication",
+    "year": 2009,
+    "venue": null,
+    "abstract": "This paper presents a practical solution to a problem facing high-fan-in, high-bandwidth synchronized TCP workloads in datacenter Ethernets---the TCP incast problem. In these networks, receivers can experience a drastic reduction in application throughput when simultaneously requesting data from many servers using TCP. Inbound data overfills small switch buffers, leading to TCP timeouts lasting hundreds of milliseconds. For many datacenter workloads that have a barrier synchronization requirement (e.g., filesystem reads and parallel data-intensive queries), throughput is reduced by up to 90%. For latency-sensitive applications, TCP timeouts in the datacenter impose delays of hundreds of milliseconds in networks with round-trip-times in microseconds."
+  },
+  {
+    "record_key": "openalex:W834513743",
+    "source": "openalex_snowball",
+    "title": "Ultra-compact 32 × 32 strictly-non-blocking Si-wire optical switch with fan-out LGA interposer",
+    "year": 2015,
+    "venue": "Optics Express",
+    "abstract": "We demonstrate a 32 × 32 path-independent-insertion-loss optical path switch that integrates 1024 thermooptic Mach-Zehnder switches and 961 intersections on a small, 11 × 25 mm2 die. The switch is fabricated on a 300-mm-diameter silicon-on-insulator wafer by a complementary metal-oxide semiconductor-compatible process with advanced ArF immersion lithography. For reliable electrical packaging, the switch chip is flip-chip bonded to a ceramic interposer that arranges the electrodes in a 0.5-mm pitch land grid array. The on-chip loss is measured to be 15.8 ± 1.0 dB, and successful switching is demonstrated for digital-coherent 43-Gb/s QPSK signals. The total crosstalk of the switch is estimated to be less than -20 dB at the center wavelength of 1545 nm. The bandwidth narrowing caused by dimensional"
+  },
+  {
+    "record_key": "openalex:W1969024011",
+    "source": "openalex_snowball",
+    "title": "Recent progress in lasers on silicon",
+    "year": 2010,
+    "venue": "Nature Photonics",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W1982772673",
+    "source": "openalex_snowball",
+    "title": "Compact and scalable three-dimensional microelectromechanical system optical switches [Invited]",
+    "year": 2007,
+    "venue": "Journal of Optical Networking",
+    "abstract": "Feature Issue on Nanoscale Integrated Photonics for Optical Networks We review the performance and applications of compact (20cm3) and large-scale (320×320) three-dimensional microelectromechanical system (3-D MEMS) based optical switches. The low loss (<3dB for all 102,400 paths) and variable attenuation capable optical switch performs penalty-free for cascaded operation at 40Gbits/s. Scalability and performance of integrated wavelength-selective cross-connects based on 3-D MEMS with an unprecedented 12.8Tbit/s switching capacity for next-generation all-optical networks are also presented."
+  },
+  {
+    "record_key": "openalex:W1983164798",
+    "source": "openalex_snowball",
+    "title": "Silicon Photonic Switch Fabrics in Computer Communications Systems",
+    "year": 2015,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "We discuss silicon photonic switch fabric designs that target data-intensive computing networks, reviewing recent results, and projecting future performance goals. We analyze the achievements of demonstrated hardware in terms of switching time, footprint, crosstalk, and power consumption, concluding that the most crucial metric to improve upon is net loss. We propose integrating semiconductor optical amplifiers into the switch fabric using either flip-chip or wafer-bonding technology, and investigate its potential merits alongside several challenges in implementation. Furthermore, we explore the dominant causes of crosstalk, and discuss manners for reducing it. We perform switch simulations that project a 7-dB reduction in crosstalk, when using a push-pull, rather than a single-ended phase shifter drive scheme. We also evaluate crosstalk effects on transmission performance"
+  },
+  {
+    "record_key": "openalex:W1985329895",
+    "source": "openalex_snowball",
+    "title": "Low-crosstalk 2 × 2 thermo-optic switch with silicon wire waveguides",
+    "year": 2010,
+    "venue": "Optics Express",
+    "abstract": "We demonstrate a low-crosstalk 2 x 2 thermo-optic switch with silicon wire waveguides. The device is based on a 2 x 2 array of Mach-Zehnder interferometer (MZI) switches. Lowest crosstalk levels of -50 dB and -30 dB are obtained for 'bar' and 'cross' switching states, respectively. An intersection in the switch is important for low-crosstalk operation. The power consumption of one MZI element switch is 40 mW and the total power consumption of the device is at most 160 mW."
+  }
+]

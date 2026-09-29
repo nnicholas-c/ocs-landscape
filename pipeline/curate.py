@@ -11,8 +11,9 @@ data/db/papers.sqlite, and writes deliverables/curation_report.md.
 
 Safe to run twice: papers, authors, institutions, paper_authors,
 paper_references and duplicates are rebuilt from data/raw each run (DELETE
-then re-insert in one transaction). The tags table belongs to stage 3 and is
-never touched here.
+then re-insert in one transaction). The tags table belongs to stage 3. The
+only change made to it here is deleting tags rows whose paper_id no longer
+exists in papers after the rebuild.
 """
 import csv
 import json
@@ -26,13 +27,34 @@ from pathlib import Path
 from rapidfuzz import fuzz
 from unidecode import unidecode
 
+from pipeline.collect_openalex import extract_arxiv_id, load_queries
+
 REPO_ROOT = Path(__file__).resolve().parent.parent
 RAW_DIR = REPO_ROOT / "data" / "raw"
 DB_PATH = REPO_ROOT / "data" / "db" / "papers.sqlite"
 SCHEMA_PATH = REPO_ROOT / "pipeline" / "schema.sql"
 RELEVANCE_CSV = RAW_DIR / "relevance.csv"
-PITFALLS_PATH = REPO_ROOT / "deliverables" / "pitfalls.md"
+PITFALLS_PATH = REPO_ROOT / "deliverables" / "pitfalls_original_log.md"
 REPORT_PATH = REPO_ROOT / "deliverables" / "curation_report.md"
+# Frozen once, on this script's first-ever run against a fresh run-2 checkout
+# (get_run1_baseline() below), so reruns compare against run 1 forever after
+# instead of against whatever this run last rebuilt. See get_run1_baseline().
+BASELINE_PATH = REPO_ROOT / "data" / "work" / "run2_baseline.json"
+ARXIV_VIA_OPENALEX_SOURCE = "arxiv_via_openalex"
+
+# Step 2, anchor papers. DOIs and OpenAlex titles recorded in
+# data/work/step2_anchors.md (DOIs found by web search from ACM Digital
+# Library / publisher pages, since OpenAlex's title field truncates before
+# the colon for all three and cannot reach token_sort_ratio 95 against the
+# full anchor title; that is the step 2 title check, stricter than the
+# playbook's token_set_ratio rule, which scores a pre-colon subset 100). Used
+# only to look up whatever ended up in the database and to recompute the
+# title check score for the report, never to add or assume a record.
+STEP2_ANCHOR_DOIS = [
+    ("Jupiter Evolving", "10.1145/3544216.3544265", "Jupiter evolving"),
+    ("RotorNet", "10.1145/3098822.3098838", "RotorNet"),
+    ("c-Through", "10.1145/1851182.1851222", "c-Through"),
+]
 
 FUZZY_THRESHOLD = 95
 # ponytail: token_set_ratio alone scores 100 whenever one normalized title's
@@ -42,7 +64,7 @@ FUZZY_THRESHOLD = 95
 # test catches that: token_sort_ratio also has to clear FUZZY_SORT_THRESHOLD.
 # This narrows the playbook's rule (token_set_ratio >= 95 alone); it can only
 # drop merges the playbook rule would have made, never add new ones. Logged
-# as a deviation in deliverables/pitfalls.md, pending orchestrator approval.
+# as a deviation in deliverables/pitfalls_original_log.md, pending orchestrator approval.
 FUZZY_SORT_THRESHOLD = 90
 YEAR_TOLERANCE = 1
 METHOD_PRECEDENCE = ["doi", "arxiv_id", "fuzzy_title"]
@@ -107,6 +129,7 @@ def load_raw_records():
     order = []
     per_source_file_counts = defaultdict(int)
     dup_key_occurrences = 0
+    recovered_arxiv_keys = set()
     for path in sorted(RAW_DIR.glob("*.jsonl")):
         with open(path, encoding="utf-8") as f:
             for line in f:
@@ -122,9 +145,17 @@ def load_raw_records():
                 if key in records:
                     dup_key_occurrences += 1
                     continue
+                # Records collected before extract_arxiv_id learned /pdf/ and
+                # old-style IDs carry arxiv_id null; recover it from the raw
+                # OpenAlex work so arXiv ID dedup still sees them.
+                if not rec.get("arxiv_id") and isinstance(rec.get("raw"), dict):
+                    recovered = extract_arxiv_id(rec["raw"])
+                    if recovered:
+                        recovered_arxiv_keys.add(key)
+                    rec["arxiv_id"] = recovered
                 records[key] = rec
                 order.append(key)
-    return records, order, per_source_file_counts, dup_key_occurrences
+    return records, order, per_source_file_counts, dup_key_occurrences, recovered_arxiv_keys
 
 
 def load_relevance():
@@ -139,6 +170,51 @@ def load_relevance():
             adj = (row.get("adjacent_field") or "").strip() or None
             rel[key] = {"score": score, "adjacent_field": adj}
     return rel
+
+
+def read_old_db_snapshot(db_path=None):
+    """What a database looked like before some rebuild. Pass a path to read
+    a snapshot other than the live DB (get_run1_baseline() uses this once,
+    against the untouched run-1 database, before this run's first rebuild)."""
+    db_path = db_path or DB_PATH
+    empty = {"exists": False, "core": None, "extended": None, "arxiv_only": [], "tagged": {}}
+    if not db_path.exists():
+        return empty
+    con = sqlite3.connect(db_path)
+    try:
+        tables = {r[0] for r in con.execute("SELECT name FROM sqlite_master WHERE type='table'")}
+        if "papers" not in tables:
+            return empty
+        core = con.execute("SELECT COUNT(*) FROM papers WHERE core_set = 1").fetchone()[0]
+        extended = con.execute("SELECT COUNT(*) FROM papers WHERE extended_set = 1").fetchone()[0]
+        arxiv_only = con.execute(
+            "SELECT paper_id, arxiv_id, title FROM papers WHERE paper_id LIKE 'arxiv:%'"
+        ).fetchall()
+        tagged = {}
+        if "tags" in tables:
+            rows = con.execute(
+                "SELECT p.paper_id, p.openalex_id, p.arxiv_id, p.doi FROM papers p "
+                "JOIN tags t ON t.paper_id = p.paper_id"
+            ).fetchall()
+            tagged = {r[0]: {"openalex_id": r[1], "arxiv_id": r[2], "doi": r[3]} for r in rows}
+        return {"exists": True, "core": core, "extended": extended, "arxiv_only": arxiv_only, "tagged": tagged}
+    finally:
+        con.close()
+
+
+def get_run1_baseline():
+    """The fixed run-1 comparison point for the 'Run 2, arXiv via OpenAlex'
+    report section. read_old_db_snapshot() alone is not rerun-safe: it reads
+    the live DB, but rebuild_db() overwrites that same file every run, so a
+    second run would compare run 2 against itself (CLAUDE.md rule 8). Freeze
+    the snapshot to BASELINE_PATH the first time this ever runs against the
+    untouched run-1 database, then read the frozen copy on every run after."""
+    if BASELINE_PATH.exists():
+        return json.loads(BASELINE_PATH.read_text(encoding="utf-8"))
+    baseline = read_old_db_snapshot()
+    BASELINE_PATH.parent.mkdir(parents=True, exist_ok=True)
+    BASELINE_PATH.write_text(json.dumps(baseline, indent=2), encoding="utf-8")
+    return baseline
 
 
 # ---------- clustering ----------
@@ -437,7 +513,8 @@ def sanity_queries():
 # ---------- main ----------
 
 def main():
-    records, order, per_file_counts, dup_key_occurrences = load_raw_records()
+    old = get_run1_baseline()  # frozen run-1 snapshot; see get_run1_baseline()
+    records, order, per_file_counts, dup_key_occurrences, recovered_arxiv_keys = load_raw_records()
     relevance = load_relevance()
 
     missing_relevance = [k for k in order if k not in relevance]
@@ -456,9 +533,31 @@ def main():
     canon_by_paper_id = {}
     fallback_method_used = 0
 
+    # Run 2: how the new arxiv_via_openalex records were absorbed. A cluster
+    # that mixes a new record with a pre-existing (run 1) record matched an
+    # existing paper; the method is the strongest one (playbook precedence)
+    # that connected anything in the cluster. A cluster made up of only new
+    # records is a paper run 1 never had.
+    new_match_method_counts = defaultdict(int)
+    new_paper_records = 0
+    new_paper_clusters = 0
+
     for root, keys in clusters.items():
         canonical_key = choose_canonical(keys, records)
         canon = records[canonical_key]
+
+        new_keys_in_cluster = [kk for kk in keys if records[kk].get("source") == ARXIV_VIA_OPENALEX_SOURCE]
+        if new_keys_in_cluster:
+            old_keys_in_cluster = [kk for kk in keys if kk not in new_keys_in_cluster]
+            if old_keys_in_cluster:
+                cluster_methods = set()
+                for kk in keys:
+                    cluster_methods |= direct_methods.get(kk, set())
+                method = next((m for m in METHOD_PRECEDENCE if m in cluster_methods), "fuzzy_title")
+                new_match_method_counts[method] += len(new_keys_in_cluster)
+            else:
+                new_paper_records += len(new_keys_in_cluster)
+                new_paper_clusters += 1
 
         abstract = canon.get("abstract")
         if not abstract:
@@ -555,13 +654,129 @@ def main():
             "record_key": k,
             "title_a": rec_a.get("title") or "", "year_a": rec_a.get("year"),
             "doi_a": normalize_doi(rec_a.get("doi")),
+            "source_a": rec_a.get("source"),
             "paper_id": paper_id,
             "title_b": rec_b.get("title") or "", "year_b": rec_b.get("year"),
             "doi_b": normalize_doi(rec_b.get("doi")),
+            "source_b": rec_b.get("source"),
             "token_set_ratio": fuzz.token_set_ratio(ta, tb),
             "token_sort_ratio": fuzz.token_sort_ratio(ta, tb),
         })
     fuzzy_rows.sort(key=lambda r: r["record_key"])
+    fuzzy_new_rows = [
+        r for r in fuzzy_rows
+        if ARXIV_VIA_OPENALEX_SOURCE in (r["source_a"], r["source_b"])
+    ]
+
+    # Step 2, anchor papers: which arxiv_id merges the extract_arxiv_id
+    # fallback (added in the PR #1 code review) made possible. A merge only
+    # counts here if at least one side's arxiv_id came from that fallback
+    # (recovered from raw.locations), not straight from the record's own
+    # arxiv_id field, so this is the "new" 2 pairs, not every arxiv_id match.
+    fallback_arxiv_merges = []
+    for kk, pid, m in dup_rows:
+        if m != "arxiv_id" or (kk not in recovered_arxiv_keys and canon_by_paper_id[pid] not in recovered_arxiv_keys):
+            continue
+        canon_key = canon_by_paper_id[pid]
+        rec_a, rec_b = records[kk], records[canon_key]
+        keys_a = sorted(name_key(a.get("name")) for a in (rec_a.get("authors") or []) if a.get("name"))
+        keys_b = sorted(name_key(a.get("name")) for a in (rec_b.get("authors") or []) if a.get("name"))
+        fallback_arxiv_merges.append({
+            "record_key": kk, "title_a": rec_a.get("title") or "",
+            "source_a": rec_a.get("source"), "doi_a": rec_a.get("doi"),
+            "arxiv_id": normalize_arxiv_id(rec_a.get("arxiv_id") or rec_b.get("arxiv_id")),
+            "paper_id": pid, "title_b": rec_b.get("title") or "",
+            "source_b": rec_b.get("source"), "doi_b": rec_b.get("doi"),
+            "n_authors_a": len(keys_a), "n_authors_b": len(keys_b),
+            "same_authors": keys_a == keys_b,
+        })
+    fallback_arxiv_merges.sort(key=lambda r: r["record_key"])
+
+    # ---- Run 2 before/after and arXiv-coverage numbers (need the new
+    # papers_rows plus the pre-rebuild snapshot taken at the top of main) ----
+    new_paper_ids = {r[0] for r in papers_rows}
+    rows_by_pid = {r[0]: r for r in papers_rows}
+    by_openalex_id = {r[1]: r[0] for r in papers_rows if r[1]}
+    by_arxiv_id = {r[2]: r[0] for r in papers_rows if r[2]}
+    by_doi_id = {r[3]: r[0] for r in papers_rows if r[3]}
+
+    n_with_arxiv_id = sum(1 for r in papers_rows if r[2])
+    n_arxiv_hosted_only = sum(
+        1 for r in papers_rows
+        if set(r[8].split(",")) - {"arxiv", ARXIV_VIA_OPENALEX_SOURCE} == set()
+    )
+
+    gained_openalex_id = []
+    for old_pid, old_aid, old_title in old["arxiv_only"]:
+        new_pid = by_arxiv_id.get(old_aid)
+        if new_pid and rows_by_pid[new_pid][1]:
+            gained_openalex_id.append({
+                "old_paper_id": old_pid, "arxiv_id": old_aid,
+                "new_paper_id": new_pid, "title": old_title,
+                "has_institution": False,
+            })
+
+    orphan_mapping = []
+    for old_pid, ids in old["tagged"].items():
+        if old_pid in new_paper_ids:
+            continue
+        new_pid = (by_openalex_id.get(ids["openalex_id"])
+                   or by_arxiv_id.get(ids["arxiv_id"])
+                   or by_doi_id.get(ids["doi"]))
+        orphan_mapping.append((old_pid, new_pid))
+
+    # tags is stage 3's table (never rebuilt above), but a row whose paper_id
+    # a merge retired is now orphaned: no papers row will ever join to it
+    # again. Delete only those rows, found in the live tags table (not the
+    # run 1 baseline, which misses rows stage 3 added since); every other
+    # tags row is untouched. orphan_mapping above is only the report's run 1
+    # table.
+    orphan_where = "FROM tags WHERE paper_id NOT IN (SELECT paper_id FROM papers)"
+    con = sqlite3.connect(DB_PATH)
+    try:
+        for entry in gained_openalex_id:
+            entry["has_institution"] = con.execute(
+                "SELECT COUNT(*) FROM paper_authors WHERE paper_id = ? AND inst_id IS NOT NULL",
+                (entry["new_paper_id"],),
+            ).fetchone()[0] > 0
+        tags_deleted = [r[0] for r in con.execute(f"SELECT paper_id {orphan_where}")]
+        n_tags_deleted = con.execute(f"DELETE {orphan_where}").rowcount
+        con.commit()
+
+        # Step 2, anchor papers: look up each anchor's known DOI (from
+        # data/work/step2_anchors.md) against the rebuilt papers table. This
+        # only reports what is on disk; it never adds a record.
+        anchor_titles = load_queries()["anchors"]
+        anchor_status = []
+        for label, doi, oa_title in STEP2_ANCHOR_DOIS:
+            ndoi = normalize_doi(doi)
+            row = con.execute(
+                "SELECT paper_id, core_set, sources, relevance_score FROM papers WHERE doi = ?", (ndoi,)
+            ).fetchone()
+            n_raw_with_doi = sum(
+                1 for kk in order if normalize_doi(records[kk].get("doi")) == ndoi
+            )
+            (full_title,) = [t for t in anchor_titles if t.startswith(label)]
+            anchor_status.append({
+                "label": label, "doi": ndoi,
+                "paper_id": row[0] if row else None,
+                "core_set": row[1] if row else None,
+                "sources": row[2] if row else None,
+                "relevance_score": row[3] if row else None,
+                "n_raw_with_doi": n_raw_with_doi,
+                "oa_title": oa_title,
+                "title_score": fuzz.token_sort_ratio(normalize_title(oa_title), normalize_title(full_title)),
+            })
+        # Whether stage 3 has already retagged the ids that retired run 1 ids became.
+        tagged_now = {r[0] for r in con.execute("SELECT DISTINCT paper_id FROM tags")}
+        n_orphans_untagged = sum(1 for _, new_pid in orphan_mapping if new_pid not in tagged_now)
+    finally:
+        con.close()
+    if n_tags_deleted > 0:
+        log_pitfall(
+            f"deleted {n_tags_deleted} tags row(s) whose paper_id no longer exists in papers; "
+            f"stage 3 must retag these papers under their new id: {'; '.join(tags_deleted)}"
+        )
 
     write_report(
         per_file_counts=per_file_counts,
@@ -579,12 +794,41 @@ def main():
         entity_stats=entity_stats,
         fuzzy_rows=fuzzy_rows,
         missing_relevance=len(missing_relevance),
+        old_snapshot=old,
+        new_arxiv_source_total=sum(1 for k2 in order if records[k2].get("source") == ARXIV_VIA_OPENALEX_SOURCE),
+        new_match_method_counts=new_match_method_counts,
+        new_paper_records=new_paper_records,
+        new_paper_clusters=new_paper_clusters,
+        n_with_arxiv_id=n_with_arxiv_id,
+        n_arxiv_hosted_only=n_arxiv_hosted_only,
+        gained_openalex_id=gained_openalex_id,
+        fuzzy_new_rows=fuzzy_new_rows,
+        orphan_mapping=orphan_mapping,
+        n_orphans_untagged=n_orphans_untagged,
+        n_tags_deleted=n_tags_deleted,
+        fallback_arxiv_merges=fallback_arxiv_merges,
+        anchor_status=anchor_status,
     )
 
     print(f"db={DB_PATH.relative_to(REPO_ROOT).as_posix()}")
     print(f"papers={n_papers} core={n_core} extended={n_extended}")
     print(f"duplicates doi={method_counts.get('doi', 0)} arxiv_id={method_counts.get('arxiv_id', 0)} fuzzy_title={method_counts.get('fuzzy_title', 0)}")
     print(f"authors={entity_stats['authors_total']} institutions={entity_stats['institutions_total']}")
+    print(
+        f"run2 arxiv_via_openalex: matched_doi={new_match_method_counts.get('doi', 0)} "
+        f"matched_arxiv_id={new_match_method_counts.get('arxiv_id', 0)} "
+        f"matched_fuzzy_title={new_match_method_counts.get('fuzzy_title', 0)} "
+        f"new_papers={new_paper_clusters} ({new_paper_records} records)"
+    )
+    print(
+        f"run2 core before/after={old['core']}/{n_core} extended before/after={old['extended']}/{n_extended} "
+        f"gained_openalex_id={len(gained_openalex_id)} gained_institutions={sum(1 for g in gained_openalex_id if g['has_institution'])} "
+        f"orphaned_tags_deleted={n_tags_deleted}"
+    )
+    print(
+        f"step2 anchors: " + ", ".join(f"{a['label']}={a['paper_id'] or 'not in db'}" for a in anchor_status)
+        + f"; fallback_arxiv_merges={len(fallback_arxiv_merges)}"
+    )
 
 
 def write_report(**k):
@@ -604,6 +848,182 @@ def write_report(**k):
         f"| {r['token_set_ratio']:.1f} | {r['token_sort_ratio']:.1f} |"
         for r in fuzzy_rows
     ) or "| (no fuzzy title matches were found) | | | | | |"
+
+    pitfalls_rel = PITFALLS_PATH.relative_to(REPO_ROOT).as_posix()
+
+    # ---- Run 2, arXiv via OpenAlex ----
+    old = k["old_snapshot"]
+    mm = k["new_match_method_counts"]
+    gained = k["gained_openalex_id"]
+    orphans = k["orphan_mapping"]
+    fuzzy_new_rows = k["fuzzy_new_rows"]
+
+    fuzzy_new_lines = "\n".join(
+        f"| {r['record_key']} | {cite(r['title_a'], r['year_a'], r['doi_a'])} "
+        f"| {r['paper_id']} | {cite(r['title_b'], r['year_b'], r['doi_b'])} "
+        f"| {r['token_set_ratio']:.1f} | {r['token_sort_ratio']:.1f} |"
+        for r in fuzzy_new_rows
+    ) or "| (none) | | | | | |"
+
+    gained_lines = "\n".join(
+        f"| {g['old_paper_id']} | {g['arxiv_id']} | {g['new_paper_id']} | {g['title']} "
+        f"| {'yes' if g['has_institution'] else 'no'} |"
+        for g in gained
+    ) or "| (none) | | | | |"
+
+    orphan_lines = "\n".join(
+        f"| {o} | {n or 'UNRESOLVED (no matching paper by openalex_id, arxiv_id or doi)'} |"
+        for o, n in orphans
+    ) or "| (none) | |"
+
+    # ---- Step 2, anchor papers ----
+    anchor_status = k["anchor_status"]
+    fallback_merges = k["fallback_arxiv_merges"]
+
+    def anchor_line(a):
+        if a["paper_id"]:
+            core = f"core (score {a['relevance_score']})" if a["core_set"] == 1 else "not core"
+            return (
+                f"- {a['label']} (DOI {a['doi']}): in the database as "
+                f"{a['paper_id']}, {core}, sources \"{a['sources']}\", matched "
+                f"by {a['n_raw_with_doi']} raw record(s) carrying this DOI."
+            )
+        return (
+            f"- {a['label']} (DOI {a['doi']}): not in any data/raw/*.jsonl "
+            f"file and not in the database ({a['n_raw_with_doi']} raw "
+            f"record(s) with this DOI)."
+        )
+
+    anchor_lines = "\n".join(anchor_line(a) for a in anchor_status)
+
+    fallback_lines = "\n".join(
+        f"| {r['record_key']} ({r['source_a']}) | {r['title_a']} "
+        f"| {r['paper_id']} ({r['source_b']}) | {r['title_b']} | {r['arxiv_id']} |"
+        for r in fallback_merges
+    ) or "| (none) | | | | |"
+
+    if fallback_merges and all(r["same_authors"] for r in fallback_merges):
+        fallback_authors_note = (
+            "the full author lists also match ("
+            + " and ".join(f"{r['n_authors_a']} authors" for r in fallback_merges)
+            + ")"
+        )
+    elif fallback_merges:
+        n_mismatch = sum(1 for r in fallback_merges if not r["same_authors"])
+        fallback_authors_note = (
+            f"{n_mismatch} of {len(fallback_merges)} pair(s) have author lists "
+            "that do not match exactly (see counts in the table below)"
+        )
+    else:
+        fallback_authors_note = "no pairs to compare"
+
+    # SSRN is a working-paper repository, not a citing venue; flag any
+    # fallback-merge side whose DOI is an SSRN DOI so the report does not
+    # read it as a normal peer-reviewed retitling.
+    ssrn_notes = []
+    for r in fallback_merges:
+        if (r["doi_a"] or "").startswith("10.2139/ssrn"):
+            ssrn_notes.append(f"{r['record_key']} is an SSRN working paper record")
+        if (r["doi_b"] or "").startswith("10.2139/ssrn"):
+            ssrn_notes.append(f"openalex:{r['paper_id']} is an SSRN working paper record")
+    fallback_ssrn_note = (
+        " " + " and ".join(ssrn_notes).replace("SSRN", "SSRN (Social Science Research Network)", 1) + "."
+    ) if ssrn_notes else ""
+
+    old_core_after = old["core"] if old["exists"] else "not available (no prior database)"
+    old_extended_after = old["extended"] if old["exists"] else "not available (no prior database)"
+    n_old_arxiv_only = len(old["arxiv_only"]) if old["exists"] else 0
+    gained_institutions_count = sum(1 for g in gained if g["has_institution"])
+    n_untagged = k["n_orphans_untagged"]
+    tags_orphan_note = (
+        f"{len(orphans)} run 1 tags row(s) referenced a paper_id that this merge "
+        f"retired. "
+        + (f"{n_untagged} of the new ids shown below have no tags row yet, so stage 3 "
+           f"must retag them." if n_untagged else
+           "Every new id shown below already has a tags row.")
+        if orphans else
+        "No run 1 tags row referenced a paper_id that this merge retired."
+    ) + (
+        f" This invocation deleted {k['n_tags_deleted']} tags row(s) whose paper_id "
+        f"is no longer in papers (every other tags row is untouched)"
+        + (f", logged in {pitfalls_rel}." if k["n_tags_deleted"] else ".")
+    )
+
+    # ---- Step 2, anchor papers narrative. Which anchors are missing or
+    # present, and their title check scores, come from anchor_status (a DB
+    # lookup, with scores computed from the titles). The prose around them is
+    # written for step 2's outcome in data/work/step2_anchors.md (Jupiter
+    # Evolving and RotorNet fetched, then removed). The assert below stops the
+    # run if that outcome changes, so the paragraph must be revisited then. ----
+    def _label_list(items):
+        labels = [a["label"] for a in items]
+        if not labels:
+            return ""
+        if len(labels) == 1:
+            return labels[0]
+        return ", ".join(labels[:-1]) + " and " + labels[-1]
+
+    anchor_missing = [a for a in anchor_status if a["paper_id"] is None]
+    anchor_present = [a for a in anchor_status if a["paper_id"] is not None]
+
+    anchor_intro = (
+        f"Step 2 tried to add the {len(anchor_status)} anchors the stage 1a "
+        f"anchor search missed ({_label_list(anchor_status)}). The attempt is "
+        f"recorded in data/work/step2_anchors.md; this section states only "
+        f"what this run found on disk, by DOI, not what the attempt intended."
+    )
+
+    if anchor_missing:
+        assert {a["label"] for a in anchor_missing} == {"Jupiter Evolving", "RotorNet"}, (
+            "the anchor paragraph below covers exactly these two; revisit it")
+        missing_raw_total = sum(a["n_raw_with_doi"] for a in anchor_missing)
+        oa_titles = ", ".join(f"\"{a['oa_title']}\"" for a in anchor_missing)
+        scores = " and ".join(f"{a['title_score']:.2f} for {a['label']}" for a in anchor_missing)
+        anchor_missing_para = (
+            f"{_label_list(anchor_missing)} were fetched from OpenAlex by DOI "
+            f"and then removed before this stage ran, so this run added "
+            f"neither. The anchor title check (rapidfuzz token_sort_ratio at "
+            f"least 95 against the full anchor title in pipeline/queries.yaml, "
+            f"a stricter test than the playbook's token_set_ratio rule, which "
+            f"the truncated titles would pass) "
+            f"does not confirm either one, because OpenAlex's title field "
+            f"holds only the words before the colon ({oa_titles}), so the check "
+            f"scores {scores}, both well under the threshold. The two anchors were "
+            f"not confirmed by the title check, so they were not added. That "
+            f"is left as an open question for a human in "
+            f"data/work/step2_anchors.md. Neither DOI is in any "
+            f"data/raw/*.jsonl file now ({missing_raw_total} record(s) on disk "
+            f"with these DOIs), so this run merged neither with an existing "
+            f"paper."
+        )
+    else:
+        anchor_missing_para = (
+            "Every anchor this run tried to add is now in the database; none "
+            "were left out."
+        )
+
+    anchor_present_lines = []
+    for a in anchor_present:
+        line = (
+            f"{a['label']} was never missing from the database. It reached "
+            f"it as {a['paper_id']} (sources \"{a['sources']}\")."
+        )
+        if a["label"] == "c-Through":
+            line += (
+                " That is a different raw record than the stage 1a anchor "
+                "search's false match (openalex:W2160642098, \"OPTICS\", "
+                "1999, still on file under the c-Through query, since raw "
+                "files are never edited)."
+            )
+        anchor_present_lines.append(line)
+    anchor_present_para = " ".join(anchor_present_lines)
+
+    if len(fallback_merges) == 1:
+        pair_phrase = "In this pair"
+    elif len(fallback_merges) == 2:
+        pair_phrase = "In both pairs"
+    else:
+        pair_phrase = f"In all {len(fallback_merges)} pairs"
 
     text = f"""# Curation report
 
@@ -641,7 +1061,7 @@ integrated CMOS drivers", a different, score 3 paper); token_sort_ratio
 compares the titles as whole sorted strings and does not have that flaw.
 Adding this second test can only drop merges the playbook's single test
 would have made, never add new ones. Logged as a deviation from the
-playbook, pending orchestrator approval, in deliverables/pitfalls.md.
+playbook, pending orchestrator approval, in {pitfalls_rel}.
 
 - Duplicates found by DOI: {k['method_counts'].get('doi', 0)}
 - Duplicates found by arXiv ID: {k['method_counts'].get('arxiv_id', 0)}
@@ -736,7 +1156,90 @@ for that author is still visible on any other paper where it appears.
 
 ## Anomalies
 
-{"- " + str(k['missing_relevance']) + " raw record_key(s) had no row in relevance.csv; logged in pitfalls.md and excluded from core and extended set membership." if k['missing_relevance'] else "- None."}
+{"- " + str(k['missing_relevance']) + " raw record_key(s) had no row in relevance.csv; logged in " + pitfalls_rel + " and excluded from core and extended set membership." if k['missing_relevance'] else "- None."}
+
+## Run 2, arXiv via OpenAlex
+
+This run added data/raw/arxiv_via_openalex.jsonl ({k['new_arxiv_source_total']}
+records, source "arxiv_via_openalex": OpenAlex's own index of arXiv, source
+S4306400194) to the raw files curated above. Every section above already
+reflects the merged result; this section isolates what the new file changed.
+Pitfalls from this run are appended to {pitfalls_rel}.
+
+### How the new records were absorbed
+
+Of the {k['new_arxiv_source_total']} arxiv_via_openalex records:
+
+- Matched an existing (run 1) paper by DOI: {mm.get('doi', 0)}
+- Matched an existing (run 1) paper by arXiv ID: {mm.get('arxiv_id', 0)}
+- Matched an existing (run 1) paper by fuzzy title: {mm.get('fuzzy_title', 0)}
+- Became new papers, no run 1 record in the cluster: {k['new_paper_records']}
+  records, forming {k['new_paper_clusters']} new paper(s)
+
+### Core and extended set sizes, before and after
+
+| set | run 1 | run 2 |
+|---|---|---|
+| Core (score 3) | {old_core_after} | {k['n_core']} |
+| Extended | {old_extended_after} | {k['n_extended']} |
+
+### arXiv coverage after run 2
+
+- Papers with an arXiv ID: {k['n_with_arxiv_id']}
+- Papers that are arXiv-hosted only (every source is arxiv or
+  arxiv_via_openalex, no openalex or openalex_snowball record):
+  {k['n_arxiv_hosted_only']}
+
+### Run 1 arXiv-only papers that gained OpenAlex data
+
+Run 1 had {n_old_arxiv_only} papers known only by arXiv ID (paper_id
+"arxiv:...", no OpenAlex ID). Of those, this run:
+
+- Gained an OpenAlex ID (merged with an arxiv_via_openalex record): {len(gained)}
+- Of those, also gained at least one author institution: {gained_institutions_count}
+
+| old paper_id | arxiv_id | new paper_id | title | gained an institution |
+|---|---|---|---|---|
+{gained_lines}
+
+### Fuzzy title merges involving a new record
+
+{len(fuzzy_new_rows)} of the {len(fuzzy_rows)} fuzzy_title merges listed
+above involve at least one arxiv_via_openalex record.
+
+| record_key | title A (year, doi) | paper_id | title B (year, doi) | token_set_ratio | token_sort_ratio |
+|---|---|---|---|---|---|
+{fuzzy_new_lines}
+
+### Tags table cleanup
+
+{tags_orphan_note}
+
+| old paper_id (no longer in papers) | became |
+|---|---|
+{orphan_lines}
+
+## Step 2, anchor papers
+
+{anchor_intro}
+
+{anchor_lines}
+
+{anchor_missing_para} {anchor_present_para}
+
+### The {len(fallback_merges)} arXiv-ID merges from the extract_arxiv_id fallback
+
+The pull request #1 code review fix that recovers arxiv_id from a raw OpenAlex
+record's landing_page_url, for records whose own arxiv_id field is null,
+let arXiv-ID matching catch {len(fallback_merges)} pair(s) this run that
+duplicate detection missed before the fix (both sides of each pair already
+existed in data/raw/*.jsonl; this is not new data from step 2's anchor
+search). {pair_phrase} the two records share the same arxiv_id, and
+{fallback_authors_note}.{fallback_ssrn_note}
+
+| record_key (source) | title A | paper_id (source) | title B | shared arxiv_id |
+|---|---|---|---|---|
+{fallback_lines}
 """
     REPORT_PATH.parent.mkdir(parents=True, exist_ok=True)
     REPORT_PATH.write_text(text, encoding="utf-8")

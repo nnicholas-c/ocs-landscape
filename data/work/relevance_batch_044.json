@@ -1,0 +1,202 @@
+[
+  {
+    "record_key": "openalex:W1819340318",
+    "source": "arxiv_via_openalex",
+    "title": "Direct optical sensing of single unlabelled proteins and super-resolution imaging of their binding sites",
+    "year": 2014,
+    "venue": "Nature Communications",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W2901517069",
+    "source": "arxiv_via_openalex",
+    "title": "Hybrid Magnetodynamical Modes in a Single Magnetostrictive Nanomagnet on a Piezoelectric Substrate Arising from Magnetoelastic Modulation of Precessional Dynamics",
+    "year": 2018,
+    "venue": "ACS Applied Materials & Interfaces",
+    "abstract": "Magnetoelastic (or “straintronic”) switching has emerged as an extremely energy-efficient mechanism for switching the magnetization of magnetostrictive nanomagnets in magnetic memory and logic, and non-Boolean circuits. Here, we investigate the ultrafast magnetodynamics associated with straintronic switching in a single quasielliptical magnetostrictive Co nanomagnet deposited on a piezoelectric Pb(Mg 1/3 Nb 2/3 )O 3 –PbTiO 3 substrate using time-resolved magneto-optical Kerr effect (TR-MOKE) measurements. The pulsed laser pump beam in the TR-MOKE plays a dual role: it causes precession of the nanomagnet’s magnetization about an applied bias magnetic field and it also generates surface acoustic waves in the piezoelectric substrate that produce periodic strains in the magnetostrictive nanomagnet and modulate the precessional dynamics. This modulation gives rise to intriguing hybrid magnetodynamical"
+  },
+  {
+    "record_key": "openalex:W2969861869",
+    "source": "arxiv_via_openalex",
+    "title": "Mutual Insight on Ferroelectrics and Hybrid Halide Perovskites: A Platform for Future Multifunctional Energy Conversion",
+    "year": 2019,
+    "venue": "Advanced Materials",
+    "abstract": "An insight into the analogies, state-of-the-art technologies, concepts, and prospects under the umbrella of perovskite materials (both inorganic-organic hybrid halide perovskites and ferroelectric perovskites) for future multifunctional energy conversion and storage devices is provided. Often, these are considered entirely different branches of research; however, considering them simultaneously and holistically can provide several new opportunities. Recent advancements have highlighted the potential of hybrid perovskites for high-efficiency solar cells. The intrinsic polar properties of these materials, including the potential for ferroelectricity, provide additional possibilities for simultaneously exploiting several energy conversion mechanisms such as the piezoelectric, pyroelectric, and thermoelectric effect and electrical energy storage. The presence of these phenomena can support the performance of perovskite solar cells. The energy conversion using these effects"
+  },
+  {
+    "record_key": "openalex:W2528676213",
+    "source": "arxiv_via_openalex",
+    "title": "Orthotropic Piezoelectricity in 2D Nanocellulose",
+    "year": 2016,
+    "venue": "Scientific Reports",
+    "abstract": "Abstract The control of electromechanical responses within bonding regions is essential to face frontier challenges in nanotechnologies, such as molecular electronics and biotechnology. Here, we present Iβ-nanocellulose as a potentially new orthotropic 2D piezoelectric crystal. The predicted in-layer piezoelectricity is originated on a sui-generis hydrogen bonds pattern. Upon this fact and by using a combination of ab-initio and ad-hoc models, we introduce a description of electrical profiles along chemical bonds. Such developments lead to obtain a rationale for modelling the extended piezoelectric effect originated within bond scales. The order of magnitude estimated for the 2D Iβ-nanocellulose piezoelectric response, ~pm V −1 , ranks this material at the level of currently used piezoelectric energy generators and new artificial 2D designs. Such"
+  },
+  {
+    "record_key": "openalex:W4221145137",
+    "source": "arxiv_via_openalex",
+    "title": "Data-driven discovery of high performance layered van der Waals piezoelectric NbOI2",
+    "year": 2022,
+    "venue": "Nature Communications",
+    "abstract": "Abstract Using high-throughput first-principles calculations to search for layered van der Waals materials with the largest piezoelectric stress coefficients, we discover NbOI 2 to be the one among 2940 monolayers screened. The piezoelectric performance of NbOI 2 is independent of thickness, and its electromechanical coupling factor of near unity is a hallmark of optimal interconversion between electrical and mechanical energy. Laser scanning vibrometer studies on bulk and few-layer NbOI 2 crystals verify their huge piezoelectric responses, which exceed internal references such as In 2 Se 3 and CuInP 2 S 6 . Furthermore, we provide insights into the atomic origins of anti-correlated piezoelectric and ferroelectric responses in NbOX 2 (X = Cl, Br, I), based on bond covalency and structural"
+  },
+  {
+    "record_key": "openalex:W3092559227",
+    "source": "arxiv_via_openalex",
+    "title": "Design of tunable acoustic metamaterials with periodic piezoelectric microstructure",
+    "year": 2020,
+    "venue": "Extreme Mechanics Letters",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W2724843520",
+    "source": "arxiv_via_openalex",
+    "title": "Microwave-controlled optical double optomechanically induced transparency in a hybrid piezo-optomechanical cavity system",
+    "year": 2018,
+    "venue": "Physical Review A",
+    "abstract": "We propose a scheme that can generate a microwave-controlled optical double optomechanical induced transparency (OMIT) in a hybrid piezo-optomechanical cavity system in which a piezoelectric optomechanical crystal AlN-nanobeam resonator is placed in a superconducting coplanar microwave cavity. We show that when an intense microwave field is applied to the superconducting microwave cavity, with a strong pump optical field and a weak probe optical field applied to the optomechanical crystal cavity through the optical waveguide, a double transmission window can be obtained in the weak output probe field. This phenomenon arises because an $N$-type four-level system can be formed in our scheme, because under the effects of the radiation pressure and the piezoelectric interaction, the quantum interference between different energy-level pathways"
+  },
+  {
+    "record_key": "openalex:W1974357067",
+    "source": "arxiv_via_openalex",
+    "title": "Cascaded optical transparency in multimode-cavity optomechanical systems",
+    "year": 2015,
+    "venue": "Nature Communications",
+    "abstract": "Electromagnetically induced transparency has great theoretical and experimental importance in many areas of physics, such as atomic physics, quantum optics and, more recent, cavity optomechanics. Optical delay is the most prominent feature of electromagnetically induced transparency, and in cavity optomechanics, the optical delay is limited by the mechanical dissipation rate of sideband-resolved mechanical modes. Here we demonstrate a cascaded optical transparency scheme by leveraging the parametric phonon–phonon coupling in a multimode optomechanical system, where a low damping mechanical mode in the unresolved-sideband regime is made to couple to an intermediate, high-frequency mechanical mode in the resolved-sideband regime of an optical cavity. Extended optical delay and higher transmission as well as optical advancing are demonstrated. These results provide a route to"
+  },
+  {
+    "record_key": "openalex:W3203915229",
+    "source": "arxiv_via_openalex",
+    "title": "Piezoelectricity in nominally centrosymmetric phases",
+    "year": 2021,
+    "venue": "Physical Review Research",
+    "abstract": "Compound phases often display properties that are symmetry forbidden relative to their nominal, average crystallographic symmetry, even if extrinsic reasons (defects, strain, or imperfections) are not apparent. Specifically, breaking the macroscopic inversion symmetry of a centrosymmetric phase can dominate or significantly change its observed properties while the detailed mechanisms and magnitudes of the deviations of symmetry breaking are often obscure. Here, we choose piezoelectricity as a tool to investigate macroscopic inversion-symmetry breaking in nominally centrosymmetric materials as a prominent example and measure resonant piezoelectric spectroscopy (RPS) and Resonant Ultrasound Spectroscopy (RUS) in 15 compounds, 18 samples, and 21 different phases, including unpoled ferroelectrics, paraelectrics, relaxors, ferroelastics, incipient ferroelectrics, and isotropic materials with low defect concentrations, i.e., NaCl, fused silica, and"
+  },
+  {
+    "record_key": "openalex:W2965574323",
+    "source": "arxiv_via_openalex",
+    "title": "Optical Tweezers: Phototoxicity and Thermal Stress in Cells and Biomolecules",
+    "year": 2019,
+    "venue": "Micromachines",
+    "abstract": "For several decades optical tweezers have proven to be an invaluable tool in the study and analysis of myriad biological responses and applications. However, as with every tool, they can have undesirable or damaging effects upon the very sample they are helping to study. In this review the main negative effects of optical tweezers upon biostructures and living systems will be presented. There are three main areas on which the review will focus: linear optical excitation within the tweezers, non-linear photonic effects, and thermal load upon the sampled volume. Additional information is provided on negative mechanical effects of optical traps on biological structures. Strategies to avoid or, at least, minimize these negative effects will be introduced. Finally, all these effects,"
+  },
+  {
+    "record_key": "openalex:W2992473450",
+    "source": "arxiv_via_openalex",
+    "title": "Dynamic full-field optical coherence tomography: 3D live-imaging of retinal organoids",
+    "year": 2020,
+    "venue": "Light Science & Applications",
+    "abstract": "Optical coherence tomography offers astounding opportunities to image the complex structure of living tissue but lacks functional information. We present dynamic full-field optical coherence tomography as a technique to noninvasively image living human induced pluripotent stem cell-derived retinal organoids. Coloured images with an endogenous contrast linked to organelle motility are generated, with submicrometre spatial resolution and millisecond temporal resolution, creating a way to identify specific cell types in living tissue via their function."
+  },
+  {
+    "record_key": "openalex:W3107070183",
+    "source": "arxiv_via_openalex",
+    "title": "Photonic crystal optical parametric oscillator",
+    "year": 2020,
+    "venue": "Nature Photonics",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W4281629292",
+    "source": "arxiv_via_openalex",
+    "title": "Piezomagnetic switching of the anomalous Hall effect in an antiferromagnet at room temperature",
+    "year": 2022,
+    "venue": "Nature Physics",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W4377095951",
+    "source": "arxiv_via_openalex",
+    "title": "Superior ferroelectricity and nonlinear optical response in a hybrid germanium iodide hexagonal perovskite",
+    "year": 2023,
+    "venue": "Nature Communications",
+    "abstract": "Abstract Abundant chemical diversity and structural tunability make organic–inorganic hybrid perovskites (OIHPs) a rich ore for ferroelectrics. However, compared with their inorganic counterparts such as BaTiO3, their ferroelectric key properties, including large spontaneous polarization (Ps), low coercive field (Ec), and strong second harmonic generation (SHG) response, have long been great challenges, which hinder their commercial applications. Here, a quasi-one-dimensional OIHP DMAGeI3(DMA = Dimethylamine) is reported, with notable ferroelectric attributes at room temperature: a largePsof 24.14 μC/cm2(on a par with BaTiO3), a lowEcbelow 2.2 kV/cm, and the strongest SHG intensity in OIHP family (about 12 times of KH2PO4(KDP)). Revealed by the first-principles calculations, its largePsoriginates from the synergistic effects of the stereochemically active 4s2lone pair of Ge2+and the ordering of organic"
+  },
+  {
+    "record_key": "openalex:W3037924476",
+    "source": "arxiv_via_openalex",
+    "title": "On-chip coherent microwave-to-optical transduction mediated by ytterbium in YVO4",
+    "year": 2020,
+    "venue": "Nature Communications",
+    "abstract": "Optical networks that distribute entanglement among various quantum systems will form a powerful framework for quantum science but are yet to interface with leading quantum hardware such as superconducting qubits. Consequently, these systems remain isolated because microwave links at room temperature are noisy and lossy. Building long distance connectivity requires interfaces that map quantum information between microwave and optical fields. While preliminary microwave-to-optical transducers have been realized, developing efficient, low-noise devices that match superconducting qubit frequencies (gigahertz) and bandwidths (10 kilohertz - 1 megahertz) remains a challenge. Here we demonstrate a proof-of-concept on-chip transducer using trivalent ytterbium-171 ions in yttrium orthovanadate coupled to a nanophotonic waveguide and a microwave transmission line. The device's miniaturization, material, and zero-magnetic-field operation are important"
+  },
+  {
+    "record_key": "openalex:W2519427218",
+    "source": "arxiv_via_openalex",
+    "title": "Piezo-generated charge mapping revealed through direct piezoelectric force microscopy",
+    "year": 2017,
+    "venue": "Nature Communications",
+    "abstract": "Abstract While piezoelectric and ferroelectric materials play a key role in many everyday applications, there are still a number of open questions related to their physics. To enhance our understanding of piezoelectrics and ferroelectrics, nanoscale characterization is essential. Here, we develop an atomic force microscopy based mode that obtains a direct quantitative analysis of the piezoelectric coefficient d33. We report nanoscale images of piezogenerated charge in a thick single crystal of periodically poled lithium niobate (PPLN), a bismuth ferrite (BiFO3) thin film, and lead zirconate titanate (PZT) by applying a force and recording the current produced by these materials. The quantification of d33 coefficients for PPLN (14 ± 3 pC per N) and BFO (43 ± 6 pC per N)"
+  },
+  {
+    "record_key": "openalex:W2923672641",
+    "source": "arxiv_via_openalex",
+    "title": "Giant effective charges and piezoelectricity in gapped graphene",
+    "year": 2019,
+    "venue": "2D Materials",
+    "abstract": "Abstract Since the first realization of reversible charge doping in graphene via field-effect devices, it has become evident how the induction of a gap could further enhance its potential for technological applications. Here we show that the gap opening due to a sublattice symmetry breaking has also a profound impact on the polar response of graphene. By combining ab initio calculations and analytical modelling we show that for realistic band-gap values ( eV) the piezoelectric coefficient and the Born effective charge of graphene attain a giant value, independent on the gap. In particular the piezoelectric coefficient per layer of gapped mono- and bilayer graphene is three times larger than that of a large-gap full polar insulator as hexagonal Boron nitride"
+  },
+  {
+    "record_key": "openalex:W2521124600",
+    "source": "arxiv_via_openalex",
+    "title": "Note: A high-performance, low-cost laser shutter using a piezoelectric cantilever actuator",
+    "year": 2017,
+    "venue": "Review of Scientific Instruments",
+    "abstract": "We report the design and characterization of an optical shutter based on a piezoelectric cantilever. Compared to conventional electro-magnetic shutters, the device has intrinsically low power and is acoustically quiet. The cantilever position is controlled by a high-voltage op-amp circuit for easy tuning of the range of travel, and mechanical slew rate, which enables a factor of 30 reduction in mechanical noise compared to a rapidly switched device. We achieve shuttering rise and fall times of 11 μs, corresponding to mechanical slew rates of 1.3 ms−1, with a timing jitter of less than 1 μs. When used to create optical pulses, we achieve minimum pulse durations of 250 μs. The reliability of the shutter was investigated by operating continuously for"
+  },
+  {
+    "record_key": "openalex:W2984239563",
+    "source": "arxiv_via_openalex",
+    "title": "Quasi-one-dimensional ferroelectricity and piezoelectricity in WO X 4 halogens",
+    "year": 2019,
+    "venue": "Physical Review Materials",
+    "abstract": "A series of oxytetrahalides $\\mathrm{WO}{X}_{4}$ ($X$: a halogen element) that form quasi-one-dimensional chains is investigated using first-principles calculations. The crystal structures, electronic structures, as well as ferroelectric and piezoelectric properties are discussed in detail. Group theory analysis shows that the ferroelectricity in this family originates from an unstable polar phonon mode ${\\mathrm{\\ensuremath{\\Gamma}}}_{1}^{\\ensuremath{-}}$ induced by the W's ${d}^{0}$ orbital configuration. Their polarization magnitudes are found to be comparable to widely used ferroelectric perovskites. Because of its quasi-one-dimensional characteristics, the interchain domain wall energy density is low, leading to loosely coupled ferroelectric chains. This is potentially beneficial for high-density ferroelectric memories: We estimate that the upper limit of memory density in these compounds could reach hundreds of terabytes per square inch."
+  },
+  {
+    "record_key": "openalex:W2995931090",
+    "source": "arxiv_via_openalex",
+    "title": "Phononic loss in superconducting resonators on piezoelectric substrates",
+    "year": 2020,
+    "venue": "New Journal of Physics",
+    "abstract": "Abstract We numerically and experimentally investigate the phononic loss for superconducting resonators fabricated on a piezoelectric substrate. With the help of finite element method simulations, we calculate the energy loss due to electromechanical conversion into bulk and surface acoustic waves. This sets an upper limit for the resonator internal quality factor Q i. To validate the simulation, we fabricate quarter wavelength coplanar waveguide resonators on GaAs and measure Q i as function of frequency, power and temperature. We observe a linear increase of Q i with frequency, as predicted by the simulations for a constant electromechanical coupling. Additionally, Q i shows a weak power dependence and a negligible temperature dependence around 10 mK, excluding two level systems and non-equilibrium quasiparticles"
+  },
+  {
+    "record_key": "openalex:W2968572035",
+    "source": "arxiv_via_openalex",
+    "title": "An Atomic-Array Optical Clock with Single-Atom Readout",
+    "year": 2019,
+    "venue": "Physical Review X",
+    "abstract": "Currently, the most accurate and stable clocks use optical interrogation of either a single ion or an ensemble of neutral atoms confined in an optical lattice.Here, we demonstrate a new optical clock system based on an array of individually trapped neutral atoms with single-atom readout, merging many of the benefits of ion and lattice clocks as well as creating a bridge to recently developed techniques in quantum simulation and computing with neutral atoms.We evaluate single-site-resolved frequency shifts and shortterm stability via self-comparison.Atom-by-atom feedback control enables direct experimental estimation of laser noise contributions.Results agree well with an ab initio Monte Carlo simulation that incorporates finite temperature, projective readout, laser noise, and feedback dynamics.Our approach, based on a tweezer array, also suppresses"
+  },
+  {
+    "record_key": "openalex:W2749967269",
+    "source": "arxiv_via_openalex",
+    "title": "Optical properties of an ensemble of G-centers in silicon",
+    "year": 2018,
+    "venue": "Physical review. B./Physical review. B",
+    "abstract": "We addressed the carrier dynamics in so-called G-centers in silicon (consisting of substitutional-interstitial carbon pairs interacting with interstitial silicons) obtained via ion implantation into a silicon-on-insulator wafer. We performed detailed photoluminescence experiments as a function of excitation energy, incident power, irradiation fluence, and temperature in order to study the impact of radiative and nonradiative recombination channels on the spectrum, yield, and lifetime of G-centers. In the framework of the Huang-Rhys theory with nonperturbative calculations of the acoustic phonon sidebands, we reach an estimation of $1.6\\ifmmode\\pm\\else\\textpm\\fi{}0.1\\phantom{\\rule{4pt}{0ex}}\\AA{}$ for the spatial extension of the electronic wave function in the G-center. The radiative recombination time measured at low temperature lies in the 6 ns range. The estimation of both radiative and nonradiative recombination rates"
+  },
+  {
+    "record_key": "openalex:W2772792837",
+    "source": "arxiv_via_openalex",
+    "title": "Single-molecule optical absorption imaging by nanomechanical photothermal sensing",
+    "year": 2018,
+    "venue": "Proceedings of the National Academy of Sciences",
+    "abstract": "Significance Absorption microscopy is a promising technique that can detect single nonfluorescent molecules. However, fundamental limitations of existing optical absorption methods result in noisy detection signals for single molecules, which has hindered many anticipated applications. A promising method is to optically measure the photothermal heating of single molecules. In this paper, we present a photothermal microscopy technique where we detect the photothermal heating of single molecules mechanically with a temperature-sensitive nanomechanical drum. With our method, we achieve an unprecedented optical absorption sensitivity, enabling the detection of single molecules with large signal-to-noise ratios. This enables interesting applications such as the accurate localization of naturally occurring marker molecules or the identification of single molecules by measuring their absorption spectrum."
+  },
+  {
+    "record_key": "openalex:W2081895692",
+    "source": "arxiv_via_openalex",
+    "title": "Development of a strontium optical lattice clock for the SOC mission on the ISS",
+    "year": 2015,
+    "venue": "Comptes Rendus Physique",
+    "abstract": "Ultra-precise optical clocks in space will allow new studies in fundamental physics and astronomy. Within an European Space Agency (ESA) program, the “Space Optical Clocks” (SOC) project aims to install and to operate an optical lattice clock on the International Space Station (ISS) towards the end of this decade. It would be a natural follow-on to the ACES mission, improving its performance by at least one order of magnitude. The payload is planned to include an optical lattice clock, as well as a frequency comb, a microwave link, and an optical link for comparisons of the ISS clock with ground clocks located in several countries and continents. Within the EU-FP7-SPACE-2010-1 project No. 263500, during the years 2011–2015 a compact, a"
+  },
+  {
+    "record_key": "openalex:W2908680063",
+    "source": "arxiv_via_openalex",
+    "title": "Magnetoelectric Coupling by Piezoelectric Tensor Design",
+    "year": 2019,
+    "venue": "Scientific Reports",
+    "abstract": "Abstract Strain-coupled magnetoelectric (ME) phenomena in piezoelectric/ferromagnetic thin-film bilayers are a promising paradigm for sensors and information storage devices, where strain manipulates the magnetization of the ferromagnetic film. In-plane magnetization rotation with an electric field across the film thickness has been challenging due to the large reduction of in-plane piezoelectric strain by substrate clamping, and in two-terminal devices, the requirement of anisotropic in-plane strain. Here we show that these limitations can be overcome by designing the piezoelectric strain tensor using the boundary interaction between biased and unbiased piezoelectric. We fabricated 500 nm thick, (001) oriented [Pb(Mg1/3Nb2/3)O3]0.7-[PbTiO3]0.3 (PMN-PT) unclamped piezoelectric membranes with ferromagnetic Ni overlayers. Guided by analytical and numerical continuum elastic calculations, we designed and fabricated two-terminal devices exhibiting electric"
+  }
+]

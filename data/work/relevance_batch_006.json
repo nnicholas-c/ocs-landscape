@@ -1,0 +1,202 @@
+[
+  {
+    "record_key": "openalex:W4404238479",
+    "source": "openalex",
+    "title": "COCSN: A Multi-Tiered Cascaded Optical Circuit Switching Network for Data Center",
+    "year": 2024,
+    "venue": "IEEE Transactions on Cloud Computing",
+    "abstract": "A cascaded network represents a classic scaling-out model in traditional electrical switching networks. Recent proposals have integrated optical circuit switching at specific tiers of these networks to reduce power consumption and enhance topological flexibility. Utilizing a multi-tiered cascaded optical circuit switching network is expected to extend the advantages of optical circuit switching further. The main challenges fall into two categories. First, an architecture with sufficient connectivity is required to support varying workloads. Second, the network reconfiguration is more complex and necessitates a low-complexity scheduling algorithm. In this work, we propose COCSN, a multi-tiered cascaded optical circuit switching network architecture for data center. COCSN employs wavelength-selective switches that integrate multiple wavelengths to enhance network connectivity. We formulate a mathematical model covering"
+  },
+  {
+    "record_key": "openalex:W2973870220",
+    "source": "openalex",
+    "title": "How Optical-Circuit/Electrical-Packet Hybrid Switching will Create High Performance and Cost-Effective Data Center Networks",
+    "year": 2019,
+    "venue": null,
+    "abstract": "This paper discusses how to maximize the inherent benefits of optical circuit switching, which makes the best use of advances in silicon switch chips, for the creation of future intra-data center networks. It is demonstrated that the parallelism of optical switches yields sufficient throughput performance even with simplified and decentralized control that does not employ any throughput maximization algorithm. The power consumption of the resulting network is shown to be about 70% less than the electrical alternative. Significant reductions are also verified in the number of fiber links and transceivers necessary."
+  },
+  {
+    "record_key": "openalex:W2559394418",
+    "source": "openalex",
+    "title": "Quantum machine learning",
+    "year": 2017,
+    "venue": "Nature",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W2792315573",
+    "source": "openalex",
+    "title": "Machine learning & artificial intelligence in the quantum domain: a review of recent progress",
+    "year": 2018,
+    "venue": "Reports on Progress in Physics",
+    "abstract": "Quantum information technologies, on the one hand, and intelligent learning systems, on the other, are both emergent technologies that are likely to have a transformative impact on our society in the future. The respective underlying fields of basic research-quantum information versus machine learning (ML) and artificial intelligence (AI)-have their own specific questions and challenges, which have hitherto been investigated largely independently. However, in a growing body of recent work, researchers have been probing the question of the extent to which these fields can indeed learn and benefit from each other. Quantum ML explores the interaction between quantum computing and ML, investigating how results and techniques from one field can be used to solve the problems of the other. Recently we"
+  },
+  {
+    "record_key": "openalex:W3164621419",
+    "source": "openalex",
+    "title": "A review on extreme learning machine",
+    "year": 2021,
+    "venue": "Multimedia Tools and Applications",
+    "abstract": "Abstract Extreme learning machine (ELM) is a training algorithm for single hidden layer feedforward neural network (SLFN), which converges much faster than traditional methods and yields promising performance. In this paper, we hope to present a comprehensive review on ELM. Firstly, we will focus on the theoretical analysis including universal approximation theory and generalization. Then, the various improvements are listed, which help ELM works better in terms of stability, efficiency, and accuracy. Because of its outstanding performance, ELM has been successfully applied in many real-time learning tasks for classification, clustering, and regression. Besides, we report the applications of ELM in medical imaging: MRI, CT, and mammogram. The controversies of ELM were also discussed in this paper. We aim to report"
+  },
+  {
+    "record_key": "openalex:W3106714810",
+    "source": "openalex",
+    "title": "Machine learning and applications in ultrafast photonics",
+    "year": 2020,
+    "venue": "Nature Photonics",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W2929612105",
+    "source": "openalex",
+    "title": "Quantum Machine Learning for 6G Communication Networks: State-of-the-Art and Vision for the Future",
+    "year": 2019,
+    "venue": "IEEE Access",
+    "abstract": "The upcoming fifth generation (5G) of wireless networks is expected to lay a foundation of intelligent networks with the provision of some isolated artificial intelligence (AI) operations. However, fully intelligent network orchestration and management for providing innovative services will only be realized in Beyond 5G (B5G) networks. To this end, we envisage that the sixth generation (6G) of wireless networks will be driven by on-demand self-reconfiguration to ensure a many-fold increase in the network performance and service types. The increasingly stringent performance requirements of emerging networks may finally trigger the deployment of some interesting new technologies, such as large intelligent surfaces, electromagnetic-orbital angular momentum, visible light communications, and cell-free communications, to name a few. Our vision for 6G is a"
+  },
+  {
+    "record_key": "openalex:W3164104137",
+    "source": "openalex",
+    "title": "State of the Art in Defect Detection Based on Machine Vision",
+    "year": 2021,
+    "venue": "International Journal of Precision Engineering and Manufacturing-Green Technology",
+    "abstract": "Abstract Machine vision significantly improves the efficiency, quality, and reliability of defect detection. In visual inspection, excellent optical illumination platforms and suitable image acquisition hardware are the prerequisites for obtaining high-quality images. Image processing and analysis are key technologies in obtaining defect information, while deep learning is significantly impacting the field of image analysis. In this study, a brief history and the state of the art in optical illumination, image acquisition, image processing, and image analysis in the field of visual inspection are systematically discussed. The latest developments in industrial defect detection based on machine vision are introduced. In the further development of the field of visual inspection, the application of deep learning will play an increasingly important role. Thus,"
+  },
+  {
+    "record_key": "openalex:W3167963175",
+    "source": "openalex",
+    "title": "Precision agriculture using IoT data analytics and machine learning",
+    "year": 2021,
+    "venue": "Journal of King Saud University - Computer and Information Sciences",
+    "abstract": "In spite of the insight commonality may have concerning agrarian practice, fact is that nowadays agricultural science diligence is accurate, precise, data-driven, and vigorous than ever. The emanation of the technologies based on Internet of Things (IoT) has reformed nearly each industry like smart city, smart health, smart grid, smart home, including “smart agriculture or precision agriculture”. Applying machine learning using the IoT data analytics in agricultural sector will rise new benefits to increase the quantity and quality of production from the crop fields to meet the increasing food demand. Such world-shattering advancements are rocking the current agrarian approaches and generating novel and best chances besides a number of limitations. This paper climaxes the power and capability of computing techniques"
+  },
+  {
+    "record_key": "openalex:W2772457693",
+    "source": "openalex",
+    "title": "Deep Learning for IoT Big Data and Streaming Analytics: A Survey",
+    "year": 2018,
+    "venue": "IEEE Communications Surveys & Tutorials",
+    "abstract": "In the era of the Internet of Things (IoT), an enormous amount of sensing devices collect and/or generate various sensory data over time for a wide range of fields and applications. Based on the nature of the application, these devices will result in big or fast/real-time data streams. Applying analytics over such data streams to discover new information, predict future insights, and make control decisions is a crucial process that makes IoT a worthy paradigm for businesses and a quality-of-life improving technology. In this paper, we provide a thorough overview on using a class of advanced machine learning techniques, namely deep learning (DL), to facilitate the analytics and learning in the IoT domain. We start by articulating IoT data characteristics"
+  },
+  {
+    "record_key": "openalex:W2951065015",
+    "source": "openalex",
+    "title": "Toward an Integration of Deep Learning and Neuroscience",
+    "year": 2016,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "Neuroscience has focused on the detailed implementation of computation, studying neural codes, dynamics and circuits. In machine learning, however, artificial neural networks tend to eschew precisely designed codes, dynamics or circuits in favor of brute force optimization of a cost function, often using simple and relatively uniform initial architectures. Two recent developments have emerged within machine learning that create an opportunity to connect these seemingly divergent perspectives. First, structured architectures are used, including dedicated systems for attention, recursion and various forms of short- and long-term memory storage. Second, cost functions and training procedures have become more complex and are varied across layers and over time. Here we think about the brain in terms of these ideas. We hypothesize that (1)"
+  },
+  {
+    "record_key": "openalex:W2949186411",
+    "source": "openalex",
+    "title": "A Tutorial on Machine Learning for Failure Management in Optical Networks",
+    "year": 2019,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "Failure management plays a role of capital importance in optical networks to avoid service disruptions and to satisfy customers' service level agreements. Machine learning (ML) promises to revolutionize the (mostly manual and human-driven) approaches in which failure management in optical networks has been traditionally managed, by introducing automated methods for failure prediction, detection, localization, and identification. This tutorial provides a gentle introduction to some ML techniques that have been recently applied in the field of the optical-network failure management. It then introduces a taxonomy to classify failure-management tasks and discusses possible applications of ML for these failure management tasks. Finally, for a reader interested in more implementative details, we provide a step-by-step description of how to solve a representative example"
+  },
+  {
+    "record_key": "openalex:W2972006294",
+    "source": "openalex",
+    "title": "A Survey of Deep Learning-Based Object Detection",
+    "year": 2019,
+    "venue": "IEEE Access",
+    "abstract": "Object detection is one of the most important and challenging branches of computer vision, which has been widely applied in people’s life, such as monitoring security, autonomous driving and so on, with the purpose of locating instances of semantic objects of a certain class. With the rapid development of deep learning algorithms for detection tasks, the performance of object detectors has been greatly improved. In order to understand the main development status of object detection pipeline thoroughly and deeply, in this survey, we analyze the methods of existing typical detection models and describe the benchmark datasets at first. Afterwards and primarily, we provide a comprehensive overview of a variety of object detection methods in a systematic manner, covering the one-stage"
+  },
+  {
+    "record_key": "openalex:W2473394283",
+    "source": "openalex",
+    "title": "Efficient Learning Machines: Theories, Concepts, and Applications for Engineers and System Designers",
+    "year": 2015,
+    "venue": "Directory of Open access Books (OAPEN Foundation)",
+    "abstract": "Machine learning techniques provide cost-effective alternatives to traditional methods for extracting underlying relationships between information and data and for predicting future events by processing existing information to train models. Efficient Learning Machines explores the major topics of machine learning, including knowledge discovery, classifications, genetic algorithms, neural networking, kernel methods, and biologically-inspired techniques.Mariette Awad and Rahul Khanna’s synthetic approach weaves together the theoretical exposition, design principles, and practical applications of efficient machine learning. Their experiential emphasis, expressed in their close analysis of sample algorithms throughout the book, aims to equip engineers, students of engineering, and system designers to design and create new and more efficient machine learning systems. Readers of Efficient Learning Machines will learn how to recognize and analyze the"
+  },
+  {
+    "record_key": "openalex:W4224242327",
+    "source": "openalex",
+    "title": "Machine Learning for Healthcare Wearable Devices: The Big Picture",
+    "year": 2022,
+    "venue": "Journal of Healthcare Engineering",
+    "abstract": "Using artificial intelligence and machine learning techniques in healthcare applications has been actively researched over the last few years. It holds promising opportunities as it is used to track human activities and vital signs using wearable devices and assist in diseases' diagnosis, and it can play a great role in elderly care and patient's health monitoring and diagnostics. With the great technological advances in medical sensors and miniaturization of electronic chips in the recent five years, more applications are being researched and developed for wearable devices. Despite the remarkable growth of using smart watches and other wearable devices, a few of these massive research efforts for machine learning applications have found their way to market. In this study, a review"
+  },
+  {
+    "record_key": "openalex:W2990204812",
+    "source": "openalex",
+    "title": "A Survey on Machine-Learning Techniques for UAV-Based Communications",
+    "year": 2019,
+    "venue": "Sensors",
+    "abstract": "Unmanned aerial vehicles (UAVs) will be an integral part of the next generation wireless communication networks. Their adoption in various communication-based applications is expected to improve coverage and spectral efficiency, as compared to traditional ground-based solutions. However, this new degree of freedom that will be included in the network will also add new challenges. In this context, the machine-learning (ML) framework is expected to provide solutions for the various problems that have already been identified when UAVs are used for communication purposes. In this article, we provide a detailed survey of all relevant research works, in which ML techniques have been used on UAV-based communications for improving various design and functional aspects such as channel modeling, resource management, positioning, and"
+  },
+  {
+    "record_key": "openalex:W3121141908",
+    "source": "openalex",
+    "title": "An optical neural chip for implementing complex-valued neural network",
+    "year": 2021,
+    "venue": "Nature Communications",
+    "abstract": "Complex-valued neural networks have many advantages over their real-valued counterparts. Conventional digital electronic computing platforms are incapable of executing truly complex-valued representations and operations. In contrast, optical computing platforms that encode information in both phase and magnitude can execute complex arithmetic by optical interference, offering significantly enhanced computational speed and energy efficiency. However, to date, most demonstrations of optical neural networks still only utilize conventional real-valued frameworks that are designed for digital computers, forfeiting many of the advantages of optical computing such as efficient complex-valued operations. In this article, we highlight an optical neural chip (ONC) that implements truly complex-valued neural networks. We benchmark the performance of our complex-valued ONC in four settings: simple Boolean tasks, species classification of an"
+  },
+  {
+    "record_key": "openalex:W2898323475",
+    "source": "openalex",
+    "title": "Deep Learning With Spiking Neurons: Opportunities and Challenges",
+    "year": 2018,
+    "venue": "Frontiers in Neuroscience",
+    "abstract": "Spiking neural networks (SNNs) are inspired by information processing in biology, where sparse and asynchronous binary signals are communicated and processed in a massively parallel fashion. SNNs on neuromorphic hardware exhibit favorable properties such as low power consumption, fast inference, and event-driven information processing. This makes them interesting candidates for the efficient implementation of deep neural networks, the method of choice for many machine learning tasks. In this review, we address the opportunities that deep spiking networks offer and investigate in detail the challenges associated with training SNNs in a way that makes them competitive with conventional deep learning, but simultaneously allows for efficient mapping to hardware. A wide range of training methods for SNNs is presented, ranging from the"
+  },
+  {
+    "record_key": "openalex:W3217475140",
+    "source": "openalex",
+    "title": "Optical meta-waveguides for integrated photonics and beyond",
+    "year": 2021,
+    "venue": "Light Science & Applications",
+    "abstract": "The growing maturity of nanofabrication has ushered massive sophisticated optical structures available on a photonic chip. The integration of subwavelength-structured metasurfaces and metamaterials on the canonical building block of optical waveguides is gradually reshaping the landscape of photonic integrated circuits, giving rise to numerous meta-waveguides with unprecedented strength in controlling guided electromagnetic waves. Here, we review recent advances in meta-structured waveguides that synergize various functional subwavelength photonic architectures with diverse waveguide platforms, such as dielectric or plasmonic waveguides and optical fibers. Foundational results and representative applications are comprehensively summarized. Brief physical models with explicit design tutorials, either physical intuition-based design methods or computer algorithms-based inverse designs, are cataloged as well. We highlight how meta-optics can infuse new degrees of freedom"
+  },
+  {
+    "record_key": "openalex:W4295122555",
+    "source": "openalex",
+    "title": "Deep Residual Learning for Image Recognition: A Survey",
+    "year": 2022,
+    "venue": "Applied Sciences",
+    "abstract": "Deep Residual Networks have recently been shown to significantly improve the performance of neural networks trained on ImageNet, with results beating all previous methods on this dataset by large margins in the image classification task. However, the meaning of these impressive numbers and their implications for future research are not fully understood yet. In this survey, we will try to explain what Deep Residual Networks are, how they achieve their excellent results, and why their successful implementation in practice represents a significant advance over existing techniques. We also discuss some open questions related to residual learning as well as possible applications of Deep Residual Networks beyond ImageNet. Finally, we discuss some issues that still need to be resolved before deep"
+  },
+  {
+    "record_key": "openalex:W3043159233",
+    "source": "openalex",
+    "title": "Roadmap on emerging hardware and technology for machine learning",
+    "year": 2020,
+    "venue": "Nanotechnology",
+    "abstract": "Recent progress in artificial intelligence is largely attributed to the rapid development of machine learning, especially in the algorithm and neural network models. However, it is the performance of the hardware, in particular the energy efficiency of a computing system that sets the fundamental limit of the capability of machine learning. Data-centric computing requires a revolution in hardware systems, since traditional digital computers based on transistors and the von Neumann architecture were not purposely designed for neuromorphic computing. A hardware platform based on emerging devices and new architecture is the hope for future computing with dramatically improved throughput and energy efficiency. Building such a system, nevertheless, faces a number of challenges, ranging from materials selection, device optimization, circuit fabrication and"
+  },
+  {
+    "record_key": "openalex:W4321793224",
+    "source": "openalex",
+    "title": "Condition Monitoring using Machine Learning: A Review of Theory, Applications, and Recent Advances",
+    "year": 2023,
+    "venue": "Expert Systems with Applications",
+    "abstract": "In modern industry, the quality of maintenance directly influences equipment’s operational uptime and efficiency. Hence, based on monitoring the condition of the machinery, predictive maintenance can minimize machine downtime and potential losses. Throughout the field, machine learning (ML) methods have become noteworthy for predicting failures before they occur. However, the efficacy of the predictive maintenance strategy relies on selecting the appropriate data processing method and ML model. Existing surveys do not comprehensively inform users or evaluate the quality of the monitoring systems proposed. Hence, this survey reviews the recent literature on ML-driven condition monitoring systems that have been beneficial in many cases. Furthermore, in the reviewed literature, we provide an insight into the underlying findings on successful, intelligent condition monitoring"
+  },
+  {
+    "record_key": "openalex:W3082806766",
+    "source": "openalex",
+    "title": "Machine Learning Techniques for Optical Performance Monitoring and Modulation Format Identification: A Survey",
+    "year": 2020,
+    "venue": "IEEE Communications Surveys & Tutorials",
+    "abstract": "The trade-off between more user bandwidth and quality of service requirements introduces unprecedented challenges to the next generation smart optical networks. In this regard, the use of optical performance monitoring (OPM) and modulation format identification (MFI) techniques becomes a common need to enable the development of next-generation autonomous optical networks, with ultra-low latency and self-adaptability. Recently, machine learning (ML)-based techniques have emerged as a vital solution to many challenging aspects of OPM and MFI in terms of reliability, quality, and implementation efficiency. This article surveys ML-based OPM and MFI techniques proposed in the literature. First, we address the key advantages of employing ML algorithms in optical networks. Then, we review the main optical impairments and modulation formats being monitored and"
+  },
+  {
+    "record_key": "openalex:W2984757480",
+    "source": "openalex",
+    "title": "Large-scale integration of artificial atoms in hybrid photonic circuits",
+    "year": 2020,
+    "venue": "Nature",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W2775031014",
+    "source": "openalex",
+    "title": "A Transdisciplinary Review of Deep Learning Research and Its Relevance for Water Resources Scientists",
+    "year": 2018,
+    "venue": "Water Resources Research",
+    "abstract": "Abstract Deep learning (DL), a new generation of artificial neural network research, has transformed industries, daily lives, and various scientific disciplines in recent years. DL represents significant progress in the ability of neural networks to automatically engineer problem‐relevant features and capture highly complex data distributions. I argue that DL can help address several major new and old challenges facing research in water sciences such as interdisciplinarity, data discoverability, hydrologic scaling, equifinality, and needs for parameter regionalization. This review paper is intended to provide water resources scientists and hydrologists in particular with a simple technical overview, transdisciplinary progress update, and a source of inspiration about the relevance of DL to water. The review reveals that various physical and geoscientific disciplines have"
+  }
+]

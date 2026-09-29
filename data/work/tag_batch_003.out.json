@@ -1,0 +1,222 @@
+[
+  {
+    "paper_id": "arxiv:2405.20869",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "Given the rise of machine learning workloads and collective communication in modern datacenters, we specifically focus on their typical communication patterns, namely uniform-residual demand matrices.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "arxiv:2605.12766",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "In this paper, we present Bridge, a reconfiguration strategy for important collective communication primitives used in AI/ML and HPC applications, namely All-to-All, AllReduce, Reduce-Scatter, and AllGather.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "arxiv:2603.28096",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "The rapid scaling of large language models (LLMs) exacerbates communication bottlenecks in AI data centers (AIDCs).",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "arxiv:2302.13113",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "Datacenter networks are becoming increasingly flexible with the incorporation of new networking technologies, such as optical circuit switches.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W2002555923",
+    "tech_route": "lcos",
+    "tech_route_secondary": null,
+    "integration": "free_space_bulk",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "This hybrid network uses a standard electrical packet switch and an optical circuit-switched architecture based on a wavelength-selective switch that has a measured mean port-to-port network reconfiguration time of 11.5$\\mu{\\rm s}$including the signal acquisition by the network interface card.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W2792328579",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "To realize the full potential of optical switches, such as scalability and cost effectiveness, we analyze the role of large-scale optical circuit switches and discuss the realization technologies that combine the two dimensions of space and wavelength.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W4386365418",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "production",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "We describe our experience developing what we believe to be the world's first large-scale production deployments of lightwave fabrics used for both datacenter networking and machine-learning (ML) applications.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W823246061",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "We propose to augment the electrical switch architecture with an optical circuit-switched network.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W3164101439",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "In this tutorial paper, we overview high-port-count optical circuit switch architectures for future intra-datacenter networks and discuss their characteristics.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2008366783",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "This article surveys recent work in optical switching technologies and presents a fast optical circuit switch that intimately integrates the control electrics at the chip level using a novel wafer-scale heterogeneous integration technique.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2316851065",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "evidence_span": "In this paper, we propose a routing framework for bulk data transfer in optical circuit-switched networks with assistive storage.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W2909415593",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "In this paper, we overview recently developed optical circuit switch architecture based on two-dimensional switches, i.e., space switches and wavelength-routing switches.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W3129609980",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "Meanwhile, optical circuit switches (OCS) are gradually applied to provide high data rate with low power consumption.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W2807655209",
+    "tech_route": "other",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "In this paper, we propose a novel optical-circuit-switch architecture that uses n × N uniformloss and cyclic-frequency (ULCF) arrayed-waveguide gratings (AWGs) as low-loss wavelength routers.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W4377082743",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "production",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "In this paper, we describe Apollo, to the best of our knowledge, the world’s first large-scale production deployment of optical circuit switches (OCSes) for datacenter networking.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2319613051",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "We propose Optical Circuit Switching for dynamically creating reconfigurable partitions in large-scale systems with Dragonfly networks.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W2151668565",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "As faster switch technologies become available, designing a control plane capable of supporting them becomes a key challenge.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W2164698118",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "The FP7 European Project LIGHTNESS foresees extending the capabilities of today's electrical DCNs through the introduction of optical packet switching and optical circuit switching paradigms, realizing together an advanced and highly scalable DCN architecture for ultra-high-bandwidth and low-latency server-to-server interconnection.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W3089161534",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "Nowadays, optical circuit switching is becoming an increasingly favored technology in scaling data center networks for its definitive advantages in data rate, power consumption, and device cost.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W2885686227",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "Meanwhile, optical circuit switches (OCS) are increasingly deployed in data centers due to the superiority in hardware, such as high bandwidth and low energy consumption.",
+    "confidence": "high"
+  }
+]

@@ -1,0 +1,202 @@
+[
+  {
+    "record_key": "openalex:W3007303655",
+    "source": "arxiv_via_openalex",
+    "title": "A^3: Accelerating Attention Mechanisms in Neural Networks with Approximation",
+    "year": 2020,
+    "venue": null,
+    "abstract": "With the increasing computational demands of the neural networks, many hardware accelerators for the neural networks have been proposed. Such existing neural network accelerators often focus on popular neural network types such as convolutional neural networks (CNNs) and recurrent neural networks (RNNs); however, not much attention has been paid to attention mechanisms, an emerging neural network primitive that enables neural networks to retrieve most relevant information from a knowledge-base, external memory, or past states. The attention mechanism is widely adopted by many state-of-the-art neural networks for computer vision, natural language processing, and machine translation, and accounts for a large portion of total execution time. We observe today's practice of implementing this mechanism using matrix-vector multiplication is suboptimal as the attention"
+  },
+  {
+    "record_key": "openalex:W3041090558",
+    "source": "arxiv_via_openalex",
+    "title": "Hardware Implementation of Deep Network Accelerators Towards Healthcare and Biomedical Applications",
+    "year": 2020,
+    "venue": "IEEE Transactions on Biomedical Circuits and Systems",
+    "abstract": "The advent of dedicated Deep Learning (DL) accelerators and neuromorphic processors has brought on new opportunities for applying both Deep and Spiking Neural Network (SNN) algorithms to healthcare and biomedical applications at the edge. This can facilitate the advancement of medical Internet of Things (IoT) systems and Point of Care (PoC) devices. In this paper, we provide a tutorial describing how various technologies including emerging memristive devices, Field Programmable Gate Arrays (FPGAs), and Complementary Metal Oxide Semiconductor (CMOS) can be used to develop efficient DL accelerators to solve a wide variety of diagnostic, pattern recognition, and signal processing problems in healthcare. Furthermore, we explore how spiking neuromorphic processors can complement their DL counterparts for processing biomedical signals. The tutorial is"
+  },
+  {
+    "record_key": "openalex:W4297076413",
+    "source": "arxiv_via_openalex",
+    "title": "In-Datacenter Performance Analysis of a Tensor Processing Unit",
+    "year": 2017,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "Many architects believe that major improvements in cost-energy-performance must now come from domain-specific hardware. This paper evaluates a custom ASIC---called a Tensor Processing Unit (TPU)---deployed in datacenters since 2015 that accelerates the inference phase of neural networks (NN). The heart of the TPU is a 65,536 8-bit MAC matrix multiply unit that offers a peak throughput of 92 TeraOps/second (TOPS) and a large (28 MiB) software-managed on-chip memory. The TPU's deterministic execution model is a better match to the 99th-percentile response-time requirement of our NN applications than are the time-varying optimizations of CPUs and GPUs (caches, out-of-order execution, multithreading, multiprocessing, prefetching, ...) that help average throughput more than guaranteed latency. The lack of such features helps explain why, despite having"
+  },
+  {
+    "record_key": "openalex:W4317437673",
+    "source": "arxiv_via_openalex",
+    "title": "Dynamic Demand-Aware Link Scheduling for Reconfigurable Datacenters",
+    "year": 2023,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "Emerging reconfigurable datacenters allow to dynamically adjust the network topology in a demand-aware manner. These datacenters rely on optical switches which can be reconfigured to provide direct connectivity between racks, in the form of edge-disjoint matchings. While state-of-the-art optical switches in principle support microsecond reconfigurations, the demand-aware topology optimization constitutes a bottleneck. This paper proposes a dynamic algorithms approach to improve the performance of reconfigurable datacenter networks, by supporting faster reactions to changes in the traffic demand. This approach leverages the temporal locality of traffic patterns in order to update the interconnecting matchings incrementally, rather than recomputing them from scratch. In particular, we present six (batch-)dynamic algorithms and compare them to static ones. We conduct an extensive empirical evaluation on"
+  },
+  {
+    "record_key": "openalex:W2782679512",
+    "source": "arxiv_via_openalex",
+    "title": "Inter-Thread Communication in Multithreaded, Reconfigurable Coarse-Grain Arrays",
+    "year": 2018,
+    "venue": null,
+    "abstract": "Traditional von Neumann GPGPUs only allow threads to communicate through memory on a group-to-group basis. In this model, a group of producer threads writes intermediate values to memory, which are read by a group of consumer threads after a barrier synchronization. To alleviate the memory bandwidth imposed by this method of communication, GPGPUs provide a small scratchpad memory that prevents intermediate values from overloading DRAM bandwidth. In this paper we introduce direct inter-thread communications for massively multithreaded CGRAs, where intermediate values are communicated directly through the compute fabric on a point-to-point basis. This method avoids the need to write values to memory, eliminates the need for a dedicated scratchpad, and avoids workgroup global barriers. We introduce our proposed extensions to"
+  },
+  {
+    "record_key": "openalex:W4399912755",
+    "source": "arxiv_via_openalex",
+    "title": "D3: An Adaptive Reconfigurable Datacenter Network",
+    "year": 2024,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "The explosively growing communication traffic in datacenters imposes increasingly stringent performance requirements on the underlying networks. Over the last years, researchers have developed innovative optical switching technologies that enable reconfigurable datacenter networks (RCDNs) which support very fast topology reconfigurations. This paper presents D3, a novel and feasible RDCN architecture that improves throughput and flow completion time. D3 quickly and jointly adapts its links and packet scheduling toward the evolving demand, combining both demand-oblivious and demand-aware behaviors when needed. D3 relies on a decentralized network control plane supporting greedy, integrated-multihop, IP-based routing, allowing to react, quickly and locally, to topological changes without overheads. A rack-local synchronization and transport layer further support fast network adjustments. Moreover, we argue that D3 can be"
+  },
+  {
+    "record_key": "openalex:W4399317831",
+    "source": "arxiv_via_openalex",
+    "title": "Understanding the Throughput Bounds of Reconfigurable Datacenter Networks",
+    "year": 2024,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "The increasing gap between the growth of datacenter traffic volume and the capacity of electrical switches led to the emergence of reconfigurable datacenter network designs based on optical circuit switching. A multitude of research works, ranging from demand-oblivious (e.g., RotorNet, Sirius) to demand-aware (e.g., Helios, ProjecToR) reconfigurable networks, demonstrate significant performance benefits. Unfortunately, little is formally known about the achievable throughput of such networks. Only recently have the throughput bounds of demand-oblivious networks been studied. In this paper, we tackle a fundamental question: Whether and to what extent can demand-aware reconfigurable networks improve the throughput of datacenters? This paper attempts to understand the landscape of the throughput bounds of reconfigurable datacenter networks. Given the rise of machine learning workloads and"
+  },
+  {
+    "record_key": "openalex:W3093766311",
+    "source": "arxiv_via_openalex",
+    "title": "From Federated to Fog Learning: Distributed Machine Learning over Heterogeneous Wireless Networks",
+    "year": 2020,
+    "venue": "IEEE Communications Magazine",
+    "abstract": "Machine learning (ML) tasks are becoming ubiquitous in today's network applications. Federated learning has emerged recently as a technique for training ML models at the network edge by leveraging processing capabilities across the nodes that collect the data. There are several challenges with employing conventional federated learning in contemporary networks, due to the significant heterogeneity in compute and communication capabilities that exist across devices. To address this, we advocate a new learning paradigm called fog learning, which will intelligently distribute ML model training across the continuum of nodes from edge devices to cloud servers. Fog learning enhances federated learning along three major dimensions: network, heterogeneity, and proximity. It considers a multi-layer hybrid learning framework consisting of heterogeneous devices with various"
+  },
+  {
+    "record_key": "openalex:W3108426037",
+    "source": "arxiv_via_openalex",
+    "title": "Hardware and Software Optimizations for Accelerating Deep Neural Networks: Survey of Current Trends, Challenges, and the Road Ahead",
+    "year": 2020,
+    "venue": "IEEE Access",
+    "abstract": "Currently, Machine Learning (ML) is becoming ubiquitous in everyday life. Deep Learning (DL) is already present in many applications ranging from computer vision for medicine to autonomous driving of modern cars as well as other sectors in security, healthcare, and finance. However, to achieve impressive performance, these algorithms employ very deep networks, requiring a significant computational power, both during the training and inference time. A single inference of a DL model may require billions of multiply-and-accumulated operations, making the DL extremely compute- and energy-hungry. In a scenario where several sophisticated algorithms need to be executed with limited energy and low latency, the need for cost-effective hardware platforms capable of implementing energy-efficient DL execution arises. This paper first introduces the key"
+  },
+  {
+    "record_key": "openalex:W4391835825",
+    "source": "arxiv_via_openalex",
+    "title": "Integrated Topology and Traffic Engineering for Reconfigurable Datacenter Networks",
+    "year": 2024,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "The state-of-the-art topologies of datacenter networks are fixed, based on electrical switching technology, and by now, we understand their throughput and cost well. For the past years, researchers have been developing novel optical switching technologies that enable the emergence of reconfigurable datacenter networks (RDCNs) that support dynamic psychical topologies. The art of network design of dynamic topologies, i.e., 'Topology Engineering,' is still in its infancy. Different designs offer distinct advantages, such as faster switch reconfiguration times or demand-aware topologies, and to date, it is yet unclear what design maximizes the throughput. This paper aims to improve our analytical understanding and formally studies the throughput of reconfigurable networks by presenting a general and unifying model for dynamic networks and their topology"
+  },
+  {
+    "record_key": "openalex:W3034286545",
+    "source": "arxiv_via_openalex",
+    "title": "F4Tele: FSO for data center network management and packet telemetry",
+    "year": 2020,
+    "venue": "Computer Networks",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W4281805071",
+    "source": "arxiv_via_openalex",
+    "title": "Deep Learning Workload Scheduling in GPU Datacenters: Taxonomy, Challenges and Vision",
+    "year": 2022,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "Deep learning (DL) shows its prosperity in a wide variety of fields. The development of a DL model is a time-consuming and resource-intensive procedure. Hence, dedicated GPU accelerators have been collectively constructed into a GPU datacenter. An efficient scheduler design for such GPU datacenter is crucially important to reduce the operational cost and improve resource utilization. However, traditional approaches designed for big data or high performance computing workloads can not support DL workloads to fully utilize the GPU resources. Recently, substantial schedulers are proposed to tailor for DL workloads in GPU datacenters. This paper surveys existing research efforts for both training and inference workloads. We primarily present how existing schedulers facilitate the respective workloads from the scheduling objectives and resource"
+  },
+  {
+    "record_key": "openalex:W2806666179",
+    "source": "arxiv_via_openalex",
+    "title": "GANAX: A Unified MIMD-SIMD Acceleration for Generative Adversarial Networks",
+    "year": 2018,
+    "venue": null,
+    "abstract": "Generative Adversarial Networks (GANs) are one of the most recent deep learning models that generate synthetic data from limited genuine datasets. GANs are on the frontier as further extension of deep learning into many domains (e.g., medicine, robotics, content synthesis) requires massive sets of labeled data that is generally either unavailable or prohibitively costly to collect. Although GANs are gaining prominence in various fields, there are no accelerators for these new models. In fact, GANs leverage a new operator, called transposed convolution, that exposes unique challenges for hardware acceleration. This operator first inserts zeros within the multidimensional input, then convolves a kernel over this expanded array to add information to the embedded zeros. Even though there is a convolution stage"
+  },
+  {
+    "record_key": "openalex:W4221161683",
+    "source": "arxiv_via_openalex",
+    "title": "Self-Adjusting Ego-Trees Topology for Reconfigurable Datacenter Networks",
+    "year": 2022,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "State-of-the-art topologies for datacenters (DC) and high-performance computing (HPC) networks are demand-oblivious and static. Therefore, such network topologies are optimized for the worst-case traffic scenarios and can't take advantage of changing demand patterns when such exist. However, recent optical switching technologies enable the concept of dynamically reconfiguring circuit-switched topologies in real-time. This capability opens the door for the design of self-adjusting networks: networks with demand-aware and dynamic topologies in which links between nodes can be established and re-adjusted online and respond to evolving traffic patterns. This paper studies a recently proposed model for optical leaf-spine reconfigurable networks. We present a novel algorithm, GreedyEgoTrees, that dynamically changes the network topology. The algorithm greedily builds ego trees for nodes in the network,"
+  },
+  {
+    "record_key": "openalex:W2884288768",
+    "source": "arxiv_via_openalex",
+    "title": "DLA: Compiler and FPGA Overlay for Neural Network Inference Acceleration",
+    "year": 2018,
+    "venue": null,
+    "abstract": "Overlays have shown significant promise for field-programmable gate-arrays (FPGAs) as they allow for fast development cycles and remove many of the challenges of the traditional FPGA hardware design flow. However, this often comes with a significant performance burden resulting in very little adoption of overlays for practical applications. In this paper, we tailor an overlay to a specific application domain, and we show how we maintain its full programmability without paying for the performance overhead traditionally associated with overlays. Specifically, we introduce an overlay targeted for deep neural network inference with only ~1% overhead to support the control and reprogramming logic using a lightweight very-long instruction word (VLIW) network. Additionally, we implement a sophisticated domain specific graph compiler that compiles"
+  },
+  {
+    "record_key": "openalex:W3090302053",
+    "source": "arxiv_via_openalex",
+    "title": "CARLA: A Convolution Accelerator With a Reconfigurable and Low-Energy Architecture",
+    "year": 2021,
+    "venue": "IEEE Transactions on Circuits and Systems I Regular Papers",
+    "abstract": "Convolutional Neural Networks (CNNs) have proven to be extremely accurate for image recognition, even outperforming human recognition capability. When deployed on battery-powered mobile devices, efficient computer architectures are required to enable fast and energy-efficient computation of costly convolution operations. Despite recent advances in hardware accelerator design for CNNs, two major problems have not yet been addressed effectively, particularly when the convolution layers have highly diverse structures: (1) minimizing energy-hungry off-chip DRAM data movements; (2) maximizing the utilization factor of processing resources to perform convolutions. This work thus proposes an energy-efficient architecture equipped with several optimized dataflows to support the structural diversity of modern CNNs. The proposed approach is evaluated on convolutional layers of VGGNet-16 and ResNet-50. Results show that the"
+  },
+  {
+    "record_key": "openalex:W2926903444",
+    "source": "arxiv_via_openalex",
+    "title": "A Survey on Data Plane Flexibility and Programmability in Software-Defined Networking",
+    "year": 2019,
+    "venue": "IEEE Access",
+    "abstract": "Software-defined networking (SDN) has attracted the attention of the research community in recent years, as evidenced by a large number of survey and review papers. The architecture of SDN clearly recognizes three planes: application, control, and data planes. The application plane executes network applications, the control plane regulates the rules for the entire network based on the requests generated by network applications, and based on the set rules, the controller configures the switches in the data plane. The role of the switch in the data plane is to simply forward packets based on the instructions given by the controller. By analyzing the SDN-related research papers, it is observed that research, from the very beginning, is insufficiently focused on the data"
+  },
+  {
+    "record_key": "openalex:W2996075766",
+    "source": "arxiv_via_openalex",
+    "title": "A Survey on Distributed Machine Learning",
+    "year": 2020,
+    "venue": "ACM Computing Surveys",
+    "abstract": "The demand for artificial intelligence has grown significantly over the past decade, and this growth has been fueled by advances in machine learning techniques and the ability to leverage hardware acceleration. However, to increase the quality of predictions and render machine learning solutions feasible for more complex applications, a substantial amount of training data is required. Although small machine learning models can be trained with modest amounts of data, the input for training larger models such as neural networks grows exponentially with the number of parameters. Since the demand for processing training data has outpaced the increase in computation power of computing machinery, there is a need for distributing the machine learning workload across multiple machines, and turning the centralized"
+  },
+  {
+    "record_key": "openalex:W3039376411",
+    "source": "arxiv_via_openalex",
+    "title": "Secret Sharing MPC on FPGAs in the Datacenter",
+    "year": 2020,
+    "venue": null,
+    "abstract": "Multi-Party Computation (MPC) is a technique enabling data from several sources to be used in a secure computation revealing only the result while protecting the original data, facilitating shared utilization of data sets gathered by different entities. The presence of Field Programmable Gate Array (FPGA) hardware in datacenters can provide accelerated computing as well as low latency, high bandwidth communication that bolsters the performance of MPC and lowers the barrier to using MPC for many applications. In this work, we propose a Secret Sharing FPGA design based on the protocol described by Araki et al. We compare our hardware design to the original authors' software implementations of Secret Sharing and to work accelerating MPC protocols based on Garbled Circuits with"
+  },
+  {
+    "record_key": "openalex:W2972799440",
+    "source": "arxiv_via_openalex",
+    "title": "Unrolling Ternary Neural Networks",
+    "year": 2019,
+    "venue": "ACM Transactions on Reconfigurable Technology and Systems",
+    "abstract": "The computational complexity of neural networks for large-scale or real-time applications necessitates hardware acceleration. Most approaches assume that the network architecture and parameters are unknown at design time, permitting usage in a large number of applications. This article demonstrates, for the case where the neural network architecture and ternary weight values are known a priori , that extremely high throughput implementations of neural network inference can be made by customising the datapath and routing to remove unnecessary computations and data movement. This approach is ideally suited to FPGA implementations as a specialized implementation of a trained network improves efficiency while still retaining generality with the reconfigurability of an FPGA. A VGG-style network with ternary weights and fixed point activations is"
+  },
+  {
+    "record_key": "openalex:W3201951111",
+    "source": "arxiv_via_openalex",
+    "title": "Google Neural Network Models for Edge Devices: Analyzing and Mitigating Machine Learning Inference Bottlenecks",
+    "year": 2021,
+    "venue": null,
+    "abstract": "Emerging edge computing platforms often contain machine learning (ML) accelerators that can accelerate inference for a wide range of neural network (NN) models. These models are designed to fit within the limited area and energy constraints of the edge computing platforms, each targeting various applications (e.g., face detection, speech recognition, translation, image captioning, video analytics). To understand how edge ML accelerators perform, we characterize the performance of a commercial Google Edge TPU, using 24 Google edge NN models (which span a wide range of NN model types) and analyzing each NN layer within each model. We find that the Edge TPU suffers from three major shortcomings: (1) it operates significantly below peak computational throughput, (2) it operates significantly below its"
+  },
+  {
+    "record_key": "openalex:W4286857867",
+    "source": "arxiv_via_openalex",
+    "title": "Optimal Oblivious Reconfigurable Networks",
+    "year": 2021,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "Oblivious routing has a long history in both the theory and practice of networking. In this work we initiate the formal study of oblivious routing in the context of reconfigurable networks, a new architecture that has recently come to the fore in datacenter networking. These networks allow a rapidly changing bounded-degree pattern of interconnections between nodes, but the network topology and the selection of routing paths must both be oblivious to the traffic demand matrix. Our focus is on the trade-off between maximizing throughput and minimizing latency in these networks. For every constant throughput rate, we characterize (up to a constant factor) the minimum latency achievable by an oblivious reconfigurable network design that satisfies the given throughput guarantee. The trade-off"
+  },
+  {
+    "record_key": "openalex:W3085725209",
+    "source": "arxiv_via_openalex",
+    "title": "DANCE: Differentiable Accelerator/Network Co-Exploration",
+    "year": 2021,
+    "venue": null,
+    "abstract": "This work presents DANCE, a differentiable approach towards the co-exploration of hardware accelerator and network architecture design. At the heart of DANCE is a differentiable evaluator network. By modeling the hardware evaluation software with a neural network, the relation between the accelerator design and the hardware metrics becomes differentiable, allowing the search to be performed with backpropagation. Compared to the naive existing approaches, our method performs co-exploration in a significantly shorter time, while achieving superior accuracy and hardware cost metrics."
+  },
+  {
+    "record_key": "openalex:W4221166306",
+    "source": "arxiv_via_openalex",
+    "title": "Treehouse: A Case For Carbon-Aware Datacenter Software",
+    "year": 2022,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "The end of Dennard scaling and the slowing of Moore's Law has put the energy use of datacenters on an unsustainable path. Datacenters are already a significant fraction of worldwide electricity use, with application demand scaling at a rapid rate. We argue that substantial reductions in the carbon intensity of datacenter computing are possible with a software-centric approach: by making energy and carbon visible to application developers on a fine-grained basis, by modifying system APIs to make it possible to make informed trade offs between performance and carbon emissions, and by raising the level of application programming to allow for flexible use of more energy efficient means of compute and storage. We also lay out a research agenda for systems"
+  },
+  {
+    "record_key": "openalex:W2967037585",
+    "source": "arxiv_via_openalex",
+    "title": "Digital Biologically Plausible Implementation of Binarized Neural Networks With Differential Hafnium Oxide Resistive Memory Arrays",
+    "year": 2020,
+    "venue": "Frontiers in Neuroscience",
+    "abstract": "The brain performs intelligent tasks with extremely low energy consumption. This work takes its inspiration from two strategies used by the brain to achieve this energy efficiency: the absence of separation between computing and memory functions and reliance on low-precision computation. The emergence of resistive memory technologies indeed provides an opportunity to tightly co-integrate logic and memory in hardware. In parallel, the recently proposed concept of a Binarized Neural Network, where multiplications are replaced by exclusive NOR (XNOR) logic gates, offers a way to implement artificial intelligence using very low precision computation. In this work, we therefore propose a strategy for implementing low-energy Binarized Neural Networks that employs brain-inspired concepts while retaining the energy benefits of digital electronics. We design,"
+  }
+]

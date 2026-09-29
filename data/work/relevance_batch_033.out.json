@@ -1,0 +1,152 @@
+[
+  {
+    "record_key": "openalex:W2156838963",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Twisted torus interconnect topology for parallel computers, electronic."
+  },
+  {
+    "record_key": "openalex:W2169731856",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Lattice graph interconnection topologies for supercomputers, electronic."
+  },
+  {
+    "record_key": "openalex:W2898781725",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Title-only warehouse-scale computing textbook, no switching content."
+  },
+  {
+    "record_key": "openalex:W3007855629",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Global data center energy-use estimates, policy paper."
+  },
+  {
+    "record_key": "openalex:W3030163527",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "GPT-3 language model paper, unrelated to optical switching."
+  },
+  {
+    "record_key": "openalex:W202974634",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "TCP incast congestion control scheme, electronic transport layer."
+  },
+  {
+    "record_key": "openalex:W1516042705",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Fine-grained traffic engineering for electronic data center networks."
+  },
+  {
+    "record_key": "openalex:W1533565227",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Bipartite network flow approximation algorithm, no abstract, math paper."
+  },
+  {
+    "record_key": "openalex:W2017036528",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Proteus proposes an all-optical, topology-flexible data center architecture."
+  },
+  {
+    "record_key": "openalex:W2032146159",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Graph theory proof of Vizing's theorem, no abstract."
+  },
+  {
+    "record_key": "openalex:W2056394733",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "TCP incast congestion control (ICTCP), electronic transport layer."
+  },
+  {
+    "record_key": "openalex:W2083823757",
+    "score": 1,
+    "adjacent_field": "dc_network_systems",
+    "reason": "Reviews WDM optical interconnect bandwidth scaling for data centers, no switching."
+  },
+  {
+    "record_key": "openalex:W2097926925",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "c-Through proposes hybrid packet and optical circuit switched data center network."
+  },
+  {
+    "record_key": "openalex:W2105661057",
+    "score": 1,
+    "adjacent_field": "dc_network_systems",
+    "reason": "General review of fiber optic technology trends for datacenter networks."
+  },
+  {
+    "record_key": "openalex:W2112931687",
+    "score": 1,
+    "adjacent_field": "silicon_photonics",
+    "reason": "Measures latency of hybrid-integrated silicon optical interconnect, not a switch."
+  },
+  {
+    "record_key": "openalex:W2115412108",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "60 GHz wireless links to relieve data center hotspots, not optical."
+  },
+  {
+    "record_key": "openalex:W2123016589",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "PortLand, an electronic layer-2 data center fabric protocol."
+  },
+  {
+    "record_key": "openalex:W2126210439",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "BCube server-centric data center network architecture, electronic switches."
+  },
+  {
+    "record_key": "openalex:W2130531694",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Commodity Ethernet fat-tree data center network architecture, electronic."
+  },
+  {
+    "record_key": "openalex:W2133581580",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Fine-grained TCP retransmissions for datacenter incast, electronic transport."
+  },
+  {
+    "record_key": "openalex:W834513743",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Demonstrates a 32x32 non-blocking silicon thermo-optic Mach-Zehnder switch chip."
+  },
+  {
+    "record_key": "openalex:W1969024011",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Title-only laser-on-silicon progress review, not a switch."
+  },
+  {
+    "record_key": "openalex:W1982772673",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Reviews compact large-scale 3D MEMS optical crossconnect switches."
+  },
+  {
+    "record_key": "openalex:W1983164798",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Reviews silicon photonic switch fabric designs for data-intensive computing networks."
+  },
+  {
+    "record_key": "openalex:W1985329895",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Demonstrates a low-crosstalk 2x2 thermo-optic silicon waveguide switch."
+  }
+]

@@ -1,0 +1,202 @@
+[
+  {
+    "record_key": "openalex:W2606397457",
+    "source": "openalex",
+    "title": "Layer-dependent ferromagnetism in a van der Waals crystal down to the monolayer limit",
+    "year": 2017,
+    "venue": "Nature",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W2123325914",
+    "source": "openalex",
+    "title": "Fiber optical parametric amplifiers in optical communication systems",
+    "year": 2014,
+    "venue": "Laser & Photonics Review",
+    "abstract": "The prospects for using fiber optical parametric amplifiers (OPAs) in optical communication systems are reviewed. Phase-insensitive amplifiers (PIAs) and phase-sensitive amplifiers (PSAs) are considered. Low-penalty amplification at/or near 1 Tb/s has been achieved, for both wavelength- and time-division multiplexed formats. High-quality mid-span spectral inversion has been demonstrated at 0.64 Tb/s, avoiding electronic dispersion compensation. All-optical amplitude regeneration of amplitude-modulated signals has been performed, while PSAs have been used to demonstrate phase regeneration of phase-modulated signals. A PSA with 1.1-dB noise figure has been demonstrated, and preliminary wavelength-division multiplexing experiments have been performed with PSAs. 512 Gb/s have been transmitted over 6,000 km by periodic phase conjugation. Simulations indicate that PIAs could reach data rate x reach products in excess of"
+  },
+  {
+    "record_key": "openalex:W2611820546",
+    "source": "openalex",
+    "title": "Femtosecond optical polarization switching using a cadmium oxide-based perfect absorber",
+    "year": 2017,
+    "venue": "Nature Photonics",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W2964101383",
+    "source": "openalex",
+    "title": "An Overview on Application of Machine Learning Techniques in Optical Networks",
+    "year": 2018,
+    "venue": "IEEE Communications Surveys & Tutorials",
+    "abstract": "Today's telecommunication networks have become sources of enormous amounts of widely heterogeneous data. This information can be retrieved from network traffic traces, network alarms, signal quality indicators, users' behavioral data, etc. Advanced mathematical tools are required to extract meaningful information from these data and take decisions pertaining to the proper functioning of the networks from the network-generated data. Among these mathematical tools, machine learning (ML) is regarded as one of the most promising methodological approaches to perform network-data analysis and enable automated network self-configuration and fault management. The adoption of ML techniques in the field of optical communication networks is motivated by the unprecedented growth of network complexity faced by optical networks in the last few years. Such complexity increase"
+  },
+  {
+    "record_key": "openalex:W2022337631",
+    "source": "openalex",
+    "title": "Power consumption evaluation of all-optical data center networks",
+    "year": 2012,
+    "venue": "Cluster Computing",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W2740863397",
+    "source": "openalex",
+    "title": "Beam switching and bifocal zoom lensing using active plasmonic metasurfaces",
+    "year": 2017,
+    "venue": "Light Science & Applications",
+    "abstract": "Compact nanophotonic elements exhibiting adaptable properties are essential components for the miniaturization of powerful optical technologies such as adaptive optics and spatial light modulators. While the larger counterparts typically rely on mechanical actuation, this can be undesirable in some cases on a microscopic scale due to inherent space restrictions. Here, we present a novel design concept for highly integrated active optical components that employs a combination of resonant plasmonic metasurfaces and the phase-change material Ge3Sb2Te6. In particular, we demonstrate beam switching and bifocal lensing, thus, paving the way for a plethora of active optical elements employing plasmonic metasurfaces, which follow the same design principles. Plasmonic metasurfaces employing a phase-change material have yielded highly compact devices for switching and focusing light"
+  },
+  {
+    "record_key": "openalex:W1511582391",
+    "source": "openalex",
+    "title": "Optical frequency comb technology for ultra‐broadband radio‐frequency photonics",
+    "year": 2013,
+    "venue": "Laser & Photonics Review",
+    "abstract": "Abstract The outstanding phase‐noise performance of optical frequency combs has led to a revolution in optical synthesis and metrology, covering a myriad of applications, from molecular spectroscopy to laser ranging and optical communications. However, the ideal characteristics of an optical frequency comb are application dependent. In this review, the different techniques for the generation and processing of high‐repetition‐rate (>10 GHz) optical frequency combs with technologies compatible with optical communication equipment are covered. Particular emphasis is put on the benefits and prospects of this technology in the general field of radio‐frequency photonics, including applications in high‐performance microwave photonic filtering, ultra‐broadband coherent communications, and radio‐frequency arbitrary waveform generation."
+  },
+  {
+    "record_key": "openalex:W1970948459",
+    "source": "openalex",
+    "title": "Gaussian quantum information",
+    "year": 2012,
+    "venue": "Reviews of Modern Physics",
+    "abstract": "The science of quantum information has arisen over the last two decades centered on the manipulation of individual quanta of information, known as quantum bits or qubits. Quantum computers, quantum cryptography, and quantum teleportation are among the most celebrated ideas that have emerged from this new field. It was realized later on that using continuous-variable quantum information carriers, instead of qubits, constitutes an extremely powerful alternative approach to quantum information processing. This review focuses on continuous-variable quantum information processes that rely on any combination of Gaussian states, Gaussian operations, and Gaussian measurements. Interestingly, such a restriction to the Gaussian realm comes with various benefits, since on the theoretical side, simple analytical tools are available and, on the experimental side, optical"
+  },
+  {
+    "record_key": "openalex:W2945952437",
+    "source": "openalex",
+    "title": "Recent progress of study on optical solitons in fiber lasers",
+    "year": 2019,
+    "venue": "Applied Physics Reviews",
+    "abstract": "Solitons are stable localized wave packets that can propagate long distance in dispersive media without changing their shapes. As particle-like nonlinear localized waves, solitons have been investigated in different physical systems. Owing to potential applications in optical communication and optical signal processing systems, optical solitons have attracted intense interest in the past three decades. To experimentally study the formation and dynamics of temporal optical solitons, fiber lasers are considered as a wonderful nonlinear system. During the last decade, several kinds of theoretically predicted solitons were observed experimentally in fiber lasers. In this review, we present a detailed overview of the experimentally verified optical solitons in fiber lasers, including bright solitons, dark solitons, vector solitons, dissipative solitons, dispersion-managed solitons, polarization domain"
+  },
+  {
+    "record_key": "openalex:W2064033006",
+    "source": "openalex",
+    "title": "Hundred-Picoseconds Electro-Optical Switching With Semiconductor Optical Amplifiers Using Multi-Impulse Step Injection Current",
+    "year": 2014,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "An ultrafast electro-optical amplified switch based on chip-on-carrier semiconductor optical amplifier with high optical contrast (33 dB) is presented. Switching times up to 115 ps with small overshoot were achieved by using the multi-impulse step injected current technique. These results are compared with previous preimpulse step injected current technique, and achieve a reduction of the inherent, post switching gain fluctuations without worsening the switching times. In addition, pulse formats for controlling such a kind of electro-optical switches are numerically analyzed and compared with experiments."
+  },
+  {
+    "record_key": "openalex:W4386069567",
+    "source": "openalex",
+    "title": "A Review of High-Power Semiconductor Optical Amplifiers in the 1550 nm Band",
+    "year": 2023,
+    "venue": "Sensors",
+    "abstract": "The 1550 nm band semiconductor optical amplifier (SOA) has great potential for applications such as optical communication. Its wide-gain bandwidth is helpful in expanding the bandwidth resources of optical communication, thereby increasing total capacity transmitted over the fiber. Its relatively low cost and ease of integration also make it a high-performance amplifier of choice for LiDAR applications. In recent years, with the rapid development of quantum-well (QW) material systems, SOAs have gradually overcome the shortcomings of polarization sensitivity and high noise. The research on quantum-dot (QD) materials has further improved the noise characteristics and transmission loss of SOAs. The design of special waveguide structures-such as plate-coupled optical waveguide amplifiers and tapered amplifiers-has also increased the saturation output power of SOAs."
+  },
+  {
+    "record_key": "openalex:W2000215674",
+    "source": "openalex",
+    "title": "A Survey on OFDM-Based Elastic Core Optical Networking",
+    "year": 2012,
+    "venue": "IEEE Communications Surveys & Tutorials",
+    "abstract": "Orthogonal frequency-division multiplexing (OFDM) is a modulation technology that has been widely adopted in many new and emerging broadband wireless and wireline communication systems. Due to its capability to transmit a high-speed data stream using multiple spectral-overlapped lower-speed subcarriers, OFDM technology offers superior advantages of high spectrum efficiency, robustness against inter-carrier and inter-symbol interference, adaptability to server channel conditions, etc. In recent years, there have been intensive studies on optical OFDM (O-OFDM) transmission technologies, and it is considered a promising technology for future ultra-high-speed optical transmission. Based on O-OFDM technology, a novel elastic optical network architecture with immense flexibility and scalability in spectrum allocation and data rate accommodation could be built to support diverse services and the rapid growth of"
+  },
+  {
+    "record_key": "openalex:W2963664010",
+    "source": "openalex",
+    "title": "Yb- and Er-doped fiber laser Q-switched with an optically uniform, broadband WS2 saturable absorber",
+    "year": 2015,
+    "venue": "Scientific Reports",
+    "abstract": "We demonstrate a ytterbium (Yb) and an erbium (Er)-doped fiber laser Q-switched by a solution processed, optically uniform, few-layer tungsten disulfide saturable absorber (WS2-SA). Nonlinear optical absorption of the WS2-SA in the sub-bandgap region, attributed to the edge-induced states, is characterized by 3.1% and 4.9% modulation depths with 1.38 and 3.83 MW/cm(2) saturation intensities at 1030 and 1558 nm, respectively. By integrating the optically uniform WS2-SA in the Yb- and Er-doped laser cavities, we obtain self-starting Q-switched pulses with microsecond duration and kilohertz repetition rates at 1030 and 1558 nm. Our work demonstrates broadband sub-bandgap saturable absorption of a single, solution processed WS2-SA, providing new potential efficacy for WS2 in ultrafast photonic applications."
+  },
+  {
+    "record_key": "openalex:W2947426653",
+    "source": "openalex",
+    "title": "Semiconductor infrared plasmonics",
+    "year": 2018,
+    "venue": "Nanophotonics",
+    "abstract": "Abstract The coupling between light and collective oscillations of free carriers at metallic surfaces and nanostructures is at the origin of one of the main fields of nanophotonics: plasmonics. The potential applications offered by plasmonics range from biosensing to solar cell technologies and from nonlinear optics at the nanoscale to light harvesting and extraction in nanophotonic devices. Heavily doped semiconductors are particularly appealing for the infrared spectral window due to their compatibility with microelectronic technologies, which paves the way toward their integration in low‐cost, mass‐fabricated devices. In addition, their plasma frequency can be tuned chemically, optically, or electrically over a broad spectral range. This review covers the optical properties of the heavily doped conventional semiconductors such as Ge, Si, or"
+  },
+  {
+    "record_key": "openalex:W1989361652",
+    "source": "openalex",
+    "title": "Scalable and Distributed Contention Resolution in AWGR-Based Data Center Switches Using RSOA-Based Optical Mutual Exclusion",
+    "year": 2012,
+    "venue": "IEEE Journal of Selected Topics in Quantum Electronics",
+    "abstract": "We describe a mutual exclusion element using a reflective semiconductor optical amplifier (RSOA) and a simple scheme for contention resolution in arrayed waveguide grating router (AWGR)-based optical switches in data centers. We describe a hardware demonstration and detailed performance analysis of an AWGR-based optical switch based on the proposed concept. We show that the proposed RSOA-based contention resolution significantly reduces latency compared to existing methods and that it does not require any global or centralized coordination, which makes it inherently scalable and suitable for emerging data center networks."
+  },
+  {
+    "record_key": "openalex:W2537188330",
+    "source": "openalex",
+    "title": "Sensitivity Improvement in 100 Gb/s-per-Wavelength Links Using Semiconductor Optical Amplifiers or Avalanche Photodiodes",
+    "year": 2016,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "Intra-data-center links are scaling to 100 Gb/s per wavelength using four-level pulse-amplitude modulation (4-PAM) and direct detection, but a restrictive link budget makes it difficult to support wavelength-division multiplexing or optical circuit switching. We investigate receiver sensitivity improvements achievable using semiconductor optical amplifiers (SOAs) or avalanche photodiodes (APDs). We analyze and simulate the impact of modulator bandwidth limitations and chirp, fiber dispersion, transient SOA gain saturation, excess shot noise, and intersymbol interference caused by the APD. Using the 4-PAM and linear equalization, an SOA with 20-dB fiber-to-fiber gain and 6-dB noise figure can improve the receiver sensitivity up to 6 dB over a thermal noise-limited receiver, whereas an APD with kA= 0.18 and responsivity R = 0.74 A/W provides 4.5-dB"
+  },
+  {
+    "record_key": "openalex:W2943206478",
+    "source": "openalex",
+    "title": "Bi-doped fiber amplifiers and lasers [Invited]",
+    "year": 2019,
+    "venue": "Optical Materials Express",
+    "abstract": "Bismuth (Bi) doped fibers have shown promising potential for lasers and amplifiers in the 1150-1500 nm and 1600-1800nm wavelength region. Bi-doped aluminosilicate, phosphosilicate and germanosilicate fibers provide luminescence around 1150 nm, 1300 nm and 1450 nm, respectively. Recent results have demonstrated the possibility to extend the Bi luminescence window beyond 1600 nm using Bi-doped high (≥ 50 mol %) germanosilicate fibers. These spectral regions can serve a wide range of applications in medicine, astronomy, defense and to extend the optical fiber communication. However, Bi-doped fiber lasers and amplifiers are still far from their optimum performance owing to the unclear nature of the near-infrared emitting Bi active centers. In this paper, we review the current state of the art of Bi-doped"
+  },
+  {
+    "record_key": "openalex:W3037248556",
+    "source": "openalex",
+    "title": "All-optical multifunctional AND, NOR, and XNOR logic gates using semiconductor optical amplifiers",
+    "year": 2020,
+    "venue": "Physica Scripta",
+    "abstract": "Abstract We theoretically analyze the performance of all-optical multifunctional AND, NOT-OR (NOR), and exclusive-NOR (XNOR) logic gates at 80 Gb s −1 using return-to-zero data format in a compact scheme based on semiconductor optical amplifiers (SOAs). The AND logic gate is formed by incorporating two SOAs in a Mach–Zehnder interferometer and the NOR logic gate is formed using a single SOA followed by a series delayed interferometer. Then an additional logic gate, XNOR, is realized by by the combination of the AND and NOR output logic channels. Therefore, three logic operations are performed using a compact scheme within few resources. The quality factor (QF) of the considered Boolean functions against the key operational parameters of the input data and SOA"
+  },
+  {
+    "record_key": "openalex:W2204265086",
+    "source": "openalex",
+    "title": "An effective magnetic field from optically driven phonons",
+    "year": 2016,
+    "venue": "Nature Physics",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W3027411045",
+    "source": "openalex",
+    "title": "Optical RAM and integrated optical memories: a survey",
+    "year": 2020,
+    "venue": "Light Science & Applications",
+    "abstract": "The remarkable achievements in the area of integrated optical memories and optical random access memories (RAMs) together with the rapid adoption of optical interconnects in the Datacom and Computercom industries introduce a new perspective for information storage directly in the optical domain, enabling fast access times, increased bandwidth and transparent cooperation with optical interconnect lines. This article reviews state-of-the-art integrated optical memory technologies and optical RAM cell demonstrations describing the physical mechanisms of several key devices along with their performance metrics in terms of their energy, speed and footprint. Novel applications are outlined, concluding with the scaling challenges to be addressed toward allowing light to serve as both a data-carrying and data-storage medium."
+  },
+  {
+    "record_key": "openalex:W2587610600",
+    "source": "openalex",
+    "title": "32 × 32 silicon electro-optic switch with built-in monitors and balanced-status units",
+    "year": 2017,
+    "venue": "Scientific Reports",
+    "abstract": "To construct large-scale silicon electro-optical switches for optical interconnections, we developed a method using a limited number of power monitors inserted at certain positions to detect and determine the optimum operating points of all switch units to eliminate non-uniform effects arising from fabrication errors. We also introduced an optical phase bias to one phase-shifter arm of a Mach-Zehnder interferometer (MZI)-type switch unit to balance the two operation statuses of a silicon electro-optical switch during push-pull operation. With these methods, a 32 × 32 MZI-based silicon electro-optical switch was successfully fabricated with 180-nm complementary metal-oxide-semiconductor (CMOS) process technology, which is the largest scale silicon electro-optical switch to the best of our knowledge. At a wavelength of 1520 nm, the on-chip insertion"
+  },
+  {
+    "record_key": "openalex:W3168038410",
+    "source": "openalex",
+    "title": "Low Power DSP-Based Transceivers for Data Center Optical Fiber Communications (Invited Tutorial)",
+    "year": 2021,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "In this tutorial, we discuss the evolution of the technology deployed for optical interconnects and the trade-offs in the design of low complexity, low power DSP and implementation for direct detect and coherent, pluggable optical modules for data center applications. The design trade-offs include the choice of modulation format, baud rate, optical link design, forward error correction, signal shaping and dispersion compensation."
+  },
+  {
+    "record_key": "openalex:W2428389675",
+    "source": "openalex",
+    "title": "Stokes solitons in optical microcavities",
+    "year": 2016,
+    "venue": "Nature Physics",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W2099489285",
+    "source": "openalex",
+    "title": "Optical computing with semiconductor optical amplifiers",
+    "year": 2012,
+    "venue": "Optical Engineering",
+    "abstract": "Increasing communication traffic and plans to increase various services may cause a serious problem towards the power consumption of network equipment. One of the causes of large power consumption in the present network is the multiplexing scheme, such as wavelength division multiplexing (WDM) and electrical routing of the packet signals. WDM requires O/E (optical to electrical) and E/O (electrical to optical) signal conversion circuits with the same number as that of wavelength, resulting in an increase in power consumption. In addition to this electrical signal processing for the IP packet, routing, and switching at the router consumes a large amount of power. If we could process ultrafast signals using electromagnetic light waves without converting to electrical signals, this would reduce"
+  },
+  {
+    "record_key": "openalex:W2904694042",
+    "source": "openalex",
+    "title": "Large-Scale Optical Neural Networks Based on Photoelectric Multiplication",
+    "year": 2019,
+    "venue": "Physical Review X",
+    "abstract": "A scheme for implementing optical neural networks offers the energy benefits of optical components while being scalable to large systems, promising low-energy processing with order-of-magnitude improvements in network performance."
+  }
+]

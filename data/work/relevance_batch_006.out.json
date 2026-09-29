@@ -1,0 +1,152 @@
+[
+  {
+    "record_key": "openalex:W4404238479",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Proposes cascaded optical circuit switching network architecture using WSS for data centers."
+  },
+  {
+    "record_key": "openalex:W2973870220",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Analyzes optical-circuit/electrical-packet hybrid switching for data center network performance and power."
+  },
+  {
+    "record_key": "openalex:W2559394418",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Quantum machine learning; unrelated to optical circuit switching."
+  },
+  {
+    "record_key": "openalex:W2792315573",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Review of quantum ML and AI; unrelated to circuit switching."
+  },
+  {
+    "record_key": "openalex:W3164621419",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Review of extreme learning machine algorithm; unrelated."
+  },
+  {
+    "record_key": "openalex:W3106714810",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "ML applications in ultrafast photonics; abstract empty, no switching mention."
+  },
+  {
+    "record_key": "openalex:W2929612105",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Quantum ML vision for 6G networks; unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W3164104137",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Machine vision for defect detection; unrelated to circuit switching."
+  },
+  {
+    "record_key": "openalex:W3167963175",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Precision agriculture using IoT and ML; unrelated."
+  },
+  {
+    "record_key": "openalex:W2772457693",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Deep learning survey for IoT data streams; unrelated."
+  },
+  {
+    "record_key": "openalex:W2951065015",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Deep learning and neuroscience integration; unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W2949186411",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "ML tutorial for optical network failure management; not switching hardware."
+  },
+  {
+    "record_key": "openalex:W2972006294",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Survey of deep learning object detection; unrelated."
+  },
+  {
+    "record_key": "openalex:W2473394283",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "General machine learning textbook overview; unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W4224242327",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "ML for healthcare wearable devices; unrelated to circuit switching."
+  },
+  {
+    "record_key": "openalex:W2990204812",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "ML survey for UAV-based communications; unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W3121141908",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Optical neural chip for complex-valued neural networks; not a circuit switch."
+  },
+  {
+    "record_key": "openalex:W2898323475",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Deep learning with spiking neurons; unrelated to circuit switching."
+  },
+  {
+    "record_key": "openalex:W3217475140",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Review of meta-waveguides for integrated photonics; not switch-fabric specific."
+  },
+  {
+    "record_key": "openalex:W4295122555",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Survey of deep residual learning networks; unrelated."
+  },
+  {
+    "record_key": "openalex:W3043159233",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Roadmap on emerging ML hardware; neuromorphic computing, unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W4321793224",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "ML for industrial condition monitoring; unrelated to circuit switching."
+  },
+  {
+    "record_key": "openalex:W3082806766",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "ML for optical performance monitoring and modulation format ID; not switching."
+  },
+  {
+    "record_key": "openalex:W2984757480",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Hybrid photonic circuit integration of artificial atoms; abstract empty, unrelated."
+  },
+  {
+    "record_key": "openalex:W2775031014",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Deep learning review for water resources science; unrelated to OCS."
+  }
+]

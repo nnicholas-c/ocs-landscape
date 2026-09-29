@@ -1,0 +1,202 @@
+[
+  {
+    "record_key": "openalex:W2885657717",
+    "source": "openalex",
+    "title": "All one needs to know about fog computing and related edge computing paradigms: A complete survey",
+    "year": 2019,
+    "venue": "Journal of Systems Architecture",
+    "abstract": "With the Internet of Things (IoT) becoming part of our daily life and our environment, we expect rapid growth in the number of connected devices. IoT is expected to connect billions of devices and humans to bring promising advantages for us. With this growth, fog computing, along with its related edge computing paradigms, such as multi-access edge computing (MEC) and cloudlet, are seen as promising solutions for handling the large volume of security-critical and time-sensitive data that is being produced by the IoT. In this paper, we first provide a tutorial on fog computing and its related computing paradigms, including their similarities and differences. Next, we provide a taxonomy of research topics in fog computing, and through a comprehensive survey,"
+  },
+  {
+    "record_key": "openalex:W4323653529",
+    "source": "openalex",
+    "title": "Technology Roadmap for Flexible Sensors",
+    "year": 2023,
+    "venue": "ACS Nano",
+    "abstract": "Humans rely increasingly on sensors to address grand challenges and to improve quality of life in the era of digitalization and big data. For ubiquitous sensing, flexible sensors are developed to overcome the limitations of conventional rigid counterparts. Despite rapid advancement in bench-side research over the last decade, the market adoption of flexible sensors remains limited. To ease and to expedite their deployment, here, we identify bottlenecks hindering the maturation of flexible sensors and propose promising solutions. We first analyze challenges in achieving satisfactory sensing performance for real-world applications and then summarize issues in compatible sensor-biology interfaces, followed by brief discussions on powering and connecting sensor networks. Issues en route to commercialization and for sustainable growth of the sector are"
+  },
+  {
+    "record_key": "openalex:W4210823697",
+    "source": "openalex",
+    "title": "Photonic and optoelectronic neuromorphic computing",
+    "year": 2022,
+    "venue": "APL Photonics",
+    "abstract": "Recent advances in neuromorphic computing have established a computational framework that removes the processor-memory bottleneck evident in traditional von Neumann computing. Moreover, contemporary photonic circuits have addressed the limitations of electrical computational platforms to offer energy-efficient and parallel interconnects independently of the distance. When employed as synaptic interconnects with reconfigurable photonic elements, they can offer an analog platform capable of arbitrary linear matrix operations, including multiply–accumulate operation and convolution at extremely high speed and energy efficiency. Both all-optical and optoelectronic nonlinear transfer functions have been investigated for realizing neurons with photonic signals. A number of research efforts have reported orders of magnitude improvements estimated for computational throughput and energy efficiency. Compared to biological neural systems, achieving high scalability and density"
+  },
+  {
+    "record_key": "openalex:W4206390255",
+    "source": "openalex",
+    "title": "Machine Learning Applications for Short Reach Optical Communication",
+    "year": 2022,
+    "venue": "Photonics",
+    "abstract": "With the rapid development of optical communication systems, more advanced techniques conventionally used in long-haul transmissions have gradually entered systems covering shorter distances below 100 km, where higher-speed connections are required in various applications, such as the optical access networks, inter- and intra-data center interconnects, mobile fronthaul, and in-building and indoor communications. One of the techniques that has attracted intensive interests in short-reach optical communications is machine learning (ML). Due to its robust problem-solving, decision-making, and pattern recognition capabilities, ML techniques have become an essential solution for many challenging aspects. In particular, taking advantage of their high accuracy, adaptability, and implementation efficiency, ML has been widely studied in short-reach optical communications for optical performance monitoring (OPM), modulation format identification (MFI),"
+  },
+  {
+    "record_key": "openalex:W2998747575",
+    "source": "openalex",
+    "title": "Distributed generation hybrid AC/DC microgrid protection: A critical review on issues, strategies, and future directions",
+    "year": 2020,
+    "venue": "International Journal of Energy Research",
+    "abstract": "The integration of distributed energy resources (DERs) with conventional systems emerges as an intelligent solution for providing uninterrupted and secure power even at times of high load demand. Better load management with a mature fault handling mechanism makes AC a viable option which has an efficiency of 78.24%. In contrast with less power loss and slightly better efficiency of 84.6%, DC microgrid is a reliable option in a low power environment. In order to accommodate all operating conditions and load types, a hybrid system can be designed with a theoretical efficiency of more than 90%. Bidirectional power flows, low inertia, the transition between different modes of operations are the challenges for the protection of alternating current (AC) and direct current"
+  },
+  {
+    "record_key": "openalex:W4313894114",
+    "source": "openalex",
+    "title": "Photonic multiplexing techniques for neuromorphic computing",
+    "year": 2023,
+    "venue": "Nanophotonics",
+    "abstract": "The simultaneous advances in artificial neural networks and photonic integration technologies have spurred extensive research in optical computing and optical neural networks (ONNs). The potential to simultaneously exploit multiple physical dimensions of time, wavelength and space give ONNs the ability to achieve computing operations with high parallelism and large-data throughput. Different photonic multiplexing techniques based on these multiple degrees of freedom have enabled ONNs with large-scale interconnectivity and linear computing functions. Here, we review the recent advances of ONNs based on different approaches to photonic multiplexing, and present our outlook on key technologies needed to further advance these photonic multiplexing/hybrid-multiplexing techniques of ONNs."
+  },
+  {
+    "record_key": "openalex:W4226299668",
+    "source": "openalex",
+    "title": "Architectures and Synchronization Techniques for Distributed Satellite Systems: A Survey",
+    "year": 2022,
+    "venue": "DIGITAL.CSIC (Spanish National Research Council (CSIC))",
+    "abstract": "Cohesive Distributed Satellite Systems (CDSSs) is a key enabling technology for the future of remote sensing and communication missions. However, they have to meet strict synchronization requirements before their use is generalized. When clock or local oscillator signals are generated locally at each of the distributed nodes, achieving exact synchronization in absolute phase, frequency, and time is a complex problem. In addition, satellite systems have significant resource constraints, especially for small \\nsatellites, which are envisioned to be part of the future CDSSs. Thus, the development of precise, robust, and resource-efficient synchronization techniques is essential for the advancement of future CDSSs. In this context, this survey aims to summarize and categorize the most relevant results on synchronization techniques for Distributed Satellite"
+  },
+  {
+    "record_key": "openalex:W4319918345",
+    "source": "openalex",
+    "title": "ESSPER: Elastic and Scalable FPGA-Cluster System for High-Performance Reconfigurable Computing with Supercomputer Fugaku",
+    "year": 2023,
+    "venue": null,
+    "abstract": "FPGA clusters have yet to be a mainstream of HPC, even for accelerators, and several challenges exist in their architecture and system organization. This work presents ESSPER, a flexible and scalable FPGA cluster prototype system for reconfigurable HPC to meet the concept of customizability, scalability, and interoperability with existing HPC systems. Based on our classification of FPGA cluster architectures, we propose a new category of FPGA clusters with a host-FPGA bridging network using software-bridged APIs for the use of remote FPGAs. We have designed, implemented, verified, and demonstrated a proof-of-concept system of ESSPER, as a functional extension of the supercomputer Fugaku."
+  },
+  {
+    "record_key": "openalex:W4226315885",
+    "source": "openalex",
+    "title": "Revolutionizing Optical Wireless Communications via Smart Optics",
+    "year": 2022,
+    "venue": "IEEE Open Journal of the Communications Society",
+    "abstract": "The heterogeneity of optical wireless networks (OWNs) has expanded over decades in terms of services, node densities, mobility requirements, bandwidth needs, responsiveness, and physical device profile. Consequently, incorporating dynamic reconfigurability into future OWNs can satisfy their diverse realm of objectives. Towards this end, we provide our vision for the potential gains of integrating tunable optical elements in OWNs reflected in energy consumption reduction, coverage customization, data transfer rate boosting, highly accommodating multiple access schemes, enhancing physical layer security, supporting simultaneous services, and interference reduction. Finally, we speculate a roadmap for future research directions in tunable optics aided OWNs and the associated challenges with their deployment and operation."
+  },
+  {
+    "record_key": "openalex:W4401692725",
+    "source": "openalex",
+    "title": "Chip and Package-Scale Interconnects for General-Purpose, Domain-Specific, and Quantum Computing Systems—Overview, Challenges, and Opportunities",
+    "year": 2024,
+    "venue": "IEEE Journal on Emerging and Selected Topics in Circuits and Systems",
+    "abstract": "The anticipated end of Moore’s law, coupled with the breakdown of Dennard scaling, compelled everyone to conceive forthcoming computing systems once transistors reach their limits. Three leading approaches to circumvent this situation are the chiplet paradigm, domain customisation and quantum computing. However, architectural and technological innovations have shifted the fundamental bottleneck from computation to communication. Hence, on-chip and on-package communication play a pivotal role in determining the performance, energy efficiency and scalability of general-purpose, domain-specific and quantum computing systems. This article reviews the recent advances in chip and package-scale interconnects due to the change in architecture, application and technology. The primary objective of this article is to present the current status, key challenges, and impact-worthy opportunities in this research area"
+  },
+  {
+    "record_key": "openalex:W4327898871",
+    "source": "openalex",
+    "title": "Co-packaged optics (CPO): status, challenges, and solutions",
+    "year": 2023,
+    "venue": "Frontiers of Optoelectronics",
+    "abstract": "Due to the rise of 5G, IoT, AI, and high-performance computing applications, datacenter traffic has grown at a compound annual growth rate of nearly 30%. Furthermore, nearly three-fourths of the datacenter traffic resides within datacenters. The conventional pluggable optics increases at a much slower rate than that of datacenter traffic. The gap between application requirements and the capability of conventional pluggable optics keeps increasing, a trend that is unsustainable. Co-packaged optics (CPO) is a disruptive approach to increasing the interconnecting bandwidth density and energy efficiency by dramatically shortening the electrical link length through advanced packaging and co-optimization of electronics and photonics. CPO is widely regarded as a promising solution for future datacenter interconnections, and silicon platform is the most promising"
+  },
+  {
+    "record_key": "openalex:W4377008345",
+    "source": "openalex",
+    "title": "Peta-Scale Embedded Photonics Architecture for Distributed Deep Learning Applications",
+    "year": 2023,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "As Deep Learning (DL) models grow larger and more complex, training jobs are increasingly distributed across multiple Computing Units (CU) such as GPUs and TPUs. Each CU processes a sub-part of the model and synchronizes results with others. Communication among these CUs has emerged as a key bottleneck in the training process. In this work, we present SiPAC, a Silicon Photonic Accelerated Compute cluster. SiPAC accelerates distributed DL training by means of two co-designed components: a photonic physical layer and a novel collective algorithm. The physical layer exploits embedded photonics to bring peta-scale I/O directly to the CUs of a DL optimized cluster and uses resonator-based optical wavelength selectivity to realize hardware multi-casting. The collective algorithm builds on the hardware"
+  },
+  {
+    "record_key": "openalex:W3038568908",
+    "source": "openalex",
+    "title": "Radiation Resistant Camera System for Monitoring Deuterium Plasma Discharges in the Large Helical Device",
+    "year": 2020,
+    "venue": "Plasma and Fusion Research",
+    "abstract": "Radiation resistant camera system was constructed for monitoring deuterium plasma discharges in the Large Helical Device (LHD). This system has contributed to safe operation during two experimental campaigns without serious problems due to radiation (neutrons and gamma-rays). The cameras steadily functioned even in the plasma discharge with the maximum neutron emission rate in FY 2017, though some bright specks temporarily appeared on the images. The cameras have been installed in shield boxes which consist of lead boxes covered with 10% borated polyethylene blocks in all directions. For optimizing the design of the shield box, the radiation flux distribution was calculated by MCNP-6 code, which reveals the reduction of the radiation flux and the change of the energy spectra in the"
+  },
+  {
+    "record_key": "openalex:W2490598172",
+    "source": "openalex",
+    "title": "Towards Petabit/s All-Optical Flat Data Center Networks Based on WDM Optical Cross-Connect Switches with Flow Control",
+    "year": 2016,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "Scaling the capacity while maintaining low latency and power consumption is a challenge for hierarchical data center networks (DCNs) based on electrical switches. In this work we present a novel all-optical flat DCN architecture OPSquare that potentially addresses the scaling issues by employing parallel intra-/inter-cluster switching networks, distributed fast WDM optical cross-connect (OXC) switches, and a novel top-of-rack (ToR) switch architecture. The fast (nanoseconds) WDM OXC switches allow flexible switching capability in both wavelength and time domains and statistical multiplexing. The OPSquare DCN performance targeting Petabit/s capacity has been thoroughly assessed. First the packet loss, latency, throughput, and scalability are numerically investigated under realistic data center traffic model. Results indicate that when scaling the DCN size up to 1024 ToR"
+  },
+  {
+    "record_key": "openalex:W2950385297",
+    "source": "openalex",
+    "title": "Optical atomic clocks",
+    "year": 2015,
+    "venue": "Reviews of Modern Physics",
+    "abstract": "Since 1967 the primary time standard is the cesium atomic clock, based on a hyperfine transition in the microwave domain. The development of ultrastable laser sources now allows one to operate on electronic transitions in the optical domain, corresponding to a 5-order-of-magnitude increase in the clock frequency. This article reviews the spectacular accuracy and stability gains that can be obtained when working with laser cooled ions or neutral atoms. It also discusses some important applications of these optical clocks, from geodesy to tests of fundamental theories to many-body physics."
+  },
+  {
+    "record_key": "openalex:W2912886516",
+    "source": "openalex",
+    "title": "Photonic integrated WDM cross-connects for optical metro and data center networks",
+    "year": 2019,
+    "venue": null,
+    "abstract": "We present a scalable and novel modular optical metro core node architecture and low cost metro access node architectures with edge computing functionalities employing photonic WDM integrated switches. Photonic integrated switches has been des igned as the building blocks to realize the modular metro node architectures, namely photonic WDM switches with express and add/drop ports, photonic integrated WSS aggregation/disaggregation functions for merging/dropping the network traffic, and photonic integrated multi-cast switch (MCS), as well as bandwidth variable transceivers aggregators to achieve multi-Terabits/second operation. Moreover, a dynamic re-configurable metro-access nodes based on low-cost 2-degree photonic integrated mini-ROADMs will be discussed. The lossless photonic WDM switches are based on InP technology and employ semiconductor optical amplifiers as on -chip gain element and fast"
+  },
+  {
+    "record_key": "openalex:W2159714423",
+    "source": "openalex",
+    "title": "LSST: From Science Drivers to Reference Design and Anticipated Data Products",
+    "year": 2019,
+    "venue": "The Astrophysical Journal",
+    "abstract": "Abstract We describe here the most ambitious survey currently planned in the optical, the Large Synoptic Survey Telescope (LSST). The LSST design is driven by four main science themes: probing dark energy and dark matter, taking an inventory of the solar system, exploring the transient optical sky, and mapping the Milky Way. LSST will be a large, wide-field ground-based system designed to obtain repeated images covering the sky visible from Cerro Pachón in northern Chile. The telescope will have an 8.4 m (6.5 m effective) primary mirror, a 9.6 deg 2 field of view, a 3.2-gigapixel camera, and six filters ( ugrizy ) covering the wavelength range 320–1050 nm. The project is in the construction phase and will begin regular"
+  },
+  {
+    "record_key": "openalex:W2940692781",
+    "source": "openalex",
+    "title": "Perovskites for Next-Generation Optical Sources",
+    "year": 2019,
+    "venue": "Chemical Reviews",
+    "abstract": "Next-generation displays and lighting technologies require efficient optical sources that combine brightness, color purity, stability, substrate flexibility. Metal halide perovskites have potential use in a wide range of applications, for they possess excellent charge transport, bandgap tunability and, in the most promising recent optical source materials, intense and efficient luminescence. This review links metal halide perovskites' performance as efficient light emitters with their underlying materials electronic and photophysical attributes."
+  },
+  {
+    "record_key": "openalex:W2592504242",
+    "source": "openalex",
+    "title": "Monolithically Integrated WDM Cross-Connect Switch for High-performance Optical Data Center Networks",
+    "year": 2017,
+    "venue": "Optical Fiber Communication Conference",
+    "abstract": "The switching performance of a photonic integrated WDM cross-connect switch is assessed with 40Gb/s NRZ-OOK, 20Gb/s PAM4 and data-rate adaptive DMT traffic. Results show limited penalty for single/WDM channels and > 10dB power dynamic range."
+  },
+  {
+    "record_key": "openalex:W2789554261",
+    "source": "openalex",
+    "title": "Underwater optical wireless communications, networking, and localization: A survey",
+    "year": 2019,
+    "venue": "Ad Hoc Networks",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W217075555",
+    "source": "openalex",
+    "title": "Anterior segment optical coherence tomography",
+    "year": 2018,
+    "venue": "Progress in Retinal and Eye Research",
+    "abstract": "Optical coherence tomography (OCT) provides non-contact, rapid in vivo imaging of ocular structures, and has become a key part of evaluating the anterior segment of the eye. Over the years, improvements to technology have increased the speed of capture and resolution of images, leading to the increasing impact of anterior segment OCT imaging on clinical practice. In this review, we summarize the historical development of anterior segment OCT, and provide an update on the research and clinical applications of imaging the ocular surface, cornea, anterior chamber structures, aqueous outflow system, and most recently anterior segment vessels. We also describe advancements in anterior segment OCT technology that have improved understanding with greater detail, such as tear film in dry eye disease"
+  },
+  {
+    "record_key": "openalex:W2888802925",
+    "source": "openalex",
+    "title": "Recent advances on optical vortex generation",
+    "year": 2018,
+    "venue": "Nanophotonics",
+    "abstract": "Abstract This article reviews recent progress leading to the generation of optical vortex beams. After introducing the basics of optical vortex beams and their promising applications, we summarized different approaches for optical vortex generation by discrete components and laser cavities. We place particular emphasis on the recent development of vortex generation by the planar phase plates, which are able to engineer a spiral phasefront via dynamic or geometric phase in nanoscale, and highlight the independent operation of these two different phases which leads to a multifunctional optical vortex beam generation and independent spin‐orbit interaction. We also introduced the recent progress on vortex lasing, including vortex beam generation from the output of bulk lasers by modification of conventional laser cavities with"
+  },
+  {
+    "record_key": "openalex:W2487200295",
+    "source": "openalex",
+    "title": "Critical analysis of Big Data challenges and analytical methods",
+    "year": 2016,
+    "venue": "Journal of Business Research",
+    "abstract": "Big Data (BD), with their potential to ascertain valued insights for enhanced decision-making process, have recently attracted substantial interest from both academics and practitioners. Big Data Analytics (BDA) is increasingly becoming a trending practice that many organizations are adopting with the purpose of constructing valuable information from BD. The analytics process, including the deployment and use of BDA tools, is seen by organizations as a tool to improve operational efficiency though it has strategic potential, drive new revenue streams and gain competitive advantages over business rivals. However, there are different types of analytic applications to consider. Therefore, prior to hasty use and buying costly BD tools, there is a need for organizations to first understand the BDA landscape. Given the"
+  },
+  {
+    "record_key": "openalex:W2155302366",
+    "source": "openalex",
+    "title": "A Quantitative Analysis of Current Practices in Optical Flow Estimation and the Principles Behind Them",
+    "year": 2013,
+    "venue": "International Journal of Computer Vision",
+    "abstract": "The accuracy of optical flow estimation algorithms has been improving steadily as evidenced by results on the Middlebury optical flow benchmark. The typical formulation, however, has changed little since the work of Horn and Schunck. We attempt to uncover what has made recent advances possible through a thorough analysis of how the objective function, the optimization method, and modern implementation practices influence accuracy. We discover that “classical” flow formulations perform surprisingly well when combined with modern optimization and implementation techniques. One key implementation detail is the median filtering of intermediate flow fields during optimization. While this improves the robustness of classical methods it actually leads to higher energy solutions, meaning that these methods are not optimizing the original objective function."
+  },
+  {
+    "record_key": "openalex:W1570588423",
+    "source": "openalex",
+    "title": "Recent progress in tissue optical clearing",
+    "year": 2013,
+    "venue": "Laser & Photonics Review",
+    "abstract": "Tissue optical clearing technique provides a prospective solution for the application of advanced optical methods in life sciences. This paper gives a review of recent developments in tissue optical clearing techniques. The physical, molecular and physiological mechanisms of tissue optical clearing are overviewed and discussed. Various methods for enhancing penetration of optical-clearing agents into tissue, such as physical methods, chemical-penetration enhancers and combination of physical and chemical methods are introduced. Combining the tissue optical clearing technique with advanced microscopy image or labeling technique, applications for 3D microstructure of whole tissues such as brain and central nervous system with unprecedented resolution are demonstrated. Moreover, the difference in diffusion and/or clearing ability of selected agents in healthy versus pathological tissues can provide"
+  }
+]

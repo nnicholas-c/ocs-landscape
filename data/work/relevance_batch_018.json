@@ -1,0 +1,202 @@
+[
+  {
+    "record_key": "openalex:W3196241303",
+    "source": "openalex",
+    "title": "Interfacial ferroelectricity in rhombohedral-stacked bilayer transition metal dichalcogenides",
+    "year": 2022,
+    "venue": "Nature Nanotechnology",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W3011579125",
+    "source": "openalex",
+    "title": "All 3D-printed stretchable piezoelectric nanogenerator with non-protruding kirigami structure",
+    "year": 2020,
+    "venue": "Nano Energy",
+    "abstract": "With the advancement of wearable electronics, stretchable energy harvesters are attractive to reduce the need of frequent charging of wearable devices. In this work, a stretchable kirigami piezoelectric nanogenerator (PENG) based on barium titanate (BaTiO3) nanoparticles, Poly(vinylidene fluoride-co-trifluoroethylene) (P(VDF-TrFE)) matrix, and silver flakes-based electrode is fabricated in an all-3D printable process suited for additive manufacturing. The 3D printable extrusion ink is formulated for facile solvent evaporation during layer formation to enable heterogenous multilayer stacking. A well-designed modified T-joint-cut kirigami structure is realized to attain a non-protruding, high structural stretchability performance, overcoming the out-of-plane displacement of the typical kirigami structure and therefore enabling the pressing-mode of a kirigami-structured PENG. This PENG can be stretched to more than 300% strain, which shows"
+  },
+  {
+    "record_key": "openalex:W1965294670",
+    "source": "openalex",
+    "title": "Ultrafast all-optical switching via coherent modulation of metamaterial absorption",
+    "year": 2014,
+    "venue": "Applied Physics Letters",
+    "abstract": "We report on the demonstration of a femtosecond all-optical modulator providing, without nonlinearity and therefore at arbitrarily low intensity, ultrafast light-by-light control. The device engages the coherent interaction of optical waves on a metamaterial nanostructure only 30 nm thick to efficiently control absorption of near-infrared (750–1040 nm) femtosecond pulses, providing switching contrast ratios approaching 3:1 with a modulation bandwidth in excess of 2 THz. The functional paradigm illustrated here opens the path to a broad family of meta-devices for ultrafast optical data processing in coherent networks."
+  },
+  {
+    "record_key": "openalex:W4378363703",
+    "source": "openalex",
+    "title": "Biodegradable Piezoelectric Polymers: Recent Advancements in Materials and Applications",
+    "year": 2023,
+    "venue": "Advanced Healthcare Materials",
+    "abstract": "Recent materials, microfabrication, and biotechnology improvements have introduced numerous exciting bioelectronic devices based on piezoelectric materials. There is an intriguing evolution from conventional unrecyclable materials to biodegradable, green, and biocompatible functional materials. As a fundamental electromechanical coupling material in numerous applications, novel piezoelectric materials with a feature of degradability and desired electrical and mechanical properties are being developed for future wearable and implantable bioelectronics. These bioelectronics can be easily integrated with biological systems for applications, including sensing physiological signals, diagnosing medical problems, opening the blood-brain barrier, and stimulating healing or tissue growth. Therefore, the generation of piezoelectricity from natural and synthetic bioresorbable polymers has drawn great attention in the research field. Herein, the significant and recent advancements in biodegradable piezoelectric"
+  },
+  {
+    "record_key": "openalex:W2786482165",
+    "source": "openalex",
+    "title": "Low-Loss Si3N4 TriPleX Optical Waveguides: Technology and Applications Overview",
+    "year": 2018,
+    "venue": "IEEE Journal of Selected Topics in Quantum Electronics",
+    "abstract": "An overview of the most recent developments and improvements to the low-loss TriPleX Si3N4waveguide technology is presented in this paper. The TriPleX platform provides a suite of waveguide geometries (box, double stripe, symmetric single stripe, and asymmetric double stripe) that can be combined to design complex functional circuits, but more important are manufactured in a single monolithic process flow to create a compact photonic integrated circuit. All functionalities of the integrated circuit are constructed using standard basic building blocks, namely straight and bent waveguides, splitters/combiners and couplers, spot size converters, and phase tuning elements. The basic functionalities that have been realized are: ring resonators and Mach-Zehnder interferometer filters, tunable delay elements, and waveguide switches. Combination of these basic functionalities evolves"
+  },
+  {
+    "record_key": "openalex:W2020360871",
+    "source": "openalex",
+    "title": "Optical trapping and binding",
+    "year": 2013,
+    "venue": "Reports on Progress in Physics",
+    "abstract": "The phenomenon of light's momentum was first observed in the laboratory at the beginning of the twentieth century, and its potential for manipulating microscopic particles was demonstrated by Ashkin some 70 years later. Since that initial demonstration, and the seminal 1986 paper where a single-beam gradient-force trap was realized, optical trapping has been exploited as both a rich example of physical phenomena and a powerful tool for sensitive measurement. This review outlines the underlying theory of optical traps, and explores many of the physical observations that have been made in such systems. These phenomena include 'optical binding', where trapped objects interact with one another through the trapping light field. We also discuss a number of the applications of 'optical tweezers'"
+  },
+  {
+    "record_key": "openalex:W3041624699",
+    "source": "openalex",
+    "title": "Piezoelectric Materials for Controlling Electro-Chemical Processes",
+    "year": 2020,
+    "venue": "Nano-Micro Letters",
+    "abstract": "Piezoelectric materials have been analyzed for over 100 years, due to their ability to convert mechanical vibrations into electric charge or electric fields into a mechanical strain for sensor, energy harvesting, and actuator applications. A more recent development is the coupling of piezoelectricity and electro-chemistry, termed piezo-electro-chemistry, whereby the piezoelectrically induced electric charge or voltage under a mechanical stress can influence electro-chemical reactions. There is growing interest in such coupled systems, with a corresponding growth in the number of associated publications and patents. This review focuses on recent development of the piezo-electro-chemical coupling multiple systems based on various piezoelectric materials. It provides an overview of the basic characteristics of piezoelectric materials and comparison of operating conditions and their overall electro-chemical"
+  },
+  {
+    "record_key": "openalex:W3163628203",
+    "source": "openalex",
+    "title": "Molecular engineering of piezoelectricity in collagen-mimicking peptide assemblies",
+    "year": 2021,
+    "venue": "Nature Communications",
+    "abstract": "Abstract Realization of a self-assembled, nontoxic and eco-friendly piezoelectric device with high-performance, sensitivity and reliability is highly desirable to complement conventional inorganic and polymer based materials. Hierarchically organized natural materials such as collagen have long been posited to exhibit electromechanical properties that could potentially be amplified via molecular engineering to produce technologically relevant piezoelectricity. Here, by using a simple, minimalistic, building block of collagen, we fabricate a peptide-based piezoelectric generator utilising a radically different helical arrangement of Phe-Phe-derived peptide, Pro-Phe-Phe and Hyp-Phe-Phe, based only on proteinogenic amino acids. The simple addition of a hydroxyl group increases the expected piezoelectric response by an order of magnitude (d35 = 27 pm V−1). The value is highest predicted to date in short natural"
+  },
+  {
+    "record_key": "openalex:W4308681347",
+    "source": "openalex",
+    "title": "Natural Piezoelectric Biomaterials: A Biocompatible and Sustainable Building Block for Biomedical Devices",
+    "year": 2022,
+    "venue": "ACS Nano",
+    "abstract": "The piezoelectric effect has been widely observed in biological systems, and its applications in biomedical field are emerging. Recent advances of wearable and implantable biomedical devices bring promise as well as requirements for the piezoelectric materials building blocks. Owing to their biocompatibility, biosafety, and environmental sustainability, natural piezoelectric biomaterials are known as a promising candidate in this emerging field, with a potential to replace conventional piezoelectric ceramics and synthetic polymers. Herein, we provide a thorough review of recent progresses of research on five major types of piezoelectric biomaterials including amino acids, peptides, proteins, viruses, and polysaccharides. Our discussion focuses on their structure- and phase-related piezoelectric properties and fabrication strategies to achieve desired piezoelectric phases. We compare and analyze their piezoelectric"
+  },
+  {
+    "record_key": "openalex:W4395449486",
+    "source": "openalex",
+    "title": "Sweat permeable and ultrahigh strength 3D PVDF piezoelectric nanoyarn fabric strain sensor",
+    "year": 2024,
+    "venue": "Nature Communications",
+    "abstract": "Commercial wearable piezoelectric sensors possess excellent anti-interference stability due to their electronic packaging. However, this packaging renders them barely breathable and compromises human comfort. To address this issue, we develop a PVDF piezoelectric nanoyarns with an ultrahigh strength of 313.3 MPa, weaving them with different yarns to form three-dimensional piezoelectric fabric (3DPF) sensor using the advanced 3D textile technology. The tensile strength (46.0 MPa) of 3DPF exhibits the highest among the reported flexible piezoelectric sensors. The 3DPF features anti-gravity unidirectional liquid transport that allows sweat to move from the inner layer near to the skin to the outer layer in 4 s, resulting in a comfortable and dry environment for the user. It should be noted that sweating does not"
+  },
+  {
+    "record_key": "openalex:W2805634289",
+    "source": "openalex",
+    "title": "Reactive Sputtering of Aluminum Nitride (002) Thin Films for Piezoelectric Applications: A Review",
+    "year": 2018,
+    "venue": "Sensors",
+    "abstract": "We summarize the recipes and describe the role of sputtering parameters in producing highly c-axis Aluminum Nitride (AlN) films for piezoelectric applications. The information is collated from the analysis of around 80 journal articles that sputtered this film on variety of substrate materials, processes and equipment. This review will be a good starting point to catch up with the state-of-the-arts research on the reactive sputtering of AlN (002) thin film, as well as its evolving list of piezoelectric applications such as energy harvesters."
+  },
+  {
+    "record_key": "openalex:W2940942374",
+    "source": "openalex",
+    "title": "Towards a Green and Self-Powered Internet of Things Using Piezoelectric Energy Harvesting",
+    "year": 2019,
+    "venue": "IEEE Access",
+    "abstract": "The Internet of Things (IoT) is a revolutionizing technology which aims to create an ecosystem of connected objects and embedded devices and provide ubiquitous connectivity between trillions of not only smart devices but also simple sensors and actuators. Although recent advancements in miniaturization of devices with higher computational capabilities and ultra-low power communication technologies have enabled the vast deployment of sensors and actuators everywhere, such an evolution calls for fundamental changes in hardware design, software, network architecture, data analytics, data storage, and power sources. A large portion of the IoT devices cannot be powered by batteries only anymore, as they will be installed in hard to reach areas and regular battery replacement and maintenance are infeasible. A viable solution is"
+  },
+  {
+    "record_key": "openalex:W2782172413",
+    "source": "openalex",
+    "title": "Review and Perspectives of Aurivillius Structures as a Lead-Free Piezoelectric System",
+    "year": 2018,
+    "venue": "Applied Sciences",
+    "abstract": "According to the EU-Directives 2002/95/EC, 2002/96/EC, lead-based piezoceramics must be substituted in the future with more environmentally friendly alternatives, only when a reliable alternative is found. This is why an increasing interest has grown in the research community to find lead free piezoelectric materials that fulfil the requirements for this substitution. Different families of compounds have been shown to be possible candidates for this use, such as bismuth and niobates based perovskites, pyrochlores, etc. However, a material with piezoelectric coefficients similar to those of PZT (lead zirconate titanate, Pb[ZrxTi1-x]O3) has not been yet found. Besides, each of these families has its specific characteristics in terms of remnant polarization, coercive field or application temperature. Thus, the choice of each material should"
+  },
+  {
+    "record_key": "openalex:W2766793249",
+    "source": "openalex",
+    "title": "An optical fiber Bragg grating and piezoelectric ceramic voltage sensor",
+    "year": 2017,
+    "venue": "Review of Scientific Instruments",
+    "abstract": "Voltage measurement is essential in many fields like power grids, telecommunications, metallurgy, railways, and oil production. A voltage-sensing unit, consisting of fiber Bragg gratings (FBGs) and piezoelectric ceramics, based on which an optical over-voltage sensor was proposed and fabricated in this paper. No demodulation devices like spectrometer or Fabry-Perot filter were needed to gain the voltage signal, and a relatively large sensing frequency range was acquired in this paper; thus, the cost of the sensing system is more acceptable in engineering application. The voltage to be measured was directly applied to the piezoelectric ceramic, and deformation of the ceramics and the grating would be caused because of the inverse piezoelectric effect. With a reference grating, the output light intensity change"
+  },
+  {
+    "record_key": "openalex:W1981987996",
+    "source": "openalex",
+    "title": "Optical Sensors Based on Plastic Fibers",
+    "year": 2012,
+    "venue": "Sensors",
+    "abstract": "The recent advances of polymer technology allowed the introduction of plastic optical fiber in sensor design. The advantages of optical metrology with plastic optical fiber have attracted the attention of the scientific community, as they allow the development of low-cost or cost competitive systems compared with conventional technologies. In this paper, the current state of the art of plastic optical fiber technology will be reviewed, namely its main characteristics and sensing advantages. Several measurement techniques will be described, with a strong focus on interrogation approaches based on intensity variation in transmission and reflection. The potential applications involving structural health monitoring, medicine, environment and the biological and chemical area are also presented."
+  },
+  {
+    "record_key": "openalex:W2962024859",
+    "source": "openalex",
+    "title": "Piezoelectric Material-Polymer Composite Porous Foam for Efficient Dye Degradation via the Piezo-Catalytic Effect",
+    "year": 2019,
+    "venue": "ACS Applied Materials & Interfaces",
+    "abstract": "Piezoelectric nanomaterials have been utilized to realize effective charge separation for degrading organic pollutants in water under the action of mechanical vibrations. However, in particulate form, the nanostructured piezoelectric catalysts can flow into the aqueous pollutant and limit its recyclability and reuse. Here, we report a new method of using a barium titanate (BaTiO 3, BTO)–polydimethylsiloxane composite porous foam catalyst to address the challenge of secondary pollution and reusable limits. Piezo-catalytic dye degradation activity of the porous foam can degrade a Rhodamine B (RhB) dye solution by ∼94%, and the composite material exhibits excellent stability after repeated decomposition of 12 cycles. It is suggested that under ultrasonic vibrations, the piezoelectric BTO materials create separated electron–hole pairs that react with hydroxyl"
+  },
+  {
+    "record_key": "openalex:W2591729902",
+    "source": "openalex",
+    "title": "Beam-Steering All-Optical Switch for Multi-Core Fibers",
+    "year": 2017,
+    "venue": "Optical Fiber Communication Conference",
+    "abstract": "We report on the development of the first multi-lane all-optical switch with directly integrated multi-core fibers. A 3-port single-sided beam-steering switch connecting 4-core fibers shows core-to-core losses below 2.2 dB with less than 1-dB variation."
+  },
+  {
+    "record_key": "openalex:W2913395450",
+    "source": "openalex",
+    "title": "Design and Analysis of Beam Steering Multicore Fiber Optical Switches",
+    "year": 2019,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "The design and performance characteristics of a beam steering optical switch for multicore fibers (MCFs) are reported. Port count, core count, transmission crosstalk, or a combination thereof can be optimized for the required application. Decreasing port separation or increasing the maximum steering angle both increase port count, whilst a higher core count or larger mode field diameter increase port capacity or port count, respectively, at the expense of greater intercore crosstalk. Potential losses from system misalignments and fiber fabrication variations in the core pitch are also estimated. A 50 port switch is possible for a 25 μm core pitch 7 core hexagonal trench assisted MCF (TA-MCF) with a total mean statistical crosstalk on the central core of -25 dB after"
+  },
+  {
+    "record_key": "openalex:W2040220307",
+    "source": "openalex",
+    "title": "Multipartite Einstein–Podolsky–Rosen steering and genuine tripartite entanglement with optical networks",
+    "year": 2015,
+    "venue": "Nature Physics",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W3158684015",
+    "source": "openalex",
+    "title": "Integrated Optical Phased Arrays for Beam Forming and Steering",
+    "year": 2021,
+    "venue": "Applied Sciences",
+    "abstract": "Integrated optical phased arrays can be used for beam shaping and steering with a small footprint, lightweight, high mechanical stability, low price, and high-yield, benefiting from the mature CMOS-compatible fabrication. This paper reviews the development of integrated optical phased arrays in recent years. The principles, building blocks, and configurations of integrated optical phased arrays for beam forming and steering are presented. Various material platforms can be used to build integrated optical phased arrays, e.g., silicon photonics platforms, III/V platforms, and III–V/silicon hybrid platforms. Integrated optical phased arrays can be implemented in the visible, near-infrared, and mid-infrared spectral ranges. The main performance parameters, such as field of view, beamwidth, sidelobe suppression, modulation speed, power consumption, scalability, and so on, are discussed"
+  },
+  {
+    "record_key": "openalex:W2587359616",
+    "source": "openalex",
+    "title": "Optical fiber meta-tips",
+    "year": 2016,
+    "venue": "Light Science & Applications",
+    "abstract": "We report on the first demonstration of a proof-of-principle optical fiber 'meta-tip', which integrates a phase-gradient plasmonic metasurface on the fiber tip. For illustration and validation purposes, we present numerical and experimental results pertaining to various prototypes implementing generalized forms of the Snell's transmission/reflection laws at near-infrared wavelengths. In particular, we demonstrate several examples of beam steering and coupling with surface waves, in fairly good agreement with theory. Our results constitute a first step toward the integration of unprecedented (metasurface-enabled) light-manipulation capabilities in optical-fiber technology. By further enriching the emergent 'lab-on-fiber' framework, this may pave the way for the widespread diffusion of optical metasurfaces in real-world applications to communications, signal processing, imaging and sensing."
+  },
+  {
+    "record_key": "openalex:W2802065375",
+    "source": "openalex",
+    "title": "High-Capacity Optical Wireless Communication Using Two-Dimensional IR Beam Steering",
+    "year": 2018,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "The free-space narrow infrared beams can offer unprecedented data capacity to devices individually, as they can provide non-shared connections that have a large link power budget. By means of a fully passive module based on a high port count arrayed waveguide grating router (AWGR), many infrared beams can be 2D steered individually using wavelength tuning. By applying the defocusing techniques, a compact beam steering module has been realized. A simultaneous communication at up to 112 Gbit/s PAM-4 per beam has been shown with an 80-ports AWGR, thus offering a total wireless throughput beyond 8.9 Tbit/s. The wireless provisioning of multiple ultrahigh-definition video streams has been demonstrated in a proof-of-concept laboratory setup."
+  },
+  {
+    "record_key": "openalex:W3095881173",
+    "source": "openalex",
+    "title": "Multifunctional integration on optical fiber tips: challenges and opportunities",
+    "year": 2020,
+    "venue": "Advanced Photonics",
+    "abstract": "The flat endface of an optical fiber tip is an emerging light-coupled microscopic platform that combines fiber optics with planar micro- and nanotechnologies. Since different materials and structures are integrated onto the endfaces, optical fiber tip devices have miniature sizes, diverse integrated functions, and low insertion losses, making them suitable for all-optical networks. In recent decades, the increasing demand for multifunctional optical fibers has created opportunities to develop various structures on fiber tips. Meanwhile, the unconventional shape of optical fibers presents challenges involving the adaptation of standard planar micro- and nanostructure preparation strategies for fiber tips. In this context, researchers are committed to exploring and optimizing fiber tip manufacturing techniques, thereby paving the way for future integrated all-fiber devices with"
+  },
+  {
+    "record_key": "openalex:W4392199370",
+    "source": "openalex",
+    "title": "Roadmap for Optical Metasurfaces",
+    "year": 2024,
+    "venue": "ACS Photonics",
+    "abstract": "Metasurfaces have recently risen to prominence in optical research, providing unique functionalities that can be used for imaging, beam forming, holography, polarimetry, and many more, while keeping device dimensions small. Despite the fact that a vast range of basic metasurface designs has already been thoroughly studied in the literature, the number of metasurface-related papers is still growing at a rapid pace, as metasurface research is now spreading to adjacent fields, including computational imaging, augmented and virtual reality, automotive, display, biosensing, nonlinear, quantum and topological optics, optical computing, and more. At the same time, the ability of metasurfaces to perform optical functions in much more compact optical systems has triggered strong and constantly growing interest from various industries that greatly benefit"
+  },
+  {
+    "record_key": "openalex:W2949924416",
+    "source": "openalex",
+    "title": "Liquid Crystal Beam Steering Devices: Principles, Recent Advances, and Future Developments",
+    "year": 2019,
+    "venue": "Crystals",
+    "abstract": "Continuous, wide field-of-view, high-efficiency, and fast-response beam steering devices are desirable in a plethora of applications. Liquid crystals (LCs)—soft, bi-refringent, and self-assembled materials which respond to various external stimuli—are especially promising for fulfilling these demands. In this paper, we review recent advances in LC beam steering devices. We first describe the general operation principles of LC beam steering techniques. Next, we delve into different kinds of beam steering devices, compare their pros and cons, and propose a new LC-cladding waveguide beam steerer using resistive electrodes and present our simulation results. Finally, two future development challenges are addressed: Fast response time for mid-wave infrared (MWIR) beam steering, and device hybridization for large-angle, high-efficiency, and continuous beam steering. To achieve fast response"
+  }
+]

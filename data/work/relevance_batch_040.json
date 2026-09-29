@@ -1,0 +1,202 @@
+[
+  {
+    "record_key": "openalex:W2213723750",
+    "source": "arxiv_via_openalex",
+    "title": "Integrated Optical Memory Based on Laser-Written Waveguides",
+    "year": 2016,
+    "venue": "Physical Review Applied",
+    "abstract": "Quantum memory is an essential building block for applications in quantum information science, where scalability and integrability are needed for progress toward large-scale architectures. The authors present a platform for integrated photonic memory, based on laser-written waveguides in rare-earth-doped crystals. The coherence properties of the optically active ions persist after micromachining, enabling proof-of-principle light storage using the full atomic-frequency-comb protocol. This is a pioneering demonstration of on-demand optical memory on a chip."
+  },
+  {
+    "record_key": "openalex:W3037468994",
+    "source": "arxiv_via_openalex",
+    "title": "Freely scalable and reconfigurable optical hardware for deep learning",
+    "year": 2021,
+    "venue": "Scientific Reports",
+    "abstract": "As deep neural network (DNN) models grow ever-larger, they can achieve higher accuracy and solve more complex problems. This trend has been enabled by an increase in available compute power; however, efforts to continue to scale electronic processors are impeded by the costs of communication, thermal management, power delivery and clocking. To improve scalability, we propose a digital optical neural network (DONN) with intralayer optical interconnects and reconfigurable input values. The path-length-independence of optical energy consumption enables information locality between a transmitter and a large number of arbitrarily arranged receivers, which allows greater flexibility in architecture design to circumvent scaling limitations. In a proof-of-concept experiment, we demonstrate optical multicast in the classification of 500 MNIST images with a 3-layer, fully-connected"
+  },
+  {
+    "record_key": "openalex:W3107843142",
+    "source": "arxiv_via_openalex",
+    "title": "Integrated Optical Addressing of a Trapped Ytterbium Ion",
+    "year": 2021,
+    "venue": "Physical Review X",
+    "abstract": "A surface ion trap with integrated waveguides produces no additional heating and modest frequency shifts due to photoinduced charging when uv light is delivered to an ion, thus providing the stability needed for compact quantum timekeeping devices."
+  },
+  {
+    "record_key": "openalex:W2093798838",
+    "source": "arxiv_via_openalex",
+    "title": "A compendium of AGN inclinations with corresponding UV/optical continuum polarization measurements",
+    "year": 2014,
+    "venue": "Monthly Notices of the Royal Astronomical Society",
+    "abstract": "The anisotropic nature of active galactic nuclei (AGN) is thought to be responsible for the observational differences between type-1 (pole-on) and type-2 (edge-on) nearby Seyfert-like galaxies. In this picture, the detection of emission and/or absorption features is directly correlated to the inclination of the system. The AGN structure can be further probed by using the geometry-sensitive technique of polarimetry, yet the pairing between observed polarization and Seyfert type remains poorly examined. Based on archival data, I report here the first compilation of 53 estimated AGN inclinations matched with ultraviolet/optical continuum polarization measurements. Corrections, based on the polarization of broad emission lines, are applied to the sample of Seyfert-2 AGN to remove dilution by starburst light and derive information about the"
+  },
+  {
+    "record_key": "openalex:W3007439372",
+    "source": "arxiv_via_openalex",
+    "title": "Coherent suppression of backscattering in optical microresonators",
+    "year": 2020,
+    "venue": "Light Science & Applications",
+    "abstract": "As light propagates along a waveguide, a fraction of the field can be reflected by Rayleigh scatterers. In high-quality-factor whispering-gallery-mode microresonators, this intrinsic backscattering is primarily caused by either surface or bulk material imperfections. For several types of microresonator-based experiments and applications, minimal backscattering in the cavity is of critical importance, and thus, the ability to suppress backscattering is essential. We demonstrate that the introduction of an additional scatterer into the near field of a high-quality-factor microresonator can coherently suppress the amount of backscattering in the microresonator by more than 30 dB. The method relies on controlling the scatterer position such that the intrinsic and scatterer-induced backpropagating fields destructively interfere. This technique is useful in microresonator applications where backscattering is"
+  },
+  {
+    "record_key": "openalex:W2790646652",
+    "source": "arxiv_via_openalex",
+    "title": "Electrometry by optical charge conversion of deep defects in 4H-SiC",
+    "year": 2018,
+    "venue": "Proceedings of the National Academy of Sciences",
+    "abstract": "Optically active point defects in various host materials, such as diamond and silicon carbide (SiC), have shown significant promise as local sensors of magnetic fields, electric fields, strain, and temperature. Modern sensing techniques take advantage of the relaxation and coherence times of the spin state within these defects. Here we show that the defect charge state can also be used to sense the environment, in particular high-frequency (megahertz to gigahertz) electric fields, complementing established spin-based techniques. This is enabled by optical charge conversion of the defects between their photoluminescent and dark charge states, with conversion rate dependent on the electric field (energy density). The technique provides an all-optical high-frequency electrometer which is tested in 4H-SiC for both ensembles of divacancies"
+  },
+  {
+    "record_key": "openalex:W2777799209",
+    "source": "arxiv_via_openalex",
+    "title": "Optical-NIR dust extinction towards Galactic O stars",
+    "year": 2018,
+    "venue": "Astronomy and Astrophysics",
+    "abstract": "Context. O stars are excellent tracers of the intervening ISM because of their high luminosity, blue intrinsic SED, and relatively featureless spectra. We are currently conducting the Galactic O-Star Spectroscopic Survey (GOSSS), which is generating a large sample of O stars with accurate spectral types within several kpc of the Sun. Aims. We aim to obtain a global picture of the properties of dust extinction in the solar neighborhood based on optical-NIR photometry of O stars with accurate spectral types. Methods. We have processed a carefully selected photometric set with the CHORIZOS code to measure the amount [E(4405 − 5495)] and type [R5495] of extinction towards 562 O-type stellar systems. We have tested three different families of extinction laws and"
+  },
+  {
+    "record_key": "openalex:W2905955460",
+    "source": "arxiv_via_openalex",
+    "title": "High-Frequency Stochastic Switching of Graphene Resonators Near Room Temperature",
+    "year": 2019,
+    "venue": "Nano Letters",
+    "abstract": "Stochastic switching between the two bistable states of a strongly driven mechanical resonator enables detection of weak signals based on probability distributions, in a manner that mimics biological systems. However, conventional silicon resonators at the microscale require a large amount of fluctuation power to achieve a switching rate in the order of a few hertz. Here, we employ graphene membrane resonators of atomic thickness to achieve a stochastic switching rate of 4.1 kHz, which is 100 times faster than current state-of-the-art. The (effective) temperature of the fluctuations is approximately 400 K, which is 3000 times lower than the state-of-the-art. This shows that these membranes are potentially useful to transduce weak signals in the audible frequency domain. Furthermore, we perform numerical"
+  },
+  {
+    "record_key": "openalex:W2140137154",
+    "source": "arxiv_via_openalex",
+    "title": "parsec : stellar tracks and isochrones with the PAdova and TRieste Stellar Evolution Code",
+    "year": 2012,
+    "venue": "Monthly Notices of the Royal Astronomical Society",
+    "abstract": "We present the updated version of the code used to compute stellar evolutionary tracks in Padova. It is the result of a thorough revision of the major input physics, together with the inclusion of the pre-main sequence phase, not present in our previous releases of stellar models. Another innovative aspect is the possibility of promptly generating accurate opacity tables fully consistent with any selected initial chemical composition, by coupling the Opacity Project At Livermore (OPAL) data at high temperatures to the molecular opacities computed with our æsopus code. In this work, we present extended sets of stellar evolutionary models for various initial chemical compositions, while other sets with different metallicities and/or different distributions of heavy elements are being computed. For"
+  },
+  {
+    "record_key": "openalex:W3197509838",
+    "source": "arxiv_via_openalex",
+    "title": "Transfer Learning for Neural Networks-based Equalizers in Coherent Optical Systems",
+    "year": 2021,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "In this work, we address the question of the adaptability of artificial neural networks (NNs) used for impairments mitigation in optical transmission systems. We demonstrate that by using well-developed techniques based on the concept of transfer learning, we can efficaciously retrain NN-based equalizers to adapt to the changes in the transmission system, using just a fraction (down to 1%) of the initial training data or epochs. We evaluate the capability of transfer learning to adapt the NN to changes in the launch power, modulation format, symbol rate, or even fiber plants (different fiber types and lengths). The numerical examples utilize the recently introduced NN equalizer consisting of a convolutional layer coupled with bi-directional long-short term memory (biLSTM) recurrent NN element."
+  },
+  {
+    "record_key": "openalex:W2506574219",
+    "source": "arxiv_via_openalex",
+    "title": "Transport and optical conductivity in the Hubbard model: A high-temperature expansion perspective",
+    "year": 2016,
+    "venue": "Physical review. B./Physical review. B",
+    "abstract": "We derive analytical expressions for the spectral moments of the dynamical response functions of the Hubbard model using the high-temperature series expansion. We consider generic dimension $d$ as well as the infinite-$d$ limit, arbitrary electron density $n$, and both finite and infinite repulsion $U$. We use moment-reconstruction methods to obtain the one-electron spectral function, the self-energy, and the optical conductivity. They are all smooth functions at high temperature and, at large $U$, they are featureless with characteristic widths of the order of the lattice hopping parameter $t$. In the infinite-$d$ limit, we compare the series expansion results with accurate numerical renormalization group and interaction expansion quantum Monte Carlo results. We find excellent agreement down to surprisingly low temperatures, throughout most"
+  },
+  {
+    "record_key": "openalex:W2802477242",
+    "source": "arxiv_via_openalex",
+    "title": "Chua Mem-Components for Adaptive RF Metamaterials",
+    "year": 2018,
+    "venue": null,
+    "abstract": "Chua's mem-components are ideal for creating adaptive metasurfaces for manipulating EM waves given that they hold their state without external biases. In this paper, we propose a generic adaptive reactive element that is in fact a memcapacitor/meminductor. This element makes use of a polymer that demonstrates reversible trans-cis photochemical isomerization, thus making it possible to change the distance between two conductive plates by up to 25%. Furthermore, a design methodology for utilizing these devices is presented."
+  },
+  {
+    "record_key": "openalex:W2135422000",
+    "source": "arxiv_via_openalex",
+    "title": "MEMS-Reconfigurable Metamaterials and Antenna Applications",
+    "year": 2014,
+    "venue": "International Journal of Antennas and Propagation",
+    "abstract": "This paper reviews some of our contributions to reconfigurable metamaterials, where dynamic control is enabled by microelectromechanical systems (MEMS) technology. First, we show reconfigurable composite right-/left-handed transmission lines (CRLH-TLs) having state of the art phase velocity variation and loss, thereby enabling efficient reconfigurable phase shifters and leaky-wave antennas (LWA). Second, we present very low loss metasurface designs with reconfigurable reflection properties, applicable in reflectarrays and partially reflective surface (PRS) antennas. All the presented devices have been fabricated and experimentally validated. They operate in X- and Ku-bands."
+  },
+  {
+    "record_key": "openalex:W2749793803",
+    "source": "arxiv_via_openalex",
+    "title": "Gradient metasurfaces: a review of fundamentals and applications",
+    "year": 2017,
+    "venue": "Reports on Progress in Physics",
+    "abstract": "In the wake of intense research on metamaterials the two-dimensional analogue, known as metasurfaces, has attracted progressively increasing attention in recent years due to the ease of fabrication and smaller insertion losses, while enabling an unprecedented control over spatial distributions of transmitted and reflected optical fields. Metasurfaces represent optically thin planar arrays of resonant subwavelength elements that can be arranged in a strictly or quasi periodic fashion, or even in an aperiodic manner, depending on targeted optical wavefronts to be molded with their help. This paper reviews a broad subclass of metasurfaces, viz. gradient metasurfaces, which are devised to exhibit spatially varying optical responses resulting in spatially varying amplitudes, phases and polarizations of scattered fields. Starting with introducing the concept"
+  },
+  {
+    "record_key": "openalex:W2168970702",
+    "source": "arxiv_via_openalex",
+    "title": "Free Space Optical Communication: Challenges and Mitigation Techniques",
+    "year": 2015,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "In recent years, free space optical (FSO) communication has gained significant importance owing to its unique features: large bandwidth, license free spectrum, high data rate, easy and quick deployability, less power and low mass requirement. FSO communication uses optical carrier in the near infrared (IR) and visible band to establish either terrestrial links within the Earths atmosphere or inter-satellite or deep space links or ground to satellite or satellite to ground links. However, despite of great potential of FSO communication, its performance is limited by the adverse effects (viz., absorption, scattering and turbulence) of the atmospheric channel. Out of these three effects, the atmospheric turbulence is a major challenge that may lead to serious degradation in the bit error rate"
+  },
+  {
+    "record_key": "openalex:W7171539399",
+    "source": "arxiv_via_openalex",
+    "title": "Quantum-Level Crosstalk Characterization of a 16x16 MEMS Optical Switch for Dynamic Quantum Communications",
+    "year": 2026,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "We present an all-to-all quantum-level crosstalk characterization of a commercial 16x16 MEMS optical switch for multi-user quantum communications using SNSPDs, correlating experimental data with a theoretical impact analysis on the decoy-state BB84 QKD protocol."
+  },
+  {
+    "record_key": "openalex:W2415922876",
+    "source": "arxiv_via_openalex",
+    "title": "Information Rates of Next-Generation Long-Haul Optical Fiber Systems Using Coded Modulation",
+    "year": 2016,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "A comprehensive study of the coded performance of long-haul spectrally-efficient WDM optical fiber transmission systems with different coded modulation decoding structures is presented. Achievable information rates are derived for three different square quadrature-amplitude modulation (QAM) formats and the optimal format is identified as a function of distance and specific decoder implementation. The four cases analyzed combine hard-decision (HD) or soft-decision (SD) decoding together with either a bit-wise or a symbol-wise demapper, the last two suitable for binary and nonbinary codes, respectively. The information rates achievable for each scheme are calculated based on the mismatched decoder principle. These quantities represent true indicators of the coded performance of the system for specific decoder implementations and when the modulation format and its input"
+  },
+  {
+    "record_key": "openalex:W3041760305",
+    "source": "arxiv_via_openalex",
+    "title": "Parylene photonics: a flexible, broadband optical waveguide platform with integrated micromirrors for biointerfaces",
+    "year": 2020,
+    "venue": "Microsystems & Nanoengineering",
+    "abstract": "Abstract Targeted light delivery into biological tissue is needed in applications such as optogenetic stimulation of the brain and in vivo functional or structural imaging of tissue. These applications require very compact, soft, and flexible implants that minimize damage to the tissue. Here, we demonstrate a novel implantable photonic platform based on a high-density, flexible array of ultracompact (30 μm × 5 μm), low-loss (3.2 dB/cm at λ = 680 nm, 4.1 dB/cm at λ = 633 nm, 4.9 dB/cm at λ = 532 nm, 6.1 dB/cm at λ = 450 nm) optical waveguides composed of biocompatible polymers Parylene C and polydimethylsiloxane (PDMS). This photonic platform features unique embedded input/output micromirrors that redirect light from the waveguides perpendicularly to the"
+  },
+  {
+    "record_key": "openalex:W7197053020",
+    "source": "arxiv_via_openalex",
+    "title": "Zero-change foundry compatible silicon photonics MEMS optical switch",
+    "year": 2026,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "Large-scale photonic switches are emerging as essential devices for energy-efficient optical interconnect in data centers and AI/ML clusters as a key enabler for high-bandwidth and low-latency connectivity. Combining micro-electro-mechanical (MEMS) based mechanical reconfigurability with silicon photonic integrated circuits can enable a large-scale, low-loss, programmable platform required for large-scale optical circuit switches. We demonstrate a broadband silicon photonics MEMS switch with more than 30 dB extinction ratio operating in C-band using a zero-change foundry-compatible process and Back-end-of-Line (BEOL) post-processing. The optical switch element exhibits an insertion loss of less than 1.5 dB with a low static power consumption of approx 20 nW at maximum actuation voltage. Our results illustrate that MEMS-based silicon photonics modulators and phase shifters can be used alongside"
+  },
+  {
+    "record_key": "openalex:W3020861576",
+    "source": "arxiv_via_openalex",
+    "title": "Optical Wireless Communications for In-Body and Transdermal Biomedical Applications",
+    "year": 2021,
+    "venue": "IEEE Communications Magazine",
+    "abstract": "This article discusses the fundamental architectures for optical-wireless-systems for biomedical-ap-plications. After summarizing the main applications and reporting their requirements, we describe the characteristics of the transdermal and in-body optical channels (OCs) as well as the challenges that they impose in the design of communication systems. Specifically, we provide three possible architectures for transdermal communications, namely electro-optical monitoring, opto-electrical, and all-optical (AO), for neural stimulation, which are currently under investigation, whereas for in-body communications, we provide a nano-scale AO concept. For each architecture, we discuss the main operation principles, the technology enablers, and research directions for their development. Finally, we highlight the necessity of designing an infor-mation-theoretic framework for the analysis and design of the physical and medium access control layers,"
+  },
+  {
+    "record_key": "openalex:W2765463956",
+    "source": "arxiv_via_openalex",
+    "title": "Subnanometer localization accuracy in widefield optical microscopy",
+    "year": 2018,
+    "venue": "Light Science & Applications",
+    "abstract": "The common assumption that precision is the limit of accuracy in localization microscopy and the typical absence of comprehensive calibration of optical microscopes lead to a widespread issue-overconfidence in measurement results with nanoscale statistical uncertainties that can be invalid due to microscale systematic errors. In this article, we report a comprehensive solution to this underappreciated problem. We develop arrays of subresolution apertures into the first reference materials that enable localization errors approaching the atomic scale across a submillimeter field. We present novel methods for calibrating our microscope system using aperture arrays and develop aberration corrections that reach the precision limit of our reference materials. We correct and register localization data from multiple colors and test different sources of light emission"
+  },
+  {
+    "record_key": "openalex:W7172527693",
+    "source": "arxiv_via_openalex",
+    "title": "Zero-change foundry compatible silicon photonics MEMS optical switch",
+    "year": 2026,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "Large-scale photonic switches are emerging as essential devices for energy-efficient optical interconnect in data centers and AI/ML clusters as a key enabler for high-bandwidth and low-latency connectivity. Combining micro-electro-mechanical (MEMS) based mechanical reconfigurability with silicon photonic integrated circuits can enable a large-scale, low-loss, programmable platform required for large-scale optical circuit switches. We demonstrate a broadband silicon photonics MEMS switch with more than 30 dB extinction ratio operating in C-band using a zero-change foundry-compatible process and Back-end-of-Line (BEOL) post-processing. The optical switch element exhibits an insertion loss of less than 1.5 dB with a low static power consumption of approx 20 nW at maximum actuation voltage. Our results illustrate that MEMS-based silicon photonics modulators and phase shifters can be used alongside"
+  },
+  {
+    "record_key": "openalex:W2414938201",
+    "source": "arxiv_via_openalex",
+    "title": "Performance Prediction of Nonbinary Forward Error Correction in Optical Transmission Experiments",
+    "year": 2016,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "In this paper, we compare different metrics to predict the error rate of optical systems based on nonbinary forward error correction (FEC). It is shown that an accurate metric to predict the performance of coded modulation based on nonbinary FEC is the mutual information. The accuracy of the prediction is verified in a detailed example with multiple constellation formats and FEC overheads, in both simulations and optical transmission experiments over a recirculating loop. It is shown that the employed FEC codes must be universal if performance prediction based on thresholds is used. A tutorial introduction into the computation of the thresholds from optical transmission measurements is also given."
+  },
+  {
+    "record_key": "openalex:W2795835319",
+    "source": "arxiv_via_openalex",
+    "title": "Topological photonics",
+    "year": 2014,
+    "venue": "Nature Photonics",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W2898615816",
+    "source": "arxiv_via_openalex",
+    "title": "Design of a novel nanoscale high-performance phase-change silicon photonic switch",
+    "year": 2018,
+    "venue": "Photonics and Nanostructures - Fundamentals and Applications",
+    "abstract": ""
+  }
+]

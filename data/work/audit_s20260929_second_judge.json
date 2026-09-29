@@ -1,0 +1,217 @@
+{
+ "judge": "second judge, the run 2 audit after the anchor papers (seed 20260929) stage 7 round 1, blind to audit_s20260929_judgments.json",
+ "source": "data/work/audit_s20260929_judge_input.json plus the cited abstracts in data/db/papers.sqlite, data/work/route_*.json and data/projects.csv",
+ "criterion": "supported when the quoted text states the value under the label definition (comparison-framework and ocs-domain skills); for trl_band and ai_cluster_fit, also no route abstract or projects.csv quote showing a different band or use",
+ "judgments": [
+  {
+   "cell": "electro_optic:scaling_limit",
+   "value": "Crosstalk limits fabric scalability; non-uniform effects from fabrication errors must be corrected across all switch units",
+   "judgment": "supported",
+   "supported": true,
+   "reason": "W2062631387 says reducing crosstalk increases switch fabric scalability, so crosstalk limits it; W2587610600's quoted sentence opens 'To construct large-scale silicon electro-optical switches' and corrects non-uniform effects from fabrication errors across all switch units."
+  },
+  {
+   "cell": "thermo_optic:ai_cluster_fit",
+   "value": "yes",
+   "judgment": "supported",
+   "supported": true,
+   "reason": "W4391878049 names co-integration with GPUs for datacenter AI traffic and W4384820653 proposes collapsing the multi-tier network above tier-1 into a single optical tier (spine replacement)."
+  },
+  {
+   "cell": "mems_3d:ai_cluster_fit",
+   "value": "yes",
+   "judgment": "supported",
+   "supported": true,
+   "reason": "W2560361359 switches data center ports between interconnection topologies and W2792477041 builds reconfigurable inter-rack links (reconfigurable topologies); projects.csv row 11 names AI data center networking (vendor claim, concept prototypes)."
+  },
+  {
+   "cell": "electro_optic:trl_band",
+   "value": "lab",
+   "judgment": "supported",
+   "supported": true,
+   "reason": "W2015534895 is a fabricated 4x4 switch; no electro_optic route abstract or projects.csv row shows a field trial or product."
+  },
+  {
+   "cell": "thermo_optic:trl_band",
+   "value": "lab",
+   "judgment": "supported",
+   "supported": true,
+   "reason": "W2758695468 demonstrates a packaged 32 x 32 chip, a lab build; route abstracts only say mass production is possible, none reports a field trial or product."
+  },
+  {
+   "cell": "thermo_optic:scaling_limit",
+   "value": "Waveguide crossings multiply with port count and raise path-dependent loss; control units and drive wiring grow quickly with port count",
+   "judgment": "supported",
+   "supported": true,
+   "reason": "Both quotes state the limits directly: path-dependent loss from crossings that grow with port count, and control units and drive wiring that grow with port count."
+  },
+  {
+   "cell": "lcos:packaging_notes",
+   "value": "Assembly integrates a multicore fiber collimator, a spatial multiplexer/demultiplexer array and an LCoS spatial light modulator",
+   "judgment": "supported",
+   "supported": true,
+   "reason": "The quote lists exactly the three integrated parts the value names; the MCF collimator is the fiber attach. Caveat: this is an assembly component list more than packaging detail."
+  },
+  {
+   "cell": "mems_3d:integration",
+   "value": "free_space_bulk",
+   "judgment": "supported",
+   "supported": true,
+   "reason": "A fiber collimator array facing a MEMS mirror array is the free_space_bulk definition (collimator arrays at the ports, beams between mirrors)."
+  },
+  {
+   "cell": "mems_3d:trl_band",
+   "value": "production",
+   "judgment": "supported",
+   "supported": true,
+   "reason": "Apollo (W4292950821) is a large-scale production deployment that forms most of the data center networks, and projects.csv row 4 reports over 1 million ports shipped."
+  },
+  {
+   "cell": "mems_2d:integration",
+   "value": "free_space_bulk",
+   "judgment": "supported",
+   "supported": true,
+   "reason": "Reflective 2D MEMS switches reflect beams off micromirrors, which is free_space_bulk; weak because the quote does not say free space in words (confidence low is right)."
+  },
+  {
+   "cell": "mems_2d:trl_band",
+   "value": "lab",
+   "judgment": "supported",
+   "supported": true,
+   "reason": "W1653883346 demonstrates fabricated 16x16 switches; no mems_2d route abstract has a pilot or production signal."
+  },
+  {
+   "cell": "mems_2d:ai_cluster_fit",
+   "value": "no",
+   "judgment": "supported",
+   "supported": true,
+   "reason": "The quote names fiber optic telecommunications as the use, and no mems_2d route abstract mentions data centers, accelerators or reconfigurable topologies, so 'no' (telecom only) holds."
+  },
+  {
+   "cell": "mems_silicon_photonic:integration",
+   "value": "integrated_photonic",
+   "judgment": "supported",
+   "supported": true,
+   "reason": "Silicon photonics with MEMS actuation on one chip is integrated_photonic."
+  },
+  {
+   "cell": "mems_silicon_photonic:trl_band",
+   "value": "lab",
+   "judgment": "supported",
+   "supported": true,
+   "reason": "W2782897921 is a fabricated experimental prototype; nEye row 8 is stage prototype and 'lab to fab' shows no pilot run or product."
+  },
+  {
+   "cell": "mems_silicon_photonic:ai_cluster_fit",
+   "value": "yes",
+   "judgment": "supported",
+   "supported": true,
+   "reason": "W7172527693 names data centers and AI/ML clusters as the target of large-scale photonic switches."
+  },
+  {
+   "cell": "lcos:integration",
+   "value": "free_space_bulk",
+   "judgment": "supported",
+   "supported": true,
+   "reason": "W3034334810 calls its switch free-space-optics-based, and a later sentence of the same abstract names the LCoS spatial light modulator."
+  },
+  {
+   "cell": "lcos:trl_band",
+   "value": "lab",
+   "judgment": "supported",
+   "supported": true,
+   "reason": "W3034334810 reports a 5-core 1 x 6 prototype; no lcos route abstract has a pilot or production signal, and projects.csv row 3 (Coherent) announces an OCS without stating it ships."
+  },
+  {
+   "cell": "lcos:ai_cluster_fit",
+   "value": "yes",
+   "judgment": "supported",
+   "supported": true,
+   "reason": "Both quotes propose SDN-reconfigured data center networks built on a WSS (reconfigurable topologies = yes). Caveat: neither names LCoS, so the route link rests on the WSS signal word in the ocs-domain skill."
+  },
+  {
+   "cell": "piezo:integration",
+   "value": "free_space_bulk",
+   "judgment": "supported",
+   "supported": true,
+   "reason": "Collimated beams aligned between opposing fiber arrays is free_space_bulk."
+  },
+  {
+   "cell": "piezo:trl_band",
+   "value": "lab",
+   "judgment": "supported",
+   "supported": true,
+   "reason": "W2591729902 reports a first built multi-lane switch, a lab device. Caveat: projects.csv row 5 (Polatis) has stage shipping, but its quote states only the mechanism, so no quote shows production."
+  },
+  {
+   "cell": "piezo:ai_cluster_fit",
+   "value": "yes",
+   "judgment": "supported",
+   "supported": true,
+   "reason": "W4323644257 proposes a re-configurable DCN with PZT beam steering and W2068954499 uses beam-steering fiber switches as programmable cluster switches in a DCN (reconfigurable topologies)."
+  },
+  {
+   "cell": "thermo_optic:integration",
+   "value": "integrated_photonic",
+   "judgment": "supported",
+   "supported": true,
+   "reason": "1024 thermo-optic MZ switches and 961 intersections on one die is integrated_photonic."
+  },
+  {
+   "cell": "electro_optic:integration",
+   "value": "integrated_photonic",
+   "judgment": "supported",
+   "supported": true,
+   "reason": "Monolithically integrated semiconductor matrix switches is integrated_photonic."
+  },
+  {
+   "cell": "electro_optic:ai_cluster_fit",
+   "value": "partial",
+   "judgment": "supported",
+   "supported": true,
+   "reason": "Quotes name data center interconnection and HPC switch replacement, which is data center networks generally (partial); no electro_optic-primary abstract names accelerators, reconfigurable topologies or a spine layer."
+  },
+  {
+   "cell": "soa:integration",
+   "value": "integrated_photonic",
+   "judgment": "supported",
+   "supported": true,
+   "reason": "A monolithic InGaAsP/InP 4 x 4 cross-connect is integrated_photonic."
+  },
+  {
+   "cell": "soa:trl_band",
+   "value": "lab",
+   "judgment": "supported",
+   "supported": true,
+   "reason": "Designed, fabricated and demonstrated is lab; no soa route abstract has a pilot or production signal."
+  },
+  {
+   "cell": "soa:ai_cluster_fit",
+   "value": "yes",
+   "judgment": "supported",
+   "supported": true,
+   "reason": "W3093967660 proposes OCS to remove electrical switches in the network core (spine replacement) and its abstract later builds the OCS from SOAs; W4220911475 builds a reconfigurable DCN on SOA selectors."
+  },
+  {
+   "cell": "robotic_patch_panel:integration",
+   "value": "mechanical_fiber",
+   "judgment": "supported",
+   "supported": true,
+   "reason": "A fiber-handling robot reconnecting optical connectors is mechanical_fiber."
+  },
+  {
+   "cell": "robotic_patch_panel:trl_band",
+   "value": "production",
+   "judgment": "supported",
+   "supported": true,
+   "reason": "A product launch announcement (projects.csv row 6) is 'sold as a product'. Vendor claim, and a launch is weaker than 'shipping'."
+  },
+  {
+   "cell": "robotic_patch_panel:ai_cluster_fit",
+   "value": "no",
+   "judgment": "supported",
+   "supported": true,
+   "reason": "The only route paper names intelligent buildings and optical access networks; no data center or accelerator use, so 'no' holds."
+  }
+ ]
+}

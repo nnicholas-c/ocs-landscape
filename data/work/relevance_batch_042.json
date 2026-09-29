@@ -1,0 +1,202 @@
+[
+  {
+    "record_key": "openalex:W2049503351",
+    "source": "arxiv_via_openalex",
+    "title": "Experimental realization of photonic topological insulator in a uniaxial metacrystal waveguide",
+    "year": 2014,
+    "venue": "Nature Communications",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W2512049535",
+    "source": "arxiv_via_openalex",
+    "title": "Slow-light-enhanced energy efficiency for graphene microheaters on silicon photonic crystal waveguides",
+    "year": 2017,
+    "venue": "Nature Communications",
+    "abstract": "Abstract Slow light has been widely utilized to obtain enhanced nonlinearities, enhanced spontaneous emissions and increased phase shifts owing to its ability to promote light–matter interactions. By incorporating a graphene on a slow-light silicon photonic crystal waveguide, here we experimentally demonstrate an energy-efficient graphene microheater with a tuning efficiency of 1.07 nmmW −1 and power consumption per free spectral range of 3.99 mW. The rise and decay times (10–90%) are only 750 and 525 ns, which, to the best of our knowledge, are the fastest reported response times for microheaters in silicon photonics. The corresponding figure of merit of the device is 2.543 nW s, one order of magnitude better than results reported in previous studies. The influence of the"
+  },
+  {
+    "record_key": "openalex:W2801124900",
+    "source": "arxiv_via_openalex",
+    "title": "Controlling evanescent waves using silicon photonic all-dielectric metamaterials for dense integration",
+    "year": 2018,
+    "venue": "Nature Communications",
+    "abstract": "Ultra-compact, densely integrated optical components manufactured on a CMOS-foundry platform are highly desirable for optical information processing and electronic-photonic co-integration. However, the large spatial extent of evanescent waves arising from nanoscale confinement, ubiquitous in silicon photonic devices, causes significant cross-talk and scattering loss. Here, we demonstrate that anisotropic all-dielectric metamaterials open a new degree of freedom in total internal reflection to shorten the decay length of evanescent waves. We experimentally show the reduction of cross-talk by greater than 30 times and the bending loss by greater than 3 times in densely integrated, ultra-compact photonic circuit blocks. Our prototype all-dielectric metamaterial-waveguide achieves a low propagation loss of approximately 3.7±1.0 dB/cm, comparable to those of silicon strip waveguides. Our approach marks a"
+  },
+  {
+    "record_key": "openalex:W2913891200",
+    "source": "arxiv_via_openalex",
+    "title": "A BaTiO3-Based Electro-Optic Pockels Modulator Monolithically Integrated on an Advanced Silicon Photonics Platform",
+    "year": 2019,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "To develop a new generation of high-speed photonic modulators on silicon-technology-based photonics, new materials with large Pockels coefficients have been transferred to silicon substrates. Previous approaches focus on realizing stand-alone devices on dedicated silicon substrates, incompatible with the fabrication process in silicon foundries. In this work, we demonstrate monolithic integration of electro-optic modulators based on the Pockels effect in barium titanate (BTO) thin films into the back-end-of-line of a photonic integrated circuit (PIC) platform. Molecular wafer bonding allows fully PIC-compatible integration of BTO-based devices and is, as shown, scalable to 200 mm wafers. The PIC-integrated BTO Mach-Zehnder modulators outperform conventional Si photonic modulators in modulation efficiency, losses, and static tuning power. The devices show excellent VπL (0.2 Vcm) and VπLα"
+  },
+  {
+    "record_key": "openalex:W2069117216",
+    "source": "arxiv_via_openalex",
+    "title": "Wavelength-Selective Switches for Mode-Division Multiplexing: Scaling and Performance Analysis",
+    "year": 2014,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "Wavelength-selective switches for mode-division-multiplexing systems are designed by scaling switches from single-mode systems. All modes at a given wavelength are switched as a unit, which is necessary in systems with substantial mode coupling, and minimizes the number of ports required to accommodate a given traffic volume. When a pure mode is present at the input, modal transmission and coupling coefficients are mode-dependent and may be computed using a simple mode-clipping model. When multiple modes are present, interference between modes alters the transmission and coupling coefficients, shifting the passband center frequency and changing its bandwidth. Mode-coupling matrices are used to compute mixed modes having the narrowest or widest bandwidths, or having the largest center-frequency offsets. In a specific design for graded-index"
+  },
+  {
+    "record_key": "openalex:W2338257997",
+    "source": "arxiv_via_openalex",
+    "title": "Wavelength-Selective Switches for Mode-Division-Multiplexed Systems",
+    "year": 2014,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "Wavelength-selective switches for mode-division-multiplexing systems are designed by scaling switches from single-mode systems. All modes at a given wavelength are switched as a unit, which is necessary in systems with substantial mode coupling, and minimizes the number of ports required to accommodate a given traffic volume. When a pure mode is present at the input, modal transmission and coupling coefficients are mode-dependent and may be computed using a simple mode-clipping model. When multiple modes are present, interference between modes alters the transmission and coupling coefficients, shifting the passband center frequency and changing its bandwidth. Mode-coupling matrices are used to compute mixed modes having the narrowest or widest bandwidths, or having the largest center-frequency offsets. In a specific design for graded-index"
+  },
+  {
+    "record_key": "openalex:W4387294245",
+    "source": "arxiv_via_openalex",
+    "title": "Fine-Resolution Silicon Photonic Wavelength-Selective Switch Using Hybrid Multimode Racetrack Resonators",
+    "year": 2023,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "In this work, we describe a procedure for synthesizing racetrack resonators with large quality factors and apply it to realize a multi-channel wavelength-selective switch (WSS) on a silicon photonic chip. We first determine the contribution of each component primitive to propagation loss in a racetrack resonator and use this data to develop a model for the frequency response of arbitrary order, coupled-racetrack channel dropping filters. We design second-order racetrack filters based on this model and cascade multiple such filters to form a 1x7 WSS. We find good agreement between our model and device performance with second-order racetrack that have ~1 dB of drop-port loss, ~2 GHz FWHM linewidth, and low optical crosstalk due to the quick filter roll-off of ~"
+  },
+  {
+    "record_key": "openalex:W2765933076",
+    "source": "arxiv_via_openalex",
+    "title": "Control over emissivity of zero-static-power thermal emitters based on phase-changing material GST",
+    "year": 2016,
+    "venue": "Light Science & Applications",
+    "abstract": "Controlling the emissivity of a thermal emitter has attracted growing interest, with a view toward a new generation of thermal emission devices. To date, all demonstrations have involved using sustained external electric or thermal consumption to maintain a desired emissivity. In the present study, we demonstrated control over the emissivity of a thermal emitter consisting of a film of phase-changing material Ge2Sb2Te5 (GST) on top of a metal film. This thermal emitter achieves broad wavelength-selective spectral emissivity in the mid-infrared. The peak emissivity approaches the ideal blackbody maximum, and a maximum extinction ratio of >10 dB is attainable by switching the GST between the crystalline and amorphous phases. By controlling the intermediate phases, the emissivity can be continuously tuned. This"
+  },
+  {
+    "record_key": "openalex:W3094158907",
+    "source": "arxiv_via_openalex",
+    "title": "Adaptive bandwidth management for entanglement distribution in quantum networks",
+    "year": 2021,
+    "venue": "Optica",
+    "abstract": "Flexible grid wavelength division multiplexing is a powerful tool in lightwave communications to maximize spectral efficiency. In the emerging field of quantum networking, the need for effective resource provisioning is particularly acute, given the generally lower power levels, higher sensitivity to loss, and inapplicability of optical detection and retransmission. In this letter, we leverage flex grid technology to demonstrate reconfigurable distribution of quantum entanglement in a four-user tabletop network. By adaptively partitioning bandwidth with a single wavelength-selective switch, we successfully equalize two-party coincidence rates that initially differ by over two orders of magnitude. Our scalable approach introduces loss that is fixed with the number of users, offering a practical path for the establishment and management of quality-of-service guarantees in large"
+  },
+  {
+    "record_key": "openalex:W2214636898",
+    "source": "arxiv_via_openalex",
+    "title": "Selective scattering between Floquet–Bloch and Volkov states in a topological insulator",
+    "year": 2016,
+    "venue": "Nature Physics",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W4403346542",
+    "source": "arxiv_via_openalex",
+    "title": "Dilated space-and-wavelength selective crosspoint optical switch",
+    "year": 2024,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "Photonic integrated switches that are both space and wavelength selective are a highly promising technology for data-intensive applications as they benefit from multi-dimensional manipulation of optical signals. However, scaling these switches normally poses stringent challenges such as increased fabrication complexity and control difficulties, due to the growing number of switching elements. In this work, we propose a new type of dilated crosspoint topology, which efficiently handles both space and wavelength selective switching, while reducing the required switching element count by an order of magnitude compared to reported designs. To the best of our knowledge, our design requires the fewest switching elements for an equivalent routing paths number and it fully cancels the first-order in-band crosstalk. We demonstrate such an ultra-compact"
+  },
+  {
+    "record_key": "openalex:W3043229950",
+    "source": "arxiv_via_openalex",
+    "title": "Multispectral graphene-based electro-optical surfaces with reversible tunability from visible to microwave wavelengths",
+    "year": 2021,
+    "venue": "Nature Photonics",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W2604599284",
+    "source": "arxiv_via_openalex",
+    "title": "Exponential Improvement in Photon Storage Fidelities Using Subradiance and “Selective Radiance” in Atomic Arrays",
+    "year": 2017,
+    "venue": "Physical Review X",
+    "abstract": "Light interacting with an ensemble of atoms can be used in quantum information processing, but the efficiency of performing any given task is limited by spontaneous emission of photons into channels that are not usable. A new analysis shows how interference among light emitted by nearby atoms can dramatically improve this efficiency and provide a much more powerful platform."
+  },
+  {
+    "record_key": "openalex:W3094175530",
+    "source": "arxiv_via_openalex",
+    "title": "Ultrafast phononic switching of magnetization",
+    "year": 2021,
+    "venue": "Nature Physics",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W2168027258",
+    "source": "arxiv_via_openalex",
+    "title": "Electrically Tunable Selective Reflection of Light from Ultraviolet to Visible and Infrared by Heliconical Cholesterics",
+    "year": 2015,
+    "venue": "Advanced Materials",
+    "abstract": "Electrical tuning of selective reflection of light is achieved in a very broad spectral range from ultraviolet to visible and infrared by an oblique helicoidal state of a cholesteric liquid crystal in a wide temperature range (including room temperature). The phenomenon offers potential applications in tunable smart windows, lasers, optical filters and limiters, as well as in displays."
+  },
+  {
+    "record_key": "openalex:W2798798938",
+    "source": "arxiv_via_openalex",
+    "title": "Unravelling the role of vacancies in lead halide perovskite through electrical switching of photoluminescence",
+    "year": 2018,
+    "venue": "Nature Communications",
+    "abstract": "Abstract We address the behavior in which a bias voltage can be used to switch on and off the photoluminescence of a planar film of methylammonium lead triiodide perovskite (MAPbI 3 ) semiconductor with lateral symmetric electrodes. It is observed that a dark region advances from the positive electrode at a slow velocity of order of 10 μm s –1 . Here we explain the existence of the sharp front by a drift of ionic vacancies limited by local saturation, that induce defects and drastically reduce the radiative recombination rate in the film. The model accounts for the time dependence of electrical current due to the ion-induced doping modification, that changes local electron and hole concentration with the drift of"
+  },
+  {
+    "record_key": "openalex:W2911535389",
+    "source": "arxiv_via_openalex",
+    "title": "Controlling phonons and photons at the wavelength scale: integrated photonics meets integrated phononics",
+    "year": 2019,
+    "venue": "Optica",
+    "abstract": "Radio-frequency communication systems have long used bulk-and surface-acoustic-wave devices supporting ultrasonic mechanical waves to manipulate and sense signals.These devices have greatly improved our ability to process microwaves by interfacing them to orders-of-magnitude slower and lower-loss mechanical fields.In parallel, longdistance communications have been dominated by low-loss infrared optical photons.As electrical signal processing and transmission approach physical limits imposed by energy dissipation, optical links are now being actively considered for mobile and cloud technologies.Thus there is a strong driver for wavelength-scale mechanical wave or \"phononic\" circuitry fabricated by scalable semiconductor processes.With the advent of these circuits, new microand nanostructures that combine electrical, optical, and mechanical elements have emerged.In these devices, such as optomechanical waveguides and resonators, optical photons and gigahertz phonons are"
+  },
+  {
+    "record_key": "openalex:W3168771553",
+    "source": "arxiv_via_openalex",
+    "title": "First demonstration of a C + L band CDC-ROADM with a simple node configuration using multiband switching devices",
+    "year": 2021,
+    "venue": "Optics Express",
+    "abstract": "While ultrahigh-baud-rate optical signals are effective for extending the transmission distance of large capacity signals, they also reduce the number of wavelengths that can be arranged in a band because of their wider bandwidth. This reduces the flexibility of optical path configuration in reconfigurable optical add/drop multiplexing (ROADM) networks. Particularly in colorless, directionless and contentionless (CDC)-ROADM, the effect reduces the add/drop ratio at a node. Multiband ROADM systems are an effective countermeasure for overcoming this issue, but they make the node configuration more complicated and its operation more difficult. In this paper, we analyze the challenges of C + L band CDC-ROADM and show that optical switch devices that operate over multiple bands are effective in meeting them. For this"
+  },
+  {
+    "record_key": "openalex:W2585826757",
+    "source": "arxiv_via_openalex",
+    "title": "Cyclic spectra for wavelength-routed optical networks",
+    "year": 2017,
+    "venue": "Optics Letters",
+    "abstract": "We propose occupying the guard bands in closely spaced WDM systems with redundant signal spectral components to increase tolerance to frequency misalignment and channel shaping from multiplexing elements. By cyclically repeating the spectrum of a modulated signal, we show improved tolerance to impairments due to add/drop multiplexing with a commercial wavelength selective switch in systems using 5%-20% guard bands on a 50 GHz DWDM grid."
+  },
+  {
+    "record_key": "openalex:W3111332991",
+    "source": "arxiv_via_openalex",
+    "title": "Catalytically potent and selective clusterzymes for modulation of neuroinflammation through single-atom substitutions",
+    "year": 2021,
+    "venue": "Nature Communications",
+    "abstract": "Abstract Emerging artificial enzymes with reprogrammed and augmented catalytic activity and substrate selectivity have long been pursued with sustained efforts. The majority of current candidates have rather poor catalytic activity compared with natural molecules. To tackle this limitation, we design artificial enzymes based on a structurally well-defined Au 25 cluster, namely clusterzymes, which are endowed with intrinsic high catalytic activity and selectivity driven by single-atom substitutions with modulated bond lengths. Au 24 Cu 1 and Au 24 Cd 1 clusterzymes exhibit 137 and 160 times higher antioxidant capacities than natural trolox, respectively. Meanwhile, the clusterzymes demonstrate preferential enzyme-mimicking catalytic activities, with Au 25 , Au 24 Cu 1 and Au 24 Cd 1 displaying compelling selectivity in glutathione peroxidase-like (GPx-like),"
+  },
+  {
+    "record_key": "openalex:W2754797514",
+    "source": "arxiv_via_openalex",
+    "title": "Fibre-optic metadevice for all-optical signal modulation based on coherent absorption",
+    "year": 2018,
+    "venue": "Nature Communications",
+    "abstract": "Recently, coherent control of the optical response of thin films in standing waves has attracted considerable attention, ranging from applications in excitation-selective spectroscopy and nonlinear optics to all-optical image processing. Here, we show that integration of metamaterial and optical fibre technologies allows the use of coherently controlled absorption in a fully fiberized and packaged switching metadevice. With this metadevice, which controls light with light in a nanoscale plasmonic metamaterial film on an optical fibre tip, we provide proof-of-principle demonstrations of logical functions XOR, NOT and AND that are performed within a coherent fibre network at wavelengths between 1530 and 1565 nm. The metadevice has been tested at up to 40 gigabits per second and sub-milliwatt power levels. Since coherent absorption"
+  },
+  {
+    "record_key": "openalex:W4317932616",
+    "source": "arxiv_via_openalex",
+    "title": "Third-Order Optical Nonlinearities of 2D Materials at Telecommunications Wavelengths",
+    "year": 2023,
+    "venue": "Micromachines",
+    "abstract": "All-optical signal processing based on nonlinear optical devices is promising for ultrafast information processing in optical communication systems. Recent advances in two-dimensional (2D) layered materials with unique structures and distinctive properties have opened up new avenues for nonlinear optics and the fabrication of related devices with high performance. This paper reviews the recent advances in research on third-order optical nonlinearities of 2D materials, focusing on all-optical processing applications in the optical telecommunications band near 1550 nm. First, we provide an overview of the material properties of different 2D materials. Next, we review different methods for characterizing the third-order optical nonlinearities of 2D materials, including the Z-scan technique, third-harmonic generation (THG) measurement, and hybrid device characterization, together with a summary of"
+  },
+  {
+    "record_key": "openalex:W4327725316",
+    "source": "arxiv_via_openalex",
+    "title": "All-Optical Ultrafast Valley Switching in Two-Dimensional Materials",
+    "year": 2023,
+    "venue": "Physical Review Applied",
+    "abstract": "Electrons in two-dimensional materials possess an additional quantum attribute, the valley pseudospin, labeled as $\\mathbf{K}$ and ${\\mathbf{K}}^{\\mathrm{\\ensuremath{'}}}$---analogous to the spin up and spin down. The majority of research to achieve valley-selective excitations in valleytronics depends on resonant circularly polarized light with a given helicity. Not only acquiring valley-selective electron excitation but also switching the excitation from one valley to another is quintessential for bringing valleytronics-based technologies in reality. Present work introduces a coherent control protocol to initiate valley-selective excitation, de-excitation, and switch the excitation from one valley to another on the fly within tens of femtoseconds --- a timescale faster than any valley decoherence time. Our protocol is equally applicable to both gapped and gapless two-dimensional materials. Monolayer graphene and"
+  },
+  {
+    "record_key": "openalex:W2904485030",
+    "source": "arxiv_via_openalex",
+    "title": "Toward a reconfigurable quantum network enabled by a broadband entangled source",
+    "year": 2018,
+    "venue": "Journal of the Optical Society of America B",
+    "abstract": "We present a proof-of-principle experimental demonstration of a reconfigurable entanglement distribution scheme utilizing a poled fiber-based source of broadband polarization-entangled photon pairs and dense wavelength-division multiplexing. A large bandwidth (>90 nm, centered at 1555 nm) and highly spectrally correlated nature of the entangled source can be exploited to allow for the generation of more than 25 frequency-conjugate entangled pairs when aligned to the standard 200 GHz ITU grid. In this work, three frequency-conjugate entangled pairs are used to demonstrate quantum key distribution, with the wavelength-selective switching done manually. The entangled pairs are delivered over 40 km of actual fiber, and an estimated secure key rate of up to 20 bits/s per bi-party is obtained."
+  },
+  {
+    "record_key": "openalex:W2937105903",
+    "source": "arxiv_via_openalex",
+    "title": "Nanophotonic Quantum Storage at Telecommunication Wavelength",
+    "year": 2019,
+    "venue": "Physical Review Applied",
+    "abstract": "Secure quantum communication over long distances is hindered by photon loss---a simple problem, complicated by the fact that quantum signals cannot be amplified without adding noise. The authors present on-chip quantum storage of light at telecommunication wavelength (around 1539 nm) for up to 10 $\\ensuremath{\\mu}$s, as an enabling technology for quantum repeater networks, which use distributed entanglement to overcome attenuation. High-fidelity quantum storage of light is demonstrated in a nanophotonic resonator fabricated in yttrium orthosilicate doped with erbium-167. Looking ahead, an improved resonator would yield a benchmark device on the way to scalable quantum communication networks."
+  }
+]

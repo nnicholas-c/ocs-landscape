@@ -1,0 +1,93 @@
+[
+ {
+  "line": 69,
+  "kept_id": "W2271940456",
+  "merged_key": "openalex:W1635046341",
+  "verdict": "different papers",
+  "evidence": "Conference precursor merged into a later journal letter. Merged: conference-paper, 2015-08-01, DOI 10.1109/omn.2015.7288891, pages 1-2, 6 authors. Kept: IEEE Photonics Technology Letters article, 2016-01-11, vol 28 issue 5 pp 561-564, 5 authors. Abstracts are different texts (word Jaccard 0.18). The merged one is a short conference summary and the kept one is the full letter. Author lists differ, because Wencong Zhang (A5037451400) is on the conference paper only. That author ID has no row in the DB authors table, so the merge dropped this person from the team map. Same group and same topic, but two separate publications."
+ },
+ {
+  "line": 70,
+  "kept_id": "W2340261621",
+  "merged_key": "openalex:W2186112211",
+  "verdict": "different papers",
+  "evidence": "Conference paper merged into a later journal paper. Merged: OECC conference-paper, 2015-06-01, DOI 10.1109/oecc.2015.7340301, pages 1-3. Kept: IEEE Photonics Journal article, 2016-02-11, vol 8 issue 2 pp 1-9. Titles differ only in 'MxN' vs 'M N' and case. Abstracts are different texts (word Jaccard 0.27). The conference abstract reports a 5x5 WSS experiment, while the journal abstract describes an M x N MPMT switch with multicast. Author lists differ. Keita Yamaguchi (A5107447908) and Joji Yamaguchi (A5109410360) appear only on the conference paper, and Kenzo Yamaguchi and Mikitaka Itoh appear only on the journal paper. Neither Keita nor Joji is linked to W2340261621 in paper_authors. Related work, two separate publications."
+ },
+ {
+  "line": 71,
+  "kept_id": "W2792328579",
+  "merged_key": "openalex:W2798334538",
+  "verdict": "different papers",
+  "evidence": "ECOC conference paper merged into a later journal paper by the same single author (Ken-ichi Sato). Merged: conference-paper, 2017-09-01, DOI 10.1109/ecoc.2017.8346155, pages 1-3, 7 references. Kept: Journal of Lightwave Technology article, 2018-02-02, vol 36 issue 7 pp 1411-1419, 28 references. Titles differ only in case ('Large-scale' vs 'Large-Scale'). Abstracts are different texts (word Jaccard 0.31). The merged abstract is a three-sentence talk summary and the kept one is a full journal abstract. No author is lost, but two separate publications are collapsed into one."
+ },
+ {
+  "line": 72,
+  "kept_id": "W2074285614",
+  "merged_key": "openalex:W3000564174",
+  "verdict": "same paper",
+  "evidence": "Same publication indexed under two ACM DOIs. Titles are identical and both are dated 2012-08-13. The 8 authors are the same, in the same order. Abstracts are byte-identical. Both have pages 95-96. Merged: ACM SIGCOMM Computer Communication Review vol 42 issue 4, DOI 10.1145/2377677.2377698. Kept: SIGCOMM 2012 conference-paper, DOI 10.1145/2342356.2342377. This is the same demo abstract carried in the proceedings and in CCR."
+ },
+ {
+  "line": 73,
+  "kept_id": "W2948602808",
+  "merged_key": "openalex:W3008629526",
+  "verdict": "same paper",
+  "evidence": "The merged record is a DOI-less OpenAlex work (MAG id only) built from repository copies of the review. Its locations include a White Rose PDF named Review_Crypto_v14_arxiv.pdf. The kept record is the Advances in Optics and Photonics article (DOI 10.1364/aop.361502), which carries arXiv 1906.01645. Titles differ only in case. The 18 authors are the same people in the same order, with full names on the merged record and initials on the kept one. Abstracts match at 0.82 word-sequence similarity. Most differences are missing spaces and hyphenation in the repository text, plus 'review' vs 'paper' wording. One topic in the last sentence differs, with 'quantum data locking' in the repository text and 'quantum random number generators' in the journal. That fits an earlier version of the same review. The one-year gap (2019 vs 2020) is preprint vs journal. Side issue: the kept raw record has no OpenAlex author IDs (raw authorships ids are null), so the DB keys these 18 authors by name (for example name:pirandola s). The merged record had real IDs (for example A5030087079) that were not carried over."
+ },
+ {
+  "line": 74,
+  "kept_id": "W2151668565",
+  "merged_key": "openalex:W3008830959",
+  "verdict": "same paper",
+  "evidence": "Same publication indexed under two ACM DOIs. Titles are identical and the year is 2013. The 9 authors are the same, in the same order. Both have pages 447-458. Merged: ACM SIGCOMM Computer Communication Review vol 43 issue 4, DOI 10.1145/2534169.2486007, 2013-08-27. Kept: SIGCOMM 2013 conference-paper, DOI 10.1145/2486001.2486007, 2013-08-13. Both DOIs end in the same article number 2486007. The kept abstract is a word-for-word prefix of the merged abstract, because the kept copy is truncated."
+ },
+ {
+  "line": 75,
+  "kept_id": "W2130531694",
+  "merged_key": "openalex:W4238465620",
+  "verdict": "same paper",
+  "evidence": "Same publication indexed under two ACM DOIs. Titles are identical and the date is 2008-08-17. The 3 authors are the same (Al-Fares, Loukissas, Vahdat). Both have pages 63-74. Kept: ACM SIGCOMM CCR vol 38 issue 4, DOI 10.1145/1402946.1402967. Merged: conference-paper, DOI 10.1145/1402958.1402967. Both DOIs end in the same article number 1402967. The merged abstract is a word-for-word prefix of the kept abstract."
+ },
+ {
+  "line": 76,
+  "kept_id": "W4200142051",
+  "merged_key": "openalex:W4281707213",
+  "verdict": "same paper",
+  "evidence": "Kept: Proceedings of the ACM on Measurement and Analysis of Computing Systems (POMACS) article, 2021-12-14, vol 5 issue 3 pp 1-24, DOI 10.1145/3491054. Merged: SIGMETRICS 2022 conference-paper, 2022-06-02, pp 97-98, DOI 10.1145/3489048.3522639. Titles are identical. The 3 authors (Zhao, Cao, Wang) are the same, in the same order. Abstracts match at 0.98 character similarity, and the only differences are LaTeX markup. The merged record is the 2-page conference abstract of the POMACS paper, so it is the same work at a different length. That link is general knowledge of the SIGMETRICS/POMACS model and is not stated in the data."
+ },
+ {
+  "line": 77,
+  "kept_id": "W4200142051",
+  "merged_key": "openalex:W4284882945",
+  "verdict": "same paper",
+  "evidence": "The same 2-page SIGMETRICS 2022 abstract as line 76, here the ACM SIGMETRICS Performance Evaluation Review copy. It is vol 50 issue 1 pp 97-98, 2022-06-20, DOI 10.1145/3547353.3522639. The page range and the article number 3522639 match the proceedings copy W4281707213. Its abstract is identical to W4281707213 and matches the kept POMACS abstract at 0.98 (LaTeX markup only). Titles and the 3 authors are identical. Same work as the kept POMACS article, see line 76."
+ },
+ {
+  "line": 78,
+  "kept_id": "W2971102795",
+  "merged_key": "openalex:W4310544708",
+  "verdict": "same paper",
+  "evidence": "arXiv preprint of the Optica paper. Merged: type preprint, 2018-12-22, DOI 10.48550/arxiv.1812.09610, arXiv 1812.09610. Kept: Optica vol 6 issue 9 p 1138, 2019-08-29, DOI 10.1364/optica.6.001138. Abstracts are byte-identical. The 10 authors are the same, in the same order (He, Yang, Ling, ..., Vahala, Lin). Titles differ only in a leading 'A ' and in 'LiNbO3' vs 'LiNbO 3'."
+ },
+ {
+  "line": 79,
+  "kept_id": "W4377082743",
+  "merged_key": "openalex:W4391087787",
+  "verdict": "same paper",
+  "evidence": "One OFC 2023 paper indexed under the Optica DOI (10.1364/ofc.2023.m2g.1, paper M2G.1) and the IEEE DOI (10.23919/ofc49934.2023.10116374, pages 1-3). Both are conference-papers from 2023. Titles are identical. Abstracts are byte-identical. The 14 authors are the same, in the same order (Urata, Liu, Yasumura, ..., Vahdat). This is the co-published OFC proceedings copy of one paper."
+ },
+ {
+  "line": 80,
+  "kept_id": "W4386365418",
+  "merged_key": "openalex:W4392029208",
+  "verdict": "different papers",
+  "evidence": "Separate publication of the same work at a different venue. Kept: SIGCOMM 2023 conference-paper, 2023-09-01, pp 499-515, DOI 10.1145/3603269.3604836, 45 references. Merged: IEEE MEMS 2024 conference-paper, 2024-01-21, pp 156-161, DOI 10.1109/mems58180.2024.10439411, 6 references. The merged record's referenced_works includes the kept W4386365418, so it cites the SIGCOMM paper. The 15 authors are identical and the abstract matches at 0.99. The merged abstract only adds citation markers ' [1],[2],[3],[4]' and ' [4]' and a curly apostrophe. Two distinct papers, so the merge is wrong in the strict sense. The harm is small, because no author is lost and only the MEMS 2024 publication record disappears."
+ },
+ {
+  "line": 81,
+  "kept_id": "W4410343081",
+  "merged_key": "openalex:W4414838842",
+  "verdict": "same paper",
+  "evidence": "arXiv preprint of the Communications of the ACM article. Merged: type preprint, 2025-02-22, DOI 10.48550/arxiv.2502.16228, arXiv 2502.16228. Kept: Communications of the ACM, 2025-05-13, DOI 10.1145/3708980. Titles are identical, and both have the same 2 authors (Chen Avin, Stefan Schmid). The abstracts cannot be compared, because the kept CACM record has only a one-sentence teaser of 112 characters. The arXiv abstract ends with 'Our article comes with complementary video interviews'. That fits a magazine article. The raw data has no arXiv journal_ref, so the link rests on the matching title, authors and year. Same paper, with slightly weaker evidence than the others."
+ }
+]

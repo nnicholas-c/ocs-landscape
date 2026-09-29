@@ -1,0 +1,142 @@
+[
+  {
+    "paper_id": "W2490598172",
+    "title": "Towards Petabit/s All-Optical Flat Data Center Networks Based on WDM Optical Cross-Connect Switches with Flow Control",
+    "year": 2016,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "Scaling the capacity while maintaining low latency and power consumption is a challenge for hierarchical data center networks (DCNs) based on electrical switches. In this work we present a novel all-optical flat DCN architecture OPSquare that potentially addresses the scaling issues by employing parallel intra-/inter-cluster switching networks, distributed fast WDM optical cross-connect (OXC) switches, and a novel top-of-rack (ToR) switch architecture. The fast (nanoseconds) WDM OXC switches allow flexible switching capability in both wavelength and time domains and statistical multiplexing. The OPSquare DCN performance targeting Petabit/s capacity has been thoroughly assessed. First the packet loss, latency, throughput, and scalability are numerically investigated under realistic data center traffic model. Results indicate that when scaling the DCN size up to 1024 ToR switches, a packet loss ratio below 10-6and a server end-to-end latency lower than 2 μs can be guaranteed at load of 0.3 with limited 20 kB buffer. Then, the experimental evaluation of the DCN by employing 4 × 4 OXC prototypes shows multi-path dynamic switching with flow control operation. The case deploying 32 × 32 and 64 × 64 OXC switches connecting 1024 and 4096 ToRs are emulated and limited performance degradation has been observed. The potential of switching higher-order modulation and waveband signals further proves the suitability of OPSquare architecture for Petabit/s and low-latency DCN by using optical switches with moderate radix."
+  },
+  {
+    "paper_id": "W2912886516",
+    "title": "Photonic integrated WDM cross-connects for optical metro and data center networks",
+    "year": 2019,
+    "venue": null,
+    "abstract": "We present a scalable and novel modular optical metro core node architecture and low cost metro access node architectures with edge computing functionalities employing photonic WDM integrated switches. Photonic integrated switches has been des igned as the building blocks to realize the modular metro node architectures, namely photonic WDM switches with express and add/drop ports, photonic integrated WSS aggregation/disaggregation functions for merging/dropping the network traffic, and photonic integrated multi-cast switch (MCS), as well as bandwidth variable transceivers aggregators to achieve multi-Terabits/second operation. Moreover, a dynamic re-configurable metro-access nodes based on low-cost 2-degree photonic integrated mini-ROADMs will be discussed. The lossless photonic WDM switches are based on InP technology and employ semiconductor optical amplifiers as on -chip gain element and fast switch. The photonic WDM circuits allows to switch multiple format data signals in wavelength, space, and time for full flexibility, scalability of the interconnected network elements as well as capacity. Applications to data center interconnects and 5G will be discussed and experimental results reported."
+  },
+  {
+    "paper_id": "W2592504242",
+    "title": "Monolithically Integrated WDM Cross-Connect Switch for High-performance Optical Data Center Networks",
+    "year": 2017,
+    "venue": "Optical Fiber Communication Conference",
+    "abstract": "The switching performance of a photonic integrated WDM cross-connect switch is assessed with 40Gb/s NRZ-OOK, 20Gb/s PAM4 and data-rate adaptive DMT traffic. Results show limited penalty for single/WDM channels and > 10dB power dynamic range."
+  },
+  {
+    "paper_id": "W2560361359",
+    "title": "A Scalable, Partially Configurable Optical Switch for Data Center Networks",
+    "year": 2016,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "Optical circuit switching may be instrumental in meeting the cost, energy, and aggregate bandwidth requirements of future data center networks. However, conventional MEMS beam-steering cross-connects cannot provide submillisecond switching with the port count necessary for data centers. Here, we investigate a novel noncrossbar selector switch architecture and pupil-division switching layout to improve optical switching performance by relaxing the requirement of arbitrary switch configurability. This architecture and switch design enable MEMS beam-steering micromirrors to scale to microsecond response speeds while supporting high port count and low loss switching, and can realize a number of useful interconnection topologies. We present the design, fabrication, and experimental characterization of a proof-of-principle prototype using a single comb-driven MEMS mirror to achieve 150 μs switching of 61 ports between four preprogrammed interconnection mappings. We demonstrate the scalability of this switch architecture with a detailed optical design of a 2048-port selector switch with 20 μs switching time."
+  },
+  {
+    "paper_id": "W2735125579",
+    "title": "OPSquare: towards Petabit/s Optical Data Center Networks based on Fast WDM Cross-Connect Switches and Optical Flow Control",
+    "year": 2017,
+    "venue": null,
+    "abstract": "OPSquare is an optical DCN architecture that potentially addresses the DCN scaling issues by employing parallel intra- and inter-cluster switching networks based on distributed fast WDM optical cross-connect switches and a novel top-of-rack switch architecture."
+  },
+  {
+    "paper_id": "W2073240697",
+    "title": "Fiber-handling robot and optical connection mechanisms for automatic cross-connection of multiple optical connectors",
+    "year": 2013,
+    "venue": "Optical Engineering",
+    "abstract": "Conventionally, in intelligent buildings in a metropolitan area network and in small-scale facilities in the optical access network, optical connectors are joined manually using an optical connection board and a patch panel. In this manual connection approach, mistakes occur due to discrepancies between the actual physical settings of the connections and their management because these processes are independent. Moreover, manual cross-connection is time-consuming and expensive because maintenance personnel must be dispatched to remote places to correct mistakes. We have developed a fiber-handling robot and optical connection mechanisms for automatic cross-connection of multiple optical connectors, which are the key elements of automatic optical fiber cross-connect equipment. We evaluate the performance of the equipment, such as its optical characteristics and environmental specifications. We also devise new optical connection mechanisms that enable the automated optical fiber cross-connect module to handle and connect angled physical contact (APC) optical connector plugs. We evaluate the performance of the equipment, such as its optical characteristics. The evaluation results confirm that the automated optical fiber cross-connect equipment can connect APC connectors with low loss and high return loss, indicating that the automated optical fiber cross-connect equipment is suitable for practical use in intelligent buildings and optical access networks."
+  },
+  {
+    "paper_id": "W4205819848",
+    "title": "Prospects and Challenges of Photonic Switching in Data Centers and Computing Systems",
+    "year": 2021,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "This Tutorial will discuss the motivation, benefits, and challenges of photonic switching in data centers and cover prospects of future data centers involving emerging new technologies and cross-layer solutions. The primary motivation for considering photonic switching in data centers rises from the need for energy-efficient and scalable intra-data center networks to meet rapid increases in data traffic driven by emerging applications, including machine learning. The data traffic inside the data centers (East-West traffic) is typically significantly greater than that of the traffic coming in and out of the data centers (North-South traffic) (Bensonet al.2010). To accommodate such traffic, today's large-scale data centers employ cascaded stages of many power-hungry electronic packet switches interconnected across the data center network in fixed hierarchical communication topologies. These electronic switches add significant latency and energy consumption while limiting the communication bandwidth. On the other hand, photonic switches can, in principle, support interconnections at very high data rates on many parallel wavelengths while keeping their energy consumption nearly independent of the switch port bandwidth. Numerous research papers have predicted significant benefits in scalability, throughput, and power efficiency from deploying photonic switches in data centers. However, photonic switching is not yet widely deployed in commercial warehouse-scale data centers at the time of writing this Tutorial due to significant challenges. They are related to 1) cross-layer issues involving control and management planes together with data integrity during switching, 2) scalability to >5000 racks (>a quarter-million servers), 3) performance monitoring required for reliable operation, 4) currently existing standards allowing limited power margin (3 dB), and 5) other practical (technology-dependent) issues relating to polarization sensitivity, temperature sensitivity, cost, etc. In telecom, commercial deployments of reconfigurable optical add-drop multiplexers (ROADMs) (Lightwave, 2003)–(Perrin, 2015) also had faced similar challenges and took place nearly ten years after the first research network testbed demonstrations in 1997 (Garrett, 2015) with fully implemented network control and management planes. In data centers, the challenges are far more significant due to the scale of the network and the dynamicity of the traffic. We will discuss possible solutions for future data centers involving cross-layer methods, new topologies, and innovative photonic switching technologies. In particular, the Tutorial broadly surveys state-of-the-art photonic switching technologies, architectures, and experimental results, and further covers the details of arrayed-waveguide-grating-router-based switch fabrics offering hybrid switching methods with distributed control planes towards scalable data center networking."
+  },
+  {
+    "paper_id": "W1516975232",
+    "title": "Optical waveguides in crystalline dielectric materials produced by femtosecond‐laser micromachining",
+    "year": 2013,
+    "venue": "Laser & Photonics Review",
+    "abstract": "Abstract Femtosecond‐laser micromachining (also known as inscription or writing) has been developed as one of the most efficient techniques for direct three‐dimensional microfabrication of transparent optical materials. In integrated photonics, by using direct writing of femtosecond/ultrafast laser pulses, optical waveguides can be produced in a wide variety of optical materials. With diverse parameters, the formed waveguides may possess different configurations. This paper focuses on crystalline dielectric materials, and is a review of the state‐of‐the‐art in the fabrication, characterization and applications of femtosecond‐laser micromachined waveguiding structures in optical crystals and ceramics. A brief outlook is presented by focusing on a few potential spotlights."
+  },
+  {
+    "paper_id": "W2952418242",
+    "title": "A survey on key roles of optical switching and labeling technologies on big data traffic of Data Centers and HPC environments",
+    "year": 2019,
+    "venue": "AIMS Electronics and Electrical Engineering",
+    "abstract": "The tremendous big data and IP traffic growth rate between interconnected Data Centers (DC) and High Performance Computing (HPC) environments have imposed the need for ultrahigh link capacities and ultrahigh packet switching speeds, at network nodes. In order to overcome these ultrahigh demands, and particularly packet routing and forwarding speeds, long tested and established technologies, such as optical switching and labeling technology, seem to provide adequate solutions, not only by conveying ultrahigh bit rate data streams, but also by achieving multi Tb/s cross connection throughputs, in a cost and energy efficient way. By adoption of optical switching and labeling technology, big data streams are propagating directly in optical layer, thus lessening down bottlenecks, latency issues, and multi stage hierarchy layering. This paper, apart from optical switching and labeling potentials, investigates thoroughly other critical issues, strictly related to the proper choice of employing a switching architecture layout, such as its implementation technology, its elasticity potentials, in terms of flexible bandwidth (BW) provisioning, its adopted control plane lying on top of data infrastructure plane, providing cognition, control and orchestration over its network elements, as well as related to the proper choice of optical labeling techniques adopted, in conjunction with current, advanced, coherent, multi level modulation formats, for ultrahigh link capacities and packet switching speed demands of scalable, big data interconnected DCs and HPC environments."
+  },
+  {
+    "paper_id": "W3046344355",
+    "title": "Sirius",
+    "year": 2020,
+    "venue": null,
+    "abstract": "The increasing gap between the growth of datacenter traffic and electrical switch capacity is expected to worsen due to the slowdown of Moore's law, motivating the need for a new switching technology for the post-Moore's law era that can meet the increasingly stringent requirements of hardware-driven cloud workloads. We propose Sirius, an optically-switched network for datacenters providing the abstraction of a single, high-radix switch that can connect thousands of nodes---racks or servers---in a datacenter while achieving nanosecond-granularity reconfiguration. At its core, Sirius uses a combination of tunable lasers and simple, passive gratings that route light based on its wavelength. Sirius' switching technology and topology is tightly codesigned with its routing and scheduling and with novel congestion-control and time-synchronization mechanisms to achieve a scalable yet flat network that can offer high bandwidth and very low end-to-end latency. Through a small-scale prototype using a custom tunable laser chip that can tune in less than 912 ps, we demonstrate 3.84 ns end-to-end reconfiguration atop 50 Gbps channels. Through large-scale simulations, we show that Sirius can approximate the performance of an ideal, electrically-switched non-blocking network with up to 74-77% lower power."
+  },
+  {
+    "paper_id": "W2934098931",
+    "title": "Expanding across time to deliver bandwidth efficiency and low latency",
+    "year": 2019,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "Datacenters need networks that support both low-latency and high-bandwidth packet delivery to meet the stringent requirements of modern applications. We present Opera, a dynamic network that delivers latency-sensitive traffic quickly by relying on multi-hop forwarding in the same way as expander-graph-based approaches, but provides near-optimal bandwidth for bulk flows through direct forwarding over time-varying source-to-destination circuits. The key to Opera's design is the rapid and deterministic reconfiguration of the network, piece-by-piece, such that at any moment in time the network implements an expander graph, yet, integrated across time, the network provides bandwidth-efficient single-hop paths between all racks. We show that Opera supports low-latency traffic with flow completion times comparable to cost-equivalent static topologies, while delivering up to 4x the bandwidth for all-to-all traffic and supporting 60% higher load for published datacenter workloads."
+  },
+  {
+    "paper_id": "W2119638333",
+    "title": "Helios",
+    "year": 2010,
+    "venue": null,
+    "abstract": "The basic building block of ever larger data centers has shifted from a rack to a modular container with hundreds or even thousands of servers. Delivering scalable bandwidth among such containers is a challenge. A number of recent efforts promise full bisection bandwidth between all servers, though with significant cost, complexity, and power consumption. We present Helios, a hybrid electrical/optical switch architecture that can deliver significant reductions in the number of switching elements, cabling, cost, and power consumption relative to recently proposed data center network architectures. We explore architectural trade offs and challenges associated with realizing these benefits through the evaluation of a fully functional Helios prototype."
+  },
+  {
+    "paper_id": "W2486960733",
+    "title": "ProjecToR",
+    "year": 2016,
+    "venue": null,
+    "abstract": "We explore a novel, free-space optics based approach for building data center interconnects. It uses a digital micromirror device (DMD) and mirror assembly combination as a transmitter and a photodetector on top of the rack as a receiver (Figure 1). Our approach enables all pairs of racks to establish direct links, and we can reconfigure such links (i.e., connect different rack pairs) within 12 us. To carry traffic from a source to a destination rack, transmitters and receivers in our interconnect can be dynamically linked in millions of ways. We develop topology construction and routing methods to exploit this flexibility, including a flow scheduling algorithm that is a constant factor approximation to the offline optimal solution. Experiments with a small prototype point to the feasibility of our approach. Simulations using realistic data center workloads show that, compared to the conventional folded-Clos interconnect, our approach can improve mean flow completion time by 30-95% and reduce cost by 25-40%."
+  },
+  {
+    "paper_id": "W2260723393",
+    "title": "Large-scale broadband digital silicon photonic switches with vertical adiabatic couplers",
+    "year": 2016,
+    "venue": "Optica",
+    "abstract": "Large-scale photonic switches are essential devices for energy-and cost-efficient optical communication networks in cloud and data-intensive computing. Silicon photonics is an attractive platform for high-density photonic integrated circuits with low manufacturing costs through the leveraging of existing advanced complementary metal-oxide-semiconductor processes. Many optical components such as lasers, modulators, splitters, and photodetectors have been successfully integrated on silicon; however, the quest for large-scale silicon photonic switches has remained elusive. Previous silicon photonic switches made of cascaded 1 x 2 or 2 x 2 building blocks have a limited port count (= 8 x 8) or excessive optical losses (> 15 dB). Here, we present a 64 x 64 digital silicon photonic switch with a low on-chip insertion loss (3.7 dB) and broadband operation (300 nm). The measured switching time is 0.91 mu s, and the extinction ratio is larger than 60 dB. The matrix switch with 4096 microelectromechanical-systems-actuated vertical adiabatic couplers has been integrated on a 8.6 mm x 8.6 mm chip. To our knowledge this is the largest monolithic switch, and the largest silicon photonic integrated circuit, reported to date. The passive matrix architecture of our switch is fundamentally more scalable than that of multistage switches. (C) 2016 Optical Society of America"
+  },
+  {
+    "paper_id": "W2138361600",
+    "title": "1100 x 1100 port MEMS-based optical crossconnect with 4-dB maximum loss",
+    "year": 2003,
+    "venue": "IEEE Photonics Technology Letters",
+    "abstract": "We present a microelectromechanical systems-based beam steering optical crossconnect switch core with port count exceeding 1100, featuring mean fiber-to-fiber insertion loss of 2.1 dB and maximum insertion loss of 4.0 dB across all possible connections. The challenge of efficient measurement and optimization of all possible connections was met by an automated testing facility. The resulting connections feature optical loss stability of better than 0.2 dB over days, without any feedback control under normal laboratory conditions."
+  },
+  {
+    "paper_id": "W1536656161",
+    "title": "Optical Networks: A Practical Perspective",
+    "year": 1998,
+    "venue": null,
+    "abstract": null
+  },
+  {
+    "paper_id": "W1645511984",
+    "title": "The Intimate Integration of Photonics and Electronics",
+    "year": 2010,
+    "venue": "SPIE eBooks",
+    "abstract": "It is evident that computing and switching performance must continue to scale to meet the growing proliferation of computing and communications capability and the reduced price per performance expected from systems manufacturers. Indeed, we have already witnessed over five orders of magnitude improvement in compute performance-per-dollar over the last three decades, well in excess of the improvements delivered by technology scaling alone. In fact, the demand from applications is underserved by Moore's law, and requires continued scaling and improvements in efficiencies at the system level. Examples of such applications include content servers and high-performance computing. For reasons that include hiding memory and wire latency, reducing power dissipation, and managing design complexity, it is now evident that multi-core, multi-threaded processors are necessary for continued scaling of microprocessor performance. But this architectural scaling of processors alone is insufficient to meet all application requirements. System limitations in interconnect power, bandwidth, and density threaten to mask the benefits of improved chip performance, and hinder our ability to create large, power-efficient machines with optimal bisection bandwidth and adequate performance on critical performance benchmarks. For instance, high-performance computing (HPC) systems require sophisticated architectures for optimizing an increased number of processor-memory units, lower latency signaling between chips, and larger system bisection bandwidths for communication. Currently, the top HPC systems have bisection bandwidths between 1 and 10Tbps and next-generation systems are looking for 10–100× improvements in bandwidth. Relying on current and soon-to-be-available optical interconnect modules, one can design enough system bandwidth to enable optical interconnection of modest arrays of processor∕memory units. Simply scaling such system architectures would necessitate vast numbers of optical modules and fiber optic cables. Among the issues of concern in such systems are ways to increase the link data rate while maintaining low cost and high overall system reliability. We believe that techniques that increase the number of effective channels using dense integration of photonic devices with silicon, combined with WDM and multi-level encoding to increase the number of multiplexed optical data channels per optical waveguide will be key. By virtue of its abilities to achieve dense integration, promote electrical-optical symbiosis, utilize wafer-scale silicon manufacturing, achieve WDM and other encoding techniques, photonic interconnects appear to be a scalable interconnect candidate. In this article, we will review some technology examples and opportunities for high-density optical interconnects."
+  },
+  {
+    "paper_id": "W2116377381",
+    "title": "On the Feasibility of Optical Circuit Switching for High Performance Computing Systems",
+    "year": 2005,
+    "venue": null,
+    "abstract": "The interconnect plays a key role in both the cost and performance of large-scale HPC systems. The cost of future high-bandwidth electronic interconnects mushrooms due to expensive optical transceivers needed between electronic switches. We describe a potentially cheaper and more power-efficient approach to building high-performance interconnects. Through empirical analysis of HPC applications, we find that the bulk of inter-processor communication (barring collectives) is bounded in degree and changes very slowly or never. Thus we propose a two-network interconnect: An Optical Circuit Switching (OCS) network handling long-lived bulk data transfers, using optical switches; and a secondary lower-bandwidth Electronic Packet Switching (EPS) network. An OCS could be significantly cheaper, as it uses fewer optical transceivers than an electronic network. Collectives and transient communication packets traverse the electronic network. We present compiler techniques and dynamic run-time policies, using this two-network interconnect. Simulation results show that our approach provides high performance at low cost."
+  },
+  {
+    "paper_id": "W2017036528",
+    "title": "Proteus",
+    "year": 2010,
+    "venue": null,
+    "abstract": "Full-bandwidth connectivity between all servers of a data center may be necessary for all-to-all traffic patterns, but such interconnects suffer from high cost, complexity, and energy consumption. Recent work has argued that if all-to-all traffic is uncommon, oversubscribed network architectures that can adapt the topology to meet traffic demands, are sufficient. In line with this work, we propose Proteus, an all-optical architecture targeting unprecedented topology-flexibility, lower complexity and higher energy efficiency."
+  },
+  {
+    "paper_id": "W2083823757",
+    "title": "Scaling Optical Interconnects in Datacenter Networks Opportunities and Challenges for WDM",
+    "year": 2010,
+    "venue": null,
+    "abstract": "We review the growing need for optical interconnect bandwidth in data center networks, and the opportunities and challenges for wavelength division multiplexing (WDM) to sustain the “last 2km” bandwidth growth inside data center networks."
+  }
+]

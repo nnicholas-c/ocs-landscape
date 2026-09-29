@@ -1,0 +1,193 @@
+{
+ "judge": "second judge, run 2 stage 7 round 2, blind to audit_r2data_round2_judgments.json",
+ "source": "data/work/audit_r2data_round2_judge_input.json (quotes and label definitions only); the task named audit_r2data_judge_input.json, which is the round 1 input and differs in 4 cells",
+ "criterion": "supported when the quoted text states the value under the label definition (auditor.md check b: value present in the quote)",
+ "judgments": [
+  {
+   "cell": "mems_silicon_photonic:ai_cluster_fit",
+   "value": "yes",
+   "judgment": "supported",
+   "reason": "Quote 1 names AI/ML clusters as a target of large-scale photonic switches, which is direct fit, so yes."
+  },
+  {
+   "cell": "thermo_optic:packaging_notes",
+   "value": "Flip-chip bond to a ceramic interposer with a land grid array; wire-bonded ceramic package with a 68-fiber ribbon attached; feedback controlled stabilization without a chip cooling system; air trenches cut chip power",
+   "judgment": "supported",
+   "reason": "All four parts are stated: flip-chip to ceramic interposer with LGA, wire-bonded ceramic package with 68-fiber ribbon, feedback stabilization with no chip cooling, power cut by air trenches."
+  },
+  {
+   "cell": "piezo:trl_band",
+   "value": "lab",
+   "judgment": "supported",
+   "reason": "Reports development of a switch device, a lab-level prototype; nothing suggests pilot or production."
+  },
+  {
+   "cell": "mems_silicon_photonic:trl_band",
+   "value": "lab",
+   "judgment": "supported",
+   "reason": "Quote 1 places the technology at proof-of-concept in lab before commercialization; quote 2 is a fabricated device, both lab."
+  },
+  {
+   "cell": "electro_optic:integration",
+   "value": "integrated_photonic",
+   "judgment": "supported",
+   "reason": "Quote 1 is a three-waveguide switch for photonic integrated circuits and quote 2 says the fabrics are on a single chip, so light stays in on-chip waveguides."
+  },
+  {
+   "cell": "robotic_patch_panel:trl_band",
+   "value": "production",
+   "judgment": "supported",
+   "reason": "Quote 1 is a product launch of the G5 Robotic Patch Panel, i.e. sold as a product, which the definition counts as production (vendor claim)."
+  },
+  {
+   "cell": "thermo_optic:scaling_limit",
+   "value": "Crossing loss grows with port count; control units and drive wiring grow quickly with port count; high heater power",
+   "judgment": "supported",
+   "reason": "Crossing loss growing with ports and control units/wiring growing with ports are stated as limits; high power from the thermo-optic effect is stated as a drawback though not tied to port count (weakest part)."
+  },
+  {
+   "cell": "lcos:packaging_notes",
+   "value": "Multicore-fiber collimator, spatial multiplexer array and LCoS spatial light modulator integrated in one prototype",
+   "judgment": "supported",
+   "reason": "Quote states the prototype integrates an MCF collimator, spatial mux/demux array and LCoS SLM, which is exactly the value."
+  },
+  {
+   "cell": "electro_optic:trl_band",
+   "value": "lab",
+   "judgment": "supported",
+   "reason": "Switches fabricated for the first time is a fabricated device, lab."
+  },
+  {
+   "cell": "robotic_patch_panel:integration",
+   "value": "mechanical_fiber",
+   "judgment": "supported",
+   "reason": "A fiber-handling robot physically reconnects optical connectors, which is mechanical_fiber."
+  },
+  {
+   "cell": "mems_3d:trl_band",
+   "value": "production",
+   "judgment": "supported",
+   "reason": "Apollo is described as a large-scale production deployment that forms most of the data center networks, production."
+  },
+  {
+   "cell": "mems_silicon_photonic:packaging_notes",
+   "value": "Aluminum nitride interposer and 64-channel lidless fiber array; through glass via interposer and pitch reducing fibre array; pluggable package; CMOS driver chiplets; unpackaged switch reliable over 10 billion cycles",
+   "judgment": "supported",
+   "reason": "Each of the five parts is stated: AlN interposer with 64-channel lidless fiber array, TGV interposer with pitch reducing fibre array, pluggable package, CMOS driver chiplets, 10 billion cycles without packaging."
+  },
+  {
+   "cell": "lcos:trl_band",
+   "value": "lab",
+   "judgment": "supported",
+   "reason": "An implemented prototype, lab."
+  },
+  {
+   "cell": "mems_3d:integration",
+   "value": "free_space_bulk",
+   "judgment": "supported",
+   "reason": "MCF collimator array plus MEMS mirror array matches the free_space_bulk definition (collimators and mirrors)."
+  },
+  {
+   "cell": "mems_3d:ai_cluster_fit",
+   "value": "yes",
+   "judgment": "supported",
+   "reason": "Quote 2 says the OCS platform is designed specifically for AI data center networking, direct fit, so yes."
+  },
+  {
+   "cell": "mems_2d:integration",
+   "value": "free_space_bulk",
+   "judgment": "supported",
+   "reason": "Reflective 2D MEMS means mirrors steering beams, which the definition places in free_space_bulk; inferred from 'reflective', free space is not named outright."
+  },
+  {
+   "cell": "mems_2d:trl_band",
+   "value": "lab",
+   "judgment": "supported",
+   "reason": "Demonstrated 16x16 switches fabricated by surface micro-machining, lab."
+  },
+  {
+   "cell": "mems_2d:ai_cluster_fit",
+   "value": "no",
+   "judgment": "supported",
+   "reason": "Only application named is fiber optic telecommunications, which the definition maps to none, so no."
+  },
+  {
+   "cell": "mems_silicon_photonic:integration",
+   "value": "integrated_photonic",
+   "judgment": "supported",
+   "reason": "Integrated OCS combining silicon photonics with MEMS actuation, light in on-chip waveguides."
+  },
+  {
+   "cell": "lcos:integration",
+   "value": "free_space_bulk",
+   "judgment": "supported",
+   "reason": "Quote says free-space-optics-based switch outright."
+  },
+  {
+   "cell": "lcos:ai_cluster_fit",
+   "value": "yes",
+   "judgment": "supported",
+   "reason": "Proposes a reconfigurable optical DCN; reconfigurable topologies count as yes in the comparison-framework question (under the ocs-domain analog alone it would read as indirect)."
+  },
+  {
+   "cell": "piezo:integration",
+   "value": "free_space_bulk",
+   "judgment": "supported",
+   "reason": "Piezo actuators align collimated beams between opposing fiber arrays, free_space_bulk."
+  },
+  {
+   "cell": "piezo:ai_cluster_fit",
+   "value": "yes",
+   "judgment": "supported",
+   "reason": "Reconfigurable network across racks and nodes, and beam-steering switches as central cluster and intercluster switches, is a reconfigurable topology for clusters, yes."
+  },
+  {
+   "cell": "thermo_optic:integration",
+   "value": "integrated_photonic",
+   "judgment": "supported",
+   "reason": "Silicon wire waveguides and an optical switch chip with MZI elements and waveguide crossings, integrated_photonic."
+  },
+  {
+   "cell": "thermo_optic:trl_band",
+   "value": "lab",
+   "judgment": "supported",
+   "reason": "Says the demonstrations still need advances to move from research to product, so lab."
+  },
+  {
+   "cell": "thermo_optic:ai_cluster_fit",
+   "value": "yes",
+   "judgment": "supported",
+   "reason": "Co-integration with GPUs and collapsing the multi-tier network to one tier (spine replacement) are direct fit, yes."
+  },
+  {
+   "cell": "electro_optic:ai_cluster_fit",
+   "value": "partial",
+   "judgment": "supported",
+   "reason": "Data center scale interconnect and HPC routing are general data center use, indirect, so partial."
+  },
+  {
+   "cell": "soa:integration",
+   "value": "integrated_photonic",
+   "judgment": "supported",
+   "reason": "SOAs as on-chip gain and switch elements on InP, integrated_photonic."
+  },
+  {
+   "cell": "soa:trl_band",
+   "value": "lab",
+   "judgment": "supported",
+   "reason": "Designed, fabricated and demonstrated monolithic 4x4 cross-connect, lab."
+  },
+  {
+   "cell": "soa:ai_cluster_fit",
+   "value": "yes",
+   "judgment": "supported",
+   "reason": "OCS replacing the electrical switches in the core of the network is spine replacement, direct, so yes; the quote is generic OCS motivation and does not name SOA or AI (weakest yes)."
+  },
+  {
+   "cell": "robotic_patch_panel:ai_cluster_fit",
+   "value": "no",
+   "judgment": "supported",
+   "reason": "Only intelligent buildings and optical access networks are named, none, so no."
+  }
+ ]
+}

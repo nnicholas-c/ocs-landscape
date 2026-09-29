@@ -1,0 +1,152 @@
+[
+  {
+    "record_key": "openalex:W2786734285",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Packages a 128x128 silicon photonic MEMS switch with glass interposer."
+  },
+  {
+    "record_key": "openalex:W1945545782",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Reliability testing of a 50x50 digital silicon photonic MEMS switch."
+  },
+  {
+    "record_key": "openalex:W3139267661",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Builds a low-voltage silicon photonic MEMS switch with vertical actuation."
+  },
+  {
+    "record_key": "openalex:W1976569985",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Builds 50x50 digital silicon photonic switches with MEMS adiabatic couplers."
+  },
+  {
+    "record_key": "openalex:W2919451605",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Pluggable packaging for a silicon photonic MEMS switch for data centers."
+  },
+  {
+    "record_key": "openalex:W2581695752",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Packages a 12x12 digital silicon photonic MEMS switch."
+  },
+  {
+    "record_key": "openalex:W4414694752",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Builds a nonvolatile silicon photonic MEMS switch via van der Waals force."
+  },
+  {
+    "record_key": "openalex:W2226395753",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Builds a monolithic 50x50 MEMS silicon photonic switch, microsecond response."
+  },
+  {
+    "record_key": "openalex:W2738975469",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Builds a 50x50 optical circuit switch on silicon photonics for datacenters."
+  },
+  {
+    "record_key": "openalex:W4281560993",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Builds a 1x3 MEMS silicon nitride photonic switch."
+  },
+  {
+    "record_key": "openalex:W4378770566",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Builds a silicon photonic MEMS switch using split waveguide crossings."
+  },
+  {
+    "record_key": "openalex:W2789555118",
+    "score": 1,
+    "adjacent_field": "silicon_photonics",
+    "reason": "Reviews silicon photonic circuit design flow and EDA tools, no switch built."
+  },
+  {
+    "record_key": "openalex:W4393174577",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Builds a 32x32 silicon photonic MEMS switch with CMOS driver chiplets."
+  },
+  {
+    "record_key": "openalex:W2601258012",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Nonlinear photonic metasurfaces; title only, unrelated to switching."
+  },
+  {
+    "record_key": "openalex:W4226451033",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Builds a 32x32 wafer-bonded low-loss silicon photonic MEMS switch."
+  },
+  {
+    "record_key": "openalex:W4211023690",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Builds a nonvolatile MEMS silicon photonic phase switch for programmable circuits."
+  },
+  {
+    "record_key": "openalex:W3115038226",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Builds a silicon photonic MEMS switch using total internal reflection."
+  },
+  {
+    "record_key": "openalex:W2896156020",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Reviews silicon photonic switch fabric technologies and architectures across mechanisms."
+  },
+  {
+    "record_key": "openalex:W1515664994",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Builds a multicast 4x20 silicon photonic MEMS switch."
+  },
+  {
+    "record_key": "openalex:W1635046341",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Demonstrates row/column addressing for a scalable silicon photonic MEMS switch."
+  },
+  {
+    "record_key": "openalex:W2802220660",
+    "score": 2,
+    "adjacent_field": "silicon_photonics",
+    "reason": "MEMS-actuated silicon photonic wavelength-selective switch; close cousin, not full OCS crossconnect."
+  },
+  {
+    "record_key": "openalex:W4402905306",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Builds a nonvolatile 2x2 silicon photonic MEMS switch for AI routing."
+  },
+  {
+    "record_key": "openalex:W2979736496",
+    "score": 2,
+    "adjacent_field": "silicon_photonics",
+    "reason": "Reviews MEMS-enabled silicon photonic devices generally; close cousin, no confirmed switch."
+  },
+  {
+    "record_key": "openalex:W2597825491",
+    "score": 2,
+    "adjacent_field": "telecom_oxc_roadm",
+    "reason": "Reviews LCoS SLM used in wavelength selective switch systems for telecom."
+  },
+  {
+    "record_key": "openalex:W2147694436",
+    "score": 2,
+    "adjacent_field": "telecom_oxc_roadm",
+    "reason": "Demonstrates multicasting in an LCOS wavelength selective switch."
+  }
+]

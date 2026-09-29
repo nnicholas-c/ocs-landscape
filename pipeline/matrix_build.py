@@ -11,6 +11,8 @@ data/work/route_<route>.json or from the evidence_quote of a data/projects.csv r
 located by the anchors in the YAML. Several quotes are joined by " || ".
 academic_groups is counted from data/db/papers.sqlite and graphs/top_pis.csv, and
 companies is read from data/projects.csv. projects.csv row N is its Nth data row.
+Self-check: every number and every band name (C band, O band, ...) in a cell's
+value or note must appear in one of that cell's quotes.
 
 Safe to run twice: the CSV is fully rewritten.
 """
@@ -50,6 +52,15 @@ NUM_RE = re.compile(r"\d+(?:[.,]\d+)*")
 ID_RE = re.compile(r"W\d+|arxiv:[\d.]+|mems_[23]d|\b[23]D\b|\brows? \d+")
 SENT_START = re.compile(r"[.!?]\s+(?=[A-Z(])")
 SENT_END = re.compile(r"[.!?](?=\s+[A-Z(]|\s*$)")
+# Band names: "C band", "C-Band", "C+L-band", "C&L band", "C- and L-band", "O- to U-bands", with an ASCII
+# hyphen or the U+2010, U+2011, U+2013 hyphens OpenAlex abstracts use. Group 1 holds the band letters.
+BAND_RE = re.compile(r"\b([OESCLU](?:(?:\s*(?:[+/,&\-\u2010\u2011\u2013]|and|or|to))+\s*[OESCLU])*)"
+                     r"[ \-\u2010\u2011\u2013]?[Bb]ands?\b")
+
+
+def bands(text):
+    """Band letters named in text, e.g. {"C", "L"} for "over the C+L-band"."""
+    return {b for m in BAND_RE.finditer(text) for b in re.findall(r"[OESCLU]", m.group(1))}
 
 
 def extract(text, anchors):
@@ -85,12 +96,18 @@ def spec_cell(route, dim, c, papers, projects):
             raise SystemExit(f"{route} {dim}: anchor {anchors} not found in {src}")
         assert q in text and len(q.split()) < MAX_WORDS, f"{route} {dim}: bad quote from {src}: {q!r}"
         quotes.append(q)
+    # One quote per contributing paper or project row, in the order the YAML lists them.
+    assert len(quotes) == len(set(pids)) + len(set(prows)), f"{route} {dim}: a source has more than one quote"
     joined = SEP.join(quotes)
     value = str(c.get("value", ""))
     note = c.get("note", "")
-    # CLAUDE.md rule 1: a number in value or note must stand in one of this cell's quotes.
+    # CLAUDE.md rule 1: a number in value or note must stand, as a whole number, in one of this cell's quotes.
+    quoted = set(NUM_RE.findall(joined))
     for num in NUM_RE.findall(value + " " + ID_RE.sub(" ", note)):
-        assert num in joined, f"{route} {dim}: number {num} is in no quote"
+        assert num in quoted, f"{route} {dim}: number {num} is in no quote"
+    # Same rule for band names (C band, O band, ...): each one in value or note must be named in a quote.
+    missing = bands(value + " " + note) - bands(joined)
+    assert not missing, f"{route} {dim}: band {sorted(missing)} is named in no quote"
     if dim in CATEGORIES:
         assert value in CATEGORIES[dim], f"{route} {dim}: {value!r} is not a controlled label"
         if dim == "integration":

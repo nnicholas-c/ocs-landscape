@@ -1,0 +1,142 @@
+[
+  {
+    "paper_id": "W2065747405",
+    "title": "7×7 DMD-based diffractive fiber switch at 1550nm",
+    "year": 2014,
+    "venue": "Optics Communications",
+    "abstract": null
+  },
+  {
+    "paper_id": "W2108251206",
+    "title": "Scaling Limits of Free-Space Tilt Mirror MEMS Switches for Data Center Networks",
+    "year": 2015,
+    "venue": "Optical Fiber Communication Conference",
+    "abstract": "We present a first-principles analysis of the scaling of switch response speed as a function of port count, crosstalk, and insertion loss, based on physical optics and kinematics of canonical MEMS tilt mirror switch structures."
+  },
+  {
+    "paper_id": "W2124700175",
+    "title": "FireFly",
+    "year": 2014,
+    "venue": null,
+    "abstract": "Conventional static datacenter (DC) network designs offer extreme cost vs. performance tradeoffs---simple leaf-spine networks are cost-effective but oversubscribed, while \"fat tree\"-like solutions offer good worst-case performance but are expensive. Recent results make a promising case for augmenting an oversubscribed network with reconfigurable inter-rack wireless or optical links. Inspired by the promise of reconfigurability, this paper presents FireFly, an inter-rack network solution that pushes DC network design to the extreme on three key fronts: (1) all links are reconfigurable; (2) all links are wireless; and (3) non top-of-rack switches are eliminated altogether. This vision, if realized, can offer significant benefits in terms of increased flexibility, reduced equipment cost, and minimal cabling complexity. In order to achieve this vision, we need to look beyond traditional RF wireless solutions due to their interference footprint which limits range and data rates. Thus, we make the case for using free-space optics (FSO). We demonstrate the viability of this architecture by (a) building a proof-of-concept prototype of a steerable small form factor FSO device using commodity components and (b) developing practical heuristics to address algorithmic and system-level challenges in network design and management."
+  },
+  {
+    "paper_id": "W2139106050",
+    "title": "Liquid crystal over silicon device characteristics for holographic projection of high-definition television images",
+    "year": 2008,
+    "venue": "Applied Optics",
+    "abstract": "We discuss some fundamental characteristics of a phase-modulating device suitable to holographically project a monochrome video frame with 1280 x 720 resolution. The phase-modulating device is expected to be a liquid crystal over silicon chip with silicon area similar to that of commercial devices. Its basic characteristics, such as number of pixels, bits per pixel, and pixel dimensions, are optimized in terms of image quality and optical efficiency. Estimates of the image quality are made from the noise levels and contrast, while efficiency is calculated by considering the beam apodization, device dead space, diffraction losses, and the sinc envelope."
+  },
+  {
+    "paper_id": "W2140348302",
+    "title": "A 32 × 32 optical phased array using polysilicon sub-wavelength high-contrast-grating mirrors",
+    "year": 2014,
+    "venue": "Optics Express",
+    "abstract": "We report on microelectromechanical systems (MEMS)-actuated 32 × 32 optical phased arrays (OPAs) with high fill-factors and microsecond response time. To reduce the mirror weight and temperature-dependent curvature, we use high-contrast-grating (HCG) mirrors comprising a single layer of sub-wavelength polysilicon gratings with 400 nm thickness, 1250 nm pitch, and 570 nm grating bar width. The mirror has a broad reflection band and a peak reflectivity of 99.9% at 1550 nm wavelength. With 20 × 20 μm2 pixels and 2 μm, the OPA has a total aperture of 702 × 702 μm2 and a fill factor of 85%. The OPA is electrostatically controlled by voltage and has a total field of view of ± 2°, an instantaneous field of view (beam width) of 0.14°, and a response time of 3.8 μs. The latter agrees well with the mechanical resonance frequency of the HCG mirror (0.42 MHz)."
+  },
+  {
+    "paper_id": "W2026418326",
+    "title": "Silicon Photonics for Exascale Systems",
+    "year": 2014,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "With the extraordinary growth in parallelism at all system scales driven by multicore architectures, computing performance is increasingly determined by how efficiently high-bandwidth data is communicated among the numerous compute resources. High-performance systems are especially challenged by the growing energy costs dominated by data movement. As future computing systems aim to realize the Exascale regime-surpassing 1018operations per second-achieving energy efficient high-bandwidth communication becomes paramount to scaled performance. Silicon photonics offers the possibility of delivering the needed communication bandwidths to match the growing computing powers of these highly parallel architectures with extremely scalable energy efficiency. However, the insertion of photonic interconnects is not a one-for-one replacement. The lack of practical buffering and the fundamental circuit switched nature of optical data communications require a holistic approach to designing system-wide photonic interconnection networks. New network architectures are required and must include arbitration strategies that incorporate the characteristics of the optical physical layer. This paper reviews the recent progresses in silicon photonic based interconnect devices along with the system level requirements for Exascale. We present a co-design approach for building silicon photonic interconnection networks that leverages the unique optical data movement capabilities and offers a path toward realizing future Exascale systems."
+  },
+  {
+    "paper_id": "W2050810792",
+    "title": "Low-loss, low-cross-talk crossings for silicon-on-insulator nanophotonic waveguides",
+    "year": 2007,
+    "venue": "Optics Letters",
+    "abstract": "We present compact crossings for silicon-on-insulator photonic wires. The waveguides are broadened using a 3 microm parabolic taper in each arm. By locally applying a lower index contrast using a double-etch technique, loss of confinement is reduced and 97.5% transmission (-1.7 dB) is achieved with only -40 dB cross talk."
+  },
+  {
+    "paper_id": "W2051201523",
+    "title": "Architectures for large nonblocking optical space switches",
+    "year": 1986,
+    "venue": "IEEE Journal of Quantum Electronics",
+    "abstract": "This paper introduces three architectures for optical space switches that are based on a multiplicity of fiber interconnected optical components. The architectures eliminate the need for optical waveguide Crossovers and reduce the complexity required in the individual elements. The architectures are strictly nonblocking and allow for easy control and routing. Architecture type 1 exhibits a low system attenuation and a high system signal-to-noise ratio for very large switch dimensions. Architectures 2 and 3 are alternatives for realizing broadcast and point-to-point architectures."
+  },
+  {
+    "paper_id": "W2053780865",
+    "title": "Compact 1 × N thermo-optic switches based on silicon photonic wire waveguides",
+    "year": 2005,
+    "venue": "Optics Express",
+    "abstract": "Using silicon photonic wire waveguides, we constructed compact 1 x 1, 1 x 2, and 1 x 4 Mach-Zehnder interferometer type optical switches on a silicon-on-insulator substrate and demonstrated their switching operations through the thermo-optic effect. These switches were smaller than 140 x 65, 85 x 30, and 190 x 75 mum, respectively. At a 1550-nm wavelength, we obtained an extinction ratio larger than 30 dB, a switching power as low as 90 mW, and a switching response time of less than 100 mus. Furthermore, switching operations were successfully demonstrated for the 1 x 4 switch."
+  },
+  {
+    "paper_id": "W2058203097",
+    "title": "Ultralow loss single layer submicron silicon waveguide crossing for SOI optical interconnect",
+    "year": 2013,
+    "venue": "Optics Express",
+    "abstract": "We demonstrate compact, broadband, ultralow loss silicon waveguide crossings operating at 1550 nm and 1310 nm. Cross-wafer measurement of 30 dies shows transmission insertion loss of - 0.028 ± 0.009 dB for the 1550 nm device and - 0.017 ± 0.005 dB for the 1310 nm device. Both crossings show crosstalk lower than - 37 dB. The devices were fabricated in a CMOS-compatible process using 248 nm optical lithography with a single etch step."
+  },
+  {
+    "paper_id": "W2062193700",
+    "title": "Wavelength selective switching with one-chip silicon photonic circuit including 8 × 8 matrix switch",
+    "year": 2011,
+    "venue": null,
+    "abstract": "Polarization-independent wavelength path switching is demonstrated with one-chip silicon photonic circuit including 64 thermo-optical switch elements within 12mm × 3mm. Owing to uniformity, any path can be constructed by simply turning on one switch element."
+  },
+  {
+    "paper_id": "W2063297543",
+    "title": "Nonblocking 4×4 silicon electro-optic switch matrix with push–pull drive",
+    "year": 2013,
+    "venue": "Optics Letters",
+    "abstract": "A compact rearrangeable nonblocking 4×4 silicon electro-optic switch matrix based on a Spanke-Beneš network is proposed and fabricated by a 0.18 μm standard commercial complementary metal-oxide semiconductor line. By respectively modulating the two modulation arms with a push-pull drive, a cross talk (CT) of less than -18 dB is obtained for the switching element with 150-μm-long modulation arms. The total steady-state power consumption of the switch matrix ranges from 4.46 to 35.92 mW for different routing states. The CT values of the routing state with the minimum and maximum power consumptions are less than -19 dB and less than -12 dB, respectively."
+  },
+  {
+    "paper_id": "W2066110041",
+    "title": "Compact and Low-Loss 8×8 Silicon Photonic Switch Module for Transponder Aggregators in CDC-ROADM Application",
+    "year": 2015,
+    "venue": "Optical Fiber Communication Conference",
+    "abstract": "We present 8×8 silicon photonic switch modules with newly designed spot size converters on a silicon chip. Averaged module excess loss as low as 7.2 dB on all 64 paths is achieved along with 0.15-ms switching."
+  },
+  {
+    "paper_id": "W2078357199",
+    "title": "Non-Invasive On-Chip Light Observation by Contactless Waveguide Conductivity Monitoring",
+    "year": 2014,
+    "venue": "IEEE Journal of Selected Topics in Quantum Electronics",
+    "abstract": "Photonic technologies lack non-invasive monitoring tools to inspect the light inside optical waveguides. This is one of the main barriers to large scale integration, even though photonic platforms are potentially ready to host thousands of elements on a single chip. Here, we demonstrate non-invasive light observation in silicon photonics devices by exploiting photon interaction with intra-gap energy states localized at the waveguide surface. Light intensity is monitored by measuring the electric conductance of the silicon core through a capacitive access to the waveguide. The electric contacts are located at suitable distance from the waveguide core, thus introducing no measurable extra-photon absorption and a phase perturbation as low as 0.2 mrad, comparable to thermal fluctuations below 3 mK. Light monitoring with a sensitivity of -30 dBm and a dynamic range of 40 dB is demonstrated in waveguides and high-Q resonators, and for the tuning of coupled-resonator optical filters. This approach realizes a ContactLess Integrated Photonic Probe (CLIPP), that is simple, inherently CMOS compatible, non-invasive and scalable to hundreds of probing points per chip. The CLIPP concept provides a viable route to real-time conditioning and feedback control of densely-integrated photonic systems."
+  },
+  {
+    "paper_id": "W2099610951",
+    "title": "The Past, Present, and Future of Silicon Photonics",
+    "year": 2006,
+    "venue": "IEEE Journal of Selected Topics in Quantum Electronics",
+    "abstract": "The pace of the development of silicon photonics has quickened since 2004 due to investment by industry and government. Commercial state-of-the-art CMOS silicon-on-insulator (SOI) foundries are now being utilized in a crucial test of 1.55-mum monolithic optoelectronic (OE) integration, a test sponsored by the Defense Advanced Research Projects Agency (DARPA). The preliminary results indicate that the silicon photonics are truly CMOS compatible. R&D groups have now developed 10-100-Gb/s electro-optic modulators, ultrafast Ge-on-Si photodetectors, efficient fiber-to-waveguide couplers, and Si Raman lasers. Electrically pumped silicon lasers are under intense investigation, with several approaches being tried; however, lasing has not yet been attained. The new paradigm for the Si-based photonic and optoelectric integrated circuits is that these chip-scale networks, when suitably designed, will operate at a wavelength anywhere within the broad spectral range of 1.2-100 mum, with cryocooling needed in some cases"
+  },
+  {
+    "paper_id": "W2113209593",
+    "title": "N-stage planar optical permutation network",
+    "year": 1987,
+    "venue": "Applied Optics",
+    "abstract": "This paper describes the construction of a permutation network which is advantageous for optical switching. The switching architecture is planar and does not require optical path crossovers between crosspoints. The network can be partitioned if necessary to ease fabrication difficulties. An algorithm is given to set the binary cells in the network to achieve any specified permutation, and it is shown that no planar N x N network can achieve such rearrangeability with fewer than the N(N - l)/2 crosspoints used here."
+  },
+  {
+    "paper_id": "W2121095819",
+    "title": "A polarization-controlled free-space photonic switch based on a PI-LOSS switch",
+    "year": 1993,
+    "venue": "IEEE Photonics Technology Letters",
+    "abstract": "We propose a polarization-controlled free-space photonic switch based on a PI-LOSS switch that has similar insertion loss and lower crosstalk compared to the conventional crossbar switch. We describe a multistage switching network with cross-connected PI-LOSS switch modules that is easier to control and smaller than other strictly nonblocking switch structures.>"
+  },
+  {
+    "paper_id": "W1558865741",
+    "title": "Design and Fabrication of Low-Insertion-Loss and Low-Crosstalk Broadband $2\\times 2$ Mach–Zehnder Silicon Photonic Switches",
+    "year": 2015,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "We present the design, fabrication, and measurement results of low-insertion-loss and low-crosstalk broadband 2 × 2 Mach-Zehnder switches for nanosecond-scale optical data routing applications. We propose a simulation framework to calculate the spectral characteristics of switches and use it to design two switches: one based on directional couplers, the other using two-section directional couplers for broader bandwidth. We show that driving the switch in a push-pull manner enables to reduce insertion loss and optical crosstalk at the expense of the optical bandwidth. We achieve a good correlation between simulations and devices fabricated in IBM's 90-nm photonics-enabled CMOS process. We demonstrate a push-pull drive switch with insertion loss of ~1 dB and an optical crosstalk smaller than -23 dB over a 45-nm optical bandwidth in the O-band. We further achieve a transition time of ~4 ns with an average phase shifter consumption of 1 mW and a heater efficiency of ~25 mW/π."
+  },
+  {
+    "paper_id": "W1653883346",
+    "title": "Digital MEMS switch for planar photonic crossconnects",
+    "year": 2003,
+    "venue": null,
+    "abstract": "In conclusion we have demonstrated fully nonblocking 16/spl times/16 switches in a single chip solution using MEMS fabricated by a surface micro-machining. We have shown how the critical mechanical elements of the MEMS-cell have been chosen to achieve large mechanical movement, high angular repeatability of the movement, and high reliability of the actuation mechanism, which translated into low loss and high reliability of the packaged component. Test results for these components have been presented."
+  },
+  {
+    "paper_id": "W1887234615",
+    "title": "InP photonic circuits using generic integration [Invited]",
+    "year": 2015,
+    "venue": "Photonics Research",
+    "abstract": "InP integrated photonics has become a critical enabler for modern telecommunications, and is poised to revolutionize data communications, precision metrology, spectrometry, and imaging. The possibility to integrate high-performance amplifiers, lasers, modulators, and detectors in combination with interferometers within one chip is enabling game-changing performance advances, energy savings, and cost reductions. Generic integration accelerates progress through the separation of applications from a common technology development. In this paper, we review the current status in InP integrated photonics and the efforts to integrate the next generation of high-performance functionality on a common substrate using the generic methodology."
+  }
+]

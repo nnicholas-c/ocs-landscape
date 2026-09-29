@@ -1,0 +1,222 @@
+[
+  {
+    "paper_id": "W1976569985",
+    "tech_route": "mems_silicon_photonic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "evidence_span": "We report on monolithically integrated 50×50 digital silicon photonic switches with MEMS actuation, sub-microsecond switching time, low optical insertion loss (<9.6dB), high extinction ratio (50dB), broadband operation (1400-1700nm), and compact footprint (7.6×7.6mm2).",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W2919451605",
+    "tech_route": "mems_silicon_photonic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "In this article, we proposed a pluggable silicon photonic MEMS switch package with passive optical coupling assembly.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W2581695752",
+    "tech_route": "mems_silicon_photonic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "evidence_span": "We report on the first electrical and optical packaging of digital silicon photonic MEMS switches with 12×12 ports, 13~18dB fiber-to-fiber loss, 10-11BER for 10-Gb/s datastream, 0.4μs switch reconfiguration time, and <;1.6V (5%) switching voltage variations.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W4414694752",
+    "tech_route": "mems_silicon_photonic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "evidence_span": "Here, we propose and demonstrate a nonvolatile silicon photonic microelectromechanical system (MEMS) switch enabled by tailored stiction effect based on van der Waals (vdW) force.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W2226395753",
+    "tech_route": "mems_silicon_photonic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "evidence_span": "We report on 50×50 MEMS-actuated silicon photonic switches with 16V switching voltage and microsecond switching time.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W2738975469",
+    "tech_route": "mems_silicon_photonic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "Fast optical circuit switches with large port count will allow flexible bandwidth allocation in datacenter networks by augmenting electrical packet switching.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W4281560993",
+    "tech_route": "mems_silicon_photonic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "evidence_span": "We present a 1 × 3 optical switch based on a translational microelectromechanical system (MEMS) platform with integrated silicon nitride (SiN) photonic waveguides.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W4378770566",
+    "tech_route": "mems_silicon_photonic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": null,
+    "evidence_span": "Here we propose and realize a silicon photonic 2x2 elementary switch based on a split waveguide crossing (SWX) consisting of two halves.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W2789555118",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": "silicon_photonics",
+    "evidence_span": "In this paper, the state of this emerging photonic circuit design flow and its synergies with electronic design automation (EDA) are reviewed.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W4393174577",
+    "tech_route": "mems_silicon_photonic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "evidence_span": "We report on 32x32 silicon photonic switches controlled by digital CMOS chiplets with integrated high voltage drivers.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W4226451033",
+    "tech_route": "mems_silicon_photonic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "evidence_span": "We report on 32x32 silicon photonic switches realized through wafer bonding.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W4211023690",
+    "tech_route": "mems_silicon_photonic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "evidence_span": "For the first time, we demonstrate a nonvolatile photonic MEMS π-phase switch using dual comb-drive actuation and adhesion forces, implemented in a silicon photonics foundry.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W3115038226",
+    "tech_route": "mems_silicon_photonic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "evidence_span": "A novel silicon photonic MEMS switch based on total internal reflection (TIR) is proposed for the first time.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W2896156020",
+    "tech_route": "thermo_optic",
+    "tech_route_secondary": "electro_optic",
+    "integration": "integrated_photonic",
+    "trl_band": "unclear",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "evidence_span": "Specifically, we consider thermo-optic, electro-optic, and MEMS-based switch actuation embedded in Mach-Zehnder interferometer, ring resonator, and directional coupler based silicon photonic switches.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W1515664994",
+    "tech_route": "mems_silicon_photonic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "evidence_span": "We report on monolithic 4×20 silicon photonic MEMS switches capable of multicast functions.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W4402905306",
+    "tech_route": "mems_silicon_photonic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "We propose a nonvolatile 2×2 silicon photonic micro-electromechanical system (MEMS) switch compatible with standard silicon photonic foundry processes.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W2101457183",
+    "tech_route": "lcos",
+    "tech_route_secondary": null,
+    "integration": "free_space_bulk",
+    "trl_band": "unclear",
+    "ai_dc_fit": "none",
+    "adjacent_field": "lcos_display_phase",
+    "evidence_span": "Such LCOS phase modulators have many potential applications, including real-time holography, head-up displays, wavelength-selective switches and reconfigurable optical add-drop multiplexers.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W4381158453",
+    "tech_route": "lcos",
+    "tech_route_secondary": null,
+    "integration": "free_space_bulk",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": "lcos_display_phase",
+    "evidence_span": "We verify the device with a number of typical polarization-independent application functions including beam steering, holographical display, and in a key optical switching element - wavelength selective switch (WSS), demonstrating the significant benefits in terms of both configuration simplification and performance improvement.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W2901721529",
+    "tech_route": "lcos",
+    "tech_route_secondary": null,
+    "integration": "free_space_bulk",
+    "trl_band": "unclear",
+    "ai_dc_fit": "none",
+    "adjacent_field": "lcos_display_phase",
+    "evidence_span": "The high-quality and well-calibrated panels can project computer generated hologram (CGH) designs faithfully for phase-only holography, which can be widely utilized in 2D/3D holographic video projectors and components for optical telecommunications.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W4225941096",
+    "tech_route": "lcos",
+    "tech_route_secondary": null,
+    "integration": "free_space_bulk",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": "telecom_oxc_roadm",
+    "evidence_span": "The second challenge is the optical cross connect based on wavelength selective switch (WSS).",
+    "confidence": "medium"
+  }
+]

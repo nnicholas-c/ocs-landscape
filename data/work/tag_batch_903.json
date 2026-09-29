@@ -1,0 +1,65 @@
+[
+  {
+    "paper_id": "W4391835825",
+    "title": "Integrated Topology and Traffic Engineering for Reconfigurable Datacenter Networks",
+    "year": 2024,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "The state-of-the-art topologies of datacenter networks are fixed, based on electrical switching technology, and by now, we understand their throughput and cost well. For the past years, researchers have been developing novel optical switching technologies that enable the emergence of reconfigurable datacenter networks (RDCNs) that support dynamic psychical topologies. The art of network design of dynamic topologies, i.e., 'Topology Engineering,' is still in its infancy. Different designs offer distinct advantages, such as faster switch reconfiguration times or demand-aware topologies, and to date, it is yet unclear what design maximizes the throughput. This paper aims to improve our analytical understanding and formally studies the throughput of reconfigurable networks by presenting a general and unifying model for dynamic networks and their topology and traffic engineering. We use our model to study demand-oblivious and demand-aware systems and prove new upper bounds for the throughput of a system as a function of its topology and traffic schedules. Next, we offer a novel system design that combines both demand-oblivious and demand-aware schedules, and we prove its throughput supremacy under a large family of demand matrices. We evaluate our design numerically for sparse and dense traffic and show that our approach can outperform other designs by up to 25% using common network parameters."
+  },
+  {
+    "paper_id": "W4399317831",
+    "title": "Understanding the Throughput Bounds of Reconfigurable Datacenter Networks",
+    "year": 2024,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "The increasing gap between the growth of datacenter traffic volume and the capacity of electrical switches led to the emergence of reconfigurable datacenter network designs based on optical circuit switching. A multitude of research works, ranging from demand-oblivious (e.g., RotorNet, Sirius) to demand-aware (e.g., Helios, ProjecToR) reconfigurable networks, demonstrate significant performance benefits. Unfortunately, little is formally known about the achievable throughput of such networks. Only recently have the throughput bounds of demand-oblivious networks been studied. In this paper, we tackle a fundamental question: Whether and to what extent can demand-aware reconfigurable networks improve the throughput of datacenters? This paper attempts to understand the landscape of the throughput bounds of reconfigurable datacenter networks. Given the rise of machine learning workloads and collective communication in modern datacenters, we specifically focus on their typical communication patterns, namely uniform-residual demand matrices. We formally establish a separation bound of demand-aware networks over demand-oblivious networks, proving analytically that the former can provide at least $16\\%$ higher throughput. Our analysis further uncovers new design opportunities based on periodic, fixed-duration reconfigurations that can harness the throughput benefits of demand-aware networks while inheriting the simplicity and low reconfiguration overheads of demand-oblivious networks. Finally, our evaluations corroborate the theoretical results of this paper, demonstrating that demand-aware networks significantly outperform oblivious networks in terms of throughput. This work barely scratches the surface and unveils several intriguing open questions, which we discuss at the end of this paper."
+  },
+  {
+    "paper_id": "W4399912755",
+    "title": "D3: An Adaptive Reconfigurable Datacenter Network",
+    "year": 2024,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "The explosively growing communication traffic in datacenters imposes increasingly stringent performance requirements on the underlying networks. Over the last years, researchers have developed innovative optical switching technologies that enable reconfigurable datacenter networks (RCDNs) which support very fast topology reconfigurations. This paper presents D3, a novel and feasible RDCN architecture that improves throughput and flow completion time. D3 quickly and jointly adapts its links and packet scheduling toward the evolving demand, combining both demand-oblivious and demand-aware behaviors when needed. D3 relies on a decentralized network control plane supporting greedy, integrated-multihop, IP-based routing, allowing to react, quickly and locally, to topological changes without overheads. A rack-local synchronization and transport layer further support fast network adjustments. Moreover, we argue that D3 can be implemented using the recently proposed Sirius architecture (SIGCOMM 2020). We report on an extensive empirical evaluation using packet-level simulations. We find that D3 improves throughput by up to 15% and preserves competitive flow completion times compared to the state of the art. We further provide an analytical explanation of the superiority of D3, introducing an extension of the well-known Birkhoff-von Neumann decomposition, which may be of independent interest."
+  },
+  {
+    "paper_id": "W4400065203",
+    "title": "2D Graphene Oxide: A Versatile Thermo‐Optic Material",
+    "year": 2024,
+    "venue": "Advanced Functional Materials",
+    "abstract": "Abstract Efficient heat management and control in optical devices, facilitated by advanced thermo‐optic materials, are critical for many applications such as photovoltaics, thermal emitters, mode‐locked lasers, and optical switches. Here, a range of thermo‐optic properties of 2D graphene oxide (GO) films are investigated by precisely integrating them onto microring resonators (MRRs) with control over the film thicknesses and lengths. The refractive index, extinction coefficient, thermo‐optic coefficient, and thermal conductivity for the GO films with different layer numbers and degrees of reduction, as well as reversible reduction and enhanced optical bistability induced by the photo‐thermal effects, are comprehensively characterized. Experimental results show that the thermo‐optic properties of 2D GO films vary widely with the degree of reduction. In addition, significant anisotropy is observed for the thermo‐optic response, enabling efficient polarization‐sensitive devices. The versatile thermo‐optic response of 2D GO substantially expands the scope of functionalities and devices that can be engineered, making it promising for a diverse range of thermo‐optic applications."
+  },
+  {
+    "paper_id": "W4402705205",
+    "title": "Fast thermo-optic switching on silicon nitride platform through parity-time symmetry breaking",
+    "year": 2024,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "Reconfigurable photonic integrated circuits (PICs) are key elements for emerging applications like photonic sensing, LiDAR, and quantum computing. In such applications, optical switches with fast response and robust fabrication methods are crucial for reprogramming linear optical transformations on demand. Here, we demonstrate a fast thermo-optic switching mechanism on the silicon nitride on insulator platform, leveraging parity-time symmetry breaking. The cladding-free design operating at 775 nm enables optical propagation in a partially metal-covered waveguide with minimal loss—an uncommon phenomenon given the typical absorption associated with metal proximity. The fabricated device exhibits a 7.1 µs rise time for a π phase shift, despite the weak thermo-optic coefficient in silicon nitride. Our design provides reproducible fabrication metrics and holds promises for large-scale photonic networks operating at visible wavelengths."
+  },
+  {
+    "paper_id": "W4406960606",
+    "title": "Experimental Evaluation of an SDN Controller for Open Optical-circuit-switched Networks",
+    "year": 2025,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "Open optical networks have been considered to be important for cost-effectively building and operating the networks. Recently, the optical-circuit-switches (OCSes) have attracted industry and academia because of their cost efficiency and higher capacity than traditional electrical packet switches (EPSes) and reconfigurable optical add drop multiplexers (ROADMs). Though the open interfaces and control planes for traditional ROADMs and transponders have been defined by several standard-defining organizations (SDOs), those of OCSes have not. Considering that several OCSes have already been installed in production datacenter networks (DCNs) and several OCS products are on the market, bringing the openness and interoperability into the OCS-based networks has become important. Motivated by this fact, this paper investigates a software-defined networking (SDN) controller for open optical-circuit-switched networks. To this end, we identified the use cases of OCSes and derived the controller requirements for supporting them. We then proposed a multi-vendor (MV) OCS controller framework that satisfies the derived requirements; it was designed to quickly and consistently operate fiber paths upon receiving the operation requests. We validated our controller by implementing it and evaluating its performance on actual MV-OCS networks. It satisfied all the requirements, and fiber paths could be configured within 1.0 second by using our controller."
+  },
+  {
+    "paper_id": "W4407244986",
+    "title": "InfiniteHBD: Building Datacenter-Scale High-Bandwidth Domain for LLM with Optical Circuit Switching Transceivers",
+    "year": 2025,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "Scaling Large Language Model (LLM) training relies on multi-dimensional parallelism, where High-Bandwidth Domains (HBDs) are critical for communication-intensive parallelism like Tensor Parallelism. However, existing HBD architectures face fundamental limitations in scalability, cost, and fault resiliency: switch-centric HBDs (e.g., NVL-72) incur prohibitive scaling costs, while GPU-centric HBDs (e.g., TPUv3/Dojo) suffer from severe fault propagation. Switch-GPU hybrid HBDs (e.g., TPUv4) take a middle-ground approach, but the fault explosion radius remains large. We propose InfiniteHBD, a transceiver-centric HBD architecture that integrates connectivity and dynamic switching at the transceiver level by embedding Optical Circuit Switching (OCS) within each transceiver. It enables reconfigurable point-to-multipoint communication and scalable variable-size ring topologies. InfiniteHBD achieves datacenter-scale scalability without cost explosion, fault isolation at the node level, and full bandwidth utilization for healthy GPUs. Key innovations include a Silicon Photonic-based OCS transceiver (OCSTrx), a reconfigurable k-hop ring topology, and an HBD-DCN orchestration algorithm. The evaluation demonstrates that InfiniteHBD reduces cost to 31% of NVL-72, achieves a near-zero GPU waste ratio (over 10x lower than NVL-72 and TPUv4), maintains near-zero cross-ToR traffic under 7% node fault ratio, and improves Model FLOPs Utilization by 3.37x compared to NVIDIA DGX (8 GPUs/node)."
+  },
+  {
+    "paper_id": "W7171539399",
+    "title": "Quantum-Level Crosstalk Characterization of a 16x16 MEMS Optical Switch for Dynamic Quantum Communications",
+    "year": 2026,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "We present an all-to-all quantum-level crosstalk characterization of a commercial 16x16 MEMS optical switch for multi-user quantum communications using SNSPDs, correlating experimental data with a theoretical impact analysis on the decoy-state BB84 QKD protocol."
+  },
+  {
+    "paper_id": "W7172527693",
+    "title": "Zero-change foundry compatible silicon photonics MEMS optical switch",
+    "year": 2026,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "Large-scale photonic switches are emerging as essential devices for energy-efficient optical interconnect in data centers and AI/ML clusters as a key enabler for high-bandwidth and low-latency connectivity. Combining micro-electro-mechanical (MEMS) based mechanical reconfigurability with silicon photonic integrated circuits can enable a large-scale, low-loss, programmable platform required for large-scale optical circuit switches. We demonstrate a broadband silicon photonics MEMS switch with more than 30 dB extinction ratio operating in C-band using a zero-change foundry-compatible process and Back-end-of-Line (BEOL) post-processing. The optical switch element exhibits an insertion loss of less than 1.5 dB with a low static power consumption of approx 20 nW at maximum actuation voltage. Our results illustrate that MEMS-based silicon photonics modulators and phase shifters can be used alongside standard silicon photonics components seamlessly in scenarios where performance in terms of footprint, extinction ratio, broad bandwidth, and low-loss operation is of paramount importance."
+  }
+]

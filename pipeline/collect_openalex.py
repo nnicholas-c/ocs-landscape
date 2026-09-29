@@ -26,7 +26,7 @@ from rapidfuzz import fuzz
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 QUERIES_PATH = REPO_ROOT / "pipeline" / "queries.yaml"
-PITFALLS_PATH = REPO_ROOT / "deliverables" / "pitfalls.md"
+PITFALLS_PATH = REPO_ROOT / "deliverables" / "pitfalls_original_log.md"
 RELEVANCE_PATH = REPO_ROOT / "data" / "raw" / "relevance.csv"
 OPENALEX_RAW_PATH = REPO_ROOT / "data" / "raw" / "openalex.jsonl"
 
@@ -98,7 +98,9 @@ def extract_arxiv_id(work):
         return re.sub(r"v\d+$", "", m.group(1))
     for loc in work.get("locations") or []:
         landing = (loc or {}).get("landing_page_url") or ""
-        m = re.search(r"arxiv\.org/abs/([^v/?]+)", landing)
+        # /abs/ or /pdf/, new-style 2006.10692 or old-style cond-mat/0601001;
+        # the pattern stops before any vN suffix or .pdf.
+        m = re.search(r"arxiv\.org/(?:abs|pdf)/((?:[a-z\-]+(?:\.[A-Z]{2})?/\d{7})|\d{4}\.\d{4,5})", landing)
         if m:
             return m.group(1)
     return None

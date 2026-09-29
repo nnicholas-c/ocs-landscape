@@ -1,0 +1,152 @@
+[
+  {
+    "record_key": "openalex:W2808460361",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "3D printing nozzle monitoring, unrelated; empty abstract"
+  },
+  {
+    "record_key": "openalex:W2112474154",
+    "score": 2,
+    "adjacent_field": "telecom_oxc_roadm",
+    "reason": "SDM elastic optical network resource allocation with switchable fiber cores"
+  },
+  {
+    "record_key": "openalex:W2092016229",
+    "score": 1,
+    "adjacent_field": "mems_micromirror",
+    "reason": "DMD micromirror array used for 3D printing projection, not switching"
+  },
+  {
+    "record_key": "openalex:W2899794813",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "3D printed microfluidic device fabrication review, unrelated"
+  },
+  {
+    "record_key": "openalex:W3116273806",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "COVID-19 antibody biosensor, unrelated"
+  },
+  {
+    "record_key": "openalex:W3008142701",
+    "score": 2,
+    "adjacent_field": "telecom_oxc_roadm",
+    "reason": "Optical cross-connect architectures using matrix switches for SDM telecom networks"
+  },
+  {
+    "record_key": "openalex:W2736469010",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Optical sensors roadmap, unrelated"
+  },
+  {
+    "record_key": "openalex:W2959799147",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Polymer optical fiber sensors for healthcare, unrelated"
+  },
+  {
+    "record_key": "openalex:W3093584113",
+    "score": 1,
+    "adjacent_field": "free_space_optics_packaging",
+    "reason": "Optical phased array beam steering for space comm, not circuit switching"
+  },
+  {
+    "record_key": "openalex:W4403840744",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Graphene MEMS/NEMS review, general, not optical switching"
+  },
+  {
+    "record_key": "openalex:W2522007538",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "3D mesostructure assembly from multilayers, materials science, unrelated"
+  },
+  {
+    "record_key": "openalex:W3019958894",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Composite materials for 3D printing, unrelated"
+  },
+  {
+    "record_key": "openalex:W3193768780",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "MEMS terahertz metadevices, not optical circuit switching"
+  },
+  {
+    "record_key": "openalex:W3189750891",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "3D printed optical elements (lenses, mirrors), not switches"
+  },
+  {
+    "record_key": "openalex:W3114594461",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "3D printed microneedle MEMS drug delivery, unrelated; empty abstract"
+  },
+  {
+    "record_key": "openalex:W2922158825",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "MEMS microphone design review, unrelated"
+  },
+  {
+    "record_key": "openalex:W2791270922",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Micro/nanofibre optical sensors review, unrelated"
+  },
+  {
+    "record_key": "openalex:W2900595881",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Capacitive MEMS accelerometers review, unrelated"
+  },
+  {
+    "record_key": "openalex:W2044169471",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Graphene neural electrode array for optogenetics, unrelated"
+  },
+  {
+    "record_key": "openalex:W2062631387",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Silicon photonic switch fabrics analyzed for data center interconnection networks"
+  },
+  {
+    "record_key": "openalex:W4211161891",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Topological photonics review, no switching application"
+  },
+  {
+    "record_key": "openalex:W4391232091",
+    "score": 1,
+    "adjacent_field": "silicon_photonics",
+    "reason": "General silicon photonics roadmap across applications, not switch-focused"
+  },
+  {
+    "record_key": "openalex:W2894308888",
+    "score": 1,
+    "adjacent_field": "silicon_photonics",
+    "reason": "Silicon nitride photonics platform review, not switch-focused"
+  },
+  {
+    "record_key": "openalex:W2996556490",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Silicon photonic switch topologies and routing for disaggregated data centers"
+  },
+  {
+    "record_key": "openalex:W4280617936",
+    "score": 1,
+    "adjacent_field": "silicon_photonics",
+    "reason": "Microcomb-driven silicon photonic light source systems, not switching"
+  }
+]

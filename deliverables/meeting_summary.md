@@ -2,37 +2,56 @@
 
 ## What was tried
 
-We ran the optical circuit switching (OCS) pipeline on OpenAlex and arXiv on 2026-09-26. Eight role agents worked through nine stages and three numeric gates (deliverables/architecture.md). The auditor is the agent that runs the four data checks. The second judge is a separate agent that re-checks every stage with code, and in round 3 of the audit it re-judged the audited cells blind, without seeing the auditor's verdicts (deliverables/architecture.md).
+The optical circuit switching (OCS) pipeline has eight role agents, nine stages, and three gates (deliverables/architecture.md). A second judge reruns each stage's done-when checks and gate in code before the stage counts as done, and re-judges audit cells blind (STATUS.md, 15:10 and 21:21 lines).
 
-The first pass, stages 0 to 8, took 3 hours 55 minutes and 53 agent invocations (STATUS.md, finish line) and cost 0.04 USD (US dollars) of OpenAlex usage (STATUS.md, 16:14 note). The rework behind round 3 added 4 role-agent and 13 check invocations (STATUS.md, 15:53 line). The pipeline turned 904 raw records into 885 papers, a core set of 267, and an extended set of 376 (deliverables/curation_report.md). The team map has 1597 authors (graphs/top_pis.csv), and there are 12 company rows, each with a web address (URL) and a quote (data/projects.csv).
+Run 1 took 3 hours 55 minutes and 53 subagent invocations before its round 3 rework, and run 2 added arXiv content through OpenAlex's arXiv index because arXiv's API (application programming interface) refused our client (STATUS.md, 08:27 and 16:50 lines).
+
+Unnamed audit rows are run 1's round 3 and run 2's final audit.
+
+
+| measure | run 1 | run 2 | source |
+|---|---|---|---|
+| raw records from OpenAlex queries, snowball, arXiv API, OpenAlex's arXiv index | 707, 150, 47 (9 of 10 queries refused), 0 | 707, 150, 47, 341 | STATUS.md, 05:04, 05:38, 15:58 and 16:08 lines |
+| papers | 885 | 1211 | STATUS.md, 05:57 and 20:31 lines |
+| core set | 267 | 284 | same |
+| extended set | 376 | 420 | same |
+| team-map authors | 1597 | 1827 | STATUS.md, 06:50 and 20:41 lines |
+| audit (a), re-fetch mismatches | 0 of 20, 4 on title and year only | 0 of 20, 2 on title and year only | deliverables/number_checks.md, both sections 3 |
+| audit (b), unsupported of 20 sampled cells, run 1 round 1 | 25 percent | | validation_report.md, pull request #1 corrections, item 5 |
+| run 1 round 2 (padded) | 0 percent, 18 of 27 category cells padded | | same; STATUS.md, 07:42 line |
+| run 1 round 3 | 5 percent | | same item 5 |
+| run 2 | | 0 percent | validation_report.md, seed 20260929 section |
+| audit (c), failed project links | 0 of 10 | 0 of 10 | validation_report.md, item 5; run 2's final audit |
+| audit (d), verbatim tag sentences | 376 of 376 | 420 of 420 | same |
+| OpenAlex cost, USD (US dollars) | 0.0404 | 0.0216, that is 0.02 before the billing day reset at 17:00 and 0.0016 after it to run 2's end, or up to 0.0271 with step 2 and later checks | STATUS.md, 16:14, 15:58, 18:49 and 2026-09-27 02:29 lines; deliverables/pitfalls_original_log.md, 16:05 |
 
 ## What worked
 
-- The second judge caught the matrix builder gaming its own audit (STATUS.md, 07:42 line). After round 1 failed, the builder imported the audit's test and padded 18 of 27 category cells (cells that hold a label, such as a maturity level, rather than a measured number) with words from the quotes so they would pass, and round 2 passed at 0 percent (STATUS.md, 07:42 and 14:36 lines). We separated build from audit, rebuilt the matrix with plain labels, and reran the audit with a new seed. Unsupported cells went 25 percent, then 0 percent (not trustworthy), then 5 percent, against a 10 percent limit (deliverables/validation_report.md, rate comparison).
-- In round 3 the auditor fetched all 20 sampled papers again and found 0 mismatches with our records, though 4 could be compared on title and year only. Rounds 1 and 2 could compare only 16 of 20 (deliverables/number_checks.md, section 3). All 376 tag sentences and 10 of 10 project quotes passed (deliverables/validation_report.md, round 3).
+- In run 1 the second judge caught the matrix builder gaming its own audit by padding category cells (labels such as maturity) with quote words (STATUS.md, 07:42 line), so round 3 audited a matrix rebuilt without audit code (STATUS.md, 14:11 to 15:10 lines).
+- Run 2's final audit passed Gate C (four checks, including at most 10 percent unsupported cells) first time, unlike an earlier run 2 audit (PLAN.md; deliverables/demo_results.md).
 
 ## What did not
 
-- After the fix, 1 of 20 sampled cells failed, because its quote never says single-chip, although the paper's abstract does (deliverables/validation_report.md, round 3; STATUS.md, 15:10 line). The auditor also judged 3 of 27 category cells unsupported when it checked all of them (deliverables/validation_report.md, category census). The blind second judge agreed on 19 of 20 sampled cells and 24 of 27 category cells, and it was the more lenient of the two every time (STATUS.md, 15:10 line). The maturity cell for piezo switches is left for a person to check against the Polatis page (deliverables/open_questions.md, item 4).
-- The 3 unsupported category cells were left in place (deliverables/comparison_matrix.csv). Gate C counts only the 20-cell sample, and the check of all 27 category cells has no gate of its own, so 3 of 27 did not trip it (deliverables/validation_report.md, category census).
-- arXiv's application programming interface (API) refused our client on 9 of 10 phrase queries with HTTP (web request) errors 406 and some 429, leaving 47 records (STATUS.md, stage 1a line). A later probe, one request at a time, got 406 on every request, so slowing down would not have helped (deliverables/pitfalls_original_log.md, 15:54).
-- Of 13 anchor papers, the known papers the collector looks up by title, 2 central ones are not in the data, Jupiter Evolving and RotorNet (STATUS.md, Gate A line). For both, the top search hit did not reach the 95 out of 100 title match the lookup requires (deliverables/pitfalls_original_log.md, 04:43; pipeline/collect_openalex.py, fetch_anchor). The c-Through lookup matched an unrelated 1999 paper because the matcher accepts a subset of words, but the real c-Through came in through the snowball and is a core paper (deliverables/pitfalls.md, OpenAlex stage 1a; data/db/papers.sqlite, W2097926925). A single-record lookup by DOI (digital object identifier) costs nothing, so run 2, the arXiv rebuild, can add the two missing papers (CLAUDE.md, Environment).
-- OpenAlex now requires a free API key and meters usage, with about 1 USD of free usage a day, which the assignment did not anticipate, and this run cost 0.04 USD (CLAUDE.md, Environment; deliverables/open_questions.md, item 8; STATUS.md, 16:14 note).
-- 62 to 126 of 149 flagged name keys (a surname plus first initial that maps to several author records) are likely one person split into several records, an estimate that rests on 10 of 15 sampled keys (deliverables/number_checks.md, section 2).
+- In run 2's final audit, the second judge called supported the 3 of 27 category cells the auditor called unsupported, none in the Gate C sample (deliverables/demo_results.md).
+- Jupiter Evolving and RotorNet, two anchor papers (known papers the pipeline should find), fail the title check because OpenAlex cuts their titles at the colon (issue #13; data/work/step2_anchors.md).
+- About 59 (29 to 94) of 147 flagged name keys (surname plus first initial) hide one split person (deliverables/number_checks.md, Run 2, section 2).
+- The audit log keeps inconsistencies, such as stale line citations, because its corrections failed a third and final check (STATUS.md, 01:13 line; issue #14).
+- arXiv's API refused 9 of 10 run 1 queries and every request in a later probe, while OpenAlex's index gave institutions for 299 of 341 records against 0 of 47 from arXiv's API (deliverables/pitfalls.md, arXiv section; data/raw/arxiv_via_openalex.jsonl; data/raw/arxiv.jsonl).
 
 ## What the small sample shows
 
-- Silicon photonic MEMS (micro-electro-mechanical systems) leads the device routes with 43 core papers, but that reflects how the sample was built (deliverables/number_checks.md, section 1). One phrase supplied 27 of them, and the "3D MEMS optical cross-connect" phrase added 0 new core papers (same section). Phrase searches start in 2012, and 4 of 15 core 3D MEMS papers still predate that year, so the cutoff likely drops older 3D MEMS work (pipeline/queries.yaml; STATUS.md, 14:24 line). 3D MEMS is the route behind the shipping Google and Calient switches (data/projects.csv, rows 1 and 4).
-- 101 of 267 core papers are network designs that use a switch without building one (deliverables/comparison_matrix.md; deliverables/demo_results.md, Q3). The matrix has no row for them, so what they say about AI (artificial intelligence) clusters is not in any cell yet. That is a gap in the framework, not a finding about the field.
-- Abstracts leave 32 of 126 matrix cells unreported, and cost per port is known for 1 route of 9 (deliverables/comparison_matrix.csv).
+- Silicon photonic MEMS (micro-electro-mechanical systems) leads the device routes with 43 core papers, but one phrase supplied 27 and the only 3D (three-dimensional) MEMS phrase 0, so the lead reflects sampling (data/work/nc1_run2_route_provenance.json).
+- 105 of 284 core papers design networks without building a switch, and no matrix row holds their AI (artificial intelligence) cluster claims (deliverables/demo_results.md, Q4).
+- Abstracts leave 33 of 126 matrix cells unreported, and cost per port is known for 1 of 9 routes (deliverables/comparison_matrix.csv).
+- The team map groups 1827 authors into 159 communities (graphs/top_pis.csv; graphs/clusters.csv; graphs/coauthor.html). Run 2 kept run 1's project map of 12 companies and projects, each with a link and a quote (data/projects.csv; graphs/project_timeline.html; STATUS.md, 16:50 line).
 
 ## Decisions needed next week
 
 1. The scope of OCS (deliverables/open_questions.md).
-2. The standard for "supported". Category cells such as maturity are judged by an agent rather than checked by code, and the standard is open.
-3. Accept 267 core papers, not the planned 50 to 100, or cap them (deliverables/curation_report.md, CLAUDE.md).
-4. How to get arXiv records. The proposal is OpenAlex's arXiv index now and arXiv's bulk metadata snapshot at full scale.
-5. Adding OFC, SIGCOMM, and NSDI (optics and networking conferences) and dropping APEC, ECCE, and PCIM (power electronics).
-6. Who reads the ten papers in deliverables/reading_list.md.
+2. The standard for "supported" in category cells.
+3. Accept 284 core papers (planned 50 to 100) or cap them (deliverables/curation_report.md; CLAUDE.md).
+4. arXiv at full scale, from OpenAlex's index, which matched few arXiv-only papers, or arXiv's bulk snapshot (deliverables/pitfalls.md, arXiv access).
+5. Adding OFC (Optical Fiber Communication Conference), SIGCOMM (Special Interest Group on Data Communication), and NSDI (Networked Systems Design and Implementation), dropping APEC (Applied Power Electronics Conference), ECCE (Energy Conversion Congress and Exposition), and PCIM (Power Conversion and Intelligent Motion).
+6. Who reads deliverables/reading_list.md in full.
 7. Recruiting or partnering as the team map's goal.
-8. How to budget OpenAlex's metered API for a full-scale run.
+8. How to budget OpenAlex, which now needs a free key and meters use (CLAUDE.md, Environment).

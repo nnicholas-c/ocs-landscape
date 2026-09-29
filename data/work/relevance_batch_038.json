@@ -1,0 +1,202 @@
+[
+  {
+    "record_key": "openalex:W2114993470",
+    "source": "arxiv_via_openalex",
+    "title": "Nanophotonic quantum phase switch with a single atom",
+    "year": 2014,
+    "venue": "Nature",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W2138422822",
+    "source": "arxiv_via_openalex",
+    "title": "Polariton condensate transistor switch",
+    "year": 2012,
+    "venue": "Physical Review B",
+    "abstract": "A polariton condensate transistor switch is realized through optical excitation of a microcavity ridge with two beams. The ballistically ejected polaritons from a condensate formed at the source are gated using the 20 times weaker second beam to switch on and off the flux of polaritons. In the absence of the gate beam the small built-in detuning creates a potential landscape in which ejected polaritons are channelled toward the end of the ridge where they condense. The low-loss photonlike propagation combined with strong nonlinearities associated with their excitonic component makes polariton-based transistors particularly attractive for the implementation of all-optical integrated circuits."
+  },
+  {
+    "record_key": "openalex:W2076099374",
+    "source": "arxiv_via_openalex",
+    "title": "All-Optical Switch and Transistor Gated by One Stored Photon",
+    "year": 2013,
+    "venue": "Science",
+    "abstract": "The realization of an all-optical transistor, in which one \"gate\" photon controls a \"source\" light beam, is a long-standing goal in optics. By stopping a light pulse in an atomic ensemble contained inside an optical resonator, we realized a device in which one stored gate photon controls the resonator transmission of subsequently applied source photons. A weak gate pulse induces bimodal transmission distribution, corresponding to zero and one gate photons. One stored gate photon produces fivefold source attenuation and can be retrieved from the atomic ensemble after switching more than one source photon. Without retrieval, one stored gate photon can switch several hundred source photons. With improved storage and retrieval efficiency, our work may enable various new applications, including photonic"
+  },
+  {
+    "record_key": "openalex:W2901559764",
+    "source": "arxiv_via_openalex",
+    "title": "Low-Loss and Broadband Nonvolatile Phase-Change Directional Coupler Switches",
+    "year": 2019,
+    "venue": "ACS Photonics",
+    "abstract": "An optical equivalent of the field-programmable gate array (FPGA) is of great interest to large-scale photonic integrated circuits. Previous programmable photonic devices relying on the weak, volatile thermo-optic or electro-optic effect usually suffer from a large footprint and high energy consumption. Phase change materials (PCMs) offer a promising solution due to the large nonvolatile change in the refractive index upon phase transition. However, the large optical loss in PCMs poses a serious problem. Here, by exploiting an asymmetric directional coupler design, we demonstrate nonvolatile PCM-clad silicon photonic 1 × 2 and 2 × 2 switches with a low insertion loss of ∼1 dB and a compact coupling length of ∼30 μm while maintaining a small crosstalk less than −10 dB"
+  },
+  {
+    "record_key": "openalex:W2216447290",
+    "source": "arxiv_via_openalex",
+    "title": "All-optical polariton transistor",
+    "year": 2013,
+    "venue": "Nature Communications",
+    "abstract": "Although optical technology provides the best solution for the transmission of information, all-optical devices must satisfy several qualitative criteria to be used as logic elements. In particular, cascadability is difficult to obtain in optical systems, and it is assured only if the output of one stage is in the correct form to drive the input of the next stage. Exciton-polaritons, which are composite particles resulting from the strong coupling between excitons and photons, have recently demonstrated huge non-linearities and unique propagation properties. Here we show that polariton fluids moving in the plane of the microcavity can operate as input and output of an all-optical transistor, obtaining up to 19 times amplification and demonstrating the cascadability of the system. Moreover, the"
+  },
+  {
+    "record_key": "openalex:W3037905030",
+    "source": "arxiv_via_openalex",
+    "title": "Nonvolatile Electrically Reconfigurable Integrated Photonic Switch Enabled by a Silicon PIN Diode Heater",
+    "year": 2020,
+    "venue": "Advanced Materials",
+    "abstract": "Reconfigurability of photonic integrated circuits (PICs) has become increasingly important due to the growing demands for electronic-photonic systems on a chip driven by emerging applications, including neuromorphic computing, quantum information, and microwave photonics. Success in these fields usually requires highly scalable photonic switching units as essential building blocks. Current photonic switches, however, mainly rely on materials with weak, volatile thermo-optic or electro-optic modulation effects, resulting in large footprints and high energy consumption. As a promising alternative, chalcogenide phase-change materials (PCMs) exhibit strong optical modulation in a static, self-holding fashion, but the scalability of present PCM-integrated photonic applications is still limited by the poor optical or electrical actuation approaches. Here, with phase transitions actuated by in situ silicon PIN diode heaters,"
+  },
+  {
+    "record_key": "openalex:W4406960606",
+    "source": "arxiv_via_openalex",
+    "title": "Experimental Evaluation of an SDN Controller for Open Optical-circuit-switched Networks",
+    "year": 2025,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "Open optical networks have been considered to be important for cost-effectively building and operating the networks. Recently, the optical-circuit-switches (OCSes) have attracted industry and academia because of their cost efficiency and higher capacity than traditional electrical packet switches (EPSes) and reconfigurable optical add drop multiplexers (ROADMs). Though the open interfaces and control planes for traditional ROADMs and transponders have been defined by several standard-defining organizations (SDOs), those of OCSes have not. Considering that several OCSes have already been installed in production datacenter networks (DCNs) and several OCS products are on the market, bringing the openness and interoperability into the OCS-based networks has become important. Motivated by this fact, this paper investigates a software-defined networking (SDN) controller for open optical-circuit-switched networks."
+  },
+  {
+    "record_key": "openalex:W2949939478",
+    "source": "arxiv_via_openalex",
+    "title": "Optimal Degree of Optical Circuit Switching in IP-over-WDM Networks",
+    "year": 2012,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "In this paper, we study the influence of technology, traffic properties and price trends on optimized design of a reference IP-over-WDM network with rich underlying fiber topology. In each network node, we investigate the optimal degree of traffic switching in an optical (lambda) domain versus an electrical (packet) domain, also known as measure of node transparency. This measure is studied in connection to changes in traffic volume, demand affinity, optical circuit speeds and equipment cost. By applying variable design constraints, we assess the relative roles of the two distinct equipment groups, IP routers and optical cross-connects, with respect to resulting changes in cost-sensitive network architectures."
+  },
+  {
+    "record_key": "openalex:W2006436281",
+    "source": "arxiv_via_openalex",
+    "title": "Phonon waveguides for electromechanical circuits",
+    "year": 2014,
+    "venue": "Nature Nanotechnology",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W2966094910",
+    "source": "arxiv_via_openalex",
+    "title": "Reciprocal skin effect and its realization in a topolectrical circuit",
+    "year": 2020,
+    "venue": "Physical Review Research",
+    "abstract": "This work explores a non-Hermitian system displaying a reciprocal variant of the skin effect, which is characterized by an extensive anomalous localization of all Hamiltonian eigenmodes in a one-dimensional geometry. The authors experimentally demonstrate the reciprocal skin effect in a passive RLC circuit and suggest alternative implementations in optical, acoustic, mechanical, and related platforms."
+  },
+  {
+    "record_key": "openalex:W2801152785",
+    "source": "arxiv_via_openalex",
+    "title": "A single-photon switch and transistor enabled by a solid-state quantum memory",
+    "year": 2018,
+    "venue": "Science",
+    "abstract": "Single-photon switches and transistors generate strong photon-photon interactions that are essential for quantum circuits and networks. However, the deterministic control of an optical signal with a single photon requires strong interactions with a quantum memory, which has been challenging to achieve in a solid-state platform. We demonstrate a single-photon switch and transistor enabled by a solid-state quantum memory. Our device consists of a semiconductor spin qubit strongly coupled to a nanophotonic cavity. The spin qubit enables a single 63-picosecond gate photon to switch a signal field containing up to an average of 27.7 photons before the internal state of the device resets. Our results show that semiconductor nanophotonic devices can produce strong and controlled photon-photon interactions that could enable high-bandwidth"
+  },
+  {
+    "record_key": "openalex:W2983510028",
+    "source": "arxiv_via_openalex",
+    "title": "Integrated turnkey soliton microcombs",
+    "year": 2020,
+    "venue": "Nature",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W4407244986",
+    "source": "arxiv_via_openalex",
+    "title": "InfiniteHBD: Building Datacenter-Scale High-Bandwidth Domain for LLM with Optical Circuit Switching Transceivers",
+    "year": 2025,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "Scaling Large Language Model (LLM) training relies on multi-dimensional parallelism, where High-Bandwidth Domains (HBDs) are critical for communication-intensive parallelism like Tensor Parallelism. However, existing HBD architectures face fundamental limitations in scalability, cost, and fault resiliency: switch-centric HBDs (e.g., NVL-72) incur prohibitive scaling costs, while GPU-centric HBDs (e.g., TPUv3/Dojo) suffer from severe fault propagation. Switch-GPU hybrid HBDs (e.g., TPUv4) take a middle-ground approach, but the fault explosion radius remains large. We propose InfiniteHBD, a transceiver-centric HBD architecture that integrates connectivity and dynamic switching at the transceiver level by embedding Optical Circuit Switching (OCS) within each transceiver. It enables reconfigurable point-to-multipoint communication and scalable variable-size ring topologies. InfiniteHBD achieves datacenter-scale scalability without cost explosion, fault isolation at the node level, and full"
+  },
+  {
+    "record_key": "openalex:W2999027813",
+    "source": "arxiv_via_openalex",
+    "title": "Tunable nanophotonics enabled by chalcogenide phase‐change materials",
+    "year": 2020,
+    "venue": "Nanophotonics",
+    "abstract": "Abstract Nanophotonics has garnered intensive attention due to its unique capabilities in molding the flow of light in the subwavelength regime. Metasurfaces (MSs) and photonic integrated circuits (PICs) enable the realization of mass‐producible, cost‐effective, and efficient flat optical components for imaging, sensing, and communications. In order to enable nanophotonics with multipurpose functionalities, chalcogenide phase‐change materials (PCMs) have been introduced as a promising platform for tunable and reconfigurable nanophotonic frameworks. Integration of non‐volatile chalcogenide PCMs with unique properties such as drastic optical contrasts, fast switching speeds, and long‐term stability grants substantial reconfiguration to the more conventional static nanophotonic platforms. In this review, we discuss state‐of‐the‐art developments as well as emerging trends in tunable MSs and PICs using chalcogenide PCMs. We outline"
+  },
+  {
+    "record_key": "openalex:W4391013534",
+    "source": "arxiv_via_openalex",
+    "title": "A Fast Control Plane for a Large-Scale and High-Speed Optical Circuit Switch System",
+    "year": 2024,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "We experimentally verify a fast control plane with 100 microseconds of configuration time that can support more than 1000 racks, leveraged by a software-defined network controller and an industrial real-time Ethernet standard EtherCAT."
+  },
+  {
+    "record_key": "openalex:W1975647260",
+    "source": "arxiv_via_openalex",
+    "title": "Nanobatteries in redox-based resistive switches require extension of memristor theory",
+    "year": 2013,
+    "venue": "Nature Communications",
+    "abstract": "Redox-based nanoionic resistive memory cells are one of the most promising emerging nanodevices for future information technology with applications for memory, logic and neuromorphic computing. Recently, the serendipitous discovery of the link between redox-based nanoionic-resistive memory cells and memristors and memristive devices has further intensified the research in this field. Here we show on both a theoretical and an experimental level that nanoionic-type memristive elements are inherently controlled by non-equilibrium states resulting in a nanobattery. As a result, the memristor theory must be extended to fit the observed non-zero-crossing I–V characteristics. The initial electromotive force of the nanobattery depends on the chemistry and the transport properties of the materials system but can also be introduced during redox-based nanoionic-resistive memory cell"
+  },
+  {
+    "record_key": "openalex:W2891657045",
+    "source": "arxiv_via_openalex",
+    "title": "Monolithic lithium niobate photonic circuits for Kerr frequency comb generation and modulation",
+    "year": 2019,
+    "venue": "Nature Communications",
+    "abstract": "Abstract Microresonator Kerr frequency combs could provide miniaturised solutions for a wide range of applications. Many of these applications however require further manipulation of the generated frequency comb signal using photonic elements with strong second-order nonlinearity ( χ (2) ). To date these functionalities have largely been implemented as discrete components due to material limitations, which comes at the expense of extra system complexity and increased optical losses. Here we demonstrate the generation, filtering and electro-optic modulation of a frequency comb on a single monolithic integrated chip, using a nanophotonic lithium-niobate platform that simultaneously possesses large electro-optic ( χ (2) ) and Kerr ( χ (3) ) nonlinearities, and low optical losses. We generate broadband Kerr frequency combs using a"
+  },
+  {
+    "record_key": "openalex:W2606456423",
+    "source": "arxiv_via_openalex",
+    "title": "10-Qubit Entanglement and Parallel Logic Operations with a Superconducting Circuit",
+    "year": 2017,
+    "venue": "Physical Review Letters",
+    "abstract": "Here we report on the production and tomography of genuinely entangled Greenberger-Horne-Zeilinger states with up to ten qubits connecting to a bus resonator in a superconducting circuit, where the resonator-mediated qubit-qubit interactions are used to controllably entangle multiple qubits and to operate on different pairs of qubits in parallel. The resulting 10-qubit density matrix is probed by quantum state tomography, with a fidelity of 0.668±0.025. Our results demonstrate the largest entanglement created so far in solid-state architectures and pave the way to large-scale quantum computation."
+  },
+  {
+    "record_key": "openalex:W3157964186",
+    "source": "arxiv_via_openalex",
+    "title": "Single-Molecule Vacuum Rabi Splitting: Four-Wave Mixing and Optical Switching at the Single-Photon Level",
+    "year": 2021,
+    "venue": "Physical Review Letters",
+    "abstract": "A single quantum emitter can possess a very strong intrinsic nonlinearity, but its overall promise for nonlinear effects is hampered by the challenge of efficient coupling to incident photons. Common nonlinear optical materials, on the other hand, are easy to couple to but are bulky, imposing a severe limitation on the miniaturization of photonic systems. In this Letter, we show that a single organic molecule acts as an extremely efficient nonlinear optical element in the strong coupling regime of cavity quantum electrodynamics. We report on single-photon sensitivity in nonlinear signal generation and all-optical switching. Our work promotes the use of molecules for applications such as integrated photonic circuits operating at very low powers."
+  },
+  {
+    "record_key": "openalex:W2252668610",
+    "source": "arxiv_via_openalex",
+    "title": "A quantum phase switch between a single solid-state spin and a photon",
+    "year": 2016,
+    "venue": "Nature Nanotechnology",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W2509767011",
+    "source": "arxiv_via_openalex",
+    "title": "Reconfigurable SDM Switching Using Novel Silicon Photonic Integrated Circuit",
+    "year": 2016,
+    "venue": "Scientific Reports",
+    "abstract": "Abstract Space division multiplexing using multicore fibers is becoming a more and more promising technology. In space-division multiplexing fiber network, the reconfigurable switch is one of the most critical components in network nodes. In this paper we for the first time demonstrate reconfigurable space-division multiplexing switching using silicon photonic integrated circuit, which is fabricated on a novel silicon-on-insulator platform with buried Al mirror. The silicon photonic integrated circuit is composed of a 7 × 7 switch and low loss grating coupler array based multicore fiber couplers. Thanks to the Al mirror, grating couplers with ultra-low coupling loss with optical multicore fibers is achieved. The lowest total insertion loss of the silicon integrated circuit is as low as 4.5 dB, with"
+  },
+  {
+    "record_key": "openalex:W2152919104",
+    "source": "arxiv_via_openalex",
+    "title": "Integrated coherent matter wave circuits",
+    "year": 2015,
+    "venue": "New Journal of Physics",
+    "abstract": "An integrated coherent matter wave circuit is a single device, analogous to an integrated optical circuit, in which coherent de Broglie waves are created and then launched into waveguides where they can be switched, divided, recombined, and detected as they propagate. Applications of such circuits include guided atom interferometers, atomtronic circuits, and precisely controlled delivery of atoms. Here we report experiments demonstrating integrated circuits for guided coherent matter waves. The circuit elements are created with the painted potential technique, a form of time-averaged optical dipole potential in which a rapidly moving, tightly focused laser beam exerts forces on atoms through their electric polarizability. The source of coherent matter waves is a Bose–Einstein condensate (BEC). We launch BECs into painted waveguides"
+  },
+  {
+    "record_key": "openalex:W2762061373",
+    "source": "arxiv_via_openalex",
+    "title": "Heterogeneous integration for on-chip quantum photonic circuits with single quantum dot devices",
+    "year": 2017,
+    "venue": "Nature Communications",
+    "abstract": "Abstract Single-quantum emitters are an important resource for photonic quantum technologies, constituting building blocks for single-photon sources, stationary qubits, and deterministic quantum gates. Robust implementation of such functions is achieved through systems that provide both strong light–matter interactions and a low-loss interface between emitters and optical fields. Existing platforms providing such functionality at the single-node level present steep scalability challenges. Here, we develop a heterogeneous photonic integration platform that provides such capabilities in a scalable on-chip implementation, allowing direct integration of GaAs waveguides and cavities containing self-assembled InAs/GaAs quantum dots—a mature class of solid-state quantum emitter—with low-loss Si3N4 waveguides. We demonstrate a highly efficient optical interface between Si3N4 waveguides and single-quantum dots in GaAs geometries, with performance approaching that of"
+  },
+  {
+    "record_key": "openalex:W2039211361",
+    "source": "arxiv_via_openalex",
+    "title": "Field-Effect Tunneling Transistor Based on Vertical Graphene Heterostructures",
+    "year": 2012,
+    "venue": "Science",
+    "abstract": "Tunnel Barriers for Graphene Transistors Transistor operation for integrated circuits not only requires that the gate material has high-charge carrier mobility, but that there is also an effective way of creating a barrier to current flow so that the device can be switched off and not waste power. Graphene offers high carrier mobility, but the shape of its conduction and valence bands enables electron tunneling and makes it difficult to achieve low currents in an “off” state. Britnell et al. (p. 947 , published online 2 February) have fabricated field-effect transistors in which a thin tunneling barrier created from a layered material—either hexagonal boron nitride or molybdenum disulfide—is sandwiched between graphene sheets. These devices exhibit on-off switching ratios of ≈50"
+  },
+  {
+    "record_key": "openalex:W2611050590",
+    "source": "arxiv_via_openalex",
+    "title": "Towards understanding two-level-systems in amorphous solids: insights from quantum circuits",
+    "year": 2019,
+    "venue": "Reports on Progress in Physics",
+    "abstract": "Amorphous solids show surprisingly universal behaviour at low temperatures. The prevailing wisdom is that this can be explained by the existence of two-state defects within the material. The so-called standard tunneling model has become the established framework to explain these results, yet it still leaves the central question essentially unanswered-what are these two-level defects (TLS)? This question has recently taken on a new urgency with the rise of superconducting circuits in quantum computing, circuit quantum electrodynamics, magnetometry, electrometry and metrology. Superconducting circuits made from aluminium or niobium are fundamentally limited by losses due to TLS within the amorphous oxide layers encasing them. On the other hand, these circuits also provide a novel and effective method for studying the very defects"
+  }
+]

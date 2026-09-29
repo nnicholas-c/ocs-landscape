@@ -1,0 +1,222 @@
+[
+  {
+    "paper_id": "W1963836897",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": "silicon_photonics",
+    "confidence": "low",
+    "evidence_span": "In this paper, passive technologies for large-scale photonic integrated circuits are described, including polarization handling, light non-reciprocity and loss reduction."
+  },
+  {
+    "paper_id": "W3029584541",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": "silicon_photonics",
+    "confidence": "low",
+    "evidence_span": "Here we demonstrate a fabrication technology that meets all requirements on wafer-level yield, performance and length scale."
+  },
+  {
+    "paper_id": "W3095839225",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "unclear",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": "silicon_photonics",
+    "confidence": "low",
+    "evidence_span": "In practical applications, silicon photonics started with optical interconnect transceivers in the data-com first, and has been now extended to innovative applications such as multi-port optical switches in the telecom network node and integrated optical phased arrays (OPAs) in light detection and ranging (LiDAR)."
+  },
+  {
+    "paper_id": "W4313555657",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "none",
+    "adjacent_field": "silicon_photonics",
+    "confidence": "low",
+    "evidence_span": "Here, we provide a high-level Review of the history of LN as an optical material, its different photonic platforms, engineering concepts, spectral coverage, and essential applications before providing an outlook for the future of LN."
+  },
+  {
+    "paper_id": "W2900579067",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "unclear",
+    "ai_dc_fit": "none",
+    "adjacent_field": "silicon_photonics",
+    "confidence": "low",
+    "evidence_span": "This paper presents an overview of existing and upcoming commercial and noncommercial open-access silicon photonics technology platforms."
+  },
+  {
+    "paper_id": "W3041992595",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "unclear",
+    "ai_dc_fit": "none",
+    "adjacent_field": "silicon_photonics",
+    "confidence": "low",
+    "evidence_span": "Surface grating coupler is a preferred candidate that provides flexibility for circuit design and reduces effort for both fabrication and alignment."
+  },
+  {
+    "paper_id": "W2782897921",
+    "tech_route": "mems_silicon_photonic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "confidence": "high",
+    "evidence_span": "We report on 50 × 50 silicon photonic micro-electromechanical-system (MEMS) switches with reduced polarization dependence."
+  },
+  {
+    "paper_id": "W2257494936",
+    "tech_route": "mems_silicon_photonic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "confidence": "high",
+    "evidence_span": "Optical circuit switches with fast switching times can provide rapidly reconfigurable bandwidth in data center networks."
+  },
+  {
+    "paper_id": "W3097557698",
+    "tech_route": "mems_silicon_photonic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "confidence": "high",
+    "evidence_span": "We here present a broadband, compact and low-loss Silicon Photonic MEMS switch based on a Single-Pole Double-Throw (SPDT) architecture, where curved electrostatic actuators mechanically displace a movable input waveguide to redirect the optical signal on chip efficiently to either of two output waveguides."
+  },
+  {
+    "paper_id": "W2918631369",
+    "tech_route": "mems_silicon_photonic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "confidence": "high",
+    "evidence_span": "We present the design of a non-volatile, bistable silicon photonic MEMS switch."
+  },
+  {
+    "paper_id": "W2800201100",
+    "tech_route": "mems_silicon_photonic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "confidence": "high",
+    "evidence_span": "128×128 silicon photonic switch with 16,384 MEMS-actuated switching elements and row/column addressing scheme have been successfully integrated on a 16×17mm2 chip."
+  },
+  {
+    "paper_id": "W4406015850",
+    "tech_route": "mems_silicon_photonic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "confidence": "high",
+    "evidence_span": "Both elementary switch and a 64×64 switch array based on Benes topology are fabricated and characterized, demonstrating great potential for practical scenarios such as photonic interconnect/routing, Lidar and spectroscopy, photonic computing, as well as microwave photonics."
+  },
+  {
+    "paper_id": "W2186858051",
+    "tech_route": "mems_silicon_photonic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "confidence": "high",
+    "evidence_span": "We report on monolithically integrated 64×64 broadband digital silicon photonic MEMS switches with sub-microsecond switching time (0.9 μs), high extinction ratio (65 dB), low on-chip insertion loss (5.1 dB), broadband operation (1460-1580 nm wavelength) and compact footprint (7×7 mm2)."
+  },
+  {
+    "paper_id": "W2271940456",
+    "tech_route": "mems_silicon_photonic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "confidence": "high",
+    "evidence_span": "In this letter, we demonstrate a scalable addressing scheme for silicon photonic MEMS switches."
+  },
+  {
+    "paper_id": "W2615050161",
+    "tech_route": "mems_silicon_photonic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "confidence": "high",
+    "evidence_span": "We report on the flip chip packaging of Micro-Electro-Mechanical System (MEMS)-based digital silicon photonic switching device and the characterization results of 12 × 12 switching ports."
+  },
+  {
+    "paper_id": "W2951487609",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "confidence": "low",
+    "evidence_span": "One-to-two and one-to-four multicast operations are demonstrated."
+  },
+  {
+    "paper_id": "W3138799074",
+    "tech_route": "mems_silicon_photonic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "confidence": "high",
+    "evidence_span": "We report on a 32 × 32 silicon photonic micro-electro-mechanical-system (MEMS) switch with gap-adjustable directional couplers."
+  },
+  {
+    "paper_id": "W2786734285",
+    "tech_route": "mems_silicon_photonic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "confidence": "high",
+    "evidence_span": "We design and fabricate the packaging of 128 × 128 silicon photonic MEMS switch device using through glass via (TGV) interposer and pitch reducing fibre array."
+  },
+  {
+    "paper_id": "W1945545782",
+    "tech_route": "mems_silicon_photonic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "confidence": "high",
+    "evidence_span": "We report on the reliability test of 50×50 digital silicon photonic MEMS switches."
+  },
+  {
+    "paper_id": "W3139267661",
+    "tech_route": "mems_silicon_photonic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "confidence": "high",
+    "evidence_span": "We present a vertically movable silicon photonic MEMS switch realized in IMEC's standard silicon photonics platform followed by a dedicated postprocessing for MEMS release."
+  }
+]

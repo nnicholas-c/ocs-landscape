@@ -1,0 +1,152 @@
+[
+  {
+    "record_key": "openalex:W2074800816",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Metasurface for directional surface plasmon polariton excitation, unrelated to circuit switching"
+  },
+  {
+    "record_key": "openalex:W2904125267",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Mode-division multiplexed photonic circuits for data routing, not a switch fabric"
+  },
+  {
+    "record_key": "openalex:W2510721761",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Dissipative phase transition in circuit QED lattice, quantum physics unrelated to OCS"
+  },
+  {
+    "record_key": "openalex:W2790987131",
+    "score": 2,
+    "adjacent_field": "silicon_photonics",
+    "reason": "Modular reconfigurable linear-optical circuits built from Mach-Zehnder interferometer switch modules"
+  },
+  {
+    "record_key": "openalex:W1918709909",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Quantum simulation of lattice gauge theories with ultracold atoms, unrelated to OCS"
+  },
+  {
+    "record_key": "openalex:W2011789793",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Storage and control of optical photons via Rydberg polaritons, quantum optics not OCS"
+  },
+  {
+    "record_key": "openalex:W2417177018",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Two-dimensional spin field-effect switch using graphene-MoS2 heterostructure, spintronics not optical"
+  },
+  {
+    "record_key": "openalex:W3017073028",
+    "score": 2,
+    "adjacent_field": "silicon_photonics",
+    "reason": "Models electrical switching of nonvolatile phase-change photonic switching structures with graphene heaters"
+  },
+  {
+    "record_key": "openalex:W1993229420",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Casimir force effects on generic MEMS actuation dynamics, no switch application stated"
+  },
+  {
+    "record_key": "openalex:W2148088055",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Defect magnetism switching in graphene via molecular doping, unrelated to optics"
+  },
+  {
+    "record_key": "openalex:W3159163441",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "MEMS sensors for structural health monitoring, unrelated to optical switching"
+  },
+  {
+    "record_key": "openalex:W3158146353",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Electrochemically controlled metasurface switching at visible frequencies, not a circuit switch"
+  },
+  {
+    "record_key": "openalex:W3034339773",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Phase-change metasurface spectral filter for infrared imaging, not a switch fabric"
+  },
+  {
+    "record_key": "openalex:W1964781087",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Acoustic wave modulation of photonic resonators at microwave frequencies, unrelated to OCS"
+  },
+  {
+    "record_key": "openalex:W2735841775",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "UV and optical variability lags in an active galactic nucleus, astronomy unrelated to OCS"
+  },
+  {
+    "record_key": "openalex:W2246075628",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Resource costs for fault-tolerant linear optical quantum computing, unrelated to OCS"
+  },
+  {
+    "record_key": "openalex:W3132510228",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Reconfigurable all-dielectric metalens, tunable optics but not a circuit switch"
+  },
+  {
+    "record_key": "openalex:W2033632707",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Optical synchronization of micromechanical oscillators, optomechanics unrelated to circuit switching"
+  },
+  {
+    "record_key": "openalex:W2060692000",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Casimir attractive-repulsive transition in MEMS, physics study not a switch"
+  },
+  {
+    "record_key": "openalex:W3012219314",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Graphene membrane MEMS/NEMS fabrication with proof masses, no switch application"
+  },
+  {
+    "record_key": "openalex:W2800768867",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Light-controlled structured optical materials, tunable but not a circuit switch"
+  },
+  {
+    "record_key": "openalex:W4392616788",
+    "score": 2,
+    "adjacent_field": "telecom_oxc_roadm",
+    "reason": "Optical MEMS design challenges for telecom switching systems with dense actuator integration"
+  },
+  {
+    "record_key": "openalex:W2562195364",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Mathematical PDE models of MEMS aspect-ratio equations, no switch application"
+  },
+  {
+    "record_key": "openalex:W4211046676",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "MEMS-based optically pumped magnetometer for magnetic field sensing, unrelated to OCS"
+  },
+  {
+    "record_key": "openalex:W4285501434",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Spin-orbit torque switching of magnetic tunnel junctions for memory, unrelated to optics"
+  }
+]

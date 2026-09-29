@@ -1,0 +1,142 @@
+[
+  {
+    "paper_id": "arxiv:2405.20869",
+    "title": "Understanding the Throughput Bounds of Reconfigurable Datacenter Networks",
+    "year": 2024,
+    "venue": "arXiv",
+    "abstract": "The increasing gap between the growth of datacenter traffic volume and the capacity of electrical switches led to the emergence of reconfigurable datacenter network designs based on optical circuit switching. A multitude of research works, ranging from demand-oblivious (e.g., RotorNet, Sirius) to demand-aware (e.g., Helios, ProjecToR) reconfigurable networks, demonstrate significant performance benefits. Unfortunately, little is formally known about the achievable throughput of such networks. Only recently have the throughput bounds of demand-oblivious networks been studied. In this paper, we tackle a fundamental question: Whether and to what extent can demand-aware reconfigurable networks improve the throughput of datacenters?\n  This paper attempts to understand the landscape of the throughput bounds of reconfigurable datacenter networks. Given the rise of machine learning workloads and collective communication in modern datacenters, we specifically focus on their typical communication patterns, namely uniform-residual demand matrices. We formally establish a separation bound of demand-aware networks over demand-oblivious networks, proving analytically that the former can provide at least $16\\%$ higher throughput. Our analysis further uncovers new design opportunities based on periodic, fixed-duration reconfigurations that can harness the throughput benefits of demand-aware networks while inheriting the simplicity and low reconfiguration overheads of demand-oblivious networks. Finally, our evaluations corroborate the theoretical results of this paper, demonstrating that demand-aware networks significantly outperform oblivious networks in terms of throughput. This work barely scratches the surface and unveils several intriguing open questions, which we discuss at the end of this paper."
+  },
+  {
+    "paper_id": "arxiv:2605.12766",
+    "title": "Bridge: Optimizing Collective Communication Schedules in Reconfigurable Networks with Reusable Subrings",
+    "year": 2026,
+    "venue": "arXiv",
+    "abstract": "Optical circuit-switched networks have emerged as an appealing alternative to electrical fabrics as they can reconfigure the network topology at runtime, reducing communication cost and improving bandwidth utilization. Yet exploiting optical reconfigurable networks for collective communication comes with a fundamental trade-off: each reconfiguration incurs non-negligible delay, communication must pause while the fabric reconfigures, and the benefit of a new topology depends on future traffic. The central question is therefore when reconfiguration is worth its cost. While prior work has demonstrated the benefits of reconfiguration, existing strategies use optical links only to optimize the current step, without reusing them for future steps.\n  In this paper, we present Bridge, a reconfiguration strategy for important collective communication primitives used in AI/ML and HPC applications, namely All-to-All, AllReduce, Reduce-Scatter, and AllGather. Bridge exploits the structure of Bruck's communication pattern to support efficient sparse reconfiguration. The key idea is to reduce propagation and transmission delay by directly connecting immediate communication partners and preserve efficient reachability to future peers through connected subrings. As a result, optical links can be reused across multiple subsequent steps, allowing the benefit of reconfiguration to amortize beyond a single step. Our evaluation shows that Bridge reduces All-to-All completion time by typically $3\\times$ to $10\\times$ over static baselines even with millisecond-scale reconfiguration delays. For AllReduce, Bridge uniformly outperforms existing reconfiguration strategies, delivers up to $1.5\\times$ speedup, and exceeds the bandwidth-optimal Ring algorithm by $1.5\\times$ to $6.6\\times$ on low to moderate-sized workloads."
+  },
+  {
+    "paper_id": "arxiv:2603.28096",
+    "title": "Beyond Traffic Matrix: DELTA -- A DAG-Aware OCS Logical Topology Optimization for AIDCs",
+    "year": 2026,
+    "venue": "arXiv",
+    "abstract": "The rapid scaling of large language models (LLMs) exacerbates communication bottlenecks in AI data centers (AIDCs). To overcome this, optical circuit switches (OCS) are increasingly adopted for their superior bandwidth capacity and energy efficiency. However, their reconfiguration overhead precludes intra-iteration topology update, necessitating a priori engineering of a static topology to absorb time-varying LLM traffic. Existing methods engineer these topologies based on traffic matrices. However, this representation obscures the bursty concurrent bandwidth demands dictated by parallelization strategies and fails to account for the independent channels required for concurrent communication.\n  To address this, we propose DELTA, an efficient logical topology optimization framework for AIDCs that leverages the computation-communication directed acyclic graph (DAG) to encode time-varying traffic patterns into a Mixed-Integer Linear Programming (MILP) model, while exploiting the temporal slack of non-critical tasks to save optical ports without penalizing iteration makespan. By pioneering a variable-length time interval formulation, DELTA significantly reduces the solution space compared to the fixed-time-step formulation. To scale to thousand-GPU clusters, we design a dual-track acceleration strategy that combines search space pruning (reducing complexity from quadratic to linear) with heuristic hot-starting. Evaluations on large-scale LLM workloads show that DELTA reduces communication time by up to 17.5% compared to state-of-the-art traffic-matrix-based baselines. Furthermore, the framework reduces optical port consumption by at least 20%; dynamically reallocating these surplus ports to bandwidth-bottlenecked workloads reduces their performance gap relative to ideal non-blocking electrical networks by up to 26.1%, ultimately enabling most workloads to achieve near-ideal performance."
+  },
+  {
+    "paper_id": "arxiv:2302.13113",
+    "title": "Toward Self-Adjusting k-ary Search Tree Networks",
+    "year": 2023,
+    "venue": "arXiv",
+    "abstract": "Datacenter networks are becoming increasingly flexible with the incorporation of new networking technologies, such as optical circuit switches. These technologies allow for programmable network topologies that can be reconfigured to better serve network traffic, thus enabling a trade-off between the benefits (i.e., shorter routes) and costs of reconfigurations (i.e., overhead). Self-Adjusting Networks (SANs) aim at addressing this trade-off by exploiting patterns in network traffic, both when it is revealed piecewise (online dynamic topologies) or known in advance (offline static topologies). In this paper, we take the first steps toward Self-Adjusting k-ary tree networks. These are more powerful generalizations of existing binary search tree networks (like SplayNets), which have been at the core of SAN designs. k-ary search tree networks are a natural generalization offering nodes of higher degrees, reduced route lengths for a fixed number of nodes, and local routing in spite of reconfigurations. We first compute an offline (optimal) static network for arbitrary traffic patterns in $O(n^3 \\cdot k)$ time via dynamic programming, and also improve the bound to $O(n^2 \\cdot k)$ for the special case of uniformly distributed traffic. Then, we present a centroid-based topology of the network that can be used both in the offline static and the online setting. In the offline uniform-workload case, we construct this quasi-optimal network in linear time $O(n)$ and, finally, we present online self-adjusting k-ary search tree versions of SplayNet. We evaluate experimentally our new structure for $k=2$ (allowing for a comparison with existing SplayNets) on real and synthetic network traces. Our results show that this approach works better than SplayNet in most of the real network traces and in average to low locality synthetic traces, and is only little inferior to SplayNet in all remaining traces."
+  },
+  {
+    "paper_id": "W2002555923",
+    "title": "A Multiport Microsecond Optical Circuit Switch for Data Center Networking",
+    "year": 2013,
+    "venue": "IEEE Photonics Technology Letters",
+    "abstract": "We experimentally evaluate the network-level switching time of a functional 23-host prototype hybrid optical circuit-switched/electrical packet-switched network for datacenters called Mordia (Microsecond Optical Research Datacenter Interconnect Architecture). This hybrid network uses a standard electrical packet switch and an optical circuit-switched architecture based on a wavelength-selective switch that has a measured mean port-to-port network reconfiguration time of 11.5$\\mu{\\rm s}$including the signal acquisition by the network interface card. Using multiple parallel rings, we show that this architecture can scale to support the large bisection bandwidth required for future datacenters."
+  },
+  {
+    "paper_id": "W2792328579",
+    "title": "Realization and Application of Large-Scale Fast Optical Circuit Switch for Data Center Networking",
+    "year": 2018,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "Applying optical switching to data center networks can greatly expand network bandwidth and reduce electrical power consumption, both of which are needed to meet the explosive traffic increase. The optical switch offers large bandwidth switching capability, and so eliminates the multistage switch network architecture needed with electrical switching. Furthermore, the single stage architecture of the optical switch greatly simplifies operating costs, which include cabling, while substantially reducing the number of transponders needed. Data center networks place very different demands on optical systems than communication networks. Grasping the right direction to proceed is of paramount importance. To realize the full potential of optical switches, such as scalability and cost effectiveness, we analyze the role of large-scale optical circuit switches and discuss the realization technologies that combine the two dimensions of space and wavelength. Our recent advances in large port-count optical switches are presented."
+  },
+  {
+    "paper_id": "W4386365418",
+    "title": "Lightwave Fabrics: At-Scale Optical Circuit Switching for Datacenter and Machine Learning Systems",
+    "year": 2023,
+    "venue": null,
+    "abstract": "We describe our experience developing what we believe to be the world's first large-scale production deployments of lightwave fabrics used for both datacenter networking and machine-learning (ML) applications. Using optical circuit switches (OCSes) and optical transceivers developed in-house, we employ hardware and software codesign to integrate the fabrics into our network and computing infrastructure. Key to our design is a high degree of multiplexing enabled by new kinds of wavelength-division-multiplexing (WDM) and optical circulators that support high-bandwidth bidirectional traffic on a single strand of optical fiber. The development of the requisite OCS and optical transceiver technologies leads to a synchronous lightwave fabric that is reconfigurable, low latency, rate agnostic, and highly available. These fabrics have provided substantial benefits for long-lived traffic patterns in our datacenter networks and predictable traffic patterns in tightly-coupled machine learning clusters. We report results for a large-scale ML superpod with 4096 tensor processing unit (TPU) V4 chips that has more than one ExaFLOP of computing power. For this use case, the deployment of a lightwave fabric provides up to 3× better system availability and model-dependent performance improvements of up to 3.3× compared to a static fabric, despite constituting less than 6% of the total system cost."
+  },
+  {
+    "paper_id": "W823246061",
+    "title": "Your Data Center Is a Router: The Case for Reconfigurable Optical Circuit Switched Paths",
+    "year": 2018,
+    "venue": "Figshare",
+    "abstract": "The rising tide of data-intensive, massive scale cluster computing is creating new challenges for traditional, hierarchical data center networks. In response to this challenge, the research community has begun exploring novel interconnect topologies to provide high bisection bandwidth—examples include Fat trees [2, 12, 8], DCell [9], and BCube [10], among a rapidly growing set of alternatives, many adapted from earlier solutions from the telecom and supercomputing areas. We argue that these solutions may provide too much— full bisection bandwidth on packet timescales—at too high a cost—literally tons of wiring and thousands of switches. In this work, we suggest that research should take a look back not only at historical topologies, but also historical technologies. More specifically, we suggest that a hybrid packet-switched/circuit-switched network can provide the functions and ease-of-use of today’s allpacket networks, while providing high bandwidth for a large class of applications at lower cost and lower network complexity. Taking advantage of this network requires, however, a philosophical change to the design of data center networks. We propose to augment the electrical switch architecture with an optical circuit-switched network. Implementing this approach requires a network re-design to provide substantial pre-optical queueing at the nodes, treating the entire data center as one large virtually output-queued router. We explain this argument briefly, and expand upon our proposed solution in the sections that follow."
+  },
+  {
+    "paper_id": "W3164101439",
+    "title": "High-port-count optical circuit switches for intra-datacenter networks [Invited Tutorial]",
+    "year": 2021,
+    "venue": "Journal of Optical Communications and Networking",
+    "abstract": "With the rapid spread of cloud-based services, intra-datacenter traffic is growing exponentially. In typical present datacenters, top-of-rack switches, which act as gateways to computer systems, are interconnected via multi-tier electrical-switching networks. The electrical switch necessitates costly optical-to-electrical and electrical-to-optical conversion. Furthermore, its power consumption will explode due to the ever-increasing intra-datacenter traffic. To handle the large volumes of traffic in a cost-effective manner, optical switches are expected to play a key role in future intra-datacenter networks. To realize such cost-effective networks, high-port-count optical circuit switches will be a critical component. High-port-count optical circuit switches can be used to construct a flat network, and we can reduce the dependence on costly multi-tier electrical-switching networks. In this tutorial paper, we overview high-port-count optical circuit switch architectures for future intra-datacenter networks and discuss their characteristics. The high-port-count switch can be attained by combining the different dimensions of space and wavelength."
+  },
+  {
+    "paper_id": "W2008366783",
+    "title": "Electronic and photonic integrated circuits for fast data center optical circuit switches",
+    "year": 2013,
+    "venue": "IEEE Communications Magazine",
+    "abstract": "This article surveys recent work in optical switching technologies and presents a fast optical circuit switch that intimately integrates the control electrics at the chip level using a novel wafer-scale heterogeneous integration technique."
+  },
+  {
+    "paper_id": "W2316851065",
+    "title": "Time-Shifted Multilayer Graph: A Routing Framework for Bulk Data Transfer in Optical Circuit-Switched Networks With Assistive Storage",
+    "year": 2016,
+    "venue": "Journal of Optical Communications and Networking",
+    "abstract": "Increasing bulk data transfers incur peak-hour bandwidth contention between bulky and short flows as well as between bulky flows. To mitigate this contention, storage is introduced into the forwarding path so that bulk data that are delay tolerant can be temporarily stored and forwarded at a later time. However, the storage introduces an additional complexity into the conventional routing process. What was a spatial resource allocation problem becomes a scheduling problem, in which both bandwidth and storage constraints must be considered and both spatial assignments and temporal arrangements must be performed. In this paper, we propose a routing framework for bulk data transfer in optical circuit-switched networks with assistive storage. This framework is based on a multilayer graph built from a set of snapshots (i.e., layers) of the dynamics in a network. By performing shortest path routing on the multilayer graph, “end-to-end” paths over time and space are found for requests, thus greatly simplifying the provisioning process. We study how the number of layers used for routing affects the network blocking performance and how traffic characteristics and link capacity affect the number of layers. We find that the majority of requests can be served with only one additional layer. A trade-off between computational complexity and blocking performance can be reached by limiting the number of layers used for routing. In our simulations, the request blocking probability is reduced from 13.5% to 0.9% by limiting routing to 11 layers. Request blocking is avoided when routing is allowed within 29 layers."
+  },
+  {
+    "paper_id": "W2909415593",
+    "title": "Design and Evaluation of Optical Circuit Switches for Intra-Datacenter Networking",
+    "year": 2019,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "With the rapid growth in intra-datacenter traffic, the high power consumption stemming from the huge number of electrical switches is becoming a critical issue. Hence, high-port-count optical circuit switches are urgently needed. In this paper, we overview recently developed optical circuit switch architecture based on two-dimensional switches, i.e., space switches and wavelength-routing switches. The attainable maximum switch port counts and hardware requirements are quantitatively evaluated through extensive computer simulations that consider 10-Gbps intensity modulation with direct detection systems, 43-Gbps differential quadrature phase-shift keying with self-coherent detection systems, and 128-Gbps dual-polarization quadrature phase-shift keying with coherent detection systems. The simulation results confirm the existence of switching architecture that can accommodate more than 1,000 ports with relatively light hardware requirements."
+  },
+  {
+    "paper_id": "W3129609980",
+    "title": "Regularization-Based Coflow Scheduling in Optical Circuit Switches",
+    "year": 2021,
+    "venue": "IEEE/ACM Transactions on Networking",
+    "abstract": "To improve the application-level data efficiency, the scheduling of coflows, defined as a collection of parallel flows sharing the same objective, is prevailing in recent data centers. Meanwhile, optical circuit switches (OCS) are gradually applied to provide high data rate with low power consumption. However, so far few research outputs have covered the flow, let alone the coflow, scheduling in the context of OCS. In this work, we investigate coflow scheduling in OCS-based data centers. We first derive a novel operation called regularization processed respectively on the flow traffic demands and the flow start times, which can be efficiently implemented and reduce the circuit reconfiguration frequency dramatically. We then propose a 2-approximation algorithm, called Reco-Sin, for single coflow scheduling to minimize the coflow completion time (CCT). For multiple coflows, we derive Reco-Mul to minimize the total weighted CCT, which can transform any non-preemptive multi-coflow scheduling in packet switches to a scheduling scheme in OCS. Reco-Mul can achieve a constant approximation under the assumption that no tiny flows will be transmitted in OCS. To get rid of this assumption, we present another multiple coflow scheduling scheme, named Reco-Mul+, which has an approximation ratio of O(K). Here, K is the total number of coflows. Extensive simulations based on Facebook data traces show that our approaches outperform state-of-the-art schemes significantly, i.e., one single coflow can be finished up to 1.97× faster with Reco-Sin, and multiple coflows can be completed up to more than 2× faster with Reco-Mul and Reco-Mul+."
+  },
+  {
+    "paper_id": "W2807655209",
+    "title": "Design and Verification of Large-Scale Optical Circuit Switch Using ULCF AWGs for Datacenter Application",
+    "year": 2018,
+    "venue": "Journal of Optical Communications and Networking",
+    "abstract": "The exponential increase in the volume of traffic being processed by datacenters demands massive electrical switches and complicated interconnections. The power consumption will soon become critical, and the problem is expected to be resolved by introducing large-port-count optical circuit switches that connect many server racks or pods. In this paper, we propose a novel optical-circuit-switch architecture that uses n × N uniformloss and cyclic-frequency (ULCF) arrayed-waveguide gratings (AWGs) as low-loss wavelength routers. To confirm the effectiveness of our proposal, a pair of 12 × 48 ULCF AWGs is fabricated using planar-lightwave-circuit technology. Part of a 1536 × 1536 optical circuit switch is constructed, and its good transmission performance is experimentally confirmed through 96-wavelength 100-Gbps signal transmission in the full C-band. The switch throughput reaches 153.6 Tbps."
+  },
+  {
+    "paper_id": "W4377082743",
+    "title": "Apollo: Large-Scale Deployment of Optical Circuit Switching for Datacenter Networking",
+    "year": 2023,
+    "venue": null,
+    "abstract": "In this paper, we describe Apollo, to the best of our knowledge, the world’s first large-scale production deployment of optical circuit switches (OCSes) for datacenter networking. We review the underlying hardware technologies including the design of our internally developed OCS and WDM transceivers."
+  },
+  {
+    "paper_id": "W2319613051",
+    "title": "Performance Benefits of Optical Circuit Switches for Large-Scale Dragonfly Networks",
+    "year": 2016,
+    "venue": "Optical Fiber Communication Conference",
+    "abstract": "We propose Optical Circuit Switching for dynamically creating reconfigurable partitions in large-scale systems with Dragonfly networks. Up to 2x execution-time improvement is demonstrated for global traffic patterns in a >13,000-node system using a production-grade network simulator."
+  },
+  {
+    "paper_id": "W2151668565",
+    "title": "Integrating microsecond circuit switching into the data center",
+    "year": 2013,
+    "venue": null,
+    "abstract": "Recent proposals have employed optical circuit switching (OCS) to reduce the cost of data center networks. However, the relatively slow switching times (10--100 ms) assumed by these approaches, and the accompanying latencies of their control planes, has limited its use to only the largest data center networks with highly aggregated and constrained workloads. As faster switch technologies become available, designing a control plane capable of supporting them becomes a key challenge."
+  },
+  {
+    "paper_id": "W2164698118",
+    "title": "All-optical packet/circuit switching-based data center network for enhanced scalability, latency, and throughput",
+    "year": 2013,
+    "venue": "IEEE Network",
+    "abstract": "Applications running inside data centers are enabled through the cooperation of thousands of servers arranged in racks and interconnected together through the data center network. Current DCN architectures based on electronic devices are neither scalable to face the massive growth of DCs, nor flexible enough to efficiently and cost-effectively support highly dynamic application traffic profiles. The FP7 European Project LIGHTNESS foresees extending the capabilities of today's electrical DCNs through the introduction of optical packet switching and optical circuit switching paradigms, realizing together an advanced and highly scalable DCN architecture for ultra-high-bandwidth and low-latency server-to-server interconnection. This article reviews the current DC and high-performance computing (HPC) outlooks, followed by an analysis of the main requirements for future DCs and HPC platforms. As the key contribution of the article, the LIGHTNESS DCN solution is presented, deeply elaborating on the envisioned DCN data plane technologies, as well as on the unified SDN-enabled control plane architectural solution that will empower OPS and OCS transmission technologies with superior flexibility, manageability, and customizability."
+  },
+  {
+    "paper_id": "W3089161534",
+    "title": "Minimizing Coflow Completion Time in Optical Circuit Switched Networks",
+    "year": 2020,
+    "venue": "IEEE Transactions on Parallel and Distributed Systems",
+    "abstract": "Nowadays, optical circuit switching is becoming an increasingly favored technology in scaling data center networks for its definitive advantages in data rate, power consumption, and device cost. Concurrently, reducing coflow completion time (CCT) is of great significance for improving application-level performance. However, minimizing CCT in circuit switched networks is totally different from that in traditional packet switched networks due to port constraints and circuit reconfiguration delays. To address this issue, this article proposes Grouped Optimization-based Scheduling (GOS), a CCT minimization algorithm for circuit switched networks integrating circuit and coflow scheduling. We first formalize the CCT minimization problem into a 0-1 programming problem, then relax and solve the problem in 2 steps to obtain the coflow order and flow grouping decisions on each circuit. Thus intra-group reconfiguration delays are saved, and small coflows can be prioritized at the group level. Theoretical analysis proves GOS is a 4-approximation algorithm in average CCT. To reduce computing overheads, we further propose a heuristic approximation algorithm. Extensive simulations show that the heuristic algorithm has satisfactory CCT performance (0.12× Varys, 0.36× Sunflow) as well as high throughput (16.74× Varys, 1.32× Sunflow), and well adapts to a wide range of reconfiguration delays and algorithm decision time."
+  },
+  {
+    "paper_id": "W2885686227",
+    "title": "OMCO: Online Multiple Coflow Scheduling in Optical Circuit Switch",
+    "year": 2018,
+    "venue": null,
+    "abstract": "Coflow is gradually prevalent as a new traffic structure in data centers, which allows applications to convey their application-level semantics into the network. Meanwhile, optical circuit switches (OCS) are increasingly deployed in data centers due to the superiority in hardware, such as high bandwidth and low energy consumption. However, few works in the literature considered both coflow scheduling with OCS. In this paper, we study the coflow scheduling problem in an OCS-based data center network, with an aim to minimize the coflow completion time (CCT). We derive an online algorithm called OMCO to solve this problem. OMCO can not only optimize the circuit utilization but also minimize the number of circuit reconfigurations. Extensive simulations with real-world data traces show that OMCO outperforms other existing solutions dramatically. Compared with a FIFO-based scheme and the shortest-coflow-first heuristic, OMCO reduces the average coflow completion time by up to 61% and 62%, respectively."
+  }
+]

@@ -1,0 +1,222 @@
+[
+  {
+    "paper_id": "W2241946296",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "In this paper, we introduce a novel all-optical Data center networking (DCN) fabric, by leveraging the reconfigurability of the optical transceivers and switches, while dynamically changing the end-to-end optical routes to match the varying traffic demands.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W4285084333",
+    "tech_route": "soa",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "A scheduler based on a distributed field-programmable gate array is implemented in the proposed ReSAW to realize flexible wavelength configuration by controlling the fast laser array based on semiconductor optical amplifiers (SOAs) according to time slot and traffic priority.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2174784067",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "OSA: An Optical Switching Architecture for Data Center Networks with Unprecedented Flexibility",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W3203666589",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": "lcos",
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "To this end, we propose and experimentally evaluate a software-defined networking enabled reconfigurable optical DCN with dynamic bandwidth allocation in this work, based on novel optical top of racks exploiting a wavelength selective switch.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W2171830950",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "A modular, traffic-adaptable data center network architecture leveraging unique reconfigurable optical functionalities is presented.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2792477041",
+    "tech_route": "mems_3d",
+    "tech_route_secondary": null,
+    "integration": "free_space_bulk",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "In this paper, we propose and demonstrate an agile reconfigurable 10Gbps FSO system incorporated with intelligent beam acquisition and tracking mechanism based on gimbal-less two-axis MEMS micromirror and retro-reflective film optics.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W4281958713",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "In this paper, we propose and experimentally investigate a reconfigurable optical packet switching DCN named RGAIA, based on flexible top of racks (ToRs) and fast optical switch, where the optical switch is implemented by tunable transceiver combing with arrayed waveguide grating router (AWGR).",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W2583039042",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "free_space_bulk",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "This paper explores an alternative design point—a fully flexible and all-wireless DC interrack network based on free-space optical (FSO) links.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W2157224582",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "In addition, an analysis of crosstalk in MCFs shows how SDM concepts can be further exploited to fit in various optical networks such as core, metro, and especially future intra-data center optical interconnects.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2775765784",
+    "tech_route": "mems_3d",
+    "tech_route_secondary": null,
+    "integration": "free_space_bulk",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "In this work, we propose and demonstrate a reconfigurable 10 Gbps FSO system incorporating a smart beam acquisition and tracking mechanism based on gimbal-less two-axis MEMS micro-mirror and retro-reflective film marked aperture.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W2810723790",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": "dc_network_systems",
+    "evidence_span": "In particular, most reconfigurable topologies are hybrid, where parts of the network are reconfigurable (consisting of optical or wireless devices) while other parts are static (consisting of electrical switches).",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W4223554347",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": "telecom_oxc_roadm",
+    "evidence_span": "We describe the GNPy models for fiber propagation, optical amplifiers, and reconfigurable add/drop multiplexers together with modeling of coherent transceivers from the back-to-back characterization.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2097053956",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "none",
+    "adjacent_field": null,
+    "evidence_span": "Power consumption modeling in optical multilayer networks",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2789715390",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": "silicon_photonics",
+    "evidence_span": "To advance this concept, in this work, we experimentally demonstrate a photonic integrated circuit as an optical signal processor with an unprecedented combination of two key features: reconfigurability and terahertz bandwidth.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W4223926670",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "These challenges have motivated studies exploring reconfigurable network architectures that can adapt to traffic patterns at runtime using optical circuit switching.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W4300973219",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": "dc_network_systems",
+    "evidence_span": "We demonstrate the mutability of AllReduce traffic, and leverage this property to construct efficient network topologies for DNN training jobs.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W4401176556",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "Recent advances in fast optical switching technology show promise in meeting the high goodput and low latency requirements of datacenter networks (DCN).",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W3188706325",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "Our design, called SiP-ML, accelerates the training time of popular DNN models using silicon photonics links capable of providing multiple terabits-per-second of bandwidth per GPU.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W4365790307",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "After exploring the design tradeoffs of the existing optical DCN designs, we propose TROD (ThresholdRouting basedOpticalDatacenter), a low-complexity optical DCN with superior performance than other optical DCNs.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W4410343081",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "Recent optical switching technologies are enabling a shift toward dynamically reconfigurable network topologies.",
+    "confidence": "low"
+  }
+]

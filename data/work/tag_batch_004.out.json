@@ -1,0 +1,222 @@
+[
+  {
+    "paper_id": "W3025347955",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "Online job scheduling for distributed machine learning in optical circuit switch networks",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2903019116",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "The main idea of our OCBridge is to take into account the traffic demands between the source and destination regions of each OCS link.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W2810918131",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "evidence_span": "We present a large-scale optical circuit switch architecture using wavelength-tunable and bandwidth-variable silicon photonic filters.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2074285614",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "We designed and constructed a 24x24-port optical circuit switch (OCS) prototype with a programming time of 68.5 μs, a switching time of 2.8 μs, and a receiver electronics initialization time of 8.7 μs [1].",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W4399846465",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "This paper proposes an efficient method for inspecting and certifying fibers in an entire DCN without repeating LSPM reattachment.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W2982606503",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "In this paper, we investigate coflow scheduling in the OCS-based data centers.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W3119039973",
+    "tech_route": "thermo_optic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "evidence_span": "Microsecond switching times are realized with the thermo-optic effect available with the Silicon-photonic TF.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W2581603380",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "This paper firstly examines the scaling of the energy consumption of optical circuit switching networks based on the state of the art silicon photonics switch technology.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W3186645739",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "Effective *-flow schedule for optical circuit switching based data center networks: A comprehensive survey",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W1970579225",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "We present a novel converged inter/intra data center architecture using optical-circuit-switching over metro-scale distances.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W2001644091",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": "telecom_oxc_roadm",
+    "evidence_span": "Dynamic gain offsets in WDM AGC EDFAs caused by optical circuit switching are experimentally evaluated.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2331688183",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "Hybrid Packet-OCS networks offer excellent CAPEX and OPEX advantages but require coordination of traffic between packet and circuit fabrics.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W2027447399",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "We review our work on an intra-data center (DC) network based on co-deployment of optical packet switching (OPS) and optical circuit switching (OCS), conducted within the framework of a five-year-long national R&D program in Japan (∼March 2016).",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W4401751711",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "Future data centers are anticipated to embrace cutting-edge circuit switching technologies, particularly optical switching, renowned for their heightened transmission capacity and energy efficiency.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W2626250922",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "evidence_span": "In this paper, we investigate the applicability of coarser granular slotted network operations in networks where the majority of traffic is contributed by bulk data flows, and we consider how to find appropriate slot sizes, given the traffic demand distributions.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W3009273389",
+    "tech_route": "other",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": "silicon_photonics",
+    "evidence_span": "We demonstrate 1.6Tbps Silicon Photonic Integrated Circuit (SiPIC) meeting co-packaged optics requirements for network switch applications.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2982290016",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "The optical circuit switch (OCS) in recently proposed hybrid electrical/optical datacenter networks (Hybrid-DCN) can only be used to transfer large flows (i.e., flows with a large size of data).",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W2294810677",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "The LIGHTNESS deeply programmable all-optical circuit and packet switched data plane is able to perform unicast/multicast switch-over on-demand, while the powerful software defined networking (SDN) control plane enables the virtualization of computing and network resources creating a virtual data center and virtual network functions (VNF) on top of the data plane.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W2955749708",
+    "tech_route": "other",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "evidence_span": "Ultrafast and energy-efficient all-optical switching with graphene-loaded deep-subwavelength plasmonic waveguides",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W3195562526",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "All-optical circuit switched network core is the holy grail for the next-generation datacenter architectures, as electrical packet switches are struggling to cope up with increasing challenges posed by the end of Moore's law.",
+    "confidence": "medium"
+  }
+]

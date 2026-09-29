@@ -1,0 +1,202 @@
+[
+  {
+    "record_key": "openalex:W2887258823",
+    "source": "openalex",
+    "title": "Recent advances in physical reservoir computing: A review",
+    "year": 2019,
+    "venue": "Neural Networks",
+    "abstract": "Reservoir computing is a computational framework suited for temporal/sequential data processing. It is derived from several recurrent neural network models, including echo state networks and liquid state machines. A reservoir computing system consists of a reservoir for mapping inputs into a high-dimensional space and a readout for pattern analysis from the high-dimensional states in the reservoir. The reservoir is fixed and only the readout is trained with a simple method such as linear regression and classification. Thus, the major advantage of reservoir computing compared to other recurrent neural networks is fast learning, resulting in low training cost. Another advantage is that the reservoir without adaptive updating is amenable to hardware implementation using a variety of physical systems, substrates, and devices."
+  },
+  {
+    "record_key": "openalex:W4388639388",
+    "source": "openalex",
+    "title": "Artificial Intelligence Meets Flexible Sensors: Emerging Smart Flexible Sensing Systems Driven by Machine Learning and Artificial Synapses",
+    "year": 2023,
+    "venue": "Nano-Micro Letters",
+    "abstract": "The recent wave of the artificial intelligence (AI) revolution has aroused unprecedented interest in the intelligentialize of human society. As an essential component that bridges the physical world and digital signals, flexible sensors are evolving from a single sensing element to a smarter system, which is capable of highly efficient acquisition, analysis, and even perception of vast, multifaceted data. While challenging from a manual perspective, the development of intelligent flexible sensing has been remarkably facilitated owing to the rapid advances of brain-inspired AI innovations from both the algorithm (machine learning) and the framework (artificial synapses) level. This review presents the recent progress of the emerging AI-driven, intelligent flexible sensing systems. The basic concept of machine learning and artificial synapses are"
+  },
+  {
+    "record_key": "openalex:W4285802213",
+    "source": "openalex",
+    "title": "Quantum machine learning for chemistry and physics",
+    "year": 2022,
+    "venue": "Chemical Society Reviews",
+    "abstract": "Machine learning (ML) has emerged as a formidable force for identifying hidden but pertinent patterns within a given data set with the objective of subsequent generation of automated predictive behavior. In recent years, it is safe to conclude that ML and its close cousin, deep learning (DL), have ushered in unprecedented developments in all areas of physical sciences, especially chemistry. Not only classical variants of ML, even those trainable on near-term quantum hardwares have been developed with promising outcomes. Such algorithms have revolutionized materials design and performance of photovoltaics, electronic structure calculations of ground and excited states of correlated matter, computation of force-fields and potential energy surfaces informing chemical reaction dynamics, reactivity inspired rational strategies of drug designing and even"
+  },
+  {
+    "record_key": "openalex:W3109834426",
+    "source": "openalex",
+    "title": "Deep learning in nano-photonics: inverse design and beyond",
+    "year": 2021,
+    "venue": "Photonics Research",
+    "abstract": "Deep learning in the context of nano-photonics is mostly discussed in terms of its potential for inverse design of photonic devices or nano-structures. Many of the recent works on machine-learning inverse design are highly specific, and the drawbacks of the respective approaches are often not immediately clear. In this review we want therefore to provide a critical review on the capabilities of deep learning for inverse design and the progress which has been made so far. We classify the different deep-learning-based inverse design approaches at a higher level as well as by the context of their respective applications and critically discuss their strengths and weaknesses. While a significant part of the community’s attention lies on nano-photonic inverse design, deep learning"
+  },
+  {
+    "record_key": "openalex:W2965933955",
+    "source": "openalex",
+    "title": "Understanding memristive switching via in situ characterization and device modeling",
+    "year": 2019,
+    "venue": "Nature Communications",
+    "abstract": "Owing to their attractive application potentials in both non-volatile memory and unconventional computing, memristive devices have drawn substantial research attention in the last decade. However, major roadblocks still remain in device performance, especially concerning relatively large parameter variability and limited cycling endurance. The response of the active region in the device within and between switching cycles plays the dominating role, yet the microscopic details remain elusive. This Review summarizes recent progress in scientific understanding of the physical origins of the non-idealities and propose a synergistic approach based on in situ characterization and device modeling to investigate switching mechanism. At last, the Review offers an outlook for commercialization viability of memristive technology."
+  },
+  {
+    "record_key": "openalex:W4313462484",
+    "source": "openalex",
+    "title": "Artificial intelligence and machine learning for quantum technologies",
+    "year": 2023,
+    "venue": "Physical Review A",
+    "abstract": "In this Perspective, the authors review how machine learning, and more broadly methods of artificial intelligence, are utilized in advancing quantum technologies, specifically the design, control, calibration and optimization of quantum devices. They also discuss open challenges in the field and potential future directions within the next decade."
+  },
+  {
+    "record_key": "openalex:W2395416306",
+    "source": "openalex",
+    "title": "Sleep Drive Is Encoded by Neural Plastic Changes in a Dedicated Circuit",
+    "year": 2016,
+    "venue": "Cell",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W4308657560",
+    "source": "openalex",
+    "title": "Applications of optical microcombs",
+    "year": 2022,
+    "venue": "Advances in Optics and Photonics",
+    "abstract": "Optical microcombs represent a new paradigm for generating laser frequency combs based on compact chip-scale devices, which have underpinned many modern technological advances for both fundamental science and industrial applications. Along with the surge in activity related to optical microcombs in the past decade, their applications have also experienced rapid progress: not only in traditional fields such as frequency synthesis, signal processing, and optical communications but also in new interdisciplinary fields spanning the frontiers of light detection and ranging (LiDAR), astronomical detection, neuromorphic computing, and quantum optics. This paper reviews the applications of optical microcombs. First, an overview of the devices and methods for generating optical microcombs is provided, which are categorized into material platforms, device architectures, soliton classes, and"
+  },
+  {
+    "record_key": "openalex:W3138011117",
+    "source": "openalex",
+    "title": "Plasmonic tweezers: for nanoscale optical trapping and beyond",
+    "year": 2021,
+    "venue": "Light Science & Applications",
+    "abstract": "Optical tweezers and associated manipulation tools in the far field have had a major impact on scientific and engineering research by offering precise manipulation of small objects. More recently, the possibility of performing manipulation with surface plasmons has opened opportunities not feasible with conventional far-field optical methods. The use of surface plasmon techniques enables excitation of hotspots much smaller than the free-space wavelength; with this confinement, the plasmonic field facilitates trapping of various nanostructures and materials with higher precision. The successful manipulation of small particles has fostered numerous and expanding applications. In this paper, we review the principles of and developments in plasmonic tweezers techniques, including both nanostructure-assisted platforms and structureless systems. Construction methods and evaluation criteria of the techniques"
+  },
+  {
+    "record_key": "openalex:W3091860120",
+    "source": "openalex",
+    "title": "Deep Learning in Mining Biological Data",
+    "year": 2020,
+    "venue": "Nottingham Trent University's Institutional Repository (Nottingham Trent Repository)",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W4391970400",
+    "source": "openalex",
+    "title": "Diffractive optical computing in free space",
+    "year": 2024,
+    "venue": "Nature Communications",
+    "abstract": "Structured optical materials create new computing paradigms using photons, with transformative impact on various fields, including machine learning, computer vision, imaging, telecommunications, and sensing. This Perspective sheds light on the potential of free-space optical systems based on engineered surfaces for advancing optical computing. Manipulating light in unprecedented ways, emerging structured surfaces enable all-optical implementation of various mathematical functions and machine learning tasks. Diffractive networks, in particular, bring deep-learning principles into the design and operation of free-space optical systems to create new functionalities. Metasurfaces consisting of deeply subwavelength units are achieving exotic optical responses that provide independent control over different properties of light and can bring major advances in computational throughput and data-transfer bandwidth of free-space optical processors. Unlike integrated photonics-based"
+  },
+  {
+    "record_key": "openalex:W4380152694",
+    "source": "openalex",
+    "title": "Discovery of senolytics using machine learning",
+    "year": 2023,
+    "venue": "Nature Communications",
+    "abstract": "Cellular senescence is a stress response involved in ageing and diverse disease processes including cancer, type-2 diabetes, osteoarthritis and viral infection. Despite growing interest in targeted elimination of senescent cells, only few senolytics are known due to the lack of well-characterised molecular targets. Here, we report the discovery of three senolytics using cost-effective machine learning algorithms trained solely on published data. We computationally screened various chemical libraries and validated the senolytic action of ginkgetin, periplocin and oleandrin in human cell lines under various modalities of senescence. The compounds have potency comparable to known senolytics, and we show that oleandrin has improved potency over its target as compared to best-in-class alternatives. Our approach led to several hundred-fold reduction in drug screening"
+  },
+  {
+    "record_key": "openalex:W2995136401",
+    "source": "openalex",
+    "title": "Learning a Neural Solver for Multiple Object Tracking",
+    "year": 2020,
+    "venue": null,
+    "abstract": "Graphs offer a natural way to formulate Multiple Object Tracking (MOT) within the tracking-by-detection paradigm. However, they also introduce a major challenge for learning methods, as defining a model that can operate on such structured domain is not trivial. As a consequence, most learning-based work has been devoted to learning better features for MOT and then using these with well-established optimization frameworks. In this work, we exploit the classical network flow formulation of MOT to define a fully differentiable framework based on Message Passing Networks (MPNs). By operating directly on the graph domain, our method can reason globally over an entire set of detections and predict final solutions. Hence, we show that learning in MOT does not need to be"
+  },
+  {
+    "record_key": "openalex:W4394897042",
+    "source": "openalex",
+    "title": "Evaluation of Machine Learning Approaches for Precision Farming in Smart Agriculture System: A Comprehensive Review",
+    "year": 2024,
+    "venue": "IEEE Access",
+    "abstract": "In the era of digital data proliferation, agriculture stands on the cusp of a transformative revolution driven by Machine Learning (ML). This study delves into the intricate interplay between Information and Communications Technology (ICT) and conventional agriculture, emphasizing the role of ML in reshaping farming practices. With the ongoing data tsunami impacting data-driven businesses, the fusion of smart farming and precision agriculture emerges as a beacon of innovation. ML algorithms, analyzing historical and real-time environmental data, soil conditioning, predicts suitable crop for maximum yields, detect diseases, and optimize irrigation in smart farming, facilitating informed decision-making. Precision agriculture benefits from autonomous vehicles and drones, driven by ML, ensuring precision in planting, harvesting, and crop monitoring. Resource efficiency increases as ML optimizes"
+  },
+  {
+    "record_key": "openalex:W3034560014",
+    "source": "openalex",
+    "title": "Artificial Intelligence and COVID-19: Deep Learning Approaches for Diagnosis and Treatment",
+    "year": 2020,
+    "venue": "IEEE Access",
+    "abstract": "COVID-19 outbreak has put the whole world in an unprecedented difficult situation bringing life around the world to a frightening halt and claiming thousands of lives. Due to COVID-19's spread in 212 countries and territories and increasing numbers of infected cases and death tolls mounting to 5,212,172 and 334,915 (as of May 22 2020), it remains a real threat to the public health system. This paper renders a response to combat the virus through Artificial Intelligence (AI). Some Deep Learning (DL) methods have been illustrated to reach this goal, including Generative Adversarial Networks (GANs), Extreme Learning Machine (ELM), and Long/Short Term Memory (LSTM). It delineates an integrated bioinformatics approach in which different aspects of information from a continuum of structured"
+  },
+  {
+    "record_key": "openalex:W3000731494",
+    "source": "openalex",
+    "title": "A Survey on Machine Learning Against Hardware Trojan Attacks: Recent Advances and Challenges",
+    "year": 2020,
+    "venue": "IEEE Access",
+    "abstract": "The remarkable success of machine learning (ML) in a variety of research domains has inspired academic and industrial communities to explore its potential to address hardware Trojan (HT) attacks. While numerous works have been published over the past decade, few survey papers, to the best of our knowledge, have systematically reviewed the achievements and analyzed the remaining challenges in this area. To fill this gap, this article surveys ML-based approaches against HT attacks available in the literature. In particular, we first provide a classification of all possible HT attacks and then review recent developments from four perspectives, i.e., HT detection, design-for-security (DFS), bus security, and secure architecture. Based on the review, we further discuss the lessons learned in and challenges"
+  },
+  {
+    "record_key": "openalex:W3203543304",
+    "source": "openalex",
+    "title": "A Survey on 5G Radio Access Network Energy Efficiency: Massive MIMO, Lean Carrier Design, Sleep Modes, and Machine Learning",
+    "year": 2022,
+    "venue": "IEEE Communications Surveys & Tutorials",
+    "abstract": "Cellular networks have changed the world we are living in, and the fifth generation (5G) of radio technology is expected to further revolutionise our everyday lives by enabling a high degree of automation, through its larger capacity, massive connectivity, and ultra-reliable low-latency communications. In addition, the third generation partnership project (3GPP) new radio (NR) specification also provides tools to significantly decrease the energy consumption and the green house emissions of next generations networks, thus contributing towards information and communication technology (ICT) sustainability targets. In this survey paper, we thoroughly review the state-of-the-art on current energy efficiency research. We first categorize and carefully analyse the different power consumption models and energy efficiency metrics, which have helped to make progress on the"
+  },
+  {
+    "record_key": "openalex:W3088915330",
+    "source": "openalex",
+    "title": "Overview on routing and resource allocation based machine learning in optical networks",
+    "year": 2020,
+    "venue": "Optical Fiber Technology",
+    "abstract": "For optical networks, routing and resource allocation which considerably determines the resource efficiency and network capacity is one of the most important works. It has been widely studied and many excellent algorithms have been developed. However, theoretical analysis shows that routing and resource allocation belongs to the Nondeterministic Polynomial Complete (NP-C) problem no matter in wavelength division multiplexing (WDM) optical networks, elastic optical networks (EONs), or space division multiplexing (SDM) optical networks. At presents, there doesn't exist a polynomial-time algorithm for routing and resource allocation. In recent years, machine learning which shows great advantages in solving complex problems has been widely concerned and researched. Using machine learning to conduct routing and resource allocation has aroused a great interest of researchers."
+  },
+  {
+    "record_key": "openalex:W4362553764",
+    "source": "openalex",
+    "title": "On the Analyses of Medical Images Using Traditional Machine Learning Techniques and Convolutional Neural Networks",
+    "year": 2023,
+    "venue": "Archives of Computational Methods in Engineering",
+    "abstract": "Convolutional neural network (CNN) has shown dissuasive accomplishment on different areas especially Object Detection, Segmentation, Reconstruction (2D and 3D), Information Retrieval, Medical Image Registration, Multi-lingual translation, Local language Processing, Anomaly Detection on video and Speech Recognition. CNN is a special type of Neural Network, which has compelling and effective learning ability to learn features at several steps during augmentation of the data. Recently, different interesting and inspiring ideas of Deep Learning (DL) such as different activation functions, hyperparameter optimization, regularization, momentum and loss functions has improved the performance, operation and execution of CNN Different internal architecture innovation of CNN and different representational style of CNN has significantly improved the performance. This survey focuses on internal taxonomy of deep learning, different"
+  },
+  {
+    "record_key": "openalex:W3040838455",
+    "source": "openalex",
+    "title": "Event-Based Vision: A Survey",
+    "year": 2020,
+    "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+    "abstract": "Event cameras are bio-inspired sensors that differ from conventional frame cameras: Instead of capturing images at a fixed rate, they asynchronously measure per-pixel brightness changes, and output a stream of events that encode the time, location and sign of the brightness changes. Event cameras offer attractive properties compared to traditional cameras: high temporal resolution (in the order of μs), very high dynamic range (140 dB versus 60 dB), low power consumption, and high pixel bandwidth (on the order of kHz) resulting in reduced motion blur. Hence, event cameras have a large potential for robotics and computer vision in challenging scenarios for traditional cameras, such as low-latency, high speed, and high dynamic range. However, novel methods are required to process the"
+  },
+  {
+    "record_key": "openalex:W2762321225",
+    "source": "openalex",
+    "title": "MAS-Based Distributed Coordinated Control and Optimization in Microgrid and Microgrid Clusters: A Comprehensive Overview",
+    "year": 2017,
+    "venue": "IEEE Transactions on Power Electronics",
+    "abstract": "The increasing integration of the distributed renewable energy sources highlights the requirement to design various control strategies for microgrids (MGs) and microgrid clusters (MGCs). The multiagent system (MAS)-based distributed coordinated control strategies show the benefits to balance the power and energy, stabilize voltage and frequency, achieve economic and coordinated operation among the MGs and MGCs. However, the complex and diverse combinations of distributed generations (DGs) in MAS increase the complexity of system control and operation. In order to design the optimized configuration and control strategy using MAS, the topology models and mathematic models such as the graph topology model, noncooperative game model, the genetic algorithm, and particle swarm optimization algorithm are summarized. The merits and drawbacks of these control methods"
+  },
+  {
+    "record_key": "openalex:W2930741432",
+    "source": "openalex",
+    "title": "Circuit Investigations With Open-Source Miniaturized Microscopes: Past, Present and Future",
+    "year": 2019,
+    "venue": "Frontiers in Cellular Neuroscience",
+    "abstract": "The ability to simultaneously image the spatiotemporal activity signatures from many neurons during unrestrained vertebrate behaviors has become possible through the development of miniaturized fluorescence microscopes, or miniscopes, sufficiently light to be carried by small animals such as bats, birds and rodents. Miniscopes have permitted the study of circuits underlying song vocalization, action sequencing, head-direction tuning, spatial memory encoding and sleep to name a few. The foundation for these microscopes has been laid over the last two decades through academic research with some of this work resulting in commercialization. More recently, open-source initiatives have led to an even broader adoption of miniscopes in the neuroscience community. Open-source designs allow for rapid modification and extension of their function, which has resulted"
+  },
+  {
+    "record_key": "openalex:W2761015455",
+    "source": "openalex",
+    "title": "Reinforcement Learning in Different Phases of Quantum Control",
+    "year": 2018,
+    "venue": "Physical Review X",
+    "abstract": "New experiments show that reinforcement learning algorithms, a cutting-edge technique for machine learning, can quickly and accurately learn to prepare a desired quantum state despite no knowledge of quantum mechanics."
+  },
+  {
+    "record_key": "openalex:W3178661111",
+    "source": "openalex",
+    "title": "Decentralized Edge Intelligence: A Dynamic Resource Allocation Framework for Hierarchical Federated Learning",
+    "year": 2021,
+    "venue": "IEEE Transactions on Parallel and Distributed Systems",
+    "abstract": "To enable the large scale and efficient deployment of Artificial Intelligence (AI), the confluence of AI and Edge Computing has given rise to Edge Intelligence, which leverages on the computation and communication capabilities of end devices and edge servers to process data closer to where it is produced. One of the enabling technologies of Edge Intelligence is the privacy preserving machine learning paradigm known as Federated Learning (FL), which enables data owners to conduct model training without having to transmit their raw data to third-party servers. However, the FL network is envisioned to involve thousands of heterogeneous distributed devices. As a result, communication inefficiency remains a key bottleneck. To reduce node failures and device dropouts, the Hierarchical Federated Learning (HFL)"
+  },
+  {
+    "record_key": "openalex:W1975357130",
+    "source": "openalex",
+    "title": "MEMS optical switches and interconnects",
+    "year": 2014,
+    "venue": "Displays",
+    "abstract": ""
+  }
+]

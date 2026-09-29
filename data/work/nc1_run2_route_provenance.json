@@ -1,0 +1,1974 @@
+{
+  "caveat": "Collectors skip a record_key already on disk, so each raw record carries only the first query that found it. Per-query counts are lower bounds.",
+  "raw_lines_per_file": {
+    "arxiv.jsonl": 47,
+    "arxiv_via_openalex.jsonl": 341,
+    "openalex.jsonl": 707,
+    "openalex_snowball.jsonl": 150,
+    "smoke_arxiv.jsonl": 5,
+    "smoke_openalex.jsonl": 5
+  },
+  "unique_raw_record_keys": 1245,
+  "raw_keys_not_in_duplicates_table": [],
+  "papers": 1211,
+  "core_papers": 284,
+  "core_route_counts": {
+    "architecture_only": 105,
+    "unclear": 44,
+    "mems_silicon_photonic": 43,
+    "thermo_optic": 30,
+    "mems_3d": 16,
+    "electro_optic": 14,
+    "other": 13,
+    "soa": 11,
+    "mems_2d": 3,
+    "lcos": 2,
+    "piezo": 2,
+    "robotic_patch_panel": 1
+  },
+  "largest_route": "architecture_only",
+  "route_entry": {
+    "architecture_only": {
+      "core_papers": 105,
+      "by_entry_kind_exclusive": {
+        "query": 88,
+        "arxiv_via_openalex+query": 7,
+        "snowball": 5,
+        "arxiv_via_openalex": 3,
+        "anchor": 2
+      },
+      "by_entry_path_nonexclusive": {
+        "query:arxiv:optical circuit switch": 37,
+        "query:openalex:optical circuit switch": 24,
+        "query:openalex:optical circuit switching data center": 14,
+        "query:openalex:reconfigurable data center network optical": 11,
+        "query:openalex:optical interconnect reconfigurable topology distributed training": 8,
+        "arxiv_via_openalex:reconfigurable datacenter network": 6,
+        "arxiv_via_openalex:optical circuit switch": 4,
+        "query:openalex:optical beam steering switch fiber": 2,
+        "query:openalex:optical cross-connect data center": 2,
+        "query:openalex:semiconductor optical amplifier switch data center": 2,
+        "snowball:W2141810662": 2,
+        "anchor:Expanding across time to deliver bandwidth efficiency and low latency": 1,
+        "anchor:Helios: A Hybrid Electrical/Optical Switch Architecture for Modular Data Centers": 1,
+        "query:openalex:silicon photonic switch data center": 1,
+        "snowball:W2119638333": 1,
+        "snowball:W2151668565": 1,
+        "snowball:W2937088522": 1
+      },
+      "ucb_affiliated": 0
+    },
+    "unclear": {
+      "core_papers": 44,
+      "by_entry_kind_exclusive": {
+        "query": 35,
+        "snowball": 9
+      },
+      "by_entry_path_nonexclusive": {
+        "query:openalex:MEMS optical switch": 11,
+        "query:openalex:optical circuit switch": 7,
+        "query:openalex:thermo-optic switch port count": 7,
+        "snowball:W2260723393": 4,
+        "query:openalex:optical circuit switching data center": 3,
+        "snowball:W2587610600": 3,
+        "query:openalex:optical switching data center survey": 2,
+        "query:arxiv:optical circuit switch": 1,
+        "query:openalex:optical beam steering switch fiber": 1,
+        "query:openalex:optical cross-connect data center": 1,
+        "query:openalex:silicon photonic MEMS switch": 1,
+        "query:openalex:wavelength selective switch LCoS": 1,
+        "snowball:W1982681165": 1,
+        "snowball:W2807234289": 1
+      },
+      "ucb_affiliated": 3
+    },
+    "mems_silicon_photonic": {
+      "core_papers": 43,
+      "by_entry_kind_exclusive": {
+        "query": 35,
+        "snowball": 6,
+        "anchor": 1,
+        "arxiv_via_openalex+query": 1
+      },
+      "by_entry_path_nonexclusive": {
+        "query:openalex:silicon photonic MEMS switch": 27,
+        "query:openalex:MEMS optical switch": 6,
+        "snowball:W1982681165": 6,
+        "anchor:Large-scale broadband digital silicon photonic switches with vertical adiabatic couplers": 1,
+        "arxiv_via_openalex:MEMS optical switch": 1,
+        "query:arxiv:optical circuit switch": 1,
+        "query:openalex:silicon photonic switch data center": 1,
+        "query:openalex:thermo-optic switch port count": 1
+      },
+      "ucb_affiliated": 17
+    },
+    "thermo_optic": {
+      "core_papers": 30,
+      "by_entry_kind_exclusive": {
+        "query": 16,
+        "arxiv_via_openalex": 7,
+        "snowball": 7
+      },
+      "by_entry_path_nonexclusive": {
+        "query:openalex:thermo-optic switch port count": 12,
+        "arxiv_via_openalex:thermo-optic switch": 6,
+        "snowball:W1982681165": 2,
+        "snowball:W2260723393": 2,
+        "snowball:W2587610600": 2,
+        "arxiv_via_openalex:silicon photonic switch": 1,
+        "query:openalex:MEMS optical switch": 1,
+        "query:openalex:optical circuit switch": 1,
+        "query:openalex:optical circuit switching data center": 1,
+        "query:openalex:silicon photonic MEMS switch": 1,
+        "snowball:W2937088522": 1
+      },
+      "ucb_affiliated": 0
+    },
+    "mems_3d": {
+      "core_papers": 16,
+      "by_entry_kind_exclusive": {
+        "query": 10,
+        "snowball": 4,
+        "anchor": 1,
+        "arxiv_via_openalex": 1
+      },
+      "by_entry_path_nonexclusive": {
+        "query:openalex:MEMS optical switch": 5,
+        "query:openalex:reconfigurable data center network optical": 2,
+        "snowball:W2807234289": 2,
+        "anchor:1100 x 1100 port MEMS-based optical crossconnect with 4-dB maximum loss": 1,
+        "arxiv_via_openalex:MEMS optical switch": 1,
+        "query:arxiv:optical circuit switch": 1,
+        "query:openalex:optical circuit switch": 1,
+        "query:openalex:optical cross-connect data center": 1,
+        "query:openalex:wavelength selective switch LCoS": 1,
+        "snowball:W2260723393": 1,
+        "snowball:W2486960733": 1
+      },
+      "ucb_affiliated": 0
+    },
+    "electro_optic": {
+      "core_papers": 14,
+      "by_entry_kind_exclusive": {
+        "snowball": 8,
+        "query": 4,
+        "arxiv_via_openalex": 2
+      },
+      "by_entry_path_nonexclusive": {
+        "snowball:W2807234289": 4,
+        "arxiv_via_openalex:thermo-optic switch": 2,
+        "snowball:W2260723393": 2,
+        "query:arxiv:optical circuit switch": 1,
+        "query:openalex:semiconductor optical amplifier switch data center": 1,
+        "query:openalex:silicon photonic switch data center": 1,
+        "query:openalex:thermo-optic switch port count": 1,
+        "snowball:W1982681165": 1,
+        "snowball:W2587610600": 1
+      },
+      "ucb_affiliated": 0
+    },
+    "other": {
+      "core_papers": 13,
+      "by_entry_kind_exclusive": {
+        "query": 5,
+        "arxiv_via_openalex": 3,
+        "snowball": 3,
+        "anchor": 2
+      },
+      "by_entry_path_nonexclusive": {
+        "arxiv_via_openalex:silicon photonic switch": 2,
+        "query:openalex:optical circuit switch": 2,
+        "snowball:W2486960733": 2,
+        "anchor:ProjecToR: Agile Reconfigurable Data Center Interconnect": 1,
+        "anchor:Sirius: A Flat Datacenter Network with Nanosecond Optical Switching": 1,
+        "arxiv_via_openalex:thermo-optic switch": 1,
+        "query:arxiv:optical circuit switch": 1,
+        "query:openalex:silicon photonic switch data center": 1,
+        "query:openalex:thermo-optic switch port count": 1,
+        "snowball:W2587610600": 1
+      },
+      "ucb_affiliated": 0
+    },
+    "soa": {
+      "core_papers": 11,
+      "by_entry_kind_exclusive": {
+        "query": 8,
+        "snowball": 3
+      },
+      "by_entry_path_nonexclusive": {
+        "query:openalex:semiconductor optical amplifier switch data center": 3,
+        "snowball:W2807234289": 3,
+        "query:arxiv:optical circuit switch": 2,
+        "query:openalex:optical circuit switch": 2,
+        "query:openalex:optical cross-connect data center": 1,
+        "query:openalex:reconfigurable data center network optical": 1,
+        "query:openalex:thermo-optic switch port count": 1
+      },
+      "ucb_affiliated": 0
+    },
+    "mems_2d": {
+      "core_papers": 3,
+      "by_entry_kind_exclusive": {
+        "snowball": 2,
+        "query": 1
+      },
+      "by_entry_path_nonexclusive": {
+        "query:openalex:MEMS optical switch": 1,
+        "snowball:W1982681165": 1,
+        "snowball:W2807234289": 1
+      },
+      "ucb_affiliated": 1
+    },
+    "lcos": {
+      "core_papers": 2,
+      "by_entry_kind_exclusive": {
+        "query": 2
+      },
+      "by_entry_path_nonexclusive": {
+        "query:openalex:optical circuit switch": 1,
+        "query:openalex:wavelength selective switch LCoS": 1
+      },
+      "ucb_affiliated": 0
+    },
+    "piezo": {
+      "core_papers": 2,
+      "by_entry_kind_exclusive": {
+        "query": 2
+      },
+      "by_entry_path_nonexclusive": {
+        "query:openalex:optical beam steering switch fiber": 2
+      },
+      "ucb_affiliated": 0
+    },
+    "robotic_patch_panel": {
+      "core_papers": 1,
+      "by_entry_kind_exclusive": {
+        "query": 1
+      },
+      "by_entry_path_nonexclusive": {
+        "query:openalex:robotic fiber patch panel": 1
+      },
+      "ucb_affiliated": 0
+    }
+  },
+  "q1_mems_silicon_photonic": {
+    "summary": {
+      "core_papers": 43,
+      "by_entry_kind_exclusive": {
+        "query": 35,
+        "snowball": 6,
+        "anchor": 1,
+        "arxiv_via_openalex+query": 1
+      },
+      "by_entry_path_nonexclusive": {
+        "query:openalex:silicon photonic MEMS switch": 27,
+        "query:openalex:MEMS optical switch": 6,
+        "snowball:W1982681165": 6,
+        "anchor:Large-scale broadband digital silicon photonic switches with vertical adiabatic couplers": 1,
+        "arxiv_via_openalex:MEMS optical switch": 1,
+        "query:arxiv:optical circuit switch": 1,
+        "query:openalex:silicon photonic switch data center": 1,
+        "query:openalex:thermo-optic switch port count": 1
+      },
+      "ucb_affiliated": 17,
+      "ucb_affiliated_by_entry_kind": {
+        "query": 17
+      },
+      "shares_author_with_berkeley_anchor": 24,
+      "shares_author_with_anchor_by_entry_kind": {
+        "query": 24
+      }
+    },
+    "papers": [
+      {
+        "paper_id": "W2260723393",
+        "title": "Large-scale broadband digital silicon photonic switches with vertical adiabatic couplers",
+        "year": 2016,
+        "entry_paths": [
+          "anchor:Large-scale broadband digital silicon photonic switches with vertical adiabatic couplers"
+        ],
+        "raw_record_keys": [
+          "openalex:W2260723393"
+        ],
+        "ucb_affiliated": false,
+        "shares_author_with_berkeley_anchor": false,
+        "is_berkeley_anchor": true
+      },
+      {
+        "paper_id": "W7172527693",
+        "title": "Zero-change foundry compatible silicon photonics MEMS optical switch",
+        "year": 2026,
+        "entry_paths": [
+          "arxiv_via_openalex:MEMS optical switch",
+          "query:arxiv:optical circuit switch"
+        ],
+        "raw_record_keys": [
+          "arxiv:2608.03146",
+          "openalex:W7172527693",
+          "openalex:W7197053020"
+        ],
+        "ucb_affiliated": false,
+        "shares_author_with_berkeley_anchor": false,
+        "is_berkeley_anchor": false
+      },
+      {
+        "paper_id": "W1515664994",
+        "title": "Multicast 4\u00d720 Silicon Photonic MEMS Switches",
+        "year": 2015,
+        "entry_paths": [
+          "query:openalex:silicon photonic MEMS switch"
+        ],
+        "raw_record_keys": [
+          "openalex:W1515664994"
+        ],
+        "ucb_affiliated": true,
+        "shares_author_with_berkeley_anchor": true,
+        "is_berkeley_anchor": false
+      },
+      {
+        "paper_id": "W1945545782",
+        "title": "Reliability study of digital silicon photonic MEMS switches",
+        "year": 2015,
+        "entry_paths": [
+          "query:openalex:silicon photonic MEMS switch"
+        ],
+        "raw_record_keys": [
+          "openalex:W1945545782"
+        ],
+        "ucb_affiliated": true,
+        "shares_author_with_berkeley_anchor": true,
+        "is_berkeley_anchor": false
+      },
+      {
+        "paper_id": "W1976569985",
+        "title": "50\u00d750 Digital Silicon Photonic Switches with MEMS-Actuated Adiabatic Couplers",
+        "year": 2015,
+        "entry_paths": [
+          "query:openalex:silicon photonic MEMS switch"
+        ],
+        "raw_record_keys": [
+          "openalex:W1976569985"
+        ],
+        "ucb_affiliated": true,
+        "shares_author_with_berkeley_anchor": true,
+        "is_berkeley_anchor": false
+      },
+      {
+        "paper_id": "W1982681165",
+        "title": "Large-scale silicon photonic switches with movable directional couplers",
+        "year": 2015,
+        "entry_paths": [
+          "query:openalex:MEMS optical switch"
+        ],
+        "raw_record_keys": [
+          "openalex:W1982681165"
+        ],
+        "ucb_affiliated": true,
+        "shares_author_with_berkeley_anchor": true,
+        "is_berkeley_anchor": false
+      },
+      {
+        "paper_id": "W2186858051",
+        "title": "64\u00d764 Low-loss and broadband digital silicon photonic MEMS switches",
+        "year": 2015,
+        "entry_paths": [
+          "query:openalex:silicon photonic MEMS switch"
+        ],
+        "raw_record_keys": [
+          "openalex:W2186858051"
+        ],
+        "ucb_affiliated": true,
+        "shares_author_with_berkeley_anchor": true,
+        "is_berkeley_anchor": false
+      },
+      {
+        "paper_id": "W2226395753",
+        "title": "Monolithic 50\u00d750 MEMS Silicon Photonic Switches with Microsecond Response Time",
+        "year": 2014,
+        "entry_paths": [
+          "query:openalex:silicon photonic MEMS switch"
+        ],
+        "raw_record_keys": [
+          "openalex:W2226395753"
+        ],
+        "ucb_affiliated": true,
+        "shares_author_with_berkeley_anchor": true,
+        "is_berkeley_anchor": false
+      },
+      {
+        "paper_id": "W2257494936",
+        "title": "Highly Scalable Digital Silicon Photonic MEMS Switches",
+        "year": 2015,
+        "entry_paths": [
+          "query:openalex:silicon photonic MEMS switch"
+        ],
+        "raw_record_keys": [
+          "openalex:W2257494936"
+        ],
+        "ucb_affiliated": true,
+        "shares_author_with_berkeley_anchor": true,
+        "is_berkeley_anchor": false
+      },
+      {
+        "paper_id": "W2271940456",
+        "title": "Scalable Row/Column Addressing of Silicon Photonic MEMS Switches",
+        "year": 2016,
+        "entry_paths": [
+          "query:openalex:silicon photonic MEMS switch"
+        ],
+        "raw_record_keys": [
+          "openalex:W1635046341",
+          "openalex:W2271940456"
+        ],
+        "ucb_affiliated": true,
+        "shares_author_with_berkeley_anchor": true,
+        "is_berkeley_anchor": false
+      },
+      {
+        "paper_id": "W2581695752",
+        "title": "12\u00d712 packaged digital silicon photonic MEMS switches",
+        "year": 2016,
+        "entry_paths": [
+          "query:openalex:silicon photonic MEMS switch"
+        ],
+        "raw_record_keys": [
+          "openalex:W2581695752"
+        ],
+        "ucb_affiliated": true,
+        "shares_author_with_berkeley_anchor": true,
+        "is_berkeley_anchor": false
+      },
+      {
+        "paper_id": "W2591111335",
+        "title": "Highly Scalable Silicon Photonic Switches Based on Waveguide Crossbar with Movable Waveguide Couplers",
+        "year": 2016,
+        "entry_paths": [
+          "query:openalex:thermo-optic switch port count"
+        ],
+        "raw_record_keys": [
+          "openalex:W2591111335"
+        ],
+        "ucb_affiliated": false,
+        "shares_author_with_berkeley_anchor": true,
+        "is_berkeley_anchor": false
+      },
+      {
+        "paper_id": "W2615050161",
+        "title": "Flip Chip Packaging of Digital Silicon Photonics MEMS Switch for Cloud Computing and Data Centre",
+        "year": 2017,
+        "entry_paths": [
+          "query:openalex:silicon photonic MEMS switch"
+        ],
+        "raw_record_keys": [
+          "openalex:W2615050161"
+        ],
+        "ucb_affiliated": true,
+        "shares_author_with_berkeley_anchor": true,
+        "is_berkeley_anchor": false
+      },
+      {
+        "paper_id": "W2738975469",
+        "title": "Large-Scale Silicon Photonic MEMS Switch",
+        "year": 2015,
+        "entry_paths": [
+          "query:openalex:silicon photonic MEMS switch"
+        ],
+        "raw_record_keys": [
+          "openalex:W2738975469"
+        ],
+        "ucb_affiliated": false,
+        "shares_author_with_berkeley_anchor": true,
+        "is_berkeley_anchor": false
+      },
+      {
+        "paper_id": "W2782897921",
+        "title": "Large-Scale Polarization-Insensitive Silicon Photonic MEMS Switches",
+        "year": 2018,
+        "entry_paths": [
+          "query:openalex:silicon photonic MEMS switch"
+        ],
+        "raw_record_keys": [
+          "openalex:W2782897921"
+        ],
+        "ucb_affiliated": true,
+        "shares_author_with_berkeley_anchor": true,
+        "is_berkeley_anchor": false
+      },
+      {
+        "paper_id": "W2786734285",
+        "title": "128 \u00d7 128 silicon photonic MEMS switch package using glass interposer and pitch reducing fibre array",
+        "year": 2017,
+        "entry_paths": [
+          "query:openalex:silicon photonic MEMS switch"
+        ],
+        "raw_record_keys": [
+          "openalex:W2786734285"
+        ],
+        "ucb_affiliated": true,
+        "shares_author_with_berkeley_anchor": true,
+        "is_berkeley_anchor": false
+      },
+      {
+        "paper_id": "W2800201100",
+        "title": "128\u00d7128 Silicon Photonic MEMS Switch with Scalable Row/Column Addressing",
+        "year": 2018,
+        "entry_paths": [
+          "query:openalex:silicon photonic MEMS switch"
+        ],
+        "raw_record_keys": [
+          "openalex:W2800201100"
+        ],
+        "ucb_affiliated": true,
+        "shares_author_with_berkeley_anchor": true,
+        "is_berkeley_anchor": false
+      },
+      {
+        "paper_id": "W2909208749",
+        "title": "State of the Art and Perspectives on Silicon Photonic Switches",
+        "year": 2019,
+        "entry_paths": [
+          "query:openalex:silicon photonic switch data center"
+        ],
+        "raw_record_keys": [
+          "openalex:W2909208749"
+        ],
+        "ucb_affiliated": false,
+        "shares_author_with_berkeley_anchor": false,
+        "is_berkeley_anchor": false
+      },
+      {
+        "paper_id": "W2918631369",
+        "title": "Bistable silicon photonic MEMS switches",
+        "year": 2019,
+        "entry_paths": [
+          "query:openalex:silicon photonic MEMS switch"
+        ],
+        "raw_record_keys": [
+          "openalex:W2918631369"
+        ],
+        "ucb_affiliated": false,
+        "shares_author_with_berkeley_anchor": true,
+        "is_berkeley_anchor": false
+      },
+      {
+        "paper_id": "W2919451605",
+        "title": "Pluggable Silicon Photonic MEMS Switch Package for Data Centre",
+        "year": 2018,
+        "entry_paths": [
+          "query:openalex:silicon photonic MEMS switch"
+        ],
+        "raw_record_keys": [
+          "openalex:W2919451605"
+        ],
+        "ucb_affiliated": true,
+        "shares_author_with_berkeley_anchor": true,
+        "is_berkeley_anchor": false
+      },
+      {
+        "paper_id": "W2956148226",
+        "title": "Translational MEMS Platform for Planar Optical Switching Fabrics",
+        "year": 2019,
+        "entry_paths": [
+          "query:openalex:MEMS optical switch"
+        ],
+        "raw_record_keys": [
+          "openalex:W2956148226"
+        ],
+        "ucb_affiliated": false,
+        "shares_author_with_berkeley_anchor": false,
+        "is_berkeley_anchor": false
+      },
+      {
+        "paper_id": "W2979824403",
+        "title": "Silicon photonic wavelength cross-connect with integrated MEMS switching",
+        "year": 2019,
+        "entry_paths": [
+          "query:openalex:MEMS optical switch"
+        ],
+        "raw_record_keys": [
+          "openalex:W2979824403"
+        ],
+        "ucb_affiliated": true,
+        "shares_author_with_berkeley_anchor": true,
+        "is_berkeley_anchor": false
+      },
+      {
+        "paper_id": "W2994903006",
+        "title": "Low-voltage MEMS optical phase modulators and switches on a indium phosphide membrane on silicon",
+        "year": 2019,
+        "entry_paths": [
+          "query:openalex:MEMS optical switch"
+        ],
+        "raw_record_keys": [
+          "openalex:W2994903006"
+        ],
+        "ucb_affiliated": false,
+        "shares_author_with_berkeley_anchor": false,
+        "is_berkeley_anchor": false
+      },
+      {
+        "paper_id": "W3097557698",
+        "title": "Broadband Compact Single-Pole Double-Throw Silicon Photonic MEMS Switch",
+        "year": 2021,
+        "entry_paths": [
+          "query:openalex:silicon photonic MEMS switch"
+        ],
+        "raw_record_keys": [
+          "openalex:W3097557698"
+        ],
+        "ucb_affiliated": false,
+        "shares_author_with_berkeley_anchor": true,
+        "is_berkeley_anchor": false
+      },
+      {
+        "paper_id": "W3115038226",
+        "title": "New concept of silicon photonic MEMS switch based on total internal reflection",
+        "year": 2020,
+        "entry_paths": [
+          "query:openalex:silicon photonic MEMS switch"
+        ],
+        "raw_record_keys": [
+          "openalex:W3115038226"
+        ],
+        "ucb_affiliated": false,
+        "shares_author_with_berkeley_anchor": false,
+        "is_berkeley_anchor": false
+      },
+      {
+        "paper_id": "W3138799074",
+        "title": "32 \u00d7 32 silicon photonic MEMS switch with gap-adjustable directional couplers fabricated in commercial CMOS foundry",
+        "year": 2021,
+        "entry_paths": [
+          "query:openalex:silicon photonic MEMS switch"
+        ],
+        "raw_record_keys": [
+          "openalex:W3138799074"
+        ],
+        "ucb_affiliated": true,
+        "shares_author_with_berkeley_anchor": true,
+        "is_berkeley_anchor": false
+      },
+      {
+        "paper_id": "W3139267661",
+        "title": "Low-Voltage Silicon Photonic MEMS Switch with Vertical Actuation",
+        "year": 2021,
+        "entry_paths": [
+          "query:openalex:silicon photonic MEMS switch"
+        ],
+        "raw_record_keys": [
+          "openalex:W3139267661"
+        ],
+        "ucb_affiliated": false,
+        "shares_author_with_berkeley_anchor": true,
+        "is_berkeley_anchor": false
+      },
+      {
+        "paper_id": "W4211023690",
+        "title": "A Bistable Silicon Photonic Mems Phase Switch For Nonvolatile Photonic Circuits",
+        "year": 2022,
+        "entry_paths": [
+          "query:openalex:silicon photonic MEMS switch"
+        ],
+        "raw_record_keys": [
+          "openalex:W4211023690"
+        ],
+        "ucb_affiliated": false,
+        "shares_author_with_berkeley_anchor": true,
+        "is_berkeley_anchor": false
+      },
+      {
+        "paper_id": "W4226451033",
+        "title": "Low-Loss Wafer-Bonded Silicon Photonic MEMS Switches",
+        "year": 2022,
+        "entry_paths": [
+          "query:openalex:silicon photonic MEMS switch"
+        ],
+        "raw_record_keys": [
+          "openalex:W4226451033"
+        ],
+        "ucb_affiliated": true,
+        "shares_author_with_berkeley_anchor": true,
+        "is_berkeley_anchor": false
+      },
+      {
+        "paper_id": "W4281560993",
+        "title": "Integrated 1 \u00d7 3 MEMS silicon nitride photonics switch",
+        "year": 2022,
+        "entry_paths": [
+          "query:openalex:silicon photonic MEMS switch"
+        ],
+        "raw_record_keys": [
+          "openalex:W4281560993"
+        ],
+        "ucb_affiliated": false,
+        "shares_author_with_berkeley_anchor": false,
+        "is_berkeley_anchor": false
+      },
+      {
+        "paper_id": "W4378770566",
+        "title": "Silicon photonic MEMS switches based on split waveguide crossings",
+        "year": 2023,
+        "entry_paths": [
+          "query:openalex:silicon photonic MEMS switch"
+        ],
+        "raw_record_keys": [
+          "openalex:W4378770566"
+        ],
+        "ucb_affiliated": false,
+        "shares_author_with_berkeley_anchor": false,
+        "is_berkeley_anchor": false
+      },
+      {
+        "paper_id": "W4385800727",
+        "title": "Nonvolatile Silicon MEMS Optical Switch Based on Bistable Mechanical Beams",
+        "year": 2023,
+        "entry_paths": [
+          "query:openalex:MEMS optical switch"
+        ],
+        "raw_record_keys": [
+          "openalex:W4385800727"
+        ],
+        "ucb_affiliated": false,
+        "shares_author_with_berkeley_anchor": false,
+        "is_berkeley_anchor": false
+      },
+      {
+        "paper_id": "W4387805823",
+        "title": "Hybrid MEMS Actuator With 3 Degrees-of- Freedom for Efficient Planar Optical Switching",
+        "year": 2023,
+        "entry_paths": [
+          "query:openalex:MEMS optical switch"
+        ],
+        "raw_record_keys": [
+          "openalex:W4387805823"
+        ],
+        "ucb_affiliated": false,
+        "shares_author_with_berkeley_anchor": false,
+        "is_berkeley_anchor": false
+      },
+      {
+        "paper_id": "W4393174577",
+        "title": "Large-scale silicon photonic MEMS switch with flip-chip integrated CMOS drivers",
+        "year": 2023,
+        "entry_paths": [
+          "query:openalex:silicon photonic MEMS switch"
+        ],
+        "raw_record_keys": [
+          "openalex:W4393174577"
+        ],
+        "ucb_affiliated": false,
+        "shares_author_with_berkeley_anchor": true,
+        "is_berkeley_anchor": false
+      },
+      {
+        "paper_id": "W4402905306",
+        "title": "Nonvolatile silicon photonic MEMS switch based on centrally clamped stepped bistable mechanical beams",
+        "year": 2024,
+        "entry_paths": [
+          "query:openalex:silicon photonic MEMS switch"
+        ],
+        "raw_record_keys": [
+          "openalex:W4402905306"
+        ],
+        "ucb_affiliated": false,
+        "shares_author_with_berkeley_anchor": false,
+        "is_berkeley_anchor": false
+      },
+      {
+        "paper_id": "W4406015850",
+        "title": "Silicon photonic MEMS switches based on split waveguide crossings",
+        "year": 2025,
+        "entry_paths": [
+          "query:openalex:silicon photonic MEMS switch"
+        ],
+        "raw_record_keys": [
+          "openalex:W4406015850"
+        ],
+        "ucb_affiliated": false,
+        "shares_author_with_berkeley_anchor": false,
+        "is_berkeley_anchor": false
+      },
+      {
+        "paper_id": "W4414694752",
+        "title": "Nonvolatile silicon photonic MEMS switches enabled by van der Waals force",
+        "year": 2025,
+        "entry_paths": [
+          "query:openalex:silicon photonic MEMS switch"
+        ],
+        "raw_record_keys": [
+          "openalex:W4414694752"
+        ],
+        "ucb_affiliated": false,
+        "shares_author_with_berkeley_anchor": false,
+        "is_berkeley_anchor": false
+      },
+      {
+        "paper_id": "W1965253111",
+        "title": "Single and multiple optical switches that use freestanding silicon nanowire waveguide couplers",
+        "year": 2012,
+        "entry_paths": [
+          "snowball:W1982681165"
+        ],
+        "raw_record_keys": [
+          "openalex:W1965253111"
+        ],
+        "ucb_affiliated": false,
+        "shares_author_with_berkeley_anchor": false,
+        "is_berkeley_anchor": false
+      },
+      {
+        "paper_id": "W2032418282",
+        "title": "A Compact 1\u00d73 Silicon Photonic Waveguide Switch Based on Precise Investigation of Coupling Characteristics of Variable-Gap Coupler",
+        "year": 2013,
+        "entry_paths": [
+          "snowball:W1982681165"
+        ],
+        "raw_record_keys": [
+          "openalex:W2032418282"
+        ],
+        "ucb_affiliated": false,
+        "shares_author_with_berkeley_anchor": false,
+        "is_berkeley_anchor": false
+      },
+      {
+        "paper_id": "W2082515684",
+        "title": "Submicron silicon waveguide optical switch driven by microelectromechanical actuator",
+        "year": 2008,
+        "entry_paths": [
+          "snowball:W1982681165"
+        ],
+        "raw_record_keys": [
+          "openalex:W2082515684"
+        ],
+        "ucb_affiliated": false,
+        "shares_author_with_berkeley_anchor": false,
+        "is_berkeley_anchor": false
+      },
+      {
+        "paper_id": "W2089069546",
+        "title": "Variable-Gap Silicon Photonic Waveguide Coupler Switch With a Nanolatch Mechanism",
+        "year": 2013,
+        "entry_paths": [
+          "snowball:W1982681165"
+        ],
+        "raw_record_keys": [
+          "openalex:W2089069546"
+        ],
+        "ucb_affiliated": false,
+        "shares_author_with_berkeley_anchor": false,
+        "is_berkeley_anchor": false
+      },
+      {
+        "paper_id": "W2094432207",
+        "title": "Planar microoptomechanical waveguide switches",
+        "year": 2002,
+        "entry_paths": [
+          "snowball:W1982681165"
+        ],
+        "raw_record_keys": [
+          "openalex:W2094432207"
+        ],
+        "ucb_affiliated": false,
+        "shares_author_with_berkeley_anchor": false,
+        "is_berkeley_anchor": false
+      },
+      {
+        "paper_id": "W2103195791",
+        "title": "InP-based optical waveguide MEMS switches with evanescent coupling mechanism",
+        "year": 2005,
+        "entry_paths": [
+          "snowball:W1982681165"
+        ],
+        "raw_record_keys": [
+          "openalex:W2103195791"
+        ],
+        "ucb_affiliated": false,
+        "shares_author_with_berkeley_anchor": false,
+        "is_berkeley_anchor": false
+      }
+    ]
+  },
+  "q2_core_route_counts_without_snowball_only": {
+    "architecture_only": 100,
+    "mems_silicon_photonic": 37,
+    "unclear": 35,
+    "thermo_optic": 23,
+    "mems_3d": 12,
+    "other": 10,
+    "soa": 8,
+    "electro_optic": 6,
+    "lcos": 2,
+    "piezo": 2,
+    "mems_2d": 1,
+    "robotic_patch_panel": 1
+  },
+  "q2_snowball_only_core_by_route": {
+    "unclear": 9,
+    "electro_optic": 8,
+    "thermo_optic": 7,
+    "mems_silicon_photonic": 6,
+    "architecture_only": 5,
+    "mems_3d": 4,
+    "other": 3,
+    "soa": 3,
+    "mems_2d": 2
+  },
+  "q2_core_with_any_snowball_record": 47,
+  "q3_seeds_recomputed_now": [
+    "W2119638333",
+    "W4380874786",
+    "W2141810662",
+    "W2260723393",
+    "W2151668565",
+    "W2486960733",
+    "W2587610600",
+    "W2807234289",
+    "W1982681165",
+    "W2937088522"
+  ],
+  "q3_seeds_on_disk": [
+    "W1982681165",
+    "W2119638333",
+    "W2141810662",
+    "W2151668565",
+    "W2260723393",
+    "W2486960733",
+    "W2587610600",
+    "W2807234289",
+    "W2937088522",
+    "W4380874786"
+  ],
+  "q3_seed_lists_match": true,
+  "q3_seeds": [
+    {
+      "seed_openalex_id": "W2119638333",
+      "paper_id": "W2119638333",
+      "title": "Helios",
+      "year": 2010,
+      "cited_by_count": 925,
+      "tech_route": "architecture_only",
+      "core_set": 1,
+      "ucb_affiliated": false,
+      "raw_records_brought_in": 15,
+      "brought_in_from_seed_reference_list": 15,
+      "papers_brought_in": 15,
+      "core_papers_brought_in": 1,
+      "core_brought_in_by_route": {
+        "architecture_only": 1
+      },
+      "core_snowball_only_by_route": {
+        "architecture_only": 1
+      }
+    },
+    {
+      "seed_openalex_id": "W4380874786",
+      "paper_id": "W4380874786",
+      "title": "TPU v4: An Optically Reconfigurable Supercomputer for Machine Learning with Hardware Support for Embeddings",
+      "year": 2023,
+      "cited_by_count": 486,
+      "tech_route": "architecture_only",
+      "core_set": 1,
+      "ucb_affiliated": false,
+      "raw_records_brought_in": 15,
+      "brought_in_from_seed_reference_list": 15,
+      "papers_brought_in": 15,
+      "core_papers_brought_in": 0,
+      "core_brought_in_by_route": {},
+      "core_snowball_only_by_route": {}
+    },
+    {
+      "seed_openalex_id": "W2141810662",
+      "paper_id": "W2141810662",
+      "title": "OSA: An Optical Switching Architecture for Data Center Networks With Unprecedented Flexibility",
+      "year": 2013,
+      "cited_by_count": 465,
+      "tech_route": "architecture_only",
+      "core_set": 1,
+      "ucb_affiliated": false,
+      "raw_records_brought_in": 15,
+      "brought_in_from_seed_reference_list": 15,
+      "papers_brought_in": 15,
+      "core_papers_brought_in": 2,
+      "core_brought_in_by_route": {
+        "architecture_only": 2
+      },
+      "core_snowball_only_by_route": {
+        "architecture_only": 2
+      }
+    },
+    {
+      "seed_openalex_id": "W2260723393",
+      "paper_id": "W2260723393",
+      "title": "Large-scale broadband digital silicon photonic switches with vertical adiabatic couplers",
+      "year": 2016,
+      "cited_by_count": 313,
+      "tech_route": "mems_silicon_photonic",
+      "core_set": 1,
+      "ucb_affiliated": false,
+      "raw_records_brought_in": 15,
+      "brought_in_from_seed_reference_list": 15,
+      "papers_brought_in": 15,
+      "core_papers_brought_in": 9,
+      "core_brought_in_by_route": {
+        "unclear": 4,
+        "electro_optic": 2,
+        "thermo_optic": 2,
+        "mems_3d": 1
+      },
+      "core_snowball_only_by_route": {
+        "unclear": 4,
+        "electro_optic": 2,
+        "thermo_optic": 2,
+        "mems_3d": 1
+      }
+    },
+    {
+      "seed_openalex_id": "W2151668565",
+      "paper_id": "W2151668565",
+      "title": "Integrating microsecond circuit switching into the data center",
+      "year": 2013,
+      "cited_by_count": 305,
+      "tech_route": "architecture_only",
+      "core_set": 1,
+      "ucb_affiliated": false,
+      "raw_records_brought_in": 15,
+      "brought_in_from_seed_reference_list": 15,
+      "papers_brought_in": 15,
+      "core_papers_brought_in": 1,
+      "core_brought_in_by_route": {
+        "architecture_only": 1
+      },
+      "core_snowball_only_by_route": {
+        "architecture_only": 1
+      }
+    },
+    {
+      "seed_openalex_id": "W2486960733",
+      "paper_id": "W2486960733",
+      "title": "ProjecToR",
+      "year": 2016,
+      "cited_by_count": 289,
+      "tech_route": "other",
+      "core_set": 1,
+      "ucb_affiliated": false,
+      "raw_records_brought_in": 15,
+      "brought_in_from_seed_reference_list": 15,
+      "papers_brought_in": 15,
+      "core_papers_brought_in": 3,
+      "core_brought_in_by_route": {
+        "other": 2,
+        "mems_3d": 1
+      },
+      "core_snowball_only_by_route": {
+        "other": 2,
+        "mems_3d": 1
+      }
+    },
+    {
+      "seed_openalex_id": "W2587610600",
+      "paper_id": "W2587610600",
+      "title": "32 \u00d7 32 silicon electro-optic switch with built-in monitors and balanced-status units",
+      "year": 2017,
+      "cited_by_count": 256,
+      "tech_route": "electro_optic",
+      "core_set": 1,
+      "ucb_affiliated": false,
+      "raw_records_brought_in": 15,
+      "brought_in_from_seed_reference_list": 15,
+      "papers_brought_in": 15,
+      "core_papers_brought_in": 7,
+      "core_brought_in_by_route": {
+        "unclear": 3,
+        "thermo_optic": 2,
+        "electro_optic": 1,
+        "other": 1
+      },
+      "core_snowball_only_by_route": {
+        "unclear": 3,
+        "thermo_optic": 2,
+        "electro_optic": 1,
+        "other": 1
+      }
+    },
+    {
+      "seed_openalex_id": "W2807234289",
+      "paper_id": "W2807234289",
+      "title": "Photonic switching in high performance datacenters [Invited]",
+      "year": 2018,
+      "cited_by_count": 240,
+      "tech_route": "unclear",
+      "core_set": 1,
+      "ucb_affiliated": false,
+      "raw_records_brought_in": 15,
+      "brought_in_from_seed_reference_list": 15,
+      "papers_brought_in": 15,
+      "core_papers_brought_in": 11,
+      "core_brought_in_by_route": {
+        "electro_optic": 4,
+        "soa": 3,
+        "mems_3d": 2,
+        "mems_2d": 1,
+        "unclear": 1
+      },
+      "core_snowball_only_by_route": {
+        "electro_optic": 4,
+        "soa": 3,
+        "mems_3d": 2,
+        "mems_2d": 1,
+        "unclear": 1
+      }
+    },
+    {
+      "seed_openalex_id": "W1982681165",
+      "paper_id": "W1982681165",
+      "title": "Large-scale silicon photonic switches with movable directional couplers",
+      "year": 2015,
+      "cited_by_count": 221,
+      "tech_route": "mems_silicon_photonic",
+      "core_set": 1,
+      "ucb_affiliated": true,
+      "raw_records_brought_in": 15,
+      "brought_in_from_seed_reference_list": 15,
+      "papers_brought_in": 15,
+      "core_papers_brought_in": 11,
+      "core_brought_in_by_route": {
+        "mems_silicon_photonic": 6,
+        "thermo_optic": 2,
+        "electro_optic": 1,
+        "mems_2d": 1,
+        "unclear": 1
+      },
+      "core_snowball_only_by_route": {
+        "mems_silicon_photonic": 6,
+        "thermo_optic": 2,
+        "electro_optic": 1,
+        "mems_2d": 1,
+        "unclear": 1
+      }
+    },
+    {
+      "seed_openalex_id": "W2937088522",
+      "paper_id": "W2937088522",
+      "title": "Wafer-scale silicon photonic switches beyond die size limit",
+      "year": 2019,
+      "cited_by_count": 216,
+      "tech_route": "unclear",
+      "core_set": 1,
+      "ucb_affiliated": true,
+      "raw_records_brought_in": 15,
+      "brought_in_from_seed_reference_list": 11,
+      "papers_brought_in": 15,
+      "core_papers_brought_in": 2,
+      "core_brought_in_by_route": {
+        "architecture_only": 1,
+        "thermo_optic": 1
+      },
+      "core_snowball_only_by_route": {
+        "architecture_only": 1,
+        "thermo_optic": 1
+      }
+    }
+  ],
+  "q3_berkeley_anchor": {
+    "anchor_title": "Large-scale broadband digital silicon photonic switches with vertical adiabatic couplers",
+    "in_queries_yaml_anchors": true,
+    "raw_records_with_this_anchor_as_query": [
+      "openalex:W2260723393"
+    ],
+    "paper_id": "W2260723393",
+    "paper": {
+      "paper_id": "W2260723393",
+      "title": "Large-scale broadband digital silicon photonic switches with vertical adiabatic couplers",
+      "year": 2016,
+      "cited_by_count": 313,
+      "relevance_score": 3,
+      "core_set": 1,
+      "extended_set": 1,
+      "tech_route": "mems_silicon_photonic"
+    },
+    "all_entry_paths_of_paper": [
+      "anchor:Large-scale broadband digital silicon photonic switches with vertical adiabatic couplers"
+    ],
+    "ucb_affiliated": false,
+    "author_rows": 5,
+    "author_rows_with_institution": 0,
+    "is_snowball_seed": true,
+    "core_papers_sharing_an_author_with_anchor": [
+      "W1515664994",
+      "W1653883346",
+      "W1945545782",
+      "W1976569985",
+      "W1982681165",
+      "W2098514595",
+      "W2186858051",
+      "W2226395753",
+      "W2257494936",
+      "W2271940456",
+      "W2581695752",
+      "W2591111335",
+      "W2605844474",
+      "W2615050161",
+      "W2738975469",
+      "W2782897921",
+      "W2786734285",
+      "W2800201100",
+      "W2918631369",
+      "W2919451605",
+      "W2937088522",
+      "W2951487609",
+      "W2979824403",
+      "W3097557698",
+      "W3138799074",
+      "W3139267661",
+      "W4211023690",
+      "W4226451033",
+      "W4393174577"
+    ]
+  },
+  "q4_queries": [
+    {
+      "source": "openalex",
+      "query": "optical circuit switch",
+      "names_routes": [],
+      "raw_records_first_found_by_this_query": 50,
+      "records_with_exact_phrase_in_title_or_abstract": 40,
+      "records_with_print_in_title": 0,
+      "papers": 46,
+      "papers_by_relevance_score": {
+        "0": 3,
+        "1": 3,
+        "2": 2,
+        "3": 38
+      },
+      "core_papers": 38,
+      "core_by_route": {
+        "architecture_only": 24,
+        "unclear": 7,
+        "other": 2,
+        "soa": 2,
+        "lcos": 1,
+        "mems_3d": 1,
+        "thermo_optic": 1
+      }
+    },
+    {
+      "source": "openalex",
+      "query": "optical circuit switching data center",
+      "names_routes": [],
+      "raw_records_first_found_by_this_query": 30,
+      "records_with_exact_phrase_in_title_or_abstract": 0,
+      "records_with_print_in_title": 0,
+      "papers": 28,
+      "papers_by_relevance_score": {
+        "0": 8,
+        "1": 2,
+        "3": 18
+      },
+      "core_papers": 18,
+      "core_by_route": {
+        "architecture_only": 14,
+        "unclear": 3,
+        "thermo_optic": 1
+      }
+    },
+    {
+      "source": "openalex",
+      "query": "optical circuit switching machine learning cluster",
+      "names_routes": [],
+      "raw_records_first_found_by_this_query": 47,
+      "records_with_exact_phrase_in_title_or_abstract": 0,
+      "records_with_print_in_title": 0,
+      "papers": 47,
+      "papers_by_relevance_score": {
+        "0": 47
+      },
+      "core_papers": 0,
+      "core_by_route": {}
+    },
+    {
+      "source": "openalex",
+      "query": "MEMS optical switch",
+      "names_routes": [
+        "mems_3d",
+        "mems_2d",
+        "mems_silicon_photonic"
+      ],
+      "raw_records_first_found_by_this_query": 49,
+      "records_with_exact_phrase_in_title_or_abstract": 13,
+      "records_with_print_in_title": 0,
+      "papers": 49,
+      "papers_by_relevance_score": {
+        "0": 10,
+        "1": 9,
+        "2": 6,
+        "3": 24
+      },
+      "core_papers": 24,
+      "core_by_route": {
+        "unclear": 11,
+        "mems_silicon_photonic": 6,
+        "mems_3d": 5,
+        "mems_2d": 1,
+        "thermo_optic": 1
+      }
+    },
+    {
+      "source": "openalex",
+      "query": "3D MEMS optical cross-connect",
+      "names_routes": [
+        "mems_3d"
+      ],
+      "raw_records_first_found_by_this_query": 46,
+      "records_with_exact_phrase_in_title_or_abstract": 0,
+      "records_with_print_in_title": 16,
+      "papers": 46,
+      "papers_by_relevance_score": {
+        "0": 37,
+        "1": 5,
+        "2": 4
+      },
+      "core_papers": 0,
+      "core_by_route": {}
+    },
+    {
+      "source": "openalex",
+      "query": "silicon photonic switch data center",
+      "names_routes": [
+        "mems_silicon_photonic",
+        "thermo_optic",
+        "electro_optic"
+      ],
+      "raw_records_first_found_by_this_query": 45,
+      "records_with_exact_phrase_in_title_or_abstract": 0,
+      "records_with_print_in_title": 0,
+      "papers": 45,
+      "papers_by_relevance_score": {
+        "0": 16,
+        "1": 25,
+        "3": 4
+      },
+      "core_papers": 4,
+      "core_by_route": {
+        "architecture_only": 1,
+        "electro_optic": 1,
+        "mems_silicon_photonic": 1,
+        "other": 1
+      }
+    },
+    {
+      "source": "openalex",
+      "query": "silicon photonic MEMS switch",
+      "names_routes": [
+        "mems_silicon_photonic"
+      ],
+      "raw_records_first_found_by_this_query": 34,
+      "records_with_exact_phrase_in_title_or_abstract": 24,
+      "records_with_print_in_title": 0,
+      "papers": 33,
+      "papers_by_relevance_score": {
+        "0": 1,
+        "1": 1,
+        "2": 2,
+        "3": 29
+      },
+      "core_papers": 29,
+      "core_by_route": {
+        "mems_silicon_photonic": 27,
+        "thermo_optic": 1,
+        "unclear": 1
+      }
+    },
+    {
+      "source": "openalex",
+      "query": "wavelength selective switch LCoS",
+      "names_routes": [
+        "lcos"
+      ],
+      "raw_records_first_found_by_this_query": 48,
+      "records_with_exact_phrase_in_title_or_abstract": 0,
+      "records_with_print_in_title": 0,
+      "papers": 47,
+      "papers_by_relevance_score": {
+        "0": 4,
+        "1": 7,
+        "2": 33,
+        "3": 3
+      },
+      "core_papers": 3,
+      "core_by_route": {
+        "lcos": 1,
+        "mems_3d": 1,
+        "unclear": 1
+      }
+    },
+    {
+      "source": "openalex",
+      "query": "piezoelectric optical switch",
+      "names_routes": [
+        "piezo"
+      ],
+      "raw_records_first_found_by_this_query": 45,
+      "records_with_exact_phrase_in_title_or_abstract": 0,
+      "records_with_print_in_title": 1,
+      "papers": 45,
+      "papers_by_relevance_score": {
+        "0": 43,
+        "1": 2
+      },
+      "core_papers": 0,
+      "core_by_route": {}
+    },
+    {
+      "source": "openalex",
+      "query": "optical beam steering switch fiber",
+      "names_routes": [],
+      "raw_records_first_found_by_this_query": 40,
+      "records_with_exact_phrase_in_title_or_abstract": 0,
+      "records_with_print_in_title": 0,
+      "papers": 40,
+      "papers_by_relevance_score": {
+        "0": 27,
+        "1": 8,
+        "3": 5
+      },
+      "core_papers": 5,
+      "core_by_route": {
+        "architecture_only": 2,
+        "piezo": 2,
+        "unclear": 1
+      }
+    },
+    {
+      "source": "openalex",
+      "query": "thermo-optic switch port count",
+      "names_routes": [
+        "thermo_optic"
+      ],
+      "raw_records_first_found_by_this_query": 41,
+      "records_with_exact_phrase_in_title_or_abstract": 0,
+      "records_with_print_in_title": 0,
+      "papers": 40,
+      "papers_by_relevance_score": {
+        "0": 8,
+        "1": 6,
+        "2": 3,
+        "3": 23
+      },
+      "core_papers": 23,
+      "core_by_route": {
+        "thermo_optic": 12,
+        "unclear": 7,
+        "electro_optic": 1,
+        "mems_silicon_photonic": 1,
+        "other": 1,
+        "soa": 1
+      }
+    },
+    {
+      "source": "openalex",
+      "query": "semiconductor optical amplifier switch data center",
+      "names_routes": [
+        "soa"
+      ],
+      "raw_records_first_found_by_this_query": 38,
+      "records_with_exact_phrase_in_title_or_abstract": 0,
+      "records_with_print_in_title": 0,
+      "papers": 38,
+      "papers_by_relevance_score": {
+        "0": 27,
+        "1": 5,
+        "3": 6
+      },
+      "core_papers": 6,
+      "core_by_route": {
+        "soa": 3,
+        "architecture_only": 2,
+        "electro_optic": 1
+      }
+    },
+    {
+      "source": "openalex",
+      "query": "reconfigurable data center network optical",
+      "names_routes": [],
+      "raw_records_first_found_by_this_query": 40,
+      "records_with_exact_phrase_in_title_or_abstract": 0,
+      "records_with_print_in_title": 0,
+      "papers": 40,
+      "papers_by_relevance_score": {
+        "0": 17,
+        "1": 4,
+        "2": 5,
+        "3": 14
+      },
+      "core_papers": 14,
+      "core_by_route": {
+        "architecture_only": 11,
+        "mems_3d": 2,
+        "soa": 1
+      }
+    },
+    {
+      "source": "openalex",
+      "query": "optical interconnect reconfigurable topology distributed training",
+      "names_routes": [],
+      "raw_records_first_found_by_this_query": 37,
+      "records_with_exact_phrase_in_title_or_abstract": 0,
+      "records_with_print_in_title": 0,
+      "papers": 37,
+      "papers_by_relevance_score": {
+        "0": 24,
+        "1": 2,
+        "2": 3,
+        "3": 8
+      },
+      "core_papers": 8,
+      "core_by_route": {
+        "architecture_only": 8
+      }
+    },
+    {
+      "source": "openalex",
+      "query": "optical cross-connect data center",
+      "names_routes": [],
+      "raw_records_first_found_by_this_query": 28,
+      "records_with_exact_phrase_in_title_or_abstract": 0,
+      "records_with_print_in_title": 0,
+      "papers": 28,
+      "papers_by_relevance_score": {
+        "0": 22,
+        "2": 1,
+        "3": 5
+      },
+      "core_papers": 5,
+      "core_by_route": {
+        "architecture_only": 2,
+        "mems_3d": 1,
+        "soa": 1,
+        "unclear": 1
+      }
+    },
+    {
+      "source": "openalex",
+      "query": "robotic fiber patch panel",
+      "names_routes": [
+        "robotic_patch_panel"
+      ],
+      "raw_records_first_found_by_this_query": 49,
+      "records_with_exact_phrase_in_title_or_abstract": 0,
+      "records_with_print_in_title": 2,
+      "papers": 49,
+      "papers_by_relevance_score": {
+        "0": 48,
+        "3": 1
+      },
+      "core_papers": 1,
+      "core_by_route": {
+        "robotic_patch_panel": 1
+      }
+    },
+    {
+      "source": "openalex",
+      "query": "optical switching data center survey",
+      "names_routes": [],
+      "raw_records_first_found_by_this_query": 33,
+      "records_with_exact_phrase_in_title_or_abstract": 0,
+      "records_with_print_in_title": 0,
+      "papers": 33,
+      "papers_by_relevance_score": {
+        "0": 29,
+        "1": 1,
+        "2": 1,
+        "3": 2
+      },
+      "core_papers": 2,
+      "core_by_route": {
+        "unclear": 2
+      }
+    },
+    {
+      "source": "arxiv",
+      "query": "optical circuit switch",
+      "names_routes": [],
+      "raw_records_first_found_by_this_query": 47,
+      "records_with_exact_phrase_in_title_or_abstract": 44,
+      "records_with_print_in_title": 0,
+      "papers": 47,
+      "papers_by_relevance_score": {
+        "1": 2,
+        "2": 1,
+        "3": 44
+      },
+      "core_papers": 44,
+      "core_by_route": {
+        "architecture_only": 37,
+        "soa": 2,
+        "electro_optic": 1,
+        "mems_3d": 1,
+        "mems_silicon_photonic": 1,
+        "other": 1,
+        "unclear": 1
+      }
+    },
+    {
+      "source": "arxiv",
+      "query": "optical circuit switching",
+      "names_routes": [],
+      "raw_records_first_found_by_this_query": 0,
+      "records_with_exact_phrase_in_title_or_abstract": 0,
+      "records_with_print_in_title": 0,
+      "papers": 0,
+      "papers_by_relevance_score": {},
+      "core_papers": 0,
+      "core_by_route": {}
+    },
+    {
+      "source": "arxiv",
+      "query": "MEMS optical switch",
+      "names_routes": [
+        "mems_3d",
+        "mems_2d",
+        "mems_silicon_photonic"
+      ],
+      "raw_records_first_found_by_this_query": 0,
+      "records_with_exact_phrase_in_title_or_abstract": 0,
+      "records_with_print_in_title": 0,
+      "papers": 0,
+      "papers_by_relevance_score": {},
+      "core_papers": 0,
+      "core_by_route": {}
+    },
+    {
+      "source": "arxiv",
+      "query": "silicon photonic switch",
+      "names_routes": [
+        "mems_silicon_photonic",
+        "thermo_optic",
+        "electro_optic"
+      ],
+      "raw_records_first_found_by_this_query": 0,
+      "records_with_exact_phrase_in_title_or_abstract": 0,
+      "records_with_print_in_title": 0,
+      "papers": 0,
+      "papers_by_relevance_score": {},
+      "core_papers": 0,
+      "core_by_route": {}
+    },
+    {
+      "source": "arxiv",
+      "query": "wavelength selective switch",
+      "names_routes": [
+        "lcos"
+      ],
+      "raw_records_first_found_by_this_query": 0,
+      "records_with_exact_phrase_in_title_or_abstract": 0,
+      "records_with_print_in_title": 0,
+      "papers": 0,
+      "papers_by_relevance_score": {},
+      "core_papers": 0,
+      "core_by_route": {}
+    },
+    {
+      "source": "arxiv",
+      "query": "piezoelectric optical switch",
+      "names_routes": [
+        "piezo"
+      ],
+      "raw_records_first_found_by_this_query": 0,
+      "records_with_exact_phrase_in_title_or_abstract": 0,
+      "records_with_print_in_title": 0,
+      "papers": 0,
+      "papers_by_relevance_score": {},
+      "core_papers": 0,
+      "core_by_route": {}
+    },
+    {
+      "source": "arxiv",
+      "query": "thermo-optic switch",
+      "names_routes": [
+        "thermo_optic"
+      ],
+      "raw_records_first_found_by_this_query": 0,
+      "records_with_exact_phrase_in_title_or_abstract": 0,
+      "records_with_print_in_title": 0,
+      "papers": 0,
+      "papers_by_relevance_score": {},
+      "core_papers": 0,
+      "core_by_route": {}
+    },
+    {
+      "source": "arxiv",
+      "query": "optical cross-connect",
+      "names_routes": [],
+      "raw_records_first_found_by_this_query": 0,
+      "records_with_exact_phrase_in_title_or_abstract": 0,
+      "records_with_print_in_title": 0,
+      "papers": 0,
+      "papers_by_relevance_score": {},
+      "core_papers": 0,
+      "core_by_route": {}
+    },
+    {
+      "source": "arxiv",
+      "query": "reconfigurable datacenter network",
+      "names_routes": [],
+      "raw_records_first_found_by_this_query": 0,
+      "records_with_exact_phrase_in_title_or_abstract": 0,
+      "records_with_print_in_title": 0,
+      "papers": 0,
+      "papers_by_relevance_score": {},
+      "core_papers": 0,
+      "core_by_route": {}
+    },
+    {
+      "source": "arxiv",
+      "query": "optical interconnect machine learning training",
+      "names_routes": [],
+      "raw_records_first_found_by_this_query": 0,
+      "records_with_exact_phrase_in_title_or_abstract": 0,
+      "records_with_print_in_title": 0,
+      "papers": 0,
+      "papers_by_relevance_score": {},
+      "core_papers": 0,
+      "core_by_route": {}
+    },
+    {
+      "source": "arxiv_via_openalex",
+      "query": "optical circuit switch",
+      "names_routes": [],
+      "raw_records_first_found_by_this_query": 33,
+      "records_with_exact_phrase_in_title_or_abstract": 3,
+      "records_with_print_in_title": 0,
+      "papers": 33,
+      "papers_by_relevance_score": {
+        "0": 24,
+        "2": 5,
+        "3": 4
+      },
+      "core_papers": 4,
+      "core_by_route": {
+        "architecture_only": 4
+      }
+    },
+    {
+      "source": "arxiv_via_openalex",
+      "query": "optical circuit switching",
+      "names_routes": [],
+      "raw_records_first_found_by_this_query": 0,
+      "records_with_exact_phrase_in_title_or_abstract": 0,
+      "records_with_print_in_title": 0,
+      "papers": 0,
+      "papers_by_relevance_score": {},
+      "core_papers": 0,
+      "core_by_route": {}
+    },
+    {
+      "source": "arxiv_via_openalex",
+      "query": "MEMS optical switch",
+      "names_routes": [
+        "mems_3d",
+        "mems_2d",
+        "mems_silicon_photonic"
+      ],
+      "raw_records_first_found_by_this_query": 40,
+      "records_with_exact_phrase_in_title_or_abstract": 3,
+      "records_with_print_in_title": 0,
+      "papers": 39,
+      "papers_by_relevance_score": {
+        "0": 36,
+        "2": 1,
+        "3": 2
+      },
+      "core_papers": 2,
+      "core_by_route": {
+        "mems_3d": 1,
+        "mems_silicon_photonic": 1
+      }
+    },
+    {
+      "source": "arxiv_via_openalex",
+      "query": "silicon photonic switch",
+      "names_routes": [
+        "mems_silicon_photonic",
+        "thermo_optic",
+        "electro_optic"
+      ],
+      "raw_records_first_found_by_this_query": 31,
+      "records_with_exact_phrase_in_title_or_abstract": 2,
+      "records_with_print_in_title": 0,
+      "papers": 30,
+      "papers_by_relevance_score": {
+        "0": 18,
+        "1": 7,
+        "2": 2,
+        "3": 3
+      },
+      "core_papers": 3,
+      "core_by_route": {
+        "other": 2,
+        "thermo_optic": 1
+      }
+    },
+    {
+      "source": "arxiv_via_openalex",
+      "query": "wavelength selective switch",
+      "names_routes": [
+        "lcos"
+      ],
+      "raw_records_first_found_by_this_query": 45,
+      "records_with_exact_phrase_in_title_or_abstract": 4,
+      "records_with_print_in_title": 0,
+      "papers": 44,
+      "papers_by_relevance_score": {
+        "0": 32,
+        "1": 7,
+        "2": 5
+      },
+      "core_papers": 0,
+      "core_by_route": {}
+    },
+    {
+      "source": "arxiv_via_openalex",
+      "query": "piezoelectric optical switch",
+      "names_routes": [
+        "piezo"
+      ],
+      "raw_records_first_found_by_this_query": 39,
+      "records_with_exact_phrase_in_title_or_abstract": 0,
+      "records_with_print_in_title": 0,
+      "papers": 39,
+      "papers_by_relevance_score": {
+        "0": 38,
+        "1": 1
+      },
+      "core_papers": 0,
+      "core_by_route": {}
+    },
+    {
+      "source": "arxiv_via_openalex",
+      "query": "thermo-optic switch",
+      "names_routes": [
+        "thermo_optic"
+      ],
+      "raw_records_first_found_by_this_query": 33,
+      "records_with_exact_phrase_in_title_or_abstract": 3,
+      "records_with_print_in_title": 0,
+      "papers": 33,
+      "papers_by_relevance_score": {
+        "0": 7,
+        "1": 11,
+        "2": 6,
+        "3": 9
+      },
+      "core_papers": 9,
+      "core_by_route": {
+        "thermo_optic": 6,
+        "electro_optic": 2,
+        "other": 1
+      }
+    },
+    {
+      "source": "arxiv_via_openalex",
+      "query": "optical cross-connect",
+      "names_routes": [],
+      "raw_records_first_found_by_this_query": 39,
+      "records_with_exact_phrase_in_title_or_abstract": 0,
+      "records_with_print_in_title": 0,
+      "papers": 39,
+      "papers_by_relevance_score": {
+        "0": 38,
+        "1": 1
+      },
+      "core_papers": 0,
+      "core_by_route": {}
+    },
+    {
+      "source": "arxiv_via_openalex",
+      "query": "reconfigurable datacenter network",
+      "names_routes": [],
+      "raw_records_first_found_by_this_query": 44,
+      "records_with_exact_phrase_in_title_or_abstract": 9,
+      "records_with_print_in_title": 0,
+      "papers": 43,
+      "papers_by_relevance_score": {
+        "0": 30,
+        "1": 2,
+        "2": 5,
+        "3": 6
+      },
+      "core_papers": 6,
+      "core_by_route": {
+        "architecture_only": 6
+      }
+    },
+    {
+      "source": "arxiv_via_openalex",
+      "query": "optical interconnect machine learning training",
+      "names_routes": [],
+      "raw_records_first_found_by_this_query": 37,
+      "records_with_exact_phrase_in_title_or_abstract": 0,
+      "records_with_print_in_title": 0,
+      "papers": 35,
+      "papers_by_relevance_score": {
+        "0": 35
+      },
+      "core_papers": 0,
+      "core_by_route": {}
+    }
+  ],
+  "context_extended_not_core_route_counts": {
+    "unclear": 110,
+    "other": 8,
+    "architecture_only": 7,
+    "lcos": 6,
+    "electro_optic": 2,
+    "thermo_optic": 2,
+    "mems_silicon_photonic": 1
+  },
+  "q5_projects_csv": [
+    {
+      "entity": "Google",
+      "entity_type": "hyperscaler_internal",
+      "product_or_project": "Apollo OCS (Palomar MEMS switch)",
+      "tech_route": "mems_3d",
+      "stage": "shipping",
+      "evidence_url": "https://cloud.google.com/blog/topics/systems/the-evolution-of-googles-jupiter-data-center-network",
+      "evidence_date": "2022-08-23"
+    },
+    {
+      "entity": "Lumentum",
+      "entity_type": "established_vendor",
+      "product_or_project": "R300 Optical Circuit Switch (300x300 OCS)",
+      "tech_route": "mems_3d",
+      "stage": "unknown",
+      "evidence_url": "https://www.lumentum.com/en/products/300x300-optical-circuit-switch-ocs",
+      "evidence_date": "2026-09-26"
+    },
+    {
+      "entity": "Calient",
+      "entity_type": "established_vendor",
+      "product_or_project": "S320 Optical Circuit Switch",
+      "tech_route": "mems_3d",
+      "stage": "shipping",
+      "evidence_url": "https://www.calient.net/",
+      "evidence_date": "2026-09-26"
+    },
+    {
+      "entity": "nEye",
+      "entity_type": "startup",
+      "product_or_project": "OCS-on-a-chip",
+      "tech_route": "mems_silicon_photonic",
+      "stage": "prototype",
+      "evidence_url": "https://neye.ai",
+      "evidence_date": "2026-04-14"
+    },
+    {
+      "entity": "UTStarcom",
+      "entity_type": "established_vendor",
+      "product_or_project": "MOS64 (MEMS) and UOS64 (silicon photonics) OCS concept prototypes",
+      "tech_route": "mems_3d",
+      "stage": "prototype",
+      "evidence_url": "https://www.financialcontent.com/article/gnwcq-2026-9-21-utstarcom-unveils-optical-circuit-switching-ocs-solution-for-ai-data-centers-at-cioe-2026",
+      "evidence_date": "2026-09-21"
+    }
+  ]
+}

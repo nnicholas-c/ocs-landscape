@@ -1,6 +1,6 @@
 # Pitfalls log
 
-This is the running log from the 2026-09-26 run and its rework, grouped by where the problem came from (the Windows host, OpenAlex, arXiv, the open web, or the pipeline's own logic) and then by stage. Each item gives the original timestamp, one line on what happened, and one line on what was done. Where several log lines describe the same problem, they are merged and every timestamp or time range is listed. The original log is in deliverables/pitfalls_original_log.md, unchanged line for line because it is not edited for style. It has 146 entries, 119 from run 1 and 27 from the rework starting at 14:11 (count of lines starting "- [" there). Items marked "from STATUS.md" are checker notes that never reached the original log.
+This is the running log from the 2026-09-26 run 1, its rework, run 2 (the arXiv rebuild, arXiv content through OpenAlex's arXiv index), and step 2 (adding the missing anchor papers, then rerunning), grouped by where the problem came from (the Windows host, OpenAlex, arXiv, the open web, or the pipeline's own logic) and then by stage. Each item gives the original timestamp, one line on what happened, and one line on what was done. Where several log lines describe the same problem, they are merged and every timestamp or time range is listed. The original log is in deliverables/pitfalls_original_log.md, unchanged line for line because it is not edited for style. It has 234 entries, 119 from run 1, 27 from the rework starting at 14:11, 49 from the 15:54 arXiv probe, run 2, and its write-up, and 39 from step 2 starting at 19:29 (count of lines starting "- [" there). Items marked "from STATUS.md" are notes by the checker, the agent the meeting summary calls the second judge, that never reached the original log. Section names with "(run 2)" hold run 2 items, and "(step 2)" step 2 items.
 
 API means application programming interface. HTTP 429 means "too many requests" and HTTP 406 means "not acceptable". JSONL is JSON with one record per line. MEMS is micro-electro-mechanical systems.
 
@@ -27,9 +27,33 @@ API means application programming interface. HTTP 429 means "too many requests" 
 ### Stage 1a full pull
 
 - [2026-09-26 04:43, 05:04] 6 anchor titles were logged as unresolved. The checker found 4 of them (Mission Apollo, TPU v4, Lightwave Fabrics, TopoOpt) already in openalex.jsonl from phrase queries, because the script logs any anchor already on disk as a miss.
-  Done. Not fixed. The data is right and only the log is wrong. True misses are Jupiter Evolving and RotorNet.
+  Done. Not fixed. The data is right and only the log is wrong. True misses are Jupiter Evolving and RotorNet, still missing after step 2 (stage 1a anchor additions below).
 - [2026-09-26 05:39] The c-Through anchor matched a 1999 paper titled "OPTICS", because rapidfuzz token_set_ratio scores 100 when one title's words are a subset of the other's.
-  Done. Not fixed, because the record scored 0 and does not affect Gate A. True anchor count is 10 of 13.
+  Done. Not fixed, because the record scored 0 and does not affect Gate A. Gate A counts 10 of 13 anchors found, with c-Through a miss, but the real c-Through came in through the snowball, so 8 of 13 are in the data by full title or DOI and 3 more by title prefix only (demo_results.md, Q18).
+
+### Stage 1a collection (run 2, arXiv through OpenAlex)
+
+- [2026-09-26 15:53] The collector confirmed OpenAlex's arXiv source by a single-record lookup, S4306400194, named "arXiv (Cornell University)".
+  Done. No fallback search was needed. Every run 2 record carries that source and the label arxiv_via_openalex (STATUS.md, 15:58 line).
+- [2026-09-26 15:58, 16:05] 4 of 341 records got a null arxiv_id, because the shared helper extract_arxiv_id reads arXiv IDs only from an arXiv DOI (digital object identifier) or an arxiv.org/abs link, and these 4 have only arxiv.org/pdf links. The IDs can be read from those URLs.
+  Done. Not fixed. A null arxiv_id is valid in the raw record shape, and the fix belongs in collect_openalex.py.
+- [2026-09-26 16:05] A second run added 0 records, so the collector is safe to rerun, but it cost another 0.01 USD (US dollars), because OpenAlex bills each search even when every result is already on disk.
+  Done. No change. A rerun of a search stage costs money even when it adds nothing.
+- [2026-09-26 15:58] Only 5 of the 36 core arXiv papers with no OpenAlex ID match a new record by arXiv ID, so the pull closes little of the core gap.
+  Done. Curation later found that 6 of 40 run 1 arXiv-only papers gained an OpenAlex ID (deliverables/curation_report.md).
+
+### Stage 1a anchor additions (step 2)
+
+- [2026-09-26 19:29 (two lines), 19:32] Step 2 fetched Jupiter Evolving, RotorNet, and c-Through from OpenAlex by DOI at no cost and appended the first two to openalex.jsonl (707 to 709 records). OpenAlex stores only the title words before the colon, so the title check (token_sort_ratio of at least 95) scored 23.88, 23.19, and 35.29 (data/work/step2_anchors.md). The collector confirmed identity instead by the short title, year, and authors.
+  Done. The second judge sent stage 1a back, because a rerun cannot fix a stored title (STATUS.md, 19:32 line).
+- [2026-09-26 19:38] The orchestrator did not accept the prefix, year, and author cross-check in place of the title check, since the queue never allows loosening a check.
+  Done. Both appended lines were removed, openalex.jsonl was restored to match origin/master byte for byte, and both DOIs and OpenAlex IDs are kept in data/work/step2_anchors.md for a person to decide.
+- [2026-09-26 19:29] c-Through resolved to W2097926925, already on disk from the stage 1c snowball.
+  Done. Not appended. It is a core paper with relevance 3, so 8 of 13 anchors are in the data by full title or DOI and 3 more by title prefix only (demo_results.md, Q18).
+- [2026-09-26 19:32] The stage 1a false match for c-Through (W2160642098, "OPTICS", 1999) still carries the c-Through query in openalex.jsonl. Sirius, Helios, and ProjecToR are also stored with short titles and would fail the same check.
+  Done. Left as is, because raw files are never edited and the false match scores 0.
+- [2026-09-26 19:32] The DOI fetch script the collector says it ran twice was never saved in pipeline/, so the addition cannot be rerun from the repo.
+  Done. Not fixed. Any later anchor addition needs a saved script (STATUS.md, 20:08 line).
 
 ### Stage 1c snowball
 
@@ -48,6 +72,15 @@ API means application programming interface. HTTP 429 means "too many requests" 
 
 ## arXiv
 
+The HTTP 406 evidence, in order. In run 1, export.arxiv.org returned 406 twice on the stage 0 smoke query before a rerun got 5 records (04:37 to 04:40), 406 or 429 on 9 of 10 phrase queries (04:43 to 05:02), and 406 on the audit's re-fetch of arXiv-only papers in rounds 1 to 3 (07:22, 07:39, 14:57). A later probe sent one request at a time, 5 to 10 seconds apart after a long idle period, and got 406 on every request, so pacing was not the cause (15:54). Run 2 therefore took arXiv content through OpenAlex's arXiv index, and those records are labelled arxiv_via_openalex. For a full-scale run, the option is arXiv's official bulk metadata snapshot.
+
+Reports from other projects, not our evidence. Other projects also reported HTTP 406 errors from arXiv's API in September 2026 (opening dates of the four GitHub issues below). Nothing in this run depends on them.
+
+- https://github.com/sdewell/code-quorum/issues/2
+- https://github.com/alipourkarimi/ISAC_LLM/issues/1
+- https://github.com/pkuppens/production-agentic-rag-course/issues/46
+- https://github.com/openags/paper-search-mcp/issues/121
+
 ### Stage 0 smoke test
 
 - [2026-09-26 04:37, 04:39, 04:40] The smoke query 'optical circuit switch' got HTTP 406 on every retry, twice, and logged zero new records three times.
@@ -60,7 +93,7 @@ API means application programming interface. HTTP 429 means "too many requests" 
 - [2026-09-26 05:04] collect_arxiv.py has no anchor title lookup, although PLAN.md stage 1a asks each collector to search the anchors.
   Done. Not fixed, passed to the orchestrator.
 - [2026-09-26 15:54] A later probe, one request at a time after a long idle period, got HTTP 406 with an empty body on every request, including a trivial query and an ID lookup, with two different User-Agent values.
-  Done. Pacing is ruled out as the cause and probing stopped. Run 2 takes arXiv content through OpenAlex's index of arXiv, labelled as such.
+  Done. Pacing is ruled out as the cause and probing stopped. Run 2 took arXiv content through OpenAlex's arXiv index, labelled arxiv_via_openalex, and a full-scale run can use arXiv's official bulk metadata snapshot.
 
 ### Stage 7 audit
 
@@ -68,6 +101,8 @@ API means application programming interface. HTTP 429 means "too many requests" 
   Done. Recorded as errors and left out of the rate in both rounds. The checker later matched title and year for all 4 from arxiv.org/abs pages (STATUS.md, stage 7 DONE line).
 - [2026-09-26 14:57] In the round 3 audit, export.arxiv.org still returned HTTP 406 on id_list lookups for the 4 arXiv-only papers of the new sample, even with a 10 second delay and 3 retries (one direct test took 50 seconds to fail).
   Done. A fallback reads citation_title and citation_date from arxiv.org/abs pages. All 4 matched on title and year, so 20 of 20 papers were compared, though these 4 have no citation count or institution to compare.
+- [2026-09-26 17:28] (run 2) The first run 2 audit's check (a) no longer calls export.arxiv.org. Papers with no OpenAlex ID are looked up through OpenAlex's free DOI lookup first, with arxiv.org/abs as the last resort.
+  Done. All 3 arXiv-only papers in the sample resolved through OpenAlex, so the arxiv.org/abs fallback was used 0 times (STATUS.md, 17:37 line).
 
 ### Number checks (rework)
 
@@ -75,6 +110,11 @@ API means application programming interface. HTTP 429 means "too many requests" 
   Done. Left as is. deliverables/number_checks.md cites the 14:57 log line for the reason.
 
 ## Web (scout and audit fetches)
+
+### Stage 1a anchor additions (step 2)
+
+- [2026-09-26 19:38] ACM (Association for Computing Machinery) Digital Library pages return HTTP 403 ("forbidden") to automated fetches, and web search results also cut the titles short, so no full title could be read for the check.
+  Done. Not worked around, and Crossref stays out of scope (data/work/step2_anchors.md, Decision).
 
 ### Stage 5 scout
 
@@ -103,6 +143,20 @@ API means application programming interface. HTTP 429 means "too many requests" 
 - [2026-09-26 05:21] data/raw/*.jsonl has Unicode line-separator characters inside strings, so str.splitlines() splits records and json.loads fails. Also 7 score 1 records have no adjacent_field and will stay out of the extended set.
   Done. JSONL is read line by line on newline only. No data changed.
 
+### Stage 1b relevance scoring (run 2)
+
+- [2026-09-26 16:01] tag_export.py in relevance mode skipped only records already in relevance.csv, so a rerun before the import exported the same 341 records again as batches 052 to 065, a copy of 038 to 051.
+  Done. It now also skips records waiting in a batch file, the copies were deleted, and two reruns exported 0.
+- [2026-09-26 16:04 (two lines), 16:05 (four lines), 16:06] Tagger progress notes for batches 038 to 051. Batches 042 and 043 were mostly off-topic materials and quantum physics, and a few records were scored from the title only.
+  Done. No problem to fix.
+
+### Stage 1b relevance scoring (step 2)
+
+- [2026-09-26 19:40] tag_export exported 0 records, because the two anchors had been removed and no other record was new.
+  Done. No scoring needed. relevance.csv stayed at 1245 rows.
+- [2026-09-26 19:42] git lists openalex.jsonl as modified, but its content equals origin/master. It was restored with Unix line endings (LF), while the checkout gave the other raw files Windows line endings (CRLF).
+  Done. Left as is. It is a line-ending artifact, not a data change.
+
 ### Stage 2 curation
 
 - [2026-09-26 05:47] Authors with no OpenAlex ID are merged only when they share an institution, and arXiv gives no institutions, so 63 same-name appearances stay split.
@@ -114,12 +168,62 @@ API means application programming interface. HTTP 429 means "too many requests" 
 - [2026-09-26 05:57] 2 core pairs share a title but are 2 and 4 years apart, so the year rule keeps them split. The ICTCP pair is probably one paper, also left split.
   Done. Not fixed. They may double count in the graphs.
 
+### Stage 2 curation (run 2)
+
+- [2026-09-26 16:15, 16:17, 16:18, 16:28 (two lines)] 5 tags rows pointed at paper IDs that no longer exist, because 5 run 1 arXiv-only papers merged with arxiv_via_openalex records and took OpenAlex IDs.
+  Done. The 5 rows were deleted and retagged under the new IDs in stage 3.
+- [2026-09-26 16:32] curate.py logs "deleted 5 tags row(s)" on every rerun even when it deletes nothing, which is why the item above has 5 lines.
+  Done. Not fixed. Data and report are unaffected, and the fix is to log only when rows were deleted.
+- [2026-09-26 16:19] Run 2 curation finished with 1213 papers, 284 core and 420 extended, and 6 of 40 run 1 arXiv-only papers gained an OpenAlex ID, 1 of them an institution.
+  Done. Progress note, no problem to fix.
+- [2026-09-26 16:24, 16:29] The curation report was not safe to run twice, because it read the run 1 baseline from the live database, which each run rebuilds, so a second run compared run 2 with itself. Restoring the database between the curator's runs had hidden this.
+  Done. The baseline is frozen in data/work/run2_baseline.json, seeded once from the run 1 database, and two reruns gave identical reports.
+- [2026-09-26 16:24] 49 extended papers had no tags row, 22 of them core. Also 4 author appearances were collapsed, because OpenAlex lists the same author ID twice on one work.
+  Done. The 49 went to stage 3 through data/work/run2_stage3_worklist.txt. The collapsed authors, all on non-extended papers, are not fixed.
+- [2026-09-26 16:32, from STATUS.md, not the original log] The fuzzy-title rule that also needs token_sort_ratio of at least 90 still awaits the orchestrator's approval.
+  Done. Not decided.
+
+### Stage 2 curation (step 2)
+
+- [2026-09-26 19:51, 20:01, 20:13] Each rerun picked up the pull request (PR) #1 fix in curate.py that reads an arXiv ID from a landing page link when the field is empty. papers went from 1213 to 1211 and arXiv ID duplicates from 15 to 17, while core stayed 284 and extended 420.
+  Done. Reruns gave a byte-identical report and test_curate.py passes. Both new pairs share their arXiv ID and author list.
+- [2026-09-26 19:51, 19:56, 20:01, 20:05; 20:08 from STATUS.md only] The stage 2 check still required both anchors in papers after the orchestrator removed them at 19:38, so the second judge sent stage 2 back at 19:56 and failed it at 20:05.
+  Done. The orchestrator called that condition its own error and replaced it with "the unconfirmed anchors are absent and documented" (STATUS.md, 20:08 line). Stage 2 then passed at 20:31.
+- [2026-09-26 19:51, 19:56, 20:01, 20:13] The report said the two new pairs have different titles because arXiv retitled a listing, with no source, and one record (W2960571025) is an SSRN (Social Science Research Network) working paper, not a citing record. The section also had a claim-colon-evidence sentence.
+  Done. The cause was dropped, the report now says only that each pair shares its arXiv ID and author list, it names the SSRN record, and the sentence was split in two.
+- [2026-09-26 20:20, 20:25] The report's step 2 section said the title check failed "not because the DOI resolved to the wrong paper", which asserts the identity the decision left open, and that Gate A logged the anchors "as missing from the core set", although c-Through was already core.
+  Done. Both sentences were rewritten to say the two anchors were not confirmed and not added, and that the stage 1a search had missed three.
+- [2026-09-26 20:25, 20:31] The curator said the anchor paragraph is now built in code, but the second judge found write_report still hardcodes the two missing names and their scores.
+  Done. Not fixed. The paragraph would go stale if the anchor list changed.
+- [2026-09-26 19:51] The old report cited data/work/run2_pitfalls.log in three places.
+  Done. Gone after the rerun, because curate.py already points to deliverables/pitfalls_original_log.md.
+
 ### Stage 3 tagging
 
 - [2026-09-26 06:08, 06:14, 06:16, 06:22, 06:26] Many papers got tech_route unclear (20, 22, and 17 of 60 in three reports), because reviews and adjacent papers name no single mechanism. Null-abstract papers were tagged from the title at low confidence.
   Done. Nothing guessed. Evidence sentences were cut from the abstract by code, so none had to be retyped.
 - [2026-09-26 06:26] One fragment did not match on W2124700175, because the abstract had a lowercase "this paper presents" mid-sentence.
   Done. Fixed and rerun, and all 60 spans in that set passed.
+
+### Stage 3 tagging (run 2)
+
+- [2026-09-26 16:34] 49 extended papers with no tags row were exported as tag batches 901 to 903.
+  Done. The run 1 batches were left untouched.
+- [2026-09-26 16:39, 16:41] 17 of 40 papers in two batches got tech_route unclear (8 of 20 and 9 of 20), mostly modulators and resonators that do not route light between ports, and 2 null-abstract papers were tagged from the title at low confidence.
+  Done. Evidence spans were cut by code, so none had to be retyped.
+- [2026-09-26 16:38, 16:43] W7171539399, a 16 x 16 MEMS switch, was tagged mems_3d at medium confidence although its abstract does not say 2D or 3D, and W4400065203, a material paper, was tagged thermo_optic at low confidence. The checker flagged the mems_3d tag (STATUS.md, 16:43 line).
+  Done. Not fixed. The mems_3d tag is a guess and should be checked by a person.
+- [2026-09-26 16:43] tag_import reports 5 failures, but they are the 5 old arXiv IDs left in run 1's batch files, skipped rather than failed. Every import also rewrites tagged_at on all rows.
+  Done. Not fixed. The evidence recheck passed 420 of 420.
+- [2026-09-26 16:43, from STATUS.md, not the original log] 2 of the 5 retagged papers changed ai_dc_fit from indirect to direct and confidence from high to medium compared with their run 1 tags.
+  Done. Left as is.
+
+### Stage 3 tagging (step 2)
+
+- [2026-09-26 20:33] tag_export exported 0 papers, because all 420 extended papers already had tags and step 2 added no records.
+  Done. No tagging needed.
+- [2026-09-26 20:35] tag_import still reports 5 failures, which are the 5 stale run 1 arXiv IDs in tag_batch_001 to 019, not evidence failures.
+  Done. Not fixed, as in run 2 (16:43 item above). The evidence recheck passed 420 of 420.
 
 ### Stage 4 graphs
 
@@ -129,6 +233,22 @@ API means application programming interface. HTTP 429 means "too many requests" 
   Done. The page is now plain inline SVG (scalable vector graphics) with no plotly, self-contained, at a few hundred KB.
 - [2026-09-26 06:46] 301 authors with no affiliation were collapsed into one "unknown" institution that topped top_institutions.csv on fake bridges.
   Done. The institution graph now has no "unknown" node. author_id and member_author_ids columns were added for 76 repeated display names.
+
+### Stage 4 graphs (run 2)
+
+- [2026-09-26 16:44] The grapher logged run 1's coauthor.html and "unknown" institution fixes again (06:36 and 06:46 items above).
+  Done. No new problem.
+- [2026-09-26 16:44] 147 name keys map to more than one author ID with at least one core paper, against 149 in run 1.
+  Done. Not fixed, as in run 1.
+- [2026-09-26 16:47, from STATUS.md, not the original log] 338 of 1827 authors (18.5 percent) have no institution.
+  Done. They are labelled unknown and left out of the institution ranking.
+
+### Stage 4 graphs (step 2)
+
+- [2026-09-26 20:38] The rerun gave the same counts (1827 authors, 9197 co-author links, 159 communities), and graph.py's docstring named the wrong middle row for its sanity check.
+  Done. Docstring fixed. sanity_check() itself was already right.
+- [2026-09-26 20:41] clusters.csv changes the order of member_author_ids between runs for authors who share a display name, so git shows the file modified with no content change.
+  Done. Not fixed, as in run 1 (STATUS.md, 06:50 line).
 
 ### Stage 6 matrix
 
@@ -186,6 +306,44 @@ API means application programming interface. HTTP 429 means "too many requests" 
 - [2026-09-26 14:36, from STATUS.md, not the original log] electro_optic wavelength_range stores bandwidths 45 and 110 in value_min and value_max with an empty unit, thermo_optic wavelength_range has an empty unit, and not reported cells now leave value empty where run 1 wrote "not reported in abstract".
   Done. Not fixed. The status column still marks every not reported cell.
 
+### Stage 6 matrix (run 2)
+
+- [2026-09-26 17:06] The rebuild tightened matrix_build.py, so a number in a value or note must match a whole number in the cell's quotes rather than a substring, and each paper or project row carries exactly one quote.
+  Done. The matrix has 126 cells, 84 reported, 9 derived, 29 not reported, and 4 with no source.
+- [2026-09-26 17:06] W3041044413 still says 512 x 512 in its title and 52 x 52 in its abstract.
+  Done. Left out of mems_3d port_count, as in run 1.
+- [2026-09-26 17:06] Mordia (W2002555923) is lcos only because its abstract says wavelength-selective switch, and W3006394648 (PULSE) is tagged soa but never names an SOA.
+  Done. Mordia's time went in at low confidence, and PULSE's figure was left out of soa switching_time.
+- [2026-09-26 17:06] projects.csv rows 2 and 3 hold port counts only in product_or_project, and row 5 (Polatis) says shipping while its quote describes only the mechanism.
+  Done. piezo trl_band stays lab. The scout should quote availability and port-count sentences next time.
+- [2026-09-26 17:06] W3215039088 prints its polarization dependent loss as a LaTeX fragment, and micro signs appear in three different garbled forms.
+  Done. Kept at low confidence with a flag, units read from context, and quotes left verbatim.
+- [2026-09-26 17:06] robotic_patch_panel has one core paper and 8 of 14 cells not reported, mems_2d has 7 of 14 not reported, and two route papers have no abstract.
+  Done. A switching-speed range for all MEMS cross-connects was not moved into mems_2d.
+- [2026-09-26 17:06] 17 of 105 architecture_only core abstracts name accelerators, GPUs (graphics processing units), TPUs (tensor processing units), or ML training, and none carries a secondary route, so they feed no ai_cluster_fit cell. No core paper has mems_3d as its secondary route.
+  Done. Not fixed, a stage 3 gap as in run 1.
+- [2026-09-26 17:11, from STATUS.md, not the original log] mems_3d ai_cluster_fit is yes at high confidence, but its abstract quote says only datacenter networking, so the yes rests on vendor row 11. 3 academic_groups values keep non-ASCII author names from top_pis.csv.
+  Done. Not fixed.
+- [2026-09-26 17:40 (four lines)] After the first run 2 audit's first round, 4 cells were re-anchored to sentences that state their claim. They are thermo_optic packaging_notes, electro_optic integration, thermo_optic integration, and mems_silicon_photonic packaging_notes.
+  Done. Labels unchanged, two values reworded, and a grating coupler loss dropped from mems_silicon_photonic packaging_notes because its sentence never names the package. The rebuild changed 4 cells.
+
+### Stage 6 matrix (step 2)
+
+- [2026-09-26 21:00] The build's self-check covered numbers in a value or note but not band names such as C band.
+  Done. A band-name check and pipeline/test_matrix_build.py were added, and all 4 wavelength_range cells that name bands pass. thermo_optic wavelength_range now quotes C and L band (STATUS.md, 21:04 line).
+- [2026-09-26 21:00] The rebuild gave 126 cells, 80 reported, 9 derived, 33 not reported, and 4 with no source. 4 cells moved from reported to not reported (STATUS.md, 21:04 line).
+  Done. Every not reported note names a paper to read, and the ten reading-list papers cover all 33.
+- [2026-09-26 21:00] W3041044413 has a title port count its abstract does not repeat, W3215039088 prints its polarization dependent loss as a garbled LaTeX fragment, and micro signs are garbled in two abstracts.
+  Done. W3041044413 is left out of mems_3d port_count, mems_3d polarization_dependent_loss is not reported with W3215039088 on the reading list, and units are read as microseconds with a note.
+- [2026-09-26 21:00] Mordia (W2002555923) and two lcos ai_cluster_fit papers never say LCoS, and the two piezo device papers never say piezoelectric, so route membership rests on tags.
+  Done. Kept at low or medium confidence with a note, and W2002555923 and W2591729902 are on the reading list.
+- [2026-09-26 21:00] piezo trl_band is lab although Polatis (row 5) has stage shipping, because row 5's quote describes the mechanism, and robotic_patch_panel production rests only on a launch announcement.
+  Done. Left as is. robotic_patch_panel has 8 of 14 cells not reported, with one core paper.
+- [2026-09-26 21:00] Only the mems_silicon_photonic and thermo_optic abstracts name AI or accelerators, mems_3d's AI use comes only from project row 11, and 17 architecture_only abstracts that name accelerators carry no secondary route.
+  Done. Not fixed, a stage 3 gap as before.
+- [2026-09-26 21:04, from STATUS.md, not the original log] The self-check does not test value_min and value_max (an independent check found them clean), and the mems_silicon_photonic cost_per_port note names W2896156020, a thermo_optic and electro_optic survey.
+  Done. Not fixed.
+
 ### Stage 7 audit
 
 - [2026-09-26 07:22] The first draft of check (b) failed by construction on ranges and on category values, with a 70 percent fail rate.
@@ -210,6 +368,32 @@ API means application programming interface. HTTP 429 means "too many requests" 
   Done. No gate effect, because (b) is 5 percent under the auditor and 0 percent under the checker. Left for a human to settle the standard.
 - [2026-09-26 15:10, from STATUS.md, not the original log] The report preamble still says SEED = 20260926 while the script holds 20260927. The audit's academic_groups and companies check reuses matrix_build's functions, so it shows reproducibility only, though the report calls it the most solidly checked part.
   Done. Not fixed in the report. The checker recomputed both independently, 42 of 42 names and 9 of 9 routes.
+
+### Stage 7 audit (run 2)
+
+- [2026-09-26 17:28] The first run 2 audit, seed 20260928, wrote new audit_r2data files, so no earlier round's file was touched. audit.py now recomputes academic_groups and companies itself instead of importing matrix_build.py, and 18 of 18 cells still matched.
+  Done. No problem to fix. Logged so the separation can be checked.
+- [2026-09-26 17:28] Gate C failed on check (b), 3 of 20 sampled cells unsupported (15 percent), and 4 of 27 census cells failed. Two failures quoted a nearby sentence instead of the one that states the claim, two integrated_photonic cells name no waveguide or chip, mems_2d integration again rests on domain knowledge, and soa ai_cluster_fit is yes on generic data center evidence.
+  Done. Sent back to stage 6 once (17:40 above).
+- [2026-09-26 17:37] The second judge, judging blind, called the 3 failing sample cells supported from their full abstracts, so the disagreements put (b) over the limit.
+  Done. Stage 7 marked RETRY and stage 6 re-anchored the quotes.
+- [2026-09-26 17:49] The second round re-judged all 31 cells, though 6 of its 31 reasons name round 1 or the rework, so it was not blind to round 1 (validation_report.md, Corrections after code review, item 3). 27 verdicts matched and the 4 re-anchored cells flipped to supported, so (b), on the same 20 cells after the fix, fell to 0 of 20 and census failures to 2 of 27.
+  Done. Gate C passed. mems_2d integration and soa ai_cluster_fit stay unsupported and are carried forward.
+- [2026-09-26 17:56] The second judge's task named round 1's judge input, so it used the round 2 file. It found validation_report.md wrong to say no value, status, or paper changed in the 4 re-anchored cells, and line 15 still names seed 20260927 while the script holds 20260928.
+  Done. Not fixed in the report. Gate numbers are unaffected.
+- [2026-09-26 17:37, 17:56, from STATUS.md, not the original log] thermo_optic wavelength_range claims a standalone C band that no quote states. The cell was not in the Gate C sample.
+  Done. Not fixed then. Step 2's rebuild fixed it (stage 6 matrix, step 2).
+
+### Stage 7 audit (step 2)
+
+- [2026-09-26 21:13] The run 2 audit after the anchor papers (seed 20260929) passed Gate C on its first round, with 0 of 20 mismatches, 0 of 20 unsupported cells, 0 of 10 failed links, and 420 of 420 spans. The census of all 27 category cells found 3 unsupported, mems_2d integration, piezo trl_band, and soa ai_cluster_fit.
+  Done. No second round needed. A new section was appended to validation_report.md.
+- [2026-09-26 21:21] The blind second judge called all 30 judged cells supported where the auditor found 27, so the same census cells disagree for the third audit in a row (mems_2d integration and soa ai_cluster_fit every time, piezo trl_band now too).
+  Done. No gate effect, because none is in the Gate C sample. Left for a person to decide the labels or quotes.
+- [2026-09-26 21:21] The new report section says the 47 code-checked cells include all 18 academic_groups and companies cells, but only 14 do (4 companies cells have no source), and it calls 30 cells the other reported or derived cells when 42 remain.
+  Done. Corrected in an appended section, because the report is append-only (deliverables/validation_report.md, Corrections after code review (pull request #4), item 2).
+- [2026-09-26 21:21, from STATUS.md, not the original log] The new section's piezo trl_band history cites STATUS.md 17:11, which does not mention piezo.
+  Done. Corrected in an appended section (deliverables/validation_report.md, Corrections after code review (pull request #4), item 3).
 
 ### Number checks (rework)
 
@@ -241,14 +425,38 @@ API means application programming interface. HTTP 429 means "too many requests" 
 - [2026-09-26 15:45] validation_report.md round 3 (then called Run 2) credits the "circular" finding to the auditor's own round 2 notes, but round 2's report states the import without objection and the word appears only in the checker's 07:42 note.
   Done. Not fixed in the report. The write-up credits the checker.
 
+### Stage 8 write-up (run 2)
+
+- [2026-09-26 18:23] validation_report.md's Run 2 audit section gives no second-judge agreement figures.
+  Done. The write-up cites them from STATUS.md (17:37 and 17:56 lines), and they were recomputed from the audit_r2data_second_judge files, 25 of 31 and then 29 of 31 cells agreeing. Not fixed in the report.
+- [2026-09-26 18:23] The run 1 database is not among the working files, only in git history, so the run 1 arXiv-only count (40, 36 of them core) comes from curation_report.md and data/work/run2_arxiv_coverage.md.
+  Done. Cross-checked with query Q15 in demo_results.md, which finds the same 40 papers in the run 2 database.
+- [2026-09-26 18:23] meeting_summary.md grew by 138 words, against about 120 asked for, to hold three run 2 bullets and a run label on every number run 2 changed. demo_results.md needed its run 1 audit prose cut to stay under 1200 words outside tables.
+  Done. Left as is.
+- [2026-09-26 18:40] The second judge sent the run 2 write-up back once (STATUS.md, 18:32 line). meeting_summary.md gave many run 1 numbers with no run label, and it cited the run 2 comparison_matrix.csv for run 1's 3 unsupported category cells, although piezo:trl_band is now lab there.
+  Done. Run 1 labels were added, those cells now cite validation_report.md round 3, run 2's 43 cites Q4 in demo_results.md, and run 2's cost includes the 0.01 USD rerun. meeting_summary.md is 147 words longer than the last commit.
+
+### Stage 8 write-up (step 2)
+
+- [2026-09-26 21:35] This file said the original log had 194 entries, but it had 195 at origin/master, because the 18:40 line came after the count.
+  Done. Recounted with code after this stage's lines were added.
+- [2026-09-26 21:35] demo_results.md said run 1 found 10 of 13 anchors, "one a false match", which reads as 9 real finds, and meeting_summary.md said a free DOI lookup would let a later run add the two missing anchors, which step 2 tried.
+  Done. Both now give Gate A's count (10 found, c-Through a miss), the snowball's c-Through, 8 of 13 anchors in the data by full title or DOI plus 3 by title prefix only (Q18), and the failed step 2 title check.
+- [2026-09-26 21:35] piezo trl_band fails the census for the first time, because step 2's rebuild replaced a quote that passed both rounds of the first run 2 audit with a loss measurement sentence.
+  Done. Reported in demo_results.md and meeting_summary.md. The writer does not edit the matrix.
+- [2026-09-26 21:35] Covering two run 2 audits put demo_results.md over its 1200-word limit outside tables.
+  Done. How each audit was run moved into a table. meeting_summary.md grew by 80 words.
+
 ## Pitfalls that will get worse at scale
 
-- arXiv rate limits. 9 of 10 phrase queries already failed at this size, so more phrases need slower pacing or another route to arXiv records.
-- OpenAlex metered cost. More queries and snowball rounds cost more, and the snowball cost was not even saved, so cost must be logged per stage.
-- Fuzzy-title dedup. Pairs to compare grow with the square of the record count, and the subset flaw already caused 3 wrong merges in 885 papers.
-- Split people. About 99 of the 149 flagged name keys are one person in several records, and the count grows with every source that lacks author IDs or affiliations.
+- arXiv access. export.arxiv.org refused this host with HTTP 406 even one request at a time, and OpenAlex's arXiv index gave only 6 of 40 run 1 arXiv-only papers an OpenAlex ID, so the option for a full-scale run is arXiv's official bulk metadata snapshot.
+- OpenAlex metered cost. More queries and snowball rounds cost more, a rerun is billed even when it adds nothing, and the snowball cost was not saved, so cost must be logged per stage.
+- Fuzzy-title dedup. Pairs to compare grow with the square of the record count, and the subset flaw already caused 3 wrong merges in run 1's 885 papers.
+- Split people. Run 2 flags 147 name keys, and a sample of 15 (seed 20260930) puts about 59 of them, range 29 to 94, as one person in several records (deliverables/number_checks.md, Run 2, section 2). Run 1's estimate, about 99 of 149, came from a different sample (same section). The count grows with every source that lacks author IDs or affiliations.
 - Blocked web pages. JavaScript rendering, Cloudflare, throttling, and a timeout already blocked 4 sites for a scout run of 12 entities.
-- Judged cells. Two careful readers disagreed on 4 of 29 cells, and reading does not scale with the matrix.
+- Judged cells. The auditor judged from the quotes only and the second judge also read the cited abstracts, so they applied different criteria (deliverables/validation_report.md, check (b) of each audit; original log, 15:10 and 17:37). They disagreed on 4 of 29 cells in round 3 (seed 20260927), 6 of 31 in the first run 2 audit's first round (seed 20260928), and 3 of 30 in the run 2 audit after the anchor papers (seed 20260929), and reading does not scale with the matrix.
+- Truncated titles. OpenAlex stores at least 6 of the 13 anchors with only the title words before the colon (Jupiter Evolving, RotorNet, c-Through, Sirius, Helios, ProjecToR), and publisher pages refuse automated fetches, so a title check against full titles fails more often as the anchor list grows (data/work/step2_anchors.md; original log, 19:32).
 - Graders that share code with what they grade. Run 1's builder passed the audit by importing its test, and more agents mean more chances for that.
 - Query yield. One phrase per route decided the route counts, so more routes and sources need more phrases per route.
-- Log noise. Repeated lines (44 lines from the arXiv collector, 5 copies of the split-person line) already make the log hard to read.
+- Log noise. Repeated lines (44 lines from the arXiv collector, 5 copies of the split-person line, 5 of the deleted-tags line) already make the log hard to read.
+- Reports that read live state. The run 2 curation report compared run 2 with itself on a rerun until its baseline was frozen, and every rebuilt file invites the same trap.

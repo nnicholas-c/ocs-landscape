@@ -1,0 +1,202 @@
+[
+  {
+    "record_key": "openalex:W4413757104",
+    "source": "openalex",
+    "title": "MixNet: A Runtime Reconfigurable Optical-Electrical Fabric for Distributed Mixture-of-Experts Training",
+    "year": 2025,
+    "venue": null,
+    "abstract": "Mixture-of-Expert (MoE) models outperform conventional models by selectively activating different subnets, named experts, on a per-token basis. This gated computation generates dynamic communications that cannot be determined beforehand, challenging the existing GPU interconnects that remain static during distributed training. In this paper, we advocate for a first-of-its-kind system, called MixNet, that unlocks topology reconfiguration during distributed MoE training. Towards this vision, we first perform a production measurement study and show that the MoE dynamic communication pattern has strong locality, alleviating the need for global reconfiguration. Based on this, we design and implement a regionally reconfigurable high-bandwidth domain that augments existing electrical interconnects using optical circuit switching (OCS), achieving scalability while maintaining rapid adaptability. We build a fully functional MixNet prototype"
+  },
+  {
+    "record_key": "openalex:W3010886459",
+    "source": "openalex",
+    "title": "Physics for neuromorphic computing",
+    "year": 2020,
+    "venue": "Nature Reviews Physics",
+    "abstract": "Neuromorphic computing takes inspiration from the brain to create energy-efficient hardware for information processing, capable of highly sophisticated tasks. Systems built with standard electronics achieve gains in speed and energy by mimicking the distributed topology of the brain. Scaling-up such systems and improving their energy usage, speed and performance by several orders of magnitude requires a revolution in hardware. We discuss how including more physics in the algorithms and nanoscale materials used for data processing could have a major impact in the field of neuromorphic computing. We review striking results that leverage physics to enhance the computing capabilities of artificial neural networks, using resistive switching materials, photonics, spintronics and other technologies. We discuss the paths that could lead these approaches"
+  },
+  {
+    "record_key": "openalex:W2789715390",
+    "source": "openalex",
+    "title": "Picosecond optical pulse processing using a terahertz‐bandwidth reconfigurable photonic integrated circuit",
+    "year": 2018,
+    "venue": "Nanophotonics",
+    "abstract": "Abstract Chip‐scale integrated optical signal processors promise to support a multitude of signal processing functions with bandwidths beyond the limit of microelectronics. Previous research has made great contributions in terms of demonstrating processing functions and device building blocks. Currently, there is a significant interest in providing functional reconfigurability, to match a key advantage of programmable microelectronic processors. To advance this concept, in this work, we experimentally demonstrate a photonic integrated circuit as an optical signal processor with an unprecedented combination of two key features: reconfigurability and terahertz bandwidth. These features enable a variety of processing functions on picosecond optical pulses using a single device. In the experiment, we successfully verified clock rate multiplication, arbitrary waveform generation, discretely and continuously tunable"
+  },
+  {
+    "record_key": "openalex:W4223926670",
+    "source": "openalex",
+    "title": "Performance trade-offs in reconfigurable networks for HPC",
+    "year": 2022,
+    "venue": "Journal of Optical Communications and Networking",
+    "abstract": "Designing efficient interconnects to support high-bandwidth and low-latency communication is critical toward realizing high performance computing (HPC) and data center (DC) systems in the exascale era. At extreme computing scales, providing the requisite bandwidth through overprovisioning becomes impractical. These challenges have motivated studies exploring reconfigurable network architectures that can adapt to traffic patterns at runtime using optical circuit switching. Despite the plethora of proposed architectures, surprisingly little is known about the relative performances and trade-offs among different reconfigurable network designs. We aim to bridge this gap by tackling two key issues in reconfigurable network design. First, we study how cost, power consumption, network performance, and scalability vary based on optical circuit switch (OCS) placement in the physical topology. Specifically, we"
+  },
+  {
+    "record_key": "openalex:W2153255031",
+    "source": "openalex",
+    "title": "Smart fabric sensors and e-textile technologies: a review",
+    "year": 2014,
+    "venue": "Smart Materials and Structures",
+    "abstract": "This paper provides a review of recent developments in the rapidly changing and advancing field of smart fabric sensor and electronic textile technologies.It summarizes the basic principles and approaches employed when building fabric sensors as well as the most commonly used materials and techniques used in electronic textiles.This paper shows that sensing functionality can be created by intrinsic and extrinsic modifications to textile substrates depending on the level of integration into the fabric platform.The current work demonstrates that fabric sensors can be tailored to measure force, pressure, chemicals, humidity and temperature variations.Materials, connectors, fabric circuits, interconnects, encapsulation and fabrication methods associated with fabric technologies prove to be customizable and versatile but less robust than their conventional electronics counterparts.The findings of"
+  },
+  {
+    "record_key": "openalex:W4362655494",
+    "source": "openalex",
+    "title": "TPU v4: An Optically Reconfigurable Supercomputer for Machine Learning with Hardware Support for Embeddings",
+    "year": 2023,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "In response to innovations in machine learning (ML) models, production workloads changed radically and rapidly. TPU v4 is the fifth Google domain specific architecture (DSA) and its third supercomputer for such ML models. Optical circuit switches (OCSes) dynamically reconfigure its interconnect topology to improve scale, availability, utilization, modularity, deployment, security, power, and performance; users can pick a twisted 3D torus topology if desired. Much cheaper, lower power, and faster than Infiniband, OCSes and underlying optical components are <5% of system cost and <3% of system power. Each TPU v4 includes SparseCores, dataflow processors that accelerate models that rely on embeddings by 5x-7x yet use only 5% of die area and power. Deployed since 2020, TPU v4 outperforms TPU v3 by"
+  },
+  {
+    "record_key": "openalex:W3196093339",
+    "source": "openalex",
+    "title": "Analog Optical Computing for Artificial Intelligence",
+    "year": 2021,
+    "venue": "Engineering",
+    "abstract": "The rapid development of artificial intelligence (AI) facilitates various applications from all areas but also poses great challenges in its hardware implementation in terms of speed and energy because of the explosive growth of data. Optical computing provides a distinctive perspective to address this bottleneck by harnessing the unique properties of photons including broad bandwidth, low latency, and high energy efficiency. In this review, we introduce the latest developments of optical computing for different AI models, including feedforward neural networks, reservoir computing, and spiking neural networks (SNNs). Recent progress in integrated photonic devices, combined with the rise of AI, provides a great opportunity for the renaissance of optical computing in practical applications. This effort requires multidisciplinary efforts from a broad"
+  },
+  {
+    "record_key": "openalex:W2613833839",
+    "source": "openalex",
+    "title": "Advances in photonic reservoir computing",
+    "year": 2017,
+    "venue": "Nanophotonics",
+    "abstract": "Abstract We review a novel paradigm that has emerged in analogue neuromorphic optical computing. The goal is to implement a reservoir computer in optics, where information is encoded in the intensity and phase of the optical field. Reservoir computing is a bio‐inspired approach especially suited for processing time‐dependent information. The reservoir’s complex and high‐dimensional transient response to the input signal is capable of universal computation. The reservoir does not need to be trained, which makes it very well suited for optics. As such, much of the promise of photonic reservoirs lies in their minimal hardware requirements, a tremendous advantage over other hardware‐intensive neural network models. We review the two main approaches to optical reservoir computing: networks implemented with multiple discrete"
+  },
+  {
+    "record_key": "openalex:W4388701192",
+    "source": "openalex",
+    "title": "High-bandwidth density silicon photonic resonators for energy-efficient optical interconnects",
+    "year": 2023,
+    "venue": "Applied Physics Reviews",
+    "abstract": "The growth of artificial intelligence applications demands ever larger and more complex deep learning models, dominating today's—and tomorrow's—data center and high-performance computing systems. While traditional electronics are failing to keep pace with application demands, silicon photonic (SiPh) interconnects have emerged as a necessary technology to support these systems. SiPh-driven wavelength-division multiplexing (WDM) offers a particularly promising path toward supporting incredibly high-aggregate link bandwidth in a compact and efficient form factor. One of the basic building blocks of these integrated WDM interconnects is the SiPh resonator. Their inherent wavelength selectivity and compact footprint allow for efficient data transmission multiplexed across dozens of carrier wavelengths. Used as add-drop (AD) filters, SiPh resonators are critical to constructing integrated tunable wavelength-selective optical circuit switches"
+  },
+  {
+    "record_key": "openalex:W4300973219",
+    "source": "openalex",
+    "title": "TopoOpt: Co-optimizing Network Topology and Parallelization Strategy for Distributed Training Jobs",
+    "year": 2022,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "We propose TopoOpt, a novel direct-connect fabric for deep neural network (DNN) training workloads. TopoOpt co-optimizes the distributed training process across three dimensions: computation, communication, and network topology. We demonstrate the mutability of AllReduce traffic, and leverage this property to construct efficient network topologies for DNN training jobs. TopoOpt then uses an alternating optimization technique and a group theory-inspired algorithm called TotientPerms to find the best network topology and routing plan, together with a parallelization strategy. We build a fully functional 12-node direct-connect prototype with remote direct memory access (RDMA) forwarding at 100 Gbps. Large-scale simulations on real distributed training models show that, compared to similar-cost Fat-Tree interconnects, TopoOpt reduces DNN training time by up to 3.4x."
+  },
+  {
+    "record_key": "openalex:W4399310999",
+    "source": "openalex",
+    "title": "Toward 6G Optical Fronthaul: A Survey on Enabling Technologies and Research Perspectives",
+    "year": 2024,
+    "venue": "IEEE Communications Surveys & Tutorials",
+    "abstract": "The anticipated launch of the Sixth Generation (6G) of mobile technology by 2030 will mark a significant milestone in the evolution of wireless communication, ushering in a new era with advancements in technology and applications. 6G is expected to deliver ultra-high data rates and almost instantaneous communications, with three-dimensional coverage for everything, everywhere, and at any time. In the 6G Radio Access Networks (RANs) architecture, the Fronthaul connects geographically distributed Remote Units (RUs) to Distributed/Digital Units (DUs) pool. Among all possible solutions for implementing 6G fronthaul, optical technologies will remain crucial in supporting the 6G fronthaul, as they offer high-speed, low-latency, and reliable transmission capabilities to meet the 6G strict requirements. This survey provides an explanation of the 5G and"
+  },
+  {
+    "record_key": "openalex:W4401176556",
+    "source": "openalex",
+    "title": "NegotiaToR: Towards A Simple Yet Effective On-demand Reconfigurable Datacenter Network",
+    "year": 2024,
+    "venue": null,
+    "abstract": "Recent advances in fast optical switching technology show promise in meeting the high goodput and low latency requirements of datacenter networks (DCN). We present NegotiaToR, a simple network architecture for optical reconfigurable DCNs that utilizes on-demand scheduling to handle dynamic traffic. In NegotiaToR, racks exchange scheduling messages through an in-band control plane and distributedly calculate non-conflicting paths from binary traffic demand information. Optimized for incasts, it also provides opportunities to bypass scheduling delays. NegotiaToR is compatible with prevalent flat topologies, and is tailored towards a minimalist design for on-demand reconfigurable DCNs, enhancing practicality. Through large-scale simulations, we show that NegotiaToR achieves both small mice flow completion time (FCT) and high goodput on two representative flat topologies, especially under heavy loads."
+  },
+  {
+    "record_key": "openalex:W2357843841",
+    "source": "openalex",
+    "title": "A Medium-Scale Distributed System for Computer Science Research: Infrastructure for the Long Term",
+    "year": 2016,
+    "venue": "Computer",
+    "abstract": "The Dutch Advanced School for Computing and Imaging has built five generations of a 200-node distributed system over nearly two decades while remaining aligned with the shifting computer science research agenda. The system has supported years of award-winning research, underlining the benefits of investing in a smaller-scale, tailored design."
+  },
+  {
+    "record_key": "openalex:W4319988710",
+    "source": "openalex",
+    "title": "Wireless and Optical Convergent Access Technologies Toward 6G",
+    "year": 2023,
+    "venue": "IEEE Access",
+    "abstract": "The sixth generation of mobile communication (6G) systems is recently rising a lot of interest, introducing new futuristic and challenging use cases that will demand much more than just communications to become a reality. Higher throughput, lower latencies, higher number of connections will push the requirement of the future mobile networks to a new level, but also sensing, positioning and imaging will play an important role in the new foreseen use cases. The integration of techniques developed for wireless communications with those conceived for optical links will be essential to provide the infrastructure for the 6G networks. In this context, this paper presents a review on wireless and optical convergent access solutions towards the 6G systems. The manuscript brings the"
+  },
+  {
+    "record_key": "openalex:W3188706325",
+    "source": "openalex",
+    "title": "SiP-ML",
+    "year": 2021,
+    "venue": null,
+    "abstract": "This paper proposes optical network interconnects as a key enabler for building high-bandwidth ML training clusters with strong scaling properties. Our design, called SiP-ML, accelerates the training time of popular DNN models using silicon photonics links capable of providing multiple terabits-per-second of bandwidth per GPU. SiP-ML partitions the training job across GPUs with hybrid data and model parallelism while ensuring the communication pattern can be supported efficiently on the network interconnect. We develop task partitioning and device placement methods that take the degree and reconfiguration latency of optical interconnects into account. Simulations using real DNN models show that, compared to the state-of-the-art electrical networks, our approach improves training time by 1.3--9.1x."
+  },
+  {
+    "record_key": "openalex:W4390488098",
+    "source": "openalex",
+    "title": "Diffractive optical elements 75 years on: from micro-optics to metasurfaces",
+    "year": 2023,
+    "venue": "Photonics Insights",
+    "abstract": "Diffractive optical elements (DOEs) are intricately designed devices with the purpose of manipulating light fields by precisely modifying their wavefronts.The concept of DOEs has its origins dating back to 1948 when D. Gabor first introduced holography.Subsequently, researchers introduced binary optical elements (BOEs), including computer-generated holograms (CGHs), as a distinct category within the realm of DOEs.This was the first revolution in optical devices.The next major breakthrough in light field manipulation occurred during the early 21st century, marked by the advent of metamaterials and metasurfaces.Metasurfaces are particularly appealing due to their ultra-thin, ultra-compact properties and their capacity to exert precise control over virtually every aspect of light fields, including amplitude, phase, polarization, wavelength/frequency, angular momentum, etc.The advancement of light field manipulation with"
+  },
+  {
+    "record_key": "openalex:W3203558586",
+    "source": "openalex",
+    "title": "A binary classifier based on a reconfigurable dense network of metallic nanojunctions",
+    "year": 2021,
+    "venue": "Neuromorphic Computing and Engineering",
+    "abstract": "Abstract Major efforts to reproduce the brain performances in terms of classification and pattern recognition have been focussed on the development of artificial neuromorphic systems based on top-down lithographic technologies typical of highly integrated components of digital computers. Unconventional computing has been proposed as an alternative exploiting the complexity and collective phenomena originating from various classes of physical substrates. Materials composed of a large number of non-linear nanoscale junctions are of particular interest: these systems, obtained by the self-assembling of nano-objects like nanoparticles and nanowires, results in non-linear conduction properties characterized by spatiotemporal correlation in their electrical activity. This appears particularly useful for classification of complex features: nonlinear projection into a high-dimensional space can make data linearly separable, providing classification"
+  },
+  {
+    "record_key": "openalex:W3089706104",
+    "source": "openalex",
+    "title": "Satellite Communications in the New Space Era: A Survey and Future Challenges",
+    "year": 2020,
+    "venue": "IEEE Communications Surveys & Tutorials",
+    "abstract": "Satellite communications (SatComs) have recently entered a period of renewed interest motivated by technological advances and nurtured through private investment and ventures. The present survey aims at capturing the state of the art in SatComs, while highlighting the most promising open research topics. Firstly, the main innovation drivers are motivated, such as new constellation types, on-board processing capabilities, non-terrestrial networks and space-based data collection/processing. Secondly, the most promising applications are described, i.e., 5G integration, space communications, Earth observation, aeronautical and maritime tracking and communication. Subsequently, an in-depth literature review is provided across five axes: i) system aspects, ii) air interface, iii) medium access, iv) networking, v) testbeds & prototyping. Finally, a number of future challenges and the respective open research"
+  },
+  {
+    "record_key": "openalex:W4365790307",
+    "source": "openalex",
+    "title": "Threshold-Based Routing-Topology Co-Design for Optical Data Center",
+    "year": 2023,
+    "venue": "IEEE/ACM Transactions on Networking",
+    "abstract": "Despite the bandwidth scaling limit of electrical switching and the high cost of building Clos data center networks (DCNs), the adoption of optical DCNs is still limited. There are two reasons. First, existing optical DCN designs usually face high deployment complexity. Second, these designs are not full-optical and the performance benefit over the non-blocking Clos DCN is not clear. After exploring the design tradeoffs of the existing optical DCN designs, we propose TROD (ThresholdRouting basedOpticalDatacenter), a low-complexity optical DCN with superior performance than other optical DCNs. There are two novel designs in TROD that contribute to its success. First, TROD performs robust topology optimization based on the recurring traffic patterns and thus does not need to react to every traffic"
+  },
+  {
+    "record_key": "openalex:W3080546329",
+    "source": "openalex",
+    "title": "Optically Connected Memory for Disaggregated Data Centers",
+    "year": 2020,
+    "venue": null,
+    "abstract": "Recent advances in integrated photonics enable the implementation of reconfigurable, high-bandwidth, and low energy-per-bit interconnects in next-generation data centers. We propose and evaluate an Optically Connected Memory (OCM) architecture that disaggregates the main memory from the computation nodes in data centers. OCM is based on micro-ring resonators (MRRs), and it does not require any modification to the DRAM memory modules. We calculate energy consumption from real photonic devices and integrate them into a system simulator to evaluate performance. Our results show that (1) OCM is capable of interconnecting four DDR4 memory channels to a computing node using two fibers with 1.07 pJ energy-per-bit consumption and (2) OCM performs up to 5.5x faster than a disaggregated memory with 40G PCIe NIC"
+  },
+  {
+    "record_key": "openalex:W3048081097",
+    "source": "openalex",
+    "title": "6G Wireless Systems: Vision, Requirements, Challenges, Insights, and Opportunities",
+    "year": 2021,
+    "venue": "Proceedings of the IEEE",
+    "abstract": "Mobile communications have been undergoing a generational change every ten years or so. However, the time difference between the so-called “G's” is also decreasing. While fifth-generation (5G) systems are becoming a commercial reality, there is already significant interest in systems beyond 5G, which we refer to as the sixth generation (6G) of wireless systems. In contrast to the already published papers on the topic, we take a top-down approach to 6G. More precisely, we present a holistic discussion of 6G systems beginning with lifestyle and societal changes driving the need for next-generation networks. This is followed by a discussion into the technical requirements needed to enable 6G applications, based on which we dissect key challenges and possibilities for practically realizable"
+  },
+  {
+    "record_key": "openalex:W4410343081",
+    "source": "openalex",
+    "title": "Revolutionizing Datacenter Networks via Reconfigurable Topologies",
+    "year": 2025,
+    "venue": "Communications of the ACM",
+    "abstract": "Recent optical switching technologies are enabling a shift toward dynamically reconfigurable network topologies."
+  },
+  {
+    "record_key": "openalex:W3150418716",
+    "source": "openalex",
+    "title": "Disaster resilience of optical networks: State of the art, challenges, and opportunities",
+    "year": 2021,
+    "venue": "Optical Switching and Networking",
+    "abstract": "For several decades, optical networks, due to their high capacity and long-distance transmission range, have been used as the major communication technology to serve network traffic, especially in the core and metro segments of communication networks. Unfortunately, our society has often experienced how the correct functioning of these critical infrastructures can be substantially hindered by massive failures triggered by natural disasters, weather-related disruptions and malicious human activities. In this position paper, we discuss the impact on optical networks of all major classes of disaster events mentioned above, and we overview recent relevant techniques that have been proposed to increase the disaster resilience of optical networks against the various classes of disaster events. We start by presenting some proactive methods to"
+  },
+  {
+    "record_key": "openalex:W4322756647",
+    "source": "openalex",
+    "title": "Mars: Near-Optimal Throughput with Shallow Buffers in Reconfigurable Datacenter Networks",
+    "year": 2023,
+    "venue": "Proceedings of the ACM on Measurement and Analysis of Computing Systems",
+    "abstract": "The performance of large-scale computing systems often critically depends on high-performance communication networks. Dynamically reconfigurable topologies, e.g., based on optical circuit switches, are emerging as an innovative new technology to deal with the explosive growth of datacenter traffic. Specifically, periodic reconfigurable datacenter networks (RDCNs) such as RotorNet (SIGCOMM 2017), Opera (NSDI 2020) and Sirius (SIGCOMM 2020) have been shown to provide high throughput, by emulating a complete graph through fast periodic circuit switch scheduling. However, to achieve such a high throughput, existing reconfigurable network designs pay a high price: in terms of potentially high delays, but also, as we show as a first contribution in this paper, in terms of the high buffer requirements. In particular, we show that under"
+  },
+  {
+    "record_key": "openalex:W2157954477",
+    "source": "openalex",
+    "title": "Toward Scalable Systems for Big Data Analytics: A Technology Tutorial",
+    "year": 2014,
+    "venue": "IEEE Access",
+    "abstract": "Recent technological advancements have led to a deluge of data from distinctive domains (e.g., health care and scientific sensors, user-generated data, Internet and financial companies, and supply chain systems) over the past two decades. The term big data was coined to capture the meaning of this emerging trend. In addition to its sheer volume, big data also exhibits other unique characteristics as compared with traditional data. For instance, big data is commonly unstructured and require more real-time analysis. This development calls for new system architectures for data acquisition, transmission, storage, and large-scale data processing mechanisms. In this paper, we present a literature survey and system tutorial for big data analytics platforms, aiming to provide an overall picture for nonexpert readers"
+  }
+]

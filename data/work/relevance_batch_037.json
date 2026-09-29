@@ -1,0 +1,202 @@
+[
+  {
+    "record_key": "openalex:W2032418282",
+    "source": "openalex_snowball",
+    "title": "A Compact 1×3 Silicon Photonic Waveguide Switch Based on Precise Investigation of Coupling Characteristics of Variable-Gap Coupler",
+    "year": 2013,
+    "venue": "Japanese Journal of Applied Physics",
+    "abstract": "A variable-gap silicon nanowire waveguide coupler was fabricated and its characteristics were measured for comparison with those determined by a rigorous electromagnetic simulation. The three-dimensional model of the coupler was simulated by the finite-difference time-domain method. On the basis of the results obtained, a compact 1×3 silicon nanowire coupler switch was designed and fabricated. The 1×3 switch was composed of two couplers with parallel silicon nanowire waveguides of 400 nm width and 260 nm thickness and comb-drive electrostatic actuators. The output isolation and extinction ratio of the variable coupler were measured to be 12.9 and 18.6 dB, respectively. The loss of the variable coupler was 0.21 dB. The measured coupling coefficient was explained quantitatively by the simulation. The proposed 1×3"
+  },
+  {
+    "record_key": "openalex:W2056476503",
+    "source": "openalex_snowball",
+    "title": "Bandwidth-tunable add–drop filters based on micro-electro-mechanical-system actuated silicon microtoroidal resonators",
+    "year": 2009,
+    "venue": "Optics Letters",
+    "abstract": "A bandwidth-tunable filter has been demonstrated based on a micro-electro-mechanical-system (MEMS) actuated single-crystalline silicon microtoroidal resonator. Bandwidth is tuned from 2.8 to 78.4 GHz by voltage control, the largest bandwidth tuning range reported to date to our knowledge in resonator-based filters. A 21.8 dB extinction ratio is attained as a dynamic add-drop filter."
+  },
+  {
+    "record_key": "openalex:W2082515684",
+    "source": "openalex_snowball",
+    "title": "Submicron silicon waveguide optical switch driven by microelectromechanical actuator",
+    "year": 2008,
+    "venue": "Applied Physics Letters",
+    "abstract": "A submicron silicon waveguide optical switch driven by a microelectromechanical actuator is fabricated. The switch is composed of single-mode silicon input and output waveguides and a movable waveguide suspended by silicon springs. Switching occurs when the air gap between input and output waveguides is closed by displacing the movable waveguide 540±20nm by an electrostatic comb actuator. The switch, fabricated on a silicon-on-insulator wafer, is monolithic, and active switching region is as small as about 40×60μm2. An extinction ratio of 15±2dB is experimentally obtained between switch off and on states at 1.55μm wavelength."
+  },
+  {
+    "record_key": "openalex:W2088068353",
+    "source": "openalex_snowball",
+    "title": "Ultra-compact 8 × 8 strictly-non-blocking Si-wire PILOSS switch",
+    "year": 2014,
+    "venue": "Optics Express",
+    "abstract": "We report on a path-independent insertion-loss (PILOSS) 8 × 8 matrix switch based on Si-wire waveguides, which has a record-small footprint of 3.5 × 2.4 mm2. The PILOSS switch consists of 64 thermooptic Mach-Zehnder (MZ) switches and 49 low-crosstalk intersections. Each of the MZ switches and intersections employs directional couplers, which enable the composition of a low loss PILOSS switch. We demonstrate successful switching of digital-coherent 43-Gbps QPSK signal."
+  },
+  {
+    "record_key": "openalex:W2089069546",
+    "source": "openalex_snowball",
+    "title": "Variable-Gap Silicon Photonic Waveguide Coupler Switch With a Nanolatch Mechanism",
+    "year": 2013,
+    "venue": "IEEE Photonics Technology Letters",
+    "abstract": "Design and fabrication of a variable-gap waveguide coupler switch with a nano latch mechanism are reported for on-chip waveguide circuits in Si photonics. The proposed switch consists of a coupler of two freestanding 400-nm-wide 260-nm-thick Si waveguides, three 30-μm-wide 40-μm-long comb-drive actuators, and a nanolatch mechanism. The nanolatch mechanism consists of four hook-shaped latches for maintaining a switch-on state at a coupler gap of around 100 nm. The switching and latching characteristics are investigated. The port isolation under the latch-on condition is found to be 17 dB. Due to the capacitive operation of the actuators and the nanolatch mechanism, power consumption of the switch is minimized."
+  },
+  {
+    "record_key": "openalex:W2089755139",
+    "source": "openalex_snowball",
+    "title": "Digital MEMS for optical switching",
+    "year": 2002,
+    "venue": "IEEE Communications Magazine",
+    "abstract": "Over the last few years an amazing amount of interest has emerged for applications of micro electro-mechanical systems (MEMS) in telecommunications. Silicon-based optical MEMS have proven to be the technology of choice for low-cost scalable photonic applications because they allow mass manufacturing of highly accurate miniaturized parts, and use materials with excellent mechanical and electrical properties. Applications include tunable lasers, optical switches, and tunable filters. The use of MEMS for optical switching has turned out to be most attractive since this application could revolutionize fiber optic telecommunications. We discuss the technology, performance, and reliability of 2D MEMS optical switches. We show that this technology meets the scalability, performance, and reliability requirements for important applications in fiber optic networks."
+  },
+  {
+    "record_key": "openalex:W2094432207",
+    "source": "openalex_snowball",
+    "title": "Planar microoptomechanical waveguide switches",
+    "year": 2002,
+    "venue": "IEEE Journal of Selected Topics in Quantum Electronics",
+    "abstract": "Planar micromechanical waveguide switches based on lateral deflection of a cantilever beam are presented. Two material systems have been used: a GaAs-AlGaAs structure with integrated waveguides and a silicon-on-insulator (SOI), with postprocessed polymeric waveguides. The switches are characterized by low actuation voltage (3-20 V), short switching times (32-200 /spl mu/s), and low crosstalk (< -30 dB)."
+  },
+  {
+    "record_key": "openalex:W2094700182",
+    "source": "openalex_snowball",
+    "title": "Low-power, 2×2 silicon electro-optic switch with 110-nm bandwidth for broadband reconfigurable optical networks",
+    "year": 2009,
+    "venue": "Optics Express",
+    "abstract": "We present an ultra-broadband Mach-Zehnder based optical switch in silicon, electrically driven through carrier injection. Crosstalk levels lower than -17 dB are obtained for both the 'on' and 'off' switching states over an optical bandwidth of 110 nm, owing to the implementation of broadband 50% couplers. Full 2 x 2 switching functionality is demonstrated, with low power consumption (approximately 3 mW) and a fast switching time (< 4 ns). The utilization of standard CMOS metallization results in a low drive voltage (approximately 1 V) and a record-low V(pi)L (approximately 0.06 V x mm). The wide optical bandwidth is maintained for temperature variations up to 30 K."
+  },
+  {
+    "record_key": "openalex:W2098514595",
+    "source": "openalex_snowball",
+    "title": "Optical MEMS for Lightwave Communication",
+    "year": 2006,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "The intensive investment in optical microelectromechanical systems (MEMS) in the last decade has led to many successful components that satisfy the requirements of lightwave communication networks. In this paper, we review the current state of the art of MEMS devices and subsystems for lightwave communication applications. Depending on the design, these components can either be broadband (wavelength independent) or wavelength selective. Broadband devices include optical switches, crossconnects, optical attenuators, and data modulators, while wavelength-selective components encompass wavelength add/drop multiplexers, wavelength-selective switches and crossconnects, spectral equalizers, dispersion compensators, spectrometers, and tunable lasers. Integration of MEMS and planar lightwave circuits, microresonators, and photonic crystals could lead to further reduction in size and cost"
+  },
+  {
+    "record_key": "openalex:W2103195791",
+    "source": "openalex_snowball",
+    "title": "InP-based optical waveguide MEMS switches with evanescent coupling mechanism",
+    "year": 2005,
+    "venue": "Journal of Microelectromechanical Systems",
+    "abstract": "An optical waveguide MEMS switch fabricated on an indium phosphide (InP) substrate for operation at 1550 nm wavelength is presented. Compared to other MEMS optical switches, which typically use relatively large mirrors or long end-coupled waveguides, our device uses a parallel switching mechanism. The device utilizes evanescent coupling between two closely-spaced waveguides fabricated side by side. Coupling is controlled by changing the gap and the coupling length between the two waveguides via electrostatic pull-in. This enables both optical switching and variable optical coupling at voltages below 10 V. Channel isolation as high as -47 dB and coupling efficiencies of up to 66% were obtained with switching losses of less than 0.5 dB. We also demonstrate voltage-controlled variable optical coupling over"
+  },
+  {
+    "record_key": "openalex:W1833198276",
+    "source": "openalex_snowball",
+    "title": "Quantum transport simulations in a programmable nanophotonic processor",
+    "year": 2017,
+    "venue": "Nature Photonics",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W1979673782",
+    "source": "openalex_snowball",
+    "title": "Fully programmable and scalable optical switching fabric for petabyte data center",
+    "year": 2015,
+    "venue": "Optics Express",
+    "abstract": "We present a converged EPS and OCS switching fabric for data center networks (DCNs) based on a distributed optical switching architecture leveraging both WDM & SDM technologies. The architecture is topology adaptive, well suited to dynamic and diverse *-cast traffic patterns. Compared to a typical folded-Clos network, the new architecture is more readily scalable to future multi-Petabyte data centers with 1000 + racks while providing a higher link bandwidth, reducing transceiver count by 50%, and improving cabling efficiency by more than 90%."
+  },
+  {
+    "record_key": "openalex:W2062294208",
+    "source": "openalex_snowball",
+    "title": "Large-scale nanophotonic phased array",
+    "year": 2013,
+    "venue": "Nature",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W2066708803",
+    "source": "openalex_snowball",
+    "title": "Ultralow-loss polycrystalline silicon waveguides and high uniformity 1x12 MMI fanout for 3D photonic integration",
+    "year": 2012,
+    "venue": "Optics Express",
+    "abstract": ". We then measure the propagation losses for various waveguide widths on both polysilicon and crystalline silicon platforms. We find that as the width increases for polysilicon waveguides, the propagation loss decreases similar to crystalline silicon waveguides. At a waveguide width of 10 µm, polysilicon and crystalline silicon waveguides have propagation losses of 0.56 dB/cm and 0.31 dB/cm, respectively, indicating there is little bulk absorption from the polysilicon and is the lowest propagation loss for polysilicon demonstrated to date. In addition, the first 1x12 polysilicon MMI is demonstrated with a low insertion loss of -1.29dB and a high uniformity of 1.07 dB. These results vindicate the use of polysilicon waveguides of varying widths in photonic integrated circuits."
+  },
+  {
+    "record_key": "openalex:W2468172470",
+    "source": "openalex_snowball",
+    "title": "Roadmap on silicon photonics",
+    "year": 2016,
+    "venue": "Journal of Optics",
+    "abstract": "Abstract Silicon photonics research can be dated back to the 1980s. However, the previous decade has witnessed an explosive growth in the field. Silicon photonics is a disruptive technology that is poised to revolutionize a number of application areas, for example, data centers, high-performance computing and sensing. The key driving force behind silicon photonics is the ability to use CMOS-like fabrication resulting in high-volume production at low cost. This is a key enabling factor for bringing photonics to a range of technology areas where the costs of implementation using traditional photonic elements such as those used for the telecommunications industry would be prohibitive. Silicon does however have a number of shortcomings as a photonic material. In its basic form it"
+  },
+  {
+    "record_key": "openalex:W2481781603",
+    "source": "openalex_snowball",
+    "title": "High-resolution aliasing-free optical beam steering",
+    "year": 2016,
+    "venue": "Optica",
+    "abstract": "Many applications, including laser (LIDAR) mapping, free-space optical communications, and spatially resolved optical sensors, demand compact, robust solutions to steering an optical beam. Fine target addressability (high steering resolution) in these systems requires simultaneously achieving a wide steering angle and a small beam divergence, but this is difficult due to the fundamental trade-offs between resolution and steering range. So far, to our knowledge, chip-based two-axis optical phased arrays have achieved a resolution of no more than 23 resolvable spots in the phased-array axis. Here we report, using non-uniform emitter spacing on a large-scale emitter array, a dramatically higher-performance two-axis steerable optical phased array fabricated in a 300 mm CMOS facility with over 500 resolvable spots and 80° steering in the"
+  },
+  {
+    "record_key": "openalex:W2758695468",
+    "source": "openalex_snowball",
+    "title": "Silicon Photonic Switch Subsystem With 900 Monolithically Integrated Calibration Photodiodes and 64-Fiber Package",
+    "year": 2017,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "A packaged and fully operational 32 × 32 silicon photonic switch chip having 448 switch cells and 1856 crossings is demonstrated. The switch chip includes 900 monolithically integrated photodiodes used for calibrating the thermo-optic Mach-Zehnder switch cells. The calibration procedure employs an external laser source and follows a reachability-tree sequence to calibrate all switch cells. The accuracy of the calibration is demonstrated by the measurement of switch cell extinction ratios, for both states of each switch cell. The mean extinction ratio for both states is 35 dB. Arbitrary light path switching is demonstrated. Measurement of the channel-to-channel crosstalk was performed for a large number of aggressor and victim light path combinations. The matrix crosstalk is dominated by contributions from waveguide"
+  },
+  {
+    "record_key": "openalex:W2770966813",
+    "source": "openalex_snowball",
+    "title": "Tri-layer silicon nitride-on-silicon photonic platform for ultra-low-loss crossings and interlayer transitions",
+    "year": 2017,
+    "venue": "Optics Express",
+    "abstract": "We present a three-layer silicon nitride on silicon platform for constructing very large photonic integrated circuits. Efficient interlayer transitions are enabled by the close spacing between adjacent layers, while ultra-low-loss crossings are enabled by the large spacing between the topmost and bottommost layers. We demonstrate interlayer taper transitions with losses < 0.15 dB for wavelengths spanning from 1480 nm to 1620 nm. Our overpass waveguide crossings exhibit insertion loss < 2.1 mdB and crosstalk below -56 dB in the wavelength range between 1480 nm and 1620 nm with losses as low as 0.28 mdB. Our platform architecture is suited to meet the demands of large-scale photonic circuits which contain hundreds of crossings."
+  },
+  {
+    "record_key": "openalex:W2785991522",
+    "source": "openalex_snowball",
+    "title": "Interferometric Optical Gyroscope Based on an Integrated Si3N4 Low-Loss Waveguide Coil",
+    "year": 2017,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "We describe the measurement and characterization of an interferometric optical gyroscope that uses an integrated 3-m large-area silicon nitride waveguide coil with waveguide loss1/2and 58.7°/h, respectively. The measured performance is comparable to that of a commercial rate grade gyroscope, demonstrating that chip-scale integration is a feasible path to low cost, low power, compact implementation of optical gyroscope, and realization of longer coils will expand use of this technology to more demanding navigation applications."
+  },
+  {
+    "record_key": "openalex:W2897089376",
+    "source": "openalex_snowball",
+    "title": "Recent advances in optical technologies for data centers: a review",
+    "year": 2018,
+    "venue": "Optica",
+    "abstract": "Modern data centers increasingly rely on interconnects for delivering critical communications connectivity among numerous servers, memory, and computation resources. Data center interconnects turned to optical communications almost a decade ago, and the recent acceleration in data center requirements is expected to further drive photonic interconnect technologies deeper into the systems architecture. This review paper analyzes optical technologies that will enable next-generation data center optical interconnects. Recent progress addressing the challenges of terabit/s links and networks at the laser, modulator, photodiode, and switch levels is reported and summarized."
+  },
+  {
+    "record_key": "openalex:W2905425616",
+    "source": "openalex_snowball",
+    "title": "Linear programmable nanophotonic processors",
+    "year": 2018,
+    "venue": "Optica",
+    "abstract": "© 2018 Optical Society of America. Advances in photonic integrated circuits have recently enabled electrically reconfigurable optical systems that can implement universal linear optics transformations on spatial mode sets. This review paper covers progress in such “programmable nanophotonic processors” as well as emerging applications of the technology to problems including classical and quantum information processing and machine learning."
+  },
+  {
+    "record_key": "openalex:W4281849792",
+    "source": "openalex_snowball",
+    "title": "Silicon photonics for high-capacity data communications",
+    "year": 2022,
+    "venue": "Photonics Research",
+    "abstract": "In recent years, optical modulators, photodetectors, (de)multiplexers, and heterogeneously integrated lasers based on silicon optical platforms have been verified. The performance of some devices even surpasses the traditional III-V and photonic integrated circuit (PIC) platforms, laying the foundation for large-scale photonic integration. Silicon photonic technology can overcome the limitations of traditional transceiver technology in high-speed transmission networks to support faster interconnection between data centers. In this article, we will review recent progress for silicon PICs. The first part gives an overview of recent achievements in silicon PICs. The second part introduces the silicon photonic building blocks, including low-loss waveguides, passive devices, modulators, photodetectors, heterogeneously integrated lasers, and so on. In the third part, the recent progress on high-capacity silicon photonic"
+  },
+  {
+    "record_key": "openalex:W3205730567",
+    "source": "openalex_snowball",
+    "title": "Quantum-dot-based deterministic photon–emitter interfaces for scalable photonic quantum technology",
+    "year": 2021,
+    "venue": "Nature Nanotechnology",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W3126304295",
+    "source": "openalex_snowball",
+    "title": "Scalable reservoir computing on coherent linear photonic processor",
+    "year": 2021,
+    "venue": "Communications Physics",
+    "abstract": "Abstract Photonic neuromorphic computing is of particular interest due to its significant potential for ultrahigh computing speed and energy efficiency. The advantage of photonic computing hardware lies in its ultrawide bandwidth and parallel processing utilizing inherent parallelism. Here, we demonstrate a scalable on-chip photonic implementation of a simplified recurrent neural network, called a reservoir computer, using an integrated coherent linear photonic processor. In contrast to previous approaches, both the input and recurrent weights are encoded in the spatiotemporal domain by photonic linear processing, which enables scalable and ultrafast computing beyond the input electrical bandwidth. As the device can process multiple wavelength inputs over the telecom C-band simultaneously, we can use ultrawide optical bandwidth (~5 terahertz) as a computational resource. Experiments"
+  },
+  {
+    "record_key": "openalex:W3134896547",
+    "source": "openalex_snowball",
+    "title": "Reconfigurable photonics with on-chip single-photon detectors",
+    "year": 2021,
+    "venue": "Nature Communications",
+    "abstract": "Integrated quantum photonics offers a promising path to scale up quantum optics experiments by miniaturizing and stabilizing complex laboratory setups. Central elements of quantum integrated photonics are quantum emitters, memories, detectors, and reconfigurable photonic circuits. In particular, integrated detectors not only offer optical readout but, when interfaced with reconfigurable circuits, allow feedback and adaptive control, crucial for deterministic quantum teleportation, training of neural networks, and stabilization of complex circuits. However, the heat generated by thermally reconfigurable photonics is incompatible with heat-sensitive superconducting single-photon detectors, and thus their on-chip co-integration remains elusive. Here we show low-power microelectromechanical reconfiguration of integrated photonic circuits interfaced with superconducting single-photon detectors on the same chip. We demonstrate three key functionalities for photonic quantum technologies: 28"
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "record_key": "openalex:W2997045286",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Handwritten OCR literature review, unrelated meaning of OCS acronym."
+  },
+  {
+    "record_key": "openalex:W4390345325",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Optical skyrmions physics, unrelated to circuit switching (abstract empty)."
+  },
+  {
+    "record_key": "openalex:W2611853687",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Earth observation for biodiversity monitoring, unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W2560361359",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "MEMS beam-steering cross-connect switch prototype for data center networks, 150us switching."
+  },
+  {
+    "record_key": "openalex:W2977468072",
+    "score": 2,
+    "adjacent_field": "telecom_oxc_roadm",
+    "reason": "InP SOA-based photonic cross-connect chip repurposed for neural network, not for switching data."
+  },
+  {
+    "record_key": "openalex:W2736397792",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Generalized optical memory effect in scattering physics, unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W2336039769",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Spatiotemporal optical vortices physics, unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W3005127469",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Single-cell data science challenges, unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W2323657038",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Review of optical performance monitoring techniques, not switch hardware."
+  },
+  {
+    "record_key": "openalex:W2905241809",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Zwicky Transient Facility astronomy survey pipeline, unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W2900538720",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Climate system model description, unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W2897340379",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Mid-infrared optical coherence tomography imaging, unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W2735125579",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "OPSquare optical DCN uses fast WDM optical cross-connect switches with flow control."
+  },
+  {
+    "record_key": "openalex:W2282905743",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Ultrafast spectroscopy of correlated materials physics, unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W2778552376",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Optical coherence elastography in ophthalmology, medical imaging not OCS."
+  },
+  {
+    "record_key": "openalex:W2979363123",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Fiber-reinforced polymer composites review, unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W4210818687",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Magnetic soft materials and robots review, unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W2973569033",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Electronic skin devices review, unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W3047411995",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Hydrogel soft robotics review, unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W3110518727",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Thermoelectric textile fibers, unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W3112747941",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Sustainable soft robotics perspective, unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W4280632309",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Robotic fiber positioners for astronomy spectrograph, unrelated to data center OCS."
+  },
+  {
+    "record_key": "openalex:W3189885260",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Biomimetic soft robot with color-changing skin, unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W4389299351",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Natural fiber composites review, unrelated to OCS."
+  },
+  {
+    "record_key": "openalex:W3111750080",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Magnetically controlled soft robotics review, unrelated to OCS."
+  }
+]

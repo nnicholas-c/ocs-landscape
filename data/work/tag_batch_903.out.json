@@ -1,0 +1,101 @@
+[
+  {
+    "paper_id": "W4391835825",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "For the past years, researchers have been developing novel optical switching technologies that enable the emergence of reconfigurable datacenter networks (RDCNs) that support dynamic psychical topologies.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W4399317831",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "The increasing gap between the growth of datacenter traffic volume and the capacity of electrical switches led to the emergence of reconfigurable datacenter network designs based on optical circuit switching.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W4399912755",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "Over the last years, researchers have developed innovative optical switching technologies that enable reconfigurable datacenter networks (RCDNs) which support very fast topology reconfigurations.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W4400065203",
+    "tech_route": "thermo_optic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": "silicon_photonics",
+    "evidence_span": "Efficient heat management and control in optical devices, facilitated by advanced thermo‐optic materials, are critical for many applications such as photovoltaics, thermal emitters, mode‐locked lasers, and optical switches.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W4402705205",
+    "tech_route": "thermo_optic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": null,
+    "evidence_span": "Here, we demonstrate a fast thermo-optic switching mechanism on the silicon nitride on insulator platform, leveraging parity-time symmetry breaking.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W4406960606",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "Considering that several OCSes have already been installed in production datacenter networks (DCNs) and several OCS products are on the market, bringing the openness and interoperability into the OCS-based networks has become important.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W4407244986",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "We propose InfiniteHBD, a transceiver-centric HBD architecture that integrates connectivity and dynamic switching at the transceiver level by embedding Optical Circuit Switching (OCS) within each transceiver.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W7171539399",
+    "tech_route": "mems_3d",
+    "tech_route_secondary": null,
+    "integration": "free_space_bulk",
+    "trl_band": "lab",
+    "ai_dc_fit": "none",
+    "adjacent_field": null,
+    "evidence_span": "We present an all-to-all quantum-level crosstalk characterization of a commercial 16x16 MEMS optical switch for multi-user quantum communications using SNSPDs, correlating experimental data with a theoretical impact analysis on the decoy-state BB84 QKD protocol.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W7172527693",
+    "tech_route": "mems_silicon_photonic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "We demonstrate a broadband silicon photonics MEMS switch with more than 30 dB extinction ratio operating in C-band using a zero-change foundry-compatible process and Back-end-of-Line (BEOL) post-processing.",
+    "confidence": "high"
+  }
+]

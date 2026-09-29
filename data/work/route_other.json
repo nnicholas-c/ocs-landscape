@@ -95,6 +95,25 @@
     "match": "primary"
   },
   {
+    "paper_id": "W2748818791",
+    "title": "Silicon waveguide optical switch with embedded phase change material",
+    "year": 2017,
+    "venue": "Optics Express",
+    "abstract": "Phase-change materials (PCMs) have emerged as promising active elements in silicon (Si) photonic systems. In this work, we design, fabricate, and characterize a hybrid Si-PCM optical switch. By integrating vanadium dioxide (a PCM) within a Si photonic waveguide, in a non-resonant geometry, we achieve ~10 dB broadband optical contrast with a PCM length of 500 nm using thermal actuation.",
+    "cited_by_count": 104,
+    "tags": {
+      "tech_route": "other",
+      "tech_route_secondary": "thermo_optic",
+      "integration": "integrated_photonic",
+      "trl_band": "lab",
+      "ai_dc_fit": "unclear",
+      "adjacent_field": null,
+      "evidence_span": "In this work, we design, fabricate, and characterize a hybrid Si-PCM optical switch.",
+      "confidence": "medium"
+    },
+    "match": "primary"
+  },
+  {
     "paper_id": "W2807655209",
     "title": "Design and Verification of Large-Scale Optical Circuit Switch Using ULCF AWGs for Datacenter Application",
     "year": 2018,
@@ -110,6 +129,25 @@
       "adjacent_field": null,
       "evidence_span": "In this paper, we propose a novel optical-circuit-switch architecture that uses n × N uniformloss and cyclic-frequency (ULCF) arrayed-waveguide gratings (AWGs) as low-loss wavelength routers.",
       "confidence": "medium"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W2829881810",
+    "title": "Switchable plasmonic routers controlled by external magnetic fields by using magneto-plasmonic waveguides",
+    "year": 2018,
+    "venue": "Scientific Reports",
+    "abstract": "We analytically and numerically investigate magneto-plasmons in metal films surrounded by a ferromagnetic dielectric. In such waveguide using a metal film with a thickness exceeding the Skin depth, an external magnetic field in the transverse direction can induce a significant spatial asymmetry of mode distribution. Superposition of the odd and the even asymmetric modes over a distance leads to a concentration of the energy on one interface which is switched to the other interface by the magnetic field reversal. The requested magnitude of magnetization is exponentially reduced with the increase of the metal film thickness. Based on this phenomenon, we propose a waveguide-integrated magnetically controlled switchable plasmonic routers with 99-%-high contrast within the optical bandwidth of tens of THz. This configuration can also operate as a magneto-plasmonic modulator.",
+    "cited_by_count": 49,
+    "tags": {
+      "tech_route": "other",
+      "tech_route_secondary": null,
+      "integration": "integrated_photonic",
+      "trl_band": "lab",
+      "ai_dc_fit": "none",
+      "adjacent_field": null,
+      "evidence_span": "Based on this phenomenon, we propose a waveguide-integrated magnetically controlled switchable plasmonic routers with 99-%-high contrast within the optical bandwidth of tens of THz.",
+      "confidence": "high"
     },
     "match": "primary"
   },
@@ -147,6 +185,25 @@
       "ai_dc_fit": "indirect",
       "adjacent_field": null,
       "evidence_span": "At its core, Sirius uses a combination of tunable lasers and simple, passive gratings that route light based on its wavelength.",
+      "confidence": "medium"
+    },
+    "match": "primary"
+  },
+  {
+    "paper_id": "W4221142669",
+    "title": "Broadband nonvolatile electrically programmable silicon photonic switches",
+    "year": 2022,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "Programmable photonic integrated circuits (PICs) have recently gained significant interest due to their potential in creating next-generation technologies ranging from artificial neural networks and microwave photonics to quantum information processing. The fundamental building block of such programmable PICs is a tunable 2 x 2 switch, traditionally controlled by the thermo-optic or free-carrier dispersion. Yet, these implementations are power-hungry, volatile, and have a large footprint (typically > 100 um). Therefore, a truly 'set-and-forget' type 2 x 2 switch with zero static power consumption is highly desirable for large-scale PICs. Here, we report a broadband nonvolatile electrically programmable 2 x 2 silicon photonic switch based on the phase-change material Ge2Sb2Te5. The directional coupler switch exhibits a compact coupling length (64 um), small insertion loss (<2 dB), and minimal crosstalk (",
+    "cited_by_count": 1,
+    "tags": {
+      "tech_route": "other",
+      "tech_route_secondary": null,
+      "integration": "integrated_photonic",
+      "trl_band": "lab",
+      "ai_dc_fit": "none",
+      "adjacent_field": "silicon_photonics",
+      "evidence_span": "Here, we report a broadband nonvolatile electrically programmable 2 x 2 silicon photonic switch based on the phase-change material Ge2Sb2Te5.",
       "confidence": "medium"
     },
     "match": "primary"

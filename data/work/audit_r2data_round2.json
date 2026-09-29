@@ -1,0 +1,1054 @@
+{
+  "seed": 20260928,
+  "generated_at": "2026-09-27T00:43:09Z",
+  "a_refetch": {
+    "sample_size": 20,
+    "sampled_ids": [
+      "W2103195791",
+      "W2800201100",
+      "arxiv:2202.05487",
+      "W4404238479",
+      "W4285390819",
+      "W2735125579",
+      "W2786500500",
+      "W3210177009",
+      "W2591729902",
+      "W1653883346",
+      "W2138361600",
+      "arxiv:2510.03891",
+      "W2343971467",
+      "W3036907365",
+      "W2056973550",
+      "W3114768400",
+      "arxiv:2602.12521",
+      "W2970534079",
+      "W2905370602",
+      "W2758695468"
+    ],
+    "drawn": 20,
+    "compared": 20,
+    "dropped": 0,
+    "items": [
+      {
+        "paper_id": "W2103195791",
+        "stored": {
+          "title": "InP-based optical waveguide MEMS switches with evanescent coupling mechanism",
+          "year": 2005,
+          "cited_by_count": 46,
+          "first_institution": "Sensors (United States)"
+        },
+        "method": "openalex_id",
+        "refetched": {
+          "title": "InP-based optical waveguide MEMS switches with evanescent coupling mechanism",
+          "year": 2005,
+          "cited_by_count": 46,
+          "first_institution": "Sensors (United States)"
+        },
+        "subchecks": {
+          "title": true,
+          "year": true,
+          "cited_by_count": true,
+          "first_institution": true
+        },
+        "result": "pass",
+        "mismatched_fields": []
+      },
+      {
+        "paper_id": "W2800201100",
+        "stored": {
+          "title": "128×128 Silicon Photonic MEMS Switch with Scalable Row/Column Addressing",
+          "year": 2018,
+          "cited_by_count": 35,
+          "first_institution": "University of California, Berkeley"
+        },
+        "method": "openalex_id",
+        "refetched": {
+          "title": "128×128 Silicon Photonic MEMS Switch with Scalable Row/Column Addressing",
+          "year": 2018,
+          "cited_by_count": 35,
+          "first_institution": "University of California, Berkeley"
+        },
+        "subchecks": {
+          "title": true,
+          "year": true,
+          "cited_by_count": true,
+          "first_institution": true
+        },
+        "result": "pass",
+        "mismatched_fields": []
+      },
+      {
+        "paper_id": "arxiv:2202.05487",
+        "stored": {
+          "title": "Kevin: de Bruijn-based topology with demand-aware links and greedy routing",
+          "year": 2022,
+          "cited_by_count": null,
+          "first_institution": null
+        },
+        "method": "openalex_doi_singleton",
+        "refetched": {
+          "title": "Kevin: de Bruijn-based topology with demand-aware links and greedy routing",
+          "year": 2022,
+          "cited_by_count": 0,
+          "first_institution": null
+        },
+        "subchecks": {
+          "title": true,
+          "year": true,
+          "cited_by_count": null,
+          "first_institution": null
+        },
+        "result": "pass",
+        "mismatched_fields": []
+      },
+      {
+        "paper_id": "W4404238479",
+        "stored": {
+          "title": "COCSN: A Multi-Tiered Cascaded Optical Circuit Switching Network for Data Center",
+          "year": 2024,
+          "cited_by_count": 5,
+          "first_institution": "Xidian University"
+        },
+        "method": "openalex_id",
+        "refetched": {
+          "title": "COCSN: A Multi-Tiered Cascaded Optical Circuit Switching Network for Data Center",
+          "year": 2024,
+          "cited_by_count": 5,
+          "first_institution": "Xidian University"
+        },
+        "subchecks": {
+          "title": true,
+          "year": true,
+          "cited_by_count": true,
+          "first_institution": true
+        },
+        "result": "pass",
+        "mismatched_fields": []
+      },
+      {
+        "paper_id": "W4285390819",
+        "stored": {
+          "title": "Silicon–organic hybrid thermo-optic switch based on a slot waveguide directional coupler",
+          "year": 2022,
+          "cited_by_count": 10,
+          "first_institution": "University of California San Diego"
+        },
+        "method": "openalex_id",
+        "refetched": {
+          "title": "Silicon–organic hybrid thermo-optic switch based on a slot waveguide directional coupler",
+          "year": 2022,
+          "cited_by_count": 10,
+          "first_institution": "University of California San Diego"
+        },
+        "subchecks": {
+          "title": true,
+          "year": true,
+          "cited_by_count": true,
+          "first_institution": true
+        },
+        "result": "pass",
+        "mismatched_fields": []
+      },
+      {
+        "paper_id": "W2735125579",
+        "stored": {
+          "title": "OPSquare: towards Petabit/s Optical Data Center Networks based on Fast WDM Cross-Connect Switches and Optical Flow Control",
+          "year": 2017,
+          "cited_by_count": 3,
+          "first_institution": "Eindhoven University of Technology"
+        },
+        "method": "openalex_id",
+        "refetched": {
+          "title": "OPSquare: towards Petabit/s Optical Data Center Networks based on Fast WDM Cross-Connect Switches and Optical Flow Control",
+          "year": 2017,
+          "cited_by_count": 3,
+          "first_institution": "Eindhoven University of Technology"
+        },
+        "subchecks": {
+          "title": true,
+          "year": true,
+          "cited_by_count": true,
+          "first_institution": true
+        },
+        "result": "pass",
+        "mismatched_fields": []
+      },
+      {
+        "paper_id": "W2786500500",
+        "stored": {
+          "title": "Tutorial: Integrated-photonic switching structures",
+          "year": 2018,
+          "cited_by_count": 98,
+          "first_institution": "University of Massachusetts Boston"
+        },
+        "method": "openalex_id",
+        "refetched": {
+          "title": "Tutorial: Integrated-photonic switching structures",
+          "year": 2018,
+          "cited_by_count": 98,
+          "first_institution": "University of Massachusetts Boston"
+        },
+        "subchecks": {
+          "title": true,
+          "year": true,
+          "cited_by_count": true,
+          "first_institution": true
+        },
+        "result": "pass",
+        "mismatched_fields": []
+      },
+      {
+        "paper_id": "W3210177009",
+        "stored": {
+          "title": "Energy-efficient Scaling of Active Electrical/Optical Switches in Hybrid Packet/Circuit Switched Data Center Networks",
+          "year": 2021,
+          "cited_by_count": 11,
+          "first_institution": "Beijing University of Posts and Telecommunications"
+        },
+        "method": "openalex_id",
+        "refetched": {
+          "title": "Energy-efficient Scaling of Active Electrical/Optical Switches in Hybrid Packet/Circuit Switched Data Center Networks",
+          "year": 2021,
+          "cited_by_count": 11,
+          "first_institution": "Beijing University of Posts and Telecommunications"
+        },
+        "subchecks": {
+          "title": true,
+          "year": true,
+          "cited_by_count": true,
+          "first_institution": true
+        },
+        "result": "pass",
+        "mismatched_fields": []
+      },
+      {
+        "paper_id": "W2591729902",
+        "stored": {
+          "title": "Beam-Steering All-Optical Switch for Multi-Core Fibers",
+          "year": 2017,
+          "cited_by_count": 19,
+          "first_institution": "University of Southampton"
+        },
+        "method": "openalex_id",
+        "refetched": {
+          "title": "Beam-Steering All-Optical Switch for Multi-Core Fibers",
+          "year": 2017,
+          "cited_by_count": 19,
+          "first_institution": "University of Southampton"
+        },
+        "subchecks": {
+          "title": true,
+          "year": true,
+          "cited_by_count": true,
+          "first_institution": true
+        },
+        "result": "pass",
+        "mismatched_fields": []
+      },
+      {
+        "paper_id": "W1653883346",
+        "stored": {
+          "title": "Digital MEMS switch for planar photonic crossconnects",
+          "year": 2003,
+          "cited_by_count": 31,
+          "first_institution": "Office of Multidisciplinary Activities"
+        },
+        "method": "openalex_id",
+        "refetched": {
+          "title": "Digital MEMS switch for planar photonic crossconnects",
+          "year": 2003,
+          "cited_by_count": 31,
+          "first_institution": "Office of Multidisciplinary Activities"
+        },
+        "subchecks": {
+          "title": true,
+          "year": true,
+          "cited_by_count": true,
+          "first_institution": true
+        },
+        "result": "pass",
+        "mismatched_fields": []
+      },
+      {
+        "paper_id": "W2138361600",
+        "stored": {
+          "title": "1100 x 1100 port MEMS-based optical crossconnect with 4-dB maximum loss",
+          "year": 2003,
+          "cited_by_count": 197,
+          "first_institution": "Nokia (United States)"
+        },
+        "method": "openalex_id",
+        "refetched": {
+          "title": "1100 x 1100 port MEMS-based optical crossconnect with 4-dB maximum loss",
+          "year": 2003,
+          "cited_by_count": 197,
+          "first_institution": "Nokia (United States)"
+        },
+        "subchecks": {
+          "title": true,
+          "year": true,
+          "cited_by_count": true,
+          "first_institution": true
+        },
+        "result": "pass",
+        "mismatched_fields": []
+      },
+      {
+        "paper_id": "arxiv:2510.03891",
+        "stored": {
+          "title": "Toward Co-adapting Machine Learning Job Shape and Cluster Topology",
+          "year": 2025,
+          "cited_by_count": null,
+          "first_institution": null
+        },
+        "method": "openalex_doi_singleton",
+        "refetched": {
+          "title": "Toward Co-adapting Machine Learning Job Shape and Cluster Topology",
+          "year": 2025,
+          "cited_by_count": 0,
+          "first_institution": null
+        },
+        "subchecks": {
+          "title": true,
+          "year": true,
+          "cited_by_count": null,
+          "first_institution": null
+        },
+        "result": "pass",
+        "mismatched_fields": []
+      },
+      {
+        "paper_id": "W2343971467",
+        "stored": {
+          "title": "Advanced three-dimensional MEMS photonic cross-connect switch for nonblocking all-optical networks",
+          "year": 2016,
+          "cited_by_count": 5,
+          "first_institution": "Evropský Polytechnický Institut"
+        },
+        "method": "openalex_id",
+        "refetched": {
+          "title": "Advanced three-dimensional MEMS photonic cross-connect switch for nonblocking all-optical networks",
+          "year": 2016,
+          "cited_by_count": 5,
+          "first_institution": "Evropský Polytechnický Institut"
+        },
+        "subchecks": {
+          "title": true,
+          "year": true,
+          "cited_by_count": true,
+          "first_institution": true
+        },
+        "result": "pass",
+        "mismatched_fields": []
+      },
+      {
+        "paper_id": "W3036907365",
+        "stored": {
+          "title": "ROTOS: A Reconfigurable and Cost-Effective Architecture for High-Performance Optical Data Center Networks",
+          "year": 2020,
+          "cited_by_count": 67,
+          "first_institution": "Eindhoven University of Technology"
+        },
+        "method": "openalex_id",
+        "refetched": {
+          "title": "ROTOS: A Reconfigurable and Cost-Effective Architecture for High-Performance Optical Data Center Networks",
+          "year": 2020,
+          "cited_by_count": 67,
+          "first_institution": "Eindhoven University of Technology"
+        },
+        "subchecks": {
+          "title": true,
+          "year": true,
+          "cited_by_count": true,
+          "first_institution": true
+        },
+        "result": "pass",
+        "mismatched_fields": []
+      },
+      {
+        "paper_id": "W2056973550",
+        "stored": {
+          "title": "Scalable optical switches for computing applications [Invited]",
+          "year": 2009,
+          "cited_by_count": 41,
+          "first_institution": "University of Cambridge"
+        },
+        "method": "openalex_id",
+        "refetched": {
+          "title": "Scalable optical switches for computing applications [Invited]",
+          "year": 2009,
+          "cited_by_count": 41,
+          "first_institution": "University of Cambridge"
+        },
+        "subchecks": {
+          "title": true,
+          "year": true,
+          "cited_by_count": true,
+          "first_institution": true
+        },
+        "result": "pass",
+        "mismatched_fields": []
+      },
+      {
+        "paper_id": "W3114768400",
+        "stored": {
+          "title": "Thermo-optic refraction in MoS2 medium for “Normally on” all optical switch",
+          "year": 2020,
+          "cited_by_count": 14,
+          "first_institution": "Indian Institute of Information Technology, Design and Manufacturing, Kancheepuram"
+        },
+        "method": "openalex_id",
+        "refetched": {
+          "title": "Thermo-optic refraction in MoS2 medium for “Normally on” all optical switch",
+          "year": 2020,
+          "cited_by_count": 14,
+          "first_institution": "Indian Institute of Information Technology, Design and Manufacturing, Kancheepuram"
+        },
+        "subchecks": {
+          "title": true,
+          "year": true,
+          "cited_by_count": true,
+          "first_institution": true
+        },
+        "result": "pass",
+        "mismatched_fields": []
+      },
+      {
+        "paper_id": "arxiv:2602.12521",
+        "stored": {
+          "title": "Opus: Photonic Rail-Optimized Fabric in ML Datacenters",
+          "year": 2026,
+          "cited_by_count": null,
+          "first_institution": null
+        },
+        "method": "openalex_doi_singleton",
+        "refetched": {
+          "title": "Opus: Photonic Rail-Optimized Fabric in ML Datacenters",
+          "year": 2026,
+          "cited_by_count": 0,
+          "first_institution": null
+        },
+        "subchecks": {
+          "title": true,
+          "year": true,
+          "cited_by_count": null,
+          "first_institution": null
+        },
+        "result": "pass",
+        "mismatched_fields": []
+      },
+      {
+        "paper_id": "W2970534079",
+        "stored": {
+          "title": "PULSE: Sub-microsecond Optical Circuit Switched Data Center Network",
+          "year": 2019,
+          "cited_by_count": 5,
+          "first_institution": "University College London"
+        },
+        "method": "openalex_id",
+        "refetched": {
+          "title": "PULSE: Sub-microsecond Optical Circuit Switched Data Center Network",
+          "year": 2019,
+          "cited_by_count": 5,
+          "first_institution": "University College London"
+        },
+        "subchecks": {
+          "title": true,
+          "year": true,
+          "cited_by_count": true,
+          "first_institution": true
+        },
+        "result": "pass",
+        "mismatched_fields": []
+      },
+      {
+        "paper_id": "W2905370602",
+        "stored": {
+          "title": "Low-Loss Integrated Photonic Switch Using Subwavelength Patterned Phase Change Material",
+          "year": 2018,
+          "cited_by_count": 183,
+          "first_institution": "University of Washington"
+        },
+        "method": "openalex_id",
+        "refetched": {
+          "title": "Low-Loss Integrated Photonic Switch Using Subwavelength Patterned Phase Change Material",
+          "year": 2018,
+          "cited_by_count": 183,
+          "first_institution": "University of Washington"
+        },
+        "subchecks": {
+          "title": true,
+          "year": true,
+          "cited_by_count": true,
+          "first_institution": true
+        },
+        "result": "pass",
+        "mismatched_fields": []
+      },
+      {
+        "paper_id": "W2758695468",
+        "stored": {
+          "title": "Silicon Photonic Switch Subsystem With 900 Monolithically Integrated Calibration Photodiodes and 64-Fiber Package",
+          "year": 2017,
+          "cited_by_count": 78,
+          "first_institution": "Huawei Technologies (Canada)"
+        },
+        "method": "openalex_id",
+        "refetched": {
+          "title": "Silicon Photonic Switch Subsystem With 900 Monolithically Integrated Calibration Photodiodes and 64-Fiber Package",
+          "year": 2017,
+          "cited_by_count": 78,
+          "first_institution": "Huawei Technologies (Canada)"
+        },
+        "subchecks": {
+          "title": true,
+          "year": true,
+          "cited_by_count": true,
+          "first_institution": true
+        },
+        "result": "pass",
+        "mismatched_fields": []
+      }
+    ],
+    "pass": 20,
+    "fail": 0,
+    "rate_fail": 0.0,
+    "gate_threshold": 0.1,
+    "gate_pass": true
+  },
+  "c_project_evidence": {
+    "sample_size": 10,
+    "sampled_ids": [
+      "UTStarcom (https://www.financialcontent.com/article/gnwcq-2026-9-21-utstarcom-unveils-optical-circuit-switching-ocs-solution-for-ai-data-centers-at-cioe-2026)",
+      "Oriole Networks (https://oriolenetworks.com/)",
+      "Polatis (https://www.hubersuhner.com/en/optical-circuit-switching)",
+      "Google (https://cloud.google.com/blog/topics/systems/the-evolution-of-googles-jupiter-data-center-network)",
+      "Calient (https://www.calient.net/)",
+      "Lightmatter (https://futurumgroup.com/insights/lightmatter-solving-how-to-interconnect-millions-of-chips/)",
+      "nEye (https://neye.ai)",
+      "Coherent (https://www.coherent.com/news/press-releases/optical-circuit-switch-for-data-centers-live-demo-at-ofc-2024-based-on-ultrareliable-dlx-technology)",
+      "Lumentum (https://www.lumentum.com/en/products/300x300-optical-circuit-switch-ocs)",
+      "Drut Technologies (https://www.polatis.com/press-releases/POLATIS_optical_circuit_switch_powers_SCinet_Network_at_SC25_and_showcased_in_Drut_Photonic_Infrastructure_for_AI.asp)"
+    ],
+    "items": [
+      {
+        "row": "UTStarcom (https://www.financialcontent.com/article/gnwcq-2026-9-21-utstarcom-unveils-optical-circuit-switching-ocs-solution-for-ai-data-centers-at-cioe-2026)",
+        "result": "pass",
+        "reasons": []
+      },
+      {
+        "row": "Oriole Networks (https://oriolenetworks.com/)",
+        "result": "pass",
+        "reasons": []
+      },
+      {
+        "row": "Polatis (https://www.hubersuhner.com/en/optical-circuit-switching)",
+        "result": "pass",
+        "reasons": []
+      },
+      {
+        "row": "Google (https://cloud.google.com/blog/topics/systems/the-evolution-of-googles-jupiter-data-center-network)",
+        "result": "pass",
+        "reasons": []
+      },
+      {
+        "row": "Calient (https://www.calient.net/)",
+        "result": "pass",
+        "reasons": []
+      },
+      {
+        "row": "Lightmatter (https://futurumgroup.com/insights/lightmatter-solving-how-to-interconnect-millions-of-chips/)",
+        "result": "pass",
+        "reasons": []
+      },
+      {
+        "row": "nEye (https://neye.ai)",
+        "result": "pass",
+        "reasons": []
+      },
+      {
+        "row": "Coherent (https://www.coherent.com/news/press-releases/optical-circuit-switch-for-data-centers-live-demo-at-ofc-2024-based-on-ultrareliable-dlx-technology)",
+        "result": "pass",
+        "reasons": []
+      },
+      {
+        "row": "Lumentum (https://www.lumentum.com/en/products/300x300-optical-circuit-switch-ocs)",
+        "result": "pass",
+        "reasons": []
+      },
+      {
+        "row": "Drut Technologies (https://www.polatis.com/press-releases/POLATIS_optical_circuit_switch_powers_SCinet_Network_at_SC25_and_showcased_in_Drut_Photonic_Infrastructure_for_AI.asp)",
+        "result": "pass",
+        "reasons": []
+      }
+    ],
+    "pass": 10,
+    "fail": 0,
+    "unreachable": 0,
+    "rate_fail": 0.0,
+    "gate_threshold": 0.2,
+    "gate_pass": true
+  },
+  "d_evidence_spans": {
+    "sample_size": 420,
+    "sampled_ids": "all tags rows (exhaustive, not sampled)",
+    "items": [],
+    "pass": 420,
+    "fail": 0,
+    "rate_pass": 1.0,
+    "gate_threshold": 0.9,
+    "gate_pass": true
+  },
+  "b_matrix_cells": {
+    "sample_size": 20,
+    "sampled_ids": [
+      "soa:switching_time",
+      "lcos:companies",
+      "mems_3d:wavelength_range",
+      "mems_silicon_photonic:ai_cluster_fit",
+      "mems_2d:port_count",
+      "thermo_optic:packaging_notes",
+      "piezo:trl_band",
+      "mems_silicon_photonic:trl_band",
+      "piezo:wavelength_range",
+      "electro_optic:integration",
+      "robotic_patch_panel:trl_band",
+      "thermo_optic:scaling_limit",
+      "mems_3d:polarization_dependent_loss",
+      "lcos:packaging_notes",
+      "thermo_optic:port_count",
+      "electro_optic:trl_band",
+      "robotic_patch_panel:integration",
+      "mems_3d:trl_band",
+      "mems_silicon_photonic:packaging_notes",
+      "lcos:trl_band"
+    ],
+    "items": [
+      {
+        "cell": "soa:switching_time",
+        "result": "pass",
+        "reasons": []
+      },
+      {
+        "cell": "lcos:companies",
+        "result": "pass",
+        "reasons": []
+      },
+      {
+        "cell": "mems_3d:wavelength_range",
+        "result": "pass",
+        "reasons": []
+      },
+      {
+        "cell": "mems_silicon_photonic:ai_cluster_fit",
+        "result": "pass",
+        "reasons": [
+          "First quote names AI/ML clusters directly (\"key enabler ... in data centers and AI/ML clusters\"), a direct match for yes."
+        ]
+      },
+      {
+        "cell": "mems_2d:port_count",
+        "result": "pass",
+        "reasons": []
+      },
+      {
+        "cell": "thermo_optic:packaging_notes",
+        "result": "pass",
+        "reasons": [
+          "Round 2 rework re-anchored the third clause's quote: it now reads 'feedback controlled stabilization ... even in the absence of a cooling system for the silicon chip' in one sentence, stating both feedback control and no chip cooling. All four clauses (ceramic interposer LGA, wire-bonded package with 68-fiber ribbon, feedback stabilization without cooling, air trenches cutting power) now have a matching quote. Round 1's failure (feedback stated a clause earlier than the cited quote) is fixed."
+        ]
+      },
+      {
+        "cell": "piezo:trl_band",
+        "result": "pass",
+        "reasons": [
+          "\"We report on the development of the first multi-lane all-optical switch\" is a first-demonstration signal word matching lab; no pilot or production language is present."
+        ]
+      },
+      {
+        "cell": "mems_silicon_photonic:trl_band",
+        "result": "pass",
+        "reasons": [
+          "First quote explicitly says \"proof-of-concept in lab\" (moving toward commercialization, i.e. not there yet); second quote says \"fabricated\"; both are lab signal words."
+        ]
+      },
+      {
+        "cell": "piezo:wavelength_range",
+        "result": "pass",
+        "reasons": []
+      },
+      {
+        "cell": "electro_optic:integration",
+        "result": "pass",
+        "reasons": [
+          "Round 2 rework replaced the round 1 quote (which named neither waveguide nor chip) with two new quotes: \"photonic integrated circuits\" and \"integrated onto a single chip ... using IBM's ... silicon integrated nanophotonics technology\". Both name waveguide-on-chip integration directly, fixing round 1's gap."
+        ]
+      },
+      {
+        "cell": "robotic_patch_panel:trl_band",
+        "result": "pass",
+        "reasons": [
+          "\"Announces today the launch of its new G5 Robotic Patch Panel system\" is a product-launch statement, and the second quote confirms it is \"suitable for practical use\"; together these support production (shipping product) over lab or pilot."
+        ]
+      },
+      {
+        "cell": "thermo_optic:scaling_limit",
+        "result": "pass",
+        "reasons": [
+          "Each of the three clauses has a matching quote: waveguide crossing loss growing with port count, control-unit/wiring complexity growing with port count, and high power consumption from the thermo-optic (heater) effect."
+        ]
+      },
+      {
+        "cell": "mems_3d:polarization_dependent_loss",
+        "result": "pass",
+        "reasons": []
+      },
+      {
+        "cell": "lcos:packaging_notes",
+        "result": "pass",
+        "reasons": [
+          "Quote names the MCF collimator, spatial multiplexer/demultiplexer array, and LCoS spatial light modulator integrated in one prototype, matching the value's wording exactly."
+        ]
+      },
+      {
+        "cell": "thermo_optic:port_count",
+        "result": "pass",
+        "reasons": []
+      },
+      {
+        "cell": "electro_optic:trl_band",
+        "result": "pass",
+        "reasons": [
+          "\"Fabricated for the first time\" is a lab signal word."
+        ]
+      },
+      {
+        "cell": "robotic_patch_panel:integration",
+        "result": "pass",
+        "reasons": [
+          "Quote describes a fiber-handling robot performing \"automatic cross-connection of multiple optical connectors\", which is fibers being physically moved and reconnected, matching mechanical_fiber."
+        ]
+      },
+      {
+        "cell": "mems_3d:trl_band",
+        "result": "pass",
+        "reasons": [
+          "\"World's first large-scale production deployment of optical circuit switches\" and \"over 1 million port switches shipped\" are production signal words, not lab or pilot."
+        ]
+      },
+      {
+        "cell": "mems_silicon_photonic:packaging_notes",
+        "result": "pass",
+        "reasons": [
+          "Round 2 rework replaced the grating-coupler quote with the sentence that actually names the through-glass-via (TGV) interposer and pitch-reducing fibre array. All five clauses (aluminum nitride interposer/lidless fiber array, TGV interposer/pitch-reducing fibre array, pluggable package, CMOS driver chiplets, unpackaged reliability over 10 billion cycles) now have a matching quote, fixing round 1's wrong-sentence quote."
+        ]
+      },
+      {
+        "cell": "lcos:trl_band",
+        "result": "pass",
+        "reasons": [
+          "\"Implemented ... prototype\" is a lab signal word."
+        ]
+      }
+    ],
+    "pass": 20,
+    "fail": 0,
+    "rate_fail": 0.0,
+    "gate_threshold": 0.1,
+    "gate_pass": true,
+    "category_census": {
+      "sample_size": 27,
+      "items": [
+        {
+          "cell": "mems_3d:integration",
+          "result": "pass",
+          "reasons": [
+            "Quote names a \"microlens-based multicore fiber (MCF) collimator array\" and a \"MEMS mirror array\", which is the free_space_bulk definition's own vocabulary (mirrors, collimators), not an inference from domain knowledge alone."
+          ]
+        },
+        {
+          "cell": "mems_3d:trl_band",
+          "result": "pass",
+          "reasons": [
+            "\"World's first large-scale production deployment of optical circuit switches\" and \"over 1 million port switches shipped\" are production signal words, not lab or pilot."
+          ]
+        },
+        {
+          "cell": "mems_3d:ai_cluster_fit",
+          "result": "pass",
+          "reasons": [
+            "Second quote names \"AI data center (AI DC) networking infrastructure\" directly, a direct accelerator-cluster match for yes."
+          ]
+        },
+        {
+          "cell": "mems_2d:integration",
+          "result": "fail",
+          "reasons": [
+            "Quote only says \"reflective two-dimensional (2D) and three-dimensional (3D) MEMS implementations\"; none of free, space, bulk, air, mirror, or collimator appear. free_space_bulk rests on domain knowledge the quote does not state. This cell was not touched by the stage 6 rework (only 4 cells were re-anchored) and repeats the exact gap round 1 found here."
+          ]
+        },
+        {
+          "cell": "mems_2d:trl_band",
+          "result": "pass",
+          "reasons": [
+            "\"We have demonstrated\" is a lab signal word."
+          ]
+        },
+        {
+          "cell": "mems_2d:ai_cluster_fit",
+          "result": "pass",
+          "reasons": [
+            "Quote names only fiber optic telecommunications, with no data center or accelerator context, matching no."
+          ]
+        },
+        {
+          "cell": "mems_silicon_photonic:integration",
+          "result": "pass",
+          "reasons": [
+            "Quote says \"a new type of integrated OCS that combines silicon photonics with MEMS actuation\", naming integration and silicon photonics directly."
+          ]
+        },
+        {
+          "cell": "mems_silicon_photonic:trl_band",
+          "result": "pass",
+          "reasons": [
+            "First quote explicitly says \"proof-of-concept in lab\" (moving toward commercialization, i.e. not there yet); second quote says \"fabricated\"; both are lab signal words."
+          ]
+        },
+        {
+          "cell": "mems_silicon_photonic:ai_cluster_fit",
+          "result": "pass",
+          "reasons": [
+            "First quote names AI/ML clusters directly (\"key enabler ... in data centers and AI/ML clusters\"), a direct match for yes."
+          ]
+        },
+        {
+          "cell": "lcos:integration",
+          "result": "pass",
+          "reasons": [
+            "Quote literally says \"free-space-optics-based core selective switch\", a direct match for free_space_bulk."
+          ]
+        },
+        {
+          "cell": "lcos:trl_band",
+          "result": "pass",
+          "reasons": [
+            "\"Implemented ... prototype\" is a lab signal word."
+          ]
+        },
+        {
+          "cell": "lcos:ai_cluster_fit",
+          "result": "pass",
+          "reasons": [
+            "Quote proposes a \"reconfigurable optical DCN\", matching the reconfigurable-topologies clause of the ai_cluster_fit definition, which is sufficient for yes independent of accelerator-specific wording."
+          ]
+        },
+        {
+          "cell": "piezo:integration",
+          "result": "pass",
+          "reasons": [
+            "Quotes name \"collimated beams of light\" between fiber arrays and a \"collimator actuator\", matching free_space_bulk's beams-through-air-between-collimators definition."
+          ]
+        },
+        {
+          "cell": "piezo:trl_band",
+          "result": "pass",
+          "reasons": [
+            "\"We report on the development of the first multi-lane all-optical switch\" is a first-demonstration signal word matching lab; no pilot or production language is present."
+          ]
+        },
+        {
+          "cell": "piezo:ai_cluster_fit",
+          "result": "pass",
+          "reasons": [
+            "Quotes name racks, nodes, and \"central cluster switches\" for a \"re-configurable network\", matching the reconfigurable-topologies and cluster-switch clauses of the definition."
+          ]
+        },
+        {
+          "cell": "thermo_optic:integration",
+          "result": "pass",
+          "reasons": [
+            "Round 2 rework replaced the round 1 quote (wafer/CMOS process, no waveguide or chip named) with two new quotes: \"silicon wire waveguides\" and a \"switch chip\" with \"waveguide crossings\". Both now name waveguide-on-chip integration directly."
+          ]
+        },
+        {
+          "cell": "thermo_optic:trl_band",
+          "result": "pass",
+          "reasons": [
+            "Quote says moving \"these demonstrations\" from research to product will require further advancement, meaning the paper's own stage is still lab/demonstration, not yet a product."
+          ]
+        },
+        {
+          "cell": "thermo_optic:ai_cluster_fit",
+          "result": "pass",
+          "reasons": [
+            "First quote says the switch is \"highly integrable for co-integration with GPUs\", a direct accelerator-cluster match; second quote describes replacing multi-tier switching with a single tier, matching the spine-layer-replacement clause."
+          ]
+        },
+        {
+          "cell": "electro_optic:integration",
+          "result": "pass",
+          "reasons": [
+            "Round 2 rework replaced the round 1 quote (which named neither waveguide nor chip) with two new quotes: \"photonic integrated circuits\" and \"integrated onto a single chip ... using IBM's ... silicon integrated nanophotonics technology\". Both name waveguide-on-chip integration directly, fixing round 1's gap."
+          ]
+        },
+        {
+          "cell": "electro_optic:trl_band",
+          "result": "pass",
+          "reasons": [
+            "\"Fabricated for the first time\" is a lab signal word."
+          ]
+        },
+        {
+          "cell": "electro_optic:ai_cluster_fit",
+          "result": "pass",
+          "reasons": [
+            "Quotes describe \"data center scale\" interconnection and \"high-performance computing systems\" generally, with no accelerator, GPU, or ML-training wording. That supports the conservative label partial rather than a stronger claim, which is the same standard applied to soa:ai_cluster_fit below."
+          ]
+        },
+        {
+          "cell": "soa:integration",
+          "result": "pass",
+          "reasons": [
+            "Quote names an \"on-chip gain element\", matching integrated_photonic."
+          ]
+        },
+        {
+          "cell": "soa:trl_band",
+          "result": "pass",
+          "reasons": [
+            "\"Designed, fabricated and demonstrated\" are lab signal words."
+          ]
+        },
+        {
+          "cell": "soa:ai_cluster_fit",
+          "result": "fail",
+          "reasons": [
+            "Quote is generic (\"the core of the network\", \"expensive and power-hungry transceivers and electrical switches\"), naming no data center, accelerator, GPU, or ML training context, unlike the thermo_optic and mems_silicon_photonic ai_cluster_fit quotes above which name GPUs or AI/ML clusters directly. yes overstates this evidence; by the same conservative standard applied to electro_optic:ai_cluster_fit (labeled partial on comparable generic data-center evidence) this cell should be at most partial. This cell was not touched by the stage 6 rework and repeats the exact inconsistency round 1 found here."
+          ]
+        },
+        {
+          "cell": "robotic_patch_panel:integration",
+          "result": "pass",
+          "reasons": [
+            "Quote describes a fiber-handling robot performing \"automatic cross-connection of multiple optical connectors\", which is fibers being physically moved and reconnected, matching mechanical_fiber."
+          ]
+        },
+        {
+          "cell": "robotic_patch_panel:trl_band",
+          "result": "pass",
+          "reasons": [
+            "\"Announces today the launch of its new G5 Robotic Patch Panel system\" is a product-launch statement, and the second quote confirms it is \"suitable for practical use\"; together these support production (shipping product) over lab or pilot."
+          ]
+        },
+        {
+          "cell": "robotic_patch_panel:ai_cluster_fit",
+          "result": "pass",
+          "reasons": [
+            "Quote names only \"intelligent buildings and optical access networks\", with no data center or accelerator context, matching no."
+          ]
+        }
+      ],
+      "pass": 25,
+      "fail": 2,
+      "rate_fail": 0.07407407407407407,
+      "note": "Every reported category cell (integration, trl_band, ai_cluster_fit), judged as a census. Not part of Gate C."
+    },
+    "academic_groups_companies_check": {
+      "items": [
+        {
+          "cell": "electro_optic:academic_groups",
+          "result": "supported",
+          "reason": "independently recomputed value, status and citations match comparison_matrix.csv"
+        },
+        {
+          "cell": "electro_optic:companies",
+          "result": "supported",
+          "reason": "independently recomputed value, status and citations match comparison_matrix.csv"
+        },
+        {
+          "cell": "lcos:academic_groups",
+          "result": "supported",
+          "reason": "independently recomputed value, status and citations match comparison_matrix.csv"
+        },
+        {
+          "cell": "lcos:companies",
+          "result": "supported",
+          "reason": "independently recomputed value, status and citations match comparison_matrix.csv"
+        },
+        {
+          "cell": "mems_2d:academic_groups",
+          "result": "supported",
+          "reason": "independently recomputed value, status and citations match comparison_matrix.csv"
+        },
+        {
+          "cell": "mems_2d:companies",
+          "result": "supported",
+          "reason": "independently recomputed value, status and citations match comparison_matrix.csv"
+        },
+        {
+          "cell": "mems_3d:academic_groups",
+          "result": "supported",
+          "reason": "independently recomputed value, status and citations match comparison_matrix.csv"
+        },
+        {
+          "cell": "mems_3d:companies",
+          "result": "supported",
+          "reason": "independently recomputed value, status and citations match comparison_matrix.csv"
+        },
+        {
+          "cell": "mems_silicon_photonic:academic_groups",
+          "result": "supported",
+          "reason": "independently recomputed value, status and citations match comparison_matrix.csv"
+        },
+        {
+          "cell": "mems_silicon_photonic:companies",
+          "result": "supported",
+          "reason": "independently recomputed value, status and citations match comparison_matrix.csv"
+        },
+        {
+          "cell": "piezo:academic_groups",
+          "result": "supported",
+          "reason": "independently recomputed value, status and citations match comparison_matrix.csv"
+        },
+        {
+          "cell": "piezo:companies",
+          "result": "supported",
+          "reason": "independently recomputed value, status and citations match comparison_matrix.csv"
+        },
+        {
+          "cell": "robotic_patch_panel:academic_groups",
+          "result": "supported",
+          "reason": "independently recomputed value, status and citations match comparison_matrix.csv"
+        },
+        {
+          "cell": "robotic_patch_panel:companies",
+          "result": "supported",
+          "reason": "independently recomputed value, status and citations match comparison_matrix.csv"
+        },
+        {
+          "cell": "soa:academic_groups",
+          "result": "supported",
+          "reason": "independently recomputed value, status and citations match comparison_matrix.csv"
+        },
+        {
+          "cell": "soa:companies",
+          "result": "supported",
+          "reason": "independently recomputed value, status and citations match comparison_matrix.csv"
+        },
+        {
+          "cell": "thermo_optic:academic_groups",
+          "result": "supported",
+          "reason": "independently recomputed value, status and citations match comparison_matrix.csv"
+        },
+        {
+          "cell": "thermo_optic:companies",
+          "result": "supported",
+          "reason": "independently recomputed value, status and citations match comparison_matrix.csv"
+        }
+      ],
+      "pass": 18,
+      "fail": 0
+    }
+  }
+}

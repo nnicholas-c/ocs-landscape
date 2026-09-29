@@ -1,0 +1,222 @@
+[
+  {
+    "paper_id": "W2097926925",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "we propose a hybrid packet and circuit switched data center network architecture (or HyPaC for short) which augments the traditional hierarchy of packet switches with a high speed, low complexity, rack-to-rack optical circuit-switched network to supply high bandwidth to applications.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W2105661057",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": "dc_network_systems",
+    "evidence_span": "In this article we review the growing trend of warehouse-scale mega-datacenter computing, the Internet transformation driven by mega-datacenter applications, and the opportunities and challenges for fiber optic communication technologies to support the growth of mega-datacenter computing in the next three to four years.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2112931687",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "none",
+    "adjacent_field": "silicon_photonics",
+    "evidence_span": "We present the first measurements of optical-electrical-optical conversion latency in a hybridly-integrated optoelectronic/silicon complementary metal-oxide-semiconductor (CMOS) chip designed for optical interconnection.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W834513743",
+    "tech_route": "thermo_optic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "evidence_span": "We demonstrate a 32 × 32 path-independent-insertion-loss optical path switch that integrates 1024 thermooptic Mach-Zehnder switches and 961 intersections on a small, 11 × 25 mm2 die.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W1982772673",
+    "tech_route": "mems_3d",
+    "tech_route_secondary": null,
+    "integration": "free_space_bulk",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "evidence_span": "We review the performance and applications of compact (20cm3) and large-scale (320×320) three-dimensional microelectromechanical system (3-D MEMS) based optical switches.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W1983164798",
+    "tech_route": "unclear",
+    "tech_route_secondary": "soa",
+    "integration": "integrated_photonic",
+    "trl_band": "unclear",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "We discuss silicon photonic switch fabric designs that target data-intensive computing networks, reviewing recent results, and projecting future performance goals.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W1985329895",
+    "tech_route": "thermo_optic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "evidence_span": "We demonstrate a low-crosstalk 2 x 2 thermo-optic switch with silicon wire waveguides.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W1997416642",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": "silicon_photonics",
+    "evidence_span": "Silicon photonics integrated circuits are considered to enable future computing systems with optical input-outputs co-packaged with CMOS chips to circumvent the limitations of electrical interfaces.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2002341618",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "evidence_span": "This paper describes the design and measured performance of three different silicon photonic switches: a 2×2 switch, a 1×2 switch, and a 4×4 switch.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2015534895",
+    "tech_route": "electro_optic",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "evidence_span": "We present a 4x4 spatially non-blocking Mach-Zehnder based silicon optical switch fabricated using processes fully compatible with standard CMOS.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W2019883289",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": "silicon_photonics",
+    "evidence_span": "Silicon optical modulators",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2024271185",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": "silicon_photonics",
+    "evidence_span": "We demonstrate a method for efficient coupling of guided light from a single-mode optical fiber to nanophotonic devices.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2049132385",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "evidence_span": "High-throughput silicon nanophotonic wavelength-insensitive switch for on-chip optical networks",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2063697229",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": null,
+    "evidence_span": "We demonstrated a 8×8 broadband optical switch on silicon for transverse-electrical polarization using a switch-and-selector architecture.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2069766991",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "unclear",
+    "adjacent_field": "silicon_photonics",
+    "evidence_span": "The commercialization of silicon photonics",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2070900489",
+    "tech_route": "electro_optic",
+    "tech_route_secondary": "thermo_optic",
+    "integration": "integrated_photonic",
+    "trl_band": "lab",
+    "ai_dc_fit": "indirect",
+    "adjacent_field": null,
+    "evidence_span": "These fabrics are integrated onto a single chip with digital CMOS logic, device drivers, thermo-optic phase tuners, and electro-optic phase modulators using IBM's 90 nm silicon integrated nanophotonics technology.",
+    "confidence": "medium"
+  },
+  {
+    "paper_id": "W1588462524",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "none",
+    "adjacent_field": null,
+    "evidence_span": "To support bursty traffic on the Internet (and especially WWW) efficiently, optical burst switching (OBS) is proposed as a way to streamline both protocol and hardware in building the future generation Optical Internet.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W2141911769",
+    "tech_route": "architecture_only",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "We briefly describe a working implementation of traffic matrix scheduling using a custom-built data center optical circuit switch with a 2.8 microsecond switching time.",
+    "confidence": "high"
+  },
+  {
+    "paper_id": "W2165334967",
+    "tech_route": "unclear",
+    "tech_route_secondary": null,
+    "integration": "unclear",
+    "trl_band": "unclear",
+    "ai_dc_fit": "none",
+    "adjacent_field": null,
+    "evidence_span": "This paper presents an architecture for Burst Switching Systems designed to switch data among WDM links, treating each link as a shared resource rather than just a collection of independent channels.",
+    "confidence": "low"
+  },
+  {
+    "paper_id": "W1990200961",
+    "tech_route": "other",
+    "tech_route_secondary": null,
+    "integration": "free_space_bulk",
+    "trl_band": "lab",
+    "ai_dc_fit": "direct",
+    "adjacent_field": null,
+    "evidence_span": "We have demonstrated a diffraction-based nonblocking, scalable N × N optical switch employing a digital micromirror display (DMD) with 12 μs switching speed, performing 100 times faster than the currently available technology.",
+    "confidence": "high"
+  }
+]

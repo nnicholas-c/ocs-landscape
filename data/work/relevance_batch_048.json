@@ -1,0 +1,202 @@
+[
+  {
+    "record_key": "openalex:W1850774354",
+    "source": "arxiv_via_openalex",
+    "title": "CONNECTING ANGULAR MOMENTUM AND GALACTIC DYNAMICS: THE COMPLEX INTERPLAY BETWEEN SPIN, MASS, AND MORPHOLOGY",
+    "year": 2015,
+    "venue": "The Astrophysical Journal",
+    "abstract": "The evolution and distribution of the angular momentum of dark matter (DM) halos have been discussed in several studies over the past decades. In particular, the idea arose that angular momentum conservation should allow us to infer the total angular momentum of the entire DM halo from measuring the angular momentum of the baryonic component, which is populating the center of the halo, especially for disk galaxies. To test this idea and to understand the connection between the angular momentum of the DM halo and its galaxy, we use a state-of-the-art, hydrodynamical cosmological simulation taken from the set of Magneticum Pathfinder simulations. Thanks to the inclusion of the relevant physical processes, the improved underlying numerical methods, and high spatial resolution,"
+  },
+  {
+    "record_key": "openalex:W2981106367",
+    "source": "arxiv_via_openalex",
+    "title": "An Analysis of the Shapes of Interstellar Extinction Curves. VII. Milky Way Spectrophotometric Optical-through-ultraviolet Extinction and Its R-dependence*",
+    "year": 2019,
+    "venue": "The Astrophysical Journal",
+    "abstract": "Abstract We produce a set of 72 NIR-through-UV extinction curves by combining new Hubble Space Telescope /STIS optical spectrophotometry with existing International Ultraviolet Explorer spectrophotometry (yielding gapless coverage from 1150 to 10000 Å) and NIR photometry. These curves are used to determine a new, internally consistent NIR-through-UV Milky Way mean curve and to characterize how the shapes of the extinction curves depend on R ( V ). We emphasize that while this dependence captures much of the curve variability, considerable variation remains that is independent of R ( V ). We use the optical spectrophotometry to verify the presence of structure at intermediate wavelength scales in the curves. The fact that the optical-through-UV portions of the curves are sampled at"
+  },
+  {
+    "record_key": "openalex:W3100541423",
+    "source": "arxiv_via_openalex",
+    "title": "Quantum concepts in optical polarization",
+    "year": 2020,
+    "venue": "Advances in Optics and Photonics",
+    "abstract": "We comprehensively review the quantum theory of the polarization properties of light. In classical optics, these traits are characterized by the Stokes parameters, which can be geometrically interpreted using the Poincaré sphere. Remarkably, these Stokes parameters can also be applied to the quantum world, but then important differences emerge: now, because fluctuations in the number of photons are unavoidable, one is forced to work in the three-dimensional Poincaré space that can be regarded as a set of nested spheres. Additionally, higher-order moments of the Stokes variables might play a substantial role for quantum states, which is not the case for most classical Gaussian states. This brings about important differences between these two worlds that we review in detail. In particular,"
+  },
+  {
+    "record_key": "openalex:W2948322074",
+    "source": "arxiv_via_openalex",
+    "title": "A radio ridge connecting two galaxy clusters in a filament of the cosmic web",
+    "year": 2019,
+    "venue": "Science",
+    "abstract": "Galaxy clusters are the most massive gravitationally bound structures in the Universe. They grow by accreting smaller structures in a merging process that produces shocks and turbulence in the intracluster gas. We observed a ridge of radio emission connecting the merging galaxy clusters Abell 0399 and Abell 0401 with the Low-Frequency Array (LOFAR) telescope network at 140 megahertz. This emission requires a population of relativistic electrons and a magnetic field located in a filament between the two galaxy clusters. We performed simulations to show that a volume-filling distribution of weak shocks may reaccelerate a preexisting population of relativistic particles, producing emission at radio wavelengths that illuminates the magnetic ridge."
+  },
+  {
+    "record_key": "openalex:W2910637084",
+    "source": "arxiv_via_openalex",
+    "title": "Light-matter entanglement over 50 km of optical fibre",
+    "year": 2019,
+    "venue": "npj Quantum Information",
+    "abstract": "Abstract When shared between remote locations, entanglement opens up fundamentally new capabilities for science and technology. Envisioned quantum networks use light to distribute entanglement between their remote matter-based quantum nodes. Here we report on the observation of entanglement between matter (a trapped ion) and light (a photon) over 50 km of optical fibre: two orders of magnitude further than the state of the art and a practical distance to start building large-scale quantum networks. Our methods include an efficient source of ion–photon entanglement via cavity-QED techniques (0.5 probability on-demand fibre-coupled photon from the ion) and a single photon entanglement-preserving quantum frequency converter to the 1550 nm telecom C band (0.25 device efficiency). Modestly optimising and duplicating our system would already"
+  },
+  {
+    "record_key": "openalex:W2802275066",
+    "source": "arxiv_via_openalex",
+    "title": "r -process nucleosynthesis: connecting rare-isotope beam facilities with the cosmos",
+    "year": 2019,
+    "venue": "Journal of Physics G Nuclear and Particle Physics",
+    "abstract": "Abstract This is an exciting time for the study of r -process nucleosynthesis. Recently, a neutron star merger GW170817 was observed in extraordinary detail with gravitational waves and electromagnetic radiation from radio to γ rays. The very red color of the associated kilonova suggests that neutron star mergers are an important r -process site. Astrophysical simulations of neutron star mergers and core collapse supernovae are making rapid progress. Detection of both electron neutrinos and antineutrinos from the next galactic supernova will constrain the composition of neutrino-driven winds and provide unique nucleosynthesis information. Finally, FRIB and other rare-isotope beam facilities will soon have dramatic new capabilities to synthesize many neutron-rich nuclei that are involved in the r -process. The new capabilities"
+  },
+  {
+    "record_key": "openalex:W2130244744",
+    "source": "arxiv_via_openalex",
+    "title": "Unified Description of the Optical Phonon Modes in N-Layer MoTe2",
+    "year": 2015,
+    "venue": "Nano Letters",
+    "abstract": "N-layer transition metal dichalcogenides provide a unique platform to investigate the evolution of the physical properties between the bulk (three-dimensional) and monolayer (quasi-two-dimensional) limits. Here, using high-resolution micro-Raman spectroscopy, we report a unified experimental description of the Γ-point optical phonons in N-layer 2H-molybdenum ditelluride (MoTe2). We observe series of N-dependent low-frequency interlayer shear and breathing modes (below 40 cm(-1), denoted LSM and LBM) and well-defined Davydov splittings of the mid-frequency modes (in the range 100-200 cm(-1), denoted iX and oX), which solely involve displacements of the chalcogen atoms. In contrast, the high-frequency modes (in the range 200-300 cm(-1), denoted iMX and oMX), arising from displacements of both the metal and chalcogen atoms, exhibit considerably reduced splittings. The manifold of phonon"
+  },
+  {
+    "record_key": "openalex:W2957440405",
+    "source": "arxiv_via_openalex",
+    "title": "Cold atoms in twisted-bilayer optical potentials",
+    "year": 2019,
+    "venue": "Physical Review A",
+    "abstract": "Twisted-bilayer van der Waals materials are currently at the forefront of condensed matter research. This work proposes a method to simulate twisted bilayers using cold atoms in state-dependent optical lattices. The proposed setup could open up possibilities to observe similar physics in condensed matter systems and explore parameter regimes beyond solid state realizations."
+  },
+  {
+    "record_key": "openalex:W2945511481",
+    "source": "arxiv_via_openalex",
+    "title": "Plasmonic optical tweezers based on nanostructures: fundamentals, advances and prospects",
+    "year": 2018,
+    "venue": "Nanophotonics",
+    "abstract": "Abstract The ability of metallic nanostructures to confine light at the sub‐wavelength scale enables new perspectives and opportunities in the field of nanotechnology. Making use of this unique advantage, nano‐optical trapping techniques have been developed to tackle new challenges in a wide range of areas from biology to quantum optics. In this work, starting from basic theories, we present a review of research progress in near‐field optical manipulation techniques based on metallic nanostructures, with an emphasis on some of the most promising advances in molecular technology, such as the precise control of single biomolecules. We also provide an overview of possible future research directions of nanomanipulation techniques."
+  },
+  {
+    "record_key": "openalex:W1563766405",
+    "source": "arxiv_via_openalex",
+    "title": "Weyl Points in Three-Dimensional Optical Lattices: Synthetic Magnetic Monopoles in Momentum Space",
+    "year": 2015,
+    "venue": "Physical Review Letters",
+    "abstract": "We show that a Hamiltonian with Weyl points can be realized for ultracold atoms using laser-assisted tunneling in three-dimensional optical lattices. Weyl points are synthetic magnetic monopoles that exhibit a robust, three-dimensional linear dispersion, identical to the energy-momentum relation for relativistic Weyl fermions, which are not yet discovered in particle physics. Weyl semimetals are a promising new avenue in condensed matter physics due to their unusual properties such as the topologically protected \"Fermi arc\" surface states. However, experiments on Weyl points are highly elusive. We show that this elusive goal is well within experimental reach with an extension of techniques recently used in ultracold gases."
+  },
+  {
+    "record_key": "openalex:W3138831328",
+    "source": "arxiv_via_openalex",
+    "title": "Online Dynamic B-Matching With Applications to Reconfigurable Datacenter Networks",
+    "year": 2020,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "This paper initiates the study of online algorithms for the maximum weight $b$-matching problem, a generalization of maximum weight matching where each node has at most $b \\geq 1$ adjacent matching edges. The problem is motivated by emerging optical technologies which allow to enhance datacenter networks with reconfigurable matchings, providing direct connectivity between frequently communicating racks. These additional links may improve network performance, by leveraging spatial and temporal structure in the workload. We show that the underlying algorithmic problem features an intriguing connection to online paging (a.k.a. caching), but introduces a novel challenge. Our main contribution is an online algorithm which is $O(b)$-competitive; we also prove that this is asymptotically optimal. We complement our theoretical results with extensive trace-driven simulations,"
+  },
+  {
+    "record_key": "openalex:W3036896065",
+    "source": "arxiv_via_openalex",
+    "title": "A Competitive B-Matching Algorithm for Reconfigurable Datacenter Networks.",
+    "year": 2020,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "This paper initiates the study of online algorithms for the maintaining a maximum weight b-matching problem, a generalization of maximum weight matching where each node has at most b ≥ 1 adjacent matching edges. The problem is motivated by emerging optical technologies which allow to enhance datacenter networks with reconfigurable matchings, providing direct connectivity between frequently communicating racks. These additional links may improve network performance, by leveraging spatial and temporal structure in the workload. We show that the underlying algorithmic problem features an intriguing connection to online paging, but introduces a novel challenge. Our main contribution is an online algorithm which is O(b)-competitive; we also prove that this is asymptotically optimal. We complement our theoretical results with extensive trace-driven simulations,"
+  },
+  {
+    "record_key": "openalex:W4226146239",
+    "source": "arxiv_via_openalex",
+    "title": "Mars: Near-Optimal Throughput with Shallow Buffers in Reconfigurable Datacenter Networks",
+    "year": 2022,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "The performance of large-scale computing systems often critically depends on high-performance communication networks. Dynamically reconfigurable topologies, e.g., based on optical circuit switches, are emerging as an innovative new technology to deal with the explosive growth of datacenter traffic. Specifically, \\emph{periodic} reconfigurable datacenter networks (RDCNs) such as RotorNet (SIGCOMM 2017), Opera (NSDI 2020) and Sirius (SIGCOMM 2020) have been shown to provide high throughput, by emulating a \\emph{complete graph} through fast periodic circuit switch scheduling. However, to achieve such a high throughput, existing reconfigurable network designs pay a high price: in terms of potentially high delays, but also, as we show as a first contribution in this paper, in terms of the high buffer requirements. In particular, we show that under"
+  },
+  {
+    "record_key": "openalex:W2774778035",
+    "source": "arxiv_via_openalex",
+    "title": "Datacenter Traffic Control: Understanding Techniques and Tradeoffs",
+    "year": 2017,
+    "venue": "IEEE Communications Surveys & Tutorials",
+    "abstract": "Datacenters provide cost-effective and flexible access to scalable compute and storage resources necessary for today's cloud computing needs. A typical datacenter is made up of thousands of servers connected with a large network and usually managed by one operator. To provide quality access to the variety of applications and services hosted on datacenters and maximize performance, it deems necessary to use datacenter networks effectively and efficiently. Datacenter traffic is often a mix of several classes with different priorities and requirements. This includes user-generated interactive traffic, traffic with deadlines, and long-running traffic. To this end, custom transport protocols and traffic management techniques have been developed to improve datacenter network performance. In this tutorial paper, we review the general architecture of datacenter"
+  },
+  {
+    "record_key": "openalex:W3093151243",
+    "source": "arxiv_via_openalex",
+    "title": "Scheduling Opportunistic Links in Two-Tiered Reconfigurable Datacenters",
+    "year": 2021,
+    "venue": null,
+    "abstract": "Reconfigurable optical topologies are emerging as a promising technology to improve the efficiency of datacenter networks. This paper considers the problem of scheduling opportunistic links in reconfigurable datacenters such as ProjecToR. We study the online setting and aim to minimize flow completion times. The problem is a two-tier generalization of classic switch scheduling problems. We present a stable-matching algorithm which is O(ε^-2 )-competitive against an optimal offline algorithm, in a resource augmentation model: the online algorithm runs 2+ε times faster. Our algorithm and result are fairly general and allow for different link delays and also apply to hybrid topologies which combine fixed and reconfigurable links. Our analysis is based on LP relaxation and dual fitting."
+  },
+  {
+    "record_key": "openalex:W2905867785",
+    "source": "arxiv_via_openalex",
+    "title": "A Survey on Consensus Mechanisms and Mining Strategy Management in Blockchain Networks",
+    "year": 2019,
+    "venue": "IEEE Access",
+    "abstract": "The past decade has witnessed the rapid evolution in blockchain technologies, which has attracted tremendous interests from both the research communities and industries. The blockchain network was originated from the Internet financial sector as a decentralized, immutable ledger system for transactional data ordering. Nowadays, it is envisioned as a powerful backbone/framework for decentralized data processing and data-driven self-organization in flat, open-access networks. In particular, the plausible characteristics of decentralization, immutability, and self-organization are primarily owing to the unique decentralized consensus mechanisms introduced by blockchain networks. This survey is motivated by the lack of a comprehensive literature review on the development of decentralized consensus mechanisms in blockchain networks. In this paper, we provide a systematic vision of the organization of blockchain"
+  },
+  {
+    "record_key": "openalex:W4414838842",
+    "source": "arxiv_via_openalex",
+    "title": "Revolutionizing Datacenter Networks via Reconfigurable Topologies",
+    "year": 2025,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "With the popularity of cloud computing and data-intensive applications such as machine learning, datacenter networks have become a critical infrastructure for our digital society. Given the explosive growth of datacenter traffic and the slowdown of Moore's law, significant efforts have been made to improve datacenter network performance over the last decade. A particularly innovative solution is reconfigurable datacenter networks (RDCNs): datacenter networks whose topologies dynamically change over time, in either a demand-oblivious or a demand-aware manner. Such dynamic topologies are enabled by recent optical switching technologies and stand in stark contrast to state-of-the-art datacenter network topologies, which are fixed and oblivious to the actual traffic demand. In particular, reconfigurable demand-aware and 'self-adjusting' datacenter networks are motivated empirically by the significant"
+  },
+  {
+    "record_key": "openalex:W4225673079",
+    "source": "arxiv_via_openalex",
+    "title": "PowerTCP: Pushing the Performance Limits of Datacenter Networks",
+    "year": 2021,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "Increasingly stringent throughput and latency requirements in datacenter networks demand fast and accurate congestion control. We observe that the reaction time and accuracy of existing datacenter congestion control schemes are inherently limited. They either rely only on explicit feedback about the network state (e.g., queue lengths in DCTCP) or only on variations of state (e.g., RTT gradient in TIMELY). To overcome these limitations, we propose a novel congestion control algorithm, PowerTCP, which achieves much more fine-grained congestion control by adapting to the bandwidth-window product (henceforth called power). PowerTCP leverages in-band network telemetry to react to changes in the network instantaneously without loss of throughput and while keeping queues short. Due to its fast reaction time, our algorithm is particularly well-suited"
+  },
+  {
+    "record_key": "openalex:W2907463061",
+    "source": "arxiv_via_openalex",
+    "title": "FPGA-Based Accelerators of Deep Learning Networks for Learning and Classification: A Review",
+    "year": 2018,
+    "venue": "IEEE Access",
+    "abstract": "Due to recent advances in digital technologies, and availability of credible data, an area of artificial intelligence, deep learning, has emerged and has demonstrated its ability and effectiveness in solving complex learning problems not possible before. In particular, convolutional neural networks (CNNs) have demonstrated their effectiveness in the image detection and recognition applications. However, they require intensive CPU operations and memory bandwidth that make general CPUs fail to achieve the desired performance levels. Consequently, hardware accelerators that use application-specific integrated circuits, field-programmable gate arrays (FPGAs), and graphic processing units have been employed to improve the throughput of CNNs. More precisely, FPGAs have been recently adopted for accelerating the implementation of deep learning networks due to their ability to maximize parallelism"
+  },
+  {
+    "record_key": "openalex:W2795077673",
+    "source": "arxiv_via_openalex",
+    "title": "SqueezeNext: Hardware-Aware Neural Network Design",
+    "year": 2018,
+    "venue": null,
+    "abstract": "One of the main barriers for deploying neural networks on embedded systems has been large memory and power consumption of existing neural networks. In this work, we introduce SqueezeNext, a new family of neural network architectures whose design was guided by considering previous architectures such as SqueezeNet, as well as by simulation results on a neural network accelerator. This new network is able to match AlexNet's accuracy on the ImageNet benchmark with 112× fewer parameters, and one of its deeper variants is able to achieve VGG-19 accuracy with only 4.4 Million parameters, (31× smaller than VGG-19). SqueezeNext also achieves better top-5 classification accuracy with 1.3× fewer parameters as compared to MobileNet, but avoids using depthwise-separable convolutions that are inefficient on"
+  },
+  {
+    "record_key": "openalex:W3001979534",
+    "source": "arxiv_via_openalex",
+    "title": "Scheduling for Weighted Flow and Completion Times in Reconfigurable Networks",
+    "year": 2020,
+    "venue": null,
+    "abstract": "New optical technologies offer the ability to reconfigure network topologies dynamically, rather than setting them once and for all. This is true in both optical wide area networks (optical WANs) and in datacenters, despite the many differences between these two settings. Because of these new technologies, there has been a surge of both practical and theoretical research on algorithms to take advantage of them. In particular, Jia et al. [INFOCOM '17] designed online scheduling algorithms for dynamically reconfigurable topologies for both the makespan and sum of completion times objectives. In this paper, we work in the same setting but study an objective that is more meaningful in an online setting: the sum of flow times. The flow time of a"
+  },
+  {
+    "record_key": "openalex:W1860657994",
+    "source": "arxiv_via_openalex",
+    "title": "Low Latency Datacenter Networking: A Short Survey",
+    "year": 2013,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "Datacenters are the cornerstone of the big data infrastructure supporting numerous online services. The demand for interactivity, which significantly impacts user experience and provider revenue, is translated into stringent timing requirements for flows in datacenter networks. Thus low latency networking is becoming a major concern of both industry and academia. We provide a short survey of recent progress made by the networking community for low latency datacenter networks. We propose a taxonomy to categorize existing work based on four main techniques, reducing queue length, accelerating retransmissions, prioritizing mice flows, and exploiting multi-path. Then we review select papers, highlight the principal ideas, and discuss their pros and cons. We also present our perspectives of the research challenges and opportunities, hoping to"
+  },
+  {
+    "record_key": "openalex:W3159854664",
+    "source": "arxiv_via_openalex",
+    "title": "An optical neural network using less than 1 photon per multiplication",
+    "year": 2022,
+    "venue": "Nature Communications",
+    "abstract": "Abstract Deep learning has become a widespread tool in both science and industry. However, continued progress is hampered by the rapid growth in energy costs of ever-larger deep neural networks. Optical neural networks provide a potential means to solve the energy-cost problem faced by deep learning. Here, we experimentally demonstrate an optical neural network based on optical dot products that achieves 99% accuracy on handwritten-digit classification using ~3.1 detected photons per weight multiplication and ~90% accuracy using ~0.66 photons (~2.5 × 10−19 J of optical energy) per weight multiplication. The fundamental principle enabling our sub-photon-per-multiplication demonstration—noise reduction from the accumulation of scalar multiplications in dot-product sums—is applicable to many different optical-neural-network architectures. Our work shows that optical neural networks can"
+  },
+  {
+    "record_key": "openalex:W2619096655",
+    "source": "arxiv_via_openalex",
+    "title": "Exploring the Regularity of Sparse Structure in Convolutional Neural Networks",
+    "year": 2017,
+    "venue": "arXiv (Cornell University)",
+    "abstract": "Sparsity helps reduce the computational complexity of deep neural networks by skipping zeros. Taking advantage of sparsity is listed as a high priority in next generation DNN accelerators such as TPU. The structure of sparsity, i.e., the granularity of pruning, affects the efficiency of hardware accelerator design as well as the prediction accuracy. Coarse-grained pruning creates regular sparsity patterns, making it more amenable for hardware acceleration but more challenging to maintain the same accuracy. In this paper we quantitatively measure the trade-off between sparsity regularity and prediction accuracy, providing insights in how to maintain accuracy while having more a more structured sparsity pattern. Our experimental results show that coarse-grained pruning can achieve a sparsity ratio similar to unstructured pruning without"
+  },
+  {
+    "record_key": "openalex:W2962814013",
+    "source": "arxiv_via_openalex",
+    "title": "Convergence of Edge Computing and Deep Learning: A Comprehensive Survey",
+    "year": 2020,
+    "venue": "IEEE Communications Surveys & Tutorials",
+    "abstract": "Ubiquitous sensors and smart devices from factories and communities are generating massive amounts of data, and ever-increasing computing power is driving the core of computation and services from the cloud to the edge of the network. As an important enabler broadly changing people's lives, from face recognition to ambitious smart factories and cities, developments of artificial intelligence (especially deep learning, DL) based applications and services are thriving. However, due to efficiency and latency issues, the current cloud computing service architecture hinders the vision of “providing artificial intelligence for every person and every organization at everywhere”. Thus, unleashing DL services using resources at the network edge near the data sources has emerged as a desirable solution. Therefore, edge intelligence, aiming to"
+  }
+]

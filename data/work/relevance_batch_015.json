@@ -1,0 +1,202 @@
+[
+  {
+    "record_key": "openalex:W2593369542",
+    "source": "openalex",
+    "title": "LCoS-Based Wavelength-Selective Switch for Future Finer-Grid Elastic Optical Networks Capable of All-Optical Wavelength Conversion",
+    "year": 2017,
+    "venue": "IEEE photonics journal",
+    "abstract": "A finer-grid wavelength-selective switch (WSS) based on liquid crystal on silicon is proposed, fabricated, and demonstrated. Based on the cost-effective method, namely combined lenses technique, the focal length is increased so that both the bandwidth setting resolution and grid granularity is improved from 12.5 to 6.25 GHz compared with the conventional WSS. To demonstrate its utility, we apply this finer-grid WSS to a reconfigurable optical add/drop multiplexer structure and an all-optical wavelength conversion (AOWC) module. To enable a finer-grid WSS, the performance of a finer-grid elastic optical network (EON) capable of AOWC is also investigated. Different from the conventional AOWC scheme for fixed-grid WDM networks, we propose and experimentally demonstrate a four-wave-mixing-based AOWC module specifically for EON. In addition to"
+  },
+  {
+    "record_key": "openalex:W2101457183",
+    "source": "openalex",
+    "title": "Fundamentals of phase-only liquid crystal on silicon (LCOS) devices",
+    "year": 2014,
+    "venue": "Light Science & Applications",
+    "abstract": "This paper describes the fundamentals of phase-only liquid crystal on silicon (LCOS) technology, which have not been previously discussed in detail. This technology is widely utilized in high efficiency applications for real-time holography and diffractive optics. The paper begins with a brief introduction on the developmental trajectory of phase-only LCOS technology, followed by the correct selection of liquid crystal (LC) materials and corresponding electro-optic effects in such devices. Attention is focused on the essential requirements of the physical aspects of the LC layer as well as the indispensable parameters for the response time of the device. Furthermore, the basic functionalities embedded in the complementary metal oxide semiconductor (CMOS) silicon backplane for phase-only LCOS devices are illustrated, including two typical addressing"
+  },
+  {
+    "record_key": "openalex:W3034871008",
+    "source": "openalex",
+    "title": "24 [1×12] Wavelength Selective Switches Integrated on a Single 4k LCoS Device",
+    "year": 2020,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "This article demonstrates the design, assembly, optimisation, and characterisation of 24 [1 × 12] wavelength selective switches (WSSs) based on a single set of optics and a 4k liquid crystal on silicon (LCoS) device. The average insertion loss was measured to be 8.4 dB with an average crosstalk level of 26.9 dB. To our knowledge, this module with 312 fibre ports is the highest-capacity WSS demonstrated so far. The module can be flexibly reconfigured into different switches and port counts for advanced reconfigurable optical add/drop multiplexer (ROADM) applications."
+  },
+  {
+    "record_key": "openalex:W2890825222",
+    "source": "openalex",
+    "title": "High-Efficiency Beam Steering LCOS for Wavelength Selective Switch",
+    "year": 2018,
+    "venue": "IEEE Photonics Technology Letters",
+    "abstract": "A liquid crystal on silicon (LCOS) device exhibiting high diffraction efficiency at a large deflection angle is demonstrated. An LC mixture with a large birefringence (An = 0.25 at λ = 1550 nm) and a large dielectric constant (Aε = 10.4) is developed to obtain the high-phase retardation, more than 4π, at 1550 nm within a relatively low operation voltage of 5.5 V on LCOS. When compared with the conventional modulation method of 2π phase retardation, both grating period and phase retardation are doubled in 4π modulo modulation. Using the high-phase retardation modulation method, the LCOS may achieve high diffraction efficiency more than 56.6% at 4.5° deflection angle of C-band wavelength with an optimized phase retardation profile. The high diffraction"
+  },
+  {
+    "record_key": "openalex:W2401549857",
+    "source": "openalex",
+    "title": "Small phase pattern 2D beam steering and a single LCOS design of 40 1 × 12 stacked wavelength selective switches",
+    "year": 2016,
+    "venue": "Optics Express",
+    "abstract": "Two-dimensional beam steering by small, square, phase patterns as small as 50 × 50 pixels on a phase-only liquid crystal on silicon (LCOS) device is experimentally verified as suitable for the application of wavelength selective switches (WSSs), in terms of the diffraction efficiency and steering accuracy. This enables a proposed highly functional and versatile stacked switch architecture, where 40 independent 1 × 12 WSSs can be realised on a single 4k LCOS device. They can be configured to support a 1 × N WSSs with N≤144, or an N × N wavelength crossconnect with N≤12."
+  },
+  {
+    "record_key": "openalex:W2047319155",
+    "source": "openalex",
+    "title": "Origin of Transient Crosstalk and Its Reduction in Phase-only LCOS Wavelength Selective Switches",
+    "year": 2013,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "The transient crosstalk in a phase-only liquid crystal on silicon (LCOS) based wavelength selective switch using a Fourier transform setup was investigated. Its origin was identified using an in situ test procedure and found to be related to the transient phase patterns displayed by the LCOS device during the switching. Two different methods were proposed to reduce the transient crosstalk without the need to modify the optics or electronics in use. Experimental results show both methods are able to reduce the worst-case transient crosstalk by at least 5 dB."
+  },
+  {
+    "record_key": "openalex:W2137848725",
+    "source": "openalex",
+    "title": "Crosstalk Reduction in Holographic Wavelength Selective Switches Based on Phase-only LCOS Devices",
+    "year": 2014,
+    "venue": "Optical Fiber Communication Conference",
+    "abstract": "A method to reduce crosstalk is proposed for holographic wavelength selective switches (WSSs) using a customized merit function. A reduction in crosstalk >8 dB is measured when multicasting with a phase-only LCOS device."
+  },
+  {
+    "record_key": "openalex:W3084051828",
+    "source": "openalex",
+    "title": "Recent Progress of Wavelength Selective Switch",
+    "year": 2020,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "Wavelength Division Multiplexing (WDM) networks with reconfigurable optical add/drop multiplexers (ROADMs) realize automatic scheduling and restoration at the wavelength level and are therefore part of the solution to meet increasing bandwidth and routing flexibility requirements for transport networks. The wavelength selective switch (WSS) is the key component in all commercial ROADM systems. Liquid crystal on silicon (LCoS) technology dominates current WSS installations as LCoS-based WSS can support Flexgrid technology enabled networks, and high port counts with excellent performance. WSS designs are becoming increasingly specialized for a wide variety of applications. For single WSS used in broadcast and select (B&S) architecture, superior port isolation is key for the desired signal to be filtered from the whole spectrum. While for twin WSS"
+  },
+  {
+    "record_key": "openalex:W1987873225",
+    "source": "openalex",
+    "title": "Compact and phase-error-robust multilayered AWG-based wavelength selective switch driven by a single LCOS",
+    "year": 2013,
+    "venue": "Optics Express",
+    "abstract": ", which is approximately 40% smaller than the previous configuration. The polarization-dependent loss and inter-channel crosstalk are less than 1.5 dB and -21.0 dB, respectively. An error-free transmission of 40-Gbit/s NRZ-OOK signal through the WSS is successfully demonstrated."
+  },
+  {
+    "record_key": "openalex:W2806321493",
+    "source": "openalex",
+    "title": "1 × 25 LCOS-based wavelength selective switch with flexible passbands and channel selection",
+    "year": 2018,
+    "venue": "Optical Fiber Technology",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W2026537731",
+    "source": "openalex",
+    "title": "LCOS-based Flexible Grid 1×40 Wavelength Selective Switch Using Planar Lightwave Circuit as Spot Size Converter",
+    "year": 2015,
+    "venue": "Optical Fiber Communication Conference",
+    "abstract": "A high port count WSS using planar lightwave circuit at optical input/output ports is presented. We demonstrate a LCOS-based 1×40 WSS with less than 8.0 dB insertion loss and ±17 GHz 0.5 dB passband width."
+  },
+  {
+    "record_key": "openalex:W1799756684",
+    "source": "openalex",
+    "title": "Research of two-dimensional beam steering in LCOS-based wavelength selective switch",
+    "year": 2015,
+    "venue": "Applied Optics",
+    "abstract": "The phenomenon of two-dimensional beam steering in liquid crystal on silicon (LCOS) is demonstrated. We propose a novel flexible wavelength selective switch (WSS) using LCOS two-dimensional beam steering. The cross talk of adjacent channel in the WSS is theoretically small, while the measured insert loss is lower than 15 dB."
+  },
+  {
+    "record_key": "openalex:W3023959449",
+    "source": "openalex",
+    "title": "A Hybrid Algorithm for Multi-Beam Steering of LCOS-Based Wavelength Selective Switch",
+    "year": 2020,
+    "venue": "IEEE photonics journal",
+    "abstract": "Iterative Fourier transform algorithm (IFTA) has been widely applied to achieve holograms in diffractive optical elements, however it is insufficient for designing holograms uploaded on liquid crystal on silicon (LCOS) to steer multi-beams in a wavelength selective switch (WSS). In this paper, a three-step hybrid algorithm including IFTA, Symmetrical IFTA with both phase and amplitude freedoms (SIFTA-2) and Genetic algorithm (GA) is developed to optimize the multi-casting hologram and experimentally demonstrated the multi-casting function of WSS. The reconstructed output field not only has max 128 fan-out patterns with flexible power ratio, but also can be adjusted to balance multi-indicators like reconstructed root mean square error (RMSE), diffraction efficiency and crosstalk power by setting flexible weightings of fitness functions in GA."
+  },
+  {
+    "record_key": "openalex:W4313477415",
+    "source": "openalex",
+    "title": "LCOS-Based 3 × 3 Folded Wavelength Selective Switch With High-Resolution Spectral",
+    "year": 2023,
+    "venue": "IEEE photonics journal",
+    "abstract": "We propose and experimentally verify a 3 × 3 folded wavelength selective switch (WSS) scheme based on liquid crystal on silicon spatial light modulator (LCOS-SLM). This scheme adopts a concise double-layer folded structure that greatly reduced the structural complexity of the WSS system by using the same set of optical elements to accomplish twice beam deflection. The presented WSS is for the C-band, insertion loss is less than 13.2 dB, the spectral resolution is 1 GHz, the bandwidth tuning range is 16.25∼3750 GHz."
+  },
+  {
+    "record_key": "openalex:W3010509388",
+    "source": "openalex",
+    "title": "24 1×12 Wavelength-Selective Switches Using a 312-port 3D Waveguide and a Single 4k LCoS",
+    "year": 2020,
+    "venue": null,
+    "abstract": "A switch module with a 4k LCoS is enabled by a 312-port waveguide array to produce 24 independent 1×12 WSSs. The average/best insertion losses were 8.4/7.2 dB, with crosstalk suppression of 26.9/40.5 dB."
+  },
+  {
+    "record_key": "openalex:W2901479220",
+    "source": "openalex",
+    "title": "Wide-Passband $\\mathrm{C}+\\mathrm{L}$ -Band Wavelength Selective Switch by Alternating Wave-Band Arrangement on LCOS",
+    "year": 2018,
+    "venue": null,
+    "abstract": "We propose a novel optical system that employs alternating wave-band arrangement on LCOS for multi-band operation. We demonstrated a 2-in-1 1×10 wavelength selective switch (WSS) with the operational range of C+L-band by using multiple PLC frontends."
+  },
+  {
+    "record_key": "openalex:W4381158453",
+    "source": "openalex",
+    "title": "Metasurface-enabled polarization-independent LCoS spatial light modulator for 4K resolution and beyond",
+    "year": 2023,
+    "venue": "Light Science & Applications",
+    "abstract": "With the distinct advantages of high resolution, small pixel size, and multi-level pure phase modulation, liquid crystal on silicon (LCoS) devices afford precise and reconfigurable spatial light modulation that enables versatile applications ranging from micro-displays to optical communications. However, LCoS devices suffer from a long-standing problem of polarization-dependent response in that they only perform phase modulation on one linear polarization of light, and polarization-independent phase modulation-essential for most applications-have had to use complicated polarization-diversity optics. We propose and demonstrate, for the first time, an LCoS device that directly achieves high-performance polarization-independent phase modulation at telecommunication wavelengths with 4K resolution and beyond by embedding a polarization-rotating metasurface between the LCoS backplane and the liquid crystal phase-modulating layer. We verify the device"
+  },
+  {
+    "record_key": "openalex:W2006699580",
+    "source": "openalex",
+    "title": "Few-Mode Fiber Wavelength Selective Switch with Spatial-Diversity and Reduced-Steering Angle",
+    "year": 2014,
+    "venue": "Optical Fiber Communication Conference",
+    "abstract": "We demonstrated an LCoS based 1×2 wavelength selective switch with few-mode fiber inputs. A 3D waveguide that contains mode-demultiplexers with a reshuffling network enables mode-independent passbands and a reduced steering angle requirement."
+  },
+  {
+    "record_key": "openalex:W2003395751",
+    "source": "openalex",
+    "title": "Wavelength Selective Switch using LCoS Display",
+    "year": 2014,
+    "venue": "Journal of the Korea Academia-Industrial cooperation Society",
+    "abstract": "본 논문은 차세대 ROADM을 구성하는 핵심기술인 파장선택스위치에서 기존에 사용되는 MEMS소자 기술대신에 LCOS 디스플레이 기술을 적용한 파장선택스위치의 특성을 고찰한 논문이다. LCOS소자를 이용한 5개의 포트를 갖는 파장선택 스위치 시스템을 구성하고 응답특성과 빔제어 특성, insertion loss와 channel isolation등 파장선택 스위치로서의 기본적인 특성들을 검토하였다. 본 파장선택스위치의 응답특성은 11.6 mS 로 양호하며 LCOS상에서의 grating 이미지 패턴에 따른 입사빔의 편향특성이 잘 구현되었다. C밴드내의 40개 채널에 대한 Insertion loss 측정에서 채널에 따라 5.5~12.7 dB 사이의 값이 측정되었으며 인접채널간의 channel isolation 측정은 16~18 dB 값이 측정되었다. 기존의 MEMS소자를 이용한 파장선택스위치 상용화된 제품에 비해 특성은 아직 다소 부족하지만 향후 보완연구에 의해 LCOS소자를 이용한 파장선택스위치 시스템의 기술경쟁력이 충분히 확보될 것으로 기대한다. This paper presents the characterization of the wavelength selective switch using a LCOS display instead of a MEMS device,"
+  },
+  {
+    "record_key": "openalex:W3209992943",
+    "source": "openalex",
+    "title": "Augmented reality and virtual reality displays: emerging technologies and future perspectives",
+    "year": 2021,
+    "venue": "Light Science & Applications",
+    "abstract": "With rapid advances in high-speed communication and computation, augmented reality (AR) and virtual reality (VR) are emerging as next-generation display platforms for deeper human-digital interactions. Nonetheless, to simultaneously match the exceptional performance of human vision and keep the near-eye display module compact and lightweight imposes unprecedented challenges on optical engineering. Fortunately, recent progress in holographic optical elements (HOEs) and lithography-enabled devices provide innovative ways to tackle these obstacles in AR and VR that are otherwise difficult with traditional optics. In this review, we begin with introducing the basic structures of AR and VR headsets, and then describing the operation principles of various HOEs and lithography-enabled devices. Their properties are analyzed in detail, including strong selectivity on wavelength and incident angle,"
+  },
+  {
+    "record_key": "openalex:W1061033617",
+    "source": "openalex",
+    "title": "Demonstration of 1×32 LCOS-based wavelength selective switch",
+    "year": 2015,
+    "venue": "Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE",
+    "abstract": "In recent years, reconfigurable optical add drop multiplexers (ROADM) and multiple-dimensions optical cross-connection (OXC), as the essential devices of next-generation dynamic optical networks, have been attracted great interests by research institutions and relevant industry. 1×N Wavelength selective switches (WSSs) are one of the key components in current and next generation ROADM. Currently, WSS primarily rely on micro-electromechanical systems (MEMS) and liquid crystal on silicon spatial light modulators (LCOS-SLM) switches. LCOS-based WSSs have several advantages, including flexible spectrum coverage, adaptive alignment, and robustness. Based on a novel 2-f optical structure, we therefore propose 1×32 WSS system including a 1×32 fiber-coupling lenslet arrays, a collimating lens, a transmission grating, a cylindrical lens and a LCOS-SLM. By uploading the optimized phased holograms on"
+  },
+  {
+    "record_key": "openalex:W2569202499",
+    "source": "openalex",
+    "title": "Efficient and mode selective spatial mode multiplexer based on multi-plane light conversion",
+    "year": 2014,
+    "venue": "Optics Express",
+    "abstract": "We designed and built a new type of spatial mode multiplexer, based on Multi-Plane Light Conversion (MPLC), with very low intrinsic loss and high mode selectivity. In this first demonstration we show that a typical 3-mode multiplexer achieves a mode selectivity better than -23 dB and a total insertion efficiency of -4.1 dB (optical coating improvements could increase efficiency to -2.4 dB), across the full C-band. Moreover this multiplexer is able to perform any mode conversion, and we demonstrate its performance for the first 6 eigenmodes of a few-mode fiber: LP(01), LP(11a), LP(11b), LP(02), LP(21a) and LP(21b)."
+  },
+  {
+    "record_key": "openalex:W2340261621",
+    "source": "openalex",
+    "title": "M N Wavelength Selective Switches Using Beam Splitting By Space Light Modulators",
+    "year": 2016,
+    "venue": "IEEE photonics journal",
+    "abstract": "We propose a multiple-input-multiple-output (M x N) optical switch with the same optical system as that used for a single-input-multiple-output (1 x N) switch based on a liquid crystal on silicon (LCOS). The proposed M x N switch can route multiple signals simultaneously from different plural inputs to plural outputs, which is called multipole multithrow (MPMT). In addition, our switch configuration can multiply an MPMT switch due to its multicast capacity by beam splitting with holographic phase modulation on the LCOS. We demonstrate a two-degree ROADM using our proposed 4 x 4 wavelength selective switch. The experimental results show that a two-degree ROADM node can be realized by using this switch. The increase in the insertion loss caused by the"
+  },
+  {
+    "record_key": "openalex:W2973411916",
+    "source": "openalex",
+    "title": "Demonstration of Asymmetric Wavelength Selective Switch Based on LCoS SLM for Optical Access Network",
+    "year": 2019,
+    "venue": null,
+    "abstract": "In this research, an asymmetric wavelength selective switch (WSS) based on 4 by 16 switching architecture using Liquid Crystal on Silicon (LCoS) Spatial Light Modulator (SLM), which offers simultaneously multicast transmission and power equalization, for application in optical access network is reported and experimentally demonstrated. A dynamic spectrum equalizer through the design of LCoS-SLM was proposed to improve the power uniformity of transmitted wavelengths, and the system multicast transmission was achieved through an efficient design of computer-generated holograms based on GS algorithm. According to the experimental measurements, the system light loss of the switching system were analyzed and the results shown that depending on different wavelength selection scenario with/without multicast transmissions, the switching system has a light loss of -21"
+  },
+  {
+    "record_key": "openalex:W3181432130",
+    "source": "openalex",
+    "title": "Multi-Band Photonic Integrated Wavelength Selective Switch",
+    "year": 2021,
+    "venue": "Journal of Lightwave Technology",
+    "abstract": "As fiber-optic systems turn toward multi-band transmission (MBT), exploiting the complete low loss window of optical fibers, novel optical components, able to operate in bands other than the conventional C-band, become necessary. In light of this, we report on a multi-band photonic integrated$\\mathbf {1\\times 2}$wavelength selective switch (WSS) operating in the O, S, C and L-bands. The photonic integrated WSS presented in this work uses a folded arrayed-waveguide grating (AWG) as the filtering element, while the wideband operation of the thermo-optic switches allows the routing of the individual channels from those bands to any of the device output ports. The operation of the WSS is experimentally validated for different bands and modulation formats. Results show error-free operation with limited penalty"
+  }
+]

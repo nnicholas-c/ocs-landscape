@@ -1,0 +1,202 @@
+[
+  {
+    "record_key": "openalex:W2520137363",
+    "source": "openalex",
+    "title": "Optical Measurement of the Dynamic Contact Process of a MEMS Inertial Switch Under High Shock Loads",
+    "year": 2016,
+    "venue": "IEEE Transactions on Industrial Electronics",
+    "abstract": "In order to characterize the dynamic and microscopic contact process of a microelectromechanical system (MEMS) inertial switch under high shock loads, a high-speed camera-based optical measurement system was developed. The optical measurement system was successfully employed to visualize and characterize the responding motion of the proof mass and the contact process with the flexible electrodes. In particular, the contact process in a flexible and a rigid mode was compared to investigate the mechanisms of using flexible electrodes to extend the contact time. The constraint performance of the limiting post of the switch was demonstrated as well. Furthermore, the optical results were in fairly good agreement with the results of electrical measurement and numerical predictions."
+  },
+  {
+    "record_key": "openalex:W3176835102",
+    "source": "openalex",
+    "title": "Dynamic piezoelectric MEMS-based optical metasurfaces",
+    "year": 2021,
+    "venue": "Science Advances",
+    "abstract": "Optical metasurfaces (OMSs) have shown unprecedented capabilities for versatile wavefront manipulations at the subwavelength scale. However, most well-established OMSs are static, featuring well-defined optical responses determined by OMS configurations set during their fabrication, whereas dynamic OMS configurations investigated so far often exhibit specific limitations and reduced reconfigurability. Here, by combining a thin-film piezoelectric microelectromechanical system (MEMS) with a gap-surface plasmon-based OMS, we develop an electrically driven dynamic MEMS-OMS platform that offers controllable phase and amplitude modulation of the reflected light by finely actuating the MEMS mirror. Using this platform, we demonstrate MEMS-OMS components for polarization-independent beam steering and two-dimensional (2D) focusing with high modulation efficiencies (~50%), broadband operation (~20% near the operating wavelength of 800 nanometers), and fast responses (<0.4"
+  },
+  {
+    "record_key": "openalex:W3132748550",
+    "source": "openalex",
+    "title": "Design and Fabrication of a MEMS Electromagnetic Swing-Type Actuator for Optical Switch",
+    "year": 2021,
+    "venue": "Micromachines",
+    "abstract": ", consisting of two stators, a swing disc (rotator), a rotating shaft, and protective covers. Multi-winding stators and a multipole rotator were adopted to increase the output torque of the actuator. The actuator's working principle and magnetic circuit were analyzed. The calculation results show that the actuator's output torque is decisive to the air gap's magnetic flux density between the stators and the swing disc. NiFe alloy magnetic cores were embedded into each winding center to increase the magnetic flux density. A special manufacturing process was developed for fabricating the stator windings on the ferrite substrate. Six copper windings and NiFe magnetic cores were electroplated onto the ferrite substrates. The corresponding six magnetic poles were configured to the SmCo permanent"
+  },
+  {
+    "record_key": "openalex:W2994903006",
+    "source": "openalex",
+    "title": "Low-voltage MEMS optical phase modulators and switches on a indium phosphide membrane on silicon",
+    "year": 2019,
+    "venue": "Applied Physics Letters",
+    "abstract": "In this paper, an optical switch based on a microelectromechanical phase modulator is presented. Phase tuning is achieved by tuning the vertical gap between two vertically coupled waveguides through the application of a reverse bias on a p-i-n junction. An effective refractive index tuning Δneff of 0.03 and a phase shift of more than 3π rad at telecom wavelengths are measured with an on-chip Mach–Zehnder interferometer (MZI), with a phase-tuning length of only 140 μm. With a bias voltage of 5.1 V, a half-wave-voltage-length product (Vπ L) of 5.6 × 10−3 V·cm is achieved. Furthermore, optical crossbar switching in a MZI is demonstrated with a 15 dB extinction ratio using an actuation voltage of only 4.2 V. Our work provides"
+  },
+  {
+    "record_key": "openalex:W4220706180",
+    "source": "openalex",
+    "title": "A large-scale microelectromechanical-systems-based silicon photonics LiDAR",
+    "year": 2022,
+    "venue": "Nature",
+    "abstract": "Abstract Three-dimensional (3D) imaging sensors allow machines to perceive, map and interact with the surrounding world1. The size of light detection and ranging (LiDAR) devices is often limited by mechanical scanners. Focal plane array-based 3D sensors are promising candidates for solid-state LiDARs because they allow electronic scanning without mechanical moving parts. However, their resolutions have been limited to 512 pixels or smaller2. In this paper, we report on a 16,384-pixel LiDAR with a wide field of view (FoV, 70° × 70°), a fine addressing resolution (0.6° × 0.6°), a narrow beam divergence (0.050° × 0.049°) and a random-access beam addressing with sub-MHz operation speed. The 128 × 128-element focal plane switch array (FPSA) of grating antennas and microelectromechanical systems (MEMS)-actuated"
+  },
+  {
+    "record_key": "openalex:W2964155064",
+    "source": "openalex",
+    "title": "A review of dielectric optical metasurfaces for wavefront control",
+    "year": 2018,
+    "venue": "DOAJ (DOAJ: Directory of Open Access Journals)",
+    "abstract": "During the past few years, metasurfaces have been used to demonstrate optical elements and systems with capabilities that surpass those of conventional diffractive optics. Here, we review some of these recent developments, with a focus on dielectric structures for shaping optical wavefronts. We discuss the mechanisms for achieving steep phase gradients with high efficiency, simultaneous polarization and phase control, controlling the chromatic dispersion, and controlling the angular response. Then, we review applications in imaging, conformal optics, tunable devices, and optical systems. We conclude with an outlook on future potentials and challenges that need to be overcome."
+  },
+  {
+    "record_key": "openalex:W4319827927",
+    "source": "openalex",
+    "title": "A Review of Silicon‐Based Integrated Optical Switches",
+    "year": 2023,
+    "venue": "Laser & Photonics Review",
+    "abstract": "Abstract Recently, silicon‐integrated optical circuits have attracted intensive interests, thanks to the compatibility with the complementary metal‐oxide‐semiconductor (CMOS) technology that enables mass production at low cost. The optical switch is an essential part of optical integrated circuits, with broad applications in optical communications and networks, optical computing, and sensing such as LiDAR. In general, the silicon‐integrated optical switch adopts thermo‐optic or carrier dispersion effect to realize reconfigurable signal routing. However, the use of thermo‐optic effect leads to high power consumption, and the carrier dispersion effect has the disadvantage of small refractive index change. In addition, both effects are non‐latching, and hence, continuous power consumption is required even when switching is not needed. For overcoming these drawbacks, phase‐change materials (PCMs) have"
+  },
+  {
+    "record_key": "openalex:W3165022361",
+    "source": "openalex",
+    "title": "Actively logical modulation of MEMS-based terahertz metamaterial",
+    "year": 2021,
+    "venue": "Photonics Research",
+    "abstract": "The integration of micro-electro-mechanical system (MEMS) with metamaterial has provided a novel route to achieve programmability via its reconfigurable capabilities. Here, we propose and demonstrate a MEMS-based metadevice by using switchable winding-shaped cantilever metamaterial (WCM) for active logical modulation. WCM can be actuated by external driving voltage, and the logical modulation bit is performed by releasing MEMS cantilevers to represent “on” and “off” states. While the underneath substrate surface of a MEMS-based metadevice is rough after releasing the cantilevers, the metadevice is allowed to operate on the reconfigurable switching state and avoid the snapping down of the device when the system is overloaded. Such a reconfigurable and programmable MEMS-based metadevice exhibits multifunctional characteristics to simultaneously perform the logic operations of"
+  },
+  {
+    "record_key": "openalex:W1991138084",
+    "source": "openalex",
+    "title": "Fabrication and characterization of a piezoelectric gallium nitride switch for optical MEMS applications",
+    "year": 2012,
+    "venue": "Smart Materials and Structures",
+    "abstract": "The utilization of gallium nitride (GaN) in the area of microelectronics continues to increase due to the advantages it offers over other semiconductors. This paper presents GaN as a candidate material well suited for novel microelectromechanical systems (MEMS). The potential of GaN for MEMS is demonstrated via the design, analysis, fabrication, testing and characterization of an optical microswitch device actuated by piezoelectric and electrostrictive means. The piezoelectric and electrostrictive properties of GaN and its differences from common piezoelectrics are briefly discussed before touching upon the device configuration used to implement the microswitch device. Subsequently, the development of two recent fabrication technologies, photoelectrochemical etching and bias-enabled dark electrochemical etching, used to realize the three-dimensional device structure in GaN are described in"
+  },
+  {
+    "record_key": "openalex:W2950629902",
+    "source": "openalex",
+    "title": "Design and applications of MEMS flow sensors: A review",
+    "year": 2019,
+    "venue": "Sensors and Actuators A Physical",
+    "abstract": "There is an indispensable need for fluid flow rate and direction sensors in various medical, industrial and environmental applications. Besides the critical demands on sensing range of flow parameters (such as rate, velocity, direction and temperature), the properties of different target gases or liquids to be sensed pose challenges to the development of reliable, inexpensive and low powered sensors. This paper presents an overview of the work done on design and development of Microelectromechanical system (MEMS)-based flow sensors in recent years. In spite of using some similar principles, diverse production methods, analysis strategies, and different sensing materials, MEMS flow sensors can be broadly categorized into three main types, namely thermal sensors, piezoresistive sensors and piezoelectric sensors. Additionally, some key challenges"
+  },
+  {
+    "record_key": "openalex:W2914521323",
+    "source": "openalex",
+    "title": "A Comparative Review of MEMS-Based Optical Cross-Connects for All-Optical Networks From the Past to the Present Day",
+    "year": 2019,
+    "venue": "IEEE Communications Surveys & Tutorials",
+    "abstract": "Micro-electro-mechanical systems (MEMS)-based cross-connects are widely used for all-optical switching in recent optical networks. This paper provides a brief overview of various photonic switching technologies and a detailed review of the working principles, actuating mechanisms, and architectures of MEMS-based optical cross-connects (OXCs) from the last two decades. New approaches, which, potentially, will be adopted in the next generation of MEMS-based cross-connects are also described. The switching MEMS-based cross-connects speed can vary from less than 1 μs to tens of ms depending on the chosen switching mechanism and actuator parameters. This paper describes the various types of actuators used to manipulate the optical signal inside all-OXCs. Optical properties (insertion loss, crosstalk), switching speed, and scalability are also discussed."
+  },
+  {
+    "record_key": "openalex:W2080568909",
+    "source": "openalex",
+    "title": "Fast optical-resolution photoacoustic microscopy using a 2-axis water-proofing MEMS scanner",
+    "year": 2015,
+    "venue": "Scientific Reports",
+    "abstract": "Optical-resolution photoacoustic microscopy (OR-PAM) is a novel label-free microscopic imaging tool to provide in vivo optical absorbing contrasts. Specially, it is crucial to equip a real-time imaging capability without sacrificing high signal-to-noise ratios (SNRs) for identifying and tracking specific diseases in OR-PAM. Herein we demonstrate a 2-axis water-proofing MEMS scanner made of flexible PDMS. This flexible scanner results in a wide scanning range (9 × 4 mm(2) in a transverse plane) and a fast imaging speed (5 B-scan images per second). Further, the MEMS scanner is fabricated in a compact footprint with a size of 15 × 15 × 15 mm(3). More importantly, the scanning ability in water makes the MEMS scanner possible to confocally and simultaneously reflect both ultrasound"
+  },
+  {
+    "record_key": "openalex:W4404563748",
+    "source": "openalex",
+    "title": "MEMS-metasurface–enabled mode-switchable vortex lasers",
+    "year": 2024,
+    "venue": "Science Advances",
+    "abstract": "Compared to conventional lasers limited to generating static modes, mode-switchable lasers equipped with adjustable optics significantly enhance the flexibility and versatility of coherent light sources. However, most current approaches to achieving mode-switchable lasers depend on conventional, i.e., inherently bulky and slow, optical components. Here, we demonstrate fiber lasers empowered by electrically actuated intracavity microelectromechanical system (MEMS)–based optical metasurface (MEMS-OMS) enabling mode switching between fundamental Gaussian and vortex modes at ~1030 nm. By finely adjusting the voltage applied to the MEMS mirror, high-contrast switching between Gaussian ( l = 0) and vortex ( l = 1, 2, 3, and 5, depending on the OMS arrangement) laser modes is achieved, featuring high mode purities (>95%) and fast responses (~100 microseconds). The proposed"
+  },
+  {
+    "record_key": "openalex:W2064632152",
+    "source": "openalex",
+    "title": "Indicators for optical oxygen sensors",
+    "year": 2012,
+    "venue": "Bioanalytical reviews",
+    "abstract": "Continuous monitoring of oxygen concentration is of great importance in many different areas of research which range from medical applications to food packaging. In the last three decades, significant progress has been made in the field of optical sensing technology and this review will highlight the one inherent to the development of oxygen indicators. The first section outlines the bioanalytical fields in which optical oxygen sensors have been applied. The second section gives the reader a comprehensive summary of the existing oxygen indicators with a critical highlight on their photophysical and sensing properties. Altogether, this review is meant to give the potential user a guide to select the most suitable oxygen indicator for the particular application of interest."
+  },
+  {
+    "record_key": "openalex:W2922403412",
+    "source": "openalex",
+    "title": "A review of MEMS inertial switches",
+    "year": 2019,
+    "venue": "Microsystem Technologies",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W2092550203",
+    "source": "openalex",
+    "title": "Analysis of Pull-in Behavior of Electrostatic MEMS Actuators for Optical Switching Applications",
+    "year": 2012,
+    "venue": "Journal of Applied Sciences",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W3088036067",
+    "source": "openalex",
+    "title": "Silicon Photonic Mode-Division Reconfigurable Optical Add/Drop Multiplexers with Mode-Selective Integrated MEMS Switches",
+    "year": 2020,
+    "venue": "Photonics",
+    "abstract": "Mode-division multiplexing (MDM) is an attractive solution for future on-chip networks to enhance the optical transmission capacity with a single laser source. A mode-division reconfigurable optical add/drop multiplexer (ROADM) is one of the key components to construct flexible and complex on-chip optical networks for MDM systems. In this paper, we report on a novel scheme of mode-division ROADM with mode-selective silicon photonic MEMS (micro-electromechanical system) switches. With this ROADM device, data carried by any mode-channels can be rerouted or switched at an MDM network node, i.e., any mode could be added/dropped to/from the multimode bus waveguide flexibly and selectively. Particularly, the design and simulation of adiabatic vertical couplers for three quasi-TE modes (TE0, TE1, and TE2 modes) based on effective"
+  },
+  {
+    "record_key": "openalex:W2755280712",
+    "source": "openalex",
+    "title": "Ultrafast synthesis and switching of light polarization in nonlinear anisotropic metamaterials",
+    "year": 2017,
+    "venue": "Nature Photonics",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W2343971467",
+    "source": "openalex",
+    "title": "Advanced three-dimensional MEMS photonic cross-connect switch for nonblocking all-optical networks",
+    "year": 2016,
+    "venue": "Optical Switching and Networking",
+    "abstract": ""
+  },
+  {
+    "record_key": "openalex:W3042321904",
+    "source": "openalex",
+    "title": "Research Status and Development Trend of MEMS Switches: A Review",
+    "year": 2020,
+    "venue": "Micromachines",
+    "abstract": "MEMS switch is a movable device manufactured by means of semiconductor technology, possessing many incomparable advantages such as a small volume, low power consumption, high integration, etc. This paper reviews recent research of MEMS switches, pointing out the important performance indexes and systematically summarizing the classification according to driving principles. Then, a comparative study of current MEMS switches stressing their strengths and drawbacks is presented, based on performance requirements such as driven voltage, power consumption, and reliability. The efforts of teams to optimize MEMS switches are introduced and the applications of switches with different driving principles are also briefly reviewed. Furthermore, the development trend of MEMS switch and the research gaps are discussed. Finally, a summary and forecast about MEMS"
+  },
+  {
+    "record_key": "openalex:W2050362991",
+    "source": "openalex",
+    "title": "MEMS-based micro-optical switch for display devices",
+    "year": 2012,
+    "venue": "Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE",
+    "abstract": "This paper presents a micro electromechanical system (MEMS) based micro optical switch for display devices. The size of the micro optical switch was 254 μm × 254 μm. The micro optical switch moves vertically by electrostatic force and consists of two parallel plate electrodes which have rectangular aperture array. The lower electrode was directly patterned on a glass substrate and the upper electrode was suspended by cantilever spring which was supported by anchors. The electrodes were made of thin aluminum film and the gap between two electrodes was 3.3 μm. The thickness of the electrodes was 0.3 μm respectively and the lower electrode was covered with 0.3 μm silicon dioxide. The width of the aperture and the metal were 8"
+  },
+  {
+    "record_key": "openalex:W2979824403",
+    "source": "openalex",
+    "title": "Silicon photonic wavelength cross-connect with integrated MEMS switching",
+    "year": 2019,
+    "venue": "APL Photonics",
+    "abstract": "We report on monolithically integrated wavelength cross-connects (WXCs) on an enhanced silicon photonic platform with integrated micro-electro-mechanical-system (MEMS) actuators. An 8 × 8 WXC with 8 wavelength channels comprising 16 echelle gratings and 512 silicon photonic MEMS switches is integrated on a 9.7 mm × 6.7 mm silicon chip. The WXC inherits the fundamental advantages of silicon photonic MEMS space switches, including low loss, broad optical bandwidth, large fabrication tolerance, and simple digital control. The WXC exhibits a low crosstalk of −30 dB, a submicrosecond switching time of 0.7 µs, and on-chip optical insertion losses varying from 8.8 dB to 16.4 dB. To our knowledge, it is the largest channel capacity (64 channels = 8 ports × 8 wavelengths) integrated"
+  },
+  {
+    "record_key": "openalex:W2894151917",
+    "source": "openalex",
+    "title": "Reconfigurable MEMS Fano metasurfaces with multiple-input–output states for logic operations at terahertz frequencies",
+    "year": 2018,
+    "venue": "Nature Communications",
+    "abstract": "A broad range of dynamic metasurfaces has been developed for manipulating the intensity, phase and wavefront of electromagnetic radiation from microwaves to optical frequencies. However, most of these metasurfaces operate in single-input-output state. Here, we experimentally demonstrate a reconfigurable MEMS Fano resonant metasurface possessing multiple-input-output (MIO) states that performs logic operations with two independently controlled electrical inputs and an optical readout at terahertz frequencies. The far-field behaviour of Fano resonance exhibits XOR and XNOR operations, while the near-field resonant confinement enables the NAND operation. The MIO configuration resembling hysteresis-type closed-loop behaviour is realized through inducing electromechanically tuneable out-of-plane anisotropy in the near-field coupling of constituent resonator structures. The XOR metamaterial gate possesses potential applications in cryptographically secured terahertz wireless communication"
+  },
+  {
+    "record_key": "openalex:W2781493652",
+    "source": "openalex",
+    "title": "The TacTip Family: Soft Optical Tactile Sensors with 3D-Printed Biomimetic Morphologies",
+    "year": 2018,
+    "venue": "Soft Robotics",
+    "abstract": "Tactile sensing is an essential component in human-robot interaction and object manipulation. Soft sensors allow for safe interaction and improved gripping performance. Here we present the TacTip family of sensors: a range of soft optical tactile sensors with various morphologies fabricated through dual-material 3D printing. All of these sensors are inspired by the same biomimetic design principle: transducing deformation of the sensing surface via movement of pins analogous to the function of intermediate ridges within the human fingertip. The performance of the TacTip, TacTip-GR2, TacTip-M2, and TacCylinder sensors is here evaluated and shown to attain submillimeter accuracy on a rolling cylinder task, representing greater than 10-fold super-resolved acuity. A version of the TacTip sensor has also been open-sourced, enabling other"
+  },
+  {
+    "record_key": "openalex:W2520718776",
+    "source": "openalex",
+    "title": "Effect of bioink properties on printability and cell viability for 3D bioplotting of embryonic stem cells",
+    "year": 2016,
+    "venue": "Biofabrication",
+    "abstract": "3D cell printing is an emerging technology for fabricating complex cell-laden constructs with precise and pre-designed geometry, structure and composition to overcome the limitations of 2D cell culture and conventional tissue engineering scaffold technology. This technology enables spatial manipulation of cells and biomaterials, also referred to as 'bioink', and thus allows study of cellular interactions in a 3D microenvironment and/or in the formation of functional tissues and organs. Recently, many efforts have been made to develop new bioinks and to apply more cell sources for better biocompatibility and biofunctionality. However, the influences of printing parameters on the shape fidelity of 3D constructs as well as on cell viability after the cell printing process have been poorly characterized. Furthermore, parameter optimization"
+  }
+]

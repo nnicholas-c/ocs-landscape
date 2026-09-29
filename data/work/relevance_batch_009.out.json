@@ -1,0 +1,152 @@
+[
+  {
+    "record_key": "openalex:W2520137363",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Inertial shock switch measured optically; not an optical circuit switch"
+  },
+  {
+    "record_key": "openalex:W3176835102",
+    "score": 1,
+    "adjacent_field": "mems_micromirror",
+    "reason": "MEMS mirror beam steering metasurface, not fiber circuit switching"
+  },
+  {
+    "record_key": "openalex:W3132748550",
+    "score": 2,
+    "adjacent_field": null,
+    "reason": "MEMS electromagnetic actuator built specifically for an optical switch"
+  },
+  {
+    "record_key": "openalex:W2994903006",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "MEMS phase modulator demonstrates optical crossbar switching on chip"
+  },
+  {
+    "record_key": "openalex:W4220706180",
+    "score": 1,
+    "adjacent_field": "mems_micromirror",
+    "reason": "MEMS-actuated focal plane array for LiDAR beam steering, not circuit switch"
+  },
+  {
+    "record_key": "openalex:W2964155064",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Dielectric metasurface wavefront review, no switching application"
+  },
+  {
+    "record_key": "openalex:W4319827927",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Review of silicon integrated optical switches, thermo-optic and carrier dispersion"
+  },
+  {
+    "record_key": "openalex:W3165022361",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "THz metamaterial logic modulation, not optical circuit switching"
+  },
+  {
+    "record_key": "openalex:W1991138084",
+    "score": 2,
+    "adjacent_field": null,
+    "reason": "Piezoelectric GaN microswitch fabricated for optical MEMS applications"
+  },
+  {
+    "record_key": "openalex:W2950629902",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "MEMS flow sensor review, unrelated to optical switching"
+  },
+  {
+    "record_key": "openalex:W2914521323",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "Comparative review of MEMS-based optical cross-connects for all-optical networks"
+  },
+  {
+    "record_key": "openalex:W2080568909",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Photoacoustic microscopy MEMS scanner, medical imaging not switching"
+  },
+  {
+    "record_key": "openalex:W4404563748",
+    "score": 1,
+    "adjacent_field": "mems_micromirror",
+    "reason": "MEMS mirror actuation switches laser cavity modes, not fiber circuit switch"
+  },
+  {
+    "record_key": "openalex:W2064632152",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Optical oxygen sensor indicators, unrelated"
+  },
+  {
+    "record_key": "openalex:W2922403412",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "MEMS inertial switch review, unrelated to optical switching; empty abstract"
+  },
+  {
+    "record_key": "openalex:W2092550203",
+    "score": 2,
+    "adjacent_field": null,
+    "reason": "Electrostatic MEMS actuator pull-in analysis for optical switching, per title"
+  },
+  {
+    "record_key": "openalex:W3088036067",
+    "score": 2,
+    "adjacent_field": "telecom_oxc_roadm",
+    "reason": "ROADM using mode-selective integrated MEMS switches for telecom MDM"
+  },
+  {
+    "record_key": "openalex:W2755280712",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Polarization switching via nonlinear metamaterials, not circuit switching; empty abstract"
+  },
+  {
+    "record_key": "openalex:W2343971467",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "3D MEMS photonic cross-connect switch for nonblocking all-optical networks"
+  },
+  {
+    "record_key": "openalex:W3042321904",
+    "score": 1,
+    "adjacent_field": "mems_micromirror",
+    "reason": "General MEMS switch review, not clearly optical; actuator physics transfers"
+  },
+  {
+    "record_key": "openalex:W2050362991",
+    "score": 1,
+    "adjacent_field": "mems_micromirror",
+    "reason": "MEMS optical shutter switch for displays, not fiber circuit switching"
+  },
+  {
+    "record_key": "openalex:W2979824403",
+    "score": 3,
+    "adjacent_field": null,
+    "reason": "512-port silicon photonic MEMS wavelength cross-connect switch matrix built"
+  },
+  {
+    "record_key": "openalex:W2894151917",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "MEMS metasurface THz logic gates, not optical circuit switching"
+  },
+  {
+    "record_key": "openalex:W2781493652",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Soft optical tactile sensors, unrelated"
+  },
+  {
+    "record_key": "openalex:W2520718776",
+    "score": 0,
+    "adjacent_field": null,
+    "reason": "Bioink 3D printing, unrelated"
+  }
+]
