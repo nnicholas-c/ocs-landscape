@@ -814,7 +814,7 @@ document.getElementById("where").innerHTML = WHERE.map(([g, intro, rows]) =>
   `<div class="where-group"><h3>${g}</h3><p>${esc(intro)}</p><dl class="where">` +
   rows.map(([p, name, desc]) => {
     const tag = TAGS.includes(p);
-    const href = tag ? `${REPO}/tree/${p}` : `${REPO}/${DIRS.includes(p) ? "tree" : "blob"}/master/${p}`;
+    const href = p.startsWith("graphs/") && p.endsWith(".html") ? `../${p}` : tag ? `${REPO}/tree/${p}` : `${REPO}/${DIRS.includes(p) ? "tree" : "blob"}/master/${p}`;
     return `<dt><a href="${href}">${esc(name)}</a>${tag ? "" : `<code>${esc(p)}</code>`}</dt><dd>${esc(desc)}</dd>`;
   }).join("") + `</dl></div>`
 ).join("");
