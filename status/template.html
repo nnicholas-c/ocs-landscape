@@ -322,7 +322,7 @@ footer { margin-top: 64px; padding: 22px 0 48px; border-top: 1px solid var(--rul
   <div class="hero">
     <div>
       <h1>Optical circuit switching landscape</h1>
-      <p class="lead">In week one I ran a small-sample trial that maps optical circuit switching (OCS) for AI data centers. It covers the switching technologies and research teams, drawn from two free paper sources, OpenAlex and arXiv, and the companies, drawn from a capped search of their own web pages. Both runs are finished, audited and merged, and the repository is ready to hand over to Yuxuan.</p>
+      <p class="lead">This week-one small-sample trial maps optical circuit switching (OCS) for AI data centers. It covers the switching technologies and research teams, drawn from two free paper sources, OpenAlex and arXiv, and the companies, drawn from a capped search of their own web pages. Both runs are finished and audited. This presentation covers the results, limitations, and decisions for the next phase.</p>
     </div>
     <figure class="switch-fig">
       <svg id="ocs" viewBox="0 0 420 292" role="img" aria-labelledby="ocs-title">
@@ -338,7 +338,7 @@ footer { margin-top: 64px; padding: 22px 0 48px; border-top: 1px solid var(--rul
       <ul>
         <li>Ran run 1 through all nine stages, then run 2 through stages 1b to 8, keeping run 1's company scout. Both passed all three gates, and run 2's final audit passed on its first round.</li>
         <li>Merged 15 pull requests, 14 of them with a posted review or check.</li>
-        <li>Wrote the one-pager, the meeting prep and the handover, each with a Chinese draft.</li>
+        <li>Prepared the research summary and meeting notes, with Chinese drafts.</li>
         <li>Ran two independent automated reviews of the top 20 authors and the 13 fuzzy-title merges.</li>
         <li>Confirmed Jupiter Evolving and RotorNet on their ACM pages (<a href="https://github.com/nnicholas-c/ocs-landscape/issues/13">#13</a>).</li>
         <li>Tagged <code>run1</code>, <code>run1-fixed</code> and <code>run2-final</code> on GitHub.</li>
@@ -351,11 +351,11 @@ footer { margin-top: 64px; padding: 22px 0 48px; border-top: 1px solid var(--rul
         <li>Add Jupiter Evolving and RotorNet to the data. The steps left, a free OpenAlex lookup by DOI and a title-prefix, year and first-author match, can be scripted (<a href="https://github.com/nnicholas-c/ocs-landscape/issues/13">#13</a>).</li>
         <li>Check the 4 split authors and the 4 merges of different papers by hand (<a href="https://github.com/nnicholas-c/ocs-landscape/issues/20">#20</a>) before recruiting.</li>
         <li>Read the ten reading-list papers, which target the 33 cells that abstracts left empty.</li>
-        <li>Yuxuan reviews the Chinese drafts and refreshes the Chinese project pages.</li>
+        <li>Review the Chinese drafts against the current English results.</li>
       </ul>
     </div>
   </div>
-  <p class="src">Source: <code>gh pr list --state merged</code>; <code>STATUS.md</code>; <code>deliverables/meeting_summary.md</code>; <code>deliverables/open_questions.md</code>, items 4 and 13; <code>HANDOVER.md</code>, sections 4 and 5; issue #13, comment of 29 September (UTC).</p>
+  <p class="src">Source: <code>gh pr list --state merged</code>; <code>STATUS.md</code>; <code>deliverables/meeting_summary.md</code>; <code>deliverables/open_questions.md</code>, items 4 and 13; issue #13, comment of 29 September (UTC).</p>
 </header>
 
 <main class="wrap">
@@ -525,7 +525,7 @@ footer { margin-top: 64px; padding: 22px 0 48px; border-top: 1px solid var(--rul
         <li>How to budget OpenAlex, which now needs a free key and meters use.</li>
       </ol>
       <p class="note" style="margin-top:12px">I will write the answers into a PLAN-run3.md, and the first job of run 3 is issue #13.</p>
-      <p class="src">Source: <code>deliverables/meeting_summary.md</code>, Decisions needed next week; <code>HANDOVER.md</code>, section 4; <code>gh issue list --state open</code>.</p>
+      <p class="src">Source: <code>deliverables/meeting_summary.md</code>, Decisions needed next week; <code>gh issue list --state open</code>.</p>
     </div>
     <div>
       <p class="fig-title">Open issues</p>
@@ -536,7 +536,7 @@ footer { margin-top: 64px; padding: 22px 0 48px; border-top: 1px solid var(--rul
 
 <section id="files" aria-labelledby="files-h">
   <h2 id="files-h">Where everything is</h2>
-  <p>Everything lives in one repository except the OpenAlex key, the virtual environment, and the orchestration layer and second judge used in runs 1 and 2 (<code>HANDOVER.md</code>, section 7). Clone it and open any <code>.html</code> file in a browser, because GitHub shows only their source. Each entry links to the file on GitHub.</p>
+  <p>Everything lives in one repository except the OpenAlex key, the virtual environment, and the orchestration layer and second judge used in runs 1 and 2 (<code>README.md</code>, Second judge and Setup). Clone it and open any <code>.html</code> file in a browser, because GitHub shows only their source. Each entry links to the file on GitHub.</p>
   <div id="where"></div>
   <p class="src">Source: <code>README.md</code>, Setup, Running the deterministic steps and Repository layout; <code>PLAN.md</code>; the files themselves; <code>git tag -l</code>.</p>
 </section>
@@ -751,7 +751,6 @@ const WHERE = [
     ["status/index.html", "This page", "A one-page overview of the trial. status/build.py builds it from status/template.html and reads the matrix, the top authors and the company rows from the repository's files."],
     ["deliverables/meeting_summary.md", "One-pager", "About 500 words on what was tried, what worked, what did not, and the eight decisions for next week, with a before-and-after table of run 1 and run 2. A Chinese draft sits beside it."],
     ["MEETING_PREP.md", "Meeting prep", "The order to present in and the questions to expect, each with a sourced answer. A Chinese draft sits beside it."],
-    ["HANDOVER.md", "Handover to Yuxuan", "Setup, how changes go in (branch, pull request, review, merge), the open work in order, and what is not in the repository. A Chinese draft sits beside it."]
   ]],
   ["How a run is organised", "The plan, the log and the rules every run follows.", [
     ["PLAN.md", "Run plan", "The nine stages in order: what each reads, what it writes, when it counts as done, and the three gates with their thresholds."],
@@ -760,7 +759,7 @@ const WHERE = [
     [".claude/agents", "The eight roles", "One instruction file per role. The collector pulls records, the curator removes duplicates, the tagger scores and labels papers, the grapher builds the networks, the scout finds companies, the analyst fills the matrix, the auditor runs Gate C, and the writer drafts the deliverables."],
     [".claude/skills", "Domain notes", "Four reference documents the roles read: the OCS taxonomy and relevance rubric, the OpenAlex and arXiv playbook with the deduplication rules, the comparison framework for matrix cells, and the report format and style rules."],
     ["SUMMARY-2026-09-27.md", "Run 2 summary", "A snapshot taken after run 2: every gate result, the pull requests up to #17, and what needed a person at that point."],
-    ["CONTRIBUTIONS.md", "Contribution log", "Yuxuan's own contribution log, in Chinese. So far it records one entry, the Chinese README (README.zh-CN.md), plus one note I added saying that translation predates run 2."]
+    ["CONTRIBUTIONS.md", "Contribution log", "Records documentation contributions, their scope, and verification. Historical entries retain the context of the work at the time."]
   ]],
   ["The code", "Plain Python, run from the repository root as .venv/bin/python -m pipeline.<module>.", [
     ["pipeline/collect_openalex.py", "OpenAlex collector", "Pulls records for the search phrases and the anchor papers, the smoke-test sample, and the citation snowball. Needs the free OpenAlex key."],
